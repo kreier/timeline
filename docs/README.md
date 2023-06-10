@@ -2,7 +2,11 @@
 
 Expanded timelines on paper have been used to visualize events in the flow of time for a long time. Creating one yourself will immerse you into the details and relations between events even further. I started a digital project in 2002 and got to this point:
 
-![Zeitleiste](Zeitleiste.jpg)
+![Zeitleiste](Zeitleistes.jpg)
+
+In higher resolution it is here:
+
+![Zeitleiste](Zeitleiste.png)
 
 Back then it was created in OpenOffice with a column for every 10 years.
 
