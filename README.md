@@ -10,6 +10,8 @@ After many years it was finally time to translate the project to English and sha
 
 ![timeline one 4050 - 1450 BCE](docs/timeline_4050-1450.png)
 
+This project started on here on Github on June 10th, 2023. My last day of work.
+
 ## Vector Image with .odg in 2015
 
 Using a spreadsheet limits the options in resolution of a digital image or pdf to create. A pixel image does not allow for a good zoom, so I wanted to create a vector image that could be exported as pdf with the ability to zoom into details. On October 12, 2015 I started a LibreOffice 4.4 Drawing ODG with a scale of 1cm for 50 years or 5 years/millimeter, resulting in a document with the dimensions 1250x297 mm. This could be printed on my endless A4 paper roll. [Last export as pdf](https://github.com/kreier/timeline/blob/main/spreadsheet/Zeitleiste_wide_20151213.pdf) on December 13, 2015. 
