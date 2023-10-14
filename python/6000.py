@@ -10,16 +10,29 @@ from reportlab.lib.units import mm
 import os
 
 filename = "6000.pdf"
-# page_width = 3367.56  # 4x A4 landscape
-page_width = 841.89
-page_height = 595.28  #    A4 landscape
+page_width = 4*297*mm   # 4x A4 landscape
+# page_width  = 297*mm
+page_height = 210*mm    #    A4 landscape
+border_lr   = 10*mm
+border_tb   = 10*mm
 
 c = canvas.Canvas(filename, pagesize=(page_width,page_height))
 c.setAuthor("Matthias Kreier")
 c.setTitle("6000 years human history visualized")
 c.setSubject("Timeline")
 
-c.drawString(100, 100, "Hello world")
+c.setFont("Helvetica", 4)
+c.drawString(border_lr + 5*mm, border_tb + 5*mm, "document created 2023-10-14")
+
+# border around drawing area
+x1 = border_lr
+x2 = page_width - border_lr
+y1 = border_tb
+y2 = page_height - border_tb
+c.line(x1, y1, x1, y2)
+c.line(x2, y1, x2, y2)
+c.line(x1, y1, x2, y1)
+c.line(x1, y2, x2, y2)
 
 # c.setFillColor(colors.grey)
 c.setFont("Helvetica-Bold", 20)
