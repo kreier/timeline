@@ -6,12 +6,16 @@
 from reportlab.pdfgen import canvas
 from reportlab.lib import colors
 from reportlab.lib.units import mm
-from reportlab.lib import colors
-from reportlab.graphics.shapes import *
 from reportlab.graphics import renderPDF
-
-
+from reportlab.graphics.shapes import *
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 import os
+
+font_path = os.path.join(os.getcwd(), "calibri.ttf")
+
+pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
+pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
 
 # Some general settings
 language = "en"
@@ -33,49 +37,47 @@ c.setAuthor(pdf_author)
 c.setTitle(pdf_title)
 c.setSubject(pdf_subject)
 
-c.setFont("Helvetica", 4)
+
+# border around drawing area
+c.setLineWidth(0.8)
+c.setStrokeColorCMYK(1.00, 1.00, 0, 0.50) 
+x1 = border_lr
+y1 = border_tb
+c.rect(x1, y1, page_width - 2*border_lr, page_height - 2*border_tb, stroke=1, fill=0)
+
+# create coordinate system
+
+
+# canvas.setFillColorCMYK(c, m, y, k) 
+# canvas.setStrikeColorCMYK(c, m, y, k) 
+# canvas.setFillColorRGB(r, g, b) 
+# c.setFillColor(colors.grey)
+
+c.setFont("Aptos-bold", 20)
+c.drawString(50, 400, "Timeline of 6000 years humankind")
+
+c.setFillColor(colors.black)
+# c.setFont("Helvetica", 11)
+c.setFont('Aptos', 11)
+c.drawString(50, 360, "In this tutorial, Прискилла активно сотрудничали.")
+c.drawString(50, 340, "Brüder việc với sứ đồ Phao-lô đểerent types of files, including PDFs.")
+c.drawString(50, 320, "By the end of this tutoriausing Python and the ReportLab library.")
+
+c.setFont("Aptos", 4)
 c.drawString(border_lr + 5*mm, border_tb + 5*mm, "document created 2023-10-15")
 
-
+# Drawing
 d = Drawing(400, 200)
 d.add(Rect(50, 50, 300, 100, fillColor=colors.yellow))
 d.add(String(150,100, "Hello World", fontSize=18, fillColor=colors.red))
 special_characters = "Special characters Brüder việc với sứ đồ Phao-lô để"
 d.add(String(180,86, special_characters, fillColor=colors.red))
 
-# border around drawing area
-c.setLineWidth(0.7)
-c.setStrokeColorCMYK(1.00, 1.00, 0, 0.30) 
-x1 = border_lr
-y1 = border_tb
-c.rect(x1, y1, page_width - 2*border_lr, page_height - 2*border_tb, stroke=1, fill=0)
-
-# x2 = page_width - border_lr
-# y2 = page_height - border_tb
-# c.line(x1, y1, x1, y2)
-# c.line(x2, y1, x2, y2)
-# c.line(x1, y1, x2, y1)
-# c.line(x1, y2, x2, y2)
-
-# c.setFillColor(colors.grey)
-c.setFont("Helvetica-Bold", 20)
-c.drawString(50, 400, "Timeline of 6000 years humankind")
-
-# canvas.setFillColorCMYK(c, m, y, k) 
-# canvas.setStrikeColorCMYK(c, m, y, k) 
-# canvas.setFillColorRGB(r, g, b) 
-
-c.setFillColor(colors.black)
-c.setFont("Helvetica", 11)
-c.drawString(50, 360, "In this tutorial, Прискилла активно сотрудничали.")
-c.drawString(50, 340, "Brüder việc với sứ đồ Phao-lô đểerent types of files, including PDFs.")
-c.drawString(50, 320, "By the end of this tutoriausing Python and the ReportLab library.")
-
 # image_path = os.path.join(os.getcwd(), "python_logo.png")
 # c.drawImage(image_path, 50, 400, width=150, height=150)
+
 renderPDF.draw(d, c, 0, 0)
 c.showPage()
 c.save()
-# renderPDF.drawToFile(d, "drawing.pdf", "My drawing.")
     
 print(f"The file {filename} was created.")
