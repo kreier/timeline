@@ -73,8 +73,9 @@ c.drawString(50, 320, "By the end of this tutoriausing Python and the ReportLab 
 
 # image_path = os.path.join(os.getcwd(), "python_logo.png")
 # c.drawImage(image_path, 50, 400, width=150, height=150)
+renderPDF.draw(d, c, 0, 0)
 c.showPage()
 c.save()
-renderPDF.drawToFile(d, "drawing.pdf", "My drawing.")
+# renderPDF.drawToFile(d, "drawing.pdf", "My drawing.")
     
 print(f"The file {filename} was created.")
