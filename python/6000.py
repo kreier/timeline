@@ -12,7 +12,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 import os
 
-font_path = os.path.join(os.getcwd(), "calibri.ttf")
+# font_path = os.path.join(os.getcwd(), "calibri.ttf")
 
 pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
@@ -69,6 +69,7 @@ c.drawString(border_lr + 5*mm, border_tb + 5*mm, "document created 2023-10-15")
 # Drawing
 d = Drawing(400, 200)
 d.add(Rect(50, 50, 300, 100, fillColor=colors.yellow))
+d.setFont("Aptos", 18)
 d.add(String(150,100, "Hello World", fontSize=18, fillColor=colors.red))
 special_characters = "Special characters Brüder việc với sứ đồ Phao-lô để"
 d.add(String(180,86, special_characters, fillColor=colors.red))
