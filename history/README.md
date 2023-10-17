@@ -1,10 +1,9 @@
 # History of timeline projects
 
-With my retirement in 2023 I completed 3 timelines as graphic document to better align events in the flow of time and visualize connections between people and events. These are:
+With my retirement starting on June 10th, 2023 I started this repository to create a as graphic document to better align events in the flow of time and visualize connections between people and events. These are:
 
-- Timeline 4026 BCE - 2050 CE, a.k.a. "the big one"
+- Timeline 4026 BCE - 2050 CE to be stretched over four A4 landscape papers
 - Timeline 1000 BCE - 607 BCE, the kings in the two-tribe nation of Judah and the 10-tribe nation of Israel
-- You figure this out yourself
 
 ## Inspirations
 
@@ -23,9 +22,9 @@ Hopefully by end of October 2023 this is done.
 
 ## v3.0 Translation of v1.0 to English in June 2023
 
-The original files from 2009 were only created in German. Most of my life was going on in English from Summer 2017 on. When sharing this project in early June 2023 with friends I promised to have the translated version ready until the end of month. And by June 30th, 2023 it was indeed completed.
+The original files from 2009 were created in German. Starting summer 2017 most of my life was going on in English. When sharing this project with friends in early June 2023  I promised to have the translated version ready until the end of month. And the translation was inded completed by June 30th, 2023.
 
-![timeline 2023](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20230619.png)
+![timeline 2023](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20230630.png)
 
 Some black/white copies were print out and shared for feedback. Yet the back of my mind was thinking of an elegant way to make v2.0 come to life.
 
