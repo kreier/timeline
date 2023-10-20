@@ -1,6 +1,8 @@
 # A Timeline of human history
 
-Human history graph created with python and reportlab. Currently only v3.0 with two pages from LibreOffice are finished.
+[![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
+
+Human history graph created with python and reportlab. Currently only v1.1 with two pages from LibreOffice are finished.
 
 ![timeline](docs/timeline20230630.png)
 
