@@ -106,11 +106,11 @@ def create_horizontal_axis(c):
     c.drawRightString(x2, y1 - 16, "CE")
     c.drawRightString(x2, y2 + 8, "CE")
     c.setFont("Aptos", 4)
-    c.drawString(x1, y1 + 2, f"Timeline v3.0 - created {str(datetime.datetime.now())[0:16]}")
+    c.drawString(x1, y1 + 2, f"Timeline v3.0 - created {str(datetime.datetime.now())[0:16]} ")
 
 def create_adam_moses(c):
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
-    print("Import data")
+    print("Import data Adam to Solomo")
     persons = pd.read_csv("../db/adam-moses.csv", encoding='utf8')
     c.setFont("Aptos", 11)
     c.setLineWidth(0.3)
@@ -124,7 +124,7 @@ def create_adam_moses(c):
             details = f"{row.person} "
             details_r = f"{born} to {died} BCE - {born - died} years"
         x_box = x1 + (4075 - born) * dots_year
-        y_box = y2 - index*16 - 16
+        y_box = y2 - index*17 - 16
         x_boxwidth = (born - died) * dots_year
         x_text = x_box + x_boxwidth * 0.5
         if index < 10:
@@ -136,7 +136,34 @@ def create_adam_moses(c):
         c.drawCentredString(x_text, y_box + 3.5, details)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box + x_boxwidth + 2, y_box + 3.5, details_r)
+        if index > 0 and index < 23:
+            c.drawRightString(x_box - 2, y_box + 3.5, f"{father_born - born} years")
+        father_born = born
 
+def create_kings(c):
+    # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
+    print("Import data of kings")
+    kings = pd.read_csv("../db/kings.csv", encoding='utf8')
+    c.setFont("Aptos", 11)
+    c.setLineWidth(0.3)
+    y_offset = 0
+    for index, row in kings.iterrows():
+        # if row.born:
+        #     born  = int(row.born[0:4])
+        start = int(row.start[0:4])
+        end   = int(row.end[0:4])
+        details = f"{row.king} {start} to {end} BCE - {start - end} years"
+        x_box = x1 + (4075 - start) * dots_year
+        y_box = y2 - index*15 - 16
+        x_boxwidth = (start - end) * dots_year
+        if index < 21:
+            c.setFillColorRGB(0.9, 0.5, 0)
+        else:
+            c.setFillColorRGB(0.8, 0, 0)
+            y_offset = 70
+        c.rect(x_box, y_box + y_offset, x_boxwidth, 15, fill = 1)
+        c.setFillColorRGB(0, 0, 0)
+        c.drawString(x_box + x_boxwidth + 2, y_box + 2 + y_offset, details)
 
 def render_to_file():
     renderPDF.draw(d, c, border_lr, border_tb)
@@ -148,6 +175,7 @@ if __name__ == "__main__":
     import_data(text)
     create_horizontal_axis(c)
     create_adam_moses(c)
+    create_kings(c)
     render_to_file()
 
 
