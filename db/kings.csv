@@ -1,41 +1,45 @@
-king,born,start,end,notes
-Rehoboam,,0997-10-01,0980-10-01,first king of southern kingdom of Juda
-Abija (Abijam),,0980-10-01,0978-10-01,
-Asa,,0978-10-01,0937-10-01,
-Jehoshaphat,,0937-10-01,0913-10-01,
-Jehoram2,,0913-10-01,0906-10-01,
-Ahaziah,,0906-10-01,0905-10-01,
-Queet Athaliah,,0905-10-01,0898-10-01,
-Jehoash,,0898-10-01,0858-10-01,
-Amaziah,,0858-10-01,0829-10-01,
-Uzziah (Azariah),,0829-10-01,0777-10-01,
-Jotham,,0777-10-01,0762-10-01,
-Ahaziah,,0762-10-01,0746-10-01,
-Hezekiah,,0746-10-01,0716-10-01,
-Manasseh,,0716-10-01,0661-10-01,
-Amon,,0661-10-01,0659-10-01,
-Josiah,,0659-10-01,0628-10-01,
-Jehoahaz,,0627-10-01,0628-10-01,Only 3 months
-Jehoiakim,,0628-10-01,0618-10-01,
-Jehoiachin,,0618-10-01,0617-10-01,Only 3 months 10 days
-Zedekia,,0617-10-01,0607-10-01,
-Exile Babylon,,0607-10-01,0537-10-01,70 yeas exile in Babylon
-Jeroboam,,0997-10-01,0976-10-01,first king of northern 10-tribe kingdom
-Nadab,,0976-10-01,0975-10-01,less than 2
-Baasha,,0975-10-01,0952-10-01,
-Elah,,0952-10-01,0951-10-01,Zimri 7 days
-Omri,,0951-10-01,0940-10-01,"4 years with Tibni, then from 947 Omri alone"
-Ahab,,0940-10-01,0919-10-01,
-Ahaziah,,0919-10-01,0917-10-01,
-Jehoram,,0917-10-01,0905-10-01,
-Jehu,,0905-10-01,0876-10-01,
-Jeoahaz,,0876-10-01,0859-10-01,"14 years alone, from 862 together with Jehoash for 3 years"
-Jehoash,,0859-10-01,0844-10-01,
-Jeroboam2,,0844-10-01,0803-10-01,
-Sacharja,,0803-10-01,0792-10-01,
-Schallum,,0792-10-01,0791-10-01,only one month
-Menahem,,0791-10-01,0780-10-01,
-Pekahiah,,0780-10-01,0778-10-01,
-Pekah,,0778-10-01,0758-10-01,
-Hoshea,,0758-10-01,0740-10-01,
-Samaria destroyed,,0740-10-01,0740-10-01,
+king,born,start,end,row,length_years,length_months,length_days,notes
+Rehoboam,,0997-10-01,0980-05-01,1,17,,,first king of southern kingdom of Juda
+Abijah,,0980-05-01,0978-10-01,2,3,,,"3 years, also Abijam"
+Asa,,0978-10-01,0937-10-01,3,41,,,
+Jehoshaphat,,0937-10-01,0913-10-01,4,25,,,
+Jehoram2,,0913-10-01,0906-10-01,5,8,,,
+Ahaziah,,0906-10-01,0905-10-01,6,1,,,
+Athaliah,,0905-10-01,0898-10-01,7,6,,,Queen Athaliah
+Jehoash,,0898-10-01,0858-10-01,8,40,,,
+Amaziah,,0858-10-01,0829-10-01,9,29,,,
+Uzziah,,0829-10-01,0777-10-01,10,52,,,also Azariah
+Jotham,,0777-10-01,0762-10-01,11,16,,,
+Ahaz,,0762-10-01,0746-10-01,12,16,,,
+Hezekiah,,0746-10-01,0716-10-01,13,29,,,
+Manasseh,,0716-10-01,0661-10-01,14,55,,,
+Amon,,0661-10-01,0659-10-01,15,2,,,
+Josiah,,0659-10-01,0628-07-01,16,31,,,
+Jehoahaz,,0628-07-01,0628-10-01,17,0,3,,Only 3 months
+Jehoiakim,,0628-10-01,0618-10-01,18,11,,,
+Jehoiachin,,0618-10-01,0617-01-10,19,0,3,10,Only 3 months 10 days
+Zedekia,,0617-01-10,0607-10-01,20,11,,,
+Jeroboam,,0997-10-01,0976-10-01,1,22,,,first king of northern 10-tribe kingdom
+Nadab,,0976-10-01,0975-10-01,2,2,,,less than 2
+Baasha,,0975-10-01,0952-10-01,3,24,,,
+Elah,,0952-10-01,0951-10-01,4,2,,,
+Zimri,,0951-10-01,0951-10-08,5,0,0,7,Only 7 days in ca. 751 BCE
+OmriTibni,,0951-10-08,0947-10-01,6,4,,,4 years Omri and Tibni
+Omri,,0947-10-01,0940-10-01,7,8,,,from 947 Omri alone
+Ahab,,0940-10-01,0920-10-01,8,22,,,
+Ahaziah,,0920-10-01,0917-10-01,9,2,,,
+Jehoram,,0917-10-01,0905-10-01,10,12,,,
+Jehu,,0905-10-01,0876-10-01,11,28,,,
+Jeoahaz,,0876-10-01,0862-10-01,12,14,,,
+JeoahazJehoash,,0862-10-01,0859-10-01,13,3,,,For 3 years Jeoahaz and Jeoash reigned together
+Jehoash,,0859-10-01,0844-10-01,14,16,,,Jehoash (alone)
+Jeroboam2,,0844-10-01,0803-10-01,15,41,,,
+Zechariah,,0803-10-01,0791-10-01,16,0,6,,"reign only recorded 6 months, probably only established 792 BCE"
+Schallum,,0791-10-01,0791-11-01,17,0,1,,only one month
+Menahem,,0791-11-01,0780-10-01,18,10,,,
+Pekahiah,,0780-10-01,0778-10-01,19,2,,,
+Pekah,,0778-10-01,0758-10-01,20,20,,,
+Hoshea,,0758-10-01,0740-10-01,21,9,,,9 years from c. 748
+Saul,,1117-10-01,1077-10-01,,40,,,
+David,,1077-10-01,1037-10-01,,40,,,
+Solomo,,1037-10-01,0997-10-01,,40,,,
