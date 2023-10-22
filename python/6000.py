@@ -25,6 +25,7 @@ pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
 
 # Some general settings
+version  = "3.0"
 language = "en"
 filename = "p6000_" + language + ".pdf"
 page_width  = 4*297*mm   # 4x A4 landscape
@@ -34,6 +35,10 @@ border_tb   = 10*mm
 pdf_author  = "Matthias Kreier"
 pdf_title   = "6000 years human history visualized"
 pdf_subject = "Timeline of humankind"
+number_persons = 0
+number_kings   = 0
+number_periods = 0
+number_events  = 0
 
 # Create the canvas
 c = canvas.Canvas(filename, pagesize=(page_width,page_height))
@@ -71,11 +76,11 @@ def drawString(text, fontsize, x_string, y_string, position):
     c.setLineWidth(1)
     white_width = stringWidth(text, "Aptos", fontsize)
     if position == "r":
-        c.rect(x_string, y_string - 2, white_width, fontsize, fill = 1)
+        c.rect(x_string, y_string - 2, white_width, fontsize + 1, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_string, y_string, text)
     elif position == "l":
-        c.rect(x_string - white_width, y_string - 2, white_width, fontsize, fill = 1)
+        c.rect(x_string - white_width, y_string - 2, white_width, fontsize + 1, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         c.drawRightString(x_string, y_string, text)
     elif position == "c":
@@ -129,10 +134,10 @@ def create_horizontal_axis(c):
     # x_shift = stringWidth("CE", 'Aptos', 11)
     c.drawRightString(x2, y1 - 16, "CE")
     c.drawRightString(x2, y2 + 8, "CE")
-    c.setFont("Aptos", 4)
-    c.drawString(x1, y1 + 2, f"Timeline v3.0 - created {str(datetime.datetime.now())[0:16]} ")
+
 
 def create_adam_moses(c):
+    global number_persons
     # Start with a blue line for the deluge during this timespan
     c.setLineWidth(1)
     c.setStrokeColorRGB(0, 0, 1)
@@ -170,8 +175,10 @@ def create_adam_moses(c):
             drawString(f"{father_born - born} years", 10, x_box - 2, y_box + 3.5, "l")
             # c.drawRightString(x_box - 2, y_box + 3.5, f"{father_born - born} years")
         father_born = born
+        number_persons += 1
 
 def create_kings(c):
+    global number_kings
     # Start with a blue line for the deluge during this timespan
     c.setLineWidth(1)
     c.setStrokeColorRGB(0.8, 0, 0)
@@ -204,8 +211,10 @@ def create_kings(c):
         # c.drawString(x_box + x_boxwidth + 2, y_box + 2 + y_offset, detail_r)
         drawString(detail_l, 12, x_box - 2, y_box + 3, "l")
         # c.drawRightString(x_box - 2, y_box + 2 + y_offset, detail_l)
+        number_kings += 1
 
 def create_periods(c):
+    global number_periods
     # Import the perios with start and end as pandas dataframe
     print("Import data of periods")
     periods = pd.read_csv("../db/periods.csv", encoding='utf8')
@@ -232,6 +241,22 @@ def create_periods(c):
         drawString(detail_c, 12, x_box + x_boxwidth * 0.5, y_box + 3, "c")
         drawString(detail_r, 12, x_box + x_boxwidth + 2, y_box + 3, "r")
         drawString(detail_l, 12, x_box - 2, y_box + 3, "l")
+        number_periods += 1
+
+def create_timestamp(c):
+    drawString(f"Timeline {version} - created {str(datetime.datetime.now())[0:16]} ", 4, x1, y1 + 20, "r")
+    drawString(f"persons",          4, x1 + 6,   y1 + 15.5, "r")
+    drawString(str(number_persons), 4, x1 + 5.4, y1 + 15.5, "l")
+    drawString(f"kings",            4, x1 + 6,   y1 + 11, "r")
+    drawString(str(number_kings),   4, x1 + 5.4, y1 + 11, "l")
+    drawString(f"periods",          4, x1 + 6,   y1 + 6.5, "r")
+    drawString(str(number_periods), 4, x1 + 5.4, y1 + 6.5, "l")
+    # drawString(f"events",           4, x1 + 6,   y1 + 2, "r")
+    # drawString(str(number_events),  4, x1 + 5.4, y1 + 2, "l")
+    c.setFont("Aptos", 4)
+    # c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]} ")
+    c.drawString(x1 + 6,        y1 + 2, "events")
+    c.drawRightString(x1 + 5.4, y1 + 2, str(number_events))
 
 def render_to_file():
     renderPDF.draw(d, c, border_lr, border_tb)
@@ -245,6 +270,7 @@ if __name__ == "__main__":
     create_adam_moses(c)
     create_kings(c)
     create_periods(c)
+    create_timestamp(c)
     render_to_file()
 
 
