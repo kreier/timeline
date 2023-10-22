@@ -219,7 +219,7 @@ def create_kings(c):
         start = row.start
         end   = row.end
         row_y = row.row_y
-        detail_l = f"{row.king}"
+        detail = f"{row.king} "
         time_reigned = "("
         if row.years > 0:
             time_reigned += f"{row.years} year"
@@ -232,7 +232,13 @@ def create_kings(c):
         if row.days > 0:
             time_reigned += f" {row.days} days"
 
-        detail_r = f"{-year(start)} - {-year(end)} {time_reigned})"
+        detail += f"{-year(start)} - {-year(end)} {time_reigned})"
+        if index < 20:
+            detail_l = ""
+            detail_r = detail
+        else:
+            detail_l = detail
+            detail_r = ""
         x_box = x1 + (4075 + start) * dots_year
         y_box = y2 - row_y*14 - 16
         x_boxwidth = (end -  start) * dots_year
@@ -275,6 +281,112 @@ def create_periods(c):
         drawString(detail_l, 12, x_box - 2, y_box + 3, "l")
         number_periods += 1
 
+def create_kings2(c):
+    # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
+    print("Import data of kings2")
+    kings = pd.read_csv("../db/kings.csv", encoding='utf8')
+    c.setFont("Aptos", 11)
+    c.setLineWidth(0.3)
+    for index, row in kings.iterrows():
+        # if row.born:
+        #     born  = int(row.born[0:4])
+        start = row.start + 1400
+        end   = row.end + 1400
+        row_y = row.row_y
+        detail_l = f"{row.king}"
+        time_reigned = "("
+        if row.years > 0:
+            time_reigned += f"{row.years} year"
+            if row.years > 1:
+                time_reigned += "s"
+        if row.months > 0:
+            time_reigned += f" {row.months} month"
+            if row.months > 1:
+                time_reigned += "s"
+        if row.days > 0:
+            time_reigned += f" {row.days} days"
+
+        detail_r = f"{year(start)} - {year(end)} {time_reigned})"
+        x_box = x1 + (4075 + start) * dots_year
+        y_box = y2 - row_y*14 - 16
+        x_boxwidth = (end -  start) * dots_year
+        c.setFillColorRGB(row.R, row.G, row.B)
+        c.setLineWidth(0.3)
+        c.setStrokeColorRGB(0, 0, 0)
+        c.rect(x_box, y_box, x_boxwidth, 14, fill = 1)
+        c.setFillColorRGB(0, 0, 0)
+        drawString(detail_r, 12, x_box + x_boxwidth + 2, y_box + 3, "r")
+        drawString(detail_l, 12, x_box - 2, y_box + 3, "l")
+
+def create_kings3(c):
+    # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
+    print("Import data of kings3")
+    kings = pd.read_csv("../db/kings3.csv", encoding='utf8')
+    c.setFont("Aptos", 10)
+    c.setLineWidth(0.3)
+    for index, row in kings.iterrows():
+        start = row.start + 2100
+        end   = row.end + 2100
+        row_y = row.row_y
+        detail_l = ""
+        time_reigned = "("
+        if row.years > 0:
+            time_reigned += f"{row.years} year"
+            if row.years > 1:
+                time_reigned += "s"
+        if row.months > 0:
+            time_reigned += f" {row.months} month"
+            if row.months > 1:
+                time_reigned += "s"
+        if row.days > 0:
+            time_reigned += f" {row.days} days"
+
+        detail_r = f"{row.king} {year(start)} - {year(end)} {time_reigned})"
+        x_box = x1 + (4075 + start) * dots_year
+        y_box = y2 - row_y*12 - 16
+        x_boxwidth = (end -  start) * dots_year
+        c.setFillColorRGB(row.R, row.G, row.B)
+        c.setLineWidth(0.3)
+        c.setStrokeColorRGB(0, 0, 0)
+        c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
+        c.setFillColorRGB(0, 0, 0)
+        drawString(detail_r, 11, x_box + x_boxwidth + 2, y_box + 3, "r")
+
+def create_kings4(c):
+    # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
+    print("Import data of kings3")
+    kings = pd.read_csv("../db/kings3.csv", encoding='utf8')
+    c.setFont("Aptos", 10)
+    c.setLineWidth(0.3)
+    for index, row in kings.iterrows():
+        start = row.start + 700
+        end   = row.end + 700
+        row_y = row.row_y
+        detail_l = ""
+        time_reigned = "("
+        if row.years > 0:
+            time_reigned += f"{row.years} year"
+            if row.years > 1:
+                time_reigned += "s"
+        if row.months > 0:
+            time_reigned += f" {row.months} month"
+            if row.months > 1:
+                time_reigned += "s"
+        if row.days > 0:
+            time_reigned += f" {row.days} days"
+
+        detail_r = f"{row.king} {year(start)} - {year(end)} {time_reigned})"
+        x_box = x1 + (4075 + start) * dots_year
+        y_box = y2 - row_y*12 - 16
+        x_boxwidth = (end -  start) * dots_year
+        c.setFillColorRGB(row.R, row.G, row.B)
+        c.setLineWidth(0.3)
+        c.setStrokeColorRGB(0, 0, 0)
+        c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
+        c.setFillColorRGB(0, 0, 0)
+        drawString(detail_r, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
+
+
 def create_timestamp(c):
     drawString(f"Timeline {version} - created {str(datetime.datetime.now())[0:16]} ", 4, x1, y1 + 20, "r")
     drawString(f"persons",          4, x1 + 6,   y1 + 15.5, "r")
@@ -300,22 +412,9 @@ if __name__ == "__main__":
     create_horizontal_axis(c)
     create_adam_moses(c)
     create_kings(c)
+    create_kings2(c)
+    create_kings3(c)
+    create_kings4(c)
     create_periods(c)
     create_timestamp(c)
     render_to_file()
-
-
-# inspiration bin
-
-# canvas.setFillColorCMYK(c, m, y, k) 
-# canvas.setStrikeColorCMYK(c, m, y, k) 
-# canvas.setFillColorRGB(r, g, b) 
-# c.setFillColor(colors.grey)
-
-
-# Drawing
-# d = Drawing(400, 200)
-# d.add(Rect(50, 50, 300, 100, fillColor=colors.yellow))
-# d.add(String(150,100, "Hello World Brüder việc", fontSize=18, fontName="Aptos", fillColor=colors.red))
-# special_characters = "Special characters with German Brüder việc với sứ đồ Phao-lô để."
-# d.add(String(180,86, special_characters, fillColor=colors.blue, fontName="Aptos"))
