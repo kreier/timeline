@@ -25,9 +25,10 @@ pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
 
 # Some general settings
-version  = "3.0"
+version  = "3.1"
 language = "en"
-filename = "p6000_" + language + ".pdf"
+filename = "../timeline/timeline_v" + version + ".pdf"
+# filename = "../timeline/timeline_v" + version + "_"+ language + ".pdf"
 page_width  = 4*297*mm   # 4x A4 landscape
 page_height = 210*mm     #    A4 landscape
 border_lr   = 10*mm
