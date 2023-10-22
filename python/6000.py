@@ -60,6 +60,7 @@ y2 = y1 + drawing_height
 # the length of one year in dots from drawing_with for this 6150 years
 dots_year = drawing_width / 6150
 text = {}
+dict = {}
 
 # convert the float dates to year, month and day
 def year(date_float):
@@ -212,14 +213,26 @@ def create_kings(c):
     for index, row in kings.iterrows():
         # if row.born:
         #     born  = int(row.born[0:4])
-        start = int(row.start[0:4])
-        end   = int(row.end[0:4])
+        start = row.start
+        end   = row.end
         row_y = row.row_y
         detail_l = f"{row.king}"
-        detail_r = f"{start} - {end} ({start - end} years)"
-        x_box = x1 + (4075 - start) * dots_year
+        time_reigned = "("
+        if row.years > 0:
+            time_reigned += f"{row.years} year"
+            if row.years > 1:
+                time_reigned += "s"
+        if row.months > 0:
+            time_reigned += f" {row.months} month"
+            if row.months > 1:
+                time_reigned += "s"
+        if row.days > 0:
+            time_reigned += f" {row.days} days"
+
+        detail_r = f"{-year(start)} - {-year(end)} {time_reigned})"
+        x_box = x1 + (4075 + start) * dots_year
         y_box = y2 - row_y*14 - 16
-        x_boxwidth = (start - end) * dots_year
+        x_boxwidth = (end -  start) * dots_year
         c.setFillColorRGB(row.R, row.G, row.B)
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
