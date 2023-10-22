@@ -61,6 +61,26 @@ y2 = y1 + drawing_height
 dots_year = drawing_width / 6150
 text = {}
 
+# convert the float dates to year, month and day
+def year(date_float):
+    year = int(date_float)
+    if year < 0:
+        year -= 1
+    return year
+
+def month(date_float):
+    month = int((date_float - int(date_float))*12)
+    if date_float < 0:
+        month = 13 + month
+    return month
+
+def day(date_float):
+    month = (date_float - int(date_float))*12
+    if date_float < 0:
+        month = 13 + month
+    day = int((month - int(month))*30) + 1
+    return day
+
 def import_data(text):
     print("Data imported from local file.")
     # database settings
@@ -77,11 +97,11 @@ def drawString(text, fontsize, x_string, y_string, position):
     c.setLineWidth(1)
     white_width = stringWidth(text, "Aptos", fontsize)
     if position == "r":
-        c.rect(x_string, y_string - 2, white_width, fontsize + 1, fill = 1)
+        c.rect(x_string, y_string - 2, white_width, fontsize, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_string, y_string, text)
     elif position == "l":
-        c.rect(x_string - white_width, y_string - 2, white_width, fontsize + 1, fill = 1)
+        c.rect(x_string - white_width, y_string - 2, white_width, fontsize, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         c.drawRightString(x_string, y_string, text)
     elif position == "c":
@@ -151,11 +171,11 @@ def create_adam_moses(c):
     persons = pd.read_csv("../db/adam-moses.csv", encoding='utf8')
     c.setFont("Aptos", 12)
     for index, row in persons.iterrows():
-        born = int(row.born[0:4])
-        died = int(row.died[0:4])
+        born = -year(row.born)
+        died = -year(row.died)
         person = f"{row.person}"
         details_r = f"{born} to {died} BCE - {born - died} years"
-        x_box = x1 + (4075 - born) * dots_year
+        x_box = x1 + (4075 + row.born) * dots_year
         y_box = y2 - index*21 - 21
         x_boxwidth = (born - died) * dots_year
         x_text = x_box + x_boxwidth * 0.5
@@ -169,12 +189,9 @@ def create_adam_moses(c):
         c.setFillColorRGB(1, 1, 1)
         c.setFont("Aptos-bold", 15)
         c.drawCentredString(x_text, y_box + 5, person)
-        drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 3.5, "r")
-        # c.setFillColorRGB(0, 0, 0)
-        # c.drawString(x_box + x_boxwidth + 2, y_box + 3.5, details_r)
+        drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
-            drawString(f"{father_born - born} years", 10, x_box - 2, y_box + 3.5, "l")
-            # c.drawRightString(x_box - 2, y_box + 3.5, f"{father_born - born} years")
+            drawString(f"{father_born - born} years", 9, x_box - 3, y_box + 11, "l")
         father_born = born
         number_persons += 1
 
@@ -209,9 +226,7 @@ def create_kings(c):
         c.rect(x_box, y_box, x_boxwidth, 14, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         drawString(detail_r, 12, x_box + x_boxwidth + 2, y_box + 3, "r")
-        # c.drawString(x_box + x_boxwidth + 2, y_box + 2 + y_offset, detail_r)
         drawString(detail_l, 12, x_box - 2, y_box + 3, "l")
-        # c.drawRightString(x_box - 2, y_box + 2 + y_offset, detail_l)
         number_kings += 1
 
 def create_periods(c):
@@ -255,7 +270,6 @@ def create_timestamp(c):
     # drawString(f"events",           4, x1 + 6,   y1 + 2, "r")
     # drawString(str(number_events),  4, x1 + 5.4, y1 + 2, "l")
     c.setFont("Aptos", 4)
-    # c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]} ")
     c.drawString(x1 + 6,        y1 + 2, "events")
     c.drawRightString(x1 + 5.4, y1 + 2, str(number_events))
 
