@@ -36,6 +36,7 @@ border_tb   = 10*mm
 pdf_author  = "Matthias Kreier"
 pdf_title   = "6000 years human history visualized"
 pdf_subject = "Timeline of humankind"
+vertical_lines = False
 number_persons = 0
 number_kings   = 0
 number_periods = 0
@@ -143,12 +144,13 @@ def create_horizontal_axis(c):
         c.drawCentredString(tick_x, y2 + 8, year)
 
         # vertical lines for centuries
-        c.setLineWidth(0.1)
-        c.line(tick_x, y1, tick_x, y2)
+        if vertical_lines:
+            c.setLineWidth(0.1)
+            c.line(tick_x, y1, tick_x, y2)
 
-        # from 1100 to 600 BCE also every 50 years
-        if i > 28 and i < 35:
-            c.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
+            # from 1100 to 600 BCE also every 50 years
+            if i > 28 and i < 35:
+                c.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
 
 
     c.drawString(x1, y1 - 16, "BCE")
@@ -180,10 +182,11 @@ def create_adam_moses(c):
         y_box = y2 - index*21 - 21
         x_boxwidth = (born - died) * dots_year
         x_text = x_box + x_boxwidth * 0.5
-        if index < 10:
-            c.setFillColorRGB(0, 0, 1)
-        else:
-            c.setFillColorRGB(0, 0.7, 0)
+        c.setFillColorRGB(row.R, row.G, row.B)
+        # if index < 10:
+        #     c.setFillColorRGB(0, 0, 1)
+        # else:
+        #     c.setFillColorRGB(0, 0.7, 0)
         c.setStrokeColorRGB(0, 0, 0)
         c.setLineWidth(0.3)
         c.rect(x_box, y_box, x_boxwidth, 19, fill = 1)
@@ -250,8 +253,8 @@ def create_periods(c):
     c.setFont("Aptos", 11)
     c.setLineWidth(0.3)
     for index, row in periods.iterrows():
-        start = int(row.start[0:4])
-        end   = int(row.end[0:4])
+        start = row.start
+        end   = row.end
         row_y = row.row_y
         if len(row.text) > 0:
             detail_c = f"{row.text}"
@@ -259,9 +262,9 @@ def create_periods(c):
             detail_l = f"{row.text_l}"
         if len(row.text_r) > 0:
             detail_r = f"{row.text_r}"
-        x_box = x1 + (4075 - start) * dots_year
+        x_box = x1 + (4075 + start) * dots_year
         y_box = y2 - row_y*14 - 16
-        x_boxwidth = (start - end) * dots_year
+        x_boxwidth = (end - start) * dots_year
         c.setFillColorRGB(row.R, row.G, row.B)
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
