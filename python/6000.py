@@ -125,6 +125,10 @@ def drawString(text, fontsize, x_string, y_string, position):
         c.setFont("Aptos-bold", fontsize)
         c.setFillColorRGB(1, 1, 1)
         c.drawCentredString(x_string, y_string, text)
+    elif position == "cb":
+        c.setFont("Aptos", fontsize)
+        c.setFillColorRGB(0, 0, 0)
+        c.drawCentredString(x_string, y_string, text)
 
 def create_horizontal_axis(c):
     # axis around drawing area
@@ -216,7 +220,6 @@ def create_adam_moses(c):
     for index, row in persons.iterrows():
         born = -year(row.born)
         died = -year(row.died)
-        # person = f"{row.person}"
         person = dict[f"{row.key}"]
         details_r = f"{born} to {died} BCE - {born - died} years"
         x_box = x1 + (4075 + row.born) * dots_year
@@ -240,7 +243,25 @@ def create_adam_moses(c):
 def create_judges(c):
     global number_judges
     print("Import data for judges")
-    number_judges += 1
+    judges = pd.read_csv("../db/judges.csv", encoding='utf8')
+    for index, row in judges.iterrows():
+        start = row.start
+        end   = row.end
+        row_y = row.row_y
+        judge = row.key
+        # judge = dict[f"{row.key}"]
+        x_box = x1 + (4075 + start) * dots_year
+        y_box = y2 - row_y*12 - 4
+        x_boxwidth = (end -  start) * dots_year
+        c.setFillColorRGB(0,0.36,0.48)
+        # co = color[f"{row.key}"]
+        # c.setFillColorRGB(co[0], co[1], co[2])
+
+        c.setLineWidth(0.3)
+        c.setStrokeColorRGB(0, 0, 0)
+        c.rect(x_box, y_box + 8, x_boxwidth, 2, fill = 1)
+        drawString(judge, 10, x_box + x_boxwidth * 0.5 , y_box, "cb")
+        number_judges += 1
 
 def create_kings(c):
     global number_kings
@@ -307,18 +328,24 @@ def create_periods(c):
     c.setFont("Aptos", 10)
     c.setLineWidth(0.3)
     for index, row in periods.iterrows():
+        detail_c = detail_l = detail_r = ""
         start = row.start
         end   = row.end
-        if len(row.text) > 0:
-            detail_c = f"{row.text}"
-        if len(row.text_l) > 0:
-            detail_l = f"{row.text_l}"
-        if len(row.text_r) > 0:
-            detail_r = f"{row.text_r}"
+        key   = row.key
+        if len(dict[key]) > 1:
+            detail_c = dict[key]
+        key   = row.key + "_l"
+        if len(dict[key]) > 1:
+            detail_l = dict[key]            
+        key   = row.key + "_r"
+        if len(dict[key])> 1:
+            detail_r = dict[key]
         x_box = x1 + (4075 + start) * dots_year
         y_box = y_value(row.row_y)
         x_boxwidth = (end - start) * dots_year
-        c.setFillColorRGB(row.R, row.G, row.B)
+        co = color[f"{row.key}"]
+        c.setFillColorRGB(co[0], co[1], co[2])
+        # c.setFillColorRGB(row.R, row.G, row.B)
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
         c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
