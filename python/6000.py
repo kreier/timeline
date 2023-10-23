@@ -28,6 +28,7 @@ pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
 version  = "3.2"
 language = "en"
 filename = "../timeline/timeline_v" + version + ".pdf"
+color_scheme = "normal"
 # filename = "../timeline/timeline_v" + version + "_"+ language + ".pdf"
 page_width  = 4*297*mm   # 4x A4 landscape
 page_height = 210*mm     #    A4 landscape
@@ -62,20 +63,8 @@ y2 = y1 + drawing_height
 # The drawing should span from 4075 BCE to 2075 CE, so we have to calculate
 # the length of one year in dots from drawing_with for this 6150 years
 dots_year = drawing_width / 6150
-text  = {}
 dict  = {}
 color = {}
-
-
-# Let's try to import a dictionary for colors with pandas
-def import_colors():
-    global color
-    key_colors = pd.read_csv("../db/colors.csv", encoding='utf8')
-    for index, row in key_colors.iterrows():
-        color.update({f"{row.key}" : (row.R, row.G, row.B)})
-        # color.update({row.key : row.C})
-    print(color)
-    print(color['Joseph'])
 
 # convert the float dates to year, month and day
 def year(date_float):
@@ -101,14 +90,29 @@ def y_value(row_y):
     global y2
     return y2 - 4 - row_y * 12
 
-def import_data(text):
-    print("Data imported from local file.")
+# Import strings for the respective language for names and comments
+def import_dictionary():
+    print(f"Import dictionary for names and descritions, language: {language}")
+    file_dictionary = "../db/dictionary_" + language + ".tsv"
+    key_dict = pd.read_csv(file_dictionary, encoding='utf8', sep = '\t')
+    for index, row in key_dict.iterrows():
+        dict.update({f"{row.key}" : f"{row.text}"})
+    print(dict)
+
     # database settings
-    db_adam_moses = "https://raw.githubusercontent.com/kreier/timeline/main/db/adam-joseph_" + language + ".csv"
-    text = {
-        "BCE" : "B.C.E."
-    }
-    # print(text["BCE"])
+    # db_adam_moses = "https://raw.githubusercontent.com/kreier/timeline/main/db/adam-joseph_" + language + ".csv"
+    # dict.update({"Max" : "Maximilian"})
+    # print(dict)
+
+
+# Import colors for all keys
+def import_colors():
+    global color
+    print(f"Import color scheme: {color_scheme}")
+    file_colors = "../db/colors_" + color_scheme + ".csv"
+    key_colors = pd.read_csv(file_colors, encoding='utf8')
+    for index, row in key_colors.iterrows():
+        color.update({f"{row.key}" : (row.R, row.G, row.B)})
 
 def drawString(text, fontsize, x_string, y_string, position):
     c.setFont("Aptos", fontsize)
@@ -239,6 +243,11 @@ def create_adam_moses(c):
         father_born = born
         number_persons += 1
 
+def create_judges(c):
+    global number_judges
+    print("Import data for judges")
+    number_judges += 1
+
 def create_kings(c):
     global number_kings
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
@@ -286,6 +295,11 @@ def create_kings(c):
         drawString(detail_l, 10, x_box - 2, y_box + 3, "l")
         number_kings += 1
 
+def create_prophets(c):
+    global number_prophets
+    print("Import data of prophets")
+    number_prophets += 3
+
 def create_periods(c):
     global number_periods
     # Import the perios with start and end as pandas dataframe
@@ -315,8 +329,7 @@ def create_periods(c):
         drawString(detail_l, 10, x_box - 2, y_box + 3, "l")
         number_periods += 1
 
-def create_prophets(c):
-    print("Import data of prophets")
+
 
 
 
@@ -343,13 +356,14 @@ def render_to_file():
     print(f"File exported: {filename}")
 
 if __name__ == "__main__":
-    import_data(text)
+    import_dictionary()
     import_colors()
     create_horizontal_axis(c)
     create_reference_events(c)
     create_adam_moses(c)
+    create_judges(c)
     create_kings(c)
-    create_periods(c)
     create_prophets(c)
+    create_periods(c)
     create_timestamp(c)
     render_to_file()
