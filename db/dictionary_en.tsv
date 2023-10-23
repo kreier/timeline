@@ -1,28 +1,72 @@
-key	text
-year	year
-BCE	BCE
-CE	CE
-Adam	Adam
-Seth	Seth
-Enosh	Eʹnosh
-Kenan	Keʹnan
-Mahalalel	Ma·halʹa·lel
-Jared	Jaʹred
-Enoch	Eʹnoch
-Methuselah	Me·thuʹse·lah
-Lamech	Laʹmech
-Noah	Noah
-Shem	Shem
-Arpachshad	Ar·pachʹshad
-Shelah	Sheʹlah
-Eber	Eʹber
-Peleg	Peʹleg
-Reu	Reʹu
-Serug	Seʹrug
-Nahor	Naʹhor
-Terah	Teʹrah
-Abraham	Abraham
-Isaac	Isaac
-Jacob	Jacob
-Joseph	Joseph
-Moses	Moses
+key	text	alternative
+year	year	
+BCE	BCE	
+CE	CE	
+Adam	Adam	
+Seth	Seth	
+Enosh	Enosh	Eʹnosh
+Kenan	Kenan	Keʹnan
+Mahalalel	Ma·hala·lel	Ma·halʹa·lel
+Jared	Jared	Jaʹred
+Enoch	Enoch	Eʹnoch
+Methuselah	Me·thuse·lah	Me·thuʹse·lah
+Lamech	Lamech	Laʹmech
+Noah	Noah	
+Shem	Shem	
+Arpachshad	Ar·pachshad	Ar·pachʹshad
+Shelah	Shelah	Sheʹlah
+Eber	Eber	Eʹber
+Peleg	Peleg	Peʹleg
+Reu	Reu	Reʹu
+Serug	Serug	Seʹrug
+Nahor	Nahor	Naʹhor
+Terah	Terah	Teʹrah
+Abraham	Abraham	
+Isaac	Isaac	
+Jacob	Jacob	
+Joseph	Joseph	
+Moses	Moses	
+Rehoboam	Rehoboam	first king of southern kingdom of Juda
+Abijah	Abijah (Abijam)	3 years, also Abijam
+Asa	Asa	
+Jehoshaphat	Jehoshaphat	bce_float = -y+1 - (12-m)/12 – (31-d)/360
+Jehoram2	Jehoram	
+Ahaziah	Ahaziah	
+Athaliah	Queen Athaliah	Queen Athaliah
+Jehoash	Jehoash	
+Amaziah	Amaziah	
+Uzziah	Uzziah (Azariah)	also Azariah
+Jotham	Jotham	
+Ahaz	Ahaz	
+Hezekiah	Hezekiah	
+Manasseh	Manasseh	
+Amon	Amon	
+Josiah	Josiah	
+Jehoahaz	Jehoahaz	Only 3 months
+Jehoiakim	Jehoiakim	
+Jehoiachin	Jehoiachin	Only 3 months 10 days
+Zedekia	Zedekia	
+Jeroboam	Jeroboam	first king of northern 10-tribe kingdom
+Nadab	Nadab	less than 2
+Baasha	Baasha	
+Elah	Elah	
+Zimri	Zimri	Only 7 days in ca. 751 BCE
+OmriTibni	Omri and Tibni together	4 years Omri and Tibni
+Omri	Omri (alone)	from 947 Omri alone
+Ahab	Ahab	
+Ahaziah	Ahaziah	
+Jehoram	Jehoram	
+Jehu	Jehu	
+Jeoahaz	Jeoahaz	
+JeoahazJehoash	Jeoahaz and Jehoash	For 3 years Jeoahaz and Jeoash reigned together
+Jehoash2	Jehoash (alone)	Jehoash (alone)
+Jeroboam2	Jeroboam2	
+Zechariah	Zechariah	reign only recorded 6 months, probably only established 792 BCE
+Schallum	Schallum	only one month
+Menahem	Menahem	
+Pekahiah	Pekahiah	
+Pekah	Pekah	
+Hoshea	Hoshea	9 years from c. 748
+Saul	Saul	
+David	David	
+Solomo	Solomo	

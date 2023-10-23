@@ -97,13 +97,6 @@ def import_dictionary():
     key_dict = pd.read_csv(file_dictionary, encoding='utf8', sep = '\t')
     for index, row in key_dict.iterrows():
         dict.update({f"{row.key}" : f"{row.text}"})
-    print(dict)
-
-    # database settings
-    # db_adam_moses = "https://raw.githubusercontent.com/kreier/timeline/main/db/adam-joseph_" + language + ".csv"
-    # dict.update({"Max" : "Maximilian"})
-    # print(dict)
-
 
 # Import colors for all keys
 def import_colors():
@@ -174,7 +167,6 @@ def create_horizontal_axis(c):
             if i > 28 and i < 35:
                 c.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
 
-
     c.drawString(x1, y1 - 16, "BCE")
     c.drawString(x1, y2 + 8 , "BCE")
     c.drawRightString(x2, y1 - 16, "CE")
@@ -224,13 +216,15 @@ def create_adam_moses(c):
     for index, row in persons.iterrows():
         born = -year(row.born)
         died = -year(row.died)
-        person = f"{row.person}"
+        # person = f"{row.person}"
+        person = dict[f"{row.key}"]
         details_r = f"{born} to {died} BCE - {born - died} years"
         x_box = x1 + (4075 + row.born) * dots_year
         y_box = y2 - index*21 - 21
         x_boxwidth = (born - died) * dots_year
         x_text = x_box + x_boxwidth * 0.5
-        c.setFillColorRGB(row.R, row.G, row.B)
+        co = color[f"{row.key}"]
+        c.setFillColorRGB(co[0], co[1], co[2])
         c.setStrokeColorRGB(0, 0, 0)
         c.setLineWidth(0.3)
         c.rect(x_box, y_box, x_boxwidth, 19, fill = 1)
@@ -261,7 +255,8 @@ def create_kings(c):
         start = row.start
         end   = row.end
         row_y = row.row_y
-        detail = f"{row.king} "
+        # detail = f"{row.king} "
+        detail = dict[f"{row.key}"] + " "
         time_reigned = "("
         if row.years > 0:
             time_reigned += f"{row.years} year"
@@ -276,7 +271,7 @@ def create_kings(c):
                 time_reigned + " "
             time_reigned += f"{row.days} days"
 
-        detail += f"{-year(start)} - {-year(end)} {time_reigned})"
+        detail += f"{-year(start)}-{-year(end)} {time_reigned})"
         if index < 20:
             detail_l = ""
             detail_r = detail
@@ -286,7 +281,11 @@ def create_kings(c):
         x_box = x1 + (4075 + start) * dots_year
         y_box = y2 - row_y*12 - 16
         x_boxwidth = (end -  start) * dots_year
-        c.setFillColorRGB(row.R, row.G, row.B)
+        # c.setFillColorRGB(row.R, row.G, row.B)
+        # c.setFillColorRGB(1,0,.3)
+        co = color[f"{row.key}"]
+        c.setFillColorRGB(co[0], co[1], co[2])
+
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
         c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
