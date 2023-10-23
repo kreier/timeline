@@ -25,7 +25,7 @@ pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
 
 # Some general settings
-version  = "3.1"
+version  = "3.2"
 language = "en"
 filename = "../timeline/timeline_v" + version + ".pdf"
 # filename = "../timeline/timeline_v" + version + "_"+ language + ".pdf"
@@ -62,8 +62,20 @@ y2 = y1 + drawing_height
 # The drawing should span from 4075 BCE to 2075 CE, so we have to calculate
 # the length of one year in dots from drawing_with for this 6150 years
 dots_year = drawing_width / 6150
-text = {}
-dict = {}
+text  = {}
+dict  = {}
+color = {}
+
+
+# Let's try to import a dictionary for colors with pandas
+def import_colors():
+    global color
+    key_colors = pd.read_csv("../db/colors.csv", encoding='utf8')
+    for index, row in key_colors.iterrows():
+        color.update({f"{row.key}" : (row.R, row.G, row.B)})
+        # color.update({row.key : row.C})
+    print(color)
+    print(color['Joseph'])
 
 # convert the float dates to year, month and day
 def year(date_float):
@@ -309,7 +321,6 @@ def create_prophets(c):
 
 
 def create_timestamp(c):
-    # drawString(f"Timeline {version} - created {str(datetime.datetime.now())[0:16]} ", 4, x1, y1 + 20, "r")
     drawString(f"persons",           4, x1 + 6,   y1 + 29.0, "r")
     drawString(str(number_persons),  4, x1 + 5.4, y1 + 29.0, "l")
     drawString(f"judges",            4, x1 + 6,   y1 + 24.5, "r")
@@ -323,8 +334,6 @@ def create_timestamp(c):
     drawString(f"events",            4, x1 + 6,   y1 +  6.5, "r")
     drawString(str(number_events),   4, x1 + 5.4, y1 +  6.5, "l")
     c.setFont("Aptos", 4)
-    # c.drawString(x1 + 6,        y1 + 2, "events")
-    # c.drawRightString(x1 + 5.4, y1 + 2, str(number_events))
     c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]}")
 
 def render_to_file():
@@ -335,6 +344,7 @@ def render_to_file():
 
 if __name__ == "__main__":
     import_data(text)
+    import_colors()
     create_horizontal_axis(c)
     create_reference_events(c)
     create_adam_moses(c)
