@@ -22,7 +22,7 @@ def day(date_float):
 
 
 date = -4025.25
-datestring = "4026-10-01"
+datestring = "1945-05-08"
 
 
 print("____________________________ converting ________________________________")

@@ -36,11 +36,13 @@ border_tb   = 10*mm
 pdf_author  = "Matthias Kreier"
 pdf_title   = "6000 years human history visualized"
 pdf_subject = "Timeline of humankind"
-vertical_lines = False
-number_persons = 0
-number_kings   = 0
-number_periods = 0
-number_events  = 0
+vertical_lines  = False
+number_persons  = 0
+number_judges   = 0
+number_prophets = 0
+number_kings    = 0
+number_periods  = 0
+number_events   = 0
 
 # Create the canvas
 c = canvas.Canvas(filename, pagesize=(page_width,page_height))
@@ -82,6 +84,10 @@ def day(date_float):
         month = 13 + month
     day = int((month - int(month))*30) + 1
     return day
+
+def y_value(row_y):
+    global y2
+    return y2 - 4 - row_y * 12
 
 def import_data(text):
     print("Data imported from local file.")
@@ -155,22 +161,48 @@ def create_horizontal_axis(c):
 
     c.drawString(x1, y1 - 16, "BCE")
     c.drawString(x1, y2 + 8 , "BCE")
-    # x_shift = stringWidth("CE", 'Aptos', 11)
     c.drawRightString(x2, y1 - 16, "CE")
     c.drawRightString(x2, y2 + 8, "CE")
+
+def create_reference_events(s):
+    global number_events
+    # Blue line for the deluge in 2370 BCE
+    c.setLineWidth(1)
+    c.setStrokeColorRGB(0, 0, 1)
+    date_deluge = x1 + (4075 - 2370) * dots_year
+    c.line(date_deluge, y1, date_deluge, y2)
+    drawString("Deluge 2370 BCE", 12, date_deluge + 2, y2 - 16, "r")
+
+    # Red line for the division fo the kingdom 997 BCE
+    c.setStrokeColorRGB(0.8, 0, 0)
+    date_division_kingdom = x1 + (4075 - 997) * dots_year
+    c.line(date_division_kingdom, y_value(2), date_division_kingdom, y_value(24))
+    drawString("Division of the kingdom Israel 997 BCE", 10, date_division_kingdom - 2, y_value(5.5) + 3, "l")
+
+    # Red line for the date of the exodus Nisan 14th, 1513 BCE
+    c.setStrokeColorRGB(0.8, 0, 0)
+    date_exodus = x1 + (4075 - 1513) * dots_year
+    c.line(date_exodus, y_value(-0.4), date_exodus, y_value(6))
+
+    # Red line for the end of the time of the nations October 1914 CE
+    c.setStrokeColorRGB(0.8, 0, 0)
+    date_1914 = x1 + (4075 + 1914) * dots_year
+    c.line(date_1914, y_value(-0.4), date_1914, y_value(25))
+    drawString("End of the time of the nations, Gods kingdom starts to rule in heaven 1914 CE", 10, date_1914 - 2, y_value(23.5), "l")
+
+    # destruction Jerusalem 607 BCE
+    drawString("Destruction of Jerusalem 607 BCE by Babylon", 10, x1 + (4075 - 607) * dots_year, y_value(26), "r")
+
+    # destruction Samaria 740 BCE
+    drawString("Destruction of Samaria 740 BCE by Assyria", 10, x1 + (4075 - 740) * dots_year + 2, y_value(44) + 3, "r")
+
+    number_events += 6
 
 
 def create_adam_moses(c):
     global number_persons
-    # Start with a blue line for the deluge during this timespan
-    c.setLineWidth(1)
-    c.setStrokeColorRGB(0, 0, 1)
-    location_deluge = x1 + (4075 - 2370) * dots_year
-    c.line(location_deluge, y1, location_deluge, y2)
-    drawString("Deluge 2370 BCE", 12, location_deluge + 2, y2 - 16, "r")
-
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
-    print("Import data Adam to Solomo")
+    print("Import data Adam to Moses")
     persons = pd.read_csv("../db/adam-moses.csv", encoding='utf8')
     c.setFont("Aptos", 12)
     for index, row in persons.iterrows():
@@ -183,10 +215,6 @@ def create_adam_moses(c):
         x_boxwidth = (born - died) * dots_year
         x_text = x_box + x_boxwidth * 0.5
         c.setFillColorRGB(row.R, row.G, row.B)
-        # if index < 10:
-        #     c.setFillColorRGB(0, 0, 1)
-        # else:
-        #     c.setFillColorRGB(0, 0.7, 0)
         c.setStrokeColorRGB(0, 0, 0)
         c.setLineWidth(0.3)
         c.rect(x_box, y_box, x_boxwidth, 19, fill = 1)
@@ -201,17 +229,10 @@ def create_adam_moses(c):
 
 def create_kings(c):
     global number_kings
-    # Start with a blue line for the deluge during this timespan
-    c.setLineWidth(1)
-    c.setStrokeColorRGB(0.8, 0, 0)
-    division_kingdom = x1 + (4075 - 997) * dots_year
-    c.line(division_kingdom, y1 + drawing_height * 0.5, division_kingdom, y2)
-    drawString("Division of the kingdom Israel 997 BCE", 12, division_kingdom - 2, y2 - 14*7, "l")
-
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data of kings")
     kings = pd.read_csv("../db/kings.csv", encoding='utf8')
-    c.setFont("Aptos", 11)
+    c.setFont("Aptos", 10)
     c.setLineWidth(0.3)
     for index, row in kings.iterrows():
         # if row.born:
@@ -226,11 +247,13 @@ def create_kings(c):
             if row.years > 1:
                 time_reigned += "s"
         if row.months > 0:
-            time_reigned += f" {row.months} month"
+            time_reigned += f"{row.months} month"
             if row.months > 1:
                 time_reigned += "s"
         if row.days > 0:
-            time_reigned += f" {row.days} days"
+            if row.months > 0:
+                time_reigned + " "
+            time_reigned += f"{row.days} days"
 
         detail += f"{-year(start)} - {-year(end)} {time_reigned})"
         if index < 20:
@@ -240,143 +263,6 @@ def create_kings(c):
             detail_l = detail
             detail_r = ""
         x_box = x1 + (4075 + start) * dots_year
-        y_box = y2 - row_y*14 - 16
-        x_boxwidth = (end -  start) * dots_year
-        c.setFillColorRGB(row.R, row.G, row.B)
-        c.setLineWidth(0.3)
-        c.setStrokeColorRGB(0, 0, 0)
-        c.rect(x_box, y_box, x_boxwidth, 14, fill = 1)
-        c.setFillColorRGB(0, 0, 0)
-        drawString(detail_r, 12, x_box + x_boxwidth + 2, y_box + 3, "r")
-        drawString(detail_l, 12, x_box - 2, y_box + 3, "l")
-        number_kings += 1
-
-def create_periods(c):
-    global number_periods
-    # Import the perios with start and end as pandas dataframe
-    print("Import data of periods")
-    periods = pd.read_csv("../db/periods.csv", encoding='utf8')
-    c.setFont("Aptos", 11)
-    c.setLineWidth(0.3)
-    for index, row in periods.iterrows():
-        start = row.start
-        end   = row.end
-        row_y = row.row_y
-        if len(row.text) > 0:
-            detail_c = f"{row.text}"
-        if len(row.text_l) > 0:
-            detail_l = f"{row.text_l}"
-        if len(row.text_r) > 0:
-            detail_r = f"{row.text_r}"
-        x_box = x1 + (4075 + start) * dots_year
-        y_box = y2 - row_y*14 - 16
-        x_boxwidth = (end - start) * dots_year
-        c.setFillColorRGB(row.R, row.G, row.B)
-        c.setLineWidth(0.3)
-        c.setStrokeColorRGB(0, 0, 0)
-        c.rect(x_box, y_box, x_boxwidth, 14, fill = 1)
-        c.setFillColorRGB(0, 0, 0)
-        drawString(detail_c, 12, x_box + x_boxwidth * 0.5, y_box + 3, "c")
-        drawString(detail_r, 12, x_box + x_boxwidth + 2, y_box + 3, "r")
-        drawString(detail_l, 12, x_box - 2, y_box + 3, "l")
-        number_periods += 1
-
-def create_kings2(c):
-    # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
-    print("Import data of kings2")
-    kings = pd.read_csv("../db/kings.csv", encoding='utf8')
-    c.setFont("Aptos", 11)
-    c.setLineWidth(0.3)
-    for index, row in kings.iterrows():
-        # if row.born:
-        #     born  = int(row.born[0:4])
-        start = row.start + 1400
-        end   = row.end + 1400
-        row_y = row.row_y
-        detail_l = f"{row.king}"
-        time_reigned = "("
-        if row.years > 0:
-            time_reigned += f"{row.years} year"
-            if row.years > 1:
-                time_reigned += "s"
-        if row.months > 0:
-            time_reigned += f" {row.months} month"
-            if row.months > 1:
-                time_reigned += "s"
-        if row.days > 0:
-            time_reigned += f" {row.days} days"
-
-        detail_r = f"{year(start)} - {year(end)} {time_reigned})"
-        x_box = x1 + (4075 + start) * dots_year
-        y_box = y2 - row_y*14 - 16
-        x_boxwidth = (end -  start) * dots_year
-        c.setFillColorRGB(row.R, row.G, row.B)
-        c.setLineWidth(0.3)
-        c.setStrokeColorRGB(0, 0, 0)
-        c.rect(x_box, y_box, x_boxwidth, 14, fill = 1)
-        c.setFillColorRGB(0, 0, 0)
-        drawString(detail_r, 12, x_box + x_boxwidth + 2, y_box + 3, "r")
-        drawString(detail_l, 12, x_box - 2, y_box + 3, "l")
-
-def create_kings3(c):
-    # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
-    print("Import data of kings3")
-    kings = pd.read_csv("../db/kings3.csv", encoding='utf8')
-    c.setFont("Aptos", 10)
-    c.setLineWidth(0.3)
-    for index, row in kings.iterrows():
-        start = row.start + 2100
-        end   = row.end + 2100
-        row_y = row.row_y
-        detail_l = ""
-        time_reigned = "("
-        if row.years > 0:
-            time_reigned += f"{row.years} year"
-            if row.years > 1:
-                time_reigned += "s"
-        if row.months > 0:
-            time_reigned += f" {row.months} month"
-            if row.months > 1:
-                time_reigned += "s"
-        if row.days > 0:
-            time_reigned += f" {row.days} days"
-
-        detail_r = f"{row.king} {year(start)} - {year(end)} {time_reigned})"
-        x_box = x1 + (4075 + start) * dots_year
-        y_box = y2 - row_y*12 - 16
-        x_boxwidth = (end -  start) * dots_year
-        c.setFillColorRGB(row.R, row.G, row.B)
-        c.setLineWidth(0.3)
-        c.setStrokeColorRGB(0, 0, 0)
-        c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
-        c.setFillColorRGB(0, 0, 0)
-        drawString(detail_r, 11, x_box + x_boxwidth + 2, y_box + 3, "r")
-
-def create_kings4(c):
-    # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
-    print("Import data of kings3")
-    kings = pd.read_csv("../db/kings3.csv", encoding='utf8')
-    c.setFont("Aptos", 10)
-    c.setLineWidth(0.3)
-    for index, row in kings.iterrows():
-        start = row.start + 700
-        end   = row.end + 700
-        row_y = row.row_y
-        detail_l = ""
-        time_reigned = "("
-        if row.years > 0:
-            time_reigned += f"{row.years} year"
-            if row.years > 1:
-                time_reigned += "s"
-        if row.months > 0:
-            time_reigned += f" {row.months} month"
-            if row.months > 1:
-                time_reigned += "s"
-        if row.days > 0:
-            time_reigned += f" {row.days} days"
-
-        detail_r = f"{row.king} {year(start)} - {year(end)} {time_reigned})"
-        x_box = x1 + (4075 + start) * dots_year
         y_box = y2 - row_y*12 - 16
         x_boxwidth = (end -  start) * dots_year
         c.setFillColorRGB(row.R, row.G, row.B)
@@ -385,21 +271,61 @@ def create_kings4(c):
         c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         drawString(detail_r, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
+        drawString(detail_l, 10, x_box - 2, y_box + 3, "l")
+        number_kings += 1
+
+def create_periods(c):
+    global number_periods
+    # Import the perios with start and end as pandas dataframe
+    print("Import data of periods")
+    periods = pd.read_csv("../db/periods.csv", encoding='utf8')
+    c.setFont("Aptos", 10)
+    c.setLineWidth(0.3)
+    for index, row in periods.iterrows():
+        start = row.start
+        end   = row.end
+        if len(row.text) > 0:
+            detail_c = f"{row.text}"
+        if len(row.text_l) > 0:
+            detail_l = f"{row.text_l}"
+        if len(row.text_r) > 0:
+            detail_r = f"{row.text_r}"
+        x_box = x1 + (4075 + start) * dots_year
+        y_box = y_value(row.row_y)
+        x_boxwidth = (end - start) * dots_year
+        c.setFillColorRGB(row.R, row.G, row.B)
+        c.setLineWidth(0.3)
+        c.setStrokeColorRGB(0, 0, 0)
+        c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
+        c.setFillColorRGB(0, 0, 0)
+        drawString(detail_c, 10, x_box + x_boxwidth * 0.5, y_box + 3, "c")
+        drawString(detail_r, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
+        drawString(detail_l, 10, x_box - 2, y_box + 3, "l")
+        number_periods += 1
+
+def create_prophets(c):
+    print("Import data of prophets")
+
 
 
 def create_timestamp(c):
-    drawString(f"Timeline {version} - created {str(datetime.datetime.now())[0:16]} ", 4, x1, y1 + 20, "r")
-    drawString(f"persons",          4, x1 + 6,   y1 + 15.5, "r")
-    drawString(str(number_persons), 4, x1 + 5.4, y1 + 15.5, "l")
-    drawString(f"kings",            4, x1 + 6,   y1 + 11, "r")
-    drawString(str(number_kings),   4, x1 + 5.4, y1 + 11, "l")
-    drawString(f"periods",          4, x1 + 6,   y1 + 6.5, "r")
-    drawString(str(number_periods), 4, x1 + 5.4, y1 + 6.5, "l")
-    # drawString(f"events",           4, x1 + 6,   y1 + 2, "r")
-    # drawString(str(number_events),  4, x1 + 5.4, y1 + 2, "l")
+    # drawString(f"Timeline {version} - created {str(datetime.datetime.now())[0:16]} ", 4, x1, y1 + 20, "r")
+    drawString(f"persons",           4, x1 + 6,   y1 + 29.0, "r")
+    drawString(str(number_persons),  4, x1 + 5.4, y1 + 29.0, "l")
+    drawString(f"judges",            4, x1 + 6,   y1 + 24.5, "r")
+    drawString(str(number_judges),   4, x1 + 5.4, y1 + 24.5, "l")
+    drawString(f"prophets",          4, x1 + 6,   y1 + 20.0, "r")
+    drawString(str(number_prophets), 4, x1 + 5.4, y1 + 20.0, "l")
+    drawString(f"kings",             4, x1 + 6,   y1 + 15.5, "r")
+    drawString(str(number_kings),    4, x1 + 5.4, y1 + 15.5, "l")
+    drawString(f"periods",           4, x1 + 6,   y1 + 11.0, "r")
+    drawString(str(number_periods),  4, x1 + 5.4, y1 + 11.0, "l")
+    drawString(f"events",            4, x1 + 6,   y1 +  6.5, "r")
+    drawString(str(number_events),   4, x1 + 5.4, y1 +  6.5, "l")
     c.setFont("Aptos", 4)
-    c.drawString(x1 + 6,        y1 + 2, "events")
-    c.drawRightString(x1 + 5.4, y1 + 2, str(number_events))
+    # c.drawString(x1 + 6,        y1 + 2, "events")
+    # c.drawRightString(x1 + 5.4, y1 + 2, str(number_events))
+    c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]}")
 
 def render_to_file():
     renderPDF.draw(d, c, border_lr, border_tb)
@@ -410,11 +336,10 @@ def render_to_file():
 if __name__ == "__main__":
     import_data(text)
     create_horizontal_axis(c)
+    create_reference_events(c)
     create_adam_moses(c)
     create_kings(c)
-    create_kings2(c)
-    create_kings3(c)
-    create_kings4(c)
     create_periods(c)
+    create_prophets(c)
     create_timestamp(c)
     render_to_file()
