@@ -1,3 +1,62 @@
+# some imports?
+# at least some functions
+
+def year(date_float):
+    year = int(date_float)
+    if year < 0:
+        year -= 1
+    return year
+
+def month(date_float):
+    month = int((date_float - int(date_float))*12)
+    if date_float < 0:
+        month = 13 + month
+    return month
+
+def day(date_float):
+    month = (date_float - int(date_float))*12
+    if date_float < 0:
+        month = 13 + month
+    day = int((month - int(month))*30) + 1
+    return day
+
+
+date = -4025.25
+datestring = "1945-05-08"
+
+
+print("____________________________ converting ________________________________")
+y = int(datestring[0:4])
+m = int(datestring[5:7])
+d = int(datestring[8:])
+print(f"The decoded datestring {datestring} is day {d}, month {m} and year {y}.")
+ce_float = y + m/12 + d/360
+bce_float = -y+1 - (12-m)/12 - (31-d)/360
+print(f"The respective float values are {ce_float:.7} for CE and {bce_float:.7} for BCE.\n")
+
+print(f"Decoded float date {date} is year {year(date)}, month {month(date)} and day {day(date)}.\n")
+
+print("Year conversion")
+print("positive:")
+print(f"The float value of year is {date}")
+print(f"year:  {int(date)}")
+month = (date - int(date)) * 12
+print(f"month: {int(month)}")
+day = int((month - int(month))*30) + 1
+print(f"day:   {int(day)}\n")
+
+print("negative:")
+date *= -1
+print(f"The float value of year is {date}")
+year_negative = int(date)
+if date < int(date):
+    year_negative -= 1
+print(f"year:  {int(year_negative)}")
+month = 13 + (date - int(date)) * 12
+print(f"month: {int(month)}")
+day = int((month - int(month))*30) + 1
+print(f"day:   {int(day)}\n")
+
 # Calculate the scale of the timeline
 print("Scale of the timeline")
 print("---------------------\n")
@@ -45,3 +104,5 @@ division of the kingdom in 997 BCE until the desctruction of Samarila in \
 from 997 BCE until the desctruction of Jerusalem in 607 BCE by Babylon.")
 print(f"To map this period from 997 - 607 BCE ({997-607} years) we \
 need {kings_israel + kings_juda} lines if they should not overlap.")
+
+

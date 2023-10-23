@@ -1,10 +1,12 @@
 text,text_l,text_r,start,end,row_y,R,G,B,notes
-Moses, ,1593 to 1473 BCE – 120 years,1593-04-01,1473-04-01,10.9,0,0.8,0,
- ,Israel in the wilderness,1513 to 1473 BCE – 40 years,1513-04-01,1473-04-01,12,0.8,0,0,
-Time of the judges, ,1473 to 1117 BCE – 356 years,1473-04-01,1117-04-01,13,0.1,0.7,0,
- 479 years to temple construction – 1 Kings 6:1,exodus, ,1513-04-01,1034-04-01,9.8,0,0.8,0.8,1 Kings 6:1
- ,Jesus born 2 BCE,"Executed Nisan 14th, 33 CE",0002-10-01,-033-04-04,1,0,0.6,0,
- ,Jesus baptized autumn 29 CE,3.5 years of Jesus service,-029-10-04,-033-04-04,2,0,0.6,0,
-69 weeks to the Messiah,rebuild Jerusalem 455 BCE,Jesus baptized,0455-10-01,-029-10-04,3.1,0.3,0.5,0.5,
-exile,Jer. Sieged,607 to 537 BCE – 70 years,0607-04-01,0537-04-01,20,0.4,0.1,0.5,
-7 times – 2520 years to the Messianic Kingdom 1914 CE, , ,0607-04-01,-999-10-04,21.1,0.4,0.4,0.1,
+Moses,1593 to 1473 BCE – 120 years, ,-1592.75,-1472.75,8.5,0,0.8,0,
+ ,Israel in the wilderness 1513 to 1473 BCE – 40 years, ,-1512.75,-1472.75,6,0.8,0,0,
+Time of the judges,1473 to 1117 BCE – 356 years, ,-1472.75,-1116.75,7,0.1,0.7,0,
+479 years until the temple construction – 1 Kings 6:1,"Exodus from Egypt on Nisan 14th, 1513 BCE", ,-1512.75,-1033.75,4.3,0.6,0,0.8,1 Kings 6:1
+ ,Jesus born 2 BCE,"Executed Nisan 14th, 33 CE",-1.25,33.8,1,0,0.6,0,
+ ,Jesus baptized autumn 29 CE,3.5 years of Jesus service,29.867,33.8,3,0,0.6,0,
+69 weeks to the Messiah – Daniel 9:25,rebuild Jerusalem 455 BCE,Jesus baptized,-454.25,29.867,2,0.3,0.5,0.5,
+exile, ,607 to 537 BCE – 70 years (Jeremiah 25:11),-606.75,-536.75,24,0.4,0.1,0.5,
+7 times – 2520 years to the Messianic Kingdom 1914 CE (Daniel 4:23), , ,-606.75,1914.867,25.1,0.4,0.4,0.1,
+ ,World War I – 1914–1918 CE, ,1914.867,1918.867,1,0.6,0.3,0.2,
+ ,World War II – 1939–1945 CE, ,1939.867,1945.439,2.1,0.6,0.3,0.2,
