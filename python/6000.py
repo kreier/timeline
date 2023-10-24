@@ -178,34 +178,35 @@ def create_horizontal_axis(c):
 
 def create_reference_events(s):
     global number_events
-    # Blue line for the deluge in 2370 BCE
+    # 1 Blue line for the deluge in 2370 BCE
     c.setLineWidth(1)
     c.setStrokeColorRGB(0, 0, 1)
     date_deluge = x1 + (4075 - 2370) * dots_year
     c.line(date_deluge, y1, date_deluge, y2)
     drawString("Deluge 2370 BCE", 12, date_deluge + 2, y2 - 16, "r")
 
-    # Red line for the division fo the kingdom 997 BCE
+    # 2 Red line for the division fo the kingdom 997 BCE
     c.setStrokeColorRGB(0.8, 0, 0)
     date_division_kingdom = x1 + (4075 - 997) * dots_year
     c.line(date_division_kingdom, y_value(2), date_division_kingdom, y_value(24))
     drawString("Division of the kingdom Israel 997 BCE", 10, date_division_kingdom - 2, y_value(5.5) + 3, "l")
 
-    # Red line for the date of the exodus Nisan 14th, 1513 BCE
+    # 3 Red line for the date of the exodus Nisan 14th, 1513 BCE
     c.setStrokeColorRGB(0.8, 0, 0)
     date_exodus = x1 + (4075 - 1513) * dots_year
     c.line(date_exodus, y_value(-0.4), date_exodus, y_value(6))
+    drawString(dict['exodus'], 10, date_exodus -2, y_value(2), "l")
 
-    # Red line for the end of the time of the nations October 1914 CE
+    # 4 Red line for the end of the time of the nations October 1914 CE
     c.setStrokeColorRGB(0.8, 0, 0)
     date_1914 = x1 + (4075 + 1914) * dots_year
     c.line(date_1914, y_value(-0.4), date_1914, y_value(25))
     drawString("End of the time of the nations, Gods kingdom starts to rule in heaven 1914 CE", 10, date_1914 - 2, y_value(23.5), "l")
 
-    # destruction Jerusalem 607 BCE
+    # 5 destruction Jerusalem 607 BCE
     drawString("Destruction of Jerusalem 607 BCE by Babylon", 10, x1 + (4075 - 607) * dots_year, y_value(26), "r")
 
-    # destruction Samaria 740 BCE
+    # 6 destruction Samaria 740 BCE
     drawString("Destruction of Samaria 740 BCE by Assyria", 10, x1 + (4075 - 740) * dots_year + 2, y_value(44) + 3, "r")
 
     number_events += 6
@@ -248,9 +249,6 @@ def create_judges(c):
         start = row.start
         end   = row.end
         row_y = row.row_y
-        oppression = row.oppression
-        judge = row.key
-        # judge = dict[f"{row.key}"]
         x_box = x1 + (4075 + start) * dots_year
         y_box = y2 - row_y*12 - 4
         x_boxwidth = (end -  start) * dots_year
@@ -259,16 +257,17 @@ def create_judges(c):
         co = color['judges']
         c.setFillColorRGB(co[0], co[1], co[2])
         c.rect(x_box, y_box + 8, x_boxwidth, 2, fill = 1)
+
         # indicate years of oppression prior to peacetime of the judge
+        oppression = row.oppression
         x_oppression = x_box - oppression * dots_year
         x_opp_width  = oppression * dots_year
         co = color['oppression']
         c.setFillColorRGB(co[0], co[1], co[2])
         c.rect(x_oppression, y_box + 8, x_opp_width, 2, fill = 1)
 
-
-        # c.setFillColorRGB(0,0.36,0.48)
-
+        judge = row.key
+        # judge = dict[f"{row.key}"]
         drawString(judge, 10, x_box + x_boxwidth * 0.5 , y_box, "cb")
         number_judges += 1
 
@@ -327,7 +326,49 @@ def create_kings(c):
 def create_prophets(c):
     global number_prophets
     print("Import data of prophets")
-    number_prophets += 3
+    prophets = pd.read_csv("../db/prophets.csv", encoding='utf8')
+    for index, row in prophets.iterrows():
+        start = row.start
+        end   = row.end
+        row_y = row.row_y
+        x_box = x1 + (4075 + start) * dots_year
+        y_box = y2 - row_y*12 - 4
+        x_boxwidth = (end -  start) * dots_year
+        c.setLineWidth(0.0)
+        c.setStrokeColorRGB(1, 1, 1)
+        co = color['prophets']
+        c.setFillColorRGB(co[0], co[1], co[2])
+        c.rect(x_box, y_box + 10, x_boxwidth, 4, fill = 1, stroke = 0)
+
+        # let's overdraw left and right side with some shades, 75% 50% and 25%
+        color_R = 1 - 0.75 * (1 - co[0])
+        color_G = 1 - 0.75 * (1 - co[1])
+        color_B = 1 - 0.75 * (1 - co[1])
+        c.setFillColorRGB(color_R, color_G, color_B)
+        c.rect(x_box + 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
+        c.rect(x_box + x_boxwidth - 3, y_box + 10, 1, 4, fill = 1, stroke = 0)
+        # 50%
+        color_R = 1 - 0.5 * (1 - co[0])
+        color_G = 1 - 0.5 * (1 - co[1])
+        color_B = 1 - 0.5 * (1 - co[1])
+        c.setFillColorRGB(color_R, color_G, color_B)
+        c.rect(x_box + 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
+        c.rect(x_box + x_boxwidth - 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
+        # 25%
+        color_R = 1 - 0.25 * (1 - co[0])
+        color_G = 1 - 0.25 * (1 - co[1])
+        color_B = 1 - 0.25 * (1 - co[1])
+        c.setFillColorRGB(color_R, color_G, color_B)
+        c.rect(x_box, y_box + 10, 1, 4, fill = 1, stroke = 0)
+        c.rect(x_box + x_boxwidth - 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
+
+
+        prophet = row.key
+        # judge = dict[f"{row.key}"]
+        c.setFont("Aptos", 10)
+        c.setFillColorRGB(0, 0, 0)
+        c.drawString(x_box , y_box, prophet)
+        number_prophets += 1
 
 def create_periods(c):
     global number_periods
@@ -363,9 +404,6 @@ def create_periods(c):
         drawString(detail_r, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
         drawString(detail_l, 10, x_box - 2, y_box + 3, "l")
         number_periods += 1
-
-
-
 
 
 def create_timestamp(c):
