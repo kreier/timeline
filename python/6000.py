@@ -16,7 +16,7 @@ import pandas as pd
 import datetime
 import os
 
-# Check execution location, exit if not in /python
+# Check execution location, exit if not in /timeline/python
 if os.getcwd()[-6:] != "python":
     print("This script must be executed inside the python folder.")
     exit()
@@ -25,7 +25,7 @@ pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
 
 # Some general settings
-version  = "3.2"
+version  = "3.3"
 language = "en"
 filename = "../timeline/timeline_v" + version + ".pdf"
 color_scheme = "normal"
@@ -362,13 +362,97 @@ def create_prophets(c):
         c.rect(x_box, y_box + 10, 1, 4, fill = 1, stroke = 0)
         c.rect(x_box + x_boxwidth - 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
 
-
         prophet = row.key
         # judge = dict[f"{row.key}"]
         c.setFont("Aptos", 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, prophet)
         number_prophets += 1
+
+def create_books(c):
+    global number_persons
+    print("Import data of books")
+    books = pd.read_csv("../db/books.csv", encoding='utf8')
+    for index, row in books.iterrows():
+        start = row.start
+        end   = row.end
+        row_y = row.row_y
+        x_box = x1 + (4075 + start) * dots_year
+        y_box = y2 - row_y*12 - 4
+        x_boxwidth = (end -  start) * dots_year
+        c.setLineWidth(0.0)
+        c.setStrokeColorRGB(1, 1, 1)
+        co = color['books']
+        c.setFillColorRGB(co[0], co[1], co[2])
+        c.rect(x_box, y_box + 10, x_boxwidth, 4, fill = 1, stroke = 0)
+
+        # let's overdraw left and right side with some shades, 75% 50% and 25%
+        color_R = 1 - 0.75 * (1 - co[0])
+        color_G = 1 - 0.75 * (1 - co[1])
+        color_B = 1 - 0.75 * (1 - co[1])
+        c.setFillColorRGB(color_R, color_G, color_B)
+        c.rect(x_box + 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
+        c.rect(x_box + x_boxwidth - 3, y_box + 10, 1, 4, fill = 1, stroke = 0)
+        # 50%
+        color_R = 1 - 0.5 * (1 - co[0])
+        color_G = 1 - 0.5 * (1 - co[1])
+        color_B = 1 - 0.5 * (1 - co[1])
+        c.setFillColorRGB(color_R, color_G, color_B)
+        c.rect(x_box + 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
+        c.rect(x_box + x_boxwidth - 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
+        # 25%
+        color_R = 1 - 0.25 * (1 - co[0])
+        color_G = 1 - 0.25 * (1 - co[1])
+        color_B = 1 - 0.25 * (1 - co[1])
+        c.setFillColorRGB(color_R, color_G, color_B)
+        c.rect(x_box, y_box + 10, 1, 4, fill = 1, stroke = 0)
+        c.rect(x_box + x_boxwidth - 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
+
+        book = row.key
+        # judge = dict[f"{row.key}"]
+        c.setFont("Aptos", 10)
+        c.setFillColorRGB(0, 0, 0)
+        c.drawString(x_box , y_box, book)
+        number_persons += 1
+
+
+def create_caesars(c):
+    global number_kings
+    # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
+    print("Import data of caesars")
+    caesars = pd.read_csv("../db/caesars.csv", encoding='utf8')
+    c.setFont("Aptos", 10)
+    c.setLineWidth(0.3)
+    for index, row in caesars.iterrows():
+        born  = row.born
+        start = row.start
+        end   = row.end
+        row_y = row.row_y
+        detail = f"{row.key} "
+        # detail = dict[f"{row.key}"] + " "
+        if start < 0:
+            detail += f"{int(-start+1)} BCE - "
+        else:
+            detail += f"{int(start)}-"
+        if end < 0:
+            detail += f" {int(-end+1)} BCE"
+        else:
+            detail += f"{int(end)} CE"
+        x_box = x1 + (4075 + start) * dots_year
+        y_box = y2 - row_y*12 - 16
+        x_boxwidth = (end -  start) * dots_year
+        x_born = x1 + (4075 + born) * dots_year
+        co = color['caesars']
+        c.setFillColorRGB(co[0], co[1], co[2])
+
+        c.setLineWidth(0.3)
+        c.setStrokeColorRGB(0, 0, 0)
+        c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
+        c.line(x_born, y_box + 6, x_box, y_box + 6)
+        c.line(x_born, y_box + 1, x_born, y_box + 10)
+        c.setFillColorRGB(0, 0, 0)
+        drawString(detail, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
+        number_kings += 1
 
 def create_periods(c):
     global number_periods
@@ -437,6 +521,8 @@ if __name__ == "__main__":
     create_judges(c)
     create_kings(c)
     create_prophets(c)
+    create_books(c)
     create_periods(c)
+    create_caesars(c)
     create_timestamp(c)
     render_to_file()

@@ -22,7 +22,7 @@ def day(date_float):
 
 
 date = -4025.25
-datestring = "1945-05-08"
+datestring = "0037-12-15"
 
 
 print("____________________________ converting ________________________________")
@@ -30,7 +30,7 @@ y = int(datestring[0:4])
 m = int(datestring[5:7])
 d = int(datestring[8:])
 print(f"The decoded datestring {datestring} is day {d}, month {m} and year {y}.")
-ce_float = y + m/12 + d/360
+ce_float = y + m/12 - 1+ d/360
 bce_float = -y+1 - (12-m)/12 - (31-d)/360
 print(f"The respective float values are {ce_float:.7} for CE and {bce_float:.7} for BCE.\n")
 
