@@ -248,18 +248,27 @@ def create_judges(c):
         start = row.start
         end   = row.end
         row_y = row.row_y
+        oppression = row.oppression
         judge = row.key
         # judge = dict[f"{row.key}"]
         x_box = x1 + (4075 + start) * dots_year
         y_box = y2 - row_y*12 - 4
         x_boxwidth = (end -  start) * dots_year
-        c.setFillColorRGB(0,0.36,0.48)
-        # co = color[f"{row.key}"]
-        # c.setFillColorRGB(co[0], co[1], co[2])
-
-        c.setLineWidth(0.3)
+        c.setLineWidth(0.2)
         c.setStrokeColorRGB(0, 0, 0)
+        co = color['judges']
+        c.setFillColorRGB(co[0], co[1], co[2])
         c.rect(x_box, y_box + 8, x_boxwidth, 2, fill = 1)
+        # indicate years of oppression prior to peacetime of the judge
+        x_oppression = x_box - oppression * dots_year
+        x_opp_width  = oppression * dots_year
+        co = color['oppression']
+        c.setFillColorRGB(co[0], co[1], co[2])
+        c.rect(x_oppression, y_box + 8, x_opp_width, 2, fill = 1)
+
+
+        # c.setFillColorRGB(0,0.36,0.48)
+
         drawString(judge, 10, x_box + x_boxwidth * 0.5 , y_box, "cb")
         number_judges += 1
 
