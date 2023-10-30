@@ -189,7 +189,8 @@ def create_reference_events(s):
     c.setStrokeColorRGB(0.8, 0, 0)
     date_division_kingdom = x1 + (4075 - 997) * dots_year
     c.line(date_division_kingdom, y_value(2), date_division_kingdom, y_value(24))
-    drawString("Division of the kingdom Israel 997 BCE", 10, date_division_kingdom - 2, y_value(5.5) + 3, "l")
+    drawString("Division of the kingdom Israel", 10, date_division_kingdom - 2, y_value(10.5) + 3, "l")
+    drawString("997 BCE", 10, date_division_kingdom + 2, y_value(10.5) + 3, "r")
 
     # 3 Red line for the date of the exodus Nisan 14th, 1513 BCE
     c.setStrokeColorRGB(0.8, 0, 0)
@@ -209,7 +210,13 @@ def create_reference_events(s):
     # 6 destruction Samaria 740 BCE
     drawString("Destruction of Samaria 740 BCE by Assyria", 10, x1 + (4075 - 740) * dots_year + 2, y_value(44) + 3, "r")
 
-    number_events += 6
+    # 7 descruction Jerusalem 70 CE
+    c.setStrokeColorRGB(0.8, 0, 0)
+    date_70 = x1 + (4075 + 70) * dots_year
+    c.line(date_70, y_value(-0.4), date_70, y_value(13))
+    drawString("Destruction of Jerusalem by Rome under Titus 70 CE", 10, date_70 + 2, y_value(8), "r")
+
+    number_events += 7
 
 
 def create_adam_moses(c):
@@ -491,6 +498,7 @@ def create_periods(c):
 
 
 def create_timestamp(c):
+    print(number_events)
     drawString(f"persons",           4, x1 + 6,   y1 + 29.0, "r")
     drawString(str(number_persons),  4, x1 + 5.4, y1 + 29.0, "l")
     drawString(f"judges",            4, x1 + 6,   y1 + 24.5, "r")
