@@ -4,9 +4,9 @@
 [![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 
-Human history graph created with python and reportlab. Currently version v3.1 replicates most of the information of v1.1 with one single pages. See both for comparison below.
+Human history graph created with python and reportlab. Version v3.3 replicates most of the information of v1.1 with one single page. See both for comparison below.
 
-![timeline 3.1](docs/timeline20231023.png)
+![timeline 3.3](docs/timeline20231104.png)
 
 ![timeline 1.1](docs/timeline20230630.png)
 
@@ -24,6 +24,10 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - v2.0 2015/10/12 A __vector image__ as a LibreOffice odf to cover 6000 years on [one pdf](https://github.com/kreier/timeline/blob/5ffa9bac5cb4ff3c2cdc362b63df161e0d909c9d/spreadsheet/Zeitleiste_wide_20151213.pdf) and no restrictions in the representation of years. It was very cumbersome to edit and by December only the first __24 persons__ were indicated with their lifetime. And 2 time periods and 3 event dates.
 - v1.1 2023/06/30 __Translation to English.__ For a broader audience and to get feedback on the planned vector version I translated the original OpenOffice Spreadsheet version to English. By June 30th the exported pdf from LibreOffice was finished with the same __63 persons__, 8 time periods and 20 event dates.
 - v3.0 2023/10/30 __Vector document__ generated with [a python program](https://github.com/kreier/timeline/blob/main/python/6000.py) and reportlab. 24 persons, 44 kings and 9 periods.
+- v3.1 Timebase changed (float), font size adjusted for nicer overview. Conversion with [a program](https://github.com/kreier/timeline/blob/main/history/convert.py). 68 persons, 11 periods, 6 events.
+- v3.2 Text elements and Colors separated from key events and persons. 96 persons, 17 periods, 6 events.
+- v3.3 First century and 6 ancient people. 110 people, 21 periods, 7 events.
+- v3.4 First translation to Vietnamese and German. 
 
 ### Scale challenges
 
