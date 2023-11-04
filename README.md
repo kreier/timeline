@@ -18,16 +18,18 @@ After 14 years it was finally time to translate the project to English and share
 
 This project started on here on Github on June 10th, 2023. My last day of work.
 
+
 ## Version history
 
 - v1.0 2009/02/10 An [OpenOffice spreadsheet](https://github.com/kreier/timeline/blob/5ffa9bac5cb4ff3c2cdc362b63df161e0d909c9d/spreadsheet/Zeitleiste_3A4_20090210.ods) with 260, 340 and 218 columns to create the overview with a resolution of 5 or 10 years. See the [resulting pdf](https://github.com/kreier/timeline/blob/5ffa9bac5cb4ff3c2cdc362b63df161e0d909c9d/spreadsheet/Zeitleiste_3A4_20090211.pdf). It contains 63 persons, 8 time periods and 20 events.
 - v2.0 2015/10/12 A __vector image__ as a LibreOffice odf to cover 6000 years on [one pdf](https://github.com/kreier/timeline/blob/5ffa9bac5cb4ff3c2cdc362b63df161e0d909c9d/spreadsheet/Zeitleiste_wide_20151213.pdf) and no restrictions in the representation of years. It was very cumbersome to edit and by December only the first __24 persons__ were indicated with their lifetime. And 2 time periods and 3 event dates.
 - v1.1 2023/06/30 __Translation to English.__ For a broader audience and to get feedback on the planned vector version I translated the original OpenOffice Spreadsheet version to English. By June 30th the exported pdf from LibreOffice was finished with the same __63 persons__, 8 time periods and 20 event dates.
-- v3.0 2023/10/30 __Vector document__ generated with [a python program](https://github.com/kreier/timeline/blob/main/python/6000.py) and reportlab. 24 persons, 44 kings and 9 periods.
-- v3.1 Timebase changed (float), font size adjusted for nicer overview. Conversion with [a program](https://github.com/kreier/timeline/blob/main/history/convert.py). 68 persons, 11 periods, 6 events.
-- v3.2 Text elements and Colors separated from key events and persons. 96 persons, 17 periods, 6 events.
-- v3.3 First century and 6 ancient people. 110 people, 21 periods, 7 events.
-- v3.4 First translation to Vietnamese and German. 
+- v3.0 2023/10/22 __Vector document__ generated with [a python program](https://github.com/kreier/timeline/blob/main/python/6000.py) and reportlab. 24 persons, 44 kings and 9 periods.
+- v3.1 2023/20/23 Timebase changed (float), font size adjusted for nicer overview. Conversion with [a program](https://github.com/kreier/timeline/blob/main/history/convert.py). 68 persons, 11 periods, 6 events.
+- v3.2 2023/10/24 Text elements and Colors separated from key events and persons. 96 persons, 17 periods, 6 events. First printout on A0.
+- v3.3 2023/11/04 First century and 6 ancient people. 110 people, 21 periods, 7 events.
+- v3.4 2023/11/20 First translation to Vietnamese and German. 
+
 
 ### Scale challenges
 
