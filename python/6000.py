@@ -27,9 +27,7 @@ pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
 # Some general settings
 version  = "3.4"
 language = "en"
-# filename = "../timeline/timeline_v" + version + ".pdf"
 color_scheme = "normal"
-filename = "../timeline/timeline_v" + version + "_"+ language + ".pdf"
 page_width  = 4*297*mm   # 4x A4 landscape
 page_height = 210*mm     #    A4 landscape
 border_lr   = 10*mm
@@ -45,26 +43,9 @@ number_kings    = 0
 number_periods  = 0
 number_events   = 0
 
-# Create the canvas
-c = canvas.Canvas(filename, pagesize=(page_width,page_height))
-c.setAuthor(pdf_author)
-c.setTitle(pdf_title)
-c.setSubject(pdf_subject)
-
-# create drawing area
-drawing_width  = page_width - 2 * border_lr
-drawing_height = page_height - 2 * border_tb
-d = Drawing(drawing_width, drawing_height)
-x1 = border_lr
-y1 = border_tb
-x2 = x1 + drawing_width
-y2 = y1 + drawing_height
-
-# The drawing should span from 4075 BCE to 2075 CE, so we have to calculate
-# the length of one year in dots from drawing_with for this 6150 years
-dots_year = drawing_width / 6150
 dict  = {}
 color = {}
+
 
 # convert the float dates to year, month and day
 def year(date_float):
@@ -90,23 +71,6 @@ def y_value(row_y):
     global y2
     return y2 - 4 - row_y * 12
 
-# Import strings for the respective language for names and comments
-def import_dictionary():
-    print(f"Import dictionary for names and descritions, language: {language}")
-    file_dictionary = "../db/dictionary_" + language + ".tsv"
-    key_dict = pd.read_csv(file_dictionary, encoding='utf8', sep = '\t')
-    for index, row in key_dict.iterrows():
-        dict.update({f"{row.key}" : f"{row.text}"})
-
-# Import colors for all keys
-def import_colors():
-    global color
-    print(f"Import color scheme: {color_scheme}")
-    file_colors = "../db/colors_" + color_scheme + ".csv"
-    key_colors = pd.read_csv(file_colors, encoding='utf8')
-    for index, row in key_colors.iterrows():
-        color.update({f"{row.key}" : (row.R, row.G, row.B)})
-
 def drawString(text, fontsize, x_string, y_string, position):
     c.setFont("Aptos", fontsize)
     c.setFillColorRGB(1, 1, 1)
@@ -130,7 +94,51 @@ def drawString(text, fontsize, x_string, y_string, position):
         c.setFillColorRGB(0, 0, 0)
         c.drawCentredString(x_string, y_string, text)
 
-def create_horizontal_axis(c):
+
+# Import strings for the respective language for names and comments
+def import_dictionary():
+    global dict
+    print(f"Import dictionary for names and descriptions, language: {language}")
+    file_dictionary = "../db/dictionary_" + language + ".tsv"
+    key_dict = pd.read_csv(file_dictionary, encoding='utf8', sep = '\t')
+    for index, row in key_dict.iterrows():
+        dict.update({f"{row.key}" : f"{row.text}"})
+
+# Import colors for all keys
+def import_colors(c_scheme):
+    global color, color_scheme
+    color_scheme = c_scheme
+    print(f"Import color scheme: {color_scheme}")
+    file_colors = "../db/colors_" + color_scheme + ".csv"
+    key_colors = pd.read_csv(file_colors, encoding='utf8')
+    for index, row in key_colors.iterrows():
+        color.update({f"{row.key}" : (row.R, row.G, row.B)})
+
+def create_canvas():
+    global c, filename
+    # Create the canvas
+    filename = "../timeline/timeline_v" + version + "_"+ language + ".pdf"
+    c = canvas.Canvas(filename, pagesize=(page_width,page_height))
+    c.setAuthor(pdf_author)
+    c.setTitle(pdf_title)
+    c.setSubject(pdf_subject)
+
+def create_drawing_area():
+    global drawing_height, drawing_width, d, x1, y1, x2, y2
+    drawing_width  = page_width - 2 * border_lr
+    drawing_height = page_height - 2 * border_tb
+    d = Drawing(drawing_width, drawing_height)
+    x1 = border_lr
+    y1 = border_tb
+    x2 = x1 + drawing_width
+    y2 = y1 + drawing_height
+
+    # The drawing should span from 4075 BCE to 2075 CE, so we have to calculate
+    # the length of one year in dots from drawing_with for this 6150 years
+    global dots_year
+    dots_year = drawing_width / 6150
+
+def create_horizontal_axis():
     # axis around drawing area
     c.setLineWidth(0.8)
     c.setStrokeColorCMYK(1.00, 1.00, 0, 0.50) 
@@ -171,19 +179,13 @@ def create_horizontal_axis(c):
             if i > 28 and i < 35:
                 c.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
 
-    c.drawString(x1, y1 - 16, "BCE")
-    c.drawString(x1, y2 + 8 , "BCE")
-    c.drawRightString(x2, y1 - 16, "CE")
-    c.drawRightString(x2, y2 + 8, "CE")
+    c.drawString(x1, y1 - 16, dict["BCE"])
+    c.drawString(x1, y2 + 8 , dict["BCE"])
+    c.drawRightString(x2, y1 - 16, dict["CE"])
+    c.drawRightString(x2, y2 + 8,  dict["CE"])
 
-def create_reference_events(s):
+def create_reference_events():
     global number_events
-    # 1 Blue line for the deluge in 2370 BCE
-    c.setLineWidth(1)
-    c.setStrokeColorRGB(0, 0, 1)
-    date_deluge = x1 + (4075 - 2370) * dots_year
-    c.line(date_deluge, y1, date_deluge, y2)
-    drawString("Deluge 2370 BCE", 12, date_deluge + 2, y2 - 16, "r")
 
     # 2 Red line for the division fo the kingdom 997 BCE
     c.setStrokeColorRGB(0.8, 0, 0)
@@ -219,8 +221,19 @@ def create_reference_events(s):
     number_events += 7
 
 
-def create_adam_moses(c):
+def create_adam_moses():
+    # unique pattern for people from Adam to Moses, and eventline for deluge
     global number_persons
+    global number_events
+
+    # Blue line for the deluge in 2370 BCE
+    c.setLineWidth(1)
+    c.setStrokeColorRGB(0, 0, 1)
+    date_deluge = x1 + (4075 - 2370) * dots_year
+    c.line(date_deluge, y1, date_deluge, y2)
+    drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
+    number_events += 1
+
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data Adam to Moses")
     persons = pd.read_csv("../db/adam-moses.csv", encoding='utf8')
@@ -229,7 +242,7 @@ def create_adam_moses(c):
         born = -year(row.born)
         died = -year(row.died)
         person = dict[f"{row.key}"]
-        details_r = f"{born} to {died} BCE - {born - died} years"
+        details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {born - died} {dict['years']}"
         x_box = x1 + (4075 + row.born) * dots_year
         y_box = y2 - index*21 - 21
         x_boxwidth = (born - died) * dots_year
@@ -244,13 +257,13 @@ def create_adam_moses(c):
         c.drawCentredString(x_text, y_box + 5, person)
         drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
-            drawString(f"{father_born - born} years", 9, x_box - 3, y_box + 11, "l")
+            drawString(f"{father_born - born} {dict['years']}", 9, x_box - 3, y_box + 11, "l")
         father_born = born
         number_persons += 1
 
-def create_judges(c):
+def create_judges():
     global number_judges
-    print("Import data for judges")
+    print("Import data of judges")
     judges = pd.read_csv("../db/judges.csv", encoding='utf8')
     for index, row in judges.iterrows():
         start = row.start
@@ -278,7 +291,7 @@ def create_judges(c):
         drawString(judge, 10, x_box + x_boxwidth * 0.5 , y_box, "cb")
         number_judges += 1
 
-def create_kings(c):
+def create_kings():
     global number_kings
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data of kings")
@@ -295,7 +308,7 @@ def create_kings(c):
         detail = dict[f"{row.key}"] + " "
         time_reigned = "("
         if row.years > 0:
-            time_reigned += f"{row.years} year"
+            time_reigned += f"{row.years} {dict['year']}"
             if row.years > 1:
                 time_reigned += "s"
         if row.months > 0:
@@ -330,7 +343,7 @@ def create_kings(c):
         drawString(detail_l, 10, x_box - 2, y_box + 3, "l")
         number_kings += 1
 
-def create_prophets(c):
+def create_prophets():
     global number_prophets
     print("Import data of prophets")
     prophets = pd.read_csv("../db/prophets.csv", encoding='utf8')
@@ -376,7 +389,7 @@ def create_prophets(c):
         c.drawString(x_box , y_box, prophet)
         number_prophets += 1
 
-def create_books(c):
+def create_books():
     global number_persons
     print("Import data of books")
     books = pd.read_csv("../db/books.csv", encoding='utf8')
@@ -423,7 +436,7 @@ def create_books(c):
         number_persons += 1
 
 
-def create_caesars(c):
+def create_caesars():
     global number_kings
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data of caesars")
@@ -461,7 +474,7 @@ def create_caesars(c):
         drawString(detail, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
         number_kings += 1
 
-def create_periods(c):
+def create_periods():
     global number_periods
     # Import the perios with start and end as pandas dataframe
     print("Import data of periods")
@@ -497,18 +510,18 @@ def create_periods(c):
         number_periods += 1
 
 
-def create_timestamp(c):
-    drawString(f"persons",           4, x1 + 6,   y1 + 29.0, "r")
+def create_timestamp():
+    drawString(f"{dict['persons']}",           4, x1 + 6,   y1 + 29.0, "r")
     drawString(str(number_persons),  4, x1 + 5.4, y1 + 29.0, "l")
-    drawString(f"judges",            4, x1 + 6,   y1 + 24.5, "r")
+    drawString(f"{dict['judges']}",            4, x1 + 6,   y1 + 24.5, "r")
     drawString(str(number_judges),   4, x1 + 5.4, y1 + 24.5, "l")
-    drawString(f"prophets",          4, x1 + 6,   y1 + 20.0, "r")
+    drawString(f"{dict['prophets']}",          4, x1 + 6,   y1 + 20.0, "r")
     drawString(str(number_prophets), 4, x1 + 5.4, y1 + 20.0, "l")
-    drawString(f"kings",             4, x1 + 6,   y1 + 15.5, "r")
+    drawString(f"{dict['kings']}",             4, x1 + 6,   y1 + 15.5, "r")
     drawString(str(number_kings),    4, x1 + 5.4, y1 + 15.5, "l")
-    drawString(f"periods",           4, x1 + 6,   y1 + 11.0, "r")
+    drawString(f"{dict['periods']}",           4, x1 + 6,   y1 + 11.0, "r")
     drawString(str(number_periods),  4, x1 + 5.4, y1 + 11.0, "l")
-    drawString(f"events",            4, x1 + 6,   y1 +  6.5, "r")
+    drawString(f"{dict['events']}",            4, x1 + 6,   y1 +  6.5, "r")
     drawString(str(number_events),   4, x1 + 5.4, y1 +  6.5, "l")
     c.setFont("Aptos", 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]}")
@@ -519,17 +532,26 @@ def render_to_file():
     c.save()
     print(f"File exported: {filename}")
 
-if __name__ == "__main__":
+def create_timeline(lang):
+    global language
+    language = lang
     import_dictionary()
-    import_colors()
-    create_horizontal_axis(c)
-    create_reference_events(c)
-    create_adam_moses(c)
-    create_judges(c)
-    create_kings(c)
-    create_prophets(c)
-    create_books(c)
-    create_periods(c)
-    create_caesars(c)
-    create_timestamp(c)
+    import_colors("normal")
+    create_canvas()
+    create_drawing_area()
+    create_horizontal_axis()
+    create_reference_events()
+    create_adam_moses()
+    create_judges()
+    create_kings()
+    create_prophets()
+    create_books()
+    create_periods()
+    create_caesars()
+    create_timestamp()
     render_to_file()
+
+if __name__ == "__main__":
+    create_timeline("en")
+    create_timeline("de")
+
