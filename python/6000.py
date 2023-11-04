@@ -214,7 +214,7 @@ def create_reference_events(s):
     c.setStrokeColorRGB(0.8, 0, 0)
     date_70 = x1 + (4075 + 70) * dots_year
     c.line(date_70, y_value(-0.4), date_70, y_value(13))
-    drawString("Destruction of Jerusalem by Rome under Titus 70 CE", 10, date_70 + 2, y_value(8), "r")
+    drawString("Destruction of Jerusalem by Rome under Titus 70 CE", 10, date_70 + 2, y_value(12.5), "r")
 
     number_events += 7
 
@@ -498,7 +498,6 @@ def create_periods(c):
 
 
 def create_timestamp(c):
-    print(number_events)
     drawString(f"persons",           4, x1 + 6,   y1 + 29.0, "r")
     drawString(str(number_persons),  4, x1 + 5.4, y1 + 29.0, "l")
     drawString(f"judges",            4, x1 + 6,   y1 + 24.5, "r")
