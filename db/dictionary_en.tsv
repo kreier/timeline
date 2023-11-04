@@ -1,7 +1,7 @@
 key	text	alternative
 year	year	
-BCE	BCE	
-CE	CE	
+BCE	B.C.E.	
+CE	C.E.	
 Adam	Adam	
 Seth	Seth	
 Enosh	Enosh	Eʹnosh
@@ -60,7 +60,7 @@ Jehu	Jehu
 Jeoahaz	Jeoahaz	
 JeoahazJehoash	Jeoahaz and Jehoash	For 3 years Jeoahaz and Jeoash reigned together
 Jehoash2	Jehoash (alone)	Jehoash (alone)
-Jeroboam2	Jeroboam2	
+Jeroboam2	Jeroboam II	
 Zechariah	Zechariah	reign only recorded 6 months, probably only established 792 BCE
 Schallum	Schallum	only one month
 Menahem	Menahem	
@@ -122,3 +122,15 @@ missionary2_r	Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)
 missionary3	 	
 missionary3_l	 	
 missionary3_r	Third Missionary Journey c. 52-56 C.E. then arrested and imprisoned in Rome 58 C.E.	
+circumcision	 	
+circumcision_l	 	
+circumcision_r	Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.	
+caesarea	 	
+caesarea_l	 	
+caesarea_r	Paul in custody in Caesarea c. 56-58 C.E.	
+rome1	 	
+rome1_l	 	
+rome1_r	Paul’s first imprisonment in Rome c. 59-61 C.E.	
+rome2	 	
+rome2_l	 	
+rome2_r	Paul’s second improsionment in Rome c. 65 CE, 2 Timothy written, Paul executed	
