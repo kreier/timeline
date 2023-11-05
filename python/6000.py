@@ -311,17 +311,21 @@ def create_kings():
         detail = dict[f"{row.key}"] + " "
         time_reigned = "("
         if row.years > 0:
-            time_reigned += f"{row.years} {dict['year']}"
+            time_reigned += f"{row.years} "
             if row.years > 1:
-                time_reigned += "s"
+                time_reigned += f"{dict['years']}"
+            else:
+                time_reigned += f"{dict['year']}"
         if row.months > 0:
-            time_reigned += f"{row.months} month"
+            time_reigned += f"{row.months} "
             if row.months > 1:
-                time_reigned += "s"
+                time_reigned += f"{dict['months']}"
+            else:
+                time_reigned += f"{dict['month']}"
         if row.days > 0:
             if row.months > 0:
-                time_reigned + " "
-            time_reigned += f"{row.days} days"
+                time_reigned += " "
+            time_reigned += f"{row.days} {dict['days']}"
 
         detail += f"{-year(start)}-{-year(end)} {time_reigned})"
         if index < 20:
