@@ -511,18 +511,11 @@ def create_periods():
 
 
 def create_timestamp():
-    drawString(f"{dict['persons']}",          4, x1 + 6,   y1 + 29.0, "r")
-    drawString(str(counter_persons),  4, x1 + 5.4, y1 + 29.0, "l")
-    drawString(f"{dict['judges']}",           4, x1 + 6,   y1 + 24.5, "r")
-    drawString(str(counter_judges),   4, x1 + 5.4, y1 + 24.5, "l")
-    drawString(f"{dict['prophets']}",         4, x1 + 6,   y1 + 20.0, "r")
-    drawString(str(counter_prophets), 4, x1 + 5.4, y1 + 20.0, "l")
-    drawString(f"{dict['kings']}",            4, x1 + 6,   y1 + 15.5, "r")
-    drawString(str(counter_kings),   4, x1 + 5.4, y1 + 15.5, "l")
-    drawString(f"{dict['periods']}",          4, x1 + 6,   y1 + 11.0, "r")
-    drawString(str(counter_periods), 4, x1 + 5.4, y1 + 11.0, "l")
-    drawString(f"{dict['events']}",           4, x1 + 6,   y1 +  6.5, "r")
-    drawString(str(counter_events),  4, x1 + 5.4, y1 +  6.5, "l")
+    timestamp_details = ["persons", "judges", "prophets", "kings", "periods", "events"]
+    for index, detail in enumerate(timestamp_details):
+        drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 29.0 - 4.5 * index, "r")
+        counter_detail = str(eval("counter_" + detail))
+        drawString(counter_detail,    4, x1 + 5.4, y1 + 29.0 - 4.5 * index, "l")
     c.setFont("Aptos", 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]}")
 
