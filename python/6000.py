@@ -489,47 +489,43 @@ def create_periods():
     c.setFont("Aptos", 10)
     c.setLineWidth(0.3)
     for index, row in periods.iterrows():
-        detail_c = detail_l = detail_r = ""
+        detail_c = detail = ""
         start = row.start
         end   = row.end
         key   = row.key
-        if len(dict[key]) > 1:
-            detail_c = dict[key]
-        key   = row.key + "_l"
-        if len(dict[key]) > 1:
-            detail_l = dict[key]            
-        key   = row.key + "_r"
-        if len(dict[key])> 1:
-            detail_r = dict[key]
         x_box = x1 + (4075 + start) * dots_year
         y_box = y_value(row.row_y)
         x_boxwidth = (end - start) * dots_year
         co = color[f"{row.key}"]
         c.setFillColorRGB(co[0], co[1], co[2])
-        # c.setFillColorRGB(row.R, row.G, row.B)
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
         c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
         c.setFillColorRGB(0, 0, 0)
-        drawString(detail_c, 10, x_box + x_boxwidth * 0.5, y_box + 3, "c")
-        drawString(detail_r, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
-        drawString(detail_l, 10, x_box - 2, y_box + 3, "l")
+        if len(row.text_center) > 1:
+            detail_c = dict[row.text_center]
+            drawString(detail_c, 10, x_box + x_boxwidth * 0.5, y_box + 3, "c")
+        detail = dict[key]
+        if row.location_description == "l":
+            drawString(detail, 10, x_box - 2, y_box + 3, "l")
+        else:
+            drawString(detail, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
         number_periods += 1
 
 
 def create_timestamp():
-    drawString(f"{dict['persons']}",           4, x1 + 6,   y1 + 29.0, "r")
+    drawString(f"{dict['persons']}",          4, x1 + 6,   y1 + 29.0, "r")
     drawString(str(count_persons),  4, x1 + 5.4, y1 + 29.0, "l")
-    drawString(f"{dict['judges']}",            4, x1 + 6,   y1 + 24.5, "r")
+    drawString(f"{dict['judges']}",           4, x1 + 6,   y1 + 24.5, "r")
     drawString(str(count_judges),   4, x1 + 5.4, y1 + 24.5, "l")
-    drawString(f"{dict['prophets']}",          4, x1 + 6,   y1 + 20.0, "r")
+    drawString(f"{dict['prophets']}",         4, x1 + 6,   y1 + 20.0, "r")
     drawString(str(count_prophets), 4, x1 + 5.4, y1 + 20.0, "l")
-    drawString(f"{dict['kings']}",             4, x1 + 6,   y1 + 15.5, "r")
-    drawString(str(number_kings),    4, x1 + 5.4, y1 + 15.5, "l")
-    drawString(f"{dict['periods']}",           4, x1 + 6,   y1 + 11.0, "r")
-    drawString(str(number_periods),  4, x1 + 5.4, y1 + 11.0, "l")
-    drawString(f"{dict['events']}",            4, x1 + 6,   y1 +  6.5, "r")
-    drawString(str(number_events),   4, x1 + 5.4, y1 +  6.5, "l")
+    drawString(f"{dict['kings']}",            4, x1 + 6,   y1 + 15.5, "r")
+    drawString(str(number_kings),   4, x1 + 5.4, y1 + 15.5, "l")
+    drawString(f"{dict['periods']}",          4, x1 + 6,   y1 + 11.0, "r")
+    drawString(str(number_periods), 4, x1 + 5.4, y1 + 11.0, "l")
+    drawString(f"{dict['events']}",           4, x1 + 6,   y1 +  6.5, "r")
+    drawString(str(number_events),  4, x1 + 5.4, y1 +  6.5, "l")
     c.setFont("Aptos", 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]}")
 
