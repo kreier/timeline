@@ -452,16 +452,15 @@ def create_caesars():
         start = row.start
         end   = row.end
         row_y = row.row_y
-        detail = f"{row.key} "
-        # detail = dict[f"{row.key}"] + " "
+        detail = f"{dict[row.key]} "
         if start < 0:
-            detail += f"{int(-start+1)} BCE - "
+            detail += f"{int(-start+1)} {dict['BCE']} - "
         else:
             detail += f"{int(start)}-"
         if end < 0:
-            detail += f" {int(-end+1)} BCE"
+            detail += f" {int(-end+1)} {dict['BCE']}"
         else:
-            detail += f"{int(end)} CE"
+            detail += f"{int(end)} {dict['CE']}"
         x_box = x1 + (4075 + start) * dots_year
         y_box = y2 - row_y*12 - 16
         x_boxwidth = (end -  start) * dots_year
