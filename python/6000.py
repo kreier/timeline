@@ -8,7 +8,6 @@ from reportlab.lib import colors
 from reportlab.lib.units import mm
 from reportlab.graphics import renderPDF
 from reportlab.graphics.shapes import *
-from reportlab.graphics.charts.axes import XValueAxis
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase.pdfmetrics import stringWidth
@@ -33,8 +32,6 @@ page_height = 210*mm     #    A4 landscape
 border_lr   = 10*mm
 border_tb   = 10*mm
 pdf_author  = "Matthias Kreier"
-pdf_title   = "6000 years human history visualized"
-pdf_subject = "Timeline of humankind"
 vertical_lines  = False
 
 dict  = {}
@@ -90,13 +87,13 @@ def drawString(text, fontsize, x_string, y_string, position):
 
 # initiate variables
 def initiate_counters():
-    global count_persons, count_judges, count_prophets, number_kings, number_periods, number_events
-    count_persons  = 0
-    count_judges   = 0
-    count_prophets = 0
-    number_kings    = 0
-    number_periods  = 0
-    number_events   = 0
+    global counter_persons, counter_judges, counter_prophets, counter_kings, counter_periods, counter_events
+    counter_persons  = 0
+    counter_judges   = 0
+    counter_prophets = 0
+    counter_kings    = 0
+    counter_periods  = 0
+    counter_events   = 0
 
 # Import strings for the respective language for names and comments
 def import_dictionary():
@@ -123,8 +120,8 @@ def create_canvas():
     filename = "../timeline/timeline_v" + version + "_"+ language + ".pdf"
     c = canvas.Canvas(filename, pagesize=(page_width,page_height))
     c.setAuthor(pdf_author)
-    c.setTitle(pdf_title)
-    c.setSubject(pdf_subject)
+    c.setTitle(dict['pdf_title'])
+    c.setSubject(dict['pdf_subject'])
 
 def create_drawing_area():
     global drawing_height, drawing_width, d, x1, y1, x2, y2
@@ -188,7 +185,7 @@ def create_horizontal_axis():
     c.drawRightString(x2, y2 + 8,  dict["CE"])
 
 def create_reference_events():
-    global number_events
+    global counter_events
 
     # 2 Red line for the division fo the kingdom 997 BCE
     c.setStrokeColorRGB(0.8, 0, 0)
@@ -221,13 +218,13 @@ def create_reference_events():
     c.line(date_70, y_value(-0.4), date_70, y_value(13))
     drawString("Destruction of Jerusalem by Rome under Titus 70 CE", 10, date_70 + 2, y_value(12.5), "r")
 
-    number_events += 7
+    counter_events += 7
 
 
 def create_adam_moses():
     # unique pattern for people from Adam to Moses, and eventline for deluge
-    global count_persons
-    global number_events
+    global counter_persons
+    global counter_events
 
     # Blue line for the deluge in 2370 BCE
     c.setLineWidth(1)
@@ -235,7 +232,7 @@ def create_adam_moses():
     date_deluge = x1 + (4075 - 2370) * dots_year
     c.line(date_deluge, y1, date_deluge, y2)
     drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
-    number_events += 1
+    counter_events += 1
 
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data Adam to Moses")
@@ -262,10 +259,10 @@ def create_adam_moses():
         if index > 0 and index < 23:
             drawString(f"{father_born - born} {dict['years']}", 9, x_box - 3, y_box + 11, "l")
         father_born = born
-        count_persons += 1
+        counter_persons += 1
 
 def create_judges():
-    global count_judges
+    global counter_judges
     print("Import data of judges")
     judges = pd.read_csv("../db/judges.csv", encoding='utf8')
     for index, row in judges.iterrows():
@@ -292,10 +289,10 @@ def create_judges():
         judge = row.key
         # judge = dict[f"{row.key}"]
         drawString(judge, 10, x_box + x_boxwidth * 0.5 , y_box, "cb")
-        count_judges += 1
+        counter_judges += 1
 
 def create_kings():
-    global number_kings
+    global counter_kings
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data of kings")
     kings = pd.read_csv("../db/kings.csv", encoding='utf8')
@@ -348,10 +345,10 @@ def create_kings():
         c.setFillColorRGB(0, 0, 0)
         drawString(detail_r, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
         drawString(detail_l, 10, x_box - 2, y_box + 3, "l")
-        number_kings += 1
+        counter_kings += 1
 
 def create_prophets():
-    global count_prophets
+    global counter_prophets
     print("Import data of prophets")
     prophets = pd.read_csv("../db/prophets.csv", encoding='utf8')
     for index, row in prophets.iterrows():
@@ -394,10 +391,10 @@ def create_prophets():
         c.setFont("Aptos", 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, prophet)
-        count_prophets += 1
+        counter_prophets += 1
 
 def create_books():
-    global count_persons
+    global counter_persons
     print("Import data of books")
     books = pd.read_csv("../db/books.csv", encoding='utf8')
     for index, row in books.iterrows():
@@ -440,11 +437,11 @@ def create_books():
         c.setFont("Aptos", 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, book)
-        count_persons += 1
+        counter_persons += 1
 
 
 def create_caesars():
-    global number_kings
+    global counter_kings
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data of caesars")
     caesars = pd.read_csv("../db/caesars.csv", encoding='utf8')
@@ -479,10 +476,10 @@ def create_caesars():
         c.line(x_born, y_box + 1, x_born, y_box + 10)
         c.setFillColorRGB(0, 0, 0)
         drawString(detail, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
-        number_kings += 1
+        counter_kings += 1
 
 def create_periods():
-    global number_periods
+    global counter_periods
     # Import the perios with start and end as pandas dataframe
     print("Import data of periods")
     periods = pd.read_csv("../db/periods.csv", encoding='utf8')
@@ -510,22 +507,22 @@ def create_periods():
             drawString(detail, 10, x_box - 2, y_box + 3, "l")
         else:
             drawString(detail, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
-        number_periods += 1
+        counter_periods += 1
 
 
 def create_timestamp():
     drawString(f"{dict['persons']}",          4, x1 + 6,   y1 + 29.0, "r")
-    drawString(str(count_persons),  4, x1 + 5.4, y1 + 29.0, "l")
+    drawString(str(counter_persons),  4, x1 + 5.4, y1 + 29.0, "l")
     drawString(f"{dict['judges']}",           4, x1 + 6,   y1 + 24.5, "r")
-    drawString(str(count_judges),   4, x1 + 5.4, y1 + 24.5, "l")
+    drawString(str(counter_judges),   4, x1 + 5.4, y1 + 24.5, "l")
     drawString(f"{dict['prophets']}",         4, x1 + 6,   y1 + 20.0, "r")
-    drawString(str(count_prophets), 4, x1 + 5.4, y1 + 20.0, "l")
+    drawString(str(counter_prophets), 4, x1 + 5.4, y1 + 20.0, "l")
     drawString(f"{dict['kings']}",            4, x1 + 6,   y1 + 15.5, "r")
-    drawString(str(number_kings),   4, x1 + 5.4, y1 + 15.5, "l")
+    drawString(str(counter_kings),   4, x1 + 5.4, y1 + 15.5, "l")
     drawString(f"{dict['periods']}",          4, x1 + 6,   y1 + 11.0, "r")
-    drawString(str(number_periods), 4, x1 + 5.4, y1 + 11.0, "l")
+    drawString(str(counter_periods), 4, x1 + 5.4, y1 + 11.0, "l")
     drawString(f"{dict['events']}",           4, x1 + 6,   y1 +  6.5, "r")
-    drawString(str(number_events),  4, x1 + 5.4, y1 +  6.5, "l")
+    drawString(str(counter_events),  4, x1 + 5.4, y1 +  6.5, "l")
     c.setFont("Aptos", 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]}")
 
