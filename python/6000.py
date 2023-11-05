@@ -36,12 +36,6 @@ pdf_author  = "Matthias Kreier"
 pdf_title   = "6000 years human history visualized"
 pdf_subject = "Timeline of humankind"
 vertical_lines  = False
-number_persons  = 0
-number_judges   = 0
-number_prophets = 0
-number_kings    = 0
-number_periods  = 0
-number_events   = 0
 
 dict  = {}
 color = {}
@@ -94,6 +88,15 @@ def drawString(text, fontsize, x_string, y_string, position):
         c.setFillColorRGB(0, 0, 0)
         c.drawCentredString(x_string, y_string, text)
 
+# initiate variables
+def initiate_counters():
+    global count_persons, count_judges, count_prophets, number_kings, number_periods, number_events
+    count_persons  = 0
+    count_judges   = 0
+    count_prophets = 0
+    number_kings    = 0
+    number_periods  = 0
+    number_events   = 0
 
 # Import strings for the respective language for names and comments
 def import_dictionary():
@@ -223,7 +226,7 @@ def create_reference_events():
 
 def create_adam_moses():
     # unique pattern for people from Adam to Moses, and eventline for deluge
-    global number_persons
+    global count_persons
     global number_events
 
     # Blue line for the deluge in 2370 BCE
@@ -259,10 +262,10 @@ def create_adam_moses():
         if index > 0 and index < 23:
             drawString(f"{father_born - born} {dict['years']}", 9, x_box - 3, y_box + 11, "l")
         father_born = born
-        number_persons += 1
+        count_persons += 1
 
 def create_judges():
-    global number_judges
+    global count_judges
     print("Import data of judges")
     judges = pd.read_csv("../db/judges.csv", encoding='utf8')
     for index, row in judges.iterrows():
@@ -289,7 +292,7 @@ def create_judges():
         judge = row.key
         # judge = dict[f"{row.key}"]
         drawString(judge, 10, x_box + x_boxwidth * 0.5 , y_box, "cb")
-        number_judges += 1
+        count_judges += 1
 
 def create_kings():
     global number_kings
@@ -344,7 +347,7 @@ def create_kings():
         number_kings += 1
 
 def create_prophets():
-    global number_prophets
+    global count_prophets
     print("Import data of prophets")
     prophets = pd.read_csv("../db/prophets.csv", encoding='utf8')
     for index, row in prophets.iterrows():
@@ -387,10 +390,10 @@ def create_prophets():
         c.setFont("Aptos", 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, prophet)
-        number_prophets += 1
+        count_prophets += 1
 
 def create_books():
-    global number_persons
+    global count_persons
     print("Import data of books")
     books = pd.read_csv("../db/books.csv", encoding='utf8')
     for index, row in books.iterrows():
@@ -433,7 +436,7 @@ def create_books():
         c.setFont("Aptos", 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, book)
-        number_persons += 1
+        count_persons += 1
 
 
 def create_caesars():
@@ -512,11 +515,11 @@ def create_periods():
 
 def create_timestamp():
     drawString(f"{dict['persons']}",           4, x1 + 6,   y1 + 29.0, "r")
-    drawString(str(number_persons),  4, x1 + 5.4, y1 + 29.0, "l")
+    drawString(str(count_persons),  4, x1 + 5.4, y1 + 29.0, "l")
     drawString(f"{dict['judges']}",            4, x1 + 6,   y1 + 24.5, "r")
-    drawString(str(number_judges),   4, x1 + 5.4, y1 + 24.5, "l")
+    drawString(str(count_judges),   4, x1 + 5.4, y1 + 24.5, "l")
     drawString(f"{dict['prophets']}",          4, x1 + 6,   y1 + 20.0, "r")
-    drawString(str(number_prophets), 4, x1 + 5.4, y1 + 20.0, "l")
+    drawString(str(count_prophets), 4, x1 + 5.4, y1 + 20.0, "l")
     drawString(f"{dict['kings']}",             4, x1 + 6,   y1 + 15.5, "r")
     drawString(str(number_kings),    4, x1 + 5.4, y1 + 15.5, "l")
     drawString(f"{dict['periods']}",           4, x1 + 6,   y1 + 11.0, "r")
@@ -535,6 +538,7 @@ def render_to_file():
 def create_timeline(lang):
     global language
     language = lang
+    initiate_counters()
     import_dictionary()
     import_colors("normal")
     create_canvas()
