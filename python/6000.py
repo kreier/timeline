@@ -24,7 +24,7 @@ pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
 
 # Some general settings
-version  = "3.4"
+version  = "3.5"
 language = "en"
 color_scheme = "normal"
 page_width  = 4*297*mm   # 4x A4 landscape
@@ -320,7 +320,6 @@ def create_kings():
         # c.setFillColorRGB(1,0,.3)
         co = color[row.key]
         c.setFillColorRGB(co[0], co[1], co[2])
-
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
         c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
@@ -328,6 +327,18 @@ def create_kings():
         drawString(detail_r, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
         drawString(detail_l, 10, x_box - 2, y_box + 3, "l")
         counter_kings += 1
+
+def timebar(x, y, width, R, G, B):
+    c.setLineWidth(0.0)
+    c.setStrokeColorRGB(1, 1, 1)
+    c.setFillColorRGB(R, G, B)
+    c.rect(x, y, width, 4, fill = 1, stroke = 0)        
+    # let's overdraw left and right side with some shades, 75% 50% and 25%
+    factor = [0.75, 0.50, 0.25]
+    for i in range(3):
+        c.setFillColorRGB(1 - factor[i] * (1 - R), 1 - factor[i] * (1 - G), 1 - factor[i] * (1 - B))
+        c.rect(x + 2 - i,         y, 1, 4, fill = 1, stroke = 0)
+        c.rect(x + width - 3 + i, y, 1, 4, fill = 1, stroke = 0)
 
 def create_prophets():
     global counter_prophets
@@ -340,35 +351,8 @@ def create_prophets():
         x_box = x1 + (4075 + start) * dots_year
         y_box = y2 - row_y*12 - 4
         x_boxwidth = (end -  start) * dots_year
-        c.setLineWidth(0.0)
-        c.setStrokeColorRGB(1, 1, 1)
         co = color['prophets']
-        c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_box, y_box + 10, x_boxwidth, 4, fill = 1, stroke = 0)
-
-        # let's overdraw left and right side with some shades, 75% 50% and 25%
-        color_R = 1 - 0.75 * (1 - co[0])
-        color_G = 1 - 0.75 * (1 - co[1])
-        color_B = 1 - 0.75 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box + 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 3, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        # 50%
-        color_R = 1 - 0.5 * (1 - co[0])
-        color_G = 1 - 0.5 * (1 - co[1])
-        color_B = 1 - 0.5 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box + 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        # 25%
-        color_R = 1 - 0.25 * (1 - co[0])
-        color_G = 1 - 0.25 * (1 - co[1])
-        color_B = 1 - 0.25 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
-
-        # prophet = row.key
+        timebar(x_box, y_box + 10, x_boxwidth, co[0], co[1], co[2])
         prophet = dict[row.key]
         c.setFont("Aptos", 10)
         c.setFillColorRGB(0, 0, 0)
@@ -385,44 +369,14 @@ def create_books():
         row_y = row.row_y
         x_box = x1 + (4075 + start) * dots_year
         y_box = y2 - row_y*12 - 4
-
-        # create box above names, 4 dots high
         x_boxwidth = (end -  start) * dots_year
-        c.setLineWidth(0.0)
-        c.setStrokeColorRGB(1, 1, 1)
         co = color['books']
-        c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_box, y_box + 10, x_boxwidth, 4, fill = 1, stroke = 0)
-
-        # let's overdraw left and right side with some shades, 75% 50% and 25%
-        color_R = 1 - 0.75 * (1 - co[0])
-        color_G = 1 - 0.75 * (1 - co[1])
-        color_B = 1 - 0.75 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box + 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 3, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        # 50%
-        color_R = 1 - 0.5 * (1 - co[0])
-        color_G = 1 - 0.5 * (1 - co[1])
-        color_B = 1 - 0.5 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box + 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        # 25%
-        color_R = 1 - 0.25 * (1 - co[0])
-        color_G = 1 - 0.25 * (1 - co[1])
-        color_B = 1 - 0.25 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
-
-        # book = row.key
+        timebar(x_box, y_box + 10, x_boxwidth, co[0], co[1], co[2])
         book = dict[row.key]
         c.setFont("Aptos", 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, book)
         counter_persons += 1
-
 
 def create_caesars():
     global counter_kings
@@ -530,4 +484,4 @@ def create_timeline(lang):
 
 if __name__ == "__main__":
     create_timeline("en")
-    create_timeline("de")
+    # create_timeline("de")
