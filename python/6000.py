@@ -307,7 +307,7 @@ def create_kings():
             time_reigned += f"{row.days} {dict['days']}"
 
         detail += f"{-year(start)}-{-year(end)} {time_reigned})"
-        if index < 20:
+        if index < 23:
             detail_l = ""
             detail_r = detail
         else:
@@ -368,8 +368,8 @@ def create_prophets():
         c.rect(x_box, y_box + 10, 1, 4, fill = 1, stroke = 0)
         c.rect(x_box + x_boxwidth - 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
 
-        prophet = row.key
-        # judge = dict[f"{row.key}"]
+        # prophet = row.key
+        prophet = dict[row.key]
         c.setFont("Aptos", 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, prophet)
@@ -416,8 +416,8 @@ def create_books():
         c.rect(x_box, y_box + 10, 1, 4, fill = 1, stroke = 0)
         c.rect(x_box + x_boxwidth - 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
 
-        book = row.key
-        # judge = dict[f"{row.key}"]
+        # book = row.key
+        book = dict[row.key]
         c.setFont("Aptos", 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, book)
