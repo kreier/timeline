@@ -1,7 +1,22 @@
 key	text	alternative
-year	year	
+pdf_title	6000 years human history visualized 	
+pdf_subject	Timeline of humankind 	
 BCE	B.C.E.	
 CE	C.E.	
+year	year	
+years	years	
+month	month	
+months	months	
+day	day	
+days	days	
+to	to	
+persons	persons	
+judges	judges	
+prophets	prophets	
+kings	kings	
+periods	periods	
+events	events	
+Deluge	Deluge	
 Adam	Adam	
 Seth	Seth	
 Enosh	Enosh	Eʹnosh
@@ -26,6 +41,22 @@ Isaac	Isaac
 Jacob	Jacob	
 Joseph	Joseph	
 Moses	Moses	
+Othniel	Othniel	1
+Ehud	Ehud	2
+Shamgar	Shamgar	3
+Barak	Barak	4
+Gideon	Gideon	5
+Tola	Tola	6
+Jair	Jair	7
+Jephthah	Jephthah	8
+Ibzan	Ibzan	9
+Elon	Elon	10
+Abdon	Abdon	11
+Samson	Samson	12
+Samuel	Samuel	13
+Saul	Saul	1
+David	David	2
+Solomo	Solomo	3
 Rehoboam	Rehoboam	first king of southern kingdom of Juda
 Abijah	Abijah (Abijam)	3 years, also Abijam
 Asa	Asa	
@@ -67,70 +98,68 @@ Menahem	Menahem
 Pekahiah	Pekahiah	
 Pekah	Pekah	
 Hoshea	Hoshea	9 years from c. 748
-Saul	Saul	
-David	David	
-Solomo	Solomo	
-moses2	Moses	
-moses2_l	1593 to 1473 BCE – 120 years	
-moses2_r	 	
-wilderness	 	
-wilderness_l	Israel in the wilderness 1513 to 1473 BCE – 40 years	
-wilderness_r	 	
-judges	Time of the judges	
-judges_l	1473 to 1117 BCE – 356 years	
-judges_r	 	
-temple	479 years until the temple construction – 1 Kings 6:1	
-temple_l	Nisan 1513 BCE to Ziv 1034 BCE	
-temple_r	 	1034 BCE
-jesus_life	 	
-jesus_life_l	Jesus born 2 BCE	
-jesus_life_r	Executed Nisan 14th, 33 CE	
-jesus_service	 	
-jesus_service_l	Jesus baptized autumn 29 CE	
-jesus_service_r	3.5 years of Jesus service	
-69weeks	69 weeks to the Messiah – Daniel 9:25	
-69weeks_l	rebuild Jerusalem 455 BCE	
-69weeks_r	Jesus baptized	
-exile	exile	
-exile_l	 	
-exile_r	607 to 537 BCE – 70 years (Jeremiah 25:11)	
-7times	7 times – 2520 years to the Messianic Kingdom 1914 CE (Daniel 4:23)	
-7times_l	 	
-7times_r	 	
-ww1	 	
-ww1_l	World War I – 1914–1918 CE	
-ww1_r	 	
-ww2	 	
-ww2_l	World War II – 1939–1945 CE	
-ww2_r	 	
-30_year_war	 	
-30_year_war_l	30 year war in Europe 1618-1648 CE	
-30_year_war_r	 	
-joshua	Joshua	
-joshua_l	110 years	
-joshua_r	 	
-caleb	Caleb	
-caleb_l	more than 85 years	
-caleb_r	 	
-exodus	Exodus from Egypt on Nisan 14th, 1513 BCE	
-missionary1	 	
-missionary1_l	 	
-missionary1_r	First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark	
-missionary2	 	
-missionary2_l	 	
-missionary2_r	Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)	
-missionary3	 	
-missionary3_l	 	
-missionary3_r	Third Missionary Journey c. 52-56 C.E. then arrested and imprisoned in Rome 58 C.E.	
-circumcision	 	
-circumcision_l	 	
-circumcision_r	Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.	
-caesarea	 	
-caesarea_l	 	
-caesarea_r	Paul in custody in Caesarea c. 56-58 C.E.	
-rome1	 	
-rome1_l	 	
-rome1_r	Paul’s first imprisonment in Rome c. 59-61 C.E.	
-rome2	 	
-rome2_l	 	
-rome2_r	Paul’s second improsionment in Rome c. 65 CE, 2 Timothy written, Paul executed	
+Elijah	Elijah	
+Elisha	Elisha	
+Jonah	Jonah	
+Amos	Amos	
+Joel	Joel	
+Hosea	Hosea	
+Isaiah	Isaiah	
+Micah	Micah	
+Zephaniah	Zephaniah	
+Nahum	Nahum	
+Jeremiah	Jeremiah	
+Habakuk	Habakuk	
+Daniel	Daniel	
+Ezekiel	Ezekiel	
+Obadiah	Obadiah	
+Malachi	Malachi	
+Ruth	Ruth	
+Ezra	Ezra	
+Nehemiah	Nehemiah	
+Esther	Esther	
+Job	Job	
+moses2	1593 to 1473 B.C.E. – 120 years	
+moses3	Moses	
+wilderness	Israel in the wilderness 1513 to 1473 B.C.E. – 40 years	
+timespan_judges	1473 to 1117 B.C.E. – 356 years	
+timespan_judges2	Time of the judges	
+temple1	Nisan 1513 B.C.E. to Ziv 1034 B.C.E.	
+temple2	479 years until the temple construction – 1 Kings 6:1	1034 BCE
+69weeks	Jesus baptized autumn 29 C.E.	
+69weeks2	69 weeks to the Messiah – Daniel 9:25	
+jesus_service	3.5 years of Jesus service, executed Nisan 14th, 33 C.E.	
+jesus_life	Jesus born 2 B.C.E.	
+exile	607 to 537 B.C.E. – 70 years (Jeremiah 25:11)	
+exile2	exile	
+7times	Revelation 12:9	
+7times2	7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)	
+ww1	World War I – 1914–1918 C.E.	
+ww2	World War II – 1939–1945 C.E.	
+30_year_war	30 year war in Europe 1618-1648 C.E.	
+joshua	110 years	
+joshua2	Joshua	
+caleb	more than 85 years	
+caleb2	Caleb	
+missionary1	First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark	
+circumcision	Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.	
+missionary2	Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)	
+missionary3	Third Missionary Journey c. 52-56 C.E.	
+caesarea	Paul in custody in Caesarea c. 56-58 C.E.	
+rome1	Paul’s first imprisonment in Rome c. 59-61 C.E.	
+rome2	Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed	
+Julius	Julius	
+Augustus	Augustus	
+Tiberius	Tiberius	
+Caligula	Caligula	
+Claudius	Claudius	
+Nero	Nero	
+Galba-Otho-Vitellius	Galba, Otho and Vitellius (Year of the Four Emperors)	
+Vespasian	Vespasian	
+event_division_kingdom	Division of Israel 997 BCE	
+event_exodus	Exodus from Egypt on Nisan 14th, 1513 B.C.E.	
+event_1914	End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. 	
+event_destruction_jerusalem1	Destruction of Jerusalem 607 B.C.E. by Babylon 	
+event_destruction_jerusalem2	Destruction of Jerusalem 70 C.E. by Rome under Titus	
+event_destruction_samaria	Destruction of Samaria 740 B.C.E. by Assyria 	
+event_jerusalem_rebuilt	Jerusalem rebuilt 455 B.C.E.	

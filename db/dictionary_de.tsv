@@ -1,28 +1,165 @@
-key,de
-year,Jahr
-BCE,v.u.Z.
-CE,u.Z.
-Adam,Adam
-Seth,Seth
-Enosh,Enosch
-Kenan,Kenan
-Mahalalel,Mahalalel
-Jared,Jared
-Enoch,Henoch
-Methuselah,Methusalah
-Lamech,Lamech
-Noah,Noah
-Shem,Sem
-Arpachshad,Arpachschad
-Shelah,Schelach
-Eber,Eber
-Peleg,Peleg
-Reu,Reu
-Serug,Serug
-Nahor,Nahor
-Terah,Terach
-Abraham,Abraham
-Isaac,Isaak
-Jacob,Jakob
-Joseph,Joseph
-Moses,Moses
+key	text	alternative
+pdf_title	6000 Jahre Menschheitsgeschichte visualisiert	
+pdf_subject	Zeitleiste der Menschheit	
+BCE	v.u.Z.	
+CE	u.Z.	
+year	Jahr	
+years	Jahre	
+month	Monat	
+months	Monate	
+day	Tag	
+days	Tage	
+to	bis	
+persons	Personen	
+judges	Richter	
+prophets	Propheten	
+kings	Könige	
+periods	Zeitabschnitte	
+events	Ereignisse	
+Deluge	Sintflut	
+Adam	Adam	
+Seth	Seth	
+Enosh	Ẹnosch	
+Kenan	Kẹnan	
+Mahalalel	Mahalạlel	
+Jared	Jạred	
+Enoch	Hẹnoch	
+Methuselah	Methụsalah	
+Lamech	Lạmech	
+Noah	Noah	
+Shem	Sem	
+Arpachshad	Ạrpachschad	
+Shelah	Schẹlach	
+Eber	Ẹber	
+Peleg	Pẹleg	
+Reu	Rẹu	
+Serug	Sẹrug	
+Nahor	Nạhor	
+Terah	Tẹrach	
+Abraham	Abraham	
+Isaac	Isaak	
+Jacob	Jakob	
+Joseph	Joseph	
+Moses	Moses	
+Othniel	Ọthniël	1
+Ehud	Ẹhud	2
+Shamgar	Schạmgar	3
+Barak	Bạrak	4
+Gideon	Gịdeon	5
+Tola	Tọla	6
+Jair	Jạir	7
+Jephthah	Jẹphtha	8
+Ibzan	Ịbzan	9
+Elon	Ẹlon	10
+Abdon	Ạbdon	11
+Samson	Simson	12
+Samuel	Samuel	13
+Saul	Saul	1
+David	David	2
+Solomo	Sạlomo	3
+Rehoboam	Rehạbeam	erster König des südlichen Zweistämmereiches
+Abijah	Abija (Abịjam)	3 years, also Abijam
+Asa	Ạsa	
+Jehoshaphat	Josaphat	bce_float = -y+1 - (12-m)/12 – (31-d)/360
+Jehoram2	Joram	
+Ahaziah	Ahasja	
+Athaliah	Königin Athalija	Queen Athaliah
+Jehoash	Joas	
+Amaziah	Amazja	
+Uzziah	Usija (Asarja)	also Azariah
+Jotham	Jotham	
+Ahaz	Ahas	
+Hezekiah	Hiskia	
+Manasseh	Manasse	
+Amon	Amon	
+Josiah	Josia	
+Jehoahaz	Jehoahas	Only 3 months
+Jehoiakim	Jojakim	
+Jehoiachin	Jojachin	Only 3 months 10 days
+Zedekia	Zedekia	
+Jeroboam	Jerọbeam	first king of northern 10-tribe kingdom
+Nadab	Nạdab	less than 2
+Baasha	Bạscha	
+Elah	Ẹla	
+Zimri	Sịmri	Only 7 days in ca. 751 BCE
+OmriTibni	Ọmri und Tibni zusammen	4 years Omri and Tibni
+Omri	Ọmri (allein)	from 947 Omri alone
+Ahab	Ạhab	
+Ahaziah	Ahasja	
+Jehoram	Joram	
+Jehu	Jehu	
+Jeoahaz	Jehoahas	
+JeoahazJehoash	Jehoahas und Joas	For 3 years Jeoahaz and Jeoash reigned together
+Jehoash2	Joas (allein)	Jehoash (alone)
+Jeroboam2	Jerobeam II	
+Zechariah	Sacharja	reign only recorded 6 months, probably only established 792 BCE
+Schallum	Schallum	only one month
+Menahem	Menahem	
+Pekahiah	Pekachja	
+Pekah	Pekachja	
+Hoshea	Hoschea	9 years from c. 748
+Elijah	Elia	
+Elisha	Elisa	
+Jonah	Jona	
+Amos	Amos	
+Joel	Jọel	
+Hosea	Hosea	
+Isaiah	Jesaja	
+Micah	Micha	
+Zephaniah	Zephạnja	
+Nahum	Nahum	
+Jeremiah	Jeremia	
+Habakuk	Habakuk	
+Daniel	Daniel	
+Ezekiel	Hesẹkiel	
+Obadiah	Obadja	
+Malachi	Maleachi	
+Ruth	Ruth	
+Ezra	Esra	
+Nehemiah	Nehemia	
+Esther	Esther	
+Job	Hiob	
+moses2	1593 bis 1473 v.u.Z. – 120 Jahre	
+moses3	Moses	
+wilderness	Israel in der Wildnis von 1513 bis 1473 v.u.Z. – 40 Jahre	
+timespan_judges	1473 bis 1117 v.u.Z. – 356 Jahre	
+timespan_judges2	Zeit der Richter	
+temple1	Nisan 1513 v.u.Z bis Ziv 1034 v.u.Z.	
+temple2	479 Jahre bis Beginn des Tempelbaus – 1. Könige 6:1	1034 BCE
+69weeks	Jesus getauft im Herbst 29 u.Z	
+69weeks2	69 Wochen bis zum Messias – Daniel 9:25	
+jesus_service	3,5 Jahre Dienstzeit Jesu, getötet am 14. Nisan 33 u.Z.	
+jesus_life	Jesus wurde im Jahr 2 v.u.Z. geboren	
+exile	607 bis 537 v.u.Z. – 70 Jahre (Jeremia 25:11)	
+exile2	Exil	
+7times	Offenbarung 12:9	
+7times2	7 Zeiten – 2520 Jahre bis zum Messianischen Königreich 1914 u.Z. (Daniel 4:23)	
+ww1	1. Weltkrieg – 1914–1918 u.Z.	
+ww2	2. Weltkrieg – 1939–1945 u.Z.	
+30_year_war	Dreißigjähriger Krieg in Europa 1618-1648 u.Z.	
+joshua	110 Jahre	
+joshua2	Josua	
+caleb	mehr als 85 Jahre	
+caleb2	Kaleb	
+missionary1	Erste Missionsreise von Paulus, ca. 47-48 u.Z., mit Barnabas und Johannes (Markus)	
+circumcision	Streitfrage der Beschneidung in Antiochia, Zusammenkunft in Jerusalem ca. 49 u.Z.	
+missionary2	Zweite Missionsreise ca. 49-52 u.Z. mit Silas (Silvanus)	
+missionary3	Dritte Missionsreise ca. 52-56 u.Z.	
+caesarea	Paulus in Gefangenschaft in Cäserea ca. 56-58 u.Z.	
+rome1	Erste Gefangenschaft von Paulus in Rom ca. 59-61 u.Z.	
+rome2	Zweite Gefangenschaft in Rom ca. 65 u.Z., 2. Timotheus geschrieben, Paulus hingerichtet	
+Julius	Julius	
+Augustus	Augustus	
+Tiberius	Tiberius	
+Caligula	Caligula	
+Claudius	Claudius	
+Nero	Nero	
+Galba-Otho-Vitellius	Galba, Otho und Vitellius (Vierkaiserjahr)	
+Vespasian	Vespasian	
+event_division_kingdom	Teilung Israels 997 v.u.Z.	
+event_exodus	Auszug aus Ägypten am 14. Nisan 1513 v.u.Z.	
+event_1914	Ende der “Zeiten der Nationen”, Gottes Königkreich beginn im Himmel zu regieren 1914 u.Z. 	
+event_destruction_jerusalem1	Zerstörung von Jerusalem 607 v.u.Z. durch Babylon	
+event_destruction_jerusalem2	Zerstörung von Jerusalem 70 u.Z. durch Rom unter Titus	
+event_destruction_samaria	Zerstörung von Samaria 740 v.u.Z. durch Assyrien	
+event_jerusalem_rebuilt	Jerusalem wiederaufgebaut 455 v.u.Z.	
