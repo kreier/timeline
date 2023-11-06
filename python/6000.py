@@ -531,4 +531,3 @@ def create_timeline(lang):
 if __name__ == "__main__":
     create_timeline("en")
     create_timeline("de")
-

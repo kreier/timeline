@@ -4,7 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 
-Human history graph created with python and reportlab. Version v3.3 replicates most of the information of v1.1 with one single page. See both for comparison below.
+Human history graph created with python and reportlab. Version v3.4 replicates most of the information of v1.1 with one single page. See both for comparison below.
 
 ![timeline 3.3](docs/timeline20231104.png)
 
@@ -28,7 +28,8 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - v3.1 2023/20/23 Timebase changed (float), font size adjusted for nicer overview. Conversion with [a program](https://github.com/kreier/timeline/blob/main/history/convert.py). 68 persons, 11 periods, 6 events.
 - v3.2 2023/10/24 Text elements and Colors separated from key events and persons. 96 persons, 17 periods, 6 events. First printout on A0.
 - v3.3 2023/11/04 First century and 6 ancient people. 110 people, 21 periods, 7 events.
-- v3.4 2023/11/20 First translation to Vietnamese and German. 
+- v3.4 2023/11/06 Removal of many hard-coded elements and descriptions from 6000.py to 8 seperate files. Plus a colors_normal.csv file for the colors and one dictionary_en.tsv for each language with currently 164 entries. First translation to German completed. 
+- v3.5 2023/11/10 First translation to Vietnamese completed, minor refinements.
 
 
 ### Scale challenges
