@@ -37,7 +37,6 @@ vertical_lines  = False
 dict  = {}
 color = {}
 
-
 # convert the float dates to year, month and day
 def year(date_float):
     year = int(date_float)
@@ -269,8 +268,8 @@ def create_judges():
         c.setFillColorRGB(co[0], co[1], co[2])
         c.rect(x_oppression, y_box + 8, x_opp_width, 2, fill = 1)
 
-        judge = row.key
-        # judge = dict[row.key]
+        # judge = row.key
+        judge = dict[row.key]
         drawString(judge, 10, x_box + x_boxwidth * 0.5 , y_box, "cb")
         counter_judges += 1
 
