@@ -58,7 +58,11 @@ def day(date_float):
     day = int((month - int(month))*30) + 1
     return day
 
-def y_value(row_y):
+def x_position(date_float):
+    global x1
+    return x1 + (4075 + date_float) * dots_year
+
+def y_position(row_y):
     global y2
     return y2 - 4 - row_y * 12
 
@@ -184,43 +188,6 @@ def create_horizontal_axis():
     c.drawRightString(x2, y1 - 16, dict["CE"])
     c.drawRightString(x2, y2 + 8,  dict["CE"])
 
-def create_reference_events():
-    global counter_events
-
-    # 2 Red line for the division fo the kingdom 997 BCE
-    c.setStrokeColorRGB(0.8, 0, 0)
-    date_division_kingdom = x1 + (4075 - 997) * dots_year
-    c.line(date_division_kingdom, y_value(2), date_division_kingdom, y_value(24))
-    drawString("Division of the kingdom Israel", 10, date_division_kingdom - 2, y_value(10.5) + 3, "l")
-    drawString("997 BCE", 10, date_division_kingdom + 2, y_value(10.5) + 3, "r")
-
-    # 3 Red line for the date of the exodus Nisan 14th, 1513 BCE
-    c.setStrokeColorRGB(0.8, 0, 0)
-    date_exodus = x1 + (4075 - 1513) * dots_year
-    c.line(date_exodus, y_value(-0.4), date_exodus, y_value(6))
-    drawString(dict['exodus'], 10, date_exodus -2, y_value(2), "l")
-
-    # 4 Red line for the end of the time of the nations October 1914 CE
-    c.setStrokeColorRGB(0.8, 0, 0)
-    date_1914 = x1 + (4075 + 1914) * dots_year
-    c.line(date_1914, y_value(-0.4), date_1914, y_value(25))
-    drawString("End of the time of the nations, Gods kingdom starts to rule in heaven 1914 CE", 10, date_1914 - 2, y_value(23.5), "l")
-
-    # 5 destruction Jerusalem 607 BCE
-    drawString("Destruction of Jerusalem 607 BCE by Babylon", 10, x1 + (4075 - 607) * dots_year, y_value(26), "r")
-
-    # 6 destruction Samaria 740 BCE
-    drawString("Destruction of Samaria 740 BCE by Assyria", 10, x1 + (4075 - 740) * dots_year + 2, y_value(44) + 3, "r")
-
-    # 7 descruction Jerusalem 70 CE
-    c.setStrokeColorRGB(0.8, 0, 0)
-    date_70 = x1 + (4075 + 70) * dots_year
-    c.line(date_70, y_value(-0.4), date_70, y_value(13))
-    drawString("Destruction of Jerusalem by Rome under Titus 70 CE", 10, date_70 + 2, y_value(12.5), "r")
-
-    counter_events += 7
-
-
 def create_adam_moses():
     # unique pattern for people from Adam to Moses, and eventline for deluge
     global counter_persons
@@ -261,6 +228,22 @@ def create_adam_moses():
         father_born = born
         counter_persons += 1
 
+def create_reference_events():
+    # Deluge in 2370 BCE is special and included in the Adam_Moses part
+    global counter_events
+
+    print("Import data of reference events")
+    events = pd.read_csv("../db/events.csv", encoding='utf8')
+    for index, row in events.iterrows():
+        x_txt  = x_position(row.date) + 2
+        c.setLineWidth(row.width)
+        c.setStrokeColorRGB(0.3, 0.0, 0.0)
+        c.line(x_position(row.date), y_position(row.y_start), x_position(row.date), y_position(row.y_end))
+        if row.position == "l":
+            x_txt -= 4
+        drawString(dict[row.key], 10, x_txt, y_position(row.y_text), row.position)
+        counter_events += 1
+
 def create_judges():
     global counter_judges
     print("Import data of judges")
@@ -287,7 +270,7 @@ def create_judges():
         c.rect(x_oppression, y_box + 8, x_opp_width, 2, fill = 1)
 
         judge = row.key
-        # judge = dict[f"{row.key}"]
+        # judge = dict[row.key]
         drawString(judge, 10, x_box + x_boxwidth * 0.5 , y_box, "cb")
         counter_judges += 1
 
@@ -332,11 +315,11 @@ def create_kings():
             detail_l = detail
             detail_r = ""
         x_box = x1 + (4075 + start) * dots_year
-        y_box = y2 - row_y*12 - 16
+        y_box = y2 - row_y * 12 - 16
         x_boxwidth = (end -  start) * dots_year
         # c.setFillColorRGB(row.R, row.G, row.B)
         # c.setFillColorRGB(1,0,.3)
-        co = color[f"{row.key}"]
+        co = color[row.key]
         c.setFillColorRGB(co[0], co[1], co[2])
 
         c.setLineWidth(0.3)
@@ -403,6 +386,8 @@ def create_books():
         row_y = row.row_y
         x_box = x1 + (4075 + start) * dots_year
         y_box = y2 - row_y*12 - 4
+
+        # create box above names, 4 dots high
         x_boxwidth = (end -  start) * dots_year
         c.setLineWidth(0.0)
         c.setStrokeColorRGB(1, 1, 1)
@@ -452,7 +437,7 @@ def create_caesars():
         start = row.start
         end   = row.end
         row_y = row.row_y
-        detail = f"{dict[row.key]} "
+        detail = dict[row.key] + " "
         if start < 0:
             detail += f"{int(-start+1)} {dict['BCE']} - "
         else:
@@ -490,7 +475,7 @@ def create_periods():
         end   = row.end
         key   = row.key
         x_box = x1 + (4075 + start) * dots_year
-        y_box = y_value(row.row_y)
+        y_box = y_position(row.row_y)
         x_boxwidth = (end - start) * dots_year
         co = color[f"{row.key}"]
         c.setFillColorRGB(co[0], co[1], co[2])
@@ -533,8 +518,8 @@ def create_timeline(lang):
     create_canvas()
     create_drawing_area()
     create_horizontal_axis()
-    create_reference_events()
     create_adam_moses()
+    create_reference_events()
     create_judges()
     create_kings()
     create_prophets()
