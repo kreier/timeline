@@ -4,7 +4,7 @@ pdf_subject	Dòng thời gian của loài người
 BCE	TCN	
 CE	CN	
 year	năm	
-years	tuổi	
+years	năm	
 month	tháng	
 months	tháng	
 day	ngày	
@@ -39,108 +39,108 @@ Terah	Tha-rê
 Abraham	Áp-ra-ham	
 Isaac	Y-sác	
 Jacob	Gia-cốp	
-Joseph	Joseph	
-Moses	Moses	
-Othniel	Othniel	1
-Ehud	Ehud	2
-Shamgar	Shamgar	3
-Barak	Barak	4
-Gideon	Gideon	5
-Tola	Tola	6
-Jair	Jair	7
-Jephthah	Jephthah	8
-Ibzan	Ibzan	9
-Elon	Elon	10
-Abdon	Abdon	11
-Samson	Samson	12
-Samuel	Samuel	13
-Saul	Saul	1
+Joseph	Giô-sép	
+Moses	Môi-se	
+Othniel	Ốt-ni-ên	1
+Ehud	Ê-hút	2
+Shamgar	Sam-ga	3
+Barak	Ba-rác	4
+Gideon	Ghi-đê-ôn	5
+Tola	Thô-la	6
+Jair	Giai-rơ	7
+Jephthah	Giép-thê	8
+Ibzan	Díp-xan	9
+Elon	Ê-lôn	10
+Abdon	Áp-đôn	11
+Samson	Sam-sôn	12
+Samuel	Sa-mu-ên	13
+Saul	Sau-lơ	1
 David	Đa-vít	2
-Solomo	Solomo	3
-Rehoboam	Rehoboam	first king of southern kingdom of Juda
-Abijah	Abijah (Abijam)	3 years, also Abijam
-Asa	Asa	
-Jehoshaphat	Jehoshaphat	bce_float = -y+1 - (12-m)/12 – (31-d)/360
-Jehoram2	Jehoram	
-Ahaziah	Ahaziah	
-Athaliah	Queen Athaliah	Queen Athaliah
-Jehoash	Jehoash	
-Amaziah	Amaziah	
-Uzziah	Uzziah (Azariah)	also Azariah
-Jotham	Jotham	
-Ahaz	Ahaz	
-Hezekiah	Hezekiah	
-Manasseh	Manasseh	
-Amon	Amon	
-Josiah	Josiah	
-Jehoahaz	Jehoahaz	Only 3 months
-Jehoiakim	Jehoiakim	
-Jehoiachin	Jehoiachin	Only 3 months 10 days
-Zedekia	Zedekia	
-Jeroboam	Jeroboam	first king of northern 10-tribe kingdom
-Nadab	Nadab	less than 2
-Baasha	Baasha	
-Elah	Elah	
-Zimri	Zimri	Only 7 days in ca. 751 BCE
-OmriTibni	Omri and Tibni together	4 years Omri and Tibni
-Omri	Omri (alone)	from 947 Omri alone
-Ahab	Ahab	
-Ahaziah	Ahaziah	
-Jehoram	Jehoram	
-Jehu	Jehu	
-Jeoahaz	Jeoahaz	
-JeoahazJehoash	Jeoahaz and Jehoash	For 3 years Jeoahaz and Jeoash reigned together
-Jehoash2	Jehoash (alone)	Jehoash (alone)
-Jeroboam2	Jeroboam II	
-Zechariah	Zechariah	reign only recorded 6 months, probably only established 792 BCE
-Schallum	Schallum	only one month
-Menahem	Menahem	
-Pekahiah	Pekahiah	
-Pekah	Pekah	
-Hoshea	Hoshea	9 years from c. 748
-Elijah	Elijah	
-Elisha	Elisha	
-Jonah	Jonah	
-Amos	Amos	
-Joel	Joel	
-Hosea	Hosea	
-Isaiah	Isaiah	
-Micah	Micah	
-Zephaniah	Zephaniah	
-Nahum	Nahum	
-Jeremiah	Jeremiah	
-Habakuk	Habakuk	
-Daniel	Daniel	
-Ezekiel	Ezekiel	
-Obadiah	Obadiah	
-Malachi	Malachi	
-Ruth	Ruth	
-Ezra	Ezra	
-Nehemiah	Nehemiah	
-Esther	Esther	
-Job	Job	
-moses2	1593 to 1473 B.C.E. – 120 years	
-moses3	Moses	
+Solomo	Sa-lô-môn	3
+Rehoboam	Rê-hô-bô-am	first king of southern kingdom of Juda
+Abijah	A-bi-gia (A-bi-giam)	3 years, also Abijam
+Asa	A-sa	
+Jehoshaphat	Giê-hô-sa-phát	bce_float = -y+1 - (12-m)/12 – (31-d)/360
+Jehoram2	Giê-hô-ram	
+Ahaziah	A-cha-xia	
+Athaliah	Nữ hoàng A-tha-li	Queen Athaliah
+Jehoash	Giê-hô-ách	
+Amaziah	A-ma-xia	
+Uzziah	U-xi-a (A-xa-ria)	also Azariah
+Jotham	Giô-tham	
+Ahaz	A-cha-xia	
+Hezekiah	Ê-xê-chia	
+Manasseh	Ma-na-se	
+Amon	A-môn	
+Josiah	Giô-si-a	
+Jehoahaz	Giê-hô-a-cha	Only 3 months
+Jehoiakim	Giê-hô-gia-kim	
+Jehoiachin	Giê-hô-gia-kin	Only 3 months 10 days
+Zedekia	Xê-đê-kia	
+Jeroboam	Giê-rô-bô-am	first king of northern 10-tribe kingdom
+Nadab	Na-đáp	less than 2
+Baasha	Ba-ê-sa	
+Elah	Ê-lát	
+Zimri	Xim-ri	Only 7 days in ca. 751 BCE
+OmriTibni	Ôm-ri và Típ-ni	4 years Omri and Tibni
+Omri	Ôm-ri (một mình)	from 947 Omri alone
+Ahab	A-háp	
+Ahaziah	A-cha-xia	
+Jehoram	Giê-hô-ram	
+Jehu	Giê-hu	
+Jeoahaz	Giê-hô-a-cha	
+JeoahazJehoash	Giê-hô-a-cha và Giê-hô-ách	For 3 years Jeoahaz and Jeoash reigned together
+Jehoash2	Giê-hô-ách (một mình)	Jehoash (alone)
+Jeroboam2	Giê-rô-bô-am II	
+Zechariah	Xa-cha-ri	reign only recorded 6 months, probably only established 792 BCE
+Schallum	Sa-lum	only one month
+Menahem	Mê-na-hem	
+Pekahiah	Phê-ca-hia	
+Pekah	Phê-ca-hia	
+Hoshea	Hô-sê	9 years from c. 748
+Elijah	Ê-li-gia	
+Elisha	Ê-li-sê	
+Jonah	Giô-na	
+Amos	A-mốt	
+Joel	Giô-ên	
+Hosea	Ô-sê	
+Isaiah	Ê-sai	
+Micah	Mi-chê	
+Zephaniah	Xô-phô-ni	
+Nahum	Na-hum	
+Jeremiah	Giê-rê-mi	
+Habakuk	Ha-ba-cúc	
+Daniel	Đa-ni-ên	
+Ezekiel	Ê-xê-chi-ên	
+Obadiah	Áp-đia	
+Malachi	Ma-la-chi	
+Ruth	Ru-tơ	
+Ezra	Ê-xơ-ra	
+Nehemiah	Nê-hê-mi	
+Esther	Ê-xơ-tê	
+Job	Giốp	
+moses2	1593 to 1473 TCN – 120 năm	
+moses3	Môi-se	
 wilderness	Israel in the wilderness 1513 to 1473 B.C.E. – 40 years	
-timespan_judges	1473 to 1117 B.C.E. – 356 years	
+timespan_judges	1473 to 1117 TCN – 356 năm	
 timespan_judges2	Time of the judges	
 temple1	Nisan 1513 B.C.E. to Ziv 1034 B.C.E.	
-temple2	479 years until the temple construction – 1 Kings 6:1	1034 BCE
+temple2	479 years until the temple construction – 1 Các vua 6:1	1034 BCE
 69weeks	Jesus baptized autumn 29 C.E.	
-69weeks2	69 weeks to the Messiah – Daniel 9:25	
+69weeks2	69 weeks to the Messiah – Đa-ni-ên 9:25	
 jesus_service	3.5 years of Jesus service, executed Nisan 14th, 33 C.E.	
 jesus_life	Jesus born 2 B.C.E.	
-exile	607 to 537 B.C.E. – 70 years (Jeremiah 25:11)	
-exile2	exile	
-7times	Revelation 12:9	
-7times2	7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)	
+exile	607 to 537 B.C.E. – 70 năm (Giê-rê-mi 25:11)	
+exile2	lưu vong	
+7times	Khải huyền 12:9	
+7times2	7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Đa-ni-ên 4:23)	
 ww1	World War I – 1914–1918 C.E.	
 ww2	World War II – 1939–1945 C.E.	
 30_year_war	30 year war in Europe 1618-1648 C.E.	
-joshua	110 years	
-joshua2	Joshua	
-caleb	more than 85 years	
-caleb2	Caleb	
+joshua	110 năm	
+joshua2	Giô-suê	
+caleb	hơn 85 năm	
+caleb2	Ca-lép	
 missionary1	First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark	
 circumcision	Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.	
 missionary2	Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)	
@@ -154,10 +154,10 @@ Tiberius	Tiberius
 Caligula	Caligula	
 Claudius	Claudius	
 Nero	Nero	
-Galba-Otho-Vitellius	Galba, Otho and Vitellius (Year of the Four Emperors)	
+Galba-Otho-Vitellius	Galba, Otho và Vitellius (Year of the Four Emperors)	
 Vespasian	Vespasian	
 event_division_kingdom	Division of Israel 997 BCE	
-event_exodus	Exodus from Egypt on Nisan 14th, 1513 B.C.E.	
+event_exodus	Xuất Ai Cập from Egypt on Nisan 14th, 1513 B.C.E.	
 event_1914	End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. 	
 event_destruction_jerusalem1	Destruction of Jerusalem 607 B.C.E. by Babylon 	
 event_destruction_jerusalem2	Destruction of Jerusalem 70 C.E. by Rome under Titus	
