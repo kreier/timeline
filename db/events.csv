@@ -1,8 +1,8 @@
 key,date,y_start,y_end,y_text,width,position
 event_division_kingdom,-997,-0.3,24,7.5,0.7,l
-event_exodus,-1513,-0.3,6,6,0.7,l
+event_exodus,-1513,-0.3,6.6,6.6,0.7,l
 event_1914,1914.75,-0.3,25.1,23.7,0.7,l
 event_destruction_jerusalem1,-607,22,26,26,0.7,r
-event_destruction_jerusalem2,70,-0.3,13,12.5,0.7,l
+event_destruction_jerusalem2,70,-0.3,13,12.5,0.7,r
 event_destruction_samaria,-740,42.5,44.5,43.1,0.5,r
 event_jerusalem_rebuilt,-455,-0.3,2,2,0.5,l

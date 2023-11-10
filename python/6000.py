@@ -31,7 +31,7 @@ page_width  = 4*297*mm   # 4x A4 landscape
 page_height = 210*mm     #    A4 landscape
 border_lr   = 10*mm
 border_tb   = 10*mm
-pdf_author  = "Matthias Kreier"
+pdf_author  = "https://github.com/kreier/timeline"
 vertical_lines  = False
 
 dict  = {}
@@ -67,6 +67,8 @@ def y_position(row_y):
 
 def drawString(text, fontsize, x_string, y_string, position):
     c.setFont("Aptos", fontsize)
+    if len(text) == 0: # don't draw empty strings
+        return
     c.setFillColorRGB(1, 1, 1)
     c.setStrokeColorRGB(1, 1, 1)
     c.setLineWidth(1)
@@ -281,12 +283,15 @@ def create_kings():
     c.setFont("Aptos", 10)
     c.setLineWidth(0.3)
     for index, row in kings.iterrows():
-        # if row.born:
-        #     born  = int(row.born[0:4])
         start = row.start
         end   = row.end
+        if row.born < 0:
+            born = row.born
+            detail_born = ", " + dict["became_king"] + f" {int(start-born)}"
+        else:
+            born = start
+            detail_born = ""
         row_y = row.row_y
-        # detail = f"{row.king} "
         detail = dict[f"{row.key}"] + " "
         time_reigned = "("
         if row.years > 0:
@@ -306,22 +311,23 @@ def create_kings():
                 time_reigned += " "
             time_reigned += f"{row.days} {dict['days']}"
 
-        detail += f"{-year(start)}-{-year(end)} {time_reigned})"
+        detail += f"{-year(start)}-{-year(end)} {time_reigned})" + detail_born
         if index < 23:
             detail_l = ""
             detail_r = detail
         else:
             detail_l = detail
             detail_r = ""
-        x_box = x1 + (4075 + start) * dots_year
-        y_box = y2 - row_y * 12 - 16
+        x_box  = x1 + (4075 + start) * dots_year
+        x_born = x1 + (4075 + born)  * dots_year
+        y_box  = y2 - row_y * 12 - 16
         x_boxwidth = (end -  start) * dots_year
-        # c.setFillColorRGB(row.R, row.G, row.B)
-        # c.setFillColorRGB(1,0,.3)
-        co = color[row.key]
-        c.setFillColorRGB(co[0], co[1], co[2])
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
+        c.line(x_born, y_box + 6, x_box, y_box + 6)
+        c.line(x_born, y_box + 1, x_born, y_box + 10)
+        co = color[row.key]
+        c.setFillColorRGB(co[0], co[1], co[2])
         c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         drawString(detail_r, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
@@ -483,5 +489,6 @@ def create_timeline(lang):
     render_to_file()
 
 if __name__ == "__main__":
+    create_timeline("en")
+    create_timeline("de")
     create_timeline("vn")
-    # create_timeline("de")
