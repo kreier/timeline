@@ -14,13 +14,22 @@ Some documents gave further insight and inspiration into this project.
 - [Chart: Prophets and Kings of Judah and of Israel (Part 1)](https://www.jw.org/en/library/bible/study-bible/appendix-a/kings-of-judah/) from nwtsty in 2013
 - [Chart: Prophets and Kings of Judah and of Israel (Part 2)](https://www.jw.org/en/library/bible/study-bible/appendix-a/kings-of-israel/) from nwtsty in 2013
 
-## v4.0 Creation of an vector based version with python and reportlab in October 2023
+## v3.0 Creation of an vector based version with python and reportlab in October 2023
 
 After starting to write programs in python in 2018 and teaching it from 2022 on this looked like a good project to apply these skills. Reading values from a .csv data file would make the creation process much easier and structured. In early October 2023 I finally got reportlab working with python on both macOS and a WSL installation on Windows 11. The first step was to recreate the two pages from libreoffice with this new method. The targeted size is now 4 pages of A4 in landscape combined. This could be printed with the poster function or given to a professional printer to be released on one A0 paper and creating 4 timelines.
 
-Hopefully by end of October 2023 this is done.
+The current edition is v3.5. Early October I wrote "Hopefully by end of October 2023 this is done." That might be true for the initial edition, but the more you work with the document, the more ideas you get. See the growing content from v3.0 in October to v3.5 in November 2023:
 
-## v3.0 Translation of v1.0 to English in June 2023
+![timeline v3.0](../docs/timeline20231022.png)
+![timeline v3.1](../docs/timeline20231023.png)
+![timeline v3.2](../docs/timeline20231102.png)
+![timeline v3.3](../docs/timeline20231104.png)
+![timeline v3.4](../docs/timeline20231106.png)
+![timeline v3.5](../docs/timeline20231110.png)
+
+Since v3.4 it is also translated to German, with v3.5 a Vietnamese translation was added. And the respective translations have to be extended with each new detail added.
+
+## v1.1 Translation of v1.0 to English in June 2023
 
 The original files from 2009 were created in German. Starting summer 2017 most of my life was going on in English. When sharing this project with friends in early June 2023  I promised to have the translated version ready until the end of month. And the translation was inded completed by June 30th, 2023.
 
