@@ -197,7 +197,7 @@ def create_adam_moses():
     # Blue line for the deluge in 2370 BCE
     c.setLineWidth(1)
     c.setStrokeColorRGB(0, 0, 1)
-    date_deluge = x1 + (4075 - 2370) * dots_year
+    date_deluge = x_position(-2370)
     c.line(date_deluge, y1, date_deluge, y2)
     drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
     counter_events += 1
@@ -211,7 +211,7 @@ def create_adam_moses():
         died = -year(row.died)
         person = dict[f"{row.key}"]
         details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {born - died} {dict['years']}"
-        x_box = x1 + (4075 + row.born) * dots_year
+        x_box = x_position(row.born)
         y_box = y2 - index*21 - 21
         x_boxwidth = (born - died) * dots_year
         x_text = x_box + x_boxwidth * 0.5
@@ -252,14 +252,14 @@ def create_judges():
     for index, row in judges.iterrows():
         start = row.start
         end   = row.end
-        x_box = x1 + (4075 + start) * dots_year
+        x_box = x_position(start)
         y_box = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
         c.setLineWidth(0.2)
         c.setStrokeColorRGB(0, 0, 0)
         co = color['judges']
         c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_box, y_box + 8, x_boxwidth, 2, fill = 1)
+        c.rect(x_box, y_box + 10, x_boxwidth, 2, fill = 1)
 
         # indicate years of oppression prior to peacetime of the judge
         oppression = row.oppression
@@ -267,9 +267,8 @@ def create_judges():
         x_opp_width  = oppression * dots_year
         co = color['oppression']
         c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_oppression, y_box + 8, x_opp_width, 2, fill = 1)
+        c.rect(x_oppression, y_box + 10, x_opp_width, 2, fill = 1)
 
-        # judge = row.key
         judge = dict[row.key]
         drawString(judge, 10, x_box + x_boxwidth * 0.5 , y_box, "cb")
         counter_judges += 1
@@ -316,8 +315,8 @@ def create_kings():
         else:
             detail_l = detail
             detail_r = ""
-        x_box  = x1 + (4075 + start) * dots_year
-        x_born = x1 + (4075 + born)  * dots_year
+        x_box  = x_position(start) 
+        x_born = x_position(born)
         y_box  = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
         c.setLineWidth(0.3)
@@ -351,7 +350,7 @@ def create_prophets():
     for index, row in prophets.iterrows():
         start = row.start
         end   = row.end
-        x_box = x1 + (4075 + start) * dots_year
+        x_box = x_position(start)
         y_box = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
         co = color['prophets']
@@ -369,7 +368,7 @@ def create_books():
     for index, row in books.iterrows():
         start = row.start
         end   = row.end
-        x_box = x1 + (4075 + start) * dots_year
+        x_box = x_position(start)
         y_box = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
         co = color['books']
@@ -400,10 +399,10 @@ def create_caesars():
             detail += f" {int(-end+1)} {dict['BCE']}"
         else:
             detail += f"{int(end)} {dict['CE']}"
-        x_box = x1 + (4075 + start) * dots_year
-        y_box = y_position(row.row_y)
+        x_box  = x_position(start)
+        x_born = x_position(born)
+        y_box  = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
-        x_born = x1 + (4075 + born) * dots_year
         co = color['caesars']
         c.setFillColorRGB(co[0], co[1], co[2])
 
@@ -428,7 +427,7 @@ def create_periods():
         start = row.start
         end   = row.end
         key   = row.key
-        x_box = x1 + (4075 + start) * dots_year
+        x_box = x_position(start)
         y_box = y_position(row.row_y)
         x_boxwidth = (end - start) * dots_year
         co = color[f"{row.key}"]
