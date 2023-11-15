@@ -1,18 +1,18 @@
-key,start,end,row_y,notes
-Samuel,-1119,-1076,11,anointed Saul 1117 and 40 years later David 1077 – probably 70 years old
-Elijah,-941,-906,16,
-Elisha,-918,-852,18,
-Jonah,-848,-820,20,
-Amos,-829,-802,22,
-Joel,-825,-815,24,
-Hosea,-808,-740,26,
-Isaiah,-780,-730,28,
-Micah,-777,-716,30,
-Zephaniah,-660,-640,28,
-Nahum,-660,-630,29.7,
-Jeremiah,-646,-575,31.4,started definitely 646 BCE
-Habakuk,-633,-620,33.1,
-Daniel,-607,-537,34.8,
-Ezekiel,-613,-587,36.5,started definitely 613 BCE
-Obadiah,-613,-600,38.2,
-Malachi,-453,-443,34,
+key,start,end,row_y,notes,old
+Samuel,-1119,-1076,11,anointed Saul 1117 and 40 years later David 1077 – probably 70 years old,11
+Elijah,-941,-906,16,,16
+Elisha,-918,-852,18,,18
+Jonah,-848,-820,20,,20
+Amos,-829,-802,22,,22
+Joel,-825,-815,24,,24
+Hosea,-808,-740,26,,26
+Isaiah,-780,-730,28,,28
+Micah,-777,-716,30,,30
+Zephaniah,-660,-640,27.5,,28
+Nahum,-660,-630,29.7,,29.7
+Jeremiah,-646,-575,33.5,started definitely 646 BCE,31.4
+Habakuk,-633,-620,31.9,,33.1
+Daniel,-607,-537,31.1,,34.8
+Ezekiel,-613,-587,28.9,started definitely 613 BCE,36.5
+Obadiah,-613,-600,34.9,,38.2
+Malachi,-453,-443,34,,34
