@@ -184,8 +184,8 @@ def create_horizontal_axis():
             if i > 28 and i < 35:
                 c.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
 
-    c.drawString(x1 - 3, y1 - 16, dict["BCE"])
-    c.drawString(x1 - 3, y2 + 8 , dict["BCE"])
+    c.drawString(x1, y1 - 16, dict["BCE"])
+    c.drawString(x1, y2 + 8 , dict["BCE"])
     c.drawRightString(x2, y1 - 16, dict["CE"])
     c.drawRightString(x2, y2 + 8,  dict["CE"])
 
