@@ -24,14 +24,14 @@ pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
 
 # Some general settings
-version  = "3.4"
+version  = "3.5"
 language = "en"
 color_scheme = "normal"
-page_width  = 4*297*mm   # 4x A4 landscape
-page_height = 210*mm     #    A4 landscape
-border_lr   = 10*mm
-border_tb   = 10*mm
-pdf_author  = "Matthias Kreier"
+page_width  = 4*293*mm   # 4x A4 landscape
+page_height = 204*mm     #    A4 landscape - 2x border_tb
+border_lr   = 2*mm
+border_tb   = 7*mm
+pdf_author  = "https://github.com/kreier/timeline"
 vertical_lines  = False
 
 dict  = {}
@@ -63,10 +63,12 @@ def x_position(date_float):
 
 def y_position(row_y):
     global y2
-    return y2 - 4 - row_y * 12
+    return y2 - 1 - row_y * 12  # vertically centered 10 point script in 12 pt line
 
 def drawString(text, fontsize, x_string, y_string, position):
     c.setFont("Aptos", fontsize)
+    if len(text) == 0: # don't draw empty strings
+        return
     c.setFillColorRGB(1, 1, 1)
     c.setStrokeColorRGB(1, 1, 1)
     c.setLineWidth(1)
@@ -195,7 +197,7 @@ def create_adam_moses():
     # Blue line for the deluge in 2370 BCE
     c.setLineWidth(1)
     c.setStrokeColorRGB(0, 0, 1)
-    date_deluge = x1 + (4075 - 2370) * dots_year
+    date_deluge = x_position(-2370)
     c.line(date_deluge, y1, date_deluge, y2)
     drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
     counter_events += 1
@@ -209,7 +211,7 @@ def create_adam_moses():
         died = -year(row.died)
         person = dict[f"{row.key}"]
         details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {born - died} {dict['years']}"
-        x_box = x1 + (4075 + row.born) * dots_year
+        x_box = x_position(row.born)
         y_box = y2 - index*21 - 21
         x_boxwidth = (born - died) * dots_year
         x_text = x_box + x_boxwidth * 0.5
@@ -250,15 +252,14 @@ def create_judges():
     for index, row in judges.iterrows():
         start = row.start
         end   = row.end
-        row_y = row.row_y
-        x_box = x1 + (4075 + start) * dots_year
-        y_box = y2 - row_y*12 - 4
+        x_box = x_position(start)
+        y_box = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
         c.setLineWidth(0.2)
         c.setStrokeColorRGB(0, 0, 0)
         co = color['judges']
         c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_box, y_box + 8, x_boxwidth, 2, fill = 1)
+        c.rect(x_box, y_box + 10, x_boxwidth, 2, fill = 1)
 
         # indicate years of oppression prior to peacetime of the judge
         oppression = row.oppression
@@ -266,9 +267,8 @@ def create_judges():
         x_opp_width  = oppression * dots_year
         co = color['oppression']
         c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_oppression, y_box + 8, x_opp_width, 2, fill = 1)
+        c.rect(x_oppression, y_box + 10, x_opp_width, 2, fill = 1)
 
-        # judge = row.key
         judge = dict[row.key]
         drawString(judge, 10, x_box + x_boxwidth * 0.5 , y_box, "cb")
         counter_judges += 1
@@ -281,12 +281,14 @@ def create_kings():
     c.setFont("Aptos", 10)
     c.setLineWidth(0.3)
     for index, row in kings.iterrows():
-        # if row.born:
-        #     born  = int(row.born[0:4])
         start = row.start
         end   = row.end
-        row_y = row.row_y
-        # detail = f"{row.king} "
+        if row.born < 0:
+            born = row.born
+            detail_born = ", " + dict["became_king"] + f" {int(start-born)}"
+        else:
+            born = start
+            detail_born = ""
         detail = dict[f"{row.key}"] + " "
         time_reigned = "("
         if row.years > 0:
@@ -306,28 +308,40 @@ def create_kings():
                 time_reigned += " "
             time_reigned += f"{row.days} {dict['days']}"
 
-        detail += f"{-year(start)}-{-year(end)} {time_reigned})"
+        detail += f"{-year(start)}-{-year(end)} {time_reigned})" + detail_born
         if index < 23:
             detail_l = ""
             detail_r = detail
         else:
             detail_l = detail
             detail_r = ""
-        x_box = x1 + (4075 + start) * dots_year
-        y_box = y2 - row_y * 12 - 16
+        x_box  = x_position(start) 
+        x_born = x_position(born)
+        y_box  = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
-        # c.setFillColorRGB(row.R, row.G, row.B)
-        # c.setFillColorRGB(1,0,.3)
-        co = color[row.key]
-        c.setFillColorRGB(co[0], co[1], co[2])
-
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
-        c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
+        c.line(x_born, y_box + 3, x_box, y_box + 3)
+        c.line(x_born, y_box -2, x_born, y_box + 8)
+        co = color[row.key]
+        c.setFillColorRGB(co[0], co[1], co[2])
+        c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
         c.setFillColorRGB(0, 0, 0)
-        drawString(detail_r, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
-        drawString(detail_l, 10, x_box - 2, y_box + 3, "l")
+        drawString(detail_r, 10, x_box + x_boxwidth + 2, y_box, "r")
+        drawString(detail_l, 10, x_box - 2, y_box, "l")
         counter_kings += 1
+
+def timebar(x, y, width, R, G, B):
+    c.setLineWidth(0.0)
+    c.setStrokeColorRGB(1, 1, 1)
+    c.setFillColorRGB(R, G, B)
+    c.rect(x, y, width, 4, fill = 1, stroke = 0)        
+    # let's overdraw left and right side with some shades, 75% 50% and 25%
+    factor = [0.75, 0.50, 0.25]
+    for i in range(3):
+        c.setFillColorRGB(1 - factor[i] * (1 - R), 1 - factor[i] * (1 - G), 1 - factor[i] * (1 - B))
+        c.rect(x + 2 - i,         y, 1, 4, fill = 1, stroke = 0)
+        c.rect(x + width - 3 + i, y, 1, 4, fill = 1, stroke = 0)
 
 def create_prophets():
     global counter_prophets
@@ -336,39 +350,11 @@ def create_prophets():
     for index, row in prophets.iterrows():
         start = row.start
         end   = row.end
-        row_y = row.row_y
-        x_box = x1 + (4075 + start) * dots_year
-        y_box = y2 - row_y*12 - 4
+        x_box = x_position(start)
+        y_box = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
-        c.setLineWidth(0.0)
-        c.setStrokeColorRGB(1, 1, 1)
         co = color['prophets']
-        c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_box, y_box + 10, x_boxwidth, 4, fill = 1, stroke = 0)
-
-        # let's overdraw left and right side with some shades, 75% 50% and 25%
-        color_R = 1 - 0.75 * (1 - co[0])
-        color_G = 1 - 0.75 * (1 - co[1])
-        color_B = 1 - 0.75 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box + 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 3, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        # 50%
-        color_R = 1 - 0.5 * (1 - co[0])
-        color_G = 1 - 0.5 * (1 - co[1])
-        color_B = 1 - 0.5 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box + 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        # 25%
-        color_R = 1 - 0.25 * (1 - co[0])
-        color_G = 1 - 0.25 * (1 - co[1])
-        color_B = 1 - 0.25 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
-
-        # prophet = row.key
+        timebar(x_box, y_box + 10, x_boxwidth, co[0], co[1], co[2])
         prophet = dict[row.key]
         c.setFont("Aptos", 10)
         c.setFillColorRGB(0, 0, 0)
@@ -382,47 +368,16 @@ def create_books():
     for index, row in books.iterrows():
         start = row.start
         end   = row.end
-        row_y = row.row_y
-        x_box = x1 + (4075 + start) * dots_year
-        y_box = y2 - row_y*12 - 4
-
-        # create box above names, 4 dots high
+        x_box = x_position(start)
+        y_box = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
-        c.setLineWidth(0.0)
-        c.setStrokeColorRGB(1, 1, 1)
         co = color['books']
-        c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_box, y_box + 10, x_boxwidth, 4, fill = 1, stroke = 0)
-
-        # let's overdraw left and right side with some shades, 75% 50% and 25%
-        color_R = 1 - 0.75 * (1 - co[0])
-        color_G = 1 - 0.75 * (1 - co[1])
-        color_B = 1 - 0.75 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box + 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 3, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        # 50%
-        color_R = 1 - 0.5 * (1 - co[0])
-        color_G = 1 - 0.5 * (1 - co[1])
-        color_B = 1 - 0.5 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box + 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 2, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        # 25%
-        color_R = 1 - 0.25 * (1 - co[0])
-        color_G = 1 - 0.25 * (1 - co[1])
-        color_B = 1 - 0.25 * (1 - co[2])
-        c.setFillColorRGB(color_R, color_G, color_B)
-        c.rect(x_box, y_box + 10, 1, 4, fill = 1, stroke = 0)
-        c.rect(x_box + x_boxwidth - 1, y_box + 10, 1, 4, fill = 1, stroke = 0)
-
-        # book = row.key
+        timebar(x_box, y_box + 10, x_boxwidth, co[0], co[1], co[2])
         book = dict[row.key]
         c.setFont("Aptos", 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, book)
         counter_persons += 1
-
 
 def create_caesars():
     global counter_kings
@@ -435,7 +390,6 @@ def create_caesars():
         born  = row.born
         start = row.start
         end   = row.end
-        row_y = row.row_y
         detail = dict[row.key] + " "
         if start < 0:
             detail += f"{int(-start+1)} {dict['BCE']} - "
@@ -445,20 +399,20 @@ def create_caesars():
             detail += f" {int(-end+1)} {dict['BCE']}"
         else:
             detail += f"{int(end)} {dict['CE']}"
-        x_box = x1 + (4075 + start) * dots_year
-        y_box = y2 - row_y*12 - 16
+        x_box  = x_position(start)
+        x_born = x_position(born)
+        y_box  = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
-        x_born = x1 + (4075 + born) * dots_year
         co = color['caesars']
         c.setFillColorRGB(co[0], co[1], co[2])
 
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
-        c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
-        c.line(x_born, y_box + 6, x_box, y_box + 6)
-        c.line(x_born, y_box + 1, x_born, y_box + 10)
+        c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
+        c.line(x_born, y_box + 3, x_box, y_box + 3)
+        c.line(x_born, y_box - 2, x_born, y_box + 8)
         c.setFillColorRGB(0, 0, 0)
-        drawString(detail, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
+        drawString(detail, 10, x_box + x_boxwidth + 2, y_box, "r")
         counter_kings += 1
 
 def create_periods():
@@ -473,23 +427,23 @@ def create_periods():
         start = row.start
         end   = row.end
         key   = row.key
-        x_box = x1 + (4075 + start) * dots_year
+        x_box = x_position(start)
         y_box = y_position(row.row_y)
         x_boxwidth = (end - start) * dots_year
         co = color[f"{row.key}"]
         c.setFillColorRGB(co[0], co[1], co[2])
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
-        c.rect(x_box, y_box, x_boxwidth, 12, fill = 1)
+        c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         if len(row.text_center) > 1:
             detail_c = dict[row.text_center]
-            drawString(detail_c, 10, x_box + x_boxwidth * 0.5, y_box + 3, "c")
+            drawString(detail_c, 10, x_box + x_boxwidth * 0.5, y_box, "c")
         detail = dict[key]
         if row.location_description == "l":
-            drawString(detail, 10, x_box - 2, y_box + 3, "l")
+            drawString(detail, 10, x_box - 2, y_box, "l")
         else:
-            drawString(detail, 10, x_box + x_boxwidth + 2, y_box + 3, "r")
+            drawString(detail, 10, x_box + x_boxwidth + 2, y_box, "r")
         counter_periods += 1
 
 
@@ -531,3 +485,4 @@ def create_timeline(lang):
 if __name__ == "__main__":
     create_timeline("en")
     create_timeline("de")
+    create_timeline("vn")

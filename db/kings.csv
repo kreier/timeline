@@ -1,45 +1,45 @@
 key,born,start,end,row_y,years,months,days,c_s,c_e,notes
-Saul,,-1116.25,-1076.25,0,40,0,0,0,0,
-David,,-1076.25,-1036.25,1,40,0,0,0,0,
-Solomo,,-1036.25,-996.25,2,40,0,0,0,0,
-Rehoboam,,-996.25,-979.667,3,17,0,0,0,0,first king of southern kingdom of Juda
-Abijah,,-979.667,-977.25,4,3,0,0,0,0,"3 years, also Abijam"
-Asa,,-977.25,-936.25,5,41,0,0,0,0,
-Jehoshaphat,,-936.25,-912.25,6,25,0,0,0,0,bce_float = -y+1 - (12-m)/12 – (31-d)/360
-Jehoram2,,-912.25,-905.25,7,8,0,0,0,0,
-Ahaziah,,-905.25,-904.25,8,1,0,0,0,0,
-Athaliah,,-904.25,-897.25,9,6,0,0,0,0,Queen Athaliah
-Jehoash,,-897.25,-857.25,10,40,0,0,0,0,
-Amaziah,,-857.25,-828.25,11,29,0,0,0,0,
-Uzziah,,-828.25,-776.25,12,52,0,0,0,0,also Azariah
-Jotham,,-776.25,-761.25,13,16,0,0,0,0,
-Ahaz,,-761.25,-745.25,14,16,0,0,0,0,
-Hezekiah,,-745.25,-715.25,15,29,0,0,0,0,
-Manasseh,,-715.25,-660.25,16,55,0,0,0,0,
-Amon,,-660.25,-658.25,17,2,0,0,0,0,
-Josiah,,-658.25,-627.5,18,31,0,0,0,0,
-Jehoahaz,,-627.5,-627.25,19,0,3,0,0,0,Only 3 months
-Jehoiakim,,-627.25,-617.25,20,11,0,0,0,0,
-Jehoiachin,,-617.25,-616.975,21,0,3,10,0,0,Only 3 months 10 days
-Zedekia,,-616.975,-606.25,22,11,0,0,0,0,
-Jeroboam,,-996.25,-975.25,23,22,0,0,0,0,first king of northern 10-tribe kingdom
-Nadab,,-975.25,-974.25,24,2,0,0,0,0,less than 2
-Baasha,,-974.25,-951.25,25,24,0,0,0,0,
-Elah,,-951.25,-950.25,26,2,0,0,0,0,
-Zimri,,-950.25,-950.231,27,0,0,7,0,0,Only 7 days in ca. 751 BCE
-OmriTibni,,-950.231,-946.25,28,4,0,0,0,0,4 years Omri and Tibni
-Omri,,-946.25,-939.25,29,8,0,0,0,0,from 947 Omri alone
-Ahab,,-939.25,-919.25,30,22,0,0,0,0,
-Ahaziah,,-919.25,-916.25,31,2,0,0,0,0,
-Jehoram,,-916.25,-904.25,32,12,0,0,0,0,
-Jehu,,-904.25,-875.25,33,28,0,0,0,0,
-Jeoahaz,,-875.25,-861.25,34,14,0,0,0,0,
-JeoahazJehoash,,-861.25,-858.25,35,3,0,0,0,0,For 3 years Jeoahaz and Jeoash reigned together
-Jehoash2,,-858.25,-843.25,36,16,0,0,0,0,Jehoash (alone)
-Jeroboam2,,-843.25,-802.25,37,41,0,0,0,0,
-Zechariah,,-802.25,-790.25,38,0,6,0,0,0,"reign only recorded 6 months, probably only established 792 BCE"
-Schallum,,-790.25,-790.167,39,0,1,0,0,0,only one month
-Menahem,,-790.167,-779.25,40,10,0,0,0,0,
-Pekahiah,,-779.25,-777.25,41,2,0,0,0,0,
-Pekah,,-777.25,-757.25,42,20,0,0,0,0,
-Hoshea,,-757.25,-739.25,43,9,0,0,0,0,9 years from c. 748
+Saul,0,-1116.25,-1076.25,1,40,0,0,0,0,bce_float = -y+1 - (12-m)/12 – (31-d)/360
+David,0,-1076.25,-1036.25,2,40,0,0,0,0,
+Solomo,0,-1036.25,-996.25,3,40,0,0,0,0,
+Rehoboam,-1037.25,-996.25,-979.667,4,17,0,0,0,0,first king of southern kingdom of Juda; at age 41 (1Ki 14:21)
+Abijah,0,-979.667,-977.25,5,3,0,0,0,0,3 years; also Abijam
+Asa,0,-977.25,-936.25,6,41,0,0,0,0,
+Jehoshaphat,-971.25,-936.25,-912.25,7,25,0,0,0,0,1Ki 22:42 was 35 years old; reign started 936 BCE?
+Jehoram2,-943.25,-912.25,-905.25,8,8,0,0,0,0,2Chr 21:5 was 32 years old
+Ahaziah,-927.25,-905.25,-904.25,9,1,0,0,0,0,2Ki 8:26 was 22 years old
+Athaliah,0,-904.25,-897.25,10,6,0,0,0,0,Queen Athaliah; daughter of Ahab and Jezebel; granddaughter of Omri; mother of Ahaziah
+Jehoash,-904.25,-897.25,-857.25,11,40,0,0,0,0,2Ki 11:21 was 7 years old
+Amaziah,-882.25,-857.25,-828.25,12,29,0,0,0,0,2Ki 14:2 was 25 years old
+Uzziah,-844.25,-828.25,-776.25,13,52,0,0,0,0,also Azariah; 2Ki14:21 was 16 years old
+Jotham,-801.25,-776.25,-761.25,14,16,0,0,0,0,2Chr 27:8 was 25 years old
+Ahaz,-781.25,-761.25,-745.25,15,16,0,0,0,0,2Ki 16:2 was 20 years old
+Hezekiah,-770.25,-745.25,-715.25,16,29,0,0,0,0,2Chr 29:1 was 25 years old
+Manasseh,-727.25,-715.25,-660.25,17,55,0,0,0,0,2Ki 21:1 was 12 years old
+Amon,-682.25,-660.25,-658.25,18,2,0,0,0,0,2Ki 21:19 was 22 years old
+Josiah,-666.25,-658.25,-627.5,19,31,0,0,0,0,2Ki 22:1 was 8 years old
+Jehoahaz,-650.5,-627.5,-627.25,20,0,3,0,0,0,Only 3 months; 2Ki 23:31 was 23 years old
+Jehoiakim,-652.25,-627.25,-617.25,21,11,0,0,0,0,2Ki 23:36 was 25 years old
+Jehoiachin,-635.25,-617.25,-616.975,22,0,3,10,0,0,Only 3 months 10 days; 2Ki 24:8 was 18 years old
+Zedekia,-637.98,-616.975,-606.25,23,11,0,0,0,0,2KChr 36:11 was 21 years old
+Jeroboam,0,-996.25,-975.25,24,22,0,0,0,0,first king of northern 10-tribe kingdom
+Nadab,0,-975.25,-974.25,25,2,0,0,0,0,less than 2
+Baasha,0,-974.25,-951.25,26,24,0,0,0,0,
+Elah,0,-951.25,-950.25,27,2,0,0,0,0,
+Zimri,0,-950.25,-950.231,28,0,0,7,0,0,Only 7 days in ca. 751 BCE
+OmriTibni,0,-950.231,-946.25,29,4,0,0,0,0,4 years Omri and Tibni
+Omri,0,-946.25,-939.25,30,8,0,0,0,0,from 947 Omri alone
+Ahab,0,-939.25,-919.25,31,22,0,0,0,0,
+Ahaziah,0,-919.25,-916.25,32,2,0,0,0,0,son of Ahab and Jezebel
+Jehoram,0,-916.25,-904.25,33,12,0,0,0,0,
+Jehu,0,-904.25,-875.25,34,28,0,0,0,0,
+Jeoahaz,0,-875.25,-861.25,35,14,0,0,0,0,
+JeoahazJehoash,0,-861.25,-858.25,36,3,0,0,0,0,For 3 years Jeoahaz and Jeoash reigned together
+Jehoash2,0,-858.25,-843.25,37,16,0,0,0,0,Jehoash (alone)
+Jeroboam2,0,-843.25,-802.25,38,41,0,0,0,0,
+Zechariah,0,-802.25,-790.25,39,0,6,0,0,0,"reign only recorded 6 months, probably only established 792 BCE"
+Schallum,0,-790.25,-790.167,40,0,1,0,0,0,only one month
+Menahem,0,-790.167,-779.25,41,10,0,0,0,0,
+Pekahiah,0,-779.25,-777.25,42,2,0,0,0,0,
+Pekah,0,-777.25,-757.25,43,20,0,0,0,0,
+Hoshea,0,-757.25,-739.25,44,9,0,0,0,0,9 years from c. 748
