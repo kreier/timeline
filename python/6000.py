@@ -210,7 +210,7 @@ def create_adam_moses():
         born = -year(row.born)
         died = -year(row.died)
         person = dict[f"{row.key}"]
-        details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {born - died} {dict['years']}"
+        details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {born - died} {dict['years_age']}"
         x_box = x_position(row.born)
         y_box = y2 - index*21 - 21
         x_boxwidth = (born - died) * dots_year
@@ -225,7 +225,7 @@ def create_adam_moses():
         c.drawCentredString(x_text, y_box + 5, person)
         drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
-            drawString(f"{father_born - born} {dict['years']}", 9, x_box - 3, y_box + 11, "l")
+            drawString(f"{father_born - born} {dict['years_age']}", 9, x_box - 3, y_box + 11, "l")
         father_born = born
         counter_persons += 1
 
@@ -484,5 +484,5 @@ def create_timeline(lang):
 
 if __name__ == "__main__":
     create_timeline("en")
-    create_timeline("de")
+    # create_timeline("de")
     create_timeline("vn")
