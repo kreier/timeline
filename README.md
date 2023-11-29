@@ -4,9 +4,11 @@
 [![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 
-Human history graph created with python and reportlab. Version v3.4 replicates and expands the information of v1.1 with one single page. See both for comparison below.
+Human history graph created with python and reportlab. Version v3.5 replicates and expands the information of v1.1 with one single page. See both for comparison below.
 
-![timeline 3.3](docs/timeline20231104.png)
+![timeline 3.5](docs/timeline20231129.png)
+
+![timeline 3.6 first 4k](docs/timeline20231129_4k.png)
 
 ![timeline 1.1](docs/timeline20230630.png)
 

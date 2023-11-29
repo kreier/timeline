@@ -8,9 +8,11 @@ Expanded timelines on paper have been used to visualize events in the flow of ti
 
 ![timeline 1.1](timeline20230619.png)
 
+![limeline 3.6 4000y](timeline20231129_4k.png)
+
 By the end of 2023 it was created as a single pdf file with a python program, and translated to a few languages:
 
-![timeline 3.4](timeline20231104.png)
+![timeline 3.5](timeline20231129.png)
 
 ## Reactivation 2023
 

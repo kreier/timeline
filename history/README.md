@@ -26,6 +26,7 @@ The current edition is v3.5. Early October I wrote "Hopefully by end of October 
 ![timeline v3.3](../docs/timeline20231104.png)
 ![timeline v3.4](../docs/timeline20231106.png)
 ![timeline v3.5](../docs/timeline20231110.png)
+![timeline v3.5 updated](../docs/timeline20231129.png)
 
 Since v3.4 it is also translated to German, with v3.5 a Vietnamese translation was added. And the respective translations have to be extended with each new detail added.
 
