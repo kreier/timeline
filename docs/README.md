@@ -1,8 +1,16 @@
 # A Timeline of human history
 
-Expanded timelines on paper have been used to visualize events in the flow of time for a long time. Creating one yourself will immerse you into the details and relations between events even further. A digital project that started in February 2009:
+[![pages-build-deployment](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment)
+[![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
+[![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 
-![timeline](timeline20230619.png)
+Expanded timelines on paper have been used to visualize events in the flow of time for a long time. Creating one yourself will immerse you into the details and relations between events even further. A digital project that started in February 2009 and was translated to English in 2023.
+
+![timeline 1.1](timeline20230619.png)
+
+By the end of 2023 it was created as a single pdf file with a python program, and translated to a few languages:
+
+![timeline 3.4](timeline20231104.png)
 
 ## Reactivation 2023
 
@@ -46,11 +54,12 @@ The third tile went back to 10 years per column and needs 218 columns.
 
 To compensate for limited printing area I created a border of 1cm around each page, so the effective width for each tile is 277 millimeter. Given the used time frame this results in different scales years/millimeter for each page. Yet this was one of the fundamental ideas of this project, to represent a larger amount of time with a bigger amount of space or length. Here are the values for comparison:
 
-| page        | begin | end   | timespan | width/mm | years/mm | resolution | columns |
-|-------------|-------|-------|----------|----------|----------|------------|---------|
-| table 1     | -4050 | -1450 | 2600     | 277      | 9.39     | 10         | 260     |
-| table 2     | -1550 | 150   | 1700     | 277      | 6.14     | 5          | 340     |
-| table 3     | -130  | 2050  | 2180     | 277      | 7.87     | 10         | 218     |
-| drawing odg | -4000 | 2000  | 6000     | 1250     | 4.80     | ∞          | ∞       |
+| page             | begin | end   | timespan | width/mm | years/mm | resolution | columns | created    |
+|------------------|-------|-------|----------|----------|----------|------------|---------|------------|
+| table 1          | -4050 | -1450 | 2600     | 277      | 9.39     | 10         | 260     | 2009-02-10 |
+| table 2          | -1550 | 150   | 1700     | 277      | 6.14     | 5          | 340     | 2009-02-10 |
+| table 3          | -130  | 2050  | 2180     | 277      | 7.87     | 10         | 218     | 2009-02-10 |
+| drawing odg      | -4000 | 2000  | 6000     | 1250     | 4.8      | ∞          | ∞       | 2015-12-13 |
+| reportlab python | -4050 | 2050  | 6100     | 1168     | 5.22     | ∞          | ∞       | 2023-10-17 |
 
 See [scale.csv](https://github.com/kreier/timeline/blob/main/spreadsheet/scale.csv)
