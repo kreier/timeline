@@ -485,4 +485,8 @@ def create_timeline(lang):
 if __name__ == "__main__":
     create_timeline("en")
     create_timeline("de")
+<<<<<<< Updated upstream
     create_timeline("vn")
+=======
+    create_timeline("vn")
+>>>>>>> Stashed changes
