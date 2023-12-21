@@ -6,6 +6,7 @@ CE	CN
 year	năm	
 years	năm	
 years_age	tuổi	
+age_kings	tuổi	
 month	tháng	
 months	tháng	
 day	ngày	
@@ -159,14 +160,14 @@ Galba-Otho-Vitellius	Galba, Otho và Vitellius (Năm Tứ Hoàng)
 Vespasian	Vespasian	
 event_exodus	Ra khỏi xứ Ai-Cập vào ngày 14 tháng Ni-san năm 1513 TCN	
 event_division_kingdom	Y-sơ-ra-ên chia làm hai nước 997 TCN	
-event_destruction_samaria	Sự hủy diệt Sa-ma-ri	
+event_destruction_samaria	Sự hủy diệt Sa-ma-ri 740 TCN bởi người Assyria	
 event_destruction_samaria2	740 TCN bởi người Assyria	
 event_destruction_jerusalem1	Giê-ru-sa-lem bị hủy phá, dân chúng bị lưu đày sang Ba-by-lôn 607 TCN, 390 năm sau khi Y-sơ-ra-ên chia làm hai nước (Ê-xê-chi-ên 4:5)	
 event_temple_rebuilt	Ngôi đền được xây dựng lại 515 TCN	
 event_jerusalem_rebuilt	Giê-ru-sa-lem được xây dựng lại 455 TCN	
 event_destruction_jerusalem2	Sự phá hủy thành Giê-ru-sa-lem vào năm 70 CN bởi La Mã dưới thời Titus	
 event_1914	Cuối thời kỳ của các dân tộc, vương quốc của Đức Chúa Trời bắt đầu cai trị trên trời 1914 CN.	
-became_king	lên làm vua ở tuổi	
+became_king	làm vua lúc	
 vulgate	Vulgate được hoàn thành bởi Jerome (bản dịch kinh thánh bằng tiếng Latin) c. 405 CN	
 gutenberg	Kinh thánh Gutenberg in năm 1455	
 erasmus	Văn bản tiếng Hy Lạp trong Kinh thánh tiếng Hy Lạp do Desiderius Erasmus ở Rotterdam xuất bản năm 1516	
@@ -227,3 +228,5 @@ time_of_end2	ngày cuối cùng
 suryavaman2	Vua Suryavarman II xây dựng Angkor Wat 1113-1150	
 notre-dame	Nhà thờ Đức Bà Paris được xây dựng 1163-1260	
 ming-dynasty	Nhà Minh ở Trung Quốc 1368-1644	
+jehoiada	Giê-hô-gia-đa	
+babel	Tháp Babel được xây dựng	
