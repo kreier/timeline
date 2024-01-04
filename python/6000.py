@@ -285,7 +285,7 @@ def create_kings():
         end   = row.end
         if row.born < 0:
             born = row.born
-            detail_born = ", " + dict["became_king"] + f" {int(start-born)}"
+            detail_born = ", " + dict["became_king"] + f" {int(start-born)} " + dict["age_kings"]
         else:
             born = start
             detail_born = ""
@@ -363,8 +363,8 @@ def create_prophets():
 
 def create_books():
     global counter_persons
-    print("Import data of books")
-    books = pd.read_csv("../db/books.csv", encoding='utf8')
+    print("Import data of books and people")
+    books = pd.read_csv("../db/books_people.csv", encoding='utf8')
     for index, row in books.iterrows():
         start = row.start
         end   = row.end

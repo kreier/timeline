@@ -6,6 +6,7 @@ CE	CN
 year	năm	
 years	năm	
 years_age	tuổi	
+age_kings	tuổi	
 month	tháng	
 months	tháng	
 day	ngày	
@@ -132,7 +133,7 @@ temple2	479 năm mới xây dựng đền – 1 Các vua 6:1	1034 BCE
 jesus_service	3,5 năm phụng sự Chúa Giê-su, bị xử tử vào ngày 14 Ni-san năm 33 CN.	
 jesus_life	Chúa Giê-su sinh năm 2 TCN	
 exile	607 đến 537 TCN – 70 năm (Giê-rê-mi 25:11)	
-exile2	lưu vong	
+exile2	lưu đày	
 7times	Khải huyền 12:9	
 7times2	Bảy kỳ , “các kỳ dân ngoại” (Đa-ni-ên 4:16) – 2520 năm đến Nước Trời 1914 CN (Đa-ni-ên 4:23)	
 ww1	Thế chiến thứ nhất – 1914–1918 CN	
@@ -159,14 +160,14 @@ Galba-Otho-Vitellius	Galba, Otho và Vitellius (Năm Tứ Hoàng)
 Vespasian	Vespasian	
 event_exodus	Ra khỏi xứ Ai-Cập vào ngày 14 tháng Ni-san năm 1513 TCN	
 event_division_kingdom	Y-sơ-ra-ên chia làm hai nước 997 TCN	
-event_destruction_samaria	Sự hủy diệt Sa-ma-ri	
+event_destruction_samaria	Sự hủy diệt Sa-ma-ri 740 TCN bởi người Assyria	
 event_destruction_samaria2	740 TCN bởi người Assyria	
 event_destruction_jerusalem1	Giê-ru-sa-lem bị hủy phá, dân chúng bị lưu đày sang Ba-by-lôn 607 TCN, 390 năm sau khi Y-sơ-ra-ên chia làm hai nước (Ê-xê-chi-ên 4:5)	
-event_temple_rebuilt	Ngôi đền được xây dựng lại 515 TCN	
-event_jerusalem_rebuilt	Giê-ru-sa-lem được xây dựng lại 455 TCN	
+event_temple_rebuilt	xây lại đền thớ 515 TCN	
+event_jerusalem_rebuilt	tường thành Giê-ru-sa-lem xây lại 455 TCN	
 event_destruction_jerusalem2	Sự phá hủy thành Giê-ru-sa-lem vào năm 70 CN bởi La Mã dưới thời Titus	
 event_1914	Cuối thời kỳ của các dân tộc, vương quốc của Đức Chúa Trời bắt đầu cai trị trên trời 1914 CN.	
-became_king	lên làm vua ở tuổi	
+became_king	làm vua lúc	
 vulgate	Vulgate được hoàn thành bởi Jerome (bản dịch kinh thánh bằng tiếng Latin) c. 405 CN	
 gutenberg	Kinh thánh Gutenberg in năm 1455	
 erasmus	Văn bản tiếng Hy Lạp trong Kinh thánh tiếng Hy Lạp do Desiderius Erasmus ở Rotterdam xuất bản năm 1516	
@@ -188,17 +189,17 @@ gilead_school	Trường Kinh Thánh Ga-la-át của Tháp Canh bắt đầu vào
 new_world_translation1	“Bản dịch Kinh Thánh Thế Giới Mới” ra mắt tại Manchester, Anh quốc vào ngày 18-6-1960	
 truth_book	Sách “Sự Thật Dẫn Đến Sự Sống Đời Đời” xuất bản năm 1968	
 metropolitan	Bắt đầu làm chứng tại đô thị vào năm 2011	
-jw_org	Bắt đầu JW.ORG với những hướng dẫn trong mục vụ vương quốc Tháng 12 năm 2012	
+jw_org	Bắt đầu JW.ORG với những hướng dẫn trong Thánh Chức Nước Trời tháng 12 năm 2012	
 new_world_translation2	Bản “Bản dịch Kinh Thánh Thế Giới Mới” được sửa đổi được phát hành tại cuộc họp thường niên năm 2013	
-jw_broadcasting	Bắt đầu phát sóng jw.broadcast vào tháng 10 năm 2014	
+jw_broadcasting	Bắt đầu phát sóng Kênh truyền thông JW vào tháng 10 năm 2014	
 meeting_workbook	Hình thức mới của cuộc họp giữa tuần với “sổ bài tập cuộc họp” bắt đầu từ tháng 1 năm 2016	
-covid19	Đại dịch Covid-19 toàn cầu dẫn đến việc đóng cửa, cách ly và các cuộc họp thu phóng	
+covid19	Đại dịch Covid-19 toàn cầu dẫn đến việc đóng cửa, cách ly và các cuộc họp online	
 cold_war	Tình hình địa chính trị gắn mác “Chiến tranh Lạnh” 1945-1991	
 timeline_created	Dòng thời gian này được tạo ra vào năm 2023, năm nóng nhất trong lịch sử loài người và kéo dài 125.000 năm qua	
 codex_sinaiticus	Codex Sinaiticus được viết	
 codex_vaticanus	Codex Vaticanus được viết	
 leningrad_codex	Leningrad Codex được viết ở Cairo năm 1008 TN	
-john	John viết “Khải huyền” khi bị lưu đày ở Bát-mô vào năm 96-98 CN.	
+john	Giăng viết “Khải huyền” khi bị lưu đày ở Bát-mô vào năm 96-98 CN.	
 nicaea1	Công đồng Nicaea đầu tiên	
 buddha	Đức Phật – Siddhartha Gautama c.563-c.483 B.C.E	
 buddha2	Đức Phật thay thế c. 480-400 TCN	
@@ -206,9 +207,9 @@ mohammed	Mohammed c. 570-632 CN
 confucius	Khổng Tử c.551-c.479 TCN	
 hijrah	Hijrah - Mecca đến Medina 16. 7. 622	
 moses_escape	1553 TCN Môi-se phải trốn khỏi Ai Cập – Xuất Ai Cập 2:15, Công vụ 7:23	
-10plagues	1513 TCN Ai Cập hứng chịu 10 trận dịch	
+10plagues	1513 TCN Ai Cập hứng chịu 10 tai vạ	
 joseph_sold	Giô-sép bị bán làm nô lệ ở tuổi 17 – Sáng thế ký 37:2	
-infliction	400 năm trừng phạt (Công vụ 7:6) – Ích-ma-ên 1913 TCN	
+infliction	400 năm bị hà hiếp (Công vụ 7:6) – Ích-ma-ên 1913 TCN	
 Alexander	Alexander Đại Đế (Đa-ni-ên 11:3)	
 persia	Cyrus Đại Đế, Cambyses II, Darius I 490 TCN, Xerxes I 480 TCN (chồng của Ê-xơ-tê, Đa-ni-ên 11:2)	
 persia2	Ba Tư	
@@ -227,3 +228,5 @@ time_of_end2	ngày cuối cùng
 suryavaman2	Vua Suryavarman II xây dựng Angkor Wat 1113-1150	
 notre-dame	Nhà thờ Đức Bà Paris được xây dựng 1163-1260	
 ming-dynasty	Nhà Minh ở Trung Quốc 1368-1644	
+jehoiada	Giê-hô-gia-đa	
+babel	Tháp Babel được xây dựng	
