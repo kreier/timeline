@@ -24,7 +24,7 @@ pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
 
 # Some general settings
-version  = "3.6"
+version  = "4.0"
 language = "en"
 color_scheme = "normal"
 page_width  = 4*293*mm   # 4x A4 landscape
