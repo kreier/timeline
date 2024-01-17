@@ -20,9 +20,12 @@ if os.getcwd()[-6:] != "python":
     print("This script must be executed inside the python folder.")
     exit()
 
-pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
+# pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
+pdfmetrics.registerFont(TTFont('Aptos', 'noto.ttf'))
 pdfmetrics.registerFont(TTFont('Noto', 'noto.ttf'))
+from reportlab.pdfbase.cidfonts import UnicodeCIDFont
+pdfmetrics.registerFont(UnicodeCIDFont('HeiseiMin-W3'))
 
 # Some general settings
 version  = "4.0"
@@ -67,13 +70,13 @@ def y_position(row_y):
     return y2 - 1 - row_y * 12  # vertically centered 10 point script in 12 pt line
 
 def drawString(text, fontsize, x_string, y_string, position):
-    c.setFont("Aptos", fontsize)
+    c.setFont("HeiseiMin-W3", fontsize)
     if len(text) == 0: # don't draw empty strings
         return
     c.setFillColorRGB(1, 1, 1)
     c.setStrokeColorRGB(1, 1, 1)
     c.setLineWidth(1)
-    white_width = stringWidth(text, "Aptos", fontsize)
+    white_width = stringWidth(text, "HeiseiMin-W3", fontsize)
     if position == "r":
         c.rect(x_string, y_string - 2, white_width, fontsize, fill = 1)
         c.setFillColorRGB(0, 0, 0)
@@ -83,13 +86,15 @@ def drawString(text, fontsize, x_string, y_string, position):
         c.setFillColorRGB(0, 0, 0)
         c.drawRightString(x_string, y_string, text)
     elif position == "c":
-        c.setFont("Aptos-bold", fontsize)
+        c.setFont("HeiseiMin-W3", fontsize)
         c.setFillColorRGB(1, 1, 1)
         c.drawCentredString(x_string, y_string, text)
     elif position == "cb":
-        c.setFont("Aptos", fontsize)
+        c.setFont("HeiseiMin-W3", fontsize)
         c.setFillColorRGB(0, 0, 0)
         c.drawCentredString(x_string, y_string, text)
+
+
 
 # initiate variables
 def initiate_counters():
@@ -152,7 +157,7 @@ def create_horizontal_axis():
     c.line(x1, y2, x1 + drawing_width, y2)
 
     # tickmarks and years for 61 centuries
-    c.setFont('Aptos', 11)
+    c.setFont('HeiseiMin-W3', 11)
     for i in range(61):
         # main tickmark
         tick_x = x1 + (75 + 100 * i) * dots_year
@@ -172,7 +177,7 @@ def create_horizontal_axis():
 
         # label the year
         year = str(abs((100 * i) - 4000))
-        # offset_x = stringWidth(year, 'Aptos', 11) * 0.5
+        # offset_x = stringWidth(year, 'HeiseiMin-W3', 11) * 0.5
         c.drawCentredString(tick_x, y1 - 16, year)
         c.drawCentredString(tick_x, y2 + 8, year)
 
@@ -206,7 +211,7 @@ def create_adam_moses():
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data Adam to Moses")
     persons = pd.read_csv("../db/adam-moses.csv", encoding='utf8')
-    c.setFont("Aptos", 12)
+    c.setFont("HeiseiMin-W3", 12)
     for index, row in persons.iterrows():
         born = -year(row.born)
         died = -year(row.died)
@@ -222,7 +227,7 @@ def create_adam_moses():
         c.setLineWidth(0.3)
         c.rect(x_box, y_box, x_boxwidth, 19, fill = 1)
         c.setFillColorRGB(1, 1, 1)
-        c.setFont("Aptos-bold", 15)
+        c.setFont("HeiseiMin-W3", 15)
         c.drawCentredString(x_text, y_box + 5, person)
         drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
@@ -279,7 +284,7 @@ def create_kings():
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data of kings")
     kings = pd.read_csv("../db/kings.csv", encoding='utf8')
-    c.setFont("Aptos", 10)
+    c.setFont("HeiseiMin-W3", 10)
     c.setLineWidth(0.3)
     for index, row in kings.iterrows():
         start = row.start
@@ -357,7 +362,7 @@ def create_prophets():
         co = color['prophets']
         timebar(x_box, y_box + 10, x_boxwidth, co[0], co[1], co[2])
         prophet = dict[row.key]
-        c.setFont("Aptos", 10)
+        c.setFont("HeiseiMin-W3", 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, prophet)
         counter_prophets += 1
@@ -375,7 +380,7 @@ def create_books():
         co = color['books']
         timebar(x_box, y_box + 10, x_boxwidth, co[0], co[1], co[2])
         book = dict[row.key]
-        c.setFont("Aptos", 10)
+        c.setFont("HeiseiMin-W3", 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, book)
         counter_persons += 1
@@ -385,7 +390,7 @@ def create_caesars():
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data of caesars")
     caesars = pd.read_csv("../db/caesars.csv", encoding='utf8')
-    c.setFont("Aptos", 10)
+    c.setFont("HeiseiMin-W3", 10)
     c.setLineWidth(0.3)
     for index, row in caesars.iterrows():
         born  = row.born
@@ -421,7 +426,7 @@ def create_periods():
     # Import the perios with start and end as pandas dataframe
     print("Import data of periods")
     periods = pd.read_csv("../db/periods.csv", encoding='utf8')
-    c.setFont("Aptos", 10)
+    c.setFont("HeiseiMin-W3", 10)
     c.setLineWidth(0.3)
     for index, row in periods.iterrows():
         detail_c = detail = ""
@@ -454,8 +459,22 @@ def create_timestamp():
         drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 29.0 - 4.5 * index, "r")
         counter_detail = str(eval("counter_" + detail))
         drawString(counter_detail,    4, x1 + 5.4, y1 + 29.0 - 4.5 * index, "l")
-    c.setFont("Aptos", 4)
+    c.setFont("HeiseiMin-W3", 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]}")
+
+def create_watermark():
+    c.setFont("Noto", 16)
+    c.setFillColorRGB(0, 0, 0)
+    c.setStrokeColorRGB(1, 1, 1)
+    c.setLineWidth(1)
+    myText = "TEST の歴史を可視化"
+    # myText = unicode("TEST の歴史を可視化", 'latin-1')
+    c.drawString(200, 200, myText)
+    from reportlab.pdfbase.cidfonts import UnicodeCIDFont
+    pdfmetrics.registerFont(UnicodeCIDFont('HeiseiMin-W3'))
+    c.setFont('HeiseiMin-W3', 16)
+    msg = u'\\u6771\\u4EAC : Unicode font, unicode input を可視'
+    c.drawString(150, 150, msg)
 
 def render_to_file():
     renderPDF.draw(d, c, border_lr, border_tb)
@@ -481,11 +500,8 @@ def create_timeline(lang):
     create_periods()
     create_caesars()
     create_timestamp()
+    create_watermark()
     render_to_file()
 
 if __name__ == "__main__":
-    create_timeline("en")
-    create_timeline("de")
-    create_timeline("vn")
-    create_timeline("fr")
-    create_timeline("ru")
+    create_timeline("jp")
