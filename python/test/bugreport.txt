@@ -1,0 +1,17 @@
+Issue #1: 
+
+
+Issue #2:
+Asian fonts are not rendered while present in UFT-8 and embedded correctly. Copy & paste of the boxes have the correct content, selected font and font size.
+
+
+Way to contact:
+Google groups (signed up)
+
+
+Check version:
+$ > python3
+>>> import reportlab
+>>> reportlab.Version
+'4.0.6'
+>>> exit()
