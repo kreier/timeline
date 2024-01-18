@@ -500,7 +500,7 @@ def create_timeline(lang):
     create_periods()
     create_caesars()
     create_timestamp()
-    create_watermark()
+    # create_watermark()
     render_to_file()
 
 if __name__ == "__main__":

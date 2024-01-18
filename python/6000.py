@@ -489,3 +489,4 @@ if __name__ == "__main__":
     create_timeline("vn")
     create_timeline("fr")
     create_timeline("ru")
+    create_timeline("jp")
