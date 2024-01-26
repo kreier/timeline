@@ -28,4 +28,22 @@ my_canvas.setFont('MS Mincho', 14)
 for i in range(7):
     my_canvas.drawString(50, 540 - 16 * i, text[i])
 
+# with an imported font some of the UTF-8 features work - Chinese
+pdfmetrics.registerFont(TTFont('Noto1', 'NotoSansSC-Medium.ttf'))
+my_canvas.setFont("Noto1", 14)
+for i in range(7):
+    my_canvas.drawString(50, 420 - 16 * i, text[i])
+
+# with an imported font some of the UTF-8 features work -  Korean
+pdfmetrics.registerFont(TTFont('Noto2', 'NotoSansKR-Medium.ttf'))
+my_canvas.setFont("Noto2", 14)
+for i in range(7):
+    my_canvas.drawString(50, 300 - 16 * i, text[i])
+
+# with an imported font some of the UTF-8 features work - Japanese
+pdfmetrics.registerFont(TTFont('Noto', 'NotoSansJP-Medium.ttf'))
+my_canvas.setFont("Noto", 14)
+for i in range(7):
+    my_canvas.drawString(50, 180 - 16 * i, text[i])
+
 my_canvas.save()
