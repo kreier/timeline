@@ -20,9 +20,11 @@ if os.getcwd()[-6:] != "python":
     print("This script must be executed inside the python folder.")
     exit()
 
-pdfmetrics.registerFont(TTFont('Aptos', 'aptos.ttf'))
-pdfmetrics.registerFont(TTFont('Aptos-bold', 'aptos-bold.ttf'))
-pdfmetrics.registerFont(TTFont('Noto', 'noto.ttf'))
+pdfmetrics.registerFont(TTFont('Aptos', 'fonts/aptos.ttf'))
+pdfmetrics.registerFont(TTFont('Aptos-bold', 'fonts/aptos-bold.ttf'))
+pdfmetrics.registerFont(TTFont('Noto', 'fonts/noto.ttf'))
+pdfmetrics.registerFont(TTFont('NotoJP', 'fonts/notoJP.ttf'))
+pdfmetrics.registerFont(TTFont('NotoJP-bold', 'fonts/notoJP-bold.ttf'))
 
 # Some general settings
 version  = "4.0"
@@ -67,13 +69,13 @@ def y_position(row_y):
     return y2 - 1 - row_y * 12  # vertically centered 10 point script in 12 pt line
 
 def drawString(text, fontsize, x_string, y_string, position):
-    c.setFont("Aptos", fontsize)
+    c.setFont(font_regular, fontsize)
     if len(text) == 0: # don't draw empty strings
         return
     c.setFillColorRGB(1, 1, 1)
     c.setStrokeColorRGB(1, 1, 1)
     c.setLineWidth(1)
-    white_width = stringWidth(text, "Aptos", fontsize)
+    white_width = stringWidth(text, font_regular, fontsize)
     if position == "r":
         c.rect(x_string, y_string - 2, white_width, fontsize, fill = 1)
         c.setFillColorRGB(0, 0, 0)
@@ -83,11 +85,11 @@ def drawString(text, fontsize, x_string, y_string, position):
         c.setFillColorRGB(0, 0, 0)
         c.drawRightString(x_string, y_string, text)
     elif position == "c":
-        c.setFont("Aptos-bold", fontsize)
+        c.setFont(font_bold, fontsize)
         c.setFillColorRGB(1, 1, 1)
         c.drawCentredString(x_string, y_string, text)
     elif position == "cb":
-        c.setFont("Aptos", fontsize)
+        c.setFont(font_regular, fontsize)
         c.setFillColorRGB(0, 0, 0)
         c.drawCentredString(x_string, y_string, text)
 
@@ -103,12 +105,19 @@ def initiate_counters():
 
 # Import strings for the respective language for names and comments
 def import_dictionary():
-    global dict
+    global dict, font_regular, font_bold
     print(f"Import dictionary for names and descriptions, language: {language}")
     file_dictionary = "../db/dictionary_" + language + ".tsv"
     key_dict = pd.read_csv(file_dictionary, encoding='utf8', sep = '\t')
     for index, row in key_dict.iterrows():
         dict.update({f"{row.key}" : f"{row.text}"})
+    if language == "jp":
+        font_regular = "NotoJP"
+        font_bold = "NotoJP-bold"
+    else:
+        font_regular = "Aptos"
+        font_bold = "Aptos-bold"
+
 
 # Import colors for all keys
 def import_colors(c_scheme):
@@ -152,7 +161,7 @@ def create_horizontal_axis():
     c.line(x1, y2, x1 + drawing_width, y2)
 
     # tickmarks and years for 61 centuries
-    c.setFont('Aptos', 11)
+    c.setFont(font_regular, 11)
     for i in range(61):
         # main tickmark
         tick_x = x1 + (75 + 100 * i) * dots_year
@@ -172,7 +181,7 @@ def create_horizontal_axis():
 
         # label the year
         year = str(abs((100 * i) - 4000))
-        # offset_x = stringWidth(year, 'Aptos', 11) * 0.5
+        # offset_x = stringWidth(year, font_regular, 11) * 0.5
         c.drawCentredString(tick_x, y1 - 16, year)
         c.drawCentredString(tick_x, y2 + 8, year)
 
@@ -206,7 +215,7 @@ def create_adam_moses():
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data Adam to Moses")
     persons = pd.read_csv("../db/adam-moses.csv", encoding='utf8')
-    c.setFont("Aptos", 12)
+    c.setFont(font_regular, 12)
     for index, row in persons.iterrows():
         born = -year(row.born)
         died = -year(row.died)
@@ -222,7 +231,7 @@ def create_adam_moses():
         c.setLineWidth(0.3)
         c.rect(x_box, y_box, x_boxwidth, 19, fill = 1)
         c.setFillColorRGB(1, 1, 1)
-        c.setFont("Aptos-bold", 15)
+        c.setFont(font_bold, 15)
         c.drawCentredString(x_text, y_box + 5, person)
         drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
@@ -279,7 +288,7 @@ def create_kings():
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data of kings")
     kings = pd.read_csv("../db/kings.csv", encoding='utf8')
-    c.setFont("Aptos", 10)
+    c.setFont(font_regular, 10)
     c.setLineWidth(0.3)
     for index, row in kings.iterrows():
         start = row.start
@@ -357,7 +366,7 @@ def create_prophets():
         co = color['prophets']
         timebar(x_box, y_box + 10, x_boxwidth, co[0], co[1], co[2])
         prophet = dict[row.key]
-        c.setFont("Aptos", 10)
+        c.setFont(font_regular, 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, prophet)
         counter_prophets += 1
@@ -375,7 +384,7 @@ def create_books():
         co = color['books']
         timebar(x_box, y_box + 10, x_boxwidth, co[0], co[1], co[2])
         book = dict[row.key]
-        c.setFont("Aptos", 10)
+        c.setFont(font_regular, 10)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_box , y_box, book)
         counter_persons += 1
@@ -385,7 +394,7 @@ def create_caesars():
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data of caesars")
     caesars = pd.read_csv("../db/caesars.csv", encoding='utf8')
-    c.setFont("Aptos", 10)
+    c.setFont(font_regular, 10)
     c.setLineWidth(0.3)
     for index, row in caesars.iterrows():
         born  = row.born
@@ -421,7 +430,7 @@ def create_periods():
     # Import the perios with start and end as pandas dataframe
     print("Import data of periods")
     periods = pd.read_csv("../db/periods.csv", encoding='utf8')
-    c.setFont("Aptos", 10)
+    c.setFont(font_regular, 10)
     c.setLineWidth(0.3)
     for index, row in periods.iterrows():
         detail_c = detail = ""
@@ -454,7 +463,7 @@ def create_timestamp():
         drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 29.0 - 4.5 * index, "r")
         counter_detail = str(eval("counter_" + detail))
         drawString(counter_detail,    4, x1 + 5.4, y1 + 29.0 - 4.5 * index, "l")
-    c.setFont("Aptos", 4)
+    c.setFont(font_regular, 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]}")
 
 def render_to_file():
