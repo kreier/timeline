@@ -17,7 +17,8 @@ for i in range(len(text)):
 # with an imported font some of the UTF-8 features work
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-fonts = ['../aptos.ttf', 'msmincho.ttc', 'NotoSC.ttf', 'NotoKR.ttf', '../notoJP.ttf']
+fonts = ['../fonts/aptos.ttf', 'msmincho.ttc', '../fonts/notoSC.ttf', 
+         '../fonts/notoKR.ttf', '../fonts/notoJP.ttf']
 fontsize = [14, 14, 12, 12, 12]
 for k in range(len(fonts)):
     pdfmetrics.registerFont(TTFont(f"font{k}", fonts[k]))
