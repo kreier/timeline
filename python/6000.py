@@ -27,6 +27,8 @@ pdfmetrics.registerFont(TTFont('NotoJP', 'fonts/notoJP.ttf'))
 pdfmetrics.registerFont(TTFont('NotoJP-bold', 'fonts/notoJP-bold.ttf'))
 pdfmetrics.registerFont(TTFont('NotoKR', 'fonts/notoKR.ttf'))
 pdfmetrics.registerFont(TTFont('NotoKR-bold', 'fonts/notoKR-bold.ttf'))
+pdfmetrics.registerFont(TTFont('NotoSC', 'fonts/notoSC.ttf'))
+pdfmetrics.registerFont(TTFont('NotoSC-bold', 'fonts/notoSC-bold.ttf'))
 
 # Some general settings
 version  = "4.0"
@@ -119,6 +121,9 @@ def import_dictionary():
     elif language == "kr":
         font_regular = "NotoKR"
         font_bold = "NotoKR-bold"
+    elif language == "sc":
+        font_regular = "NotoSC"
+        font_bold = "NotoSC-bold"
     else:
         font_regular = "Aptos"
         font_bold = "Aptos-bold"
@@ -505,3 +510,4 @@ if __name__ == "__main__":
     create_timeline("ru")
     create_timeline("jp")
     create_timeline("kr")
+    create_timeline("sc")
