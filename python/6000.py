@@ -172,6 +172,8 @@ def create_horizontal_axis():
 
     # tickmarks and years for 61 centuries
     c.setFont(font_regular, 11)
+    # bce_width = stringWidth(dict["BCE"], font_regular, 11)
+    # print(f"The BCE string is {bce_width} points wide.")
     for i in range(61):
         # main tickmark
         tick_x = x1 + (75 + 100 * i) * dots_year
@@ -192,8 +194,34 @@ def create_horizontal_axis():
         # label the year
         year = str(abs((100 * i) - 4000))
         # offset_x = stringWidth(year, font_regular, 11) * 0.5
-        c.drawCentredString(tick_x, y1 - 16, year)
-        c.drawCentredString(tick_x, y2 + 8, year)
+        print_year = True
+        if i == 0:                                               # the year 4000 BCE
+            if stringWidth(dict["BCE"], font_regular, 11) > 30:
+                print_year = False
+        if i == 39:                                              # the year 100 BCE
+            if stringWidth(dict["BCE"], font_regular, 11) > 60:
+                print_year = False
+        if i == 41:                                              # the year 100 CE
+            if stringWidth(dict["CE"], font_regular, 11) > 60:
+                print_year = False
+        if i == 60:                                              # the year 2000 CE
+            if stringWidth(dict["CE"], font_regular, 11) > 30:
+                print_year = False
+        if year == "0":                                          # there is no year zero
+            print_year = False
+            tick_x = x1 + (4075) * dots_year
+            c.setLineWidth(1.0)
+            c.line(tick_x, y1, tick_x, y1 - 6*mm)
+            c.line(tick_x, y2, tick_x, y2 + 6*mm)
+            c.drawString(tick_x + 2, y1 - 16, dict["CE"])
+            c.drawString(tick_x + 2, y2 +  8, dict["CE"])
+            c.drawRightString(tick_x - 2, y1 - 16, dict["BCE"])
+            c.drawRightString(tick_x - 2, y2 +  8, dict["BCE"])
+
+        
+        if print_year:
+            c.drawCentredString(tick_x, y1 - 16, year)           # bottom
+            c.drawCentredString(tick_x, y2 + 8,  year)           # top
 
         # vertical lines for centuries
         if vertical_lines:
