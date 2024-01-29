@@ -222,6 +222,14 @@ def create_adam_moses():
     drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
     counter_events += 1
 
+    # one special for Job
+    co = color['books']    
+    c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
+    x_start = x_position(-1675)
+    y_start = y_position(42.3)
+    x_width = (1675 - 1485) * dots_year
+    c.rect(x_start, y_start, x_width, 1, fill = 1, stroke = 0)
+
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data Adam to Moses")
     persons = pd.read_csv("../db/adam-moses.csv", encoding='utf8')
