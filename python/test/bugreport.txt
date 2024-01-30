@@ -1,0 +1,24 @@
+Issue #1: 
+Special character not rendered correctly: ʹ like in Me·thuʹse·lah (not at all)
+It is U+02B9 : MODIFIER LETTER PRIME
+
+
+
+Issue #2:
+Asian fonts are not rendered while present in UFT-8 and embedded correctly. Copy & paste of the boxes have the correct content, selected font and font size.
+https://docs.reportlab.com/reportlab/userguide/ch3_fonts/
+
+
+Are these issues related? We'll see once I post it on the forum
+
+Way to contact:
+Google groups (signed up)
+
+
+
+Check version:
+$ > python3
+>>> import reportlab
+>>> reportlab.Version
+'4.0.6'
+>>> exit()
