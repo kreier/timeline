@@ -32,7 +32,27 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - v3.3 2023/11/04 __First century__ and 6 ancient people. 110 people, 21 periods, 7 events.
 - v3.4 2023/11/06 Removal of many hard-coded elements and descriptions from 6000.py to __8 seperate files__. Plus a __colors_normal.csv__ file for the colors and one __dictionary_en.tsv__ for each language with currently 164 entries. First translation to __German__ completed. 
 - v3.5 2023/11/22 First translation to __Vietnamese__ completed, minor refinements.
+- v3.6 2023/12/28 Adjustments in the location of information to make it easier to compare. Improved Vietnamese translation.
+- v4.0 2024/01/30 Languages extended to 10 languages with initial support for CJK rendering. Translation support started for French, Iloko and Japanese.
 
+### Translations
+
+Since v3.4 the language specific files have been separated from the program code, data information and list of colors. With some good bible translations I get use the reference location of names to get a start of a translation, since the very dates are not changing. This gives a start to translate into another language. With currently 235 text fields I have to rely on Google translate for a first attempt - and then need someone with good language skills in the target language to complete the translation. Our current state:
+
+| Language                                  | initial support | reviewed | complete |
+|-------------------------------------------|:---------------:|:--------:|:--------:|
+| English                                   |                 |          |     x    |
+| German (Deutsch)                          |                 |          |     x    |
+| Russian (Русский)                         |                 |     x    |          |
+| Vietnamese (Tiếng Việt)                   |                 |     x    |          |
+| French (Français)                         |        x        |     x    |          |
+| Spanish (Español)                         |        x        |          |          |
+| Iloko                                     |        x        |          |          |
+| Japanese (日本語)                         |        x        |          |          |
+| Korean (한국인)                           |        x        |          |          |
+| Chinese (Simplified) [中文简体（普通话）]  |        x        |          |          |
+
+Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects.
 
 ### Scale challenges
 
