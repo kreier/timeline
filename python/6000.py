@@ -110,7 +110,6 @@ def initiate_counters():
 # Import strings for the respective language for names and comments
 def import_dictionary():
     global dict, font_regular, font_bold
-    print(f"Import dictionary for names and descriptions, language: {language}")
     file_dictionary = "../db/dictionary_" + language + ".tsv"
     key_dict = pd.read_csv(file_dictionary, encoding='utf8', sep = '\t')
     for index, row in key_dict.iterrows():
@@ -127,7 +126,7 @@ def import_dictionary():
     else:
         font_regular = "Aptos"
         font_bold = "Aptos-bold"
-
+    print(f"Imported dictionary for names and descriptions, language: {language} with {len(key_dict)} keywords")
 
 # Import colors for all keys
 def import_colors(c_scheme):
@@ -547,3 +546,5 @@ if __name__ == "__main__":
     create_timeline("jp")
     create_timeline("kr")
     create_timeline("sc")
+    create_timeline("es")
+    create_timeline("ilo")
