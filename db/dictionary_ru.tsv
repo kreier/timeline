@@ -6,7 +6,7 @@ CE	н.э.	C.E.
 year	год	year
 years	годы	years
 years_age	лет	years
-age_kings		 
+age_kings	лет	 
 month	месяц	month
 months	месяцы	months
 day	день	day
@@ -221,7 +221,7 @@ king_south2	Британская империя 1870 г., англо-амери�
 king_south3	Король Юга	King of the South
 king_north2	Германия с императором Вильгельмом I 1871 (т.28), 1914 (т.29), 1935 (т.30b), 1939 (т.31а)	Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)
 king_north3	Север	North
-king_north4	Соуджетунион 1945-1991 (Даниил 11:32-39, 40 б, 41)	Sowjet Union 1945-1991 (Daniel 11:32-39, 40b, 41)
+king_north4	Советский Союз 1945-1991 (Даниил 11:32-39, 40 б, 41)	Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)
 king_north5	Россия с 2017 г. (w20 мая)	Russia since 2017 (w20 May)
 time_of_end	Присутствие Христа, Завершение системы вещей (Мф 24:3), последние дни (2Тим 3:1)	Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)
 time_of_end2	Последние дни	last days
@@ -230,6 +230,6 @@ notre-dame	Собор Парижской Богоматери, построен�
 ming-dynasty	Династия Мин в императорском Китае 1368-1644 гг.	Ming dynasty in imperial China 1368-1644
 jehoiada	Иодай	Jehoiada
 babel	построена Вавилонская башня	tower of Babel built
-Haggai	Аггей	
-Zephaniah	Захария 	
-Zerubbabel	Зоровавель (Луки 3:27)	
+Haggai	Аггей	Haggai
+Zephaniah	Захария 	Zephaniah
+Zerubbabel	Зоровавель (Луки 3:27)	Zerubbabel

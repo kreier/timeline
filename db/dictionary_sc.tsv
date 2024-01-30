@@ -2,13 +2,13 @@ key	text	english
 pdf_title	6000年人类历史可视化	6000 years human history visualized
 pdf_subject	人类时间轴	Timeline of humankind
 BCE	公元前	B.C.E.
-CE	C.E.	C.E.
+CE	共同时代	C.E.
 year	年	year
 years	年	years
 years_age	年	years
 age_kings	 	 
 month	月	month
-months	月	months
+months	个月	months
 day	天	day
 days	天	days
 to	到	to
@@ -20,39 +20,39 @@ periods	时期	periods
 events	事件	events
 Deluge	洪水	Deluge
 Adam	亚当	Adam
-Seth	赛斯	Seth
+Seth	塞特	Seth
 Enosh	以挪士	Enosh
-Kenan	凯南	Kenan
-Mahalalel	玛·哈拉·勒勒	Ma·hala·lel
-Jared	贾里德	Jared
+Kenan	该南	Kenan
+Mahalalel	玛勒列	Ma·hala·lel
+Jared	雅列	Jared
 Enoch	以诺	Enoch
-Methuselah	梅·苏斯·拉	Me·thuse·lah
+Methuselah	玛土撒拉	Me·thuse·lah
 Lamech	拉麦	Lamech
-Noah	诺亚	Noah
+Noah	挪亚	Noah
 Shem	闪	Shem
-Arpachshad	阿尔·帕赫沙德	Ar·pachshad
-Shelah	谢拉	Shelah
-Eber	埃伯	Eber
-Peleg	法莱格	Peleg
-Reu	雷乌	Reu
-Serug	塞鲁格	Serug
-Nahor	拿霍尔	Nahor
+Arpachshad	亚法撒	Ar·pachshad
+Shelah	示拉	Shelah
+Eber	希伯	Eber
+Peleg	法勒	Peleg
+Reu	拉吴	Reu
+Serug	西鹿	Serug
+Nahor	拿鹤	Nahor
 Terah	他拉	Terah
 Abraham	亚伯拉罕	Abraham
-Isaac	艾萨克	Isaac
-Jacob	雅各布	Jacob
-Joseph	约瑟夫	Joseph
+Isaac	以撒	Isaac
+Jacob	雅各	Jacob
+Joseph	约瑟	Joseph
 Moses	摩西	Moses
-Othniel	奥斯尼尔	Othniel
-Ehud	埃胡德	Ehud
-Shamgar	沙姆加尔	Shamgar
+Othniel	俄陀聂	Othniel
+Ehud	以户	Ehud
+Shamgar	珊迦	Shamgar
 Barak	巴拉克	Barak
-Gideon	吉迪恩	Gideon
-Tola	托拉	Tola
-Jair	贾尔	Jair
+Gideon	基甸	Gideon
+Tola	陀拉	Tola
+Jair	崖珥	Jair
 Jephthah	耶弗他	Jephthah
-Ibzan	伊布赞	Ibzan
-Elon	埃隆	Elon
+Ibzan	以比赞	Ibzan
+Elon	以伦	Elon
 Abdon	押顿	Abdon
 Samson	参孙	Samson
 Samuel	塞缪尔	Samuel
@@ -73,12 +73,12 @@ Jotham	约坦	Jotham
 Ahaz	亚哈斯	Ahaz
 Hezekiah	希西家	Hezekiah
 Manasseh	玛拿西	Manasseh
-Amon	阿蒙	Amon
+Amon	亚们	Amon
 Josiah	约西亚	Josiah
 Jehoahaz	约哈斯	Jehoahaz
 Jehoiakim	约雅敬	Jehoiakim
 Jehoiachin	约雅斤	Jehoiachin
-Zedekia	泽德基亚	Zedekia
+Zedekia	西底家	Zedekia
 Jeroboam	耶罗波安	Jeroboam
 Nadab	拿答	Nadab
 Baasha	巴沙	Baasha
@@ -94,12 +94,12 @@ Jeoahaz	约哈斯	Jeoahaz
 JeoahazJehoash	约哈斯和约阿施	Jeoahaz and Jehoash
 Jehoash2	约阿施（独掌大权）	Jehoash (alone)
 Jeroboam2	耶罗波安二世	Jeroboam II
-Zechariah	撒迦利亚书	Zechariah
-Schallum	沙勒姆	Schallum
-Menahem	梅纳赫姆	Menahem
-Pekahiah	比加希亚	Pekahiah
+Zechariah	撒迦利亚	Zechariah
+Schallum	沙龙	Schallum
+Menahem	米拿现	Menahem
+Pekahiah	比加辖	Pekahiah
 Pekah	比加	Pekah
-Hoshea	何西阿	Hoshea
+Hoshea	何细亚	Hoshea
 Elijah	以利亚	Elijah
 Elisha	以利沙	Elisha
 Jonah	约拿	Jonah
@@ -109,18 +109,18 @@ Hosea	何西阿	Hosea
 Isaiah	以赛亚	Isaiah
 Micah	弥迦	Micah
 Zephaniah	西番雅	Zephaniah
-Nahum	那厄姆	Nahum
+Nahum	那鸿	Nahum
 Jeremiah	耶利米	Jeremiah
 Habakuk	哈巴谷	Habakuk
-Daniel	丹尼尔	Daniel
+Daniel	但以理	Daniel
 Ezekiel	以西结	Ezekiel
 Obadiah	俄巴底亚	Obadiah
 Malachi	玛拉基	Malachi
-Ruth	露丝	Ruth
+Ruth	路得	Ruth
 Ezra	以斯拉	Ezra
-Nehemiah	尼希米记	Nehemiah
+Nehemiah	尼希米	Nehemiah
 Esther	以斯帖	Esther
-Job	工作	Job
+Job	约伯	Job
 moses2	公元前 1593 年至 1473 年– 120 年	1593 to 1473 B.C.E. – 120 years
 moses3	摩西	Moses
 wilderness	以色列人在旷野中，公元前 1513 年至 1473 年– 40 年	Israel in the wilderness 1513 to 1473 B.C.E. – 40 years
@@ -135,7 +135,7 @@ jesus_life	耶稣诞生于公元前 2 年	Jesus born 2 B.C.E.
 exile	公元前 607 至 537 年– 70 年（耶利米书 25:11）	607 to 537 B.C.E. – 70 years (Jeremiah 25:11)
 exile2	流亡	exile
 7times	启示录 12:9	Revelation 12:9
-7times2	7 次 – 公元 1914 年弥赛亚王国 2520 年（但以理书 4:23）	7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)
+7times2	七次 – 公元 1914 年弥赛亚王国 2520 年（但以理书 4:23）	7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)
 ww1	第一次世界大战 – 公元 1914 年至 1918 年	World War I – 1914–1918 C.E.
 ww2	第二次世界大战 – 公元 1939 年至 1945 年	World War II – 1939–1945 C.E.
 30_year_war	欧洲三十年战争 1618-1648	Thirty Years' War in Europe 1618-1648
@@ -221,7 +221,7 @@ king_south2	1870 年大英帝国，1914 年以来英美世界强国	British empi
 king_south3	南方之王	King of the South
 king_north2	德国威廉一世皇帝 1871 年 (v28)、1914 年 (v29)、1935 年 (v30b)、1939 年 (v31a)	Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)
 king_north3	北	North
-king_north4	Sowjetunion 1945-1991（但以理书 11:32-39, 40 b, 41）	Sowjet Union 1945-1991 (Daniel 11:32-39, 40b, 41)
+king_north4	苏联 1945-1991（但以理书 11:32-39, 40b, 41）	Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)
 king_north5	2017 年起俄罗斯（5 月 20 日）	Russia since 2017 (w20 May)
 time_of_end	基督的临在、事物制度的终结（太 24:3）、末后的日子（2Ti 3:1）	Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)
 time_of_end2	最后一天	last days
