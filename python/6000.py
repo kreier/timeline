@@ -31,12 +31,12 @@ pdfmetrics.registerFont(TTFont('NotoSC', 'fonts/notoSC.ttf'))
 pdfmetrics.registerFont(TTFont('NotoSC-bold', 'fonts/notoSC-bold.ttf'))
 
 # Some general settings
-version  = "4.0"
+version  = "4.1"
 language = "en"
 color_scheme = "normal"
-page_width  = 4*293*mm   # 4x A4 landscape
-page_height = 204*mm     #    A4 landscape - 2x border_tb
-border_lr   = 2*mm
+page_width  = 4*293*mm + 40*mm  # 4x A4 landscape plus 10 mm extra left/right
+page_height = 204*mm            #    A4 landscape - 2x border_tb
+border_lr   = 2*mm     + 20*mm  #                 now 10 mm extra
 border_tb   = 7*mm
 pdf_author  = "https://github.com/kreier/timeline"
 vertical_lines  = False
@@ -194,17 +194,19 @@ def create_horizontal_axis():
         year = str(abs((100 * i) - 4000))
         # offset_x = stringWidth(year, font_regular, 11) * 0.5
         print_year = True
+        ''' a remnant from the fix in v4.0 before making the page wider by 20 mm left/right
         if i == 0:                                               # the year 4000 BCE
             if stringWidth(dict["BCE"], font_regular, 11) > 30:
                 print_year = False
+        if i == 60:                                              # the year 2000 CE
+            if stringWidth(dict["CE"], font_regular, 11) > 30:
+                print_year = False
+        '''
         if i == 39:                                              # the year 100 BCE
             if stringWidth(dict["BCE"], font_regular, 11) > 60:
                 print_year = False
         if i == 41:                                              # the year 100 CE
             if stringWidth(dict["CE"], font_regular, 11) > 60:
-                print_year = False
-        if i == 60:                                              # the year 2000 CE
-            if stringWidth(dict["CE"], font_regular, 11) > 30:
                 print_year = False
         if year == "0":                                          # there is no year zero
             print_year = False
@@ -231,10 +233,10 @@ def create_horizontal_axis():
             if i > 28 and i < 35:
                 c.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
 
-    c.drawString(x1, y1 - 16, dict["BCE"])
-    c.drawString(x1, y2 + 8 , dict["BCE"])
-    c.drawRightString(x2, y1 - 16, dict["CE"])
-    c.drawRightString(x2, y2 + 8,  dict["CE"])
+    c.drawRightString(x1 + 20, y1 - 16, dict["BCE"])
+    c.drawRightString(x1 + 20, y2 + 8 , dict["BCE"])
+    c.drawString(x2 - 20, y1 - 16, dict["CE"])
+    c.drawString(x2 - 20, y2 + 8,  dict["CE"])
 
 def create_adam_moses():
     # unique pattern for people from Adam to Moses, and eventline for deluge
@@ -266,6 +268,8 @@ def create_adam_moses():
         died = -year(row.died)
         person = dict[f"{row.key}"]
         details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {born - died} {dict['years_age']}"
+        if language == "ilo":
+            details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {dict['years_age']} {born - died}"
         x_box = x_position(row.born)
         y_box = y2 - index*21 - 21
         x_boxwidth = (born - died) * dots_year
@@ -280,7 +284,10 @@ def create_adam_moses():
         c.drawCentredString(x_text, y_box + 5, person)
         drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
-            drawString(f"{father_born - born} {dict['years_age']}", 9, x_box - 3, y_box + 11, "l")
+            father_age_when_son_born = f"{father_born - born} {dict['years_age']}"
+            if language == "ilo":
+                father_age_when_son_born = f"{dict['years_age']} {father_born - born}"
+            drawString(father_age_when_son_born, 9, x_box - 3, y_box + 11, "l")
         father_born = born
         counter_persons += 1
 

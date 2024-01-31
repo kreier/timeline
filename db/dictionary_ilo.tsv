@@ -6,12 +6,12 @@ CE	K.P.	C.E.
 year	tawen	year
 years	tawen	years
 years_age	iti edad a	at the age of
-age_kings	tawen	
+age_kings	 	
 month	bulan	month
 months	bulan	months
 day	aldaw	day
 days	aldaw	days
-to	tapno	to
+to	–	to
 persons	dagiti persona	persons
 judges	dagiti uk-ukom	judges
 prophets	dagiti mammadto	prophets
@@ -163,23 +163,23 @@ event_division_kingdom	Dibision ti Israel 997 K.K.P	Division of Israel 997 BCE
 event_destruction_samaria	Pannakadadael ti Samaria 740 K.K.P. ni Asiria	Destruction of Samaria 740 B.C.E. by Assyria
 event_destruction_samaria2	740 K.K.P. ni Asiria	740 B.C.E. by Assyria
 event_destruction_jerusalem1	Pannakadadael ti Jerusalem 607 K.K.P. babaen ti Babilonia, 390 a tawen kalpasan ti pannakabingbingay ti pagarian (Ezekiel 4:5) .	Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)
-event_temple_rebuilt	Naibangon manen ti templo idiay Jerusalem idi 515 K.K.P.	Temple in Jerusalem rebuilt 515 B.C.E.
-event_jerusalem_rebuilt	Naibangon manen ti pader ti Jerusalem 455 K.K.P.	Jerusalem wall rebuilt 455 B.C.E.
-event_destruction_jerusalem2	Pannakadadael ti Jerusalem 70 K.P. babaen ti Roma iti panangidaulo ni Tito	Destruction of Jerusalem 70 C.E. by Rome under Titus
-event_1914	Panungpalan ti panawen dagiti nasnasion, mangrugin nga agturay ti pagarian ti Dios idiay langit 1914 K.P.	End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. 
-became_king	nagbalin nga ari iti edad	became king at age
+event_temple_rebuilt	Panaka ibangon ti templo idiay Jerusalem idi 515 K.K.P.	Temple in Jerusalem rebuilt 515 B.C.E.
+event_jerusalem_rebuilt	Panaka ibangon ti pader ti Jerusalem 455 K.K.P.	Jerusalem wall rebuilt 455 B.C.E.
+event_destruction_jerusalem2	Pannakadadael ti Jerusalem 70 K.P. babaen ken Tito ti Roma 	Destruction of Jerusalem 70 C.E. by Rome under Titus
+event_1914	Panungpalan ti panawen ti nasnasion, panagrugin ti turay ti pagarian ti Dios idiay langit 1914 K.P.	End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. 
+became_king	nagbalin nga ari	became king at age
 vulgate	Inleppas ni Jerome ti Vulgate (Latin a patarus tiBiblia) c. 405 K.P.	Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
 gutenberg	Nayimprenta ti Gutenberg a Biblia idi 1455	Gutenberg bible printed 1455
-erasmus	Ti Kristiano a Griego a teksto ti Kasuratan ket impablaak ni Desiderius Erasmus nga taga Rotterdam idi 1516	Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
-luther	Ti Biblia a patarus ni Luther idi Setiembre 1522	Luther Bible translation in September 1522
-tyndale	Ti Biblia a patarus ni Tyndale iti pagsasao nga Ingles idi 1536	English Bible translation by Tyndale 1536
+erasmus	Ti Kristiano a Griego a Kasuratan ni Desiderius Erasmus (Rotterdam) naipablaak idi 1516	Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
+luther	Ti Biblia a patarus ni Luther - Setiembre 1522	Luther Bible translation in September 1522
+tyndale	Ti Biblia a patarus ni Tyndale iti Ingles 1536	English Bible translation by Tyndale 1536
 king_james	King James nga Biblia 1611	King James Bible 1611
-69weeks3	Rinugian ni Jesus ti panagserbina idi 29 K.P. ( Lucas 3:1, 21 )	Jesus starts his service 29 CE (Luke 3:1, 21)
-ransom	kagudua iti makalawas “panagsardeng ti panagdaton ken panangted ti sagut” Daniel 9:27	middle of week “sacrifice to cease” Daniel 9:27
-cornelius	Nagbautisar ni Cornelio idi ngudo ti 70 a lawas ( Daniel 9:24 ) idi 36 K.P.	Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.
+69weeks3	Rugi ti panagserbi ni Jesus - 29 K.P. ( Luc 3:1, 21 )	Jesus starts his service 29 CE (Luke 3:1, 21)
+ransom	kagudua iti makalawas “panagsardeng ti panagdaton ” Da 9:27	middle of week “sacrifice to cease” Daniel 9:27
+cornelius	Nabautisar ni Cornelio - ngudo ti 70 a lawas ( Da 9:24 ) idi 36 K.P.	Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.
 columbus	panagpatingga ti Sakbay-Panawen ti Columbia idiay Amerika 1492	end of the pre-columbian period in the Americas 1492
 declaration_independence	deklarasion ti panaka wayawaya ti 13 a kolonia idiay Amerika 1776	declaration of independence of 13 colonies in America 1776
-tischendorf	Panakatakuat ti Codex Sinaitcus babaen ken Tischendorf manipud maika-4 a siglo idi 1844	Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844
+tischendorf	Panakatakuat ti Codex Sinaitcus babaen ken Tischendorf -maika-4 a siglo , 1844	Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844
 dead_sea_scrolls	Naisurat ti Dead Sea Scroll	Dead Sea Scrolls written
 septuagint	Naipatarus ti Septuagint LXX 	Septuagint LXX translated
 watchtower	Ti umuna a ruar ti “Zion’s Watch Tower and Herald of Christ’s Presence” ket naipablaak idi 1879	The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879
