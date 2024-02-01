@@ -29,6 +29,8 @@ pdfmetrics.registerFont(TTFont('NotoKR', 'fonts/notoKR.ttf'))
 pdfmetrics.registerFont(TTFont('NotoKR-bold', 'fonts/notoKR-bold.ttf'))
 pdfmetrics.registerFont(TTFont('NotoSC', 'fonts/notoSC.ttf'))
 pdfmetrics.registerFont(TTFont('NotoSC-bold', 'fonts/notoSC-bold.ttf'))
+pdfmetrics.registerFont(TTFont('NotoAR', 'fonts/notoAR.ttf'))
+pdfmetrics.registerFont(TTFont('NotoAR-bold', 'fonts/notoAR-bold.ttf'))
 
 # Some general settings
 version  = "4.1"
@@ -123,6 +125,9 @@ def import_dictionary():
     elif language == "sc":
         font_regular = "NotoSC"
         font_bold = "NotoSC-bold"
+    elif language == "ar":
+        font_regular = "NotoAR"
+        font_bold = "NotoAR-bold"
     else:
         font_regular = "Aptos"
         font_bold = "Aptos-bold"
@@ -281,6 +286,9 @@ def create_adam_moses():
         c.rect(x_box, y_box, x_boxwidth, 19, fill = 1)
         c.setFillColorRGB(1, 1, 1)
         c.setFont(font_bold, 15)
+        if language == "ar":
+            c.setFont(font_bold, 13)
+            y_box += 2
         c.drawCentredString(x_text, y_box + 5, person)
         drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
@@ -555,3 +563,5 @@ if __name__ == "__main__":
     create_timeline("sc")
     create_timeline("es")
     create_timeline("ilo")
+    create_timeline("fi")
+    create_timeline("ar")

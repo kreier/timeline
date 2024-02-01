@@ -1,10 +1,10 @@
-key,born,start,end,row_y,notes
-Julius,-99.469,-64,-43.794,44,
-Augustus,-62.272,-26.958,14.633,43,"born Galus Octavius, also Octavian"
-Tiberius,-41.125,14.711,37.208,42,
-Caligula,12.666,37.208,41.064,41,
-Claudius,10.608,41.064,54.783,40,
-Nero,37.955,54.783,68.439,39,
-Galba-Otho-Vitellius,68.436,68.436,69.969,38,4 Caesars in one year
-Vespasian,9.878,69.5,79.478,37,
-Alexander,-355.444,-336,-322.555,31,
+key,born,start,end,row_y,notes,old
+Julius,-99.469,-64,-43.794,36,,44
+Augustus,-62.272,-26.958,14.633,37,"born Galus Octavius, also Octavian",43
+Tiberius,-41.125,14.711,37.208,38,,42
+Caligula,12.666,37.208,41.064,39,,41
+Claudius,10.608,41.064,54.783,40,,40
+Nero,37.955,54.783,68.439,41,,39
+Galba-Otho-Vitellius,68.436,68.436,69.969,42,4 Caesars in one year,38
+Vespasian,9.878,69.5,79.478,43,,37
+Alexander,-355.444,-336,-322.555,31,,31
