@@ -43,6 +43,7 @@ Since v3.4 the language specific files have been separated from the program code
 |-------------------------------------------|:---------------:|:--------:|:--------:|
 | English                                   |                 |          |     x    |
 | German (Deutsch)                          |                 |          |     x    |
+| Iloko (Ilocano)                           |                 |          |     x    |
 | Russian (Русский)                         |                 |     x    |          |
 | Vietnamese (Tiếng Việt)                   |                 |     x    |          |
 | French (Français)                         |        x        |     x    |          |
@@ -51,6 +52,7 @@ Since v3.4 the language specific files have been separated from the program code
 | Japanese (日本語)                         |        x        |          |          |
 | Korean (한국인)                           |        x        |          |          |
 | Chinese (Simplified) [中文简体（普通话）]  |        x        |          |          |
+| Arabic (العربية)                            |        x        |          |          |
 
 Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects.
 
