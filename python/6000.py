@@ -260,9 +260,9 @@ def create_adam_moses():
     co = color['books']    
     c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
-    y_start = y_position(42.3)
+    y_start = y_position(40.7)
     x_width = (1675 - 1485) * dots_year
-    c.rect(x_start, y_start, x_width, 1, fill = 1, stroke = 0)
+    c.rect(x_start, y_start, x_width, 2, fill = 1, stroke = 0)
 
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data Adam to Moses")
@@ -277,6 +277,8 @@ def create_adam_moses():
             details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {dict['years_age']} {born - died}"
         x_box = x_position(row.born)
         y_box = y2 - index*21 - 21
+        if index == 23:  # Moises
+            y_box -= 8
         x_boxwidth = (born - died) * dots_year
         x_text = x_box + x_boxwidth * 0.5
         co = color[f"{row.key}"]
@@ -389,10 +391,12 @@ def create_kings():
         x_born = x_position(born)
         y_box  = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
+        # horizontal T-graph for time before coming king
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
         c.line(x_born, y_box + 3, x_box, y_box + 3)
         c.line(x_born, y_box -2, x_born, y_box + 8)
+        # box to indicate time of reign
         co = color[row.key]
         c.setFillColorRGB(co[0], co[1], co[2])
         c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
