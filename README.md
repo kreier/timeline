@@ -4,7 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 
-Human history graph created with python and reportlab. Version v3.5 replicates and expands the information of v1.1 with one single page. See both for comparison below.
+This project creates a graph of Human history with python and reportlab. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. See both for comparison below.
 
 ![timeline 3.5](docs/timeline20231129.png)
 
@@ -14,7 +14,7 @@ Human history graph created with python and reportlab. Version v3.5 replicates a
 
 ## Reactivation 2023
 
-After 14 years it was finally time to translate the project to English and share with my friends. In the years since beginning this project I learned a lot about programming languages, vector graphics and possible solutions using pandas, csv files and reportlab (instead of matplotlib). In a first stage I translated the old OpenOffice documents to english. Then I collected data into csv/tsv files for later automated processing and graph generation. This way the translation to another language is just the change of one import file. So far I translated the first page:
+After 14 years it was finally time to translate the project to English and share with my friends. In the years since 2009 I learned a lot about programming languages, vector graphics and possible solutions using pandas, csv files and reportlab (instead of matplotlib). In a first stage I translated the old OpenOffice documents to English. Then I collected data into csv/tsv files for later automated processing and graph generation. This way the translation to another language is "just" the change of one import file. So far I translated the first page:
 
 ![timeline one 4050 - 1450 BCE](docs/timeline_4050-1450.png)
 
