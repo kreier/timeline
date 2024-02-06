@@ -39,20 +39,20 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 
 Since v3.4 the language specific files have been separated from the program code, data information and list of colors. With some good bible translations I get use the reference location of names to get a start of a translation, since the very dates are not changing. This gives a start to translate into another language. With currently 235 text fields I have to rely on Google translate for a first attempt - and then need someone with good language skills in the target language to complete the translation. Our current state:
 
-| Language                                  | initial support | reviewed | complete |
-|-------------------------------------------|:---------------:|:--------:|:--------:|
-| English                                   |                 |          |     x    |
-| German (Deutsch)                          |                 |          |     x    |
-| Iloko (Ilocano)                           |                 |          |     x    |
-| Russian (Русский)                         |                 |     x    |          |
-| Vietnamese (Tiếng Việt)                   |                 |     x    |          |
-| French (Français)                         |        x        |     x    |          |
-| Spanish (Español)                         |        x        |          |          |
-| Iloko                                     |        x        |          |          |
-| Japanese (日本語)                         |        x        |          |          |
-| Korean (한국인)                           |        x        |          |          |
-| Chinese (Simplified) [中文简体（普通话）]  |        x        |          |          |
-| Arabic (العربية)                            |        x        |          |          |
+| Language                                  | initial support | names checked | reviewed | complete |
+|-------------------------------------------|:---------------:|:-------------:|:--------:|:--------:|
+| English                                   |                 |               |          |     x    |
+| German (Deutsch)                          |                 |               |          |     x    |
+| Vietnamese (Tiếng Việt)                   |                 |               |          |     x    |
+| Iloko (Ilocano)                           |                 |               |          |     x    |
+| Japanese (日本語)                         |                 |               |          |     x    |
+| Russian (Русский)                         |                 |               |     x    |          |
+| French (Français)                         |                 |               |     x    |          |
+| Korean (한국인)                           |                 |       x       |          |          |
+| Spanish (Español)                         |        x        |               |          |          |
+| Finnish (Suomi)                           |        x        |               |          |          |
+| Chinese (Simplified) [中文简体（普通话）] |        x        |               |          |          |
+| Arabic (العربية)                          |        x        |               |          |          |
 
 Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects.
 
