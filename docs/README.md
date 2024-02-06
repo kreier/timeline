@@ -44,7 +44,7 @@ Since v3.4 the language specific files have been separated from the program code
 | German (Deutsch)                          |                 |               |          |     x    |
 | Vietnamese (Tiếng Việt)                   |                 |               |          |     x    |
 | Iloko (Ilocano)                           |                 |               |          |     x    |
-| [Japanese](../timeline/timeline_4.1_jp.pdf) (日本語)                         |                 |               |          |     x    |
+| [Japanese](timeline_jp.pdf) (日本語)                         |                 |               |          |     x    |
 | Russian (Русский)                         |                 |               |     x    |          |
 | French (Français)                         |                 |               |     x    |          |
 | Korean (한국인)                           |                 |       x       |          |          |
