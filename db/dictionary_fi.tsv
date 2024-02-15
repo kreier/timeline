@@ -1,17 +1,17 @@
 key	text	english
 pdf_title	6000 vuoden ihmiskunnan historia visualisoituna	6000 years human history visualized
 pdf_subject	Ihmiskunnan aikajana	Timeline of humankind
-BCE	B.C.E.	B.C.E.
+BCE	eaa.	B.C.E.
 CE	C.E.	C.E.
 year	vuosi	year
 years	vuotta	years
 years_age	vuotta	years
 age_kings	 	 
 month	kuukausi	month
-months	kuukaudet	months
+months	kuukautta	months
 day	päivä	day
 days	päivää	days
-to	to	to
+to	 - 	to
 persons	henkilöt	persons
 judges	tuomarit	judges
 prophets	profeettoja	prophets
@@ -19,19 +19,19 @@ kings	kuninkaat	kings
 periods	kausia	periods
 events	Tapahtumat	events
 Deluge	Hukuttaa	Deluge
-Adam	Adam	Adam
+Adam	Aadam	Adam
 Seth	Seth	Seth
-Enosh	Enosh	Enosh
+Enosh	Enos	Enosh
 Kenan	Kenan	Kenan
-Mahalalel	Ma·hala·lel	Ma·hala·lel
+Mahalalel	Mahalaleel	Ma·hala·lel
 Jared	Jared	Jared
-Enoch	Enoch	Enoch
-Methuselah	Me·thuse·lah	Me·thuse·lah
-Lamech	Lamech	Lamech
+Enoch	Hanok	Enoch
+Methuselah	Metusalah	Me·thuse·lah
+Lamech	Lemek	Lamech
 Noah	Noah	Noah
-Shem	Shem	Shem
-Arpachshad	Ar·pachshad	Ar·pachshad
-Shelah	Shelah	Shelah
+Shem	Seem	Shem
+Arpachshad	Arpaksad	Ar·pachshad
+Shelah	Selah	Shelah
 Eber	Eber	Eber
 Peleg	Peleg	Peleg
 Reu	Reu	Reu
@@ -39,8 +39,8 @@ Serug	Serug	Serug
 Nahor	Nahor	Nahor
 Terah	Terah	Terah
 Abraham	Abraham	Abraham
-Isaac	Isaac	Isaac
-Jacob	Jacob	Jacob
+Isaac	Iisak	Isaac
+Jacob	Jaakob	Jacob
 Joseph	Joseph	Joseph
 Moses	Mooses	Moses
 Othniel	Othniel	Othniel
@@ -57,41 +57,41 @@ Abdon	Abdon	Abdon
 Samson	Simson	Samson
 Samuel	Samuel	Samuel
 Saul	Saul	Saul
-David	David	David
+David	Daavid	David
 Solomo	Solomo	Solomo
 Rehoboam	Rehabeam	Rehoboam
-Abijah	Abiah (Abijam)	Abijah (Abijam)
+Abijah	Abia (Abiam)	Abijah (Abijam)
 Asa	Asa	Asa
-Jehoshaphat	Joosafat	Jehoshaphat
+Jehoshaphat	Josafat	Jehoshaphat
 Jehoram2	Joram	Jehoram
 Ahaziah	Ahasja	Ahaziah
 Athaliah	Kuningatar Atalja	Queen Athaliah
-Jehoash	Jehoash	Jehoash
-Amaziah	Amaziah	Amaziah
-Uzziah	Ussia (Azaria)	Uzziah (Azariah)
-Jotham	Jotham	Jotham
-Ahaz	Ahaz	Ahaz
+Jehoash	Joas	Jehoash
+Amaziah	Amasja	Amaziah
+Uzziah	Ussia (Asarja)	Uzziah (Azariah)
+Jotham	Jotam	Jotham
+Ahaz	Ahas 	Ahaz
 Hezekiah	Hiskia	Hezekiah
 Manasseh	Manasse	Manasseh
 Amon	Amon	Amon
-Josiah	Josiah	Josiah
-Jehoahaz	Jooahas	Jehoahaz
+Josiah	Josia	Josiah
+Jehoahaz	Jehoahas	Jehoahaz
 Jehoiakim	Jojakim	Jehoiakim
 Jehoiachin	Jojakin	Jehoiachin
-Zedekia	Zedekia	Zedekia
+Zedekia	Sidkia	Zedekia
 Jeroboam	Jerobeam	Jeroboam
 Nadab	Nadab	Nadab
-Baasha	Baasha	Baasha
-Elah	Elah	Elah
-Zimri	Zimri	Zimri
-OmriTibni	Omri ja Tibni yhdessä	Omri and Tibni together
+Baasha	Baesa	Baasha
+Elah	Ela	Elah
+Zimri	Simri	Zimri
+OmriTibni	Omri ja Tibni	Omri and Tibni together
 Omri	Omri (yksin)	Omri (alone)
 Ahab	Ahab	Ahab
 Ahaziah	Ahasja	Ahaziah
 Jehoram	Joram	Jehoram
-Jehu	Jehu	Jehu
-Jeoahaz	Jeoahaz	Jeoahaz
-JeoahazJehoash	Joahas ja Joas	Jeoahaz and Jehoash
+Jehu	Jeehu	Jehu
+Jeoahaz	Jehoahas	Jeoahaz
+JeoahazJehoash	Jehoahas ja Joas	Jeoahaz and Jehoash
 Jehoash2	Joas (yksin)	Jehoash (alone)
 Jeroboam2	Jerobeam II	Jeroboam II
 Zechariah	Sakariah	Zechariah
@@ -100,10 +100,10 @@ Menahem	Menahem	Menahem
 Pekahiah	Pekahiah	Pekahiah
 Pekah	Pekah	Pekah
 Hoshea	Hoshea	Hoshea
-Elijah	Elijah	Elijah
+Elijah	Elia	Elijah
 Elisha	Elisa	Elisha
-Jonah	Jonah	Jonah
-Amos	Amos	Amos
+Jonah	Joona	Jonah
+Amos	Aamos	Amos
 Joel	Joel	Joel
 Hosea	Hosea	Hosea
 Isaiah	Isaiah	Isaiah
