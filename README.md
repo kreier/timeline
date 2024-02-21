@@ -50,7 +50,7 @@ Since v3.4 the language specific files have been separated from the program code
 | French (Français)                         |                 |               |     x    |          |
 | Korean (한국인)                           |                 |       x       |          |          |
 | Spanish (Español)                         |        x        |               |          |          |
-| Finnish (Suomi)                           |        x        |               |          |          |
+| Finnish (Suomi)                           |                 |       x       |          |          |
 | Chinese (Simplified) [中文简体（普通话）] |        x        |               |          |          |
 | Arabic (العربية)                          |        x        |               |          |          |
 
