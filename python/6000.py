@@ -29,14 +29,16 @@ pdfmetrics.registerFont(TTFont('NotoKR', 'fonts/notoKR.ttf'))
 pdfmetrics.registerFont(TTFont('NotoKR-bold', 'fonts/notoKR-bold.ttf'))
 pdfmetrics.registerFont(TTFont('NotoSC', 'fonts/notoSC.ttf'))
 pdfmetrics.registerFont(TTFont('NotoSC-bold', 'fonts/notoSC-bold.ttf'))
+pdfmetrics.registerFont(TTFont('NotoAR', 'fonts/notoAR.ttf'))
+pdfmetrics.registerFont(TTFont('NotoAR-bold', 'fonts/notoAR-bold.ttf'))
 
 # Some general settings
-version  = "4.0"
+version  = "4.1"
 language = "en"
 color_scheme = "normal"
-page_width  = 4*293*mm   # 4x A4 landscape
-page_height = 204*mm     #    A4 landscape - 2x border_tb
-border_lr   = 2*mm
+page_width  = 4*293*mm + 40*mm  # 4x A4 landscape plus 10 mm extra left/right
+page_height = 204*mm            #    A4 landscape - 2x border_tb
+border_lr   = 2*mm     + 20*mm  #                 now 10 mm extra
 border_tb   = 7*mm
 pdf_author  = "https://github.com/kreier/timeline"
 vertical_lines  = False
@@ -123,6 +125,9 @@ def import_dictionary():
     elif language == "sc":
         font_regular = "NotoSC"
         font_bold = "NotoSC-bold"
+    elif language == "ar":
+        font_regular = "NotoAR"
+        font_bold = "NotoAR-bold"
     else:
         font_regular = "Aptos"
         font_bold = "Aptos-bold"
@@ -194,17 +199,19 @@ def create_horizontal_axis():
         year = str(abs((100 * i) - 4000))
         # offset_x = stringWidth(year, font_regular, 11) * 0.5
         print_year = True
+        ''' a remnant from the fix in v4.0 before making the page wider by 20 mm left/right
         if i == 0:                                               # the year 4000 BCE
             if stringWidth(dict["BCE"], font_regular, 11) > 30:
                 print_year = False
+        if i == 60:                                              # the year 2000 CE
+            if stringWidth(dict["CE"], font_regular, 11) > 30:
+                print_year = False
+        '''
         if i == 39:                                              # the year 100 BCE
             if stringWidth(dict["BCE"], font_regular, 11) > 60:
                 print_year = False
         if i == 41:                                              # the year 100 CE
             if stringWidth(dict["CE"], font_regular, 11) > 60:
-                print_year = False
-        if i == 60:                                              # the year 2000 CE
-            if stringWidth(dict["CE"], font_regular, 11) > 30:
                 print_year = False
         if year == "0":                                          # there is no year zero
             print_year = False
@@ -231,10 +238,10 @@ def create_horizontal_axis():
             if i > 28 and i < 35:
                 c.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
 
-    c.drawString(x1, y1 - 16, dict["BCE"])
-    c.drawString(x1, y2 + 8 , dict["BCE"])
-    c.drawRightString(x2, y1 - 16, dict["CE"])
-    c.drawRightString(x2, y2 + 8,  dict["CE"])
+    c.drawRightString(x1 + 20, y1 - 16, dict["BCE"])
+    c.drawRightString(x1 + 20, y2 + 8 , dict["BCE"])
+    c.drawString(x2 - 20, y1 - 16, dict["CE"])
+    c.drawString(x2 - 20, y2 + 8,  dict["CE"])
 
 def create_adam_moses():
     # unique pattern for people from Adam to Moses, and eventline for deluge
@@ -253,9 +260,9 @@ def create_adam_moses():
     co = color['books']    
     c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
-    y_start = y_position(42.3)
+    y_start = y_position(40.7)
     x_width = (1675 - 1485) * dots_year
-    c.rect(x_start, y_start, x_width, 1, fill = 1, stroke = 0)
+    c.rect(x_start, y_start, x_width, 2, fill = 1, stroke = 0)
 
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     print("Import data Adam to Moses")
@@ -266,8 +273,12 @@ def create_adam_moses():
         died = -year(row.died)
         person = dict[f"{row.key}"]
         details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {born - died} {dict['years_age']}"
+        if language == "ilo":
+            details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {dict['years_age']} {born - died}"
         x_box = x_position(row.born)
         y_box = y2 - index*21 - 21
+        if index == 23:  # Moises
+            y_box -= 8
         x_boxwidth = (born - died) * dots_year
         x_text = x_box + x_boxwidth * 0.5
         co = color[f"{row.key}"]
@@ -277,10 +288,16 @@ def create_adam_moses():
         c.rect(x_box, y_box, x_boxwidth, 19, fill = 1)
         c.setFillColorRGB(1, 1, 1)
         c.setFont(font_bold, 15)
+        if language == "ar":
+            c.setFont(font_bold, 13)
+            y_box += 2
         c.drawCentredString(x_text, y_box + 5, person)
         drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
-            drawString(f"{father_born - born} {dict['years_age']}", 9, x_box - 3, y_box + 11, "l")
+            father_age_when_son_born = f"{father_born - born} {dict['years_age']}"
+            if language == "ilo":
+                father_age_when_son_born = f"{dict['years_age']} {father_born - born}"
+            drawString(father_age_when_son_born, 9, x_box - 3, y_box + 11, "l")
         father_born = born
         counter_persons += 1
 
@@ -374,10 +391,12 @@ def create_kings():
         x_born = x_position(born)
         y_box  = y_position(row.row_y)
         x_boxwidth = (end -  start) * dots_year
+        # horizontal T-graph for time before coming king
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
         c.line(x_born, y_box + 3, x_box, y_box + 3)
         c.line(x_born, y_box -2, x_born, y_box + 8)
+        # box to indicate time of reign
         co = color[row.key]
         c.setFillColorRGB(co[0], co[1], co[2])
         c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
@@ -548,3 +567,5 @@ if __name__ == "__main__":
     create_timeline("sc")
     create_timeline("es")
     create_timeline("ilo")
+    create_timeline("fi")
+    create_timeline("ar")
