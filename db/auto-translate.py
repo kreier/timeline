@@ -1,4 +1,8 @@
 # Create a google translated dictionary as starting point for a new language
+# It does not work with https://pypi.org/project/googletrans/ 3.0.0 (latest version)
+# You need the 3.1.0a0 alpha version from 2020
+# pip3 install googletrans==3.1.0a0
+# https://pypi.org/project/googletrans/3.1.0a0/ 
 
 import os, sys
 import pandas as pd
@@ -37,7 +41,7 @@ def second_func():
     print("Auto translation done. Translated x key phrases.")
 
 if __name__ == "__main__":
-    dict = pd.DataFrame()
+    dict = pd.DataFrame() # will contain the english dictionary with 'key' and 'text' column, plus 'alternative' and 'notes' (not used)
     if len(sys.argv) < 2:
         print("You did not provide a language as argument. Put it as a parameter after the program name.")
         exit()
@@ -47,16 +51,17 @@ if __name__ == "__main__":
     check_existing(language, filename)
     import_english()
     # create the dataframe
-    dict_translated = dict[['key', 'text']].copy()
-    dict_translated['english'] = dict['text'].copy()
+    dict_translated = dict[['key', 'text']].copy()   # create a new dictionary, copy columns key and text
+    dict_translated['english'] = dict['text'].copy() # add a column 'english' and fill with 'text' from english dictionary
     print("\nTranslating ...")
     translator = Translator()
-    for index, row in dict_translated.iterrows():
+    for index, row in dict_translated.iterrows(): # with 3 columns 'key' 'text' and 'english'
         # dict_translated.at[index, 'text'] = "new"
         english_text = row.english
         if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
-            dict_translated.at[index, 'text'] = translator.translate(row.english, src='en', dest=language).text
+            dict_translated.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
             print('.', end='')
+            # print(f'English: {english_text}, Translated: {dict_translated[index]}')
         if (index + 1) % 40 == 0:
             print(f" {index}")
 
