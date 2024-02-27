@@ -23,14 +23,16 @@ if os.getcwd()[-6:] != "python":
 pdfmetrics.registerFont(TTFont('Aptos', 'fonts/aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'fonts/aptos-bold.ttf'))
 pdfmetrics.registerFont(TTFont('Noto', 'fonts/noto.ttf'))
-pdfmetrics.registerFont(TTFont('NotoJP', 'fonts/notoJP.ttf'))
+pdfmetrics.registerFont(TTFont('NotoJP', 'fonts/notoJP.ttf'))            # Japanese
 pdfmetrics.registerFont(TTFont('NotoJP-bold', 'fonts/notoJP-bold.ttf'))
-pdfmetrics.registerFont(TTFont('NotoKR', 'fonts/notoKR.ttf'))
+pdfmetrics.registerFont(TTFont('NotoKR', 'fonts/notoKR.ttf'))            # Korean
 pdfmetrics.registerFont(TTFont('NotoKR-bold', 'fonts/notoKR-bold.ttf'))
-pdfmetrics.registerFont(TTFont('NotoSC', 'fonts/notoSC.ttf'))
+pdfmetrics.registerFont(TTFont('NotoSC', 'fonts/notoSC.ttf'))            # Simplified Chinese
 pdfmetrics.registerFont(TTFont('NotoSC-bold', 'fonts/notoSC-bold.ttf'))
-pdfmetrics.registerFont(TTFont('NotoAR', 'fonts/notoAR.ttf'))
+pdfmetrics.registerFont(TTFont('NotoAR', 'fonts/notoAR.ttf'))            # Arabic
 pdfmetrics.registerFont(TTFont('NotoAR-bold', 'fonts/notoAR-bold.ttf'))
+pdfmetrics.registerFont(TTFont('NotoSI', 'fonts/notoSI.ttf'))            # Sinhala
+pdfmetrics.registerFont(TTFont('NotoSI-bold', 'fonts/notoSI-bold.ttf'))
 
 # Some general settings
 version  = "4.1"
@@ -128,6 +130,9 @@ def import_dictionary():
     elif language == "ar":
         font_regular = "NotoAR"
         font_bold = "NotoAR-bold"
+    elif language == "si":
+        font_regular = "NotoSI"
+        font_bold = "NotoSI-bold"
     else:
         font_regular = "Aptos"
         font_bold = "Aptos-bold"
@@ -291,6 +296,9 @@ def create_adam_moses():
         if language == "ar":
             c.setFont(font_bold, 13)
             y_box += 2
+        if language == "si":
+            c.setFont(font_bold, 13)
+            y_box += 1
         c.drawCentredString(x_text, y_box + 5, person)
         drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
@@ -569,3 +577,4 @@ if __name__ == "__main__":
     create_timeline("ilo")
     create_timeline("fi")
     create_timeline("ar")
+    create_timeline('si')
