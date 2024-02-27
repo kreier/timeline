@@ -33,7 +33,8 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - v3.4 2023/11/06 Removal of many hard-coded elements and descriptions from 6000.py to __8 seperate files__. Plus a __colors_normal.csv__ file for the colors and one __dictionary_en.tsv__ for each language with currently 164 entries. First translation to __German__ completed. 
 - v3.5 2023/11/22 First translation to __Vietnamese__ completed, minor refinements.
 - v3.6 2023/12/28 Adjustments in the location of information to make it easier to compare. Improved Vietnamese translation.
-- v4.0 2024/01/30 Languages extended to 10 languages with initial support for CJK rendering. Translation support started for French, Iloko and Japanese.
+- v4.0 2024/01/30 Languages extended to 10 languages with initial support for CJK (中国人 日本語 한국어) rendering. Translation support started for French, Iloko and Japanese.
+- v4.1 2024/02/27 Included Sinhala (සිංහල) and refined __Iloko__ and __Japanese__ (日本語).
 
 ### Translations
 
@@ -49,8 +50,9 @@ Since v3.4 the language specific files have been separated from the program code
 | Russian (Русский)                         |                 |               |     x    |          |
 | French (Français)                         |                 |               |     x    |          |
 | Korean (한국인)                           |                 |       x       |          |          |
-| Spanish (Español)                         |        x        |               |          |          |
 | Finnish (Suomi)                           |                 |       x       |          |          |
+| Sinhala (සිංහල)                           |                 |       x       |          |          |
+| Spanish (Español)                         |        x        |               |          |          |
 | Chinese (Simplified) [中文简体（普通话）] |        x        |               |          |          |
 | Arabic (العربية)                          |        x        |               |          |          |
 
