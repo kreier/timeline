@@ -528,6 +528,8 @@ def create_periods():
             drawString(detail, 10, x_box + x_boxwidth + 2, y_box, "r")
         counter_periods += 1
 
+def include_pictures():
+    c.drawImage("../images/daniel2.jpg", x_position(-4000), y_position(42), width=24*mm, height=75*mm)
 
 def create_timestamp():
     timestamp_details = ["persons", "judges", "prophets", "kings", "periods", "events"]
@@ -561,6 +563,7 @@ def create_timeline(lang):
     create_books()
     create_periods()
     create_caesars()
+    include_pictures()
     create_timestamp()
     render_to_file()
 
