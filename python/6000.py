@@ -35,7 +35,7 @@ pdfmetrics.registerFont(TTFont('NotoSI', 'fonts/notoSI.ttf'))            # Sinha
 pdfmetrics.registerFont(TTFont('NotoSI-bold', 'fonts/notoSI-bold.ttf'))
 
 # Some general settings
-version  = "4.1"
+version  = "4.2"
 language = "en"
 color_scheme = "normal"
 page_width  = 4*293*mm + 40*mm  # 4x A4 landscape plus 10 mm extra left/right
@@ -568,13 +568,13 @@ if __name__ == "__main__":
     create_timeline("en")
     create_timeline("de")
     create_timeline("vn")
-    create_timeline("fr")
-    create_timeline("ru")
-    create_timeline("jp")
-    create_timeline("kr")
-    create_timeline("sc")
-    create_timeline("es")
-    create_timeline("ilo")
-    create_timeline("fi")
-    create_timeline("ar")
-    create_timeline('si')
+    # create_timeline("fr")
+    # create_timeline("ru")
+    # create_timeline("jp")
+    # create_timeline("kr")
+    # create_timeline("sc")
+    # create_timeline("es")
+    # create_timeline("ilo")
+    # create_timeline("fi")
+    # create_timeline("ar")
+    # create_timeline('si')
