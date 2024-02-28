@@ -529,7 +529,10 @@ def create_periods():
         counter_periods += 1
 
 def include_pictures():
-    c.drawImage("../images/daniel2.jpg", x_position(-4000), y_position(42), width=24*mm, height=75*mm)
+    c.drawImage("../images/daniel2.jpg", x_position(-4000), y_position(44), width=61*mm, height=96*mm)
+    c.drawImage("../images/babel.jpg", x_position(-2270), y_position(9.6), width=30*mm, height=22*mm)
+    c.drawImage("../images/terach.jpg", x_position(-3400), y_position(44), width=160*mm, height=104*mm)
+    
 
 def create_timestamp():
     timestamp_details = ["persons", "judges", "prophets", "kings", "periods", "events"]
@@ -538,7 +541,7 @@ def create_timestamp():
         counter_detail = str(eval("counter_" + detail))
         drawString(counter_detail,    4, x1 + 5.4, y1 + 29.0 - 4.5 * index, "l")
     c.setFont(font_regular, 4)
-    c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]}")
+    c.drawString(x1, y1 + 2, f"Timeline {version} - created {str(datetime.datetime.now())[0:16]} {pdf_author}")
 
 def render_to_file():
     renderPDF.draw(d, c, border_lr, border_tb)
