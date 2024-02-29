@@ -422,8 +422,8 @@ def timebar(x, y, width, R, G, B):
     c.setFillColorRGB(R, G, B)
     c.rect(x, y, width, 4, fill = 1, stroke = 0)        
     # let's overdraw left and right side with some shades, 75% 50% and 25%
-    factor = [0.75, 0.50, 0.25]
-    fade_steps = 50
+    # factor = [0.75, 0.50, 0.25]
+    fade_steps = 35
     for i in range(fade_steps):
         co = faded_color(R, G, B, (i+1)/fade_steps)
         c.setFillColorRGB(co[0], co[1], co[2])
@@ -526,9 +526,14 @@ def create_periods():
         c.setStrokeColorRGB(0, 0, 0)
         c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
         if row.end_fade > row.end:
-            fade_width = row.end_fade - row.end
+            fade_width = (row.end_fade - row.end) * dots_year
             x_boxwidth += fade_width
-            # for fadestep in range(10):
+            fade_steps = 50
+            for i in range(fade_steps):
+                cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
+                c.setFillColorRGB(cl[0], cl[1], cl[2])
+                c.rect(x_box + x_boxwidth - fade_width * i/fade_steps - 0.8, y_box - 3, 1, 12, fill = 1, stroke = 0)
+
 
         c.setFillColorRGB(0, 0, 0)
         if len(row.text_center) > 1:
