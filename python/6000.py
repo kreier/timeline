@@ -413,6 +413,9 @@ def create_kings():
         drawString(detail_l, 10, x_box - 2, y_box, "l")
         counter_kings += 1
 
+def faded_color(red, green, blue, percent):
+    return [1 - percent * (1 - red), 1 - percent * (1 - green), 1 - percent * (1 - blue)]
+
 def timebar(x, y, width, R, G, B):
     c.setLineWidth(0.0)
     c.setStrokeColorRGB(1, 1, 1)
@@ -420,10 +423,15 @@ def timebar(x, y, width, R, G, B):
     c.rect(x, y, width, 4, fill = 1, stroke = 0)        
     # let's overdraw left and right side with some shades, 75% 50% and 25%
     factor = [0.75, 0.50, 0.25]
-    for i in range(3):
-        c.setFillColorRGB(1 - factor[i] * (1 - R), 1 - factor[i] * (1 - G), 1 - factor[i] * (1 - B))
-        c.rect(x + 2 - i,         y, 1, 4, fill = 1, stroke = 0)
-        c.rect(x + width - 3 + i, y, 1, 4, fill = 1, stroke = 0)
+    fade_steps = 50
+    for i in range(fade_steps):
+        co = faded_color(R, G, B, (i+1)/fade_steps)
+        c.setFillColorRGB(co[0], co[1], co[2])
+        # c.setFillColorRGB(1 - factor[i] * (1 - R), 1 - factor[i] * (1 - G), 1 - factor[i] * (1 - B))
+        # c.rect(x + 2 - i,         y, 1, 4, fill = 1, stroke = 0)
+        # c.rect(x + width - 3 + i, y, 1, 4, fill = 1, stroke = 0)
+        c.rect(x + 3 * i/fade_steps - 0.1,   y, 1, 4, fill = 1, stroke = 0)
+        c.rect(x + width - 3 * i/fade_steps, y, 1, 4, fill = 1, stroke = 0)
 
 def create_prophets():
     global counter_prophets
@@ -517,6 +525,11 @@ def create_periods():
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
         c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
+        if row.end_fade > row.end:
+            fade_width = row.end_fade - row.end
+            x_boxwidth += fade_width
+            # for fadestep in range(10):
+
         c.setFillColorRGB(0, 0, 0)
         if len(row.text_center) > 1:
             detail_c = dict[row.text_center]
@@ -566,7 +579,7 @@ def create_timeline(lang):
     create_books()
     create_periods()
     create_caesars()
-    include_pictures()
+    # include_pictures()
     create_timestamp()
     render_to_file()
 
