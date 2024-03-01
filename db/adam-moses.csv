@@ -4,7 +4,7 @@ Seth,-3895.25,-2983.25,
 Enosh,-3790.25,-2885.25,year = int(date -1)
 Kenan,-3700.25,-2790.25,month = 13 + int((date - int(data)) * 12)
 Mahalalel,-3630.25,-2735.25,day = int((month - int(month))*30) + 1
-Jared,-3565.25,-2735.25,
+Jared,-3565.25,-2603.25,
 Enoch,-3403.25,-3038.25,
 Methuselah,-3338.25,-2369.25,
 Lamech,-3151.25,-2376.25,
