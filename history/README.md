@@ -28,7 +28,14 @@ The current edition is v3.5. Early October I wrote "Hopefully by end of October 
 ![timeline v3.5](../docs/timeline20231110.png)
 ![timeline v3.5 updated](../docs/timeline20231129.png)
 
-Since v3.4 it is also translated to German, with v3.5 a Vietnamese translation was added. And the respective translations have to be extended with each new detail added.
+Since v3.4 it is also translated to German, with v3.5 a Vietnamese translation was added. And the respective translations have to be extended with each new detail added. Latest addition above it the king of the North and South from Daniel 11.
+
+## v4.0 Increase of version number to reflect the year in January 2024
+
+To reflect the year of the timeline edition for at least the next 6 years I simply use the last digit of the year as the leading version indicator. In 2030 this might change to a two-digit version number, if I'm still working on this project. Here we start with v4.0 from January 2024:
+
+![timeline v4.0](../docs/timeline20240131_4.0.png)
+
 
 ## v1.1 Translation of v1.0 to English in June 2023
 
