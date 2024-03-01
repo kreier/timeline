@@ -113,6 +113,7 @@ def initiate_counters():
     counter_periods  = 0
     counter_events   = 0
     counter_items    = 0
+    counter_terahfam = 0
 
 # Import strings for the respective language for names and comments
 def import_dictionary():
@@ -553,6 +554,7 @@ def create_periods():
         counter_periods += 1
 
 def create_terah_familytree():
+    global counter_terahfam
     print("Import family tree of Terah")
     lines = pd.read_csv("../db/terah-lines.csv", encoding='utf8')
     for index, row in lines.iterrows():
@@ -581,6 +583,7 @@ def create_terah_familytree():
         if row.color == "red":
             c.setFillColorRGB(red[0], red[1], red[2])
         c.drawCentredString(x, y, dict[row.key])
+    counter_terahfam = 80
 
 
 def include_pictures():
@@ -597,11 +600,11 @@ def include_pictures():
     
 
 def create_timestamp():
-    timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "items"]
+    timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "items", "terahfam"]
     for index, detail in enumerate(timestamp_details):
-        drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 33.5 - 4.5 * index, "r")
+        drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 38 - 4.5 * index, "r")
         counter_detail = str(eval("counter_" + detail))
-        drawString(counter_detail,    4, x1 + 5.4, y1 + 33.5 - 4.5 * index, "l")
+        drawString(counter_detail,    4, x1 + 5.4, y1 + 38 - 4.5 * index, "l")
     c.setFont(font_regular, 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author}")
 
