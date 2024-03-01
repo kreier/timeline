@@ -81,15 +81,16 @@ def drawString(text, fontsize, x_string, y_string, position):
     c.setFont(font_regular, fontsize)
     if len(text) == 0: # don't draw empty strings
         return
-    c.setFillColorRGB(1, 1, 1)
     c.setStrokeColorRGB(1, 1, 1)
     c.setLineWidth(1)
     white_width = stringWidth(text, font_regular, fontsize)
     if position == "r":
+        c.setFillColorRGB(1, 1, 1)
         c.rect(x_string, y_string - 2, white_width, fontsize, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_string, y_string, text)
     elif position == "l":
+        c.setFillColorRGB(1, 1, 1)
         c.rect(x_string - white_width, y_string - 2, white_width, fontsize, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         c.drawRightString(x_string, y_string, text)
@@ -112,6 +113,7 @@ def initiate_counters():
     counter_periods  = 0
     counter_events   = 0
     counter_items    = 0
+    counter_terahfam = 0
 
 # Import strings for the respective language for names and comments
 def import_dictionary():
@@ -540,7 +542,6 @@ def create_periods():
                 c.setFillColorRGB(cl[0], cl[1], cl[2])
                 c.rect(x_box + x_boxwidth - fade_width * i/fade_steps - 0.8, y_box - 3, 1, 12, fill = 1, stroke = 0)
 
-
         c.setFillColorRGB(0, 0, 0)
         if len(row.text_center) > 1:
             detail_c = dict[row.text_center]
@@ -552,10 +553,43 @@ def create_periods():
             drawString(detail, 10, x_box + x_boxwidth + 2, y_box, "r")
         counter_periods += 1
 
+def create_terah_familytree():
+    global counter_terahfam
+    print("Import family tree of Terah")
+    lines = pd.read_csv("../db/terah-lines.csv", encoding='utf8')
+    for index, row in lines.iterrows():
+        c.setLineWidth(0.3)
+        c.setStrokeColorRGB(0, 0, 0)
+        if row.type == "married":
+            c.setLineWidth(1.0)
+            c.setStrokeColorRGB(0.05, 0.61, 0.05)
+        x_1 = x_position(-row.start)
+        y_1 = y_position(row.start_row - 0.25)
+        x_2 = x_position(-row.end)
+        y_2 = y_position(row.end_row - 0.25)
+        c.line(x_1, y_1, x_2, y_2)
+    terah = pd.read_csv("../db/terah-family.csv", encoding='utf8')
+    c.setStrokeColorRGB(1, 1, 1)
+    red  = color["terah_red"]
+    blue = color["terah_blue"]
+    for index, row in terah.iterrows():
+        text_width = stringWidth(dict[row.key], font_regular, 10)
+        x = x_position(-row.left)
+        y = y_position(row.row)
+        c.setLineWidth(2.0)
+        c.setFillColorRGB(1, 1, 1)
+        c.rect(x - 0.5 * text_width - 1, y - 2, text_width + 2, 10, fill = 1)
+        c.setFillColorRGB(blue[0], blue[1], blue[2])
+        if row.color == "red":
+            c.setFillColorRGB(red[0], red[1], red[2])
+        c.drawCentredString(x, y, dict[row.key])
+    counter_terahfam = 80
+
+
 def include_pictures():
-    c.drawImage("../images/daniel2.jpg", x_position(-4100), y_position(42), width=73*mm, height=115*mm)
+    c.drawImage("../images/daniel2.jpg", x_position(-4050), y_position(40), width=73*mm, height=115*mm)
     c.drawImage("../images/babel.jpg", x_position(-2270), y_position(9.6), width=30*mm, height=22*mm)
-    c.drawImage("../images/terach.jpg", x_position(-3400), y_position(44), width=160*mm, height=104*mm)
+    # c.drawImage("../images/terach.jpg", x_position(-3400), y_position(44), width=160*mm, height=104*mm)
     # drawing = svg2rlg("../images/daniel2.svg")
     # desired_height = 96*mm
     # factor = desired_height / drawing.height
@@ -566,11 +600,11 @@ def include_pictures():
     
 
 def create_timestamp():
-    timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "items"]
+    timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "items", "terahfam"]
     for index, detail in enumerate(timestamp_details):
-        drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 33.5 - 4.5 * index, "r")
+        drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 38 - 4.5 * index, "r")
         counter_detail = str(eval("counter_" + detail))
-        drawString(counter_detail,    4, x1 + 5.4, y1 + 33.5 - 4.5 * index, "l")
+        drawString(counter_detail,    4, x1 + 5.4, y1 + 38 - 4.5 * index, "l")
     c.setFont(font_regular, 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author}")
 
@@ -599,6 +633,7 @@ def create_timeline(lang):
     create_items()
     create_periods()
     create_caesars()
+    create_terah_familytree()
     include_pictures()
     create_timestamp()
     render_to_file()
