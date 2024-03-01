@@ -4,11 +4,15 @@
 [![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 
-This project creates a graph of Human history with python and reportlab. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. See both for comparison below.
+This project creates a graph of Human history with python and reportlab. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With version 4.2 some images make it into the timeline after 15 years of slow development. See both for comparison below.
 
 ![timeline 3.5](docs/timeline20231129.png)
 
+Compare this 4000 year timespan of version 3.6 from 2023:
+
 ![timeline 3.6 first 4k](docs/timeline20231129_4k.png)
+
+With the same time period in version 1.1 from 2009:
 
 ![timeline 1.1](docs/timeline20230630.png)
 
