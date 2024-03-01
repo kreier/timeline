@@ -587,7 +587,7 @@ def create_terah_familytree():
 
 
 def include_pictures():
-    c.drawImage("../images/daniel2.jpg", x_position(-4100), y_position(42), width=73*mm, height=115*mm)
+    c.drawImage("../images/daniel2.jpg", x_position(-4050), y_position(40), width=73*mm, height=115*mm)
     c.drawImage("../images/babel.jpg", x_position(-2270), y_position(9.6), width=30*mm, height=22*mm)
     # c.drawImage("../images/terach.jpg", x_position(-3400), y_position(44), width=160*mm, height=104*mm)
     # drawing = svg2rlg("../images/daniel2.svg")
