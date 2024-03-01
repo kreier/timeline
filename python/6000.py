@@ -11,6 +11,7 @@ from reportlab.graphics.shapes import *
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase.pdfmetrics import stringWidth
+from svglib.svglib import svg2rlg
 import pandas as pd
 import datetime
 import os
@@ -547,9 +548,16 @@ def create_periods():
         counter_periods += 1
 
 def include_pictures():
-    c.drawImage("../images/daniel2.jpg", x_position(-4000), y_position(44), width=61*mm, height=96*mm)
+    c.drawImage("../images/daniel2.jpg", x_position(-4100), y_position(42), width=73*mm, height=115*mm)
     c.drawImage("../images/babel.jpg", x_position(-2270), y_position(9.6), width=30*mm, height=22*mm)
     c.drawImage("../images/terach.jpg", x_position(-3400), y_position(44), width=160*mm, height=104*mm)
+    # drawing = svg2rlg("../images/daniel2.svg")
+    # desired_height = 96*mm
+    # factor = desired_height / drawing.height
+    # sx = sy = factor
+    # drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
+    # drawing.scale(sx, sy)
+    # renderPDF.draw(drawing, c, x_position(-4100), y_position(40))    
     
 
 def create_timestamp():
@@ -584,7 +592,7 @@ def create_timeline(lang):
     create_books()
     create_periods()
     create_caesars()
-    # include_pictures()
+    include_pictures()
     create_timestamp()
     render_to_file()
 
