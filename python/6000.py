@@ -585,19 +585,33 @@ def create_terah_familytree():
         c.drawCentredString(x, y, dict[row.key])
     counter_terahfam = 80
 
-
 def include_pictures():
-    c.drawImage("../images/daniel2.jpg", x_position(-4050), y_position(40), width=73*mm, height=115*mm)
+    # c.drawImage("../images/daniel2.jpg", x_position(-4050), y_position(40), width=73*mm, height=115*mm)
     c.drawImage("../images/babel.jpg", x_position(-2270), y_position(9.6), width=30*mm, height=22*mm)
-    # c.drawImage("../images/terach.jpg", x_position(-3400), y_position(44), width=160*mm, height=104*mm)
-    # drawing = svg2rlg("../images/daniel2.svg")
-    # desired_height = 96*mm
-    # factor = desired_height / drawing.height
-    # sx = sy = factor
-    # drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
-    # drawing.scale(sx, sy)
-    # renderPDF.draw(drawing, c, x_position(-4100), y_position(40))    
-    
+
+def create_daniel2():
+    desired_height = 96*mm
+    shift_upward   = 30*mm    
+    kingdoms = ["Babylon", "Medopersia", "Greece", "Rome", "Angloamerica"]
+    for index, kingdom in enumerate(kingdoms):
+        # print(index, ". ", kingdom, " - ", dict[kingdom + "_c"], " - ", dict[kingdom] )
+        co = color["daniel2"]
+        c.setLineWidth(0.4)
+        c.setStrokeColorRGB(co[0], co[1], co[2])
+        y_line = y1 + shift_upward + desired_height * (0.947 - index * 0.224)
+        c.line(x_position(-3820),y_line, x_position(-4026), y_line)
+        c.setFont(font_bold, 12)
+        c.setFillColorRGB(co[0], co[1], co[2])
+        c.drawString(x_position(-4026), y_line - 12, dict[kingdom + "_c"])
+        c.setFont(font_regular, 8)
+        c.setFillColorRGB(0.2, 0.2, 0.2)
+        c.drawString(x_position(-4026), y_line - 22, dict[kingdom])
+    drawing = svg2rlg("../images/daniel2.svg")
+    factor = desired_height / drawing.height
+    sx = sy = factor
+    drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
+    drawing.scale(sx, sy)
+    renderPDF.draw(drawing, c, x_position(-3880), y1 + shift_upward)        
 
 def create_timestamp():
     timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "items", "terahfam"]
@@ -635,6 +649,7 @@ def create_timeline(lang):
     create_caesars()
     create_terah_familytree()
     include_pictures()
+    create_daniel2()
     create_timestamp()
     render_to_file()
 
