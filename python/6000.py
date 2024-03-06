@@ -34,6 +34,7 @@ pdfmetrics.registerFont(TTFont('NotoAR', 'fonts/notoAR.ttf'))            # Arabi
 pdfmetrics.registerFont(TTFont('NotoAR-bold', 'fonts/notoAR-bold.ttf'))
 pdfmetrics.registerFont(TTFont('NotoSI', 'fonts/notoSI.ttf'))            # Sinhala
 pdfmetrics.registerFont(TTFont('NotoSI-bold', 'fonts/notoSI-bold.ttf'))
+pdfmetrics.registerFont(TTFont('NotoCuneiform', 'fonts/notoCuneiform.ttf')) # Akkadian
 
 # Some general settings
 version  = "4.2"
@@ -474,8 +475,15 @@ def create_items():
     books = pd.read_csv("../db/items.csv", encoding='utf8')
     co = color['items']
     for index, row in books.iterrows():
-        text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
-        counter_items += 1
+        if row.key == "gilgamesh":
+            x_boxwidth = (row.end -  row.start) * dots_year
+            timebar(x_position(row.start), y_position(row.row_y) + 10, x_boxwidth, co[0], co[1], co[2])
+            c.setFont("NotoCuneiform", 10)
+            c.setFillColorRGB(0, 0, 0)
+            c.drawString(x_position(row.start) , y_position(row.row_y), dict["gilgamesh"])
+        else:
+            text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
+            counter_items += 1
 
 def create_caesars():
     global counter_kings
