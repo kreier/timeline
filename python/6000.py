@@ -489,7 +489,7 @@ def create_people():
 
 def create_items():
     global counter_items
-    print("Import data of items or things")
+    print("Import data of items or objects")
     books = pd.read_csv("../db/items.csv", encoding='utf8')
     co = color['items']
     for index, row in books.iterrows():
@@ -571,7 +571,11 @@ def create_periods():
         c.setFillColorRGB(0, 0, 0)
         if len(row.text_center) > 1:
             detail_c = dict[row.text_center]
-            drawString(detail_c, 10, x_box + x_boxwidth * 0.5, y_box, "c")
+            textsize = 10
+            while stringWidth(detail_c, font_bold, textsize, 'utf8') > x_boxwidth and textsize > 4:
+                textsize -= 1
+                print(textsize, " ", detail_c)
+            drawString(detail_c, textsize, x_box + x_boxwidth * 0.5, y_box, "c")
         detail = dict[key]
         if row.location_description == "l":
             drawString(detail, 10, x_box - 2, y_box, "l")
