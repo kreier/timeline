@@ -106,14 +106,14 @@ def drawString(text, fontsize, x_string, y_string, position):
 
 # initiate variables
 def initiate_counters():
-    global counter_people, counter_judges, counter_prophets, counter_kings, counter_periods, counter_events, counter_items
+    global counter_people, counter_judges, counter_prophets, counter_kings, counter_periods, counter_events, counter_objects, counter_terahfam
     counter_people   = 0
     counter_judges   = 0
     counter_prophets = 0
     counter_kings    = 0
     counter_periods  = 0
     counter_events   = 0
-    counter_items    = 0
+    counter_objects  = 0
     counter_terahfam = 0
 
 # Import strings for the respective language for names and comments
@@ -331,12 +331,12 @@ def draw_event(text, date, ys, ye, yt, wl, pos):
     points = [x_line, y_txt + 1, x_line + x_add, y_txt + 3, x_line, y_txt + 5]
     d.add(Polygon(points, fillColor=(lc[0], lc[1], lc[2]), strokeColor=(lc[0], lc[1], lc[2]), strokeWidth = 0.1))
 
-def create_events_items():
-    global counter_items
-    items = pd.read_csv("../db/events_items.csv", encoding='utf8')
+def create_events_objects():
+    global counter_objects
+    items = pd.read_csv("../db/events_objects.csv", encoding='utf8')
     for index, row in items.iterrows():
         draw_event(row.key, row.date, row.y_start, row.y_end, row.y_text, row.width, row.position)
-        counter_items += 1
+        counter_objects += 1
 
 def create_reference_events():
     # Deluge in 2370 BCE is special and included in the Adam_Moses part
@@ -487,11 +487,11 @@ def create_people():
         text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
         counter_people += 1
 
-def create_items():
-    global counter_items
+def create_objects():
+    global counter_objects
     print("Import data of items or objects")
-    books = pd.read_csv("../db/items.csv", encoding='utf8')
-    co = color['items']
+    books = pd.read_csv("../db/objects.csv", encoding='utf8')
+    co = color['objects']
     for index, row in books.iterrows():
         if row.key == "gilgamesh":
             x_boxwidth = (row.end -  row.start) * dots_year
@@ -501,7 +501,7 @@ def create_items():
             c.drawString(x_position(row.start) , y_position(row.row_y), dict["gilgamesh"])
         else:
             text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
-            counter_items += 1
+            counter_objects += 1
 
 def create_caesars():
     global counter_kings
@@ -664,7 +664,7 @@ def create_daniel2():
     renderPDF.draw(drawing, c, x_position(-3850), y1 + shift_upward)        
 
 def create_timestamp():
-    timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "items", "terahfam"]
+    timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "objects", "terahfam"]
     for index, detail in enumerate(timestamp_details):
         drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 38 - 4.5 * index, "r")
         counter_detail = str(eval("counter_" + detail))
@@ -690,13 +690,13 @@ def create_timeline(lang):
     create_horizontal_axis()
     create_adam_moses()
     create_reference_events()
-    create_events_items()
+    create_events_objects()
     create_judges()
     create_kings()
     create_prophets()
     create_books()
     create_people()
-    create_items()
+    create_objects()
     create_periods()
     create_caesars()
     create_terah_familytree()
