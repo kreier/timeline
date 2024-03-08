@@ -317,7 +317,6 @@ def create_adam_moses():
 def create_reference_events():
     # Deluge in 2370 BCE is special and included in the Adam_Moses part
     global counter_events
-
     print("Import data of reference events")
     events = pd.read_csv("../db/events.csv", encoding='utf8')
     for index, row in events.iterrows():
@@ -329,6 +328,19 @@ def create_reference_events():
             x_txt -= 4
         drawString(dict[row.key], 10, x_txt, y_position(row.y_text), row.position)
         counter_events += 1
+
+def create_events_items():
+    global counter_items
+    itemss = pd.read_csv("../db/events_items.csv", encoding='utf8')
+    for index, row in items.iterrows():
+        x_txt  = x_position(row.date) + 2
+        c.setLineWidth(row.width)
+        c.setStrokeColorRGB(0.3, 0.0, 0.0)
+        c.line(x_position(row.date), y_position(row.y_start), x_position(row.date), y_position(row.y_end))
+        if row.position == "l":
+            x_txt -= 4
+        drawString(dict[row.key], 10, x_txt, y_position(row.y_text), row.position)
+        counter_items += 1
 
 def create_judges():
     global counter_judges
@@ -637,7 +649,7 @@ def create_daniel2():
     sx = sy = factor
     drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
     drawing.scale(sx, sy)
-    renderPDF.draw(drawing, c, x_position(-3860), y1 + shift_upward)        
+    renderPDF.draw(drawing, c, x_position(-3850), y1 + shift_upward)        
 
 def create_timestamp():
     timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "items", "terahfam"]
