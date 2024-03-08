@@ -7,7 +7,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib import colors
 from reportlab.lib.units import mm
 from reportlab.graphics import renderPDF
-from reportlab.graphics.shapes import *
+from reportlab.graphics.shapes import Drawing, Polygon
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase.pdfmetrics import stringWidth
@@ -34,14 +34,15 @@ pdfmetrics.registerFont(TTFont('NotoAR', 'fonts/notoAR.ttf'))            # Arabi
 pdfmetrics.registerFont(TTFont('NotoAR-bold', 'fonts/notoAR-bold.ttf'))
 pdfmetrics.registerFont(TTFont('NotoSI', 'fonts/notoSI.ttf'))            # Sinhala
 pdfmetrics.registerFont(TTFont('NotoSI-bold', 'fonts/notoSI-bold.ttf'))
+pdfmetrics.registerFont(TTFont('NotoCuneiform', 'fonts/notoCuneiform.ttf')) # Akkadian
 
 # Some general settings
 version  = "4.2"
 language = "en"
 color_scheme = "normal"
-page_width  = 4*293*mm + 40*mm  # 4x A4 landscape plus 10 mm extra left/right
+page_width  = 4*293*mm + 80*mm  # 4x A4 landscape plus 10 mm extra left/right
 page_height = 204*mm            #    A4 landscape - 2x border_tb
-border_lr   = 2*mm     + 20*mm  #                 now 10 mm extra
+border_lr   = 2*mm     + 40*mm  #                 now 10 mm extra
 border_tb   = 7*mm
 pdf_author  = "https://github.com/kreier/timeline"
 vertical_lines  = False
@@ -105,14 +106,14 @@ def drawString(text, fontsize, x_string, y_string, position):
 
 # initiate variables
 def initiate_counters():
-    global counter_people, counter_judges, counter_prophets, counter_kings, counter_periods, counter_events, counter_items
+    global counter_people, counter_judges, counter_prophets, counter_kings, counter_periods, counter_events, counter_objects, counter_terahfam
     counter_people   = 0
     counter_judges   = 0
     counter_prophets = 0
     counter_kings    = 0
     counter_periods  = 0
     counter_events   = 0
-    counter_items    = 0
+    counter_objects  = 0
     counter_terahfam = 0
 
 # Import strings for the respective language for names and comments
@@ -166,6 +167,7 @@ def create_drawing_area():
     drawing_width  = page_width - 2 * border_lr
     drawing_height = page_height - 2 * border_tb
     d = Drawing(drawing_width, drawing_height)
+    # d = Drawing(page_width, page_height)
     x1 = border_lr
     y1 = border_tb
     x2 = x1 + drawing_width
@@ -313,20 +315,36 @@ def create_adam_moses():
         father_born = born
         counter_people += 1
 
+def draw_event(text, date, ys, ye, yt, wl, pos):
+    x_line = x_position(date)
+    x_txt  = x_line + 4
+    y_txt  = y_position(yt)
+    x_add  = 2
+    if pos == "l":
+        x_txt = x_line - 4
+        x_add = -x_add
+    lc = [0.15, 0.15, 0.2]
+    c.setLineWidth(wl)
+    c.setStrokeColorRGB(lc[0], lc[1], lc[2])
+    c.line(x_line, y_position(ys), x_line, y_position(ye))
+    drawString(dict[text], 10, x_txt, y_txt, pos)
+    points = [x_line, y_txt + 1, x_line + x_add, y_txt + 3, x_line, y_txt + 5]
+    d.add(Polygon(points, fillColor=(lc[0], lc[1], lc[2]), strokeColor=(lc[0], lc[1], lc[2]), strokeWidth = 0.1))
+
+def create_events_objects():
+    global counter_objects
+    items = pd.read_csv("../db/events_objects.csv", encoding='utf8')
+    for index, row in items.iterrows():
+        draw_event(row.key, row.date, row.y_start, row.y_end, row.y_text, row.width, row.position)
+        counter_objects += 1
+
 def create_reference_events():
     # Deluge in 2370 BCE is special and included in the Adam_Moses part
     global counter_events
-
     print("Import data of reference events")
     events = pd.read_csv("../db/events.csv", encoding='utf8')
     for index, row in events.iterrows():
-        x_txt  = x_position(row.date) + 2
-        c.setLineWidth(row.width)
-        c.setStrokeColorRGB(0.3, 0.0, 0.0)
-        c.line(x_position(row.date), y_position(row.y_start), x_position(row.date), y_position(row.y_end))
-        if row.position == "l":
-            x_txt -= 4
-        drawString(dict[row.key], 10, x_txt, y_position(row.y_text), row.position)
+        draw_event(row.key, row.date, row.y_start, row.y_end, row.y_text, row.width, row.position)
         counter_events += 1
 
 def create_judges():
@@ -439,7 +457,8 @@ def text_with_timebar(text, row, year_start, year_end, R, G, B):
     timebar(x_box, y_box + 10, x_boxwidth, R, G, B)
     c.setFont(font_regular, 10)
     c.setFillColorRGB(0, 0, 0)
-    c.drawString(x_box , y_box, text)
+    drawString(text, 10, x_box, y_box, "r")
+    # c.drawString(x_box , y_box, text)
 
 def create_prophets():
     global counter_prophets
@@ -468,14 +487,21 @@ def create_people():
         text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
         counter_people += 1
 
-def create_items():
-    global counter_items
-    print("Import data of items or things")
-    books = pd.read_csv("../db/items.csv", encoding='utf8')
-    co = color['items']
+def create_objects():
+    global counter_objects
+    print("Import data of items or objects")
+    books = pd.read_csv("../db/objects.csv", encoding='utf8')
+    co = color['objects']
     for index, row in books.iterrows():
-        text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
-        counter_items += 1
+        if row.key == "gilgamesh":
+            x_boxwidth = (row.end -  row.start) * dots_year
+            timebar(x_position(row.start), y_position(row.row_y) + 10, x_boxwidth, co[0], co[1], co[2])
+            c.setFont("NotoCuneiform", 10)
+            c.setFillColorRGB(0, 0, 0)
+            c.drawString(x_position(row.start) , y_position(row.row_y), dict["gilgamesh"])
+        else:
+            text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
+            counter_objects += 1
 
 def create_caesars():
     global counter_kings
@@ -545,7 +571,11 @@ def create_periods():
         c.setFillColorRGB(0, 0, 0)
         if len(row.text_center) > 1:
             detail_c = dict[row.text_center]
-            drawString(detail_c, 10, x_box + x_boxwidth * 0.5, y_box, "c")
+            textsize = 10
+            while stringWidth(detail_c, font_bold, textsize, 'utf8') > x_boxwidth and textsize > 4:
+                textsize -= 1
+                print(textsize, " ", detail_c)
+            drawString(detail_c, textsize, x_box + x_boxwidth * 0.5, y_box, "c")
         detail = dict[key]
         if row.location_description == "l":
             drawString(detail, 10, x_box - 2, y_box, "l")
@@ -585,22 +615,56 @@ def create_terah_familytree():
         c.drawCentredString(x, y, dict[row.key])
     counter_terahfam = 80
 
-
 def include_pictures():
-    c.drawImage("../images/daniel2.jpg", x_position(-4050), y_position(40), width=73*mm, height=115*mm)
-    c.drawImage("../images/babel.jpg", x_position(-2270), y_position(9.6), width=30*mm, height=22*mm)
-    # c.drawImage("../images/terach.jpg", x_position(-3400), y_position(44), width=160*mm, height=104*mm)
-    # drawing = svg2rlg("../images/daniel2.svg")
-    # desired_height = 96*mm
-    # factor = desired_height / drawing.height
-    # sx = sy = factor
-    # drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
-    # drawing.scale(sx, sy)
-    # renderPDF.draw(drawing, c, x_position(-4100), y_position(40))    
-    
+    pictures = pd.read_csv("../db/pictures.csv", encoding='utf8')
+    for index, row in pictures.iterrows():
+        location = "../images/" + row.key + ".jpg"
+        c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
+
+def create_daniel2():
+    desired_height = 96*mm
+    shift_upward   = 30*mm    
+    kingdoms = ["Babylon", "Medopersia", "Greece", "Rome", "Angloamerica"]
+    years = ["607", "", "539", "537", "", "331", "", "63", "70", "1914-1918", "", ""] 
+    yearlines = [2, 3, 2, 2, 3]
+    current_yearline = 0
+    for index, kingdom in enumerate(kingdoms):
+        # print(index, ". ", kingdom, " - ", dict[kingdom + "_c"], " - ", dict[kingdom] )
+        co = color["daniel2"]
+        c.setLineWidth(0.4)
+        c.setStrokeColorRGB(co[0], co[1], co[2])
+        y_line = y1 + shift_upward + desired_height * (0.91 - index * 0.212)
+        c.line(x_position(-3800),y_line, x_position(-4026), y_line)
+        c.setFont(font_bold, 12)
+        c.setFillColorRGB(co[0], co[1], co[2])
+        c.drawString(x_position(-4026), y_line - 12, dict[kingdom + "_c"])
+        c.setFont(font_regular, 8)
+        c.setFillColorRGB(0.2, 0.2, 0.2)
+        c.drawString(x_position(-4026), y_line - 22, dict[kingdom])
+        current_yearstring = years[current_yearline] + dict["BCE"]
+        if index == 4:
+            current_yearstring = years[current_yearline] + " " + dict["CE"]
+        indentation = stringWidth(current_yearstring, font_regular, 6) + 2
+        for yearline in range(yearlines[index]):
+            yearstring = ""
+            if years[current_yearline] != "":
+                yearstring = years[current_yearline] + " " + dict["BCE"]
+                if current_yearline > 7:
+                    yearstring = years[current_yearline] + " " + dict["CE"]
+            c.setFont(font_regular, 6)
+            c.drawString(x_position(-4026), y_line - 30 - 8 * yearline, yearstring)
+            line_daniel2 = "daniel2_" + str(current_yearline+1)
+            c.drawString(x_position(-4026) + indentation, y_line - 30- 8 * yearline, dict[line_daniel2])
+            current_yearline += 1
+    drawing = svg2rlg("../images/daniel2.svg")
+    factor = desired_height / drawing.height
+    sx = sy = factor
+    drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
+    drawing.scale(sx, sy)
+    renderPDF.draw(drawing, c, x_position(-3850), y1 + shift_upward)        
 
 def create_timestamp():
-    timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "items", "terahfam"]
+    timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "objects", "terahfam"]
     for index, detail in enumerate(timestamp_details):
         drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 38 - 4.5 * index, "r")
         counter_detail = str(eval("counter_" + detail))
@@ -609,7 +673,8 @@ def create_timestamp():
     c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author}")
 
 def render_to_file():
-    renderPDF.draw(d, c, border_lr, border_tb)
+    # renderPDF.draw(d, c, border_lr, border_tb)
+    renderPDF.draw(d, c, 0, 0)
     c.showPage()
     c.save()
     print(f"File exported: {filename}")
@@ -625,16 +690,18 @@ def create_timeline(lang):
     create_horizontal_axis()
     create_adam_moses()
     create_reference_events()
+    create_events_objects()
     create_judges()
     create_kings()
     create_prophets()
     create_books()
     create_people()
-    create_items()
+    create_objects()
     create_periods()
     create_caesars()
     create_terah_familytree()
     include_pictures()
+    create_daniel2()
     create_timestamp()
     render_to_file()
 
