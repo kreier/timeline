@@ -331,7 +331,7 @@ def create_reference_events():
 
 def create_events_items():
     global counter_items
-    itemss = pd.read_csv("../db/events_items.csv", encoding='utf8')
+    items = pd.read_csv("../db/events_items.csv", encoding='utf8')
     for index, row in items.iterrows():
         x_txt  = x_position(row.date) + 2
         c.setLineWidth(row.width)
@@ -606,8 +606,10 @@ def create_terah_familytree():
     counter_terahfam = 80
 
 def include_pictures():
-    # c.drawImage("../images/daniel2.jpg", x_position(-4050), y_position(40), width=73*mm, height=115*mm)
-    c.drawImage("../images/babel.jpg", x_position(-2270), y_position(9.6), width=30*mm, height=22*mm)
+    pictures = pd.read_csv("../db/pictures.csv", encoding='utf8')
+    for index, row in pictures.iterrows():
+        location = "../images/" + row.key + ".jpg"
+        c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
 
 def create_daniel2():
     desired_height = 96*mm
@@ -677,6 +679,7 @@ def create_timeline(lang):
     create_horizontal_axis()
     create_adam_moses()
     create_reference_events()
+    create_events_items()
     create_judges()
     create_kings()
     create_prophets()
