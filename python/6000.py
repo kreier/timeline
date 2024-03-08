@@ -315,40 +315,37 @@ def create_adam_moses():
         father_born = born
         counter_people += 1
 
+def draw_event(text, date, ys, ye, yt, wl, pos):
+    x_line = x_position(date)
+    x_txt  = x_line + 4
+    y_txt  = y_position(yt)
+    x_add  = 2
+    if pos == "l":
+        x_txt = x_line - 4
+        x_add = -x_add
+    lc = [0.15, 0.15, 0.2]
+    c.setLineWidth(wl)
+    c.setStrokeColorRGB(lc[0], lc[1], lc[2])
+    c.line(x_line, y_position(ys), x_line, y_position(ye))
+    drawString(dict[text], 10, x_txt, y_txt, pos)
+    points = [x_line, y_txt + 1, x_line + x_add, y_txt + 3, x_line, y_txt + 5]
+    d.add(Polygon(points, fillColor=(lc[0], lc[1], lc[2]), strokeColor=(lc[0], lc[1], lc[2]), strokeWidth = 0.1))
+
+def create_events_items():
+    global counter_items
+    items = pd.read_csv("../db/events_items.csv", encoding='utf8')
+    for index, row in items.iterrows():
+        draw_event(row.key, row.date, row.y_start, row.y_end, row.y_text, row.width, row.position)
+        counter_items += 1
+
 def create_reference_events():
     # Deluge in 2370 BCE is special and included in the Adam_Moses part
     global counter_events
     print("Import data of reference events")
     events = pd.read_csv("../db/events.csv", encoding='utf8')
     for index, row in events.iterrows():
-        x_line = x_position(row.date)
-        x_txt  = x_line + 4
-        y_txt  = y_position(row.y_text)
-        x_add  = 2
-        if row.position == "l":
-            x_txt = x_line - 4
-            x_add = -x_add
-        lc = [0.15, 0.15, 0.2]
-        c.setLineWidth(row.width)
-        c.setStrokeColorRGB(lc[0], lc[1], lc[2])
-        c.line(x_line, y_position(row.y_start), x_line, y_position(row.y_end))
-        drawString(dict[row.key], 10, x_txt, y_txt, row.position)
-        points = [x_line, y_txt + 1, x_line + x_add, y_txt + 3, x_line, y_txt + 5]
-        d.add(Polygon(points, fillColor=(lc[0], lc[1], lc[2]), strokeColor=(lc[0], lc[1], lc[2]), strokeWidth = 0.1))
+        draw_event(row.key, row.date, row.y_start, row.y_end, row.y_text, row.width, row.position)
         counter_events += 1
-
-def create_events_items():
-    global counter_items
-    items = pd.read_csv("../db/events_items.csv", encoding='utf8')
-    for index, row in items.iterrows():
-        x_txt  = x_position(row.date) + 2
-        c.setLineWidth(row.width)
-        c.setStrokeColorRGB(0.3, 0.0, 0.0)
-        c.line(x_position(row.date), y_position(row.y_start), x_position(row.date), y_position(row.y_end))
-        if row.position == "l":
-            x_txt -= 4
-        drawString(dict[row.key], 10, x_txt, y_position(row.y_text), row.position)
-        counter_items += 1
 
 def create_judges():
     global counter_judges
@@ -460,7 +457,8 @@ def text_with_timebar(text, row, year_start, year_end, R, G, B):
     timebar(x_box, y_box + 10, x_boxwidth, R, G, B)
     c.setFont(font_regular, 10)
     c.setFillColorRGB(0, 0, 0)
-    c.drawString(x_box , y_box, text)
+    drawString(text, 10, x_box, y_box, "r")
+    # c.drawString(x_box , y_box, text)
 
 def create_prophets():
     global counter_prophets
