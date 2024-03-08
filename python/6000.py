@@ -7,7 +7,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib import colors
 from reportlab.lib.units import mm
 from reportlab.graphics import renderPDF
-from reportlab.graphics.shapes import *
+from reportlab.graphics.shapes import Drawing, Polygon
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase.pdfmetrics import stringWidth
@@ -40,9 +40,9 @@ pdfmetrics.registerFont(TTFont('NotoCuneiform', 'fonts/notoCuneiform.ttf')) # Ak
 version  = "4.2"
 language = "en"
 color_scheme = "normal"
-page_width  = 4*293*mm + 40*mm  # 4x A4 landscape plus 10 mm extra left/right
+page_width  = 4*293*mm + 80*mm  # 4x A4 landscape plus 10 mm extra left/right
 page_height = 204*mm            #    A4 landscape - 2x border_tb
-border_lr   = 2*mm     + 20*mm  #                 now 10 mm extra
+border_lr   = 2*mm     + 40*mm  #                 now 10 mm extra
 border_tb   = 7*mm
 pdf_author  = "https://github.com/kreier/timeline"
 vertical_lines  = False
@@ -167,6 +167,7 @@ def create_drawing_area():
     drawing_width  = page_width - 2 * border_lr
     drawing_height = page_height - 2 * border_tb
     d = Drawing(drawing_width, drawing_height)
+    # d = Drawing(page_width, page_height)
     x1 = border_lr
     y1 = border_tb
     x2 = x1 + drawing_width
@@ -320,13 +321,20 @@ def create_reference_events():
     print("Import data of reference events")
     events = pd.read_csv("../db/events.csv", encoding='utf8')
     for index, row in events.iterrows():
-        x_txt  = x_position(row.date) + 2
-        c.setLineWidth(row.width)
-        c.setStrokeColorRGB(0.3, 0.0, 0.0)
-        c.line(x_position(row.date), y_position(row.y_start), x_position(row.date), y_position(row.y_end))
+        x_line = x_position(row.date)
+        x_txt  = x_line + 4
+        y_txt  = y_position(row.y_text)
+        x_add  = 2
         if row.position == "l":
-            x_txt -= 4
-        drawString(dict[row.key], 10, x_txt, y_position(row.y_text), row.position)
+            x_txt = x_line - 4
+            x_add = -x_add
+        lc = [0.15, 0.15, 0.2]
+        c.setLineWidth(row.width)
+        c.setStrokeColorRGB(lc[0], lc[1], lc[2])
+        c.line(x_line, y_position(row.y_start), x_line, y_position(row.y_end))
+        drawString(dict[row.key], 10, x_txt, y_txt, row.position)
+        points = [x_line, y_txt + 1, x_line + x_add, y_txt + 3, x_line, y_txt + 5]
+        d.add(Polygon(points, fillColor=(lc[0], lc[1], lc[2]), strokeColor=(lc[0], lc[1], lc[2]), strokeWidth = 0.1))
         counter_events += 1
 
 def create_events_items():
@@ -663,7 +671,8 @@ def create_timestamp():
     c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author}")
 
 def render_to_file():
-    renderPDF.draw(d, c, border_lr, border_tb)
+    # renderPDF.draw(d, c, border_lr, border_tb)
+    renderPDF.draw(d, c, 0, 0)
     c.showPage()
     c.save()
     print(f"File exported: {filename}")
