@@ -23,17 +23,14 @@ if os.getcwd()[-6:] != "python":
 
 pdfmetrics.registerFont(TTFont('Aptos', 'fonts/aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'fonts/aptos-bold.ttf'))
-pdfmetrics.registerFont(TTFont('Noto', 'fonts/noto.ttf'))
-pdfmetrics.registerFont(TTFont('NotoJP', 'fonts/notoJP.ttf'))            # Japanese
-pdfmetrics.registerFont(TTFont('NotoJP-bold', 'fonts/notoJP-bold.ttf'))
-pdfmetrics.registerFont(TTFont('NotoKR', 'fonts/notoKR.ttf'))            # Korean
-pdfmetrics.registerFont(TTFont('NotoKR-bold', 'fonts/notoKR-bold.ttf'))
-pdfmetrics.registerFont(TTFont('NotoSC', 'fonts/notoSC.ttf'))            # Simplified Chinese
-pdfmetrics.registerFont(TTFont('NotoSC-bold', 'fonts/notoSC-bold.ttf'))
-pdfmetrics.registerFont(TTFont('NotoAR', 'fonts/notoAR.ttf'))            # Arabic
-pdfmetrics.registerFont(TTFont('NotoAR-bold', 'fonts/notoAR-bold.ttf'))
-pdfmetrics.registerFont(TTFont('NotoSI', 'fonts/notoSI.ttf'))            # Sinhala
-pdfmetrics.registerFont(TTFont('NotoSI-bold', 'fonts/notoSI-bold.ttf'))
+CJKAS = ["JP", "KR", "SC", "AR", "SI"] # Japanese, Korean, Simplified Chinese, Arabic, Sinhala
+for glyphs in CJKAS:
+    fontname = "Noto" + glyphs
+    fontfile = "fonts/noto" + glyphs + ".ttf"
+    fontname_bold = "Noto" + glyphs + "-bold"
+    fontfile_bold = "fonts/noto" + glyphs + "-bold.ttf"
+    pdfmetrics.registerFont(TTFont(fontname, fontfile))
+    pdfmetrics.registerFont(TTFont(fontname_bold, fontfile_bold))
 pdfmetrics.registerFont(TTFont('NotoCuneiform', 'fonts/notoCuneiform.ttf')) # Akkadian
 
 # Some general settings
@@ -123,24 +120,14 @@ def import_dictionary():
     key_dict = pd.read_csv(file_dictionary, encoding='utf8', sep = '\t')
     for index, row in key_dict.iterrows():
         dict.update({f"{row.key}" : f"{row.text}"})
-    if language == "jp":
-        font_regular = "NotoJP"
-        font_bold = "NotoJP-bold"
-    elif language == "kr":
-        font_regular = "NotoKR"
-        font_bold = "NotoKR-bold"
-    elif language == "sc":
-        font_regular = "NotoSC"
-        font_bold = "NotoSC-bold"
-    elif language == "ar":
-        font_regular = "NotoAR"
-        font_bold = "NotoAR-bold"
-    elif language == "si":
-        font_regular = "NotoSI"
-        font_bold = "NotoSI-bold"
-    else:
-        font_regular = "Aptos"
-        font_bold = "Aptos-bold"
+    font_regular = "Aptos"
+    font_bold = "Aptos-bold"
+    special_languages = ["jp", "kr", "sc", "ar", "si"]
+    for special_language in special_languages:
+        if language == special_language:
+            abbreviation = language.upper()
+            font_regular = "Noto" + abbreviation
+            font_bold    = "Noto" + abbreviation + "-bold"
     print(f"Imported dictionary for names and descriptions, language: {language} with {len(key_dict)} keywords")
 
 # Import colors for all keys
