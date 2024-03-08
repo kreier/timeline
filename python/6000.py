@@ -37,9 +37,9 @@ pdfmetrics.registerFont(TTFont('NotoCuneiform', 'fonts/notoCuneiform.ttf')) # Ak
 version  = "4.2"
 language = "en"
 color_scheme = "normal"
-page_width  = 4*293*mm + 80*mm  # 4x A4 landscape plus 10 mm extra left/right
+page_width  = 4*293*mm + 20*mm  # 4x A4 landscape plus 10 mm extra left/right
 page_height = 204*mm            #    A4 landscape - 2x border_tb
-border_lr   = 2*mm     + 40*mm  #                 now 10 mm extra
+border_lr   = 2*mm     + 10*mm  #                 now 10 mm extra
 border_tb   = 7*mm
 pdf_author  = "https://github.com/kreier/timeline"
 vertical_lines  = False
@@ -658,6 +658,8 @@ def create_timestamp():
         drawString(counter_detail,    4, x1 + 5.4, y1 + 38 - 4.5 * index, "l")
     c.setFont(font_regular, 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author}")
+    qr_file = "../images/qr-" + language + ".png"
+    c.drawImage(qr_file, x_position(-4080), y_position(7), width=10*mm, height=10*mm)
 
 def render_to_file():
     # renderPDF.draw(d, c, border_lr, border_tb)
