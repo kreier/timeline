@@ -34,7 +34,7 @@ for glyphs in CJKAS:
 pdfmetrics.registerFont(TTFont('NotoCuneiform', 'fonts/notoCuneiform.ttf')) # Akkadian
 
 # Some general settings
-version  = "4.2"
+version  = "4.3"
 language = "en"
 color_scheme = "normal"
 page_width  = 4*293*mm + 20*mm  # 4x A4 landscape plus 10 mm extra left/right
@@ -698,7 +698,7 @@ if __name__ == "__main__":
     create_timeline("en")
     create_timeline("de")
     create_timeline("vn")
-    # create_timeline("fr")
+    create_timeline("fr")
     # create_timeline("ru")
     # create_timeline("jp")
     # create_timeline("kr")

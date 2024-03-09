@@ -1,14 +1,14 @@
 key	text	english	notes
 pdf_title	6000 ans d'histoire humaine visualisés	6000 years human history visualized	
 pdf_subject	Chronologie de l'humanité	Timeline of humankind	
-BCE	avant notre ère	B.C.E.	
-CE	Ère commune	C.E.	
+BCE	av. n. è. 	B.C.E.	avant notre ère
+CE	de n. è. 	C.E.	Ère commune
 year	année	year	timespan, age (Adam was 130 years old when Shem was born)
 years	années	years	
 years_age	ans	years	years when used as age for a person (different word than years in some languages)
 age_kings	ans	 	"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month	mois	month	
-months	months	months	
+months	mois	months	
 day	jour	day	
 days	jours	days	
 to	à	to	
@@ -18,7 +18,7 @@ prophets	prophètes	prophets
 kings	rois	kings	
 periods	périodes	periods	
 events	événements	events	
-items	des choses ou des objets	things or items	
+objects	objets ou choses	things or items	
 Deluge	Inonder	Deluge	
 Adam	Adam	Adam	
 Seth	Seth	Seth	
@@ -202,10 +202,10 @@ codex_vaticanus	Codex Vaticanus écrit	Codex Vaticanus written
 leningrad_codex	Codex de Leningrad écrit au Caire en 1008 après JC	Leningrad Codex written in Cairo AD 1008	
 john	Jean écrit « révélation » alors qu’il était en exil à Patmos (96-98 de notre ère).	John writes “revelation” while exiled on Patmos 96-98 C.E.	
 nicaea1	Premier concile de Nicée	First Council of Nicaea	
-buddha	Le Bouddha – Siddhartha Gautama vers 563-c.483 avant notre ère	The Buddha – Siddhartha Gautama c.563-c.483 B.C.E	
-buddha2	Bouddha alternativement c. 480-400 avant notre ère	Buddha alternatively c. 480-400 B.C.E.	
+buddha	Le Bouddha – Siddhartha Gautama vers 563-c.483 av. n. è. 	The Buddha – Siddhartha Gautama c.563-c.483 B.C.E	
+buddha2	Bouddha alternativement c. 480-400 av. n. è. 	Buddha alternatively c. 480-400 B.C.E.	
 mohammed	Mohammed c. 570-632 de notre ère	Mohammed c. 570-632 C.E.	
-confucius	Confucius vers 551-vers 479 avant notre ère.	Confucius c.551-c.479 B.C.E.	
+confucius	Confucius v. 551-v. 479 av. n. è. 	Confucius c.551-c.479 B.C.E.	
 hijrah	Hijrah - Voyage de La Mecque à Médine 16 juillet 622	Hijrah - Journey Mecca to Medina 16 July 622	
 moses_escape	1553 avant notre ère Moïse doit fuir l’Égypte – Exode 2 :15, Actes 7 :23	1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23	
 10plagues	1513 avant notre ère L’Égypte reçoit 10 fléaux	1513 B.C.E Egypt receives 10 plagues	
@@ -234,3 +234,120 @@ babel	tour de Babel construite	tower of Babel built
 Haggai	Aggée	Haggai	
 Zephaniah	Zacharie	Zephaniah	
 Zerubbabel	Zorobabel (Luc 3:27)	Zerubbabel (Luke 3:27)	
+Babylon	Daniel 2 :32, 36-38 ; 7:4	Daniel 2:32, 36-38; 7:4	
+Medopersia	Daniel 2:32, 39 ; 7:5	Daniel 2:32, 39; 7:5	
+Greece	Daniel 2:32, 39 ; 7:6	Daniel 2:32, 39; 7:6	
+Rome	Daniel 2:33, 40 ; 7:7	Daniel 2:33, 40; 7:7	
+Angloamerica	Daniel 2:33, 41-43	Daniel 2:33, 41-43	
+Babylon_c	Babylone	Babylon	
+Medopersia_c	Empire médo-perse 	Medo-Persia	Médo-Perse
+Greece_c	Grèce	Greece	
+Rome_c	Rome	Rome	
+Angloamerica_c	Anglo-Amérique	Anglo-America	Anglo-Amérique
+infliction1	400 ans d'infliction	400 year infliction	Acts 7:6
+infliction2	Actes 7:6	Acts 7:6	
+Jacob2	Jacob/	Jacob/	Jacob/Israel 1858-1711 – 147 years
+Israel	Israël	Israel	
+Sarah	Sarah	Sarah	2008-1881 BCE – 127 years
+Hagar	Agar	Hagar	Genesis 21:14
+Haran	Haran	Haran	Genesis 11:26
+Nahor	Nahor	Nahor	
+Reumah	Reumah	Reumah	Concubine – 4 sons
+Milcah	Milca	Milcah	8 sons (Bethuel and 7 more)
+Lot	Lot	Lot	
+Lots_wife	La femme de Lot	Lot’s wife	
+Lots_daughters	Filles de Lot	Daughters of Lot	
+Moab	Moab (fille aînée)	Moab (older daughter)	
+Ammon	Ben Ammi (Ammon)	Ben-ammi (Ammon)	
+Bethuel	Bethuel	Be·thuel	
+Rebekah	Rébecca	Rebekah	
+Laban	Laban	Laban	
+Leah	Léa 	Leah	Genesis 35:23
+Rachel	Rachel	Rachel	Genesis 35:24
+Bilhah	Bila 	Bilhah	Genesis 35:25
+Zilpah	Zilpa	Zilpah	Genesis 35:26
+Reuben	Ruben 	Reuben	
+Simeon	Siméon 	Sime·on	
+Levi	Lévi 	Levi	
+Judah	Juda	Judah	
+Issachar	Issachar 	Issa·char	
+Zebulun	Zabulon 	Zebu·lun	
+Dinah	Dina 	Dinah	Genesis 34
+Esau	Ésaü 	Esau	
+Ishmael	Ismaël	Ishmael	
+Manasseh2	(Manassé	(Manasseh	
+Ephraim	et Éphraïm)	and Ephraim)	
+Benjamin	Benjamin	Benjamin	
+Dan	Dan	Dan	
+Naphtali	Nephtali 	Naphta·li	
+Gad 	Gad 	Gad	
+Asher	Aser 	Asher	
+Milcah1	Uz, Buz, Kemuel,	Uz, Buz, Kemuel,	
+Milcah2	Chesed, Hazo,	Chesed, Hazo,	
+Milcah3	Pildash, Jidlaph	Pildash, Jidlaph	
+Tebah	Tebah	Tebah	
+Gaham	Gaham	Gaham	
+Tahash	Tahash	Tahash	
+Maacah	Maaca	Maacah	
+Mahalath	Mahalath/	Mahalath/	Genesis 28:8, 9
+Basemath	Base · mathématiques	Base·math	Genesis36:3, 4
+Reuel	Réuel	Reuel	36:13, 17
+Nahath	Nahath	Nahath	
+Zerah	Zérah	Zerah	
+Schammah	Schammah	Schammah	
+Mizzah	Mizza	Mizzah	
+Adah	Ada	Adah	36:11, 12, 15, 16
+Eliphaz	Élifaz 	Eliphaz	
+Teman	Témân 	Teman	
+Omar	Omar 	Omar	
+Zepho	Zefo 	Zepho	
+Kenaz	Kenaz 	Kenaz	
+Korah	Coré 	Korah	
+Gatam	Gatam 	Gatam	
+Amalek	Amalec	Amalek	
+Oholibamah	Oholibama 	O·hol·i·bamah	36:14, 18
+Jeush	Jéoush 	Jeush	
+Jalam	Jalam 	Jalam	
+Korah	Coré 	Korah	
+Nebaioth	Nebayoth 	Nebaioth	Genesis 25:13
+Kedar	Kédar 	Kedar	
+Adbeel	Adbéel 	Adbeel	
+Mibsam	Mibsam 	Mibsam	
+Mishma	Mishma 	Mishma	
+Dumah	Douma 	Dumah	
+Massa	Massa 	Massa	
+Hadad	Hadad 	Hadad	
+Tema	Téma 	Tema	
+Jetur	Jetour 	Jetur	
+Naphish	Nafish 	Naphish	
+Kedemah	Kédma 	Kedemah	
+Babylon2	 		no text left and right – empty!
+terahfam	membres de la famille de Terah	members of Terah’s family	
+rosetta	Pierre de Rosette 196 avant notre ère.	Rosetta stone 196 B.C.E.	
+Herodotus	Hérodote c. 484 – ch. 425 avant notre ère	Herodotus c. 484 – c. 425 B.C.E.	Father of History
+Aristotle	Aristote 384 – 322 av. n. è. 	Aristotle 384 – 322 BC	The First Teacher, The Philosopher
+Ptolemy	Ptolémée c 100 – c. 170 de notre ère	Ptolemy c 100 – c. 170 C.E.	
+Pythagoras	Pythagore v. 570 – vers. 495 av. n. è. 	Pythagoras c. 570 – c. 495 BC	
+Plato	Platon c. 427 – ch. 348 av. n. è. 	Plato c. 427 – c. 348 BC	
+Socrates	Socrate c. 470 – vers. 399 av. n. è. 	Socrates c. 470 – c. 399 BC	
+Josephus	Josèphe c. 37 – ch. 100 de notre ère	Josephus c. 37 – c. 100 C.E.	
+Cicero	Cicéron 106-43 av. n. è. 	Cicero 106–43 BC	influence on Latin language
+lachish_letters	Lettres de Lachish c. 590 av. n. è. 	Lachish letters c. 590 B.C.E.	
+lachish_reliefs	Reliefs de Lachish c. 681 av. n. è. 	Lachish reliefs c. 681 B.C.E.	
+mesha_stele	Stèle de Mesha (pierre moabite) v. 840 av. n. è. 	Mesha Stele (Moabite stone) c. 840 B.C.E.	
+gilgamesh	Gilgamesh et Aga 𒇽𒆥𒄄𒀀𒀝𒂵	Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵	
+epic_gilgamesh	Épopée de Gilgamesh (Sîn-lēqi-unninni)	Epic of Gilgamesh (Sîn-lēqi-unninni)	
+oxyrhynchus	Papyrus Oxyrhynchus	Oxyrhynchus Papyri	
+p52	Papyrus P52 de la bibliothèque Rylands	Rylands Library Papyrus P52	
+daniel2_1	Destruction de Jérusalem 	King Nebuchadnezzar	Le roi Nabuchodonosor
+daniel2_2	par le roi Nabuchodonosor 	destroys Jerusalem	détruit Jérusalem
+daniel2_3	Conquête de Babylone 	Conquers Babylon	Conquiert Babylone
+daniel2_4	Décret de Cyrus autorisant le	Cyrus decrees return	Cyrus décrète le retour
+daniel2_5	retour des Juifs à Jérusalem 	of Jews to Jerusalem	des Juifs à Jérusalem
+daniel2_6	Conquête de la Perse par 	Alexander the Great	Alexandre le Grand
+daniel2_7	Alexandre le Grand 	conquers Persia	conquiert la Perse
+daniel2_8	Début de la domination sur Israël 	Rules over Israel	Règles sur Israël
+daniel2_9	Destruction de Jérusalem 	Destroys Jerusalem	Détruit Jérusalem
+daniel2_10	Durant la Première Guerre mondiale, 	During World War I,	Pendant la Première Guerre mondiale,
+daniel2_11	naissance de la Puissance 	Anglo-American World Power	Puissance mondiale anglo-américaine
+daniel2_12	anglo-américaine 	comes into being	prend naissance
