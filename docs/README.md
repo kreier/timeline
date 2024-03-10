@@ -4,13 +4,23 @@
 [![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 
-This project creates a graph of Human history with python and reportlab. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. See both for comparison below.
+This project creates a graph of Human history with python and reportlab. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With version 4.2 some images make it into the timeline after 15 years of slow development. See both for comparison below.
 
-![timeline 3.5](timeline20231129.png)
+![timeline 4.2](timeline20240309_4.2.png)
 
-![timeline 3.6 first 4k](timeline20231129_4k.png)
+Compare this 4000 year timespan of version 4.2 from 2024:
+
+![timeline 4.2 first 4000 years](timeline20240309_4k.png)
+
+With the same time period in version 1.1 from 2009:
 
 ![timeline 1.1](timeline20230630.png)
+
+## Create your own pdf file and fix mistakes on the fly
+
+With a Jupyter Notebook you can download all required files and install all software in 2 steps in a virtual machine and then create a fresh pdf in the third step. Edit the downloaded files in your browser and repeat step 3 for an updated version:
+
+[Link to the Google Colab Jupyter Notebook](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing)
 
 ## Reactivation 2023
 
@@ -38,20 +48,21 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 
 Since v3.4 the language specific files have been separated from the program code, data information and list of colors. With some good bible translations I get use the reference location of names to get a start of a translation, since the very dates are not changing. This gives a start to translate into another language. With currently 235 text fields I have to rely on Google translate for a first attempt - and then need someone with good language skills in the target language to complete the translation. Our current state:
 
-| Language                                  | initial support | names checked | reviewed | complete |
-|-------------------------------------------|:---------------:|:-------------:|:--------:|:--------:|
-| English                                   |                 |               |          |     x    |
-| German (Deutsch)                          |                 |               |          |     x    |
-| Vietnamese (Tiếng Việt)                   |                 |               |          |     x    |
-| Iloko (Ilocano)                           |                 |               |          |     x    |
-| [Japanese](timeline_jp.pdf) (日本語)                         |                 |               |          |     x    |
-| Russian (Русский)                         |                 |               |     x    |          |
-| French (Français)                         |                 |               |     x    |          |
-| Korean (한국인)                           |                 |       x       |          |          |
-| Spanish (Español)                         |        x        |               |          |          |
-| Finnish (Suomi)                           |        x        |               |          |          |
-| Chinese (Simplified) [中文简体（普通话）] |        x        |               |          |          |
-| Arabic (العربية)                          |        x        |               |          |          |
+| Language                                                                     | initial support | names checked | reviewed | complete | Terah |
+|------------------------------------------------------------------------------|:---------------:|:-------------:|:--------:|:--------:|------:|
+| [English](https://kreier.github.io/timeline/timeline_en.pdf)                 |                 |               |          |     x    |  100% |
+| [German (Deutsch)](https://kreier.github.io/timeline/timeline_de.pdf)        |                 |               |          |     x    |   95% |
+| [Vietnamese (Tiếng Việt)](https://kreier.github.io/timeline/timeline_vn.pdf) |                 |               |          |     x    |   95% |
+| Iloko (Ilocano)                                                              |                 |               |          |     x    |       |
+| [Japanese (日本語)](https://kreier.github.io/timeline/timeline_jp.pdf)       |                 |               |          |     x    |       |
+| Russian (Русский)                                                            |                 |               |     x    |          |       |
+| [French (Français)](https://kreier.github.io/timeline/timeline_fr.pdf)       |                 |               |     x    |          |   75% |
+| Korean (한국인)                           |                 |       x       |          |          |       |
+| Finnish (Suomi)                           |                 |       x       |          |          |       |
+| Sinhala (සිංහල)                           |                 |       x       |          |          |       |
+| Spanish (Español)                         |        x        |               |          |          |       |
+| Chinese (Simplified) [中文简体（普通话）] |        x        |               |          |          |       |
+| Arabic (العربية)                          |        x        |               |          |          |       |
 
 Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects.
 
