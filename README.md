@@ -50,10 +50,10 @@ Since v3.4 the language specific files have been separated from the program code
 | [English](https://kreier.github.io/timeline/timeline_en.pdf)                 |                 |               |          |     x    |  100% |
 | [German (Deutsch)](https://kreier.github.io/timeline/timeline_de.pdf)        |                 |               |          |     x    |   95% |
 | [Vietnamese (Tiếng Việt)](https://kreier.github.io/timeline/timeline_vn.pdf) |                 |               |          |     x    |   95% |
-| Iloko (Ilocano)                           |                 |               |          |     x    |       |
+| Iloko (Ilocano)                                                              |                 |               |          |     x    |       |
 | [Japanese (日本語)](https://kreier.github.io/timeline/timeline_jp.pdf)       |                 |               |          |     x    |       |
-| Russian (Русский)                         |                 |               |     x    |          |       |
-| French (Français)                         |                 |               |     x    |          |       |
+| Russian (Русский)                                                            |                 |               |     x    |          |       |
+| [French (Français)](https://kreier.github.io/timeline/timeline_fr.pdf)       |                 |               |     x    |          |   75% |
 | Korean (한국인)                           |                 |       x       |          |          |       |
 | Finnish (Suomi)                           |                 |       x       |          |          |       |
 | Sinhala (සිංහල)                           |                 |       x       |          |          |       |
