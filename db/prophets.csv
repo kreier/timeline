@@ -1,20 +1,20 @@
-key,start,end,row_y,notes
-Samuel,-1125,-1076,4.6,anointed Saul 1117 and 40 years later David 1077 – probably 70 years old
-Elijah,-941,-906,13,
-Elisha,-918,-852,14.7,
-Jonah,-848,-820,16.4,
-Amos,-829,-802,18.1,
-Joel,-825,-815,19.8,
-Hosea,-808,-740,21.5,
-Isaiah,-780,-730,23.2,
-Micah,-777,-716,24.9,
-Zephaniah,-660,-640,27.3,
-Nahum,-660,-630,29.2,
-Jeremiah,-646,-575,30.9,started definitely 646 BCE
-Habakuk,-633,-620,33.1,
-Daniel,-607,-537,36.5,
-Ezekiel,-613,-587,34.8,started definitely 613 BCE
-Obadiah,-613,-600,38.2,
-Malachi,-453,-443,34.8,
-Haggai,-536,-515,34.8,prophecy starts 520 BCE
-Zechariah,-525,-515,36.5,prophecy starts 520 BCE
+key,start,end,row_y,notes,help,test
+Samuel,-1125,-1076,4.6,anointed Saul 1117 and 40 years later David 1077 – probably 70 years old,,
+Elijah,-941,-906,13,,,
+Elisha,-918,-852,14.7,,,
+Jonah,-848,-820,16.4,,,
+Amos,-829,-802,18.1,,,
+Joel,-825,-815,19.8,,,
+Hosea,-808,-740,21.5,,,
+Isaiah,-780,-730,23.2,,,
+Micah,-777,-716,24.9,,,
+Zephaniah,-660,-640,27.1,,27.1,
+Nahum,-660,-630,28.7,,28.7,1.6
+Jeremiah,-646,-575,30.3,started definitely 646 BCE,30.3,1.6
+Ezekiel,-613,-587,31.9,started definitely 613 BCE,31.9,1.6
+Haggai,-536,-515,33.3,prophecy starts 520 BCE,,
+Malachi,-453,-443,33.3,,,
+Habakuk,-633,-620,34.6,,,
+Daniel,-607,-537,36.5,,,
+Zechariah,-525,-515,36.5,prophecy starts 520 BCE,,
+Obadiah,-613,-600,38.2,,,

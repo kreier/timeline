@@ -14,7 +14,22 @@ from reportlab.pdfbase.pdfmetrics import stringWidth
 from svglib.svglib import svg2rlg
 import pandas as pd
 import datetime
+import sys
 import os
+
+# Some general settings
+version  = 4.3
+language = "en"
+color_scheme = "normal"
+border_lr   = 10*mm                      # space left/right for roll holders
+border_tb   = 7*mm                       # space for the years top and bottom
+page_width  = 4*297*mm + 2 * border_lr   # 4x A4 landscape
+page_height = 210*mm                     #    A4 landscape height
+pdf_author  = "https://github.com/kreier/timeline"
+vertical_lines  = False
+
+dict  = {}
+color = {}
 
 # Check execution location, exit if not in /timeline/python
 if os.getcwd()[-6:] != "python":
@@ -32,20 +47,6 @@ for glyphs in CJKAS:
     pdfmetrics.registerFont(TTFont(fontname, fontfile))
     pdfmetrics.registerFont(TTFont(fontname_bold, fontfile_bold))
 pdfmetrics.registerFont(TTFont('NotoCuneiform', 'fonts/notoCuneiform.ttf')) # Akkadian
-
-# Some general settings
-version  = "4.3"
-language = "en"
-color_scheme = "normal"
-page_width  = 4*293*mm + 20*mm  # 4x A4 landscape plus 10 mm extra left/right
-page_height = 204*mm            #    A4 landscape - 2x border_tb
-border_lr   = 2*mm     + 10*mm  #                 now 10 mm extra
-border_tb   = 7*mm
-pdf_author  = "https://github.com/kreier/timeline"
-vertical_lines  = False
-
-dict  = {}
-color = {}
 
 # convert the float dates to year, month and day
 def year(date_float):
@@ -71,9 +72,9 @@ def x_position(date_float):
     global x1
     return x1 + (4075 + date_float) * dots_year
 
-def y_position(row_y):
+def y_position(row_y): # with update 2024/03/12 to height 204 -> 210mm we now have 46 lines
     global y2
-    return y2 - 1 - row_y * 12  # vertically centered 10 point script in 12 pt line
+    return y2 + 1 - row_y * 12  # vertically centered 10 point script in 12 pt line
 
 def drawString(text, fontsize, x_string, y_string, position):
     c.setFont(font_regular, fontsize)
@@ -116,8 +117,13 @@ def initiate_counters():
 # Import strings for the respective language for names and comments
 def import_dictionary():
     global dict, font_regular, font_bold
-    file_dictionary = "../db/dictionary_" + language + ".tsv"
-    key_dict = pd.read_csv(file_dictionary, encoding='utf8', sep = '\t')
+    # first import the reference dictionary in english
+    reference = "../db/dictionary_reference.csv"
+    key_dict = pd.read_csv(reference, encoding='utf8')
+    for index, row in key_dict.iterrows():
+        dict.update({f"{row.key}" : f"{row.text}"})
+    file_dictionary = "../db/dictionary_" + language + ".csv"
+    key_dict = pd.read_csv(file_dictionary, encoding='utf8')
     for index, row in key_dict.iterrows():
         dict.update({f"{row.key}" : f"{row.text}"})
     font_regular = "Aptos"
@@ -143,7 +149,7 @@ def import_colors(c_scheme):
 def create_canvas():
     global c, filename
     # Create the canvas
-    filename = "../timeline/timeline_v" + version + "_"+ language + ".pdf"
+    filename = "../timeline/timeline_v" + str(version) + "_"+ language + ".pdf"
     c = canvas.Canvas(filename, pagesize=(page_width,page_height))
     c.setAuthor(pdf_author)
     c.setTitle(dict['pdf_title'])
@@ -258,7 +264,7 @@ def create_adam_moses():
     co = color['books']    
     c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
-    y_start = y_position(40.7)
+    y_start = y_position(41.5)
     x_width = (1675 - 1485) * dots_year
     c.rect(x_start, y_start, x_width, 2, fill = 1, stroke = 0)
 
@@ -276,7 +282,7 @@ def create_adam_moses():
         x_box = x_position(row.born)
         y_box = y2 - index*21 - 21
         if index == 23:  # Moises
-            y_box -= 8
+            y_box -= 24
         x_boxwidth = (born - died) * dots_year
         x_text = x_box + x_boxwidth * 0.5
         co = color[f"{row.key}"]
@@ -572,8 +578,8 @@ def create_periods():
 
 def create_terah_familytree():
     global counter_terahfam
-    print("Import family tree of Terah")
     lines = pd.read_csv("../db/terah-lines.csv", encoding='utf8')
+    c.setFont(font_regular, 10)
     for index, row in lines.iterrows():
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
@@ -586,6 +592,7 @@ def create_terah_familytree():
         y_2 = y_position(row.end_row - 0.25)
         c.line(x_1, y_1, x_2, y_2)
     terah = pd.read_csv("../db/terah-family.csv", encoding='utf8')
+    print(f"Imported family tree of Terah: {len(terah)} text fields.")
     c.setStrokeColorRGB(1, 1, 1)
     red  = color["terah_red"]
     blue = color["terah_blue"]
@@ -659,7 +666,7 @@ def create_timestamp():
     c.setFont(font_regular, 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author}")
     qr_file = "../images/qr-" + language + ".png"
-    c.drawImage(qr_file, x_position(-4080), y_position(7), width=10*mm, height=10*mm)
+    c.drawImage(qr_file, x_position(-4026), y_position(9), width=12*mm, height=12*mm)
 
 def render_to_file():
     # renderPDF.draw(d, c, border_lr, border_tb)
@@ -669,7 +676,7 @@ def render_to_file():
     print(f"File exported: {filename}")
 
 def create_timeline(lang):
-    global language
+    global language, version
     language = lang
     initiate_counters()
     import_dictionary()
@@ -688,17 +695,23 @@ def create_timeline(lang):
     create_objects()
     create_periods()
     create_caesars()
-    create_terah_familytree()
+    if version > 4.1:
+        create_daniel2()
+    if version > 4.2:
+        create_terah_familytree()
     include_pictures()
-    create_daniel2()
     create_timestamp()
     render_to_file()
 
 if __name__ == "__main__":
-    create_timeline("en")
-    create_timeline("de")
-    create_timeline("vn")
-    create_timeline("fr")
+    if len(sys.argv) < 2:
+        print("You did not provide a language as argument. Put it as a parameter after 6000.py")
+        exit()
+    language = sys.argv[1]
+    create_timeline(language)
+    # create_timeline("de")
+    # create_timeline("vn")
+    # create_timeline("fr")
     # create_timeline("ru")
     # create_timeline("jp")
     # create_timeline("kr")
