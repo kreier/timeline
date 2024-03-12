@@ -1,353 +1,354 @@
-key	text	notes
-pdf_title	6000 Jahre Menschheitsgeschichte visualisiert	
-pdf_subject	Zeitleiste der Menschheit	
-BCE	v.u.Z.	
-CE	u.Z.	
-year	Jahr	
-years	Jahre	
-years_age	Jahre	
-age_kings	 	
-month	Monat	
-months	Monate	
-day	Tag	
-days	Tage	
-to	bis	
-people	Personen	people, persons
-judges	Richter	
-prophets	Propheten	
-kings	Könige	
-periods	Zeitabschnitte	
-events	Ereignisse	
-objects	Objekte oder Dinge	things or items
-Deluge	Sintflut	
-Adam	Adam	
-Seth	Seth	
-Enosh	Ẹnosch	
-Kenan	Kẹnan	
-Mahalalel	Mahalạlel	
-Jared	Jạred	
-Enoch	Hẹnoch	
-Methuselah	Methụsalah	
-Lamech	Lạmech	
-Noah	Noah	
-Shem	Sem	
-Arpachshad	Ạrpachschad	
-Shelah	Schẹlach	
-Eber	Ẹber	
-Peleg	Pẹleg	
-Reu	Rẹu	
-Serug	Sẹrug	
-Nahor	Nạhor	
-Terah	Tẹrach	
-Abraham	Abraham	
-Isaac	Isaak	
-Jacob	Jakob	
-Joseph	Joseph	
-Moses	Moses	
-Othniel	Ọthniël	1
-Ehud	Ẹhud	2
-Shamgar	Schạmgar	3
-Barak	Bạrak	4
-Gideon	Gịdeon	5
-Tola	Tọla	6
-Jair	Jạir	7
-Jephthah	Jẹphtha	8
-Ibzan	Ịbzan	9
-Elon	Ẹlon	10
-Abdon	Ạbdon	11
-Samson	Simson	12
-Samuel	Samuel	13
-Saul	Saul	1
-David	David	2
-Solomo	Sạlomo	3
-Rehoboam	Rehạbeam	erster König des südlichen Zweistämmereiches
-Abijah	Abija (Abịjam)	3 years, also Abijam
-Asa	Ạsa	
-Jehoshaphat	Josaphat	bce_float = -y+1 - (12-m)/12 – (31-d)/360
-Jehoram2	Joram	
-Ahaziah	Ahasja	
-Athaliah	Königin Athalija	Queen Athaliah
-Jehoash	Joas	
-Amaziah	Amazja	
-Uzziah	Usija (Asarja)	also Azariah
-Jotham	Jotham	
-Ahaz	Ahas	
-Hezekiah	Hiskia	
-Manasseh	Manasse	
-Amon	Amon	
-Josiah	Josia	
-Jehoahaz	Jehoahas	Only 3 months
-Jehoiakim	Jojakim	
-Jehoiachin	Jojachin	Only 3 months 10 days
-Zedekiah	Zedekia	Zedekiah
-Jeroboam	Jerọbeam	first king of northern 10-tribe kingdom
-Nadab	Nạdab	less than 2
-Baasha	Bạscha	
-Elah	Ẹla	
-Zimri	Sịmri	Only 7 days in ca. 751 BCE
-OmriTibni	Ọmri und Tibni zusammen	4 years Omri and Tibni
-Omri	Ọmri (allein)	from 947 Omri alone
-Ahab	Ạhab	
-Ahaziah	Ahasja	
-Jehoram	Joram	
-Jehu	Jehu	
-Jeoahaz	Jehoahas	
-JeoahazJehoash	Jehoahas und Joas	For 3 years Jeoahaz and Jeoash reigned together
-Jehoash2	Joas (allein)	Jehoash (alone)
-Jeroboam2	Jerobeam II	
-Zechariah	Sacharja	reign only recorded 6 months, probably only established 792 BCE
-Schallum	Schallum	only one month
-Menahem	Menahem	
-Pekahiah	Pekachja	
-Pekah	Pekachja	
-Hoshea	Hoschea	9 years from c. 748
-Elijah	Elia	
-Elisha	Elisa	
-Jonah	Jona	
-Amos	Amos	
-Joel	Jọel	
-Hosea	Hosea	
-Isaiah	Jesaja	
-Micah	Micha	
-Zephaniah	Zephạnja	
-Nahum	Nahum	
-Jeremiah	Jeremia	
-Habakuk	Habakuk	
-Daniel	Daniel	
-Ezekiel	Hesẹkiel	
-Obadiah	Obadja	
-Malachi	Maleachi	
-Ruth	Ruth	
-Ezra	Esra	
-Nehemiah	Nehemia	
-Esther	Esther	
-Job	Hiob	
-moses2	1593 bis 1473 v.u.Z. – 120 Jahre	
-moses3	Moses	
-wilderness	Israel in der Wildnis von 1513 bis 1473 v.u.Z. – 40 Jahre	
-timespan_judges	1473 bis 1117 v.u.Z. – 356 Jahre	
-timespan_judges2	Zeit der Richter	
-temple1	Nisan 1513 v.u.Z bis Ziv 1034 v.u.Z.	
-temple2	479 Jahre bis Beginn des Tempelbaus – 1. Könige 6:1	1034 BCE
-69weeks	Jesus getauft im Herbst 29 u.Z	
-69weeks2	69 Wochen bis zum Messias – Daniel 9:25	
-jesus_service	3,5 Jahre Dienstzeit Jesu, getötet am 14. Nisan 33 u.Z.	
-jesus_life	Jesus wurde im Jahr 2 v.u.Z. geboren	
-exile	607 bis 537 v.u.Z. – 70 Jahre (Jeremia 25:11)	
-exile2	Exil	
-7times	Offenbarung 12:9	
-7times2	7 Zeiten – 2520 Jahre bis zum Messianischen Königreich 1914 u.Z. (Daniel 4:23)	
-ww1	1. Weltkrieg – 1914–1918 u.Z.	
-ww2	2. Weltkrieg – 1939–1945 u.Z.	
-30_year_war	Dreißigjähriger Krieg in Europa 1618-1648 u.Z.	
-joshua	110 Jahre	
-joshua2	Josua	
-caleb	mehr als 85 Jahre	
-caleb2	Kaleb	
-missionary1	Erste Missionsreise von Paulus, ca. 47-48 u.Z., mit Barnabas und Johannes (Markus)	
-circumcision	Streitfrage der Beschneidung in Antiochia, Zusammenkunft in Jerusalem ca. 49 u.Z.	
-missionary2	Zweite Missionsreise ca. 49-52 u.Z. mit Silas (Silvanus)	
-missionary3	Dritte Missionsreise ca. 52-56 u.Z.	
-caesarea	Paulus in Gefangenschaft in Cäserea ca. 56-58 u.Z.	
-rome1	Erste Gefangenschaft von Paulus in Rom ca. 59-61 u.Z.	
-rome2	Zweite Gefangenschaft in Rom ca. 65 u.Z., 2. Timotheus geschrieben, Paulus hingerichtet	
-Julius	Julius	
-Augustus	Augustus	
-Tiberius	Tiberius	
-Caligula	Caligula	
-Claudius	Claudius	
-Nero	Nero	
-Galba-Otho-Vitellius	Galba, Otho und Vitellius (Vierkaiserjahr)	
-Vespasian	Vespasian	
-event_exodus	Auszug aus Ägypten am 14. Nisan 1513 v.u.Z.	
-event_division_kingdom	Teilung Israels 997 v.u.Z.	
-event_destruction_samaria	Zerstörung von Samaria 740 v.u.Z. durch Assyrien	
-event_destruction_samaria2	740 v.u.Z. durch Assyrien	
-event_destruction_jerusalem1	Zerstörung von Jerusalem 607 v.u.Z. durch Babylon, 390 Jahre nach der Teilung des Königreiches (Hesekiel 4:5)	
-event_temple_rebuilt	Tempel wieder aufgebaut 515 v.u.Z.	
-event_jerusalem_rebuilt	Jerusalems Mauern aufgebaut 455 v.u.Z	
-event_destruction_jerusalem2	Zerstörung von Jerusalem 70 u.Z. durch Rom unter Titus	
-event_1914	Ende der “Zeiten der Nationen”, Gottes Königkreich beginn im Himmel zu regieren 1914 u.Z. 	
-became_king	wurde König im Alter von	
-vulgate	Vulgata von Hieronymus fertiggestellt (Lateinische Übersetzung der Bibel) ca. 405 u.Z.	
-gutenberg	Gutenbergbibel gedruckt 1455	
-erasmus	Griechischer Text der Bibel veröffentlicht durch Desiderius Erasmus von Rotterdam 1516	
-luther	Lutherübersetzung der Bibel im September 1522	
-tyndale	Englische Bibelübersetzung von Tyndale 1536	
-king_james	King-James-Bibel 1611	
-69weeks3	Jesus beginnt seinen Dienst 29 u.Z. (Lukas 3:1, 21)	
-ransom	Opfergaben hören zur “Mitte der Woche” auf Daniel 9:27	
-cornelius	Kornelius wird am Ende der 70 Wochen getauft (Daniel 9:24) in 36 u.Z.	
-columbus	Ende der präkolumbianischen Zeitepoche in Amerika 1492	
-declaration_independence	Unabhängigkeitserklärung der 13 Kolonien Amerikas 1776	
-tischendorf	Tischendorf entdeckt den Codex Sinaiticus aus dem 4ten Jahrhundert in 1844	
-dead_sea_scrolls	Schriftrollen vom Toten Meer geschrieben	
-septuagint	Septuaginta LXX übersetzt	
-watchtower	Die erste Ausgabe des “Zion’s Watch Tower and Herald of Christ’s Presence” wird veröffentlicht in 1879	
-photodrama	Das “Photo-Drama of Creation” wird zuerst in New York gezeigt am 11 Januar 1914	
-jehovahs_witnesses	Die Bibelstudenten nehmen einen neuen Namen an – Jehovas Zeugen. In Columbus, Ohio, 1931	
-gilead_school	Die “Watchtower Bible School of Gilead” beginnt am 1. Februar 1943	
-new_world_translation1	Die “New World Translation of the Holy Scriptures” wird am 18 Juni 1960 in Manchester, England veröffentlicht	
-truth_book	Das Buch “Die Wahrheit, die zu ewigem Leben führt” wird 1968 herausgegeben	
-metropolitan	Beginn des “metropolitan witnessing” in 2011	
-jw_org	Start von JW.ORG mit Anweisungen im Königreichsdienst im Dezember 2012	
-new_world_translation2	Revidierte “New World Translation of the Holy Scriptures” auf Englisch veröffentlicht auf der Jahresversammlung 2013	
-jw_broadcasting	Beginn von jw.broadcasting im October 2014 auf Englisch, ab Mai 2015 auf Deutsch	
-meeting_workbook	Start der “Leben und Dienst” Zusammenkunft mit einem Arbeitsheft ab Januar 2016	
-covid19	Weltweite Covid-19 Pandemie führt zu Lockdowns, Quarantäne und Zoom-Meetings	
-cold_war	Geopolitische Situation bekannt als “Kalter Krieg” 1945-1991	
-timeline_created	Diese Zeitleiste wurde 2023 erstellt, dem heißesten Jahr der Menschheitsgeschichte und überhaupt der letzten 125000 Jahre	
-codex_sinaiticus	Codex Sinaiticus geschrieben	
-codex_vaticanus	Codex Vaticanus geschrieben	
-leningrad_codex	Leningrad Codex geschrieben in Kairo AD 1008	
-john	Johannes schreibt die Offenbarung im Exil auf Patmos 96-98 u.Z.	
-nicaea1	Erstes Konzil von Nicäa	
-buddha	Siddhartha Gautama – Buddha ca.563-ca.483 v.u.Z.	
-buddha2	Buddha alternativ ca. 480-400 v.u.Z.	
-mohammed	Mohammed ca. 570-632 u.Z.	
-confucius	Konfuzius ca.551-ca.479 v.u.Z.	
-hijrah	Hidschra – Mecca nach Medina 16 Juli 622	
-moses_escape	1553 v.u.Z. Moses muss aus Ägypten fliehen – 2. Mose 2:15, Apg 7:23	
-10plagues	1513 v.u.Z. zehn Plagen in Ägypten	
-joseph_sold	Joseph als Sklave im Alter von 17 verkauft – 1Mo 37:2	
-infliction	400 Jahre Unterdrückung (Apg 7:6) – Ismael 1913 v.u.Z.	
-Alexander	Alexander der Große (Daniel 11:3)	
-persia	Cyrus der Große, Cambyses II, Darius I 490 v.u.Z., Xerxes I 480 v.u.Z. (Ehemann von Esther, Daniel 11:2)	
-persia2	Persien	
-king_north	Seleucus I Nicator (v5) in Syrien, dann Antiochus III (v10) und Seleucus IV (v18, 19) bis zu Octavian (v20) und Tiberius (v21-24)	
-king_north1	König des Nordens	
-king_south	Ptolemy I, II, III, IV (v11, 12), V (v15, 16) bis zur Schlacht bei Actium 31 v.u.Z.	
-king_south1	König des Südens	
-king_south2	Britisches Imperium 1870, Anglo-Amerikanische Weltmacht seit 1914	
-king_south3	König des Südens	
-king_north2	Deutschland mit Kaiser Wilhelm I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)	
-king_north3	Norden	
-king_north4	Sowjetunion 1945-1991 (Daniel 11:32-39, 40b, 41)	
-king_north5	Russland seit 2017 (w20 Mai)	
-time_of_end	Gegenwart Christi, Abschluss des Weltsystems (Matt 24:3), die letzten Tage (2Ti 3:1)	
-time_of_end2	letzte Tage	
-suryavaman2	König Suryavarman II erbaut Angkor Wat 1113-1150	
-notre-dame	Notre-Dame de Paris gebaut 1163-1260	
-ming-dynasty	Ming Dynastie im imperialen China 1368-1644	
-jehoiada	Jehojada	
-babel	Turmbau zu Babel	
-Haggai	Haggai	
-Zechariah	Sacharja	
-Zerubbabel	Serubbabel (Lukas 3:27)	
-Babylon	Daniel 2:32, 36-38; 7:4	
-Medopersia	Daniel 2:32, 39; 7:5	
-Greece	Daniel 2:32, 39; 7:6	
-Rome	Daniel 2:33, 40; 7:7	
-Angloamerica	Daniel 2:33, 41-43	
-Babylon_c	Babylon	
-Medopersia_c	Medo-Persien	
-Greece_c	Griechenland	
-Rome_c	Rom	
-Angloamerica_c	Anglo-Amerika	
-infliction1	400 Jahre Unterdrückung	
-infliction2	Apostelgeschichte 7:6	
-Jacob2	Jakob/	Jacob/Israel 1858-1711 – 147 years
-Israel	Israel	
-Sarah	Sara	2008-1881 BCE – 127 years
-Hagar	Hạgar	Genesis 21:14
-Haran	Hạran	Genesis 11:26
-Nahor	Nạhor	
-Reumah	Reụma	Concubine – 4 sons
-Milcah	Mịlka	8 sons (Bethuel and 7 more)
-Lot	Lot	
-Lots_wife	Lots Frau	
-Lots_daughters	Töchter Lots	
-Moab	Moab (ältere Tochter)	
-Ammon	Ben-Ạmmi (Ammonịter)	
-Bethuel	Bẹthuël	
-Rebekah	Rebẹkka	
-Laban	Lạban	
-Leah	Lẹa	Genesis 35:23
-Rachel	Rahel	Genesis 35:24
-Bilhah	Bịlha	Genesis 35:25
-Zilpah	Sịlpa	Genesis 35:26
-Reuben	Rụben	
-Simeon	Sịmeon	
-Levi	Lẹvi	
-Judah	Juda	
-Issachar	Ịssachar	
-Zebulun	Sẹbulon	
-Dinah	Dịna	Genesis 34
-Esau	Ẹsau	
-Ishmael	Ịsmael	
-Manasseh2	(Manasse	
-Ephraim	und Ephraim)	
-Benjamin	Benjamin	
-Dan	Dan	
-Naphtali	Nạphtali	
-Gad 	Gad	
-Asher	Ạscher	
-Milcah1	Uz, Bus, Kẹmuël,	Genesis 22:21
-Milcah2	Kẹsed, Hạso,	
-Milcah3	Pịldasch, Jịdlaph	
-Tebah	Tẹbach	Genesis 22:23
-Gaham	Gạham	
-Tahash	Tạhasch	
-Maacah	Maacha	
-Mahalath	Mạhalath/	Genesis 28:8, 9
-Basemath	Bạsemath	Genesis36:3, 4
-Reuel	Rẹuël	36:13, 17
-Nahath	Nạhath	
-Zerah	Sẹrach	
-Schammah	Schạmma	
-Mizzah	Mịsa	
-Adah	Ạda	36:11, 12, 15, 16
-Eliphaz	Ẹliphas	
-Teman	Tẹman	
-Omar	Ọmar	
-Zepho	Zẹpho	
-Kenaz	Kẹnas	
-Korah	Kọrah	
-Gatam	Gạtam	
-Amalek	Ạmalek	
-Oholibamah	Oholibạma	36:14, 18
-Jeush	Jẹusch	
-Jalam	Jạlam	
-Korah	Kọrah	
-Nebaioth	Nẹbajoth	Genesis 25:13
-Kedar	Kẹdar	
-Adbeel	Ạdbeël	
-Mibsam	Mịbsam	
-Mishma	Mịschma	
-Dumah	Dụma	
-Massa	Mạssa	
-Hadad	Hạdad	
-Tema	Tẹma	
-Jetur	Jẹtur	
-Naphish	Nạphisch	
-Kedemah	Kẹdma	
-Babylon2	 	
-terahfam	Mitglieder von Terach’s Familie	
-rosetta	Rosetta-Stein 196 v. Chr.	Rosetta stone 196 B.C.E.
-Herodotus	Herodot c. 484 – ca. 425 v. Chr.	Herodotus c. 484 – c. 425 B.C.E.
-Aristotle	Aristoteles 384 – 322 v. Chr	Aristotle 384 – 322 BC
-Ptolemy	Claudius Ptolemäus um 100 – ca. 170 n. Chr.	Ptolemy c 100 – c. 170 C.E.
-Pythagoras	Pythagoras ca. 570 – ca. 495 v. Chr	Pythagoras c. 570 – c. 495 BC
-Plato	Platon c. 427 – ca. 348 v. Chr	Plato c. 427 – c. 348 BC
-Socrates	Sokrates c. 470 – ca. 399 v. Chr	Socrates c. 470 – c. 399 BC
-Josephus	Josephus c. 37 – c. 100 n. Chr.	Josephus c. 37 – c. 100 C.E.
-Cicero	Cicero 106–43 v. Chr	Cicero 106–43 BC
-lachish_letters	Lachisch-Briefe c. 590 v. Chr.	Lachish letters c. 590 B.C.E.
-lachish_reliefs	Lachisch-Relief c. 681 v. Chr.	Lachish reliefs c. 681 B.C.E.
-mesha_stele	Mescha-Stele (Moabiterstein), ca. 840 v. Chr.	Mesha Stele (Moabite stone) c. 840 B.C.E.
-gilgamesh	Gilgamesch und Aga 𒇽𒆥𒄄𒀀𒀝𒂵	Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh	Gilgamesch-Epos (Sîn-leqe-unnīnī)	Epic of Gilgamesh (Sîn-lēqi-unninni)
-oxyrhynchus	Oxyrhynchus Papyri	Oxyrhynchus Papyri
-p52	Papyrus 52	Rylands Library Papyrus P52
-daniel2_1	König Nebukadnezar	King Nebuchadnezzar
-daniel2_2	zerstört Jerusalem	destroys Jerusalem
-daniel2_3	Eroberung Babylons	Conquers Babylon
-daniel2_4	Erlass von Cyrus ermöglicht Rück-	Cyrus decrees return
-daniel2_5	kehr der Juden nach Jerusalem	of Jews to Jerusalem
-daniel2_6	Alexander der Große	Alexander the Great
-daniel2_7	erobert Persien	conquers Persia
-daniel2_8	Beginn der Herrschaft über Israel	Rules over Israel
-daniel2_9	Zerstörung Jerusalems	Destroys Jerusalem
-daniel2_10	Entstehung der britisch-	During World War I,
-daniel2_11	amerikanischen Weltmacht	Anglo-American World Power
-daniel2_12	während des 1. Weltkriegs	comes into being
+key,text,notes
+version,4.3,
+pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,
+pdf_subject,Zeitleiste der Menschheit,
+BCE,v.u.Z.,
+CE,u.Z.,
+year,Jahr,
+years,Jahre,
+years_age,Jahre,
+age_kings, ,
+month,Monat,
+months,Monate,
+day,Tag,
+days,Tage,
+to,bis,
+people,Personen,"people, persons"
+judges,Richter,
+prophets,Propheten,
+kings,Könige,
+periods,Zeitabschnitte,
+events,Ereignisse,
+objects,Objekte oder Gegenstände,things or items
+Deluge,Sintflut,
+Adam,Adam,
+Seth,Seth,
+Enosh,Ẹnosch,
+Kenan,Kẹnan,
+Mahalalel,Mahalạlel,
+Jared,Jạred,
+Enoch,Hẹnoch,
+Methuselah,Methụsalah,
+Lamech,Lạmech,
+Noah,Noah,
+Shem,Sem,
+Arpachshad,Ạrpachschad,
+Shelah,Schẹlach,
+Eber,Ẹber,
+Peleg,Pẹleg,
+Reu,Rẹu,
+Serug,Sẹrug,
+Nahor,Nạhor,
+Terah,Tẹrach,
+Abraham,Abraham,
+Isaac,Isaak,
+Jacob,Jakob,
+Joseph,Joseph,
+Moses,Moses,
+Othniel,Ọthniël,
+Ehud,Ẹhud,
+Shamgar,Schạmgar,
+Barak,Bạrak,
+Gideon,Gịdeon,
+Tola,Tọla,
+Jair,Jạir,
+Jephthah,Jẹphtha,
+Ibzan,Ịbzan,
+Elon,Ẹlon,
+Abdon,Ạbdon,
+Samson,Simson,
+Samuel,Samuel,
+Saul,Saul,
+David,David,
+Solomo,Sạlomo,
+Rehoboam,Rehạbeam,erster König des südlichen Zweistämmereiches
+Abijah,Abija (Abịjam),"3 years, also Abijam"
+Asa,Ạsa,
+Jehoshaphat,Josaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360
+Jehoram2,Joram,
+Ahaziah,Ahasja,
+Athaliah,Königin Athalija,Queen Athaliah
+Jehoash,Joas,
+Amaziah,Amazja,
+Uzziah,Usija (Asarja),also Azariah
+Jotham,Jotham,
+Ahaz,Ahas,
+Hezekiah,Hiskia,
+Manasseh,Manasse,
+Amon,Amon,
+Josiah,Josia,
+Jehoahaz,Jehoahas,Only 3 months
+Jehoiakim,Jojakim,
+Jehoiachin,Jojachin,Only 3 months 10 days
+Zedekiah,Zedekia,Zedekiah
+Jeroboam,Jerọbeam,first king of northern 10-tribe kingdom
+Nadab,Nạdab,less than 2
+Baasha,Bạscha,
+Elah,Ẹla,
+Zimri,Sịmri,Only 7 days in ca. 751 BCE
+OmriTibni,Ọmri und Tibni zusammen,4 years Omri and Tibni
+Omri,Ọmri (allein),from 947 Omri alone
+Ahab,Ạhab,
+Ahaziah,Ahasja,
+Jehoram,Joram,
+Jehu,Jehu,
+Jeoahaz,Jehoahas,
+JeoahazJehoash,Jehoahas und Joas,For 3 years Jeoahaz and Jeoash reigned together
+Jehoash2,Joas (allein),Jehoash (alone)
+Jeroboam2,Jerobeam II,
+Zechariah,Sacharja,"reign only recorded 6 months, probably only established 792 BCE"
+Schallum,Schallum,only one month
+Menahem,Menahem,
+Pekahiah,Pekachja,
+Pekah,Pekachja,
+Hoshea,Hoschea,9 years from c. 748
+Elijah,Elia,
+Elisha,Elisa,
+Jonah,Jona,
+Amos,Amos,
+Joel,Jọel,
+Hosea,Hosea,
+Isaiah,Jesaja,
+Micah,Micha,
+Zephaniah,Zephạnja,
+Nahum,Nahum,
+Jeremiah,Jeremia,
+Habakuk,Habakuk,
+Daniel,Daniel,
+Ezekiel,Hesẹkiel,
+Obadiah,Obadja,
+Malachi,Maleachi,
+Ruth,Ruth,
+Ezra,Esra,
+Nehemiah,Nehemia,
+Esther,Esther,
+Job,Hiob,
+moses2,1593 bis 1473 v.u.Z. – 120 Jahre,
+moses3,Moses,
+wilderness,Israel in der Wildnis von 1513 bis 1473 v.u.Z. – 40 Jahre,
+timespan_judges,1473 bis 1117 v.u.Z. – 356 Jahre,
+timespan_judges2,Zeit der Richter,
+temple1,Nisan 1513 v.u.Z bis Ziv 1034 v.u.Z.,
+temple2,479 Jahre bis Beginn des Tempelbaus – 1. Könige 6:1,1034 BCE
+69weeks,Jesus getauft im Herbst 29 u.Z,
+69weeks2,69 Wochen bis zum Messias – Daniel 9:25,
+jesus_service,"3,5 Jahre Dienstzeit Jesu, getötet am 14. Nisan 33 u.Z.",
+jesus_life,Jesus wurde im Jahr 2 v.u.Z. geboren,
+exile,607 bis 537 v.u.Z. – 70 Jahre (Jeremia 25:11),
+exile2,Exil,
+7times,Offenbarung 12:9,
+7times2,7 Zeiten – 2520 Jahre bis zum Messianischen Königreich 1914 u.Z. (Daniel 4:23),
+ww1,1. Weltkrieg – 1914–1918 u.Z.,
+ww2,2. Weltkrieg – 1939–1945 u.Z.,
+30_year_war,Dreißigjähriger Krieg in Europa 1618-1648 u.Z.,
+joshua,110 Jahre,
+joshua2,Josua,
+caleb,mehr als 85 Jahre,
+caleb2,Kaleb,
+missionary1,"Erste Missionsreise von Paulus, ca. 47-48 u.Z., mit Barnabas und Johannes (Markus)",
+circumcision,"Streitfrage der Beschneidung in Antiochia, Zusammenkunft in Jerusalem ca. 49 u.Z.",
+missionary2,Zweite Missionsreise ca. 49-52 u.Z. mit Silas (Silvanus),
+missionary3,Dritte Missionsreise ca. 52-56 u.Z.,
+caesarea,Paulus in Gefangenschaft in Cäserea ca. 56-58 u.Z.,
+rome1,Erste Gefangenschaft von Paulus in Rom ca. 59-61 u.Z.,
+rome2,"Zweite Gefangenschaft in Rom ca. 65 u.Z., 2. Timotheus geschrieben, Paulus hingerichtet",
+Julius,Julius,
+Augustus,Augustus,
+Tiberius,Tiberius,
+Caligula,Caligula,
+Claudius,Claudius,
+Nero,Nero,
+Galba-Otho-Vitellius,"Galba, Otho und Vitellius (Vierkaiserjahr)",
+Vespasian,Vespasian,
+event_exodus,Auszug aus Ägypten am 14. Nisan 1513 v.u.Z.,
+event_division_kingdom,Teilung Israels 997 v.u.Z.,
+event_destruction_samaria,Zerstörung von Samaria 740 v.u.Z. durch Assyrien,
+event_destruction_samaria2,740 v.u.Z. durch Assyrien,
+event_destruction_jerusalem1,"Zerstörung von Jerusalem 607 v.u.Z. durch Babylon, 390 Jahre nach der Teilung des Königreiches (Hesekiel 4:5)",
+event_temple_rebuilt,Tempel wieder aufgebaut 515 v.u.Z.,
+event_jerusalem_rebuilt,Jerusalems Mauern aufgebaut 455 v.u.Z,
+event_destruction_jerusalem2,Zerstörung von Jerusalem 70 u.Z. durch Rom unter Titus,
+event_1914,"Ende der “Zeiten der Nationen”, Gottes Königkreich beginn im Himmel zu regieren 1914 u.Z. ",
+became_king,wurde König im Alter von,
+vulgate,Vulgata von Hieronymus fertiggestellt (Lateinische Übersetzung der Bibel) ca. 405 u.Z.,
+gutenberg,Gutenbergbibel gedruckt 1455,
+erasmus,Griechischer Text der Bibel veröffentlicht durch Desiderius Erasmus von Rotterdam 1516,
+luther,Lutherübersetzung der Bibel im September 1522,
+tyndale,Englische Bibelübersetzung von Tyndale 1536,
+king_james,King-James-Bibel 1611,
+69weeks3,"Jesus beginnt seinen Dienst 29 u.Z. (Lukas 3:1, 21)",
+ransom,Opfergaben hören zur “Mitte der Woche” auf Daniel 9:27,
+cornelius,Kornelius wird am Ende der 70 Wochen getauft (Daniel 9:24) in 36 u.Z.,
+columbus,Ende der präkolumbianischen Zeitepoche in Amerika 1492,
+declaration_independence,Unabhängigkeitserklärung der 13 Kolonien Amerikas 1776,
+tischendorf,Tischendorf entdeckt den Codex Sinaiticus aus dem 4ten Jahrhundert in 1844,
+dead_sea_scrolls,Schriftrollen vom Toten Meer geschrieben,
+septuagint,Septuaginta LXX übersetzt,
+watchtower,Die erste Ausgabe des “Zion’s Watch Tower and Herald of Christ’s Presence” wird veröffentlicht in 1879,
+photodrama,Das “Photo-Drama of Creation” wird zuerst in New York gezeigt am 11 Januar 1914,
+jehovahs_witnesses,"Die Bibelstudenten nehmen einen neuen Namen an – Jehovas Zeugen. In Columbus, Ohio, 1931",
+gilead_school,Die “Watchtower Bible School of Gilead” beginnt am 1. Februar 1943,
+new_world_translation1,"Die “New World Translation of the Holy Scriptures” wird am 18 Juni 1960 in Manchester, England veröffentlicht",
+truth_book,"Das Buch “Die Wahrheit, die zu ewigem Leben führt” wird 1968 herausgegeben",
+metropolitan,Beginn des “metropolitan witnessing” in 2011,
+jw_org,Start von JW.ORG mit Anweisungen im Königreichsdienst im Dezember 2012,
+new_world_translation2,Revidierte “New World Translation of the Holy Scriptures” auf Englisch veröffentlicht auf der Jahresversammlung 2013,
+jw_broadcasting,"Beginn von jw.broadcasting im October 2014 auf Englisch, ab Mai 2015 auf Deutsch",
+meeting_workbook,Start der “Leben und Dienst” Zusammenkunft mit einem Arbeitsheft ab Januar 2016,
+covid19,"Weltweite Covid-19 Pandemie führt zu Lockdowns, Quarantäne und Zoom-Meetings",
+cold_war,Geopolitische Situation bekannt als “Kalter Krieg” 1945-1991,
+timeline_created,"Diese Zeitleiste wurde 2023 erstellt, dem heißesten Jahr der Menschheitsgeschichte und überhaupt der letzten 125000 Jahre",
+codex_sinaiticus,Codex Sinaiticus geschrieben,
+codex_vaticanus,Codex Vaticanus geschrieben,
+leningrad_codex,Leningrad Codex geschrieben in Kairo AD 1008,
+john,Johannes schreibt die Offenbarung im Exil auf Patmos 96-98 u.Z.,
+nicaea1,Erstes Konzil von Nicäa,
+buddha,Siddhartha Gautama – Buddha ca.563-ca.483 v.u.Z.,
+buddha2,Buddha alternativ ca. 480-400 v.u.Z.,
+mohammed,Mohammed ca. 570-632 u.Z.,
+confucius,Konfuzius ca.551-ca.479 v.u.Z.,
+hijrah,Hidschra – Mecca nach Medina 16 Juli 622,
+moses_escape,"1553 v.u.Z. Moses muss aus Ägypten fliehen – 2. Mose 2:15, Apg 7:23",
+10plagues,1513 v.u.Z. zehn Plagen in Ägypten,
+joseph_sold,Joseph als Sklave im Alter von 17 verkauft – 1Mo 37:2,
+infliction,400 Jahre Unterdrückung (Apg 7:6) – Ismael 1913 v.u.Z.,
+Alexander,Alexander der Große (Daniel 11:3),
+persia,"Cyrus der Große, Cambyses II, Darius I 490 v.u.Z., Xerxes I 480 v.u.Z. (Ehemann von Esther, Daniel 11:2)",
+persia2,Persien,
+king_north,"Seleucus I Nicator (v5) in Syrien, dann Antiochus III (v10) und Seleucus IV (v18, 19) bis zu Octavian (v20) und Tiberius (v21-24)",
+king_north1,König des Nordens,
+king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) bis zur Schlacht bei Actium 31 v.u.Z.",
+king_south1,König des Südens,
+king_south2,"Britisches Imperium 1870, Anglo-Amerikanische Weltmacht seit 1914",
+king_south3,König des Südens,
+king_north2,"Deutschland mit Kaiser Wilhelm I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
+king_north3,Norden,
+king_north4,"Sowjetunion 1945-1991 (Daniel 11:32-39, 40b, 41)",
+king_north5,Russland seit 2017 (w20 Mai),
+time_of_end,"Gegenwart Christi, Abschluss des Weltsystems (Matt 24:3), die letzten Tage (2Ti 3:1)",
+time_of_end2,letzte Tage,
+suryavaman2,König Suryavarman II erbaut Angkor Wat 1113-1150,
+notre-dame,Notre-Dame de Paris gebaut 1163-1260,
+ming-dynasty,Ming Dynastie im imperialen China 1368-1644,
+jehoiada,Jehojada,
+babel,Turmbau zu Babel,
+Haggai,Haggai,
+Zechariah,Sacharja,
+Zerubbabel,Serubbabel (Lukas 3:27),
+Babylon,"Daniel 2:32, 36-38; 7:4",
+Medopersia,"Daniel 2:32, 39; 7:5",
+Greece,"Daniel 2:32, 39; 7:6",
+Rome,"Daniel 2:33, 40; 7:7",
+Angloamerica,"Daniel 2:33, 41-43",
+Babylon_c,Babylon,
+Medopersia_c,Medo-Persien,
+Greece_c,Griechenland,
+Rome_c,Rom,
+Angloamerica_c,Anglo-Amerika,
+infliction1,400 Jahre Unterdrückung,
+infliction2,Apostelgeschichte 7:6,
+Jacob2,Jakob/,Jacob/Israel 1858-1711 – 147 years
+Israel,Israel,
+Sarah,Sara,2008-1881 BCE – 127 years
+Hagar,Hạgar,Genesis 21:14
+Haran,Hạran,Genesis 11:26
+Nahor,Nạhor,
+Reumah,Reụma,Concubine – 4 sons
+Milcah,Mịlka,8 sons (Bethuel and 7 more)
+Lot,Lot,
+Lots_wife,Lots Frau,
+Lots_daughters,Töchter Lots,
+Moab,Moab (ältere Tochter),
+Ammon,Ben-Ạmmi (Ammonịter),
+Bethuel,Bẹthuël,
+Rebekah,Rebẹkka,
+Laban,Lạban,
+Leah,Lẹa,Genesis 35:23
+Rachel,Rahel,Genesis 35:24
+Bilhah,Bịlha,Genesis 35:25
+Zilpah,Sịlpa,Genesis 35:26
+Reuben,Rụben,
+Simeon,Sịmeon,
+Levi,Lẹvi,
+Judah,Juda,
+Issachar,Ịssachar,
+Zebulun,Sẹbulon,
+Dinah,Dịna,Genesis 34
+Esau,Ẹsau,
+Ishmael,Ịsmael,
+Manasseh2,(Manasse,
+Ephraim,und Ephraim),
+Benjamin,Benjamin,
+Dan,Dan,
+Naphtali,Nạphtali,
+Gad ,Gad,
+Asher,Ạscher,
+Milcah1,"Uz, Bus, Kẹmuël,",Genesis 22:21
+Milcah2,"Kẹsed, Hạso,",
+Milcah3,"Pịldasch, Jịdlaph",
+Tebah,Tẹbach,Genesis 22:23
+Gaham,Gạham,
+Tahash,Tạhasch,
+Maacah,Maacha,
+Mahalath,Mạhalath/,"Genesis 28:8, 9"
+Basemath,Bạsemath,"Genesis36:3, 4"
+Reuel,Rẹuël,"36:13, 17"
+Nahath,Nạhath,
+Zerah,Sẹrach,
+Schammah,Schạmma,
+Mizzah,Mịsa,
+Adah,Ạda,"36:11, 12, 15, 16"
+Eliphaz,Ẹliphas,
+Teman,Tẹman,
+Omar,Ọmar,
+Zepho,Zẹpho,
+Kenaz,Kẹnas,
+Korah,Kọrah,
+Gatam,Gạtam,
+Amalek,Ạmalek,
+Oholibamah,Oholibạma,"36:14, 18"
+Jeush,Jẹusch,
+Jalam,Jạlam,
+Korah,Kọrah,
+Nebaioth,Nẹbajoth,Genesis 25:13
+Kedar,Kẹdar,
+Adbeel,Ạdbeël,
+Mibsam,Mịbsam,
+Mishma,Mịschma,
+Dumah,Dụma,
+Massa,Mạssa,
+Hadad,Hạdad,
+Tema,Tẹma,
+Jetur,Jẹtur,
+Naphish,Nạphisch,
+Kedemah,Kẹdma,
+Babylon2, ,
+terahfam,Mitglieder von Terach’s Familie,
+rosetta,Rosetta-Stein 196 v. Chr.,Rosetta stone 196 B.C.E.
+Herodotus,Herodot c. 484 – ca. 425 v. Chr.,Herodotus c. 484 – c. 425 B.C.E.
+Aristotle,Aristoteles 384 – 322 v. Chr,Aristotle 384 – 322 BC
+Ptolemy,Claudius Ptolemäus um 100 – ca. 170 n. Chr.,Ptolemy c 100 – c. 170 C.E.
+Pythagoras,Pythagoras ca. 570 – ca. 495 v. Chr,Pythagoras c. 570 – c. 495 BC
+Plato,Platon c. 427 – ca. 348 v. Chr,Plato c. 427 – c. 348 BC
+Socrates,Sokrates c. 470 – ca. 399 v. Chr,Socrates c. 470 – c. 399 BC
+Josephus,Josephus c. 37 – c. 100 n. Chr.,Josephus c. 37 – c. 100 C.E.
+Cicero,Cicero 106–43 v. Chr,Cicero 106–43 BC
+lachish_letters,Lachisch-Briefe c. 590 v. Chr.,Lachish letters c. 590 B.C.E.
+lachish_reliefs,Lachisch-Relief c. 681 v. Chr.,Lachish reliefs c. 681 B.C.E.
+mesha_stele,"Mescha-Stele (Moabiterstein), ca. 840 v. Chr.",Mesha Stele (Moabite stone) c. 840 B.C.E.
+gilgamesh,Gilgamesch und Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Gilgamesch-Epos (Sîn-leqe-unnīnī),Epic of Gilgamesh (Sîn-lēqi-unninni)
+oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri
+p52,Papyrus 52,Rylands Library Papyrus P52
+daniel2_1,König Nebukadnezar,King Nebuchadnezzar
+daniel2_2,zerstört Jerusalem,destroys Jerusalem
+daniel2_3,Eroberung Babylons,Conquers Babylon
+daniel2_4,Erlass von Cyrus ermöglicht Rück-,Cyrus decrees return
+daniel2_5,kehr der Juden nach Jerusalem,of Jews to Jerusalem
+daniel2_6,Alexander der Große,Alexander the Great
+daniel2_7,erobert Persien,conquers Persia
+daniel2_8,Beginn der Herrschaft über Israel,Rules over Israel
+daniel2_9,Zerstörung Jerusalems,Destroys Jerusalem
+daniel2_10,Entstehung der britisch-,"During World War I,"
+daniel2_11,amerikanischen Weltmacht,Anglo-American World Power
+daniel2_12,während des 1. Weltkriegs,comes into being
