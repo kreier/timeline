@@ -48,6 +48,20 @@ for glyphs in CJKAS:
     pdfmetrics.registerFont(TTFont(fontname_bold, fontfile_bold))
 pdfmetrics.registerFont(TTFont('NotoCuneiform', 'fonts/notoCuneiform.ttf')) # Akkadian
 
+supported = {"ar": "Arabic (العربية)",
+             "de": "German (Deutsch)",
+             "en": "English", 
+             "es": "Spanish (Español)", 
+             "fi": "Finnish (Suomi)", 
+             "fr": "French (Français)", 
+             "ilo": "Iloko (Illocano)",
+             "jp": "Japanese (日本語)",
+             "kr": "Korean (한국인)",
+             "ru": "Russian (Русский)",
+             "sc": "Chinese (Simplified) [中文简体(普通话)]",
+             "si": "Sinhala (සිංහල)",
+             "vn": "Vietnamese (Tiếng Việt)"}
+
 # convert the float dates to year, month and day
 def year(date_float):
     year = int(date_float)
@@ -116,7 +130,7 @@ def initiate_counters():
 
 # Import strings for the respective language for names and comments
 def import_dictionary():
-    global dict, font_regular, font_bold
+    global dict, font_regular, font_bold, version
     # first import the reference dictionary in english
     reference = "../db/dictionary_reference.csv"
     key_dict = pd.read_csv(reference, encoding='utf8')
@@ -134,7 +148,9 @@ def import_dictionary():
             abbreviation = language.upper()
             font_regular = "Noto" + abbreviation
             font_bold    = "Noto" + abbreviation + "-bold"
-    print(f"Imported dictionary for names and descriptions, language: {language} with {len(key_dict)} keywords")
+    print(f"Imported dictionary: {len(key_dict)} keywords")
+    version = float(dict["version"])
+    print(f"Version {version}")
 
 # Import colors for all keys
 def import_colors(c_scheme):
@@ -269,8 +285,8 @@ def create_adam_moses():
     c.rect(x_start, y_start, x_width, 2, fill = 1, stroke = 0)
 
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
-    print("Import data Adam to Moses")
     people = pd.read_csv("../db/adam-moses.csv", encoding='utf8')
+    print("Imported data Adam to Moses:", len(people))
     c.setFont(font_regular, 12)
     for index, row in people.iterrows():
         born = -year(row.born)
@@ -334,16 +350,16 @@ def create_events_objects():
 def create_reference_events():
     # Deluge in 2370 BCE is special and included in the Adam_Moses part
     global counter_events
-    print("Import data of reference events")
     events = pd.read_csv("../db/events.csv", encoding='utf8')
+    print("Imported data of reference events:", len(events))
     for index, row in events.iterrows():
         draw_event(row.key, row.date, row.y_start, row.y_end, row.y_text, row.width, row.position)
         counter_events += 1
 
 def create_judges():
     global counter_judges
-    print("Import data of judges")
     judges = pd.read_csv("../db/judges.csv", encoding='utf8')
+    print("Imported data of judges:", len(judges))
     for index, row in judges.iterrows():
         start = row.start
         end   = row.end
@@ -371,8 +387,8 @@ def create_judges():
 def create_kings():
     global counter_kings
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
-    print("Import data of kings")
     kings = pd.read_csv("../db/kings.csv", encoding='utf8')
+    print("Imported data of kings:", len(kings))
     c.setFont(font_regular, 10)
     c.setLineWidth(0.3)
     for index, row in kings.iterrows():
@@ -455,8 +471,8 @@ def text_with_timebar(text, row, year_start, year_end, R, G, B):
 
 def create_prophets():
     global counter_prophets
-    print("Import data of prophets")
     prophets = pd.read_csv("../db/prophets.csv", encoding='utf8')
+    print("Imported data of prophets:", len(prophets))
     co = color['prophets']
     for index, row in prophets.iterrows():
         text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
@@ -464,8 +480,8 @@ def create_prophets():
 
 def create_books():
     global counter_people
-    print("Import data of books")
     books = pd.read_csv("../db/books.csv", encoding='utf8')
+    print("Imported data of books:", len(books))
     co = color['books']
     for index, row in books.iterrows():
         text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
@@ -473,19 +489,19 @@ def create_books():
 
 def create_people():
     global counter_people
-    print("Import data of people")
-    books = pd.read_csv("../db/people.csv", encoding='utf8')
+    people = pd.read_csv("../db/people.csv", encoding='utf8')
+    print("Imported data of people:", len(people))
     co = color['people']
-    for index, row in books.iterrows():
+    for index, row in people.iterrows():
         text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
         counter_people += 1
 
 def create_objects():
     global counter_objects
-    print("Import data of items or objects")
-    books = pd.read_csv("../db/objects.csv", encoding='utf8')
+    objects = pd.read_csv("../db/objects.csv", encoding='utf8')
+    print("Imported data of objects or items:", len(objects))
     co = color['objects']
-    for index, row in books.iterrows():
+    for index, row in objects.iterrows():
         if row.key == "gilgamesh":
             x_boxwidth = (row.end -  row.start) * dots_year
             timebar(x_position(row.start), y_position(row.row_y) + 10, x_boxwidth, co[0], co[1], co[2])
@@ -499,8 +515,8 @@ def create_objects():
 def create_caesars():
     global counter_kings
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
-    print("Import data of caesars")
     caesars = pd.read_csv("../db/caesars.csv", encoding='utf8')
+    print("Importws data of caesarsa:", len(caesars))
     c.setFont(font_regular, 10)
     c.setLineWidth(0.3)
     for index, row in caesars.iterrows():
@@ -535,8 +551,8 @@ def create_caesars():
 def create_periods():
     global counter_periods
     # Import the perios with start and end as pandas dataframe
-    print("Import data of periods")
     periods = pd.read_csv("../db/periods.csv", encoding='utf8')
+    print("Imported data of periods:", len(periods))
     c.setFont(font_regular, 10)
     c.setLineWidth(0.3)
     for index, row in periods.iterrows():
@@ -592,7 +608,7 @@ def create_terah_familytree():
         y_2 = y_position(row.end_row - 0.25)
         c.line(x_1, y_1, x_2, y_2)
     terah = pd.read_csv("../db/terah-family.csv", encoding='utf8')
-    print(f"Imported family tree of Terah: {len(terah)} text fields.")
+    print(f"Imported family tree of Terah: {len(terah)} text fields")
     c.setStrokeColorRGB(1, 1, 1)
     red  = color["terah_red"]
     blue = color["terah_blue"]
@@ -611,6 +627,7 @@ def create_terah_familytree():
 
 def include_pictures():
     pictures = pd.read_csv("../db/pictures.csv", encoding='utf8')
+    print("Imported list of pictures:", len(pictures))
     for index, row in pictures.iterrows():
         location = "../images/" + row.key + ".jpg"
         c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
@@ -678,6 +695,7 @@ def render_to_file():
 def create_timeline(lang):
     global language, version
     language = lang
+    print(f"Your selected language {language} is supported: {supported[language]}")
     initiate_counters()
     import_dictionary()
     import_colors("normal")
@@ -709,15 +727,3 @@ if __name__ == "__main__":
         exit()
     language = sys.argv[1]
     create_timeline(language)
-    # create_timeline("de")
-    # create_timeline("vn")
-    # create_timeline("fr")
-    # create_timeline("ru")
-    # create_timeline("jp")
-    # create_timeline("kr")
-    # create_timeline("sc")
-    # create_timeline("es")
-    # create_timeline("ilo")
-    # create_timeline("fi")
-    # create_timeline("ar")
-    # create_timeline('si')

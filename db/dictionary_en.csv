@@ -1,13 +1,13 @@
-key,text,alternative,notes
+key,text,notes,alternative
 version,4.3,,
 pdf_title,6000 years human history visualized,,
 pdf_subject,Timeline of humankind,,
 BCE,B.C.E.,,
 CE,C.E.,,
-year,year,,"timespan, age (Adam was 130 years old when Shem was born)"
+year,year,"timespan, age (Adam was 130 years old when Shem was born)",
 years,years,,
-years_age,years,,years when used as age for a person (different word than years in some languages)
-age_kings, ,years old,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+years_age,years,years when used as age for a person (different word than years in some languages),
+age_kings, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",years old
 month,month,,
 months,months,,
 day,day,,
@@ -19,89 +19,89 @@ prophets,prophets,,
 kings,kings,,
 periods,periods,,
 events,events,,
-objects,objects or items,things or items,
+objects,objects or items,,things or items
 Deluge,Deluge,,
 Adam,Adam,,
 Seth,Seth,,
-Enosh,Enosh,Eʹnosh,
-Kenan,Kenan,Keʹnan,
-Mahalalel,Ma·hala·lel,Ma·halʹa·lel,
-Jared,Jared,Jaʹred,
-Enoch,Enoch,Eʹnoch,
-Methuselah,Me·thuse·lah,Me·thuʹse·lah,
-Lamech,Lamech,Laʹmech,
+Enosh,Enosh,,Eʹnosh
+Kenan,Kenan,,Keʹnan
+Mahalalel,Ma·hala·lel,,Ma·halʹa·lel
+Jared,Jared,,Jaʹred
+Enoch,Enoch,,Eʹnoch
+Methuselah,Me·thuse·lah,,Me·thuʹse·lah
+Lamech,Lamech,,Laʹmech
 Noah,Noah,,
 Shem,Shem,,
-Arpachshad,Ar·pachshad,Ar·pachʹshad,
-Shelah,Shelah,Sheʹlah,
-Eber,Eber,Eʹber,
-Peleg,Peleg,Peʹleg,
-Reu,Reu,Reʹu,
-Serug,Serug,Seʹrug,
-Nahor,Nahor,Naʹhor,
-Terah,Terah,Teʹrah,
+Arpachshad,Ar·pachshad,,Ar·pachʹshad
+Shelah,Shelah,,Sheʹlah
+Eber,Eber,,Eʹber
+Peleg,Peleg,,Peʹleg
+Reu,Reu,,Reʹu
+Serug,Serug,,Seʹrug
+Nahor,Nahor,,Naʹhor
+Terah,Terah,,Teʹrah
 Abraham,Abraham,,
 Isaac,Isaac,,
 Jacob,Jacob,,
 Joseph,Joseph,,
 Moses,Moses,,
-Othniel,Othniel,1,
-Ehud,Ehud,2,
-Shamgar,Shamgar,3,
-Barak,Barak,4,
-Gideon,Gideon,5,
-Tola,Tola,6,
-Jair,Jair,7,
-Jephthah,Jephthah,8,
-Ibzan,Ibzan,9,
-Elon,Elon,10,
-Abdon,Abdon,11,
-Samson,Samson,12,
-Samuel,Samuel,13,
-Saul,Saul,1,
-David,David,2,
-Solomo,Solomo,3,
-Rehoboam,Rehoboam,first king of southern kingdom of Juda,
-Abijah,Abijah (Abijam),"3 years, also Abijam",
+Othniel,Othniel,,1
+Ehud,Ehud,,2
+Shamgar,Shamgar,,3
+Barak,Barak,,4
+Gideon,Gideon,,5
+Tola,Tola,,6
+Jair,Jair,,7
+Jephthah,Jephthah,,8
+Ibzan,Ibzan,,9
+Elon,Elon,,10
+Abdon,Abdon,,11
+Samson,Samson,,12
+Samuel,Samuel,,13
+Saul,Saul,,1
+David,David,,2
+Solomo,Solomo,,3
+Rehoboam,Rehoboam,,first king of southern kingdom of Juda
+Abijah,Abijah (Abijam),,"3 years, also Abijam"
 Asa,Asa,,
-Jehoshaphat,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,
+Jehoshaphat,Jehoshaphat,,bce_float = -y+1 - (12-m)/12 – (31-d)/360
 Jehoram2,Jehoram,,
 Ahaziah,Ahaziah,,
-Athaliah,Queen Athaliah,Queen Athaliah,
+Athaliah,Queen Athaliah,,Queen Athaliah
 Jehoash,Jehoash,,
 Amaziah,Amaziah,,
-Uzziah,Uzziah (Azariah),also Azariah,
+Uzziah,Uzziah (Azariah),,also Azariah
 Jotham,Jotham,,
 Ahaz,Ahaz,,
 Hezekiah,Hezekiah,,
 Manasseh,Manasseh,,
 Amon,Amon,,
 Josiah,Josiah,,
-Jehoahaz,Jehoahaz,Only 3 months,
+Jehoahaz,Jehoahaz,,Only 3 months
 Jehoiakim,Jehoiakim,,
-Jehoiachin,Jehoiachin,Only 3 months 10 days,
+Jehoiachin,Jehoiachin,,Only 3 months 10 days
 Zedekiah,Zedekiah,,
-Jeroboam,Jeroboam,first king of northern 10-tribe kingdom,
-Nadab,Nadab,less than 2,
+Jeroboam,Jeroboam,,first king of northern 10-tribe kingdom
+Nadab,Nadab,,less than 2
 Baasha,Baasha,,
 Elah,Elah,,
-Zimri,Zimri,Only 7 days in ca. 751 BCE,
-OmriTibni,Omri and Tibni together,4 years Omri and Tibni,
-Omri,Omri (alone),from 947 Omri alone,
+Zimri,Zimri,,Only 7 days in ca. 751 BCE
+OmriTibni,Omri and Tibni together,,4 years Omri and Tibni
+Omri,Omri (alone),,from 947 Omri alone
 Ahab,Ahab,,
 Ahaziah,Ahaziah,,
 Jehoram,Jehoram,,
 Jehu,Jehu,,
 Jeoahaz,Jeoahaz,,
-JeoahazJehoash,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,
-Jehoash2,Jehoash (alone),Jehoash (alone),
+JeoahazJehoash,Jeoahaz and Jehoash,,For 3 years Jeoahaz and Jeoash reigned together
+Jehoash2,Jehoash (alone),,Jehoash (alone)
 Jeroboam2,Jeroboam II,,
-Zechariah,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",
-Schallum,Schallum,only one month,
+Zechariah,Zechariah,,"reign only recorded 6 months, probably only established 792 BCE"
+Schallum,Schallum,,only one month
 Menahem,Menahem,,
 Pekahiah,Pekahiah,,
 Pekah,Pekah,,
-Hoshea,Hoshea,9 years from c. 748,
+Hoshea,Hoshea,,9 years from c. 748
 Elijah,Elijah,,
 Elisha,Elisha,,
 Jonah,Jonah,,
@@ -129,7 +129,7 @@ wilderness,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,,
 timespan_judges,1473 to 1117 B.C.E. – 356 years,,
 timespan_judges2,Time of the judges,,
 temple1,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,
-temple2,479 years until the temple construction – 1 Kings 6:1,1034 BCE,
+temple2,479 years until the temple construction – 1 Kings 6:1,,1034 BCE
 69weeks,Jesus baptized autumn 29 C.E.,,
 69weeks2,69 weeks to the Messiah – Daniel 9:25,,
 jesus_service,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",,
@@ -245,94 +245,95 @@ Medopersia_c,Medo-Persia,,
 Greece_c,Greece,,
 Rome_c,Rome,,
 Angloamerica_c,Anglo-America,,
-infliction1,400 year infliction,,Acts 7:6
+infliction1,400 year infliction,Acts 7:6,
 infliction2,Acts 7:6,,
-Jacob2,Jacob/,,Jacob/Israel 1858-1711 – 147 years
+Jacob2,Jacob/,Jacob/Israel 1858-1711 – 147 years,
 Israel,Israel,,
-Sarah,Sarah,,2008-1881 BCE – 127 years
-Hagar,Hagar,,Genesis 21:14
-Haran,Haran,,Genesis 11:26
+Sarah,Sarah,2008-1881 BCE – 127 years,
+Hagar,Hagar,Genesis 21:14,
+Haran,Haran,Genesis 11:26,
 Nahor,Nahor,,
-Reumah,Reumah,,Concubine – 4 sons
-Milcah,Milcah,,8 sons (Bethuel and 7 more)
+Reumah,Reumah,Concubine – 4 sons,
+Milcah,Milcah,8 sons (Bethuel and 7 more),
 Lot,Lot,,
 Lots_wife,Lot’s wife,,
 Lots_daughters,Daughters of Lot,,
 Moab,Moab (older daughter),,
 Ammon,Ben-ammi (Ammon),,
-Bethuel,Be·thuel,Be·thuʹel,
-Rebekah,Rebekah,Re·bekʹah,
-Laban,Laban,Laʹban,
-Leah,Leah,Leʹah,Genesis 35:23
-Rachel,Rachel,,Genesis 35:24
-Bilhah,Bilhah,Bilʹhah,Genesis 35:25
-Zilpah,Zilpah,Zilʹpah,Genesis 35:26
-Reuben,Reuben,Reuʹben,
-Simeon,Sime·on,Simʹe·on,
-Levi,Levi,Leʹvi,
-Judah,Judah,Judah,
-Issachar,Issa·char,Isʹsa·char,
-Zebulun,Zebu·lun,Zebʹu·lun,
-Dinah,Dinah,Diʹnah,Genesis 34
-Esau,Esau,Eʹsau,
-Ishmael,Ishmael,Mizʹzah,
+Bethuel,Be·thuel,,Be·thuʹel
+Rebekah,Rebekah,,Re·bekʹah
+Laban,Laban,,Laʹban
+Leah,Leah,Genesis 35:23,Leʹah
+Rachel,Rachel,Genesis 35:24,
+Bilhah,Bilhah,Genesis 35:25,Bilʹhah
+Zilpah,Zilpah,Genesis 35:26,Zilʹpah
+Reuben,Reuben,,Reuʹben
+Simeon,Sime·on,,Simʹe·on
+Levi,Levi,,Leʹvi
+Judah,Judah,,Judah
+Issachar,Issa·char,,Isʹsa·char
+Zebulun,Zebu·lun,,Zebʹu·lun
+Dinah,Dinah,Genesis 34,Diʹnah
+Esau,Esau/,,Eʹsau
+Edom,Edom,Genesis 36:1,Eʹdom
+Ishmael,Ishma·el,Genesis 16:11,Ishʹma·el
 Manasseh2,(Manasseh,,
 Ephraim,and Ephraim),,
 Benjamin,Benjamin,,
 Dan,Dan,,
-Naphtali,Naphta·li,Naphʹta·li,
+Naphtali,Naphta·li,,Naphʹta·li
 Gad ,Gad ,,
-Asher,Asher,Ashʹer,
-Milcah1,"Uz, Buz, Kemuel,",Genesis 22:21,
+Asher,Asher,,Ashʹer
+Milcah1,"Uz, Buz, Kemuel,",,Genesis 22:21
 Milcah2,"Chesed, Hazo,",,
 Milcah3,"Pildash, Jidlaph",,
-Tebah,Tebah,Genesis 22:23,
+Tebah,Tebah,,Genesis 22:23
 Gaham,Gaham,,
 Tahash,Tahash,,
 Maacah,Maacah,,
-Mahalath,Mahalath/,,"Genesis 28:8, 9"
-Basemath,Base·math,Basʹe·math,"Genesis36:3, 4"
-Reuel,Reuel,Reuʹel,"36:13, 17"
-Nahath,Nahath,Naʹhath,
-Zerah,Zerah,Zeʹrah,
-Schammah,Schammah,Shamʹmah,
-Mizzah,Mizzah,Mizʹzah,
-Adah,Adah,Aʹdah,"36:11, 12, 15, 16"
-Eliphaz,Eliphaz,Elʹi·phaz,
-Teman,Teman,Teʹman,
-Omar,Omar,Oʹmar,
-Zepho,Zepho,Zeʹpho,
-Kenaz,Kenaz,Keʹnaz,
-Korah,Korah,Korʹah,
-Gatam,Gatam,Gaʹtam,
-Amalek,Amalek,Amʹa·lek,
-Oholibamah,O·hol·i·bamah,O·hol·i·baʹmah,"36:14, 18"
-Jeush,Jeush,Jeʹush,
-Jalam,Jalam,Jaʹlam,
-Korah,Korah,Korʹah,
-Nebaioth,Nebaioth,Ne·baʹioth,Genesis 25:13
-Kedar,Kedar,Keʹdar,
-Adbeel,Adbeel,Adʹbe·el,
-Mibsam,Mibsam,Mibʹsam,
-Mishma,Mishma,Mishʹma,
-Dumah,Dumah,Duʹmah,
-Massa,Massa,Masʹsa,
-Hadad,Hadad,Haʹdad,
-Tema,Tema,Teʹma,
-Jetur,Jetur,Jeʹtur,
-Naphish,Naphish,Naʹphish,
-Kedemah,Kedemah,Kedʹe·mah,
-Babylon2, ,empty!!,no text left and right – empty!
+Mahalath,Mahalath/,"Genesis 28:8, 9",
+Basemath,Base·math,"Genesis36:3, 4",Basʹe·math
+Reuel,Reuel,"36:13, 17",Reuʹel
+Nahath,Nahath,,Naʹhath
+Zerah,Zerah,,Zeʹrah
+Schammah,Schammah,,Shamʹmah
+Mizzah,Mizzah,,Mizʹzah
+Adah,Adah,"36:11, 12, 15, 16",Aʹdah
+Eliphaz,Eliphaz,,Elʹi·phaz
+Teman,Teman,,Teʹman
+Omar,Omar,,Oʹmar
+Zepho,Zepho,,Zeʹpho
+Kenaz,Kenaz,,Keʹnaz
+Korah,Korah,,Korʹah
+Gatam,Gatam,,Gaʹtam
+Amalek,Amalek,,Amʹa·lek
+Oholibamah,O·hol·i·bamah,"36:14, 18",O·hol·i·baʹmah
+Jeush,Jeush,,Jeʹush
+Jalam,Jalam,,Jaʹlam
+Korah,Korah,,Korʹah
+Nebaioth,Nebaioth,Genesis 25:13,Ne·baʹioth
+Kedar,Kedar,,Keʹdar
+Adbeel,Adbeel,,Adʹbe·el
+Mibsam,Mibsam,,Mibʹsam
+Mishma,Mishma,,Mishʹma
+Dumah,Dumah,,Duʹmah
+Massa,Massa,,Masʹsa
+Hadad,Hadad,,Haʹdad
+Tema,Tema,,Teʹma
+Jetur,Jetur,,Jeʹtur
+Naphish,Naphish,,Naʹphish
+Kedemah,Kedemah,,Kedʹe·mah
+Babylon2, ,no text left and right – empty!,empty!!
 terahfam,members of Terah’s family,,
 rosetta,Rosetta stone 196 B.C.E.,,
-Herodotus,Herodotus c. 484 – c. 425 B.C.E.,,Father of History
-Aristotle,Aristotle 384 – 322 BC,,"The First Teacher, The Philosopher"
+Herodotus,Herodotus c. 484 – c. 425 B.C.E.,Father of History,
+Aristotle,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",
 Ptolemy,Ptolemy c 100 – c. 170 C.E.,,
 Pythagoras,Pythagoras c. 570 – c. 495 BC,,
 Plato,Plato c. 427 – c. 348 BC,,
 Socrates,Socrates c. 470 – c. 399 BC,,
 Josephus,Josephus c. 37 – c. 100 C.E.,,
-Cicero,Cicero 106–43 BC,3 Jan 106 BC – 7 Dec 43 BC,influence on Latin language
+Cicero,Cicero 106–43 BC,influence on Latin language,3 Jan 106 BC – 7 Dec 43 BC
 lachish_letters,Lachish letters c. 590 B.C.E.,,
 lachish_reliefs,Lachish reliefs c. 681 B.C.E.,,
 mesha_stele,Mesha Stele (Moabite stone) c. 840 B.C.E.,,
