@@ -641,13 +641,14 @@ def create_daniel2():
     years = ["607", "", "539", "537", "", "331", "", "63", "70", "1914-1918", "", ""] 
     yearlines = [2, 3, 2, 2, 3]
     current_yearline = 0
+    image_shift = int(dict["daniel2_shift"])
     for index, kingdom in enumerate(kingdoms):
         # print(index, ". ", kingdom, " - ", dict[kingdom + "_c"], " - ", dict[kingdom] )
         co = color["daniel2"]
         c.setLineWidth(0.4)
         c.setStrokeColorRGB(co[0], co[1], co[2])
         y_line = y1 + shift_upward + desired_height * (0.91 - index * 0.212)
-        c.line(x_position(-3800),y_line, x_position(-4026), y_line)
+        c.line(x_position(-3800) + image_shift,y_line, x_position(-4026), y_line)
         c.setFont(font_bold, 12)
         c.setFillColorRGB(co[0], co[1], co[2])
         c.drawString(x_position(-4026), y_line - 12, dict[kingdom + "_c"])
@@ -667,14 +668,14 @@ def create_daniel2():
             c.setFont(font_regular, 6)
             c.drawString(x_position(-4026), y_line - 30 - 8 * yearline, yearstring)
             line_daniel2 = "daniel2_" + str(current_yearline+1)
-            c.drawString(x_position(-4026) + indentation, y_line - 30- 8 * yearline, dict[line_daniel2])
+            c.drawString(x_position(-4026) + indentation, y_line - 30 - 8 * yearline, dict[line_daniel2])
             current_yearline += 1
     drawing = svg2rlg("../images/daniel2.svg")
     factor = desired_height / drawing.height
     sx = sy = factor
     drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
     drawing.scale(sx, sy)
-    renderPDF.draw(drawing, c, x_position(-3850), y1 + shift_upward)        
+    renderPDF.draw(drawing, c, x_position(-3850) + image_shift, y1 + shift_upward)        
 
 def create_timestamp():
     timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "objects", "terahfam"]

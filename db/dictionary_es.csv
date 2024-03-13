@@ -1,9 +1,9 @@
 key,text,english,notes
-version,4.09,,
+version,4.2,,
 pdf_title,6000 años de historia humana visualizados,6000 years human history visualized,
 pdf_subject,Cronología de la humanidad,Timeline of humankind,
-BCE,a.E.C.,B.C.E.,
-CE,CE,C.E.,
+BCE,a.e.c. ,B.C.E.,
+CE,e.c. ,C.E.,
 year,año,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,años,years,
 years_age,años,years,years when used as age for a person (different word than years in some languages)
@@ -240,11 +240,11 @@ Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",
 Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",
 Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",
 Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43",
-Babylon_c,Babylon,Babylon,
-Medopersia_c,Medo-Persia,Medo-Persia,
-Greece_c,Greece,Greece,
-Rome_c,Rome,Rome,
-Angloamerica_c,Anglo-America,Anglo-America,
+Babylon_c,Babilonia ,Babylon,
+Medopersia_c,Medopersia ,Medo-Persia,
+Greece_c,Grecia ,Greece,
+Rome_c,Roma ,Rome,
+Angloamerica_c,Reino Unido y Estados Unidos ,Anglo-America,
 infliction1,400 year infliction,400 year infliction,Acts 7:6
 infliction2,Acts 7:6,Acts 7:6,
 Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years
@@ -341,15 +341,16 @@ gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥�
 epic_gilgamesh,Epic of Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
 p52,Rylands Library Papyrus P52,Rylands Library Papyrus P52,
-daniel2_1,King Nebuchadnezzar,King Nebuchadnezzar,
-daniel2_2,destroys Jerusalem,destroys Jerusalem,
-daniel2_3,Conquers Babylon,Conquers Babylon,
-daniel2_4,Cyrus decrees return,Cyrus decrees return,
-daniel2_5,of Jews to Jerusalem,of Jews to Jerusalem,
-daniel2_6,Alexander the Great,Alexander the Great,
-daniel2_7,conquers Persia,conquers Persia,
-daniel2_8,Rules over Israel,Rules over Israel,
-daniel2_9,Destroys Jerusalem,Destroys Jerusalem,
-daniel2_10,"During World War I,","During World War I,",
-daniel2_11,Anglo-American World Power,Anglo-American World Power,
-daniel2_12,comes into being,comes into being,
+daniel2_shift,45,0,Start 4.2
+daniel2_1,El rey Nabucodonosor ,King Nebuchadnezzar,607 BCE
+daniel2_2,destruye Jerusalén ,destroys Jerusalem,
+daniel2_3,Medopersia conquista Babilonia ,Conquers Babylon,539 BCE
+daniel2_4,Ciro autoriza a los judíos,Cyrus decrees return,537 BCE
+daniel2_5,a volver a Jerusalén,of Jews to Jerusalem,
+daniel2_6,Alejandro Magno,Alexander the Great,331 BCE
+daniel2_7,conquista Persia,conquers Persia,
+daniel2_8,Roma gobierna Israel,Rules over Israel,63 BCE
+daniel2_9,Destruye Jerusalén,Destroys Jerusalem,70 CE
+daniel2_10,En la Primera Guerra Mundial,"During World War I,",1914-1918 CE
+daniel2_11,surge la potencia mundial,Anglo-American World Power,
+daniel2_12,formada por estos dos países,comes into being,End 4.2
