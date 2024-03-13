@@ -38,8 +38,8 @@ if os.getcwd()[-6:] != "python":
 
 pdfmetrics.registerFont(TTFont('Aptos', 'fonts/aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'fonts/aptos-bold.ttf'))
-CJKAS = ["JP", "KR", "SC", "AR", "SI"] # Japanese, Korean, Simplified Chinese, Arabic, Sinhala
-for glyphs in CJKAS:
+CJKAST = ["JP", "KR", "SC", "AR", "SI", "THAI"] # Japanese, Korean, Simplified Chinese, Arabic, Sinhala, Thai
+for glyphs in CJKAST:
     fontname = "Noto" + glyphs
     fontfile = "fonts/noto" + glyphs + ".ttf"
     fontname_bold = "Noto" + glyphs + "-bold"
@@ -53,13 +53,15 @@ supported = {"ar": "Arabic (العربية)",
              "en": "English", 
              "es": "Spanish (Español)", 
              "fi": "Finnish (Suomi)", 
-             "fr": "French (Français)", 
+             "fr": "French (Français)",
+             "igbo": "Igbo (Ásụ̀sụ́ Ìgbò)",
              "ilo": "Iloko (Illocano)",
              "jp": "Japanese (日本語)",
              "kr": "Korean (한국인)",
              "ru": "Russian (Русский)",
              "sc": "Chinese (Simplified) [中文简体(普通话)]",
              "si": "Sinhala (සිංහල)",
+             "thai": "Thai (ภาษาไทย)",
              "vn": "Vietnamese (Tiếng Việt)"}
 
 # convert the float dates to year, month and day
@@ -142,7 +144,7 @@ def import_dictionary():
         dict.update({f"{row.key}" : f"{row.text}"})
     font_regular = "Aptos"
     font_bold = "Aptos-bold"
-    special_languages = ["jp", "kr", "sc", "ar", "si"]
+    special_languages = ["jp", "kr", "sc", "ar", "si", "thai"]
     for special_language in special_languages:
         if language == special_language:
             abbreviation = language.upper()

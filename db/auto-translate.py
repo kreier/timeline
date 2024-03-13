@@ -27,15 +27,16 @@ def check_existing(language, filename):
     else:
         print(f"Creating a new dictionary_{language}.tsv file.")
 
-def import_english():
+def import_reference():
     global dict
-    print("Import english dictionary: ", end="")
-    dict = pd.read_csv("./dictionary_en.tsv", sep="\t")
+    print("Import reference english dictionary: ", end="")
+    # dict = pd.read_csv("./dictionary_en.tsv", sep="\t")
+    dict = pd.read_csv("./dictionary_reference.csv")
     print(f"found {len(dict)} entries.")
     print(dict)
 
 def second_func():
-    print("Import english dictionary")
+    print("Import reference english dictionary")
     print("Check if target language already exists")
     print("start a dialog: Do you want to overwrite?")
     print("Auto translation done. Translated x key phrases.")
@@ -49,15 +50,17 @@ if __name__ == "__main__":
     filename = "./dictionary_" + language + ".csv"
     print(f"You want to translate to {language}.")
     check_existing(language, filename)
-    import_english()
+    import_reference()
     # create the dataframe
-    dict_translated = dict[['key', 'text']].copy()   # create a new dictionary, copy columns key and text
+    dict_translated = dict[['key', 'text', 'notes']].copy()   # create a new dictionary, copy columns key and text
     dict_translated['english'] = dict['text'].copy() # add a column 'english' and fill with 'text' from english dictionary
     print("\nTranslating ...")
     translator = Translator()
+    number_characters = 0      # you can translate up to 500,000 characters per month for free
     for index, row in dict_translated.iterrows(): # with 3 columns 'key' 'text' and 'english'
         # dict_translated.at[index, 'text'] = "new"
         english_text = row.english
+        number_characters += len(english_text)
         if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
             dict_translated.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
             print('.', end='')
@@ -67,4 +70,5 @@ if __name__ == "__main__":
 
     print(dict_translated)
     print("Exporting ...")
-    dict_translated.to_csv(filename, index=False, sep="\t")
+    dict_translated.to_csv(filename, index=False)
+    print(f"You translated {number_characters} characters.")
