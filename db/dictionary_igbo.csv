@@ -1,0 +1,355 @@
+key,text,notes,english
+version,4.3,,4.3
+pdf_title,Afọ 6000 akụkọ ihe mere eme mmadụ na-ahụ anya,,6000 years human history visualized
+pdf_subject,Usoro iheomume nke mmadu,,Timeline of humankind
+BCE,B.C.E.,,B.C.E.
+CE,C.E.,,C.E.
+year,afọ,"timespan, age (Adam was 130 years old when Shem was born)",year
+years,afọ,,years
+years_age,afọ,years when used as age for a person (different word than years in some languages),years
+age_kings, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""", 
+month,onwa,,month
+months,ọnwa,,months
+day,ụbọchị,,day
+days,ụbọchị,,days
+to,ka,,to
+people,ndị mmadụ,,people
+judges,ndị ikpe,,judges
+prophets,ndị amụma,,prophets
+kings,ndị eze,,kings
+periods,oge,,periods
+events,ihe omume,,events
+objects,ihe ma ọ bụ ihe,,objects or items
+Deluge,Iju mmiri,,Deluge
+Adam,Adam,,Adam
+Seth,Seth,,Seth
+Enosh,Inọsh,,Enosh
+Kenan,Kenan,,Kenan
+Mahalalel,Mahalalel,,Mahalalel
+Jared,Jared,,Jared
+Enoch,Inọk,,Enoch
+Methuselah,Metusela,,Methuselah
+Lamech,Lamech,,Lamech
+Noah,Noa,,Noah
+Shem,Shem,,Shem
+Arpachshad,Apachshad,,Arpachshad
+Shelah,Shela,,Shelah
+Eber,Eber,,Eber
+Peleg,Peleg,,Peleg
+Reu,Reu,,Reu
+Serug,Serug,,Serug
+Nahor,Nehọ,,Nahor
+Terah,Tara,,Terah
+Abraham,Abraham,,Abraham
+Isaac,Isaac,,Isaac
+Jacob,Jekọb,,Jacob
+Joseph,Josef,,Joseph
+Moses,Moses,,Moses
+Othniel,Ọthniel,,Othniel
+Ehud,Ihud,,Ehud
+Shamgar,Shamgar,,Shamgar
+Barak,Barak,,Barak
+Gideon,Gideon,,Gideon
+Tola,Tola,,Tola
+Jair,Jair,,Jair
+Jephthah,Jefta,,Jephthah
+Ibzan,Ibzan,,Ibzan
+Elon,Elon,,Elon
+Abdon,Abdon,,Abdon
+Samson,Samson,,Samson
+Samuel,Samuel,,Samuel
+Saul,Sọl,,Saul
+David,David,,David
+Solomo,Solomo,,Solomo
+Rehoboam,Rehoboam,first king of southern kingdom of Juda,Rehoboam
+Abijah,Abaịja (Aịjam),"3 years, also Abijam",Abijah (Abijam)
+Asa,Asa,,Asa
+Jehoshaphat,Jehoshafat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,Jehoshaphat
+Jehoram2,Jehoram,,Jehoram
+Ahaziah,Ehazaya,,Ahaziah
+Athaliah,Ezenwanyị Atalaya,Queen Athaliah,Queen Athaliah
+Jehoash,Jehoash,,Jehoash
+Amaziah,Amazaya,,Amaziah
+Uzziah,Uzaia (Azaraya),also Azariah,Uzziah (Azariah)
+Jotham,Jotam,,Jotham
+Ahaz,Ahaz,,Ahaz
+Hezekiah,Hezekaia,,Hezekiah
+Manasseh,Manase,,Manasseh
+Amon,Amọn,,Amon
+Josiah,Josaya,,Josiah
+Jehoahaz,Jehoahaz,Only 3 months,Jehoahaz
+Jehoiakim,Jehoyakim,,Jehoiakim
+Jehoiachin,Jehoiakin,Only 3 months 10 days,Jehoiachin
+Zedekiah,Zedekaya,,Zedekiah
+Jeroboam,Jeroboam,first king of northern 10-tribe kingdom,Jeroboam
+Nadab,Nadab,less than 2,Nadab
+Baasha,Baasha,,Baasha
+Elah,Ilah,,Elah
+Zimri,Zimri,Only 7 days in ca. 751 BCE,Zimri
+OmriTibni,Ọmri na Tibnaị ọnụ,4 years Omri and Tibni,Omri and Tibni together
+Omri,Omri (naanị ya),from 947 Omri alone,Omri (alone)
+Ahab,Ehab,,Ahab
+Ahaziah,Ehazaya,,Ahaziah
+Jehoram,Jehoram,,Jehoram
+Jehu,Jihu,,Jehu
+Jeoahaz,Jeoahaz,,Jeoahaz
+JeoahazJehoash,Jeoahaz na Jehoash,For 3 years Jeoahaz and Jeoash reigned together,Jeoahaz and Jehoash
+Jehoash2,Jehoash (naanị ya),Jehoash (alone),Jehoash (alone)
+Jeroboam2,Jeroboam II,,Jeroboam II
+Zechariah,Zekaraya,"reign only recorded 6 months, probably only established 792 BCE",Zechariah
+Schallum,Schallum,only one month,Schallum
+Menahem,Menahem,,Menahem
+Pekahiah,Pekahaya,,Pekahiah
+Pekah,Pekah,,Pekah
+Hoshea,Hoshia,9 years from c. 748,Hoshea
+Elijah,Ịlaịja,,Elijah
+Elisha,Ịlaịsha,,Elisha
+Jonah,Jona,,Jonah
+Amos,Emọs,,Amos
+Joel,Joel,,Joel
+Hosea,Hosia,,Hosea
+Isaiah,Aisaia,,Isaiah
+Micah,Maịka,,Micah
+Zephaniah,Zefanaya,,Zephaniah
+Nahum,Nehọm,,Nahum
+Jeremiah,Jeremaya,,Jeremiah
+Habakuk,Habakuk,,Habakuk
+Daniel,Daniel,,Daniel
+Ezekiel,Ezikiel,,Ezekiel
+Obadiah,Obadia,,Obadiah
+Malachi,Malakaị,,Malachi
+Ruth,Rut,,Ruth
+Ezra,Ezra,,Ezra
+Nehemiah,Nehemaịa,,Nehemiah
+Esther,Esta,,Esther
+Job,Job,,Job
+moses2,1593 ruo 1473 T.O.A. - 120 afọ,,1593 to 1473 B.C.E. – 120 years
+moses3,Moses,,Moses
+wilderness,Izrel nọ n’ala ịkpa 1513 ruo 1473 T.O.A. - afọ 40,,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years
+timespan_judges,1473 ruo 1117 T.O.A. - afọ 356,,1473 to 1117 B.C.E. – 356 years
+timespan_judges2,Oge nke ndị ikpe,,Time of the judges
+temple1,Nisan 1513 T.O.A. ruo Ziv 1034 T.O.A.,,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.
+temple2,Afọ 479 ruo mgbe e wuchara ụlọ nsọ ahụ—1 Ndị Eze 6:1,1034 BCE,479 years until the temple construction – 1 Kings 6:1
+69weeks,Jizọs mere baptizim n’oge mgbụsị akwụkwọ nke 29 O.A.,,Jesus baptized autumn 29 C.E.
+69weeks2,Izu 69 ruo Mesaịa ahụ - Daniel 9:25,,69 weeks to the Messiah – Daniel 9:25
+jesus_service,"Afọ 3.5 nke ije ozi Jisọs, e gburu Nisan 14, 33 O.A.",,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E."
+jesus_life,Jesus akamana ke 2 B.C.E.,,Jesus born 2 B.C.E.
+exile,607 ruo 537 T.O.A. - afọ 70 (Jeremaịa 25:11),,607 to 537 B.C.E. – 70 years (Jeremiah 25:11)
+exile2,biri n'ala ọzọ,,exile
+7times,Mkpughe 12:9,,Revelation 12:9
+7times2,Oge 7 - afọ 2520 ruo n’Alaeze Mezaịa ahụ 1914 O.A. (Daniel 4:23),,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)
+ww1,Agha Ụwa Mbụ - 1914–1918 O.A.,,World War I – 1914–1918 C.E.
+ww2,Agha Ụwa nke Abụọ - 1939–1945 O.A.,,World War II – 1939–1945 C.E.
+30_year_war,Agha Afọ Iri Atọ na Europe 1618-1648,,Thirty Years' War in Europe 1618-1648
+joshua,Afọ 110,,110 years
+joshua2,Joshua,,Joshua
+caleb,ihe karịrị afọ 85,,more than 85 years
+caleb2,Kaleb,,Caleb
+missionary1,"Njem ozi-ọma mbụ nke Pọl, c. 47-48 O.A. na Banabas na Jọn Mak",,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark"
+circumcision,"Okwu ibi úgwù n’Antiọk, ọgbakọ dị na Jerusalem c. 49 O.A.",,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E."
+missionary2,Njem ozi ala ọzọ nke abụọ c. 49-52 O.A. na Saịlas (Silvanus),,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)
+missionary3,Njem ozi ala ọzọ nke atọ c. 52-56 O.A.,,Third Missionary Journey c. 52-56 C.E.
+caesarea,Pọl nọ n’ụlọ mkpọrọ na Sesaria c. 56-58 O.A.,,Paul in custody in Caesarea c. 56-58 C.E.
+rome1,Mkpọrọ Pọl mbụ na Rom c. 59-61 O.A.,,Paul’s first imprisonment in Rome c. 59-61 C.E.
+rome2,"A tụrụ Pọl mkpọrọ nke abụọ na Rom c. 65 OA, 2 Timoti dere, Pọl gburu",,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed"
+Julius,Julius,,Julius
+Augustus,Ọgọstọs,,Augustus
+Tiberius,Taịbiriọs,,Tiberius
+Caligula,Caligula,,Caligula
+Claudius,Klọdiọs,,Claudius
+Nero,Nero,,Nero
+Galba-Otho-Vitellius,"Galba, Otho na Vitellius (Afọ nke ndị eze ukwu anọ)",,"Galba, Otho and Vitellius (Year of the Four Emperors)"
+Vespasian,Vespasian,,Vespasian
+event_exodus,"Ọpụpụ n’Ijipt na Nisan 14, 1513 T.O.A.",,"Exodus from Egypt on Nisan 14th, 1513 B.C.E."
+event_division_kingdom,Nkewa nke Israel 997 TOA,,Division of Israel 997 BCE
+event_destruction_samaria,E bibiri Sameria na 740 T.O.A. nke Asiria,,Destruction of Samaria 740 B.C.E. by Assyria
+event_destruction_samaria2,740 T.O.A. nke Asiria,,740 B.C.E. by Assyria
+event_destruction_jerusalem1,"Mbibi nke Jerusalem 607 T.O.A. site na Babịlọn, afọ 390 ka e kewasịrị alaeze ahụ (Ezikiel 4:5)",,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)"
+event_temple_rebuilt,E wughachiri ụlọ nsọ dị na Jeruselem n’afọ 515 T.O.A.,,Temple in Jerusalem rebuilt 515 B.C.E.
+event_jerusalem_rebuilt,E wughachiri mgbidi Jeruselem n’afọ 455 T.O.A.,,Jerusalem wall rebuilt 455 B.C.E.
+event_destruction_jerusalem2,Mbibi nke Rom bibiri Jerusalem 70 O.A. n’okpuru Taịtọs,,Destruction of Jerusalem 70 C.E. by Rome under Titus
+event_1914,"Ọgwụgwụ nke oge mba dị iche iche, alaeze Chineke malitere ịchị n’eluigwe 1914 O.A.",,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. "
+became_king,ghọrọ eze mgbe ọ dị afọ,,became king at age
+vulgate,Vulgate nke Jerome dechara (nsụgharị Latin nke Akwụkwọ Nsọ) c. 405 O.A.,,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
+gutenberg,Akwụkwọ Nsọ Gutenberg e bipụtara na 1455,,Gutenberg bible printed 1455
+erasmus,Ihe odide Grik nke Akwụkwọ Nsọ Grik nke Ndị Kraịst nke Desiderius Erasmus nke Rotterdam bipụtara na 1516,,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
+luther,Nsụgharị Bible Luther na Septemba 1522,,Luther Bible translation in September 1522
+tyndale,Nsụgharị Bible Bekee nke Tyndale 1536,,English Bible translation by Tyndale 1536
+king_james,King James Bible 1611,,King James Bible 1611
+69weeks3,"Jizọs malitere ozi ya n’afọ 29 (Luk 3:1, 21)",,"Jesus starts his service 29 CE (Luke 3:1, 21)"
+ransom,n’etiti izu “àjà ga-akwụsị” Daniel 9:27,,middle of week “sacrifice to cease” Daniel 9:27
+cornelius,Kọniliọs mere baptizim ná ngwụsị nke izu 70 (Daniel 9:24) na 36 O.A.,,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.
+columbus,njedebe nke oge tupu Colombia na America 1492,,end of the pre-columbian period in the Americas 1492
+declaration_independence,nkwupụta nke nnwere onwe nke 13 colonies na America 1776,,declaration of independence of 13 colonies in America 1776
+tischendorf,Tischendorf chọtara Codex Sinaiticus na narị afọ nke anọ na 1844,,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844
+dead_sea_scrolls,Edere Akwụkwọ Mpịakọta Osimiri Nwụrụ Anwụ,,Dead Sea Scrolls written
+septuagint,Asụgharị Septuagint LXX,,Septuagint LXX translated
+watchtower,E bipụtara mbipụta mbụ nke “Zion’s Watch Tower and Herald of Christ’s Presence” na 1879.,,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879
+photodrama,"Ẹkebem iso ẹwụt “Photo-Drama of Creation” ke New York ke January 11, 1914.",,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914"
+jehovahs_witnesses,"Ndị Mmụta Baịbụl nakweere aha ọhụrụ— Ndịàmà Jehova. Na Columbus, Ohio, 1931",,"The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931"
+gilead_school,"Ụlọ Akwụkwọ Gilied malitere na Mọnde, Febụwarị 1, 1943",,"Watchtower Bible School of Gilead began on Monday, February 1, 1943"
+new_world_translation1,"“Nsụgharị Ụwa Ọhụrụ nke Akwụkwọ Nsọ” e wepụtara na Manchester, England na June 18, 1960",,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960"
+truth_book,Akwụkwọ bụ́ “Eziokwu nke Na-eduba ná Ndụ Ebighị Ebi” e wepụtara na 1968,,The book “The Truth That Leads to Eternal Life” released 1968
+metropolitan,Amalitere ịgba àmà n’obodo ukwu n’afọ 2011,,Start of metropolitan witnessing in 2011
+jw_org,Ọtọn̄ọde ke JW.ORG ye mme item ke utom Obio Ubọn̄ December 2012,,Start of JW.ORG with instructions in kingdom ministry December 2012
+new_world_translation2,“Nsụgharị Ụwa Ọhụrụ nke Akwụkwọ Nsọ” e degharịrị ná nzukọ kwa afọ 2013,,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013
+jw_broadcasting,Malite izisa ozi ọma na jw.org n’ọnwa Ọktoba afọ 2014,,Start of jw.broadcasting in October 2014
+meeting_workbook,"Usoro ọhụrụ nke nzukọ etiti izu nwere ""akwụkwọ ọrụ nzukọ"" malite na Jenụwarị 2016",,New format of midweek meeting with “meeting workbook” starting January 2016
+covid19,"Ọrịa Covid-19 zuru ụwa ọnụ na-eduga na mkpọchi mkpọchi, ichepụ iche na nzukọ mbugharị",,"Global Covid-19 pandemic leads to lockdowns, quarantine and zoom-meetings"
+cold_war,"Ọnọdụ geopolitical akpọrọ ""Agha Nzuzo"" 1945-1991",,Geopolitical situation labeled “Cold War” 1945-1991
+timeline_created,"Emebere usoro iheomume a na 2023, afọ kachasị mma na akụkọ ntolite mmadụ na afọ 125,000 gara aga.",,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years"
+codex_sinaiticus,Codex Sinaiticus dere,,Codex Sinaiticus written
+codex_vaticanus,Codex Vaticanus dere,,Codex Vaticanus written
+leningrad_codex,Leningrad Codex dere na Cairo AD 1008,,Leningrad Codex written in Cairo AD 1008
+john,Jọn dere “mkpughe” mgbe a chụpụrụ ya na Patmọs 96-98 O.A.,,John writes “revelation” while exiled on Patmos 96-98 C.E.
+nicaea1,Kansụl mbụ nke Nicaea,,First Council of Nicaea
+buddha,Buddha— Siddhartha Gautama c.563-c.483 T.O.A,,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E
+buddha2,Buddha ọzọ c. 480-400 T.O.A.,,Buddha alternatively c. 480-400 B.C.E.
+mohammed,Mohammed c. 570-632 O.A.,,Mohammed c. 570-632 C.E.
+confucius,Confucius c.551-c.479 T.O.A.,,Confucius c.551-c.479 B.C.E.
+hijrah,Hijrah - Njem Mecca gaa Medina 16 Julaị 622,,Hijrah - Journey Mecca to Medina 16 July 622
+moses_escape,"1553 T.O.A. Mosis aghaghị ịgbanarị Ijipt—Ọpụpụ 2:15, Ọrụ 7:23",,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23"
+10plagues,1513 T.O.A. Ijipt nwetara ihe otiti iri,,1513 B.C.E Egypt receives 10 plagues
+joseph_sold,Josef rere Josef dị ka ohu mgbe ọ dị afọ 17 - Jen 37: 2,,Joseph sold as slave at the age of 17 – Gen 37:2
+infliction,Mfe 400 (Ọrụ 7:6) - Ishmel 1913 T.O.A.,,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E
+Alexander,Alexander Onye Ukwu (Daniel 11:3),,Alexander the Great (Daniel 11:3)
+persia,"Saịrọs Onye Ukwu, Cambyses nke Abụọ, Dariọs I 490 TOA, Xerxes I 480 TOA (di Esta, Daniel 11:2)",,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)"
+persia2,Persia,,Persia
+king_north,"Seleucus I Nicator (v5) Siria ruo Antiochus III (v10) na Seleucus IV (v18, 19) gbadaa Octavian (v20) na Taịbiriọs (v21-24)",,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)"
+king_north1,Eze North,,King of the North
+king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) gaa n’agha Actium 31 T.O.A.",,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
+king_south1,Eze ndịda,,King of the South
+king_south2,"Alaeze Ukwu Britain 1870, Anglo-American World Power kemgbe 1914",,"British empire 1870, Anglo-American World Power since 1914"
+king_south3,Eze ndịda,,King of the South
+king_north2,"Germany na Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Ugwu,,North
+king_north4,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)"
+king_north5,Russia kemgbe 2017 (w20 Mee),,Russia since 2017 (w20 May)
+time_of_end,"Ọnụnọ nke Kraịst, ngwụcha nke usoro ihe a (Mt 24: 3), ụbọchị ikpeazụ (2Ti 3: 1)",,"Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)"
+time_of_end2,ụbọchị ikpeazụ,,last days
+suryavaman2,Eze Suryavarman II wuru Angkor Wat 1113-1150,,King Suryavarman II builds Angkor Wat 1113-1150
+notre-dame,Notre-Dame de Paris wuru 1163-1260,,Notre-Dame de Paris built 1163-1260
+ming-dynasty,Ọchịchị Ming na eze ukwu China 1368-1644,,Ming dynasty in imperial China 1368-1644
+jehoiada,Jehoiada,,Jehoiada
+babel,ụlọ elu Bebel wuru,,tower of Babel built
+Haggai,Hagaị,,Haggai
+Zephaniah,Zefanaya,,Zephaniah
+Zerubbabel,Zerubabel (Luk 3:27),,Zerubbabel (Luke 3:27)
+Babylon,"Daniel 2:32, 36-38; 7:4",,"Daniel 2:32, 36-38; 7:4"
+Medopersia,"Daniel 2:32, 39; 7:5",,"Daniel 2:32, 39; 7:5"
+Greece,"Daniel 2:32, 39; 7:6",,"Daniel 2:32, 39; 7:6"
+Rome,"Daniel 2:33, 40; 7:7",,"Daniel 2:33, 40; 7:7"
+Angloamerica,"Daniel 2:33, 41-43",,"Daniel 2:33, 41-43"
+Babylon_c,Babylon,,Babylon
+Medopersia_c,Medo-Persia,,Medo-Persia
+Greece_c,Greece,,Greece
+Rome_c,Rome,,Rome
+Angloamerica_c,Anglo-America,,Anglo-America
+infliction1,400 afọ ntanye,Acts 7:6,400 year infliction
+infliction2,Ọrụ 7:6,,Acts 7:6
+Jacob2,Jekọb/,Jacob/Israel 1858-1711 – 147 years,Jacob/
+Israel,Israel,,Israel
+Sarah,Sarah,2008-1881 BCE – 127 years,Sarah
+Hagar,Hagar,Genesis 21:14,Hagar
+Haran,Haran,Genesis 11:26,Haran
+Nahor,Nehọ,,Nahor
+Reumah,Reuma,Concubine – 4 sons,Reumah
+Milcah,Milka,8 sons (Bethuel and 7 more),Milcah
+Lot,Lot,,Lot
+Lots_wife,Nwunye Lọt,,Lot’s wife
+Lots_daughters,Ụmụ nwaanyị Lọt,,Daughters of Lot
+Moab,Moab (ada ada),,Moab (older daughter)
+Ammon,Ben-ammi (Amọn),,Ben-ammi (Ammon)
+Bethuel,Betuel,,Bethuel
+Rebekah,Rebeka,,Rebekah
+Laban,Leban,,Laban
+Leah,Lia,Genesis 35:23,Leah
+Rachel,Rachel,Genesis 35:24,Rachel
+Bilhah,Bilhah,Genesis 35:25,Bilhah
+Zilpah,Zilpa,Genesis 35:26,Zilpah
+Reuben,Reuben,,Reuben
+Simeon,Simeon,,Simeon
+Levi,Livaị,,Levi
+Judah,Juda,,Judah
+Issachar,Isaka,,Issachar
+Zebulun,Zebulun,,Zebulun
+Dinah,Daịna,Genesis 34,Dinah
+Esau,Isọ/,,Esau/
+Edom,Edom,Genesis 36:1,Edom
+Ishmael,Ishmael,,Ishmael
+Manasseh2,(Manase,,(Manasseh
+Ephraim,na Ifrem),,and Ephraim)
+Benjamin,Benjamin,,Benjamin
+Dan,Dan,,Dan
+Naphtali,Naftali,,Naphtali
+Gad ,Gad,,Gad 
+Asher,Asha,,Asher
+Milcah1,"Uz, Buz, Kemuel,",,"Uz, Buz, Kemuel,"
+Milcah2,"Chesed, Hazo,",,"Chesed, Hazo,"
+Milcah3,"Pildash, Jidlaph",,"Pildash, Jidlaph"
+Tebah,Tebah,,Tebah
+Gaham,Gaham,,Gaham
+Tahash,Tahash,,Tahash
+Maacah,Macaka,,Maacah
+Mahalath,Mahalath/,"Genesis 28:8, 9",Mahalath/
+Basemath,Base·math,"Genesis36:3, 4",Base·math
+Reuel,Reuel,"36:13, 17",Reuel
+Nahath,Nahat,,Nahath
+Zerah,Zera,,Zerah
+Schammah,Schammah,,Schammah
+Mizzah,Mizah,,Mizzah
+Adah,Ada,"36:11, 12, 15, 16",Adah
+Eliphaz,Elifaz,,Eliphaz
+Teman,Teman,,Teman
+Omar,Omar,,Omar
+Zepho,Zepho,,Zepho
+Kenaz,Kenaz,,Kenaz
+Korah,Kora,,Korah
+Gatam,Gatam,,Gatam
+Amalek,Amalek,,Amalek
+Oholibamah,Oholibamah,"36:14, 18",Oholibamah
+Jeush,Jeush,,Jeush
+Jalam,Jalam,,Jalam
+Korah,Kora,,Korah
+Nebaioth,Nebaioth,Genesis 25:13,Nebaioth
+Kedar,Kedar,,Kedar
+Adbeel,Adbeel,,Adbeel
+Mibsam,Mibsam,,Mibsam
+Mishma,Mishma,,Mishma
+Dumah,Dumah,,Dumah
+Massa,Massa,,Massa
+Hadad,Hedad,,Hadad
+Tema,Tema,,Tema
+Jetur,Jetur,,Jetur
+Naphish,Naphish,,Naphish
+Kedemah,Kedemah,,Kedemah
+Babylon2, ,no text left and right – empty!, 
+terahfam,ndị ezinụlọ Tira,,members of Terah’s family
+rosetta,Nkume Rosetta na 196 T.O.A.,,Rosetta stone 196 B.C.E.
+Herodotus,Herodotus c. 484 – c. 425 T.O.A.,Father of History,Herodotus c. 484 – c. 425 B.C.E.
+Aristotle,Aristotle 384-322 BC,"The First Teacher, The Philosopher",Aristotle 384 – 322 BC
+Ptolemy,Ptolemy c 100 – c. 170 O.A.,,Ptolemy c 100 – c. 170 C.E.
+Pythagoras,Pythagoras c. 570 – c. 495 BC,,Pythagoras c. 570 – c. 495 BC
+Plato,Plato c. 427 – c. 348 BC,,Plato c. 427 – c. 348 BC
+Socrates,Socrates c. 470 – c. 399 BC,,Socrates c. 470 – c. 399 BC
+Josephus,Josephus c. 37 – c. 100 O.A.,,Josephus c. 37 – c. 100 C.E.
+Cicero,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",Cicero 106–43 BC
+lachish_letters,Akwụkwọ ozi Lachish c. 590 T.O.A.,,Lachish letters c. 590 B.C.E.
+lachish_reliefs,Ihe enyemaka Lachish c. 681 T.O.A.,,Lachish reliefs c. 681 B.C.E.
+mesha_stele,Mesha Stele (nkume Moab) c. 840 T.O.A.,,Mesha Stele (Moabite stone) c. 840 B.C.E.
+gilgamesh,Gilgamesh na Aga 💇💆,,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Epic of Gilgamesh (Sîn-lēqi-unninni),,Epic of Gilgamesh (Sîn-lēqi-unninni)
+oxyrhynchus,Oxyrhynchus Papyri,,Oxyrhynchus Papyri
+p52,Rylands Library Papyrus P52,,Rylands Library Papyrus P52
+daniel2_1,Eze Nebukadneza,Start 4.2,King Nebuchadnezzar
+daniel2_2,na-ebibi Jerusalem,,destroys Jerusalem
+daniel2_3,Na-emeri Babịlọn,,Conquers Babylon
+daniel2_4,Saịrọs nyere iwu ịlaghachi,,Cyrus decrees return
+daniel2_5,ndị Juu na-aga Jeruselem,,of Jews to Jerusalem
+daniel2_6,Alexander Onye Ukwu,,Alexander the Great
+daniel2_7,meriri Peasia,,conquers Persia
+daniel2_8,Ọchịchị na-achị Izrel,,Rules over Israel
+daniel2_9,Ebibi Jerusalem,,Destroys Jerusalem
+daniel2_10,"N'oge Agha Ụwa Mbụ,",,"During World War I,"
+daniel2_11,Anglo-American Ike Ụwa,,Anglo-American World Power
+daniel2_12,na-abịa n'ime,End 4.2,comes into being
