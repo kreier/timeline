@@ -46,7 +46,7 @@ if __name__ == "__main__":
         print("You did not provide a language as argument. Put it as a parameter after the program name.")
         exit()
     language = sys.argv[1]
-    filename = "./dictionary_" + language + ".tsv"
+    filename = "./dictionary_" + language + ".csv"
     print(f"You want to translate to {language}.")
     check_existing(language, filename)
     import_english()
