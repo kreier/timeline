@@ -186,12 +186,23 @@ def import_dictionary():
         dict.update({f"{row.key}" : f"{row.text}"})
     font_regular = "Aptos"
     font_bold = "Aptos-bold"
-    special_languages = ["jp", "kr", "sc", "ar", "si", "thai"]
-    for special_language in special_languages:
-        if language == special_language:
-            abbreviation = language.upper()
-            font_regular = "Noto" + abbreviation
-            font_bold    = "Noto" + abbreviation + "-bold"
+    special_fonts = {"jp" : "JP",
+                     "kr" : "KR",
+                     "ko" : "KR",
+                     "sc" : "SC",
+                     "ar" : "AR",
+                     "si" : "SI",
+                     "thai" : "THAI"}
+    if language in special_fonts:
+        language_fontname = special_fonts[language]
+        font_regular = "Noto" + language_fontname
+        font_bold    = "Noto" + language_fontname + "-bold"
+    # special_languages = ["jp", "kr", "sc", "ar", "si", "thai"]
+    # for special_language in special_languages:
+    #     if language == special_language:
+    #         abbreviation = language.upper()
+    #         font_regular = "Noto" + abbreviation
+    #         font_bold    = "Noto" + abbreviation + "-bold"
     print(f"Imported dictionary: {len(key_dict)} keywords")
     version = float(dict["version"])
     print(f"Version {version}")
