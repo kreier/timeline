@@ -13,19 +13,21 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from svglib.svglib import svg2rlg
 import pandas as pd
+import googletrans
 import datetime
 import sys
 import os
 
 # Some general settings
-version  = 4.3
+version  = 4.4
 language = "en"
+language_str = "English"
 color_scheme = "normal"
-border_lr   = 10*mm                      # space left/right for roll holders
-border_tb   = 7*mm                       # space for the years top and bottom
-page_width  = 4*297*mm + 2 * border_lr   # 4x A4 landscape
-page_height = 210*mm                     #    A4 landscape height
-pdf_author  = "https://github.com/kreier/timeline"
+border_lr    = 10*mm                      # space left/right for roll holders
+border_tb    = 7*mm                       # space for the years top and bottom
+page_width   = 4*297*mm + 2 * border_lr   # 4x A4 landscape
+page_height  = 210*mm                     #    A4 landscape height
+pdf_author   = "https://github.com/kreier/timeline"
 vertical_lines  = False
 
 dict  = {}
@@ -63,6 +65,44 @@ supported = {"ar": "Arabic (العربية)",
              "si": "Sinhala (සිංහල)",
              "thai": "Thai (ภาษาไทย)",
              "vn": "Vietnamese (Tiếng Việt)"}
+
+def checkForValidLanguageCode(langCode):
+    data=googletrans.LANGCODES
+    for key, value in data.items():
+        if value == langCode:
+            global language_str
+            language_str=key
+            return True
+    return False
+
+def create_dictionary(target_language):
+    global dict, language
+    filename = "../db/dictionary_" + target_language + ".csv"
+    if os.path.isfile(filename):
+        print(f"A dictionary file {filename} already exists. Delete it if you want to create a new Google translated file")
+        return    
+    reference = pd.DataFrame() # will contain the english dictionary with 'key' and 'text' column, plus 'alternative' and 'notes' (not used)
+    reference = pd.read_csv("../db/dictionary_reference.csv")
+    print(f"Imported reference english dictionary, found {len(reference)} entries.")
+    print(reference)
+    dict = reference[['key', 'text', 'notes']].copy()  # create a new dictionary, copy columns key and text
+    dict['english'] = reference['text'].copy()         # add a column 'english' and fill with 'text' from english dictionary
+    print("\nTranslating ...")
+    translator = googletrans.Translator()
+    number_characters = 0                  # you can translate up to 500,000 characters per month for free
+    for index, row in dict.iterrows(): # with 3 columns 'key' 'text' and 'english'
+        english_text = row.english
+        number_characters += len(english_text)
+        if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
+            dict.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
+            print('.', end='')
+            # print(f'English: {english_text}, Translated: {dict_translated[index]}')
+        if (index + 1) % 40 == 0:
+            print(f" {index}")
+    print(dict)
+    print("Exporting ...")
+    dict.to_csv(filename, index=False)
+    print(f"You translated {number_characters} characters.")
 
 # convert the float dates to year, month and day
 def year(date_float):
@@ -133,11 +173,13 @@ def initiate_counters():
 # Import strings for the respective language for names and comments
 def import_dictionary():
     global dict, font_regular, font_bold, version
+    dict = {}
     # first import the reference dictionary in english
     reference = "../db/dictionary_reference.csv"
     key_dict = pd.read_csv(reference, encoding='utf8')
     for index, row in key_dict.iterrows():
         dict.update({f"{row.key}" : f"{row.text}"})
+    # now overwrite with the translated text values
     file_dictionary = "../db/dictionary_" + language + ".csv"
     key_dict = pd.read_csv(file_dictionary, encoding='utf8')
     for index, row in key_dict.iterrows():
@@ -634,6 +676,15 @@ def include_pictures():
         location = "../images/" + row.key + ".jpg"
         c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
 
+def include_pictures_svg():
+    pictures_svg = pd.read_csv("../db/pictures_svg.csv", encoding='utf8')
+    print("Imported list of SVG pictures:", len(pictures_svg))
+    for index, row in pictures_svg.iterrows():
+        location = "../images/" + row.key + ".svg"
+        # There is so much more to do here for rescaling etc.
+        c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
+
+
 def create_daniel2():
     desired_height = 96*mm
     shift_upward   = 30*mm    
@@ -685,8 +736,9 @@ def create_timestamp():
         drawString(counter_detail,    4, x1 + 5.4, y1 + 38 - 4.5 * index, "l")
     c.setFont(font_regular, 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author}")
-    qr_file = "../images/qr-" + language + ".png"
-    c.drawImage(qr_file, x_position(-4026), y_position(9), width=12*mm, height=12*mm)
+    if language in supported:
+        qr_file = "../images/qr-" + language + ".png"
+        c.drawImage(qr_file, x_position(-4026), y_position(9), width=12*mm, height=12*mm)
 
 def render_to_file():
     # renderPDF.draw(d, c, border_lr, border_tb)
@@ -696,9 +748,23 @@ def render_to_file():
     print(f"File exported: {filename}")
 
 def create_timeline(lang):
-    global language, version
+    global language, version, language_str
     language = lang
-    print(f"Your selected language {language} is supported: {supported[language]}")
+    if language in supported:
+        language_str = supported[language]
+        print(f"Your selected language {language} is supported: {language_str}")
+    else:
+        print(f"Your selected language {language} is not directly supported by this timeline project.")
+        language_str = ""
+        print(f"Let's check if the language code exists in Google Translate: ", end = "")
+        isValid = checkForValidLanguageCode(language)
+        if isValid:
+            print(f"Found {language_str}.")
+            print(f"Now creating a new dictionary in this language with Google Translate.")
+            create_dictionary(language)
+        else:
+            print("That's not a valid language code!")
+            exit()
     initiate_counters()
     import_dictionary()
     import_colors("normal")
@@ -716,11 +782,12 @@ def create_timeline(lang):
     create_objects()
     create_periods()
     create_caesars()
-    if version > 4.1:
+    if version >= 4.2:
         create_daniel2()
-    if version > 4.2:
+    if version >= 4.3:
         create_terah_familytree()
     include_pictures()
+    # include_pictures_svg()
     create_timestamp()
     render_to_file()
 
