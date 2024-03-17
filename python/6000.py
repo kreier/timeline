@@ -40,12 +40,12 @@ if os.getcwd()[-6:] != "python":
 
 pdfmetrics.registerFont(TTFont('Aptos', 'fonts/aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'fonts/aptos-bold.ttf'))
-CJKAST = ["JP", "KR", "SC", "Arabic", "SI", "THAI", "Georgian"] # Japanese, Korean, Simplified Chinese, Arabic, Sinhala, Thai
+CJKAST = ["Japanese", "Korean", "SimplifiedChinese", "Arabic", "Sinhala", "Thai", "Georgian"]
 for glyphs in CJKAST:
     fontname = "Noto" + glyphs
-    fontfile = "fonts/noto" + glyphs + ".ttf"
+    fontfile = "fonts/Noto" + glyphs + ".ttf"
     fontname_bold = "Noto" + glyphs + "-bold"
-    fontfile_bold = "fonts/noto" + glyphs + "-bold.ttf"
+    fontfile_bold = "fonts/Noto" + glyphs + "-bold.ttf"
     pdfmetrics.registerFont(TTFont(fontname, fontfile))
     pdfmetrics.registerFont(TTFont(fontname_bold, fontfile_bold))
 pdfmetrics.registerFont(TTFont('NotoCuneiform', 'fonts/notoCuneiform.ttf')) # Akkadian
@@ -66,20 +66,11 @@ supported = {"ar": "Arabic (العربية)",
              "thai": "Thai (ภาษาไทย)",
              "vn": "Vietnamese (Tiếng Việt)"}
 
-def checkForValidLanguageCode(langCode):
-    data=googletrans.LANGCODES
-    for key, value in data.items():
-        if value == langCode:
-            global language_str
-            language_str=key
-            return True
-    return False
-
 def create_dictionary(target_language):
     global dict, language
     filename = "../db/dictionary_" + target_language + ".csv"
     if os.path.isfile(filename):
-        print(f"A dictionary file {filename} already exists. Delete it if you want to create a new Google translated file")
+        print(f"A dictionary file {filename} already exists. Delete it if you want to create a new Google translated file.")
         return    
     reference = pd.DataFrame() # will contain the english dictionary with 'key' and 'text' column, plus 'alternative' and 'notes' (not used)
     reference = pd.read_csv("../db/dictionary_reference.csv")
@@ -186,17 +177,17 @@ def import_dictionary():
         dict.update({f"{row.key}" : f"{row.text}"})
     font_regular = "Aptos"
     font_bold = "Aptos-bold"
-    special_fonts = {"jp" : "JP",
-                     "ja" : "JP",
-                     "kr" : "KR",
-                     "ko" : "KR",
-                     "sc" : "SC",
-                     "zh" : "SC",
-                     "zh-cn" : "SC",
-                     "zh-tw" : "SC",
+    special_fonts = {"jp" : "Japanese",
+                     "ja" : "Japanese",
+                     "kr" : "Korean",
+                     "ko" : "Korean",
+                     "sc" : "SimplifiedChinese",
+                     "zh" : "SimplifiedChinese",
+                     "zh-cn" : "SimplifiedChinese",
+                     "zh-tw" : "SimplifiedChinese",
                      "ar" : "Arabic",
-                     "si" : "SI",
-                     "thai" : "THAI", 
+                     "si" : "Sinhala",
+                     "thai" : "Thai", 
                      "ka" : "Georgian"}
     if language in special_fonts:
         language_fontname = special_fonts[language]
@@ -576,7 +567,7 @@ def create_caesars():
     global counter_kings
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     caesars = pd.read_csv("../db/caesars.csv", encoding='utf8')
-    print("Importws data of caesarsa:", len(caesars))
+    print("Imported data of caesars:", len(caesars))
     c.setFont(font_regular, 10)
     c.setLineWidth(0.3)
     for index, row in caesars.iterrows():
@@ -766,21 +757,6 @@ def render_to_file():
 def create_timeline(lang):
     global language, version, language_str
     language = lang
-    if language in supported:
-        language_str = supported[language]
-        print(f"Your selected language {language} is supported: {language_str}")
-    else:
-        print(f"Your selected language {language} is not directly supported by this timeline project.")
-        language_str = ""
-        print(f"Let's check if the language code exists in Google Translate: ", end = "")
-        isValid = checkForValidLanguageCode(language)
-        if isValid:
-            print(f"Found {language_str}.")
-            print(f"Now creating a new dictionary in this language with Google Translate.")
-            create_dictionary(language)
-        else:
-            print("That's not a valid language code!")
-            exit()
     initiate_counters()
     import_dictionary()
     import_colors("normal")
@@ -807,9 +783,39 @@ def create_timeline(lang):
     create_timestamp()
     render_to_file()
 
+def checkForValidLanguageCode(langCode):
+    data=googletrans.LANGCODES
+    for key, value in data.items():
+        if value == langCode:
+            global language_str
+            language_str=key
+            return True
+    return False
+
+def is_supported(language):
+    global language_str
+    if language in supported:
+        language_str = supported[language]
+        print(f"Your selected language {language} is supported: {language_str}")
+        return True
+    else:
+        print(f"Your selected language '{language}' is not directly supported by this timeline project.")
+        print(f"Let's check if the language code exists in Google Translate: ", end = "")
+        isValid = checkForValidLanguageCode(language)
+        if isValid:
+            print(f"Found {language_str}.")
+            print(f"Now creating a new dictionary in this language with Google Translate.")
+            create_dictionary(language)
+            return True
+        else:
+            print(f"Nope.\nIt looks like '{language}' is not a valid language code or it is not supported by Google Translate.")
+            return False
+
 if __name__ == "__main__":
+    print(f"Timeline v{version}")
     if len(sys.argv) < 2:
         print("You did not provide a language as argument. Put it as a parameter after 6000.py")
         exit()
     language = sys.argv[1]
-    create_timeline(language)
+    if is_supported(language):
+        create_timeline(language)
