@@ -48,7 +48,7 @@ for glyphs in CJKAST:
     fontfile_bold = "fonts/Noto" + glyphs + "-bold.ttf"
     pdfmetrics.registerFont(TTFont(fontname, fontfile))
     pdfmetrics.registerFont(TTFont(fontname_bold, fontfile_bold))
-pdfmetrics.registerFont(TTFont('NotoCuneiform', 'fonts/notoCuneiform.ttf')) # Akkadian
+pdfmetrics.registerFont(TTFont('NotoCuneiform', 'fonts/NotoCuneiform.ttf')) # Akkadian
 
 supported = {"ar": "Arabic (العربية)",
              "de": "German (Deutsch)",
