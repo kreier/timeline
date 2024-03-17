@@ -40,6 +40,7 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - v4.0 2024/01/30 Languages extended to 10 languages with initial support for CJK (中国人 日本語 한국어) rendering. Translation support started for French, Iloko and Japanese.
 - v4.1 2024/02/27 Included Sinhala (සිංහල) and refined __Iloko__ and __Japanese__ (日本語).
 - v4.2 2024/03/09 Included the family of Terah and the image from __Daniel 2__ with the world powers from Daniel 7. And 6 small images as illustration.
+- v4.3 2024/03/16 Convert dictionary files to __.csv__ format to be easier readable in a [Jupyter Notebook](db/timeline.ipynb). You can create the latest PDF in your language in [Google Colab](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing) with just a browser.
 
 ### Translations
 
@@ -47,21 +48,23 @@ Since v3.4 the language specific files have been separated from the program code
 
 | Language                                                                     | initial support | names checked | reviewed | complete | Terah |
 |------------------------------------------------------------------------------|:---------------:|:-------------:|:--------:|:--------:|------:|
-| [English](https://kreier.github.io/timeline/timeline_en.pdf)                 |                 |               |          |     x    |  100% |
-| [German (Deutsch)](https://kreier.github.io/timeline/timeline_de.pdf)        |                 |               |          |     x    |   95% |
-| [Vietnamese (Tiếng Việt)](https://kreier.github.io/timeline/timeline_vn.pdf) |                 |               |          |     x    |   95% |
-| Iloko (Ilocano)                                                              |                 |               |          |     x    |       |
-| [Japanese (日本語)](https://kreier.github.io/timeline/timeline_jp.pdf)       |                 |               |          |     x    |       |
-| Russian (Русский)                                                            |                 |               |     x    |          |       |
-| [French (Français)](https://kreier.github.io/timeline/timeline_fr.pdf)       |                 |               |     x    |          |   75% |
-| Korean (한국인)                           |                 |       x       |          |          |       |
-| Finnish (Suomi)                           |                 |       x       |          |          |       |
-| Sinhala (සිංහල)                           |                 |       x       |          |          |       |
-| Spanish (Español)                         |        x        |               |          |          |       |
-| Chinese (Simplified) [中文简体（普通话）] |        x        |               |          |          |       |
-| Arabic (العربية)                          |        x        |               |          |          |       |
+| [English](https://kreier.github.io/docs/timeline_en.pdf)                     |                 |               |          |     x    |  100% |
+| [German (Deutsch)](https://kreier.github.io/docs/timeline_de.pdf)            |                 |               |          |     x    |   95% |
+| [Vietnamese (Tiếng Việt)](https://kreier.github.io/docs/timeline_vn.pdf)     |                 |               |          |     x    |   95% |
+| [Iloko (Ilocano)](https://kreier.github.io/docs/timeline_ilo.pdf)            |                 |               |          |     x    |       |
+| [Japanese (日本語)](https://kreier.github.io/docs/timeline_jp.pdf)           |                 |               |          |     x    |       |
+| [Russian (Русский)](https://kreier.github.io/docs/timeline_ru.pdf)           |                 |               |     x    |          |       |
+| [French (Français)](https://kreier.github.io/docs/timeline_fr.pdf)           |                 |               |     x    |          |   75% |
+| [Korean (한국인)](https://kreier.github.io/docs/timeline_kr.pdf)             |                 |       x       |          |          |       |
+| [Finnish (Suomi)](https://kreier.github.io/docs/timeline_fi.pdf)             |                 |       x       |          |          |       |
+| [Sinhala (සිංහල)](https://kreier.github.io/docs/timeline_si.pdf)            |                 |       x       |          |          |       |
+| [Thai (ภาษาไทย)](https://kreier.github.io/docs/timeline_thai.pdf)           |                 |       x       |          |          |       |
+| [Igbo (Ásụ̀sụ́ Ìgbò)](https://kreier.github.io/docs/timeline_igbo.pdf)         |                 |       x       |          |          |       |
+| [Spanish (Español)](https://kreier.github.io/docs/timeline_es.pdf)           |        x        |               |          |          |       |
+| [Chinese (Simplified) [中文简体（普通话）]](https://kreier.github.io/docs/timeline_sc.pdf)   |        x        |               |          |          |       |
+| [Arabic (العربية)](https://kreier.github.io/docs/timeline_ar.pdf)               |        x        |               |          |          |       |
 
-Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects.
+Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects. 
 
 ### Scale challenges
 
