@@ -187,9 +187,13 @@ def import_dictionary():
     font_regular = "Aptos"
     font_bold = "Aptos-bold"
     special_fonts = {"jp" : "JP",
+                     "ja" : "JP",
                      "kr" : "KR",
                      "ko" : "KR",
                      "sc" : "SC",
+                     "zh" : "SC",
+                     "zh-CN" : "SC",
+                     "zh-TW" : "SC",
                      "ar" : "AR",
                      "si" : "SI",
                      "thai" : "THAI"}
