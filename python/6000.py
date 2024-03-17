@@ -192,11 +192,12 @@ def import_dictionary():
                      "ko" : "KR",
                      "sc" : "SC",
                      "zh" : "SC",
-                     "zh-CN" : "SC",
-                     "zh-TW" : "SC",
-                     "ar" : "AR",
+                     "zh-cn" : "SC",
+                     "zh-tw" : "SC",
+                     "ar" : "Arabic",
                      "si" : "SI",
-                     "thai" : "THAI"}
+                     "thai" : "THAI", 
+                     "ka" : "Georgian"}
     if language in special_fonts:
         language_fontname = special_fonts[language]
         font_regular = "Noto" + language_fontname
