@@ -1,4 +1,4 @@
-# All the required files 2024/03/17 - 71
+# All the required files 2024/03/17 - 72
 
 files = ["db/adam-moses.csv",
          "db/books.csv",
@@ -31,6 +31,7 @@ files = ["db/adam-moses.csv",
          "db/dictionary_sc.csv",
          "db/dictionary_si.csv",
          "db/dictionary_thai.csv",
+         "db/google_langcodes.csv",
          "images/babel.jpg",
          "images/gilgamesh.jpg",
          "images/mesha.jpg",

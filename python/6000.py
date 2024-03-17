@@ -680,7 +680,7 @@ def include_pictures():
     pictures = pd.read_csv("../db/pictures.csv", encoding='utf8')
     print("Imported list of pictures:", len(pictures))
     for index, row in pictures.iterrows():
-        location = "../images/" + row.key + ".jpg"
+        location = "../images/" + row.key
         c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
 
 def include_pictures_svg():
@@ -688,9 +688,13 @@ def include_pictures_svg():
     print("Imported list of SVG pictures:", len(pictures_svg))
     for index, row in pictures_svg.iterrows():
         location = "../images/" + row.key + ".svg"
-        # There is so much more to do here for rescaling etc.
-        c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
-
+        # print(location)
+        drawing = svg2rlg(location)
+        factor = row.height / drawing.height
+        sx = sy = factor
+        drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
+        drawing.scale(sx, sy)
+        renderPDF.draw(drawing, c, x_position(row.x), y_position(row.y))
 
 def create_daniel2():
     desired_height = 96*mm
@@ -779,7 +783,7 @@ def create_timeline(lang):
     if version >= 4.3:
         create_terah_familytree()
     include_pictures()
-    # include_pictures_svg()
+    include_pictures_svg()
     create_timestamp()
     render_to_file()
 
