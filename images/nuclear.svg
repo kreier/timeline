@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g id="atomic">
+    <g id="atomic" transform="matrix(1,0,0,1,-1,93)">
         <g transform="matrix(1,0,0,1,0,-35.813)">
             <path d="M258.284,93.753C380.667,93.753 479.879,192.964 479.879,315.347C479.879,362.469 465.158,406.149 440.08,442.06L76.491,442.06C51.413,406.149 36.692,362.469 36.692,315.347C36.692,192.964 135.902,93.753 258.284,93.753" style="fill:rgb(209,237,255);"/>
         </g>

@@ -129,15 +129,18 @@ def drawString(text, fontsize, x_string, y_string, position):
         return
     c.setStrokeColorRGB(1, 1, 1)
     c.setLineWidth(1)
+    xtra = 0
+    if fontsize < 4:
+        xtra = 1
     white_width = stringWidth(text, font_regular, fontsize)
     if position == "r":
         c.setFillColorRGB(1, 1, 1)
-        c.rect(x_string, y_string - 2, white_width, fontsize, fill = 1)
+        c.rect(x_string, y_string - 2 + xtra, white_width, fontsize, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         c.drawString(x_string, y_string, text)
     elif position == "l":
         c.setFillColorRGB(1, 1, 1)
-        c.rect(x_string - white_width, y_string - 2, white_width, fontsize, fill = 1)
+        c.rect(x_string - white_width, y_string - 2 + xtra, white_width, fontsize, fill = 1)
         c.setFillColorRGB(0, 0, 0)
         c.drawRightString(x_string, y_string, text)
     elif position == "c":
@@ -680,6 +683,8 @@ def include_pictures():
     pictures = pd.read_csv("../db/pictures.csv", encoding='utf8')
     print("Imported list of pictures:", len(pictures))
     for index, row in pictures.iterrows():
+        if row.year != 0:
+            drawString(str(row.year), 3, x_position(row.x), y_position(row.y) - 2.4, "r")
         location = "../images/" + row.key
         c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
 
@@ -687,8 +692,9 @@ def include_pictures_svg():
     pictures_svg = pd.read_csv("../db/pictures_svg.csv", encoding='utf8')
     print("Imported list of SVG pictures:", len(pictures_svg))
     for index, row in pictures_svg.iterrows():
+        if row.year != 0:
+            drawString(str(row.year), 3, x_position(row.x), y_position(row.y) - 2.4, "r")
         location = "../images/" + row.key + ".svg"
-        # print(location)
         drawing = svg2rlg(location)
         factor = row.height / drawing.height
         sx = sy = factor
