@@ -5,14 +5,16 @@ With my retirement starting on June 10th, 2023 I started this repository to crea
 - Timeline 4026 BCE - 2050 CE to be stretched over four A4 landscape papers
 - Timeline 1000 BCE - 607 BCE, the kings in the two-tribe nation of Judah and the 10-tribe nation of Israel
 
-| Version | Date          | Persons | Periods | Events | Languages | Keywords | Colors |
-|:-------:|---------------|:-------:|:-------:|:------:|:---------:|:--------:|:------:|
-|   1.0   | February 2009 |    63   |    8    |   20   |     1     |          |        |
-|   1.1   | June 2023     |    63   |    8    |   20   |     2     |          |        |
-|   2.0   | December 2015 |    24   |    2    |    3   |     1     |          |        |
-|   3.0   | October 2023  |    68   |    9    |    0   |     1     |     0    |    8   |
-|   3.5   | November 2023 |   118   |    36   |   40   |     3     |    226   |   109  |
-|   4.0   | January 2024  |   125   |    41   |   40   |     10    |    234   |   112  |
+| Version | Date          | Persons | Periods | Events | Languages | Keywords | Colors | Images |
+|:-------:|---------------|:-------:|:-------:|:------:|:---------:|:--------:|:------:|:------:|
+|   1.0   | February 2009 |    63   |    8    |   20   |     1     |          |        |        |
+|   1.1   | June 2023     |    63   |    8    |   20   |     2     |          |        |        |
+|   2.0   | December 2015 |    24   |    2    |    3   |     1     |          |        |        |
+|   3.0   | October 2023  |    68   |    9    |    0   |     1     |     0    |    8   |        |
+|   3.5   | November 2023 |   118   |    36   |   40   |     3     |    226   |   109  |        |
+|   4.0   | January 2024  |   125   |    41   |   40   |     10    |    234   |   112  |        |
+|   4.2   | February 2024 |   128   |    47   |   52   |     13    |    342   |   119  |      7 |
+|   4.4   | April 2024    |   131   |    52   |   52   |     15    |    371   |   128  |     27 |
 
 ## Inspirations
 
@@ -44,6 +46,8 @@ Since v3.4 it is also translated to German, with v3.5 a Vietnamese translation w
 To reflect the year of the timeline edition for at least the next 6 years I simply use the last digit of the year as the leading version indicator. In 2030 this might change to a two-digit version number, if I'm still working on this project. Here we start with v4.0 from January 2024:
 
 ![timeline v4.0](../docs/timeline20240131_4.0.png)
+4.2 from February 2024
+![timeline v4.2](../docs/timeline20240309_4.2.png)
 
 
 ## v1.1 Translation of v1.0 to English in June 2023
