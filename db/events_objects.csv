@@ -2,7 +2,8 @@ key,date,y_start,y_end,y_text,width,position
 leningrad_codex,1008,0.08,4.1,4,0.4,l
 vulgate,405,0.08,1.1,1,0.5,r
 gutenberg,1455,0.08,1.1,1,0.5,l
-king_james,1611,0.08,5.1,5,0.5,l
+king_james,1611,0.08,6.1,6,0.5,l
+gregorian,1582,0.08,5.1,5,0.5,l
 rosetta,-196,46.38,45.3,46,0.5,r
 mesha_stele,-840,46.38,42,42.6,0.5,l
 lachish_letters,-590,46.38,44.4,45,0.5,l

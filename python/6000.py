@@ -501,11 +501,13 @@ def create_kings():
 def faded_color(red, green, blue, percent):
     return [1 - percent * (1 - red), 1 - percent * (1 - green), 1 - percent * (1 - blue)]
 
-def timebar(x, y, width, R, G, B):
+def timebar(x, y, width, R, G, B, exact):
     c.setLineWidth(0.0)
     c.setStrokeColorRGB(1, 1, 1)
     c.setFillColorRGB(R, G, B)
-    c.rect(x, y, width, 4, fill = 1, stroke = 0) 
+    c.rect(x, y, width, 4, fill = 1, stroke = 0)
+    if exact:
+        return
     fade_steps = 35
     for i in range(fade_steps):
         co = faded_color(R, G, B, (i+1)/fade_steps)
@@ -513,11 +515,11 @@ def timebar(x, y, width, R, G, B):
         c.rect(x + 3 * i/fade_steps - 0.1,   y, 1, 4, fill = 1, stroke = 0)
         c.rect(x + width - 3 * i/fade_steps, y, 1, 4, fill = 1, stroke = 0)
 
-def text_with_timebar(text, row, year_start, year_end, R, G, B):
+def text_with_timebar(text, row, year_start, year_end, R, G, B, exact):
     x_box = x_position(year_start)
     y_box = y_position(row)
     x_boxwidth = (year_end -  year_start) * dots_year
-    timebar(x_box, y_box + 10, x_boxwidth, R, G, B)
+    timebar(x_box, y_box + 10, x_boxwidth, R, G, B, exact)
     c.setFont(font_regular, 10)
     c.setFillColorRGB(0, 0, 0)
     drawString(text, 10, x_box, y_box, "r")
@@ -529,7 +531,7 @@ def create_prophets():
     print("Imported data of prophets:", len(prophets))
     co = color['prophets']
     for index, row in prophets.iterrows():
-        text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
+        text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], False)
         counter_prophets += 1
 
 def create_books():
@@ -538,7 +540,7 @@ def create_books():
     print("Imported data of books:", len(books))
     co = color['books']
     for index, row in books.iterrows():
-        text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
+        text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], False)
         counter_people += 1
 
 def create_people():
@@ -547,7 +549,10 @@ def create_people():
     print("Imported data of people:", len(people))
     co = color['people']
     for index, row in people.iterrows():
-        text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
+        exact = False
+        if row.exact == "y":
+            exact = True      
+        text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], exact)
         counter_people += 1
 
 def create_objects():
@@ -558,12 +563,12 @@ def create_objects():
     for index, row in objects.iterrows():
         if row.key == "gilgamesh":
             x_boxwidth = (row.end -  row.start) * dots_year
-            timebar(x_position(row.start), y_position(row.row_y) + 10, x_boxwidth, co[0], co[1], co[2])
+            timebar(x_position(row.start), y_position(row.row_y) + 10, x_boxwidth, co[0], co[1], co[2], False)
             c.setFont("NotoCuneiform", 10)
             c.setFillColorRGB(0, 0, 0)
             c.drawString(x_position(row.start) , y_position(row.row_y), dict["gilgamesh"])
         else:
-            text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2])
+            text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], False)
             counter_objects += 1
 
 def create_caesars():
