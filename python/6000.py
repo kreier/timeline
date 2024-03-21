@@ -331,10 +331,11 @@ def create_adam_moses():
     counter_events += 1
 
     # one special for Job
-    co = color['books']    
+    co = color['books']
+    job_y = 42  # see books.csv for the text and second timebar at 42.9
     c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
-    y_start = y_position(41.5)
+    y_start = y_position(job_y)
     x_width = (1675 - 1485) * dots_year
     c.rect(x_start, y_start, x_width, 2, fill = 1, stroke = 0)
 
