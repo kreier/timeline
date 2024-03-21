@@ -297,7 +297,6 @@ def create_horizontal_axis():
             c.drawString(tick_x + 2, y2 +  8, dict["CE"])
             c.drawRightString(tick_x - 2, y1 - 16, dict["BCE"])
             c.drawRightString(tick_x - 2, y2 +  8, dict["BCE"])
-
         
         if print_year:
             c.drawCentredString(tick_x, y1 - 16, year)           # bottom
@@ -332,7 +331,7 @@ def create_adam_moses():
 
     # one special for Job
     co = color['books']
-    job_y = 42  # see books.csv for the text and second timebar at 42.9
+    job_y = 41  # see books.csv for the text and second timebar at 41.9
     c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
     y_start = y_position(job_y)
@@ -353,7 +352,7 @@ def create_adam_moses():
         x_box = x_position(row.born)
         y_box = y2 - index*21 - 21
         if index == 23:  # Moises
-            y_box -= 24
+            y_box -= 12
         x_boxwidth = (born - died) * dots_year
         x_text = x_box + x_boxwidth * 0.5
         co = color[f"{row.key}"]
@@ -636,6 +635,15 @@ def create_periods():
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
                 c.setFillColorRGB(cl[0], cl[1], cl[2])
                 c.rect(x_box + x_boxwidth - fade_width * i/fade_steps - 0.8, y_box - 3, 1, 12, fill = 1, stroke = 0)
+        if row.start_fade < row.start:
+            fade_width = (row.start - row.start_fade) * dots_year + 1
+            x_boxwidth += fade_width
+            x_box = x_position(row.start_fade)
+            fade_steps = 50
+            for i in range(fade_steps):
+                cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
+                c.setFillColorRGB(cl[0], cl[1], cl[2])
+                c.rect(x_box + fade_width * i/fade_steps, y_box - 3, 1, 12, fill = 1, stroke = 0)
 
         c.setFillColorRGB(0, 0, 0)
         if len(row.text_center) > 1:
