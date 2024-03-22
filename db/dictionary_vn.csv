@@ -229,7 +229,6 @@ time_of_end,"Sự hiện diện của Đấng Christ, Sự kết thúc của h�
 time_of_end2,ngày cuối cùng,last days,last days
 suryavaman2,Vua Suryavarman II xây dựng Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150
 notre-dame,Nhà thờ Đức Bà Paris được xây dựng 1163-1260,Notre-Dame de Paris built 1163-1260,Notre-Dame de Paris built 1163-1260
-ming-dynasty,Nhà Minh ở Trung Quốc 1368-1644,Ming dynasty in imperial China 1368-1644,Ming dynasty in imperial China 1368-1644
 jehoiada,Giê-hô-gia-đa,Jehoiada,Jehoiada
 babel,Tháp Babel được xây dựng,tower of Babel built,tower of Babel built
 Haggai,Ha-gai,Haggai,Haggai
@@ -341,16 +340,59 @@ gilgamesh,Gilgamesh và Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥�
 epic_gilgamesh,Sử thi Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,Giấy cói Oxyrhynchus,Oxyrhynchus Papyri,
 p52,Thư viện Rylands Giấy cói P52,Rylands Library Papyrus P52,
-daniel2_1,Vua Nê-bu-cát-nết-xa,King Nebuchadnezzar,Start 4.2
+daniel2_shift,0,,Start 4.2
+daniel2_1,Vua Nê-bu-cát-nết-xa,King Nebuchadnezzar,607 BCE
 daniel2_2,hủy diệt Giê-ru-sa-lem,destroys Jerusalem,
-daniel2_3,Chinh phục Ba-by-lôn,Conquers Babylon,
-daniel2_4,Si-ru ban chiếu chỉ cho dân,Cyrus decrees return,
+daniel2_3,Chinh phục Ba-by-lôn,Conquers Babylon,539 BCE
+daniel2_4,Si-ru ban chiếu chỉ cho dân,Cyrus decrees return,537 BCE
 daniel2_5,Do Thái trở về Giê-ru-sa-lem,of Jews to Jerusalem,
-daniel2_6,A-léc-xan-đơ Đại đế,Alexander the Great,
+daniel2_6,A-léc-xan-đơ Đại đế,Alexander the Great,331 BCE
 daniel2_7,chinh phục Ba Tư,conquers Persia,
-daniel2_8,Cai trị Y-sơ-ra-ên,Rules over Israel,
-daniel2_9,Hủy diệt Giê-ru-sa-lem,Destroys Jerusalem,
-daniel2_10,"Trong Thế Chiến I,","During World War I,",
+daniel2_8,Cai trị Y-sơ-ra-ên,Rules over Israel,63 BCE
+daniel2_9,Hủy diệt Giê-ru-sa-lem,Destroys Jerusalem,70 CE
+daniel2_10,"Trong Thế Chiến I,","During World War I,",1914-1918 CE
 daniel2_11,cường quốc Anh Mỹ,Anglo-American World Power,
 daniel2_12,được hình thành,comes into being,End 4.2
-, ,,
+qing-dynasty,1636-1912,1636-1912,
+qing-dynasty_c,Qing dynasty,Qing dynasty,
+ming-dynasty,1368-1644,1368-1644,
+ming-dynasty_c,Nhà Minh ở Trung Quốc,Ming dynasty in imperial China,
+yuan-dynasty,1271-1368,1271-1368,
+southern-song,1127-1279,1127-1279,
+northern-song,960-1127,960-1127,
+western-xia,1038-1227,1038-1227,
+yuan-dynasty_c,Yuan,Yuan,
+southern-song_c,Southern Song,Southern Song,
+northern-song_c,Northern Song,Northern Song,
+western-xia_c,Western Xia,Western Xia,
+Copernicus,Nicolaus Copernicus,Nicolaus Copernicus,
+Galileo,Galileo Galilei,Galileo Galilei,
+Newton,Isaac Newton,Isaac Newton,
+gregorian,Gregorian calendar 1582,Gregorian calendar 1582,
+shang-dynasty,c. 1600-1046 BC,c. 1600-1046 BC,
+western-zhou,c. 1046-771 BC,c. 1046-771 BC,
+eastern-zhou,770-256 BC,770-256 BC,
+qin-dynasty,Qin 221-297 BC,Qin 221-297 BC,
+western-han,207 BC – 9 CE,207 BC – 9 CE,
+eastern-han,25-220 CE,25-220 CE,
+three-kingdoms,Three kingdoms 220-280 CE,Three kingdoms 220-280 CE,
+sixteen-kingdoms,Sixteen kingdoms 304-439 CE,Sixteen kingdoms 304-439 CE,
+northern-dynasties,368-581 CE,368-581 CE,
+southern-dynasties,420-589 CE,420-589 CE,
+tang-dynasty1, , ,
+tang-dynasty2,"618-690, 705-907","618-690, 705-907",
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
+shang-dynasty_c,Shang Dynasty,Shang Dynasty,
+western-zhou_c,Western Zhou,Western Zhou,
+eastern-zhou_c,Eastern Zhou,Eastern Zhou,
+western-han_c,Western Han,Western Han,
+eastern-han_c,Eastern Han,Eastern Han,
+three-kingdoms_c,China,China,
+sixteen-kingdoms_c,China,China,
+northern-dynasties_c,Northern Dynasties,Northern Dynasties,
+southern-dynasties_c,Southern Dynasties,Southern Dynasties,
+tang-dynasty1_c,Tang,Tang,
+tang-dynasty2_c,Tang Dynasty,Tang Dynasty,
+xia-dynasty,Xia dynasty in China c. 2070 – c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC,
+gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC,
+Ashoka,Ashoka (c. 304-232 BC) promotes Buddhism,Ashoka (c. 304-232 BC) promotes Buddhism,
