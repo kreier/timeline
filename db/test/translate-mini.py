@@ -10,8 +10,8 @@ from googletrans import Translator
 
 def check_existing(language, filename):
     # Check execution location, exit if not in /timeline/db
-    if os.getcwd()[-12:].replace("\\", "/") != "/timeline/db":
-        print("This script must be executed inside the /timeline/db folder.")
+    if os.getcwd()[-17:].replace("\\", "/") != "/timeline/db/test":
+        print("This script must be executed inside the /timeline/db/test folder.")
         exit()
     if os.path.isfile(filename):
         user_input = input("A file with this name already exists. Do you want to overwrite it? (yes/no): ")

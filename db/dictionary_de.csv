@@ -1,5 +1,5 @@
 key,text,english,notes
-version,4.3,,
+version,4.4,,
 pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,
 pdf_subject,Zeitleiste der Menschheit,Timeline of humankind,
 BCE,v.u.Z.,B.C.E.,
@@ -182,7 +182,7 @@ cornelius,Kornelius wird am Ende der 70 Wochen getauft (Daniel 9:24) in 36 u.Z.,
 columbus,Ende der präkolumbianischen Zeitepoche in Amerika 1492,end of the pre-columbian period in the Americas 1492,
 declaration_independence,Unabhängigkeitserklärung der 13 Kolonien Amerikas 1776,declaration of independence of 13 colonies in America 1776,
 tischendorf,Tischendorf entdeckt den Codex Sinaiticus aus dem 4ten Jahrhundert in 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,
-dead_sea_scrolls,Schriftrollen vom Toten Meer geschrieben,Dead Sea Scrolls written,
+dead_sea_scrolls,Schriftrollen vom Toten Meer,Dead Sea Scrolls written,
 septuagint,Septuaginta LXX übersetzt,Septuagint LXX translated,
 watchtower,Die erste Ausgabe des “Zion’s Watch Tower and Herald of Christ’s Presence” wird veröffentlicht in 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
 photodrama,Das “Photo-Drama of Creation” wird zuerst in New York gezeigt am 11 Januar 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
@@ -195,7 +195,7 @@ jw_org,Start von JW.ORG mit Anweisungen im Königreichsdienst im Dezember 2012,S
 new_world_translation2,Revidierte “New World Translation of the Holy Scriptures” auf Englisch veröffentlicht auf der Jahresversammlung 2013,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013,
 jw_broadcasting,"Beginn von jw.broadcasting im October 2014 auf Englisch, ab Mai 2015 auf Deutsch",Start of jw.broadcasting in October 2014,
 meeting_workbook,Start der “Leben und Dienst” Zusammenkunft mit einem Arbeitsheft ab Januar 2016,New format of midweek meeting with “meeting workbook” starting January 2016,
-covid19,"Weltweite Covid-19 Pandemie führt zu Lockdowns, Quarantäne und Zoom-Meetings","Global Covid-19 pandemic leads to lockdowns, quarantine and zoom-meetings",
+covid19,Covid-19,"Global Covid-19 pandemic leads to lockdowns, quarantine and zoom-meetings",
 cold_war,Geopolitische Situation bekannt als “Kalter Krieg” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991,
 timeline_created,"Diese Zeitleiste wurde 2023 erstellt, dem heißesten Jahr der Menschheitsgeschichte und überhaupt der letzten 125000 Jahre","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,Codex Sinaiticus geschrieben,Codex Sinaiticus written,
@@ -229,7 +229,6 @@ time_of_end,"Gegenwart Christi, Abschluss des Weltsystems (Matt 24:3), die letzt
 time_of_end2,letzte Tage,last days,
 suryavaman2,König Suryavarman II erbaut Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
 notre-dame,Notre-Dame de Paris gebaut 1163-1260,Notre-Dame de Paris built 1163-1260,
-ming-dynasty,Ming Dynastie im imperialen China 1368-1644,Ming dynasty in imperial China 1368-1644,
 jehoiada,Jehojada,Jehoiada,
 babel,Turmbau zu Babel,tower of Babel built,
 Haggai,Haggai,Haggai,
@@ -341,7 +340,7 @@ gilgamesh,Gilgamesch und Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥
 epic_gilgamesh,Gilgamesch-Epos (Sîn-leqe-unnīnī),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
 p52,Papyrus 52,Rylands Library Papyrus P52,
-daniel2_shift,0,0,Start 4.2
+daniel2_shift,5,0,Start 4.2
 daniel2_1,König Nebukadnezar,King Nebuchadnezzar,607 BCE
 daniel2_2,zerstört Jerusalem,destroys Jerusalem,
 daniel2_3,Eroberung Babylons,Conquers Babylon,539 BCE
@@ -354,3 +353,46 @@ daniel2_9,Zerstörung Jerusalems,Destroys Jerusalem,70 CE
 daniel2_10,Entstehung der britisch-,"During World War I,",1914-1918 CE
 daniel2_11,amerikanischen Weltmacht,Anglo-American World Power,
 daniel2_12,während des 1. Weltkriegs,comes into being,End 4.2
+qing-dynasty,1636-1912,1636-1912,
+qing-dynasty_c,Qing-Dynastie,Qing dynasty,
+ming-dynasty,1368-1644,1368-1644,
+ming-dynasty_c,Ming-Dynastie im kaiserlichen China,Ming dynasty in imperial China,
+yuan-dynasty,1271-1368,1271-1368,
+southern-song,1127-1279,1127-1279,
+northern-song,960-1127,960-1127,
+western-xia,1038-1227,1038-1227,
+yuan-dynasty_c,Yuan,Yuan,
+southern-song_c,Südliche Song,Southern Song,
+northern-song_c,Nördliche Song,Northern Song,
+western-xia_c,Westliche Xia,Western Xia,
+Copernicus,Nikolaus Kopernikus,Nicolaus Copernicus,
+Galileo,Galileo Galilei,Galileo Galilei,
+Newton,Isaac Newton,Isaac Newton,
+gregorian,Gregorianischer Kalender 1582,Gregorian calendar 1582,
+shang-dynasty,ca. 1600-1046 v.u.Z.,c. 1600-1046 BC,
+western-zhou,ca. 1046-771 v.u.Z.,c. 1046-771 BC,
+eastern-zhou,770-256 v.u.Z.,770-256 BC,
+qin-dynasty,Qin 221-207 v.u.Z.,Qin 221-207 BC,
+western-han,207 v.u.Z.– 9 u.Z.,207 BC – 9 CE,
+eastern-han,25-220 u.Z.,25-220 CE,
+three-kingdoms,Zeit der drei Reiche 220-280 u.Z.,Three kingdoms 220-280 CE,
+sixteen-kingdoms,Sechzehn Königreiche 304-439 u.Z.,Sixteen kingdoms 304-439 CE,
+northern-dynasties,368-581 n. Chr,368-581 CE,
+southern-dynasties,420-589 n. Chr,420-589 CE,
+tang-dynasty1, , ,
+tang-dynasty2,"618-690, 705-907","618-690, 705-907",
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
+shang-dynasty_c,Shang Dynastie,Shang Dynasty,c. 1600-1046 BC
+western-zhou_c,Westliche Zhou,Western Zhou,c. 1046-771 BC
+eastern-zhou_c,Östliche Zhou,Eastern Zhou,770-256 BC
+western-han_c,Westliche Han,Western Han,207 BC – 9 CE
+eastern-han_c,Östliche Han,Eastern Han,25-220 CE
+three-kingdoms_c,China,China,Three kingdoms 220-280 CE
+sixteen-kingdoms_c,China,China,Sixteen kingdoms 304-439 CE
+northern-dynasties_c,Nördliche Dynastien,Northern Dynasties,368-581 CE
+southern-dynasties_c,Südliche Dynastien,Southern Dynasties,420-589 CE
+tang-dynasty1_c,Tang,Tang,
+tang-dynasty2_c,Tang-Dynastie,Tang Dynasty,"618-690, 705-907"
+xia-dynasty,Xia-Dynastie in China c. 2070 – ca. 1600 v.u.Z.,Xia dynasty in China c. 2070 – c. 1600 BC,
+gonghe,Gonghe 841–828 v.u.Z.,Gonghe Regency 841-828 BC,
+Ashoka,Ashoka (ca. 304–232 v.u.Z.) fördert den Buddhismus,Ashoka (c. 304-232 BC) promotes Buddhism,

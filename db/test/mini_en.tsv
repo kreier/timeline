@@ -1,118 +1,44 @@
-key	text	notes
-Babylon	Daniel 2:32, 36-38; 7:4	
-Medopersia	Daniel 2:32, 39; 7:5	
-Greece	Daniel 2:32, 39; 7:6	
-Rome	Daniel 2:33, 40; 7:7	
-Angloamerica	Daniel 2:33, 41-43	
-Babylon_c	Babylon	
-Medopersia_c	Medo-Persia	
-Greece_c	Greece	
-Rome_c	Rome	
-Angloamerica_c	Anglo-America	
-infliction1	400 year infliction	Acts 7:6
-infliction2	Acts 7:6	
-Jacob2	Jacob/	Jacob/Israel 1858-1711 – 147 years
-Israel	Israel	
-Sarah	Sarah	2008-1881 BCE – 127 years
-Hagar	Hagar	Genesis 21:14
-Haran	Haran	Genesis 11:26
-Nahor	Nahor	
-Reumah	Reumah	Concubine – 4 sons
-Milcah	Milcah	8 sons (Bethuel and 7 more)
-Lot	Lot	
-Lots_wife	Lot’s wife	
-Lots_daughters	Daughters of Lot	
-Moab	Moab (older daughter)	
-Ammon	Ben-ammi (Ammon)	
-Bethuel	Be·thuel	
-Rebekah	Rebekah	
-Laban	Laban	
-Leah	Leah	Genesis 35:23
-Rachel	Rachel	Genesis 35:24
-Bilhah	Bilhah	Genesis 35:25
-Zilpah	Zilpah	Genesis 35:26
-Reuben	Reuben	
-Simeon	Sime·on	
-Levi	Levi	
-Judah	Judah	
-Issachar	Issa·char	
-Zebulun	Zebu·lun	
-Dinah	Dinah	Genesis 34
-Esau	Esau	
-Ishmael	Ishmael	
-Manasseh2	(Manasseh	
-Ephraim	and Ephraim)	
-Benjamin	Benjamin	
-Dan	Dan	
-Naphtali	Naphta·li	
-Gad 	Gad	
-Asher	Asher	
-Milcah1	Uz, Buz, Kemuel,	
-Milcah2	Chesed, Hazo,	
-Milcah3	Pildash, Jidlaph	
-Tebah	Tebah	
-Gaham	Gaham	
-Tahash	Tahash	
-Maacah	Maacah	
-Mahalath	Mahalath/	Genesis 28:8, 9
-Basemath	Base·math	Genesis36:3, 4
-Reuel	Reuel	36:13, 17
-Nahath	Nahath	
-Zerah	Zerah	
-Schammah	Schammah	
-Mizzah	Mizzah	
-Adah	Adah	36:11, 12, 15, 16
-Eliphaz	Eliphaz	
-Teman	Teman	
-Omar	Omar	
-Zepho	Zepho	
-Kenaz	Kenaz	
-Korah	Korah	
-Gatam	Gatam	
-Amalek	Amalek	
-Oholibamah	O·hol·i·bamah	36:14, 18
-Jeush	Jeush	
-Jalam	Jalam	
-Korah	Korah	
-Nebaioth	Nebaioth	Genesis 25:13
-Kedar	Kedar	
-Adbeel	Adbeel	
-Mibsam	Mibsam	
-Mishma	Mishma	
-Dumah	Dumah	
-Massa	Massa	
-Hadad	Hadad	
-Tema	Tema	
-Jetur	Jetur	
-Naphish	Naphish	
-Kedemah	Kedemah	
-Babylon2		no text left and right – empty!
-terahfam	members of Terah’s family	
-rosetta	Rosetta stone 196 B.C.E.	
-Herodotus	Herodotus c. 484 – c. 425 B.C.E.	Father of History
-Aristotle	Aristotle 384 – 322 BC	The First Teacher, The Philosopher
-Ptolemy	Ptolemy c 100 – c. 170 C.E.	
-Pythagoras	Pythagoras c. 570 – c. 495 BC	
-Plato	Plato c. 427 – c. 348 BC	
-Socrates	Socrates c. 470 – c. 399 BC	
-Josephus	Josephus c. 37 – c. 100 C.E.	
-Cicero	Cicero 106–43 BC	influence on Latin language
-lachish_letters	Lachish letters c. 590 B.C.E.	
-lachish_reliefs	Lachish reliefs c. 681 B.C.E.	
-mesha_stele	Mesha Stele (Moabite stone) c. 840 B.C.E.	
-gilgamesh	Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵	
-epic_gilgamesh	Epic of Gilgamesh (Sîn-lēqi-unninni)	
-oxyrhynchus	Oxyrhynchus Papyri	
-p52	Rylands Library Papyrus P52	
-daniel2_1	King Nebuchadnezzar	
-daniel2_2	destroys Jerusalem	
-daniel2_3	Conquers Babylon	
-daniel2_4	Cyrus decrees return	
-daniel2_5	of Jews to Jerusalem	
-daniel2_6	Alexander the Great	
-daniel2_7	conquers Persia	
-daniel2_8	Rules over Israel	
-daniel2_9	Destroys Jerusalem	
-daniel2_10	During World War I,	
-daniel2_11	Anglo-American World Power	
-daniel2_12	comes into being	
+key	text
+qing-dynasty	1636-1912
+qing-dynasty_c	Qing dynasty
+ming-dynasty	1368-1644
+ming-dynasty_c	Ming dynasty in imperial China
+yuan-dynasty	1271-1368
+southern-song	1127-1279
+northern-song	960-1127
+western-xia	1038-1227
+yuan-dynasty_c	Yuan
+southern-song_c	Southern Song
+northern-song_c	Northern Song
+western-xia_c	Western Xia
+Copernicus	Nicolaus Copernicus
+Galileo	Galileo Galilei
+Newton	Isaac Newton
+gregorian	Gregorian calendar 1582
+shang-dynasty	c. 1600-1046 BC
+western-zhou	c. 1046-771 BC
+eastern-zhou	770-256 BC
+qin-dynasty	Qin 221-297 BC
+western-han	207 BC – 9 CE
+eastern-han	25-220 CE
+three-kingdoms	Three kingdoms 220-280 CE
+sixteen-kingdoms	Sixteen kingdoms 304-439 CE
+northern-dynasties	368-581 CE
+southern-dynasties	420-589 CE
+tang-dynasty1	 
+tang-dynasty2	618-690, 705-907
+wu-zhou	690-705 Wu Zhou
+shang-dynasty_c	Shang Dynasty
+western-zhou_c	Western Zhou
+eastern-zhou_c	Eastern Zhou
+western-han_c	Western Han
+eastern-han_c	Eastern Han
+three-kingdoms_c	China
+sixteen-kingdoms_c	China
+northern-dynasties_c	Northern Dynasties
+southern-dynasties_c	Southern Dynasties
+tang-dynasty1_c	Tang
+tang-dynasty2_c	Tang Dynasty
+xia-dynasty	Xia dynasty in China c. 2070 – c. 1600 BC
+gonghe	Gonghe Regency 841-828 BC
+Ashoka	Ashoka (c. 304-232 BC) promotes Buddhism
