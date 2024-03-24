@@ -6,7 +6,7 @@
 
 This project creates a graph of Human history with python and reportlab. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With version 4.2 some images make it into the timeline after 15 years of slow development. See both for comparison below.
 
-![timeline 4.2](docs/timeline20240309_4.2.png)
+![timeline 4.4](docs/timeline20240324_4.4.png)
 
 Compare this 4000 year timespan of version 4.2 from 2024:
 
@@ -41,6 +41,7 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - v4.1 2024/02/27 Included Sinhala (සිංහල) and refined __Iloko__ and __Japanese__ (日本語).
 - v4.2 2024/03/09 Included the family of Terah and the image from __Daniel 2__ with the world powers from Daniel 7. And 6 small images as illustration.
 - v4.3 2024/03/16 Convert dictionary files to __.csv__ format to be easier readable in a [Jupyter Notebook](db/timeline.ipynb). You can create the latest PDF in your language in [Google Colab](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing) with just a browser.
+- v4.4 2024/03/24 Include inventions and insigts from the last centuries with pictures that enable modern society. Add some of the Chinese dynasties to the oldest known historic date of 841 BC (Sima Qian) and beyond.
 
 ### Translations
 
