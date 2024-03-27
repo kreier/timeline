@@ -697,7 +697,7 @@ def include_pictures():
     pictures = pd.read_csv("../db/pictures.csv", encoding='utf8')
     print("Imported list of pictures:", len(pictures))
     for index, row in pictures.iterrows():
-        if row.year != 0:
+        if row.year != "0":
             drawString(str(row.year), 3, x_position(row.x), y_position(row.y) - 2.4, "r")
         location = "../images/" + row.key
         c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
