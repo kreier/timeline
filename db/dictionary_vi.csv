@@ -4,10 +4,10 @@ pdf_title,6000 năm lịch sử loài người được hình dung,6000 years hu
 pdf_subject,Dòng thời gian của loài người,Timeline of humankind,
 BCE,TCN,B.C.E.,
 CE,CN,C.E.,
-year,năm,year,
+year,năm,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,năm,years,
-years_age,tuổi,years,
-age_kings,tuổi, ,
+years_age,tuổi,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
+age_kings,tuổi, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,tháng,month,
 months,tháng,months,
 day,ngày,day,
@@ -60,7 +60,7 @@ Samson,Sam-sôn,Samson,
 Samuel,Sa-mu-ên,Samuel,
 Saul,Sau-lơ,Saul,
 David,Đa-vít,David,
-Solomo,Sa-lô-môn,Solomo,3
+Solomo,Sa-lô-môn,Solomo,
 Rehoboam,Rê-hô-bô-am,Rehoboam,first king of southern kingdom of Juda
 Abijah,A-bi-gia (A-bi-giam),Abijah (Abijam),"3 years, also Abijam"
 Asa,A-sa,Asa,
