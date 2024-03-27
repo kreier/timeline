@@ -19,7 +19,7 @@ import sys
 import os
 
 # Some general settings
-version  = 4.4
+version  = 4.5
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -64,7 +64,7 @@ supported = {"ar": "Arabic (العربية)",
              "sc": "Chinese (Simplified) [中文简体(普通话)]",
              "si": "Sinhala (සිංහල)",
              "thai": "Thai (ภาษาไทย)",
-             "vn": "Vietnamese (Tiếng Việt)"}
+             "vi": "Vietnamese (Tiếng Việt)"}
 
 def create_dictionary(target_language):
     global dict, language
@@ -766,10 +766,18 @@ def create_timestamp():
         counter_detail = str(eval("counter_" + detail))
         drawString(counter_detail,    4, x1 + 5.4, y1 + 38 - 4.5 * index, "l")
     c.setFont(font_regular, 4)
-    c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author}")
+    c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
     if language in supported:
         qr_file = "../images/qr-" + language + ".png"
         c.drawImage(qr_file, x_position(-4026), y_position(9), width=12*mm, height=12*mm)
+        c.setFontSize(4.5)
+        c.rotate(90)
+        timestamp = str(datetime.datetime.now())
+        dateindex = timestamp[2:4] + timestamp[5:7] + timestamp[8:10]
+        c.drawString(y_position(8.9), -x_position(-3955), "timeline " + language)
+        c.drawString(y_position(8.9), -x_position(-3948), dateindex)
+        c.rotate(-90)
+        # drawString( "timeline " + language, 5, x_position(-4020), y_position(9.5), "r")
 
 def render_to_file():
     # renderPDF.draw(d, c, border_lr, border_tb)

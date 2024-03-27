@@ -1,5 +1,5 @@
 key,start,end,row_y,text_center,location_description,notes,start_fade,end_fade
-wilderness,-1512.75,-1472.75,1, ,l,4.2,-1512.75,-1472.75
+wilderness,-1512.75,-1472.75,1, ,l,4.5,-1512.75,-1472.75
 timespan_judges,-1472.75,-1116.75,2,timespan_judges2,l,,-1472.75,-1116.75
 wilderness,-1512.75,-1472.75,33, ,r,,-1512.75,-1472.75
 timespan_judges,-1472.75,-1116.75,34,timespan_judges2,r,,-1472.75,-1116.75
@@ -43,7 +43,7 @@ Babylon2,-607,-539,33.5,Babylon_c,l,no explanation,-607,-539
 Medopersia,-539,-331,34.5,Medopersia_c,r,,-539,-331
 Greece,-331,-63,35.5,Greece_c,r,,-331,-63
 Rome,-63,70,36.5,Rome_c,r,,-63,100
-Angloamerica,1914.867,2060,36.5,Angloamerica_c,l,,1914.867,2060
+Angloamerica2,1914.867,2060,36.5,Angloamerica_c,l,,1914.867,2060
 infliction2,-1912.75,-1512.75,4.9,infliction1,r,,-1912.75,-1512.75
 qing-dynasty,1636,1912,41,qing-dynasty_c,l,,1636,1912
 ming-dynasty,1368,1644,42,ming-dynasty_c,l,,1368,1644
@@ -65,3 +65,4 @@ tang-dynasty1,618,690,43,tang-dynasty1_c,r,,618,690
 tang-dynasty2,705,907,43,tang-dynasty2_c,r,,705,907
 wu-zhou,690,705,44, ,r,,690,705
 gonghe,-841,-828,43.2, ,l,,-841,-828
+siloam-tunnel,-740,-732,32, ,l,,-742,-732
