@@ -41,7 +41,7 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - v4.1 2024/02/27 Included Sinhala (සිංහල) and refined __Iloko__ and __Japanese__ (日本語).
 - v4.2 2024/03/09 Included the family of Terah and the image from __Daniel 2__ with the world powers from Daniel 7. And 6 small images as illustration.
 - v4.3 2024/03/16 Convert dictionary files to __.csv__ format to be easier readable in a [Jupyter Notebook](db/timeline.ipynb). You can create the latest PDF in your language in [Google Colab](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing) with just a browser.
-- v4.4 2024/03/24 Include inventions and insigts from the last centuries with pictures that enable modern society. Add some of the Chinese dynasties to the oldest known historic date of 841 BC (Sima Qian) and beyond.
+- v4.4 2024/03/24 Include inventions and insights that enable modern society from the last centuries with pictures. Add some of the Chinese dynasties to the oldest known historic date of 841 BC (Sima Qian) and beyond.
 
 ### Translations
 
@@ -51,7 +51,7 @@ Since v3.4 the language specific files have been separated from the program code
 |------------------------------------------------------------------------------|:---------------:|:-------------:|:--------:|:--------:|------:|
 | [English](https://kreier.github.io/docs/timeline_en.pdf)                     |                 |               |          |     x    |  100% |
 | [German (Deutsch)](https://kreier.github.io/docs/timeline_de.pdf)            |                 |               |          |     x    |   95% |
-| [Vietnamese (Tiếng Việt)](https://kreier.github.io/docs/timeline_vn.pdf)     |                 |               |          |     x    |   95% |
+| [Vietnamese (Tiếng Việt)](https://kreier.github.io/docs/timeline_vi.pdf)     |                 |               |          |     x    |   95% |
 | [Iloko (Ilocano)](https://kreier.github.io/docs/timeline_ilo.pdf)            |                 |               |          |     x    |       |
 | [Japanese (日本語)](https://kreier.github.io/docs/timeline_jp.pdf)           |                 |               |          |     x    |       |
 | [Russian (Русский)](https://kreier.github.io/docs/timeline_ru.pdf)           |                 |               |     x    |          |       |
