@@ -56,14 +56,15 @@ supported = {"ar": "Arabic (العربية)",
              "es": "Spanish (Español)", 
              "fi": "Finnish (Suomi)", 
              "fr": "French (Français)",
-             "igbo": "Igbo (Ásụ̀sụ́ Ìgbò)",
+             "ig": "Igbo (Ásụ̀sụ́ Ìgbò)",
              "ilo": "Iloko (Illocano)",
-             "jp": "Japanese (日本語)",
-             "kr": "Korean (한국인)",
+             "ja": "Japanese (日本語)",
+             "ko": "Korean (한국인)",
+             "no": "Norwegian (norsk)",
              "ru": "Russian (Русский)",
-             "sc": "Chinese (Simplified) [中文简体(普通话)]",
+             "zh": "Chinese (Simplified) [中文简体(普通话)]",
              "si": "Sinhala (සිංහල)",
-             "thai": "Thai (ภาษาไทย)",
+             "th": "Thai (ภาษาไทย)",
              "vi": "Vietnamese (Tiếng Việt)"}
 
 def create_dictionary(target_language):
@@ -190,7 +191,7 @@ def import_dictionary():
                      "zh-tw" : "SimplifiedChinese",
                      "ar" : "Arabic",
                      "si" : "Sinhala",
-                     "thai" : "Thai", 
+                     "th" : "Thai", 
                      "ka" : "Georgian"}
     if language in special_fonts:
         language_fontname = special_fonts[language]
