@@ -28,6 +28,7 @@ border_tb    = 7*mm                       # space for the years top and bottom
 page_width   = 4*297*mm + 2 * border_lr   # 4x A4 landscape
 page_height  = 210*mm                     #    A4 landscape height
 pdf_author   = "https://github.com/kreier/timeline"
+fontsize_regular = 10
 vertical_lines  = False
 
 dict  = {}
@@ -167,7 +168,7 @@ def initiate_counters():
 
 # Import strings for the respective language for names and comments
 def import_dictionary():
-    global dict, font_regular, font_bold, version
+    global dict, font_regular, font_bold, version, fontsize_regular
     dict = {}
     # first import the reference dictionary in english
     reference = "../db/dictionary_reference.csv"
@@ -197,6 +198,8 @@ def import_dictionary():
         language_fontname = special_fonts[language]
         font_regular = "Noto" + language_fontname
         font_bold    = "Noto" + language_fontname + "-bold"
+        if language == "si":
+            fontsize_regular = 9
     # special_languages = ["jp", "kr", "sc", "ar", "si", "thai"]
     # for special_language in special_languages:
     #     if language == special_language:
@@ -380,6 +383,7 @@ def create_adam_moses():
         counter_people += 1
 
 def draw_event(text, date, ys, ye, yt, wl, pos):
+    global fontsize_regular
     x_line = x_position(date)
     x_txt  = x_line + 4
     y_txt  = y_position(yt)
@@ -391,7 +395,7 @@ def draw_event(text, date, ys, ye, yt, wl, pos):
     c.setLineWidth(wl)
     c.setStrokeColorRGB(lc[0], lc[1], lc[2])
     c.line(x_line, y_position(ys), x_line, y_position(ye))
-    drawString(dict[text], 10, x_txt, y_txt, pos)
+    drawString(dict[text], fontsize_regular, x_txt, y_txt, pos)
     points = [x_line, y_txt + 1, x_line + x_add, y_txt + 3, x_line, y_txt + 5]
     d.add(Polygon(points, fillColor=(lc[0], lc[1], lc[2]), strokeColor=(lc[0], lc[1], lc[2]), strokeWidth = 0.1))
 
@@ -412,7 +416,7 @@ def create_reference_events():
         counter_events += 1
 
 def create_judges():
-    global counter_judges
+    global counter_judges, fontsize_regular
     judges = pd.read_csv("../db/judges.csv", encoding='utf8')
     print("Imported data of judges:", len(judges))
     for index, row in judges.iterrows():
@@ -436,11 +440,11 @@ def create_judges():
         c.rect(x_oppression, y_box + 10, x_opp_width, 2, fill = 1)
 
         judge = dict[row.key]
-        drawString(judge, 10, x_box + x_boxwidth * 0.5 , y_box, "cb")
+        drawString(judge, fontsize_regular, x_box + x_boxwidth * 0.5 , y_box, "cb")
         counter_judges += 1
 
 def create_kings():
-    global counter_kings
+    global counter_kings, fontsize_regular
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     kings = pd.read_csv("../db/kings.csv", encoding='utf8')
     print("Imported data of kings:", len(kings))
@@ -495,8 +499,8 @@ def create_kings():
         c.setFillColorRGB(co[0], co[1], co[2])
         c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
         c.setFillColorRGB(0, 0, 0)
-        drawString(detail_r, 10, x_box + x_boxwidth + 2, y_box, "r")
-        drawString(detail_l, 10, x_box - 2, y_box, "l")
+        drawString(detail_r, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
+        drawString(detail_l, fontsize_regular, x_box - 2, y_box, "l")
         counter_kings += 1
 
 def faded_color(red, green, blue, percent):
@@ -517,13 +521,14 @@ def timebar(x, y, width, R, G, B, exact):
         c.rect(x + width - 3 * i/fade_steps, y, 1, 4, fill = 1, stroke = 0)
 
 def text_with_timebar(text, row, year_start, year_end, R, G, B, exact):
+    global fontsize_regular
     x_box = x_position(year_start)
     y_box = y_position(row)
     x_boxwidth = (year_end -  year_start) * dots_year
     timebar(x_box, y_box + 10, x_boxwidth, R, G, B, exact)
     c.setFont(font_regular, 10)
     c.setFillColorRGB(0, 0, 0)
-    drawString(text, 10, x_box, y_box, "r")
+    drawString(text, fontsize_regular, x_box, y_box, "r")
     # c.drawString(x_box , y_box, text)
 
 def create_prophets():
@@ -573,7 +578,7 @@ def create_objects():
             counter_objects += 1
 
 def create_caesars():
-    global counter_kings
+    global counter_kings, fontsize_regular
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     caesars = pd.read_csv("../db/caesars.csv", encoding='utf8')
     print("Imported data of caesars:", len(caesars))
@@ -605,11 +610,11 @@ def create_caesars():
         c.line(x_born, y_box + 3, x_box, y_box + 3)
         c.line(x_born, y_box - 2, x_born, y_box + 8)
         c.setFillColorRGB(0, 0, 0)
-        drawString(detail, 10, x_box + x_boxwidth + 2, y_box, "r")
+        drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
         counter_kings += 1
 
 def create_periods():
-    global counter_periods
+    global counter_periods, fontsize_regular
     # Import the perios with start and end as pandas dataframe
     periods = pd.read_csv("../db/periods.csv", encoding='utf8')
     print("Imported data of periods:", len(periods))
@@ -656,9 +661,9 @@ def create_periods():
             drawString(detail_c, textsize, x_box + x_boxwidth * 0.5, y_box, "c")
         detail = dict[key]
         if row.location_description == "l":
-            drawString(detail, 10, x_box - 2, y_box, "l")
+            drawString(detail, fontsize_regular, x_box - 2, y_box, "l")
         else:
-            drawString(detail, 10, x_box + x_boxwidth + 2, y_box, "r")
+            drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
         counter_periods += 1
 
 def create_terah_familytree():
@@ -792,6 +797,7 @@ def create_timeline(lang):
     language = lang
     initiate_counters()
     import_dictionary()
+    # import_colors("random")
     import_colors("normal")
     create_canvas()
     create_drawing_area()
