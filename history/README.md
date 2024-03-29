@@ -104,3 +104,18 @@ The resolution of only 10 years makes it difficult to visualize shorter time per
 The third tile went back to 10 years per column and needs 218 columns.
 
 ![Zeitleiste 130 BCE - 2050 CE](https://raw.githubusercontent.com/kreier/timeline/main/docs/zeitleiste_130-2050.png)
+
+## Comparison 2009 vs. 2024
+
+To visualize the progress after 15 years here is a comparison of the spreadsheet version versus a cutout from the python reportlab version for the first 2 time periods of the spreadsheet:
+
+### 4050 BCE to 1450 BCE
+
+![Zeitleiste 4050-1450](https://raw.githubusercontent.com/kreier/timeline/main/docs/zeitleiste_4050-1450.png)
+![Timeline 4050-1450](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline_4050-1450_new.png)
+
+
+### 1550 BCE to 150 CE
+
+![Zeitleiste 1550 BCE - 150 CE](https://raw.githubusercontent.com/kreier/timeline/main/docs/zeitleiste_1550-150.png)
+![Zeitleiste 1550 BCE - 150 CE](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline_1550-150.png)
