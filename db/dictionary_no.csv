@@ -1,9 +1,9 @@
 key,text,notes,english
-version,4.5,,4.4
+version,4.5,,4.5
 pdf_title,6000 år menneskelig historie visualisert,,6000 years human history visualized
 pdf_subject,Tidslinje for menneskeheten,,Timeline of humankind
-BCE,B.C.E.,,B.C.E.
-CE,C.E.,,C.E.
+BCE,fvt.,,B.C.E.
+CE,evt.,,C.E.
 year,år,"timespan, age (Adam was 130 years old when Shem was born)",year
 years,år,,years
 years_age,år,years when used as age for a person (different word than years in some languages),years
@@ -242,8 +242,8 @@ Angloamerica,"Daniel 2:33, 41-43",,"Daniel 2:33, 41-43"
 Babylon_c,Babylon,,Babylon
 Medopersia_c,Medo-Persia,,Medo-Persia
 Greece_c,Hellas,,Greece
-Rome_c,Roma,,Rome
-Angloamerica_c,Anglo-Amerika,,Anglo-America
+Rome_c,Romerriket,,Rome
+Angloamerica_c,Storbritannia og USA,,Anglo-America
 infliction1,400 års påføring,Acts 7:6,400 year infliction
 infliction2,Apostlenes gjerninger 7:6,,Acts 7:6
 Jacob2,Jacob/,Jacob/Israel 1858-1711 – 147 years,Jacob/
@@ -291,24 +291,24 @@ Gaham,Gaham,,Gaham
 Tahash,Tahash,,Tahash
 Maacah,Maacah,,Maacah
 Mahalath,Mahalath/,"Genesis 28:8, 9",Mahalath/
-Basemath,Grunnleggende matematikk,"Genesis36:3, 4",Base·math
-Reuel,Reuel,"36:13, 17",Reuel
-Nahath,Nahath,,Nahath
-Zerah,Zerah,,Zerah
-Schammah,Schammah,,Schammah
-Mizzah,Mizzah,,Mizzah
+Basemath,Basmat ,"Genesis36:3, 4",Base·math
+Reuel,Rẹ’uel ,"36:13, 17",Reuel
+Nahath,Nahat ,,Nahath
+Zerah,Serah ,,Zerah
+Schammah,Sjammah ,,Schammah
+Mizzah,Missa ,,Mizzah
 Adah,Adah,"36:11, 12, 15, 16",Adah
-Eliphaz,Elifas,,Eliphaz
+Eliphaz,Ẹlifas ,,Eliphaz
 Teman,Teman,,Teman
 Omar,Omar,,Omar
-Zepho,Zepho,,Zepho
+Zepho,Sefo ,,Zepho
 Kenaz,Kenaz,,Kenaz
 Korah,Korah,,Korah
 Gatam,Gatam,,Gatam
-Amalek,Amalek,,Amalek
-Oholibamah,Oholibamah,"36:14, 18",Oholibamah
-Jeush,Jeush,,Jeush
-Jalam,Jalam,,Jalam
+Amalek,Ạmalek ,,Amalek
+Oholibamah,Oholibạma ,"36:14, 18",Oholibamah
+Jeush,Je’usj ,,Jeush
+Jalam,Jalam ,,Jalam
 Korah,Korah,,Korah
 Nebaioth,Nebaioth,Genesis 25:13,Nebaioth
 Kedar,Kedar,,Kedar
@@ -322,7 +322,7 @@ Tema,Tema,,Tema
 Jetur,Jetur,,Jetur
 Naphish,Naphish,,Naphish
 Kedemah,Kedemah,,Kedemah
-Babylon2, ,no text left and right – empty!, 
+Babylon2,,no text left and right – empty!, 
 terahfam,medlemmer av Terahs familie,,members of Terah’s family
 rosetta,Rosettastein 196 B.C.E.,,Rosetta stone 196 B.C.E.
 Herodotus,"Herodot c. 484 – ca. 425 f.Kr., skriver The Histories",Father of History,"Herodotus c. 484 – c. 425 BC, writes The Histories"
@@ -344,15 +344,15 @@ daniel2_shift,0,Start 4.2,0
 daniel2_1,Kong Nebukadnesar,607 BCE,King Nebuchadnezzar
 daniel2_2,ødelegger Jerusalem,,destroys Jerusalem
 daniel2_3,Erobrer Babylon,539 BCE,Conquers Babylon
-daniel2_4,Kyros-dekretene kommer tilbake,537 BCE,Cyrus decrees return
-daniel2_5,av jøder til Jerusalem,,of Jews to Jerusalem
-daniel2_6,Alexander den store,331 BCE,Alexander the Great
+daniel2_4,Kyros lar jødene få vende,537 BCE,Cyrus decrees return
+daniel2_5,tilbake til Jerusalem,,of Jews to Jerusalem
+daniel2_6,Aleksander den store,331 BCE,Alexander the Great
 daniel2_7,erobrer Persia,,conquers Persia
 daniel2_8,Hersker over Israel,63 BCE,Rules over Israel
 daniel2_9,Ødelegger Jerusalem,70 CE,Destroys Jerusalem
-daniel2_10,"Under første verdenskrig,",1914-1918 CE,"During World War I,"
-daniel2_11,anglo-amerikansk verdensmakt,,Anglo-American World Power
-daniel2_12,blir til,End 4.2,comes into being
+daniel2_10,Den britisk-amerikanske,1914-1918 CE,"During World War I,"
+daniel2_11,verdensmakt oppstår,,Anglo-American World Power
+daniel2_12,under den første verdenskrig,End 4.2,comes into being
 qing-dynasty,1636-1912,,1636-1912
 qing-dynasty_c,Qing dynastiet,1636-1912,Qing dynasty
 ming-dynasty,1368-1644,,1368-1644
@@ -379,7 +379,7 @@ three-kingdoms,Tre riker 220-280 e.Kr,,Three kingdoms 220-280 CE
 sixteen-kingdoms,Seksten riker 304-439 e.Kr,,Sixteen kingdoms 304-439 CE
 northern-dynasties,368-581 e.Kr,,368-581 CE
 southern-dynasties,420-589 e.Kr,,420-589 CE
-tang-dynasty1, ,, 
+tang-dynasty1,,, 
 tang-dynasty2,"618-690, 705-907",,"618-690, 705-907"
 wu-zhou,690-705 Wu Zhou,,690-705 Wu Zhou
 shang-dynasty_c,Shang-dynastiet,c. 1600-1046 BC,Shang Dynasty
