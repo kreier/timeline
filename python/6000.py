@@ -148,7 +148,10 @@ def drawString(text, fontsize, x_string, y_string, position):
     elif position == "c":
         c.setFont(font_bold, fontsize)
         c.setFillColorRGB(1, 1, 1)
-        c.drawCentredString(x_string, y_string, text)
+        if fontsize == 10:
+            c.drawCentredString(x_string, y_string, text)
+        else: # probably persian (farsi) or arabic
+            c.drawCentredString(x_string, y_string + 1, text)
     elif position == "cb":
         c.setFont(font_regular, fontsize)
         c.setFillColorRGB(0, 0, 0)
@@ -191,6 +194,7 @@ def import_dictionary():
                      "zh-cn" : "SimplifiedChinese",
                      "zh-tw" : "SimplifiedChinese",
                      "ar" : "Arabic",
+                     "fa" : "Arabic",
                      "si" : "Sinhala",
                      "th" : "Thai", 
                      "ka" : "Georgian"}
@@ -200,6 +204,8 @@ def import_dictionary():
         font_bold    = "Noto" + language_fontname + "-bold"
         if language == "si":
             fontsize_regular = 9
+        if language == "ar" or language == "fa":
+            fontsize_regular = 8
     # special_languages = ["jp", "kr", "sc", "ar", "si", "thai"]
     # for special_language in special_languages:
     #     if language == special_language:
@@ -366,7 +372,7 @@ def create_adam_moses():
         c.rect(x_box, y_box, x_boxwidth, 19, fill = 1)
         c.setFillColorRGB(1, 1, 1)
         c.setFont(font_bold, 15)
-        if language == "ar":
+        if language == "ar" or language == "fa":
             c.setFont(font_bold, 13)
             y_box += 2
         if language == "si":
@@ -654,7 +660,7 @@ def create_periods():
         c.setFillColorRGB(0, 0, 0)
         if len(row.text_center) > 1:
             detail_c = dict[row.text_center]
-            textsize = 10
+            textsize = fontsize_regular
             while stringWidth(detail_c, font_bold, textsize, 'utf8') > x_boxwidth and textsize > 4:
                 textsize -= 1
                 print(textsize, " ", detail_c)
