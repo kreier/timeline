@@ -132,7 +132,7 @@ def drawString(text, fontsize, x_string, y_string, position):
     c.setStrokeColorRGB(1, 1, 1)
     c.setLineWidth(1)
     xtra = 0
-    if fontsize < 4:
+    if fontsize < 6:
         xtra = 1
     white_width = stringWidth(text, font_regular, fontsize)
     if position == "r":
@@ -710,7 +710,7 @@ def include_pictures():
     print("Imported list of pictures:", len(pictures))
     for index, row in pictures.iterrows():
         if row.year != "0":
-            drawString(str(row.year), 3, x_position(row.x), y_position(row.y) - 2.4, "r")
+            drawString(str(row.year), 4, x_position(row.x), y_position(row.y) - 3.4, "r")
         location = "../images/" + row.key
         c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
 
@@ -719,7 +719,7 @@ def include_pictures_svg():
     print("Imported list of SVG pictures:", len(pictures_svg))
     for index, row in pictures_svg.iterrows():
         if row.year != 0:
-            drawString(str(row.year), 3, x_position(row.x), y_position(row.y) - 2.4, "r")
+            drawString(str(row.year), 4, x_position(row.x), y_position(row.y) - 3.4, "r")
         location = "../images/" + row.key + ".svg"
         drawing = svg2rlg(location)
         factor = row.height / drawing.height
@@ -752,7 +752,7 @@ def create_daniel2():
         current_yearstring = years[current_yearline] + dict["BCE"]
         if index == 4:
             current_yearstring = years[current_yearline] + " " + dict["CE"]
-        indentation = stringWidth(current_yearstring, font_regular, 6) + 2
+        indentation = stringWidth(current_yearstring, font_regular, 6) + 3
         for yearline in range(yearlines[index]):
             yearstring = ""
             if years[current_yearline] != "":
