@@ -4,7 +4,8 @@
 import os, sys, requests, uuid, json
 import pandas as pd
 
-subscription_key = 'e87e0ed07a914b4c9fe6f1d31c122104'
+# subscription_key = 'e87e0ed07a914b4c9fe6f1d31c122104' # account 2
+subscription_key = '5c65938c6cc44ca78776725d716c8fe5' # account 1
 region = 'southeastasia'
 endpoint = 'https://api.cognitive.microsofttranslator.com/'
 
@@ -72,12 +73,15 @@ if __name__ == "__main__":
             body = [ {'Text' : english_text} ]
             request = requests.post(constructed_url, headers=headers, json=body)
             response = request.json()
-            dict_translated.at[index, 'text'] = response[0]['translations'][0]['text']
+            # print(response)
+            translated_text = response[0]['translations'][0]['text']
+            dict_translated.at[index, 'text'] = translated_text
+            print(f'{english_text} - {translated_text}')
 
             # it was just this one line with Google Translate and the googletrans API
             # dict_translated.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
 
-            print('.', end='')
+            # print('.', end='')
             # print(f'English: {english_text}, Translated: {dict_translated[index]}')
         if (index + 1) % 40 == 0:
             print(f" {index}")
