@@ -9,6 +9,10 @@
 
 import os, requests, uuid, json
 
+target_language = "yue"
+text1 = "Translate this Hello World"
+text2 = "This is another example."
+
 # use this if you want to use environment variables:
 # from dotenv import load_dotenv
 # load_dotenv()
@@ -37,7 +41,7 @@ endpoint = 'https://api.cognitive.microsofttranslator.com/'
 # If you encounter any issues with the base_url or path, make sure
 # that you are using the latest endpoint: https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate
 path = '/translate?api-version=3.0'
-params = '&from=en&to=de&to=yue&to=zh-Hans'
+params = '&from=en&to=' + target_language
 constructed_url = endpoint + path + params
 
 headers = {
@@ -48,10 +52,12 @@ headers = {
 }
 
 # You can pass more than one object in body.
-body = [{
-    'text' : 'Hello World!'
-}]
+body = [
+    {'text' : text1},
+    {'text' : text2}
+]
 request = requests.post(constructed_url, headers=headers, json=body)
 response = request.json()
 
 print(json.dumps(response, sort_keys=True, indent=4, ensure_ascii=False, separators=(',', ': ')))
+# print(response.json_object["name"])
