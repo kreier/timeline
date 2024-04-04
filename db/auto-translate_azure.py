@@ -1,12 +1,12 @@
-# Create a google translated dictionary as starting point for a new language
-# It does not work with https://pypi.org/project/googletrans/ 3.0.0 (latest version)
-# You need the 3.1.0a0 alpha version from 2020
-# pip3 install googletrans==3.1.0a0
-# https://pypi.org/project/googletrans/3.1.0a0/ 
+# Create a Azure translated dictionary as starting point for a new language
+# You will need a (free) Azure account to access the API
 
-import os, sys
+import os, sys, requests, uuid, json
 import pandas as pd
-from googletrans import Translator
+
+subscription_key = 'e87e0ed07a914b4c9fe6f1d31c122104'
+region = 'southeastasia'
+endpoint = 'https://api.cognitive.microsofttranslator.com/'
 
 def check_existing(language, filename):
     # Check execution location, exit if not in /timeline/db
@@ -35,12 +35,6 @@ def import_reference():
     print(f"found {len(dict)} entries.")
     print(dict)
 
-def second_func():
-    print("Import reference english dictionary")
-    print("Check if target language already exists")
-    print("start a dialog: Do you want to overwrite?")
-    print("Auto translation done. Translated x key phrases.")
-
 if __name__ == "__main__":
     dict = pd.DataFrame() # will contain the english dictionary with 'key' and 'text' column, plus 'alternative' and 'notes' (not used)
     if len(sys.argv) < 2:
@@ -55,14 +49,34 @@ if __name__ == "__main__":
     dict_translated = dict[['key', 'text', 'notes']].copy()   # create a new dictionary, copy columns key and text
     dict_translated['english'] = dict['text'].copy() # add a column 'english' and fill with 'text' from english dictionary
     print("\nTranslating ...")
-    translator = Translator()
-    number_characters = 0      # you can translate up to 500,000 characters per month for free
+    # translator = Translator()
+    number_characters = 0      # you can translate up to 2,000,000 characters per month for free in S0 tier for 12 months
+
+    # Setup Azure AI Translator https://azure.microsoft.com/en-us/products/ai-services/ai-translator
+    path = '/translate?api-version=3.0'
+    params = '&from=en&to=' + language
+    constructed_url = endpoint + path + params
+
+    headers = {
+        'Ocp-Apim-Subscription-Key': subscription_key,
+        'Ocp-Apim-Subscription-Region': region,
+        'Content-type': 'application/json',
+        'X-ClientTraceId': str(uuid.uuid4())
+    }
+
     for index, row in dict_translated.iterrows(): # with 3 columns 'key' 'text' and 'english'
         # dict_translated.at[index, 'text'] = "new"
         english_text = row.english
         number_characters += len(english_text)
-        if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
-            dict_translated.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
+        if not english_text == " ": # applies to fields with an empty string
+            body = [ {'Text' : english_text} ]
+            request = requests.post(constructed_url, headers=headers, json=body)
+            response = request.json()
+            dict_translated.at[index, 'text'] = response[0]['translations'][0]['text']
+
+            # it was just this one line with Google Translate and the googletrans API
+            # dict_translated.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
+
             print('.', end='')
             # print(f'English: {english_text}, Translated: {dict_translated[index]}')
         if (index + 1) % 40 == 0:

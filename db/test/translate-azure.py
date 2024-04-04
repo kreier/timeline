@@ -10,8 +10,7 @@
 import os, requests, uuid, json
 
 target_language = "yue"
-text1 = "Translate this Hello World"
-text2 = "This is another example."
+english_original = "Translate this text into a new langauge."
 
 # use this if you want to use environment variables:
 # from dotenv import load_dotenv
@@ -53,11 +52,17 @@ headers = {
 
 # You can pass more than one object in body.
 body = [
-    {'text' : text1},
-    {'text' : text2}
+    {'Text' : english_original}
 ]
 request = requests.post(constructed_url, headers=headers, json=body)
 response = request.json()
 
 print(json.dumps(response, sort_keys=True, indent=4, ensure_ascii=False, separators=(',', ': ')))
+print(response)
+
+translation = response[0]['translations'][0]['text']
+
 # print(response.json_object["name"])
+
+# translation = response['translations']
+print(translation)
