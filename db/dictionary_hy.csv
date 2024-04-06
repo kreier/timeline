@@ -1,0 +1,401 @@
+key,text,notes,english
+version,4.5,,4.5
+pdf_title,6000 տարվա մարդկության պատմությունը պատկերավոր,,6000 years human history visualized
+pdf_subject,Մարդասերների ժամանակացույցը,,Timeline of humankind
+BCE,Մ.թ.ա.,,B.C.E.
+CE,Ք.ա.,,C.E.
+year,տարի,"timespan, age (Adam was 130 years old when Shem was born)",year
+years,տարիներ,,years
+years_age,տարիներ,years when used as age for a person (different word than years in some languages),years
+age_kings, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""", 
+month,ամիս,,month
+months,ամիսներ,,months
+day,օր,,day
+days,օրեր,,days
+to,to,,to
+people,մարդիկ,,people
+judges,դատավորներ,,judges
+prophets,մարգարեներ,,prophets
+kings,թագավորներ,,kings
+periods,ժամանակաշրջաններ,,periods
+events,իրադարձությունները,,events
+objects,առարկաներ կամ իրեր,,objects or items
+Deluge,Դելյուգ,,Deluge
+Adam,Ադամ,,Adam
+Seth,Սեթ,,Seth
+Enosh,Ենոշ,,Enosh
+Kenan,Կենան,,Kenan
+Mahalalel,Մահալել,,Mahalalel
+Jared,Ջարեդ,,Jared
+Enoch,Ենոքյան,,Enoch
+Methuselah,Մետուսելա,,Methuselah
+Lamech,Ղամեք,,Lamech
+Noah,Նոյ,,Noah
+Shem,Շեմ,,Shem
+Arpachshad,Արփիկ,,Arpachshad
+Shelah,Շելլա,,Shelah
+Eber,Էբեր,,Eber
+Peleg,Պելեգ,,Peleg
+Reu,Ռեու,,Reu
+Serug,Սերուգ,,Serug
+Nahor,Նահոր,,Nahor
+Terah,Տերա,,Terah
+Abraham,Աբրահամյան,,Abraham
+Isaac,Իսահակյան,,Isaac
+Jacob,Հակոբյան,,Jacob
+Joseph,Հովսեփյան,,Joseph
+Moses,Մովսիսյան,,Moses
+Othniel,Օթնիել,,Othniel
+Ehud,Ավուդ,,Ehud
+Shamgar,Շամգար,,Shamgar
+Barak,Բարակ,,Barak
+Gideon,Գեդեոն,,Gideon
+Tola,Ցոլա,,Tola
+Jair,Հայար,,Jair
+Jephthah,Հեփթա,,Jephthah
+Ibzan,Իբզան,,Ibzan
+Elon,Էլոն,,Elon
+Abdon,Աբդոն,,Abdon
+Samson,Սամսոն,,Samson
+Samuel,Սամվել,,Samuel
+Saul,Սաուլ,,Saul
+David,Դավթյան,,David
+Solomo,Սոլոմո,,Solomo
+Rehoboam,Ռեհոբով,first king of southern kingdom of Juda,Rehoboam
+Abijah,Աբիջա (Աբիա),"3 years, also Abijam",Abijah (Abijam)
+Asa,Ասյա,,Asa
+Jehoshaphat,Հովասափյան,bce_float = -y+1 - (12-m)/12 – (31-d)/360,Jehoshaphat
+Jehoram2,Հովրամ,,Jehoram
+Ahaziah,Այազեան,,Ahaziah
+Athaliah,Թագուհի Աթալեան,Queen Athaliah,Queen Athaliah
+Jehoash,Հովաս,,Jehoash
+Amaziah,Ամասիա,,Amaziah
+Uzziah,Օզիյա (Ազարիա),also Azariah,Uzziah (Azariah)
+Jotham,Ջոթամ,,Jotham
+Ahaz,Ահազ,,Ahaz
+Hezekiah,Եզեկիա,,Hezekiah
+Manasseh,Մանասյան,,Manasseh
+Amon,Ամոնի,,Amon
+Josiah,Հովսիա,,Josiah
+Jehoahaz,Հովազ,Only 3 months,Jehoahaz
+Jehoiakim,Հովակիմ,,Jehoiakim
+Jehoiachin,Հովեյան,Only 3 months 10 days,Jehoiachin
+Zedekiah,Զիդան,,Zedekiah
+Jeroboam,Հերոբովամ,first king of northern 10-tribe kingdom,Jeroboam
+Nadab,Նադաբ,less than 2,Nadab
+Baasha,Բաաշա,,Baasha
+Elah,Էլլա,,Elah
+Zimri,Զիմրի,Only 7 days in ca. 751 BCE,Zimri
+OmriTibni,Օմրին եւ Տիբնին միասին,4 years Omri and Tibni,Omri and Tibni together
+Omri,Օմրի (մենյուն),from 947 Omri alone,Omri (alone)
+Ahab,Աքաաբ,,Ahab
+Ahaziah,Այազեան,,Ahaziah
+Jehoram,Հովրամ,,Jehoram
+Jehu,Հեու,,Jehu
+Jeoahaz,Հովազ,,Jeoahaz
+JeoahazJehoash,Հովազ եւ Հովազ,For 3 years Jeoahaz and Jeoash reigned together,Jeoahaz and Jehoash
+Jehoash2,Հովազ (մենա-,Jehoash (alone),Jehoash (alone)
+Jeroboam2,Հերոբովամ II,,Jeroboam II
+Zechariah,Զաքարիա,"reign only recorded 6 months, probably only established 792 BCE",Zechariah
+Schallum,Շալլում,only one month,Schallum
+Menahem,Մենահեմ,,Menahem
+Pekahiah,Պեքճեան,,Pekahiah
+Pekah,Պեկա,,Pekah
+Hoshea,Հոշեա,9 years from c. 748,Hoshea
+Elijah,Եղիա,,Elijah
+Elisha,Եղիշե,,Elisha
+Jonah,Հովնան,,Jonah
+Amos,Ամոս,,Amos
+Joel,Ջոել,,Joel
+Hosea,Հոսե,,Hosea
+Isaiah,Եսայան,,Isaiah
+Micah,Միկա,,Micah
+Zephaniah,Սոփոնիա,,Zephaniah
+Nahum,Նաում,,Nahum
+Jeremiah,Երեմյան,,Jeremiah
+Habakuk,Ամբակում,,Habakuk
+Daniel,Դանիել,,Daniel
+Ezekiel,Եզեկիել,,Ezekiel
+Obadiah,Օբադիա,,Obadiah
+Malachi,Մաղաքիա,,Malachi
+Ruth,Հարութ,,Ruth
+Ezra,Եզնիկ,,Ezra
+Nehemiah,Նեեմիա,,Nehemiah
+Esther,Էսթեր,,Esther
+Job,Յոբ,,Job
+moses2,1593-1473 թթ. – 120 տարի,,1593 to 1473 B.C.E. – 120 years
+moses3,Մովսիսյան,,Moses
+wilderness,Իսրայելը անապատում մ.թ.ա. 1513 – 1473 թթ. – 40 տարի,,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years
+timespan_judges,1473-1117 թթ. – 356 տարի,,1473 to 1117 B.C.E. – 356 years
+timespan_judges2,Դատավորների ժամանակը,,Time of the judges
+temple1,Նիսանի մ.թ.ա. 1513 թ. մինչեւ Զիվ 1034 թ.,,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.
+temple2,479 տարի մինչեւ տաճարի կառուցումը – 1 Թագավորներ 6.1,1034 BCE,479 years until the temple construction – 1 Kings 6:1
+69weeks,Հիսուսը մկրտեց մ.թ. 29 թ.,,Jesus baptized autumn 29 C.E.
+69weeks2,69 շաբաթ դեպի Մեսսի – Դանիել 9:25,,69 weeks to the Messiah – Daniel 9:25
+jesus_service,"3,5 տարի Հիսուսի ծառայության ընթացքում մահապատժի ենթարկվեց նիսանի 14-րդ, մ.թ. 33 թ.",,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E."
+jesus_life,Հիսուսը ծնվել է մ.թ.ա. 2– ին,,Jesus born 2 B.C.E.
+exile,մ.թ.ա. 607–537 թթ. – 70 տարի (Երեմիա 25:11),,607 to 537 B.C.E. – 70 years (Jeremiah 25:11)
+exile2,աքսորավայր,,exile
+7times,Հայտնություն 12.9,,Revelation 12:9
+7times2,7 անգամ – 2520 տարի մինչեւ Մեսիական Թագավորություն 1914 թ. (Դանիել 4:23),,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)
+ww1,Առաջին համաշխարհային պատերազմ – 1914–1918 թթ.,,World War I – 1914–1918 C.E.
+ww2,Երկրորդ համաշխարհային պատերազմ – 1939–1945 թթ.,,World War II – 1939–1945 C.E.
+30_year_war,Երեսնամյա պատերազմը Եվրոպայում 1618-1648 թթ.,,Thirty Years' War in Europe 1618-1648
+joshua,110 տարի,,110 years
+joshua2,Ջոշուա,,Joshua
+caleb,ավելի քան 85 տարի,,more than 85 years
+caleb2,Քաղեբ,,Caleb
+missionary1,"Պողոսի առաջին միսիոներական ճամփորդությունը, մ.թ. 47-48 թթ. Բառնաբասի եւ Հովհաննես Մարկոսի հետ",,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark"
+circumcision,"Թլպատման հարցը Անտիոքում, Երուսաղեմում մ.թ. 49 թ.",,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E."
+missionary2,Միսիոներական երկրորդ ճամփորդությունը մ.թ. 49-52 թթ. Սիլասի հետ (Սիլվանուս),,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)
+missionary3,Սիսիանի երրորդ ճամբորդությունը մ.թ. 52-56 թթ.,,Third Missionary Journey c. 52-56 C.E.
+caesarea,"Պոլիս, Կեսարիոյ մէջ, 56-58 թթ.",,Paul in custody in Caesarea c. 56-58 C.E.
+rome1,Պողոսի առաջին բանտարկությունը Հռոմում մ.թ. 59-61 թթ.,,Paul’s first imprisonment in Rome c. 59-61 C.E.
+rome2,"Պողոսի երկրորդ բանտարկությունը Հռոմում մ.թ. 65 CE, Բ Տիմոթեոսը գրեց, Պողոսը մահապատժի ենթարկվեց",,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed"
+Julius,Հուլիոս,,Julius
+Augustus,Ավգուստուս,,Augustus
+Tiberius,Տիբերիոս,,Tiberius
+Caligula,Կալիգուլա,,Caligula
+Claudius,Կլավդիոս,,Claudius
+Nero,Ներոն,,Nero
+Galba-Otho-Vitellius,"Գալբա, Օթհո եւ Վիտելիոս (Չորս կայսրերի տարի)",,"Galba, Otho and Vitellius (Year of the Four Emperors)"
+Vespasian,Վեսպասիանոս,,Vespasian
+event_exodus,Եգիպտոսից ելքը մ.թ.ա. 1513 թ. Նիսանի 14-րդ օրը։,,"Exodus from Egypt on Nisan 14th, 1513 B.C.E."
+event_division_kingdom,Բաժին Իսրայել 997 BCE,,Division of Israel 997 BCE
+event_destruction_samaria,Սամարիայի կործանումը մ.թ.ա. 740 թ. Ասորեստանի կողմից,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
+event_destruction_samaria2,740 Ասորեստան,was shortened here for 2 lines,740 B.C.E. by Assyria
+event_destruction_jerusalem1,Երուսաղեմի կործանումը մ.թ.ա. 607 թ. Բաբելոնի կողմից՝ թագավորության բաժանումից 390 տարի անց (Եզեկիել 4.5),,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)"
+event_temple_rebuilt,Երուսաղեմի տաճարը վերակառուցվել է մ.թ.ա. 515 թ.,,Temple in Jerusalem rebuilt 515 B.C.E.
+event_jerusalem_rebuilt,Երուսաղեմի պարիսպը վերակառուցվել է մ.թ.ա. 455 թ.,,Jerusalem wall rebuilt 455 B.C.E.
+event_destruction_jerusalem2,70 թ. Երուսաղեմի կործանումը Հռոմի կողմից Տիտոսի օրոք,,Destruction of Jerusalem 70 C.E. by Rome under Titus
+event_1914,Ազգերի ժամանակների վերջում Աստվածների թագավորությունը սկսում է իշխել երկնքում 1914 թ. – ին ։ ,,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. "
+became_king,տարիքում դարձավ թագավոր,,became king at age
+vulgate,Վուլգատը ավարտել է Հերոնիմոսի կողմից (Աստվածաշնչի լատիներեն թարգմանությունը) մ.թ. 405 թ.,,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
+gutenberg,Գուտենբերգի Աստվածաշունչը տպագրվել է 1455 թ.,,Gutenberg bible printed 1455
+erasmus,Քրիստոնեական Հունարեն Գրությունների հունարեն տեքստը հրատարակվել է Դեզիդրիոս Էրազմի կողմից Ռոտերդամի 1516 թ.,,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
+luther,Լյութեր Աստվածաշնչի թարգմանությունը 1522 թ. սեպտեմբերին,,Luther Bible translation in September 1522
+tyndale,Անգլերեն Աստվածաշնչի թարգմանությունը Թինդալի 1536 թ.,,English Bible translation by Tyndale 1536
+king_james,Ջեյմս թագավորի Աստվածաշունչը 1611 թ.,,King James Bible 1611
+69weeks3,"Հիսուսը սկսում է իր ծառայությունը 29 CE (Luke 3:1, 21)",,"Jesus starts his service 29 CE (Luke 3:1, 21)"
+ransom,շաբաթվա կեսին «զոհ՝ դադարեցնելու» Դանիել 9:27,,middle of week “sacrifice to cease” Daniel 9:27
+cornelius,Կոռնելիոսը մկրտվեց մ.թ. 36–ին՝ 70 շաբաթվա վերջում (Դանիել 9։24)։,,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.
+columbus,նախակոլումբիական ժամանակաշրջանի ավարտը Ամերիկայում 1492 թ.,,end of the pre-columbian period in the Americas 1492
+declaration_independence,ամերիկայի 13 գաղութներու անկախութեան հռչակումը 1776,,declaration of independence of 13 colonies in America 1776
+tischendorf,Թիշենդորֆը հայտնաբերում է «Սինատիկա» մատյանը 4-րդ դարից 1844 թ.,,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844
+dead_sea_scrolls,Մեռյալ ծովի ձեռագրերը գրվել են,,Dead Sea Scrolls written
+septuagint,Սեֆյան LXX թարգմ.,,Septuagint LXX translated
+watchtower,«Սիոնի Դիտարանը եւ Քրիստոսի ներկայության հերալդը» առաջին համարը լույս է տեսնում 1879 թ.,,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879
+photodrama,«Դիմանկարը» առաջին անգամ ցուցադրվել է Նյու Յորքում 1914 թվականի հունվարի 11-ին,,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914"
+jehovahs_witnesses,"Աստվածաշունչ ուսումնասիրողները ընդունեցին նոր անուն – Եհովայի վկաներ ։ Կոլումբուսում, Օհայո, 1931 թ.",,"The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931"
+gilead_school,« Դիտարանի » աստվածաշնչյան « Գաղաադ » դպրոցը սկսվեց երկուշաբթի օրը ՝ 1943 թ. փետրվարի 1 – ին,,"Watchtower Bible School of Gilead began on Monday, February 1, 1943"
+new_world_translation1,«Նոր աշխարհ թարգմանությունը» թողարկվել է 1960 թ. հունիսի 18-ին Մանչեստրում (Անգլիա),,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960"
+truth_book,"«Ճշմարտությունը, որ տանում է դեպի հավերժական կյանք» գիրքը լույս է տեսել 1968 թ.",,The book “The Truth That Leads to Eternal Life” released 1968
+metropolitan,2011թ.-ին սկսվեց մեծ քաղաքային վկայությունը,,Start of metropolitan witnessing in 2011
+jw_org,JW.ORG սկիզբը 2012թ. դեկտեմբերին թագավորության ծառայության հրահանգներով,,Start of JW.ORG with instructions in kingdom ministry December 2012
+new_world_translation2,2013թ. տարեկան հանդիպման ժամանակ լույս տեսավ «Աստվածաշնչի նոր աշխարհ թարգմանությունը»,,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013
+jw_broadcasting,Jw.broadcasting-ի սկիզբը 2014 թվականի հոկտեմբերին,,Start of jw.broadcasting in October 2014
+meeting_workbook,2016 թվականի հունվարից սկսած միջշաբաթյա հանդիպման նոր ձեւաչափ «հանդիպման աշխատանքային գրքույկի» հետ,,New format of midweek meeting with “meeting workbook” starting January 2016
+covid19,Covid-19,,Covid-19
+cold_war,«Սառը պատերազմ» 1945-1991 թթ. պիտակավորված աշխարհաքաղաքական իրավիճակը,,Geopolitical situation labeled “Cold War” 1945-1991
+timeline_created,"Այս ժամանակացույցը ստեղծվել է 2023 թվականին, մարդկության պատմության ամենատաք տարին եւ վերջին 125.000 տարիները",,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years"
+codex_sinaiticus,Մատյան Սինայեցու գրավոր,,Codex Sinaiticus written
+codex_vaticanus,Մատյան Վատիկանի գրավոր,,Codex Vaticanus written
+leningrad_codex,Լենինգրադյան մատյանը գրվել է Կահիրեում AD 1008,,Leningrad Codex written in Cairo AD 1008
+john,"Հովհաննեսը «հայտնություն» է գրում, երբ աքսորված էր Պատմոս 96-98 թթ.",,John writes “revelation” while exiled on Patmos 96-98 C.E.
+nicaea1,Նիկիայի առաջին խորհուրդ,,First Council of Nicaea
+buddha,Բուդդա – Սիդհարթա Գաութամա մ.թ.ա. 563-մ.թ.ա. 483,,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E
+buddha2,Բուդդան այլմոլորակային մ.թ.ա. 480-400 թթ.,,Buddha alternatively c. 480-400 B.C.E.
+mohammed,Մուհամմադ մ.թ. 570-632 թթ.,,Mohammed c. 570-632 C.E.
+confucius,Կոնֆուցիոս մ.թ.ա. 551-մ.թ.ա. 479,,Confucius c.551-c.479 B.C.E.
+hijrah,Հիջրա - Ճանապարհորդություն Մեքքա դեպի Մեդինա 16 Հուլիս 622,,Hijrah - Journey Mecca to Medina 16 July 622
+moses_escape,"1553 մ.թ.ա. Մովսեսը պետք է փախչի Եգիպտոսից – Ելք 2.15, Գործք 7.23",,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23"
+10plagues,1513 թ. Եգիպտոսը ստանում է 10 պատուհաս,,1513 B.C.E Egypt receives 10 plagues
+joseph_sold,Հովսեփը 17 տարեկան հասակում վաճառվեց որպես ստրուկ – Ծն 37.2,,Joseph sold as slave at the age of 17 – Gen 37:2
+infliction,400 տարվա ներհոսք (Գործք 7:6) – Իսմայիլ 1913թ.,,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E
+Alexander,Ալեքսանդր Մակեդոնացին (Դանիել 11:3),,Alexander the Great (Daniel 11:3)
+persia,"Կյուրոս Մեծ, Կամբյուսես II, Դարեհ I 490 BCE, Xerxes I 480 BCE (եսթերի ամուսինը, Դանիել 11:2)",,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)"
+persia2,Պարսկաստան,,Persia
+king_north,"Սելեւկոս I Նիկատոր (v5) Ասորիքից մինչեւ Անտիոքոս III (v10) եւ Սելեւկոս IV (v18, 19) ի վար մինչեւ Օկտավիանոս (v20) եւ Տիբերիոս (v21-24)",,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)"
+king_north1,Հյուսիսի արքա,,King of the North
+king_south,"Պտղոմեոս I, II, III, IV (v11, 12), V (v15, 16) ճակատամարտի Ակտիումի մ.թ.ա. 31 թ.",,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
+king_south1,Հարաւային թագաւոր,,King of the South
+king_south2,"Բրիտանական կայսրություն 1870, Անգլո-ամերիկյան աշխարհակալ ուժ 1914 թվականից",,"British empire 1870, Anglo-American World Power since 1914"
+king_south3,Հարաւային թագաւոր,,King of the South
+king_north2,"Գերմանիան կայսր Վիլյամ I-ի հետ 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Հյուսիս,,North
+king_north4,"ԽՍՀՄ 1945-1991 (Դանիել 11:32-39, 40բ, 41)",,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)"
+king_north5,Ռուսաստանը 2017 թվականից (w20 May),,Russia since 2017 (w20 May)
+time_of_end,"Քրիստոսի ներկայությունը, իրերի համակարգի ավարտը (Մատթ. 24:3), վերջին օրերը (2Տմ 3:1)",,"Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)"
+time_of_end2,վերջին օրերին,,last days
+suryavaman2,Սուրյավարման II թագավորը կառուցում է Անգկոր Վատ 1113-1150,,King Suryavarman II builds Angkor Wat 1113-1150
+notre-dame,Նոտր-Դամե դե Փարիզը կառուցել է 1163-1260 թթ.,,Notre-Dame de Paris built 1163-1260
+jehoiada,Հովիադան,,Jehoiada
+babel,Աշտարակ Բաբելը կառուցել է,,tower of Babel built
+Haggai,Անգգեյ,,Haggai
+Zephaniah,Սոփոնիա,,Zephaniah
+Zerubbabel,Զաւարեան (Ղուկ. 3:27),,Zerubbabel (Luke 3:27)
+Babylon,"Դանիել 2:32, 36-38; 7:4",,"Daniel 2:32, 36-38; 7:4"
+Medopersia,"Դանիել 2:32, 39; 7:5",,"Daniel 2:32, 39; 7:5"
+Greece,"Դանիել 2:32, 39; 7:6",,"Daniel 2:32, 39; 7:6"
+Rome,"Դանիել 2:33, 40; 7:7",,"Daniel 2:33, 40; 7:7"
+Angloamerica,"Դանիել 2:33, 41-43",,"Daniel 2:33, 41-43"
+Babylon_c,Բաբելոն,,Babylon
+Medopersia_c,Մեդո-Պարսկահայք,,Medo-Persia
+Greece_c,Հունաստան,,Greece
+Rome_c,Հռոմ,,Rome
+Angloamerica_c,Անգլո-ամերիկյան,,Anglo-America
+infliction1,400 տարվա ներհոսք,Acts 7:6,400 year infliction
+infliction2,Գործք 7.6,,Acts 7:6
+Jacob2,Հակոբյան/,Jacob/Israel 1858-1711 – 147 years,Jacob/
+Israel,Իսրայել,,Israel
+Sarah,Սառա,2008-1881 BCE – 127 years,Sarah
+Hagar,Հագարի,Genesis 21:14,Hagar
+Haran,Խառան,Genesis 11:26,Haran
+Nahor,Նահոր,,Nahor
+Reumah,Ռեումա,Concubine – 4 sons,Reumah
+Milcah,Միլկան,8 sons (Bethuel and 7 more),Milcah
+Lot,Լոտ,,Lot
+Lots_wife,Ղովտի կինը,,Lot’s wife
+Lots_daughters,Ղովտի դուստրեր,,Daughters of Lot
+Moab,Մովաբ (ավագ դուստր),,Moab (older daughter)
+Ammon,Բեն-ամմի (Ամմոն),,Ben-ammi (Ammon)
+Bethuel,Բեթուել,,Bethuel
+Rebekah,Ռեբեկա,,Rebekah
+Laban,Լաբան,,Laban
+Leah,Լիա,Genesis 35:23,Leah
+Rachel,Ռաքել,Genesis 35:24,Rachel
+Bilhah,Բիլլահ,Genesis 35:25,Bilhah
+Zilpah,Զիլպա,Genesis 35:26,Zilpah
+Reuben,Ռուբեն,,Reuben
+Simeon,Սիմեոն,,Simeon
+Levi,Լեւի,,Levi
+Judah,Հուդա,,Judah
+Issachar,Իսակովի,,Issachar
+Zebulun,Զաբուղ,,Zebulun
+Dinah,Դինա,Genesis 34,Dinah
+Esau,Եսաու/,,Esau/
+Edom,Էդոմ,Genesis 36:1,Edom
+Ishmael,Իսմայիլ,,Ishmael
+Manasseh2,(Մանասե,,(Manasseh
+Ephraim,եւ Եփրեմյան),,and Ephraim)
+Benjamin,Բենիամին,,Benjamin
+Dan,Դան,,Dan
+Naphtali,Նաֆտալի,,Naphtali
+Gad,Գադ,,Gad
+Asher,Աշեր,,Asher
+Milcah1,"Ուզ, Բուզ, Քեմուել,",,"Uz, Buz, Kemuel,"
+Milcah2,"Քեսեդ, Հազո,",,"Chesed, Hazo,"
+Milcah3,"Պիլդաշ, Ջիդլաֆ",,"Pildash, Jidlaph"
+Tebah,Տեբա,,Tebah
+Gaham,Գահամ,,Gaham
+Tahash,Թահաշ,,Tahash
+Maacah,Մաակա,,Maacah
+Mahalath,Մահալաթ/,"Genesis 28:8, 9",Mahalath/
+Basemath,Բազե·math,"Genesis36:3, 4",Base·math
+Reuel,Ռեուել,"36:13, 17",Reuel
+Nahath,Նահաթ,,Nahath
+Zerah,Զարա,,Zerah
+Schammah,Շամմա,,Schammah
+Mizzah,Միզա,,Mizzah
+Adah,Ադահ,"36:11, 12, 15, 16",Adah
+Eliphaz,Ելիփազ,,Eliphaz
+Teman,Թեման,,Teman
+Omar,Օմար,,Omar
+Zepho,Զեֆո,,Zepho
+Kenaz,Կենազ,,Kenaz
+Korah,Կորա,,Korah
+Gatam,Գատամ,,Gatam
+Amalek,Ամալեկ,,Amalek
+Oholibamah,Օհոլիբամա,"36:14, 18",Oholibamah
+Jeush,Ջեուշ,,Jeush
+Jalam,Ջալամ,,Jalam
+Korah,Կորա,,Korah
+Nebaioth,Նեբայոթ,Genesis 25:13,Nebaioth
+Kedar,Կեդար,,Kedar
+Adbeel,Ադբել,,Adbeel
+Mibsam,Միբսամ,,Mibsam
+Mishma,Միշմա,,Mishma
+Dumah,Դումա,,Dumah
+Massa,Մասսա,,Massa
+Hadad,Հադադ,,Hadad
+Tema,Տեմա,,Tema
+Jetur,Ջեթուր,,Jetur
+Naphish,Նաֆիշ,,Naphish
+Kedemah,Կեդեմա,,Kedemah
+Babylon2, ,no text left and right – empty!, 
+terahfam,Տերայի ընտանիքի անդամներ,,members of Terah’s family
+rosetta,Ռոզետտա քար մ.թ.ա. 196 թ.,,Rosetta stone 196 B.C.E.
+Herodotus,"Հերոդոտոս մ.թ.ա. 484 – մ. թ. ա. 425 մ.թ.ա., գրում է The Histories",Father of History,"Herodotus c. 484 – c. 425 BC, writes The Histories"
+Aristotle,Արիստոտել 384 – 322 BC,"The First Teacher, The Philosopher",Aristotle 384 – 322 BC
+Ptolemy,Պտղոմեոս գ. 100 – մ. թ. 170 թ.,,Ptolemy c 100 – c. 170 C.E.
+Pythagoras,Պյութագորաս գ. 570 – գ. թ. 495 BC,,Pythagoras c. 570 – c. 495 BC
+Plato,Պլուտարքոսի գ. 427 – մ. թ. ա. 348 BC,,Plato c. 427 – c. 348 BC
+Socrates,Սոկրատ գ. 470 – գ. թ. 399 BC,,Socrates c. 470 – c. 399 BC
+Josephus,Հովսեփյան մ.թ. 37 – մ.թ. 100 թ.,,Josephus c. 37 – c. 100 C.E.
+Cicero,Ցիցերոն 106-43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",Cicero 106–43 BC
+lachish_letters,Լաքիս տառեր մ.թ.ա. 590 թ.,,Lachish letters c. 590 B.C.E.
+lachish_reliefs,Լաքական թեթեւացումներ մ.թ.ա. 681 թ.,,Lachish reliefs c. 681 B.C.E.
+mesha_stele,Մեսրոպ Ստելե (Մովաբացի քար) մ.թ.ա. 840 թ.,,Mesha Stele (Moabite stone) c. 840 B.C.E.
+gilgamesh,Գիլգամեշը եւ Ագա 𒇽𒆥𒄄𒀀𒀝𒂵,,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Գիլգամեշի էպոս (Sîn-lēqi-unninni),,Epic of Gilgamesh (Sîn-lēqi-unninni)
+oxyrhynchus,Օքսիրհինխուս Պապիրի,,Oxyrhynchus Papyri
+p52,Պապիրուս P52,,Papyrus P52
+daniel2_shift,0,Start 4.2,0
+daniel2_1,Նաբուգոդոնոսոր թագավոր,607 BCE,King Nebuchadnezzar
+daniel2_2,կործանում է Երուսաղեմը,,destroys Jerusalem
+daniel2_3,Հաղթում է Բաբելոնը,539 BCE,Conquers Babylon
+daniel2_4,Սիրուշոյի հրամանները վերադառնում են,537 BCE,Cyrus decrees return
+daniel2_5,հրեաների կողմից Երուսաղեմ,,of Jews to Jerusalem
+daniel2_6,Ալեքսանդր Մակեդոնացու,331 BCE,Alexander the Great
+daniel2_7,նվաճում է Պարսկաստանը,,conquers Persia
+daniel2_8,Կանոններ Իսրայելի նկատմամբ,63 BCE,Rules over Israel
+daniel2_9,Կործանում է Երուսաղեմը,70 CE,Destroys Jerusalem
+daniel2_10,Առաջին համաշխարհային պատերազմի տարիներին,1914-1918 CE,"During World War I,"
+daniel2_11,Անգլո-ամերիկյան աշխարհակալ ուժ,,Anglo-American World Power
+daniel2_12,է գալիս,End 4.2,comes into being
+qing-dynasty,1636-1912,,1636-1912
+qing-dynasty_c,Կինգ դինաստիա,1636-1912,Qing dynasty
+ming-dynasty,1368-1644,,1368-1644
+ming-dynasty_c,Մին դինաստիան կայսերական Չինաստանում,1368-1644,Ming dynasty in imperial China
+yuan-dynasty,1271-1368,,1271-1368
+southern-song,1127-1279,,1127-1279
+northern-song,960-1127,,960-1127
+western-xia,1038-1227,,1038-1227
+yuan-dynasty_c,Յուան,1271-1368,Yuan
+southern-song_c,Հարավային երգ,1127-1279,Southern Song
+northern-song_c,Հյուսիսային երգ,960-1127,Northern Song
+western-xia_c,Արեւմտյան Xia,1038-1227,Western Xia
+Copernicus,Նիկողայոս Կոպեռնիկոս,,Nicolaus Copernicus
+Galileo,Գալիլեո Գալիլեյ,Galileo di Vincenzo Bonaiuti de' Galilei,Galileo Galilei
+Newton,Իսահակ Նյուտոն,,Isaac Newton
+gregorian,Գրիգորյան օրացույց 1582,,Gregorian calendar 1582
+shang-dynasty,մ. թ. ա. 1600-1046 մ.թ.ա.,,c. 1600-1046 BC
+western-zhou,գ. 1046-771 մ.թ.ա.,,c. 1046-771 BC
+eastern-zhou,770-256 մ.թ.ա.,,770-256 BC
+qin-dynasty,Qin 221-207 BC,,Qin 221-207 BC
+western-han,207 BC – 9 CE,,207 BC – 9 CE
+eastern-han,25-220 CE,,25-220 CE
+three-kingdoms,Երեք թագավորություններ 220-280 CE,,Three kingdoms 220-280 CE
+sixteen-kingdoms,Տասնվեց թագավորություններ 304-439 CE,,Sixteen kingdoms 304-439 CE
+northern-dynasties,368-581 CE,,368-581 CE
+southern-dynasties,420-589 CE,,420-589 CE
+tang-dynasty1, ,, 
+tang-dynasty2,"618-690, 705-907",,"618-690, 705-907"
+wu-zhou,690-705 Վու Ժու,,690-705 Wu Zhou
+shang-dynasty_c,Շանգ Դինաստիա,c. 1600-1046 BC,Shang Dynasty
+western-zhou_c,Արեւմտյան Ժու,c. 1046-771 BC,Western Zhou
+eastern-zhou_c,Արեւելյան Ժու,770-256 BC,Eastern Zhou
+western-han_c,Արեւմտյան Հան,207 BC – 9 CE,Western Han
+eastern-han_c,Արեւելյան Հան,25-220 CE,Eastern Han
+three-kingdoms_c,Չինաստան,Three kingdoms 220-280 CE,China
+sixteen-kingdoms_c,Չինաստան,Sixteen kingdoms 304-439 CE,China
+northern-dynasties_c,Հյուսիսային դինաստիաներ,368-581 CE,Northern Dynasties
+southern-dynasties_c,Հարավային դինաստիաներ,420-589 CE,Southern Dynasties
+tang-dynasty1_c,Թանգ,,Tang
+tang-dynasty2_c,Թանգ դինաստիա,"618-690, 705-907",Tang Dynasty
+xia-dynasty,Xia dynasty in China c. 2070 – c. 1600 BC,,Xia dynasty in China c. 2070 – c. 1600 BC
+gonghe,Գոնգե Ռեգենսի 841-828 BC,,Gonghe Regency 841-828 BC
+Ashoka,Աշոկան (մ.թ.ա. 304-232 թթ.) առաջ է քաշում բուդդայականությունը,,Ashoka (c. 304-232 BC) promotes Buddhism
+siloam-tunnel,Եզեկիան երկարացնում է Սիլոամի թունելը,c. 742-732 BC,Hezekiah extends Siloam tunnel
+Angloamerica2,"Անգլո-ամերիկացին խորհրդանշում է Դանիէլ 2:33, 41-43-ում մարգարեութեան մէջ կավի հետ խառնուած երկաթի ոտքերը",,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43"
+Manetho,Մանետոն գրում է Aegyptiaca,,Manetho writes Aegyptiaca
