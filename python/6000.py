@@ -767,6 +767,7 @@ def create_daniel2():
             c.drawString(x_position(-4026) + indentation, y_line - 30 - 8 * yearline, dict[line_daniel2])
             current_yearline += 1
     drawing = svg2rlg("../images/daniel2.svg")
+    # drawing = svg2rlg("../images/daniel2lite.svg")
     factor = desired_height / drawing.height
     sx = sy = factor
     drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
