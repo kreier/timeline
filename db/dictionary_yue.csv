@@ -168,7 +168,7 @@ event_destruction_jerusalem1,公元前607年，巴比倫在耶路撒冷分裂390
 event_temple_rebuilt,耶路撒冷嘅聖殿重建於公元前515年。,,Temple in Jerusalem rebuilt 515 B.C.E.
 event_jerusalem_rebuilt,耶路撒冷城牆重建於公元前455年,,Jerusalem wall rebuilt 455 B.C.E.
 event_destruction_jerusalem2,公元70年罗马喺提图斯統治下摧毀耶路撒冷,,Destruction of Jerusalem 70 C.E. by Rome under Titus
-event_1914,萬國時代的終結，神嘅國度開始喺天上統治公元1914年 ,,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. "
+event_1914,萬國時代的終結，神嘅國度開始喺天上統治公元1914年,,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. "
 became_king,年紀大咗就成了國王,,became king at age
 vulgate,杰罗姆（ Jerome ）完成嘅通俗譯本（聖經嘅拉丁文譯本）約公元405年,,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
 gutenberg,古腾堡聖經印刷1455年,,Gutenberg bible printed 1455
@@ -234,15 +234,15 @@ babel,巴别塔建成,,tower of Babel built
 Haggai,哈該,,Haggai
 Zephaniah,西番雅,,Zephaniah
 Zerubbabel,所罗巴伯（路加福音3：27 ）,,Zerubbabel (Luke 3:27)
-Babylon,"但以理書2：32,36-38; 7:4",,"Daniel 2:32, 36-38; 7:4"
-Medopersia,"但以理書2：32,39; 7:5",,"Daniel 2:32, 39; 7:5"
-Greece,"但以理書2：32,39; 7:6",,"Daniel 2:32, 39; 7:6"
-Rome,"但以理書2：33,40; 7:7",,"Daniel 2:33, 40; 7:7"
-Angloamerica,"但以理書2：33,41-43",,"Daniel 2:33, 41-43"
-Babylon_c,巴比倫,,Babylon
-Medopersia_c,米多波斯,,Medo-Persia
-Greece_c,希臘,,Greece
-Rome_c,羅馬,,Rome
+Babylon,"但以理书 2:32, 36-38; 7:4",,"Daniel 2:32, 36-38; 7:4"
+Medopersia,"但以理书 2:32, 39; 7:5",,"Daniel 2:32, 39; 7:5"
+Greece,"但以理书 2:32, 39; 7:6",,"Daniel 2:32, 39; 7:6"
+Rome,"但以理书 2:33, 40; 7:7",,"Daniel 2:33, 40; 7:7"
+Angloamerica,"但以理书 2:33, 41-43",,"Daniel 2:33, 41-43"
+Babylon_c,巴比伦,,Babylon
+Medopersia_c,米底亚－波斯,,Medo-Persia
+Greece_c,希腊,,Greece
+Rome_c,罗马,,Rome
 Angloamerica_c,英美,,Anglo-America
 infliction1,400年受害,Acts 7:6,400 year infliction
 infliction2,使徒行傳7：6,,Acts 7:6
@@ -342,17 +342,17 @@ oxyrhynchus,Oxyrhynchus紙莎草紙,,Oxyrhynchus Papyri
 p52,紙莎草紙P52,,Papyrus P52
 daniel2_shift,0,Start 4.2,0
 daniel2_1,尼布甲尼撒王,607 BCE,King Nebuchadnezzar
-daniel2_2,摧毀耶路撒冷,,destroys Jerusalem
-daniel2_3,征服巴比倫,539 BCE,Conquers Babylon
-daniel2_4,居魯士法令回歸,537 BCE,Cyrus decrees return
-daniel2_5,猶太人到耶路撒冷,,of Jews to Jerusalem
-daniel2_6,亞歷山大大帝,331 BCE,Alexander the Great
-daniel2_7,征服波斯,,conquers Persia
-daniel2_8,對以色列嘅統治,63 BCE,Rules over Israel
-daniel2_9,摧毀耶路撒冷,70 CE,Destroys Jerusalem
-daniel2_10,第一次世界大戰期間，,1914-1918 CE,"During World War I,"
-daniel2_11,英美世界強國,,Anglo-American World Power
-daniel2_12,應運而生,End 4.2,comes into being
+daniel2_2,摧毁耶路撒冷,,destroys Jerusalem
+daniel2_3,征服巴比伦,539 BCE,Conquers Babylon
+daniel2_4,居鲁士下旨让犹,537 BCE,Cyrus decrees return
+daniel2_5,太人返回耶路撒冷,,of Jews to Jerusalem
+daniel2_6,亚历山大,331 BCE,Alexander the Great
+daniel2_7,大帝征服波斯,,conquers Persia
+daniel2_8,开始统治以色列,63 BCE,Rules over Israel
+daniel2_9,摧毁耶路撒冷,70 CE,Destroys Jerusalem
+daniel2_10,第一次世界大战期间，,1914-1918 CE,"During World War I,"
+daniel2_11,英美世界霸权崛起,,Anglo-American World Power
+daniel2_12, ,End 4.2,comes into being
 qing-dynasty,1636-1912,,1636-1912
 qing-dynasty_c,清朝,1636-1912,Qing dynasty
 ming-dynasty,1368-1644,,1368-1644
