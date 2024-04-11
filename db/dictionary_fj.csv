@@ -1,0 +1,401 @@
+key,text,notes,english
+version,4.5,,4.5
+pdf_title,6000 na yabaki ni itukutuku ni kawatamata e raitayaloyalotaki,,6000 years human history visualized
+pdf_subject,iTuvatuva ni kawatamata,,Timeline of humankind
+BCE,B.K.E.,,B.C.E.
+CE,C.E.,,C.E.
+year,yabaki,"timespan, age (Adam was 130 years old when Shem was born)",year
+years,veiyabaki,,years
+years_age,veiyabaki,years when used as age for a person (different word than years in some languages),years
+age_kings, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""", 
+month,vula,,month
+months,Veivula,,months
+day,siga,,day
+days,siga,,days
+to,ki na,,to
+people,tamata,,people
+judges,turaganilewa,,judges
+prophets,parofita,,prophets
+kings,tui,,kings
+periods,gauna,,periods
+events,veika a yaco,,events
+objects,iyaya se iyaya,,objects or items
+Deluge,Waluvu,,Deluge
+Adam,Atama,,Adam
+Seth,Seci,,Seth
+Enosh,Inosh,,Enosh
+Kenan,Kenan,,Kenan
+Mahalalel,Mahalalel,,Mahalalel
+Jared,Jereti,,Jared
+Enoch,Inoki,,Enoch
+Methuselah,Mecusela,,Methuselah
+Lamech,Lokiloki,,Lamech
+Noah,Noa,,Noah
+Shem,Semi,,Shem
+Arpachshad,Apatisati,,Arpachshad
+Shelah,Shelah,,Shelah
+Eber,Eber,,Eber
+Peleg,Peleg,,Peleg
+Reu,Reu,,Reu
+Serug,Serug,,Serug
+Nahor,Neori,,Nahor
+Terah,Terah,,Terah
+Abraham,Eparaama,,Abraham
+Isaac,Aisake,,Isaac
+Jacob,Jekope,,Jacob
+Joseph,Josefa,,Joseph
+Moses,Mosese,,Moses
+Othniel,Ocieli,,Othniel
+Ehud,Ehud,,Ehud
+Shamgar,Shamgar,,Shamgar
+Barak,Barak,,Barak
+Gideon,Kitioni,,Gideon
+Tola,Tola,,Tola
+Jair,Jeiri,,Jair
+Jephthah,Jefica,,Jephthah
+Ibzan,Ibzan,,Ibzan
+Elon,Balavu,,Elon
+Abdon,Abdon,,Abdon
+Samson,Samisoni,,Samson
+Samuel,Samuela,,Samuel
+Saul,Saula,,Saul
+David,Tevita,,David
+Solomo,Solomo,,Solomo
+Rehoboam,Riopoami,first king of southern kingdom of Juda,Rehoboam
+Abijah,Epaia (Abijam),"3 years, also Abijam",Abijah (Abijam)
+Asa,Asa,,Asa
+Jehoshaphat,Jiosafati,bce_float = -y+1 - (12-m)/12 – (31-d)/360,Jehoshaphat
+Jehoram2,Jehorama,,Jehoram
+Ahaziah,Easaia,,Ahaziah
+Athaliah,Ranadi Acalaia,Queen Athaliah,Queen Athaliah
+Jehoash,Jehoash,,Jehoash
+Amaziah,Amasaia,,Amaziah
+Uzziah,Usaia (Asaraia),also Azariah,Uzziah (Azariah)
+Jotham,Jotham,,Jotham
+Ahaz,Easi,,Ahaz
+Hezekiah,Esekaia,,Hezekiah
+Manasseh,Manasa,,Manasseh
+Amon,Amoni,,Amon
+Josiah,Josaia,,Josiah
+Jehoahaz,Jehoahaz,Only 3 months,Jehoahaz
+Jehoiakim,Jioiakimi,,Jehoiakim
+Jehoiachin,Jioiakini,Only 3 months 10 days,Jehoiachin
+Zedekiah,Setekaia,,Zedekiah
+Jeroboam,Jeropoami,first king of northern 10-tribe kingdom,Jeroboam
+Nadab,Netapi,less than 2,Nadab
+Baasha,Baasha,,Baasha
+Elah,Elah,,Elah
+Zimri,Zimri,Only 7 days in ca. 751 BCE,Zimri
+OmriTibni,Rau sa Tibni vata o Omri kei Tibni,4 years Omri and Tibni,Omri and Tibni together
+Omri,Omri (duadua),from 947 Omri alone,Omri (alone)
+Ahab,Eapi,,Ahab
+Ahaziah,Easaia,,Ahaziah
+Jehoram,Jehorama,,Jehoram
+Jehu,Jeu,,Jehu
+Jeoahaz,Jeoahaz,,Jeoahaz
+JeoahazJehoash,Jeoahaz kei Jehoasi,For 3 years Jeoahaz and Jeoash reigned together,Jeoahaz and Jehoash
+Jehoash2,Jehoash (duadua),Jehoash (alone),Jehoash (alone)
+Jeroboam2,Jeroboami II,,Jeroboam II
+Zechariah,Sakaraia,"reign only recorded 6 months, probably only established 792 BCE",Zechariah
+Schallum,Schallum,only one month,Schallum
+Menahem,Menahem,,Menahem
+Pekahiah,Pekahia,,Pekahiah
+Pekah,Pekah,,Pekah
+Hoshea,Hoshea,9 years from c. 748,Hoshea
+Elijah,Ilaija,,Elijah
+Elisha,Ilaisa,,Elisha
+Jonah,Jona,,Jonah
+Amos,Emosi,,Amos
+Joel,Joeli,,Joel
+Hosea,Osea,,Hosea
+Isaiah,Aisea,,Isaiah
+Micah,Maika,,Micah
+Zephaniah,Sefanaia,,Zephaniah
+Nahum,Naumi,,Nahum
+Jeremiah,Jeremaia,,Jeremiah
+Habakuk,Apakuk,,Habakuk
+Daniel,Taniela,,Daniel
+Ezekiel,Isikeli,,Ezekiel
+Obadiah,Opetaia,,Obadiah
+Malachi,Malakai,,Malachi
+Ruth,Ruci,,Ruth
+Ezra,Esera,,Ezra
+Nehemiah,Niemaia,,Nehemiah
+Esther,Esiteri,,Esther
+Job,Jope,,Job
+moses2,1593 ki na 1473 B.K.K. – 120 na yabaki,,1593 to 1473 B.C.E. – 120 years
+moses3,Mosese,,Moses
+wilderness,Isireli ena lekutu 1513 ki na 1473 S.K.K. – 40 na yabaki,,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years
+timespan_judges,1473 ki na 1117 B.K.K. – 356 na yabaki,,1473 to 1117 B.C.E. – 356 years
+timespan_judges2,Nodra gauna na turaganilewa,,Time of the judges
+temple1,Nisan 1513 B.S.K. ki na Ziv 1034 B.S.K.,,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.
+temple2,479 na yabaki me yacova na tara ni valetabu – 1 Tui 6:1,1034 BCE,479 years until the temple construction – 1 Kings 6:1
+69weeks,A papitaisotaka o Jisu na vulaibatabata 29 S.K.,,Jesus baptized autumn 29 C.E.
+69weeks2,69 na macawa vua na Mesaia - Taniela 9:25,,69 weeks to the Messiah – Daniel 9:25
+jesus_service,"3.5 na yabaki ni veiqaravi nei Jisu, a vakamatei Nisani ena ika 14, 33 S.K.",,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E."
+jesus_life,Sucu o Jisu ena 2 B.S.K.,,Jesus born 2 B.C.E.
+exile,607 ki na 537 B.S.K. – 70 na yabaki (Jeremaia 25:11),,607 to 537 B.C.E. – 70 years (Jeremiah 25:11)
+exile2,kau vakavesu,,exile
+7times,Ai Vakatakila 12:9,,Revelation 12:9
+7times2,7 vaka - 2520 na yabaki ki na Matanitu vaka-Mesaia 1914 S.K. (Taniela 4:23),,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)
+ww1,iKarua ni iValu Levu – 1914–1918 S.K.,,World War I – 1914–1918 C.E.
+ww2,iKarua ni iValu Levu – 1939–1945 S.K.,,World War II – 1939–1945 C.E.
+30_year_war,Tolusagavulu na Yabaki ni iValu e Iurope 1618-1648,,Thirty Years' War in Europe 1618-1648
+joshua,110 na yabaki,,110 years
+joshua2,Josua,,Joshua
+caleb,sivia na 85 na yabaki,,more than 85 years
+caleb2,Kelepi,,Caleb
+missionary1,"iMatai ni iLakolako ni Kaulotu nei Paula, c. 47-48 S.K. kei Panapasa kei Joni Marika",,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark"
+circumcision,"Na cili e Anitioki, koniferedi e Jerusalemi c. 49 S.K.",,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E."
+missionary2,iKarua ni iLakolako ni Kaulotu c. 49-52 S.K kei Silas (Silvanus),,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)
+missionary3,iKatolu ni iLakolako ni Kaulotu c. 52-56 S.K.,,Third Missionary Journey c. 52-56 C.E.
+caesarea,Paula ena vesu e Sisaria c. 56-58 S.K.,,Paul in custody in Caesarea c. 56-58 C.E.
+rome1,Na imatai ni nona vesu o Paula e Roma c. 59-61 S.K.,,Paul’s first imprisonment in Rome c. 59-61 C.E.
+rome2,"iKarua ni vesu nei Paula mai Roma c. 65 CE, 2 Timoci vola, a vakamatei o Paula",,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed"
+Julius,Julius,,Julius
+Augustus,Augustus,,Augustus
+Tiberius,Tiberius,,Tiberius
+Caligula,Caligula,,Caligula
+Claudius,Claudius,,Claudius
+Nero,Nero,,Nero
+Galba-Otho-Vitellius,"Kalapa, Ocio kei Vitellius (Nodratou Yabaki na Empara e Va)",,"Galba, Otho and Vitellius (Year of the Four Emperors)"
+Vespasian,Vespasian,,Vespasian
+event_exodus,"Na Lako Tani mai Ijipita ena ika 14 ni Niisani, 1513 B.S.K.",,"Exodus from Egypt on Nisan 14th, 1513 B.C.E."
+event_division_kingdom,Tabana ni Isireli 997 B.S.K.,,Division of Israel 997 BCE
+event_destruction_samaria,Vakarusai mai Samaria 740 B.S.K. mai vei Asiria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
+event_destruction_samaria2,740 B.S.K. mai vei Assyria,was shortened here for 2 lines,740 B.C.E. by Assyria
+event_destruction_jerusalem1,"Vakarusai kei Jerusalemi 607 B.S.K. mai vei Papiloni, ni oti e 390 na yabaki mai na wasei ni matanitu (Isikeli 4:5)",,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)"
+event_temple_rebuilt,Tara tale na Valetabu e Jerusalemi ena 515 B.S.K.,,Temple in Jerusalem rebuilt 515 B.C.E.
+event_jerusalem_rebuilt,Tara tale na bai kei Jerusalemi na 455 B.S.K.,,Jerusalem wall rebuilt 455 B.C.E.
+event_destruction_jerusalem2,Vakarusai o Jerusalemi 70 S.K. mai Roma ena ruku ni veiliutaki nei Taito,,Destruction of Jerusalem 70 C.E. by Rome under Titus
+event_1914,"Ni sa cava na gauna ni veimatanitu, sa tekivu me veiliutaki na matanitu ni Kalou mai lomalagi 1914 S.K. ",,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. "
+became_king,yaco me tui ni sa yabaki,,became king at age
+vulgate,A vakacavara o Jerome (vakadewataka vakalatina ni ivolatabu) c. 405 S.K.,,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
+gutenberg,iVolatabu a tabaka o Gutenberg 1455,,Gutenberg bible printed 1455
+erasmus,iVolatabu Vakirisi Vakirisi Vakarisito tabaka o Desiderius Erasmus mai Rotterdam 1516,,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
+luther,Vakadewa ni iVolatabu ni Luther ena Sepiteba 1522,,Luther Bible translation in September 1522
+tyndale,iVakadewa ni iVolatabu Vakavalagi mai vei Tyndale 1536,,English Bible translation by Tyndale 1536
+king_james,King James Bible 1611,,King James Bible 1611
+69weeks3,"Tekivuna o Jisu na nona veiqaravi 29 CE (Luke 3:1, 21)",,"Jesus starts his service 29 CE (Luke 3:1, 21)"
+ransom,"ena lomadonu ni macawa ""na solibula me mudu"" Taniela 9:27",,middle of week “sacrifice to cease” Daniel 9:27
+cornelius,A papitaiso o Konilio ni sa cava e 70 na macawa (Taniela 9:24) ena 36 S.K.,,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.
+columbus,mua ni gauna ni bera na Columbian ena Amerika 1492,,end of the pre-columbian period in the Americas 1492
+declaration_independence,vakaraitaki ni bula vakataki koya e 13 na vanua vakaitikotiko e Amerika 1776,,declaration of independence of 13 colonies in America 1776
+tischendorf,E kunea o Tischendorf na Codex Sinaiticus mai na ika 4 ni senitiuri ena 1844,,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844
+dead_sea_scrolls,Volai na iVolavivigi ni Wasawasa Mate,,Dead Sea Scrolls written
+septuagint,Vakadewataki na Septuagint LXX,,Septuagint LXX translated
+watchtower,"Na imatai ni ilavelave ni ""Zion's Watch Tower and Herald of Christ's Presence"" e tabaki ena 1879",,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879
+photodrama,"Na ""Photo-Drama of Creation"" e vakaraitaki taumada mai Ni'u Ioka ena ika 11 ni Janueri, 1914",,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914"
+jehovahs_witnesses,"Era a taura na Gonevuli ni iVolatabu e dua na yaca vou – iVakadinadina i Jiova. Mai Columbus, Ohio, 1931",,"The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931"
+gilead_school,"A tekivu ena Moniti, 1 Feperueri, 1943, a tekivu na Koronivuli ni iVolatabu e Kiliati ena Moniti, 1 Feperueri, 1943",,"Watchtower Bible School of Gilead began on Monday, February 1, 1943"
+new_world_translation1,"""New World Translation of the Holy Scriptures"" ka soli mai Manchester, Igiladi ena ika 18 ni June, 1960",,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960"
+truth_book,"Na ivola ""The Truth That Leads to Eternal Life"" ka vagalalataki ena 1968",,The book “The Truth That Leads to Eternal Life” released 1968
+metropolitan,Tekivu ni metropolitan witnessing ena 2011,,Start of metropolitan witnessing in 2011
+jw_org,Tekivu ni JW.ORG kei na ivakasala ena cakacaka vakaitalatala ni matanitu Tiseba 2012,,Start of JW.ORG with instructions in kingdom ministry December 2012
+new_world_translation2,"Vakavoui ni ""New World Translation of the Holy Scriptures"" ka soli ena soqoni vakayabaki ni 2013",,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013
+jw_broadcasting,Tekivu ni jw.broadcasting ena Okotova 2014,,Start of jw.broadcasting in October 2014
+meeting_workbook,"Ituvatuva vou ni bose ena loma ni macawa kei na ""ivola ni cakacaka ni soqoni"" tekivu ena Janueri 2016",,New format of midweek meeting with “meeting workbook” starting January 2016
+covid19,Covid-19,,Covid-19
+cold_war,"Na ituvaki ni bula vakapolitiki e vakatokai me ""iValu Batabata"" 1945-1991",,Geopolitical situation labeled “Cold War” 1945-1991
+timeline_created,"Na gauna oqo a tauyavutaki ena 2023, na yabaki katakata duadua ena itukutuku ni kawatamata kei na 125,000 na yabaki sa oti",,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years"
+codex_sinaiticus,Vola o Codex Sinaiticus,,Codex Sinaiticus written
+codex_vaticanus,Vola o Codex Vaticanus,,Codex Vaticanus written
+leningrad_codex,Leningrad Codex volai e Cairo AD 1008,,Leningrad Codex written in Cairo AD 1008
+john,"Vola o Joni na ""ivakatakila"" ni tiko vakavesu ena Patmos 96-98 S.K.",,John writes “revelation” while exiled on Patmos 96-98 C.E.
+nicaea1,iMatai ni Matabose e Nicaea,,First Council of Nicaea
+buddha,Na Buddha - Siddhartha Gautama c.563-c.483 B.K.E,,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E
+buddha2,Buddha me kena isosomi c. 480-400 B.K.,,Buddha alternatively c. 480-400 B.C.E.
+mohammed,Mohammed c. 570-632 S.K.,,Mohammed c. 570-632 C.E.
+confucius,Confucius c.551-c.479 B.K.E.,,Confucius c.551-c.479 B.C.E.
+hijrah,Hijrah - iLakolako Mecca ki Medina 16 Julai 622,,Hijrah - Journey Mecca to Medina 16 July 622
+moses_escape,"1553 B.S.K. Sa dodonu me dro tani mai Ijipita o Mosese – Lako Yani 2:15, Cakacaka 7:23",,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23"
+10plagues,1513 B.S.K.E Sotava e Ijipita e 10 na mate veitauvi,,1513 B.C.E Egypt receives 10 plagues
+joseph_sold,Volitaki koya o Josefa me bobula ni sa yabaki 17 – Nai Vakatekivu 37:2,,Joseph sold as slave at the age of 17 – Gen 37:2
+infliction,400 na yabaki ni kena vakayacori (Cakacaka 7:6) – Isimeli 1913 B.S.K.,,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E
+Alexander,Alexander na Cecere (Taniela 11:3),,Alexander the Great (Daniel 11:3)
+persia,"Sairusi na Ka Levu, Cambyses II, Taraiase I 490 BCE, Xerxes I 480 BCE (wati Esiteri, Taniela 11:2)",,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)"
+persia2,Perisia,,Persia
+king_north,"Seleucus I Nicator (v5) Siria ki Antiochus III (v10) kei Seleucus IV (v18, 19) sobu vei Octavian (v20) kei Tiberius (v21-24)",,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)"
+king_north1,Tui ni Vualiku,,King of the North
+king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) ki na Actium ni ivalu 31 B.K.E.",,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
+king_south1,Tui ni Ceva,,King of the South
+king_south2,"British empire 1870, na kaukauwa ni vuravura ni Anglo-American me tekivu mai na 1914",,"British empire 1870, Anglo-American World Power since 1914"
+king_south3,Tui ni Ceva,,King of the South
+king_north2,"Jamani kei Empara William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Vualiku,,North
+king_north4,"Soviet Union 1945-1991 (Taniela 11:32-39, 40b, 41)",,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)"
+king_north5,Rusia me tekivu mai na 2017 (w20 Me),,Russia since 2017 (w20 May)
+time_of_end,"Na itikotiko i Karisito, iOtioti ni ivakarau ni veika (Maciu 24:3), na iotioti ni veisiga (2Ti 3:1)",,"Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)"
+time_of_end2,iotioti ni veisiga,,last days
+suryavaman2,King Suryavarman II tara na Angkor Wat 1113-1150,,King Suryavarman II builds Angkor Wat 1113-1150
+notre-dame,Tara o Notre-Dame de Paris 1163-1260,,Notre-Dame de Paris built 1163-1260
+jehoiada,Jehoiada,,Jehoiada
+babel,tara na vale cecere mai Pepeli,,tower of Babel built
+Haggai,Akai,,Haggai
+Zephaniah,Sefanaia,,Zephaniah
+Zerubbabel,Serupapeli (Luke 3:27),,Zerubbabel (Luke 3:27)
+Babylon,"Taniela 2:32, 36-38; 7:4",,"Daniel 2:32, 36-38; 7:4"
+Medopersia,"Taniela 2:32, 39; 7:5",,"Daniel 2:32, 39; 7:5"
+Greece,"Taniela 2:32, 39; 7:6",,"Daniel 2:32, 39; 7:6"
+Rome,"Taniela 2:33, 40; 7:7",,"Daniel 2:33, 40; 7:7"
+Angloamerica,"Taniela 2:33, 41-43",,"Daniel 2:33, 41-43"
+Babylon_c,Papiloni,,Babylon
+Medopersia_c,Medo-Perisia,,Medo-Persia
+Greece_c,Kirisi,,Greece
+Rome_c,Roma,,Rome
+Angloamerica_c,Anglo-Amerika,,Anglo-America
+infliction1,400 na yabaki ni kena vakayacori,Acts 7:6,400 year infliction
+infliction2,Cakacaka 7:6,,Acts 7:6
+Jacob2,Jekope/,Jacob/Israel 1858-1711 – 147 years,Jacob/
+Israel,Isireli,,Israel
+Sarah,Sera,2008-1881 BCE – 127 years,Sarah
+Hagar,Akara,Genesis 21:14,Hagar
+Haran,Karana,Genesis 11:26,Haran
+Nahor,Neori,,Nahor
+Reumah,Reumah,Concubine – 4 sons,Reumah
+Milcah,Milcah,8 sons (Bethuel and 7 more),Milcah
+Lot,Loti,,Lot
+Lots_wife,Wati Loti,,Lot’s wife
+Lots_daughters,Luvei Loti Yalewa,,Daughters of Lot
+Moab,Moapi (luvena yalewa qase cake),,Moab (older daughter)
+Ammon,Ben-ammi (Amoni),,Ben-ammi (Ammon)
+Bethuel,Pecueli,,Bethuel
+Rebekah,Repeka,,Rebekah
+Laban,Lepani,,Laban
+Leah,Lia,Genesis 35:23,Leah
+Rachel,Rejeli,Genesis 35:24,Rachel
+Bilhah,Pila,Genesis 35:25,Bilhah
+Zilpah,Silipa,Genesis 35:26,Zilpah
+Reuben,Rupeni,,Reuben
+Simeon,Simioni,,Simeon
+Levi,Livai,,Levi
+Judah,Juta,,Judah
+Issachar,Isakari,,Issachar
+Zebulun,Sepuloni,,Zebulun
+Dinah,Dina,Genesis 34,Dinah
+Esau,Iso/,,Esau/
+Edom,Itomi,Genesis 36:1,Edom
+Ishmael,Isimeli,,Ishmael
+Manasseh2,(Manasa,,(Manasseh
+Ephraim,kei Ifireimi),,and Ephraim)
+Benjamin,Penijamini,,Benjamin
+Dan,Dan,,Dan
+Naphtali,Naphtali,,Naphtali
+Gad,Gad,,Gad
+Asher,Asher,,Asher
+Milcah1,"Oz, Buz, Kemueli,",,"Uz, Buz, Kemuel,"
+Milcah2,"Chesed, Hazo,",,"Chesed, Hazo,"
+Milcah3,"Pailato, Jidlaph",,"Pildash, Jidlaph"
+Tebah,Tebah,,Tebah
+Gaham,Gaham,,Gaham
+Tahash,Tahash,,Tahash
+Maacah,Maacah,,Maacah
+Mahalath,Mahalath/,"Genesis 28:8, 9",Mahalath/
+Basemath,Yavu · fika,"Genesis36:3, 4",Base·math
+Reuel,Reuel,"36:13, 17",Reuel
+Nahath,Nahaci,,Nahath
+Zerah,Sera,,Zerah
+Schammah,Schammah,,Schammah
+Mizzah,Mizzah,,Mizzah
+Adah,Adah,"36:11, 12, 15, 16",Adah
+Eliphaz,Elifasi,,Eliphaz
+Teman,Teman,,Teman
+Omar,Omar,,Omar
+Zepho,Sefio,,Zepho
+Kenaz,Kenaz,,Kenaz
+Korah,Kora,,Korah
+Gatam,Gatam,,Gatam
+Amalek,Amelekaiti,,Amalek
+Oholibamah,Oholibamah,"36:14, 18",Oholibamah
+Jeush,Jeush,,Jeush
+Jalam,Jalam,,Jalam
+Korah,Kora,,Korah
+Nebaioth,Nebaioci,Genesis 25:13,Nebaioth
+Kedar,Kedar,,Kedar
+Adbeel,Adbeel,,Adbeel
+Mibsam,Mibsam,,Mibsam
+Mishma,Mishma,,Mishma
+Dumah,Dumah,,Dumah
+Massa,Mase,,Massa
+Hadad,Hadad,,Hadad
+Tema,Tema,,Tema
+Jetur,Jetur,,Jetur
+Naphish,Naphish,,Naphish
+Kedemah,Kedemah,,Kedemah
+Babylon2, ,no text left and right – empty!, 
+terahfam,lewe ni matavuvale nei Terah,,members of Terah’s family
+rosetta,Vatu ni Rosetta 196 B.K.E.,,Rosetta stone 196 B.C.E.
+Herodotus,Herodotus c. 484 – c. 425 B.K. e vola na The Histories,Father of History,"Herodotus c. 484 – c. 425 BC, writes The Histories"
+Aristotle,Aristotle 384 – 322 B.K.,"The First Teacher, The Philosopher",Aristotle 384 – 322 BC
+Ptolemy,Ptolemy c 100 – c. 170 S.K.,,Ptolemy c 100 – c. 170 C.E.
+Pythagoras,Pythagoras c. 570 – c. 495 B.K.,,Pythagoras c. 570 – c. 495 BC
+Plato,Plato c. 427 – c. 348 B.K.,,Plato c. 427 – c. 348 BC
+Socrates,Socrates c. 470 – c. 399 B.K.,,Socrates c. 470 – c. 399 BC
+Josephus,Josephus c. 37 – c. 100 S.K.,,Josephus c. 37 – c. 100 C.E.
+Cicero,Cicero 106–43 B.K.,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",Cicero 106–43 BC
+lachish_letters,iVola vaka-Lachish c. 590 B.K.E.,,Lachish letters c. 590 B.C.E.
+lachish_reliefs,Lachish veivuke c. 681 B.K.E.,,Lachish reliefs c. 681 B.C.E.
+mesha_stele,Mesha Stele (vatu Moabite) c. 840 B.S.K.,,Mesha Stele (Moabite stone) c. 840 B.C.E.
+gilgamesh,Gilgamesh kei Aga 𒇽𒆥𒄄𒀝𒂵,,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Na iVakatakilakila ni Gilgamesh (Sîn-lēqi-unninni),,Epic of Gilgamesh (Sîn-lēqi-unninni)
+oxyrhynchus,Oxyrhynchus Papyri,,Oxyrhynchus Papyri
+p52,Papyrus P52,,Papyrus P52
+daniel2_shift,0,Start 4.2,0
+daniel2_1,Tui Nepukanesa,607 BCE,King Nebuchadnezzar
+daniel2_2,vakarusa o Jerusalemi,,destroys Jerusalem
+daniel2_3,Vakamalumalumutaki Papiloni,539 BCE,Conquers Babylon
+daniel2_4,Sa lesu mai o Sairusi,537 BCE,Cyrus decrees return
+daniel2_5,ni Jiu ki Jerusalemi,,of Jews to Jerusalem
+daniel2_6,Alekisada na Ka Levu,331 BCE,Alexander the Great
+daniel2_7,vakamalumalumutaki Perisia,,conquers Persia
+daniel2_8,Lawa vei Isireli,63 BCE,Rules over Israel
+daniel2_9,Vakarusai Jerusalemi,70 CE,Destroys Jerusalem
+daniel2_10,"Ena iKarua ni iValu Levu,",1914-1918 CE,"During World War I,"
+daniel2_11,Kaukauwa ni Vuravura na Anglo-Amerika,,Anglo-American World Power
+daniel2_12,lako mai ki na,End 4.2,comes into being
+qing-dynasty,1636-1912,,1636-1912
+qing-dynasty_c,Veiliutaki nei Qing,1636-1912,Qing dynasty
+ming-dynasty,1368-1644,,1368-1644
+ming-dynasty_c,Veiliutaki nei Ming ena matanitu o Jaina,1368-1644,Ming dynasty in imperial China
+yuan-dynasty,1271-1368,,1271-1368
+southern-song,1127-1279,,1127-1279
+northern-song,960-1127,,960-1127
+western-xia,1038-1227,,1038-1227
+yuan-dynasty_c,Yuan,1271-1368,Yuan
+southern-song_c,Sere ena Ceva,1127-1279,Southern Song
+northern-song_c,Sere ena Vualiku,960-1127,Northern Song
+western-xia_c,Ra kei Xia,1038-1227,Western Xia
+Copernicus,Nicolaus Copernicus,,Nicolaus Copernicus
+Galileo,Kalilio Kalili,Galileo di Vincenzo Bonaiuti de' Galilei,Galileo Galilei
+Newton,Isaac Newton,,Isaac Newton
+gregorian,Kaleda ni Gregorian 1582,,Gregorian calendar 1582
+shang-dynasty,c. 1600-1046 B.K.,,c. 1600-1046 BC
+western-zhou,c. 1046-771 B.K.,,c. 1046-771 BC
+eastern-zhou,770-256 B.K.,,770-256 BC
+qin-dynasty,Tin 221-207 B.K.,,Qin 221-207 BC
+western-han,207 B.K. – 9 S.K.,,207 BC – 9 CE
+eastern-han,25-220 NI S.K.,,25-220 CE
+three-kingdoms,Tolu na matanitu 220-280 S.K.,,Three kingdoms 220-280 CE
+sixteen-kingdoms,Tinikaono na matanitu 304-439 CE,,Sixteen kingdoms 304-439 CE
+northern-dynasties,368-581 CE,,368-581 CE
+southern-dynasties,420-589 CE,,420-589 CE
+tang-dynasty1, ,, 
+tang-dynasty2,"618-690, 705-907",,"618-690, 705-907"
+wu-zhou,690-705 Wu Zhou,,690-705 Wu Zhou
+shang-dynasty_c,Matanitu Shang,c. 1600-1046 BC,Shang Dynasty
+western-zhou_c,Ra kei Zhou,c. 1046-771 BC,Western Zhou
+eastern-zhou_c,Tokalau kei Zhou,770-256 BC,Eastern Zhou
+western-han_c,Ra kei Han,207 BC – 9 CE,Western Han
+eastern-han_c,Tokalau kei Han,25-220 CE,Eastern Han
+three-kingdoms_c,Jaina,Three kingdoms 220-280 CE,China
+sixteen-kingdoms_c,Jaina,Sixteen kingdoms 304-439 CE,China
+northern-dynasties_c,Matanitu ena Vualiku,368-581 CE,Northern Dynasties
+southern-dynasties_c,Matanitu ena Ceva,420-589 CE,Southern Dynasties
+tang-dynasty1_c,Tang,,Tang
+tang-dynasty2_c,Veiliutaki nei Tang,"618-690, 705-907",Tang Dynasty
+xia-dynasty,Xia vaka-Jaina c. 2070 – c. 1600 B.K.,,Xia dynasty in China c. 2070 – c. 1600 BC
+gonghe,Gonghe Regency 841-828 B.K.,,Gonghe Regency 841-828 BC
+Ashoka,Ashoka (c. 304-232 B.K.) e tokona na lotu Buda,,Ashoka (c. 304-232 BC) promotes Buddhism
+siloam-tunnel,Dodoka yani o Esekaia na qara e Sailoama,c. 742-732 BC,Hezekiah extends Siloam tunnel
+Angloamerica2,"Na vosa vaka-Amerika e vakatakarakarataki ena yava ni kaukamea ka veicurumaki kei na tete ena parofisai ena Taniela 2:33, 41-43",,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43"
+Manetho,Vola o Manetho na A hadaca,,Manetho writes Aegyptiaca
