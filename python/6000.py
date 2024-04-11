@@ -19,7 +19,7 @@ import sys
 import os
 
 # Some general settings
-version  = 4.5
+version  = 4.6
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -730,6 +730,34 @@ def include_pictures_svg():
         drawing.scale(sx, sy)
         renderPDF.draw(drawing, c, x_position(row.x), y_position(row.y))
 
+def tribulation_graphics(row):
+    reference_y = y_position(row) - 2
+    co = color["tribulation1"]
+    c.setFillColorRGB(co[0], co[1], co[2])
+    c.rect(x_position(2030), reference_y, 5 * dots_year, 10, fill = 1, stroke = 0)
+    c.rect(x_position(2053), reference_y, 7 * dots_year, 10, fill = 1, stroke = 0)
+    for falter in range(3):
+        x_f = x_position(2035 + 6 * falter)
+        co = color["tribulation2"]
+        c.setFillColorRGB(co[0], co[1], co[2])
+        c.rect(x_f, reference_y, 3 * dots_year, 11.64, fill = 1, stroke = 0)
+        co = color["tribulation3"]
+        c.setFillColorRGB(co[0], co[1], co[2])
+        c.rect(x_f + 3 * dots_year, reference_y, 3 * dots_year, 11.64, fill = 1, stroke = 0)
+        triangles = [[-0.1, -0.054, 6.1, -0.054, 3, 1.64], [0, 10, 0, 11.64, 3, 11.64], [3, 11.64, 6, 11.64, 6, 10]]
+        for triangle in range(3):
+            points = [x_f + triangles[triangle][0] * dots_year, reference_y + triangles[triangle][1], 
+                      x_f + triangles[triangle][2] * dots_year, reference_y + triangles[triangle][3],
+                      x_f + triangles[triangle][4] * dots_year, reference_y + triangles[triangle][5]]
+            d.add(Polygon(points, fillColor=(1, 1, 1), strokeColor=(1, 1, 1), strokeWidth = 0.0))
+
+def create_tribulation():
+    # draw the band above last days (24.1) and king of the south anglo-america (36)
+    tribulation_lines = [23.1, 35.4]
+    for row in tribulation_lines:
+        drawString(dict["tribulation"], 10, x_position(2027), y_position(row), "l")
+        tribulation_graphics(row)
+
 def create_daniel2():
     desired_height = 96*mm
     shift_upward   = 30*mm    
@@ -790,7 +818,7 @@ def create_timestamp():
         timestamp = str(datetime.datetime.now())
         dateindex = timestamp[2:4] + timestamp[5:7] + timestamp[8:10]
         c.drawString(y_position(8.9), -x_position(-3955), "timeline " + language)
-        c.drawString(y_position(8.9), -x_position(-3948), dateindex)
+        c.drawString(y_position(8.9), -x_position(-3947), dateindex)
         c.rotate(-90)
         # drawString( "timeline " + language, 5, x_position(-4020), y_position(9.5), "r")
 
@@ -822,12 +850,11 @@ def create_timeline(lang):
     create_objects()
     create_periods()
     create_caesars()
-    if version >= 4.2:
-        create_daniel2()
-    if version >= 4.3:
-        create_terah_familytree()
+    create_daniel2()
+    create_terah_familytree()
     include_pictures()
     include_pictures_svg()
+    create_tribulation()
     create_timestamp()
     render_to_file()
 
