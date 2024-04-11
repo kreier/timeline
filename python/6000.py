@@ -712,7 +712,7 @@ def include_pictures():
     print("Imported list of pictures:", len(pictures))
     for index, row in pictures.iterrows():
         if row.year != "0":
-            drawString(str(row.year), 4, x_position(row.x), y_position(row.y) - 3.4, "r")
+            drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "r")
         location = "../images/" + row.key
         c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
 
@@ -721,7 +721,7 @@ def include_pictures_svg():
     print("Imported list of SVG pictures:", len(pictures_svg))
     for index, row in pictures_svg.iterrows():
         if row.year != 0:
-            drawString(str(row.year), 4, x_position(row.x), y_position(row.y) - 3.4, "r")
+            drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "r")
         location = "../images/" + row.key + ".svg"
         drawing = svg2rlg(location)
         factor = row.height / drawing.height
