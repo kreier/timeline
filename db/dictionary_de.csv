@@ -1,5 +1,5 @@
 key,text,english,notes
-version,4.5,,
+version,4.6,,
 pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,
 pdf_subject,Zeitleiste der Menschheit,Timeline of humankind,
 BCE,v.u.Z.,B.C.E.,
@@ -100,7 +100,7 @@ Zechariah,Sacharja,Zechariah,"reign only recorded 6 months, probably only establ
 Schallum,Schallum,Schallum,only one month
 Menahem,Menahem,Menahem,
 Pekahiah,Pekachja,Pekahiah,
-Pekah,Pekachja,Pekah,
+Pekah,Pekach,Pekah,
 Hoshea,Hoschea,Hoshea,9 years from c. 748
 Elijah,Elia,Elijah,
 Elisha,Elisa,Elisha,
@@ -162,13 +162,13 @@ Galba-Otho-Vitellius,"Galba, Otho und Vitellius (Vierkaiserjahr)","Galba, Otho a
 Vespasian,Vespasian,Vespasian,
 event_exodus,Auszug aus Ägypten am 14. Nisan 1513 v.u.Z.,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.",
 event_division_kingdom,Teilung Israels 997 v.u.Z.,Division of Israel 997 BCE,
-event_destruction_samaria,Zerstörung von Samaria 740 v.u.Z. durch Assyrien,Destruction of Samaria 740 B.C.E. by Assyria,
-event_destruction_samaria2,740 v.u.Z. durch Assyrien,740 B.C.E. by Assyria,
+event_destruction_samaria,Zerstörung von Samaria 740 v.u.Z. durch Assyrien,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
+event_destruction_samaria2,740 v.u.Z. durch Assyrien,740 B.C.E. by Assyria,was shortened here for 2 lines
 event_destruction_jerusalem1,"Zerstörung von Jerusalem 607 v.u.Z. durch Babylon, 390 Jahre nach der Teilung des Königreiches (Hesekiel 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",
 event_temple_rebuilt,Tempel wieder aufgebaut 515 v.u.Z.,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,Jerusalems Mauern aufgebaut 455 v.u.Z,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Zerstörung von Jerusalem 70 u.Z. durch Rom unter Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"Ende der “Zeiten der Nationen”, Gottes Königkreich beginn im Himmel zu regieren 1914 u.Z. ","End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. ",
+event_1914,"Ende der „Zeiten der Nationen“ (Lukas 21:24), Gottes Königkreich beginn im Himmel zu regieren 1914 u.Z.","End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. ",4.6 extends scriptures
 became_king,wurde König im Alter von,became king at age,
 vulgate,Vulgata von Hieronymus fertiggestellt (Lateinische Übersetzung der Bibel) ca. 405 u.Z.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,Gutenbergbibel gedruckt 1455,Gutenberg bible printed 1455,
@@ -186,13 +186,13 @@ dead_sea_scrolls,Schriftrollen vom Toten Meer,Dead Sea Scrolls written,
 septuagint,Septuaginta LXX übersetzt,Septuagint LXX translated,
 watchtower,Die erste Ausgabe des “Zion’s Watch Tower and Herald of Christ’s Presence” wird veröffentlicht in 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
 photodrama,Das “Photo-Drama of Creation” wird zuerst in New York gezeigt am 11 Januar 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
-jehovahs_witnesses,"Die Bibelstudenten nehmen einen neuen Namen an – Jehovas Zeugen. In Columbus, Ohio, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931",
+jehovahs_witnesses,"Die Bibelforscher nahmen 1931 in Columbus, Ohio, einen neuen Namen an – Zeugen Jehovas (Jesaja 43:10, 12).","The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931",4.6 extends scriptures
 gilead_school,Die “Watchtower Bible School of Gilead” beginnt am 1. Februar 1943,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",
-new_world_translation1,"Die “New World Translation of the Holy Scriptures” wird am 18 Juni 1960 in Manchester, England veröffentlicht","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960",
+new_world_translation1,"Die “New World Translation of the Holy Scriptures” wird am 18 Juni 1960 in Manchester, England veröffentlicht; der Name Jehova and vielen Stellen wieder eingefügt","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960",4.6 extends scriptures
 truth_book,"Das Buch “Die Wahrheit, die zu ewigem Leben führt” wird 1968 herausgegeben",The book “The Truth That Leads to Eternal Life” released 1968,
 metropolitan,Beginn des “metropolitan witnessing” in 2011,Start of metropolitan witnessing in 2011,
 jw_org,Start von JW.ORG mit Anweisungen im Königreichsdienst im Dezember 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
-new_world_translation2,Revidierte “New World Translation of the Holy Scriptures” auf Englisch veröffentlicht auf der Jahresversammlung 2013,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013,
+new_world_translation2,"Revidierte “New World Translation of the Holy Scriptures” auf Englisch veröffentlicht auf der Jahresversammlung 2013, optimiert zur digitalen und online Benutzung",Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013,4.6 extends scriptures
 jw_broadcasting,"Beginn von jw.broadcasting im October 2014 auf Englisch, ab Mai 2015 auf Deutsch",Start of jw.broadcasting in October 2014,
 meeting_workbook,Start der “Leben und Dienst” Zusammenkunft mit einem Arbeitsheft ab Januar 2016,New format of midweek meeting with “meeting workbook” starting January 2016,
 covid19,Covid-19,"Global Covid-19 pandemic leads to lockdowns, quarantine and zoom-meetings",
@@ -225,7 +225,7 @@ king_north2,"Deutschland mit Kaiser Wilhelm I 1871 (v28), 1914 (v29), 1935 (v30b
 king_north3,Norden,North,
 king_north4,"Sowjetunion 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",
 king_north5,Russland seit 2017 (w20 Mai),Russia since 2017 (w20 May),
-time_of_end,"Gegenwart Christi, Abschluss des Weltsystems (Matt 24:3), die letzten Tage (2Ti 3:1)","Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)",
+time_of_end,"Gegenwart Christi, Abschluss des Weltsystems (Matthäus 24:3), die letzten Tage (2. Timotheus 3:1)","Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)",4.6 extends scriptures
 time_of_end2,letzte Tage,last days,
 suryavaman2,König Suryavarman II erbaut Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
 notre-dame,Notre-Dame de Paris gebaut 1163-1260,Notre-Dame de Paris built 1163-1260,
@@ -244,7 +244,7 @@ Medopersia_c,Medo-Persien,Medo-Persia,
 Greece_c,Griechenland,Greece,
 Rome_c,Rom,Rome,
 Angloamerica_c,Anglo-Amerika,Anglo-America,
-infliction1,400 Jahre Unterdrückung,400 year infliction,
+infliction1,400 Jahre Unterdrückung,400 year infliction,Acts 7:6
 infliction2,Apostelgeschichte 7:6,Acts 7:6,
 Jacob2,Jakob/,Jacob/,Jacob/Israel 1858-1711 – 147 years
 Israel,Israel,Israel,
@@ -274,7 +274,7 @@ Issachar,Ịssachar,Issa·char,
 Zebulun,Sẹbulon,Zebu·lun,
 Dinah,Dịna,Dinah,Genesis 34
 Esau,Ẹsau/,Esau,
-Edom,Edom,Edom,
+Edom,Edom,Edom,Genesis 36:1
 Ishmael,Ịsmael,Ishma·el,
 Manasseh2,(Manasse,(Manasseh,
 Ephraim,und Ephraim),and Ephraim),
@@ -322,17 +322,17 @@ Tema,Tẹma,Tema,
 Jetur,Jẹtur,Jetur,
 Naphish,Nạphisch,Naphish,
 Kedemah,Kẹdma,Kedemah,
-Babylon2, , ,
+Babylon2, , ,no text left and right – empty!
 terahfam,Mitglieder von Terach’s Familie,members of Terah’s family,
 rosetta,Rosetta-Stein 196 v. Chr.,Rosetta stone 196 B.C.E.,
-Herodotus,"Herodot c. 484 – ca. 425 v. Chr., schreibt Historien",Herodotus c. 484 – c. 425 B.C.E.,
-Aristotle,Aristoteles 384 – 322 v. Chr,Aristotle 384 – 322 BC,
+Herodotus,"Herodot c. 484 – ca. 425 v. Chr., schreibt Historien",Herodotus c. 484 – c. 425 B.C.E.,Father of History
+Aristotle,Aristoteles 384 – 322 v. Chr,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
 Ptolemy,Claudius Ptolemäus um 100 – ca. 170 n. Chr.,Ptolemy c 100 – c. 170 C.E.,
 Pythagoras,Pythagoras ca. 570 – 495 v. Chr,Pythagoras c. 570 – c. 495 BC,
 Plato,Platon c. 427 – ca. 348 v. Chr,Plato c. 427 – c. 348 BC,
 Socrates,Sokrates c. 470 – ca. 399 v. Chr,Socrates c. 470 – c. 399 BC,
 Josephus,Josephus c. 37 – c. 100 n. Chr.,Josephus c. 37 – c. 100 C.E.,
-Cicero,Cicero 106–43 v. Chr,Cicero 106–43 BC,
+Cicero,Cicero 106–43 v. Chr,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
 lachish_letters,Lachisch-Briefe c. 590 v. Chr.,Lachish letters c. 590 B.C.E.,
 lachish_reliefs,Lachisch-Relief c. 681 v. Chr.,Lachish reliefs c. 681 B.C.E.,
 mesha_stele,"Mescha-Stele (Moabiterstein), ca. 840 v. Chr.",Mesha Stele (Moabite stone) c. 840 B.C.E.,
@@ -399,3 +399,11 @@ Ashoka,Ashoka (ca. 304–232 v.u.Z.) fördert den Buddhismus,Ashoka (c. 304-232 
 siloam-tunnel,Hiskia erweitert den Siloam-Tunnel,Hezekiah extends Siloam tunnel,c. 742-732 BC
 Angloamerica2,"Anglo-Amerika wird in der Prophezeiung in Daniel 2:33, 41-43 durch die Füße aus Eisen, vermischt mit Ton, symbolisiert","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",
 Manetho,Manetho schreibt Aegyptiaca,Manetho writes Aegyptiaca,
+tribulation,"Die große Drangsal (Markus 13:19; Daniel 12:1; Matthäus 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
+destruction_babylon,"Zerstörung Babylons der Großen (Offenbarung 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
+gog_of_magog,"Angriff von Gog von Magog (Hesekiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
+sheep_goat,"Die Bewohner der Erde werden gerichtet, Trennung von Schafe und Böcken (Matthäus 25:31-33)","Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
+annointed,Jesu Mitregenten versammeln sich (Matthäus 24:31; 1. Korinther 15:50-53; 1. Thessalonicher 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT
+armageddon,"Harmagedon (Offenbarung 16:14, 16; Jesaja 13:9; 2. Petrus 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
+millenium,"Gottes Königreich beginnt seine tausendjährige Regierungszeit (Offenbarung 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
+great_crowd,"Eine „große Volksmenge“ überlebt Harmagedon (Offenbarung 7:9, 14; Psalm 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
