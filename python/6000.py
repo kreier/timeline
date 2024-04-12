@@ -23,7 +23,7 @@ version  = 4.6
 language = "en"
 language_str = "English"
 color_scheme = "normal"
-border_lr    = 10*mm                      # space left/right for roll holders
+border_lr    = 10*mm                      # space left/right for roll holders - usually 60
 border_tb    = 7*mm                       # space for the years top and bottom
 page_width   = 4*297*mm + 2 * border_lr   # 4x A4 landscape
 page_height  = 210*mm                     #    A4 landscape height
@@ -729,6 +729,14 @@ def include_pictures_svg():
         drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
         drawing.scale(sx, sy)
         renderPDF.draw(drawing, c, x_position(row.x), y_position(row.y))
+    # text for world population graphic
+    population_color = color["world_population"]
+    c.setFont(font_regular, 10)
+    c.setFillColorRGB(population_color[0], population_color[1], population_color[2])
+    c.drawString(x_position(-3707), y_position(19.7),dict["world_population"])
+    c.setFont(font_regular, 4)
+    c.setFillColorRGB(0.1, 0.1, 0.6)
+    c.drawString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
 
 def tribulation_graphics(row):
     reference_y = y_position(row) - 2
