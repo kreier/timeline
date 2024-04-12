@@ -25,14 +25,14 @@ Adam,Adam,Adam,
 Seth,Seth,Seth,
 Enosh,Ẹnosch,Enosh,
 Kenan,Kẹnan,Kenan,
-Mahalalel,Mahalạlel,Ma·hala·lel,
+Mahalalel,Mahalạlel,Mahalalel,
 Jared,Jạred,Jared,
 Enoch,Hẹnoch,Enoch,
-Methuselah,Methụsalah,Me·thuse·lah,
+Methuselah,Methụsalah,Methuselah,
 Lamech,Lạmech,Lamech,
 Noah,Noah,Noah,
 Shem,Sem,Shem,
-Arpachshad,Ạrpachschad,Ar·pachshad,
+Arpachshad,Ạrpachschad,Arpachshad,
 Shelah,Schẹlach,Shelah,
 Eber,Ẹber,Eber,
 Peleg,Pẹleg,Peleg,
@@ -168,7 +168,7 @@ event_destruction_jerusalem1,"Zerstörung von Jerusalem 607 v.u.Z. durch Babylon
 event_temple_rebuilt,Tempel wieder aufgebaut 515 v.u.Z.,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,Jerusalems Mauern aufgebaut 455 v.u.Z,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Zerstörung von Jerusalem 70 u.Z. durch Rom unter Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"Ende der „Zeiten der Nationen“ (Lukas 21:24), Gottes Königkreich beginn im Himmel zu regieren 1914 u.Z.","End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. ",4.6 extends scriptures
+event_1914,"Ende der „Zeiten der Nationen“ (Lukas 21:24), Gottes Königkreich beginn im Himmel zu regieren 1914 u.Z.","End of the time of the nations (Luke 21:24), Gods kingdom starts to rule in heaven 1914 C.E. ",4.6 extends scriptures
 became_king,wurde König im Alter von,became king at age,
 vulgate,Vulgata von Hieronymus fertiggestellt (Lateinische Übersetzung der Bibel) ca. 405 u.Z.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,Gutenbergbibel gedruckt 1455,Gutenberg bible printed 1455,
@@ -186,16 +186,16 @@ dead_sea_scrolls,Schriftrollen vom Toten Meer,Dead Sea Scrolls written,
 septuagint,Septuaginta LXX übersetzt,Septuagint LXX translated,
 watchtower,Die erste Ausgabe des “Zion’s Watch Tower and Herald of Christ’s Presence” wird veröffentlicht in 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
 photodrama,Das “Photo-Drama of Creation” wird zuerst in New York gezeigt am 11 Januar 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
-jehovahs_witnesses,"Die Bibelforscher nahmen 1931 in Columbus, Ohio, einen neuen Namen an – Zeugen Jehovas (Jesaja 43:10, 12).","The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931",4.6 extends scriptures
+jehovahs_witnesses,"Die Bibelforscher nahmen 1931 in Columbus, Ohio, einen neuen Namen an – Zeugen Jehovas (Jesaja 43:10, 12).","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",4.6 extends scriptures
 gilead_school,Die “Watchtower Bible School of Gilead” beginnt am 1. Februar 1943,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",
-new_world_translation1,"Die “New World Translation of the Holy Scriptures” wird am 18 Juni 1960 in Manchester, England veröffentlicht; der Name Jehova and vielen Stellen wieder eingefügt","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960",4.6 extends scriptures
+new_world_translation1,"Die “New World Translation of the Holy Scriptures” wird am 18 Juni 1960 in Manchester, England veröffentlicht; der Name Jehova and vielen Stellen wieder eingefügt","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",4.6 extends scriptures
 truth_book,"Das Buch “Die Wahrheit, die zu ewigem Leben führt” wird 1968 herausgegeben",The book “The Truth That Leads to Eternal Life” released 1968,
 metropolitan,Beginn des “metropolitan witnessing” in 2011,Start of metropolitan witnessing in 2011,
 jw_org,Start von JW.ORG mit Anweisungen im Königreichsdienst im Dezember 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
-new_world_translation2,"Revidierte “New World Translation of the Holy Scriptures” auf Englisch veröffentlicht auf der Jahresversammlung 2013, optimiert zur digitalen und online Benutzung",Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013,4.6 extends scriptures
+new_world_translation2,"Revidierte “New World Translation of the Holy Scriptures” auf Englisch veröffentlicht auf der Jahresversammlung 2013, optimiert zur digitalen und online Benutzung","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",4.6 extends scriptures
 jw_broadcasting,"Beginn von jw.broadcasting im October 2014 auf Englisch, ab Mai 2015 auf Deutsch",Start of jw.broadcasting in October 2014,
 meeting_workbook,Start der “Leben und Dienst” Zusammenkunft mit einem Arbeitsheft ab Januar 2016,New format of midweek meeting with “meeting workbook” starting January 2016,
-covid19,Covid-19,"Global Covid-19 pandemic leads to lockdowns, quarantine and zoom-meetings",
+covid19,Covid-19,Covid-19 ,
 cold_war,Geopolitische Situation bekannt als “Kalter Krieg” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991,
 timeline_created,"Diese Zeitleiste wurde 2023 erstellt, dem heißesten Jahr der Menschheitsgeschichte und überhaupt der letzten 125000 Jahre","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,Codex Sinaiticus geschrieben,Codex Sinaiticus written,
@@ -225,7 +225,7 @@ king_north2,"Deutschland mit Kaiser Wilhelm I 1871 (v28), 1914 (v29), 1935 (v30b
 king_north3,Norden,North,
 king_north4,"Sowjetunion 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",
 king_north5,Russland seit 2017 (w20 Mai),Russia since 2017 (w20 May),
-time_of_end,"Gegenwart Christi, Abschluss des Weltsystems (Matthäus 24:3), die letzten Tage (2. Timotheus 3:1)","Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)",4.6 extends scriptures
+time_of_end,"Gegenwart Christi, Abschluss des Weltsystems (Matthäus 24:3), die letzten Tage (2. Timotheus 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1) ",4.6 extends scriptures
 time_of_end2,letzte Tage,last days,
 suryavaman2,König Suryavarman II erbaut Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
 notre-dame,Notre-Dame de Paris gebaut 1163-1260,Notre-Dame de Paris built 1163-1260,
@@ -258,7 +258,7 @@ Lots_wife,Lots Frau,Lot’s wife,
 Lots_daughters,Töchter Lots,Daughters of Lot,
 Moab,Moab (ältere Tochter),Moab (older daughter),
 Ammon,Ben-Ạmmi (Ammonịter),Ben-ammi (Ammon),
-Bethuel,Bẹthuël,Be·thuel,
+Bethuel,Bẹthuël,Bethuel,
 Rebekah,Rebẹkka,Rebekah,
 Laban,Lạban,Laban,
 Leah,Lẹa,Leah,Genesis 35:23
@@ -266,20 +266,20 @@ Rachel,Rahel,Rachel,Genesis 35:24
 Bilhah,Bịlha,Bilhah,Genesis 35:25
 Zilpah,Sịlpa,Zilpah,Genesis 35:26
 Reuben,Rụben,Reuben,
-Simeon,Sịmeon,Sime·on,
+Simeon,Sịmeon,Simeon,
 Levi,Lẹvi,Levi,
 Judah,Juda,Judah,
-Issachar,Ịssachar,Issa·char,
-Zebulun,Sẹbulon,Zebu·lun,
+Issachar,Ịssachar,Issachar,
+Zebulun,Sẹbulon,Zebulun,
 Dinah,Dịna,Dinah,Genesis 34
-Esau,Ẹsau/,Esau,
+Esau,Ẹsau/,Esau/,
 Edom,Edom,Edom,Genesis 36:1
-Ishmael,Ịsmael,Ishma·el,
+Ishmael,Ịsmael,Ishmael,
 Manasseh2,(Manasse,(Manasseh,
 Ephraim,und Ephraim),and Ephraim),
 Benjamin,Benjamin,Benjamin,
 Dan,Dan,Dan,
-Naphtali,Nạphtali,Naphta·li,
+Naphtali,Nạphtali,Naphtali ,
 Gad,Gad,Gad,
 Asher,Ạscher,Asher,
 Milcah1,"Uz, Bus, Kẹmuël,","Uz, Buz, Kemuel,",Genesis 22:21
@@ -305,7 +305,7 @@ Kenaz,Kẹnas,Kenaz,
 Korah,Kọrah,Korah,
 Gatam,Gạtam,Gatam,
 Amalek,Ạmalek,Amalek,
-Oholibamah,Oholibạma,O·hol·i·bamah,"36:14, 18"
+Oholibamah,Oholibạma,Oholibamah ,"36:14, 18"
 Jeush,Jẹusch,Jeush,
 Jalam,Jạlam,Jalam,
 Nebaioth,Nẹbajoth,Nebaioth,Genesis 25:13
@@ -323,7 +323,7 @@ Kedemah,Kẹdma,Kedemah,
 Babylon2, , ,no text left and right – empty!
 terahfam,Mitglieder von Terach’s Familie,members of Terah’s family,
 rosetta,Rosetta-Stein 196 v. Chr.,Rosetta stone 196 B.C.E.,
-Herodotus,"Herodot c. 484 – ca. 425 v. Chr., schreibt Historien",Herodotus c. 484 – c. 425 B.C.E.,Father of History
+Herodotus,"Herodot c. 484 – ca. 425 v. Chr., schreibt Historien","Herodotus c. 484 – c. 425 BC, writes The Histories ",Father of History
 Aristotle,Aristoteles 384 – 322 v. Chr,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
 Ptolemy,Claudius Ptolemäus um 100 – ca. 170 n. Chr.,Ptolemy c 100 – c. 170 C.E.,
 Pythagoras,Pythagoras ca. 570 – 495 v. Chr,Pythagoras c. 570 – c. 495 BC,
@@ -337,7 +337,7 @@ mesha_stele,"Mescha-Stele (Moabiterstein), ca. 840 v. Chr.",Mesha Stele (Moabite
 gilgamesh,Gilgamesch und Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
 epic_gilgamesh,Gilgamesch-Epos (Sîn-leqe-unnīnī),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
-p52,Papyrus 52,Rylands Library Papyrus P52,
+p52,Papyrus 52,Papyrus P52 ,
 daniel2_shift,5,0,Start 4.2
 daniel2_1,König Nebukadnezar,King Nebuchadnezzar,607 BCE
 daniel2_2,zerstört Jerusalem,destroys Jerusalem,
