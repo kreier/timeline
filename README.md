@@ -6,7 +6,7 @@
 
 This project creates a graph of Human history with python and reportlab. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With version 4.2 some images make it into the timeline after 15 years of slow development. See both for comparison below.
 
-![timeline 4.4](docs/timeline20240324_4.4.png)
+![timeline 4.5](docs/timeline20240413_4.5.png)
 
 Compare this 4000 year timespan of version 4.2 from 2024:
 
@@ -41,7 +41,8 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - [v4.1](https://github.com/kreier/timeline/releases/tag/v4.1) 2024/02/27 Included Sinhala (සිංහල) and refined __Iloko__ and __Japanese__ (日本語).
 - [v4.2](https://github.com/kreier/timeline/releases/tag/v4.2) 2024/03/09 Included the family of Terah and the image from __Daniel 2__ with the world powers from Daniel 7. And 6 small images as illustration.
 - [v4.3](https://github.com/kreier/timeline/releases/tag/v4.3) 2024/03/16 Convert dictionary files to __.csv__ format to be easier readable in a [Jupyter Notebook](db/timeline.ipynb). You can create the latest PDF in your language in [Google Colab](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing) with just a browser.
-- [v4.4](https://github.com/kreier/timeline/releases/tag/v4.4) 2024/03/24 Include inventions and insights that enable modern society from the last centuries with pictures. Add some of the Chinese dynasties to the oldest known historic date of 841 BC (Sima Qian) and beyond.
+- [v4.4](https://github.com/kreier/timeline/releases/tag/v4.4) 2024/03/24 Include inventions and insights that enable modern society from the last centuries with pictures. Add some of the __Chinese dynasties__ to the oldest known historic date of 841 BC (Sima Qian) and beyond.
+- [v4.5](https://github.com/kreier/timeline/releases/tag/v4.4) 2024/04/13 Include the great tribulation in the time of the end, and a graph of the world population for the last 2000 years. It aligns with advancements in science, culture and society.
 
 ### Translations
 
@@ -64,7 +65,8 @@ Since v3.4 the language specific files have been separated from the program code
 | [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          |                 |       x       |          |          |       |
 | [Igbo (Ásụ̀sụ́ Ìgbò)](https://timeline24.github.io/timeline_ig.pdf)       |                 |       x       |          |          |       |
 | [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)          |        x        |               |          |          |       |
-| [Chinese (Simplified) [中文简体（普通话)]](https://timeline24.github.io/timeline_zh.pdf) |   x   |         |          |          |       |
+| [Chinese Mandarin (Simplified) [中文简体（普通话)]](https://timeline24.github.io/timeline_zh.pdf) |   x   |         |          |          |       |
+| [Chinese Cantonese (Simplified) [中文简体（普通话)]](https://timeline24.github.io/timeline_yue.pdf) |   x   |         |          |          |       |
 
 Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects. 
 
