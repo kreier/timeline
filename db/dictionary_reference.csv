@@ -6,7 +6,7 @@ BCE,B.C.E.,3.1,
 CE,C.E.,3.1,
 year,year,3.1,"timespan, age (Adam was 130 years old when Shem was born)"
 years,years,3.1,
-years_age,years,3.1,years when used as age for a person (different word than years in some languages)
+years_age,years,3.1,"years when used as age for a person (different word than years in some languages), like he is 23 years old "
 age_kings, ,4.1,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,month,3.1,
 months,months,3.1,
