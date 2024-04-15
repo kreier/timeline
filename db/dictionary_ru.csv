@@ -1,398 +1,406 @@
-key,text,english,notes,alternative
-version,4.5,,,
-pdf_title,Визуализация 6000-летней истории человечества,6000 years human history visualized ,,
-pdf_subject,Хронология человечества,Timeline of humankind ,,
-BCE,до н.э.,B.C.E.,,
-CE,н.э.,C.E.,,
-year,год,year,"timespan, age (Adam was 130 years old when Shem was born)",год
-years,года,years,,годы
-years_age,лет,years,years when used as age for a person (different word than years in some languages),лет
-age_kings,лет, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",лет
-month,месяц,month,,месяц
-months,месяца,months,,месяцы
-day,день,day,,день
-days,дней,days,,дни
-to,–,to,,
-people,человек,"persons, people",,люди
-judges,судей,judges,,судьи
-prophets,пророков,prophets,,пророки
-kings,королей,kings,,короли
-periods,периодов,periods,,периоды
-events,событий,events,,события
-objects,вещей или предметов,things or items,,вещи или предметы
-Deluge,Потоп,Deluge,,
-Adam,Адам,Adam,,
-Seth,Си́ф ,Seth,,
-Enosh,Ено́с ,Enosh,,
-Kenan,Каина́н ,Kenan,,
-Mahalalel,Малелеи́л ,Ma·hala·lel,,
-Jared,Яре́д ,Jared,,
-Enoch,Ено́х ,Enoch,,
-Methuselah,Мафуса́л ,Me·thuse·lah,,
-Lamech,Ламе́х ,Lamech,,
-Noah,Ноя ,Noah,,
-Shem,Си́м ,Shem,,
-Arpachshad,Арфакса́д ,Ar·pachshad,,
-Shelah,Шела́х ,Shelah,,
-Eber,Эве́р ,Eber,,
-Peleg,Фале́к,Peleg,,
-Reu,Ре́у ,Reu,,
-Serug,Серу́г ,Serug,,
-Nahor,Нахо́р ,Nahor,,
-Terah,Фа́рр ,Terah,,
-Abraham,Авраам ,Abraham,,
-Isaac,Исаак ,Isaac,,
-Jacob,Иаков ,Jacob,,
-Joseph,Иосиф ,Joseph,,
-Moses,Моисей ,Moses,,
-Othniel,Отниил ,Othniel,,
-Ehud,Эхуд ,Ehud,,
-Shamgar,Шамгар ,Shamgar,,
-Barak,Варак ,Barak,,
-Gideon,Гедеон ,Gideon,,
-Tola,Тола ,Tola,,
-Jair,Яир ,Jair,,
-Jephthah,Иеффай ,Jephthah,,
-Ibzan,Ивцан ,Ibzan,,
-Elon,Элон ,Elon,,
-Abdon,Авдон ,Abdon,,
-Samson,Самсон ,Samson,,
-Samuel,Самуил ,Samuel,,
-Saul,Саул ,Saul,,
-David,Давид ,David,,
-Solomo,Соломон ,Solomo,,
-Rehoboam,Ровоа́м ,Rehoboam,first king of southern kingdom of Juda,
-Abijah,Авия (Авиям) ,Abijah (Abijam),"3 years, also Abijam",
-Asa,Аса ,Asa,,
-Jehoshaphat,Иосафа́т ,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,
-Jehoram2,Иора́м ,Jehoram,,
-Ahaziah,Охозия ,Ahaziah,,
-Athaliah,Царица Аталия ,Queen Athaliah,Queen Athaliah,
-Jehoash,Иоас ,Jehoash,,
-Amaziah,Амация ,Amaziah,,
-Uzziah,Уззия (Азария) ,Uzziah (Azariah),also Azariah,
-Jotham,Иофа́м ,Jotham,,
-Ahaz,Аха́з ,Ahaz,,
-Hezekiah,Езеки́я ,Hezekiah,,
-Manasseh,Мана́ссия,Manasseh,,
-Amon,Амо́н ,Amon,,
-Josiah,Ио́сия ,Josiah,,
-Jehoahaz,Иоахаз ,Jehoahaz,Only 3 months,
-Jehoiakim,Иоаким ,Jehoiakim,,
-Jehoiachin,Иехония ,Jehoiachin,Only 3 months 10 days,
-Zedekiah,Седекия ,Zedekiah,,
-Jeroboam,Иеровоам ,Jeroboam,first king of northern 10-tribe kingdom,
-Nadab,Надав ,Nadab,less than 2,
-Baasha,Вааса ,Baasha,,
-Elah,Эла ,Elah,,
-Zimri,Зимри ,Zimri,Only 7 days in ca. 751 BCE,
-OmriTibni,Омри и Тивни ,Omri and Tibni together,4 years Omri and Tibni,
-Omri,Омри (один) ,Omri (alone),from 947 Omri alone,
-Ahab,Ахав ,Ahab,,
-Ahaziah,Охозия ,Ahaziah,,
-Jehoram,Иорам ,Jehoram,,
-Jehu,Ииуй ,Jehu,,
-Jeoahaz,Иоахаз ,Jeoahaz,,
-JeoahazJehoash,Иоахаз и Иоас ,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,
-Jehoash2,Иоас (один) ,Jehoash (alone),Jehoash (alone),
-Jeroboam2,Иеровоам II ,Jeroboam II,,
-Zechariah,Захария ,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",
-Schallum,Шаллум ,Schallum,only one month,
-Menahem,Менахем ,Menahem,,
-Pekahiah,Пекахия ,Pekahiah,,
-Pekah,Пеках ,Pekah,,
-Hoshea,Осия ,Hoshea,9 years from c. 748,
-Elijah,Илья,Elijah,,
-Elisha,Елисей,Elisha,,
-Jonah,Иона,Jonah,,
-Amos,Амос,Amos,,
-Joel,Иоиль,Joel,,
-Hosea,Осия,Hosea,,
-Isaiah,Исайя,Isaiah,,
-Micah,Михей,Micah,,
-Zephaniah,Софония,Zephaniah,,
-Nahum,Наум,Nahum,,
-Jeremiah,Иеремия,Jeremiah,,
-Habakuk,Аввакум,Habakuk,,
-Daniel,Даниил,Daniel,,
-Ezekiel,Иезекииль,Ezekiel,,
-Obadiah,Авдий,Obadiah,,
-Malachi,Малахия,Malachi,,
-Ruth,Руфь ,Ruth,,
-Ezra,Ездра ,Ezra,,
-Nehemiah,Неемия ,Nehemiah,,
-Esther,Эсфирь ,Esther,,
-Job,Иов ,Job,,
-moses2,1593–1473 гг. до н. э. – 120 лет,1593 to 1473 B.C.E. – 120 years,,
-moses3,Моисей,Moses,,
-wilderness,"Израиль в пустыне, 1513–1473 гг. до н. э. – 40 лет",Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,,
-timespan_judges,1473–1117 гг. до н. э. – 356 лет,1473 to 1117 B.C.E. – 356 years,,
-timespan_judges2,Время судей,Time of the judges,,
-temple1,Нисан 1513 г. до н.э. до Зива 1034 г. до н. э.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,
-temple2,479 лет до строительства храма – 3 Царств 6:1.,479 years until the temple construction – 1 Kings 6:1,1034 BCE,
-69weeks,Иисус крестил осень 29 г. н. э.,Jesus baptized autumn 29 C.E.,,
-69weeks2,69 недель до Мессии – Даниил 9:25.,69 weeks to the Messiah – Daniel 9:25,,
-jesus_service,"3,5 года служения Иисусу, казнён 14 нисана 33 года н. э.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",,
-jesus_life,Иисус родился во 2 г. до н. э.,Jesus born 2 B.C.E.,,
-exile,607–537 гг. до н. э. – 70 лет (Иеремия 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),,
-exile2,изгнание,exile,,
-7times,Откровение 12:9,Revelation 12:9,,
-7times2,"Cемь времён – 2520 лет до Мессианского Царства, 1914 г. н.э. (Даниил 4:23)",7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),,
-ww1,Первая мировая война – 1914–1918 гг. н.э.,World War I – 1914–1918 C.E.,,
-ww2,Вторая мировая война – 1939–1945 гг. н. э.,World War II – 1939–1945 C.E.,,
-30_year_war,Тридцатилетняя война в Европе 1618-1648 гг.,Thirty Years' War in Europe 1618-1648,,
-joshua,110 лет,110 years,,
-joshua2,Иисус Навин,Joshua,,
-caleb,более 85 лет,more than 85 years,,
-caleb2,Калеб,Caleb,,
-missionary1,"Первое миссионерское путешествие Павла, ок. 47–48 гг. н. э., Варнава и Иоанн Марк.","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark",,
-circumcision,"Проблема обрезания в Антиохии, конференция в Иерусалиме ок. 49 г. н. э.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.",,
-missionary2,Второе миссионерское путешествие ок. 49–52 гг. н.э. с Силой (Сильваном),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),,
-missionary3,Третье миссионерское путешествие ок. 52–56 гг. н.э.,Third Missionary Journey c. 52-56 C.E.,,
-caesarea,Павел под стражей в Кесарии ок. 56–58 гг. н. э.,Paul in custody in Caesarea c. 56-58 C.E.,,
-rome1,Первое заключение Павла в Риме ок. 59–61 гг. н.э.,Paul’s first imprisonment in Rome c. 59-61 C.E.,,
-rome2,"Второе заключение Павла в Риме ок. 65 г. н. э., написано 2 Тимофею, Павел казнен.","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",,
-Julius,Гай Юлий Цезарь,Julius,,
-Augustus,Октавиан Август,Augustus,,
-Tiberius,Тиберий,Tiberius,,
-Caligula,Калигула,Caligula,,
-Claudius,Клавдий,Claudius,,
-Nero,Нерон,Nero,,
-Galba-Otho-Vitellius,"Гальба, Отон и Вителлий (Год четырех императоров)","Galba, Otho and Vitellius (Year of the Four Emperors)",,
-Vespasian,Веспасиан,Vespasian,,
-event_exodus,Исход из Египта 14 нисана 1513 г. до н. э.,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.",,
-event_division_kingdom,Разделение Израиля 997 г. до н.э.,Division of Israel 997 BCE,,
-event_destruction_samaria,Разрушение Самарии 740 г. до н. э. Ассирии,Destruction of Samaria 740 B.C.E. by Assyria,,
-event_destruction_samaria2,740 г. до н.э. Ассирии,740 B.C.E. by Assyria,,
-event_destruction_jerusalem1,"Разрушение Иерусалима 607 г. до н.э. Вавилоном, через 390 лет после разделения царства (Иезекииль 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",,
-event_temple_rebuilt,Храм в Иерусалиме восстановлен в 515 г. до н. э.,Temple in Jerusalem rebuilt 515 B.C.E.,,
-event_jerusalem_rebuilt,Стена Иерусалима восстановлена в 455 г. до н. э.,Jerusalem wall rebuilt 455 B.C.E.,,
-event_destruction_jerusalem2,Разрушение Иерусалима римлянами при Тите в 70 году н. э.,Destruction of Jerusalem 70 C.E. by Rome under Titus,,
-event_1914,"Конец времени народов, Царство Божье начинает править на небесах. 1914 г. н.э.","End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. ",,
-became_king,стал королем в возрасте,became king at age,,
-vulgate,"Вульгата, завершенная Иеронимом (латинский перевод Библии) ок. 405 г. н. э.",Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,,
-gutenberg,"Библия Гутенберга, напечатанная в 1455 году.",Gutenberg bible printed 1455,,
-erasmus,"Греческий текст Христианских Греческих Писаний, опубликованный Дезидерием Эразмом из Роттердама в 1516 году.",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,,
-luther,Перевод Библии Лютера в сентябре 1522 г.,Luther Bible translation in September 1522,,
-tyndale,Английский перевод Библии Тиндейла 1536 г.,English Bible translation by Tyndale 1536,,
-king_james,Библия короля Иакова 1611 г.,King James Bible 1611,,
-69weeks3,"Иисус начинает свое служение в 29 г. н.э. (Луки 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",,
-ransom,середина недели «прекратить жертвоприношение» Даниил 9:27,middle of week “sacrifice to cease” Daniel 9:27,,
-cornelius,Корнилий крестился по истечении 70 недель (Даниил 9:24) в 36 году н. э.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,,
-columbus,конец доколумбового периода в Америке 1492 г.,end of the pre-columbian period in the Americas 1492,,
-declaration_independence,провозглашение независимости 13 колоний Америки 1776 г.,declaration of independence of 13 colonies in America 1776,,
-tischendorf,Тишендорф обнаруживает Синайский кодекс IV века в 1844 году.,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,,
-dead_sea_scrolls,Написаны свитки Мертвого моря,Dead Sea Scrolls written,,
-septuagint,Септуагинта LXX в переводе,Septuagint LXX translated,,
-watchtower,Первый номер журнала «Сионская сторожевая башня и вестник присутствия Христа» вышел в свет в 1879 году.,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,,
-photodrama,«Фотодрама творения» впервые показана в Нью-Йорке 11 января 1914 года.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",,
-jehovahs_witnesses,"Исследователи Библии приняли новое название – Свидетели Иеговы. Колумбус, штат Огайо, 1931 год.","The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931",,
-gilead_school,"Библейская школа Сторожевой Башни Галаад открылась в понедельник, 1 февраля 1943 года.","Watchtower Bible School of Gilead began on Monday, February 1, 1943",,
-new_world_translation1,"«Священное Писание — Перевод нового мира» выпущено в Манчестере, Англия, 18 июня 1960 года.","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960",,
-truth_book,"Книга «Истина, ведущая к вечной жизни» выпущена в 1968 году.",The book “The Truth That Leads to Eternal Life” released 1968,,
-metropolitan,Начало столичного свидетельствования в 2011 году.,Start of metropolitan witnessing in 2011,,
-jw_org,"Запуск JW.ORG с инструкциями по служению в Царстве, декабрь 2012 г.",Start of JW.ORG with instructions in kingdom ministry December 2012,,
-new_world_translation2,"Пересмотренный документ «Священное Писание — Перевод нового мира», выпущенный на ежегодном собрании в 2013 году.",Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013,,
-jw_broadcasting,Начало jw.вещания в октябре 2014 г.,Start of jw.broadcasting in October 2014,,
-meeting_workbook,Новый формат встреч в середине недели с «рабочим журналом встреч» с января 2016 г.,New format of midweek meeting with “meeting workbook” starting January 2016,,
-covid19,"Глобальная пандемия Covid-19 приводит к блокировкам, карантину и масштабным встречам","Global Covid-19 pandemic leads to lockdowns, quarantine and zoom-meetings",,
-cold_war,Геополитическая ситуация под названием «Холодная война» 1945-1991 гг.,Geopolitical situation labeled “Cold War” 1945-1991,,
-timeline_created,"Эта временная шкала была создана в 2023 году, самом жарком году в истории человечества за последние 125 000 лет.","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",,
-codex_sinaiticus,Синайский кодекс написан,Codex Sinaiticus written,,
-codex_vaticanus,Кодекс Ватикана написан,Codex Vaticanus written,,
-leningrad_codex,"Ленинградский кодекс, написанный в Каире в 1008 году нашей эры.",Leningrad Codex written in Cairo AD 1008,,
-john,Иоанн пишет «Откровение» во время ссылки на Патмос в 96–98 гг. н. э.,John writes “revelation” while exiled on Patmos 96-98 C.E.,,
-nicaea1,Первый Никейский собор,First Council of Nicaea,,
-buddha,"Будда – Сиддхартха Гаутама, ок. 563–483 гг. до н. э.",The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,,
-buddha2,Будда альтернативно c. 480–400 гг. до н. э.,Buddha alternatively c. 480-400 B.C.E.,,
-mohammed,Мохаммед ок. 570–632 гг. н.э.,Mohammed c. 570-632 C.E.,,
-confucius,Конфуций ок. 551–479 гг. до н. э.,Confucius c.551-c.479 B.C.E.,,
-hijrah,Хиджра – путешествие из Мекки в Медину 16 июля 622 г.,Hijrah - Journey Mecca to Medina 16 July 622,,
-moses_escape,"1553 г. до н.э. Моисей должен бежать из Египта – Исход 2:15, Деяния 7:23.","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",,
-10plagues,1513 г. до н. э. Египет подвергается 10 казням.,1513 B.C.E Egypt receives 10 plagues,,
-joseph_sold,Иосифа продали в рабство в возрасте 17 лет – Быт. 37:2.,Joseph sold as slave at the age of 17 – Gen 37:2,,
-infliction,"400-летнее наказание (Деяния 7:6) – Измаил, 1913 г. до н.э.",400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,,
-Alexander,Александр Македонский (Даниила 11:3),Alexander the Great (Daniel 11:3),,
-persia,"Кир Великий, Камбиз II, Дарий I 490 г. до н.э., Ксеркс I 480 г. до н.э. (муж Эстер, Даниил 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",,
-persia2,Персия,Persia,,
-king_north,"Селевк I Никатор (т. 5) от Сирии до Антиоха III (т. 10) и Селевка IV (т. 18, 19) вплоть до Октавиана (т. 20) и Тиберия (т. 21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",,
-king_north1,Король Севера,King of the North,,
-king_south,"Птолемей I, II, III, IV (т11, 12), V (т15, 16) на битву при Акции 31 г. до н.э.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",,
-king_south1,Король Юга,King of the South,,
-king_south2,"Британская империя 1870 г., англо-американская мировая держава с 1914 г.","British empire 1870, Anglo-American World Power since 1914",,
-king_south3,Король Юга,King of the South,,
-king_north2,"Германия с императором Вильгельмом I 1871 (т.28), 1914 (т.29), 1935 (т.30b), 1939 (т.31а)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,
-king_north3,Север,North,,
-king_north4,"Советский Союз 1945-1991 (Даниил 11:32-39, 40 б, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",,
-king_north5,Россия с 2017 г. (w20 мая),Russia since 2017 (w20 May),,
-time_of_end,"Присутствие Христа, Завершение системы вещей (Мф 24:3), последние дни (2Тим 3:1)","Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)",,
-time_of_end2,Последние дни,last days,,
-suryavaman2,Король Сурьяварман II строит Ангкор-Ват 1113-1150 гг.,King Suryavarman II builds Angkor Wat 1113-1150,,
-notre-dame,"Собор Парижской Богоматери, построенный в 1163-1260 гг.",Notre-Dame de Paris built 1163-1260,,
-jehoiada,Иодай,Jehoiada,,
-babel,построена Вавилонская башня,tower of Babel built,,
-Haggai,Аггей,Haggai,,
-Zephaniah,Захария ,Zephaniah,,
-Zerubbabel,Зоровавель (Луки 3:27),Zerubbabel,,
-Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",,
-Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",,
-Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",,
-Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",,
-Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43",,
-Babylon_c,Babylon,Babylon,,
-Medopersia_c,Medo-Persia,Medo-Persia,,
-Greece_c,Greece,Greece,,
-Rome_c,Rome,Rome,,
-Angloamerica_c,Anglo-America,Anglo-America,,
-infliction1,400 year infliction,400 year infliction,Acts 7:6,
-infliction2,Acts 7:6,Acts 7:6,,
-Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,
-Israel,Israel,Israel,,
-Sarah,Sarah,Sarah,2008-1881 BCE – 127 years,
-Hagar,Hagar,Hagar,Genesis 21:14,
-Haran,Haran,Haran,Genesis 11:26,
-Nahor,Nahor,Nahor,,
-Reumah,Reumah,Reumah,Concubine – 4 sons,
-Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more),
-Lot,Lot,Lot,,
-Lots_wife,Lot’s wife,Lot’s wife,,
-Lots_daughters,Daughters of Lot,Daughters of Lot,,
-Moab,Moab (older daughter),Moab (older daughter),,
-Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon),,
-Bethuel,Bethuel,Bethuel,,
-Rebekah,Rebekah,Rebekah,,
-Laban,Laban,Laban,,
-Leah,Leah,Leah,Genesis 35:23,
-Rachel,Rachel,Rachel,Genesis 35:24,
-Bilhah,Bilhah,Bilhah,Genesis 35:25,
-Zilpah,Zilpah,Zilpah,Genesis 35:26,
-Reuben,Reuben,Reuben,,
-Simeon,Simeon,Simeon,,
-Levi,Levi,Levi,,
-Judah,Judah,Judah,,
-Issachar,Issachar,Issachar,,
-Zebulun,Zebulun,Zebulun,,
-Dinah,Dinah,Dinah,Genesis 34,
-Esau,Esau/,Esau/,,
-Edom,Edom,Edom,Genesis 36:1,
-Ishmael,Ishmael,Ishmael,,
-Manasseh2,(Manasseh,(Manasseh,,
-Ephraim,and Ephraim),and Ephraim),,
-Benjamin,Benjamin,Benjamin,,
-Dan,Dan,Dan,,
-Naphtali,Naphtali,Naphtali,,
-Gad,Gad,Gad,,
-Asher,Asher,Asher,,
-Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",,
-Milcah2,"Chesed, Hazo,","Chesed, Hazo,",,
-Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",,
-Tebah,Tebah,Tebah,,
-Gaham,Gaham,Gaham,,
-Tahash,Tahash,Tahash,,
-Maacah,Maacah,Maacah,,
-Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",
-Basemath,Base·math,Base·math,"Genesis36:3, 4",
-Reuel,Reuel,Reuel,"36:13, 17",
-Nahath,Nahath,Nahath,,
-Zerah,Zerah,Zerah,,
-Schammah,Schammah,Schammah,,
-Mizzah,Mizzah,Mizzah,,
-Adah,Adah,Adah,"36:11, 12, 15, 16",
-Eliphaz,Eliphaz,Eliphaz,,
-Teman,Teman,Teman,,
-Omar,Omar,Omar,,
-Zepho,Zepho,Zepho,,
-Kenaz,Kenaz,Kenaz,,
-Korah,Korah,Korah,,
-Gatam,Gatam,Gatam,,
-Amalek,Amalek,Amalek,,
-Oholibamah,Oholibamah,Oholibamah,"36:14, 18",
-Jeush,Jeush,Jeush,,
-Jalam,Jalam,Jalam,,
-Korah,Korah,Korah,,
-Nebaioth,Nebaioth,Nebaioth,Genesis 25:13,
-Kedar,Kedar,Kedar,,
-Adbeel,Adbeel,Adbeel,,
-Mibsam,Mibsam,Mibsam,,
-Mishma,Mishma,Mishma,,
-Dumah,Dumah,Dumah,,
-Massa,Massa,Massa,,
-Hadad,Hadad,Hadad,,
-Tema,Tema,Tema,,
-Jetur,Jetur,Jetur,,
-Naphish,Naphish,Naphish,,
-Kedemah,Kedemah,Kedemah,,
-Babylon2, , ,no text left and right – empty!,
-terahfam,members of Terah’s family,members of Terah’s family,,
-rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E.,,
-Herodotus,Herodotus c. 484 – c. 425 B.C.E.,Herodotus c. 484 – c. 425 B.C.E.,Father of History,
-Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",
-Ptolemy,Ptolemy c 100 – c. 170 C.E.,Ptolemy c 100 – c. 170 C.E.,,
-Pythagoras,Pythagoras c. 570 – c. 495 BC,Pythagoras c. 570 – c. 495 BC,,
-Plato,Plato c. 427 – c. 348 BC,Plato c. 427 – c. 348 BC,,
-Socrates,Socrates c. 470 – c. 399 BC,Socrates c. 470 – c. 399 BC,,
-Josephus,Josephus c. 37 – c. 100 C.E.,Josephus c. 37 – c. 100 C.E.,,
-Cicero,Cicero 106–43 BC,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",
-lachish_letters,Lachish letters c. 590 B.C.E.,Lachish letters c. 590 B.C.E.,,
-lachish_reliefs,Lachish reliefs c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E.,,
-mesha_stele,Mesha Stele (Moabite stone) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,,
-gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,,
-epic_gilgamesh,Epic of Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),,
-oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,,
-p52,Rylands Library Papyrus P52,Rylands Library Papyrus P52,,
-daniel2_shift,0,,Start 4.2,
-daniel2_1,King Nebuchadnezzar,King Nebuchadnezzar,607 BCE,
-daniel2_2,destroys Jerusalem,destroys Jerusalem,,
-daniel2_3,Conquers Babylon,Conquers Babylon,539 BCE,
-daniel2_4,Cyrus decrees return,Cyrus decrees return,537 BCE,
-daniel2_5,of Jews to Jerusalem,of Jews to Jerusalem,,
-daniel2_6,Alexander the Great,Alexander the Great,331 BCE,
-daniel2_7,conquers Persia,conquers Persia,,
-daniel2_8,Rules over Israel,Rules over Israel,63 BCE,
-daniel2_9,Destroys Jerusalem,Destroys Jerusalem,70 CE,
-daniel2_10,"During World War I,","During World War I,",1914-1918 CE,
-daniel2_11,Anglo-American World Power,Anglo-American World Power,,
-daniel2_12,comes into being,comes into being,End 4.2,
-qing-dynasty,1636-1912,1636-1912,,
-qing-dynasty_c,Qing dynasty,Qing dynasty,,
-ming-dynasty,1368-1644,1368-1644,,
-ming-dynasty_c,Династия Мин в императорском Китае,Ming dynasty in imperial China,,
-yuan-dynasty,1271-1368,1271-1368,,
-southern-song,1127-1279,1127-1279,,
-northern-song,960-1127,960-1127,,
-western-xia,1038-1227,1038-1227,,
-yuan-dynasty_c,Yuan,Yuan,,
-southern-song_c,Southern Song,Southern Song,,
-northern-song_c,Northern Song,Northern Song,,
-western-xia_c,Western Xia,Western Xia,,
-Copernicus,Nicolaus Copernicus,Nicolaus Copernicus,,
-Galileo,Galileo Galilei,Galileo Galilei,,
-Newton,Isaac Newton,Isaac Newton,,
-gregorian,Gregorian calendar 1582,Gregorian calendar 1582,,
-shang-dynasty,c. 1600-1046 BC,c. 1600-1046 BC,,
-western-zhou,c. 1046-771 BC,c. 1046-771 BC,,
-eastern-zhou,770-256 BC,770-256 BC,,
-qin-dynasty,Qin 221-297 BC,Qin 221-297 BC,,
-western-han,207 BC – 9 CE,207 BC – 9 CE,,
-eastern-han,25-220 CE,25-220 CE,,
-three-kingdoms,Three kingdoms 220-280 CE,Three kingdoms 220-280 CE,,
-sixteen-kingdoms,Sixteen kingdoms 304-439 CE,Sixteen kingdoms 304-439 CE,,
-northern-dynasties,368-581 CE,368-581 CE,,
-southern-dynasties,420-589 CE,420-589 CE,,
-tang-dynasty1, , ,,
-tang-dynasty2,"618-690, 705-907","618-690, 705-907",,
-wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,,
-shang-dynasty_c,Shang Dynasty,Shang Dynasty,,
-western-zhou_c,Western Zhou,Western Zhou,,
-eastern-zhou_c,Eastern Zhou,Eastern Zhou,,
-western-han_c,Western Han,Western Han,,
-eastern-han_c,Eastern Han,Eastern Han,,
-three-kingdoms_c,China,China,,
-sixteen-kingdoms_c,China,China,,
-northern-dynasties_c,Northern Dynasties,Northern Dynasties,,
-southern-dynasties_c,Southern Dynasties,Southern Dynasties,,
-tang-dynasty1_c,Tang,Tang,,
-tang-dynasty2_c,Tang Dynasty,Tang Dynasty,,
-xia-dynasty,Xia dynasty in China c. 2070 – c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC,,
-gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC,,
-Ashoka,Ashoka (c. 304-232 BC) promotes Buddhism,Ashoka (c. 304-232 BC) promotes Buddhism,,
+key,text,notes,english
+version,4.5,,4.5
+pdf_title,Визуализация 6000-летней истории человечества,,6000 years human history visualized
+pdf_subject,Хронология человечества,,Timeline of humankind
+BCE,до н. э.,,B.C.E.
+CE,н.э.,,C.E.
+year,год,"timespan, age (Adam was 130 years old when Shem was born)",year
+years,годы,,years
+years_age,годы,"years when used as age for a person (different word than years in some languages), like he is 23 years old ",years
+age_kings, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""", 
+month,месяц,,month
+months,Месяцы,,months
+day,день,,day
+days,Дни недели,,days
+to,Кому,,to
+people,народ,,people
+judges,книга судей,,judges
+prophets,Пророков,,prophets
+kings,Королей,,kings
+periods,Периоды,,periods
+events,События,,events
+objects,Объекты или предметы,,objects or items
+Deluge,Потоп,,Deluge
+Adam,Адам,,Adam
+Seth,Сет,,Seth
+Enosh,Енос,,Enosh
+Kenan,Кенан,,Kenan
+Mahalalel,Малелеил,,Mahalalel
+Jared,Джаред,,Jared
+Enoch,Енох,,Enoch
+Methuselah,Мафусаил,,Methuselah
+Lamech,Ламеха,,Lamech
+Noah,Ной,,Noah
+Shem,Сим,,Shem
+Arpachshad,Арпакшад,,Arpachshad
+Shelah,Шела,,Shelah
+Eber,Эбер,,Eber
+Peleg,Пелек,,Peleg
+Reu,Реу,,Reu
+Serug,Серуг,,Serug
+Nahor,Нахор,,Nahor
+Terah,Фарра,,Terah
+Abraham,Авраам,,Abraham
+Isaac,Исаак,,Isaac
+Jacob,Иаков,,Jacob
+Joseph,Иосиф,,Joseph
+Moses,Моисей,,Moses
+Othniel,Отниэль,,Othniel
+Ehud,Эхуд,,Ehud
+Shamgar,Шамгар,,Shamgar
+Barak,Барак,,Barak
+Gideon,Гедеон,,Gideon
+Tola,Тола,,Tola
+Jair,Иаир,,Jair
+Jephthah,Иеффай,,Jephthah
+Ibzan,Ибзан,,Ibzan
+Elon,Элон,,Elon
+Abdon,Абдон,,Abdon
+Samson,Самсон,,Samson
+Samuel,Самуил,,Samuel
+Saul,Саул,,Saul
+David,Давид,,David
+Solomo,Соломо,,Solomo
+Rehoboam,Ровоам,first king of southern kingdom of Juda,Rehoboam
+Abijah,Авия (Авия),"3 years, also Abijam",Abijah (Abijam)
+Asa,Аса,,Asa
+Jehoshaphat,Иосафат,bce_float = -y+1 - (12-m)/12 – (31-d)/360,Jehoshaphat
+Jehoram2,Иорам,,Jehoram
+Ahaziah,Охозия,,Ahaziah
+Athaliah,Царица Гофолия,Queen Athaliah,Queen Athaliah
+Jehoash,Иоас,,Jehoash
+Amaziah,Амасия,,Amaziah
+Uzziah,Озия (Азария),also Azariah,Uzziah (Azariah)
+Jotham,Иоафам,,Jotham
+Ahaz,Ахаз,,Ahaz
+Hezekiah,Езекия,,Hezekiah
+Manasseh,Манассия,,Manasseh
+Amon,Амон,,Amon
+Josiah,Иосия,,Josiah
+Jehoahaz,Иоахаз,Only 3 months,Jehoahaz
+Jehoiakim,Иоаким,,Jehoiakim
+Jehoiachin,Иехония,Only 3 months 10 days,Jehoiachin
+Zedekiah,Седекия,,Zedekiah
+Jeroboam,Большая чаша,first king of northern 10-tribe kingdom,Jeroboam
+Nadab,Надаб,less than 2,Nadab
+Baasha,Бааша,,Baasha
+Elah,Эла,,Elah
+Zimri,Зимри,Only 7 days in ca. 751 BCE,Zimri
+OmriTibni,Амврий и Тибни вместе,4 years Omri and Tibni,Omri and Tibni together
+Omri,Амврий (один),from 947 Omri alone,Omri (alone)
+Ahab,Ахав,,Ahab
+Jehoram,Иорам,,Jehoram
+Jehu,Возница,,Jehu
+Jeoahaz,Чоахаз,,Jeoahaz
+JeoahazJehoash,Гоахаз и Иоас,For 3 years Jeoahaz and Jeoash reigned together,Jeoahaz and Jehoash
+Jehoash2,Иоас (один),Jehoash (alone),Jehoash (alone)
+Jeroboam2,Иеровоам II,,Jeroboam II
+Zechariah,Захария,"reign only recorded 6 months, probably only established 792 BCE",Zechariah
+Schallum,Шаллум,only one month,Schallum
+Menahem,Менахем,,Menahem
+Pekahiah,Пекахия,,Pekahiah
+Pekah,Пека,,Pekah
+Hoshea,Осия,9 years from c. 748,Hoshea
+Elijah,Илия,,Elijah
+Elisha,Елисей,,Elisha
+Jonah,Иона,,Jonah
+Amos,Амос,,Amos
+Joel,Иоиль,,Joel
+Hosea,Осия,,Hosea
+Isaiah,Исаия,,Isaiah
+Micah,Михей,,Micah
+Zephaniah,Софония,,Zephaniah
+Nahum,Наум,,Nahum
+Jeremiah,Иеремия,,Jeremiah
+Habakuk,Аввакум,,Habakuk
+Daniel,Даниил,,Daniel
+Ezekiel,Иезекииль,,Ezekiel
+Obadiah,Авдий,,Obadiah
+Malachi,Малахия,,Malachi
+Ruth,Руфь,,Ruth
+Ezra,Ездра,,Ezra
+Nehemiah,Неемия,,Nehemiah
+Esther,Есфирь,,Esther
+Job,Работа,,Job
+moses2,1593–1473 гг. до н. э. — 120 лет,,1593 to 1473 B.C.E. – 120 years
+moses3,Моисей,,Moses
+wilderness,Израиль в пустыне 1513–1473 гг. до н. э. — 40 лет,,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years
+timespan_judges,1473 – 1117 гг. до н. э. – 356 лет,,1473 to 1117 B.C.E. – 356 years
+timespan_judges2,Время судей,,Time of the judges
+temple1,Нисан 1513 г. до н. э. — зив 1034 г. до н. э.,,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.
+temple2,479 лет до постройки храма – 3 Царств 6:1,1034 BCE,479 years until the temple construction – 1 Kings 6:1
+69weeks,Иисус крестился осенью 29 года н. э.,,Jesus baptized autumn 29 C.E.
+69weeks2,69 недель до Мессии – Даниил 9:25,,69 weeks to the Messiah – Daniel 9:25
+jesus_service,"3,5 года служения Иисусу, казнен 14 нисана 33 года н. э.",,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E."
+jesus_life,"Иисус, родившийся во 2 году до н. э.",,Jesus born 2 B.C.E.
+exile,607—537 гг. до н. э. — 70 лет (Иеремия 25:11),,607 to 537 B.C.E. – 70 years (Jeremiah 25:11)
+exile2,изгнанник,,exile
+7times,Откровение 12:9,,Revelation 12:9
+7times2,7 раз – 2520 лет до Мессианского Царства 1914 г. н. э. (Даниил 4:23),,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)
+ww1,Первая мировая война – 1914–1918 гг.,,World War I – 1914–1918 C.E.
+ww2,Вторая мировая война – 1939–1945 гг.,,World War II – 1939–1945 C.E.
+30_year_war,Тридцатилетняя война в Европе 1618-1648 гг.,,Thirty Years' War in Europe 1618-1648
+joshua,110 лет,,110 years
+joshua2,Иисус Навин,,Joshua
+caleb,более 85 лет,,more than 85 years
+caleb2,Калеб,,Caleb
+missionary1,"Первое миссионерское путешествие Павла, ок. 47—48 н. э. с Варнавой и Иоанном Марком",,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark"
+circumcision,"Вопрос об обрезании в Антиохии, конференция в Иерусалиме, ок. 49 г. н. э.",,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E."
+missionary2,Второе миссионерское путешествие ок. 49—52 гг. н. э. с Силой (Силуаном),,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)
+missionary3,Третье миссионерское путешествие ок. 52—56 н. э.,,Third Missionary Journey c. 52-56 C.E.
+caesarea,Павел в заключении в Кесарии ок. 56—58 н. э.,,Paul in custody in Caesarea c. 56-58 C.E.
+rome1,Первое заключение Павла в Риме ок. 59—61 н. э.,,Paul’s first imprisonment in Rome c. 59-61 C.E.
+rome2,"Второе заключение Павла в Риме ок. 65 г. н.э., написано 2-е Послание к Тимофею, Павел казнен",,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed"
+Julius,Юлий,,Julius
+Augustus,Август,,Augustus
+Tiberius,Тиберий,,Tiberius
+Caligula,Калигула,,Caligula
+Claudius,Клавдий,,Claudius
+Nero,Нерон,,Nero
+Galba-Otho-Vitellius,"Гальба, Отон и Вителлий (Год четырех императоров)",,"Galba, Otho and Vitellius (Year of the Four Emperors)"
+Vespasian,Веспасиан,,Vespasian
+event_exodus,Исход из Египта 14 нисана 1513 года до н. э.,,"Exodus from Egypt on Nisan 14th, 1513 B.C.E."
+event_division_kingdom,Разделение Израиля 997 г. до н.э.,,Division of Israel 997 BCE
+event_destruction_samaria,Разрушение Самарии в 740 году до н. э. Ассирией,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
+event_destruction_samaria2,740 г. до н. э. в Ассирии,was shortened here for 2 lines,740 B.C.E. by Assyria
+event_destruction_jerusalem1,"Разрушение Иерусалима Вавилоном в 607 году до н. э., через 390 лет после разделения царства (Иезекииль 4:5)",,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)"
+event_temple_rebuilt,"Храм в Иерусалиме, восстановленный в 515 году до н. э.",,Temple in Jerusalem rebuilt 515 B.C.E.
+event_jerusalem_rebuilt,Иерусалимская стена восстановлена в 455 году до н. э.,,Jerusalem wall rebuilt 455 B.C.E.
+event_destruction_jerusalem2,Разрушение Иерусалима Римом в 70 году н. э. при Тите,,Destruction of Jerusalem 70 C.E. by Rome under Titus
+event_1914,"Конец времен народов (от Луки 21:24), Царство Бога начинает править на небесах в 1914 году н. э. ",include scripture Luke 21:24,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E. "
+became_king,стал королем в возрасте,,became king at age
+vulgate,"Вульгата, завершенная Иеронимом (латинский перевод Библии), ок. 405 г. н. э.",,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
+gutenberg,"Библия Гутенберга, напечатанная в 1455 г.",,Gutenberg bible printed 1455
+erasmus,"Греческий текст Христианских Греческих Писаний, изданный Дезидерием Эразмом Роттердамским 1516 г.",,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
+luther,Перевод Библии Лютера в сентябре 1522 года,,Luther Bible translation in September 1522
+tyndale,"Английский перевод Библии Тиндейла, 1536 г.",,English Bible translation by Tyndale 1536
+king_james,Библия короля Якова 1611 г.,,King James Bible 1611
+69weeks3,"Иисус начинает свое служение в 29 году н.э. (Луки 3:1, 21)",,"Jesus starts his service 29 CE (Luke 3:1, 21)"
+ransom,"середина недели «жертва, чтобы прекратиться» Даниил 9:27",,middle of week “sacrifice to cease” Daniel 9:27
+cornelius,Корнилий крестился по истечении 70 недель (Даниила 9:24) в 36 году н. э.,,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.
+columbus,Конец доколумбового периода в Америке 1492 г.,,end of the pre-columbian period in the Americas 1492
+declaration_independence,декларация независимости 13 колоний в Америке 1776 г.,,declaration of independence of 13 colonies in America 1776
+tischendorf,В 1844 году Тишендорф обнаруживает Синайский кодекс IV века,,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844
+dead_sea_scrolls,Написаны свитки Мертвого моря,,Dead Sea Scrolls written
+septuagint,Перевод Септуагинты LXX,,Septuagint LXX translated
+watchtower,Первый номер журнала «Сионская сторожевая башня и вестник присутствия Христа» вышел в 1879 году,,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879
+photodrama,«Фотодрама творения» впервые показана в Нью-Йорке 11 января 1914 года,,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914"
+jehovahs_witnesses,"Исследователи Библии приняли новое название — Свидетели Иеговы (Исаия 43:10, 12) в Колумбусе, штат Огайо, в 1931 году",include scripture,"The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931"
+gilead_school,"Библейская школа Сторожевой Башни Галаад открылась в понедельник, 1 февраля 1943 года",,"Watchtower Bible School of Gilead began on Monday, February 1, 1943"
+new_world_translation1,"В «Священном Писании — Переводе нового мира», выпущенном в Манчестере (Англия) 18 июня 1960 года, имя Иегова вновь встречается во многих местах Библии",hightlight reintroduction of Jehovah’s name,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible"
+truth_book,"Книга «Истина, ведущая к вечной жизни» вышла в 1968 году",,The book “The Truth That Leads to Eternal Life” released 1968
+metropolitan,Начало проповеднического служения в 2011 году,,Start of metropolitan witnessing in 2011
+jw_org,Начало JW.ORG с наставлений в царственном служении в декабре 2012 года,,Start of JW.ORG with instructions in kingdom ministry December 2012
+new_world_translation2,"Пересмотренное издание «Священное Писание — Перевод нового мира», выпущенное на ежегодном собрании 2013 года, оптимизированное для использования в цифровом и электронном виде",new edition with digital and online in mind,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online"
+jw_broadcasting,Начало jw.broadcasting в октябре 2014 года,,Start of jw.broadcasting in October 2014
+meeting_workbook,Новый формат совещаний в середине недели с «рабочей тетрадью совещаний» с января 2016 г.,,New format of midweek meeting with “meeting workbook” starting January 2016
+covid19,Ковид-19,,Covid-19
+cold_war,"Геополитическая ситуация, получившая обозначение «холодная война» 1945-1991 гг.",,Geopolitical situation labeled “Cold War” 1945-1991
+timeline_created,"Эта временная шкала была создана в 2023 году, самом жарком году в истории человечества и за последние 125 000 лет",,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years"
+codex_sinaiticus,Синайский кодекс письменный,,Codex Sinaiticus written
+codex_vaticanus,Написан Ватиканский кодекс,,Codex Vaticanus written
+leningrad_codex,"Ленинградская летопись, написанная в Каире, 1008 г. н.э.",,Leningrad Codex written in Cairo AD 1008
+john,"Иоанн пишет «откровение», находясь в ссылке на острове Патмос в 96—98 гг. н. э.",,John writes “revelation” while exiled on Patmos 96-98 C.E.
+nicaea1,Первый Никейский собор,,First Council of Nicaea
+buddha,Будда – Сиддхартха Гаутама ок. 563 – ок. 483 до н. э.,,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E
+buddha2,Будда (ок. 480—400 гг. до н. э.),,Buddha alternatively c. 480-400 B.C.E.
+mohammed,Мухаммед ок. 570—632 н. э.,,Mohammed c. 570-632 C.E.
+confucius,Конфуций ок. 551 — ок. 479 до н. э.,,Confucius c.551-c.479 B.C.E.
+hijrah,Хиджра - Путешествие из Мекки в Медину 16 июля 622 г.,,Hijrah - Journey Mecca to Medina 16 July 622
+moses_escape,"1553 год до н. э. Моисей вынужден бежать из Египта – Исход 2:15, Деяния 7:23",,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23"
+10plagues,1513 г. до н. э. Египет получает 10 казней,,1513 B.C.E Egypt receives 10 plagues
+joseph_sold,Иосиф продан в рабство в возрасте 17 лет – Быт 37:2,,Joseph sold as slave at the age of 17 – Gen 37:2
+infliction,"400-летнее наказание (Деяния 7:6) – Измаил, 1913 г. до н. э.",,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E
+Alexander,Александр Македонский (Даниил 11:3),,Alexander the Great (Daniel 11:3)
+persia,"Кир Великий, Камбис II, Дарий I 490 г. до н.э., Ксеркс I 480 г. до н.э. (муж Есфири, Даниил 11:2)",,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)"
+persia2,Персия,,Persia
+king_north,"Селевк I Никатор (ст. 5), от Сирии до Антиоха III (ст. 10) и Селевка IV (ст. 18, 19) до Октавиана (ст. 20) и Тиберия (ст. 21-24)",,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)"
+king_north1,Царь Севера,,King of the North
+king_south,"Птолемей I, II, III, IV (ст. 11, 12), V (ст. 15, 16) до битвы при Акциуме 31 г. до н. э.",,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
+king_south1,Царь Юга,,King of the South
+king_south2,"Британская империя с 1870 г., англо-американская мировая держава с 1914 г.",,"British empire 1870, Anglo-American World Power since 1914"
+king_south3,Царь Юга,,King of the South
+king_north2,"Германия с императором Вильгельмом I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Север,,North
+king_north4,"Советский Союз 1945-1991 (Даниил 11:32-39, 40б, 41)",,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)"
+king_north5,Россия с 2017 г. (w20 мая),,Russia since 2017 (w20 May)
+time_of_end,"Присутствие Христа, завершение системы вещей (Матфея 24:3), последние дни (2 Тимофею 3:1)",scriptures written out,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)"
+time_of_end2,Последние дни,,last days
+suryavaman2,Король Сурьяварман II строит Ангкор-Ват в 1113-1150 гг.,,King Suryavarman II builds Angkor Wat 1113-1150
+notre-dame,"Собор Парижской Богоматери, построенный в 1163-1260 гг.",,Notre-Dame de Paris built 1163-1260
+jehoiada,Иодай,,Jehoiada
+babel,Построена Вавилонская башня,,tower of Babel built
+Haggai,Аггей,,Haggai
+Zerubbabel,Зоровавель (Луки 3:27),,Zerubbabel (Luke 3:27)
+Babylon,"Даниил 2:32, 36—38; 7:4",,"Daniel 2:32, 36-38; 7:4"
+Medopersia,"Даниил 2:32, 39; 7:5",,"Daniel 2:32, 39; 7:5"
+Greece,"Даниил 2:32, 39; 7:6",,"Daniel 2:32, 39; 7:6"
+Rome,"Даниил 2:33, 40; 7:7",,"Daniel 2:33, 40; 7:7"
+Angloamerica,"Даниил 2:33, 41-43",,"Daniel 2:33, 41-43"
+Babylon_c,Вавилон,,Babylon
+Medopersia_c,Мидо-Персия,,Medo-Persia
+Greece_c,Греция,,Greece
+Rome_c,Рим,,Rome
+Angloamerica_c,Англо-Америка,,Anglo-America
+infliction1,400 лет,Acts 7:6,400 year infliction
+infliction2,Деяния 7:6,,Acts 7:6
+Jacob2,Иаков/,Jacob/Israel 1858-1711 – 147 years,Jacob/
+Israel,Израиль,,Israel
+Sarah,Сара,2008-1881 BCE – 127 years,Sarah
+Hagar,Агарь,Genesis 21:14,Hagar
+Haran,Харран,Genesis 11:26,Haran
+Reumah,Реума,Concubine – 4 sons,Reumah
+Milcah,Милка,8 sons (Bethuel and 7 more),Milcah
+Lot,Лот,,Lot
+Lots_wife,Жена Лота,,Lot’s wife
+Lots_daughters,Дочери Лота,,Daughters of Lot
+Moab,Моав (старшая дочь),,Moab (older daughter)
+Ammon,Бен-Амми (Аммон),,Ben-ammi (Ammon)
+Bethuel,Бетуэль,,Bethuel
+Rebekah,Ревекка,,Rebekah
+Laban,Лаван,,Laban
+Leah,Лия,Genesis 35:23,Leah
+Rachel,Рахиль,Genesis 35:24,Rachel
+Bilhah,Бильха,Genesis 35:25,Bilhah
+Zilpah,Зелфа,Genesis 35:26,Zilpah
+Reuben,Рувим,,Reuben
+Simeon,Симеон,,Simeon
+Levi,Левий,,Levi
+Judah,Иуда,,Judah
+Issachar,Иссахар,,Issachar
+Zebulun,Завулон,,Zebulun
+Dinah,Дайна,Genesis 34,Dinah
+Esau,Исав/,,Esau/
+Edom,Эдом,Genesis 36:1,Edom
+Ishmael,Измаил,,Ishmael
+Manasseh2,(Манассия,,(Manasseh
+Ephraim,и Ефрема),,and Ephraim)
+Benjamin,Вениамин,,Benjamin
+Dan,Дан,,Dan
+Naphtali,Неффалим,,Naphtali
+Gad,Гад,,Gad
+Asher,Ашер,,Asher
+Milcah1,"Уз, Буз, Кемуэль,",Genesis 22:21,"Uz, Buz, Kemuel,"
+Milcah2,"Хесед, Хазо,",,"Chesed, Hazo,"
+Milcah3,"Пилдаш, Джидлаф",,"Pildash, Jidlaph"
+Tebah,Тебах,Genesis 22:23,Tebah
+Gaham,Гэхам,,Gaham
+Tahash,Тахаш,,Tahash
+Maacah,Мааха,,Maacah
+Mahalath,Махалат/,"Genesis 28:8, 9",Mahalath/
+Basemath,Базисмат,"Genesis36:3, 4",Basemath
+Reuel,Руэль,"36:13, 17",Reuel
+Nahath,Нахат,,Nahath
+Zerah,Зерах,,Zerah
+Schammah,Шамма,,Schammah
+Mizzah,Мизза,,Mizzah
+Adah,Ада,"36:11, 12, 15, 16",Adah
+Eliphaz,Элифаз,,Eliphaz
+Teman,Теман,,Teman
+Omar,Омар,,Omar
+Zepho,Зефо,,Zepho
+Kenaz,Кеназ,,Kenaz
+Korah,Корей,,Korah
+Gatam,Гатам,,Gatam
+Amalek,Амалек,,Amalek
+Oholibamah,Олибама,"36:14, 18",Oholibamah
+Jeush,Джеуш,,Jeush
+Jalam,Джалам,,Jalam
+Nebaioth,Неваиот,Genesis 25:13,Nebaioth
+Kedar,Кедар,,Kedar
+Adbeel,Адбиль,,Adbeel
+Mibsam,Мибсам,,Mibsam
+Mishma,Мишма,,Mishma
+Dumah,Дума,,Dumah
+Massa,Масса,,Massa
+Hadad,Хадад,,Hadad
+Tema,Тема,,Tema
+Jetur,Джетур,,Jetur
+Naphish,Нафиш,,Naphish
+Kedemah,Кедема,,Kedemah
+Babylon2, ,no text left and right – empty!, 
+terahfam,члены семьи Фарры,,members of Terah’s family
+rosetta,"Розеттский камень, 196 г. до н. э.",,Rosetta stone 196 B.C.E.
+Herodotus,"Геродот ок. 484 – ок. 425 до н.э., пишет «Истории»",Father of History,"Herodotus c. 484 – c. 425 BC, writes The Histories"
+Aristotle,Аристотель 384 – 322 гг. до н.э.,"The First Teacher, The Philosopher",Aristotle 384 – 322 BC
+Ptolemy,Птолемей c 100 – ок. 170 н. э.,,Ptolemy c 100 – c. 170 C.E.
+Pythagoras,Пифагор ок. 570 – ок. 495 до н.э.,,Pythagoras c. 570 – c. 495 BC
+Plato,Платон ок. 427 – ок. 348 до н.э.,,Plato c. 427 – c. 348 BC
+Socrates,Сократ ок. 470 – ок. 399 до н.э.,,Socrates c. 470 – c. 399 BC
+Josephus,Иосиф Флавий ок. 37 – ок. 100 н. э.,,Josephus c. 37 – c. 100 C.E.
+Cicero,Цицерон 106–43 гг. до н.э.,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",Cicero 106–43 BC
+lachish_letters,"Лахишские письма, ок. 590 г. до н. э.",,Lachish letters c. 590 B.C.E.
+lachish_reliefs,"Лахишские рельефы, ок. 681 г. до н. э.",,Lachish reliefs c. 681 B.C.E.
+mesha_stele,Стела Меша (Моавитский камень) ок. 840 г. до н. э.,,Mesha Stele (Moabite stone) c. 840 B.C.E.
+gilgamesh,Гильгамеш и Ага 𒇽𒆥���������𒀝𒂵,,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Эпос о Гильгамеше (Sîn-lēqi-unninni),,Epic of Gilgamesh (Sîn-lēqi-unninni)
+oxyrhynchus,Папирусы Оксиринха,,Oxyrhynchus Papyri
+p52,Папирус P52,,Papyrus P52
+daniel2_shift,0,Start 4.2,0
+daniel2_1,Царь Навуходоносор,607 BCE,King Nebuchadnezzar
+daniel2_2,разрушает Иерусалим,,destroys Jerusalem
+daniel2_3,Завоевание Вавилона,539 BCE,Conquers Babylon
+daniel2_4,Кир повелевает вернуться,537 BCE,Cyrus decrees return
+daniel2_5,евреев в Иерусалим,,of Jews to Jerusalem
+daniel2_6,Александр Македонский,331 BCE,Alexander the Great
+daniel2_7,завоевывает Персию,,conquers Persia
+daniel2_8,Правила над Израилем,63 BCE,Rules over Israel
+daniel2_9,Разрушает Иерусалим,70 CE,Destroys Jerusalem
+daniel2_10,Во время Первой мировой войны,1914-1918 CE,"During World War I,"
+daniel2_11,Англо-американская мировая держава,,Anglo-American World Power
+daniel2_12,Начало жизни,End 4.2,comes into being
+qing-dynasty,1636-1912,,1636-1912
+qing-dynasty_c,Династия Цин,1636-1912,Qing dynasty
+ming-dynasty,1368-1644,,1368-1644
+ming-dynasty_c,Династия Мин в императорском Китае,1368-1644,Ming dynasty in imperial China
+yuan-dynasty,1271-1368,,1271-1368
+southern-song,1127-1279,,1127-1279
+northern-song,960-1127,,960-1127
+western-xia,1038-1227,,1038-1227
+yuan-dynasty_c,Юань,1271-1368,Yuan
+southern-song_c,Южная Песня,1127-1279,Southern Song
+northern-song_c,Северная Песня,960-1127,Northern Song
+western-xia_c,Западная Ся,1038-1227,Western Xia
+Copernicus,Николай Коперник,,Nicolaus Copernicus
+Galileo,Галилео Галилей,Galileo di Vincenzo Bonaiuti de' Galilei,Galileo Galilei
+Newton,Исаак Ньютон,,Isaac Newton
+gregorian,Григорианский календарь 1582,,Gregorian calendar 1582
+shang-dynasty,ок. 1600-1046 гг. до н.э.,,c. 1600-1046 BC
+western-zhou,ок. 1046-771 до н.э.,,c. 1046-771 BC
+eastern-zhou,770-256 гг. до н.э.,,770-256 BC
+qin-dynasty,Цинь 221-207 гг. до н.э.,,Qin 221-207 BC
+western-han,207 г. до н.э. – 9 г. н.э.,,207 BC – 9 CE
+eastern-han,25-220 н.э.,,25-220 CE
+three-kingdoms,Троецарствие 220-280 гг. н.э.,,Three kingdoms 220-280 CE
+sixteen-kingdoms,Шестнадцать царств 304-439 гг. н.э.,,Sixteen kingdoms 304-439 CE
+northern-dynasties,368-581 гг. н.э.,,368-581 CE
+southern-dynasties,420-589 гг. н.э.,,420-589 CE
+tang-dynasty1, ,, 
+tang-dynasty2,"618-690, 705-907",,"618-690, 705-907"
+wu-zhou,690-705 У Чжоу,,690-705 Wu Zhou
+shang-dynasty_c,Династия Шан,c. 1600-1046 BC,Shang Dynasty
+western-zhou_c,Западный Чжоу,c. 1046-771 BC,Western Zhou
+eastern-zhou_c,Восточная Чжоу,770-256 BC,Eastern Zhou
+western-han_c,Западная Хань,207 BC – 9 CE,Western Han
+eastern-han_c,Восточная Хань,25-220 CE,Eastern Han
+three-kingdoms_c,Китай,Three kingdoms 220-280 CE,China
+sixteen-kingdoms_c,Китай,Sixteen kingdoms 304-439 CE,China
+northern-dynasties_c,Северные династии,368-581 CE,Northern Dynasties
+southern-dynasties_c,Южные династии,420-589 CE,Southern Dynasties
+tang-dynasty1_c,Хвостовик,,Tang
+tang-dynasty2_c,Династия Тан,"618-690, 705-907",Tang Dynasty
+xia-dynasty,Династия Ся в Китае ок. 2070 – ок. 1600 до н.э.,,Xia dynasty in China c. 2070 – c. 1600 BC
+gonghe,Гунхэ Регентство 841-828 гг. до н.э.,,Gonghe Regency 841-828 BC
+Ashoka,Ашока (ок. 304-232 гг. до н.э.) пропагандирует буддизм,,Ashoka (c. 304-232 BC) promotes Buddhism
+siloam-tunnel,Езекия расширил Силоамский туннель,c. 742-732 BC,Hezekiah extends Siloam tunnel
+Angloamerica2,"Англо-американский язык символизируется железными ногами, смешанными с глиной, в пророчестве в Даниила 2:33, 41-43",,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43"
+Manetho,Манефон пишет Aegyptiaca,,Manetho writes Aegyptiaca
+tribulation,"Великая скорбь (Марка 13:19; Даниил 12:1; От Матфея 24:21, 22)",,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)"
+destruction_babylon,"Разрушение Вавилона великого (Откровение 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)"
+gog_of_magog,"Нападение Гога из Магога (Иезекииля 38:1, 2, 9-12, 18-23)",end of GT,"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)"
+sheep_goat,"Жители земли будут судимы, отделив овец и козлов (Матфея 25:31-33)",end of GT,"Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)"
+annointed,Собирание правителей Царства (Матфея 24:31; 1 Коринфянам 15:50-53; 1 Фессалоникийцам 4:15-17),end of GT,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17)
+armageddon,"Битва при Армагеддоне (Откровение 16:14, 16; Исаия 13:9; 2 Петра 3:12)",end of system of things,"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)"
+millenium,"Царство Бога начинает свое 1000-летнее царствование (Откровение 5:9, 10; 20:4, 6)",,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)"
+great_crowd,"Великое множество переживает Армагеддон (Откровение 7:9, 14; Псалом 37:9-11)",,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)"
+world_population,Население Земли в миллиардах за последние 2000 лет,,World population in billions in the last 2000 years
