@@ -7,7 +7,7 @@ CE,JAA.,C.E.,
 year,vuosi,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,vuotta,years,
 years_age,vuotta,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
-age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,kuukausi,month,
 months,kuukautta,months,
 day,päivä,day,
@@ -318,7 +318,7 @@ Tema,Tema,Tema,
 Jetur,Jetur,Jetur,
 Naphish,Naphish,Naphish,
 Kedemah,Kedemah,Kedemah,
-Babylon2,,,no text left and right – empty!
+Babylon2, , ,no text left and right – empty!
 terahfam,Terahin perheen jäseniä,members of Terah’s family,
 rosetta,Rosetta-kivi 196 eaa.,Rosetta stone 196 B.C.E.,
 Herodotus,"Herodotos c. 484 - n. 425 eKr., kirjoittaa The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
@@ -336,7 +336,7 @@ gilgamesh,Gilgamesh ja Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥�
 epic_gilgamesh,Gilgameshin eepos (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
 p52,Papyrus P52,Papyrus P52,
-daniel2_shift,0,,Start 4.2
+daniel2_shift,-5,,Start 4.2
 daniel2_1,Kuningas Nebukadnessar,King Nebuchadnezzar,607 BCE
 daniel2_2,tuhoaa Jerusalemin,destroys Jerusalem,
 daniel2_3,Valloittaa Babylonin,Conquers Babylon,539 BCE
@@ -375,7 +375,7 @@ three-kingdoms,Kolme valtakuntaa 220-280 jKr,Three kingdoms 220-280 CE,
 sixteen-kingdoms,Kuusitoista valtakuntaa 304-439 jKr,Sixteen kingdoms 304-439 CE,
 northern-dynasties,368-581 jKr,368-581 CE,
 southern-dynasties,420-589 jKr,420-589 CE,
-tang-dynasty1,,,
+tang-dynasty1, , ,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
 shang-dynasty_c,Shang-dynastia,Shang Dynasty,c. 1600-1046 BC
@@ -393,3 +393,14 @@ xia-dynasty,Xia-dynastia Kiinassa c. 2070 - n. 1600 eaa,Xia dynasty in China c. 
 gonghe,Gonghe-hallitus 841-828 eaa,Gonghe Regency 841-828 BC,
 Ashoka,Ashoka (n. 304-232 eKr.) edistää buddhalaisuutta,Ashoka (c. 304-232 BC) promotes Buddhism,
 siloam-tunnel,Hiskia laajentaa Siloam-tunnelia,Hezekiah extends Siloam tunnel,c. 742-732 BC
+Angloamerica2,"Angloamerikkalaista vertauskuvana ovat saven ja rauta-jalat ennustuksessa Daniel 2:33, 41-43.","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",
+Manetho,Manetho kirjoittaa Aegyptiaca,Manetho writes Aegyptiaca,
+tribulation,"Suuri ahdistus (Markus 13:19; Daniel 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
+destruction_babylon,"Suuren Babylonin tuho (Ilmestyskirja 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
+gog_of_magog,"Maagogin Googin hyökkäys (Hesekiel 38:1, 2, 9–12, 18–23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
+sheep_goat,Maan asukkaat tuomitaan erottamalla lampaat ja vuohet (Matteus 25:31-33),"Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
+annointed,Valtakunnan hallitsijoiden kokoaminen (Matt. 24:31; 1. Korinttolaisille 15:50–53; 1. Tessalonikalaiskirje 4:15–17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT
+armageddon,"Harmagedonin taistelu (Ilmestys 16:14, 16; Jesaja 13:9; 2. Piet. 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
+millenium,"Jumalan valtakunta aloittaa 1000-vuotisen hallituskautensa (Ilmestys 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
+great_crowd,"Suuri joukko selviytyy Harmagedonista (Ilmestys 7:9, 14; Psalmi 37:9–11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
+world_population,Maailman väkiluku miljardeissa viimeisen 2000 vuoden aikana,World population in billions in the last 2000 years,

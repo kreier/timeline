@@ -1,7 +1,7 @@
 key,born,start,end,row_y,years,months,days,c_s,c_e,notes
 Saul,0,-1116.25,-1076.25,1,40,0,0,0,0,bce_float = -y+1 - (12-m)/12 – (31-d)/360
 David,0,-1076.25,-1036.25,2,40,0,0,0,0,
-Solomo,0,-1036.25,-996.25,3,40,0,0,0,0,
+Solomon,0,-1036.25,-996.25,3,40,0,0,0,0,
 Rehoboam,-1037.25,-996.25,-979.667,4,17,0,0,0,0,first king of southern kingdom of Juda; at age 41 (1Ki 14:21)
 Abijah,0,-979.667,-977.25,5,3,0,0,0,0,3 years; also Abijam
 Asa,0,-977.25,-936.25,6,41,0,0,0,0,
