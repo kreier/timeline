@@ -237,11 +237,11 @@ Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",
 Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",
 Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",
 Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43",
-Babylon_c,Babylon,Babylon,
-Medopersia_c,Medo-Persia,Medo-Persia,
+Babylon_c,Babylonia,Babylon,
+Medopersia_c,Meedo-Persia,Medo-Persia,
 Greece_c,Kreikka,Greece,
 Rome_c,Rooma,Rome,
-Angloamerica_c,Anglo-Amerikka,Anglo-America,
+Angloamerica_c,Britannia ja Yhdysvallat,Anglo-America,
 infliction1,400 vuoden vahinko,400 year infliction,Acts 7:6
 infliction2,Apostolien teot 7:6,Acts 7:6,
 Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years
@@ -251,7 +251,7 @@ Hagar,Hagar,Hagar,Genesis 21:14
 Haran,Haran,Haran,Genesis 11:26
 Reumah,Reumah,Reumah,Concubine – 4 sons
 Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more)
-Lot,Arpa,Lot,
+Lot,Loot,Lot,
 Lots_wife,Lootin vaimo,Lot’s wife,
 Lots_daughters,Lootin tyttäret,Daughters of Lot,
 Moab,Moab (vanhempi tytär),Moab (older daughter),
@@ -259,16 +259,16 @@ Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon),
 Bethuel,Bethuel,Bethuel,
 Rebekah,Rebeka,Rebekah,
 Laban,Laban,Laban,
-Leah,Leah,Leah,Genesis 35:23
-Rachel,Rachel,Rachel,Genesis 35:24
-Bilhah,Bilhah,Bilhah,Genesis 35:25
-Zilpah,Zilpah,Zilpah,Genesis 35:26
-Reuben,Reuben,Reuben,
+Leah,Lea,Leah,Genesis 35:23
+Rachel,Raakel,Rachel,Genesis 35:24
+Bilhah,Bilha,Bilhah,Genesis 35:25
+Zilpah,Silpa,Zilpah,Genesis 35:26
+Reuben,Ruuben,Reuben,
 Simeon,Simeon,Simeon,
-Levi,Levi,Levi,
+Levi,Leevi,Levi,
 Judah,Juuda,Judah,
 Issachar,Isaskar,Issachar,
-Zebulun,Zebulon,Zebulun,
+Zebulun,Sebulon,Zebulun,
 Dinah,Dinah,Dinah,Genesis 34
 Esau,Esau/,Esau/,
 Edom,Edom,Edom,Genesis 36:1
@@ -290,21 +290,21 @@ Maacah,Maacah,Maacah,
 Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9"
 Basemath,Basemath,Basemath,"Genesis36:3, 4"
 Reuel,Reuel,Reuel,"36:13, 17"
-Nahath,Nahath,Nahath,
-Zerah,Zerah,Zerah,
-Schammah,Schammah,Schammah,
-Mizzah,Mizzah,Mizzah,
+Nahath,Nahat,Nahath,
+Zerah,Serah,Zerah,
+Schammah,Samma,Schammah,
+Mizzah,Missa,Mizzah,
 Adah,Adah,Adah,"36:11, 12, 15, 16"
 Eliphaz,Eliphas,Eliphaz,
 Teman,Teman,Teman,
 Omar,Omar,Omar,
-Zepho,Zepho,Zepho,
-Kenaz,Kenaz,Kenaz,
+Zepho,Sefo,Zepho,
+Kenaz,Kenas,Kenaz,
 Korah,Korah,Korah,
 Gatam,Gatam,Gatam,
 Amalek,Amalek,Amalek,
-Oholibamah,Oholibamah,Oholibamah,"36:14, 18"
-Jeush,Jessu,Jeush,
+Oholibamah,Oholibama,Oholibamah,"36:14, 18"
+Jeush,Jeus,Jeush,
 Jalam,Jalam,Jalam,
 Nebaioth,Nebaioth,Nebaioth,Genesis 25:13
 Kedar,Kedar,Kedar,
@@ -337,18 +337,18 @@ epic_gilgamesh,Gilgameshin eepos (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-l�
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
 p52,Papyrus P52,Papyrus P52,
 daniel2_shift,-5,,Start 4.2
-daniel2_1,Kuningas Nebukadnessar,King Nebuchadnezzar,607 BCE
+daniel2_1,kuningas Nebukadnessar,King Nebuchadnezzar,607 BCE
 daniel2_2,tuhoaa Jerusalemin,destroys Jerusalem,
-daniel2_3,Valloittaa Babylonin,Conquers Babylon,539 BCE
-daniel2_4,Cyrus määrää paluuta,Cyrus decrees return,537 BCE
-daniel2_5,juutalaisista Jerusalemiin,of Jews to Jerusalem,
+daniel2_3,valloittaa Babylonian,Conquers Babylon,539 BCE
+daniel2_4,Kyyros antaa juutalaisten,Cyrus decrees return,537 BCE
+daniel2_5,palata Jerusalemiin,of Jews to Jerusalem,
 daniel2_6,Aleksanteri Suuri,Alexander the Great,331 BCE
 daniel2_7,valloittaa Persian,conquers Persia,
-daniel2_8,Hallitsee Israelia,Rules over Israel,63 BCE
-daniel2_9,Tuhoaa Jerusalemin,Destroys Jerusalem,70 CE
-daniel2_10,Ensimmäisen maailmansodan aikana,"During World War I,",1914-1918 CE
-daniel2_11,Angloamerikkalainen maailmanvalta,Anglo-American World Power,
-daniel2_12,syntyy,comes into being,End 4.2
+daniel2_8,alkaa hallita Israelia,Rules over Israel,63 BCE
+daniel2_9,tuhoaa Jerusalemin,Destroys Jerusalem,70 CE
+daniel2_10,Brittiläis-amerikkalainen,"During World War I,",1914-1918 CE
+daniel2_11,maailmanvalta ilmaantuu,Anglo-American World Power,
+daniel2_12,ensimmäisen maailmansodan aikana,comes into being,End 4.2
 qing-dynasty,1636-1912,1636-1912,
 qing-dynasty_c,Qing-dynastia,Qing dynasty,1636-1912
 ming-dynasty,1368-1644,1368-1644,
