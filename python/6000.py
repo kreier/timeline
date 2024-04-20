@@ -41,7 +41,7 @@ if os.getcwd()[-6:] != "python":
 
 pdfmetrics.registerFont(TTFont('Aptos', 'fonts/aptos.ttf'))
 pdfmetrics.registerFont(TTFont('Aptos-bold', 'fonts/aptos-bold.ttf'))
-CJKAST = ["Japanese", "Korean", "SimplifiedChinese", "Arabic", "Sinhala", "Thai", "Georgian"]
+CJKAST = ["Japanese", "Korean", "SimplifiedChinese", "Arabic", "Sinhala", "Thai", "Khmer", "Georgian"]
 for glyphs in CJKAST:
     fontname = "Noto" + glyphs
     fontfile = "fonts/Noto" + glyphs + ".ttf"
@@ -61,6 +61,7 @@ supported = {"ar": "Arabic (العربية)",
              "ilo": "Iloko (Illocano)",
              "ja": "Japanese (日本語)",
              "ko": "Korean (한국인)",
+             "km": "Khmer (ខ្មែរ)",
              "no": "Norwegian (norsk)",
              "ru": "Russian (Русский)",
              "zh": "Chinese Mandarin (Simplified) [中文简体(普通话)]",
@@ -199,6 +200,7 @@ def import_dictionary():
                      "fa" : "Arabic",
                      "si" : "Sinhala",
                      "th" : "Thai", 
+                     "km" : "Khmer",
                      "ka" : "Georgian"}
     if language in special_fonts:
         language_fontname = special_fonts[language]
