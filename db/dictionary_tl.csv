@@ -7,7 +7,7 @@ CE,C.E.,C.E.,
 year,taon,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,taon,years,
 years_age,taon,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old "
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,buwan,month,
 months,buwan,months,
 day,araw,day,
@@ -21,38 +21,38 @@ periods,mga panahon,periods,
 events,mga pangyayari,events,
 objects,bagay o bagay,objects or items,
 Deluge,Delubyo,Deluge,
-Adam,Adam,Adam,Luke 3:38
-Seth,Seth,Seth,
-Enosh,Enosh,Enosh,
+Adam,Adan,Adam,Luke 3:38
+Seth,Set,Seth,
+Enosh,Enos,Enosh,
 Kenan,Kenan,Kenan,
 Mahalalel,Mahalaleel,Mahalalel,
 Jared,Jared,Jared,
-Enoch,Enoch,Enoch,
-Methuselah,Methuselah,Methuselah,Luke 3:37
-Lamech,Lamech,Lamech,
-Noah,Noah,Noah,
-Shem,Shem,Shem,
-Arpachshad,Arpachshad,Arpachshad,Luke 3:36
-Shelah,Shelah,Shelah,
+Enoch,Enoc,Enoch,
+Methuselah,Matusalem,Methuselah,Luke 3:37
+Lamech,Lamec,Lamech,
+Noah,Noe,Noah,
+Shem,Sem,Shem,
+Arpachshad,Arpacsad,Arpachshad,Luke 3:36
+Shelah,Shela,Shelah,
 Eber,Eber,Eber,
-Peleg,Si Peleg,Peleg,
+Peleg,Peleg,Peleg,
 Reu,Reu,Reu,
 Serug,Serug,Serug,Luke 3:35
 Nahor,Nahor,Nahor,
-Terah,Terah,Terah,
+Terah,Tera,Terah,
 Abraham,Abraham,Abraham,
 Isaac,Isaac,Isaac,
 Jacob,Jacob,Jacob,Luke 3:34
 Joseph,Joseph,Joseph,
-Moses,Moses,Moses,
-Othniel,Othniel,Othniel,Judges 3:9-11
+Moses,Moises,Moses,
+Othniel,Otniel,Othniel,Judges 3:9-11
 Ehud,Ehud,Ehud,Judges 3:15-18
-Shamgar,Shamgar,Shamgar,Judges 3:31
+Shamgar,Samgar,Shamgar,Judges 3:31
 Barak,Barak,Barak,Judges 4:6
 Gideon,Gideon,Gideon,Judges 7:1
 Tola,Tola,Tola,Judges 10:1
 Jair,Jair,Jair,Judges 10:3
-Jephthah,si Jephte,Jephthah,Judges 11:1
+Jephthah,Jepte,Jephthah,Judges 11:1
 Ibzan,Ibzan,Ibzan,Judges 12:8
 Elon,Elon,Elon,Judges 12:11
 Abdon,Abdon,Abdon,Judges 12:13
@@ -62,62 +62,62 @@ Saul,Saul,Saul,1 Samuel 9:2
 David,David,David,1 Samuel 16:13
 Solomon,Solomon,Solomon,1 Kings 2:1
 Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda
-Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam"
-Asa,Bilang isang,Asa,
-Jehoshaphat,si Josaphat,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360
-Jehoram2,si Jehoram,Jehoram,
-Ahaziah,si Ahaziah,Ahaziah,
-Athaliah,Reyna Athaliah,Queen Athaliah,Queen Athaliah
-Jehoash,Jehoash,Jehoash,
-Amaziah,Amaziah,Amaziah,
-Uzziah,Uzziah (Azariah),Uzziah (Azariah),also Azariah
-Jotham,Jotham,Jotham,
+Abijah,Abias (Abiam),Abijah (Abijam),"3 years, also Abijam"
+Asa,Asa,Asa,
+Jehoshaphat,Jehosapat,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360
+Jehoram2,Jehoram,Jehoram,
+Ahaziah,Ahazias,Ahaziah,
+Athaliah,Reyna Athalia,Queen Athaliah,Queen Athaliah
+Jehoash,Jehoas,Jehoash,
+Amaziah,Amazias,Amaziah,
+Uzziah,Uzias (Azarias),Uzziah (Azariah),also Azariah
+Jotham,Jotam,Jotham,
 Ahaz,Ahaz,Ahaz,
-Hezekiah,Hezekiah,Hezekiah,
+Hezekiah,Hezekias,Hezekiah,
 Manasseh,Manases,Manasseh,
 Amon,Amon,Amon,
-Josiah,Josiah,Josiah,
-Jehoahaz,si Joahaz,Jehoahaz,Only 3 months
-Jehoiakim,si Jehoiakim,Jehoiakim,
-Jehoiachin,si Joachin,Jehoiachin,Only 3 months 10 days
-Zedekiah,si Zedekias,Zedekiah,
-Jeroboam,si Jeroboam,Jeroboam,first king of northern 10-tribe kingdom
+Josiah,Josias,Josiah,
+Jehoahaz,Jehoahaz,Jehoahaz,Only 3 months
+Jehoiakim,Jehoiakim,Jehoiakim,
+Jehoiachin,Jehoiakin,Jehoiachin,Only 3 months 10 days
+Zedekiah,Zedekias,Zedekiah,
+Jeroboam,Jeroboam II,Jeroboam,first king of northern 10-tribe kingdom
 Nadab,Nadab,Nadab,less than 2
-Baasha,Baasha,Baasha,
+Baasha,Baasa,Baasha,
 Elah,Elah,Elah,
 Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE
-OmriTibni,Magkasama sina Omri at Tibni,Omri and Tibni together,4 years Omri and Tibni
-Omri,Omri (nag-iisa),Omri (alone),from 947 Omri alone
-Ahab,si Ahab,Ahab,
-Jehoram,si Jehoram,Jehoram,
+OmriTibni,Omri at Tibni,Omri and Tibni together,4 years Omri and Tibni
+Omri,Omri (mag-isa),Omri (alone),from 947 Omri alone
+Ahab,Ahab,Ahab,
+Jehoram,Jehoram,Jehoram,
 Jehu,Jehu,Jehu,
 Jeoahaz,Jeoahaz,Jeoahaz,
-JeoahazJehoash,sina Jeoahaz at Joas,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together
-Jehoash2,Jehoash (nag-iisa),Jehoash (alone),Jehoash (alone)
+JeoahazJehoash,Jehoahaz at Jehoas,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together
+Jehoash2,Jehoas (mag-isa),Jehoash (alone),Jehoash (alone)
 Jeroboam2,Jeroboam II,Jeroboam II,
 Zechariah,Zacarias,Zechariah,"reign only recorded 6 months, probably only established 792 BCE"
-Schallum,Schallum,Schallum,only one month
+Schallum,Salum,Schallum,only one month
 Menahem,Menahem,Menahem,
-Pekahiah,Pekahiah,Pekahiah,
-Pekah,Pekah,Pekah,
-Hoshea,Hoshea,Hoshea,9 years from c. 748
-Elijah,Elijah,Elijah,
+Pekahiah,Pekahias,Pekahiah,
+Pekah,Peka,Pekah,
+Hoshea,Hosea,Hoshea,9 years from c. 748
+Elijah,Elias,Elijah,
 Elisha,Eliseo,Elisha,
-Jonah,Jonah,Jonah,
+Jonah,Jonas,Jonah,
 Amos,Amos,Amos,
 Joel,Joel,Joel,
-Hosea,Hosea,Hosea,
-Isaiah,Isaiah,Isaiah,
-Micah,Micah,Micah,
-Zephaniah,Zephaniah,Zephaniah,
+Hosea,Oseas,Hosea,
+Isaiah,Isaias,Isaiah,
+Micah,Mikas,Micah,
+Zephaniah,Zefanias,Zephaniah,
 Nahum,Nahum,Nahum,
 Jeremiah,Jeremiah,Jeremiah,
 Habakuk,Habakuk,Habakuk,
 Daniel,Daniel,Daniel,
 Ezekiel,Ezekiel,Ezekiel,
-Obadiah,Obadiah,Obadiah,
+Obadiah,Obadias,Obadiah,
 Malachi,Malakias,Malachi,
-Ruth,si Ruth,Ruth,
+Ruth,Ruth,Ruth,
 Ezra,Ezra,Ezra,
 Nehemiah,Nehemias,Nehemiah,
 Esther,Esther,Esther,
@@ -167,7 +167,7 @@ event_destruction_jerusalem1,"Pagkawasak ng Jerusalem 607 B.C.E. ng Babilonya, 3
 event_temple_rebuilt,Ang templo sa Jerusalem ay muling itinayo noong 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,Muling itinayong pader ng Jerusalem noong 455 B.C.E.,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Pagkawasak ng Jerusalem 70 C.E. ng Roma sa ilalim ni Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"Katapusan ng panahon ng mga bansa (Lucas 21:24), ang kaharian ng Diyos ay nagsimulang mamahala sa langit noong 1914 C.E.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E. ",include scripture Luke 21:24
+event_1914,"Katapusan ng panahon ng mga bansa (Lucas 21:24), ang kaharian ng Diyos ay nagsimulang mamahala sa langit noong 1914 C.E.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
 became_king,naging hari sa edad,became king at age,
 vulgate,Ang Vulgate ay kinumpleto ni Jerome (salin sa Latin ng bibliya) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,Ang Bibliyang Gutenberg ay inilimbag noong 1455,Gutenberg bible printed 1455,
@@ -237,9 +237,9 @@ Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",
 Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",
 Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",
 Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43",
-Babylon_c,Babylon,Babylon,
+Babylon_c,Babilonya,Babylon,
 Medopersia_c,Medo-Persia,Medo-Persia,
-Greece_c,Greece,Greece,
+Greece_c,Gresya,Greece,
 Rome_c,Roma,Rome,
 Angloamerica_c,Anglo-Amerika,Anglo-America,
 infliction1,400 taon na pagpapahirap,400 year infliction,Acts 7:6
@@ -318,7 +318,7 @@ Tema,Tema,Tema,
 Jetur,Jetur,Jetur,
 Naphish,Naphish,Naphish,
 Kedemah,Kedemah,Kedemah,
-Babylon2, , ,no text left and right – empty!
+Babylon2,,,no text left and right – empty!
 terahfam,miyembro ng pamilya ni Terah,members of Terah’s family,
 rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E.,
 Herodotus,"Herodotus c. 484 – c. 425 BC, isinulat ang The History","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
@@ -337,18 +337,18 @@ epic_gilgamesh,Epiko ni Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-l
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
 p52,Papyrus P52,Papyrus P52,
 daniel2_shift,0,0,Start 4.2
-daniel2_1,Haring Nabucodonosor,King Nebuchadnezzar,607 BCE
-daniel2_2,sinisira ang Jerusalem,destroys Jerusalem,
-daniel2_3,Sinakop ang Babylon,Conquers Babylon,539 BCE
-daniel2_4,Bumalik ang utos ni Cyrus,Cyrus decrees return,537 BCE
-daniel2_5,ng mga Hudyo sa Jerusalem,of Jews to Jerusalem,
-daniel2_6,Alexander the Great,Alexander the Great,331 BCE
-daniel2_7,sinakop ang Persia,conquers Persia,
-daniel2_8,Mga tuntunin sa Israel,Rules over Israel,63 BCE
-daniel2_9,Sinisira ang Jerusalem,Destroys Jerusalem,70 CE
-daniel2_10,"Noong Unang Digmaang Pandaigdig,","During World War I,",1914-1918 CE
-daniel2_11,Anglo-American World Power,Anglo-American World Power,
-daniel2_12,nagkakaroon,comes into being,End 4.2
+daniel2_1,Winasak ni Haring,King Nebuchadnezzar,607 BCE
+daniel2_2,Nabucodonosor ang Jerusalem,destroys Jerusalem,
+daniel2_3,Tinalo ang Babilonya,Conquers Babylon,539 BCE
+daniel2_4,Iniutos ni Ciro na bumalik ang,Cyrus decrees return,537 BCE
+daniel2_5,mga Judio sa Jerusalem,of Jews to Jerusalem,
+daniel2_6,Tinalo ni Alejandrong,Alexander the Great,331 BCE
+daniel2_7,Dakila ang Persia,conquers Persia,
+daniel2_8,Nagsimulang mamahala sa Israel,Rules over Israel,63 BCE
+daniel2_9,Winasak ang Jerusalem,Destroys Jerusalem,70 CE
+daniel2_10,"Noong Digmaang Pandaigdig I,","During World War I,",1914-1918 CE
+daniel2_11,nabuo ang Kapangyarihang,Anglo-American World Power,
+daniel2_12,Pandaigdig na Anglo-Amerikano,comes into being,End 4.2
 qing-dynasty,1636-1912,1636-1912,
 qing-dynasty_c,Dinastiyang Qing,Qing dynasty,1636-1912
 ming-dynasty,1368-1644,1368-1644,
