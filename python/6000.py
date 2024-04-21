@@ -68,6 +68,7 @@ supported = {"ar": "Arabic (العربية)",
              "yue": "Chinese Cantonese (Simplified) [中文简体（广东话）]",
              "si": "Sinhala (සිංහල)",
              "th": "Thai (ภาษาไทย)",
+             "tl": "Tagalog",
              "vi": "Vietnamese (Tiếng Việt)"}
 
 def create_dictionary(target_language):
