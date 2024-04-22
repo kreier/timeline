@@ -2,106 +2,105 @@ key,text,english,notes
 version,4.5,,
 pdf_title,6000 años de historia humana visualizados,6000 years human history visualized,
 pdf_subject,Cronología de la humanidad,Timeline of humankind,
-BCE,a.e.c. ,B.C.E.,
-CE,e.c. ,C.E.,
+BCE,a.e.c.,B.C.E.,
+CE,e.c.,C.E.,
 year,año,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,años,years,
-years_age,años,years,years when used as age for a person (different word than years in some languages)
-age_kings,años, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+years_age,años,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,mes,month,
 months,meses,months,
 day,día,day,
 days,días,days,
 to,a,to,
-people,personas,persons,
+people,gente,people,
 judges,jueces,judges,
 prophets,profetas,prophets,
 kings,reyes,kings,
 periods,periodos,periods,
 events,eventos,events,
-objects,cosas o artículos,things or items,
+objects,objetos o artículos,objects or items,
 Deluge,Diluvio,Deluge,
-Adam,Adán,Adam,
-Seth,set,Seth,
+Adam,Adán,Adam,Luke 3:38
+Seth,Seth,Seth,
 Enosh,Enós,Enosh,
 Kenan,Kenán,Kenan,
-Mahalalel,ma·hala·lel,Ma·hala·lel,
+Mahalalel,Mahalalel,Mahalalel,
 Jared,Jared,Jared,
 Enoch,Enoc,Enoch,
-Methuselah,Matusalén,Me·thuse·lah,
+Methuselah,Matusalén,Methuselah,Luke 3:37
 Lamech,Lamec,Lamech,
 Noah,Noé,Noah,
 Shem,Sem,Shem,
-Arpachshad,Ar·pajshad,Ar·pachshad,
+Arpachshad,Ar·pajshad,Arpachshad,Luke 3:36
 Shelah,Sela,Shelah,
 Eber,Éber,Eber,
 Peleg,Péleg,Peleg,
 Reu,Reu,Reu,
-Serug,Serug,Serug,
+Serug,Serug,Serug,Luke 3:35
 Nahor,Nacor,Nahor,
 Terah,Taré,Terah,
 Abraham,Abrahán,Abraham,
 Isaac,isaac,Isaac,
-Jacob,jacob,Jacob,
+Jacob,jacob,Jacob,Luke 3:34
 Joseph,Joseph,Joseph,
 Moses,Moisés,Moses,
-Othniel,Otoniel,Othniel,
-Ehud,Aod,Ehud,
-Shamgar,Samgar,Shamgar,
-Barak,Barak,Barak,
-Gideon,Gedeón,Gideon,
-Tola,tolá,Tola,
-Jair,jair,Jair,
-Jephthah,Jefté,Jephthah,
-Ibzan,Ibzán,Ibzan,
-Elon,elon,Elon,
-Abdon,Abdón,Abdon,
-Samson,Sansón,Samson,
-Samuel,Samuel,Samuel,
-Saul,Saúl,Saul,
-David,David,David,
-Solomon,Salomón,Solomon,
-Rehoboam,Roboam,Rehoboam,
-Abijah,Abías (Abiam),Abijah (Abijam),
+Othniel,Otoniel,Othniel,Judges 3:9-11
+Ehud,Aod,Ehud,Judges 3:15-18
+Shamgar,Samgar,Shamgar,Judges 3:31
+Barak,Barak,Barak,Judges 4:6
+Gideon,Gedeón,Gideon,Judges 7:1
+Tola,tolá,Tola,Judges 10:1
+Jair,jair,Jair,Judges 10:3
+Jephthah,Jefté,Jephthah,Judges 11:1
+Ibzan,Ibzán,Ibzan,Judges 12:8
+Elon,elon,Elon,Judges 12:11
+Abdon,Abdón,Abdon,Judges 12:13
+Samson,Sansón,Samson,Judges 13:24
+Samuel,Samuel,Samuel,1 Samuel 1:20
+Saul,Saúl,Saul,1 Samuel 9:2
+David,David,David,1 Samuel 16:13
+Solomon,Salomón,Solomon,1 Kings 2:1
+Rehoboam,Roboam,Rehoboam,first king of southern kingdom of Juda
+Abijah,Abías (Abiam),Abijah (Abijam),"3 years, also Abijam"
 Asa,Como un,Asa,
-Jehoshaphat,Josafat,Jehoshaphat,
+Jehoshaphat,Josafat,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360
 Jehoram2,Joram,Jehoram,
 Ahaziah,Ocozías,Ahaziah,
-Athaliah,Reina Atalía,Queen Athaliah,
+Athaliah,Reina Atalía,Queen Athaliah,Queen Athaliah
 Jehoash,Joás,Jehoash,
 Amaziah,Amasías,Amaziah,
-Uzziah,Uzías (Azarías),Uzziah (Azariah),
+Uzziah,Uzías (Azarías),Uzziah (Azariah),also Azariah
 Jotham,Jotam,Jotham,
 Ahaz,Acaz,Ahaz,
 Hezekiah,Ezequías,Hezekiah,
 Manasseh,Manasés,Manasseh,
 Amon,Amón,Amon,
 Josiah,Josías,Josiah,
-Jehoahaz,Joacaz,Jehoahaz,
+Jehoahaz,Joacaz,Jehoahaz,Only 3 months
 Jehoiakim,Joacim,Jehoiakim,
-Jehoiachin,Joaquín,Jehoiachin,
+Jehoiachin,Joaquín,Jehoiachin,Only 3 months 10 days
 Zedekiah,Sedekia,Zedekiah,
-Jeroboam,Botella grande,Jeroboam,
-Nadab,Nadab,Nadab,
+Jeroboam,Botella grande,Jeroboam,first king of northern 10-tribe kingdom
+Nadab,Nadab,Nadab,less than 2
 Baasha,Baasa,Baasha,
 Elah,Ela,Elah,
-Zimri,Zimrí,Zimri,
-OmriTibni,Omri y Tibni juntos,Omri and Tibni together,
-Omri,Omrí (solo),Omri (alone),
+Zimri,Zimrí,Zimri,Only 7 days in ca. 751 BCE
+OmriTibni,Omri y Tibni juntos,Omri and Tibni together,4 years Omri and Tibni
+Omri,Omrí (solo),Omri (alone),from 947 Omri alone
 Ahab,Acab,Ahab,
-Ahaziah,Ocozías,Ahaziah,
 Jehoram,Joram,Jehoram,
 Jehu,Jehú,Jehu,
 Jeoahaz,Jeoacaz,Jeoahaz,
-JeoahazJehoash,Joacaz y Joás,Jeoahaz and Jehoash,
-Jehoash2,Joás (solo),Jehoash (alone),
+JeoahazJehoash,Joacaz y Joás,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together
+Jehoash2,Joás (solo),Jehoash (alone),Jehoash (alone)
 Jeroboam2,Jeroboam II,Jeroboam II,
-Zechariah,Zacarías,Zechariah,
-Schallum,Schallum,Schallum,
+Zechariah,Zacarías,Zechariah,"reign only recorded 6 months, probably only established 792 BCE"
+Schallum,Schallum,Schallum,only one month
 Menahem,Menajem,Menahem,
 Pekahiah,Pekahiah,Pekahiah,
 Pekah,Pekah,Pekah,
-Hoshea,Oseas,Hoshea,
+Hoshea,Oseas,Hoshea,9 years from c. 748
 Elijah,Elías,Elijah,
 Elisha,Elíseo,Elisha,
 Jonah,Jonás,Jonah,
@@ -129,7 +128,7 @@ wilderness,Israel en el desierto 1513 a 1473 a.E.C. - 40 años,Israel in the wil
 timespan_judges,1473 a 1117 a.E.C. – 356 años,1473 to 1117 B.C.E. – 356 years,
 timespan_judges2,La hora de los jueces,Time of the judges,
 temple1,Nisán 1513 a.E.C. a Ziv 1034 a.E.C.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,
-temple2,479 años hasta la construcción del templo – 1 Reyes 6:1,479 years until the temple construction – 1 Kings 6:1,
+temple2,479 años hasta la construcción del templo – 1 Reyes 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE
 69weeks,Jesús bautizó en el otoño de 29 E.C.,Jesus baptized autumn 29 C.E.,
 69weeks2,69 semanas para el Mesías – Daniel 9:25,69 weeks to the Messiah – Daniel 9:25,
 jesus_service,"Tres años y medio de servicio a Jesús, ejecutado el 14 de Nisán de 33 E.C.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
@@ -162,13 +161,13 @@ Galba-Otho-Vitellius,"Galba, Otón y Vitelio (Año de los Cuatro Emperadores)","
 Vespasian,Vespasiano,Vespasian,
 event_exodus,Éxodo de Egipto el 14 de Nisán de 1513 a.E.C.,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.",
 event_division_kingdom,División de Israel 997 a.C.,Division of Israel 997 BCE,
-event_destruction_samaria,Destrucción de Samaria 740 a.E.C. por Asiria,Destruction of Samaria 740 B.C.E. by Assyria,
-event_destruction_samaria2,740 a.E.C. por Asiria,740 B.C.E. by Assyria,
+event_destruction_samaria,Destrucción de Samaria 740 a.E.C. por Asiria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
+event_destruction_samaria2,740 a.E.C. por Asiria,740 B.C.E. by Assyria,was shortened here for 2 lines
 event_destruction_jerusalem1,"Destrucción de Jerusalén 607 a.E.C. por Babilonia, 390 años después de la división del reino (Ezequiel 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",
 event_temple_rebuilt,Templo en Jerusalén reconstruido en 515 a.E.C.,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,El muro de Jerusalén se reconstruyó en 455 a.E.C.,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Destrucción de Jerusalén en 70 E.C. por Roma bajo Tito,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"Fin del tiempo de las naciones, el reino de Dios comienza a gobernar en el cielo 1914 E.C.","End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. ",
+event_1914,"Fin del tiempo de las naciones, el reino de Dios comienza a gobernar en el cielo 1914 E.C.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
 became_king,se convirtió en rey a la edad,became king at age,
 vulgate,Vulgata completada por Jerónimo (traducción latina de la Biblia) c. 405 E.C.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,Biblia de Gutenberg impresa en 1455.,Gutenberg bible printed 1455,
@@ -185,17 +184,17 @@ tischendorf,Tischendorf descubre en 1844 el Códice Sinaítico del siglo IV,Tisc
 dead_sea_scrolls,Se escriben los Rollos del Mar Muerto,Dead Sea Scrolls written,
 septuagint,Septuaginta LXX traducida,Septuagint LXX translated,
 watchtower,El primer número de “Zion’s Watch Tower and Herald of Christ’s Presence” se publica en 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
-photodrama,El “Foto-Drama de la Creación” se muestra por primera vez en Nueva York el 11 de enero de 1914.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
-jehovahs_witnesses,"Los Estudiantes de la Biblia adoptaron un nuevo nombre: Testigos de Jehová. En Columbus, Ohio, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931",
+photodrama,El “Foto-Drama de la Creación” se muestra por primera vez en Nueva York el 11 de enero de 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
+jehovahs_witnesses,"Los Estudiantes de la Biblia adoptaron un nuevo nombre: Testigos de Jehová (Isaías 43:10, 12) en Columbus, Ohio, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
 gilead_school,La Escuela Bíblica de Galaad de la Watchtower comenzó el lunes 1 de febrero de 1943,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",
-new_world_translation1,"“Traducción del Nuevo Mundo de las Santas Escrituras” publicada en Manchester, Inglaterra, el 18 de junio de 1960","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960",
+new_world_translation1,"La “Traducción del Nuevo Mundo de las Santas Escrituras”, publicada en Manchester, Inglaterra, el 18 de junio de 1960, reintroduce el nombre Jehová en muchas partes de la Biblia.","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
 truth_book,El libro “La verdad que lleva a vida eterna” publicado en 1968,The book “The Truth That Leads to Eternal Life” released 1968,
 metropolitan,Inicio de la testificación metropolitana en 2011,Start of metropolitan witnessing in 2011,
 jw_org,Inicio de JW.ORG con instrucciones en el ministerio del reino Diciembre de 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
-new_world_translation2,“Traducción del Nuevo Mundo de las Santas Escrituras” revisada publicada en la reunión anual de 2013,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013,
+new_world_translation2,"“Traducción del Nuevo Mundo de las Santas Escrituras” revisada y publicada en la reunión anual de 2013, optimizada para su uso digital y en línea","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
 jw_broadcasting,Inicio de jw.broadcasting en octubre de 2014,Start of jw.broadcasting in October 2014,
 meeting_workbook,Nuevo formato de reunión entre semana con “cuaderno de reuniones” a partir de enero de 2016,New format of midweek meeting with “meeting workbook” starting January 2016,
-covid19,"La pandemia mundial de Covid-19 provoca confinamientos, cuarentenas y reuniones por zoom","Global Covid-19 pandemic leads to lockdowns, quarantine and zoom-meetings",
+covid19,Covid-19,Covid-19,
 cold_war,Situación geopolítica denominada “Guerra Fría” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991,
 timeline_created,"Esta línea temporal fue creada en 2023, el año más caluroso de la historia de la humanidad y de los últimos 125.000 años.","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,Códice Sinaítico escrito,Codex Sinaiticus written,
@@ -225,41 +224,39 @@ king_north2,"Alemania con el emperador Guillermo I 1871 (v28), 1914 (v29), 1935 
 king_north3,Norte,North,
 king_north4,"Unión Soviética 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",
 king_north5,Rusia desde 2017 (w20 de mayo),Russia since 2017 (w20 May),
-time_of_end,"Presencia de Cristo, Conclusión del sistema de cosas (Mateo 24:3), los últimos días (2Ti 3:1)","Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)",
+time_of_end,"Presencia de Cristo, Conclusión del sistema de cosas (Mateo 24:3), los últimos días (2 Timoteo 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out
 time_of_end2,últimos días,last days,
 suryavaman2,El rey Suryavarman II construye Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
 notre-dame,Notre-Dame de París construida entre 1163 y 1260,Notre-Dame de Paris built 1163-1260,
 jehoiada,Joiada,Jehoiada,
 babel,Torre de Babel construida,tower of Babel built,
 Haggai,Hageo,Haggai,
-Zephaniah,Sofonías,Zephaniah,
 Zerubbabel,Zorobabel (Lucas 3:27),Zerubbabel (Luke 3:27),
 Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",
 Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",
 Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",
 Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",
 Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43",
-Babylon_c,Babilonia ,Babylon,
-Medopersia_c,Medopersia ,Medo-Persia,
-Greece_c,Grecia ,Greece,
-Rome_c,Roma ,Rome,
-Angloamerica_c,Reino Unido y Estados Unidos ,Anglo-America,
+Babylon_c,Babilonia,Babylon,
+Medopersia_c,Medopersia,Medo-Persia,
+Greece_c,Grecia,Greece,
+Rome_c,Roma,Rome,
+Angloamerica_c,Reino Unido y Estados Unidos,Anglo-America,
 infliction1,400 year infliction,400 year infliction,Acts 7:6
 infliction2,Acts 7:6,Acts 7:6,
 Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years
-Israel,Israel,Israel,
+Israel,Israel,Israel,Genesis 35:10
 Sarah,Sarah,Sarah,2008-1881 BCE – 127 years
 Hagar,Hagar,Hagar,Genesis 21:14
 Haran,Haran,Haran,Genesis 11:26
-Nahor,Nahor,Nahor,
 Reumah,Reumah,Reumah,Concubine – 4 sons
 Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more)
-Lot,Lot,Lot,
+Lot,Lot,Lot,Genesis 11:27
 Lots_wife,Lot’s wife,Lot’s wife,
 Lots_daughters,Daughters of Lot,Daughters of Lot,
-Moab,Moab (older daughter),Moab (older daughter),
-Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon),
-Bethuel,Bethuel,Bethuel,
+Moab,Moab (older daughter),Moab (older daughter),Genesis 19:37
+Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon),Genesis 19:38
+Bethuel,Bethuel,Bethuel,Genesis 22:23
 Rebekah,Rebekah,Rebekah,
 Laban,Laban,Laban,
 Leah,Leah,Leah,Genesis 35:23
@@ -275,23 +272,23 @@ Zebulun,Zebulun,Zebulun,
 Dinah,Dinah,Dinah,Genesis 34
 Esau,Esau/,Esau/,
 Edom,Edom,Edom,Genesis 36:1
-Ishmael,Ishmael,Ishmael,Genesis 16:11
-Manasseh2,(Manasseh,(Manasseh,
+Ishmael,Ishmael,Ishmael,
+Manasseh2,(Manasseh,(Manasseh,Genesis 41:50-52
 Ephraim,and Ephraim),and Ephraim),
 Benjamin,Benjamin,Benjamin,
 Dan,Dan,Dan,
 Naphtali,Naphtali,Naphtali,
 Gad,Gad,Gad,
 Asher,Asher,Asher,
-Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",
+Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21
 Milcah2,"Chesed, Hazo,","Chesed, Hazo,",
 Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",
-Tebah,Tebah,Tebah,
+Tebah,Tebah,Tebah,Genesis 22:23
 Gaham,Gaham,Gaham,
 Tahash,Tahash,Tahash,
 Maacah,Maacah,Maacah,
 Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9"
-Basemath,Base·math,Base·math,"Genesis36:3, 4"
+Basemath,Base·math,Basemath,"Genesis36:3, 4"
 Reuel,Reuel,Reuel,"36:13, 17"
 Nahath,Nahath,Nahath,
 Zerah,Zerah,Zerah,
@@ -305,11 +302,10 @@ Zepho,Zepho,Zepho,
 Kenaz,Kenaz,Kenaz,
 Korah,Korah,Korah,
 Gatam,Gatam,Gatam,
-Amalek,Amalek,Amalek,
+Amalek,Amalec,Amalek,
 Oholibamah,Oholibamah,Oholibamah,"36:14, 18"
 Jeush,Jeush,Jeush,
 Jalam,Jalam,Jalam,
-Korah,Korah,Korah,
 Nebaioth,Nebaioth,Nebaioth,Genesis 25:13
 Kedar,Kedar,Kedar,
 Adbeel,Adbeel,Adbeel,
@@ -323,76 +319,80 @@ Jetur,Jetur,Jetur,
 Naphish,Naphish,Naphish,
 Kedemah,Kedemah,Kedemah,
 Babylon2, , ,no text left and right – empty!
-terahfam,members of Terah’s family,members of Terah’s family,
-rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E.,
-Herodotus,Herodotus c. 484 – c. 425 B.C.E.,Herodotus c. 484 – c. 425 B.C.E.,Father of History
-Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
-Ptolemy,Ptolemy c 100 – c. 170 C.E.,Ptolemy c 100 – c. 170 C.E.,
-Pythagoras,Pythagoras c. 570 – c. 495 BC,Pythagoras c. 570 – c. 495 BC,
-Plato,Plato c. 427 – c. 348 BC,Plato c. 427 – c. 348 BC,
-Socrates,Socrates c. 470 – c. 399 BC,Socrates c. 470 – c. 399 BC,
-Josephus,Josephus c. 37 – c. 100 C.E.,Josephus c. 37 – c. 100 C.E.,
-Cicero,Cicero 106–43 BC,Cicero 106–43 BC,influence on Latin language
-lachish_letters,Lachish letters c. 590 B.C.E.,Lachish letters c. 590 B.C.E.,
-lachish_reliefs,Lachish reliefs c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E.,
-mesha_stele,Mesha Stele (Moabite stone) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,
-gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
-epic_gilgamesh,Epic of Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
-oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
-p52,Rylands Library Papyrus P52,Rylands Library Papyrus P52,
-daniel2_shift,45,0,Start 4.2
-daniel2_1,El rey Nabucodonosor ,King Nebuchadnezzar,607 BCE
-daniel2_2,destruye Jerusalén ,destroys Jerusalem,
-daniel2_3,Medopersia conquista Babilonia ,Conquers Babylon,539 BCE
-daniel2_4,Ciro autoriza a los judíos,Cyrus decrees return,537 BCE
-daniel2_5,a volver a Jerusalén,of Jews to Jerusalem,
-daniel2_6,Alejandro Magno,Alexander the Great,331 BCE
-daniel2_7,conquista Persia,conquers Persia,
-daniel2_8,Roma gobierna Israel,Rules over Israel,63 BCE
+terahfam,miembros de la familia de Taré,members of Terah’s family,
+rosetta,Piedra de Rosetta 196 a.C.,Rosetta stone 196 B.C.E.,
+Herodotus,"Heródoto c. 484-c. 425 aC, escribe Las Historias","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
+Aristotle,Aristóteles 384 – 322 a.C.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
+Ptolemy,Ptolomeo c 100 – c. 170 E.C.,Ptolemy c 100 – c. 170 C.E.,
+Pythagoras,Pitágoras c. 570-c. 495 aC,Pythagoras c. 570 – c. 495 BC,
+Plato,Platón c. 427-c. 348 a.C.,Plato c. 427 – c. 348 BC,
+Socrates,Sócrates c. 470-c. 399 a.C.,Socrates c. 470 – c. 399 BC,
+Josephus,Josefo c. 37-c. 100 d.C.,Josephus c. 37 – c. 100 C.E.,
+Cicero,Cicerón 106-43 a. C.,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
+lachish_letters,Letras de Laquis c. 590 a.E.C.,Lachish letters c. 590 B.C.E.,
+lachish_reliefs,Relieves de Laquis c. 681 a.E.C.,Lachish reliefs c. 681 B.C.E.,
+mesha_stele,Estela de Mesha (piedra moabita) c. 840 a.E.C.,Mesha Stele (Moabite stone) c. 840 B.C.E.,
+gilgamesh,Gilgamesh y Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
+epic_gilgamesh,Epopeya de Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
+oxyrhynchus,Papiros de Oxirrinco,Oxyrhynchus Papyri,
+p52,Papiro P52,Papyrus P52,
+daniel2_shift,0,0,Start 4.2
+daniel2_1,Rey Nabucodonosor,King Nebuchadnezzar,607 BCE
+daniel2_2,destruye jerusalén,destroys Jerusalem,
+daniel2_3,Conquista Babilonia,Conquers Babylon,539 BCE
+daniel2_4,Ciro decreta el regreso,Cyrus decrees return,537 BCE
+daniel2_5,de judíos a Jerusalén,of Jews to Jerusalem,
+daniel2_6,Alejandro el Grande,Alexander the Great,331 BCE
+daniel2_7,conquista persia,conquers Persia,
+daniel2_8,Gobierna sobre Israel,Rules over Israel,63 BCE
 daniel2_9,Destruye Jerusalén,Destroys Jerusalem,70 CE
-daniel2_10,En la Primera Guerra Mundial,"During World War I,",1914-1918 CE
-daniel2_11,surge la potencia mundial,Anglo-American World Power,
-daniel2_12,formada por estos dos países,comes into being,End 4.2
+daniel2_10,"Durante la Primera Guerra Mundial,","During World War I,",1914-1918 CE
+daniel2_11,Potencia mundial angloamericana,Anglo-American World Power,
+daniel2_12,surge,comes into being,End 4.2
 qing-dynasty,1636-1912,1636-1912,
-qing-dynasty_c,Qing dynasty,Qing dynasty,
+qing-dynasty_c,Dinastia Qing,Qing dynasty,1636-1912
 ming-dynasty,1368-1644,1368-1644,
-ming-dynasty_c,Dinastía Ming en la China imperial,Ming dynasty in imperial China 1368-1644,
+ming-dynasty_c,Dinastía Ming en la China imperial,Ming dynasty in imperial China,1368-1644
 yuan-dynasty,1271-1368,1271-1368,
 southern-song,1127-1279,1127-1279,
 northern-song,960-1127,960-1127,
 western-xia,1038-1227,1038-1227,
-yuan-dynasty_c,Yuan,Yuan,
-southern-song_c,Southern Song,Southern Song,
-northern-song_c,Northern Song,Northern Song,
-western-xia_c,Western Xia,Western Xia,
-Copernicus,Nicolaus Copernicus,Nicolaus Copernicus,
-Galileo,Galileo Galilei,Galileo Galilei,
+yuan-dynasty_c,Yuan,Yuan,1271-1368
+southern-song_c,Canción del Sur,Southern Song,1127-1279
+northern-song_c,Canción del Norte,Northern Song,960-1127
+western-xia_c,Xia Occidental,Western Xia,1038-1227
+Copernicus,Nicolás Copérnico,Nicolaus Copernicus,
+Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei
 Newton,Isaac Newton,Isaac Newton,
-gregorian,Gregorian calendar 1582,Gregorian calendar 1582,
-shang-dynasty,c. 1600-1046 BC,c. 1600-1046 BC,
-western-zhou,c. 1046-771 BC,c. 1046-771 BC,
-eastern-zhou,770-256 BC,770-256 BC,
-qin-dynasty,Qin 221-297 BC,Qin 221-297 BC,
-western-han,207 BC – 9 CE,207 BC – 9 CE,
-eastern-han,25-220 CE,25-220 CE,
-three-kingdoms,Three kingdoms 220-280 CE,Three kingdoms 220-280 CE,
-sixteen-kingdoms,Sixteen kingdoms 304-439 CE,Sixteen kingdoms 304-439 CE,
-northern-dynasties,368-581 CE,368-581 CE,
-southern-dynasties,420-589 CE,420-589 CE,
+gregorian,Calendario gregoriano 1582,Gregorian calendar 1582,
+shang-dynasty,c. 1600-1046 a. C.,c. 1600-1046 BC,
+western-zhou,c. 1046-771 a. C.,c. 1046-771 BC,
+eastern-zhou,770-256 a.C.,770-256 BC,
+qin-dynasty,Qin 221-207 a.C.,Qin 221-207 BC,
+western-han,207 a.C. – 9 d.C.,207 BC – 9 CE,
+eastern-han,25-220 d.C.,25-220 CE,
+three-kingdoms,Tres reinos 220-280 d.C.,Three kingdoms 220-280 CE,
+sixteen-kingdoms,Dieciséis reinos 304-439 d.C.,Sixteen kingdoms 304-439 CE,
+northern-dynasties,368-581 d.C.,368-581 CE,
+southern-dynasties,420-589 d.C.,420-589 CE,
 tang-dynasty1, , ,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
-shang-dynasty_c,Shang Dynasty,Shang Dynasty,
-western-zhou_c,Western Zhou,Western Zhou,
-eastern-zhou_c,Eastern Zhou,Eastern Zhou,
-western-han_c,Western Han,Western Han,
-eastern-han_c,Eastern Han,Eastern Han,
-three-kingdoms_c,China,China,
-sixteen-kingdoms_c,China,China,
-northern-dynasties_c,Northern Dynasties,Northern Dynasties,
-southern-dynasties_c,Southern Dynasties,Southern Dynasties,
+shang-dynasty_c,Dinastía Shang,Shang Dynasty,c. 1600-1046 BC
+western-zhou_c,Zhou Occidental,Western Zhou,c. 1046-771 BC
+eastern-zhou_c,Zhou Oriental,Eastern Zhou,770-256 BC
+western-han_c,Han Occidental,Western Han,207 BC – 9 CE
+eastern-han_c,Han Oriental,Eastern Han,25-220 CE
+three-kingdoms_c,China,China,Three kingdoms 220-280 CE
+sixteen-kingdoms_c,China,China,Sixteen kingdoms 304-439 CE
+northern-dynasties_c,Dinastías del Norte,Northern Dynasties,368-581 CE
+southern-dynasties_c,Dinastías del Sur,Southern Dynasties,420-589 CE
 tang-dynasty1_c,Tang,Tang,
-tang-dynasty2_c,Tang Dynasty,Tang Dynasty,
-xia-dynasty,Xia dynasty in China c. 2070 – c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC,
-gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC,
-Ashoka,Ashoka (c. 304-232 BC) promotes Buddhism,Ashoka (c. 304-232 BC) promotes Buddhism,
+tang-dynasty2_c,Dinastía Tang,Tang Dynasty,"618-690, 705-907"
+xia-dynasty,Dinastía Xia en China c. 2070 – c. 1600 a. C.,Xia dynasty in China c. 2070 – c. 1600 BC,
+gonghe,Regencia de Gonghe 841-828 a. C.,Gonghe Regency 841-828 BC,
+Ashoka,Ashoka (c. 304-232 a. C.) promueve el budismo,Ashoka (c. 304-232 BC) promotes Buddhism,
+siloam-tunnel,Ezequías prolonga el túnel de Siloé,Hezekiah extends Siloam tunnel,c. 742-732 BC
+Angloamerica2,"Anglo-americano está simbolizado por los pies de hierro mezclados con barro en la profecía de Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",
+Manetho,Manetón escribe Aegyptiaca,Manetho writes Aegyptiaca,
+tribulation,"La Gran Tribulación (Marcos 13:19; Daniel 12:1; Mateo 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
