@@ -712,17 +712,25 @@ def create_terah_familytree():
     counter_terahfam = 80
 
 def include_pictures():
+    global font_regular
     pictures = pd.read_csv("../db/pictures.csv", encoding='utf8')
     print("Imported list of pictures:", len(pictures))
+    current_font = font_regular
+    font_regular = "Aptos"
     for index, row in pictures.iterrows():
         if row.year != "0":
             drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "r")
         location = "../images/" + row.key
         c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
+    font_regular = current_font
+
 
 def include_pictures_svg():
+    global font_regular
     pictures_svg = pd.read_csv("../db/pictures_svg.csv", encoding='utf8')
     print("Imported list of SVG pictures:", len(pictures_svg))
+    current_font = font_regular
+    font_regular = "Aptos"
     for index, row in pictures_svg.iterrows():
         if row.year != 0:
             drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "r")
@@ -733,12 +741,14 @@ def include_pictures_svg():
         drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
         drawing.scale(sx, sy)
         renderPDF.draw(drawing, c, x_position(row.x), y_position(row.y))
+    font_regular = current_font
     # text for world population graphic
     population_color = color["world_population"]
     c.setFont(font_regular, 10)
     c.setFillColorRGB(population_color[0], population_color[1], population_color[2])
     c.drawString(x_position(-3707), y_position(19.7),dict["world_population"])
-    c.setFont(font_regular, 4)
+    # c.setFont(font_regular, 4)
+    c.setFont("Aptos", 4)
     c.setFillColorRGB(0.1, 0.1, 0.6)
     c.drawString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
 
@@ -820,7 +830,7 @@ def create_timestamp():
         drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 38 - 4.5 * index, "r")
         counter_detail = str(eval("counter_" + detail))
         drawString(counter_detail,    4, x1 + 5.4, y1 + 38 - 4.5 * index, "l")
-    c.setFont(font_regular, 4)
+    c.setFont("Aptos", 4)
     c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
     if language in supported:
         qr_file = "../images/qr-" + language + ".png"
