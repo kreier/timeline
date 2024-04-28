@@ -17,7 +17,7 @@ import os
 
 # Some general settings
 page_width     = 297*mm     #    A4 landscape
-page_height    = 219*mm     #    A4 landscape height
+page_height    = 210*mm     #    A4 landscape height
 border_lr      = 10*mm                      # space left/right for roll holders
 border_tb      = 7*mm                       # space for the years top and bottom
 year_start     = 1850
@@ -185,6 +185,11 @@ def create_horizontal_axis():
             c.drawCentredString(tick_x, y1 - 16, str(year))           # bottom
             c.drawCentredString(tick_x, y2 + 8,  str(year))           # top
 
+        # line for 1914 and 1971
+        c.setLineWidth(0.1)
+        c.line(x_position(1914), y1, x_position(1914), y2)
+        c.line(x_position(1971), y1, x_position(1971), y2)
+
         # vertical lines for centuries
         if vertical_lines:
             c.setLineWidth(0.1)
@@ -226,7 +231,7 @@ def create_gb():
     print("Imported data of governing body:", len(gb))
     c.setFont("Aptos", 10)
     c.setLineWidth(0.3)
-    co = [0, 0.3, 0.9]
+    co = [0.6, 0.1, 0.4]
     for index, row in gb.iterrows():
         detail_c = detail = ""
         start = row.start
@@ -241,6 +246,10 @@ def create_gb():
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
         c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
+        if index > 6:
+            c.setLineWidth(1)
+            c.setStrokeColorRGB(1, 0, 0)
+            c.line(x_position(row.member), y_box - 3, x_position(row.member), y_box + 9)
         if row.end_fade > row.end:
             fade_width = (row.end_fade - row.end) * dots_year
             x_boxwidth += fade_width
@@ -260,13 +269,13 @@ def create_gb():
                 c.rect(x_box + fade_width * i/fade_steps, y_box - 3, fade_width/48, 12, fill = 1, stroke = 0)
 
         c.setFillColorRGB(0, 0, 0)
-        if len(row.text_center) > 0:
-            detail_c = row.key
-            textsize = fontsize_regular
-            while stringWidth(detail_c, "Aptos-bold", textsize, 'utf8') > x_boxwidth and textsize > 4:
-                textsize -= 1
-                print(textsize, " ", detail_c)
-            drawString(detail_c, textsize, x_box + x_boxwidth * 0.5, y_box, "c")
+        # if len(row.text_center) > 0:
+        detail_c = row.key
+        textsize = fontsize_regular
+        while stringWidth(detail_c, "Aptos-bold", textsize, 'utf8') > x_boxwidth and textsize > 4:
+            textsize -= 1
+            print(textsize, " ", detail_c)
+        drawString(detail_c, textsize, x_box + x_boxwidth * 0.5, y_box, "c")
         # detail = key
         # if row.location_description == "l":
         #     drawString(detail, fontsize_regular, x_box - 2, y_box, "l")
