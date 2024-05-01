@@ -784,7 +784,7 @@ def create_daniel2():
     desired_height = 96*mm
     shift_upward   = 30*mm    
     kingdoms = ["Babylon", "Medopersia", "Greece", "Rome", "Angloamerica"]
-    years = ["607", "", "539", "537", "", "331", "", "63", "70", "1914-1918", "", ""] 
+    years = ["607BCE", "", "539BCE", "537BCE", "", "331BCE", "", "63BCE", "70CE", "1914CE", "", ""] 
     yearlines = [2, 3, 2, 2, 3]
     current_yearline = 0
     image_shift = int(dict["daniel2_shift"])
@@ -801,16 +801,13 @@ def create_daniel2():
         c.setFont(font_regular, 8)
         c.setFillColorRGB(0.2, 0.2, 0.2)
         c.drawString(x_position(-4026), y_line - 22, dict[kingdom])
-        current_yearstring = years[current_yearline] + dict["BCE"]
-        if index == 4:
-            current_yearstring = years[current_yearline] + " " + dict["CE"]
+        if years[current_yearline] != "":
+            current_yearstring = dict[years[current_yearline]]
         indentation = stringWidth(current_yearstring, font_regular, 6) + 3
         for yearline in range(yearlines[index]):
             yearstring = ""
             if years[current_yearline] != "":
-                yearstring = years[current_yearline] + " " + dict["BCE"]
-                if current_yearline > 7:
-                    yearstring = years[current_yearline] + " " + dict["CE"]
+                yearstring = dict[years[current_yearline]]
             c.setFont(font_regular, 6)
             c.drawString(x_position(-4026), y_line - 30 - 8 * yearline, yearstring)
             line_daniel2 = "daniel2_" + str(current_yearline+1)
