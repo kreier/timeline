@@ -652,7 +652,7 @@ def create_periods():
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
                 c.setFillColorRGB(cl[0], cl[1], cl[2])
-                c.rect(x_box + x_boxwidth - fade_width * i/fade_steps - 0.8, y_box - 3, 1, 12, fill = 1, stroke = 0)
+                c.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps-0.2, y_box - 3, fade_width / 45, 12, fill = 1, stroke = 0)
         if row.start_fade < row.start:
             fade_width = (row.start - row.start_fade) * dots_year + 1
             x_boxwidth += fade_width
@@ -661,7 +661,7 @@ def create_periods():
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
                 c.setFillColorRGB(cl[0], cl[1], cl[2])
-                c.rect(x_box + fade_width * i/fade_steps, y_box - 3, 1, 12, fill = 1, stroke = 0)
+                c.rect(x_box + fade_width * i/fade_steps, y_box - 3, fade_width / 45, 12, fill = 1, stroke = 0)
 
         c.setFillColorRGB(0, 0, 0)
         if len(row.text_center) > 1:
