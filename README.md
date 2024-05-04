@@ -97,18 +97,52 @@ Even more similar to my project is [Adams Synchronological Chart or Map of Histo
 
 In 2008 I got "Knaur's Zeittafel der Weltgeschichte - Den letzten 6000 Jahren auf der Spur" with a total length of 10 meters. I'm far from having all these information included in my edition. Here are links to [two editions](https://www.amazon.de/-/en/Alex-Klubertanz/dp/3828908519/ref=monarch_sidesheet) at [amazon.de](https://www.amazon.de/-/en/dp/3829017057/ref=monarch_sidesheet).
 
-Here is [another example from amazon.de](https://www.amazon.de/Super-Jumbo-History-Timeline-Poster/dp/0721712002/ref=monarch_sidesheet), covering the last 5000 years in 1.2 meter like this project here:
+Here is [another example from amazon.de](https://www.amazon.de/Super-Jumbo-History-Timeline-Poster/dp/0721712002/ref=monarch_sidesheet), covering the last 5000 years in 1.2 meter like this project here. The map by Schofield & Sims:
 
 ![map by Schofield & Sims](https://m.media-amazon.com/images/I/A1QO0k+1wZL._SL1500_.jpg)
+<!-- map by Schofield & Sims
+https://m.media-amazon.com/images/I/A1QO0k+1wZL._SL1500_.jpg
+https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_schofield_sims.jpg
+-->
 
 It looks like Knaur's book was inspired by [Adams Synchronological Chart or Map of History](https://www.amazon.com/Adams-Synchronological-Chart-Map-History/dp/0890515131) - it is 23' long (7 meter) and 27" tall (68 cm). Original from 1871.
 
-![Adams Map of History](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71Gu3yuzzKL._SL1500_.jpg)
+![Adams Map of History](https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_adams_map.jpg)
+<!-- Adams Map of History
+https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71Gu3yuzzKL._SL1500_.jpg
+https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_adams_map.jpg
+-->
+
 
 The reformation made [a timeline for the 220 years](https://www.amazon.com/Timeline-of-the-Reformation-Poster/dp/B09DRPQN3V) 1480 - 1700 AD in a similar style.
 
 Another design attempt to pack a lot of information in a written horizontal way into a timeline that progresses from left to right is this [Texan Spiral semicircle project](https://www.amazon.com/Bible-Timeline-History-Chart-Chronological/dp/B0BMWW7WWP):
 
-![Bible Timeline History Chart](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81C4HVcpl4L._AC_SL1500_.jpg)
+![Bible Timeline History Chart](https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_bible_history_cart.jpg)
+<!-- Bible Timeline History Chart
+https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81C4HVcpl4L._AC_SL1500_.jpg
+https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_bible_history_cart.jpg
+-->
 
 To be continued and get inspired ...
+
+### Short history of this project - with just pictures
+
+#### 2009
+
+![2009](zeitleiste2009full.png)
+
+#### 2015
+
+![2015](https://raw.githubusercontent.com/kreier/timeline/main/docs/zeitleiste2015.png)
+
+#### 2023
+
+![2023-1](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20231023.png)
+![2023-2](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20231129.png)
+
+#### 2024
+
+![2024-1](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240309_4.2.png)
+![2024-2](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240413_4.5.png)
+
