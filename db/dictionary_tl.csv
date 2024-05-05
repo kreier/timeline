@@ -164,8 +164,8 @@ event_division_kingdom,Dibisyon ng Israel 997 BCE,Division of Israel 997 BCE,
 event_destruction_samaria,Pagkawasak ng Samaria 740 B.C.E. ng Asiria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
 event_destruction_samaria2,740 B.C.E. ng Asiria,740 B.C.E. by Assyria,was shortened here for 2 lines
 event_destruction_jerusalem1,"Pagkawasak ng Jerusalem 607 B.C.E. ng Babilonya, 390 taon pagkatapos ng paghahati ng kaharian (Ezekiel 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",
-event_temple_rebuilt,Muling tinayo ang templo sa Jerusalem noong 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E.,
-event_jerusalem_rebuilt,Muling tinayo ang pader ng Jerusalem noong 455 B.C.E.,Jerusalem wall rebuilt 455 B.C.E.,
+event_temple_rebuilt,Muling tinayo ang templo sa Jerus. 515 BC,Temple in Jerusalem rebuilt 515 B.C.E.,
+event_jerusalem_rebuilt,Muling tinayo ang pader ng Jerusalem 455 BC,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Pagkawasak ng Jerusalem 70 C.E.- Roma (kay Titus),Destruction of Jerusalem 70 C.E. by Rome under Titus,
 event_1914,"Katapusan ng panahon ng mga bansa (Lucas 21:24), kaharian ng Diyos nagsimulang mamahala -1914 C.E.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
 became_king,naging hari sa edad,became king at age,
@@ -176,7 +176,7 @@ luther,Pagsasalin ng Bibliya ni Luther noong Setyembre 1522,Luther Bible transla
 tyndale,Pagsasalin ng Bibliya sa Ingles ni Tyndale 1536,English Bible translation by Tyndale 1536,
 king_james,King James Bible 1611,King James Bible 1611,
 69weeks3,"Sinimulan ni Jesus ang kaniyang ministeryo 29 CE (Lucas 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",
-ransom,"kalagitnaan ng linggo ""sasakripisyo upang itigil"" Daniel 9:27",middle of week “sacrifice to cease” Daniel 9:27,
+ransom,"kalagitnaan ng linggo ""patitigilin ang pagaalay"" Daniel 9:27",middle of week “sacrifice to cease” Daniel 9:27,
 cornelius,Nagbautismo si Cornelio sa pagtatapos ng 70 linggo (Daniel 9:24) noong 36 C.E.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,
 columbus,pagtatapos ng pre-columbian period sa Americas 1492,end of the pre-columbian period in the Americas 1492,
 declaration_independence,deklarasyon ng kalayaan ng 13 kolonya sa America 1776,declaration of independence of 13 colonies in America 1776,
@@ -246,15 +246,15 @@ infliction1,400 taon na pagpapahirap,400 year infliction,Acts 7:6
 infliction2,Gawa 7:6,Acts 7:6,
 Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years
 Israel,Israel,Israel,Genesis 35:10
-Sarah,Sarah,Sarah,2008-1881 BCE – 127 years
+Sarah,Sara,Sarah,2008-1881 BCE – 127 years
 Hagar,Hagar,Hagar,Genesis 21:14
 Haran,Haran,Haran,Genesis 11:26
-Reumah,Reumah,Reumah,Concubine – 4 sons
-Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more)
+Reumah,Reuma,Reumah,Concubine – 4 sons
+Milcah,Milca,Milcah,8 sons (Bethuel and 7 more)
 Lot,Lot,Lot,Genesis 11:27
 Lots_wife,asawa ni Lot,Lot’s wife,
 Lots_daughters,Mga Anak ni Lot,Daughters of Lot,
-Moab,Moab (mas matanda na anak na babae),Moab (older daughter),Genesis 19:37
+Moab,Moab (nakatandang anak ),Moab (older daughter),Genesis 19:37
 Ammon,Ben-ami (Ammon),Ben-ammi (Ammon),Genesis 19:38
 Bethuel,Betuel,Bethuel,Genesis 22:23
 Rebekah,Rebeka,Rebekah,
@@ -281,45 +281,45 @@ Naphtali,Neptali,Naphtali,
 Gad,Gad,Gad,
 Asher,Aser,Asher,
 Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21
-Milcah2,"Chesed, Hazo,","Chesed, Hazo,",
-Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",
-Tebah,Tebah,Tebah,Genesis 22:23
+Milcah2,"Kesed, Hazo,","Chesed, Hazo,",
+Milcah3,"Pildas, Jidlap","Pildash, Jidlaph",
+Tebah,Teba,Tebah,Genesis 22:23
 Gaham,Gaham,Gaham,
-Tahash,Tahash,Tahash,
-Maacah,Maacah,Maacah,
-Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9"
-Basemath,Basemath,Basemath,"Genesis36:3, 4"
+Tahash,Tahas,Tahash,
+Maacah,Maaca,Maacah,
+Mahalath,Mahalat/,Mahalath/,"Genesis 28:8, 9"
+Basemath,Basemat,Basemath,"Genesis36:3, 4"
 Reuel,Reuel,Reuel,"36:13, 17"
-Nahath,Nahath,Nahath,
-Zerah,Zerah,Zerah,
+Nahath,Nahat,Nahath,
+Zerah,Zera,Zerah,
 Schammah,Schammah,Schammah,
-Mizzah,Mizzah,Mizzah,
-Adah,Adah,Adah,"36:11, 12, 15, 16"
-Eliphaz,Eliphaz,Eliphaz,
+Mizzah,Miza,Mizzah,
+Adah,Ada,Adah,"36:11, 12, 15, 16"
+Eliphaz,Elipaz,Eliphaz,
 Teman,Teman,Teman,
 Omar,Omar,Omar,
-Zepho,Zepho,Zepho,
+Zepho,Zepo,Zepho,
 Kenaz,Kenaz,Kenaz,
-Korah,Korah,Korah,
+Korah,Kora,Korah,
 Gatam,Gatam,Gatam,
 Amalek,Amalek,Amalek,
-Oholibamah,Oholibamah,Oholibamah,"36:14, 18"
-Jeush,Jeush,Jeush,
+Oholibamah,Oholibama,Oholibamah,"36:14, 18"
+Jeush,Jeus,Jeush,
 Jalam,Jalam,Jalam,
-Nebaioth,Nebaioth,Nebaioth,Genesis 25:13
+Nebaioth,Nebaiot,Nebaioth,Genesis 25:13
 Kedar,Kedar,Kedar,
 Adbeel,Adbeel,Adbeel,
 Mibsam,Mibsam,Mibsam,
-Mishma,Mishma,Mishma,
-Dumah,Dumah,Dumah,
-Massa,Massa,Massa,
+Mishma,Misma,Mishma,
+Dumah,Duma,Dumah,
+Massa,Masa,Massa,
 Hadad,Hadad,Hadad,
 Tema,Tema,Tema,
 Jetur,Jetur,Jetur,
-Naphish,Naphish,Naphish,
-Kedemah,Kedemah,Kedemah,
+Naphish,Napis,Naphish,
+Kedemah,Kedema,Kedemah,
 Babylon2, , ,no text left and right – empty!
-terahfam,miyembro ng pamilya ni Terah,members of Terah’s family,
+terahfam,miyembro ng pamilya ni Tera,members of Terah’s family,
 rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E.,
 Herodotus,"Herodotus c. 484 – c. 425 BC, isinulat ang The History","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
 Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
@@ -330,7 +330,7 @@ Socrates,Socrates c. 470 – c. 399 BC,Socrates c. 470 – c. 399 BC,
 Josephus,Josephus c. 37 – c. 100 C.E.,Josephus c. 37 – c. 100 C.E.,
 Cicero,Cicero 106–43 BC,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
 lachish_letters,Mga titik ng Lachish c. 590 B.C.E.,Lachish letters c. 590 B.C.E.,
-lachish_reliefs,Mga relief sa Lachish c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E.,
+lachish_reliefs,Mga relief ng Lachish c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E.,
 mesha_stele,Mesha Stele (Batong Moabita) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,
 gilgamesh,Gilgamesh at Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
 epic_gilgamesh,Epiko ni Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
@@ -358,7 +358,7 @@ southern-song,1127-1279,1127-1279,
 northern-song,960-1127,960-1127,
 western-xia,1038-1227,1038-1227,
 yuan-dynasty_c,Yuan,Yuan,1271-1368
-southern-song_c,Awit sa Timog,Southern Song,1127-1279
+southern-song_c,Timog na Song,Southern Song,1127-1279
 northern-song_c,Hilagang Awit,Northern Song,960-1127
 western-xia_c,Kanlurang Xia,Western Xia,1038-1227
 Copernicus,Nicolaus Copernicus,Nicolaus Copernicus,
@@ -385,8 +385,8 @@ western-han_c,Kanlurang Han,Western Han,207 BC – 9 CE
 eastern-han_c,Silangang Han,Eastern Han,25-220 CE
 three-kingdoms_c,Tsina,China,Three kingdoms 220-280 CE
 sixteen-kingdoms_c,Tsina,China,Sixteen kingdoms 304-439 CE
-northern-dynasties_c,Northern Dynasties,Northern Dynasties,368-581 CE
-southern-dynasties_c,Southern Dynasties,Southern Dynasties,420-589 CE
+northern-dynasties_c,Hilagang Dinastiya,Northern Dynasties,368-581 CE
+southern-dynasties_c,Kanlurang Dinastiya,Southern Dynasties,420-589 CE
 tang-dynasty1_c,Tang,Tang,
 tang-dynasty2_c,Dinastiyang Tang,Tang Dynasty,"618-690, 705-907"
 xia-dynasty,Dinastiyang Xia sa China c. 2070 – c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC,
