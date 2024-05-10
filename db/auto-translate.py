@@ -25,7 +25,7 @@ def check_existing(language, filename):
             print("Invalid input. Please enter 'yes' or 'no'.")
             exit()
     else:
-        print(f"Creating a new dictionary_{language}.tsv file.")
+        print(f"Creating a new dictionary_{language}.csv file.")
 
 def import_reference():
     global dict

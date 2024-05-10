@@ -1,13 +1,13 @@
 key,text,english,notes
-version,4.5,,
+version,4.6,,
 pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,
 pdf_subject,Dòng thời gian của loài người,Timeline of humankind,
 BCE,TCN,B.C.E.,
 CE,CN,C.E.,
-year,năm,year,
+year,năm,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,năm,years,
-years_age,tuổi,years,
-age_kings,tuổi, ,
+years_age,tuổi,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
+age_kings,tuổi, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,tháng,month,
 months,tháng,months,
 day,ngày,day,
@@ -60,7 +60,7 @@ Samson,Sam-sôn,Samson,
 Samuel,Sa-mu-ên,Samuel,
 Saul,Sau-lơ,Saul,
 David,Đa-vít,David,
-Solomo,Sa-lô-môn,Solomo,3
+Solomon,Sa-lô-môn,Solomon,
 Rehoboam,Rê-hô-bô-am,Rehoboam,first king of southern kingdom of Juda
 Abijah,A-bi-gia (A-bi-giam),Abijah (Abijam),"3 years, also Abijam"
 Asa,A-sa,Asa,
@@ -152,12 +152,12 @@ missionary3,Chuyến hành trình truyền giáo thứ ba của Phao-lô c. 52-5
 caesarea,Phao-lô bị giam ở Sê-sa-rê c. 56-58 CN,Paul in custody in Caesarea c. 56-58 C.E.,
 rome1,Phao-lô bị tù lần đầu ở Rô-ma c. 59-61 CN,Paul’s first imprisonment in Rome c. 59-61 C.E.,
 rome2,"Phao-lô bị tù lần thứ hai ở Rô-ma c. 65 CN, 2 Ti-mô-thê được viết, Phao-lô bị xử tử","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",
-Julius,Julius,Julius,
-Augustus,Augustus,Augustus,
-Tiberius,Tiberius,Tiberius,
+Julius,Sê-sa Giu-lơ (Julius),Julius,
+Augustus,Au-gút-tơ (Augustus),Augustus,
+Tiberius,Ti-be-rơ (Tiberius),Tiberius,
 Caligula,Caligula,Caligula,
-Claudius,Claudius,Claudius,
-Nero,Nero,Nero,
+Claudius,Cơ-lo-đi-ô (Claudius),Claudius,
+Nero,Nê-rô (Nero),Nero,
 Galba-Otho-Vitellius,"Galba, Otho và Vitellius (Năm Tứ Hoàng)","Galba, Otho and Vitellius (Year of the Four Emperors)",
 Vespasian,Vespasian,Vespasian,
 event_exodus,Ra khỏi xứ Ai-Cập vào ngày 14 tháng Ni-san năm 1513 TCN,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.",
@@ -168,7 +168,7 @@ event_destruction_jerusalem1,"Giê-ru-sa-lem bị hủy phá, dân chúng bị l
 event_temple_rebuilt,xây lại đền thờ 515 TCN,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,tường thành Giê-ru-sa-lem xây lại 455 TCN,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Sự phá hủy thành Giê-ru-sa-lem vào năm 70 CN bởi La Mã dưới thời Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"Cuối thời kỳ của các dân tộc, vương quốc của Đức Chúa Trời bắt đầu cai trị trên trời 1914 CN.","End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. ",
+event_1914,"Cuối thời kỳ của các dân ngoại (Lu-ca 21:24), vương quốc của Đức Chúa Trời bắt đầu cai trị trên trời 1914 CN.","End of the time of the nations (Luke 21:24), Gods kingdom starts to rule in heaven 1914 C.E.",
 became_king,làm vua lúc,became king at age,
 vulgate,Vulgate được hoàn thành bởi Jerome (bản dịch kinh thánh bằng tiếng Latin) c. 405 CN,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,Kinh thánh Gutenberg in năm 1455,Gutenberg bible printed 1455,
@@ -181,21 +181,21 @@ ransom,giữa tuần “hy sinh để chấm dứt” Đa-ni-ên 9:27,middle of 
 cornelius,Cọt-nây làm báp-têm vào cuối 70 tuần lễ (Đa-ni-ên 9:24) vào năm 36 CN.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,
 columbus,kết thúc thời kỳ tiền Colombia ở châu Mỹ 1492,end of the pre-columbian period in the Americas 1492,
 declaration_independence,Tuyên ngôn độc lập của 13 thuộc địa ở Mỹ 1776,declaration of independence of 13 colonies in America 1776,
-tischendorf,Tischendorf phát hiện ra Codex Sinaiticus từ thế kỷ thứ 4 năm 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,
+tischendorf,Tischendorf phát hiện ra Codex Sinaiticus năm 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,
 dead_sea_scrolls,Cuộn giấy Biển Chết được viết,Dead Sea Scrolls written,
 septuagint,Bản Bảy Mươi LXX được dịch,Septuagint LXX translated,
 watchtower,Số đầu tiên của tạp chí “Tháp canh Si-ôn và Sứ giả về sự hiện diện của Đấng Christ” được xuất bản năm 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
 photodrama,“Kịch ảnh về sự sáng tạo” được trình chiếu lần đầu tiên tại New York vào ngày 11 tháng 1 năm 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
-jehovahs_witnesses,"Các Học viên Kinh Thánh lấy một tên mới – Nhân Chứng Giê-hô-va. Ở Columbus, Ohio, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931",
-gilead_school,Trường Kinh Thánh Ga-la-át của Tháp Canh bắt đầu vào thứ Hai ngày 1 tháng 2 năm 1943,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",
-new_world_translation1,"“Bản dịch Kinh Thánh Thế Giới Mới” ra mắt tại Manchester, Anh quốc vào ngày 18-6-1960","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960",
+jehovahs_witnesses,"Các Học viên Kinh Thánh lấy tên mới – Nhân Chứng Giê-hô-va (Ê-sai 43:10, 12) ở Columbus, Ohio, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",included scripture
+gilead_school,Trường Kinh Thánh Ga-la-át của Tháp Canh bắt đầu vào thứ Hai 1. 2. 1943,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",
+new_world_translation1,"“Kinh Thánh—Bản dịch Thế Giới Mới” ra mắt tại Manchester, Anh quốc vào ngày 18. 6. 1960, giới thiệu lại danh Giê-hô-va trong nhiều phần của Kinh Thánh","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",improvements of translation
 truth_book,Sách “Sự Thật Dẫn Đến Sự Sống Đời Đời” xuất bản năm 1968,The book “The Truth That Leads to Eternal Life” released 1968,
 metropolitan,Bắt đầu làm chứng tại đô thị vào năm 2011,Start of metropolitan witnessing in 2011,
 jw_org,Bắt đầu JW.ORG với những hướng dẫn trong Thánh Chức Nước Trời tháng 12 năm 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
-new_world_translation2,“Bản dịch Kinh Thánh Thế Giới Mới” được sửa đổi được phát hành tại cuộc họp thường niên năm 2013,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013,
+new_world_translation2,"""Kinh Thánh—Bản dịch Thế Giới Mới"" hiệu đính được ra mắt tại cuộc họp thường niên năm 2013, được tối ưu hóa để sử dụng kỹ thuật số và trực tuyến","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",improvements of translation 
 jw_broadcasting,Bắt đầu phát sóng Kênh truyền thông JW vào tháng 10 năm 2014,Start of jw.broadcasting in October 2014,
 meeting_workbook,Hình thức mới của cuộc họp giữa tuần với “sổ bài tập cuộc họp” bắt đầu từ tháng 1 năm 2016,New format of midweek meeting with “meeting workbook” starting January 2016,
-covid19,Covid-19,"Global Covid-19 pandemic leads to lockdowns, quarantine and zoom-meetings",
+covid19,Covid-19,Covid-19 ,
 cold_war,Tình hình địa chính trị gắn mác “Chiến tranh Lạnh” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991,
 timeline_created,"Dòng thời gian này được tạo ra vào năm 2023, năm nóng nhất trong lịch sử loài người và kéo dài 125.000 năm qua","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,Codex Sinaiticus được viết,Codex Sinaiticus written,
@@ -214,26 +214,25 @@ joseph_sold,Giô-sép bị bán làm nô lệ ở tuổi 17 – Sáng thế ký 
 infliction,400 năm bị hà hiếp (Công vụ 7:6) – Ích-ma-ên 1913 TCN,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,
 Alexander,Alexander Đại Đế (Đa-ni-ên 11:3),Alexander the Great (Daniel 11:3),
 persia,"Cyrus Đại Đế, Cambyses II, Darius I 490 TCN, Xerxes I 480 TCN (chồng của Ê-xơ-tê, Đa-ni-ên 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",
-persia2,Ba Tư,Persia,Persia
-king_north,"Seleukos I Nicator (v5) Syria đến Antiochus III (v10) và Seleukos IV (v18, 19) xuống Octavian (v20) và Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)"
-king_north1,Vua phương Bắc,King of the North,King of the North
-king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) tới Trận Actium 31 TCN","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
-king_south1,Vua phương Nam,King of the South,King of the South
-king_south2,"Đế quốc Anh 1870, Cường quốc Thế giới Anh-Mỹ từ 1914","British empire 1870, Anglo-American World Power since 1914","British empire 1870, Anglo-American World Power since 1914"
-king_south3,Vua phương Nam,King of the South,King of the South
-king_north2,"Đức với Hoàng đế William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,Bắc,North,North
-king_north4,"Liên Xô 1945-1991 (Đa-ni-ên 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)"
-king_north5,Nga kể từ năm 2017 (w20 tháng 5),Russia since 2017 (w20 May),Russia since 2017 (w20 May)
-time_of_end,"Sự hiện diện của Đấng Christ, Sự kết thúc của hệ thống mọi sự (Ma-thi-ơ 24:3), ngày sau rốt (2Ti 3:1)","Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)","Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)"
-time_of_end2,ngày cuối cùng,last days,last days
-suryavaman2,Vua Suryavarman II xây dựng Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150
-notre-dame,Nhà thờ Đức Bà Paris được xây dựng 1163-1260,Notre-Dame de Paris built 1163-1260,Notre-Dame de Paris built 1163-1260
-jehoiada,Giê-hô-gia-đa,Jehoiada,Jehoiada
-babel,Tháp Babel được xây dựng,tower of Babel built,tower of Babel built
-Haggai,Ha-gai,Haggai,Haggai
-Zephaniah,Xa-cha-ri,Zephaniah,Zephaniah
-Zerubbabel,Xô-rô-ba-bên (Lu-ca 3:27),Zerubbabel (Luke 3:27),Zerubbabel (Luke 3:27)
+persia2,Ba Tư,Persia,
+king_north,"Seleukos I Nicator (v5) Syria đến Antiochus III (v10) và Seleukos IV (v18, 19) xuống Octavian (v20) và Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",
+king_north1,Vua phương Bắc,King of the North,
+king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) tới Trận Actium 31 TCN","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",
+king_south1,Vua phương Nam,King of the South,
+king_south2,"Đế quốc Anh 1870, Cường quốc Thế giới Anh-Mỹ từ 1914","British empire 1870, Anglo-American World Power since 1914",
+king_south3,Vua phương Nam,King of the South,
+king_north2,"Đức với Hoàng đế William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
+king_north3,Bắc,North,
+king_north4,"Liên Xô 1945-1991 (Đa-ni-ên 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",
+king_north5,Nga kể từ năm 2017 (w20 tháng 5),Russia since 2017 (w20 May),
+time_of_end,"Sự hiện diện của Đấng Christ, Sự kết thúc của hệ thống mọi sự (Ma-thi-ơ 24:3), ngày sau rốt (2 Ti-mô-thê 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",included scripture
+time_of_end2,ngày cuối cùng,last days,
+suryavaman2,Vua Suryavarman II xây dựng Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
+notre-dame,Nhà thờ Đức Bà Paris được xây dựng 1163-1260,Notre-Dame de Paris built 1163-1260,
+jehoiada,Giê-hô-gia-đa,Jehoiada,
+babel,Tháp Babel được xây dựng,tower of Babel built,
+Haggai,Ha-gai,Haggai,
+Zerubbabel,Xô-rô-ba-bên (Lu-ca 3:27),Zerubbabel (Luke 3:27),
 Babylon,"Đa-ni-ên 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",
 Medopersia,"Đa-ni-ên 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",
 Greece,"Đa-ni-ên 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",
@@ -273,7 +272,7 @@ Judah,Giu-đa,Judah,
 Issachar,Y-sa-ca,Issachar,
 Zebulun,Xê-bu-lôn,Zebulun,
 Dinah,Đi-na,Dinah,Genesis 34
-Esau,Ê-sau,Esau,
+Esau,Ê-sau/,Esau/,
 Edom,Ê-đôm,Edom,Genesis 36:1
 Ishmael,Ích-ma-ên,Ishmael,
 Manasseh2,(Ma-na-se,(Manasseh,
@@ -281,7 +280,7 @@ Ephraim,và Ép-ra-im),and Ephraim),
 Benjamin,Bên-gia-min,Benjamin,
 Dan,Đan,Dan,
 Naphtali,Nép-ta-li,Naphtali,
-Gad ,Gát,Gad ,
+Gad,Gát,Gad,
 Asher,A-se,Asher,
 Milcah1,"Út-xơ, Bu-xơ, Kê-mu-ên,","Uz, Buz, Kemuel,",Genesis 22:21
 Milcah2,"Kê-sết, Ha-xô","Chesed, Hazo,",
@@ -309,7 +308,6 @@ Amalek,A-ma-léc,Amalek,
 Oholibamah,Ô-hô-li-ba-ma,Oholibamah,"36:14, 18"
 Jeush,Giê-úc,Jeush,
 Jalam,Gia-lam,Jalam,
-Korah,Cô-rê,Korah,
 Nebaioth,Nê-ba-giốt,Nebaioth,Genesis 25:13
 Kedar,Kê-đa,Kedar,
 Adbeel,Át-bê-ên,Adbeel,
@@ -325,7 +323,7 @@ Kedemah,Kết-ma,Kedemah,
 Babylon2, , ,empty!
 terahfam,Các thành viên trong gia đình Tha-rê,members of Terah’s family,
 rosetta,Phiến đá Rosetta 196 TCN,Rosetta stone 196 B.C.E.,
-Herodotus,Herodotus c. 484 – c. 425 TCN,Herodotus c. 484 – c. 425 B.C.E.,
+Herodotus,"Herodotus c. 484 – c. 425 TCN, viết Lịch sử","Herodotus c. 484 – c. 425 BCE, writes The Histories",
 Aristotle,Aristoteles 384 – 322 TCN,Aristotle 384 – 322 BC,
 Ptolemy,Ptolemaeus c 100 – c. 170 CN,Ptolemy c 100 – c. 170 C.E.,
 Pythagoras,Pythagoras c. 570 – c. 495 TCN,Pythagoras c. 570 – c. 495 BC,
@@ -397,4 +395,14 @@ xia-dynasty,Nhà Hạ ở Trung Quốc c. 2070 – c. 1600 TCN,Xia dynasty in Ch
 gonghe,Chu Thiệu cộng hòa 841-828 TCN,Gonghe Regency 841-828 BC,
 Ashoka,A-dục vương (khoảng 304-232 TCN) quảng bá Phật giáo,Ashoka (c. 304-232 BC) promotes Buddhism,
 siloam-tunnel,Ê-xê-chia mở rộng đường hầm Siloam,Hezekiah extends Siloam tunnel,
-Angloamerica2,"Anh - Mỹ tượng trưng cho bàn chân bằng sắt trộn với đất sét theo lời tiên tri sách Đa-ni-ên 2:33, 41-43",,
+Angloamerica2,"Anh - Mỹ tượng trưng cho bàn chân bằng sắt trộn với đất sét theo lời tiên tri sách Đa-ni-ên 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43 ",
+Manetho,Manetho viết Aegyptiaca,Manetho writes Aegyptiaca,
+tribulation,"Cơn Đại Nạn (Mác 13:19; Đa-ni-ên 12:1; Ma-thi-ơ 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
+destruction_babylon,"Sự hủy diệt Ba-by-lôn Lớn (Khải Huyền 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
+gog_of_magog,"Cuộc tấn công của Gog of Magog (Ê-xê-chi-ên 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
+sheep_goat,"Cư dân trên đất sẽ bị phán xét, phân biệt chiên và dê (Ma-thi-ơ 25:31-33)","Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
+annointed,Tập hợp những người cai trị Vương quốc (Ma-thi-ơ 24:31; 1 Cô-rinh-tô 15:50-53; 1 Tê-sa-lô-ni-ca 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT
+armageddon,"Trận chiến Ha-ma-ghê-đôn (Khải huyền 16:14, 16; Ê-sai 13:9; 2 Phi-e-rơ 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
+millenium,"Nước Đức Chúa Trời bắt đầu trị vì 1000 năm (Khải Huyền 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
+great_crowd,"Một đám đông sống sót sau Ha-ma-ghê-đôn (Khải huyền 7:9, 14; Thi thiên 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
+world_population,Dân số thế giới tính theo tỷ người trong 2000 năm qua,World population in billions in the last 2000 years,

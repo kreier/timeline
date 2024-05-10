@@ -1,0 +1,401 @@
+key,text,notes,english
+version,4.5,,4.5
+pdf_title,6000 år menneskelig historie visualisert,,6000 years human history visualized
+pdf_subject,Tidslinje for menneskeheten,,Timeline of humankind
+BCE,fvt.,,B.C.E.
+CE,evt.,,C.E.
+year,år,"timespan, age (Adam was 130 years old when Shem was born)",year
+years,år,,years
+years_age,år,years when used as age for a person (different word than years in some languages),years
+age_kings, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""", 
+month,måned,,month
+months,måneder,,months
+day,dag,,day
+days,dager,,days
+to,til,,to
+people,mennesker,,people
+judges,dommere,,judges
+prophets,profeter,,prophets
+kings,konger,,kings
+periods,perioder,,periods
+events,arrangementer,,events
+objects,gjenstander eller gjenstander,,objects or items
+Deluge,Syndflod,,Deluge
+Adam,Adam,,Adam
+Seth,Seth,,Seth
+Enosh,Enosh,,Enosh
+Kenan,Kenan,,Kenan
+Mahalalel,Mahalalel,,Mahalalel
+Jared,Jared,,Jared
+Enoch,Enok,,Enoch
+Methuselah,Metusalem,,Methuselah
+Lamech,Lamech,,Lamech
+Noah,Noah,,Noah
+Shem,Shem,,Shem
+Arpachshad,Arpachshad,,Arpachshad
+Shelah,Shelah,,Shelah
+Eber,Eber,,Eber
+Peleg,Peleg,,Peleg
+Reu,Reu,,Reu
+Serug,Serug,,Serug
+Nahor,Nahor,,Nahor
+Terah,Terah,,Terah
+Abraham,Abraham,,Abraham
+Isaac,Isak,,Isaac
+Jacob,Jacob,,Jacob
+Joseph,Josef,,Joseph
+Moses,Moses,,Moses
+Othniel,Othniel,,Othniel
+Ehud,Ehud,,Ehud
+Shamgar,Shamgar,,Shamgar
+Barak,Barak,,Barak
+Gideon,Gideon,,Gideon
+Tola,Tola,,Tola
+Jair,Jair,,Jair
+Jephthah,Jefta,,Jephthah
+Ibzan,Ibzan,,Ibzan
+Elon,Elon,,Elon
+Abdon,Abdon,,Abdon
+Samson,Samson,,Samson
+Samuel,Samuel,,Samuel
+Saul,Saul,,Saul
+David,David,,David
+Solomon,Solomo,,Solomon
+Rehoboam,Rehabeam,first king of southern kingdom of Juda,Rehoboam
+Abijah,Abijah (Abijam),"3 years, also Abijam",Abijah (Abijam)
+Asa,Som en,,Asa
+Jehoshaphat,Josafat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,Jehoshaphat
+Jehoram2,Joram,,Jehoram
+Ahaziah,Ahasja,,Ahaziah
+Athaliah,Dronning Athalia,Queen Athaliah,Queen Athaliah
+Jehoash,Joasj,,Jehoash
+Amaziah,Amasja,,Amaziah
+Uzziah,Ussia (Asarja),also Azariah,Uzziah (Azariah)
+Jotham,Jotham,,Jotham
+Ahaz,Ahas,,Ahaz
+Hezekiah,Hiskia,,Hezekiah
+Manasseh,Manasse,,Manasseh
+Amon,Amon,,Amon
+Josiah,Josiah,,Josiah
+Jehoahaz,Joahaz,Only 3 months,Jehoahaz
+Jehoiakim,Jojakim,,Jehoiakim
+Jehoiachin,Jojakin,Only 3 months 10 days,Jehoiachin
+Zedekiah,Sidkia,,Zedekiah
+Jeroboam,Jeroboam,first king of northern 10-tribe kingdom,Jeroboam
+Nadab,Nadab,less than 2,Nadab
+Baasha,Basja,,Baasha
+Elah,Elah,,Elah
+Zimri,Zimri,Only 7 days in ca. 751 BCE,Zimri
+OmriTibni,Omri og Tibni sammen,4 years Omri and Tibni,Omri and Tibni together
+Omri,Omri (alene),from 947 Omri alone,Omri (alone)
+Ahab,Akab,,Ahab
+Ahaziah,Ahasja,,Ahaziah
+Jehoram,Joram,,Jehoram
+Jehu,Jehu,,Jehu
+Jeoahaz,Jeoahaz,,Jeoahaz
+JeoahazJehoash,Jeoahaz og Joash,For 3 years Jeoahaz and Jeoash reigned together,Jeoahaz and Jehoash
+Jehoash2,Joash (alene),Jehoash (alone),Jehoash (alone)
+Jeroboam2,Jeroboam II,,Jeroboam II
+Zechariah,Sakarja,"reign only recorded 6 months, probably only established 792 BCE",Zechariah
+Schallum,Schallum,only one month,Schallum
+Menahem,Menahem,,Menahem
+Pekahiah,Pekahiah,,Pekahiah
+Pekah,Pekah,,Pekah
+Hoshea,Hoshea,9 years from c. 748,Hoshea
+Elijah,Elias,,Elijah
+Elisha,Elisha,,Elisha
+Jonah,Jonas,,Jonah
+Amos,Amos,,Amos
+Joel,Joel,,Joel
+Hosea,Hosea,,Hosea
+Isaiah,Jesaja,,Isaiah
+Micah,Micah,,Micah
+Zephaniah,Sefanja,,Zephaniah
+Nahum,Nahum,,Nahum
+Jeremiah,Jeremia,,Jeremiah
+Habakuk,Habakuk,,Habakuk
+Daniel,Daniel,,Daniel
+Ezekiel,Esekiel,,Ezekiel
+Obadiah,Obadja,,Obadiah
+Malachi,Malakias,,Malachi
+Ruth,Ruth,,Ruth
+Ezra,Ezra,,Ezra
+Nehemiah,Nehemja,,Nehemiah
+Esther,Esther,,Esther
+Job,Jobb,,Job
+moses2,1593 til 1473 f.Kr. – 120 år,,1593 to 1473 B.C.E. – 120 years
+moses3,Moses,,Moses
+wilderness,Israel i villmarken 1513 til 1473 f.Kr. – 40 år,,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years
+timespan_judges,1473 til 1117 f.Kr. – 356 år,,1473 to 1117 B.C.E. – 356 years
+timespan_judges2,Dommernes tid,,Time of the judges
+temple1,Nisan 1513 f.Kr. til Ziv 1034 f.Kr.,,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.
+temple2,479 år til tempelbyggingen – 1 Kongebok 6:1,1034 BCE,479 years until the temple construction – 1 Kings 6:1
+69weeks,Jesus døpte høsten 29 e.v.t.,,Jesus baptized autumn 29 C.E.
+69weeks2,69 uker til Messias – Daniel 9:25,,69 weeks to the Messiah – Daniel 9:25
+jesus_service,"3,5 års tjeneste for Jesus, henrettet 14. nisan, 33 e.v.t.",,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E."
+jesus_life,Jesus født 2 B.C.E.,,Jesus born 2 B.C.E.
+exile,607 til 537 f.Kr. – 70 år (Jeremia 25:11),,607 to 537 B.C.E. – 70 years (Jeremiah 25:11)
+exile2,eksil,,exile
+7times,Åpenbaringen 12:9,,Revelation 12:9
+7times2,7 ganger – 2520 år til det messianske riket 1914 C.E. (Daniel 4:23),,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)
+ww1,Første verdenskrig – 1914–1918 e.Kr.,,World War I – 1914–1918 C.E.
+ww2,Andre verdenskrig – 1939–1945 e.Kr.,,World War II – 1939–1945 C.E.
+30_year_war,Tretti års krig i Europa 1618-1648,,Thirty Years' War in Europe 1618-1648
+joshua,110 år,,110 years
+joshua2,Joshua,,Joshua
+caleb,mer enn 85 år,,more than 85 years
+caleb2,Caleb,,Caleb
+missionary1,"Pauls første misjonsreise, ca. 47–48 e.Kr. med Barnabas og Johannes Markus",,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark"
+circumcision,"Omskjæringsspørsmål i Antiokia, konferanse i Jerusalem ca. 49 e.Kr.",,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E."
+missionary2,Andre misjonsreise c. 49–52 e.Kr. med Silas (Silvanus),,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)
+missionary3,Tredje misjonsreise c. 52–56 e.Kr.,,Third Missionary Journey c. 52-56 C.E.
+caesarea,Paulus i varetekt i Cæsarea ca. 56–58 e.Kr.,,Paul in custody in Caesarea c. 56-58 C.E.
+rome1,Paulus første fengsling i Roma ca. 59-61 e.Kr.,,Paul’s first imprisonment in Rome c. 59-61 C.E.
+rome2,"Paulus' andre fengsling i Roma ca. 65 e.Kr., 2 Timoteus skrevet, Paulus henrettet",,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed"
+Julius,Julius,,Julius
+Augustus,Augustus,,Augustus
+Tiberius,Tiberius,,Tiberius
+Caligula,Caligula,,Caligula
+Claudius,Claudius,,Claudius
+Nero,Nero,,Nero
+Galba-Otho-Vitellius,"Galba, Otho og Vitellius (de fire keisernes år)",,"Galba, Otho and Vitellius (Year of the Four Emperors)"
+Vespasian,Vespasian,,Vespasian
+event_exodus,"Utvandring fra Egypt den 14. nisan, 1513 f.v.t.",,"Exodus from Egypt on Nisan 14th, 1513 B.C.E."
+event_division_kingdom,Delingen av Israel 997 fvt,,Division of Israel 997 BCE
+event_destruction_samaria,Ødeleggelsen av Samaria 740 f.Kr. av Assyria,,Destruction of Samaria 740 B.C.E. by Assyria
+event_destruction_samaria2,740 f.Kr. av Assyria,,740 B.C.E. by Assyria
+event_destruction_jerusalem1,"Ødeleggelsen av Jerusalem 607 f.Kr. av Babylon, 390 år etter delingen av riket (Esekiel 4:5)",,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)"
+event_temple_rebuilt,Tempel i Jerusalem gjenoppbygd 515 f.Kr.,,Temple in Jerusalem rebuilt 515 B.C.E.
+event_jerusalem_rebuilt,Jerusalemmuren ble gjenoppbygd 455 f.Kr.,,Jerusalem wall rebuilt 455 B.C.E.
+event_destruction_jerusalem2,Ødeleggelsen av Jerusalem 70 e.v.t. av Roma under Titus,,Destruction of Jerusalem 70 C.E. by Rome under Titus
+event_1914,Slutten av nasjonenes tid begynner Guds rike å herske i himmelen 1914 e.Kr.,,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. "
+became_king,ble konge i en alder,,became king at age
+vulgate,Vulgata fullført av Hieronymus (latinsk oversettelse av bibelen) ca. 405 e.Kr.,,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
+gutenberg,Gutenberg-bibelen trykt 1455,,Gutenberg bible printed 1455
+erasmus,Gresk tekst til kristne greske skrifter utgitt av Desiderius Erasmus fra Rotterdam 1516,,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
+luther,Luther bibeloversettelse i september 1522,,Luther Bible translation in September 1522
+tyndale,Engelsk bibeloversettelse av Tyndale 1536,,English Bible translation by Tyndale 1536
+king_james,King James Bible 1611,,King James Bible 1611
+69weeks3,"Jesus starter sin tjeneste år 29 e.Kr. (Luk 3:1, 21)",,"Jesus starts his service 29 CE (Luke 3:1, 21)"
+ransom,"midt i uken ""offer for å opphøre"" Daniel 9:27",,middle of week “sacrifice to cease” Daniel 9:27
+cornelius,Cornelius døpte etter 70 uker (Daniel 9:24) i år 36 e.v.t.,,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.
+columbus,slutten av den før-columbianske perioden i Amerika 1492,,end of the pre-columbian period in the Americas 1492
+declaration_independence,uavhengighetserklæring av 13 kolonier i Amerika 1776,,declaration of independence of 13 colonies in America 1776
+tischendorf,Tischendorf oppdager Codex Sinaiticus fra det 4. århundre i 1844,,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844
+dead_sea_scrolls,Dødehavsruller skrevet,,Dead Sea Scrolls written
+septuagint,Septuaginta LXX oversatt,,Septuagint LXX translated
+watchtower,Den første utgaven av «Zions Watch Tower and Herald of Christ’s Presence» ble utgitt i 1879,,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879
+photodrama,«Photo-Drama of Creation» vises første gang i New York 11. januar 1914,,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914"
+jehovahs_witnesses,"Bibelstudentene fikk et nytt navn – Jehovas vitner. I Columbus, Ohio, 1931",,"The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931"
+gilead_school,Watchtower Bible School of Gilead begynte mandag 1. februar 1943,,"Watchtower Bible School of Gilead began on Monday, February 1, 1943"
+new_world_translation1,"«New World Translation of the Holy Scriptures» utgitt i Manchester, England 18. juni 1960",,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960"
+truth_book,"Boken ""Sannheten som fører til evig liv"" utgitt 1968",,The book “The Truth That Leads to Eternal Life” released 1968
+metropolitan,Start av storbyvitne i 2011,,Start of metropolitan witnessing in 2011
+jw_org,Start av JW.ORG med instruksjoner i rikets tjeneste desember 2012,,Start of JW.ORG with instructions in kingdom ministry December 2012
+new_world_translation2,Revidert «New World Translation of the Holy Scriptures» utgitt på årsmøtet 2013,,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013
+jw_broadcasting,Start av jw.broadcasting i oktober 2014,,Start of jw.broadcasting in October 2014
+meeting_workbook,"Nytt format for midtukemøte med ""møtearbeidsbok"" fra januar 2016",,New format of midweek meeting with “meeting workbook” starting January 2016
+covid19,Covid-19,,Covid-19
+cold_war,"Geopolitisk situasjon merket ""Kald krig"" 1945-1991",,Geopolitical situation labeled “Cold War” 1945-1991
+timeline_created,"Denne tidslinjen ble opprettet i 2023, det varmeste året i menneskets historie og de siste 125 000 årene",,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years"
+codex_sinaiticus,Codex Sinaiticus skrevet,,Codex Sinaiticus written
+codex_vaticanus,Codex Vaticanus skrevet,,Codex Vaticanus written
+leningrad_codex,Leningrad Codex skrevet i Kairo 1008 e.Kr,,Leningrad Codex written in Cairo AD 1008
+john,Johannes skriver «åpenbaring» mens han var i eksil på Patmos 96–98 e.v.t.,,John writes “revelation” while exiled on Patmos 96-98 C.E.
+nicaea1,Første konsil i Nikea,,First Council of Nicaea
+buddha,Buddha – Siddhartha Gautama c.563-c.483 B.C.E,,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E
+buddha2,Buddha alternativt c. 480–400 f.Kr.,,Buddha alternatively c. 480-400 B.C.E.
+mohammed,Mohammed c. 570-632 e.Kr.,,Mohammed c. 570-632 C.E.
+confucius,Konfucius ca. 551 - ca. 479 f.Kr.,,Confucius c.551-c.479 B.C.E.
+hijrah,Hijrah - Reise Mekka til Medina 16. juli 622,,Hijrah - Journey Mecca to Medina 16 July 622
+moses_escape,"1553 f.Kr. Moses må rømme Egypt – 2. Mosebok 2:15, Apg 7:23",,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23"
+10plagues,1513 f.Kr. Egypt mottar 10 plager,,1513 B.C.E Egypt receives 10 plagues
+joseph_sold,Josef solgte som slave i en alder av 17 – 1 Mos 37:2,,Joseph sold as slave at the age of 17 – Gen 37:2
+infliction,400 år påvirkning (Apg 7:6) – Ismael 1913 f.Kr.,,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E
+Alexander,Alexander den store (Daniel 11:3),,Alexander the Great (Daniel 11:3)
+persia,"Kyros den store, Kambyses II, Dareios I 490 f.Kr., Xerxes I 480 f.Kr. (Esters ektemann, Daniel 11:2)",,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)"
+persia2,Persia,,Persia
+king_north,"Seleucus I Nicator (v5) Syria til Antiochus III (v10) og Seleucus IV (v18, 19) ned til Octavian (v20) og Tiberius (v21-24)",,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)"
+king_north1,Nordens konge,,King of the North
+king_south,"Ptolemaios I, II, III, IV (v11, 12), V (v15, 16) til slaget Actium 31 B.C.E.",,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
+king_south1,Sørens konge,,King of the South
+king_south2,"Britisk imperium 1870, anglo-amerikansk verdensmakt siden 1914",,"British empire 1870, Anglo-American World Power since 1914"
+king_south3,Sørens konge,,King of the South
+king_north2,"Tyskland med keiser Vilhelm I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Nord,,North
+king_north4,"Sovjetunionen 1945-1991 (Daniel 11:32-39, 40b, 41)",,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)"
+king_north5,Russland siden 2017 (w20. mai),,Russia since 2017 (w20 May)
+time_of_end,"Kristi nærvær, avslutning av tingenes ordning (Matt 24:3), de siste dager (2Ti 3:1)",,"Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)"
+time_of_end2,De siste dagene,,last days
+suryavaman2,Kong Suryavarman II bygger Angkor Wat 1113-1150,,King Suryavarman II builds Angkor Wat 1113-1150
+notre-dame,Notre-Dame de Paris bygget 1163-1260,,Notre-Dame de Paris built 1163-1260
+jehoiada,Jojada,,Jehoiada
+babel,Babels tårn bygget,,tower of Babel built
+Haggai,Haggai,,Haggai
+Zephaniah,Sefanja,,Zephaniah
+Zerubbabel,Serubabel (Luk 3:27),,Zerubbabel (Luke 3:27)
+Babylon,"Daniel 2:32, 36-38; 7:4",,"Daniel 2:32, 36-38; 7:4"
+Medopersia,"Daniel 2:32, 39; 7:5",,"Daniel 2:32, 39; 7:5"
+Greece,"Daniel 2:32, 39; 7:6",,"Daniel 2:32, 39; 7:6"
+Rome,"Daniel 2:33, 40; 7:7",,"Daniel 2:33, 40; 7:7"
+Angloamerica,"Daniel 2:33, 41-43",,"Daniel 2:33, 41-43"
+Babylon_c,Babylon,,Babylon
+Medopersia_c,Medo-Persia,,Medo-Persia
+Greece_c,Hellas,,Greece
+Rome_c,Romerriket,,Rome
+Angloamerica_c,Storbritannia og USA,,Anglo-America
+infliction1,400 års påføring,Acts 7:6,400 year infliction
+infliction2,Apostlenes gjerninger 7:6,,Acts 7:6
+Jacob2,Jacob/,Jacob/Israel 1858-1711 – 147 years,Jacob/
+Israel,Israel,,Israel
+Sarah,Sarah,2008-1881 BCE – 127 years,Sarah
+Hagar,Hagar,Genesis 21:14,Hagar
+Haran,Haran,Genesis 11:26,Haran
+Nahor,Nahor,,Nahor
+Reumah,Reumah,Concubine – 4 sons,Reumah
+Milcah,Milcah,8 sons (Bethuel and 7 more),Milcah
+Lot,Lot,,Lot
+Lots_wife,Lots kone,,Lot’s wife
+Lots_daughters,Lots døtre,,Daughters of Lot
+Moab,Moab (eldre datter),,Moab (older daughter)
+Ammon,Ben-ammi (Ammon),,Ben-ammi (Ammon)
+Bethuel,Betuel,,Bethuel
+Rebekah,Rebekka,,Rebekah
+Laban,Laban,,Laban
+Leah,Leah,Genesis 35:23,Leah
+Rachel,Rachel,Genesis 35:24,Rachel
+Bilhah,Bilhah,Genesis 35:25,Bilhah
+Zilpah,Zilpah,Genesis 35:26,Zilpah
+Reuben,Ruben,,Reuben
+Simeon,Simeon,,Simeon
+Levi,Levi,,Levi
+Judah,Juda,,Judah
+Issachar,Issakar,,Issachar
+Zebulun,Sebulon,,Zebulun
+Dinah,Dinah,Genesis 34,Dinah
+Esau,Esau/,,Esau/
+Edom,Edom,Genesis 36:1,Edom
+Ishmael,Ismael,,Ishmael
+Manasseh2,(Manasse,,(Manasseh
+Ephraim,og Efraim),,and Ephraim)
+Benjamin,Benjamin,,Benjamin
+Dan,Dan,,Dan
+Naphtali,Naftali,,Naphtali
+Gad,Gad,,Gad
+Asher,Asher,,Asher
+Milcah1,"Uz, Buz, Kemuel,",,"Uz, Buz, Kemuel,"
+Milcah2,"Chesed, Hazo,",,"Chesed, Hazo,"
+Milcah3,"Pildash, Jidlaph",,"Pildash, Jidlaph"
+Tebah,Tebah,,Tebah
+Gaham,Gaham,,Gaham
+Tahash,Tahash,,Tahash
+Maacah,Maacah,,Maacah
+Mahalath,Mahalath/,"Genesis 28:8, 9",Mahalath/
+Basemath,Basmat ,"Genesis36:3, 4",Base·math
+Reuel,Rẹ’uel ,"36:13, 17",Reuel
+Nahath,Nahat ,,Nahath
+Zerah,Serah ,,Zerah
+Schammah,Sjammah ,,Schammah
+Mizzah,Missa ,,Mizzah
+Adah,Adah,"36:11, 12, 15, 16",Adah
+Eliphaz,Ẹlifas ,,Eliphaz
+Teman,Teman,,Teman
+Omar,Omar,,Omar
+Zepho,Sefo ,,Zepho
+Kenaz,Kenaz,,Kenaz
+Korah,Korah,,Korah
+Gatam,Gatam,,Gatam
+Amalek,Ạmalek ,,Amalek
+Oholibamah,Oholibạma ,"36:14, 18",Oholibamah
+Jeush,Je’usj ,,Jeush
+Jalam,Jalam ,,Jalam
+Korah,Korah,,Korah
+Nebaioth,Nebaioth,Genesis 25:13,Nebaioth
+Kedar,Kedar,,Kedar
+Adbeel,Adbeel,,Adbeel
+Mibsam,Mibsam,,Mibsam
+Mishma,Mishma,,Mishma
+Dumah,Dumah,,Dumah
+Massa,Massa,,Massa
+Hadad,Hadad,,Hadad
+Tema,Tema,,Tema
+Jetur,Jetur,,Jetur
+Naphish,Naphish,,Naphish
+Kedemah,Kedemah,,Kedemah
+Babylon2,,no text left and right – empty!, 
+terahfam,medlemmer av Terahs familie,,members of Terah’s family
+rosetta,Rosettastein 196 B.C.E.,,Rosetta stone 196 B.C.E.
+Herodotus,"Herodot c. 484 – ca. 425 f.Kr., skriver The Histories",Father of History,"Herodotus c. 484 – c. 425 BC, writes The Histories"
+Aristotle,Aristoteles 384 – 322 f.Kr,"The First Teacher, The Philosopher",Aristotle 384 – 322 BC
+Ptolemy,Ptolemaios ca 100 - ca. 170 e.Kr.,,Ptolemy c 100 – c. 170 C.E.
+Pythagoras,Pythagoras c. 570 – ca. 495 f.Kr,,Pythagoras c. 570 – c. 495 BC
+Plato,Platon c. 427 – ca. 348 f.Kr,,Plato c. 427 – c. 348 BC
+Socrates,Sokrates c. 470 – ca. 399 f.Kr,,Socrates c. 470 – c. 399 BC
+Josephus,Josefus c. 37 – c. 100 e.Kr.,,Josephus c. 37 – c. 100 C.E.
+Cicero,Cicero 106–43 f.Kr,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",Cicero 106–43 BC
+lachish_letters,Lachish-bokstaver c. 590 f.Kr.,,Lachish letters c. 590 B.C.E.
+lachish_reliefs,Lachish-relieffer c. 681 f.Kr.,,Lachish reliefs c. 681 B.C.E.
+mesha_stele,Mesha Stele (moabittisk stein) ca. 840 f.Kr.,,Mesha Stele (Moabite stone) c. 840 B.C.E.
+gilgamesh,Gilgamesh og Aga 𒇽𒆥𒄄𒀀𒀝𒂵,,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Epos av Gilgamesh (Sîn-lēqi-unninni),,Epic of Gilgamesh (Sîn-lēqi-unninni)
+oxyrhynchus,Oxyrhynchus Papyri,,Oxyrhynchus Papyri
+p52,Papyrus P52,,Papyrus P52
+daniel2_shift,0,Start 4.2,0
+daniel2_1,Kong Nebukadnesar,607 BCE,King Nebuchadnezzar
+daniel2_2,ødelegger Jerusalem,,destroys Jerusalem
+daniel2_3,Erobrer Babylon,539 BCE,Conquers Babylon
+daniel2_4,Kyros lar jødene få vende,537 BCE,Cyrus decrees return
+daniel2_5,tilbake til Jerusalem,,of Jews to Jerusalem
+daniel2_6,Aleksander den store,331 BCE,Alexander the Great
+daniel2_7,erobrer Persia,,conquers Persia
+daniel2_8,Hersker over Israel,63 BCE,Rules over Israel
+daniel2_9,Ødelegger Jerusalem,70 CE,Destroys Jerusalem
+daniel2_10,Den britisk-amerikanske,1914-1918 CE,"During World War I,"
+daniel2_11,verdensmakt oppstår,,Anglo-American World Power
+daniel2_12,under den første verdenskrig,End 4.2,comes into being
+qing-dynasty,1636-1912,,1636-1912
+qing-dynasty_c,Qing dynastiet,1636-1912,Qing dynasty
+ming-dynasty,1368-1644,,1368-1644
+ming-dynasty_c,Ming-dynastiet i det keiserlige Kina,1368-1644,Ming dynasty in imperial China
+yuan-dynasty,1271-1368,,1271-1368
+southern-song,1127-1279,,1127-1279
+northern-song,960-1127,,960-1127
+western-xia,1038-1227,,1038-1227
+yuan-dynasty_c,Yuan,1271-1368,Yuan
+southern-song_c,Sørlig sang,1127-1279,Southern Song
+northern-song_c,Nordlig sang,960-1127,Northern Song
+western-xia_c,Vestlige Xia,1038-1227,Western Xia
+Copernicus,Nicolaus Copernicus,,Nicolaus Copernicus
+Galileo,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,Galileo Galilei
+Newton,Isaac Newton,,Isaac Newton
+gregorian,gregoriansk kalender 1582,,Gregorian calendar 1582
+shang-dynasty,c. 1600-1046 f.Kr,,c. 1600-1046 BC
+western-zhou,c. 1046-771 f.Kr,,c. 1046-771 BC
+eastern-zhou,770-256 f.Kr,,770-256 BC
+qin-dynasty,Qin 221-207 f.Kr,,Qin 221-207 BC
+western-han,207 f.Kr. – 9 e.Kr,,207 BC – 9 CE
+eastern-han,25-220 e.Kr,,25-220 CE
+three-kingdoms,Tre riker 220-280 e.Kr,,Three kingdoms 220-280 CE
+sixteen-kingdoms,Seksten riker 304-439 e.Kr,,Sixteen kingdoms 304-439 CE
+northern-dynasties,368-581 e.Kr,,368-581 CE
+southern-dynasties,420-589 e.Kr,,420-589 CE
+tang-dynasty1,,, 
+tang-dynasty2,"618-690, 705-907",,"618-690, 705-907"
+wu-zhou,690-705 Wu Zhou,,690-705 Wu Zhou
+shang-dynasty_c,Shang-dynastiet,c. 1600-1046 BC,Shang Dynasty
+western-zhou_c,Vestlige Zhou,c. 1046-771 BC,Western Zhou
+eastern-zhou_c,Østlige Zhou,770-256 BC,Eastern Zhou
+western-han_c,Vestlige Han,207 BC – 9 CE,Western Han
+eastern-han_c,østlige Han,25-220 CE,Eastern Han
+three-kingdoms_c,Kina,Three kingdoms 220-280 CE,China
+sixteen-kingdoms_c,Kina,Sixteen kingdoms 304-439 CE,China
+northern-dynasties_c,Nordlige dynastier,368-581 CE,Northern Dynasties
+southern-dynasties_c,Sørlige dynastier,420-589 CE,Southern Dynasties
+tang-dynasty1_c,Tang,,Tang
+tang-dynasty2_c,Tang dynastiet,"618-690, 705-907",Tang Dynasty
+xia-dynasty,Xia-dynastiet i Kina ca. 2070 – ca. 1600 f.Kr,,Xia dynasty in China c. 2070 – c. 1600 BC
+gonghe,Gonghe Regency 841-828 f.Kr,,Gonghe Regency 841-828 BC
+Ashoka,Ashoka (ca. 304-232 f.Kr.) fremmer buddhismen,,Ashoka (c. 304-232 BC) promotes Buddhism
+siloam-tunnel,Hiskia forlenger Siloam-tunnelen,c. 742-732 BC,Hezekiah extends Siloam tunnel
+Angloamerica2,"Anglo-amerikansk er symbolisert ved føttene av jern blandet med leire i profetien i Daniel 2:33, 41-43",,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43"
+Manetho,Manetho skriver Aegyptiaca,,Manetho writes Aegyptiaca

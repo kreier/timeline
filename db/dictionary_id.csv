@@ -1,0 +1,401 @@
+key,text,notes,english
+version,4.5,,4.5
+pdf_title,6000 tahun sejarah manusia divisualisasikan,,6000 years human history visualized
+pdf_subject,Garis waktu umat manusia,,Timeline of humankind
+BCE,SM,,B.C.E.
+CE,C.E.,,C.E.
+year,tahun,"timespan, age (Adam was 130 years old when Shem was born)",year
+years,Tahun,,years
+years_age,Tahun,years when used as age for a person (different word than years in some languages),years
+age_kings, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""", 
+month,bulan,,month
+months,Bulan,,months
+day,hari,,day
+days,Hari,,days
+to,ke,,to
+people,rakyat,,people
+judges,Hakim,,judges
+prophets,Nabi,,prophets
+kings,Kings,,kings
+periods,Periode,,periods
+events,Peristiwa,,events
+objects,benda atau item,,objects or items
+Deluge,Banjir,,Deluge
+Adam,Adam,,Adam
+Seth,Seth,,Seth
+Enosh,Henokh,,Enosh
+Kenan,Kenan,,Kenan
+Mahalalel,Mahalalel,,Mahalalel
+Jared,Jared,,Jared
+Enoch,Henokh,,Enoch
+Methuselah,Metusalah,,Methuselah
+Lamech,Lamekh,,Lamech
+Noah,Nuh,,Noah
+Shem,Sem,,Shem
+Arpachshad,Arpachshad,,Arpachshad
+Shelah,Syelah,,Shelah
+Eber,Eber,,Eber
+Peleg,Peleg,,Peleg
+Reu,Reu,,Reu
+Serug,Serug,,Serug
+Nahor,Nahor,,Nahor
+Terah,Terah,,Terah
+Abraham,Abraham,,Abraham
+Isaac,Isak,,Isaac
+Jacob,Yakub,,Jacob
+Joseph,Yusuf,,Joseph
+Moses,Musa,,Moses
+Othniel,Otniel,,Othniel
+Ehud,Ehud,,Ehud
+Shamgar,Dukuh,,Shamgar
+Barak,Barak,,Barak
+Gideon,Gideon,,Gideon
+Tola,Tola,,Tola
+Jair,Jair,,Jair
+Jephthah,Yefta,,Jephthah
+Ibzan,Ibzan,,Ibzan
+Elon,Elon,,Elon
+Abdon,Abdon,,Abdon
+Samson,Simson,,Samson
+Samuel,Samuel,,Samuel
+Saul,Saul,,Saul
+David,Daud,,David
+Solomon,Solomo,,Solomon
+Rehoboam,Rehabeam,first king of southern kingdom of Juda,Rehoboam
+Abijah,Abia (Abijam),"3 years, also Abijam",Abijah (Abijam)
+Asa,Asa,,Asa
+Jehoshaphat,Yosafat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,Jehoshaphat
+Jehoram2,Yoram,,Jehoram
+Ahaziah,Ahazia,,Ahaziah
+Athaliah,Ratu Athaliah,Queen Athaliah,Queen Athaliah
+Jehoash,Yoas,,Jehoash
+Amaziah,Amazia,,Amaziah
+Uzziah,Uzia (Azarya),also Azariah,Uzziah (Azariah)
+Jotham,Yotam,,Jotham
+Ahaz,Ahas,,Ahaz
+Hezekiah,Hizkia,,Hezekiah
+Manasseh,Manasye,,Manasseh
+Amon,Amon,,Amon
+Josiah,Yosia,,Josiah
+Jehoahaz,Yoahas,Only 3 months,Jehoahaz
+Jehoiakim,Yoyakim,,Jehoiakim
+Jehoiachin,Yoyakhin,Only 3 months 10 days,Jehoiachin
+Zedekiah,Zedekia,,Zedekiah
+Jeroboam,Yerobeam,first king of northern 10-tribe kingdom,Jeroboam
+Nadab,Nadab,less than 2,Nadab
+Baasha,Baesa,,Baasha
+Elah,Elah,,Elah
+Zimri,Zimri,Only 7 days in ca. 751 BCE,Zimri
+OmriTibni,Omri dan Tibni bersama,4 years Omri and Tibni,Omri and Tibni together
+Omri,Omri (sendirian),from 947 Omri alone,Omri (alone)
+Ahab,Ahab,,Ahab
+Ahaziah,Ahazia,,Ahaziah
+Jehoram,Yoram,,Jehoram
+Jehu,Yehu,,Jehu
+Jeoahaz,Yeoahas,,Jeoahaz
+JeoahazJehoash,Yeoahas dan Yoas,For 3 years Jeoahaz and Jeoash reigned together,Jeoahaz and Jehoash
+Jehoash2,Yoas (sendirian),Jehoash (alone),Jehoash (alone)
+Jeroboam2,Yerobeam II,,Jeroboam II
+Zechariah,Zakharia,"reign only recorded 6 months, probably only established 792 BCE",Zechariah
+Schallum,Schallum,only one month,Schallum
+Menahem,Menahem,,Menahem
+Pekahiah,Pekahiah,,Pekahiah
+Pekah,Zakat,,Pekah
+Hoshea,Hoshea,9 years from c. 748,Hoshea
+Elijah,Elia,,Elijah
+Elisha,Elisa,,Elisha
+Jonah,Yunus,,Jonah
+Amos,Amos,,Amos
+Joel,Joel,,Joel
+Hosea,Hosea,,Hosea
+Isaiah,Yesaya,,Isaiah
+Micah,Mikha,,Micah
+Zephaniah,Zefanya,,Zephaniah
+Nahum,Nahum,,Nahum
+Jeremiah,Yeremia,,Jeremiah
+Habakuk,Habakuk,,Habakuk
+Daniel,Daniel,,Daniel
+Ezekiel,Yehezkiel,,Ezekiel
+Obadiah,Obaja,,Obadiah
+Malachi,Maleakhi,,Malachi
+Ruth,Rut,,Ruth
+Ezra,Ezra,,Ezra
+Nehemiah,Nehemia,,Nehemiah
+Esther,Ester,,Esther
+Job,Pekerjaan,,Job
+moses2,1593 hingga 1473 SM – 120 tahun,,1593 to 1473 B.C.E. – 120 years
+moses3,Musa,,Moses
+wilderness,Israel di padang belantara 1513 sampai 1473 SM – 40 tahun,,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years
+timespan_judges,1473 hingga 1117 SM – 356 tahun,,1473 to 1117 B.C.E. – 356 years
+timespan_judges2,Waktu para juri,,Time of the judges
+temple1,Nisan 1513 SM sampai Ziv 1034 SM,,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.
+temple2,479 tahun sampai pembangunan bait suci – 1 Raja-Raja 6:1,1034 BCE,479 years until the temple construction – 1 Kings 6:1
+69weeks,Yesus membaptis pada musim gugur 29 M.,,Jesus baptized autumn 29 C.E.
+69weeks2,69 minggu menuju Mesias – Daniel 9:25,,69 weeks to the Messiah – Daniel 9:25
+jesus_service,"3,5 tahun pelayanan Yesus, dieksekusi pada tanggal 14 Nisan 33 M.",,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E."
+jesus_life,Yesus lahir tahun 2 SM.,,Jesus born 2 B.C.E.
+exile,607 sampai 537 SM – 70 tahun (Yeremia 25:11),,607 to 537 B.C.E. – 70 years (Jeremiah 25:11)
+exile2,pengasingan,,exile
+7times,Wahyu 12:9,,Revelation 12:9
+7times2,7 kali – 2520 tahun menuju Kerajaan Mesianik 1914 M (Daniel 4:23),,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)
+ww1,Perang Dunia I – 1914–1918 M.,,World War I – 1914–1918 C.E.
+ww2,Perang Dunia II – 1939–1945 M.,,World War II – 1939–1945 C.E.
+30_year_war,Perang Tiga Puluh Tahun di Eropa 1618-1648,,Thirty Years' War in Europe 1618-1648
+joshua,110 tahun,,110 years
+joshua2,Yosua,,Joshua
+caleb,lebih dari 85 tahun,,more than 85 years
+caleb2,Caleb,,Caleb
+missionary1,"Perjalanan Penginjilan Paulus yang Pertama, sekitar tahun 47-48 M bersama Barnabas dan Yohanes Markus",,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark"
+circumcision,"Masalah sunat di Antiokhia, konferensi di Yerusalem sekitar tahun 49 M.",,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E."
+missionary2,Perjalanan Misionaris Kedua sekitar tahun 49-52 M bersama Silas (Silvanus),,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)
+missionary3,Perjalanan Misionaris Ketiga sekitar tahun 52-56 M.,,Third Missionary Journey c. 52-56 C.E.
+caesarea,Paulus ditahan di Kaisarea sekitar tahun 56-58 M.,,Paul in custody in Caesarea c. 56-58 C.E.
+rome1,Pemenjaraan Paulus yang pertama di Roma sekitar tahun 59-61 M.,,Paul’s first imprisonment in Rome c. 59-61 C.E.
+rome2,"Pemenjaraan Paulus yang kedua di Roma sekitar tahun 65 M, 2 Timotius ditulis, Paulus dieksekusi",,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed"
+Julius,Julius,,Julius
+Augustus,Augustus,,Augustus
+Tiberius,Tiberius,,Tiberius
+Caligula,Caligula,,Caligula
+Claudius,Claudius,,Claudius
+Nero,Nero,,Nero
+Galba-Otho-Vitellius,"Galba, Otho dan Vitellius (Tahun Empat Kaisar)",,"Galba, Otho and Vitellius (Year of the Four Emperors)"
+Vespasian,Vespasian,,Vespasian
+event_exodus,Keluaran dari Mesir pada tanggal 14 Nisan 1513 SM.,,"Exodus from Egypt on Nisan 14th, 1513 B.C.E."
+event_division_kingdom,Pembagian Israel 997 SM,,Division of Israel 997 BCE
+event_destruction_samaria,Penghancuran Samaria 740 SM oleh Asyur,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
+event_destruction_samaria2,740 SM oleh Asyur,was shortened here for 2 lines,740 B.C.E. by Assyria
+event_destruction_jerusalem1,"Penghancuran Yerusalem 607 SM oleh Babel, 390 tahun setelah kerajaan itu dipecah (Yehezkiel 4:5)",,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)"
+event_temple_rebuilt,Bait Suci di Yerusalem dibangun kembali pada tahun 515 SM.,,Temple in Jerusalem rebuilt 515 B.C.E.
+event_jerusalem_rebuilt,Tembok Yerusalem dibangun kembali pada tahun 455 SM.,,Jerusalem wall rebuilt 455 B.C.E.
+event_destruction_jerusalem2,Penghancuran Yerusalem 70 M oleh Roma di bawah Titus,,Destruction of Jerusalem 70 C.E. by Rome under Titus
+event_1914,"Akhir zaman bangsa-bangsa, kerajaan Allah mulai memerintah di surga 1914 M. ",,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. "
+became_king,Menjadi Raja di Usia,,became king at age
+vulgate,Vulgata yang diselesaikan oleh Hieronimus (terjemahan Latin dari Alkitab) sekitar tahun 405 M.,,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
+gutenberg,Alkitab Gutenberg dicetak tahun 1455,,Gutenberg bible printed 1455
+erasmus,Teks Yunani Kitab-Kitab Yunani Kristen yang diterbitkan oleh Desiderius Erasmus dari Rotterdam 1516,,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
+luther,Terjemahan Alkitab Luther pada bulan September 1522,,Luther Bible translation in September 1522
+tyndale,Terjemahan Alkitab bahasa Inggris oleh Tyndale 1536,,English Bible translation by Tyndale 1536
+king_james,Alkitab Raja James 1611,,King James Bible 1611
+69weeks3,"Yesus memulai pelayanan-Nya 29 M (Lukas 3:1, 21)",,"Jesus starts his service 29 CE (Luke 3:1, 21)"
+ransom,"tengah minggu ""korban untuk berhenti"" Daniel 9:27",,middle of week “sacrifice to cease” Daniel 9:27
+cornelius,Kornelius dibaptis pada akhir 70 minggu (Daniel 9:24) pada tahun 36 M.,,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.
+columbus,akhir periode pra-Columbus di Amerika 1492,,end of the pre-columbian period in the Americas 1492
+declaration_independence,deklarasi kemerdekaan 13 koloni di Amerika 1776,,declaration of independence of 13 colonies in America 1776
+tischendorf,Tischendorf menemukan Codex Sinaiticus dari abad ke-4 pada tahun 1844,,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844
+dead_sea_scrolls,Gulungan Laut Mati ditulis,,Dead Sea Scrolls written
+septuagint,Septuaginta LXX diterjemahkan,,Septuagint LXX translated
+watchtower,"Terbitan pertama ""Zion's Watch Tower and Herald of Christ's Presence"" diterbitkan pada tahun 1879",,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879
+photodrama,"""Photo-Drama of Creation"" pertama kali ditampilkan di New York pada 11 Januari 1914",,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914"
+jehovahs_witnesses,"Siswa-Siswa Alkitab mengadopsi nama baru – Saksi-Saksi Yehuwa. Di Columbus, Ohio, 1931",,"The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931"
+gilead_school,"Sekolah Alkitab Gilead Menara Pengawal dimulai pada hari Senin, 1 Februari 1943",,"Watchtower Bible School of Gilead began on Monday, February 1, 1943"
+new_world_translation1,"""New World Translation of the Holy Scriptures"" dirilis di Manchester, Inggris pada tanggal 18 Juni 1960",,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960"
+truth_book,"Buku ""Kebenaran yang Menuntun pada Kehidupan Kekal"" dirilis tahun 1968",,The book “The Truth That Leads to Eternal Life” released 1968
+metropolitan,Mulai dari kesaksian metropolitan pada tahun 2011,,Start of metropolitan witnessing in 2011
+jw_org,Mulai dari JW.ORG dengan instruksi dalam pelayanan kerajaan Desember 2012,,Start of JW.ORG with instructions in kingdom ministry December 2012
+new_world_translation2,"Revisi ""New World Translation of the Holy Scriptures"" dirilis pada pertemuan tahunan 2013",,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013
+jw_broadcasting,Mulai dari jw.broadcasting pada Oktober 2014,,Start of jw.broadcasting in October 2014
+meeting_workbook,"Format baru rapat tengah minggu dengan ""buku kerja rapat"" mulai Januari 2016",,New format of midweek meeting with “meeting workbook” starting January 2016
+covid19,Covid-19,,Covid-19
+cold_war,"Situasi geopolitik berlabel ""Perang Dingin"" 1945-1991",,Geopolitical situation labeled “Cold War” 1945-1991
+timeline_created,"Garis waktu ini dibuat pada tahun 2023, tahun terpanas dalam sejarah manusia dan 125.000 tahun terakhir",,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years"
+codex_sinaiticus,Codex Sinaiticus ditulis,,Codex Sinaiticus written
+codex_vaticanus,Codex Vaticanus ditulis,,Codex Vaticanus written
+leningrad_codex,Kodeks Leningrad ditulis di Kairo 1008 M,,Leningrad Codex written in Cairo AD 1008
+john,"Yohanes menulis ""wahyu"" ketika diasingkan di Patmos 96-98 M.",,John writes “revelation” while exiled on Patmos 96-98 C.E.
+nicaea1,Konsili Nicea Pertama,,First Council of Nicaea
+buddha,Sang Buddha – Siddhartha Gautama sekitar tahun 563-483 SM,,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E
+buddha2,"Buddha sebagai alternatif, sekitar 480-400 SM.",,Buddha alternatively c. 480-400 B.C.E.
+mohammed,Muhammad sekitar tahun 570-632 M.,,Mohammed c. 570-632 C.E.
+confucius,Konfusius sekitar tahun 551-479 SM,,Confucius c.551-c.479 B.C.E.
+hijrah,Hijrah - Perjalanan Mekkah ke Madinah 16 Juli 622,,Hijrah - Journey Mecca to Medina 16 July 622
+moses_escape,"1553 SM Musa harus melarikan diri dari Mesir – Keluaran 2:15, Kisah Para Rasul 7:23",,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23"
+10plagues,1513 SM Mesir menerima 10 tulah,,1513 B.C.E Egypt receives 10 plagues
+joseph_sold,Yusuf dijual sebagai budak pada usia 17 tahun – Kejadian 37:2,,Joseph sold as slave at the age of 17 – Gen 37:2
+infliction,400 tahun penderitaan (Kisah Para Rasul 7:6) – Ismael 1913 SM,,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E
+Alexander,Alexander Agung (Daniel 11:3),,Alexander the Great (Daniel 11:3)
+persia,"Koresh Agung, Cambyses II, Darius I 490 SM, Xerxes I 480 SM (suami Ester, Daniel 11:2)",,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)"
+persia2,Persia,,Persia
+king_north,"Seleukos I Nikator (ayat 5) Suriah ke Antiokhos III (ayat 10) dan Seleukos IV (ayat 18, 19) ke Oktavianus (ayat 20) dan Tiberius (ayat 21-24)",,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)"
+king_north1,Raja Utara,,King of the North
+king_south,"Ptolemaios I, II, III, IV (v11, 12), V (v15, 16) ke pertempuran Actium 31 SM.",,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
+king_south1,Raja Selatan,,King of the South
+king_south2,"Kerajaan Inggris 1870, Kekuatan Dunia Anglo-Amerika sejak 1914",,"British empire 1870, Anglo-American World Power since 1914"
+king_south3,Raja Selatan,,King of the South
+king_north2,"Jerman dengan Kaisar William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Utara,,North
+king_north4,"Uni Soviet 1945-1991 (Daniel 11:32-39, 40b, 41)",,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)"
+king_north5,Rusia sejak 2017 (w20 Mei),,Russia since 2017 (w20 May)
+time_of_end,"Kehadiran Kristus, Kesimpulan dari sistem segala sesuatu (Matius 24:3), hari-hari terakhir (2Tim 3:1)",,"Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)"
+time_of_end2,Hari-hari terakhir,,last days
+suryavaman2,Raja Suryawarman II membangun Angkor Wat 1113-1150,,King Suryavarman II builds Angkor Wat 1113-1150
+notre-dame,Notre-Dame de Paris dibangun 1163-1260,,Notre-Dame de Paris built 1163-1260
+jehoiada,Yoyada,,Jehoiada
+babel,menara Babel dibangun,,tower of Babel built
+Haggai,Hagai,,Haggai
+Zephaniah,Zefanya,,Zephaniah
+Zerubbabel,Zerubabel (Lukas 3:27),,Zerubbabel (Luke 3:27)
+Babylon,"Daniel 2:32, 36-38; 7:4",,"Daniel 2:32, 36-38; 7:4"
+Medopersia,"Daniel 2:32, 39; 7:5",,"Daniel 2:32, 39; 7:5"
+Greece,"Daniel 2:32, 39; 7:6",,"Daniel 2:32, 39; 7:6"
+Rome,"Daniel 2:33, 40; 7:7",,"Daniel 2:33, 40; 7:7"
+Angloamerica,"Daniel 2:33, 41-43",,"Daniel 2:33, 41-43"
+Babylon_c,Babel,,Babylon
+Medopersia_c,Media-Persia,,Medo-Persia
+Greece_c,Yunani,,Greece
+Rome_c,Roma,,Rome
+Angloamerica_c,Anglo-Amerika,,Anglo-America
+infliction1,Penderitaan 400 tahun,Acts 7:6,400 year infliction
+infliction2,Kisah Para Rasul 7:6,,Acts 7:6
+Jacob2,Yakub/,Jacob/Israel 1858-1711 – 147 years,Jacob/
+Israel,Israel,,Israel
+Sarah,Sarah,2008-1881 BCE – 127 years,Sarah
+Hagar,Hagar,Genesis 21:14,Hagar
+Haran,Haran,Genesis 11:26,Haran
+Nahor,Nahor,,Nahor
+Reumah,Reumah,Concubine – 4 sons,Reumah
+Milcah,Milcah,8 sons (Bethuel and 7 more),Milcah
+Lot,Banyak,,Lot
+Lots_wife,Istri Lot,,Lot’s wife
+Lots_daughters,Putri-putri Lot,,Daughters of Lot
+Moab,Moab (anak perempuan yang lebih tua),,Moab (older daughter)
+Ammon,Ben-ammi (Amon),,Ben-ammi (Ammon)
+Bethuel,Betuel,,Bethuel
+Rebekah,Ribka,,Rebekah
+Laban,Laban,,Laban
+Leah,Lea,Genesis 35:23,Leah
+Rachel,Rachel,Genesis 35:24,Rachel
+Bilhah,Bilha,Genesis 35:25,Bilhah
+Zilpah,Zilpah,Genesis 35:26,Zilpah
+Reuben,Ruben,,Reuben
+Simeon,Simeon,,Simeon
+Levi,Levi,,Levi
+Judah,Yehuda,,Judah
+Issachar,Isakhar,,Issachar
+Zebulun,Zebulon,,Zebulun
+Dinah,Dinah,Genesis 34,Dinah
+Esau,Esau/,,Esau/
+Edom,Edom,Genesis 36:1,Edom
+Ishmael,Ismael,,Ishmael
+Manasseh2,(Manasye,,(Manasseh
+Ephraim,dan Efraim),,and Ephraim)
+Benjamin,Benjamin,,Benjamin
+Dan,Dan,,Dan
+Naphtali,Naftali,,Naphtali
+Gad,Gad,,Gad
+Asher,Asyer,,Asher
+Milcah1,"Uz, Buz, Kemuel,",,"Uz, Buz, Kemuel,"
+Milcah2,"Catur, Hazo,",,"Chesed, Hazo,"
+Milcah3,"Pildash, Jidlaph",,"Pildash, Jidlaph"
+Tebah,Tebah,,Tebah
+Gaham,Gaham,,Gaham
+Tahash,Tahash,,Tahash
+Maacah,Maacah,,Maacah
+Mahalath,Mahalath/,"Genesis 28:8, 9",Mahalath/
+Basemath,Dasar·matematika,"Genesis36:3, 4",Base·math
+Reuel,Reuel,"36:13, 17",Reuel
+Nahath,Nahath,,Nahath
+Zerah,Zerah,,Zerah
+Schammah,Schammah,,Schammah
+Mizzah,Mizzah,,Mizzah
+Adah,Adah,"36:11, 12, 15, 16",Adah
+Eliphaz,Elifas,,Eliphaz
+Teman,Teman,,Teman
+Omar,Omar,,Omar
+Zepho,Zepho,,Zepho
+Kenaz,Kenaz,,Kenaz
+Korah,Korah,,Korah
+Gatam,Gatam,,Gatam
+Amalek,Amalek,,Amalek
+Oholibamah,Oholibamah,"36:14, 18",Oholibamah
+Jeush,Jeush,,Jeush
+Jalam,Jalam,,Jalam
+Korah,Korah,,Korah
+Nebaioth,Nebaiot,Genesis 25:13,Nebaioth
+Kedar,Kedar,,Kedar
+Adbeel,Adbeel,,Adbeel
+Mibsam,Mibsam,,Mibsam
+Mishma,Mishma,,Mishma
+Dumah,Duma,,Dumah
+Massa,Massa,,Massa
+Hadad,Hadad,,Hadad
+Tema,Tema,,Tema
+Jetur,Jetur,,Jetur
+Naphish,Nafis,,Naphish
+Kedemah,Kedemah,,Kedemah
+Babylon2, ,no text left and right – empty!, 
+terahfam,anggota keluarga Terah,,members of Terah’s family
+rosetta,Batu Rosetta 196 SM,,Rosetta stone 196 B.C.E.
+Herodotus,"Herodotus c. 484 – c. 425 SM, menulis The Histories",Father of History,"Herodotus c. 484 – c. 425 BC, writes The Histories"
+Aristotle,Aristoteles 384 – 322 SM,"The First Teacher, The Philosopher",Aristotle 384 – 322 BC
+Ptolemy,Ptolemaios sekitar tahun 100 – sekitar tahun 170 M.,,Ptolemy c 100 – c. 170 C.E.
+Pythagoras,Pythagoras skt. 570 – skt. 495 SM,,Pythagoras c. 570 – c. 495 BC
+Plato,Plato sekitar 427 – sekitar 348 SM,,Plato c. 427 – c. 348 BC
+Socrates,Socrates sekitar 470 – sekitar 399 SM,,Socrates c. 470 – c. 399 BC
+Josephus,Yosefus sekitar tahun 37 – sekitar tahun 100 M,,Josephus c. 37 – c. 100 C.E.
+Cicero,Cicero 106–43 SM,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",Cicero 106–43 BC
+lachish_letters,Surat-surat Lakhis sekitar tahun 590 SM,,Lachish letters c. 590 B.C.E.
+lachish_reliefs,Relief Lakhis sekitar tahun 681 SM,,Lachish reliefs c. 681 B.C.E.
+mesha_stele,Prasasti Mesa (batu Moab) sekitar tahun 840 SM,,Mesha Stele (Moabite stone) c. 840 B.C.E.
+gilgamesh,Gilgamesh dan Aga 𒇽𒆥𒄄𒀀𒀝𒂵,,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Epos Gilgamesh (Sîn-lēqi-unninni),,Epic of Gilgamesh (Sîn-lēqi-unninni)
+oxyrhynchus,Papirus Oxyrhynchus,,Oxyrhynchus Papyri
+p52,Papirus P52,,Papyrus P52
+daniel2_shift,0,Start 4.2,0
+daniel2_1,Raja Nebukadnezar,607 BCE,King Nebuchadnezzar
+daniel2_2,menghancurkan Yerusalem,,destroys Jerusalem
+daniel2_3,Menaklukkan Babel,539 BCE,Conquers Babylon
+daniel2_4,Dekrit Cyrus kembali,537 BCE,Cyrus decrees return
+daniel2_5,orang Yahudi ke Yerusalem,,of Jews to Jerusalem
+daniel2_6,Aleksander Agung,331 BCE,Alexander the Great
+daniel2_7,menaklukkan Persia,,conquers Persia
+daniel2_8,Aturan atas Israel,63 BCE,Rules over Israel
+daniel2_9,Menghancurkan Yerusalem,70 CE,Destroys Jerusalem
+daniel2_10,"Selama Perang Dunia I,",1914-1918 CE,"During World War I,"
+daniel2_11,Kekuatan Dunia Anglo-Amerika,,Anglo-American World Power
+daniel2_12,terwujud,End 4.2,comes into being
+qing-dynasty,1636-1912,,1636-1912
+qing-dynasty_c,Dinasti Qing,1636-1912,Qing dynasty
+ming-dynasty,1368-1644,,1368-1644
+ming-dynasty_c,Dinasti Ming di kekaisaran Tiongkok,1368-1644,Ming dynasty in imperial China
+yuan-dynasty,1271-1368,,1271-1368
+southern-song,1127-1279,,1127-1279
+northern-song,960-1127,,960-1127
+western-xia,1038-1227,,1038-1227
+yuan-dynasty_c,Yuan,1271-1368,Yuan
+southern-song_c,Song Selatan,1127-1279,Southern Song
+northern-song_c,Lagu Utara,960-1127,Northern Song
+western-xia_c,Xia Barat,1038-1227,Western Xia
+Copernicus,Nicolaus Copernicus,,Nicolaus Copernicus
+Galileo,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,Galileo Galilei
+Newton,Isaac Newton,,Isaac Newton
+gregorian,Kalender Gregorian 1582,,Gregorian calendar 1582
+shang-dynasty,sekitar 1600-1046 SM,,c. 1600-1046 BC
+western-zhou,sekitar 1046-771 SM,,c. 1046-771 BC
+eastern-zhou,770-256 SM,,770-256 BC
+qin-dynasty,Qin 221-207 SM,,Qin 221-207 BC
+western-han,207 SM – 9 M,,207 BC – 9 CE
+eastern-han,25-220 M,,25-220 CE
+three-kingdoms,Tiga kerajaan 220-280 M,,Three kingdoms 220-280 CE
+sixteen-kingdoms,Enam belas kerajaan 304-439 M,,Sixteen kingdoms 304-439 CE
+northern-dynasties,368-581 M,,368-581 CE
+southern-dynasties,420-589 M,,420-589 CE
+tang-dynasty1, ,, 
+tang-dynasty2,"618-690, 705-907",,"618-690, 705-907"
+wu-zhou,690-705 Wu Zhou,,690-705 Wu Zhou
+shang-dynasty_c,Dinasti Shang,c. 1600-1046 BC,Shang Dynasty
+western-zhou_c,Zhou Barat,c. 1046-771 BC,Western Zhou
+eastern-zhou_c,Zhou Timur,770-256 BC,Eastern Zhou
+western-han_c,Han Barat,207 BC – 9 CE,Western Han
+eastern-han_c,Han Timur,25-220 CE,Eastern Han
+three-kingdoms_c,Cina,Three kingdoms 220-280 CE,China
+sixteen-kingdoms_c,Cina,Sixteen kingdoms 304-439 CE,China
+northern-dynasties_c,Dinasti Utara,368-581 CE,Northern Dynasties
+southern-dynasties_c,Dinasti Selatan,420-589 CE,Southern Dynasties
+tang-dynasty1_c,Tang,,Tang
+tang-dynasty2_c,Dinasti Tang,"618-690, 705-907",Tang Dynasty
+xia-dynasty,Dinasti Xia di Tiongkok c. 2070 – c. 1600 SM,,Xia dynasty in China c. 2070 – c. 1600 BC
+gonghe,Kabupaten Gonghe 841-828 SM,,Gonghe Regency 841-828 BC
+Ashoka,Ashoka (c. 304-232 SM) mempromosikan agama Buddha,,Ashoka (c. 304-232 BC) promotes Buddhism
+siloam-tunnel,Hizkia memperluas terowongan Siloam,c. 742-732 BC,Hezekiah extends Siloam tunnel
+Angloamerica2,"Anglo-Amerika dilambangkan dengan kaki besi dicampur dengan tanah liat dalam nubuat dalam Daniel 2:33, 41-43",,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43"
+Manetho,Manetho menulis Aegyptiaca,,Manetho writes Aegyptiaca

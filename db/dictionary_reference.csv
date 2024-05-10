@@ -1,12 +1,12 @@
 key,text,version,notes
-version,4.4,4.4,
+version,4.5,4.5,
 pdf_title,6000 years human history visualized,3.1,
 pdf_subject,Timeline of humankind,3.1,
 BCE,B.C.E.,3.1,
 CE,C.E.,3.1,
 year,year,3.1,"timespan, age (Adam was 130 years old when Shem was born)"
 years,years,3.1,
-years_age,years,3.1,years when used as age for a person (different word than years in some languages)
+years_age,years,3.1,"years when used as age for a person (different word than years in some languages), like he is 23 years old "
 age_kings, ,4.1,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,month,3.1,
 months,months,3.1,
@@ -21,46 +21,46 @@ periods,periods,3.1,
 events,events,3.1,
 objects,objects or items,4.1,
 Deluge,Deluge,4.1,
-Adam,Adam,3.1,
+Adam,Adam,3.1,Luke 3:38
 Seth,Seth,3.1,
 Enosh,Enosh,3.1,
 Kenan,Kenan,3.1,
 Mahalalel,Mahalalel,3.1,
 Jared,Jared,3.1,
 Enoch,Enoch,3.1,
-Methuselah,Methuselah,3.1,
+Methuselah,Methuselah,3.1,Luke 3:37
 Lamech,Lamech,3.1,
 Noah,Noah,3.1,
 Shem,Shem,3.1,
-Arpachshad,Arpachshad,3.1,
+Arpachshad,Arpachshad,3.1,Luke 3:36
 Shelah,Shelah,3.1,
 Eber,Eber,3.1,
 Peleg,Peleg,3.1,
 Reu,Reu,3.1,
-Serug,Serug,3.1,
+Serug,Serug,3.1,Luke 3:35
 Nahor,Nahor,3.1,
 Terah,Terah,3.1,
 Abraham,Abraham,3.1,
 Isaac,Isaac,3.1,
-Jacob,Jacob,3.1,
+Jacob,Jacob,3.1,Luke 3:34
 Joseph,Joseph,3.1,
 Moses,Moses,3.1,
-Othniel,Othniel,4.1,
-Ehud,Ehud,4.1,
-Shamgar,Shamgar,4.1,
-Barak,Barak,4.1,
-Gideon,Gideon,4.1,
-Tola,Tola,4.1,
-Jair,Jair,4.1,
-Jephthah,Jephthah,4.1,
-Ibzan,Ibzan,4.1,
-Elon,Elon,4.1,
-Abdon,Abdon,4.1,
-Samson,Samson,4.1,
-Samuel,Samuel,4.1,
-Saul,Saul,4.1,
-David,David,4.1,
-Solomo,Solomo,4.1,
+Othniel,Othniel,4.1,Judges 3:9-11
+Ehud,Ehud,4.1,Judges 3:15-18
+Shamgar,Shamgar,4.1,Judges 3:31
+Barak,Barak,4.1,Judges 4:6
+Gideon,Gideon,4.1,Judges 7:1
+Tola,Tola,4.1,Judges 10:1
+Jair,Jair,4.1,Judges 10:3
+Jephthah,Jephthah,4.1,Judges 11:1
+Ibzan,Ibzan,4.1,Judges 12:8
+Elon,Elon,4.1,Judges 12:11
+Abdon,Abdon,4.1,Judges 12:13
+Samson,Samson,4.1,Judges 13:24
+Samuel,Samuel,4.1,1 Samuel 1:20
+Saul,Saul,4.1,1 Samuel 9:2
+David,David,4.1,1 Samuel 16:13
+Solomon,Solomon,4.1,1 Kings 2:1
 Rehoboam,Rehoboam,4.1,first king of southern kingdom of Juda
 Abijah,Abijah (Abijam),4.1,"3 years, also Abijam"
 Asa,Asa,4.1,
@@ -89,7 +89,6 @@ Zimri,Zimri,4.1,Only 7 days in ca. 751 BCE
 OmriTibni,Omri and Tibni together,4.1,4 years Omri and Tibni
 Omri,Omri (alone),4.1,from 947 Omri alone
 Ahab,Ahab,4.1,
-Ahaziah,Ahaziah,4.1,
 Jehoram,Jehoram,4.1,
 Jehu,Jehu,4.1,
 Jeoahaz,Jeoahaz,4.1,
@@ -162,13 +161,13 @@ Galba-Otho-Vitellius,"Galba, Otho and Vitellius (Year of the Four Emperors)",4.1
 Vespasian,Vespasian,4.1,
 event_exodus,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.",4.1,
 event_division_kingdom,Division of Israel 997 BCE,4.1,
-event_destruction_samaria,Destruction of Samaria 740 B.C.E. by Assyria,4.1,
-event_destruction_samaria2,740 B.C.E. by Assyria,4.1,
+event_destruction_samaria,Destruction of Samaria 740 B.C.E. by Assyria,4.1,Destruction of Samaria 740 B.C.E. by Assyria
+event_destruction_samaria2,740 B.C.E. by Assyria,4.1,was shortened here for 2 lines
 event_destruction_jerusalem1,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",4.1,
 event_temple_rebuilt,Temple in Jerusalem rebuilt 515 B.C.E.,4.1,
 event_jerusalem_rebuilt,Jerusalem wall rebuilt 455 B.C.E.,4.1,
 event_destruction_jerusalem2,Destruction of Jerusalem 70 C.E. by Rome under Titus,4.1,
-event_1914,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. ",4.1,
+event_1914,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E. ",4.5,include scripture Luke 21:24
 became_king,became king at age,4.1,
 vulgate,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,4.1,
 gutenberg,Gutenberg bible printed 1455,4.1,
@@ -186,16 +185,16 @@ dead_sea_scrolls,Dead Sea Scrolls written,4.1,
 septuagint,Septuagint LXX translated,4.1,
 watchtower,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,4.1,
 photodrama,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",4.1,
-jehovahs_witnesses,"The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931",4.1,
+jehovahs_witnesses,"The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",4.5,include scripture
 gilead_school,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",4.1,
-new_world_translation1,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960",4.1,
+new_world_translation1,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",4.5,hightlight reintroduction of Jehovah’s name
 truth_book,The book “The Truth That Leads to Eternal Life” released 1968,4.1,
 metropolitan,Start of metropolitan witnessing in 2011,4.1,
 jw_org,Start of JW.ORG with instructions in kingdom ministry December 2012,4.1,
-new_world_translation2,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013,4.1,
+new_world_translation2,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",4.5,new edition with digital and online in mind
 jw_broadcasting,Start of jw.broadcasting in October 2014,4.1,
 meeting_workbook,New format of midweek meeting with “meeting workbook” starting January 2016,4.1,
-covid19,"Global Covid-19 pandemic leads to lockdowns, quarantine and zoom-meetings",4.1,
+covid19,Covid-19,4.1,
 cold_war,Geopolitical situation labeled “Cold War” 1945-1991,4.1,
 timeline_created,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years",4.1,
 codex_sinaiticus,Codex Sinaiticus written,4.1,
@@ -225,14 +224,13 @@ king_north2,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b),
 king_north3,North,4.1,
 king_north4,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",4.1,
 king_north5,Russia since 2017 (w20 May),4.1,
-time_of_end,"Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)",4.1,
+time_of_end,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",4.5,scriptures written out
 time_of_end2,last days,4.1,
 suryavaman2,King Suryavarman II builds Angkor Wat 1113-1150,4.1,
 notre-dame,Notre-Dame de Paris built 1163-1260,4.1,
 jehoiada,Jehoiada,4.1,
 babel,tower of Babel built,4.1,
 Haggai,Haggai,4.1,
-Zephaniah,Zephaniah,4.1,
 Zerubbabel,Zerubbabel (Luke 3:27),4.1,
 Babylon,"Daniel 2:32, 36-38; 7:4",4.2,
 Medopersia,"Daniel 2:32, 39; 7:5",4.2,
@@ -247,19 +245,18 @@ Angloamerica_c,Anglo-America,4.2,
 infliction1,400 year infliction,4.2,Acts 7:6
 infliction2,Acts 7:6,4.2,
 Jacob2,Jacob/,4.3,Jacob/Israel 1858-1711 – 147 years
-Israel,Israel,4.3,
+Israel,Israel,4.3,Genesis 35:10
 Sarah,Sarah,4.3,2008-1881 BCE – 127 years
 Hagar,Hagar,4.3,Genesis 21:14
 Haran,Haran,4.3,Genesis 11:26
-Nahor,Nahor,4.3,
 Reumah,Reumah,4.3,Concubine – 4 sons
 Milcah,Milcah,4.3,8 sons (Bethuel and 7 more)
-Lot,Lot,4.3,
+Lot,Lot,4.3,Genesis 11:27
 Lots_wife,Lot’s wife,4.3,
 Lots_daughters,Daughters of Lot,4.3,
-Moab,Moab (older daughter),4.3,
-Ammon,Ben-ammi (Ammon),4.3,
-Bethuel,Bethuel,4.3,
+Moab,Moab (older daughter),4.3,Genesis 19:37
+Ammon,Ben-ammi (Ammon),4.3,Genesis 19:38
+Bethuel,Bethuel,4.3,Genesis 22:23
 Rebekah,Rebekah,4.3,
 Laban,Laban,4.3,
 Leah,Leah,4.3,Genesis 35:23
@@ -276,22 +273,22 @@ Dinah,Dinah,4.3,Genesis 34
 Esau,Esau/,4.3,
 Edom,Edom,4.3,Genesis 36:1
 Ishmael,Ishmael,4.3,
-Manasseh2,(Manasseh,4.3,
+Manasseh2,(Manasseh,4.3,Genesis 41:50-52
 Ephraim,and Ephraim),4.3,
 Benjamin,Benjamin,4.3,
 Dan,Dan,4.3,
 Naphtali,Naphtali,4.3,
-Gad ,Gad ,4.3,
+Gad,Gad,4.3,
 Asher,Asher,4.3,
-Milcah1,"Uz, Buz, Kemuel,",4.3,
+Milcah1,"Uz, Buz, Kemuel,",4.3,Genesis 22:21
 Milcah2,"Chesed, Hazo,",4.3,
 Milcah3,"Pildash, Jidlaph",4.3,
-Tebah,Tebah,4.3,
+Tebah,Tebah,4.3,Genesis 22:23
 Gaham,Gaham,4.3,
 Tahash,Tahash,4.3,
 Maacah,Maacah,4.3,
 Mahalath,Mahalath/,4.3,"Genesis 28:8, 9"
-Basemath,Base·math,4.3,"Genesis36:3, 4"
+Basemath,Basemath,4.3,"Genesis36:3, 4"
 Reuel,Reuel,4.3,"36:13, 17"
 Nahath,Nahath,4.3,
 Zerah,Zerah,4.3,
@@ -309,7 +306,6 @@ Amalek,Amalek,4.3,
 Oholibamah,Oholibamah,4.3,"36:14, 18"
 Jeush,Jeush,4.3,
 Jalam,Jalam,4.3,
-Korah,Korah,4.3,
 Nebaioth,Nebaioth,4.3,Genesis 25:13
 Kedar,Kedar,4.3,
 Adbeel,Adbeel,4.3,
@@ -325,7 +321,7 @@ Kedemah,Kedemah,4.3,
 Babylon2, ,4.2,no text left and right – empty!
 terahfam,members of Terah’s family,4.1,
 rosetta,Rosetta stone 196 B.C.E.,4.1,
-Herodotus,Herodotus c. 484 – c. 425 B.C.E.,4.3,Father of History
+Herodotus,"Herodotus c. 484 – c. 425 BC, writes The Histories",4.3,Father of History
 Aristotle,Aristotle 384 – 322 BC,4.3,"The First Teacher, The Philosopher"
 Ptolemy,Ptolemy c 100 – c. 170 C.E.,4.3,
 Pythagoras,Pythagoras c. 570 – c. 495 BC,4.3,
@@ -398,3 +394,13 @@ gonghe,Gonghe Regency 841-828 BC,4.4,
 Ashoka,Ashoka (c. 304-232 BC) promotes Buddhism,4.4,
 siloam-tunnel,Hezekiah extends Siloam tunnel,4.5,c. 742-732 BC
 Angloamerica2,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",4.5,
+Manetho,Manetho writes Aegyptiaca,4.5,
+tribulation,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",4.5,
+destruction_babylon,"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",4.5,beginning of great tribulation (GT)
+gog_of_magog,"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",4.5,end of GT
+sheep_goat,"Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",4.5,end of GT
+annointed,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),4.5,end of GT
+armageddon,"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",4.5,end of system of things
+millenium,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",4.5,
+great_crowd,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",4.5,
+world_population,World population in billions in the last 2000 years,4.5,

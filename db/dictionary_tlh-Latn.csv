@@ -1,0 +1,401 @@
+key,text,notes,english
+version,4.5,,4.5
+pdf_title,chISqu',,6000 years human history visualized
+pdf_subject,puqloD,,Timeline of humankind
+BCE,Leon.,,B.C.E.
+CE,Leon.,,C.E.
+year,DIS,"timespan, age (Adam was 130 years old when Shem was born)",year
+years,DIS,,years
+years_age,DIS,years when used as age for a person (different word than years in some languages),years
+age_kings, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""", 
+month,maqtagh,,month
+months,jar,,months
+day,jaj,,day
+days,jaj,,days
+to,ngeH,,to
+people,Nuv,,people
+judges,noH,,judges
+prophets,naD,,prophets
+kings,tlha',,kings
+periods,Qom,,periods
+events,wanI',,events
+objects,rut 'oH'eghlaH pagh,,objects or items
+Deluge,Degh,,Deluge
+Adam,'ampaS,,Adam
+Seth,legh,,Seth
+Enosh,'enlIl,,Enosh
+Kenan,qeylIS,,Kenan
+Mahalalel,may',,Mahalalel
+Jared,bargh,,Jared
+Enoch,yIta'rup,,Enoch
+Methuselah,QumwI',,Methuselah
+Lamech,qa'rIq,,Lamech
+Noah,targh vIDa'Qo,,Noah
+Shem,ghaH,,Shem
+Arpachshad,chanDal,,Arpachshad
+Shelah,toy'wI''a',,Shelah
+Eber,'oSrIq,,Eber
+Peleg,qoy',,Peleg
+Reu,rIymuS,,Reu
+Serug,nav,,Serug
+Nahor,ghe''or,,Nahor
+Terah,vaj,,Terah
+Abraham,'aralya',,Abraham
+Isaac,qa''a',,Isaac
+Jacob,jI'Iq,,Jacob
+Joseph,ghopDu' joq,,Joseph
+Moses,wa'maHcha',,Moses
+Othniel,'ovelya,,Othniel
+Ehud,Qoylu',,Ehud
+Shamgar,Sar'ghar qutmey,,Shamgar
+Barak,barbara',,Barak
+Gideon,ghopDaj,,Gideon
+Tola,ngat,,Tola
+Jair,jIr,,Jair
+Jephthah,bIQ'a',,Jephthah
+Ibzan,jIyaj,,Ibzan
+Elon,tlhegh,,Elon
+Abdon,lon,,Abdon
+Samson,Separ,,Samson
+Samuel,seH,,Samuel
+Saul,mach,,Saul
+David,"Qo', joH",,David
+Solomo,tuj,,Solomo
+Rehoboam,polonyuS,first king of southern kingdom of Juda,Rehoboam
+Abijah,jubbe'law' QorwI'pu',"3 years, also Abijam",Abijah (Abijam)
+Asa,QeH,,Asa
+Jehoshaphat,'ovelya,bce_float = -y+1 - (12-m)/12 – (31-d)/360,Jehoshaphat
+Jehoram2,Qor,,Jehoram
+Ahaziah,'atlhav,,Ahaziah
+Athaliah,'eltelya,Queen Athaliah,Queen Athaliah
+Jehoash,'ovelya,,Jehoash
+Amaziah,'amaS,,Amaziah
+Uzziah,tera'nganpu'vaD,also Azariah,Uzziah (Azariah)
+Jotham,sIbI',,Jotham
+Ahaz,'atlhab,,Ahaz
+Hezekiah,chaDvay',,Hezekiah
+Manasseh,marSe'luS,,Manasseh
+Amon,Qel,,Amon
+Josiah,'oSrIq,,Josiah
+Jehoahaz,'ovelya,Only 3 months,Jehoahaz
+Jehoiakim,qelIm,,Jehoiakim
+Jehoiachin,vortIb,Only 3 months 10 days,Jehoiachin
+Zedekiah,tay,,Zedekiah
+Jeroboam,SIbI',first king of northern 10-tribe kingdom,Jeroboam
+Nadab,nuch,less than 2,Nadab
+Baasha,waqDaj,,Baasha
+Elah,'elaS,,Elah
+Zimri,mIl,Only 7 days in ca. 751 BCE,Zimri
+OmriTibni,"toH, tIqvam!",4 years Omri and Tibni,Omri and Tibni together
+Omri,('ovelya,from 947 Omri alone,Omri (alone)
+Ahab,'anelya,,Ahab
+Ahaziah,'atlhav,,Ahaziah
+Jehoram,Qor,,Jehoram
+Jehu,neH,,Jehu
+Jeoahaz,'ovelya,,Jeoahaz
+JeoahazJehoash,'ovelya,For 3 years Jeoahaz and Jeoash reigned together,Jeoahaz and Jehoash
+Jehoash2,(wa' ghaH.,Jehoash (alone),Jehoash (alone)
+Jeroboam2,jI'IQ,,Jeroboam II
+Zechariah,maDyar,"reign only recorded 6 months, probably only established 792 BCE",Zechariah
+Schallum,mach,only one month,Schallum
+Menahem,ghom,,Menahem
+Pekahiah,'och,,Pekahiah
+Pekah,chaq,,Pekah
+Hoshea,Horey'So,9 years from c. 748,Hoshea
+Elijah,qor,,Elijah
+Elisha,'eSqIl,,Elisha
+Jonah,jan,,Jonah
+Amos,tlhaw'DIyuS,,Amos
+Joel,qech,,Joel
+Hosea,tuq,,Hosea
+Isaiah,'IStar,,Isaiah
+Micah,jot,,Micah
+Zephaniah,vengan,,Zephaniah
+Nahum,naHlet,,Nahum
+Jeremiah,jIH,,Jeremiah
+Habakuk,Qovpatlh,,Habakuk
+Daniel,Beh,,Daniel
+Ezekiel,tlhIH,,Ezekiel
+Obadiah,'ovelya,,Obadiah
+Malachi,matay'ruq,,Malachi
+Ruth,chenmoH,,Ruth
+Ezra,maS,,Ezra
+Nehemiah,SIbI',,Nehemiah
+Esther,ngeD,,Esther
+Job,Qep,,Job
+moses2,"– batlh mavanglaHbe'chugh vay','meH quvHa'moH.",,1593 to 1473 B.C.E. – 120 years
+moses3,wa'maHcha',,Moses
+wilderness,– 15:25 ghaHvaD jang qaDangan wa'DIch'e'.,,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years
+timespan_judges,15:– 29 chaHvaD ghu' vIja'chuqtaHvIS.,,1473 to 1117 B.C.E. – 356 years
+timespan_judges2,rut naDev jIvHa'wI',,Time of the judges
+temple1,rInDI' ghu'vam.,,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.
+temple2,– 15:21 chaHvaD jatlh: ponglu'meH qeylIS po',1034 BCE,479 years until the temple construction – 1 Kings 6:1
+69weeks,qeS duj ra'wI' ghaH je.,,Jesus baptized autumn 29 C.E.
+69weeks2,10:28 ghotp –u'vamDaq ta' ghotpu'vam'e',,69 weeks to the Messiah – Daniel 9:25
+jesus_service,15:37 ghaH yuQ parHa'qu' 'ej yay' parISay'moH yeSuS .,,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E."
+jesus_life,"QeHqa'chugh, vaj QeH.""",,Jesus born 2 B.C.E.
+exile,15:28 chaHvaD jatlh yeSuS : wa' –,,607 to 537 B.C.E. – 70 years (Jeremiah 25:11)
+exile2,ghIm,,exile
+7times,15:12,,Revelation 12:9
+7times2,15:24 chaHvaD jatlh:qengtaHvIS. –,,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)
+ww1,– 15:– 21 jImejnIS.,,World War I – 1914–1918 C.E.
+ww2,– 15:– 12 qaSpa' Hoch.,,World War II – 1939–1945 C.E.
+30_year_war,qaStaHvIS DIS poH veS cha' DIS poH vIneH,,Thirty Years' War in Europe 1618-1648
+joshua,wa' SaD,,110 years
+joshua2,tap,,Joshua
+caleb,QopchoHlaH pagh,,more than 85 years
+caleb2,ghoS,,Caleb
+missionary1,'ej *tlhaw'DIyo* quv.,,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark"
+circumcision,rInpa' *tlhaw'DIyo* quv.,,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E."
+missionary2,'ej *be'neDIq* *be'neDIq* je.,,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)
+missionary3,12:32 ja'chuqtaHvIS jatlh chaH: qaSpu'DI' wej DIrur.,,Third Missionary Journey c. 52-56 C.E.
+caesarea,loQ mon chenmoH qaDangan 'e' vIpIH.,,Paul in custody in Caesarea c. 56-58 C.E.
+rome1,"ghobe' qaDangan ""vIparHa'qu'mo' qaDanganpu'.""",,Paul’s first imprisonment in Rome c. 59-61 C.E.
+rome2,mIqta' loDnI'wI' vIpawchoH.,,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed"
+Julius,pIpyuS,,Julius
+Augustus,'ach,,Augustus
+Tiberius,tera'nganpu',,Tiberius
+Caligula,tlhaw'DIyuS,,Caligula
+Claudius,tlhaw'DIyuS,,Claudius
+Nero,nuq,,Nero
+Galba-Otho-Vitellius,"tera'ngan, Qo'noS tangqa' targh ngeb je.",,"Galba, Otho and Vitellius (Year of the Four Emperors)"
+Vespasian,nIyon,,Vespasian
+event_exodus,"choraQ joH.""",,"Exodus from Egypt on Nisan 14th, 1513 B.C.E."
+event_division_kingdom,qonta'lI' ghaH 'uSer,,Division of Israel 997 BCE
+event_destruction_samaria,quvHa' ghoS qIm rur.,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
+event_destruction_samaria2,qorDu'ghotwI',was shortened here for 2 lines,740 B.C.E. by Assyria
+event_destruction_jerusalem1,'otlh bIr rurtaHghach mIw wIqelchu'.,,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)"
+event_temple_rebuilt,'ach chenmoHlaHbe' 'e' vIHar.,,Temple in Jerusalem rebuilt 515 B.C.E.
+event_jerusalem_rebuilt,may'Daq joH ra'wI' 'e' vIQoy.,,Jerusalem wall rebuilt 455 B.C.E.
+event_destruction_jerusalem2,'ach ghu'meyvam ra'wI' ghu'.,,Destruction of Jerusalem 70 C.E. by Rome under Titus
+event_1914,"Qo'noS luchenmoH, Qun'a' wo' chenmoH. ",,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. "
+became_king,pe'wI',,became king at age
+vulgate,'ach chay' *be'neDIq* muSHa'chuqlaHbe'.,,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
+gutenberg,ghIlghameSvaD jatlh ghIlghameS,,Gutenberg bible printed 1455
+erasmus,ghIlghameS Humbaba'e' ghIlghameS'e' je,,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
+luther,qelI'qam 'e' yIHarQo'.,,Luther Bible translation in September 1522
+tyndale,'ach Qoylu'DI' QIbvam.,,English Bible translation by Tyndale 1536
+king_james,Qu'chaj tlhInganpu',,King James Bible 1611
+69weeks3,10:28 chaHvaD jatlh yeSuS : tIqDu'vaD jatlh:,,"Jesus starts his service 29 CE (Luke 3:1, 21)"
+ransom,"""ghobe'"" jang toraQ.",,middle of week “sacrifice to cease” Daniel 9:27
+cornelius,"'otlh bIr rIHtaHghach mIw wIje'meH matlhong wIneH.""",,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.
+columbus,QujmeH nuv qa''a' 'ej tlhojbogh Qun'a' Qatlhqu'mo',,end of the pre-columbian period in the Americas 1492
+declaration_independence,ghojmo' yotlhDaj chenmoHlaH'a' tebpu'DI',,declaration of independence of 13 colonies in America 1776
+tischendorf,che'wI' QubDaq chenmoHlu'ta',,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844
+dead_sea_scrolls,ngengdaq QIp,,Dead Sea Scrolls written
+septuagint,QI'tu',,Septuagint LXX translated
+watchtower,"""HIja' qaDangan wa'DIch ghaH'a'?""",,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879
+photodrama,"""qarla' 'eSpInSa' 'arqon ghap, qastaHvIS.",,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914"
+jehovahs_witnesses,"– qaSDI' ghos qelI'qam 'ej chol. vaj vortIbraS,",,"The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931"
+gilead_school,romuluS HIq veSDuj,,"Watchtower Bible School of Gilead began on Monday, February 1, 1943"
+new_world_translation1,"""Sut vIghajnIS"" jang QoraQ tuq, pIvan"" jatlh 'e' yIchaw', jonpIn wa'DIch ghaH.",,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960"
+truth_book,"""Ha'DIbaH choraQ",,The book “The Truth That Leads to Eternal Life” released 1968
+metropolitan,muvchuqmo' QIhlaHbe'chugh je qevpu'bogh,,Start of metropolitan witnessing in 2011
+jw_org,JW.ORG Human ngabchoHmo' HoHtaHvIS.,,Start of JW.ORG with instructions in kingdom ministry December 2012
+new_world_translation2,"""SibI' jImejnIS.",,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013
+jw_broadcasting,parmaqqangvo' ghopDaj'e'.,,Start of jw.broadcasting in October 2014
+meeting_workbook,"""sut vIghoSdI' choraQ.",,New format of midweek meeting with “meeting workbook” starting January 2016
+covid19,tlhaQ,,Covid-19
+cold_war,"""Sut vIghajnIS"" jach QoraQ tu'lu'.",,Geopolitical situation labeled “Cold War” 1945-1991
+timeline_created,qaStaHvIS DIS poH nI' vay'.,,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years"
+codex_sinaiticus,yIyuS,,Codex Sinaiticus written
+codex_vaticanus,yIyes,,Codex Vaticanus written
+leningrad_codex,tlhoy yIruch,,Leningrad Codex written in Cairo AD 1008
+john,"""vISovbe'"" jang qaDangan.",,John writes “revelation” while exiled on Patmos 96-98 C.E.
+nicaea1,veng'egh,,First Council of Nicaea
+buddha,*be'neDIq*vaD be'nalwI' je pa' 'e' vISov. –,,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E
+buddha2,"bIDo'chugh, vaj bISo''e'.",,Buddha alternatively c. 480-400 B.C.E.
+mohammed,15:27 ghaHvaD be'nalwI' 'e' vIchID.,,Mohammed c. 570-632 C.E.
+confucius,ghojmeH yIra''egh.,,Confucius c.551-c.479 B.C.E.
+hijrah,tlhoraQ puqvaD jach vISov,,Hijrah - Journey Mecca to Medina 16 July 622
+moses_escape,"– 15:25 qamDu'Daj rIHbej.""",,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23"
+10plagues,qeylIS lughoS,,1513 B.C.E Egypt receives 10 plagues
+joseph_sold,– 15:37 qaSDI' ghoS veqlargh .,,Joseph sold as slave at the age of 17 – Gen 37:2
+infliction,"15:23 pagh latlh yuQvetlh, *be'neDIq*. –",,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E
+Alexander,"9:12 jatlh sopDI', ghorgh 'ej jatlh:",,Alexander the Great (Daniel 11:3)
+persia,"'ach jIQaw': vIQoyDI', jatlh: jI'IQtaHvIS, jatlh: jIQaw':",,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)"
+persia2,pa'HIch,,Persia
+king_north,"not, jIHvaD loDnI'wI' vImojlaHbe'chugh, vaj not jIHvaD loDnI'wI' je.",,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)"
+king_north1,Qo'noS pagh,,King of the North
+king_south,"'ach, jIloblaHbe' 'e' vIchaw'nIS.",,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
+king_south1,chunvo' je,,King of the South
+king_south2,"vortIbraS, quvvaD jatlh targhmey, QumpIn,",,"British empire 1870, Anglo-American World Power since 1914"
+king_south3,chunvo' je,,King of the South
+king_north2,"QughwI' vIghajbe'chugh, vaj jItlhobtaHvIS.",,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,targh vIDa'qoq,,North
+king_north4,'elpu'bogh ta'qoqvaD jatlh:,,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)"
+king_north5,(be'neDIq mu'tlheghmeyraj je.,,Russia since 2017 (w20 May)
+time_of_end,['el ta'qorDu'ghotvam rurtaHvIS.,,"Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)"
+time_of_end2,jajlo',,last days
+suryavaman2,tlhIngan Hol vIjatlhmeH jIyegh,,King Suryavarman II builds Angkor Wat 1113-1150
+notre-dame,"tlhIngan tIqvo' tlheDtaHvIS poH,",,Notre-Dame de Paris built 1163-1260
+jehoiada,QeH,,Jehoiada
+babel,DujDaj,,tower of Babel built
+Haggai,ghaHchugh,,Haggai
+Zephaniah,vengan,,Zephaniah
+Zerubbabel,QongDaq Qoylu'jaj.,,Zerubbabel (Luke 3:27)
+Babylon,"'e' vISovbe'jaj, qanroy. 7:4",,"Daniel 2:32, 36-38; 7:4"
+Medopersia,"Hu'tegh, joHwI'. 7:5",,"Daniel 2:32, 39; 7:5"
+Greece,"Hu'tegh, joHwI'. 7:6",,"Daniel 2:32, 39; 7:6"
+Rome,"SoHvaD latlh vISov, 7:7",,"Daniel 2:33, 40; 7:7"
+Angloamerica,11:12 jatlh chaH:,,"Daniel 2:33, 41-43"
+Babylon_c,baqtu',,Babylon
+Medopersia_c,DawI',,Medo-Persia
+Greece_c,'elaDya',,Greece
+Rome_c,rItlh,,Rome
+Angloamerica_c,'aw'taHvIS,,Anglo-America
+infliction1,chor,Acts 7:6,400 year infliction
+infliction2,"ghobe', janglaHmeH",,Acts 7:6
+Jacob2,/,Jacob/Israel 1858-1711 – 147 years,Jacob/
+Israel,yISra'el,,Israel
+Sarah,Sar'av,2008-1881 BCE – 127 years,Sarah
+Hagar,targh,Genesis 21:14,Hagar
+Haran,lurDan,Genesis 11:26,Haran
+Nahor,ghe''or,,Nahor
+Reumah,rIymuS,Concubine – 4 sons,Reumah
+Milcah,tay,8 sons (Bethuel and 7 more),Milcah
+Lot,'ay',,Lot
+Lots_wife,qa'wI' yIqaw,,Lot’s wife
+Lots_daughters,Qoy puq'be'pu',,Daughters of Lot
+Moab,"Hu'tegh, jupwI' ghaH, qar'a'?",,Moab (older daughter)
+Ammon,loDnI' *be'terIS* -,,Ben-ammi (Ammon)
+Bethuel,'IH,,Bethuel
+Rebekah,toQDoq,,Rebekah
+Laban,ngan,,Laban
+Leah,chechmoH,Genesis 35:23,Leah
+Rachel,ral,Genesis 35:24,Rachel
+Bilhah,qeylIS,Genesis 35:25,Bilhah
+Zilpah,tlham,Genesis 35:26,Zilpah
+Reuben,loDnal,,Reuben
+Simeon,naH,,Simeon
+Levi,roSenQatlh,,Levi
+Judah,HIvje',,Judah
+Issachar,'IstarS,,Issachar
+Zebulun,may'chuq,,Zebulun
+Dinah,DenIb,Genesis 34,Dinah
+Esau,/,,Esau/
+Edom,chIm,Genesis 36:1,Edom
+Ishmael,QI'yaHlIj'e',,Ishmael
+Manasseh2,tugh 'oSba' marSe'luS.,,(Manasseh
+Ephraim,"qaSpu'DI' nom yIlo', 'ej qaSpa' Hoch.",,and Ephraim)
+Benjamin,joy'choH,,Benjamin
+Dan,"va, qaStaHvI",,Dan
+Naphtali,nISlogh,,Naphtali
+Gad,bochenmoH.,,Gad
+Asher,'oSrIq,,Asher
+Milcah1,"va, tera'vo' puqbe'wI',",,"Uz, Buz, Kemuel,"
+Milcah2,"hamlet, jabbI'ID,",,"Chesed, Hazo,"
+Milcah3,pIlonyuS,,"Pildash, Jidlaph"
+Tebah,Surgh,,Tebah
+Gaham,ghIlghameS,,Gaham
+Tahash,ta'pu',,Tahash
+Maacah,je',,Maacah
+Mahalath,ghIlgh/ameS,"Genesis 28:8, 9",Mahalath/
+Basemath,·loD,"Genesis36:3, 4",Base·math
+Reuel,reghuluS,"36:13, 17",Reuel
+Nahath,nuq,,Nahath
+Zerah,wamwI'choH,,Zerah
+Schammah,Surgh,,Schammah
+Mizzah,mIch,,Mizzah
+Adah,'aDam,"36:11, 12, 15, 16",Adah
+Eliphaz,tlhIl,,Eliphaz
+Teman,tera'ngan,,Teman
+Omar,ghum,,Omar
+Zepho,voDleH,,Zepho
+Kenaz,qeng,,Kenaz
+Korah,qoreq,,Korah
+Gatam,boch,,Gatam
+Amalek,HIq,,Amalek
+Oholibamah,'ovelya,"36:14, 18",Oholibamah
+Jeush,Hup,,Jeush
+Jalam,boq,,Jalam
+Korah,qoreq,,Korah
+Nebaioth,nIv,Genesis 25:13,Nebaioth
+Kedar,qor,,Kedar
+Adbeel,nem,,Adbeel
+Mibsam,Humbaba,,Mibsam
+Mishma,chIl,,Mishma
+Dumah,DenIb,,Dumah
+Massa,marSe'luS,,Massa
+Hadad,ghopDu',,Hadad
+Tema,Dargh,,Tema
+Jetur,jan,,Jetur
+Naphish,nIpyon,,Naphish
+Kedemah,QI'tomer,,Kedemah
+Babylon2, ,no text left and right – empty!, 
+terahfam,tu'homI',,members of Terah’s family
+rosetta,mIyta'chuqtaHvIS..,,Rosetta stone 196 B.C.E.
+Herodotus,"naDev QImerogh, *Hero* quv –.",Father of History,"Herodotus c. 484 – c. 425 BC, writes The Histories"
+Aristotle,– 'ach vay''e' qo' Hoch,"The First Teacher, The Philosopher",Aristotle 384 – 322 BC
+Ptolemy,– qeylIS joH.,,Ptolemy c 100 – c. 170 C.E.
+Pythagoras,' ghoS' ghu' vIqIH –.,,Pythagoras c. 570 – c. 495 BC
+Plato,"–',''.",,Plato c. 427 – c. 348 BC
+Socrates,' ghopDu'Daj qengtaHvIS –.,,Socrates c. 470 – c. 399 BC
+Josephus,– qeylIS'neS yIpoSmoH.,,Josephus c. 37 – c. 100 C.E.
+Cicero,ja'– choH,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",Cicero 106–43 BC
+lachish_letters,'ach chunDaj ruruq ghoSjaj.,,Lachish letters c. 590 B.C.E.
+lachish_reliefs,chentaHvIS chemvaH ghaH.,,Lachish reliefs c. 681 B.C.E.
+mesha_stele,'ach batlh Hutlh ghoSjaj.,,Mesha Stele (Moabite stone) c. 840 B.C.E.
+gilgamesh,batlh ghIlgh 𒇽𒆥𒄄𒀀𒀝𒂵ameS 'ej,,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,ghIlghameSvaD j lēqi Sîn atlh,,Epic of Gilgamesh (Sîn-lēqi-unninni)
+oxyrhynchus,'oSrIq,,Oxyrhynchus Papyri
+p52,pIpyuS pach,,Papyrus P52
+daniel2_shift,0,Start 4.2,0
+daniel2_1,tlhIngan Quj,607 BCE,King Nebuchadnezzar
+daniel2_2,puqpu' bIQ'e',,destroys Jerusalem
+daniel2_3,bIqaS,539 BCE,Conquers Babylon
+daniel2_4,"'ach bIghoschugh, vaj SoHvaD jat vuvlaH",537 BCE,Cyrus decrees return
+daniel2_5,be'nI'puq,,of Jews to Jerusalem
+daniel2_6,ghomHom'a',331 BCE,Alexander the Great
+daniel2_7,pa'HIch,,conquers Persia
+daniel2_8,ral qeylIS ghaH,63 BCE,Rules over Israel
+daniel2_9,qeylIS,70 CE,Destroys Jerusalem
+daniel2_10,SuvwI' jIH.,1914-1918 CE,"During World War I,"
+daniel2_11,HIvje'wI',,Anglo-American World Power
+daniel2_12,ghoS,End 4.2,comes into being
+qing-dynasty,1636-1912,,1636-1912
+qing-dynasty_c,qastaHvIS,1636-1912,Qing dynasty
+ming-dynasty,1368-1644,,1368-1644
+ming-dynasty_c,yo' qIjDaq vIlo'taHvIS,1368-1644,Ming dynasty in imperial China
+yuan-dynasty,1271-1368,,1271-1368
+southern-song,1127-1279,,1127-1279
+northern-song,960-1127,,960-1127
+western-xia,1038-1227,,1038-1227
+yuan-dynasty_c,HIja',1271-1368,Yuan
+southern-song_c,mang,1127-1279,Southern Song
+northern-song_c,toH,960-1127,Northern Song
+western-xia_c,ma'oy',1038-1227,Western Xia
+Copernicus,qoSlIj,,Nicolaus Copernicus
+Galileo,ghIlghameS,Galileo di Vincenzo Bonaiuti de' Galilei,Galileo Galilei
+Newton,nuqneH,,Isaac Newton
+gregorian,qorDu',,Gregorian calendar 1582
+shang-dynasty,"bIDo'Ha'chugh, vaj bIDoH.",,c. 1600-1046 BC
+western-zhou,"bIDo'Ha'chugh, vaj bIDoH.",,c. 1046-771 BC
+eastern-zhou,bIDul,,770-256 BC
+qin-dynasty,bIDuvqu'choH,,Qin 221-207 BC
+western-han,– 'oH,,207 BC – 9 CE
+eastern-han,'enqIp,,25-220 CE
+three-kingdoms,wej ta' qeqvam,,Three kingdoms 220-280 CE
+sixteen-kingdoms,tlhaq ta',,Sixteen kingdoms 304-439 CE
+northern-dynasties,chenmoHwI',,368-581 CE
+southern-dynasties,TLHAW'DIYUS,,420-589 CE
+tang-dynasty1, ,, 
+tang-dynasty2,"618-690, 705-907",,"618-690, 705-907"
+wu-zhou,tlhaw'DIyuS,,690-705 Wu Zhou
+shang-dynasty_c,QIb,c. 1600-1046 BC,Shang Dynasty
+western-zhou_c,matlhej,c. 1046-771 BC,Western Zhou
+eastern-zhou_c,MIm,770-256 BC,Eastern Zhou
+western-han_c,majQa',207 BC – 9 CE,Western Han
+eastern-han_c,'ach DaH ghomDaj,25-220 CE,Eastern Han
+three-kingdoms_c,jungwoq,Three kingdoms 220-280 CE,China
+sixteen-kingdoms_c,jungwoq,Sixteen kingdoms 304-439 CE,China
+northern-dynasties_c,qeylIS,368-581 CE,Northern Dynasties
+southern-dynasties_c,qeylIS,420-589 CE,Southern Dynasties
+tang-dynasty1_c,tIq,,Tang
+tang-dynasty2_c,ramjep,"618-690, 705-907",Tang Dynasty
+xia-dynasty,choraQDaq'vaD nuq vIleghlaH –be' 'e' vIchov.,,Xia dynasty in China c. 2070 – c. 1600 BC
+gonghe,QI'tu',,Gonghe Regency 841-828 BC
+Ashoka,"'ej bIquvDI', loDnI'.""",,Ashoka (c. 304-232 BC) promotes Buddhism
+siloam-tunnel,chImmoH,c. 742-732 BC,Hezekiah extends Siloam tunnel
+Angloamerica2,"12:12 qaStaHvIS wa'maHcha' SuvwI'na',",,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43"
+Manetho,'avwI',,Manetho writes Aegyptiaca

@@ -6,7 +6,7 @@
 
 This project creates a graph of Human history with python and reportlab. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With version 4.2 some images make it into the timeline after 15 years of slow development. See both for comparison below.
 
-![timeline 4.4](timeline20240324_4.4.png)
+![timeline 4.5](timeline20240413_4.5.png)
 
 Compare this 4000 year timespan of version 4.2 from 2024:
 
@@ -47,28 +47,31 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - v4.2 2024/03/09 Included the family of Terah and the image from __Daniel 2__ with the world powers from Daniel 7. And 6 small images as illustration.
 - v4.3 2024/03/16 Convert dictionary files to __.csv__ format to be easier readable in a [Jupyter Notebook](../db/timeline.ipynb). You can create the latest PDF in your language in [Google Colab](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing) with just a browser.
 - v4.4 2024/03/24 Include inventions and insigts from the last centuries with pictures that enable modern society. Add some of the Chinese dynasties to the oldest known historic date of 841 BC (Sima Qian) and beyond.
+- [v4.5](https://github.com/kreier/timeline/releases/tag/v4.4) 2024/04/13 Include the great tribulation in the time of the end, and a graph of the world population for the last 2000 years. It aligns with advancements in science, culture and society.
 
 ### Translations
 
 Since v3.4 the language specific files have been separated from the program code, data information and list of colors. With some good bible translations I get use the reference location of names to get a start of a translation, since the very dates are not changing. This gives a start to translate into another language. With currently 235 text fields I have to rely on Google translate for a first attempt - and then need someone with good language skills in the target language to complete the translation. Our current state:
 
-| Language                                                                     | initial support | names checked | reviewed | complete | Terah |
-|------------------------------------------------------------------------------|:---------------:|:-------------:|:--------:|:--------:|------:|
-| [English](https://kreier.github.io/docs/timeline_en.pdf)                     |                 |               |          |     x    |  100% |
-| [German (Deutsch)](https://kreier.github.io/docs/timeline_de.pdf)            |                 |               |          |     x    |   95% |
-| [Vietnamese (Tiếng Việt)](https://kreier.github.io/docs/timeline_vn.pdf)     |                 |               |          |     x    |   95% |
-| [Iloko (Ilocano)](https://kreier.github.io/docs/timeline_ilo.pdf)            |                 |               |          |     x    |       |
-| [Japanese (日本語)](https://kreier.github.io/docs/timeline_jp.pdf)           |                 |               |          |     x    |       |
-| [Russian (Русский)](https://kreier.github.io/docs/timeline_ru.pdf)           |                 |               |     x    |          |       |
-| [French (Français)](https://kreier.github.io/docs/timeline_fr.pdf)           |                 |               |     x    |          |   75% |
-| [Korean (한국인)](https://kreier.github.io/docs/timeline_kr.pdf)             |                 |       x       |          |          |       |
-| [Finnish (Suomi)](https://kreier.github.io/docs/timeline_fi.pdf)             |                 |       x       |          |          |       |
-| [Sinhala (සිංහල)](https://kreier.github.io/docs/timeline_si.pdf)            |                 |       x       |          |          |       |
-| [Thai (ภาษาไทย)](https://kreier.github.io/docs/timeline_thai.pdf)           |                 |       x       |          |          |       |
-| [Igbo (Ásụ̀sụ́ Ìgbò)](https://kreier.github.io/docs/timeline_igbo.pdf)         |                 |       x       |          |          |       |
-| [Spanish (Español)](https://kreier.github.io/docs/timeline_es.pdf)           |        x        |               |          |          |       |
-| [Chinese (Simplified) [中文简体（普通话）]](https://kreier.github.io/docs/timeline_sc.pdf) |  x  |               |          |          |       |
-| [Arabic (العربية)](https://kreier.github.io/docs/timeline_ar.pdf)               |        x        |               |          |          |       |
+| Language                                                                | initial support | names checked | reviewed | complete | Terah |
+|-------------------------------------------------------------------------|:---------------:|:-------------:|:--------:|:--------:|------:|
+| [English](https://timeline24.github.io/timeline_en.pdf)                 |                 |               |          |     x    |  100% |
+| [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        |                 |               |          |     x    |   95% |
+| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) |                 |               |          |     x    |   95% |
+| [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        |                 |               |          |     x    |       |
+| [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       |                 |               |     x    |          |   75% |
+| [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       |        x        |               |          |          |       |
+| [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       |                 |               |     x    |          |       |
+| [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       |        x        |               |          |          |       |
+| [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         |                 |       x       |          |          |       |
+| [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        |                 |               |          |     x    |       |
+| [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          |                 |       x       |          |          |       |
+| [Sinhala (සිංහල)](https://timeline24.github.io/timeline_si.pdf)         |                 |       x       |          |          |       |
+| [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          |                 |       x       |          |          |       |
+| [Igbo (Ásụ̀sụ́ Ìgbò)](https://timeline24.github.io/timeline_ig.pdf)       |                 |       x       |          |          |       |
+| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)       |        x        |               |          |          |       |
+| [Chinese (Simplified) [中文简体（普通话）]](https://timeline24.github.io/timeline_zh.pdf) |   x   |         |          |          |       |
+| [Chinese Cantonese (Simplified) [中文简体（普通话)]](https://timeline24.github.io/timeline_yue.pdf) |   x   |         |          |          |       |
 
 Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects.
 
@@ -102,16 +105,19 @@ In 2008 I got "Knaur's Zeittafel der Weltgeschichte - Den letzten 6000 Jahren au
 Here is [another example from amazon.de](https://www.amazon.de/Super-Jumbo-History-Timeline-Poster/dp/0721712002/ref=monarch_sidesheet), covering the last 5000 years in 1.2 meter like this project here:
 
 ![map by Schofield & Sims](https://m.media-amazon.com/images/I/A1QO0k+1wZL._SL1500_.jpg)
+<!-- ![map by Schofield & Sims](amazon_schofield_sims.jpg) -->
 
 It looks like Knaur's book was inspired by [Adams Synchronological Chart or Map of History](https://www.amazon.com/Adams-Synchronological-Chart-Map-History/dp/0890515131) - it is 23' long (7 meter) and 27" tall (68 cm). Original from 1871.
 
-![Adams Map of History](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71Gu3yuzzKL._SL1500_.jpg)
+<!-- ![Adams Map of History](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71Gu3yuzzKL._SL1500_.jpg) -->
+![Adams Map of History](amazon_adams_map.jpg)
 
 The reformation made [a timeline for the 220 years](https://www.amazon.com/Timeline-of-the-Reformation-Poster/dp/B09DRPQN3V) 1480 - 1700 AD in a similar style.
 
 Another design attempt to pack a lot of information in a written horizontal way into a timeline that progresses from left to right is this [Texan Spiral semicircle project](https://www.amazon.com/Bible-Timeline-History-Chart-Chronological/dp/B0BMWW7WWP):
 
-![Bible Timeline History Chart](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81C4HVcpl4L._AC_SL1500_.jpg)
+<!-- ![Bible Timeline History Chart](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81C4HVcpl4L._AC_SL1500_.jpg) -->
+![Bible Timeline History Chart](amazon_bible_history_cart.jpg)
 
 ## Vector Image with .odg in 2015
 

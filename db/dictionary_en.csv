@@ -60,7 +60,7 @@ Samson,Samson,,12
 Samuel,Samuel,,13
 Saul,Saul,,1
 David,David,,2
-Solomo,Solomo,,3
+Solomon,Solomon,,3
 Rehoboam,Rehoboam,,first king of southern kingdom of Juda
 Abijah,Abijah (Abijam),,"3 years, also Abijam"
 Asa,Asa,,
@@ -168,7 +168,7 @@ event_destruction_jerusalem1,"Destruction of Jerusalem 607 B.C.E. by Babylon, 39
 event_temple_rebuilt,Temple in Jerusalem rebuilt 515 B.C.E.,,
 event_jerusalem_rebuilt,Jerusalem wall rebuilt 455 B.C.E.,,
 event_destruction_jerusalem2,Destruction of Jerusalem 70 C.E. by Rome under Titus,,
-event_1914,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. ",,
+event_1914,"End of the time of the nations (Luke 21:24), Gods kingdom starts to rule in heaven 1914 C.E. ",,
 became_king,became king at age,,
 vulgate,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,,
 gutenberg,Gutenberg bible printed 1455,,
@@ -186,13 +186,13 @@ dead_sea_scrolls,Dead Sea Scrolls written,,
 septuagint,Septuagint LXX translated,,
 watchtower,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,,
 photodrama,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",,
-jehovahs_witnesses,"The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931",,
+jehovahs_witnesses,"The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",,
 gilead_school,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",,
-new_world_translation1,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960",,
+new_world_translation1,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",,
 truth_book,The book “The Truth That Leads to Eternal Life” released 1968,,
 metropolitan,Start of metropolitan witnessing in 2011,,
 jw_org,Start of JW.ORG with instructions in kingdom ministry December 2012,,
-new_world_translation2,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013,,
+new_world_translation2,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",,
 jw_broadcasting,Start of jw.broadcasting in October 2014,,
 meeting_workbook,New format of midweek meeting with “meeting workbook” starting January 2016,,
 covid19,Covid-19,,
@@ -225,14 +225,13 @@ king_north2,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b),
 king_north3,North,,
 king_north4,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",,
 king_north5,Russia since 2017 (w20 May),,
-time_of_end,"Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)",,
+time_of_end,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",,
 time_of_end2,last days,,
 suryavaman2,King Suryavarman II builds Angkor Wat 1113-1150,,
 notre-dame,Notre-Dame de Paris built 1163-1260,,
 jehoiada,Jehoiada,,
 babel,tower of Babel built,,
 Haggai,Haggai,,
-Zephaniah,Zephaniah,,
 Zerubbabel,Zerubbabel (Luke 3:27),,
 Babylon,"Daniel 2:32, 36-38; 7:4",,
 Medopersia,"Daniel 2:32, 39; 7:5",,
@@ -281,7 +280,7 @@ Ephraim,and Ephraim),,
 Benjamin,Benjamin,,
 Dan,Dan,,
 Naphtali,Naphta·li,,Naphʹta·li
-Gad ,Gad ,,
+Gad,Gad,,
 Asher,Asher,,Ashʹer
 Milcah1,"Uz, Buz, Kemuel,",,Genesis 22:21
 Milcah2,"Chesed, Hazo,",,
@@ -309,7 +308,6 @@ Amalek,Amalek,,Amʹa·lek
 Oholibamah,O·hol·i·bamah,"36:14, 18",O·hol·i·baʹmah
 Jeush,Jeush,,Jeʹush
 Jalam,Jalam,,Jaʹlam
-Korah,Korah,,Korʹah
 Nebaioth,Nebaioth,Genesis 25:13,Ne·baʹioth
 Kedar,Kedar,,Keʹdar
 Adbeel,Adbeel,,Adʹbe·el
@@ -325,7 +323,7 @@ Kedemah,Kedemah,,Kedʹe·mah
 Babylon2, ,no text left and right – empty!,empty!!
 terahfam,members of Terah’s family,,
 rosetta,Rosetta stone 196 B.C.E.,,
-Herodotus,Herodotus c. 484–425 BC,Father of History,
+Herodotus,"Herodotus c. 484–425 BC, writes The Histories",Father of History,
 Aristotle,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",
 Ptolemy,Ptolemy c 100 – c. 170 C.E.,,
 Pythagoras,Pythagoras c. 570 – c. 495 BC,,
@@ -398,3 +396,13 @@ gonghe,Gonghe Regency 841-828 BC,,
 Ashoka,Ashoka (c. 304-232 BC) promotes Buddhism,,
 siloam-tunnel,Hezekiah extends Siloam tunnel,c. 742-732 BC,"Hezekiah's Tunnel (Hebrew: תעלת חזקיהו, Te'alát Ḥizkiyáhu)"
 Angloamerica2,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",,
+Manetho,Manetho writes Aegyptiaca,,
+tribulation,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",,
+destruction_babylon,"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),
+gog_of_magog,"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,
+sheep_goat,"Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT,
+annointed,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,
+armageddon,"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,
+millenium,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",,
+great_crowd,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",,
+world_population,World population in billions in the last 2000 years,,
