@@ -19,7 +19,7 @@ import sys
 import os
 
 # Some general settings
-version  = 4.6
+version  = 4.5
 language = "en"
 language_str = "English"
 color_scheme = "normal"
