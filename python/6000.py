@@ -577,14 +577,15 @@ def create_objects():
     global counter_objects
     objects = pd.read_csv("../db/objects.csv", encoding='utf8')
     print("Imported data of objects or items:", len(objects))
+    cunei = ["gilgamesh", "ur3", "hammurabi"]
     co = color['objects']
     for index, row in objects.iterrows():
-        if row.key == "gilgamesh":
+        if row.key in cunei:
             x_boxwidth = (row.end -  row.start) * dots_year
             timebar(x_position(row.start), y_position(row.row_y) + 10, x_boxwidth, co[0], co[1], co[2], False)
-            c.setFont("NotoCuneiform", 10)
+            c.setFont("NotoCuneiform", 9)
             c.setFillColorRGB(0, 0, 0)
-            c.drawString(x_position(row.start) , y_position(row.row_y), dict["gilgamesh"])
+            c.drawString(x_position(row.start) , y_position(row.row_y), dict[row.key])
         else:
             text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], False)
             counter_objects += 1
