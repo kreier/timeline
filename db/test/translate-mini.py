@@ -31,7 +31,7 @@ def import_english():
     global dict
     print("Import english mini file: ", end="")
     dict = pd.read_csv("./mini_en.tsv", sep="\t")
-    dict = dict.fillna(" ")
+    dict = key_dict.fillna(" ")
     print(f"found {len(dict)} entries.")
     print(dict)
 
