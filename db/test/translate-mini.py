@@ -31,6 +31,7 @@ def import_english():
     global dict
     print("Import english mini file: ", end="")
     dict = pd.read_csv("./mini_en.tsv", sep="\t")
+    dict = dict.fillna(" ")
     print(f"found {len(dict)} entries.")
     print(dict)
 
@@ -51,7 +52,7 @@ if __name__ == "__main__":
     translator = Translator()
     for index, row in dict_translated.iterrows(): # with 3 columns 'key' 'text' and 'english'
         english_text = row.english
-        if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
+        if not english_text == " ": # it only applies to row with empty strings - causes translation error
             dict_translated.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
             print('.', end='')
         if (index + 1) % 40 == 0:
