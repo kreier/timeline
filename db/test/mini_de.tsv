@@ -1,44 +1,42 @@
 key	text	english
-qing-dynasty	1636-1912	1636-1912
-qing-dynasty_c	Qing-Dynastie	Qing dynasty
-ming-dynasty	1368-1644	1368-1644
-ming-dynasty_c	Ming-Dynastie im kaiserlichen China	Ming dynasty in imperial China
-yuan-dynasty	1271-1368	1271-1368
-southern-song	1127-1279	1127-1279
-northern-song	960-1127	960-1127
-western-xia	1038-1227	1038-1227
-yuan-dynasty_c	Yuan	Yuan
-southern-song_c	Südländisches Lied	Southern Song
-northern-song_c	Nordisches Lied	Northern Song
-western-xia_c	West-Xia	Western Xia
-Copernicus	Nikolaus Kopernikus	Nicolaus Copernicus
-Galileo	Galileo Galilei	Galileo Galilei
-Newton	Isaac Newton	Isaac Newton
-gregorian	Gregorianischer Kalender 1582	Gregorian calendar 1582
-shang-dynasty	C. 1600-1046 v.u.Z.	c. 1600-1046 BC
-western-zhou	C. 1046-771 v. Chr	c. 1046-771 BC
-eastern-zhou	770-256 v. Chr	770-256 BC
-qin-dynasty	Qin 221-297 v. Chr	Qin 221-297 BC
-western-han	207 v. Chr. – 9 n. Chr	207 BC – 9 CE
-eastern-han	25-220 n. Chr	25-220 CE
-three-kingdoms	Drei Königreiche 220-280 n. Chr	Three kingdoms 220-280 CE
-sixteen-kingdoms	Sechzehn Königreiche 304-439 n. Chr	Sixteen kingdoms 304-439 CE
-northern-dynasties	368-581 n. Chr	368-581 CE
-southern-dynasties	420-589 n. Chr	420-589 CE
-tang-dynasty1	 	 
-tang-dynasty2	618-690, 705-907	618-690, 705-907
-wu-zhou	690-705 Wu Zhou	690-705 Wu Zhou
-shang-dynasty_c	Shang Dynastie	Shang Dynasty
-western-zhou_c	Westliches Zhou	Western Zhou
-eastern-zhou_c	Ost-Zhou	Eastern Zhou
-western-han_c	Westliches Han	Western Han
-eastern-han_c	Ost-Han	Eastern Han
-three-kingdoms_c	China	China
-sixteen-kingdoms_c	China	China
-northern-dynasties_c	Nördliche Dynastien	Northern Dynasties
-southern-dynasties_c	Südliche Dynastien	Southern Dynasties
-tang-dynasty1_c	Seetang	Tang
-tang-dynasty2_c	Tang-Dynastie	Tang Dynasty
-xia-dynasty	Xia-Dynastie in China c. 2070 – ca. 1600 v. Chr	Xia dynasty in China c. 2070 – c. 1600 BC
-gonghe	Regentschaft Gonghe 841–828 v. Chr	Gonghe Regency 841-828 BC
-Ashoka	Ashoka (ca. 304–232 v. Chr.) fördert den Buddhismus	Ashoka (c. 304-232 BC) promotes Buddhism
+607BCE	607 v. Chr.	607 B.C.E.
+539BCE	539 v. Chr.	539 B.C.E.
+537BCE	537 v. Chr.	537 B.C.E.
+331BCE	331 v. Chr.	331 B.C.E.
+63BCE	63 v. u. Z.	63 B.C.E.
+70CE	70 n. Chr.	70 C.E.
+1914CE	1914-1918 n. Chr.	1914-1918 C.E.
+khmer_empire	804 – 1431 n. Chr.	804 – 1431 C.E.
+khmer_empire_c	Khmer-Reich - Angkor-Zeit	Khmer Empire - Angkor period
+byzantine_empire	330-1453 n. Chr.	330-1453 C.E.
+byzantine_empire_c	Byzantinisches Reich	Byzantine Empire
+ottoman_empire	1299 – 1922 n. Chr.	1299 – 1922 C.E.
+ottoman_empire_c	Osmanisches Reich	Ottoman Empire
+holy_roman_empire	800 – 924 n. Chr.	800 – 924 C.E.
+holy_roman_empire2	862 – 1806 n. Chr.	862 – 1806 C.E.
+holy_roman_empire_c	Heiliges Römisches Reich – nach 1512 Heiliges Römisches Reich Deutscher Nation	Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation
+mongol_empire	Mongolisches Reich 1206 – 1294 n. Chr.	Mongol Empire 1206 – 1294 C.E.
+Genghis	Dschinghis Khan	Genghis Khan
+maya_classic	250-950	250-950
+maya_classic_c	Maya-Zivilisation – klassische Periode	Maya civilization – classic period
+maya_postclassic	950-1539	950-1539
+maya_postclassic_c	Maya-Zivilisation – postklassische Periode	Maya civilization – postclassic period
+inca_empire	1438 – 1533 n. Chr.	1438 – 1533 C.E.
+inca_empire_c	Inka-Reich	Inca empire
+gupta_empire	319 – 550 n. Chr.	319 – 550 C.E.
+gupta_empire_c	Gupta-Reich	Gupta empire
+Teotihuacan	größte Stadt Amerikas, Pyramiden erbaut ca. 200 n. Chr.	largest city in the Americas, pyramids build c. 200 C.E.
+Teotihuacan_c	Teotihuacán	Teotihuacan
+Dionysius_Exiguus	Dionysius Exiguus, Erfinder von Anno Domini	Dionysius Exiguus, inventor of Anno Domini
+Umayyad	661 – 750 n. Chr.	661 – 750 C.E.
+Umayyad_c	Umayyaden	Umayyad
+Abbasid	750 – 1258 n. Chr.	750 – 1258 C.E.
+Abbasid_c	Abbasidisches Kalifat	Abbasid Caliphate
+Mamluk	1250 – 1517 n. Chr.	1250 – 1517 C.E.
+Mamluk_c	Mamluken-Sultanat	Mamluk Sultanate
+ur3	Ur III-Dynastie 𒋀𒀕𒆠	Ur III dynasty 𒋀𒀕𒆠
+hammurabi	Hammurabi 𒄩𒄠𒈬𒊏𒁉	Hammurabi 𒄩𒄠𒈬𒊏𒁉
+Al-Khwarizmi	al-Khwarizmi schreibt Al-Jabr (Algebra)	al-Khwarizmi writes Al-Jabr (Algebra)
+al-azhar	Die Al-Azhar-Universität wird in Kairo gegründet	Al-Azhar University is established in Cairo
+Ibn-Sina	Ibn Sina oder Avicenna	Ibn Sina or Avicenna
+Al-Ghazali	Al-Ghazali	Al-Ghazali

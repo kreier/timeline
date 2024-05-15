@@ -1,5 +1,5 @@
 key,text,english,notes
-version,4.5,,
+version,4.6,,
 pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,
 pdf_subject,Zeitleiste der Menschheit,Timeline of humankind,
 BCE,v.u.Z.,B.C.E.,
@@ -196,8 +196,8 @@ new_world_translation2,"Revidierte “New World Translation of the Holy Scriptur
 jw_broadcasting,"Beginn von jw.broadcasting im October 2014 auf Englisch, ab Mai 2015 auf Deutsch",Start of jw.broadcasting in October 2014,
 meeting_workbook,Start der “Leben und Dienst” Zusammenkunft mit einem Arbeitsheft ab Januar 2016,New format of midweek meeting with “meeting workbook” starting January 2016,
 covid19,Covid-19,Covid-19 ,
-cold_war,Geopolitische Situation bekannt als “Kalter Krieg” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991,
-timeline_created,"Diese Zeitleiste wurde 2023 erstellt, dem heißesten Jahr der Menschheitsgeschichte und überhaupt der letzten 125000 Jahre","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
+cold_war,Geopolitische Situation “Kalter Krieg” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991,
+timeline_created,"2023: Zeitleiste erstellt, heißestes Jahr der Menschheitsgeschichte - und letzten 125000 Jahre!","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,Codex Sinaiticus geschrieben,Codex Sinaiticus written,
 codex_vaticanus,Codex Vaticanus geschrieben,Codex Vaticanus written,
 leningrad_codex,Leningrad Codex geschrieben in Kairo AD 1008,Leningrad Codex written in Cairo AD 1008,
@@ -322,18 +322,18 @@ Naphish,Nạphisch,Naphish,
 Kedemah,Kẹdma,Kedemah,
 Babylon2, , ,no text left and right – empty!
 terahfam,Mitglieder von Terach’s Familie,members of Terah’s family,
-rosetta,Rosetta-Stein 196 v. Chr.,Rosetta stone 196 B.C.E.,
-Herodotus,"Herodot c. 484 – ca. 425 v. Chr., schreibt Historien","Herodotus c. 484 – c. 425 BC, writes The Histories ",Father of History
-Aristotle,Aristoteles 384 – 322 v. Chr,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
-Ptolemy,Claudius Ptolemäus um 100 – ca. 170 n. Chr.,Ptolemy c 100 – c. 170 C.E.,
-Pythagoras,Pythagoras ca. 570 – 495 v. Chr,Pythagoras c. 570 – c. 495 BC,
-Plato,Platon c. 427 – ca. 348 v. Chr,Plato c. 427 – c. 348 BC,
-Socrates,Sokrates c. 470 – ca. 399 v. Chr,Socrates c. 470 – c. 399 BC,
-Josephus,Josephus c. 37 – c. 100 n. Chr.,Josephus c. 37 – c. 100 C.E.,
-Cicero,Cicero 106–43 v. Chr,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
-lachish_letters,Lachisch-Briefe c. 590 v. Chr.,Lachish letters c. 590 B.C.E.,
-lachish_reliefs,Lachisch-Relief c. 681 v. Chr.,Lachish reliefs c. 681 B.C.E.,
-mesha_stele,"Mescha-Stele (Moabiterstein), ca. 840 v. Chr.",Mesha Stele (Moabite stone) c. 840 B.C.E.,
+rosetta,Rosetta-Stein 196 v.u.Z.,Rosetta stone 196 B.C.E.,
+Herodotus,"Herodot c. 484 – ca. 425 v.u.Z., schreibt Historien","Herodotus c. 484 – c. 425 BC, writes The Histories ",Father of History
+Aristotle,Aristoteles 384 – 322 v.u.Z.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
+Ptolemy,Claudius Ptolemäus um 100 – ca. 170 u.Z.,Ptolemy c 100 – c. 170 C.E.,
+Pythagoras,Pythagoras ca. 570 – 495 v.u.Z.,Pythagoras c. 570 – c. 495 BC,
+Plato,Platon c. 427 – ca. 348v.u.Z.,Plato c. 427 – c. 348 BC,
+Socrates,Sokrates c. 470 – ca. 399 v.u.Z.,Socrates c. 470 – c. 399 BC,
+Josephus,Josephus c. 37 – c. 100 u.Z.,Josephus c. 37 – c. 100 C.E.,
+Cicero,Cicero 106–43 v.u.Z.,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
+lachish_letters,Lachisch-Briefe c. 590 v.u.Z.,Lachish letters c. 590 B.C.E.,
+lachish_reliefs,Lachisch-Relief c. 681 v.u.Z.,Lachish reliefs c. 681 B.C.E.,
+mesha_stele,"Mescha-Stele (Moabiterstein), ca. 840 v.u.Z.",Mesha Stele (Moabite stone) c. 840 B.C.E.,
 gilgamesh,Gilgamesch und Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
 epic_gilgamesh,Gilgamesch-Epos (Sîn-leqe-unnīnī),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
@@ -375,8 +375,8 @@ western-han,207 v.u.Z.– 9 u.Z.,207 BC – 9 CE,
 eastern-han,25-220 u.Z.,25-220 CE,
 three-kingdoms,Zeit der drei Reiche 220-280 u.Z.,Three kingdoms 220-280 CE,
 sixteen-kingdoms,Sechzehn Königreiche 304-439 u.Z.,Sixteen kingdoms 304-439 CE,
-northern-dynasties,368-581 n. Chr,368-581 CE,
-southern-dynasties,420-589 n. Chr,420-589 CE,
+northern-dynasties,368-581 u.Z.,368-581 CE,
+southern-dynasties,420-589 u.Z.,420-589 CE,
 tang-dynasty1, , ,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
@@ -397,7 +397,7 @@ Ashoka,Ashoka (ca. 304–232 v.u.Z.) fördert den Buddhismus,Ashoka (c. 304-232 
 siloam-tunnel,Hiskia erweitert den Siloam-Tunnel,Hezekiah extends Siloam tunnel,c. 742-732 BC
 Angloamerica2,"Anglo-Amerika wird in der Prophezeiung in Daniel 2:33, 41-43 durch die Füße aus Eisen, vermischt mit Ton, symbolisiert","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",
 Manetho,Manetho schreibt Aegyptiaca,Manetho writes Aegyptiaca,
-tribulation,"Die große Drangsal (Markus 13:19; Daniel 12:1; Matthäus 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
+tribulation,"Die große Drangsal (Markus 13:19; Dan. 12:1; Matt. 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
 destruction_babylon,"Zerstörung Babylons der Großen (Offenbarung 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
 gog_of_magog,"Angriff von Gog von Magog (Hesekiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
 sheep_goat,"Die Bewohner der Erde werden gerichtet, Trennung von Schafe und Böcken (Matthäus 25:31-33)","Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
@@ -406,3 +406,44 @@ armageddon,"Harmagedon (Offenbarung 16:14, 16; Jesaja 13:9; 2. Petrus 3:12)","Ba
 millenium,"Gottes Königreich beginnt seine tausendjährige Regierungszeit (Offenbarung 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
 great_crowd,"Eine „große Volksmenge“ überlebt Harmagedon (Offenbarung 7:9, 14; Psalm 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
 world_population,Weltbevölkerung in Milliarden in den letzten 2000 Jahren,World population in billions in the last 2000 years,
+607BCE,607 v.u.Z.,607 B.C.E.,accommodate for language
+539BCE,539 v.u.Z.,539 B.C.E.,systems in style:
+537BCE,537 v.u.Z.,537 B.C.E.,>>year 537 before time<<
+331BCE,331 v.u.Z.,331 B.C.E.,so they need a word
+63BCE,63v.u.Z.,63 B.C.E.,prior to the year
+70CE,70 u.Z.,70 C.E.,and something
+1914CE,1914-1918 u.Z.,1914-1918 C.E.,after the year
+khmer_empire,804 – 1431 u.Z.,804 – 1431 C.E.,
+khmer_empire_c,Khmer-Reich - Angkor-Zeit,Khmer Empire - Angkor period,
+byzantine_empire,330-1453 u.Z.,330-1453 C.E.,
+byzantine_empire_c,Byzantinisches Reich,Byzantine Empire,
+ottoman_empire,1299 – 1922 u.Z.,1299 – 1922 C.E.,
+ottoman_empire_c,Osmanisches Reich,Ottoman Empire,
+holy_roman_empire,800 – 924 u.Z.,800 – 924 C.E.,
+holy_roman_empire2,862 – 1806 u.Z.,862 – 1806 C.E.,
+holy_roman_empire_c,Heiliges Römisches Reich – nach 1512 Heiliges Römisches Reich Deutscher Nation,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,
+mongol_empire,Mongolisches Reich 1206 – 1294 n. Chr.,Mongol Empire 1206 – 1294 C.E.,
+Genghis,Dschingis Khan,Genghis Khan,
+maya_classic,250-950,250-950,
+maya_classic_c,Maya-Zivilisation – klassische Periode,Maya civilization – classic period,
+maya_postclassic,950-1539,950-1539,
+maya_postclassic_c,Maya-Zivilisation – postklassische Periode,Maya civilization – postclassic period,
+inca_empire,1438 – 1533 u.Z.,1438 – 1533 C.E.,
+inca_empire_c,Inka-Reich,Inca empire,
+gupta_empire,319 – 550 u.Z.,319 – 550 C.E.,
+gupta_empire_c,Gupta-Reich,Gupta empire,
+Teotihuacan,"größte Stadt Amerikas, Pyramiden erbaut ca. 200 u.Z.","largest city in the Americas, pyramids build c. 200 C.E.",
+Teotihuacan_c,Teotihuacán,Teotihuacan,
+Dionysius_Exiguus,"Dionysius Exiguus, Erfinder von Anno Domini","Dionysius Exiguus, inventor of Anno Domini",
+Umayyad,661 – 750 u.Z.,661 – 750 C.E.,
+Umayyad_c,Umayyaden,Umayyad,
+Abbasid,750 – 1258 u.Z.,750 – 1258 C.E.,
+Abbasid_c,Abbasiden-Kalifat,Abbasid Caliphate,
+Mamluk,1250 – 1517 u.Z.,1250 – 1517 C.E.,
+Mamluk_c,Mamluken-Sultanat,Mamluk Sultanate,
+ur3,Ur III-Dynastie 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
+Al-Khwarizmi,al-Khwarizmi schreibt Al-Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra),
+al-azhar,Gründung der Al-Azhar-Universität in Kairo,Al-Azhar University is established in Cairo,
+Ibn-Sina,Ibn Sina oder Avicenna,Ibn Sina or Avicenna,
+Al-Ghazali,Al-Ghazali,Al-Ghazali,
