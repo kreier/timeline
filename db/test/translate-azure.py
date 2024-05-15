@@ -1,68 +1,84 @@
-# -*- coding: utf-8 -*-
+# Create a Azure translated dictionary as starting point for a new language
+# You will need a (free) Azure account to access the API
 
-# This simple app uses the '/translate' resource to translate text from
-# one language to another.
+import os, sys, requests, uuid, json
+import pandas as pd
 
-# You may need to install requests and uuid.
-# Run: pip install requests uuid
-# From: https://github.com/MicrosoftTranslator/Text-Translation-API-V3-Python
-
-import os, requests, uuid, json
-
-target_language = "yue"
-english_original = "Translate this text into a new langauge."
-
-# use this if you want to use environment variables:
-# from dotenv import load_dotenv
-# load_dotenv()
-
-# key_var_name = 'TRANSLATOR_TEXT_SUBSCRIPTION_KEY'
-# if not key_var_name in os.environ:
-#     raise Exception('Please set/export the environment variable: {}'.format(key_var_name))
-# subscription_key = os.environ[key_var_name]
-
-# region_var_name = 'TRANSLATOR_TEXT_REGION'
-# if not region_var_name in os.environ:
-#     raise Exception('Please set/export the environment variable: {}'.format(region_var_name))
-# region = os.environ[region_var_name]
-
-# endpoint_var_name = 'TRANSLATOR_TEXT_ENDPOINT'
-# if not endpoint_var_name in os.environ:
-#     raise Exception('Please set/export the environment variable: {}'.format(endpoint_var_name))
-# endpoint = os.environ[endpoint_var_name]
-
-# or shorter:
-
-subscription_key = 'e87e0ed07a914b4c9fe6f1d31c122104'
+# subscription_key = 'e87e0ed07a914b4c9fe6f1d31c122104'  # this was the 'free' service at hcmc for a year that ended after 1 month
+subscription_key = '5c65938c6cc44ca78776725d716c8fe5'  # since the free account could not be activated this became the pay-as-you-go account
 region = 'southeastasia'
 endpoint = 'https://api.cognitive.microsofttranslator.com/'
 
-# If you encounter any issues with the base_url or path, make sure
-# that you are using the latest endpoint: https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate
-path = '/translate?api-version=3.0'
-params = '&from=en&to=' + target_language
-constructed_url = endpoint + path + params
+def check_existing(language, filename):
+    # Check execution location, exit if not in /timeline/db
+    if os.getcwd()[-17:].replace("\\", "/") != "/timeline/db/test":
+        print("This script must be executed inside the /timeline/db/test folder.")
+        exit()
+    if os.path.isfile(filename):
+        user_input = input("A file with this name already exists. Do you want to overwrite it? (yes/no): ")
+        # Check user input
+        if user_input.lower() == "yes" or user_input.lower() == "":
+            print("Proceeding...")
+        elif user_input.lower() == "no":
+            print("Exiting...")
+            exit()
+        else:
+            print("Invalid input. Please enter 'yes' or 'no'.")
+            exit()
+    else:
+        print(f"Creating a new mini_{language}.csv file.")
 
-headers = {
-    'Ocp-Apim-Subscription-Key': subscription_key,
-    'Ocp-Apim-Subscription-Region': region,
-    'Content-type': 'application/json',
-    'X-ClientTraceId': str(uuid.uuid4())
-}
+def import_english():
+    global dict
+    print("Import english mini file: ", end="")
+    # dict = pd.read_csv("./mini_en.tsv", sep="\t")
+    dict = pd.read_csv("./mini_en.csv")
+    dict = dict.fillna(" ")
+    print(f"found {len(dict)} entries.")
+    print(dict)
 
-# You can pass more than one object in body.
-body = [
-    {'Text' : english_original}
-]
-request = requests.post(constructed_url, headers=headers, json=body)
-response = request.json()
+if __name__ == "__main__":
+    dict = pd.DataFrame() # will contain the english dictionary with 'key' and 'text' column, plus 'alternative' and 'notes' (not used)
+    if len(sys.argv) < 2:
+        print("You did not provide a language as argument. Put it as a parameter after the program name.")
+        exit()
+    language = sys.argv[1]
+    filename = "./mini_" + language + ".csv"
+    print(f"You want to translate to {language}.")
+    check_existing(language, filename)
+    import_english()
+    # create the dataframe
+    dict_translated = dict[['key', 'text']].copy()   # create a new dictionary, copy columns key and text
+    dict_translated['english'] = dict['text'].copy() # add a column 'english' and fill with 'text' from english dictionary
+    print("\nTranslating ...")
+    number_characters = 0      # you can translate up to 2,000,000 characters per month for free in S0 tier for 12 months
 
-print(json.dumps(response, sort_keys=True, indent=4, ensure_ascii=False, separators=(',', ': ')))
-print(response)
+    # Setup Azure AI Translator https://azure.microsoft.com/en-us/products/ai-services/ai-translator
+    path = '/translate?api-version=3.0'
+    params = '&from=en&to=' + language
+    constructed_url = endpoint + path + params
 
-translation = response[0]['translations'][0]['text']
+    headers = {
+        'Ocp-Apim-Subscription-Key': subscription_key,
+        'Ocp-Apim-Subscription-Region': region,
+        'Content-type': 'application/json',
+        'X-ClientTraceId': str(uuid.uuid4())
+    }
 
-# print(response.json_object["name"])
+    for index, row in dict_translated.iterrows(): # with 3 columns 'key' 'text' and 'english'
+        english_text = row.english
+        number_characters += len(english_text)
+        if not english_text == " ": # it only applies to row with empty strings - causes translation error
+            body = [ {'Text' : english_text} ]
+            request = requests.post(constructed_url, headers=headers, json=body)
+            response = request.json()
+            # print(response)
+            translated_text = response[0]['translations'][0]['text']
+            dict_translated.at[index, 'text'] = translated_text
+            print(f'{english_text} - {translated_text}')
 
-# translation = response['translations']
-print(translation)
+
+    print(dict_translated)
+    print("Exporting ...")
+    dict_translated.to_csv(filename, index=False)
+    print(f"You translated {number_characters} characters.")
