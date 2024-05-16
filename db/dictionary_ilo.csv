@@ -1,24 +1,24 @@
 key,text,english,notes,
-version,4.5,,,
+version,4.6,,,
 pdf_title,Ti panaka-iladawan ti 6000 a tawen a pakasaritaan ti tao,6000 years human history visualized,,
 pdf_subject,Timeline ti sangatauan,Timeline of humankind,,
 BCE,K.K.P.,B.C.E.,,
 CE,K.P.,C.E.,,
 year,tawen,year,"timespan, age (Adam was 130 years old when Shem was born)",
 years,tawen,years,,
-years_age,iti edad a,years,years when used as age for a person (different word than years in some languages),
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",
+years_age,iti edad a,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",
+age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",
 month,bulan,month,,
 months,bulan,months,,
 day,aldaw,day,,
 days,aldaw,days,,
 to,–,to,,
-people,a tattao,people,dagiti persona,
-judges,nga ukom,judges,dagiti uk-ukom,
-prophets,a propeta,prophets,dagiti mammadto,
-kings,nga ari,kings,dagiti ar-ari,
-periods,nga periodo,periods,dagiti periodo,
-events,a pasamak,events,dagiti pasamak,
+people,a tattao,people,"people, persons",
+judges,Uk-ukom,judges,,
+prophets,propeta,prophets,,
+kings,ar-ari,kings,,
+periods,periodo,periods,,
+events,pasamak,events,,
 objects,a banag wenno banag,objects or items,,
 Deluge,Layus,Deluge,,
 Adam,Adan,Adam,,
@@ -80,7 +80,7 @@ Josiah,Josias,Josiah,,
 Jehoahaz,Jehoahaz,Jehoahaz,Only 3 months,
 Jehoiakim,Jehoiakim,Jehoiakim,,
 Jehoiachin,Jehoiakin,Jehoiachin,Only 3 months 10 days,
-Zedekiah,Zedekias,Zedekiah,,
+Zedekiah,Zedekias,Zedekiah,Zedekiah,
 Jeroboam,Jeroboam,Jeroboam,first king of northern 10-tribe kingdom,
 Nadab,Nadab,Nadab,less than 2,
 Baasha,Baasa,Baasha,,
@@ -92,16 +92,16 @@ Ahab,Ahab,Ahab,,
 Jehoram,Jehoram,Jehoram,,
 Jehu,Jehu,Jehu,,
 Jeoahaz,Jehoahaz,Jeoahaz,,
-JeoahazJehoash,Jehoahaz ken Jehoas,Jeoahaz and Jehoash,,
-Jehoash2,Jehoas (maymaysana),Jehoash (alone),For 3 years Jeoahaz and Jeoash reigned together,
-Jeroboam2,Jeroboam II,Jeroboam II,Jehoash (alone),
-Zechariah,Zacarias,Zechariah,,
-Schallum,Sallum,Schallum,"reign only recorded 6 months, probably only established 792 BCE",
-Menahem,Menahem,Menahem,only one month,
+JeoahazJehoash,Jehoahaz ken Jehoas,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,
+Jehoash2,Jehoas (maymaysana),Jehoash (alone),Jehoash (alone),
+Jeroboam2,Jeroboam II,Jeroboam II,,
+Zechariah,Zacarias,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",
+Schallum,Sallum,Schallum,only one month,
+Menahem,Menahem,Menahem,,
 Pekahiah,Pekaias,Pekahiah,,
 Pekah,Peka,Pekah,,
-Hoshea,Hosea,Hoshea,,
-Elijah,Elias,Elijah,9 years from c. 748,
+Hoshea,Hosea,Hoshea,9 years from c. 748,
+Elijah,Elias,Elijah,,
 Elisha,Eliseo,Elisha,,
 Jonah,Jonas,Jonah,,
 Amos,Amos,Amos,,
@@ -128,8 +128,8 @@ wilderness,Ti Israel idiay let-ang 1513 agingga iti 1473 K.K.P. – 40 a tawen,I
 timespan_judges,1473 agingga iti 1117 K.K.P. – 356 a tawen,1473 to 1117 B.C.E. – 356 years,,
 timespan_judges2,Panawen dagiti uk-ukom,Time of the judges,,
 temple1,Nisan 1513 K.K.P. agingga ken Ziv 1034 K.K.P.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,
-temple2,479 a tawen sakbay maibangon ti templo – 1 Ar-ari 6:1,479 years until the temple construction – 1 Kings 6:1,,
-69weeks,Nagbautisar ni Jesus idi Otonio 29 K.P.,Jesus baptized autumn 29 C.E.,1034 BCE,
+temple2,479 a tawen sakbay maibangon ti templo – 1 Ar-ari 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,
+69weeks,Nagbautisar ni Jesus idi Otonio 29 K.P.,Jesus baptized autumn 29 C.E.,,
 69weeks2,69 a lawas agingga a dumteng ti Mesias – Daniel 9:25,69 weeks to the Messiah – Daniel 9:25,,
 jesus_service,"3.5 a tawen a panagserbi ni Jesus, napapatay idi maika-14 ti Nisan, 33 K.P.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",,
 jesus_life,Panaka iyanak ni Jesus - 2 K.K.P.,Jesus born 2 B.C.E.,,
@@ -146,7 +146,7 @@ caleb,nasurok a 85 a tawen,more than 85 years,,
 caleb2,Caleb,Caleb,,
 missionary1,"Umuna a Panagdaliasat ni Pablo kas Misionero, c. 47-48 K.P. kaduana da Bernabe ken Juan Marcos","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark",,
 circumcision,"Isyu ti panagkugit idiay Antioquia, komperensia idiay Jerusalem c. 49 K.P.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.",,
-missionary2,Maikadua a Panagdaliasat ni Pablo kas Misionero c. 49-52 K.P. kaduana ni Silas (Silvanus) .,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),,
+missionary2,Maikadua a Panagdaliasat ni Pablo kas Misionero c. 49-52 K.P. kaduana ni Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),,
 missionary3,Maikatlo a Panagdaliasat ni Pablo kas Misionero c. 52-56 K.P.,Third Missionary Journey c. 52-56 C.E.,,
 caesarea,Naibalud ni Pablo idiay Cesarea c. 56-58 K.P.,Paul in custody in Caesarea c. 56-58 C.E.,,
 rome1,Ti umuna a pannakaibalud ni Pablo idiay Roma c. 59-61 K.P.,Paul’s first imprisonment in Rome c. 59-61 C.E.,,
@@ -206,7 +206,7 @@ buddha,Buddha – Siddhartha Gautama c.563-c.483 K.K.P,The Buddha – Siddhartha
 buddha2,Alternatibo a Buddha c. 480-400 K.K.P.,Buddha alternatively c. 480-400 B.C.E.,,
 mohammed,Mohammed c. 570-632 K.P.,Mohammed c. 570-632 C.E.,,
 confucius,Confucius c.551-c.479 K.K.P.,Confucius c.551-c.479 B.C.E.,,
-hijrah,Hijrah - Panagdaliasat Mecca – Medina 16 Hulio 622,Hijrah - Journey Mecca to Medina 16 July 622,Hijrah - Panagdaliasat manipud Mecca aginggana idiay Medina 16 Hulio 622 ,
+hijrah,Hijrah - Panagdaliasat Mecca – Medina 16 Hulio 622,Hijrah - Journey Mecca to Medina 16 July 622,Hijrah - Panagdaliasat manipud Mecca aginggana idiay Medina 16 Hulio 622,
 moses_escape,"1553 K.K.P. Masapul a tumakas ni Moises idiay Egipto – Exodo 2:15, Aramid 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",,
 10plagues,1513 K.K.P. immawat ti Egipto iti 10 a saplit,1513 B.C.E Egypt receives 10 plagues,,
 joseph_sold,Nailako ni Jose kas adipen idi agtawen iti 17 – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2,,
@@ -231,7 +231,7 @@ notre-dame,Notre-Dame de Paris ket naibangon idi 1163-1260,Notre-Dame de Paris b
 jehoiada,Jehoiada,Jehoiada,,
 babel,Naibangon ti torre ti Babel,tower of Babel built,,
 Haggai,Haggeo,Haggai,,
-Zerubbabel,Zerubabel (Lucas 3:27),Zerubbabel (Luke 3:27),,
+Zerubbabel,Zerubabel (Lucas 3:27),Zerubbabel (Luke 3:27),Zerubbabel (Luke 3:27),
 Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",,
 Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",,
 Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",,
@@ -242,73 +242,73 @@ Medopersia_c,Medo-Persia,Medo-Persia,,
 Greece_c,Grecia,Greece,,
 Rome_c,Roma,Rome,,
 Angloamerica_c,Anglo-America,Anglo-America,,
-infliction1,400 a panagrigat,400 year infliction,,
-infliction2,Acts 7:6,Acts 7:6,Acts 7:6,
-Jacob2,Jacob/,Jacob/,,
-Israel,Israel,Israel,Jacob/Israel 1858-1711 – 147 years,
-Sarah,Sarah,Sarah,,
-Hagar,Hagar,Hagar,2008-1881 BCE – 127 years,
-Haran,Haran,Haran,Genesis 21:14,
-Reumah,Reumah,Reumah,Genesis 11:26,
-Milcah,Milcah,Milcah,,
-Lot,Lot,Lot,Concubine – 4 sons,
-Lots_wife,Asawa ni Lot,Lot’s wife,8 sons (Bethuel and 7 more),
+infliction1,400 a panagrigat,400 year infliction,Acts 7:6,
+infliction2,Acts 7:6,Acts 7:6,,
+Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,
+Israel,Israel,Israel,,
+Sarah,Sarah,Sarah,2008-1881 BCE – 127 years,
+Hagar,Hagar,Hagar,Genesis 21:14,
+Haran,Haran,Haran,Genesis 11:26,
+Reumah,Reumah,Reumah,Concubine – 4 sons,
+Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more),
+Lot,Lot,Lot,,
+Lots_wife,Asawa ni Lot,Lot’s wife,,
 Lots_daughters,Annak a babbae ni Lot,Daughters of Lot,,
 Moab,Moab (ina una nga anak),Moab (older daughter),,
 Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon),,
 Bethuel,Bethuel,Bethuel,,Be·thuʹel
 Rebekah,Rebekah,Rebekah,,Re·bekʹah
 Laban,Laban,Laban,,Laʹban
-Leah,Lea,Leah,,Leʹah
-Rachel,Raquel,Rachel,,
-Bilhah,Bilha,Bilhah,Genesis 35:23,Bilʹhah
-Zilpah,Zilpah,Zilpah,Genesis 35:24,Zilʹpah
-Reuben,Reuben,Reuben,Genesis 35:25,Reuʹben
-Simeon,Simeon,Simeon,Genesis 35:26,Simʹe·on
+Leah,Lea,Leah,Genesis 35:23,Leʹah
+Rachel,Raquel,Rachel,Genesis 35:24,
+Bilhah,Bilha,Bilhah,Genesis 35:25,Bilʹhah
+Zilpah,Zilpah,Zilpah,Genesis 35:26,Zilʹpah
+Reuben,Reuben,Reuben,,Reuʹben
+Simeon,Simeon,Simeon,,Simʹe·on
 Levi,Levi,Levi,,Leʹvi
 Judah,Juda,Judah,,Judah
 Issachar,Isacar,Issachar,,Isʹsa·char
 Zebulun,Zabulon,Zebulun,,Zebʹu·lun
-Dinah,Dinah,Dinah,,Diʹnah
+Dinah,Dinah,Dinah,Genesis 34,Diʹnah
 Esau,Esau/,Esau/,,Eʹsau
-Edom,Edom,Edom,Genesis 34,
+Edom,Edom,Edom,Genesis 36:1,
 Ishmael,Ismael,Ishmael,,
-Manasseh2,(Manasseh,(Manasseh,Genesis 36:1,
+Manasseh2,(Manasseh,(Manasseh,,
 Ephraim,and Ephraim),and Ephraim),,
 Benjamin,Benjamin,Benjamin,,
 Dan,Dan,Dan,,
 Naphtali,Neftali,Naphtali,,Naphʹta·li
 Gad,Gad,Gad,,
 Asher,Aser,Asher,,Ashʹer
-Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",,Genesis 22:21
+Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,Genesis 22:21
 Milcah2,"Chesed, Hazo,","Chesed, Hazo,",,
 Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",,
-Tebah,Tebah,Tebah,,Genesis 22:23
+Tebah,Tebah,Tebah,Genesis 22:23,Genesis 22:23
 Gaham,Gaham,Gaham,,
 Tahash,Tahash,Tahash,,
 Maacah,Maacah,Maacah,,
-Mahalath,Mahalath/,Mahalath/,,
-Basemath,Basemat,Basemath,,Basʹe·math
-Reuel,Reuel,Reuel,"Genesis 28:8, 9",Reuʹel
-Nahath,Nahath,Nahath,"Genesis36:3, 4",Naʹhath
-Zerah,Zerah,Zerah,"36:13, 17",Zeʹrah
+Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",
+Basemath,Basemat,Basemath,"Genesis36:3, 4",Basʹe·math
+Reuel,Reuel,Reuel,"36:13, 17",Reuʹel
+Nahath,Nahath,Nahath,,Naʹhath
+Zerah,Zerah,Zerah,,Zeʹrah
 Schammah,Schammah,Schammah,,Shamʹmah
 Mizzah,Mizzah,Mizzah,,Mizʹzah
-Adah,Adah,Adah,,Aʹdah
+Adah,Adah,Adah,"36:11, 12, 15, 16",Aʹdah
 Eliphaz,Eliphaz,Eliphaz,,Elʹi·phaz
-Teman,Teman,Teman,"36:11, 12, 15, 16",Teʹman
+Teman,Teman,Teman,,Teʹman
 Omar,Omar,Omar,,Oʹmar
 Zepho,Zepho,Zepho,,Zeʹpho
 Kenaz,Kenaz,Kenaz,,Keʹnaz
 Korah,Korah,Korah,,Korʹah
 Gatam,Gatam,Gatam,,Gaʹtam
 Amalek,Amalek,Amalek,,Amʹa·lek
-Oholibamah,Oholibamah,Oholibamah,,O·hol·i·baʹmah
+Oholibamah,Oholibamah,Oholibamah,"36:14, 18",O·hol·i·baʹmah
 Jeush,Jeush,Jeush,,Jeʹush
-Jalam,Jalam,Jalam,"36:14, 18",Jaʹlam
-Nebaioth,Nebayot,Nebaioth,,Ne·baʹioth
+Jalam,Jalam,Jalam,,Jaʹlam
+Nebaioth,Nebayot,Nebaioth,Genesis 25:13,Ne·baʹioth
 Kedar,Kedar,Kedar,,Keʹdar
-Adbeel,Adbeel,Adbeel,Genesis 25:13,Adʹbe·el
+Adbeel,Adbeel,Adbeel,,Adʹbe·el
 Mibsam,Mibsam,Mibsam,,Mibʹsam
 Mishma,Misma,Mishma,,Mishʹma
 Dumah,Duma,Dumah,,Duʹmah
@@ -318,7 +318,7 @@ Tema,Tema,Tema,,Teʹma
 Jetur,Jetur,Jetur,,Jeʹtur
 Naphish,Naphish,Naphish,,Naʹphish
 Kedemah,Kedema,Kedemah,,Kedʹe·mah
-Babylon2, , ,no text left and right – empty!,empty!!
+Babylon2,,,no text left and right – empty!,empty!!
 terahfam,Membro ti pamilya ni Tera,members of Terah’s family,,
 rosetta,Rosetta stone 196 K.K.P.,Rosetta stone 196 B.C.E.,,
 Herodotus,"Herodotus c. 484 – c. 425 K.K.P., insurat ti The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,
@@ -375,7 +375,7 @@ three-kingdoms,Tallo a pagarian 220-280 K.P.,Three kingdoms 220-280 CE,,
 sixteen-kingdoms,Desisais a pagarian 304-439 K.P.,Sixteen kingdoms 304-439 CE,,
 northern-dynasties,368-581 K.P.,368-581 CE,,
 southern-dynasties,420-589 K.P.,420-589 CE,,
-tang-dynasty1, , ,,
+tang-dynasty1,,,,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",,
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,,
 shang-dynasty_c,Dinastia ti Shang,Shang Dynasty,c. 1600-1046 BC,
@@ -390,9 +390,9 @@ southern-dynasties_c,Dinastia ti Abagatan,Southern Dynasties,420-589 CE,
 tang-dynasty1_c,Tang,Tang,,
 tang-dynasty2_c,Dinastia ti Tang,Tang Dynasty,"618-690, 705-907",
 xia-dynasty,Dinastia ti Xia- China c. 2070 – idi c. 1600 K.K.P,Xia dynasty in China c. 2070 – c. 1600 BC,,
-gonghe,Gonghe -Nasuspendi ti turay 841-828 ,Gonghe Regency 841-828 BC,,
+gonghe,Gonghe -Nasuspendi ti turay 841-828,Gonghe Regency 841-828 BC,,
 Ashoka,Ashoka (c. 304-232 K.K.P.) intantandudo na ti Budismo,Ashoka (c. 304-232 BC) promotes Buddhism,,
-siloam-tunnel,Ezekias-pina-attoddog na ti Siloam tunel,Hezekiah extends Siloam tunnel,,
+siloam-tunnel,Ezekias-pina-attiddog na ti Siloam tunel,Hezekiah extends Siloam tunnel,c. 742-732 BC,
 Angloamerica2,"Ti Anglo-American ket nailadawan babaen kadagiti saka ti landok a nalaokan iti damili iti padto iti Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",,
 Manetho,Insurat ni Manetho ti Aegyptiaca,Manetho writes Aegyptiaca,,
 tribulation,"Ti Dakkel a Rigat (Marcos 13:19; Daniel 12:1; Mat 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",,
@@ -404,3 +404,44 @@ armageddon,"Gubat ti Armagedon (Apocalipsis 16:14, 16; Isaias 13:9; 2 Pedro 3:12
 millenium,"Rugian ti Pagarian ti Dios ti 1000 a tawen a panagturayna ( Apocalipsis 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",,
 great_crowd,"Maysa a dakkel a bunggoy ti makalasat iti Armagedon (Apocalipsis 7:9, 14; Salmo 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",,
 world_population,Ti populasion ti lubong iti binilion iti napalabas a 2000 a tawen,World population in billions in the last 2000 years,,
+607BCE,607 K.K.P.,607 B.C.E.,accommodate for language,
+539BCE,539 K.K.P.,539 B.C.E.,systems in style:,
+537BCE,537 K.K.P.,537 B.C.E.,>>year 537 before time<<,
+331BCE,331 K.K.P.,331 B.C.E.,so they need a word,
+63BCE,63 K.K.P.,63 B.C.E.,prior to the year,
+70CE,70 K.P.,70 C.E.,and something,
+1914CE,1914-1918 K.P.,1914-1918 C.E.,after the year,
+khmer_empire,804 – 1431 K.P.,804 – 1431 C.E.,,
+khmer_empire_c,Imperyong Khmer - Panahon ng Angkor,Khmer Empire - Angkor period,,
+byzantine_empire,330-1453 K.P.,330-1453 C.E.,,
+byzantine_empire_c,Imperyong Byzantine,Byzantine Empire,,
+ottoman_empire,1299 – 1922 K.P.,1299 – 1922 C.E.,,
+ottoman_empire_c,Imperyong Ottoman,Ottoman Empire,,
+holy_roman_empire,800 – 924 K.P.,800 – 924 C.E.,,
+holy_roman_empire2,862 – 1806 K.P.,862 – 1806 C.E.,,
+holy_roman_empire_c,Banal na Imperyong Romano – pagkatapos ng 1512 Banal na Imperyong Romano ng Bansang Aleman,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,,
+mongol_empire,Imperyong Mongol 1206 – 1294 K.P.,Mongol Empire 1206 – 1294 C.E.,,
+Genghis,Genghis Khan,Genghis Khan,,
+maya_classic,250-950,250-950,,
+maya_classic_c,Kabihasnang Maya – klasikong panahon,Maya civilization – classic period,,
+maya_postclassic,950-1539,950-1539,,
+maya_postclassic_c,Kabihasnang Maya – postclassic period,Maya civilization – postclassic period,,
+inca_empire,1438 – 1533 K.P.,1438 – 1533 C.E.,,
+inca_empire_c,imperyo ng inca,Inca empire,,
+gupta_empire,319 – 550 K.P.,319 – 550 C.E.,,
+gupta_empire_c,Imperyong Gupta,Gupta empire,,
+Teotihuacan,"pinakamalaking lungsod sa Americas, pyramids build c. 200 K.P.","largest city in the Americas, pyramids build c. 200 C.E.",,
+Teotihuacan_c,Teotihuacan,Teotihuacan,,
+Dionysius_Exiguus,"Dionysius Exiguus, imbentor ng Anno Domini","Dionysius Exiguus, inventor of Anno Domini",,
+Umayyad,661 – 750 K.P.,661 – 750 C.E.,,
+Umayyad_c,Umayyad,Umayyad,,
+Abbasid,750 – 1258 K.P.,750 – 1258 C.E.,,
+Abbasid_c,Abbasid Caliphate,Abbasid Caliphate,,
+Mamluk,1250 – 1517 K.P.,1250 – 1517 C.E.,,
+Mamluk_c,Sultanato ng Mamluk,Mamluk Sultanate,,
+ur3,ur III dynasty 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,,
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,,
+Al-Khwarizmi,isinulat ni al Khwarizmi ang Al Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra),,
+al-azhar,Ang Al Azhar University ay itinatag sa Cairo,Al-Azhar University is established in Cairo,,
+Ibn-Sina,Ibn Sina o Avicenna,Ibn Sina or Avicenna,,
+Al-Ghazali,Al Ghazali,Al-Ghazali,,
