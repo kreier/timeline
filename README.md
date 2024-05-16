@@ -6,7 +6,7 @@
 
 This project creates a graph of Human history with python and reportlab. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With version 4.2 some images make it into the timeline after 15 years of slow development. See both for comparison below.
 
-![timeline 4.5](docs/timeline20240413_4.5.png)
+![timeline 4.6](docs/timeline20240516_4.6.png)
 
 Compare this 4000 year timespan of version 4.2 from 2024:
 
@@ -145,4 +145,5 @@ To be continued and get inspired ...
 
 ![2024-1](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240309_4.2.png)
 ![2024-2](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240413_4.5.png)
+![2024-3 timeline 4.6](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240516_4.6.png)
 

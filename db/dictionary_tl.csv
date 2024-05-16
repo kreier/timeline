@@ -7,7 +7,7 @@ CE,C.E.,C.E.,
 year,taon,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,taon,years,
 years_age,taon,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
-age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,buwan,month,
 months,buwan,months,
 day,araw,day,
