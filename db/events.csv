@@ -1,8 +1,8 @@
 key,date,y_start,y_end,y_text,width,position,old
 event_division_kingdom,-997,0.08,9.26,7.5,0.7,l,
 event_exodus,-1513,0.08,33.25,3.5,0.7,l,
-event_1914,1914.75,24.4,46.38,38,0.7,l,32.3
-event_destruction_jerusalem2,70,14,36.4,34,0.7,r,22.5
+event_1914,1914.75,24.4,46.38,37.5,0.7,l,32.3
+event_destruction_jerusalem2,70,14,36.4,32,0.7,r,22.5
 event_destruction_jerusalem1,-607,22,26.3,26.2,0.5,r,
 event_destruction_samaria,-739.25,46.38,28.3,36,0.5,l,
 event_jerusalem_rebuilt,-455,0.08,2.25,2,0.5,l,
@@ -23,7 +23,7 @@ new_world_translation1,1960.464,0.08,16.6,16.5,0.4,l,15
 new_world_translation2,2013.75,0.08,17.6,17.5,0.4,l,19
 timeline_created,2023.82,0.08,12.1,12,0.4,l,23
 nicaea1,325,0.08,1.1,1,0.4,l,
-hijrah,622,46.38,37.9,38.9,0.4,r,46
+hijrah,622,46.38,36.6,37.6,0.4,r,46
 moses_escape,-1553,43.06,44.1,44,0.4,l,
 10plagues,-1513,43.06,46.38,46,0.4,l,
 joseph_sold,-1750,41.4,40.34,41.3,0.4,l,

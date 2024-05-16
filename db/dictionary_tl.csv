@@ -1,5 +1,5 @@
 key,text,english,notes
-version,4.5,4.5,
+version,4.6,4.5,
 pdf_title,6000 taon na paglalarawan na kasaysayan ng tao ,6000 years human history visualized,
 pdf_subject,Timeline ng sangkatauhan,Timeline of humankind,
 BCE,B.C.E.,B.C.E.,
@@ -191,12 +191,12 @@ new_world_translation1,"“New World Translation of the Holy Scriptures” na in
 truth_book,“The Truth That Leads to Eternal Life” ay inilabas noong 1968,The book “The Truth That Leads to Eternal Life” released 1968,
 metropolitan,Nagsimula ang metropolitan witnessing noong 2011,Start of metropolitan witnessing in 2011,
 jw_org,Nagsimula ang JW.ORG - may mga tagubilin sa ministeryo - Disyembre 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
-new_world_translation2,"Binagong “Bagong Sanlibutang Salin ng Banal na Kasulatan”  inilabas sa taunang pulong 2013, na-optimize para magamit sa digital at online","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
+new_world_translation2,"Binagong “Bagong Sanlibutang Salin ng Banal na Kasulatan” inilabas sa taunang pulong 2013, na-optimize para magamit sa digital at online","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
 jw_broadcasting,Simula ng jw.broadcasting noong Oktubre 2014,Start of jw.broadcasting in October 2014,
 meeting_workbook,"Bagong pormat ng midweek meeting na may ""workbook ng pagpupulong"" simula Enero 2016",New format of midweek meeting with “meeting workbook” starting January 2016,
 covid19,COVID-19,Covid-19,
 cold_war,"Geopolitical na sitwasyon na may label na ""Cold War"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991,
-timeline_created,"Ang timeline na ito ay ginawa noong 2023,  pinakamainit na taon sa kasaysayan ng tao at sa125,000 taon na nakalipas","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
+timeline_created,"Ang timeline na ito ay ginawa noong 2023, pinakamainit na taon sa kasaysayan ng tao at sa125,000 taon na nakalipas","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,Isinulat ang Codex Sinaiticus,Codex Sinaiticus written,
 codex_vaticanus,Isinulat ang Codex Vaticanus,Codex Vaticanus written,
 leningrad_codex,Leningrad Codex na isinulat sa Cairo AD 1008,Leningrad Codex written in Cairo AD 1008,
@@ -206,13 +206,13 @@ buddha,Buddha – Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha
 buddha2,Buddha bilang kahalili c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E.,
 mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632 C.E.,
 confucius,Confucius c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E.,
-hijrah,Hijrah - Paglakbay sa Mecca -  Medina 16 Hulyo 622,Hijrah - Journey Mecca to Medina 16 July 622,
+hijrah,Hijrah - Paglakbay sa Mecca - Medina 16 Hulyo 622,Hijrah - Journey Mecca to Medina 16 July 622,
 moses_escape,"1553 B.C.E. Kailangang makatakas si Moises sa Ehipto - Exo.2:15, Gawa 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",
 10plagues,1513 B.C.E Nakatanggap ang Ehipto ng 10 salot,1513 B.C.E Egypt receives 10 plagues,
 joseph_sold,Nabenta si Jose bilang alipin sa edad na 17 – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2,
 infliction,400 taon na pagpapahirap (Gawa 7:6) – Ismael 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,
 Alexander,Alejandrong Dakila (Daniel 11:3),Alexander the Great (Daniel 11:3),
-persia,"Cirong Dakila,  Cambyses II, Dario I 490 BCE, Jerjes I 480 BCE (asawa ni Esther, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",
+persia,"Cirong Dakila, Cambyses II, Dario I 490 BCE, Jerjes I 480 BCE (asawa ni Esther, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",
 persia2,Persia,Persia,
 king_north,"Seleucus I Nicator (v5) Syria hanggang Antiochus III (v10) at Seleucus IV (v18, 19) hanggang Octavian (v20) at Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",
 king_north1,Hari ng Hilaga,King of the North,
@@ -276,7 +276,7 @@ Ishmael,Ismael,Ishmael,
 Manasseh2,(Manasse,(Manasseh,Genesis 41:50-52
 Ephraim,at Efraim),and Ephraim),
 Benjamin,Benjamin,Benjamin,
-Dan, Dan,Dan,
+Dan,Dan,Dan,
 Naphtali,Neptali,Naphtali,
 Gad,Gad,Gad,
 Asher,Aser,Asher,
@@ -318,7 +318,7 @@ Tema,Tema,Tema,
 Jetur,Jetur,Jetur,
 Naphish,Napis,Naphish,
 Kedemah,Kedema,Kedemah,
-Babylon2, , ,no text left and right – empty!
+Babylon2,,,no text left and right – empty!
 terahfam,miyembro ng pamilya ni Tera,members of Terah’s family,
 rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E.,
 Herodotus,"Herodotus c. 484 – c. 425 BC, isinulat ang The History","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
@@ -375,7 +375,7 @@ three-kingdoms,Tatlong kaharian 220-280 CE,Three kingdoms 220-280 CE,
 sixteen-kingdoms,Labing-anim na kaharian 304-439 CE,Sixteen kingdoms 304-439 CE,
 northern-dynasties,368-581 CE,368-581 CE,
 southern-dynasties,420-589 CE,420-589 CE,
-tang-dynasty1, , ,
+tang-dynasty1,,,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
 shang-dynasty_c,Dinastiyang Shang,Shang Dynasty,c. 1600-1046 BC
@@ -401,6 +401,47 @@ gog_of_magog,"Pag-atake ni Gog ng Magog (Ezekiel 38:1, 2, 9-12, 18-23)","Attack 
 sheep_goat,"Ang mga naninirahan sa lupa ay hahatulan, ibubukod ang mga tupa at kambing (Mateo 25:31-33)","Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
 annointed,Pagtitipon ng mga tagapamahala ng Kaharian (Mateo 24:31; 1 Corinto 15:50-53; 1 Tesalonica 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT
 armageddon,"Labanan ng Armagedon (Apocalipsis 16:14, 16; Isaias 13:9; 2 Pedro 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
-millenium,"Simula ng 1000 na paghahari  ng Kaharian ng Diyos  (Apocalipsis 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
+millenium,"Simula ng 1000 na paghahari ng Kaharian ng Diyos (Apocalipsis 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
 great_crowd,"Isang malaking pulutong ang makaligtas sa Armagedon (Apocalipsis 7:9, 14; Awit 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
 world_population,Bilyon-bilyon ang populasyon ng mundo sa nakalipas na 2000 taon,World population in billions in the last 2000 years,
+607BCE,607 B.C.E.,607 B.C.E.,accommodate for language
+539BCE,539 B.C.E.,539 B.C.E.,systems in style:
+537BCE,537 B.C.E.,537 B.C.E.,>>year 537 before time<<
+331BCE,331 B.C.E.,331 B.C.E.,so they need a word
+63BCE,63 B.C.E.,63 B.C.E.,prior to the year
+70CE,70 C.E.,70 C.E.,and something
+1914CE,1914-1918 C.E.,1914-1918 C.E.,after the year
+khmer_empire,804 – 1431 C.E.,804 – 1431 C.E.,
+khmer_empire_c,Imperyong Khmer - Panahon ng Angkor,Khmer Empire - Angkor period,
+byzantine_empire,330-1453 C.E.,330-1453 C.E.,
+byzantine_empire_c,Imperyong Byzantine,Byzantine Empire,
+ottoman_empire,1299 – 1922 C.E.,1299 – 1922 C.E.,
+ottoman_empire_c,Imperyong Ottoman,Ottoman Empire,
+holy_roman_empire,800 – 924 C.E.,800 – 924 C.E.,
+holy_roman_empire2,862 – 1806 C.E.,862 – 1806 C.E.,
+holy_roman_empire_c,Banal na Imperyong Romano – pagkatapos ng 1512 Banal na Imperyong Romano ng Bansang Aleman,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,
+mongol_empire,Imperyong Mongol 1206 – 1294 C.E.,Mongol Empire 1206 – 1294 C.E.,
+Genghis,Genghis Khan,Genghis Khan,
+maya_classic,250-950,250-950,
+maya_classic_c,Kabihasnang Maya – klasikong panahon,Maya civilization – classic period,
+maya_postclassic,950-1539,950-1539,
+maya_postclassic_c,Kabihasnang Maya – postclassic period,Maya civilization – postclassic period,
+inca_empire,1438 – 1533 C.E.,1438 – 1533 C.E.,
+inca_empire_c,imperyo ng inca,Inca empire,
+gupta_empire,319 – 550 C.E.,319 – 550 C.E.,
+gupta_empire_c,Imperyong Gupta,Gupta empire,
+Teotihuacan,"pinakamalaking lungsod sa Americas, pyramids build c. 200 C.E.","largest city in the Americas, pyramids build c. 200 C.E.",
+Teotihuacan_c,Teotihuacan,Teotihuacan,
+Dionysius_Exiguus,"Dionysius Exiguus, imbentor ng Anno Domini","Dionysius Exiguus, inventor of Anno Domini",
+Umayyad,661 – 750 C.E.,661 – 750 C.E.,
+Umayyad_c,Umayyad,Umayyad,
+Abbasid,750 – 1258 C.E.,750 – 1258 C.E.,
+Abbasid_c,Abbasid Caliphate,Abbasid Caliphate,
+Mamluk,1250 – 1517 C.E.,1250 – 1517 C.E.,
+Mamluk_c,Sultanato ng Mamluk,Mamluk Sultanate,
+ur3,ur III dynasty 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
+Al-Khwarizmi,isinulat ni al Khwarizmi ang Al Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra),
+al-azhar,Ang Al Azhar University ay itinatag sa Cairo,Al-Azhar University is established in Cairo,
+Ibn-Sina,Ibn Sina o Avicenna,Ibn Sina or Avicenna,
+Al-Ghazali,Al Ghazali,Al-Ghazali,

@@ -579,14 +579,15 @@ def create_objects():
     global counter_objects
     objects = pd.read_csv("../db/objects.csv", encoding='utf8')
     print("Imported data of objects or items:", len(objects))
+    cunei = ["gilgamesh", "ur3", "hammurabi"]
     co = color['objects']
     for index, row in objects.iterrows():
-        if row.key == "gilgamesh":
+        if row.key in cunei:
             x_boxwidth = (row.end -  row.start) * dots_year
             timebar(x_position(row.start), y_position(row.row_y) + 10, x_boxwidth, co[0], co[1], co[2], False)
-            c.setFont("NotoCuneiform", 10)
+            c.setFont("NotoCuneiform", 9)
             c.setFillColorRGB(0, 0, 0)
-            c.drawString(x_position(row.start) , y_position(row.row_y), dict["gilgamesh"])
+            c.drawString(x_position(row.start) , y_position(row.row_y), dict[row.key])
         else:
             text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], False)
             counter_objects += 1
@@ -654,7 +655,7 @@ def create_periods():
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
                 c.setFillColorRGB(cl[0], cl[1], cl[2])
-                c.rect(x_box + x_boxwidth - fade_width * i/fade_steps - 0.8, y_box - 3, 1, 12, fill = 1, stroke = 0)
+                c.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps-0.2, y_box - 3, fade_width / 45, 12, fill = 1, stroke = 0)
         if row.start_fade < row.start:
             fade_width = (row.start - row.start_fade) * dots_year + 1
             x_boxwidth += fade_width
@@ -663,7 +664,7 @@ def create_periods():
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
                 c.setFillColorRGB(cl[0], cl[1], cl[2])
-                c.rect(x_box + fade_width * i/fade_steps, y_box - 3, 1, 12, fill = 1, stroke = 0)
+                c.rect(x_box + fade_width * i/fade_steps, y_box - 3, fade_width / 45, 12, fill = 1, stroke = 0)
 
         c.setFillColorRGB(0, 0, 0)
         if len(row.text_center) > 1:
@@ -786,7 +787,7 @@ def create_daniel2():
     desired_height = 96*mm
     shift_upward   = 30*mm    
     kingdoms = ["Babylon", "Medopersia", "Greece", "Rome", "Angloamerica"]
-    years = ["607", "", "539", "537", "", "331", "", "63", "70", "1914-1918", "", ""] 
+    years = ["607BCE", "", "539BCE", "537BCE", "", "331BCE", "", "63BCE", "70CE", "1914CE", "", ""] 
     yearlines = [2, 3, 2, 2, 3]
     current_yearline = 0
     image_shift = int(dict["daniel2_shift"])
@@ -803,16 +804,13 @@ def create_daniel2():
         c.setFont(font_regular, 8)
         c.setFillColorRGB(0.2, 0.2, 0.2)
         c.drawString(x_position(-4026), y_line - 22, dict[kingdom])
-        current_yearstring = years[current_yearline] + dict["BCE"]
-        if index == 4:
-            current_yearstring = years[current_yearline] + " " + dict["CE"]
+        if years[current_yearline] != "":
+            current_yearstring = dict[years[current_yearline]]
         indentation = stringWidth(current_yearstring, font_regular, 6) + 3
         for yearline in range(yearlines[index]):
             yearstring = ""
             if years[current_yearline] != "":
-                yearstring = years[current_yearline] + " " + dict["BCE"]
-                if current_yearline > 7:
-                    yearstring = years[current_yearline] + " " + dict["CE"]
+                yearstring = dict[years[current_yearline]]
             c.setFont(font_regular, 6)
             c.drawString(x_position(-4026), y_line - 30 - 8 * yearline, yearstring)
             line_daniel2 = "daniel2_" + str(current_yearline+1)

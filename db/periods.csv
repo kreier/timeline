@@ -28,7 +28,7 @@ ww1,1914.867,1918.867,9, ,l,10,1914.867,1918.867
 ww2,1939.867,1945.439,10, ,l,12,1939.867,1945.439
 cold_war,1945,1991,11, ,l,14,1945,1991
 john,96,98,15, ,r,,96,98
-mohammed,570,632.436,37.9, ,r,570(?)-632 CE,570,632.436
+mohammed,570,632.436,36.6, ,r,570(?)-632 CE,570,632.436
 persia,-522,-336,29,persia2,r,,-522,-336
 king_north,-320,37,28,king_north1,r,,-320,66
 king_north2,1871,1945,27,king_north3,l,,1871,1945
@@ -37,8 +37,8 @@ king_north5,2017,2060,29, ,l,,2017,2060
 king_south,-320,-31,31,king_south1,r,,-320,-31
 king_south2,1870,2060,31,king_south3,l,,1870,2060
 time_of_end,1914.867,2060,24.1,time_of_end2,l,,1914.867,2060
-suryavaman2,1113,1150,39.9, ,l,,1113,1150
-notre-dame,1163,1260,40.9, ,l,,1163,1260
+suryavaman2,1113,1150,38.7, ,l,,1113,1150
+notre-dame,1163,1260,40.85, ,l,,1163,1260
 Babylon2,-607,-539,33.5,Babylon_c,l,no explanation,-607,-539
 Medopersia,-539,-331,34.5,Medopersia_c,r,,-539,-331
 Greece,-331,-63,35.5,Greece_c,r,,-331,-63
@@ -67,3 +67,17 @@ wu-zhou,690,705,44, ,r,,690,705
 gonghe,-841,-828,43.2, ,l,,-841,-828
 siloam-tunnel,-740,-732,32, ,l,,-742,-732
 millenium,2060,2100,20.1, ,l,,2060,2120
+khmer_empire,802,1431,39.7,khmer_empire_c,l,,802,1431
+byzantine_empire,330,1453,35.4,byzantine_empire_c,l,,330,1453
+ottoman_empire,1299,1922,38.5,ottoman_empire_c,r,,1299,1922
+holy_roman_empire,800,924,30, ,l,,800,924
+holy_roman_empire2,962,1806,30,holy_roman_empire_c,r,,962,1806
+mongol_empire,1206,1294,20.5, ,l,,1206,1304
+maya_classic,250,952,22.1,maya_classic_c,l,,230,970
+maya_postclassic,948,1539,23.1,maya_postclassic_c,l,,930,1539
+inca_empire,1438,1533,34.3,inca_empire_c,l,,1438,1572
+gupta_empire,319,550,20,gupta_empire_c,r,,270,550
+Teotihuacan,200,550,34.3,Teotihuacan_c,r,,100,750
+Umayyad,661,750,13,Umayyad_c,l,,661,750
+Abbasid,750,1258,12,Abbasid_c,l,,750,1258
+Mamluk,1250,1517,11,Mamluk_c,l,,,
