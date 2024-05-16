@@ -19,7 +19,7 @@ import sys
 import os
 
 # Some general settings
-version  = 4.6
+version  = 4.5
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -180,11 +180,13 @@ def import_dictionary():
     # first import the reference dictionary in english
     reference = "../db/dictionary_reference.csv"
     key_dict = pd.read_csv(reference, encoding='utf8')
+    key_dict = key_dict.fillna(" ")
     for index, row in key_dict.iterrows():
         dict.update({f"{row.key}" : f"{row.text}"})
     # now overwrite with the translated text values
     file_dictionary = "../db/dictionary_" + language + ".csv"
     key_dict = pd.read_csv(file_dictionary, encoding='utf8')
+    key_dict = key_dict.fillna(" ")
     for index, row in key_dict.iterrows():
         dict.update({f"{row.key}" : f"{row.text}"})
     font_regular = "Aptos"
