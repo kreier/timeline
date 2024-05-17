@@ -1,5 +1,5 @@
 key,text,english,notes
-version,4.6,4.5,
+version,4.6,4.6,
 pdf_title,6000 taon na paglalarawan na kasaysayan ng tao ,6000 years human history visualized,
 pdf_subject,Timeline ng sangkatauhan,Timeline of humankind,
 BCE,B.C.E.,B.C.E.,
@@ -7,7 +7,7 @@ CE,C.E.,C.E.,
 year,taon,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,taon,years,
 years_age,taon,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,buwan,month,
 months,buwan,months,
 day,araw,day,
@@ -195,8 +195,8 @@ new_world_translation2,"Binagong “Bagong Sanlibutang Salin ng Banal na Kasulat
 jw_broadcasting,Simula ng jw.broadcasting noong Oktubre 2014,Start of jw.broadcasting in October 2014,
 meeting_workbook,"Bagong pormat ng midweek meeting na may ""workbook ng pagpupulong"" simula Enero 2016",New format of midweek meeting with “meeting workbook” starting January 2016,
 covid19,COVID-19,Covid-19,
-cold_war,"Geopolitical na sitwasyon na may label na ""Cold War"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991,
-timeline_created,"Ang timeline na ito ay ginawa noong 2023, pinakamainit na taon sa kasaysayan ng tao at sa125,000 taon na nakalipas","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
+cold_war,"Geopolitical na sitwasyon tinawag na ""Cold War"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991,
+timeline_created,"Itong timeline ay ginawa - 2023, pinakamainit na taon sa nakalipas 125,000 na panahon","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,Isinulat ang Codex Sinaiticus,Codex Sinaiticus written,
 codex_vaticanus,Isinulat ang Codex Vaticanus,Codex Vaticanus written,
 leningrad_codex,Leningrad Codex na isinulat sa Cairo AD 1008,Leningrad Codex written in Cairo AD 1008,
@@ -395,7 +395,7 @@ Ashoka,Si Ashoka (c. 304-232 BC) ay nagtataguyod ng Budismo,Ashoka (c. 304-232 B
 siloam-tunnel,Pinahaba ni Hezekias ang lagusan ng Siloam,Hezekiah extends Siloam tunnel,c. 742-732 BC
 Angloamerica2,"Ang Anglo-Amerikano ay sumasagisag sa paa na bakal na hinaluan ng putik sa hula sa Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",
 Manetho,Isinulat ni Manetho ang Aegyptiaca,Manetho writes Aegyptiaca,
-tribulation,"Ang Malaking Kapighatian (Marcos 13:19; Daniel 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
+tribulation,"Ang Malaking Kapighatian (Mar 13:19; Dan 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
 destruction_babylon,"Pagkawasak ng Babilonyang Dakila (Apocalipsis 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
 gog_of_magog,"Pag-atake ni Gog ng Magog (Ezekiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
 sheep_goat,"Ang mga naninirahan sa lupa ay hahatulan, ibubukod ang mga tupa at kambing (Mateo 25:31-33)","Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
@@ -439,7 +439,7 @@ Abbasid,750 – 1258 C.E.,750 – 1258 C.E.,
 Abbasid_c,Abbasid Caliphate,Abbasid Caliphate,
 Mamluk,1250 – 1517 C.E.,1250 – 1517 C.E.,
 Mamluk_c,Sultanato ng Mamluk,Mamluk Sultanate,
-ur3,ur III dynasty 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
+ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
 hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
 Al-Khwarizmi,isinulat ni al Khwarizmi ang Al Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra),
 al-azhar,Ang Al Azhar University ay itinatag sa Cairo,Al-Azhar University is established in Cairo,
