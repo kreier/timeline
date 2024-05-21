@@ -219,22 +219,28 @@ def import_dictionary():
     print(f"Version {version}")
 
 def number_to_string(number, language):
-    list_languages_special_numerals = ["ar", "fa", "si", "km"]
+    # list_languages_special_numerals = ["ar", "fa", "si", "km"]
+    languages_special_numerals = {'ar': 'arabic_numerals',
+                                  'fa': 'farsi_numerals',
+                                  'si': 'sinhala_numerals',
+                                  'km': 'khmer_numerals'}
     arabic_numerals = {
-        '0': '០',  '1': '១',  '2': '២',  '3': '៣',  '4': '៤',
-        '5': '៥',  '6': '៦',  '7': '៧',  '8': '៨',  '9': '៩'}
+        '0': '٠',  '1': '١',  '2': '٢',  '3': '٣',  '4': '٤',
+        '5': '٥',  '6': '٦',  '7': '٧',  '8': '٨',  '9': '٩'}
     farsi_numerals = {
-        '0': '០',  '1': '១',  '2': '២',  '3': '៣',  '4': '៤',
-        '5': '៥',  '6': '៦',  '7': '៧',  '8': '៨',  '9': '៩'}
+        '0': '۰',  '1': '۱',  '2': '۲',  '3': '۳',  '4': '۴',
+        '5': '۵',  '6': '۶',  '7': '۷',  '8': '۸',  '9': '۹'}
     sinhala_numerals = {
-        '0': '០',  '1': '១',  '2': '២',  '3': '៣',  '4': '៤',
-        '5': '៥',  '6': '៦',  '7': '៧',  '8': '៨',  '9': '៩'}
+        '0': '෦',  '1': '෧',  '2': '෨',  '3': '෩',  '4': '෪',
+        '5': '෫',  '6': '෬',  '7': '෭',  '8': '෮',  '9': '෯'}
     khmer_numerals = {
         '0': '០',  '1': '១',  '2': '២',  '3': '៣',  '4': '៤',
         '5': '៥',  '6': '៦',  '7': '៧',  '8': '៨',  '9': '៩'}
-    if language in list_languages_special_numerals:
-        if language == "km":
-            new_numerals = khmer_numerals
+    if language in languages_special_numerals:
+        new_numerals = locals()[languages_special_numerals[language]]
+
+        # if language == "km":
+        #     new_numerals = khmer_numerals
         return ''.join(new_numerals[digit] for digit in str(number))
     else:
         return str(number)
