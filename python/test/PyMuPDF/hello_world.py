@@ -1,7 +1,7 @@
-import fitz  # PyMuPDF
+import pymupdf  # PyMuPDF
 
 # Create a new PDF
-pdf_document = fitz.open()
+pdf_document = pymupdf.open()
 
 # Add a page
 page = pdf_document.new_page()
