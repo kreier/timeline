@@ -1,0 +1,12 @@
+# About PyMuPDF
+
+It is lightweight and works out of the box. It has an extension for other fonts:
+
+https://pypi.org/project/pymupdf-fonts/ from December 2021 1.0.5
+
+In general for more fonts:
+
+https://pypi.org/project/fonttools/ from April 2024 4.51.0
+
+pip install fonttools[unicode]
+
