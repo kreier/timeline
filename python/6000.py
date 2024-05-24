@@ -18,7 +18,7 @@ import datetime
 import sys
 import os
 
-# Some general settings - implied area from 4075 BCE to 
+# Some general settings - implied area from 4075 BCE to 2075 CE
 version  = 4.7
 language = "en"
 language_str = "English"
@@ -805,7 +805,10 @@ def include_pictures_svg():
     font_regular = "Aptos"
     for index, row in pictures_svg.iterrows():
         if row.year != 0:
-            drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "r")
+            if right_to_left:
+                drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "l")
+            else:
+                drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "r")
         location = "../images/" + row.key + ".svg"
         drawing = svg2rlg(location)
         factor = row.height / drawing.height
@@ -821,11 +824,17 @@ def include_pictures_svg():
     population_color = color["world_population"]
     c.setFont(font_regular, 10)
     c.setFillColorRGB(population_color[0], population_color[1], population_color[2])
-    c.drawString(x_position(-3707), y_position(19.7),dict["world_population"])
+    if right_to_left:
+        c.drawRightString(x_position(-3707), y_position(19.7),dict["world_population"])
+    else:
+        c.drawString(x_position(-3707), y_position(19.7),dict["world_population"])
     # c.setFont(font_regular, 4)
     c.setFont("Aptos", 4)
     c.setFillColorRGB(0.1, 0.1, 0.6)
-    c.drawString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
+    if right_to_left:
+        c.drawRightString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
+    else:
+        c.drawString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
 
 def tribulation_graphics(row):
     reference_y = y_position(row) - 2
@@ -842,10 +851,12 @@ def tribulation_graphics(row):
         c.setFillColorRGB(co[0], co[1], co[2])
         c.rect(x_f + x_position(2038)-x_position(2035), reference_y, x_position(2038)-x_position(2035), 11.64, fill = 1, stroke = 0)
         triangles = [[-0.1, -0.054, 6.1, -0.054, 3, 1.64], [0, 10, 0, 11.64, 3, 11.64], [3, 11.64, 6, 11.64, 6, 10]]
+        dy = dots_year
+        if right_to_left: dy = -dy
         for triangle in range(3):
-            points = [x_f + triangles[triangle][0] * dots_year, reference_y + triangles[triangle][1], 
-                      x_f + triangles[triangle][2] * dots_year, reference_y + triangles[triangle][3],
-                      x_f + triangles[triangle][4] * dots_year, reference_y + triangles[triangle][5]]
+            points = [x_f + triangles[triangle][0] * dy, reference_y + triangles[triangle][1], 
+                      x_f + triangles[triangle][2] * dy, reference_y + triangles[triangle][3],
+                      x_f + triangles[triangle][4] * dy, reference_y + triangles[triangle][5]]
             d.add(Polygon(points, fillColor=(1, 1, 1), strokeColor=(1, 1, 1), strokeWidth = 0.0))
 
 def create_tribulation():
@@ -903,14 +914,25 @@ def create_daniel2():
 def create_timestamp():
     timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "objects", "terahfam"]
     for index, detail in enumerate(timestamp_details):
-        drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 38 - 4.5 * index, "r")
-        counter_detail = str(eval("counter_" + detail))
-        drawString(counter_detail,    4, x1 + 5.4, y1 + 38 - 4.5 * index, "l")
+        if right_to_left:
+            drawString(f"{dict[detail]}", 4, x_position(-4075) - 6,   y1 + 38 - 4.5 * index, "l")
+            counter_detail = str(eval("counter_" + detail))
+            drawString(counter_detail,    4, x_position(-4075) - 5.4, y1 + 38 - 4.5 * index, "r")
+        else:
+            drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 38 - 4.5 * index, "r")
+            counter_detail = str(eval("counter_" + detail))
+            drawString(counter_detail,    4, x1 + 5.4, y1 + 38 - 4.5 * index, "l")
     c.setFont("Aptos", 4)
-    c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
+    if right_to_left:
+        c.drawRightString(x_position(-4075), y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
+    else:
+        c.drawString(x_position(-4075), y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
     if language in supported:
         qr_file = "../images/qr-" + language + ".png"
-        c.drawImage(qr_file, x_position(-4026), y_position(9), width=12*mm, height=12*mm)
+        if right_to_left:
+            c.drawImage(qr_file, x_position(-4026) - 12*mm, y_position(9), width=12*mm, height=12*mm)
+        else:
+            c.drawImage(qr_file, x_position(-4026), y_position(9), width=12*mm, height=12*mm)
         c.setFontSize(4.5)
         c.rotate(90)
         timestamp = str(datetime.datetime.now())
