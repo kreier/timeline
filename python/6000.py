@@ -18,13 +18,8 @@ import datetime
 import sys
 import os
 
-<<<<<<< Updated upstream
-# Some general settings
-version  = 4.5
-=======
 # Some general settings - implied area from 4075 BCE to 
-version  = 4.6
->>>>>>> Stashed changes
+version  = 4.7
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -223,16 +218,7 @@ def import_dictionary():
             fontsize_regular = 9
         if language == "ar" or language == "fa":
             fontsize_regular = 8
-<<<<<<< Updated upstream
-    # special_languages = ["jp", "kr", "sc", "ar", "si", "thai"]
-    # for special_language in special_languages:
-    #     if language == special_language:
-    #         abbreviation = language.upper()
-    #         font_regular = "Noto" + abbreviation
-    #         font_bold    = "Noto" + abbreviation + "-bold"
-=======
             right_to_left = True
->>>>>>> Stashed changes
     print(f"Imported dictionary: {len(key_dict)} keywords")
     version = float(dict["version"])
     print(f"Version {version}")
@@ -273,10 +259,7 @@ def create_drawing_area():
     dots_year = drawing_width / 6150
 
 def create_horizontal_axis():
-<<<<<<< Updated upstream
-=======
     global language, right_to_left
->>>>>>> Stashed changes
     # axis around drawing area
     c.setLineWidth(0.8)
     c.setStrokeColorCMYK(1.00, 1.00, 0, 0.50) 
@@ -822,16 +805,16 @@ def tribulation_graphics(row):
     reference_y = y_position(row) - 2
     co = color["tribulation1"]
     c.setFillColorRGB(co[0], co[1], co[2])
-    c.rect(x_position(2030), reference_y, 5 * dots_year, 10, fill = 1, stroke = 0)
-    c.rect(x_position(2053), reference_y, 7 * dots_year, 10, fill = 1, stroke = 0)
+    c.rect(x_position(2030), reference_y, x_position(2035)-x_position(2030), 10, fill = 1, stroke = 0) # box 2030-2035
+    c.rect(x_position(2053), reference_y, x_position(2060)-x_position(2053), 10, fill = 1, stroke = 0) # box 2053-2060
     for falter in range(3):
         x_f = x_position(2035 + 6 * falter)
         co = color["tribulation2"]
         c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_f, reference_y, 3 * dots_year, 11.64, fill = 1, stroke = 0)
+        c.rect(x_f, reference_y, x_position(2038)-x_position(2035), 11.64, fill = 1, stroke = 0)
         co = color["tribulation3"]
         c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_f + 3 * dots_year, reference_y, 3 * dots_year, 11.64, fill = 1, stroke = 0)
+        c.rect(x_f + x_position(2038)-x_position(2035), reference_y, x_position(2038)-x_position(2035), 11.64, fill = 1, stroke = 0)
         triangles = [[-0.1, -0.054, 6.1, -0.054, 3, 1.64], [0, 10, 0, 11.64, 3, 11.64], [3, 11.64, 6, 11.64, 6, 10]]
         for triangle in range(3):
             points = [x_f + triangles[triangle][0] * dots_year, reference_y + triangles[triangle][1], 
@@ -841,9 +824,13 @@ def tribulation_graphics(row):
 
 def create_tribulation():
     # draw the band above last days (24.1) and king of the south anglo-america (36)
+    global fontsize_regular
     tribulation_lines = [23.1, 35.4]
     for row in tribulation_lines:
-        drawString(dict["tribulation"], 10, x_position(2027), y_position(row), "l")
+        if right_to_left:
+            drawString(dict["tribulation"], fontsize_regular, x_position(2027), y_position(row), "r")
+        else:
+            drawString(dict["tribulation"], fontsize_regular, x_position(2027), y_position(row), "l")
         tribulation_graphics(row)
 
 def create_daniel2():
