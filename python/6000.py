@@ -23,7 +23,7 @@ version  = 4.7
 language = "en"
 language_str = "English"
 color_scheme = "normal"
-border_lr    = 10*mm                      # space left/right for roll holders - usually 60
+border_lr    = 10*mm                      # space left/right usually 10, for roll holders 60
 border_tb    = 7*mm                       # space for the years top and bottom
 page_width   = 4*297*mm + 2 * border_lr   # 4x A4 landscape
 page_height  = 210*mm                     #    A4 landscape height
@@ -223,6 +223,33 @@ def import_dictionary():
     version = float(dict["version"])
     print(f"Version {version}")
 
+def number_to_string(number, language):
+    # list_languages_special_numerals = ["ar", "fa", "si", "km"]
+    languages_special_numerals = {'ar': 'arabic_numerals',
+                                  'fa': 'farsi_numerals',
+                                  'si': 'sinhala_numerals',
+                                  'km': 'khmer_numerals'}
+    arabic_numerals = {
+        '0': '٠',  '1': '١',  '2': '٢',  '3': '٣',  '4': '٤',
+        '5': '٥',  '6': '٦',  '7': '٧',  '8': '٨',  '9': '٩'}
+    farsi_numerals = {
+        '0': '۰',  '1': '۱',  '2': '۲',  '3': '۳',  '4': '۴',
+        '5': '۵',  '6': '۶',  '7': '۷',  '8': '۸',  '9': '۹'}
+    sinhala_numerals = {
+        '0': '෦',  '1': '෧',  '2': '෨',  '3': '෩',  '4': '෪',
+        '5': '෫',  '6': '෬',  '7': '෭',  '8': '෮',  '9': '෯'}
+    khmer_numerals = {
+        '0': '០',  '1': '១',  '2': '២',  '3': '៣',  '4': '៤',
+        '5': '៥',  '6': '៦',  '7': '៧',  '8': '៨',  '9': '៩'}
+    if language in languages_special_numerals:
+        new_numerals = locals()[languages_special_numerals[language]]
+
+        # if language == "km":
+        #     new_numerals = khmer_numerals
+        return ''.join(new_numerals[digit] for digit in str(number))
+    else:
+        return str(number)
+
 # Import colors for all keys
 def import_colors(c_scheme):
     global color, color_scheme
@@ -288,17 +315,10 @@ def create_horizontal_axis():
             c.line(tick_s, y2, tick_s, y2 + 1*mm)
 
         # label the year
-        year = str(abs((100 * i) - 4000))
+        # year = str(abs((100 * i) - 4000))
+        year = number_to_string(abs((100 * i) - 4000), language)        
         # offset_x = stringWidth(year, font_regular, 11) * 0.5
         print_year = True
-        ''' a remnant from the fix in v4.0 before making the page wider by 20 mm left/right
-        if i == 0:                                               # the year 4000 BCE
-            if stringWidth(dict["BCE"], font_regular, 11) > 30:
-                print_year = False
-        if i == 60:                                              # the year 2000 CE
-            if stringWidth(dict["CE"], font_regular, 11) > 30:
-                print_year = False
-        '''
         if i == 39:                                              # the year 100 BCE
             if stringWidth(dict["BCE"], font_regular, 11) > 60:
                 print_year = False
@@ -344,13 +364,18 @@ def create_adam_moses():
     # unique pattern for people from Adam to Moses, and eventline for deluge
     global counter_people
     global counter_events
+    global language
 
     # Blue line for the deluge in 2370 BCE
     c.setLineWidth(1)
     c.setStrokeColorRGB(0, 0, 1)
     date_deluge = x_position(-2370)
     c.line(date_deluge, y1, date_deluge, y2)
-    drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
+    # drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
+    if right_to_left:
+        drawString(f"{dict['Deluge']} {number_to_string(2370, language)} {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "l")
+    else:
+        drawString(f"{dict['Deluge']} {number_to_string(2370, language)} {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")    
     counter_events += 1
 
     # one special for Job
@@ -371,7 +396,8 @@ def create_adam_moses():
         born = -year(row.born)
         died = -year(row.died)
         person = dict[f"{row.key}"]
-        details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {born - died} {dict['years_age']}"
+        # details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {born - died} {dict['years_age']}"
+        details_r = f"{number_to_string(born, language)} {dict['to']} {number_to_string(died, language)} {dict['BCE']} - {number_to_string(born - died, language)} {dict['years_age']}"
         if language == "ilo":
             details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {dict['years_age']} {born - died}"
         x_box = x_position(row.born)
@@ -400,7 +426,7 @@ def create_adam_moses():
         else:
             drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
-            father_age_when_son_born = f"{father_born - born} {dict['years_age']}"
+            father_age_when_son_born = f"{number_to_string(father_born - born, language)} {dict['years_age']}"            
             if language == "ilo":
                 father_age_when_son_born = f"{dict['years_age']} {father_born - born}"
             if right_to_left:
