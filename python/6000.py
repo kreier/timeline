@@ -316,7 +316,7 @@ def create_horizontal_axis():
 
         # label the year
         # year = str(abs((100 * i) - 4000))
-        year = number_to_string(abs((100 * i) - 4000), language)        
+        year = number_to_string(abs((100 * i) - 4000), language)
         # offset_x = stringWidth(year, font_regular, 11) * 0.5
         print_year = True
         if i == 39:                                              # the year 100 BCE
@@ -426,7 +426,7 @@ def create_adam_moses():
         else:
             drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
-            father_age_when_son_born = f"{number_to_string(father_born - born, language)} {dict['years_age']}"            
+            father_age_when_son_born = f"{number_to_string(father_born - born, language)} {dict['years_age']}"
             if language == "ilo":
                 father_age_when_son_born = f"{dict['years_age']} {father_born - born}"
             if right_to_left:

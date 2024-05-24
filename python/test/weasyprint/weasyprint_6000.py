@@ -3,5 +3,4 @@
 print("Let's get started!")
 
 from weasyprint import HTML
-HTML('https://weasyprint.org/').write_pdf('/tmp/weasyprint-website.pdf')
-
+HTML('https://weasyprint.org/').write_pdf('./weasyprint-website.pdf')
