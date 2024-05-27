@@ -19,7 +19,7 @@ import sys
 import os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 4.7
+version  = 4.6
 language = "en"
 language_str = "English"
 color_scheme = "normal"
