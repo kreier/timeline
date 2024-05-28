@@ -124,9 +124,12 @@ https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81C4HVcpl4L._AC_SL
 https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_bible_history_cart.jpg
 -->
 
-To be continued and get inspired ...
+Time of 12 Prophets from 850 BCE to 400 BCE
 
-### Short history of this project - with just pictures
+![time of 12 prophets](docs/12prophets.jpg)
+
+
+## Short history of this project - with just pictures
 
 #### 2009
 

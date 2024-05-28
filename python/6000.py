@@ -18,18 +18,19 @@ import datetime
 import sys
 import os
 
-# Some general settings
-version  = 4.5
+# Some general settings - implied area from 4075 BCE to 2075 CE
+version  = 4.6
 language = "en"
 language_str = "English"
 color_scheme = "normal"
-border_lr    = 10*mm                      # space left/right for roll holders - usually 60
+border_lr    = 10*mm                      # space left/right usually 10, for roll holders 60
 border_tb    = 7*mm                       # space for the years top and bottom
 page_width   = 4*297*mm + 2 * border_lr   # 4x A4 landscape
 page_height  = 210*mm                     #    A4 landscape height
 pdf_author   = "https://github.com/kreier/timeline"
 fontsize_regular = 10
 vertical_lines  = False
+right_to_left   = False   # for Arabic, Hebrew, Persian and other RTL writing systems
 
 dict  = {}
 color = {}
@@ -121,9 +122,12 @@ def day(date_float):
     day = int((month - int(month))*30) + 1
     return day
 
-def x_position(date_float):
-    global x1
-    return x1 + (4075 + date_float) * dots_year
+def x_position(date_float): # area is 6150 years wide
+    global x1, right_to_left
+    if not right_to_left:
+        return x1 + (4075 + date_float) * dots_year
+    else:
+        return x1 + (2075 - date_float) * dots_year
 
 def y_position(row_y): # with update 2024/03/12 to height 204 -> 210mm we now have 46 lines
     global y2
@@ -175,7 +179,7 @@ def initiate_counters():
 
 # Import strings for the respective language for names and comments
 def import_dictionary():
-    global dict, font_regular, font_bold, version, fontsize_regular
+    global dict, font_regular, font_bold, version, fontsize_regular, right_to_left
     dict = {}
     # first import the reference dictionary in english
     reference = "../db/dictionary_reference.csv"
@@ -214,15 +218,37 @@ def import_dictionary():
             fontsize_regular = 9
         if language == "ar" or language == "fa":
             fontsize_regular = 8
-    # special_languages = ["jp", "kr", "sc", "ar", "si", "thai"]
-    # for special_language in special_languages:
-    #     if language == special_language:
-    #         abbreviation = language.upper()
-    #         font_regular = "Noto" + abbreviation
-    #         font_bold    = "Noto" + abbreviation + "-bold"
+            right_to_left = True
     print(f"Imported dictionary: {len(key_dict)} keywords")
     version = float(dict["version"])
     print(f"Version {version}")
+
+def number_to_string(number, language):
+    # list_languages_special_numerals = ["ar", "fa", "si", "km"]
+    languages_special_numerals = {'ar': 'arabic_numerals',
+                                  'fa': 'farsi_numerals',
+                                  'si': 'sinhala_numerals',
+                                  'km': 'khmer_numerals'}
+    arabic_numerals = {
+        '0': '٠',  '1': '١',  '2': '٢',  '3': '٣',  '4': '٤',
+        '5': '٥',  '6': '٦',  '7': '٧',  '8': '٨',  '9': '٩'}
+    farsi_numerals = {
+        '0': '۰',  '1': '۱',  '2': '۲',  '3': '۳',  '4': '۴',
+        '5': '۵',  '6': '۶',  '7': '۷',  '8': '۸',  '9': '۹'}
+    sinhala_numerals = {
+        '0': '෦',  '1': '෧',  '2': '෨',  '3': '෩',  '4': '෪',
+        '5': '෫',  '6': '෬',  '7': '෭',  '8': '෮',  '9': '෯'}
+    khmer_numerals = {
+        '0': '០',  '1': '១',  '2': '២',  '3': '៣',  '4': '៤',
+        '5': '៥',  '6': '៦',  '7': '៧',  '8': '៨',  '9': '៩'}
+    if language in languages_special_numerals:
+        new_numerals = locals()[languages_special_numerals[language]]
+
+        # if language == "km":
+        #     new_numerals = khmer_numerals
+        return ''.join(new_numerals[digit] for digit in str(number))
+    else:
+        return str(number)
 
 # Import colors for all keys
 def import_colors(c_scheme):
@@ -260,6 +286,7 @@ def create_drawing_area():
     dots_year = drawing_width / 6150
 
 def create_horizontal_axis():
+    global language, right_to_left
     # axis around drawing area
     c.setLineWidth(0.8)
     c.setStrokeColorCMYK(1.00, 1.00, 0, 0.50) 
@@ -288,17 +315,10 @@ def create_horizontal_axis():
             c.line(tick_s, y2, tick_s, y2 + 1*mm)
 
         # label the year
-        year = str(abs((100 * i) - 4000))
+        # year = str(abs((100 * i) - 4000))
+        year = number_to_string(abs((100 * i) - 4000), language)
         # offset_x = stringWidth(year, font_regular, 11) * 0.5
         print_year = True
-        ''' a remnant from the fix in v4.0 before making the page wider by 20 mm left/right
-        if i == 0:                                               # the year 4000 BCE
-            if stringWidth(dict["BCE"], font_regular, 11) > 30:
-                print_year = False
-        if i == 60:                                              # the year 2000 CE
-            if stringWidth(dict["CE"], font_regular, 11) > 30:
-                print_year = False
-        '''
         if i == 39:                                              # the year 100 BCE
             if stringWidth(dict["BCE"], font_regular, 11) > 60:
                 print_year = False
@@ -311,10 +331,13 @@ def create_horizontal_axis():
             c.setLineWidth(1.0)
             c.line(tick_x, y1, tick_x, y1 - 6*mm)
             c.line(tick_x, y2, tick_x, y2 + 6*mm)
-            c.drawString(tick_x + 2, y1 - 16, dict["CE"])
-            c.drawString(tick_x + 2, y2 +  8, dict["CE"])
-            c.drawRightString(tick_x - 2, y1 - 16, dict["BCE"])
-            c.drawRightString(tick_x - 2, y2 +  8, dict["BCE"])
+            if not right_to_left:
+                c.drawString(tick_x + 2, y1 - 16, dict["CE"])
+                c.drawString(tick_x + 2, y2 +  8, dict["CE"])
+                c.drawRightString(tick_x - 2, y1 - 16, dict["BCE"])
+                c.drawRightString(tick_x - 2, y2 +  8, dict["BCE"])
+            else:
+                print("Line to fix for RTL 340")
         
         if print_year:
             c.drawCentredString(tick_x, y1 - 16, year)           # bottom
@@ -329,22 +352,30 @@ def create_horizontal_axis():
             if i > 28 and i < 35:
                 c.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
 
-    c.drawRightString(x1 + 20, y1 - 16, dict["BCE"])
-    c.drawRightString(x1 + 20, y2 + 8 , dict["BCE"])
-    c.drawString(x2 - 20, y1 - 16, dict["CE"])
-    c.drawString(x2 - 20, y2 + 8,  dict["CE"])
+    if not right_to_left:
+        c.drawRightString(x1 + 20, y1 - 16, dict["BCE"])
+        c.drawRightString(x1 + 20, y2 + 8 , dict["BCE"])
+        c.drawString(x2 - 20, y1 - 16, dict["CE"])
+        c.drawString(x2 - 20, y2 + 8,  dict["CE"])
+    else:
+        print("Something to fix for RTL in 361")
 
 def create_adam_moses():
     # unique pattern for people from Adam to Moses, and eventline for deluge
     global counter_people
     global counter_events
+    global language
 
     # Blue line for the deluge in 2370 BCE
     c.setLineWidth(1)
     c.setStrokeColorRGB(0, 0, 1)
     date_deluge = x_position(-2370)
     c.line(date_deluge, y1, date_deluge, y2)
-    drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
+    # drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
+    if right_to_left:
+        drawString(f"{dict['Deluge']} {number_to_string(2370, language)} {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "l")
+    else:
+        drawString(f"{dict['Deluge']} {number_to_string(2370, language)} {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")    
     counter_events += 1
 
     # one special for Job
@@ -353,7 +384,8 @@ def create_adam_moses():
     c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
     y_start = y_position(job_y)
-    x_width = (1675 - 1485) * dots_year
+    # x_width = (1675 - 1485) * dots_year
+    x_width = x_position(1675) - x_position(1485)
     c.rect(x_start, y_start, x_width, 2, fill = 1, stroke = 0)
 
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
@@ -364,14 +396,16 @@ def create_adam_moses():
         born = -year(row.born)
         died = -year(row.died)
         person = dict[f"{row.key}"]
-        details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {born - died} {dict['years_age']}"
+        # details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {born - died} {dict['years_age']}"
+        details_r = f"{number_to_string(born, language)} {dict['to']} {number_to_string(died, language)} {dict['BCE']} - {number_to_string(born - died, language)} {dict['years_age']}"
         if language == "ilo":
             details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {dict['years_age']} {born - died}"
         x_box = x_position(row.born)
-        y_box = y2 - index*21 - 21
+        y_box = y2 - index * 21 - 21
         if index == 23:  # Moises
             y_box -= 12
-        x_boxwidth = (born - died) * dots_year
+        # x_boxwidth = (born - died) * dots_year
+        x_boxwidth = x_position(born) - x_position(died)
         x_text = x_box + x_boxwidth * 0.5
         co = color[f"{row.key}"]
         c.setFillColorRGB(co[0], co[1], co[2])
@@ -387,17 +421,28 @@ def create_adam_moses():
             c.setFont(font_bold, 13)
             y_box += 1
         c.drawCentredString(x_text, y_box + 5, person)
-        drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
+        if right_to_left:
+            drawString(details_r, 12, x_box + x_boxwidth - 2, y_box + 6, "l")
+        else:
+            drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
         if index > 0 and index < 23:
-            father_age_when_son_born = f"{father_born - born} {dict['years_age']}"
+            father_age_when_son_born = f"{number_to_string(father_born - born, language)} {dict['years_age']}"
             if language == "ilo":
                 father_age_when_son_born = f"{dict['years_age']} {father_born - born}"
-            drawString(father_age_when_son_born, 9, x_box - 3, y_box + 11, "l")
+            if right_to_left:
+                drawString(father_age_when_son_born, 9, x_box + 3, y_box + 11, "r")
+            else:
+                drawString(father_age_when_son_born, 9, x_box - 3, y_box + 11, "l")
         father_born = born
         counter_people += 1
 
 def draw_event(text, date, ys, ye, yt, wl, pos):
     global fontsize_regular
+    if right_to_left:
+        if pos == "l":
+            pos = "r"
+        else:
+            pos = "l"
     x_line = x_position(date)
     x_txt  = x_line + 4
     y_txt  = y_position(yt)
@@ -438,7 +483,8 @@ def create_judges():
         end   = row.end
         x_box = x_position(start)
         y_box = y_position(row.row_y)
-        x_boxwidth = (end -  start) * dots_year
+        # x_boxwidth = (end -  start) * dots_year
+        x_boxwidth = x_position(end) - x_position(start)
         c.setLineWidth(0.2)
         c.setStrokeColorRGB(0, 0, 0)
         co = color['judges']
@@ -458,7 +504,7 @@ def create_judges():
         counter_judges += 1
 
 def create_kings():
-    global counter_kings, fontsize_regular
+    global counter_kings, fontsize_regular, right_to_left
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     kings = pd.read_csv("../db/kings.csv", encoding='utf8')
     print("Imported data of kings:", len(kings))
@@ -493,16 +539,11 @@ def create_kings():
             time_reigned += f"{row.days} {dict['days']}"
 
         detail += f"{-year(start)}-{-year(end)} {time_reigned})" + detail_born
-        if index < 23:
-            detail_l = ""
-            detail_r = detail
-        else:
-            detail_l = detail
-            detail_r = ""
         x_box  = x_position(start) 
         x_born = x_position(born)
         y_box  = y_position(row.row_y)
-        x_boxwidth = (end -  start) * dots_year
+        # x_boxwidth = (end -  start) * dots_year
+        x_boxwidth = x_position(end) - x_position(start)        
         # horizontal T-graph for time before coming king
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
@@ -513,8 +554,16 @@ def create_kings():
         c.setFillColorRGB(co[0], co[1], co[2])
         c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
         c.setFillColorRGB(0, 0, 0)
-        drawString(detail_r, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
-        drawString(detail_l, fontsize_regular, x_box - 2, y_box, "l")
+        if right_to_left:
+            if index < 23:
+                drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box, "l")
+            else:
+                drawString(detail, fontsize_regular, x_box + 2, y_box, "r")
+        else:
+            if index < 23:
+                drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
+            else:
+                drawString(detail, fontsize_regular, x_box - 2, y_box, "l")
         counter_kings += 1
 
 def faded_color(red, green, blue, percent):
@@ -538,7 +587,8 @@ def text_with_timebar(text, row, year_start, year_end, R, G, B, exact):
     global fontsize_regular
     x_box = x_position(year_start)
     y_box = y_position(row)
-    x_boxwidth = (year_end -  year_start) * dots_year
+    # x_boxwidth = (year_end -  year_start) * dots_year
+    x_boxwidth = x_position(year_end) - x_position(year_start)    
     timebar(x_box, y_box + 10, x_boxwidth, R, G, B, exact)
     c.setFont(font_regular, 10)
     c.setFillColorRGB(0, 0, 0)
@@ -583,7 +633,8 @@ def create_objects():
     co = color['objects']
     for index, row in objects.iterrows():
         if row.key in cunei:
-            x_boxwidth = (row.end -  row.start) * dots_year
+            # x_boxwidth = (row.end -  row.start) * dots_year
+            x_boxwidth = x_position(row.end) - x_position(row.start)
             timebar(x_position(row.start), y_position(row.row_y) + 10, x_boxwidth, co[0], co[1], co[2], False)
             c.setFont("NotoCuneiform", 9)
             c.setFillColorRGB(0, 0, 0)
@@ -615,7 +666,8 @@ def create_caesars():
         x_box  = x_position(start)
         x_born = x_position(born)
         y_box  = y_position(row.row_y)
-        x_boxwidth = (end -  start) * dots_year
+        # x_boxwidth = (end -  start) * dots_year
+        x_boxwidth = x_position(end) - x_position(start)                
         co = color['caesars']
         c.setFillColorRGB(co[0], co[1], co[2])
 
@@ -642,14 +694,16 @@ def create_periods():
         key   = row.key
         x_box = x_position(start)
         y_box = y_position(row.row_y)
-        x_boxwidth = (end - start) * dots_year
+        # x_boxwidth = (end - start) * dots_year
+        x_boxwidth = x_position(end) - x_position(start)                
         co = color[f"{row.key}"]
         c.setFillColorRGB(co[0], co[1], co[2])
         c.setLineWidth(0.3)
         c.setStrokeColorRGB(0, 0, 0)
         c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
         if row.end_fade > row.end:
-            fade_width = (row.end_fade - row.end) * dots_year
+            # fade_width = (row.end_fade - row.end) * dots_year
+            fade_width = x_position(row.end_fade) - x_position(row.end)
             x_boxwidth += fade_width
             fade_steps = 50
             for i in range(fade_steps):
@@ -657,7 +711,8 @@ def create_periods():
                 c.setFillColorRGB(cl[0], cl[1], cl[2])
                 c.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps-0.2, y_box - 3, fade_width / 45, 12, fill = 1, stroke = 0)
         if row.start_fade < row.start:
-            fade_width = (row.start - row.start_fade) * dots_year + 1
+            # fade_width = (row.start - row.start_fade) * dots_year + 1
+            fade_width = x_position(row.start) - x_position(row.start_fade)
             x_boxwidth += fade_width
             x_box = x_position(row.start_fade)
             fade_steps = 50
@@ -670,15 +725,22 @@ def create_periods():
         if len(row.text_center) > 1:
             detail_c = dict[row.text_center]
             textsize = fontsize_regular
-            while stringWidth(detail_c, font_bold, textsize, 'utf8') > x_boxwidth and textsize > 4:
+            while stringWidth(detail_c, font_bold, textsize, 'utf8') > abs(x_boxwidth) and textsize > 4:
                 textsize -= 1
                 print(textsize, " ", detail_c)
             drawString(detail_c, textsize, x_box + x_boxwidth * 0.5, y_box, "c")
         detail = dict[key]
-        if row.location_description == "l":
-            drawString(detail, fontsize_regular, x_box - 2, y_box, "l")
+        direction = row.location_description
+        if right_to_left:
+            if row.location_description == "r":
+                drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box, "l")
+            else:
+                drawString(detail, fontsize_regular, x_box + 2, y_box, "r")
         else:
-            drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
+            if row.location_description == "l":
+                drawString(detail, fontsize_regular, x_box - 2, y_box, "l")
+            else:
+                drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
         counter_periods += 1
 
 def create_terah_familytree():
@@ -721,10 +783,17 @@ def include_pictures():
     current_font = font_regular
     font_regular = "Aptos"
     for index, row in pictures.iterrows():
-        if row.year != "0":
-            drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "r")
         location = "../images/" + row.key
-        c.drawImage(location, x_position(row.x), y_position(row.y), width=row.width*mm, height=row.height*mm)
+        local_x = x_position(row.x)
+        if right_to_left:
+            if row.year != "0":
+                drawString(str(row.year), 5.9, local_x, y_position(row.y) - 5.3, "l")
+            local_x -= row.width*mm
+            c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
+        else:
+            if row.year != "0":
+                drawString(str(row.year), 5.9, local_x, y_position(row.y) - 5.3, "r")
+            c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
     font_regular = current_font
 
 
@@ -736,51 +805,69 @@ def include_pictures_svg():
     font_regular = "Aptos"
     for index, row in pictures_svg.iterrows():
         if row.year != 0:
-            drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "r")
+            if right_to_left:
+                drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "l")
+            else:
+                drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "r")
         location = "../images/" + row.key + ".svg"
         drawing = svg2rlg(location)
         factor = row.height / drawing.height
         sx = sy = factor
         drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
         drawing.scale(sx, sy)
-        renderPDF.draw(drawing, c, x_position(row.x), y_position(row.y))
+        if right_to_left:
+            renderPDF.draw(drawing, c, x_position(row.x) - drawing.width, y_position(row.y))
+        else:
+            renderPDF.draw(drawing, c, x_position(row.x), y_position(row.y))
     font_regular = current_font
     # text for world population graphic
     population_color = color["world_population"]
     c.setFont(font_regular, 10)
     c.setFillColorRGB(population_color[0], population_color[1], population_color[2])
-    c.drawString(x_position(-3707), y_position(19.7),dict["world_population"])
+    if right_to_left:
+        c.drawRightString(x_position(-3707), y_position(19.7),dict["world_population"])
+    else:
+        c.drawString(x_position(-3707), y_position(19.7),dict["world_population"])
     # c.setFont(font_regular, 4)
     c.setFont("Aptos", 4)
     c.setFillColorRGB(0.1, 0.1, 0.6)
-    c.drawString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
+    if right_to_left:
+        c.drawRightString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
+    else:
+        c.drawString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
 
 def tribulation_graphics(row):
     reference_y = y_position(row) - 2
     co = color["tribulation1"]
     c.setFillColorRGB(co[0], co[1], co[2])
-    c.rect(x_position(2030), reference_y, 5 * dots_year, 10, fill = 1, stroke = 0)
-    c.rect(x_position(2053), reference_y, 7 * dots_year, 10, fill = 1, stroke = 0)
+    c.rect(x_position(2030), reference_y, x_position(2035)-x_position(2030), 10, fill = 1, stroke = 0) # box 2030-2035
+    c.rect(x_position(2053), reference_y, x_position(2060)-x_position(2053), 10, fill = 1, stroke = 0) # box 2053-2060
     for falter in range(3):
         x_f = x_position(2035 + 6 * falter)
         co = color["tribulation2"]
         c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_f, reference_y, 3 * dots_year, 11.64, fill = 1, stroke = 0)
+        c.rect(x_f, reference_y, x_position(2038)-x_position(2035), 11.64, fill = 1, stroke = 0)
         co = color["tribulation3"]
         c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_f + 3 * dots_year, reference_y, 3 * dots_year, 11.64, fill = 1, stroke = 0)
+        c.rect(x_f + x_position(2038)-x_position(2035), reference_y, x_position(2038)-x_position(2035), 11.64, fill = 1, stroke = 0)
         triangles = [[-0.1, -0.054, 6.1, -0.054, 3, 1.64], [0, 10, 0, 11.64, 3, 11.64], [3, 11.64, 6, 11.64, 6, 10]]
+        dy = dots_year
+        if right_to_left: dy = -dy
         for triangle in range(3):
-            points = [x_f + triangles[triangle][0] * dots_year, reference_y + triangles[triangle][1], 
-                      x_f + triangles[triangle][2] * dots_year, reference_y + triangles[triangle][3],
-                      x_f + triangles[triangle][4] * dots_year, reference_y + triangles[triangle][5]]
+            points = [x_f + triangles[triangle][0] * dy, reference_y + triangles[triangle][1], 
+                      x_f + triangles[triangle][2] * dy, reference_y + triangles[triangle][3],
+                      x_f + triangles[triangle][4] * dy, reference_y + triangles[triangle][5]]
             d.add(Polygon(points, fillColor=(1, 1, 1), strokeColor=(1, 1, 1), strokeWidth = 0.0))
 
 def create_tribulation():
     # draw the band above last days (24.1) and king of the south anglo-america (36)
+    global fontsize_regular
     tribulation_lines = [23.1, 35.4]
     for row in tribulation_lines:
-        drawString(dict["tribulation"], 10, x_position(2027), y_position(row), "l")
+        if right_to_left:
+            drawString(dict["tribulation"], fontsize_regular, x_position(2027), y_position(row), "r")
+        else:
+            drawString(dict["tribulation"], fontsize_regular, x_position(2027), y_position(row), "l")
         tribulation_graphics(row)
 
 def create_daniel2():
@@ -827,14 +914,25 @@ def create_daniel2():
 def create_timestamp():
     timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "objects", "terahfam"]
     for index, detail in enumerate(timestamp_details):
-        drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 38 - 4.5 * index, "r")
-        counter_detail = str(eval("counter_" + detail))
-        drawString(counter_detail,    4, x1 + 5.4, y1 + 38 - 4.5 * index, "l")
+        if right_to_left:
+            drawString(f"{dict[detail]}", 4, x_position(-4075) - 6,   y1 + 38 - 4.5 * index, "l")
+            counter_detail = str(eval("counter_" + detail))
+            drawString(counter_detail,    4, x_position(-4075) - 5.4, y1 + 38 - 4.5 * index, "r")
+        else:
+            drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 38 - 4.5 * index, "r")
+            counter_detail = str(eval("counter_" + detail))
+            drawString(counter_detail,    4, x1 + 5.4, y1 + 38 - 4.5 * index, "l")
     c.setFont("Aptos", 4)
-    c.drawString(x1, y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
+    if right_to_left:
+        c.drawRightString(x_position(-4075), y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
+    else:
+        c.drawString(x_position(-4075), y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
     if language in supported:
         qr_file = "../images/qr-" + language + ".png"
-        c.drawImage(qr_file, x_position(-4026), y_position(9), width=12*mm, height=12*mm)
+        if right_to_left:
+            c.drawImage(qr_file, x_position(-4026) - 12*mm, y_position(9), width=12*mm, height=12*mm)
+        else:
+            c.drawImage(qr_file, x_position(-4026), y_position(9), width=12*mm, height=12*mm)
         c.setFontSize(4.5)
         c.rotate(90)
         timestamp = str(datetime.datetime.now())
