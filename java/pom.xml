@@ -1,0 +1,19 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.kreier</groupId>
+    <artifactId>timeline</artifactId>
+    <version>4.7</version>
+    <properties>
+        <itext.version>8.0.4</itext.version>
+    </properties>
+    <dependencies>
+        <!-- add all iText modules -->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itext-core</artifactId>
+            <version>${itext.version}</version>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
+</project>
