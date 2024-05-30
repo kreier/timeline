@@ -44,12 +44,26 @@ Since v3.4 it is also translated to German, with v3.5 a Vietnamese translation w
 
 ## v4.0 Increase of version number to reflect the year in January 2024
 
-To reflect the year of the timeline edition for at least the next 6 years I simply use the last digit of the year as the leading version indicator. In 2030 this might change to a two-digit version number, if I'm still working on this project. Here we start with v4.0 from January 2024:
+To reflect the year of the timeline edition for at least the next 6 years I simply use the last digit of the year as the leading version indicator. In 2030 this might change to a two-digit version number, if I'm still working on this project. Here we start with v4.0 from January 2024 with extended language and script support:
 
 ![timeline v4.0](../docs/timeline20240131_4.0.png)
-4.2 from February 2024
 ![timeline v4.2](../docs/timeline20240309_4.2.png)
 ![timeline v4.4](../docs/timeline20240324_4.4.png)
+![timeline v4.5](../docs/timeline20240413_4.5.png)
+![timeline v4.6](../docs/timeline20240516_4.6.png)
+
+### v4.7 Switch from reportlab to fpdf2 im May 2024
+
+For 8 months I have been using the reportlab library in python to create the pdf files with the timeline. With a good documentation and support for utf-8 we were able to create the documents with embedded pixel and vector graphics. But by May 2024 I reached a limit of this package: the support for Text Shaping, especially the Glyph substitution is not implemented yet. The challenge is known for some time, but it requires significant manpower to implement properly. I documented my findings in [issue #35](https://github.com/kreier/timeline/issues/35). I tried other solutions like:
+
+- [fpdf](http://www.fpdf.org/) as Free PDF in PHP on [github](https://github.com/Setasign/FPDF) since 2015, but [started in 2001 by Olivier Plathey](https://fr.wikipedia.org/wiki/FPDF) - currently at version 1.86
+- [pdfkit](https://pdfkit.org/) library for Node.js in the browser, on [Github](https://github.com/foliojs/pdfkit) with 756 comits and 9600 stars, 16 releases since 2014, [latest 0.15.0](https://github.com/foliojs/pdfkit/releases/tag/v0.15.0) from March 2024
+- [PyMuPDF](https://pypi.org/project/PyMuPDF/) for data extraction and more, on [Github](https://github.com/pymupdf/pymupdf) with 2399 commits and 4300 stars, 144 releases since 2015, [latest 1.24.4](https://github.com/pymupdf/PyMuPDF/releases/tag/1.24.4) from May 2024
+- [weasyprint](https://weasyprint.org/) mainly to convert HTML to PDF, a professional product with good [documentation](https://doc.courtbouillon.org/weasyprint/stable/) on [Github](https://github.com/Kozea/WeasyPrint) with 5548 commits and 6700 stars, 71 releases since 2016, [latest v62.1](https://github.com/Kozea/WeasyPrint/releases/tag/v62.1) from May 2024 - yet as font subsetter Harfbuzz is [currently experimental](https://github.com/Kozea/WeasyPrint/issues/2120)
+- [iText Core](https://itextpdf.com/products/itext-core) with [pdfCalligraph](https://itextpdf.com/products/pdfcalligraph) as add-on for fonts like Arabic, Hebrew or Khmer, in Java; on [Github](https://github.com/itext/itext-java) with 6246 commits and 1900 stars, 41 releases since 2016, latest [8.0.4 Community](https://github.com/itext/itext-java/releases/tag/8.0.4) from April 2024
+- [reportlab](https://www.reportlab.com/) with [sourcecode](https://hg.reportlab.com/hg-public/reportlab) mirrored [on Github](https://github.com/MrBitBucket/reportlab-mirror) - all the way back to 2000 with version 0.85, 2.0 in 2006, 3.0 in 2014 and currently at 4.2.1
+
+Interestingly, fpdf2 itself is a fork from PyPDF from [reingart/pypdf](https://github.com/reingart/pyfpdf) 2016, itself being a fork of the [fpdf](http://www.fpdf.org/) library by Max Pat in 2006. See a [little history](https://py-pdf.github.io/fpdf2/History.html). The [release history](https://pypi.org/project/fpdf2/#history) indicates that [Text Shaping](https://py-pdf.github.io/fpdf2/TextShaping.html) was only introduced with 2.7.5 in August 2023. Now with 1479 commits and 969 stars, 33 releases since 2021, the latest being [2.7.9](https://github.com/py-pdf/fpdf2/releases/tag/2.7.9) from May 2024.
 
 ## Comparison v3.1 October 2023 to v4.4 March 2024
 
