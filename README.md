@@ -80,10 +80,18 @@ To compensate for limited printing area I created a border of 1cm around each pa
 | table 2          | -1550 | 150   | 1700     | 277      | 6.14     | 5          | 340     | 2009-02-10 |
 | table 3          | -130  | 2050  | 2180     | 277      | 7.87     | 10         | 218     | 2009-02-10 |
 | drawing odg      | -4000 | 2000  | 6000     | 1250     | 4.8      | ∞          | ∞       | 2015-12-13 |
-| reportlab python | -4050 | 2050  | 6100     | 1168     | 5.22     | ∞          | ∞       | 2023-10-17 |
+| reportlab python | -4075 | 2075  | 6150     | 1188     | 5.18     | ∞          | ∞       | 2023-10-17 |
 | [Adams Chart](https://en.wikipedia.org/wiki/Adams_Synchronological_Chart_or_Map_of_History)     | -4004 | 1900  | 5904     | 6900     | 0.86     | ∞          | ∞       | 1871-01-01 |
 
 See [scale.csv](spreadsheet/scale.csv)
+
+### Decision on dimensions
+
+After the experience of 8 months with [reportlab](https://pypi.org/project/reportlab/) I decided in June 2024 to fix some scale parameters with the new rendering engine [fpdf2](https://pypi.org/project/fpdf2/). The original project from 2009 was to fit on three landscape A4 papers, but for v3.0 I decided to have four A4 papers width to be able to see more details in the first century and during the time of the northern and southern kingdom in Israel. That gives a height of 210 mm and 4 x 297 = 1188 mm. With 7mm border top and bottom for the scale and numbering the drawing area is 1188 x 196 mm for 6150 years: 4075 BCE to 2075 CE. Inside we leave 1 mm on top and bottom, so 194 mm are used for 46 rows of 10pt text (1 pt = 1/72 inch = 0.3528 mm). 10 pt is therefore 3.5mm and line height 194/46 = 4.217 mm = 12 pt.
+
+Why __46 rows__? For Adam to Joseph the lifespans overlap and create a descending shifted graph for 23 rows. A little space (maybe for Job) and adding Moses requires a minimum 25 rows. More are needed for the kings of Judah and Israel. There are 3 kings for the united kingdom, followed by 21 kings in the northern 10-tribe kingdom (some as short as 7 days like Zimri) and 20 kings in the southern kingdom of Judah. With the project in 2009 this resulted in 3+21+20 = 44 rows. In time I flipped the names for the kings to opposite sites, so I could overlap them with just 4 rows between them, reducing the requirement to just 29 lines, leaving 17 lines below for prophets, other dynasties, philosophers and kingdoms of Daniel's prophecy in chapter 2, 7 and 10. The scale in 2023 had 44.7 rows, but with some adjustment I increased it to 46 and can now directly reference the rows in the data file csv.
+
+Reflecting on larger solutions with more space, some are found below (for example the 7 meter long and 68 cm wide chart by Adams), while they contain a lot more information, in the end they ran out of space anyways. You can't include every important detail. And the large size is hard to use, or even to transport. The limitation to four A4 papers makes the scroll small enough to put in a backpack and bring with you. And it's still long enough that usually you use it as a scroll and open the part you're interested in. Many now use the digital version on their tablet or smartphone, which still serves the purpose of visualizing time and events. There is the temptation to include more details in smaller sizes, but many pdf viewers limit the maximum zoom level. And it is inconsistent with the experience of the print version. It's better to be inspired to search for more information in addition to the presented events. 
 
 ## Inspiration and other solutions
 
@@ -95,7 +103,7 @@ Even more similar to my project is [Adams Synchronological Chart or Map of Histo
 
 ![Adams Chart](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Adams_Synchronological_Chart%2C_1881.jpg/1280px-Adams_Synchronological_Chart%2C_1881.jpg)
 
-In 2008 I got "Knaur's Zeittafel der Weltgeschichte - Den letzten 6000 Jahren auf der Spur" with a total length of 10 meters. I'm far from having all these information included in my edition. Here are links to [two editions](https://www.amazon.de/-/en/Alex-Klubertanz/dp/3828908519/ref=monarch_sidesheet) at [amazon.de](https://www.amazon.de/-/en/dp/3829017057/ref=monarch_sidesheet).
+In 2008 I got "Knaur's Zeittafel der Weltgeschichte - Den letzten 6000 Jahren auf der Spur" with a total length of 7 meters. I'm far from having all these information included in my edition. Here are links to [two editions](https://www.amazon.de/-/en/Alex-Klubertanz/dp/3828908519/ref=monarch_sidesheet) at [amazon.de](https://www.amazon.de/-/en/dp/3829017057/ref=monarch_sidesheet).
 
 Here is [another example from amazon.de](https://www.amazon.de/Super-Jumbo-History-Timeline-Poster/dp/0721712002/ref=monarch_sidesheet), covering the last 5000 years in 1.2 meter like this project here. The map by Schofield & Sims:
 
@@ -105,7 +113,7 @@ https://m.media-amazon.com/images/I/A1QO0k+1wZL._SL1500_.jpg
 https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_schofield_sims.jpg
 -->
 
-It looks like Knaur's book was inspired by [Adams Synchronological Chart or Map of History](https://www.amazon.com/Adams-Synchronological-Chart-Map-History/dp/0890515131) - it is 23' long (7 meter) and 27" tall (68 cm). Original from 1871.
+It looks like Knaur's book is a translated and updated version of [Adams Synchronological Chart or Map of History](https://www.amazon.com/Adams-Synchronological-Chart-Map-History/dp/0890515131) - which is 23' long (7 meter) and 27" tall (68 cm). The original is from 1871.
 
 ![Adams Map of History](https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_adams_map.jpg)
 <!-- Adams Map of History
