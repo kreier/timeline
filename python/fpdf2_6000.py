@@ -2,17 +2,17 @@
 # We are using fpdf2 from verion 4.7 on https://github.com/py-pdf/fpdf2
 # Documentation found on https://py-pdf.github.io/fpdf2/Tutorial.html
 
-from fpdf import FPDF, ViewerPreferences
+from fpdf import FPDF
 
-from reportlab.pdfgen import canvas
-from reportlab.lib import colors
-from reportlab.lib.units import mm
-from reportlab.graphics import renderPDF
-from reportlab.graphics.shapes import Drawing, Polygon
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.pdfbase.pdfmetrics import stringWidth
-from svglib.svglib import svg2rlg
+# from reportlab.pdfgen import canvas
+# from reportlab.lib import colors
+# from reportlab.lib.units import mm
+# from reportlab.graphics import renderPDF
+# from reportlab.graphics.shapes import Drawing, Polygon
+# from reportlab.pdfbase import pdfmetrics
+# from reportlab.pdfbase.ttfonts import TTFont
+# from reportlab.pdfbase.pdfmetrics import stringWidth
+# from svglib.svglib import svg2rlg
 import pandas as pd
 import googletrans
 import datetime
@@ -31,7 +31,7 @@ page_width   = 4*297*mm + 2 * border_lr   # 4x A4 landscape
 page_height  = 210*mm                     #    A4 landscape height
 pdf_author   = "https://github.com/kreier/timeline"
 fontsize_regular = 10
-vertical_lines  = True
+vertical_lines  = False
 left_to_right   = True   # False for Arabic, Hebrew, Persian and other RTL writing systems
 
 dict  = {}
@@ -49,14 +49,14 @@ pdf.set_author(pdf_author)
 pdf.add_font("Aptos", style="", fname="fonts/aptos.ttf")
 pdf.set_font("Aptos", size=fontsize_regular)
 pdf.add_font("Aptos-bold", style="B", fname="fonts/aptos-bold.ttf")
-# CJKAST = ["Japanese", "Korean", "SimplifiedChinese", "Arabic", "Sinhala", "Thai", "Khmer", "Georgian"]
-# for glyphs in CJKAST:
-#     fontname = "Noto" + glyphs
-#     fontfile = "fonts/Noto" + glyphs + ".ttf"
-#     fontname_bold = "Noto" + glyphs + "-bold"
-#     fontfile_bold = "fonts/Noto" + glyphs + "-bold.ttf"
-#     pdf.add_font(fontname, style="", fname=fontfile)
-#     pdf.add_font(fontname_bold, style="B", fname=fontfile_bold)
+CJKAST = ["Japanese", "Korean", "SimplifiedChinese", "Arabic", "Sinhala", "Thai", "Khmer", "Georgian"]
+for glyphs in CJKAST:
+    fontname = "Noto" + glyphs
+    fontfile = "fonts/Noto" + glyphs + ".ttf"
+    fontname_bold = "Noto" + glyphs + "-bold"
+    fontfile_bold = "fonts/Noto" + glyphs + "-bold.ttf"
+    pdf.add_font(fontname, style="", fname=fontfile)
+    pdf.add_font(fontname_bold, style="B", fname=fontfile_bold)
 pdf.add_font("NotoCuneiform", style="", fname="fonts/NotoCuneiform.ttf") # Akkadian
 
 supported = {"ar": "Arabic (العربية)",
@@ -130,47 +130,69 @@ def day(date_float):
     return day
 
 def x_position(date_float): # area is 6150 years wide from 4075 BCE to 2075 CE
-    global x1, right_to_left
-    if not right_to_left:
+    global x1, left_to_right
+    if left_to_right:
         return x1 + (4075 + date_float) * dots_year
     else:
         return x1 + (2075 - date_float) * dots_year
 
 def y_position(row_y): # with update 2024/03/12 to height 204 -> 210mm we now have 46 lines
-    global y2
-    return y2 + 1 - row_y * 12  # vertically centered 10 point script in 12 pt line
+    global y1
+    return y1 + 1 + row_y * 12  # vertically centered 10 point script in 12 pt line
 
 def drawString(text, fontsize, x_string, y_string, position):
-    c.setFont(font_regular, fontsize)
+    global pdf
+    # c.setFont(font_regular, fontsize)
+    pdf.set_font(font_regular, size=fontsize)
+    pdf.set_draw_color(1, 1, 1)
+
     if len(text) == 0: # don't draw empty strings
         return
-    c.setStrokeColorRGB(1, 1, 1)
-    c.setLineWidth(1)
+    pdf.set_draw_color(1, 1, 1)
+    pdf.set_line_width(1.0)
+    # c.setStrokeColorRGB(1, 1, 1)
+    # c.setLineWidth(1)
     xtra = 0
     if fontsize < 6:
         xtra = 1
-    white_width = stringWidth(text, font_regular, fontsize)
+    white_width = pdf.get_string_width(text)
     if position == "r":
-        c.setFillColorRGB(1, 1, 1)
-        c.rect(x_string, y_string - 2 + xtra, white_width, fontsize, fill = 1)
-        c.setFillColorRGB(0, 0, 0)
-        c.drawString(x_string, y_string, text)
+        pdf.set_fill_color(1, 1, 1)
+        pdf.rect(x_string, y_string - 2 + xtra, white_width, fontsize, style="F")
+        pdf.set_fill_color(0, 0, 0)
+        pdf.text(x_string, y_string, text)
+        # c.setFillColorRGB(1, 1, 1)
+        # c.rect(x_string, y_string - 2 + xtra, white_width, fontsize, fill = 1)
+        # c.setFillColorRGB(0, 0, 0)
+        # c.drawString(x_string, y_string, text)
     elif position == "l":
-        c.setFillColorRGB(1, 1, 1)
-        c.rect(x_string - white_width, y_string - 2 + xtra, white_width, fontsize, fill = 1)
-        c.setFillColorRGB(0, 0, 0)
-        c.drawRightString(x_string, y_string, text)
+        pdf.set_fill_color(1, 1, 1)
+        pdf.rect(x_string - white_width, y_string - 2 + xtra, white_width, fontsize, style="F")
+        pdf.set_fill_color(0, 0, 0)
+        pdf.text(x_string - white_width, y_string, text)
+        # c.setFillColorRGB(1, 1, 1)
+        # c.rect(x_string - white_width, y_string - 2 + xtra, white_width, fontsize, fill = 1)
+        # c.setFillColorRGB(0, 0, 0)
+        # c.drawRightString(x_string, y_string, text)
     elif position == "c":
-        c.setFont(font_bold, fontsize)
-        c.setFillColorRGB(1, 1, 1)
+        pdf.set_font(font_bold, style=fontsize)
+        pdf.set_fill_color(1, 1, 1)
+        pdf.text(x_string, y_string, text)
+        # c.setFont(font_bold, fontsize)
+        # c.setFillColorRGB(1, 1, 1)
         if fontsize == 10:
-            c.drawCentredString(x_string, y_string, text)
+            pdf.text(x_string + white_width * 0.5, y_string, text)
+            # c.drawCentredString(x_string, y_string, text)
         else: # probably persian (farsi) or arabic
-            c.drawCentredString(x_string, y_string + 1, text)
+            pdf.text(x_string + white_width * 0.5, y_string + 1, text)
+            # c.drawCentredString(x_string, y_string + 1, text)
     elif position == "cb":
-        c.setFont(font_regular, fontsize)
-        c.setFillColorRGB(0, 0, 0)
-        c.drawCentredString(x_string, y_string, text)
+        pdf.set_font(font_regular, fontsize)
+        pdf.set_fill_color(0, 0, 0)
+        pdf.text(x_string + white_width / 2, y_string, text)        
+        # c.setFont(font_regular, fontsize)
+        # c.setFillColorRGB(0, 0, 0)
+        # c.drawCentredString(x_string, y_string, text)
 
 # initiate variables
 def initiate_counters():
@@ -201,7 +223,7 @@ def import_dictionary():
     for index, row in key_dict.iterrows():
         dict.update({f"{row.key}" : f"{row.text}"})
     font_regular = "Aptos"
-    font_bold = "Aptos-bold"
+    font_bold    = "Aptos-bold"
     special_fonts = {"jp" : "Japanese",
                      "ja" : "Japanese",
                      "kr" : "Korean",
@@ -374,17 +396,18 @@ def create_horizontal_axis():
 
 def create_adam_moses():
     # unique pattern for people from Adam to Moses, and eventline for deluge
-    global counter_people
-    global counter_events
-    global language
+    global counter_people, counter_events, language, left_to_right
 
     # Blue line for the deluge in 2370 BCE
-    c.setLineWidth(1)
-    c.setStrokeColorRGB(0, 0, 1)
+    pdf.set_line_width(1.0)
+    pdf.set_draw_color(r=0, g=0, b=1)    
+    # c.setLineWidth(1)
+    # c.setStrokeColorRGB(0, 0, 1)
     date_deluge = x_position(-2370)
-    c.line(date_deluge, y1, date_deluge, y2)
+    # c.line(date_deluge, y1, date_deluge, y2)
+    pdf.line(date_deluge, y1, date_deluge, y2)
     # drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
-    if right_to_left:
+    if left_to_right:
         drawString(f"{dict['Deluge']} {number_to_string(2370, language)} {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "l")
     else:
         drawString(f"{dict['Deluge']} {number_to_string(2370, language)} {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")    
@@ -393,17 +416,20 @@ def create_adam_moses():
     # one special for Job
     co = color['books']
     job_y = 41  # see books.csv for the text and second timebar at 41.9
-    c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
+    pdf.set_draw_color(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
+    # c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
     y_start = y_position(job_y)
     # x_width = (1675 - 1485) * dots_year
     x_width = x_position(1675) - x_position(1485)
-    c.rect(x_start, y_start, x_width, 2, fill = 1, stroke = 0)
+    pdf.rect(x_start, y_start, x_width, 2, style="F")
+    # c.rect(x_start, y_start, x_width, 2, fill = 1, stroke = 0)
 
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     people = pd.read_csv("../db/adam-moses.csv", encoding='utf8')
     print("Imported data Adam to Moses:", len(people))
-    c.setFont(font_regular, 12)
+    pdf.set_font(font_regular, size=12)
+    # c.setFont(font_regular, 12)
     for index, row in people.iterrows():
         born = -year(row.born)
         died = -year(row.died)
@@ -413,38 +439,46 @@ def create_adam_moses():
         if language == "ilo":
             details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {dict['years_age']} {born - died}"
         x_box = x_position(row.born)
-        y_box = y2 - index * 21 - 21
+        y_box = y1 + index * 21 - 21
         if index == 23:  # Moises
             y_box -= 12
         # x_boxwidth = (born - died) * dots_year
         x_boxwidth = x_position(born) - x_position(died)
         x_text = x_box + x_boxwidth * 0.5
         co = color[f"{row.key}"]
-        c.setFillColorRGB(co[0], co[1], co[2])
-        c.setStrokeColorRGB(0, 0, 0)
-        c.setLineWidth(0.3)
-        c.rect(x_box, y_box, x_boxwidth, 19, fill = 1)
-        c.setFillColorRGB(1, 1, 1)
-        c.setFont(font_bold, 15)
+        pdf.set_fill_color(co[0], co[1], co[2])
+        pdf.set_draw_color(0, 0, 0)
+        pdf.set_line_width(0.3)
+        pdf.rect(x_box, y_box, x_boxwidth, 19, style="F")
+        pdf.set_fill_color(1, 1, 1)
+        pdf.set_font(font_regular, size=15)
+        # c.setFillColorRGB(co[0], co[1], co[2])
+        # c.setStrokeColorRGB(0, 0, 0)
+        # c.setLineWidth(0.3)
+        # c.rect(x_box, y_box, x_boxwidth, 19, fill = 1)
+        # c.setFillColorRGB(1, 1, 1)
+        # c.setFont(font_bold, 15)
         if language == "ar" or language == "fa":
-            c.setFont(font_bold, 13)
+            # c.setFont(font_bold, 13)
             y_box += 2
         if language == "si":
-            c.setFont(font_bold, 13)
+            # c.setFont(font_bold, 13)
             y_box += 1
-        c.drawCentredString(x_text, y_box + 5, person)
-        if right_to_left:
-            drawString(details_r, 12, x_box + x_boxwidth - 2, y_box + 6, "l")
-        else:
+        offset = pdf.get_string_width(person)
+        pdf.text(x_text - offset, y_box + 5, person)
+        # c.drawCentredString(x_text, y_box + 5, person)
+        if left_to_right:
             drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 6, "r")
+        else:
+            drawString(details_r, 12, x_box + x_boxwidth - 2, y_box + 6, "l")
         if index > 0 and index < 23:
             father_age_when_son_born = f"{number_to_string(father_born - born, language)} {dict['years_age']}"
             if language == "ilo":
                 father_age_when_son_born = f"{dict['years_age']} {father_born - born}"
-            if right_to_left:
-                drawString(father_age_when_son_born, 9, x_box + 3, y_box + 11, "r")
-            else:
+            if left_to_right:
                 drawString(father_age_when_son_born, 9, x_box - 3, y_box + 11, "l")
+            else:
+                drawString(father_age_when_son_born, 9, x_box + 3, y_box + 11, "r")
         father_born = born
         counter_people += 1
 
@@ -998,7 +1032,7 @@ def create_timeline(lang):
     create_canvas()
     # create_drawing_area()
     create_horizontal_axis()
-    # create_adam_moses()
+    create_adam_moses()
     # create_reference_events()
     # create_events_objects()
     # create_judges()
