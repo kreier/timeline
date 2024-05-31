@@ -2,7 +2,7 @@
 # We are using fpdf2 from verion 4.7 on https://github.com/py-pdf/fpdf2
 # Documentation found on https://py-pdf.github.io/fpdf2/Tutorial.html
 
-from fpdf import FPDF
+from fpdf import FPDF, ViewerPreferences
 
 from reportlab.pdfgen import canvas
 from reportlab.lib import colors
@@ -24,13 +24,14 @@ version  = 4.7
 language = "en"
 language_str = "English"
 color_scheme = "normal"
+mm           = 2.834645669                # document is in pt, 46 rows with 12pt height, text 10pt
 border_lr    = 10*mm                      # space left/right usually 10, for roll holders 60
 border_tb    = 7*mm                       # space for the years top and bottom
 page_width   = 4*297*mm + 2 * border_lr   # 4x A4 landscape
 page_height  = 210*mm                     #    A4 landscape height
 pdf_author   = "https://github.com/kreier/timeline"
 fontsize_regular = 10
-vertical_lines  = False
+vertical_lines  = True
 left_to_right   = True   # False for Arabic, Hebrew, Persian and other RTL writing systems
 
 dict  = {}
@@ -41,7 +42,8 @@ if os.getcwd()[-6:] != "python":
     print("This script must be executed inside the python folder.")
     exit()
 
-pdf = FPDF(orientation="L", unit="mm", format="A4")
+pdf = FPDF(unit="pt", format=(page_width, page_height)) # no orientation ="landscape" since it only swaps width and height
+pdf.set_margins(left=border_lr, top=border_tb)
 pdf.add_page()
 pdf.set_author(pdf_author)
 pdf.add_font("Aptos", style="", fname="fonts/aptos.ttf")
@@ -266,15 +268,24 @@ def import_colors(c_scheme):
         color.update({f"{row.key}" : (row.R, row.G, row.B)})
 
 def create_canvas():
-    global c, filename
-    # Create the canvas
+    global pdf, filename, drawing_height, drawing_width, d, x1, y1, x2, y2
     filename = "../timeline/timeline_v" + str(version) + "_"+ language + ".pdf"
-    c = canvas.Canvas(filename, pagesize=(page_width,page_height))
-    c.setAuthor(pdf_author)
-    c.setTitle(dict['pdf_title'])
-    c.setSubject(dict['pdf_subject'])
+    pdf.set_author(pdf_author)
+    pdf.set_title(dict['pdf_title'])
+    pdf.set_subject(dict['pdf_subject'])
+    drawing_width  = page_width - 2 * border_lr
+    drawing_height = page_height - 2 * border_tb
+    x1 = border_lr                                # left for fpdf2 and reportlab
+    y1 = border_tb                                # in fpdf2 this is top, on reportlab that is bottom
+    x2 = x1 + drawing_width
+    y2 = y1 + drawing_height
 
-def create_drawing_area():
+    # The drawing should span from 4075 BCE to 2075 CE, so we have to calculate
+    # the length of one year in dots from drawing_with for this 6150 years
+    global dots_year
+    dots_year = drawing_width / 6150
+
+def create_drawing_area(): # -------------------------------- deprecated remove --------------------------------
     global drawing_height, drawing_width, d, x1, y1, x2, y2
     drawing_width  = page_width - 2 * border_lr
     drawing_height = page_height - 2 * border_tb
@@ -291,77 +302,73 @@ def create_drawing_area():
     dots_year = drawing_width / 6150
 
 def create_horizontal_axis():
-    global language, right_to_left
+    global language, left_to_right
     # axis around drawing area
-    c.setLineWidth(0.8)
-    c.setStrokeColorCMYK(1.00, 1.00, 0, 0.50) 
-    c.line(x1, y1, x1 + drawing_width, y1)
-    c.line(x1, y2, x1 + drawing_width, y2)
+    pdf.set_line_width(1.0)
+    pdf.set_draw_color(r=0, g=0, b=0)
+    pdf.line(x1, y1, x1+drawing_width, y1)
+    pdf.line(x1, y2, x1+drawing_width, y2)
 
     # tickmarks and years for 61 centuries
-    c.setFont(font_regular, 11)
-    # bce_width = stringWidth(dict["BCE"], font_regular, 11)
-    # print(f"The BCE string is {bce_width} points wide.")
+    pdf.set_font(font_regular, "", 11)
     for i in range(61):
         # main tickmark
         tick_x = x1 + (75 + 100 * i) * dots_year
-        c.setLineWidth(1.0)
-        c.line(tick_x, y1, tick_x, y1 - 2*mm)
-        c.line(tick_x, y2, tick_x, y2 + 2*mm)
-
-        # smaler ticks left and right
+        pdf.line(tick_x, y1, tick_x, y1 - 2*mm)
+        pdf.line(tick_x, y2, tick_x, y2 + 2*mm)
+        # smaller ticks left and right
         for l in range (-40, 0, 10):
             tick_s = tick_x + l * dots_year
-            c.line(tick_s, y1, tick_s, y1 - 1*mm)
-            c.line(tick_s, y2, tick_s, y2 + 1*mm)
+            pdf.line(tick_s, y1, tick_s, y1 - 1*mm)
+            pdf.line(tick_s, y2, tick_s, y2 + 1*mm)
         for r in range (10, 60, 10):
             tick_s = tick_x + r * dots_year
-            c.line(tick_s, y1, tick_s, y1 - 1*mm)
-            c.line(tick_s, y2, tick_s, y2 + 1*mm)
-
+            pdf.line(tick_s, y1, tick_s, y1 - 1*mm)
+            pdf.line(tick_s, y2, tick_s, y2 + 1*mm)
+        
         # label the year
         # year = str(abs((100 * i) - 4000))
         year = number_to_string(abs((100 * i) - 4000), language)
-        # offset_x = stringWidth(year, font_regular, 11) * 0.5
         print_year = True
         if i == 39:                                              # the year 100 BCE
-            if stringWidth(dict["BCE"], font_regular, 11) > 60:
+            if pdf.get_string_width(dict["BCE"]) > 60:
                 print_year = False
         if i == 41:                                              # the year 100 CE
-            if stringWidth(dict["CE"], font_regular, 11) > 60:
+            if pdf.get_string_width(dict["CE"]) > 60:
                 print_year = False
         if year == "0":                                          # there is no year zero
             print_year = False
             tick_x = x1 + (4075) * dots_year
-            c.setLineWidth(1.0)
-            c.line(tick_x, y1, tick_x, y1 - 6*mm)
-            c.line(tick_x, y2, tick_x, y2 + 6*mm)
-            if not right_to_left:
-                c.drawString(tick_x + 2, y1 - 16, dict["CE"])
-                c.drawString(tick_x + 2, y2 +  8, dict["CE"])
-                c.drawRightString(tick_x - 2, y1 - 16, dict["BCE"])
-                c.drawRightString(tick_x - 2, y2 +  8, dict["BCE"])
+            pdf.line(tick_x, y1, tick_x, y1 - 6*mm)
+            pdf.line(tick_x, y2, tick_x, y2 + 6*mm)
+            if left_to_right:
+                pdf.text(tick_x + 2, y1 -  8, dict["CE"])
+                pdf.text(tick_x + 2, y2 + 16, dict["CE"])
+                offset = pdf.get_string_width(dict["BCE"])
+                pdf.text(tick_x - 2 - offset, y1 -  8, dict["BCE"])
+                pdf.text(tick_x - 2 - offset, y2 + 16, dict["BCE"])
             else:
                 print("Line to fix for RTL 340")
-        
+       
         if print_year:
-            c.drawCentredString(tick_x, y1 - 16, year)           # bottom
-            c.drawCentredString(tick_x, y2 + 8,  year)           # top
-
+            offset = pdf.get_string_width(str(year)) / 2
+            pdf.text(tick_x - offset, y1 - 8, year)                # top
+            pdf.text(tick_x - offset, y2 + 16,  year)              # bottom
+   
         # vertical lines for centuries
         if vertical_lines:
-            c.setLineWidth(0.1)
-            c.line(tick_x, y1, tick_x, y2)
-
+            pdf.set_line_width(0.1)
+            pdf.line(tick_x, y1, tick_x, y2)
             # from 1100 to 600 BCE also every 50 years
             if i > 28 and i < 35:
-                c.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
+                 pdf.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
 
-    if not right_to_left:
-        c.drawRightString(x1 + 20, y1 - 16, dict["BCE"])
-        c.drawRightString(x1 + 20, y2 + 8 , dict["BCE"])
-        c.drawString(x2 - 20, y1 - 16, dict["CE"])
-        c.drawString(x2 - 20, y2 + 8,  dict["CE"])
+    if left_to_right:
+        pdf.text(x2 - 20, y1 -  8, dict["CE"])
+        pdf.text(x2 - 20, y2 + 16, dict["CE"])
+        offset = pdf.get_string_width(dict["BCE"])
+        pdf.text(x1 + 20 - offset, y1 -  8, dict["BCE"])
+        pdf.text(x1 + 20 - offset, y2 + 16, dict["BCE"])
     else:
         print("Something to fix for RTL in 361")
 
@@ -960,38 +967,54 @@ def render_to_file():
     print(f"File exported: {filename}")
 
 def create_timeline(lang):
-    global pdf
-    pdf.cell(text=f"Timeline v{version} with the new fpdf2 library")
-    render_to_file()
-    return
-
-
     # global language, version, language_str
+    global language, version, language_str, pdf
     language = lang
     initiate_counters()
     import_dictionary()
-    # import_colors("random")
     import_colors("normal")
+
+
+    # pdf.cell(text=f"Timeline v{version} with the new fpdf2 library")
+    # pdf.ln()
+    # pdf.cell(text="Try lines, shapes, boxes, rotating text")
+    # with pdf.rotation(angle=90):
+    #     pdf.cell(text="This is rotated?")
+    # pdf.ln()
+    # pdf.cell(text="no more rotation?")
+    # pdf.text(100, 150, "what?")
+    # pdf.cell(text="And another one")
+    # # with pdf.rotation(angle=90):
+    # #     pdf.text(-8, 8, "Just 90 degrees")
+    # pdf.image("../images/babel.jpg", x=0, y=0, h=10, w=12)
+    # pdf.image("../images/gutenberg.gif", x=5, y=20, h=10, w=12)
+    # pdf.image("../images/telescope.svg", x=5, y=40, h=10, w=12)
+    # pdf.text(5, 5, "what?")
+    # pdf.set_line_width(0.5)
+    # pdf.set_draw_color(r=255, g=128, b=0)
+    # pdf.line(x1=50, y1=50, x2=150, y2=100)    
+
+
     create_canvas()
-    create_drawing_area()
+    # create_drawing_area()
     create_horizontal_axis()
-    create_adam_moses()
-    create_reference_events()
-    create_events_objects()
-    create_judges()
-    create_kings()
-    create_prophets()
-    create_books()
-    create_people()
-    create_objects()
-    create_periods()
-    create_caesars()
-    create_daniel2()
-    create_terah_familytree()
-    include_pictures()
-    include_pictures_svg()
-    create_tribulation()
-    create_timestamp()
+    # create_adam_moses()
+    # create_reference_events()
+    # create_events_objects()
+    # create_judges()
+    # create_kings()
+    # create_prophets()
+    # create_books()
+    # create_people()
+    # create_objects()
+    # create_periods()
+    # create_caesars()
+    # create_daniel2()
+    # create_terah_familytree()
+    # include_pictures()
+    # include_pictures_svg()
+    # create_tribulation()
+    # create_timestamp()
     render_to_file()
 
 def checkForValidLanguageCode(langCode):
