@@ -4,17 +4,17 @@
 [![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 
-This project creates a graph of Human history with python and reportlab. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With version 4.2 some images make it into the timeline after 15 years of slow development. See both for comparison below.
+This project creates a graph of Human history with python and ~~reportlab~~ fpdf2. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With v4.2 in early 2024 some images make it into the timeline after 15 years of slow development.
 
 ![timeline 4.6](docs/timeline20240516_4.6.png)
 
-Compare this 4000 year timespan of version 4.2 from 2024:
+Compare this 4000 year timespan of **v4.2 from 2024** with the same time period in **v1.1 from 2009** (below):
 
 ![timeline 4.2 first 4000 years](docs/timeline20240309_4k.png)
 
-With the same time period in version 1.1 from 2009:
-
 ![timeline 1.1](docs/timeline20230630.png)
+
+You see that **many more details** were added. And something is off with the scale - explained later - since the **scale** (millimeter/year) in 2009 was not constant.
 
 ## Reactivation 2023
 
@@ -23,7 +23,6 @@ After 14 years it was finally time to translate the project to English and share
 ![timeline one 4050 - 1450 BCE](docs/timeline_4050-1450.png)
 
 This project started on here on Github on June 10th, 2023. My last day of work.
-
 
 ## Version history
 
@@ -43,6 +42,8 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - [v4.3](https://github.com/kreier/timeline/releases/tag/v4.3) 2024/03/16 Convert dictionary files to __.csv__ format to be easier readable in a [Jupyter Notebook](db/timeline.ipynb). You can create the latest PDF in your language in [Google Colab](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing) with just a browser.
 - [v4.4](https://github.com/kreier/timeline/releases/tag/v4.4) 2024/03/24 Include inventions and insights that enable modern society from the last centuries with pictures. Add some of the __Chinese dynasties__ to the oldest known historic date of 841 BC (Sima Qian) and beyond.
 - [v4.5](https://github.com/kreier/timeline/releases/tag/v4.4) 2024/04/13 Include the great tribulation in the time of the end, and a graph of the world population for the last 2000 years. It aligns with advancements in science, culture and society.
+- [v4.6](https://github.com/kreier/timeline/releases/tag/v4.5) 2024/05/31 Include more empires in Umayyad, Teotihuacan, Mongol, Inca and more. Added historic figures like Hammurabi, al-Khwarizimi, Genghis Khan and Dionysius Exiguus plus a few more smaller images
+- v4.7 2024/07/01 Finally the rendering of RTL languages like Hebrew and Arabic are supported. The proper rendering of Arabic glyphs require a special font shape engine like [Harfbuzz](https://en.wikipedia.org/wiki/HarfBuzz) (also on [Github](https://github.com/harfbuzz/harfbuzz)) and my previous PDF generator [reportlab](https://www.reportlab.com/) has this not yet included. The pdf is now generated with [fpdf2](https://py-pdf.github.io/fpdf2/index.html). This project included text shaping [with version 2.7.5](https://py-pdf.github.io/fpdf2/TextShaping.html) in August 2023. This solved my problems with Khmer and Sinhala as well.
 
 ### Translations
 
