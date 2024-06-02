@@ -19,7 +19,7 @@ import sys
 import os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 4.7
+version  = 4.6
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -922,11 +922,45 @@ def create_timestamp():
             drawString(f"{dict[detail]}", 4, x1 + 6,   y1 + 38 - 4.5 * index, "r")
             counter_detail = str(eval("counter_" + detail))
             drawString(counter_detail,    4, x1 + 5.4, y1 + 38 - 4.5 * index, "l")
-    c.setFont("Aptos", 4)
+    c.setFont("Aptos", 4) # the following is in English
+    footer = []
+    footer.append(f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – ")
+    footer.append( pdf_author)         # link to github page
+    footer.append(" – some ")
+    footer.append("images")            # list of images used
+    footer.append(" are")
+    footer.append(" CC BY-SA ")        # Creative commons BY-SA
+    foot_width = []
+    foot = ""
+    for s in footer:
+        foot += s
+        foot_width.append(c.stringWidth(s, "Aptos", 4))
+    position = [1, 3, 5]
+    hyperlink = ["https://kreier.github.io/timeline/", 
+                 "https://github.com/kreier/timeline/blob/main/images/images_source.csv", 
+                 "https://creativecommons.org/licenses/by-sa/4.0/"]
+    factor = 1
     if right_to_left:
-        c.drawRightString(x_position(-4075), y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
-    else:
-        c.drawString(x_position(-4075), y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
+        # c.drawRightString(x_position(-4075), y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
+        # c.drawRightString(x_position(-4075), y1 + 2, foot)
+        factor = -1
+    # else:
+    #     # c.drawString(x_position(-4075), y1 + 2, f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
+    #     c.drawString(x_position(-4075), y1 + 2, foot)
+    for j in range(len(footer)):
+        startposition = 0
+        for k in range(j):
+            startposition += foot_width[k]
+        x1_link = x_position(-4075) + factor * startposition
+        if j in position:
+            i = position.index(j)
+            x2_link = x1_link + factor * foot_width[position[i]]
+            linkRectangle = (x1_link, y1 + 1, x2_link, y1 + 5)
+            c.linkURL(hyperlink[i], linkRectangle)                        # make visible with "thickness = 1"
+            c.setFillColorRGB(0, 0, 1)
+        else:
+            c.setFillColorRGB(0.2, 0.2, 0.2)
+        c.drawString(x1_link, y1 + 2, footer[j])
     if language in supported:
         qr_file = "../images/qr-" + language + ".png"
         if right_to_left:

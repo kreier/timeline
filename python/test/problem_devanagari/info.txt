@@ -1,0 +1,10 @@
+The solution for special fonts is Harfbuzz
+
+In fpdf2 you use it with set_text_shaping(use_shaping_engine=True, script="khmr", language="khm")
+
+script: 173 scripts
+https://learn.microsoft.com/en-us/typography/opentype/spec/scripttags
+
+language: 634 languages
+https://learn.microsoft.com/en-us/typography/opentype/spec/languagetags
+
