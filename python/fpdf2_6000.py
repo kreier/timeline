@@ -49,36 +49,10 @@ pdf.set_author(pdf_author)
 pdf.add_font("Aptos", style="", fname="fonts/aptos.ttf")
 pdf.set_font("Aptos", size=fontsize_regular)
 pdf.add_font("Aptos-bold", style="", fname="fonts/aptos-bold.ttf")
-CJKAST = ["Japanese", "Korean", "SimplifiedChinese", "Arabic", "Sinhala", "Thai", "Khmer", "Georgian"]
-for glyphs in CJKAST:
-    fontname = "Noto" + glyphs
-    fontfile = "fonts/Noto" + glyphs + ".ttf"
-    fontname_bold = "Noto" + glyphs + "-bold"
-    fontfile_bold = "fonts/Noto" + glyphs + "-bold.ttf"
-    pdf.add_font(fontname, style="", fname=fontfile)
-    pdf.add_font(fontname_bold, style="B", fname=fontfile_bold)
+
 pdf.add_font("NotoCuneiform", style="", fname="fonts/NotoCuneiform.ttf") # Akkadian
 
-supported = {"ar": "Arabic (العربية)",
-             "de": "German (Deutsch)",
-             "en": "English", 
-             "es": "Spanish (Español)", 
-             "fi": "Finnish (Suomi)", 
-             "fr": "French (Français)",
-             "ig": "Igbo (Ásụ̀sụ́ Ìgbò)",
-             "ilo": "Iloko (Illocano)",
-             "ja": "Japanese (日本語)",
-             "ko": "Korean (한국인)",
-             "kne": "Kankana-ey",
-             "km": "Khmer (ខ្មែរ)",
-             "no": "Norwegian (norsk)",
-             "ru": "Russian (Русский)",
-             "zh": "Chinese Mandarin (Simplified) [中文简体(普通话)]",
-             "yue": "Chinese Cantonese (Simplified) [中文简体（广东话）]",
-             "si": "Sinhala (සිංහල)",
-             "th": "Thai (ภาษาไทย)",
-             "tl": "Tagalog (Filipino)",
-             "vi": "Vietnamese (Tiếng Việt)"}
+supported = {"en": "English"}
 
 def create_dictionary(target_language):
     global dict, language
@@ -186,7 +160,7 @@ def initiate_counters():
 
 # Import strings for the respective language for names and comments
 def import_dictionary():
-    global dict, font_regular, font_bold, version, fontsize_regular, right_to_left
+    global dict, font_regular, font_bold, version, fontsize_regular, left_to_right
     dict = {}
     # first import the reference dictionary in english
     reference = "../db/dictionary_reference.csv"
@@ -225,7 +199,7 @@ def import_dictionary():
             fontsize_regular = 9
         if language == "ar" or language == "fa":
             fontsize_regular = 8
-            right_to_left = True
+            left_to_right = False
     print(f"Imported dictionary: {len(key_dict)} keywords")
     version = float(dict["version"])
     print(f"Version {version}")
@@ -1014,13 +988,55 @@ def checkForValidLanguageCode(langCode):
     return False
 
 def is_supported(language):
-    global language_str
+    global language_str, pdf
+    # import list of supported languages into dataframe supported_language
+    # if empty assign Aptos, otherwise Noto-whatever
+
+
+    # supported = {"ar": "Arabic (العربية)",
+    #             "de": "German (Deutsch)",
+    #             "en": "English", 
+    #             "es": "Spanish (Español)", 
+    #             "fi": "Finnish (Suomi)", 
+    #             "fr": "French (Français)",
+    #             "ig": "Igbo (Ásụ̀sụ́ Ìgbò)",
+    #             "ilo": "Iloko (Illocano)",
+    #             "ja": "Japanese (日本語)",
+    #             "ko": "Korean (한국인)",
+    #             "kne": "Kankana-ey",
+    #             "km": "Khmer (ខ្មែរ)",
+    #             "no": "Norwegian (norsk)",
+    #             "ru": "Russian (Русский)",
+    #             "zh": "Chinese Mandarin (Simplified) [中文简体（普通话)]",
+    #             "yue": "Chinese Cantonese (Simplified) [中文简体（广东话)]",
+    #             "si": "Sinhala (සිංහල)",
+    #             "th": "Thai (ภาษาไทย)",
+    #             "tl": "Tagalog (Filipino)",
+    #             "vi": "Vietnamese (Tiếng Việt)"}
+
+
+    CJKAST = ["Japanese", "Korean", "SimplifiedChinese", "Arabic", "Sinhala", "Thai", "Khmer", "Georgian"]
+    for glyphs in CJKAST:
+        fontname = "Noto" + glyphs
+        fontfile = "fonts/Noto" + glyphs + ".ttf"
+        fontname_bold = "Noto" + glyphs + "-bold"
+        fontfile_bold = "fonts/Noto" + glyphs + "-bold.ttf"
+        pdf.add_font(fontname, style="", fname=fontfile)
+        pdf.add_font(fontname_bold, style="", fname=fontfile_bold)
+
+
+
+
+
+
     if language in supported:
         language_str = supported[language]
         print(f"Your selected language {language} is supported: {language_str}")
+        # Import the script/glyph for this language
+        # set the font shaper
         return True
     else:
-        print(f"Your selected language '{language}' is not directly supported by this timeline project.")
+        print(f"Your selected language '{language}' is not yet supported by this timeline project.\n")
         print(f"Let's check if the language code exists in Google Translate: ", end = "")
         isValid = checkForValidLanguageCode(language)
         if isValid:
@@ -1029,7 +1045,7 @@ def is_supported(language):
             create_dictionary(language)
             return True
         else:
-            print(f"Nope.\nIt looks like '{language}' is not a valid language code or it is not supported by Google Translate.")
+            print(f"Nope.\nIt looks like '{language}' is not a valid language code in ISO 639 or it is not supported by Google Translate.")
             return False
 
 if __name__ == "__main__":

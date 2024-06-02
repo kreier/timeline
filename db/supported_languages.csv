@@ -1,0 +1,22 @@
+key,language,font,shaping_engine,script,language,fontsize_regular
+ar,Arabic (العربية) ,Arabic,TRUE,,,8
+de,German (Deutsch) ,,FALSE,,,10
+es,Spanish (Español) ,,FALSE,,,10
+fa,Persian or Farsi (فارسی),Arabic,TRUE,,,8
+fi,Finnish (Suomi) ,,FALSE,,,10
+fr,French (Français) ,,FALSE,,,10
+ig,Igbo (Ásụ̀sụ́ Ìgbò) ,,FALSE,,,10
+ilo,Iloko (Illocano) ,,FALSE,,,10
+ja,Japanese (日本語) ,Japanese,FALSE,,,10
+km,Khmer (ខ្មែរ) ,Khmer,TRUE,khmr,khm,10
+km_an,Khmer (ខ្មែរ) with arabic numerals,Khmer,TRUE,khmr,khm,10
+knw,Kankana-ey ,,FALSE,,,10
+ko,Korean (한국인) ,Korean,FALSE,,,10
+no,Norwegian (norsk) ,,FALSE,,,10
+ru,Russian (Русский) ,,FALSE,,,10
+si,Sinhala (සිංහල) ,Sinhala,TRUE,,,9
+th,Thai (ภาษาไทย) ,Thai,TRUE,,,10
+tl,Tagalog (Filipino) ,,FALSE,,,10
+vi,Vietnamese (Tiếng Việt) ,,FALSE,,,10
+yue,Chinese Cantonese (Simplified) [中文简体（广东话)] ,SimplifiedChinese,FALSE,,,10
+zh,Chinese Mandarin (Simplified) [中文简体（普通话)] ,SimplifiedChinese,FALSE,,,10
