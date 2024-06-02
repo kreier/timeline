@@ -44,7 +44,9 @@ if os.getcwd()[-6:] != "python":
     exit()
 
 pdf = FPDF(unit="pt", format=(page_width, page_height)) # no orientation ="landscape" since it only swaps width and height
-pdf.set_margins(left=border_lr, top=border_tb)
+pdf.set_margin(0)
+pdf.c_margin = 0
+# pdf.set_margins(left=border_lr, top=border_tb)
 pdf.add_page()
 pdf.set_author(pdf_author)
 pdf.add_font("Aptos", style="", fname="fonts/aptos.ttf")
@@ -121,28 +123,32 @@ def drawString(text, fontsize, x_string, y_string, position):
     pdf.set_fill_color(255)
     pdf.set_draw_color(255)
     pdf.set_line_width(1.0)
-    xtra = 2.3
+    xtra = 0
     if fontsize < 6:
-        xtra = 3
+        xtra = 0
     white_width = pdf.get_string_width(text)
     if position == "r":
-        pdf.rect(x_string, y_string - fontsize + xtra, white_width, fontsize, style="FD")
-        pdf.text(x_string, y_string, text)
+        pdf.rect(x_string, y_string, white_width, fontsize, style="FD")
+        pdf.set_xy(x_string, y_string)
+        pdf.cell(text=text)
     elif position == "l":
-        pdf.rect(x_string - white_width, y_string - fontsize + xtra, white_width, fontsize, style="FD")
-        pdf.text(x_string - white_width, y_string, text)
+        pdf.rect(x_string - white_width, y_string, white_width, fontsize, style="FD")
+        pdf.set_xy(x_string - white_width, y_string)
+        pdf.cell(text=text)
     elif position == "c":                                                # c - centered, bold and white
         pdf.set_text_color(255)
         pdf.set_font(font_bold, size=fontsize)
+        offset = pdf.get_string_width(text) * 0.5
         if fontsize == 10:
-            pdf.text(x_string + white_width * 0.5, y_string, text)
+            pdf.set_xy(x_string - offset, y_string)
+            pdf.cell(text=text)
         else:                                                            # probably persian (farsi) or arabic
-            pdf.text(x_string + white_width * 0.5, y_string + 1, text)
-            # c.drawCentredString(x_string, y_string + 1, text)
+            pdf.set_xy(x_string - offset, y_string + 1)
+            pdf.cell(text=text)
         pdf.set_text_color(0)
-    elif position == "cb":                                               # cb - centered black for judges
+    elif position == "cb":                                               # cb - centered black regular for judges and years 
         pdf.set_font(font_regular, size=fontsize)
-        pdf.text(x_string + white_width / 2, y_string, text)        
+        pdf.text(x_string + white_width / 2, y_string, text)   
 
 # initiate variables
 def initiate_counters():
@@ -350,7 +356,9 @@ def create_adam_moses():
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
         pdf.rect(x_box, y_box, x_boxwidth, 19, style="FD")
-        pdf.set_text_color(255)
+        fontsize_adammoses = 15
+        # pdf.set_text_color(255)
+        # ----------------------------------------------------- import size here from anohter place as 15 pt ---------------
         pdf.set_font(font_bold, size=15)
         if language == "ar" or language == "fa":
             pdf.set_font_size(13)
@@ -358,22 +366,21 @@ def create_adam_moses():
         if language == "si":
             pdf.set_font_size(13)
             y_box += 1
-        offset = pdf.get_string_width(person) * 0.5
-        pdf.text(x_text - offset, y_box + 14, person)
-        pdf.set_text_color(0)
+        drawString(person, fontsize_adammoses, x_text, y_box + 1, "c")
+        # pdf.set_text_color(0)
         # c.drawCentredString(x_text, y_box + 5, person)
         if left_to_right:
-            drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 13, "r")
+            drawString(details_r, 12, x_box + x_boxwidth + 2, y_box + 3.5, "r")
         else:
-            drawString(details_r, 12, x_box + x_boxwidth - 2, y_box + 13, "l")
+            drawString(details_r, 12, x_box + x_boxwidth - 2, y_box + 3.5, "l")
         if index > 0 and index < 23:
             father_age_when_son_born = f"{number_to_string(father_born - born, language)} {dict['years_age']}"
             if language == "ilo":
                 father_age_when_son_born = f"{dict['years_age']} {father_born - born}"
             if left_to_right:
-                drawString(father_age_when_son_born, 9, x_box - 3, y_box + 8, "l")
+                drawString(father_age_when_son_born, 9, x_box - 3, y_box + 0, "l")
             else:
-                drawString(father_age_when_son_born, 9, x_box + 3, y_box + 8, "r")
+                drawString(father_age_when_son_born, 9, x_box + 3, y_box + 0, "r")
         father_born = born
         counter_people += 1
 
@@ -446,9 +453,6 @@ def create_judges():
 
 def create_kings():
     global counter_kings, fontsize_regular, right_to_left
-    pdf.set_text_shaping(use_shaping_engine=True, script="khmr", language="khm")
-    pdf.cell(text="King        - ស្តេច")
-    pdf.text(100, 100, "King        - ស្តេច")
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     kings = pd.read_csv("../db/kings.csv", encoding='utf8')
     print("Imported data of kings:", len(kings))
@@ -459,20 +463,21 @@ def create_kings():
         end   = row.end
         if row.born < 0:
             born = row.born
-            detail_born = ", " + dict["became_king"] + f" {int(start-born)} " + dict["age_kings"]
+            detail_born = ", " + dict["became_king"] + f" {number_to_string(int(start-born), language)} " + dict["age_kings"]
+            # detail_born = ", " + dict["became_king"] + f" {int(start-born)} " + dict["age_kings"]
         else:
             born = start
             detail_born = ""
         detail = dict[f"{row.key}"] + " "
         time_reigned = "("
         if row.years > 0:
-            time_reigned += f"{row.years} "
+            time_reigned += f"{number_to_string(row.years, language)} "
             if row.years > 1:
                 time_reigned += f"{dict['years']}"
             else:
                 time_reigned += f"{dict['year']}"
         if row.months > 0:
-            time_reigned += f"{row.months} "
+            time_reigned += f"{number_to_string(row.months, language)} "
             if row.months > 1:
                 time_reigned += f"{dict['months']}"
             else:
@@ -480,9 +485,9 @@ def create_kings():
         if row.days > 0:
             if row.months > 0:
                 time_reigned += " "
-            time_reigned += f"{row.days} {dict['days']}"
+            time_reigned += f"{number_to_string(row.days, language)} {dict['days']}"
 
-        detail += f"{-year(start)}-{-year(end)} {time_reigned})" + detail_born
+        detail += f"{number_to_string(-year(start), language)}-{number_to_string(-year(end), language)} {time_reigned})" + detail_born
         x_box  = x_position(start) 
         x_born = x_position(born)
         y_box  = y_position(row.row_y)
@@ -490,29 +495,23 @@ def create_kings():
         # horizontal T-graph for time before coming king
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
-        pdf.line(x_born, y_box -3, x_box,  y_box - 3)
-        pdf.line(x_born, y_box -8, x_born, y_box + 2)
-        # c.setLineWidth(0.3)
-        # c.setStrokeColorRGB(0, 0, 0)
-        # c.line(x_born, y_box + 3, x_box, y_box + 3)
-        # c.line(x_born, y_box -2, x_born, y_box + 8)
+        pdf.line(x_born, y_box -3, x_box,  y_box - 3)            # offset with fpdf2 is -3, was +3 with reportlab
+        pdf.line(x_born, y_box -8, x_born, y_box + 2)            # -3-5 = -8 and -3+5 = +2
         # box to indicate time of reign
         co = color[row.key]
         pdf.set_fill_color(255*co[0], 255*co[1], 255*co[2])
-        # c.setFillColorRGB(co[0], co[1], co[2])
-        pdf.rect(x_box, y_box - 9, x_boxwidth, 12, style="FD")
-        # c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
+        pdf.rect(x_box, y_box - 9, x_boxwidth, 12, style="FD")   # offset y_box was -3 - now its -9
         # c.setFillColorRGB(0, 0, 0)
-        if left_to_right:
+        if left_to_right:                                        # offset for string is now -8
             if index < 23:
-                drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
+                drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box - 8, "r")
             else:
-                drawString(detail, fontsize_regular, x_box - 2, y_box, "l")
+                drawString(detail, fontsize_regular, x_box - 2, y_box - 8, "l")
         else:
             if index < 23:
-                drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box, "l")
+                drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box - 8, "l")
             else:
-                drawString(detail, fontsize_regular, x_box + 2, y_box, "r")
+                drawString(detail, fontsize_regular, x_box + 2, y_box - 8, "r")
         counter_kings += 1
 
 def faded_color(red, green, blue, percent):
@@ -905,6 +904,8 @@ def create_timeline(lang):
     import_dictionary()
     import_colors("normal")
     create_canvas()
+    # pdf.set_xy(0, 520)
+    # pdf.cell(text="Hello world!")
     create_horizontal_axis()
     create_adam_moses()
     # create_reference_events()
@@ -936,6 +937,7 @@ def create_timeline(lang):
     # pdf.image("../images/gutenberg.gif", x=5, y=20, h=10, w=12)
     # pdf.image("../images/telescope.svg", x=5, y=40, h=10, w=12)
     # pdf.text(5, 5, "what?")
+
 
 
 
@@ -1002,7 +1004,7 @@ def is_supported(language):
                 # se_language    = df.at[row_index[0], 'language']
 
             # print("shaping_engine: ", df.at[row_index[0], 'shaping_engine'])
-        pdf.set_text_shaping(use_shaping_engine=True, script="khmr", language="khm")
+        # pdf.set_text_shaping(use_shaping_engine=True, script="khmr", language="khm")
 
 
         return True

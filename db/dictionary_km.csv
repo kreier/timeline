@@ -1,13 +1,13 @@
 key,text,english,notes
-version,4.6,4.6,
+version,4.7,4.7,
 pdf_title,ប្រវត្តិសាស្រ្តមនុស្សជាតិ 6000 ឆ្នាំត្រូវបានមើលឃើញ,6000 years human history visualized,
 pdf_subject,ការកំណត់ពេលវេលារបស់មនុស្ស,Timeline of humankind,
 BCE,មុន​គ.ស.,B.C.E.,
 CE,គ.ស.,C.E.,
 year,ឆ្នាំ,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,ឆ្នាំ,years,
-years_age,ឆ្នាំ,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old "
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+years_age,ឆ្នាំ,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
+age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,ខែ,month,
 months,ខែ,months,
 day,ថ្ងៃ,day,
@@ -62,60 +62,60 @@ Saul,សូល។,Saul,1 Samuel 9:2
 David,ដាវីឌ,David,1 Samuel 16:13
 Solomon,សាឡូម៉ូន,Solomon,1 Kings 2:1
 Rehoboam,រេហូបោម,Rehoboam,first king of southern kingdom of Juda
-Abijah,អាប៊ីយ៉ា (អាប៊ីយ៉ាំ),Abijah (Abijam),"3 years, also Abijam"
-Asa,អាសា,Asa,
-Jehoshaphat,យ៉ូសាផាត,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360
+Abijah,អាប៊ីយ៉ា (​អាប៊ីយ៉ាម​),Abijah (Abijam),"3 years, also Abijam"
+Asa,អេសា,Asa,
+Jehoshaphat,យេហូសាផាត,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360
 Jehoram2,យេហូរ៉ាម,Jehoram,
-Ahaziah,អ័ហាស៊ីយ៉ា,Ahaziah,
-Athaliah,ព្រះនាងអថាលីយ៉ា,Queen Athaliah,Queen Athaliah
-Jehoash,យ៉ូអាស,Jehoash,
-Amaziah,អាម៉ាស៊ីយ៉ា,Amaziah,
-Uzziah,Uzziah (Azariah),Uzziah (Azariah),also Azariah
+Ahaziah,អាហាស៊ីយ៉ា,Ahaziah,
+Athaliah,មហា​ក្សត្រី​អាថាលៀ,Queen Athaliah,Queen Athaliah
+Jehoash,យេហូអាស,Jehoash,
+Amaziah,អាម៉ាស៊ា,Amaziah,
+Uzziah,អូសៀស (​អាសារៀ​),Uzziah (Azariah),also Azariah
 Jotham,យ៉ូថាម,Jotham,
-Ahaz,អាហាស,Ahaz,
+Ahaz,អេហាស,Ahaz,
 Hezekiah,ហេសេគា,Hezekiah,
 Manasseh,ម៉ាណាសេ,Manasseh,
-Amon,អាម៉ុន,Amon,
+Amon,អេម៉ុន,Amon,
 Josiah,យ៉ូសៀស,Josiah,
-Jehoahaz,យេហូហាស,Jehoahaz,Only 3 months
+Jehoahaz,យេហូអាហាស,Jehoahaz,Only 3 months
 Jehoiakim,យេហូយ៉ាគីម,Jehoiakim,
 Jehoiachin,យេហូយ៉ាគីន,Jehoiachin,Only 3 months 10 days
 Zedekiah,សេដេគា,Zedekiah,
 Jeroboam,យេរ៉ូបោម,Jeroboam,first king of northern 10-tribe kingdom
 Nadab,ណាដាប,Nadab,less than 2
-Baasha,បាសា,Baasha,
+Baasha,បាអាសា,Baasha,
 Elah,អេឡា,Elah,
-Zimri,ហ្ស៊ីមរី,Zimri,Only 7 days in ca. 751 BCE
-OmriTibni,Omri និង Tibni រួមគ្នា,Omri and Tibni together,4 years Omri and Tibni
-Omri,អូមរី (ម្នាក់ឯង),Omri (alone),from 947 Omri alone
-Ahab,អ័ហាប់,Ahab,
+Zimri,ស៊ីមរី,Zimri,Only 7 days in ca. 751 BCE
+OmriTibni,អំរី​និង​ធីបណាយ,Omri and Tibni together,4 years Omri and Tibni
+Omri,អំរី (​ម្នាក់​ឯង​),Omri (alone),from 947 Omri alone
+Ahab,អាហាប់,Ahab,
 Jehoram,យេហូរ៉ាម,Jehoram,
 Jehu,យេហ៊ូ,Jehu,
-Jeoahaz,ជេអូអាហាស,Jeoahaz,
-JeoahazJehoash,យ៉ូអាហាស និង​យ៉ូអាស,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together
-Jehoash2,យ៉ូអាស (តែម្នាក់ឯង),Jehoash (alone),Jehoash (alone)
-Jeroboam2,យេរ៉ូបោម II,Jeroboam II,
+Jeoahaz,យេហូអាហាស,Jeoahaz,
+JeoahazJehoash,យេហូអាហាស​និង​យេហូអាស,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together
+Jehoash2,យេហូអាស (​ម្នាក់​ឯង​),Jehoash (alone),Jehoash (alone)
+Jeroboam2,យេរ៉ូបោម​ទី​២,Jeroboam II,
 Zechariah,សាការី,Zechariah,"reign only recorded 6 months, probably only established 792 BCE"
-Schallum,Schallum,Schallum,only one month
+Schallum,សាលូម,Schallum,only one month
 Menahem,មេណាហិម,Menahem,
-Pekahiah,ប៉េកាហ៊ីយ៉ា,Pekahiah,
-Pekah,ប៉េកា,Pekah,
-Hoshea,ហូសៀ,Hoshea,9 years from c. 748
+Pekahiah,ភេកាហ៊ា,Pekahiah,
+Pekah,ភេកា,Pekah,
+Hoshea,ហូស៊ា,Hoshea,9 years from c. 748
 Elijah,អេលីយ៉ា,Elijah,
 Elisha,អេលីសេ,Elisha,
 Jonah,យ៉ូណាស,Jonah,
-Amos,អាម៉ុស,Amos,
-Joel,ចូអេល,Joel,
+Amos,អេម៉ុស,Amos,
+Joel,យ៉ូអែល,Joel,
 Hosea,ហូសេ,Hosea,
 Isaiah,អេសាយ,Isaiah,
 Micah,មីកា,Micah,
 Zephaniah,សេផានា,Zephaniah,
-Nahum,ណាហ៊ូម,Nahum,
+Nahum,ណាហ៊ុម,Nahum,
 Jeremiah,យេរេមា,Jeremiah,
 Habakuk,ហាបាគុក,Habakuk,
 Daniel,ដានីយ៉ែល,Daniel,
-Ezekiel,អេសេគាល។,Ezekiel,
-Obadiah,អូបាឌី,Obadiah,
+Ezekiel,អេសេគាល,Ezekiel,
+Obadiah,អូបាឌា,Obadiah,
 Malachi,ម៉ាឡាគី,Malachi,
 Ruth,រូធ,Ruth,
 Ezra,អែសរ៉ា,Ezra,
@@ -167,7 +167,7 @@ event_destruction_jerusalem1,ការបំផ្លិចបំផ្លាញ
 event_temple_rebuilt,ប្រាសាទ​នៅ​ក្រុង​យេរូសាឡឹម​បាន​កសាង​ឡើង​វិញ​នៅ​ឆ្នាំ ៥១៥ មុន​គ.ស.,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,ជញ្ជាំង​ក្រុង​យេរូសាឡិម​បាន​កសាង​ឡើង​វិញ​នៅ​ឆ្នាំ ៤៥៥ មុនគ.ស.,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,ការបំផ្លិចបំផ្លាញក្រុងយេរូសាឡិមឆ្នាំ 70 នៃគ.ស. ដោយទីក្រុងរ៉ូមនៅក្រោមទីតុស,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,ចុងបញ្ចប់នៃគ្រានៃប្រជាជាតិនានា (លូកា ២១:២៤) រាជាណាចក្ររបស់ព្រះចាប់ផ្តើមគ្រប់គ្រងនៅស្ថានសួគ៌នៅឆ្នាំ ១៩១៤ គ.ស.,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E. ",include scripture Luke 21:24
+event_1914,ចុងបញ្ចប់នៃគ្រានៃប្រជាជាតិនានា (លូកា ២១:២៤) រាជាណាចក្ររបស់ព្រះចាប់ផ្តើមគ្រប់គ្រងនៅស្ថានសួគ៌នៅឆ្នាំ ១៩១៤ គ.ស.,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
 became_king,បានក្លាយជាស្តេចនៅអាយុ,became king at age,
 vulgate,Vulgate បានបញ្ចប់ដោយ Jerome (ការបកប្រែជាឡាតាំងនៃព្រះគម្ពីរ) គ. ៤០៥ គ.ស.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,សៀវភៅ Gutenberg បោះពុម្ពឆ្នាំ ១៤៥៥,Gutenberg bible printed 1455,
@@ -318,7 +318,7 @@ Tema,តេម៉ា,Tema,
 Jetur,Jetur,Jetur,
 Naphish,ណាភីស,Naphish,
 Kedemah,ខេដេម៉ា,Kedemah,
-Babylon2, , ,no text left and right – empty!
+Babylon2,,,no text left and right – empty!
 terahfam,សមាជិកនៃគ្រួសាររបស់ Terah,members of Terah’s family,
 rosetta,ថ្ម Rosetta 196 មុនគ.,Rosetta stone 196 B.C.E.,
 Herodotus,ហេរ៉ូដូតុស គ. ៤៨៤ – គ. 425 មុនគ.ស សរសេរ The Histories,"Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
@@ -336,7 +336,7 @@ gilgamesh,Gilgamesh និង Aga 𒇽𒆥𒀀𒀝𒂵,Gilgamesh and Aga 𒇽�
 epic_gilgamesh,Epic of Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
 p52,Papyrus P52,Papyrus P52,
-daniel2_shift,10,10,Start 4.2
+daniel2_shift,0,0,Start 4.2
 daniel2_1,ស្តេចនេប៊ូក្នេសា,King Nebuchadnezzar,607 BCE
 daniel2_2,បំផ្លាញក្រុងយេរូសាឡឹម,destroys Jerusalem,
 daniel2_3,យកឈ្នះបាប៊ីឡូន,Conquers Babylon,539 BCE
@@ -375,7 +375,7 @@ three-kingdoms,នគរបី 220-280 គ.ស,Three kingdoms 220-280 CE,
 sixteen-kingdoms,នគរដប់ប្រាំមួយ 304-439 គ.ស,Sixteen kingdoms 304-439 CE,
 northern-dynasties,៣៦៨-៥៨១ គ.ស,368-581 CE,
 southern-dynasties,៤២០-៥៨៩ គ.ស,420-589 CE,
-tang-dynasty1, , ,
+tang-dynasty1,,,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
 shang-dynasty_c,រាជវង្ស Shang,Shang Dynasty,c. 1600-1046 BC
@@ -404,14 +404,14 @@ armageddon,"សមរភូមិអើម៉ាគេដូន (វិវរណ
 millenium,"រាជាណាចក្រ​របស់​ព្រះ​ចាប់​ផ្ដើម​រជ្ជកាល​១០០០​ឆ្នាំ (វិវរណៈ ៥:៩, ១០; ២០:៤, ៦)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
 great_crowd,"មនុស្ស​មួយ​ហ្វូង​យ៉ាង​ធំ​បាន​រួច​ជីវិត​ពី​អើម៉ាគេដូន (វិវរណៈ ៧:៩, ១៤; ទំនុកតម្កើង ៣៧:៩​-​១១)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
 world_population,ចំនួនប្រជាជនពិភពលោករាប់ពាន់លានក្នុងរយៈពេល 2000 ឆ្នាំចុងក្រោយនេះ។,World population in billions in the last 2000 years,
-607BCE,ឆ្នាំ​៦០៧ មុន​គ.ស.,607 B.C.E.,accommodate for language
-539BCE,ឆ្នាំ​៥៣៩ មុន​គ.ស.,539 B.C.E.,systems in style:
-537BCE,ឆ្នាំ​៥៣៧ មុន​គ.ស.,537 B.C.E.,>>year 537 before time<<
-331BCE,ឆ្នាំ​៣៣១ មុន​គ.ស.,331 B.C.E.,so they need a word
-63BCE,ឆ្នាំ​៦៣ មុន​គ.ស.,63 B.C.E.,prior to the year
-70CE,ឆ្នាំ​៧០ គ.ស.,70 C.E.,and something
-1914CE,ឆ្នាំ​១៩១៤​ដល់​ឆ្នាំ​១៩១៨ គ.ស.,1914-1918 C.E.,after the year
-khmer_empire,៨០៤–១៤៣១ គ.ស.,804 – 1431 C.E., 
+607BCE,៦០៧ មុនគ.ស.,607 B.C.E.,accommodate for language
+539BCE,៥៣៩ មុនគ.ស.,539 B.C.E.,systems in style:
+537BCE,៥៣៧ មុនគ.ស.,537 B.C.E.,>>year 537 before time<<
+331BCE,៣៣១ មុនគ.ស.,331 B.C.E.,so they need a word
+63BCE,៦៣ មុនគ.ស.,63 B.C.E.,prior to the year
+70CE,៧០ គ.ស.,70 C.E.,and something
+1914CE,១៩១៤-១៩១៨ គ.ស.,1914-1918 C.E.,after the year
+khmer_empire,៨០៤–១៤៣១ គ.ស.,804 – 1431 C.E.,
 khmer_empire_c,អាណាចក្រខ្មែរ - សម័យអង្គរ,Khmer Empire - Angkor period,
 byzantine_empire,៣៣០-១៤៥៣ គ.ស.,330-1453 C.E.,
 byzantine_empire_c,ចក្រភព Byzantine,Byzantine Empire,
