@@ -34,8 +34,9 @@ fontsize_regular = 10
 vertical_lines  = False
 left_to_right   = True   # False for Arabic, Hebrew, Persian and other RTL writing systems
 
-dict  = {}
-color = {}
+dict      = {}
+color     = {}
+supported = {}
 
 # Check execution location, exit if not in /timeline/python
 if os.getcwd()[-6:] != "python":
@@ -49,10 +50,7 @@ pdf.set_author(pdf_author)
 pdf.add_font("Aptos", style="", fname="fonts/aptos.ttf")
 pdf.set_font("Aptos", size=fontsize_regular)
 pdf.add_font("Aptos-bold", style="", fname="fonts/aptos-bold.ttf")
-
 pdf.add_font("NotoCuneiform", style="", fname="fonts/NotoCuneiform.ttf") # Akkadian
-
-supported = {"en": "English"}
 
 def create_dictionary(target_language):
     global dict, language
@@ -103,20 +101,20 @@ def day(date_float):
     day = int((month - int(month))*30) + 1
     return day
 
-def x_position(date_float): # area is 6150 years wide from 4075 BCE to 2075 CE
+def x_position(date_float):     # area is 6150 years wide from 4075 BCE to 2075 CE
     global x1, left_to_right
     if left_to_right:
         return x1 + (4075 + date_float) * dots_year
     else:
         return x1 + (2075 - date_float) * dots_year
 
-def y_position(row_y): # with update 2024/03/12 to height 204 -> 210mm we now have 46 lines
+def y_position(row_y):          # with update 2024/03/12 to height 204 -> 210mm we now have 46 lines
     global y1
-    return y1 + row_y * 12  # vertically centered 10 point script in 12 pt line, 1pt above/below
+    return y1 + row_y * 12      # vertically centered 10 point script in 12 pt line, 1pt above/below
 
 def drawString(text, fontsize, x_string, y_string, position):
     global pdf
-    if len(text) == 0: # don't draw empty strings
+    if len(text) == 0:          # don't draw empty strings
         return
     pdf.set_font(font_regular, size=fontsize)
     pdf.set_text_color(0)
@@ -174,32 +172,6 @@ def import_dictionary():
     key_dict = key_dict.fillna(" ")
     for index, row in key_dict.iterrows():
         dict.update({f"{row.key}" : f"{row.text}"})
-    font_regular = "Aptos"
-    font_bold    = "Aptos-bold"
-    special_fonts = {"jp" : "Japanese",
-                     "ja" : "Japanese",
-                     "kr" : "Korean",
-                     "ko" : "Korean",
-                     "sc" : "SimplifiedChinese",
-                     "zh" : "SimplifiedChinese",
-                     "zh-cn" : "SimplifiedChinese",
-                     "zh-tw" : "SimplifiedChinese",
-                     "yue" : "SimplifiedChinese",
-                     "ar" : "Arabic",
-                     "fa" : "Arabic",
-                     "si" : "Sinhala",
-                     "th" : "Thai", 
-                     "km" : "Khmer",
-                     "ka" : "Georgian"}
-    if language in special_fonts:
-        language_fontname = special_fonts[language]
-        font_regular = "Noto" + language_fontname
-        font_bold    = "Noto" + language_fontname + "-bold"
-        if language == "si":
-            fontsize_regular = 9
-        if language == "ar" or language == "fa":
-            fontsize_regular = 8
-            left_to_right = False
     print(f"Imported dictionary: {len(key_dict)} keywords")
     version = float(dict["version"])
     print(f"Version {version}")
@@ -474,6 +446,9 @@ def create_judges():
 
 def create_kings():
     global counter_kings, fontsize_regular, right_to_left
+    pdf.set_text_shaping(use_shaping_engine=True, script="khmr", language="khm")
+    pdf.cell(text="King        - ស្តេច")
+    pdf.text(100, 100, "King        - ស្តេច")
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     kings = pd.read_csv("../db/kings.csv", encoding='utf8')
     print("Imported data of kings:", len(kings))
@@ -921,12 +896,6 @@ def render_to_file():
     filename = "../timeline/timeline_v" + str(version) + "_"+ language + ".pdf"
     pdf.output(filename)
     print(f"File exported: {filename}")
-    return
-
-    renderPDF.draw(d, c, 0, 0)
-    c.showPage()
-    c.save()
-    print(f"File exported: {filename}")
 
 def create_timeline(lang):
     # global language, version, language_str
@@ -935,28 +904,6 @@ def create_timeline(lang):
     initiate_counters()
     import_dictionary()
     import_colors("normal")
-
-
-    # pdf.cell(text=f"Timeline v{version} with the new fpdf2 library")
-    # pdf.ln()
-    # pdf.cell(text="Try lines, shapes, boxes, rotating text")
-    # with pdf.rotation(angle=90):
-    #     pdf.cell(text="This is rotated?")
-    # pdf.ln()
-    # pdf.cell(text="no more rotation?")
-    # pdf.text(100, 150, "what?")
-    # pdf.cell(text="And another one")
-    # # with pdf.rotation(angle=90):
-    # #     pdf.text(-8, 8, "Just 90 degrees")
-    # pdf.image("../images/babel.jpg", x=0, y=0, h=10, w=12)
-    # pdf.image("../images/gutenberg.gif", x=5, y=20, h=10, w=12)
-    # pdf.image("../images/telescope.svg", x=5, y=40, h=10, w=12)
-    # pdf.text(5, 5, "what?")
-    # pdf.set_line_width(0.5)
-    # pdf.set_draw_color(r=255, g=128, b=0)
-    # pdf.line(x1=50, y1=50, x2=150, y2=100)    
-
-
     create_canvas()
     create_horizontal_axis()
     create_adam_moses()
@@ -976,6 +923,23 @@ def create_timeline(lang):
     # include_pictures_svg()
     # create_tribulation()
     # create_timestamp()
+
+
+
+    # with pdf.rotation(angle=90):
+    #     pdf.cell(text="This is rotated?")
+    # pdf.ln()
+    # pdf.cell(text="And another one")
+    # # with pdf.rotation(angle=90):
+    # #     pdf.text(-8, 8, "Just 90 degrees")
+    # pdf.image("../images/babel.jpg", x=0, y=0, h=10, w=12)
+    # pdf.image("../images/gutenberg.gif", x=5, y=20, h=10, w=12)
+    # pdf.image("../images/telescope.svg", x=5, y=40, h=10, w=12)
+    # pdf.text(5, 5, "what?")
+
+
+
+
     render_to_file()
 
 def checkForValidLanguageCode(langCode):
@@ -988,44 +952,119 @@ def checkForValidLanguageCode(langCode):
     return False
 
 def is_supported(language):
-    global language_str, pdf
+    global language_str, pdf, font_regular, font_bold, left_to_right
     # import list of supported languages into dataframe supported_language
+    df = pd.read_csv("../db/supported_languages.csv", encoding='utf8')
+    df = df.fillna(" ")
+    row_index = df[df['key'] == language].index
+    if len(row_index) == 0:
+        print(f"Your selected language '{language}' is not yet supported by this timeline project.\n")
+        print(f"Let's check if the language code exists in Google Translate: ", end = "")
+        isValid = checkForValidLanguageCode(language)
+        if isValid:
+            print(f"Found {language_str}.")
+            print(f"Now creating a new dictionary in this language with Google Translate.")
+            create_dictionary(language)
+            return True
+        else:
+            print(f"Nope.\nIt looks like '{language}' is not a valid language code in ISO 639 or it is not supported by Google Translate.")
+            return False
+    else:
+        language_str = df.at[row_index[0], 'language']
+        print(f"Your selected language {language} is supported: {language_str}")
+        # set RTL or LTR
+        se_direction = "ltr"
+        if df.at[row_index[0], 'direction'] == "RTL":
+            left_to_right = False
+            se_direction = "rtl"
+        # Import the script/glyph for this language
+        if df.at[row_index[0], 'font'] == " ":
+            font_regular = "Aptos"
+            font_bold    = "Aptos-bold"
+        else:
+            glyphs = df.at[row_index[0], 'font']
+            fontname = "Noto" + glyphs
+            fontfile = "fonts/Noto" + glyphs + ".ttf"
+            fontname_bold = "Noto" + glyphs + "-bold"
+            fontfile_bold = "fonts/Noto" + glyphs + "-bold.ttf"
+            pdf.add_font(fontname, style="", fname=fontfile)
+            pdf.add_font(fontname_bold, style="", fname=fontfile_bold)
+            font_regular = fontname
+            font_bold    = fontname_bold
+            # set the font shaper
+            if df.at[row_index[0], 'shaping_engine']:
+                pdf.set_text_shaping(use_shaping_engine=True, 
+                                     direction=se_direction, 
+                                     script=df.at[row_index[0], 'script'], 
+                                     language=df.at[row_index[0], 'language'])
+                # shaping_engine = True
+                # se_script      = df.at[row_index[0], 'script']
+                # se_language    = df.at[row_index[0], 'language']
+
+            # print("shaping_engine: ", df.at[row_index[0], 'shaping_engine'])
+        pdf.set_text_shaping(use_shaping_engine=True, script="khmr", language="khm")
+
+
+        return True
+
+
+
+
+
+
+
+
+
+
+
+
+    print(row_index, len(row_index))
+    language_str = df.at[row_index, 'language']
+    print(language_str)
+    # for index, row in df.iterrows():
+    #     supported[row.key] = row.language
+
+        # location = "../images/" + row.key
+        # local_x = x_position(row.x)
+    # for s in supported:
+    #     print(s, supported[s])
+    # print(supported)
     # if empty assign Aptos, otherwise Noto-whatever
 
 
-    # supported = {"ar": "Arabic (العربية)",
-    #             "de": "German (Deutsch)",
-    #             "en": "English", 
-    #             "es": "Spanish (Español)", 
-    #             "fi": "Finnish (Suomi)", 
-    #             "fr": "French (Français)",
-    #             "ig": "Igbo (Ásụ̀sụ́ Ìgbò)",
-    #             "ilo": "Iloko (Illocano)",
-    #             "ja": "Japanese (日本語)",
-    #             "ko": "Korean (한국인)",
-    #             "kne": "Kankana-ey",
-    #             "km": "Khmer (ខ្មែរ)",
-    #             "no": "Norwegian (norsk)",
-    #             "ru": "Russian (Русский)",
-    #             "zh": "Chinese Mandarin (Simplified) [中文简体（普通话)]",
-    #             "yue": "Chinese Cantonese (Simplified) [中文简体（广东话)]",
-    #             "si": "Sinhala (සිංහල)",
-    #             "th": "Thai (ภาษาไทย)",
-    #             "tl": "Tagalog (Filipino)",
-    #             "vi": "Vietnamese (Tiếng Việt)"}
+    # CJKAST = ["Japanese", "Korean", "SimplifiedChinese", "Arabic", "Sinhala", "Thai", "Khmer", "Georgian"]
+    # for glyphs in CJKAST:
+    #     fontname = "Noto" + glyphs
+    #     fontfile = "fonts/Noto" + glyphs + ".ttf"
+    #     fontname_bold = "Noto" + glyphs + "-bold"
+    #     fontfile_bold = "fonts/Noto" + glyphs + "-bold.ttf"
+    #     pdf.add_font(fontname, style="", fname=fontfile)
+    #     pdf.add_font(fontname_bold, style="", fname=fontfile_bold)
 
-
-    CJKAST = ["Japanese", "Korean", "SimplifiedChinese", "Arabic", "Sinhala", "Thai", "Khmer", "Georgian"]
-    for glyphs in CJKAST:
-        fontname = "Noto" + glyphs
-        fontfile = "fonts/Noto" + glyphs + ".ttf"
-        fontname_bold = "Noto" + glyphs + "-bold"
-        fontfile_bold = "fonts/Noto" + glyphs + "-bold.ttf"
-        pdf.add_font(fontname, style="", fname=fontfile)
-        pdf.add_font(fontname_bold, style="", fname=fontfile_bold)
-
-
-
+    # special_fonts = {"jp" : "Japanese",
+    #                  "ja" : "Japanese",
+    #                  "kr" : "Korean",
+    #                  "ko" : "Korean",
+    #                  "sc" : "SimplifiedChinese",
+    #                  "zh" : "SimplifiedChinese",
+    #                  "zh-cn" : "SimplifiedChinese",
+    #                  "zh-tw" : "SimplifiedChinese",
+    #                  "yue" : "SimplifiedChinese",
+    #                  "ar" : "Arabic",
+    #                  "fa" : "Arabic",
+    #                  "si" : "Sinhala",
+    #                  "th" : "Thai", 
+    #                  "km" : "Khmer",
+    #                  "ka" : "Georgian"}
+    # if language in special_fonts:
+    #     language_fontname = special_fonts[language]
+    #     font_regular = "Noto" + language_fontname
+    #     font_bold    = "Noto" + language_fontname + "-bold"
+    #     if language == "si":
+    #         fontsize_regular = 9
+    #     if language == "ar" or language == "fa":
+    #         fontsize_regular = 8
+    #         left_to_right = False
 
 
 
