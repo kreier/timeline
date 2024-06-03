@@ -121,11 +121,12 @@ def drawString(text, fontsize, x_string, y_string, position):
     pdf.set_font(font_regular, size=fontsize)
     pdf.set_text_color(0)
     pdf.set_fill_color(255)
-    pdf.set_draw_color(255)
+    pdf.set_draw_color(150)
     pdf.set_line_width(1.0)
     xtra = 0
     if fontsize < 6:
         xtra = 0
+    pdf.set_font("notokhmer", size=12)
     white_width = pdf.get_string_width(text)
     if position == "r":
         pdf.rect(x_string, y_string, white_width, fontsize, style="FD")
@@ -134,7 +135,10 @@ def drawString(text, fontsize, x_string, y_string, position):
     elif position == "l":
         pdf.rect(x_string - white_width, y_string, white_width, fontsize, style="FD")
         pdf.set_xy(x_string - white_width, y_string)
+        start = pdf.get_x()
         pdf.cell(text=text)
+        print(f"Before: {white_width} - after: {pdf.get_x() - start}")
+        pdf.cell(text="<")
     elif position == "c":                                                # c - centered, bold and white
         pdf.set_text_color(255)
         pdf.set_font(font_bold, size=fontsize)
