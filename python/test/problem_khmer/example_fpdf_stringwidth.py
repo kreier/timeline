@@ -57,4 +57,4 @@ for i in range(len(teststring)):
 pdf.ln()
 pdf.cell(h=17, text=teststring[0]+"—"+teststring[1]+"—"+teststring[2]+"—")
 
-pdf.output("example_fpdf2_strignwidth.pdf")
+pdf.output("example_fpdf2_stringwidth.pdf")
