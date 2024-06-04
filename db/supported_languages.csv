@@ -1,23 +1,23 @@
-key,language,font,shaping_engine,script,language,fontsize_regular,direction
-ar,Arabic (العربية) ,Arabic,TRUE,,,8,RTL
-de,German (Deutsch) ,,FALSE,,,10,ltr
-en,English,,FALSE,,,10,ltr
-es,Spanish (Español) ,,FALSE,,,10,ltr
-fa,Persian or Farsi (فارسی),Arabic,TRUE,,,8,RTL
-fi,Finnish (Suomi) ,,FALSE,,,10,ltr
-fr,French (Français) ,,FALSE,,,10,ltr
-ig,Igbo (Ásụ̀sụ́ Ìgbò) ,,FALSE,,,10,ltr
-ilo,Iloko (Illocano) ,,FALSE,,,10,ltr
-ja,Japanese (日本語) ,Japanese,FALSE,,,10,ltr
-km,Khmer (ខ្មែរ) ,Khmer,TRUE,khmr,khm,10,ltr
-km_an,Khmer (ខ្មែរ) with arabic numerals,Khmer,TRUE,khmr,khm,10,ltr
-knw,Kankana-ey ,,FALSE,,,10,ltr
-ko,Korean (한국인) ,Korean,FALSE,,,10,ltr
-no,Norwegian (norsk) ,,FALSE,,,10,ltr
-ru,Russian (Русский) ,,FALSE,,,10,ltr
-si,Sinhala (සිංහල) ,Sinhala,TRUE,,,9,ltr
-th,Thai (ภาษาไทย) ,Thai,TRUE,,,10,ltr
-tl,Tagalog (Filipino) ,,FALSE,,,10,ltr
-vi,Vietnamese (Tiếng Việt) ,,FALSE,,,10,ltr
-yue,Chinese Cantonese (Simplified) [中文简体（广东话)] ,SimplifiedChinese,FALSE,,,10,ltr
-zh,Chinese Mandarin (Simplified) [中文简体（普通话)] ,SimplifiedChinese,FALSE,,,10,ltr
+key,language,font,shaping_engine,script,language,fontsize_regular,direction,replace_numerals
+ar,Arabic (العربية) ,Arabic,TRUE,arab,ara,8,RTL,TRUE
+de,German (Deutsch) ,,FALSE,,,10,ltr,FALSE
+en,English,,FALSE,,,10,ltr,FALSE
+es,Spanish (Español) ,,FALSE,,,10,ltr,FALSE
+fa,Persian or Farsi (فارسی),Arabic,TRUE,arab,fas,8,RTL,TRUE
+fi,Finnish (Suomi) ,,FALSE,,,10,ltr,FALSE
+fr,French (Français) ,,FALSE,,,10,ltr,FALSE
+ig,Igbo (Ásụ̀sụ́ Ìgbò) ,,FALSE,,,10,ltr,FALSE
+ilo,Iloko (Illocano) ,,FALSE,,,10,ltr,FALSE
+ja,Japanese (日本語) ,Japanese,FALSE,,,10,ltr,FALSE
+km,Khmer (ខ្មែរ) ,Khmer,TRUE,khmr,khm,10,ltr,TRUE
+km_an,Khmer (ខ្មែរ) with arabic numerals,Khmer,TRUE,khmr,khm,10,ltr,FALSE
+knw,Kankana-ey ,,FALSE,,,10,ltr,FALSE
+ko,Korean (한국인) ,Korean,FALSE,,,10,ltr,FALSE
+no,Norwegian (norsk) ,,FALSE,,,10,ltr,FALSE
+ru,Russian (Русский) ,,FALSE,,,10,ltr,FALSE
+si,Sinhala (සිංහල) ,Sinhala,TRUE,sinh,SNH,9,ltr,TRUE
+th,Thai (ภาษาไทย) ,Thai,TRUE,thai,tha,10,ltr,FALSE
+tl,Tagalog (Filipino) ,,FALSE,,,10,ltr,FALSE
+vi,Vietnamese (Tiếng Việt) ,,FALSE,,,10,ltr,FALSE
+yue,Chinese Cantonese (Simplified) [中文简体（广东话)] ,SimplifiedChinese,FALSE,,,10,ltr,FALSE
+zh,Chinese Mandarin (Simplified) [中文简体（普通话)] ,SimplifiedChinese,FALSE,,,10,ltr,FALSE

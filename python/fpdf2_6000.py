@@ -3,21 +3,10 @@
 # Documentation found on https://py-pdf.github.io/fpdf2/Tutorial.html
 
 from fpdf import FPDF
-
-# from reportlab.pdfgen import canvas
-# from reportlab.lib import colors
-# from reportlab.lib.units import mm
-# from reportlab.graphics import renderPDF
-# from reportlab.graphics.shapes import Drawing, Polygon
-# from reportlab.pdfbase import pdfmetrics
-# from reportlab.pdfbase.ttfonts import TTFont
-# from reportlab.pdfbase.pdfmetrics import stringWidth
 # from svglib.svglib import svg2rlg
 import pandas as pd
 import googletrans
-import datetime
-import sys
-import os
+import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
 version  = 4.7
@@ -31,8 +20,10 @@ page_width   = 4*297*mm + 2 * border_lr   # 4x A4 landscape
 page_height  = 210*mm                     #    A4 landscape height
 pdf_author   = "https://github.com/kreier/timeline"
 fontsize_regular = 10
-vertical_lines  = False
-left_to_right   = True   # False for Arabic, Hebrew, Persian and other RTL writing systems
+vertical_lines   = False
+left_to_right    = True   # False for Arabic, Hebrew, Persian and other RTL writing systems
+replace_numerals = False  # for Khmer, Arabic, 
+# logging.getLogger("fpdf.svg").propagate = False # suppress warnings for unsupported svg features
 
 dict      = {}
 color     = {}
@@ -46,7 +37,6 @@ if os.getcwd()[-6:] != "python":
 pdf = FPDF(unit="pt", format=(page_width, page_height)) # no orientation ="landscape" since it only swaps width and height
 pdf.set_margin(0)
 pdf.c_margin = 0
-# pdf.set_margins(left=border_lr, top=border_tb)
 pdf.add_page()
 pdf.set_author(pdf_author)
 pdf.add_font("Aptos", style="", fname="fonts/aptos.ttf")
@@ -121,12 +111,11 @@ def drawString(text, fontsize, x_string, y_string, position):
     pdf.set_font(font_regular, size=fontsize)
     pdf.set_text_color(0)
     pdf.set_fill_color(255)
-    pdf.set_draw_color(150)
+    pdf.set_draw_color(255)
     pdf.set_line_width(1.0)
     xtra = 0
     if fontsize < 6:
         xtra = 0
-    pdf.set_font("notokhmer", size=12)
     white_width = pdf.get_string_width(text)
     if position == "r":
         pdf.rect(x_string, y_string, white_width, fontsize, style="FD")
@@ -136,9 +125,9 @@ def drawString(text, fontsize, x_string, y_string, position):
         pdf.rect(x_string - white_width, y_string, white_width, fontsize, style="FD")
         pdf.set_xy(x_string - white_width, y_string)
         start = pdf.get_x()
-        pdf.cell(text=text)
-        print(f"Before: {white_width} - after: {pdf.get_x() - start}")
-        pdf.cell(text="<")
+        pdf.cell(text=text, align="R")
+        # print(f"Before: {white_width} - after: {pdf.get_x() - start}")
+        # pdf.cell(text="<")
     elif position == "c":                                                # c - centered, bold and white
         pdf.set_text_color(255)
         pdf.set_font(font_bold, size=fontsize)
@@ -188,28 +177,32 @@ def import_dictionary():
 
 def number_to_string(number, language):
     # list_languages_special_numerals = ["ar", "fa", "si", "km"]
-    languages_special_numerals = {'ar': 'arabic_numerals',
-                                  'fa': 'farsi_numerals',
-                                  'si': 'sinhala_numerals',
-                                  'km': 'khmer_numerals'}
-    arabic_numerals = {
-        '0': '٠',  '1': '١',  '2': '٢',  '3': '٣',  '4': '٤',
-        '5': '٥',  '6': '٦',  '7': '٧',  '8': '٨',  '9': '٩'}
-    farsi_numerals = {
-        '0': '۰',  '1': '۱',  '2': '۲',  '3': '۳',  '4': '۴',
-        '5': '۵',  '6': '۶',  '7': '۷',  '8': '۸',  '9': '۹'}
-    sinhala_numerals = {
-        '0': '෦',  '1': '෧',  '2': '෨',  '3': '෩',  '4': '෪',
-        '5': '෫',  '6': '෬',  '7': '෭',  '8': '෮',  '9': '෯'}
-    khmer_numerals = {
-        '0': '០',  '1': '១',  '2': '២',  '3': '៣',  '4': '៤',
-        '5': '៥',  '6': '៦',  '7': '៧',  '8': '៨',  '9': '៩'}
-    if language in languages_special_numerals:
-        new_numerals = locals()[languages_special_numerals[language]]
+    global replace_numerals
+    if replace_numerals:
+        languages_special_numerals = {'ar': 'arabic_numerals',
+                                    'fa': 'farsi_numerals',
+                                    'si': 'sinhala_numerals',
+                                    'km': 'khmer_numerals'}
+        arabic_numerals = {
+            '0': '٠',  '1': '١',  '2': '٢',  '3': '٣',  '4': '٤',
+            '5': '٥',  '6': '٦',  '7': '٧',  '8': '٨',  '9': '٩'}
+        farsi_numerals = {
+            '0': '۰',  '1': '۱',  '2': '۲',  '3': '۳',  '4': '۴',
+            '5': '۵',  '6': '۶',  '7': '۷',  '8': '۸',  '9': '۹'}
+        sinhala_numerals = {
+            '0': '෦',  '1': '෧',  '2': '෨',  '3': '෩',  '4': '෪',
+            '5': '෫',  '6': '෬',  '7': '෭',  '8': '෮',  '9': '෯'}
+        khmer_numerals = {
+            '0': '០',  '1': '១',  '2': '២',  '3': '៣',  '4': '៤',
+            '5': '៥',  '6': '៦',  '7': '៧',  '8': '៨',  '9': '៩'}
+        if language in languages_special_numerals:
+            new_numerals = locals()[languages_special_numerals[language]]
 
-        # if language == "km":
-        #     new_numerals = khmer_numerals
-        return ''.join(new_numerals[digit] for digit in str(number))
+            # if language == "km":
+            #     new_numerals = khmer_numerals
+            return ''.join(new_numerals[digit] for digit in str(number))
+        else:
+            return str(number)
     else:
         return str(number)
 
@@ -275,7 +268,7 @@ def create_horizontal_axis():
         if i == 41:                                              # the year 100 CE
             if pdf.get_string_width(dict["CE"]) > 60:
                 print_year = False
-        if year == "0":                                          # there is no year zero
+        if abs((100 * i) - 4000) == 0:                                          # there is no year zero
             print_year = False
             tick_x = x1 + (4075) * dots_year
             pdf.line(tick_x, y1, tick_x, y1 - 6*mm)
@@ -389,26 +382,26 @@ def create_adam_moses():
         counter_people += 1
 
 def draw_event(text, date, ys, ye, yt, wl, pos):
-    global fontsize_regular
-    if right_to_left:
+    global fontsize_regular, pdf
+    if not left_to_right:
         if pos == "l":
             pos = "r"
         else:
             pos = "l"
     x_line = x_position(date)
     x_txt  = x_line + 4
-    y_txt  = y_position(yt)
+    y_txt  = y_position(yt) - 9
     x_add  = 2
     if pos == "l":
         x_txt = x_line - 4
         x_add = -x_add
-    lc = [0.15, 0.15, 0.2]
-    c.setLineWidth(wl)
-    c.setStrokeColorRGB(lc[0], lc[1], lc[2])
-    c.line(x_line, y_position(ys), x_line, y_position(ye))
     drawString(dict[text], fontsize_regular, x_txt, y_txt, pos)
-    points = [x_line, y_txt + 1, x_line + x_add, y_txt + 3, x_line, y_txt + 5]
-    d.add(Polygon(points, fillColor=(lc[0], lc[1], lc[2]), strokeColor=(lc[0], lc[1], lc[2]), strokeWidth = 0.1))
+    pdf.set_line_width(wl)
+    pdf.set_draw_color(20, 20, 30)
+    pdf.set_fill_color(0)
+    pdf.line(x_line, y_position(ys) - 1, x_line, y_position(ye) - 1)
+    points = ((x_line, y_txt + 3), (x_line + x_add, y_txt + 5), (x_line, y_txt + 7))
+    pdf.polygon(points, style="DF")
 
 def create_events_objects():
     global counter_objects
@@ -494,28 +487,29 @@ def create_kings():
         detail += f"{number_to_string(-year(start), language)}-{number_to_string(-year(end), language)} {time_reigned})" + detail_born
         x_box  = x_position(start) 
         x_born = x_position(born)
-        y_box  = y_position(row.row_y)
+        y_box  = y_position(row.row_y) - 10
         x_boxwidth = x_position(end) - x_position(start)        
         # horizontal T-graph for time before coming king
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
-        pdf.line(x_born, y_box -3, x_box,  y_box - 3)            # offset with fpdf2 is -3, was +3 with reportlab
-        pdf.line(x_born, y_box -8, x_born, y_box + 2)            # -3-5 = -8 and -3+5 = +2
+        pdf.line(x_born, y_box +7, x_box,  y_box +7)            # offset with fpdf2 is -3, was +3 with reportlab
+        pdf.line(x_born, y_box +2, x_born, y_box + 12)            # -3-5 = -8 and -3+5 = +2
         # box to indicate time of reign
         co = color[row.key]
         pdf.set_fill_color(255*co[0], 255*co[1], 255*co[2])
-        pdf.rect(x_box, y_box - 9, x_boxwidth, 12, style="FD")   # offset y_box was -3 - now its -9
+        pdf.rect(x_box, y_box, x_boxwidth, 12, style="FD")   # offset y_box was -3 - now its zero
         # c.setFillColorRGB(0, 0, 0)
+        y_box += 1
         if left_to_right:                                        # offset for string is now -8
             if index < 23:
-                drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box - 8, "r")
+                drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
             else:
-                drawString(detail, fontsize_regular, x_box - 2, y_box - 8, "l")
+                drawString(detail, fontsize_regular, x_box - 2, y_box, "l")
         else:
             if index < 23:
-                drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box - 8, "l")
+                drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box, "l")
             else:
-                drawString(detail, fontsize_regular, x_box + 2, y_box - 8, "r")
+                drawString(detail, fontsize_regular, x_box + 2, y_box, "r")
         counter_kings += 1
 
 def faded_color(red, green, blue, percent):
@@ -637,22 +631,28 @@ def create_periods():
     # Import the perios with start and end as pandas dataframe
     periods = pd.read_csv("../db/periods.csv", encoding='utf8')
     print("Imported data of periods:", len(periods))
-    c.setFont(font_regular, 10)
-    c.setLineWidth(0.3)
+    pdf.set_font(font_regular, "", 10)
+    # c.setFont(font_regular, 10)
+    # c.setLineWidth(0.3)
     for index, row in periods.iterrows():
         detail_c = detail = ""
         start = row.start
         end   = row.end
         key   = row.key
         x_box = x_position(start)
-        y_box = y_position(row.row_y)
+        y_box = y_position(row.row_y) - 9
         # x_boxwidth = (end - start) * dots_year
         x_boxwidth = x_position(end) - x_position(start)                
         co = color[f"{row.key}"]
-        c.setFillColorRGB(co[0], co[1], co[2])
-        c.setLineWidth(0.3)
-        c.setStrokeColorRGB(0, 0, 0)
-        c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
+        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_line_width(0.3)
+        pdf.set_draw_color(0)
+        pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style="DF")
+
+        # c.setFillColorRGB(co[0], co[1], co[2])
+        # c.setLineWidth(0.3)
+        # c.setStrokeColorRGB(0, 0, 0)
+        # c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
         if row.end_fade > row.end:
             # fade_width = (row.end_fade - row.end) * dots_year
             fade_width = x_position(row.end_fade) - x_position(row.end)
@@ -660,8 +660,10 @@ def create_periods():
             fade_steps = 50
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
-                c.setFillColorRGB(cl[0], cl[1], cl[2])
-                c.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps-0.2, y_box - 3, fade_width / 45, 12, fill = 1, stroke = 0)
+                pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
+                pdf.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps-0.2, y_box - 0.85, fade_width / 45, 11.7, style="F")
+                # c.setFillColorRGB(cl[0], cl[1], cl[2])
+                # c.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps-0.2, y_box - 3, fade_width / 45, 12, fill = 1, stroke = 0)
         if row.start_fade < row.start:
             # fade_width = (row.start - row.start_fade) * dots_year + 1
             fade_width = x_position(row.start) - x_position(row.start_fade)
@@ -670,29 +672,36 @@ def create_periods():
             fade_steps = 50
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
-                c.setFillColorRGB(cl[0], cl[1], cl[2])
-                c.rect(x_box + fade_width * i/fade_steps, y_box - 3, fade_width / 45, 12, fill = 1, stroke = 0)
+                pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
+                pdf.rect(x_box + fade_width * i/fade_steps + 0.2, y_box - 0.85, fade_width / 45, 11.7, style="F")
+                # c.setFillColorRGB(cl[0], cl[1], cl[2])
+                # c.rect(x_box + fade_width * i/fade_steps, y_box - 3, fade_width / 45, 12, fill = 1, stroke = 0)
 
-        c.setFillColorRGB(0, 0, 0)
+        # c.setFillColorRGB(0, 0, 0)
+        pdf.set_fill_color(0)
         if len(row.text_center) > 1:
             detail_c = dict[row.text_center]
             textsize = fontsize_regular
-            while stringWidth(detail_c, font_bold, textsize, 'utf8') > abs(x_boxwidth) and textsize > 4:
+            # while stringWidth(detail_c, font_bold, textsize, 'utf8') > abs(x_boxwidth) and textsize > 4:
+            pdf.set_font(font_bold, "", textsize)
+            while pdf.get_string_width(detail_c) > abs(x_boxwidth) and textsize > 4:
                 textsize -= 1
+                pdf.set_font(font_bold, "", textsize)
                 print(textsize, " ", detail_c)
             drawString(detail_c, textsize, x_box + x_boxwidth * 0.5, y_box, "c")
         detail = dict[key]
+        # y_box -= 8
         direction = row.location_description
-        if right_to_left:
+        if left_to_right:
+            if row.location_description == "l":
+                drawString(detail, fontsize_regular, x_box - 2, y_box , "l")
+            else:
+                drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
+        else:
             if row.location_description == "r":
                 drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box, "l")
             else:
                 drawString(detail, fontsize_regular, x_box + 2, y_box, "r")
-        else:
-            if row.location_description == "l":
-                drawString(detail, fontsize_regular, x_box - 2, y_box, "l")
-            else:
-                drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
         counter_periods += 1
 
 def create_terah_familytree():
@@ -908,19 +917,17 @@ def create_timeline(lang):
     import_dictionary()
     import_colors("normal")
     create_canvas()
-    # pdf.set_xy(0, 520)
-    # pdf.cell(text="Hello world!")
     create_horizontal_axis()
     create_adam_moses()
-    # create_reference_events()
-    # create_events_objects()
+    create_reference_events()
+    create_events_objects()
     # create_judges()
     create_kings()
     # create_prophets()
     # create_books()
     # create_people()
     # create_objects()
-    # create_periods()
+    create_periods()
     # create_caesars()
     # create_daniel2()
     # create_terah_familytree()
@@ -928,7 +935,6 @@ def create_timeline(lang):
     # include_pictures_svg()
     # create_tribulation()
     # create_timestamp()
-
 
 
     # with pdf.rotation(angle=90):
@@ -943,9 +949,6 @@ def create_timeline(lang):
     # pdf.text(5, 5, "what?")
 
 
-
-
-
     render_to_file()
 
 def checkForValidLanguageCode(langCode):
@@ -958,11 +961,11 @@ def checkForValidLanguageCode(langCode):
     return False
 
 def is_supported(language):
-    global language_str, pdf, font_regular, font_bold, left_to_right
+    global language_str, pdf, font_regular, font_bold, left_to_right, replace_numerals
     # import list of supported languages into dataframe supported_language
     df = pd.read_csv("../db/supported_languages.csv", encoding='utf8')
     df = df.fillna(" ")
-    row_index = df[df['key'] == language].index
+    row_index = df[df['key'] == language].index   # creates array of matching entries with language string
     if len(row_index) == 0:
         print(f"Your selected language '{language}' is not yet supported by this timeline project.\n")
         print(f"Let's check if the language code exists in Google Translate: ", end = "")
@@ -1006,22 +1009,9 @@ def is_supported(language):
                 # shaping_engine = True
                 # se_script      = df.at[row_index[0], 'script']
                 # se_language    = df.at[row_index[0], 'language']
-
-            # print("shaping_engine: ", df.at[row_index[0], 'shaping_engine'])
-        # pdf.set_text_shaping(use_shaping_engine=True, script="khmr", language="khm")
-
-
+        if df.at[row_index[0], 'replace_numerals']:
+            replace_numerals = True
         return True
-
-
-
-
-
-
-
-
-
-
 
 
     print(row_index, len(row_index))
