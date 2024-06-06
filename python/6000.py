@@ -345,12 +345,13 @@ def create_horizontal_axis():
 
         # vertical lines for centuries
         if vertical_lines:
-            c.setLineWidth(0.1)
-            c.line(tick_x, y1, tick_x, y2)
+            if i % 10 == 0:
+                c.setLineWidth(0.1)
+                c.line(tick_x, y1, tick_x, y2)
 
             # from 1100 to 600 BCE also every 50 years
-            if i > 28 and i < 35:
-                c.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
+            # if i > 28 and i < 35:
+            #     c.line(tick_x + 50 * dots_year, y1, tick_x + 50 * dots_year, y2)
 
     if not right_to_left:
         c.drawRightString(x1 + 20, y1 - 16, dict["BCE"])
@@ -957,7 +958,7 @@ def create_timestamp():
             x2_link = x1_link + factor * foot_width[position[i]]
             linkRectangle = (x1_link, y1 + 1, x2_link, y1 + 5)
             c.linkURL(hyperlink[i], linkRectangle)                        # make visible with "thickness = 1"
-            c.setFillColorRGB(0, 0, 1)
+            c.setFillColorRGB(0.1, 0.1, 0.6)
         else:
             c.setFillColorRGB(0.2, 0.2, 0.2)
         c.drawString(x1_link, y1 + 2, footer[j])
