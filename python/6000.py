@@ -220,7 +220,8 @@ def import_dictionary():
             fontsize_regular = 8
             right_to_left = True
     print(f"Imported dictionary: {len(key_dict)} keywords")
-    version = float(dict["version"])
+    if float(dict["version"]) < version:
+        version = float(dict["version"])
     print(f"Version {version}")
 
 def number_to_string(number, language):
@@ -260,10 +261,15 @@ def import_colors(c_scheme):
     for index, row in key_colors.iterrows():
         color.update({f"{row.key}" : (row.R, row.G, row.B)})
 
-def create_canvas():
-    global c, filename
+def create_canvas(edition):
+    global c, filename, border_lr, page_width
     # Create the canvas
-    filename = "../timeline/timeline_v" + str(version) + "_"+ language + ".pdf"
+    if edition == "digital":
+        filename = "../timeline/timeline_v" + str(version) + "_"+ language + ".pdf"
+    else:
+        filename = "../timeline/timeline_v" + str(version) + "_"+ language + "_print.pdf"
+        border_lr    = 60*mm                      # space left/right usually 10, for roll holders 60
+        page_width   = 4*297*mm + 2 * border_lr   # 4x A4 landscape
     c = canvas.Canvas(filename, pagesize=(page_width,page_height))
     c.setAuthor(pdf_author)
     c.setTitle(dict['pdf_title'])
@@ -680,7 +686,7 @@ def create_caesars():
         drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
         counter_kings += 1
 
-def create_periods():
+def create_periods(edition):
     global counter_periods, fontsize_regular
     # Import the perios with start and end as pandas dataframe
     periods = pd.read_csv("../db/periods.csv", encoding='utf8')
@@ -695,7 +701,9 @@ def create_periods():
         x_box = x_position(start)
         y_box = y_position(row.row_y)
         # x_boxwidth = (end - start) * dots_year
-        x_boxwidth = x_position(end) - x_position(start)                
+        x_boxwidth = x_position(end) - x_position(start) 
+        if row.key == "millenium" and edition == "print":
+            x_boxwidth = x_position(end + 230) - x_position(start) 
         co = color[f"{row.key}"]
         c.setFillColorRGB(co[0], co[1], co[2])
         c.setLineWidth(0.3)
@@ -971,6 +979,7 @@ def create_timestamp():
         c.rotate(90)
         timestamp = str(datetime.datetime.now())
         dateindex = timestamp[2:4] + timestamp[5:7] + timestamp[8:10]
+        c.setFillColorRGB(0, 0, 0)
         c.drawString(y_position(8.9), -x_position(-3955), "timeline " + language)
         c.drawString(y_position(8.9), -x_position(-3947), dateindex)
         c.rotate(-90)
@@ -986,31 +995,33 @@ def render_to_file():
 def create_timeline(lang):
     global language, version, language_str
     language = lang
-    initiate_counters()
-    import_dictionary()
-    # import_colors("random")
-    import_colors("normal")
-    create_canvas()
-    create_drawing_area()
-    create_horizontal_axis()
-    create_adam_moses()
-    create_reference_events()
-    create_events_objects()
-    create_judges()
-    create_kings()
-    create_prophets()
-    create_books()
-    create_people()
-    create_objects()
-    create_periods()
-    create_caesars()
-    create_daniel2()
-    create_terah_familytree()
-    include_pictures()
-    include_pictures_svg()
-    create_tribulation()
-    create_timestamp()
-    render_to_file()
+    editions = ["digital", "print"]
+    for edition in editions:
+        initiate_counters()
+        import_dictionary()
+        # import_colors("random")
+        import_colors("normal")
+        create_canvas(edition)
+        create_drawing_area()
+        create_horizontal_axis()
+        create_adam_moses()
+        create_reference_events()
+        create_events_objects()
+        create_judges()
+        create_kings()
+        create_prophets()
+        create_books()
+        create_people()
+        create_objects()
+        create_periods(edition)
+        create_caesars()
+        create_daniel2()
+        create_terah_familytree()
+        include_pictures()
+        include_pictures_svg()
+        create_tribulation()
+        create_timestamp()
+        render_to_file()
 
 def checkForValidLanguageCode(langCode):
     data=googletrans.LANGCODES
