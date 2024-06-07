@@ -220,7 +220,8 @@ def import_dictionary():
             fontsize_regular = 8
             right_to_left = True
     print(f"Imported dictionary: {len(key_dict)} keywords")
-    version = float(dict["version"])
+    if float(dict["version"]) < version:
+        version = float(dict["version"])
     print(f"Version {version}")
 
 def number_to_string(number, language):
@@ -971,6 +972,7 @@ def create_timestamp():
         c.rotate(90)
         timestamp = str(datetime.datetime.now())
         dateindex = timestamp[2:4] + timestamp[5:7] + timestamp[8:10]
+        c.setFillColorRGB(0, 0, 0)
         c.drawString(y_position(8.9), -x_position(-3955), "timeline " + language)
         c.drawString(y_position(8.9), -x_position(-3947), dateindex)
         c.rotate(-90)
