@@ -1,9 +1,9 @@
 key,text,english,notes
-version,4.6,4.6, 
-pdf_title,6000 taon na paglalarawan na kasaysayan ng tao ,6000 years human history visualized, 
-pdf_subject,Timeline ng sangkatauhan,Timeline of humankind, 
-BCE,B.C.E.,B.C.E., 
-CE,C.E.,C.E., 
+version,4.7,4.7,
+pdf_title,6000 taon na paglalarawan na kasaysayan ng tao ,6000 years human history visualized,
+pdf_subject,Timeline ng sangkatauhan,Timeline of humankind,
+BCE,B.C.E.,B.C.E.,
+CE,C.E.,C.E.,
 year,taon,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,taon,years, 
 years_age,taon,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
@@ -329,14 +329,14 @@ Plato,Plato c. 427 – c. 348 BC,Plato c. 427 – c. 348 BC,
 Socrates,Socrates c. 470 – c. 399 BC,Socrates c. 470 – c. 399 BC, 
 Josephus,Josephus c. 37 – c. 100 C.E.,Josephus c. 37 – c. 100 C.E., 
 Cicero,Cicero 106–43 BC,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
-lachish_letters,Mga titik ng Lachish c. 590 B.C.E.,Lachish letters c. 590 B.C.E., 
-lachish_reliefs,Mga relief ng Lachish c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E., 
-mesha_stele,Mesha Stele (Batong Moabita) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E., 
-gilgamesh,Gilgamesh at Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, 
-epic_gilgamesh,Epiko ni Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), 
-oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri, 
-p52,Papyrus P52,Papyrus P52, 
-daniel2_shift,0,0,Start 4.2
+lachish_letters,Mga titik ng Lachish c. 590 B.C.E.,Lachish letters c. 590 B.C.E.,
+lachish_reliefs,Mga relief ng Lachish c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E.,
+mesha_stele,Mesha Stele (Batong Moabita) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,
+gilgamesh,Gilgamesh at Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
+epic_gilgamesh,Epiko ni Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
+oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
+p52,Papyrus P52,Papyrus P52,
+daniel2_shift,-3,-3,Start 4.2
 daniel2_1,Winasak ni Haring Nabu-,King Nebuchadnezzar,607 BCE
 daniel2_2,codonosor ang Jerusalem,destroys Jerusalem, 
 daniel2_3,Tinalo ang Babilonya,Conquers Babylon,539 BCE
