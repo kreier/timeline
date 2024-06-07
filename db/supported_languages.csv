@@ -1,0 +1,23 @@
+key,lang,shaping_engine,script,language,direction,fontname,fontsize,fontsize_AM,y_offset,replace_numerals,language
+ar,Arabic,TRUE,arab,ara,RTL,NotoArabic,5,10,2,TRUE,Arabic (العربية) 
+de,German,FALSE,,,ltr,,10,15,0,FALSE,German (Deutsch) 
+en,English,FALSE,,,ltr,,10,15,0,FALSE,English
+es,Spanish,FALSE,,,ltr,,10,15,0,FALSE,Spanish (Español) 
+fa,Persian,TRUE,arab,fas,RTL,NotoArabic,8,13,2,TRUE,Persian or Farsi (فارسی)
+fi,Finnish,FALSE,,,ltr,,10,15,0,FALSE,Finnish (Suomi) 
+fr,French,FALSE,,,ltr,,10,15,0,FALSE,French (Français) 
+ig,Igbo,FALSE,,,ltr,,10,15,0,FALSE,Igbo (Ásụ̀sụ́ Ìgbò) 
+ilo,Iloko,FALSE,,,ltr,,10,15,0,FALSE,Iloko (Illocano) 
+ja,Japanese,FALSE,,,ltr,NotoJapanese,10,15,0,FALSE,Japanese (日本語) 
+km,Khmer,TRUE,khmr,khm,ltr,NotoKhmer,10,15,0,TRUE,Khmer (ខ្មែរ) 
+km_an,Khmer ar24,TRUE,khmr,khm,ltr,NotoKhmer,10,15,0,FALSE,Khmer (ខ្មែរ) with arabic numerals
+knw,Kankana-ey ,FALSE,,,ltr,,10,15,0,FALSE,Kankana-ey 
+ko,Korean,FALSE,,,ltr,NotoKorean,10,15,0,FALSE,Korean (한국인) 
+no,Norwegian,FALSE,,,ltr,,10,15,0,FALSE,Norwegian (norsk) 
+ru,Russian,FALSE,,,ltr,,10,15,0,FALSE,Russian (Русский) 
+si,Sinhala,TRUE,sinh,snh,ltr,NotoSinhala,9,14,1,TRUE,Sinhala (සිංහල) 
+th,Thai,TRUE,thai,tha,ltr,NotoThai,10,15,0,FALSE,Thai (ภาษาไทย) 
+tl,Tagalog,FALSE,,,ltr,,10,15,0,FALSE,Tagalog (Filipino) 
+vi,Vietnamese,FALSE,,,ltr,,10,15,0,FALSE,Vietnamese (Tiếng Việt) 
+yue,Cantonese,FALSE,,,ltr,NotoSimplifiedChinese,10,15,0,FALSE,Chinese Cantonese (Simplified) [中文简体（广东话)] 
+zh,Mandarin,FALSE,,,ltr,NotoSimplifiedChinese,10,15,0,FALSE,Chinese Mandarin (Simplified) [中文简体（普通话)] 
