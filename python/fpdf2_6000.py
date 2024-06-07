@@ -20,6 +20,8 @@ page_width   = 4*297*mm + 2 * border_lr   # 4x A4 landscape
 page_height  = 210*mm                     #    A4 landscape height
 pdf_author   = "https://github.com/kreier/timeline"
 fontsize_regular = 10
+fontsize_AMoses  = 16
+y_offset         = 0
 vertical_lines   = False
 left_to_right    = True   # False for Arabic, Hebrew, Persian and other RTL writing systems
 replace_numerals = False  # for Khmer, Arabic, 
@@ -124,10 +126,7 @@ def drawString(text, fontsize, x_string, y_string, position):
     elif position == "l":
         pdf.rect(x_string - white_width, y_string, white_width, fontsize, style="FD")
         pdf.set_xy(x_string - white_width, y_string)
-        start = pdf.get_x()
         pdf.cell(text=text, align="R")
-        # print(f"Before: {white_width} - after: {pdf.get_x() - start}")
-        # pdf.cell(text="<")
     elif position == "c":                                                # c - centered, bold and white
         pdf.set_text_color(255)
         pdf.set_font(font_bold, size=fontsize)
@@ -306,7 +305,7 @@ def create_horizontal_axis():
 
 def create_adam_moses():
     # unique pattern for people from Adam to Moses, and eventline for deluge
-    global counter_people, counter_events, language, left_to_right
+    global counter_people, counter_events, language, left_to_right, fontsize_regular, fontsize_AMoses, y_offset
 
     # Blue line for the deluge in 2370 BCE
     pdf.set_line_width(1.0)
@@ -353,17 +352,17 @@ def create_adam_moses():
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
         pdf.rect(x_box, y_box, x_boxwidth, 19, style="FD")
-        fontsize_adammoses = 15
         # pdf.set_text_color(255)
         # ----------------------------------------------------- import size here from anohter place as 15 pt ---------------
-        pdf.set_font(font_bold, size=15)
-        if language == "ar" or language == "fa":
-            pdf.set_font_size(13)
-            y_box += 2
-        if language == "si":
-            pdf.set_font_size(13)
-            y_box += 1
-        drawString(person, fontsize_adammoses, x_text, y_box + 1, "c")
+        # pdf.set_font(font_bold, size=fontsize_AMoses)
+        # if language == "ar" or language == "fa":
+        #     pdf.set_font_size(13)
+        #     y_box += 2
+        # if language == "si":
+        #     pdf.set_font_size(13)
+        #     y_box += 1
+        y_box += y_offset
+        drawString(person, fontsize_AMoses, x_text, y_box + 1, "c")
         # pdf.set_text_color(0)
         # c.drawCentredString(x_text, y_box + 5, person)
         if left_to_right:
@@ -961,7 +960,7 @@ def checkForValidLanguageCode(langCode):
     return False
 
 def is_supported(language):
-    global language_str, pdf, font_regular, font_bold, left_to_right, replace_numerals
+    global language_str, pdf, font_regular, font_bold, left_to_right, replace_numerals, fontsize_regular, fontsize_AMoses, y_offset
     # import list of supported languages into dataframe supported_language
     df = pd.read_csv("../db/supported_languages.csv", encoding='utf8')
     df = df.fillna(" ")
@@ -987,15 +986,15 @@ def is_supported(language):
             left_to_right = False
             se_direction = "rtl"
         # Import the script/glyph for this language
-        if df.at[row_index[0], 'font'] == " ":
+        if df.at[row_index[0], 'fontname'] == " ":
             font_regular = "Aptos"
             font_bold    = "Aptos-bold"
         else:
-            glyphs = df.at[row_index[0], 'font']
-            fontname = "Noto" + glyphs
-            fontfile = "fonts/Noto" + glyphs + ".ttf"
-            fontname_bold = "Noto" + glyphs + "-bold"
-            fontfile_bold = "fonts/Noto" + glyphs + "-bold.ttf"
+            glyphs = df.at[row_index[0], 'fontname']
+            fontname = glyphs
+            fontfile = "fonts/" + glyphs + ".ttf"
+            fontname_bold = glyphs + "-bold"
+            fontfile_bold = "fonts/" + glyphs + "-bold.ttf"
             pdf.add_font(fontname, style="", fname=fontfile)
             pdf.add_font(fontname_bold, style="", fname=fontfile_bold)
             font_regular = fontname
@@ -1006,9 +1005,9 @@ def is_supported(language):
                                      direction=se_direction, 
                                      script=df.at[row_index[0], 'script'], 
                                      language=df.at[row_index[0], 'language'])
-                # shaping_engine = True
-                # se_script      = df.at[row_index[0], 'script']
-                # se_language    = df.at[row_index[0], 'language']
+            fontsize_regular = df.at[row_index[0], 'fontsize']
+            fontsize_AMoses  = df.at[row_index[0], 'fontsize_AM']
+            y_offset         = df.at[row_index[0], 'y_offset']
         if df.at[row_index[0], 'replace_numerals']:
             replace_numerals = True
         return True

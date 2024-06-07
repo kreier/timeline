@@ -1,9 +1,9 @@
-key,lang,shaping_engine,script,language,direction,fontname,fontsize,fontsize_AM,y_adjust,replace_numerals,language
-ar,Arabic,TRUE,arab,ara,RTL,NotoArabic,8,13,1,TRUE,Arabic (العربية) 
+key,lang,shaping_engine,script,language,direction,fontname,fontsize,fontsize_AM,y_offset,replace_numerals,language
+ar,Arabic,TRUE,arab,ara,RTL,NotoArabic,5,10,2,TRUE,Arabic (العربية) 
 de,German,FALSE,,,ltr,,10,15,0,FALSE,German (Deutsch) 
 en,English,FALSE,,,ltr,,10,15,0,FALSE,English
 es,Spanish,FALSE,,,ltr,,10,15,0,FALSE,Spanish (Español) 
-fa,Persian,TRUE,arab,fas,RTL,NotoArabic,8,13,1,TRUE,Persian or Farsi (فارسی)
+fa,Persian,TRUE,arab,fas,RTL,NotoArabic,8,13,2,TRUE,Persian or Farsi (فارسی)
 fi,Finnish,FALSE,,,ltr,,10,15,0,FALSE,Finnish (Suomi) 
 fr,French,FALSE,,,ltr,,10,15,0,FALSE,French (Français) 
 ig,Igbo,FALSE,,,ltr,,10,15,0,FALSE,Igbo (Ásụ̀sụ́ Ìgbò) 
