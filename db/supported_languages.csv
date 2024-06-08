@@ -1,4 +1,4 @@
-key,lang,shaping_engine,script,language,direction,fontname,fontsize,fontsize_AM,y_offset,replace_numerals,language
+key,lang,shaping_engine,script,language,direction,fontname,fontsize,fontsize_AM,y_offset,replace_numerals,language_str
 ar,Arabic,TRUE,arab,ara,RTL,NotoArabic,5,10,2,TRUE,Arabic (العربية) 
 de,German,FALSE,,,ltr,,10,15,0,FALSE,German (Deutsch) 
 en,English,FALSE,,,ltr,,10,15,0,FALSE,English

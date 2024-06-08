@@ -978,7 +978,7 @@ def is_supported(language):
             print(f"Nope.\nIt looks like '{language}' is not a valid language code in ISO 639 or it is not supported by Google Translate.")
             return False
     else:
-        language_str = df.at[row_index[0], 'language']
+        language_str = df.at[row_index[0], 'language_str'] # language is used for the shape engine
         print(f"Your selected language {language} is supported: {language_str}")
         # set RTL or LTR
         se_direction = "ltr"
@@ -1019,12 +1019,7 @@ def is_supported(language):
     # for index, row in df.iterrows():
     #     supported[row.key] = row.language
 
-        # location = "../images/" + row.key
-        # local_x = x_position(row.x)
-    # for s in supported:
-    #     print(s, supported[s])
-    # print(supported)
-    # if empty assign Aptos, otherwise Noto-whatever
+        
 
 
     # CJKAST = ["Japanese", "Korean", "SimplifiedChinese", "Arabic", "Sinhala", "Thai", "Khmer", "Georgian"]
