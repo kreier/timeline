@@ -60,14 +60,13 @@ def create_dictionary(target_language):
     dict['english'] = reference['text'].copy()         # add a column 'english' and fill with 'text' from english dictionary
     print("\nTranslating ...")
     translator = googletrans.Translator()
-    number_characters = 0                  # you can translate up to 500,000 characters per month for free
-    for index, row in dict.iterrows(): # with 3 columns 'key' 'text' and 'english'
+    number_characters = 0                   # you can translate up to 500,000 characters per month for free
+    for index, row in dict.iterrows():      # with 3 columns 'key' 'text' and 'english'
         english_text = row.english
         number_characters += len(english_text)
-        if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
+        if not english_text == " ":  # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
             dict.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
             print('.', end='')
-            # print(f'English: {english_text}, Translated: {dict_translated[index]}')
         if (index + 1) % 40 == 0:
             print(f" {index}")
     print(dict)
@@ -115,7 +114,7 @@ def drawString(text, fontsize, x_string, y_string, position):
     pdf.set_fill_color(255)
     pdf.set_draw_color(255)
     pdf.set_line_width(1.0)
-    xtra = 0
+    xtra = 0                     # used for labels under images
     if fontsize < 6:
         xtra = 0
     white_width = pdf.get_string_width(text)
@@ -140,7 +139,7 @@ def drawString(text, fontsize, x_string, y_string, position):
         pdf.set_text_color(0)
     elif position == "cb":                                               # cb - centered black regular for judges and years 
         pdf.set_font(font_regular, size=fontsize)
-        pdf.text(x_string + white_width / 2, y_string, text)   
+        pdf.text(x_string - white_width / 2, y_string, text)   
 
 # initiate variables
 def initiate_counters():
@@ -196,9 +195,6 @@ def number_to_string(number, language):
             '5': '៥',  '6': '៦',  '7': '៧',  '8': '៨',  '9': '៩'}
         if language in languages_special_numerals:
             new_numerals = locals()[languages_special_numerals[language]]
-
-            # if language == "km":
-            #     new_numerals = khmer_numerals
             return ''.join(new_numerals[digit] for digit in str(number))
         else:
             return str(number)
@@ -314,21 +310,20 @@ def create_adam_moses():
     pdf.line(date_deluge, y1, date_deluge, y2)
     # drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
     if left_to_right:
-        drawString(f"{dict['Deluge']} {number_to_string(2370, language)} {dict['BCE']}", 12, date_deluge + 2, y1 + 16, "r")
+        drawString(f"{dict['Deluge']} {number_to_string(2370, language)} {dict['BCE']}", 12, date_deluge + 2, y1 + 6, "r")
     else:
-        drawString(f"{dict['Deluge']} {number_to_string(2370, language)} {dict['BCE']}", 12, date_deluge - 2, y1 + 16, "l")    
+        drawString(f"{dict['Deluge']} {number_to_string(2370, language)} {dict['BCE']}", 12, date_deluge - 2, y1 + 6, "l")    
     counter_events += 1
 
     # one special for Job
     co = color['books']
-    job_y = 40.7  # see books.csv for the text and second timebar at 41.9
+    job_y = 40.7           # see books.csv for the text and second timebar at 41.9
     pdf.set_fill_color(r=191 + 64 * co[0], g=191 + 64 * co[1], b=191 + 64 * co[2])
     # c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
     y_start = y_position(job_y)
     x_width = x_position(1675) - x_position(1485)
     pdf.rect(x_start, y_start, x_width, 2, style="F")
-    # c.rect(x_start, y_start, x_width, 2, fill = 1, stroke = 0)
 
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     people = pd.read_csv("../db/adam-moses.csv", encoding='utf8')
@@ -429,19 +424,21 @@ def create_judges():
         y_box = y_position(row.row_y)
         # x_boxwidth = (end -  start) * dots_year
         x_boxwidth = x_position(end) - x_position(start)
-        c.setLineWidth(0.2)
-        c.setStrokeColorRGB(0, 0, 0)
+        pdf.set_line_width(0.2)
+        pdf.set_draw_color(0)
         co = color['judges']
-        c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_box, y_box + 10, x_boxwidth, 2, fill = 1)
+        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.rect(x_box, y_box - 12, x_boxwidth, 2, style="FD")
 
         # indicate years of oppression prior to peacetime of the judge
         oppression = row.oppression
-        x_oppression = x_box - oppression * dots_year
-        x_opp_width  = oppression * dots_year
+        # x_oppression = x_box - oppression * dots_year
+        x_oppression = x_position(start - oppression)
+        # x_opp_width  = oppression * dots_year
+        x_opp_width = x_box - x_oppression
         co = color['oppression']
-        c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x_oppression, y_box + 10, x_opp_width, 2, fill = 1)
+        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.rect(x_oppression, y_box - 12, x_opp_width, 2, style="FD")
 
         judge = dict[row.key]
         drawString(judge, fontsize_regular, x_box + x_boxwidth * 0.5 , y_box, "cb")
@@ -491,13 +488,12 @@ def create_kings():
         # horizontal T-graph for time before coming king
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
-        pdf.line(x_born, y_box +7, x_box,  y_box +7)            # offset with fpdf2 is -3, was +3 with reportlab
-        pdf.line(x_born, y_box +2, x_born, y_box + 12)            # -3-5 = -8 and -3+5 = +2
+        pdf.line(x_born, y_box +7, x_box,  y_box +7)             # offset with fpdf2 is -3, was +3 with reportlab
+        pdf.line(x_born, y_box +2, x_born, y_box + 12)           # -3-5 = -8 and -3+5 = +2
         # box to indicate time of reign
         co = color[row.key]
         pdf.set_fill_color(255*co[0], 255*co[1], 255*co[2])
-        pdf.rect(x_box, y_box, x_boxwidth, 12, style="FD")   # offset y_box was -3 - now its zero
-        # c.setFillColorRGB(0, 0, 0)
+        pdf.rect(x_box, y_box, x_boxwidth, 12, style="FD")       # offset y_box was -3 - now its zero
         y_box += 1
         if left_to_right:                                        # offset for string is now -8
             if index < 23:
@@ -515,30 +511,25 @@ def faded_color(red, green, blue, percent):
     return [1 - percent * (1 - red), 1 - percent * (1 - green), 1 - percent * (1 - blue)]
 
 def timebar(x, y, width, R, G, B, exact):
-    c.setLineWidth(0.0)
-    c.setStrokeColorRGB(1, 1, 1)
-    c.setFillColorRGB(R, G, B)
-    c.rect(x, y, width, 4, fill = 1, stroke = 0)
+    pdf.set_fill_color(R*255, G*255, B*255)
+    pdf.rect(x, y, width, 4, style="F")
     if exact:
         return
     fade_steps = 35
     for i in range(fade_steps):
         co = faded_color(R, G, B, (i+1)/fade_steps)
-        c.setFillColorRGB(co[0], co[1], co[2])
-        c.rect(x + 3 * i/fade_steps - 0.1,   y, 1, 4, fill = 1, stroke = 0)
-        c.rect(x + width - 3 * i/fade_steps, y, 1, 4, fill = 1, stroke = 0)
+        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.rect(x + 3 * i/fade_steps - 0.1,   y, 1, 4, style="F")
+        pdf.rect(x + width - 3 * i/fade_steps, y, 1, 4, style="F")
 
 def text_with_timebar(text, row, year_start, year_end, R, G, B, exact):
     global fontsize_regular
     x_box = x_position(year_start)
-    y_box = y_position(row)
+    y_box = y_position(row) - 9
     # x_boxwidth = (year_end -  year_start) * dots_year
     x_boxwidth = x_position(year_end) - x_position(year_start)    
-    timebar(x_box, y_box + 10, x_boxwidth, R, G, B, exact)
-    c.setFont(font_regular, 10)
-    c.setFillColorRGB(0, 0, 0)
+    timebar(x_box, y_box - 6, x_boxwidth, R, G, B, exact)
     drawString(text, fontsize_regular, x_box, y_box, "r")
-    # c.drawString(x_box , y_box, text)
 
 def create_prophets():
     global counter_prophets
@@ -580,10 +571,14 @@ def create_objects():
         if row.key in cunei:
             # x_boxwidth = (row.end -  row.start) * dots_year
             x_boxwidth = x_position(row.end) - x_position(row.start)
-            timebar(x_position(row.start), y_position(row.row_y) + 10, x_boxwidth, co[0], co[1], co[2], False)
-            c.setFont("NotoCuneiform", 9)
-            c.setFillColorRGB(0, 0, 0)
-            c.drawString(x_position(row.start) , y_position(row.row_y), dict[row.key])
+            timebar(x_position(row.start), y_position(row.row_y) - 15, x_boxwidth, co[0], co[1], co[2], False)
+            pdf.set_font("NotoCuneiform", "", 9)
+            pdf.set_fill_color(0)
+            pdf.set_xy(x_position(row.start) , y_position(row.row_y) - 8)
+            pdf.cell(text=dict[row.key])
+            # c.setFont("NotoCuneiform", 9)
+            # c.setFillColorRGB(0, 0, 0)
+            # c.drawString(x_position(row.start) , y_position(row.row_y), dict[row.key])
         else:
             text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], False)
             counter_objects += 1
@@ -593,8 +588,7 @@ def create_caesars():
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     caesars = pd.read_csv("../db/caesars.csv", encoding='utf8')
     print("Imported data of caesars:", len(caesars))
-    c.setFont(font_regular, 10)
-    c.setLineWidth(0.3)
+    pdf.set_line_width(0.3)
     for index, row in caesars.iterrows():
         born  = row.born
         start = row.start
@@ -610,19 +604,20 @@ def create_caesars():
             detail += f"{int(end)} {dict['CE']}"
         x_box  = x_position(start)
         x_born = x_position(born)
-        y_box  = y_position(row.row_y)
+        y_box  = y_position(row.row_y) - 10
         # x_boxwidth = (end -  start) * dots_year
         x_boxwidth = x_position(end) - x_position(start)                
+        pdf.set_draw_color(0)
+        pdf.line(x_born, y_box +7, x_box,  y_box +7)            # offset with fpdf2 is -3, was +3 with reportlab
+        pdf.line(x_born, y_box +2, x_born, y_box + 12)          # -3-5 = -8 and -3+5 = +2
         co = color['caesars']
-        c.setFillColorRGB(co[0], co[1], co[2])
-
-        c.setLineWidth(0.3)
-        c.setStrokeColorRGB(0, 0, 0)
-        c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
-        c.line(x_born, y_box + 3, x_box, y_box + 3)
-        c.line(x_born, y_box - 2, x_born, y_box + 8)
-        c.setFillColorRGB(0, 0, 0)
-        drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
+        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.rect(x_box, y_box, x_boxwidth, 12, style="FD")       # offset y_box was -3 - now its zero
+        y_box += 1
+        if left_to_right:                                        # offset for string is now -8
+            drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
+        else:
+            drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box, "l")
         counter_kings += 1
 
 def create_periods():
@@ -631,8 +626,6 @@ def create_periods():
     periods = pd.read_csv("../db/periods.csv", encoding='utf8')
     print("Imported data of periods:", len(periods))
     pdf.set_font(font_regular, "", 10)
-    # c.setFont(font_regular, 10)
-    # c.setLineWidth(0.3)
     for index, row in periods.iterrows():
         detail_c = detail = ""
         start = row.start
@@ -647,11 +640,6 @@ def create_periods():
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
         pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style="DF")
-
-        # c.setFillColorRGB(co[0], co[1], co[2])
-        # c.setLineWidth(0.3)
-        # c.setStrokeColorRGB(0, 0, 0)
-        # c.rect(x_box, y_box - 3, x_boxwidth, 12, fill = 1)
         if row.end_fade > row.end:
             # fade_width = (row.end_fade - row.end) * dots_year
             fade_width = x_position(row.end_fade) - x_position(row.end)
@@ -661,8 +649,6 @@ def create_periods():
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
                 pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
                 pdf.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps-0.2, y_box - 0.85, fade_width / 45, 11.7, style="F")
-                # c.setFillColorRGB(cl[0], cl[1], cl[2])
-                # c.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps-0.2, y_box - 3, fade_width / 45, 12, fill = 1, stroke = 0)
         if row.start_fade < row.start:
             # fade_width = (row.start - row.start_fade) * dots_year + 1
             fade_width = x_position(row.start) - x_position(row.start_fade)
@@ -673,8 +659,6 @@ def create_periods():
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
                 pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
                 pdf.rect(x_box + fade_width * i/fade_steps + 0.2, y_box - 0.85, fade_width / 45, 11.7, style="F")
-                # c.setFillColorRGB(cl[0], cl[1], cl[2])
-                # c.rect(x_box + fade_width * i/fade_steps, y_box - 3, fade_width / 45, 12, fill = 1, stroke = 0)
 
         # c.setFillColorRGB(0, 0, 0)
         pdf.set_fill_color(0)
@@ -706,21 +690,27 @@ def create_periods():
 def create_terah_familytree():
     global counter_terahfam
     lines = pd.read_csv("../db/terah-lines.csv", encoding='utf8')
-    c.setFont(font_regular, 10)
+    # c.setFont(font_regular, 10)
     for index, row in lines.iterrows():
-        c.setLineWidth(0.3)
-        c.setStrokeColorRGB(0, 0, 0)
+        pdf.set_line_width(0.3)
+        pdf.set_draw_color(0)
+        # c.setLineWidth(0.3)
+        # c.setStrokeColorRGB(0, 0, 0)
         if row.type == "married":
-            c.setLineWidth(1.0)
-            c.setStrokeColorRGB(0.05, 0.61, 0.05)
+            pdf.set_line_width(1.0)
+            pdf.set_draw_color(13, 155, 13)
+            # c.setLineWidth(1.0)
+            # c.setStrokeColorRGB(0.05, 0.61, 0.05)
         x_1 = x_position(-row.start)
         y_1 = y_position(row.start_row - 0.25)
         x_2 = x_position(-row.end)
         y_2 = y_position(row.end_row - 0.25)
-        c.line(x_1, y_1, x_2, y_2)
+        pdf.line(x_1, y_1, x_2, y_2)
+        # c.line(x_1, y_1, x_2, y_2)
     terah = pd.read_csv("../db/terah-family.csv", encoding='utf8')
     print(f"Imported family tree of Terah: {len(terah)} text fields")
-    c.setStrokeColorRGB(1, 1, 1)
+    pdf.set_draw_color(1)
+    # c.setStrokeColorRGB(1, 1, 1)
     red  = color["terah_red"]
     blue = color["terah_blue"]
     for index, row in terah.iterrows():
@@ -920,14 +910,14 @@ def create_timeline(lang):
     create_adam_moses()
     create_reference_events()
     create_events_objects()
-    # create_judges()
+    create_judges()
     create_kings()
-    # create_prophets()
-    # create_books()
-    # create_people()
-    # create_objects()
+    create_prophets()
+    create_books()
+    create_people()
+    create_objects()
     create_periods()
-    # create_caesars()
+    create_caesars()
     # create_daniel2()
     # create_terah_familytree()
     # include_pictures()
@@ -935,19 +925,11 @@ def create_timeline(lang):
     # create_tribulation()
     # create_timestamp()
 
-
-    # with pdf.rotation(angle=90):
-    #     pdf.cell(text="This is rotated?")
-    # pdf.ln()
-    # pdf.cell(text="And another one")
     # # with pdf.rotation(angle=90):
     # #     pdf.text(-8, 8, "Just 90 degrees")
     # pdf.image("../images/babel.jpg", x=0, y=0, h=10, w=12)
     # pdf.image("../images/gutenberg.gif", x=5, y=20, h=10, w=12)
     # pdf.image("../images/telescope.svg", x=5, y=40, h=10, w=12)
-    # pdf.text(5, 5, "what?")
-
-
     render_to_file()
 
 def checkForValidLanguageCode(langCode):
@@ -1011,71 +993,6 @@ def is_supported(language):
         if df.at[row_index[0], 'replace_numerals']:
             replace_numerals = True
         return True
-
-
-    print(row_index, len(row_index))
-    language_str = df.at[row_index, 'language']
-    print(language_str)
-    # for index, row in df.iterrows():
-    #     supported[row.key] = row.language
-
-        
-
-
-    # CJKAST = ["Japanese", "Korean", "SimplifiedChinese", "Arabic", "Sinhala", "Thai", "Khmer", "Georgian"]
-    # for glyphs in CJKAST:
-    #     fontname = "Noto" + glyphs
-    #     fontfile = "fonts/Noto" + glyphs + ".ttf"
-    #     fontname_bold = "Noto" + glyphs + "-bold"
-    #     fontfile_bold = "fonts/Noto" + glyphs + "-bold.ttf"
-    #     pdf.add_font(fontname, style="", fname=fontfile)
-    #     pdf.add_font(fontname_bold, style="", fname=fontfile_bold)
-
-    # special_fonts = {"jp" : "Japanese",
-    #                  "ja" : "Japanese",
-    #                  "kr" : "Korean",
-    #                  "ko" : "Korean",
-    #                  "sc" : "SimplifiedChinese",
-    #                  "zh" : "SimplifiedChinese",
-    #                  "zh-cn" : "SimplifiedChinese",
-    #                  "zh-tw" : "SimplifiedChinese",
-    #                  "yue" : "SimplifiedChinese",
-    #                  "ar" : "Arabic",
-    #                  "fa" : "Arabic",
-    #                  "si" : "Sinhala",
-    #                  "th" : "Thai", 
-    #                  "km" : "Khmer",
-    #                  "ka" : "Georgian"}
-    # if language in special_fonts:
-    #     language_fontname = special_fonts[language]
-    #     font_regular = "Noto" + language_fontname
-    #     font_bold    = "Noto" + language_fontname + "-bold"
-    #     if language == "si":
-    #         fontsize_regular = 9
-    #     if language == "ar" or language == "fa":
-    #         fontsize_regular = 8
-    #         left_to_right = False
-
-
-
-    if language in supported:
-        language_str = supported[language]
-        print(f"Your selected language {language} is supported: {language_str}")
-        # Import the script/glyph for this language
-        # set the font shaper
-        return True
-    else:
-        print(f"Your selected language '{language}' is not yet supported by this timeline project.\n")
-        print(f"Let's check if the language code exists in Google Translate: ", end = "")
-        isValid = checkForValidLanguageCode(language)
-        if isValid:
-            print(f"Found {language_str}.")
-            print(f"Now creating a new dictionary in this language with Google Translate.")
-            create_dictionary(language)
-            return True
-        else:
-            print(f"Nope.\nIt looks like '{language}' is not a valid language code in ISO 639 or it is not supported by Google Translate.")
-            return False
 
 if __name__ == "__main__":
     print(f"Timeline v{version}")
