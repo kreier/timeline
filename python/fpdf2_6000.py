@@ -110,19 +110,20 @@ def drawString(text, fontsize, x_string, y_string, position):
     if len(text) == 0:          # don't draw empty strings
         return
     pdf.set_font(font_regular, size=fontsize)
-    pdf.set_text_color(0)
     pdf.set_fill_color(255)
     pdf.set_draw_color(255)
-    pdf.set_line_width(1.0)
+    pdf.set_line_width(0.8)
     xtra = 0                     # used for labels under images
     if fontsize < 6:
         xtra = 0
     white_width = pdf.get_string_width(text)
     if position == "r":
+        pdf.set_text_color(0)
         pdf.rect(x_string, y_string, white_width, fontsize, style="FD")
         pdf.set_xy(x_string, y_string)
         pdf.cell(text=text)
     elif position == "l":
+        pdf.set_text_color(0)
         pdf.rect(x_string - white_width, y_string, white_width, fontsize, style="FD")
         pdf.set_xy(x_string - white_width, y_string)
         pdf.cell(text=text, align="R")
@@ -137,7 +138,7 @@ def drawString(text, fontsize, x_string, y_string, position):
             pdf.set_xy(x_string - offset, y_string + 1)
             pdf.cell(text=text)
         pdf.set_text_color(0)
-    elif position == "cb":                                               # cb - centered black regular for judges and years 
+    elif position == "cb":                                               # cb - centered black regular for judges and years and Terah
         pdf.set_font(font_regular, size=fontsize)
         pdf.text(x_string - white_width / 2, y_string, text)   
 
@@ -512,6 +513,9 @@ def faded_color(red, green, blue, percent):
 
 def timebar(x, y, width, R, G, B, exact):
     pdf.set_fill_color(R*255, G*255, B*255)
+    if width < 0:
+        x += width
+        width = -width
     pdf.rect(x, y, width, 4, style="F")
     if exact:
         return
@@ -529,7 +533,10 @@ def text_with_timebar(text, row, year_start, year_end, R, G, B, exact):
     # x_boxwidth = (year_end -  year_start) * dots_year
     x_boxwidth = x_position(year_end) - x_position(year_start)    
     timebar(x_box, y_box - 6, x_boxwidth, R, G, B, exact)
-    drawString(text, fontsize_regular, x_box, y_box, "r")
+    if left_to_right:
+        drawString(text, fontsize_regular, x_box, y_box, "r")
+    else:
+        drawString(text, fontsize_regular, x_box, y_box, "l")
 
 def create_prophets():
     global counter_prophets
@@ -574,7 +581,10 @@ def create_objects():
             timebar(x_position(row.start), y_position(row.row_y) - 15, x_boxwidth, co[0], co[1], co[2], False)
             pdf.set_font("NotoCuneiform", "", 9)
             pdf.set_fill_color(0)
-            pdf.set_xy(x_position(row.start) , y_position(row.row_y) - 8)
+            shift = pdf.get_string_width(dict[row.key])
+            if left_to_right:
+                shift = 0
+            pdf.set_xy(x_position(row.start) - shift , y_position(row.row_y) - 8)
             pdf.cell(text=dict[row.key])
             # c.setFont("NotoCuneiform", 9)
             # c.setFillColorRGB(0, 0, 0)
@@ -588,7 +598,6 @@ def create_caesars():
     # Import the persons with date of birth and death (estimated on October 1st) as pandas dataframe
     caesars = pd.read_csv("../db/caesars.csv", encoding='utf8')
     print("Imported data of caesars:", len(caesars))
-    pdf.set_line_width(0.3)
     for index, row in caesars.iterrows():
         born  = row.born
         start = row.start
@@ -608,6 +617,7 @@ def create_caesars():
         # x_boxwidth = (end -  start) * dots_year
         x_boxwidth = x_position(end) - x_position(start)                
         pdf.set_draw_color(0)
+        pdf.set_line_width(0.3)
         pdf.line(x_born, y_box +7, x_box,  y_box +7)            # offset with fpdf2 is -3, was +3 with reportlab
         pdf.line(x_born, y_box +2, x_born, y_box + 12)          # -3-5 = -8 and -3+5 = +2
         co = color['caesars']
@@ -639,6 +649,12 @@ def create_periods():
         pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
+        if row.end_fade > row.end or row.start_fade < row.start:
+            pdf.set_line_width(0.0)
+            pdf.set_draw_color(1)
+        shift = -1
+        if left_to_right:
+            shift = 1
         pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style="DF")
         if row.end_fade > row.end:
             # fade_width = (row.end_fade - row.end) * dots_year
@@ -648,7 +664,7 @@ def create_periods():
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
                 pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
-                pdf.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps-0.2, y_box - 0.85, fade_width / 45, 11.7, style="F")
+                pdf.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps - 0.2 * shift, y_box - 1, fade_width / 45, 12, style="F")
         if row.start_fade < row.start:
             # fade_width = (row.start - row.start_fade) * dots_year + 1
             fade_width = x_position(row.start) - x_position(row.start_fade)
@@ -658,7 +674,7 @@ def create_periods():
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
                 pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
-                pdf.rect(x_box + fade_width * i/fade_steps + 0.2, y_box - 0.85, fade_width / 45, 11.7, style="F")
+                pdf.rect(x_box + fade_width * i/fade_steps + 0.2 * shift, y_box - 1, fade_width / 45, 12, style="F")
 
         # c.setFillColorRGB(0, 0, 0)
         pdf.set_fill_color(0)
@@ -689,41 +705,36 @@ def create_periods():
 
 def create_terah_familytree():
     global counter_terahfam
+    shift_x = 30
     lines = pd.read_csv("../db/terah-lines.csv", encoding='utf8')
-    # c.setFont(font_regular, 10)
     for index, row in lines.iterrows():
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
-        # c.setLineWidth(0.3)
-        # c.setStrokeColorRGB(0, 0, 0)
         if row.type == "married":
             pdf.set_line_width(1.0)
             pdf.set_draw_color(13, 155, 13)
-            # c.setLineWidth(1.0)
-            # c.setStrokeColorRGB(0.05, 0.61, 0.05)
-        x_1 = x_position(-row.start)
+        x_1 = x_position(-row.start) + shift_x
         y_1 = y_position(row.start_row - 0.25)
-        x_2 = x_position(-row.end)
+        x_2 = x_position(-row.end) + shift_x
         y_2 = y_position(row.end_row - 0.25)
         pdf.line(x_1, y_1, x_2, y_2)
-        # c.line(x_1, y_1, x_2, y_2)
     terah = pd.read_csv("../db/terah-family.csv", encoding='utf8')
     print(f"Imported family tree of Terah: {len(terah)} text fields")
-    pdf.set_draw_color(1)
-    # c.setStrokeColorRGB(1, 1, 1)
     red  = color["terah_red"]
     blue = color["terah_blue"]
     for index, row in terah.iterrows():
-        text_width = stringWidth(dict[row.key], font_regular, 10)
-        x = x_position(-row.left)
+        pdf.set_font(font_regular, "", 10)
+        text_width = pdf.get_string_width(dict[row.key])
+        x = x_position(-row.left) + shift_x
         y = y_position(row.row)
-        c.setLineWidth(2.0)
-        c.setFillColorRGB(1, 1, 1)
-        c.rect(x - 0.5 * text_width - 1, y - 2, text_width + 2, 10, fill = 1)
-        c.setFillColorRGB(blue[0], blue[1], blue[2])
+        pdf.set_line_width(2.0)
+        pdf.set_fill_color(255)
+        pdf.set_draw_color(255)
+        pdf.rect(x - 0.5 * text_width - 1, y - 8, text_width + 2, 10, style = "FD")
+        pdf.set_text_color(blue[0]*255, blue[1]*255, blue[2]*255)
         if row.color == "red":
-            c.setFillColorRGB(red[0], red[1], red[2])
-        c.drawCentredString(x, y, dict[row.key])
+            pdf.set_text_color(red[0]*255, red[1]*255, red[2]*255)
+        drawString(dict[row.key], 10, x, y, "cb")
     counter_terahfam = 80
 
 def include_pictures():
@@ -735,56 +746,72 @@ def include_pictures():
     for index, row in pictures.iterrows():
         location = "../images/" + row.key
         local_x = x_position(row.x)
-        if right_to_left:
+        if left_to_right:
             if row.year != "0":
-                drawString(str(row.year), 5.9, local_x, y_position(row.y) - 5.3, "l")
-            local_x -= row.width*mm
-            c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
+                drawString(str(row.year), 5.9, local_x, y_position(row.y), "r")
+            pdf.image(location, local_x, y_position(row.y) - row.height*mm - 0.5, row.width*mm, row.height*mm)
+            # c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
         else:
             if row.year != "0":
-                drawString(str(row.year), 5.9, local_x, y_position(row.y) - 5.3, "r")
-            c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
+                drawString(str(row.year), 5.9, local_x, y_position(row.y), "l")
+            local_x -= row.width*mm
+            pdf.image(location, local_x, y_position(row.y) - row.height*mm - 0.5, row.width*mm, row.height*mm )
+            # c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
     font_regular = current_font
-
 
 def include_pictures_svg():
     global font_regular
-    pictures_svg = pd.read_csv("../db/pictures_svg.csv", encoding='utf8')
+    pictures_svg = pd.read_csv("../db/pictures_svg_fpdf2.csv", encoding='utf8')
     print("Imported list of SVG pictures:", len(pictures_svg))
     current_font = font_regular
     font_regular = "Aptos"
     for index, row in pictures_svg.iterrows():
-        if row.year != 0:
-            if right_to_left:
-                drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "l")
-            else:
-                drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y) - 5.3, "r")
         location = "../images/" + row.key + ".svg"
-        drawing = svg2rlg(location)
-        factor = row.height / drawing.height
-        sx = sy = factor
-        drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
-        drawing.scale(sx, sy)
-        if right_to_left:
-            renderPDF.draw(drawing, c, x_position(row.x) - drawing.width, y_position(row.y))
+        print(location)
+        local_x = x_position(row.x)
+        if left_to_right:
+            if row.year != "0":
+                drawString(str(row.year), 5.9, local_x, y_position(row.y), "r")
+            pdf.image(location, local_x, y_position(row.y) - row.height*mm - 0.5, row.width*mm, row.height*mm)
+            # c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
         else:
-            renderPDF.draw(drawing, c, x_position(row.x), y_position(row.y))
-    font_regular = current_font
-    # text for world population graphic
-    population_color = color["world_population"]
-    c.setFont(font_regular, 10)
-    c.setFillColorRGB(population_color[0], population_color[1], population_color[2])
-    if right_to_left:
-        c.drawRightString(x_position(-3707), y_position(19.7),dict["world_population"])
-    else:
-        c.drawString(x_position(-3707), y_position(19.7),dict["world_population"])
-    # c.setFont(font_regular, 4)
-    c.setFont("Aptos", 4)
-    c.setFillColorRGB(0.1, 0.1, 0.6)
-    if right_to_left:
-        c.drawRightString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
-    else:
-        c.drawString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
+            if row.year != "0":
+                drawString(str(row.year), 5.9, local_x, y_position(row.y), "l")
+            local_x -= row.width*mm
+            pdf.image(location, local_x, y_position(row.y) - row.height*mm - 0.5, row.width*mm, row.height*mm )
+            # c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
+    font_regular = current_font        
+    #     if row.year != 0:
+    #         if left_to_right:
+    #             drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y), "l")
+    #         else:
+    #             drawString(str(row.year), 5.9, x_position(row.x), y_position(row.y), "r")
+    #     location = "../images/" + row.key + ".svg"
+    #     drawing = svg2rlg(location)
+    #     factor = row.height / drawing.height
+    #     sx = sy = factor
+    #     drawing.width, drawing.height = drawing.minWidth() * sx, drawing.height * sy
+    #     drawing.scale(sx, sy)
+    #     if right_to_left:
+    #         renderPDF.draw(drawing, c, x_position(row.x), y_position(row.y))
+    #     else:
+    #         renderPDF.draw(drawing, c, x_position(row.x) - drawing.width, y_position(row.y))
+    # font_regular = current_font
+    # # text for world population graphic
+    # population_color = color["world_population"]
+    # c.setFont(font_regular, 10)
+    # c.setFillColorRGB(population_color[0], population_color[1], population_color[2])
+    # if right_to_left:
+    #     c.drawRightString(x_position(-3707), y_position(19.7),dict["world_population"])
+    # else:
+    #     c.drawString(x_position(-3707), y_position(19.7),dict["world_population"])
+    # # c.setFont(font_regular, 4)
+    # c.setFont("Aptos", 4)
+    # c.setFillColorRGB(0.1, 0.1, 0.6)
+    # if right_to_left:
+    #     c.drawRightString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
+    # else:
+    #     c.drawString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
 
 def tribulation_graphics(row):
     reference_y = y_position(row) - 2
@@ -919,9 +946,9 @@ def create_timeline(lang):
     create_periods()
     create_caesars()
     # create_daniel2()
-    # create_terah_familytree()
-    # include_pictures()
-    # include_pictures_svg()
+    create_terah_familytree()
+    include_pictures()
+    include_pictures_svg()
     # create_tribulation()
     # create_timestamp()
 
