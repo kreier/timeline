@@ -24,7 +24,7 @@ Since v3.4 the language specific files have been separated from the program code
 |-------------------------------------------------------------------------|:-----------------------------------------------------------:|:-----:|:--------:|:--------:|:----------:|
 | [English](https://timeline24.github.io/timeline_en.pdf)                 | [link](https://timeline24.github.io/timeline_en_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
 | [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        | [link](https://timeline24.github.io/timeline_de_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
-| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) | [link](https://timeline24.github.io/timeline_vi_print.pdf)  |   x   |          |     x    | 2024-06-07 |
+| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) | [link](https://timeline24.github.io/timeline_vi_print.pdf)  |   x   |          |     x    | 2024-06-11 |
 | [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        | [link](https://timeline24.github.io/timeline_ilo_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
 | [Filipino (Tagalog)](https://timeline24.github.io/timeline_tl.pdf)      | [link](https://timeline24.github.io/timeline_tl_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
 | [Kankana-ey](https://timeline24.github.io/timeline_kne.pdf)             | [link](https://timeline24.github.io/timeline_kne_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
@@ -33,7 +33,7 @@ Since v3.4 the language specific files have been separated from the program code
 | [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       |                 |               |     x    |          |       |
 | [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       |        x        |               |          |          |       |
 | [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         |                 |       x       |          |          |       |
-| [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        |                 |               |          |     x    |       |
+| [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        | [link](https://timeline24.github.io/timeline_ja_print.pdf)  |   x   |    x     |          | 2024-06-11 |
 | [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          |                 |       x       |          |          |       |
 | [Sinhala (සිංහල)](https://timeline24.github.io/timeline_si.pdf)         |                 |       x       |          |          |       |
 | [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          |                 |       x       |          |          |       |
