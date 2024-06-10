@@ -761,25 +761,28 @@ def include_pictures():
 
 def include_pictures_svg():
     global font_regular
-    pictures_svg = pd.read_csv("../db/pictures_svg_fpdf2.csv", encoding='utf8')
+    pictures_svg = pd.read_csv("../db/pictures_svg.csv", encoding='utf8')
     print("Imported list of SVG pictures:", len(pictures_svg))
     current_font = font_regular
     font_regular = "Aptos"
     for index, row in pictures_svg.iterrows():
         location = "../images/" + row.key + ".svg"
-        print(location)
+        # print(location)
         local_x = x_position(row.x)
-        if left_to_right:
-            if row.year != "0":
-                drawString(str(row.year), 5.9, local_x, y_position(row.y), "r")
-            pdf.image(location, local_x, y_position(row.y) - row.height*mm - 0.5, row.width*mm, row.height*mm)
-            # c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
-        else:
-            if row.year != "0":
-                drawString(str(row.year), 5.9, local_x, y_position(row.y), "l")
-            local_x -= row.width*mm
-            pdf.image(location, local_x, y_position(row.y) - row.height*mm - 0.5, row.width*mm, row.height*mm )
-            # c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
+        if row.fpdf2:
+            print(location)
+            if left_to_right:
+                if row.year != 0:
+                    drawString(str(row.year), 5.9, local_x, y_position(row.y) - 1, "r")
+                    # print(location, row.year)
+                pdf.image(location, local_x, y_position(row.y) - row.height - 1.2, row.width, row.height)
+                # c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
+            else:
+                if row.year != 0:
+                    drawString(str(row.year), 5.9, local_x, y_position(row.y) - 1, "l")
+                local_x -= row.width*mm
+                pdf.image(location, local_x, y_position(row.y) - row.height - 1.2, row.width, row.height)
+                # c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
     font_regular = current_font        
     #     if row.year != 0:
     #         if left_to_right:
