@@ -753,6 +753,7 @@ def create_periods(edition):
 
 def create_terah_familytree():
     global counter_terahfam
+    shift_x = 30
     lines = pd.read_csv("../db/terah-lines.csv", encoding='utf8')
     c.setFont(font_regular, 10)
     for index, row in lines.iterrows():
@@ -761,9 +762,9 @@ def create_terah_familytree():
         if row.type == "married":
             c.setLineWidth(1.0)
             c.setStrokeColorRGB(0.05, 0.61, 0.05)
-        x_1 = x_position(-row.start)
+        x_1 = x_position(-row.start) + shift_x
         y_1 = y_position(row.start_row - 0.25)
-        x_2 = x_position(-row.end)
+        x_2 = x_position(-row.end) + shift_x
         y_2 = y_position(row.end_row - 0.25)
         c.line(x_1, y_1, x_2, y_2)
     terah = pd.read_csv("../db/terah-family.csv", encoding='utf8')
@@ -773,7 +774,7 @@ def create_terah_familytree():
     blue = color["terah_blue"]
     for index, row in terah.iterrows():
         text_width = stringWidth(dict[row.key], font_regular, 10)
-        x = x_position(-row.left)
+        x = x_position(-row.left) + shift_x
         y = y_position(row.row)
         c.setLineWidth(2.0)
         c.setFillColorRGB(1, 1, 1)
@@ -793,17 +794,17 @@ def include_pictures():
     for index, row in pictures.iterrows():
         location = "../images/" + row.key
         local_x = x_position(row.x)
-        if right_to_left:
-            if row.year != "0":
-                drawString(str(row.year), 5.9, local_x, y_position(row.y) - 5.3, "l")
-            local_x -= row.width*mm
-            c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
-        else:
-            if row.year != "0":
-                drawString(str(row.year), 5.9, local_x, y_position(row.y) - 5.3, "r")
-            c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
+        if row.reportlab:
+            if right_to_left:
+                if row.year != "0":
+                    drawString(str(row.year), 5.9, local_x, y_position(row.y) - 5.3, "l")
+                local_x -= row.width*mm
+                c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
+            else:
+                if row.year != "0":
+                    drawString(str(row.year), 5.9, local_x, y_position(row.y) - 5.3, "r")
+                c.drawImage(location, local_x, y_position(row.y), width=row.width*mm, height=row.height*mm)
     font_regular = current_font
-
 
 def include_pictures_svg():
     global font_regular
@@ -830,19 +831,20 @@ def include_pictures_svg():
     font_regular = current_font
     # text for world population graphic
     population_color = color["world_population"]
+    year_wp = -3677
     c.setFont(font_regular, 10)
     c.setFillColorRGB(population_color[0], population_color[1], population_color[2])
     if right_to_left:
-        c.drawRightString(x_position(-3707), y_position(19.7),dict["world_population"])
+        c.drawRightString(x_position(year_wp), y_position(19.7),dict["world_population"])
     else:
-        c.drawString(x_position(-3707), y_position(19.7),dict["world_population"])
+        c.drawString(x_position(year_wp), y_position(19.7),dict["world_population"])
     # c.setFont(font_regular, 4)
     c.setFont("Aptos", 4)
     c.setFillColorRGB(0.1, 0.1, 0.6)
     if right_to_left:
-        c.drawRightString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
+        c.drawRightString(x_position(year_wp), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
     else:
-        c.drawString(x_position(-3707), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
+        c.drawString(x_position(year_wp), y_position(20.3), "source: https://www.worldometers.info/world-population/#table-historical")
 
 def tribulation_graphics(row):
     reference_y = y_position(row) - 2
