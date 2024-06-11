@@ -1,15 +1,16 @@
 from fpdf import FPDF
 
-pdf = FPDF()
+pdf = FPDF(unit="pt", format="A4")
+pdf.set_margin(0)
 pdf.add_page()
-pdf.
-# Set font
-pdf.set_font("Arial", size=12)
-
-# Add a cell
-pdf.cell(200, 10, txt="Hello, World!", ln=True, align='C')
-
-# Save the PDF with name .pdf
-pdf.output("hello_world.pdf")
+pdf.set_font("Helvetica", size=12)
+for i in range(68):
+    pdf.set_xy(0, i*12)
+    pdf.cell(text="Hello, World!")
+pdf.cell(text="one more line", new_x="LMARGIN", new_y="NEXT")
+pdf.cell(text="one more line", new_x="LMARGIN", new_y="NEXT")
+pdf.cell(text="one more line", new_x="LMARGIN", new_y="NEXT")
+pdf.cell(text="one more line", new_x="LMARGIN", new_y="NEXT")
+pdf.output("simple.pdf")
 
 print("PDF created successfully!")

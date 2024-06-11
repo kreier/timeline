@@ -6,7 +6,7 @@ BCE,មុន​គ.ស.,B.C.E.,
 CE,គ.ស.,C.E.,
 year,ឆ្នាំ,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,ឆ្នាំ,years,
-years_age,ឆ្នាំ,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old "
+years_age,ឆ្នាំ,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
 age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,ខែ,month,
 months,ខែ,months,
@@ -336,7 +336,7 @@ gilgamesh,Gilgamesh និង Aga 𒇽𒆥𒀀𒀝𒂵,Gilgamesh and Aga 𒇽�
 epic_gilgamesh,Epic of Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
 p52,Papyrus P52,Papyrus P52,
-daniel2_shift,10,10,Start 4.2
+daniel2_shift,0,0,Start 4.2
 daniel2_1,ស្តេចនេប៊ូក្នេសា,King Nebuchadnezzar,607 BCE
 daniel2_2,បំផ្លាញក្រុងយេរូសាឡឹម,destroys Jerusalem,
 daniel2_3,យកឈ្នះបាប៊ីឡូន,Conquers Babylon,539 BCE

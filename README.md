@@ -16,6 +16,35 @@ Compare this 4000 year timespan of **v4.2 from 2024** with the same time period 
 
 You see that **many more details** were added. And something is off with the scale - explained later - since the **scale** (millimeter/year) in 2009 was not constant.
 
+### Translations
+
+Since v3.4 the language specific files have been separated from the program code, data information and list of colors. With some good bible translations I can use the reference location of names to get a start of a translation, since the location of the names is not changing. I just "_have to replace the utf-8 string_" 😎 for the name (problems below 😰). This is a general start to translate into another language. Currently there are 446 text fields in total. I have to rely on Google translate or Azure cloud for a first attempt - and then need some native speakers to complete the translation. This is our current state (print has 5 cm extra left and right):
+
+| Language                                                                |                    print                                    | names | reviewed | complete |   latest   |
+|-------------------------------------------------------------------------|:-----------------------------------------------------------:|:-----:|:--------:|:--------:|:----------:|
+| [English](https://timeline24.github.io/timeline_en.pdf)                 | [link](https://timeline24.github.io/timeline_en_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
+| [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        | [link](https://timeline24.github.io/timeline_de_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
+| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) | [link](https://timeline24.github.io/timeline_vi_print.pdf)  |   x   |          |     x    | 2024-06-11 |
+| [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        | [link](https://timeline24.github.io/timeline_ilo_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
+| [Filipino (Tagalog)](https://timeline24.github.io/timeline_tl.pdf)      | [link](https://timeline24.github.io/timeline_tl_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
+| [Kankana-ey](https://timeline24.github.io/timeline_kne.pdf)             | [link](https://timeline24.github.io/timeline_kne_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
+| [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       |                 |               |     x    |          |   75% |
+| [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       |        x        |               |          |          |       |
+| [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       |                 |               |     x    |          |       |
+| [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       |        x        |               |          |          |       |
+| [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         |                 |       x       |          |          |       |
+| [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        | [link](https://timeline24.github.io/timeline_ja_print.pdf)  |   x   |    x     |          | 2024-06-11 |
+| [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          |                 |       x       |          |          |       |
+| [Sinhala (සිංහල)](https://timeline24.github.io/timeline_si.pdf)         |                 |       x       |          |          |       |
+| [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          |                 |       x       |          |          |       |
+| [Igbo (Ásụ̀sụ́ Ìgbò)](https://timeline24.github.io/timeline_ig.pdf)       |                 |       x       |          |          |       |
+| Khmer | x | | | | |
+| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)           |        x        |               |          |          |       |
+| [Chinese Mandarin (Simplified) (普通话)](https://timeline24.github.io/timeline_zh.pdf)   |   x   |         |          |          |       |
+| [Chinese Cantonese (Simplified) (普通话)](https://timeline24.github.io/timeline_yue.pdf) |   x   |         |          |          |       |
+
+Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects in January 2024. For Khmer, Sinhala and Arabic I finally needed a shape engine like [harfbuzz](https://github.com/harfbuzz/harfbuzz). Since it is not supported in reportlab, I switched to [fpdf2](https://py-pdf.github.io/fpdf2/index.html) with version 4.7 in July 2024. 
+
 ## Reactivation 2023
 
 After 14 years it was finally time to translate the project to English and share with my friends. In the years since 2009 I learned a lot about programming languages, vector graphics and possible solutions using pandas, csv files and reportlab (instead of matplotlib). In a first stage I translated the old OpenOffice documents to English. Then I collected data into csv/tsv files for later automated processing and graph generation. This way the translation to another language is "just" the change of one import file. So far I translated the first page:
@@ -45,32 +74,6 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - [v4.6](https://github.com/kreier/timeline/releases/tag/v4.5) 2024/05/31 Include more empires in Umayyad, Teotihuacan, Mongol, Inca and more. Added historic figures like Hammurabi, al-Khwarizimi, Genghis Khan and Dionysius Exiguus plus a few more smaller images
 - v4.7 2024/07/01 Finally the rendering of RTL languages like Hebrew and Arabic are supported. The proper rendering of Arabic glyphs require a special font shape engine like [Harfbuzz](https://en.wikipedia.org/wiki/HarfBuzz) (also on [Github](https://github.com/harfbuzz/harfbuzz)) and my previous PDF generator [reportlab](https://www.reportlab.com/) has this not yet included. The pdf is now generated with [fpdf2](https://py-pdf.github.io/fpdf2/index.html). This project included text shaping [with version 2.7.5](https://py-pdf.github.io/fpdf2/TextShaping.html) in August 2023. This solved my problems with Khmer and Sinhala as well.
 
-### Translations
-
-Since v3.4 the language specific files have been separated from the program code, data information and list of colors. With some good bible translations I get use the reference location of names to get a start of a translation, since the very dates are not changing. This gives a start to translate into another language. With currently 352 text fields I have to rely on Google translate for a first attempt - and then need someone with good language skills in the target language to complete the translation. Our current state:
-
-| Language                                                                | initial support | names checked | reviewed | complete | Terah |
-|-------------------------------------------------------------------------|:---------------:|:-------------:|:--------:|:--------:|------:|
-| [English](https://timeline24.github.io/timeline_en.pdf)                 |                 |               |          |     x    |  100% |
-| [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        |                 |               |          |     x    |  100% |
-| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) |                 |               |          |     x    |   99% |
-| [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        |                 |               |          |     x    |       |
-| [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       |                 |               |     x    |          |   75% |
-| [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       |        x        |               |          |          |       |
-| [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       |                 |               |     x    |          |       |
-| [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       |        x        |               |          |          |       |
-| [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         |                 |       x       |          |          |       |
-| [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        |                 |               |          |     x    |       |
-| [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          |                 |       x       |          |          |       |
-| [Sinhala (සිංහල)](https://timeline24.github.io/timeline_si.pdf)         |                 |       x       |          |          |       |
-| [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          |                 |       x       |          |          |       |
-| [Igbo (Ásụ̀sụ́ Ìgbò)](https://timeline24.github.io/timeline_ig.pdf)       |                 |       x       |          |          |       |
-| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)          |        x        |               |          |          |       |
-| [Chinese Mandarin (Simplified) [中文简体（普通话)]](https://timeline24.github.io/timeline_zh.pdf) |   x   |         |          |          |       |
-| [Chinese Cantonese (Simplified) [中文简体（普通话)]](https://timeline24.github.io/timeline_yue.pdf) |   x   |         |          |          |       |
-
-Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects. 
-
 ### Scale challenges
 
 To compensate for limited printing area I created a border of 1cm around each page. The effective drawing area on A4 landscape in each tile is 277 millimeter. This resulted in _different time scales_ for each page with v1.0, since the covered timespan is not equal for each page. But this was one of the fundamental ideas of this project, to represent a *larger amount of time* with a *bigger amount of space* or length. Here are the values for comparison:
@@ -86,7 +89,7 @@ To compensate for limited printing area I created a border of 1cm around each pa
 
 See [scale.csv](spreadsheet/scale.csv)
 
-### Decision on dimensions
+### Decision on the dimensions for this project
 
 After the experience of 8 months with [reportlab](https://pypi.org/project/reportlab/) I decided in June 2024 to fix some scale parameters with the new rendering engine [fpdf2](https://pypi.org/project/fpdf2/). The original project from 2009 was to fit on three landscape A4 papers, but for v3.0 I decided to have four A4 papers width to be able to see more details in the first century and during the time of the northern and southern kingdom in Israel. That gives a height of 210 mm and 4 x 297 = 1188 mm. With 7mm border top and bottom for the scale and numbering the drawing area is 1188 x 196 mm for 6150 years: 4075 BCE to 2075 CE. Inside we leave 1 mm on top and bottom, so 194 mm are used for 46 rows of 10pt text (1 pt = 1/72 inch = 0.3528 mm). 10 pt is therefore 3.5mm and line height 194/46 = 4.217 mm = 12 pt.
 
