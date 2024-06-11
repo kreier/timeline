@@ -1,24 +1,33 @@
-key,x,y,width,height,pix_w,pix_h,year,notes
-babel.jpg,-2270,9.6,30,22.35,400,298,0,"Pieter Bruegel der Ältere, 1563"
-gilgamesh.jpg,-1500,11.2,9,9.95,226,250,0,Epic of Gilgamesh
-mesha.jpg,-837,39,6,10.4,173,300,0,
-oxyrynchus.jpg,180,16.9,8,4.85,300,182,0,Oxyrhynchus Papyri
-p52.jpg,120,18.2,4,6.09,223,340,0,Rylands Library Papyrus P52
-rosetta.jpg,-201,13.3,5,6.47,200,259,0,45.3
-gutenberg.gif,1460,1.3,5,4.96,256,254,0,=D8/F8*G8
-model_t.jpg,1908,3.1,8,6.21,300,233,1908,
-sputnik.png,1958,3,4,3,300,225,1957,=INT(D10/F10*G10*100)/100
-hubble.jpg,1986,1.4,6,4.76,300,238,1990,
-chappe_semaphore.jpg,1792,3,7,9.52,250,340,1792,
-bessemer_converter.jpg,1856,6.7,9.5,5.92,520,324,1856,
-watt.jpg,1776,6,7,8.78,350,439,1776,
-september_bible.jpg,1524,2.3,15,7.87,400,210,1522,
-principia.jpg,1686,3.1,8.5,11.93,250,351,1686,
-salamanca.jpg,1812,45.7,11,10.67,400,388,1812,
-dead_sea_scrolls.jpg,-230,10.7,26,5.98,700,161,0,
-lachish.jpg,-633,41.8,8,7.12,300,267,0,
-leningradensis.jpg,1010,6.6,15,17.9,300,358,1008,
-amarna.jpg,-1350,23.5,14,15.44,300,331,Amarna EA 330,
-iphone.jpg,2007,45.7,7,13.158,532,1000,2007,
-hammurabi.jpg,-1870,10.8,11,12.17,300,332,0,
-lament_for_ur.jpg,-2020,8,11,17.16,250,390,lament for Ur,
+key,x,y,width,height,pix_w,pix_h,year,notes,reportlab
+amarna.jpg,-1350,23.5,14,15.44,300,331,Amarna EA 330,,TRUE
+babel.jpg,-2270,9.6,30,22.35,400,298,0,"Pieter Bruegel der Ältere, 1563",TRUE
+bessemer_converter.jpg,1856,6.7,9.5,5.92,520,324,1856,,TRUE
+chappe_semaphore.jpg,1792,3,7,9.52,250,340,1792,,TRUE
+dead_sea_scrolls.jpg,-230,10.7,26,5.98,700,161,0,,TRUE
+gilgamesh.jpg,-1500,11.2,9,9.95,226,250,0,Epic of Gilgamesh,TRUE
+gutenberg.gif,1460,1.3,5,4.96,256,254,0,=D8/F8*G8,TRUE
+hammurabi.jpg,-1870,10.8,11,12.17,300,332,0,,TRUE
+hubble.jpg,1986,1.4,6,4.76,300,238,1990,,TRUE
+iphone.jpg,2007,45.7,7,13.158,532,1000,2007,,TRUE
+lachish.jpg,-633,41.8,8,7.12,300,267,0,,TRUE
+lament_for_ur.jpg,-2020,8,11,17.16,250,390,lament for Ur,,TRUE
+leningradensis.jpg,1010,6.6,15,17.9,300,358,1008,,TRUE
+mesha.jpg,-837,39,6,10.4,173,300,0,,TRUE
+model_t.jpg,1908,3.1,8,6.21,300,233,1908,,TRUE
+oxyrynchus.jpg,180,16.9,8,4.85,300,182,0,Oxyrhynchus Papyri,TRUE
+p52.jpg,120,18.2,4,6.09,223,340,0,Rylands Library Papyrus P52,TRUE
+principia.jpg,1686,3.1,8.5,11.93,250,351,1686,,TRUE
+rosetta.jpg,-201,13.3,5,6.47,200,259,0,45.3,TRUE
+salamanca.jpg,1812,45.7,11,10.67,400,388,1812,,TRUE
+september_bible.jpg,1524,2.3,15,7.87,400,210,1522,,TRUE
+sputnik.png,1958,3,4,3,300,225,1957,=INT(D10/F10*G10*100)/100,TRUE
+watt.jpg,1776,6,7,8.78,350,439,1776,,TRUE
+haber_process.png,1903,7.6,58,6.84472049689441,161,19,1903,,FALSE
+history_of_china.png,1368,41.2,40,9.45,512,121,0,from wikipedia,FALSE
+laptop.png,1980,4.5,25,23.23,424,394,0,,FALSE
+maxwell.png,1860,4.4,23,18.42,201,161,1861,,FALSE
+morse.png,1837,1.3,25,9.8,255,100,1837,,FALSE
+telephone.png,1876,2.3,15,13.55,300,271,1876,=INT(D5/F5*G5*100)/100,FALSE
+tv.png,1928,45.7,20,14.1958041958042,286,203,1928,,FALSE
+world_population.png,-3720,31.3,260,133.949801849406,757,390,0,,FALSE
+www.png,1991,41,35,7.35,1000,210,1991,was 5.6,FALSE
