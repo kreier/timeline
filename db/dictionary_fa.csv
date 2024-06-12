@@ -1,12 +1,12 @@
 key,text,notes,english
-version,4.4,,4.4
+version,4.7,,4.7
 pdf_title,6000 سال تاریخ بشر تجسم شده است,,6000 years human history visualized
 pdf_subject,جدول زمانی نوع بشر,,Timeline of humankind
 BCE,B.C.E.,,B.C.E.
 CE,C.E.,,C.E.
 year,سال,"timespan, age (Adam was 130 years old when Shem was born)",year
 years,سال ها,,years
-years_age,سال ها,years when used as age for a person (different word than years in some languages),years
+years_age,سال ها,"years when used as age for a person (different word than years in some languages), like he is 23 years old ",years
 age_kings, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""", 
 month,ماه,,month
 months,ماه ها,,months
@@ -21,50 +21,50 @@ periods,دوره ها,,periods
 events,مناسبت ها,,events
 objects,اشیاء یا اقلام,,objects or items
 Deluge,سیل,,Deluge
-Adam,آدم,,Adam
+Adam,آدم,Luke 3:38,Adam
 Seth,ست,,Seth
 Enosh,انوش,,Enosh
 Kenan,کنان,,Kenan
 Mahalalel,محللیل,,Mahalalel
 Jared,جرد,,Jared
 Enoch,خنوخ,,Enoch
-Methuselah,متوشالح,,Methuselah
+Methuselah,متوشالح,Luke 3:37,Methuselah
 Lamech,لمک,,Lamech
 Noah,نوح,,Noah
 Shem,شم,,Shem
-Arpachshad,ارپاچشاد,,Arpachshad
+Arpachshad,ارپاچشاد,Luke 3:36,Arpachshad
 Shelah,شله,,Shelah
 Eber,ایبر,,Eber
 Peleg,پلگ,,Peleg
 Reu,Reu,,Reu
-Serug,سرگ,,Serug
+Serug,سرگ,Luke 3:35,Serug
 Nahor,ناهور,,Nahor
 Terah,ترا,,Terah
 Abraham,ابراهیم,,Abraham
 Isaac,اسحاق,,Isaac
-Jacob,یعقوب,,Jacob
+Jacob,یعقوب,Luke 3:34,Jacob
 Joseph,جوزف,,Joseph
 Moses,حضرت موسی,,Moses
-Othniel,اوتنیل,,Othniel
-Ehud,ایهود,,Ehud
-Shamgar,شامگر,,Shamgar
-Barak,باراک,,Barak
-Gideon,گیدئون,,Gideon
-Tola,تولا,,Tola
-Jair,جایر,,Jair
-Jephthah,یفتاح,,Jephthah
-Ibzan,ایبزان,,Ibzan
-Elon,ایلان,,Elon
-Abdon,عبدون,,Abdon
-Samson,سامسون,,Samson
-Samuel,ساموئل,,Samuel
-Saul,سائول,,Saul
-David,دیوید,,David
-Solomon,سولومو,,Solomon
+Othniel,اوتنیل,Judges 3:9-11,Othniel
+Ehud,ایهود,Judges 3:15-18,Ehud
+Shamgar,شامگر,Judges 3:31,Shamgar
+Barak,باراک,Judges 4:6,Barak
+Gideon,گیدئون,Judges 7:1,Gideon
+Tola,تولا,Judges 10:1,Tola
+Jair,جایر,Judges 10:3,Jair
+Jephthah,یفتاح,Judges 11:1,Jephthah
+Ibzan,ایبزان,Judges 12:8,Ibzan
+Elon,ایلان,Judges 12:11,Elon
+Abdon,عبدون,Judges 12:13,Abdon
+Samson,سامسون,Judges 13:24,Samson
+Samuel,ساموئل,1 Samuel 1:20,Samuel
+Saul,سائول,1 Samuel 9:2,Saul
+David,دیوید,1 Samuel 16:13,David
+Solomon,سلیمان,1 Kings 2:1,Solomon
 Rehoboam,رحوبام,first king of southern kingdom of Juda,Rehoboam
 Abijah,ابیجه (ابیجم),"3 years, also Abijam",Abijah (Abijam)
 Asa,آسا,,Asa
-Jehoshaphat,یهوشافات,bce_float = -y+1 - (12-m)/12 – (31-d)/360,Jehoshaphat
+Jehoshaphat,یهوشافاط,bce_float = -y+1 - (12-m)/12 – (31-d)/360,Jehoshaphat
 Jehoram2,جهورام,,Jehoram
 Ahaziah,آحازیا,,Ahaziah
 Athaliah,ملکه آتالیا,Queen Athaliah,Queen Athaliah
@@ -89,7 +89,6 @@ Zimri,زیمری,Only 7 days in ca. 751 BCE,Zimri
 OmriTibni,عمری و تبنی با هم,4 years Omri and Tibni,Omri and Tibni together
 Omri,عمری (به تنهایی),from 947 Omri alone,Omri (alone)
 Ahab,آخاب,,Ahab
-Ahaziah,آحازیا,,Ahaziah
 Jehoram,جهورام,,Jehoram
 Jehu,یهو,,Jehu
 Jeoahaz,جواهاز,,Jeoahaz
@@ -129,11 +128,11 @@ wilderness,اسرائیل در بیابان 1513 تا 1473 پ.م. - 40 سال,,I
 timespan_judges,1473 تا 1117 ق.م. - 356 سال,,1473 to 1117 B.C.E. – 356 years
 timespan_judges2,زمان داوران,,Time of the judges
 temple1,نیسان 1513 پ.م. به Ziv 1034 B.C.E.,,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.
-temple2,479 سال تا زمان ساخت معبد - اول پادشاهان 6:1,1034 BCE,479 years until the temple construction – 1 Kings 6:1
+temple2,479 سال تا زمان ساخت معبد - اول پادشاهان 6: 1,1034 BCE,479 years until the temple construction – 1 Kings 6:1
 69weeks,عیسی در پاییز ۲۹ بعد از میلاد مسیح تعمید داد.,,Jesus baptized autumn 29 C.E.
 69weeks2,69 هفته به مسیح - دانیال 9:25,,69 weeks to the Messiah – Daniel 9:25
 jesus_service,3.5 سال خدمت عیسی، اعدام در 14 نیسان سال 33 م.,,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E."
-jesus_life,عیسی متولد 2 پ.م.,,Jesus born 2 B.C.E.
+jesus_life,عیسی متولد 2 ق.م.,,Jesus born 2 B.C.E.
 exile,607 تا 537 پ.م. - 70 سال (ارمیا 25:11),,607 to 537 B.C.E. – 70 years (Jeremiah 25:11)
 exile2,تبعید,,exile
 7times,مکاشفه 12:9,,Revelation 12:9
@@ -168,12 +167,12 @@ event_destruction_jerusalem1,ویرانی اورشلیم 607 پ.م. توسط ب�
 event_temple_rebuilt,معبدی در اورشلیم که در سال 515 قبل از میلاد بازسازی شد.,,Temple in Jerusalem rebuilt 515 B.C.E.
 event_jerusalem_rebuilt,دیوار اورشلیم بازسازی شده 455 قبل از میلاد,,Jerusalem wall rebuilt 455 B.C.E.
 event_destruction_jerusalem2,ویرانی اورشلیم در سال 70 میلادی توسط روم در زمان تیتوس,,Destruction of Jerusalem 70 C.E. by Rome under Titus
-event_1914,در پایان زمان ملل، پادشاهی خدایان در سال 1914 پس از میلاد مسیح در آسمان شروع به حکومت کرد.,,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. "
+event_1914,پایان زمان ملل (لوقا 21:24)، پادشاهی خدا در سال 1914 پس از میلاد مسیح در آسمان شروع به حکومت کرد.,include scripture Luke 21:24,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E. "
 became_king,در سنین بالا پادشاه شد,,became king at age
 vulgate,Vulgate تکمیل شده توسط Jerome (ترجمه لاتین کتاب مقدس) ج. 405 ق.م.,,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
 gutenberg,کتاب مقدس گوتنبرگ چاپ 1455,,Gutenberg bible printed 1455
 erasmus,متن یونانی کتاب مقدس یونانی مسیحی منتشر شده توسط Desiderius Erasmus از روتردام در 1516,,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
-luther,ترجمه لوتر کتاب مقدس در سپتامبر 1522,,Luther Bible translation in September 1522
+luther,ترجمه کتاب مقدس لوتر در سپتامبر 1522,,Luther Bible translation in September 1522
 tyndale,ترجمه انگلیسی کتاب مقدس توسط Tyndale 1536,,English Bible translation by Tyndale 1536
 king_james,کتاب مقدس پادشاه جیمز 1611,,King James Bible 1611
 69weeks3,عیسی خدمت خود را در 29 بعد از میلاد آغاز می کند (لوقا 3:1، 21),,"Jesus starts his service 29 CE (Luke 3:1, 21)"
@@ -186,20 +185,20 @@ dead_sea_scrolls,طومارهای دریای مرده نوشته شده است,,
 septuagint,Septuagint LXX ترجمه شده است,,Septuagint LXX translated
 watchtower,اولین شماره «برج دیدبانی صهیون و منادی حضور مسیح» در سال 1879 منتشر شد.,,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879
 photodrama,"""عکس درام خلقت"" برای اولین بار در 11 ژانویه 1914 در نیویورک نمایش داده شد.",,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914"
-jehovahs_witnesses,دانش‌آموزان کتاب مقدس نام جدیدی انتخاب کردند - شاهدان یهوه. در کلمبوس، اوهایو، 1931,,"The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931"
+jehovahs_witnesses,دانش‌آموزان کتاب مقدس نام جدیدی به نام شاهدان یهوه (اشعیا 43:10، 12) در کلمبوس، اوهایو، 1931 انتخاب کردند.,include scripture,"The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931"
 gilead_school,مدرسه انجیل گیلعاد برج مراقبت در روز دوشنبه ۱ فوریه ۱۹۴۳ شروع به کار کرد,,"Watchtower Bible School of Gilead began on Monday, February 1, 1943"
-new_world_translation1,«ترجمه جهانی جدید از نوشته‌های مقدس» در منچستر، انگلستان در 18 ژوئن 1960 منتشر شد.,,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960"
-truth_book,کتاب «حقیقتی که به زندگی ابدی منجر می‌شود» در سال 1968 منتشر شد,,The book “The Truth That Leads to Eternal Life” released 1968
+new_world_translation1,«ترجمه دنیای جدید کتاب مقدس» که در 18 ژوئن 1960 در منچستر، انگلستان منتشر شد، نام یَهُوَه را در بسیاری از بخش‌های کتاب مقدس دوباره معرفی می‌کند.,hightlight reintroduction of Jehovah’s name,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible"
+truth_book,"کتاب ""حقیقتی که به زندگی ابدی منجر می شود"" در سال 1968 منتشر شد",,The book “The Truth That Leads to Eternal Life” released 1968
 metropolitan,شروع شهادت شهری در سال 2011,,Start of metropolitan witnessing in 2011
 jw_org,شروع JW.ORG با دستورالعمل‌ها در خدمت پادشاهی دسامبر ۲۰۱۲,,Start of JW.ORG with instructions in kingdom ministry December 2012
-new_world_translation2,«ترجمه کتاب مقدس جهان جدید» تجدیدنظر شده در نشست سالانه 2013 منتشر شد,,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013
+new_world_translation2,«ترجمه دنیای جدید کتاب مقدس» اصلاح شده در نشست سالانه 2013 منتشر شد، بهینه سازی شده برای استفاده دیجیتالی و آنلاین,new edition with digital and online in mind,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online"
 jw_broadcasting,شروع پخش jw. در اکتبر 2014,,Start of jw.broadcasting in October 2014
 meeting_workbook,قالب جدید جلسه میان هفته با «کتاب کار جلسه» از ژانویه 2016,,New format of midweek meeting with “meeting workbook” starting January 2016
 covid19,کووید 19,,Covid-19
 cold_war,"وضعیت ژئوپلیتیک با عنوان ""جنگ سرد"" 1945-1991",,Geopolitical situation labeled “Cold War” 1945-1991
 timeline_created,این جدول زمانی در سال 2023، گرم ترین سال تاریخ بشر و 125000 سال گذشته ایجاد شد.,,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years"
 codex_sinaiticus,Codex Sinaiticus نوشته شده است,,Codex Sinaiticus written
-codex_vaticanus,Codex Vaticanus نوشته شده است,,Codex Vaticanus written
+codex_vaticanus,کدکس واتیکانوس نوشته شده است,,Codex Vaticanus written
 leningrad_codex,کدکس لنینگراد که در سال 1008 پس از میلاد در قاهره نوشته شده است,,Leningrad Codex written in Cairo AD 1008
 john,جان هنگام تبعید در پاتموس 96-98 میلاد «مکاشفه» می نویسد.,,John writes “revelation” while exiled on Patmos 96-98 C.E.
 nicaea1,شورای اول نیقیه,,First Council of Nicaea
@@ -208,16 +207,16 @@ buddha2,بودا به طور متناوب ج. 480-400 پ.م.,,Buddha alternative
 mohammed,محمد سی. 570-632 C.E.,,Mohammed c. 570-632 C.E.
 confucius,کنفوسیوس c.551-c.479 پ.م.,,Confucius c.551-c.479 B.C.E.
 hijrah,هجرت - سفر مکه به مدینه در 16 ژوئیه 622,,Hijrah - Journey Mecca to Medina 16 July 622
-moses_escape,1553 پ.م. موسی باید از مصر فرار کند - خروج 2:15، اعمال رسولان 7:23,,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23"
+moses_escape,1553 پ.م. موسی باید از مصر فرار کند - خروج 2:15، اعمال 7:23,,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23"
 10plagues,1513 قبل از میلاد مصر 10 طاعون را دریافت کرد,,1513 B.C.E Egypt receives 10 plagues
 joseph_sold,یوسف در سن 17 سالگی به عنوان برده فروخته شد - پیدایش 37:2,,Joseph sold as slave at the age of 17 – Gen 37:2
 infliction,400 سال تحمیل (اعمال رسولان 7:6) - اسماعیل 1913 ق.م.,,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E
 Alexander,اسکندر مقدونی (دانیال 11:3),,Alexander the Great (Daniel 11:3)
-persia,کوروش کبیر، کمبوجیه دوم، داریوش اول 490 قبل از میلاد، خشایارشا اول 480 ق.م (شوهر استر، دانیال 11:2),,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)"
+persia,کوروش کبیر، کمبوجیه دوم، داریوش اول 490 ق.م، خشایارشا اول 480 ق.م (شوهر استر، دانیال 11:2),,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)"
 persia2,فارس,,Persia
 king_north,"سلوکوس اول نیکاتور (v5) سوریه به آنتیوخوس سوم (v10) و سلوکوس چهارم (v18, 19) تا اکتاویان (v20) و تیبریوس (v21-24)",,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)"
 king_north1,پادشاه شمال,,King of the North
-king_south,"بطلمیوس I, II, III, IV (v11, 12), V (v15, 16) تا نبرد Actium 31 B.C.E.",,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
+king_south,"بطلمیوس I، II، III، IV (v11, 12)، V (v15, 16) تا نبرد Actium 31 B.C.E.",,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
 king_south1,پادشاه جنوب,,King of the South
 king_south2,امپراتوری بریتانیا 1870، قدرت جهانی انگلیسی-آمریکایی از سال 1914,,"British empire 1870, Anglo-American World Power since 1914"
 king_south3,پادشاه جنوب,,King of the South
@@ -225,14 +224,13 @@ king_north2,آلمان با امپراتور ویلیام اول 1871 (v28)، 19
 king_north3,شمال,,North
 king_north4,اتحاد جماهیر شوروی 1945-1991 (دانیال 11:32-39، 40b، 41),,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)"
 king_north5,روسیه از سال 2017 (w20 مه),,Russia since 2017 (w20 May)
-time_of_end,حضور مسیح، نتیجه گیری نظام چیزها (متی 24:3)، روزهای آخر (2Ti 3:1),,"Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)"
+time_of_end,حضور مسیح، نتیجه گیری نظام چیزها (متی 24:3)، روزهای آخر (دوم تیموتائوس 3:1),scriptures written out,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)"
 time_of_end2,روزهای گذشته,,last days
 suryavaman2,پادشاه سوریاوارمان دوم انگکور وات 1113-1150 را می سازد,,King Suryavarman II builds Angkor Wat 1113-1150
-notre-dame,نوتردام د پاریس در سال های 1163-1260 ساخته شد,,Notre-Dame de Paris built 1163-1260
+notre-dame,نوتردام پاریس در سال های 1163-1260 ساخته شد,,Notre-Dame de Paris built 1163-1260
 jehoiada,یهویادا,,Jehoiada
 babel,برج بابل ساخته شد,,tower of Babel built
 Haggai,هاگی,,Haggai
-Zephaniah,صفونیا,,Zephaniah
 Zerubbabel,زروبابل (لوقا 3:27),,Zerubbabel (Luke 3:27)
 Babylon,دانیال 2:32، 36-38; 7:4,,"Daniel 2:32, 36-38; 7:4"
 Medopersia,دانیال 2:32، 39; 7:5,,"Daniel 2:32, 39; 7:5"
@@ -247,25 +245,24 @@ Angloamerica_c,انگلیس-آمریکا,,Anglo-America
 infliction1,400 سال تحمیل,Acts 7:6,400 year infliction
 infliction2,اعمال رسولان 7:6,,Acts 7:6
 Jacob2,یعقوب/,Jacob/Israel 1858-1711 – 147 years,Jacob/
-Israel,اسرائيل,,Israel
+Israel,اسرائيل,Genesis 35:10,Israel
 Sarah,سارا,2008-1881 BCE – 127 years,Sarah
 Hagar,هاجر,Genesis 21:14,Hagar
 Haran,هاران,Genesis 11:26,Haran
-Nahor,ناهور,,Nahor
 Reumah,روما,Concubine – 4 sons,Reumah
-Milcah,میلکاه,8 sons (Bethuel and 7 more),Milcah
-Lot,لات,,Lot
+Milcah,میلکا,8 sons (Bethuel and 7 more),Milcah
+Lot,لات,Genesis 11:27,Lot
 Lots_wife,همسر لوط,,Lot’s wife
 Lots_daughters,دختران لوط,,Daughters of Lot
-Moab,موآب (دختر بزرگتر),,Moab (older daughter)
-Ammon,بن آمی (آمون),,Ben-ammi (Ammon)
-Bethuel,بتوئل,,Bethuel
+Moab,موآب (دختر بزرگتر),Genesis 19:37,Moab (older daughter)
+Ammon,بن آمی (آمون),Genesis 19:38,Ben-ammi (Ammon)
+Bethuel,بتوئل,Genesis 22:23,Bethuel
 Rebekah,ربکا,,Rebekah
 Laban,لابان,,Laban
 Leah,لیا,Genesis 35:23,Leah
 Rachel,راشل,Genesis 35:24,Rachel
 Bilhah,بیلحه,Genesis 35:25,Bilhah
-Zilpah,زیلپاه,Genesis 35:26,Zilpah
+Zilpah,زیلپا,Genesis 35:26,Zilpah
 Reuben,روبن,,Reuben
 Simeon,سیمئون,,Simeon
 Levi,لوی,,Levi
@@ -276,22 +273,22 @@ Dinah,دینا,Genesis 34,Dinah
 Esau,عیسو/,,Esau/
 Edom,ادوم,Genesis 36:1,Edom
 Ishmael,اسماعیل,,Ishmael
-Manasseh2,(مناسه,,(Manasseh
+Manasseh2,(مناسی,Genesis 41:50-52,(Manasseh
 Ephraim,و افرایم),,and Ephraim)
 Benjamin,بنیامین,,Benjamin
 Dan,دن,,Dan
 Naphtali,نفتالی,,Naphtali
 Gad,گاد,,Gad
 Asher,آشر,,Asher
-Milcah1,اوز، بوز، کموئل،,,"Uz, Buz, Kemuel,"
+Milcah1,اوز، بوز، کموئل،,Genesis 22:21,"Uz, Buz, Kemuel,"
 Milcah2,چسد، هازو،,,"Chesed, Hazo,"
 Milcah3,پیلداش، جیدلاف,,"Pildash, Jidlaph"
-Tebah,تباه,,Tebah
+Tebah,تباه,Genesis 22:23,Tebah
 Gaham,گهام,,Gaham
 Tahash,طاهاش,,Tahash
 Maacah,ماکاه,,Maacah
 Mahalath,محلات/,"Genesis 28:8, 9",Mahalath/
-Basemath,پایه · ریاضی,"Genesis36:3, 4",Base·math
+Basemath,Basemath,"Genesis36:3, 4",Basemath
 Reuel,روئل,"36:13, 17",Reuel
 Nahath,ناهات,,Nahath
 Zerah,زراح,,Zerah
@@ -309,7 +306,6 @@ Amalek,امالک,,Amalek
 Oholibamah,اوهولیباما,"36:14, 18",Oholibamah
 Jeush,جیوش,,Jeush
 Jalam,جلام,,Jalam
-Korah,کورا,,Korah
 Nebaioth,نبایوت,Genesis 25:13,Nebaioth
 Kedar,قیدار,,Kedar
 Adbeel,Adbeel,,Adbeel
@@ -368,13 +364,13 @@ western-xia_c,غرب شیا,1038-1227,Western Xia
 Copernicus,نیکلاس کوپرنیک,,Nicolaus Copernicus
 Galileo,گالیله گالیله,Galileo di Vincenzo Bonaiuti de' Galilei,Galileo Galilei
 Newton,اسحاق نیوتن,,Isaac Newton
-gregorian,تقویم گریگوری 1582,,Gregorian calendar 1582
-shang-dynasty,ج. 1600-1046 قبل از میلاد,,c. 1600-1046 BC
-western-zhou,ج. 1046-771 ق.م,,c. 1046-771 BC
+gregorian,تقویم میلادی 1582,,Gregorian calendar 1582
+shang-dynasty,ج 1600-1046 قبل از میلاد,,c. 1600-1046 BC
+western-zhou,ج 1046-771 ق.م,,c. 1046-771 BC
 eastern-zhou,770-256 قبل از میلاد,,770-256 BC
 qin-dynasty,Qin 221-207 ق.م,,Qin 221-207 BC
 western-han,207 قبل از میلاد - 9 پس از میلاد,,207 BC – 9 CE
-eastern-han,25-220 بعد از میلاد,,25-220 CE
+eastern-han,25-220 پس از میلاد,,25-220 CE
 three-kingdoms,سه پادشاهی 220-280 بعد از میلاد,,Three kingdoms 220-280 CE
 sixteen-kingdoms,شانزده پادشاهی 304-439 بعد از میلاد,,Sixteen kingdoms 304-439 CE
 northern-dynasties,368-581 م,,368-581 CE
@@ -399,3 +395,53 @@ Ashoka,آشوکا (حدود 304-232 قبل از میلاد) بودیسم را ت
 siloam-tunnel,حزقیا تونل سیلوام را گسترش داد,c. 742-732 BC,Hezekiah extends Siloam tunnel
 Angloamerica2,در نبوت دانیال 2: 33، 41-43، پاهای آهن آمیخته با خاک رس نماد انگلیسی-آمریکایی است.,,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43"
 Manetho,Manetho Aegyptiaca می نویسد,,Manetho writes Aegyptiaca
+tribulation,مصیبت بزرگ (مرقس 13:19؛ دانیال 12:1؛ متی 24:21، 22),,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)"
+destruction_babylon,نابودی بابل بزرگ (مکاشفه 17:3، 15-18؛ 18:9، 10),beginning of great tribulation (GT),"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)"
+gog_of_magog,حمله یأجوج ماجوج (حزقیال 38:1، 2، 9-12، 18-23),end of GT,"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)"
+sheep_goat,ساکنان زمین با جدا کردن گوسفندان و بزها مورد قضاوت قرار خواهند گرفت (متی 25:31-33),end of GT,"Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)"
+annointed,گردهمایی حاکمان پادشاهی (متی 24:31؛ اول قرنتیان 15:50-53؛ اول تسالونیکیان 4:15-17),end of GT,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17)
+armageddon,نبرد آرماگدون (مکاشفه 16:14، 16؛ اشعیا 13:9؛ دوم پطرس 3:12),end of system of things,"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)"
+millenium,پادشاهی خدا سلطنت هزار ساله خود را آغاز می کند (مکاشفه 5:9، 10؛ 20:4، 6).,,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)"
+great_crowd,جمعیت زیادی از هارماگدون جان سالم به در می برند (مکاشفه 7:9، 14؛ مزمور 37:9-11),,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)"
+world_population,جمعیت جهان به میلیاردها در 2000 سال گذشته,,World population in billions in the last 2000 years
+607BCE,607 پ.م.,accommodate for language,607 B.C.E.
+539BCE,539 پ.م.,systems in style:,539 B.C.E.
+537BCE,537 پ.م.,>>year 537 before time<<,537 B.C.E.
+331BCE,331 پ.م.,so they need a word,331 B.C.E.
+63BCE,63 پ.م.,prior to the year,63 B.C.E.
+70CE,70 C.E.,and something,70 C.E.
+1914CE,1914-1918 C.E.,after the year,1914-1918 C.E.
+khmer_empire,804 - 1431 C.E.,,804 – 1431 C.E.
+khmer_empire_c,امپراتوری خمر - دوره انگکور,,Khmer Empire - Angkor period
+byzantine_empire,330-1453 C.E.,,330-1453 C.E.
+byzantine_empire_c,امپراتوری بیزانس,,Byzantine Empire
+ottoman_empire,1299 - 1922 C.E.,,1299 – 1922 C.E.
+ottoman_empire_c,امپراطوری عثمانی,,Ottoman Empire
+holy_roman_empire,800 - 924 C.E.,,800 – 924 C.E.
+holy_roman_empire2,862 - 1806 C.E.,,862 – 1806 C.E.
+holy_roman_empire_c,امپراتوری روم مقدس - پس از 1512 امپراتوری روم مقدس ملت آلمان,,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation
+mongol_empire,امپراتوری مغول 1206 - 1294 C.E.,,Mongol Empire 1206 – 1294 C.E.
+Genghis,چنگیز خان,,Genghis Khan
+maya_classic,250-950,,250-950
+maya_classic_c,تمدن مایا - دوره کلاسیک,,Maya civilization – classic period
+maya_postclassic,950-1539,,950-1539
+maya_postclassic_c,تمدن مایا - دوره پساکلاسیک,,Maya civilization – postclassic period
+inca_empire,1438 - 1533 C.E.,,1438 – 1533 C.E.
+inca_empire_c,امپراتوری اینکاها,,Inca empire
+gupta_empire,319 - 550 C.E.,,319 – 550 C.E.
+gupta_empire_c,امپراتوری گوپتا,,Gupta empire
+Teotihuacan,بزرگترین شهر قاره آمریکا، ساخت اهرام ج. 200 C.E.,,"largest city in the Americas, pyramids build c. 200 C.E."
+Teotihuacan_c,Teotihuacan,,Teotihuacan
+Dionysius_Exiguus,Dionysius Exiguus، مخترع Anno Domini,,"Dionysius Exiguus, inventor of Anno Domini"
+Umayyad,661 - 750 C.E.,,661 – 750 C.E.
+Umayyad_c,اموی,,Umayyad
+Abbasid,750 - 1258 C.E.,,750 – 1258 C.E.
+Abbasid_c,خلافت عباسی,,Abbasid Caliphate
+Mamluk,1250 - 1517 C.E.,,1250 – 1517 C.E.
+Mamluk_c,سلطنت ممالیک,,Mamluk Sultanate
+ur3,سلسله اور سوم 💋💀💆,,Ur III dynasty 𒋀𒀕𒆠
+hammurabi,حمورابی 💄💄💈💊💁,,Hammurabi 𒄩𒄠𒈬𒊏𒁉
+Al-Khwarizmi,خوارزمی الجبر (جبر) می نویسد.,,al-Khwarizmi writes Al-Jabr (Algebra)
+al-azhar,دانشگاه الازهر در قاهره تاسیس شد,,Al-Azhar University is established in Cairo
+Ibn-Sina,ابن سینا یا ابن سینا,,Ibn Sina or Avicenna
+Al-Ghazali,غزالی,,Al-Ghazali
