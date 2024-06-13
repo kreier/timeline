@@ -1,5 +1,5 @@
 key,text,english,notes
-version,4.5,,
+version,4.6,4.6,
 pdf_title,6000 años de historia humana visualizados,6000 years human history visualized,
 pdf_subject,Cronología de la humanidad,Timeline of humankind,
 BCE,a.e.c.,B.C.E.,
@@ -7,7 +7,7 @@ CE,e.c.,C.E.,
 year,año,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,años,years,
 years_age,años,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,mes,month,
 months,meses,months,
 day,día,day,
@@ -167,7 +167,7 @@ event_destruction_jerusalem1,"Destrucción de Jerusalén 607 a.E.C. por Babiloni
 event_temple_rebuilt,Templo en Jerusalén reconstruido en 515 a.E.C.,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,El muro de Jerusalén se reconstruyó en 455 a.E.C.,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Destrucción de Jerusalén en 70 E.C. por Roma bajo Tito,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"Fin del tiempo de las naciones, el reino de Dios comienza a gobernar en el cielo 1914 E.C.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
+event_1914,"Fin del tiempo de las naciones (Lucas 21:24), el reino de Dios comienza a gobernar en el cielo 1914 E.C.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
 became_king,se convirtió en rey a la edad,became king at age,
 vulgate,Vulgata completada por Jerónimo (traducción latina de la Biblia) c. 405 E.C.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,Biblia de Gutenberg impresa en 1455.,Gutenberg bible printed 1455,
@@ -184,8 +184,8 @@ tischendorf,Tischendorf descubre en 1844 el Códice Sinaítico del siglo IV,Tisc
 dead_sea_scrolls,Se escriben los Rollos del Mar Muerto,Dead Sea Scrolls written,
 septuagint,Septuaginta LXX traducida,Septuagint LXX translated,
 watchtower,El primer número de “Zion’s Watch Tower and Herald of Christ’s Presence” se publica en 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
-photodrama,El “Foto-Drama de la Creación” se muestra por primera vez en Nueva York el 11 de enero de 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
-jehovahs_witnesses,"Los Estudiantes de la Biblia adoptaron un nuevo nombre: Testigos de Jehová (Isaías 43:10, 12) en Columbus, Ohio, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
+photodrama,El “Foto-Drama de la Creación” se muestra por primera vez en Nueva York el 11 de enero de 1914.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
+jehovahs_witnesses,"Los Estudiantes de la Biblia adoptaron un nuevo nombre: Testigos de Jehová (Isaías 43:10, 12) en Columbus, Ohio, 1931.","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
 gilead_school,La Escuela Bíblica de Galaad de la Watchtower comenzó el lunes 1 de febrero de 1943,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",
 new_world_translation1,"La “Traducción del Nuevo Mundo de las Santas Escrituras”, publicada en Manchester, Inglaterra, el 18 de junio de 1960, reintroduce el nombre Jehová en muchas partes de la Biblia.","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
 truth_book,El libro “La verdad que lleva a vida eterna” publicado en 1968,The book “The Truth That Leads to Eternal Life” released 1968,
@@ -318,7 +318,7 @@ Tema,Tema,Tema,
 Jetur,Jetur,Jetur,
 Naphish,Naphish,Naphish,
 Kedemah,Kedemah,Kedemah,
-Babylon2, , ,no text left and right – empty!
+Babylon2,,,no text left and right – empty!
 terahfam,miembros de la familia de Taré,members of Terah’s family,
 rosetta,Piedra de Rosetta 196 a.C.,Rosetta stone 196 B.C.E.,
 Herodotus,"Heródoto c. 484-c. 425 aC, escribe Las Historias","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
@@ -375,7 +375,7 @@ three-kingdoms,Tres reinos 220-280 d.C.,Three kingdoms 220-280 CE,
 sixteen-kingdoms,Dieciséis reinos 304-439 d.C.,Sixteen kingdoms 304-439 CE,
 northern-dynasties,368-581 d.C.,368-581 CE,
 southern-dynasties,420-589 d.C.,420-589 CE,
-tang-dynasty1, , ,
+tang-dynasty1,,,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
 shang-dynasty_c,Dinastía Shang,Shang Dynasty,c. 1600-1046 BC
@@ -404,3 +404,44 @@ armageddon,"Batalla de Armagedón (Revelación 16:14, 16; Isaías 13:9; 2 Pedro 
 millenium,"El Reino de Dios comienza su reinado de 1000 años (Revelación 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
 great_crowd,"Una gran muchedumbre sobrevive al Armagedón (Revelación 7:9, 14; Salmos 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
 world_population,Población mundial en miles de millones en los últimos 2000 años,World population in billions in the last 2000 years,
+607BCE,607 a.E.C.,607 B.C.E.,accommodate for language
+539BCE,539 a.E.C.,539 B.C.E.,systems in style:
+537BCE,537 a.E.C.,537 B.C.E.,>>year 537 before time<<
+331BCE,331 a.E.C.,331 B.C.E.,so they need a word
+63BCE,63 a.E.C.,63 B.C.E.,prior to the year
+70CE,70 E.C.,70 C.E.,and something
+1914CE,1914-1918 E.C.,1914-1918 C.E.,after the year
+khmer_empire,804-1431 E.C.,804 – 1431 C.E.,
+khmer_empire_c,Imperio Jemer - Período de Angkor,Khmer Empire - Angkor period,
+byzantine_empire,330-1453 E.C.,330-1453 C.E.,
+byzantine_empire_c,imperio Bizantino,Byzantine Empire,
+ottoman_empire,1299-1922 E.C.,1299 – 1922 C.E.,
+ottoman_empire_c,Imperio Otomano,Ottoman Empire,
+holy_roman_empire,800 – 924 E.C.,800 – 924 C.E.,
+holy_roman_empire2,862 – 1806 E.C.,862 – 1806 C.E.,
+holy_roman_empire_c,Sacro Imperio Romano Germánico: después de 1512 Sacro Imperio Romano Germánico de la Nación Alemana,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,
+mongol_empire,Imperio mongol 1206 – 1294 E.C.,Mongol Empire 1206 – 1294 C.E.,
+Genghis,Gengis Kan,Genghis Khan,
+maya_classic,250-950,250-950,
+maya_classic_c,Civilización maya – periodo clásico,Maya civilization – classic period,
+maya_postclassic,950-1539,950-1539,
+maya_postclassic_c,Civilización maya – periodo posclásico,Maya civilization – postclassic period,
+inca_empire,1438 – 1533 E.C.,1438 – 1533 C.E.,
+inca_empire_c,Imperio Inca,Inca empire,
+gupta_empire,319 – 550 E.C.,319 – 550 C.E.,
+gupta_empire_c,imperio gupta,Gupta empire,
+Teotihuacan,"ciudad más grande de América, se construyen pirámides c. 200 E.C.","largest city in the Americas, pyramids build c. 200 C.E.",
+Teotihuacan_c,Teotihuacán,Teotihuacan,
+Dionysius_Exiguus,"Dionisio Exiguus, inventor del Anno Domini","Dionysius Exiguus, inventor of Anno Domini",
+Umayyad,661 – 750 E.C.,661 – 750 C.E.,
+Umayyad_c,omeya,Umayyad,
+Abbasid,750-1258 E.C.,750 – 1258 C.E.,
+Abbasid_c,Califato abasí,Abbasid Caliphate,
+Mamluk,1250-1517 E.C.,1250 – 1517 C.E.,
+Mamluk_c,Sultanato mameluco,Mamluk Sultanate,
+ur3,Dinastía Ur III 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
+hammurabi,Hammurabi𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
+Al-Khwarizmi,al-Khwarizmi escribe Al-Jabr (Álgebra),al-Khwarizmi writes Al-Jabr (Algebra),
+al-azhar,Se establece la Universidad Al-Azhar en El Cairo,Al-Azhar University is established in Cairo,
+Ibn-Sina,Ibn Sina o Avicena,Ibn Sina or Avicenna,
+Al-Ghazali,Al-Ghazali,Al-Ghazali,
