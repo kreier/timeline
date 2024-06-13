@@ -40,33 +40,7 @@ if os.getcwd()[-6:] != "python":
     print("This script must be executed inside the python folder.")
     exit()
 
-def create_dictionary(target_language):
-    global dict, language
-    filename = "../db/dictionary_" + target_language + ".csv"
-    if os.path.isfile(filename):
-        print(f"A dictionary file {filename} already exists. Delete it if you want to create a new Google translated file.")
-        return    
-    reference = pd.DataFrame() # will contain the english dictionary with 'key' and 'text' column, plus 'alternative' and 'notes' (not used)
-    reference = pd.read_csv("../db/dictionary_reference.csv")
-    print(f"Imported reference english dictionary, found {len(reference)} entries.")
-    print(reference)
-    dict = reference[['key', 'text', 'notes']].copy()  # create a new dictionary, copy columns key and text
-    dict['english'] = reference['text'].copy()         # add a column 'english' and fill with 'text' from english dictionary
-    print("\nTranslating ...")
-    translator = googletrans.Translator()
-    number_characters = 0                   # you can translate up to 500,000 characters per month for free
-    for index, row in dict.iterrows():      # with 3 columns 'key' 'text' and 'english'
-        english_text = row.english
-        number_characters += len(english_text)
-        if not english_text == " ":  # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
-            dict.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
-            print('.', end='')
-        if (index + 1) % 40 == 0:
-            print(f" {index}")
-    print(dict)
-    print("Exporting ...")
-    dict.to_csv(filename, index=False)
-    print(f"You translated {number_characters} characters.")
+
 
 # convert the float dates to year, month and day
 def year(date_float):
@@ -196,7 +170,9 @@ def import_colors(c_scheme):
         color.update({f"{row.key}" : (row.R, row.G, row.B)})
 
 def create_canvas(edition):
-    global pdf, filename, x1, y1, x2, y2, render_type, page_width, border_lr
+    global pdf, filename, render_type, language_str, x1, y1, x2, y2, page_width, border_lr
+    global left_to_right, direction, direction_rl, direction_factor, y_offset, replace_numerals
+    global font_regular, font_bold, fontsize_regular, fontsize_AMoses
     print(f"Start creating the edition: {edition}")
     if edition == "print":
         render_type  = "print"
@@ -229,6 +205,46 @@ def create_canvas(edition):
     # the length of one year in dots from drawing_with for this 6150 years
     global dots_year
     dots_year = drawing_width / 6150
+
+    # import features of the supported language into dataframe supported_language
+    df = pd.read_csv("../db/supported_languages.csv", encoding='utf8')
+    df = df.fillna(" ")
+    row_index = df[df['key'] == language].index   # creates array of matching entries with language string
+    language_str = df.at[row_index[0], 'language_str'] # language is used for the shape engine
+
+    # set RTL or LTR
+    se_direction = "ltr"
+    if df.at[row_index[0], 'direction'] == "RTL":
+        left_to_right = False
+        se_direction = "rtl"
+        direction = "l"
+        direction_rl = "r"
+        direction_factor = -1
+    # Import the script/glyph for this language
+    if df.at[row_index[0], 'fontname'] == " ":
+        font_regular = "Aptos"
+        font_bold    = "Aptos-bold"
+    else:
+        glyphs = df.at[row_index[0], 'fontname']
+        fontname = glyphs
+        fontfile = "fonts/" + glyphs + ".ttf"
+        fontname_bold = glyphs + "-bold"
+        fontfile_bold = "fonts/" + glyphs + "-bold.ttf"
+        pdf.add_font(fontname, style="", fname=fontfile)
+        pdf.add_font(fontname_bold, style="", fname=fontfile_bold)
+        font_regular = fontname
+        font_bold    = fontname_bold
+    # set the font shaper
+    if df.at[row_index[0], 'shaping_engine']:
+        pdf.set_text_shaping(use_shaping_engine=True, 
+                                direction=se_direction, 
+                                script=df.at[row_index[0], 'script'], 
+                                language=df.at[row_index[0], 'language'])
+    fontsize_regular = df.at[row_index[0], 'fontsize']
+    fontsize_AMoses  = df.at[row_index[0], 'fontsize_AM']
+    y_offset         = df.at[row_index[0], 'y_offset']
+    if df.at[row_index[0], 'replace_numerals']:
+        replace_numerals = True
 
 def create_horizontal_axis():
     global language, left_to_right
@@ -651,9 +667,9 @@ def create_periods():
         pdf.set_text_color(0)
         pdf.set_font(font_regular, "", fontsize_regular)
         if row.location_description == "l":
-            drawString(detail, fontsize_regular, x_box - 2, y_box , direction_rl, False)
+            drawString(detail, fontsize_regular, x_box - 2 * direction_factor, y_box , direction_rl, False)
         else:
-            drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, direction, False)
+            drawString(detail, fontsize_regular, x_box + x_boxwidth + 2*direction_factor, y_box, direction, False)
 
         # if left_to_right:
         #     if row.location_description == "l":
@@ -854,7 +870,10 @@ def create_timestamp():
         pdf.set_text_color(30)
         timestamp = str(datetime.datetime.now())
         dateindex = timestamp[2:4] + timestamp[5:7] + timestamp[8:10]
-        with pdf.rotation(angle=90, x=x_position(-3965), y=y_position(8.9)):
+        rotation_angle = 0
+        if left_to_right:
+            rotation_angle = 90
+        with pdf.rotation(angle=rotation_angle, x=x_position(-3965), y=y_position(8.9)):
             pdf.set_xy(x_position(-3963), y_position(9.06))
             pdf.cell(text="timeline " + language)
             pdf.set_xy(x_position(-3963), y_position(9.44))
@@ -901,6 +920,34 @@ def checkForValidLanguageCode(langCode):
             return True
     return False
 
+def create_dictionary(target_language):
+    global dict, language
+    filename = "../db/dictionary_" + target_language + ".csv"
+    if os.path.isfile(filename):
+        print(f"A dictionary file {filename} already exists. Delete it if you want to create a new Google translated file.")
+        return    
+    reference = pd.DataFrame() # will contain the english dictionary with 'key' and 'text' column, plus 'alternative' and 'notes' (not used)
+    reference = pd.read_csv("../db/dictionary_reference.csv")
+    print(f"Imported reference english dictionary, found {len(reference)} entries.")
+    print(reference)
+    dict = reference[['key', 'text', 'notes']].copy()  # create a new dictionary, copy columns key and text
+    dict['english'] = reference['text'].copy()         # add a column 'english' and fill with 'text' from english dictionary
+    print("\nTranslating ...")
+    translator = googletrans.Translator()
+    number_characters = 0                   # you can translate up to 500,000 characters per month for free
+    for index, row in dict.iterrows():      # with 3 columns 'key' 'text' and 'english'
+        english_text = row.english
+        number_characters += len(english_text)
+        if not english_text == " ":  # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
+            dict.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
+            print('.', end='')
+        if (index + 1) % 40 == 0:
+            print(f" {index}")
+    print(dict)
+    print("Exporting ...")
+    dict.to_csv(filename, index=False)
+    print(f"You translated {number_characters} characters.")
+
 def is_supported(language):
     global language_str, pdf, font_regular, font_bold, left_to_right, replace_numerals, fontsize_regular
     global fontsize_AMoses, y_offset, direction, direction_rl, direction_factor
@@ -923,39 +970,6 @@ def is_supported(language):
     else:
         language_str = df.at[row_index[0], 'language_str'] # language is used for the shape engine
         print(f"Your selected language {language} is supported: {language_str}")
-        # set RTL or LTR
-        se_direction = "ltr"
-        if df.at[row_index[0], 'direction'] == "RTL":
-            left_to_right = False
-            se_direction = "rtl"
-            direction = "l"
-            direction_rl = "r"
-            direction_factor = -1
-        # Import the script/glyph for this language
-        if df.at[row_index[0], 'fontname'] == " ":
-            font_regular = "Aptos"
-            font_bold    = "Aptos-bold"
-        else:
-            glyphs = df.at[row_index[0], 'fontname']
-            fontname = glyphs
-            fontfile = "fonts/" + glyphs + ".ttf"
-            fontname_bold = glyphs + "-bold"
-            fontfile_bold = "fonts/" + glyphs + "-bold.ttf"
-            pdf.add_font(fontname, style="", fname=fontfile)
-            pdf.add_font(fontname_bold, style="", fname=fontfile_bold)
-            font_regular = fontname
-            font_bold    = fontname_bold
-        # set the font shaper
-        if df.at[row_index[0], 'shaping_engine']:
-            pdf.set_text_shaping(use_shaping_engine=True, 
-                                    direction=se_direction, 
-                                    script=df.at[row_index[0], 'script'], 
-                                    language=df.at[row_index[0], 'language'])
-        fontsize_regular = df.at[row_index[0], 'fontsize']
-        fontsize_AMoses  = df.at[row_index[0], 'fontsize_AM']
-        y_offset         = df.at[row_index[0], 'y_offset']
-        if df.at[row_index[0], 'replace_numerals']:
-            replace_numerals = True
         return True
 
 if __name__ == "__main__":
