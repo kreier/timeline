@@ -28,7 +28,7 @@ direction        = "r"
 direction_rl     = "l"
 direction_factor = 1
 replace_numerals = False  # for Khmer, Arabic, 
-flag_daniel2     = True
+daniel2_nwt      = False
 # logging.getLogger("fpdf.svg").propagate = False # suppress warnings for unsupported svg features
 
 dict      = {}
@@ -136,12 +136,6 @@ def drawString(text, fontsize, x_string, y_string, position, white_background):
     elif position == "c":                                                # c - centered, no BG
         pdf.set_xy(x_string - white_width / 2, y_string)
         pdf.cell(text=text)
-    # elif position == "r":                                                # r - just draw to the right
-    #     pdf.set_xy(x_string, y_string)
-    #     pdf.cell(text=text)
-    # elif position == "l":                                                # l - draw to left
-    #     pdf.set_xy(x_string - white_width, y_string)
-    #     pdf.cell(text=text, align="R")
 
 # initiate variables
 def initiate_counters():
@@ -311,7 +305,6 @@ def create_adam_moses():
     pdf.set_draw_color(r=0, g=0, b=255)
     date_deluge = x_position(-2370)
     pdf.line(date_deluge, y1, date_deluge, y2)
-    # drawString(f"{dict['Deluge']} 2370 {dict['BCE']}", 12, date_deluge + 2, y2 - 16, "r")
     x_offset = 2 * direction_factor
     drawString(f"{dict['Deluge']} {number_to_string(2370, language)} {dict['BCE']}", 12, date_deluge + x_offset, y1 + 6, direction, True)
     counter_events += 1
@@ -360,10 +353,6 @@ def create_adam_moses():
             if language == "ilo":
                 father_age_when_son_born = f"{dict['years_age']} {father_born - born}"
             drawString(father_age_when_son_born, 9, x_box - 3 * direction_factor, y_box + 1, direction_rl, True)
-            # if left_to_right:
-            #     drawString(father_age_when_son_born, 9, x_box - 3, y_box + 1, "l")
-            # else:
-            #     drawString(father_age_when_son_born, 9, x_box + 3, y_box + 1, "r")
         father_born = born
         counter_people += 1
 
@@ -486,16 +475,6 @@ def create_kings():
             drawString(detail, fontsize_regular, x_box + x_boxwidth + 2 * direction_factor, y_box, direction, True)
         else:
             drawString(detail, fontsize_regular, x_box - 2 * direction_factor, y_box, direction_rl, True)        
-        # if left_to_right:                                        # offset for string is now -8
-        #     if index < 23:
-        #         drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
-        #     else:
-        #         drawString(detail, fontsize_regular, x_box - 2, y_box, "l")
-        # else:
-        #     if index < 23:
-        #         drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box, "l")
-        #     else:
-        #         drawString(detail, fontsize_regular, x_box + 2, y_box, "r")
         counter_kings += 1
 
 def faded_color(red, green, blue, percent):
@@ -607,10 +586,6 @@ def create_caesars():
         pdf.rect(x_box, y_box, x_boxwidth, 12, style="FD")       # offset y_box was -3 - now its zero
         y_box += 1
         drawString(detail, fontsize_regular, x_box + x_boxwidth + 2 * direction_factor, y_box, direction, False)
-        # if left_to_right:                                        # offset for string is now -8
-        #     drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r")
-        # else:
-        #     drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box, "l")
         counter_kings += 1
 
 def create_periods():
@@ -781,9 +756,6 @@ def create_tribulation():
     global fontsize_regular, direction_rl
     tribulation_lines = [22.35, 34.65]
     for row in tribulation_lines:
-        # r_direction = "r"
-        # if left_to_right:
-        #     r_direction = "l"
         pdf.set_text_color(0)
         pdf.set_font(font_regular, "", fontsize_regular)
         drawString(dict["tribulation"], fontsize_regular, x_position(2027), y_position(row), direction_rl, True)
@@ -823,12 +795,14 @@ def create_daniel2():
             line_daniel2 = "daniel2_" + str(current_yearline+1)
             drawString(dict[line_daniel2], 6, x_position(-4026) + indentation*direction_factor, y_line + 25.2 + 8 * yearline, direction, False)
             current_yearline += 1
-    file_d2 = "../images/daniel2_nwt_rtl.svg"
-    d2_x = x_position(-3850) + image_shift * direction_factor - d2_width
-    if left_to_right:
-        file_d2 = "../images/daniel2.svg"
-        d2_x += d2_width
-    pdf.image(file_d2, x = d2_x, y = y2 - shift_upward - d2_height, w = d2_width , h = d2_height)
+    file_d2 = "../images/daniel2"
+    if daniel2_nwt:
+        file_d2 += "_nwt"
+    d2_x = x_position(-3850) + image_shift * direction_factor
+    if not left_to_right:
+        file_d2 += "_rtl"
+        d2_x -= d2_width
+    pdf.image(file_d2 + ".svg", x = d2_x, y = y2 - shift_upward - d2_height, w = d2_width , h = d2_height)
 
 def create_timestamp():
     timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "objects", "terahfam"]
@@ -843,22 +817,25 @@ def create_timestamp():
             drawString(counter_detail,    4, x_position(-4075) - 5.4, y2 - 42 + 4.5 * index, "r", False)
     pdf.set_font("Aptos", "", 4)
     pdf.set_text_color(50)
+    pdf.set_text_shaping(use_shaping_engine=True, language="eng")
+    info_width = pdf.get_string_width(f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
     if left_to_right:
-        pdf.set_xy(x_position(-4075), y2 - 6)
-        pdf.cell(text=f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – ")
-        pdf.set_text_color(25, 25, 150)
-        pdf.cell(text=f"{pdf_author}", link="https://kreier.github.io/timeline/")
-        pdf.set_text_color(50)
-        pdf.cell(text=" – some ")
-        pdf.set_text_color(25, 25, 150)
-        pdf.cell(text="images", link="https://github.com/kreier/timeline/blob/main/images/images_source.csv")
-        pdf.set_text_color(50)
-        pdf.cell(text=" are ")
-        pdf.set_text_color(25, 25, 150)
-        pdf.cell(text="CC BY-SA", link="https://creativecommons.org/licenses/by-sa/4.0/")
-    else:
-        text = f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA"
-        drawString(text, 4, x_position(-4075), y2-6, "l", False)
+        info_width = 0
+    pdf.set_xy(x_position(-4075) - info_width, y2 - 6)
+    pdf.cell(text=f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – ")
+    pdf.set_text_color(25, 25, 150)
+    pdf.cell(text=f"{pdf_author}", link="https://kreier.github.io/timeline/")
+    pdf.set_text_color(50)
+    pdf.cell(text=" – some ")
+    pdf.set_text_color(25, 25, 150)
+    pdf.cell(text="images", link="https://github.com/kreier/timeline/blob/main/images/images_source.csv")
+    pdf.set_text_color(50)
+    pdf.cell(text=" are ")
+    pdf.set_text_color(25, 25, 150)
+    pdf.cell(text="CC BY-SA", link="https://creativecommons.org/licenses/by-sa/4.0/")
+    # else:
+    #     text = f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA"
+    #     drawString(text, 4, x_position(-4075), y2-6, "l", False)
 
     qr_file = "../images/qr-" + language + ".png"
     if os.path.exists(qr_file):
@@ -883,7 +860,6 @@ def render_to_file():
     print(f"File exported: {filename}")
 
 def create_timeline(lang):
-    # global language, version, language_str
     global language, version, language_str, pdf
     language = lang
     initiate_counters()
@@ -983,6 +959,6 @@ if __name__ == "__main__":
         exit()
     language = sys.argv[1]
     if len(sys.argv) == 3:
-        flag_daniel2 = False
+        daniel2_nwt = True
     if is_supported(language):
         create_timeline(language)
