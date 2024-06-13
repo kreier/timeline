@@ -287,15 +287,6 @@ def create_horizontal_axis():
     drawString(dict["BCE"], 11, x_position(-4075) + 20 * direction_factor, y1 - 17, direction_rl, False)
     drawString(dict["BCE"], 11, x_position(-4075) + 20 * direction_factor, y2 +  7, direction_rl, False)
 
-    # if left_to_right:
-    #     pdf.text(x2 - 20, y1 -  8, dict["CE"])
-    #     pdf.text(x2 - 20, y2 + 16, dict["CE"])
-    #     offset = pdf.get_string_width(dict["BCE"])
-    #     pdf.text(x1 + 20 - offset, y1 -  8, dict["BCE"])
-    #     pdf.text(x1 + 20 - offset, y2 + 16, dict["BCE"])
-    # else:
-    #     print("Something to fix for RTL in 361")
-
 def create_adam_moses():
     # unique pattern for people from Adam to Moses, and eventline for deluge
     global counter_people, counter_events, language, fontsize_regular, fontsize_AMoses
