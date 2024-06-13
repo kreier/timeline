@@ -3,7 +3,6 @@
 # Documentation found on https://py-pdf.github.io/fpdf2/Tutorial.html
 
 from fpdf import FPDF
-# from svglib.svglib import svg2rlg
 import pandas as pd
 import googletrans
 import datetime, sys, os
@@ -18,6 +17,7 @@ border_lr    = 10*mm                      # space left/right usually 10, for rol
 border_tb    = 7*mm                       # space for the years top and bottom
 page_width   = 4*297*mm + 2 * border_lr   # 4x A4 landscape
 page_height  = 210*mm                     #    A4 landscape height
+render_type  = "digital"
 pdf_author   = "https://github.com/kreier/timeline"
 fontsize_regular = 10
 fontsize_AMoses  = 16
@@ -39,17 +39,6 @@ supported = {}
 if os.getcwd()[-6:] != "python":
     print("This script must be executed inside the python folder.")
     exit()
-
-pdf = FPDF(unit="pt", format=(page_width, page_height)) # no orientation ="landscape" since it only swaps width and height
-pdf.set_margin(0)
-pdf.c_margin = 0
-pdf.add_page()
-pdf.set_author(pdf_author)
-pdf.add_font("Aptos", style="", fname="fonts/aptos.ttf")
-pdf.set_font("Aptos", "", fontsize_regular)
-pdf.set_text_color(0)
-pdf.add_font("Aptos-bold", style="", fname="fonts/aptos-bold.ttf")
-pdf.add_font("NotoCuneiform", style="", fname="fonts/NotoCuneiform.ttf") # Akkadian
 
 def create_dictionary(target_language):
     global dict, language
@@ -99,26 +88,25 @@ def day(date_float):
     day = int((month - int(month))*30) + 1
     return day
 
-def x_position(date_float):     # area is 6150 years wide from 4075 BCE to 2075 CE
+def x_position(date_float):      # area is 6150 years wide from 4075 BCE to 2075 CE
     global x1, left_to_right
     if left_to_right:
         return x1 + (4075 + date_float) * dots_year
     else:
         return x1 + (2075 - date_float) * dots_year
 
-def y_position(row_y):          # with update 2024/03/12 to height 204 -> 210mm we now have 46 lines
+def y_position(row_y):           # with update 2024/03/12 to height 204 -> 210mm we now have 46 lines
     global y1
-    return y1 + row_y * 12      # vertically centered 10 point script in 12 pt line, 1pt above/below
+    return y1 + row_y * 12       # vertically centered 10 point script in 12 pt line, 1pt above/below
 
 def drawString(text, fontsize, x_string, y_string, position, white_background):
     global pdf
-    if len(text) == 0:          # don't draw empty strings
+    if len(text) == 0:           # don't draw empty strings
         return
-    # pdf.set_font(font_regular, size=fontsize)            # set fontcolor and fonttype outside this function
+    pdf.set_font_size(fontsize)  # set fontcolor and fonttype outside this function
     pdf.set_fill_color(255)
     pdf.set_draw_color(255)
     pdf.set_line_width(0.8)
-    pdf.set_font_size(fontsize)
     xtra = 0                     # used for labels under images
     if fontsize < 6:
         xtra = 0
@@ -207,16 +195,33 @@ def import_colors(c_scheme):
     for index, row in key_colors.iterrows():
         color.update({f"{row.key}" : (row.R, row.G, row.B)})
 
-def create_canvas():
-    global pdf, filename, drawing_height, drawing_width, d, x1, y1, x2, y2
-    filename = "../timeline/timeline_v" + str(version) + "_"+ language + ".pdf"
+def create_canvas(edition):
+    global pdf, filename, x1, y1, x2, y2, render_type, page_width, border_lr
+    print(f"Start creating the edition: {edition}")
+    if edition == "print":
+        render_type  = "print"
+        border_lr    = 60*mm
+        page_width   = 4*297*mm + 2 * border_lr
+        filename = "../timeline/timeline_v" + str(version) + "_"+ language + "_print.pdf"
+    else:
+        filename = "../timeline/timeline_v" + str(version) + "_"+ language + ".pdf"
+    pdf = FPDF(unit="pt", format=(page_width, page_height))       # no orientation ="landscape" since it only swaps width and height
+    pdf.set_margin(0)
+    pdf.c_margin = 0
+    pdf.set_author(pdf_author)
+    pdf.add_font("Aptos", style="", fname="fonts/aptos.ttf")
+    pdf.set_font("Aptos", "", fontsize_regular)
+    pdf.set_text_color(0)
+    pdf.add_font("Aptos-bold", style="", fname="fonts/aptos-bold.ttf")
+    pdf.add_font("NotoCuneiform", style="", fname="fonts/NotoCuneiform.ttf") # Akkadian    
+    pdf.add_page(format=(page_width, page_height))
     pdf.set_author(pdf_author)
     pdf.set_title(dict['pdf_title'])
     pdf.set_subject(dict['pdf_subject'])
     drawing_width  = page_width - 2 * border_lr
     drawing_height = page_height - 2 * border_tb
-    x1 = border_lr                                # left for fpdf2 and reportlab
-    y1 = border_tb                                # in fpdf2 this is top, on reportlab that is bottom
+    x1 = border_lr                                  # left for fpdf2 and reportlab
+    y1 = border_tb                                  # in fpdf2 this is top, on reportlab that is bottom
     x2 = x1 + drawing_width
     y2 = y1 + drawing_height
 
@@ -230,8 +235,8 @@ def create_horizontal_axis():
     # axis around drawing area
     pdf.set_line_width(0.8)
     pdf.set_draw_color(r=0, g=0, b=0)
-    pdf.line(x1, y1, x1+drawing_width, y1)
-    pdf.line(x1, y2, x1+drawing_width, y2)
+    pdf.line(x1, y1, x1 + page_width - 2 * border_lr, y1)
+    pdf.line(x1, y2, x1 + page_width - 2 * border_lr, y2)
 
     # tickmarks and years for 61 centuries
     pdf.set_font(font_regular, "", 11)
@@ -331,7 +336,7 @@ def create_adam_moses():
             details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {dict['years_age']} {born - died}"
         x_box = x_position(row.born)
         y_box = y1 + index * 21 + 2
-        if index == 23:  # Moises
+        if index == 23:  # Moses
             y_box += 12
         x_boxwidth = x_position(born) - x_position(died)
         x_text = x_box + x_boxwidth * 0.5
@@ -645,16 +650,21 @@ def create_periods():
         # y_box -= 8
         pdf.set_text_color(0)
         pdf.set_font(font_regular, "", fontsize_regular)
-        if left_to_right:
-            if row.location_description == "l":
-                drawString(detail, fontsize_regular, x_box - 2, y_box , "l", False)
-            else:
-                drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r", False)
+        if row.location_description == "l":
+            drawString(detail, fontsize_regular, x_box - 2, y_box , direction_rl, False)
         else:
-            if row.location_description == "r":
-                drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box, "l", False)
-            else:
-                drawString(detail, fontsize_regular, x_box + 2, y_box, "r", False)
+            drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, direction, False)
+
+        # if left_to_right:
+        #     if row.location_description == "l":
+        #         drawString(detail, fontsize_regular, x_box - 2, y_box , "l", False)
+        #     else:
+        #         drawString(detail, fontsize_regular, x_box + x_boxwidth + 2, y_box, "r", False)
+        # else:
+        #     if row.location_description == "r":
+        #         drawString(detail, fontsize_regular, x_box + x_boxwidth - 2, y_box, "l", False)
+        #     else:
+        #         drawString(detail, fontsize_regular, x_box + 2, y_box, "r", False)
         counter_periods += 1
 
 def create_terah_familytree():
@@ -833,9 +843,6 @@ def create_timestamp():
     pdf.cell(text=" are ")
     pdf.set_text_color(25, 25, 150)
     pdf.cell(text="CC BY-SA", link="https://creativecommons.org/licenses/by-sa/4.0/")
-    # else:
-    #     text = f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA"
-    #     drawString(text, 4, x_position(-4075), y2-6, "l", False)
 
     qr_file = "../images/qr-" + language + ".png"
     if os.path.exists(qr_file):
@@ -854,18 +861,17 @@ def create_timestamp():
             pdf.cell(text=dateindex)
 
 def render_to_file():
-    global pdf
-    filename = "../timeline/timeline_v" + str(version) + "_"+ language + ".pdf"
+    global pdf, filename
     pdf.output(filename)
     print(f"File exported: {filename}")
 
-def create_timeline(lang):
-    global language, version, language_str, pdf
+def create_timeline(lang, edition):
+    global language
     language = lang
     initiate_counters()
     import_dictionary()
     import_colors("normal")
-    create_canvas()
+    create_canvas(edition)
     create_horizontal_axis()
     create_adam_moses()
     create_reference_events()
@@ -961,4 +967,5 @@ if __name__ == "__main__":
     if len(sys.argv) == 3:
         daniel2_nwt = True
     if is_supported(language):
-        create_timeline(language)
+        create_timeline(language, "digital")
+        create_timeline(language, "print")
