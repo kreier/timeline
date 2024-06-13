@@ -1,447 +1,447 @@
-key,text,notes,english
-version,4.7,,4.7
-pdf_title,6000 שנות היסטוריה אנושית דמיונית,,6000 years human history visualized
-pdf_subject,ציר הזמן של המין האנושי,,Timeline of humankind
-BCE,לפני הספירה,,B.C.E.
-CE,לִספִירַת הַנוֹצרִים,,C.E.
-year,שָׁנָה,"timespan, age (Adam was 130 years old when Shem was born)",year
-years,שנים,,years
-years_age,שנים,"years when used as age for a person (different word than years in some languages), like he is 23 years old ",years
-age_kings, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""", 
-month,חוֹדֶשׁ,,month
-months,חודשים,,months
-day,יְוֹם,,day
-days,ימים,,days
-to,ל,,to
-people,אֲנָשִׁים,,people
-judges,שופטים,,judges
-prophets,נביאים,,prophets
-kings,מלכים,,kings
-periods,תקופות,,periods
-events,אירועים,,events
-objects,חפצים או פריטים,,objects or items
-Deluge,מַבּוּל,,Deluge
-Adam,אדם,Luke 3:38,Adam
-Seth,סת',,Seth
-Enosh,אנוש,,Enosh
-Kenan,קינן,,Kenan
-Mahalalel,מהללאל,,Mahalalel
-Jared,ג'ארד,,Jared
-Enoch,חנוך,,Enoch
-Methuselah,מתושלח,Luke 3:37,Methuselah
-Lamech,למך,,Lamech
-Noah,נועה,,Noah
-Shem,שם,,Shem
-Arpachshad,ארפחשד,Luke 3:36,Arpachshad
-Shelah,שלח,,Shelah
-Eber,איבר,,Eber
-Peleg,פלג,,Peleg
-Reu,Reu,,Reu
-Serug,סרוג,Luke 3:35,Serug
-Nahor,נחור,,Nahor
-Terah,תרח,,Terah
-Abraham,אַבְרָהָם,,Abraham
-Isaac,יצחק,,Isaac
-Jacob,יעקב,Luke 3:34,Jacob
-Joseph,יוסף,,Joseph
-Moses,משה רבנו,,Moses
-Othniel,עתניאל,Judges 3:9-11,Othniel
-Ehud,אהוד,Judges 3:15-18,Ehud
-Shamgar,שמגר,Judges 3:31,Shamgar
-Barak,ברק,Judges 4:6,Barak
-Gideon,גדעון,Judges 7:1,Gideon
-Tola,טולה,Judges 10:1,Tola
-Jair,ז'איר,Judges 10:3,Jair
-Jephthah,יפת,Judges 11:1,Jephthah
-Ibzan,איבזן,Judges 12:8,Ibzan
-Elon,אילון,Judges 12:11,Elon
-Abdon,עבדון,Judges 12:13,Abdon
-Samson,שמשון,Judges 13:24,Samson
-Samuel,סמואל,1 Samuel 1:20,Samuel
-Saul,שאול,1 Samuel 9:2,Saul
-David,דוד,1 Samuel 16:13,David
-Solomon,שלמה,1 Kings 2:1,Solomon
-Rehoboam,רחבעם,first king of southern kingdom of Juda,Rehoboam
-Abijah,אביה (אביאם),"3 years, also Abijam",Abijah (Abijam)
-Asa,כ,,Asa
-Jehoshaphat,יהושפט,bce_float = -y+1 - (12-m)/12 – (31-d)/360,Jehoshaphat
-Jehoram2,יהורם,,Jehoram
-Ahaziah,אחזיה,,Ahaziah
+key,text,english,notes
+version,4.6,4.6,
+pdf_title,6000 שנות היסטוריה אנושית דמיונית,6000 years human history visualized,
+pdf_subject,ציר הזמן של המין האנושי,Timeline of humankind,
+BCE,לפני הספירה,B.C.E.,
+CE,לִספִירַת הַנוֹצרִים,C.E.,
+year,שָׁנָה,year,"timespan, age (Adam was 130 years old when Shem was born)"
+years,שנים,years,
+years_age,שנים,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old "
+age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+month,חוֹדֶשׁ,month,
+months,חודשים,months,
+day,יְוֹם,day,
+days,ימים,days,
+to,ל,to,
+people,אֲנָשִׁים,people,
+judges,שופטים,judges,
+prophets,נביאים,prophets,
+kings,מלכים,kings,
+periods,תקופות,periods,
+events,אירועים,events,
+objects,חפצים או פריטים,objects or items,
+Deluge,מַבּוּל,Deluge,
+Adam,אדם,Adam,Luke 3:38
+Seth,סת',Seth,
+Enosh,אנוש,Enosh,
+Kenan,קינן,Kenan,
+Mahalalel,מהללאל,Mahalalel,
+Jared,ג'ארד,Jared,
+Enoch,חנוך,Enoch,
+Methuselah,מתושלח,Methuselah,Luke 3:37
+Lamech,למך,Lamech,
+Noah,נועה,Noah,
+Shem,שם,Shem,
+Arpachshad,ארפחשד,Arpachshad,Luke 3:36
+Shelah,שלח,Shelah,
+Eber,איבר,Eber,
+Peleg,פלג,Peleg,
+Reu,רְעוּ,Reu,
+Serug,סרוג,Serug,Luke 3:35
+Nahor,נחור,Nahor,
+Terah,תרח,Terah,
+Abraham,אַבְרָהָם,Abraham,
+Isaac,יצחק,Isaac,
+Jacob,יעקב,Jacob,Luke 3:34
+Joseph,יוסף,Joseph,
+Moses,משה רבנו,Moses,
+Othniel,עתניאל,Othniel,Judges 3:9-11
+Ehud,אהוד,Ehud,Judges 3:15-18
+Shamgar,שמגר,Shamgar,Judges 3:31
+Barak,ברק,Barak,Judges 4:6
+Gideon,גדעון,Gideon,Judges 7:1
+Tola,טולה,Tola,Judges 10:1
+Jair,ז'איר,Jair,Judges 10:3
+Jephthah,יפת,Jephthah,Judges 11:1
+Ibzan,איבזן,Ibzan,Judges 12:8
+Elon,אילון,Elon,Judges 12:11
+Abdon,עבדון,Abdon,Judges 12:13
+Samson,שמשון,Samson,Judges 13:24
+Samuel,סמואל,Samuel,1 Samuel 1:20
+Saul,שאול,Saul,1 Samuel 9:2
+David,דוד,David,1 Samuel 16:13
+Solomon,שלמה,Solomon,1 Kings 2:1
+Rehoboam,רחבעם,Rehoboam,first king of southern kingdom of Juda
+Abijah,אביה (אביאם),Abijah (Abijam),"3 years, also Abijam"
+Asa,כ,Asa,
+Jehoshaphat,יהושפט,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360
+Jehoram2,יהורם,Jehoram,
+Ahaziah,אחזיה,Ahaziah,
 Athaliah,המלכה עתליה,Queen Athaliah,Queen Athaliah
-Jehoash,יהואש,,Jehoash
-Amaziah,אמציה,,Amaziah
-Uzziah,עוזיהו (עזריה),also Azariah,Uzziah (Azariah)
-Jotham,יותם,,Jotham
-Ahaz,אחז,,Ahaz
-Hezekiah,חזקיהו,,Hezekiah
-Manasseh,מנשה,,Manasseh
-Amon,אמון,,Amon
-Josiah,יאשיהו,,Josiah
-Jehoahaz,יהואחז,Only 3 months,Jehoahaz
-Jehoiakim,יהויקים,,Jehoiakim
-Jehoiachin,יהויכין,Only 3 months 10 days,Jehoiachin
-Zedekiah,צדקיהו,,Zedekiah
-Jeroboam,ירבעם,first king of northern 10-tribe kingdom,Jeroboam
-Nadab,נדב,less than 2,Nadab
-Baasha,באשה,,Baasha
-Elah,אלה,,Elah
-Zimri,זמרי,Only 7 days in ca. 751 BCE,Zimri
-OmriTibni,עומרי ותבני ביחד,4 years Omri and Tibni,Omri and Tibni together
-Omri,עומרי (לבד),from 947 Omri alone,Omri (alone)
-Ahab,אחאב,,Ahab
-Jehoram,יהורם,,Jehoram
-Jehu,יהוא,,Jehu
-Jeoahaz,ג'ואחאז,,Jeoahaz
-JeoahazJehoash,יהואחז ויהואש,For 3 years Jeoahaz and Jeoash reigned together,Jeoahaz and Jehoash
+Jehoash,יהואש,Jehoash,
+Amaziah,אמציה,Amaziah,
+Uzziah,עוזיהו (עזריה),Uzziah (Azariah),also Azariah
+Jotham,יותם,Jotham,
+Ahaz,אחז,Ahaz,
+Hezekiah,חזקיהו,Hezekiah,
+Manasseh,מנשה,Manasseh,
+Amon,אמון,Amon,
+Josiah,יאשיהו,Josiah,
+Jehoahaz,יהואחז,Jehoahaz,Only 3 months
+Jehoiakim,יהויקים,Jehoiakim,
+Jehoiachin,יהויכין,Jehoiachin,Only 3 months 10 days
+Zedekiah,צדקיהו,Zedekiah,
+Jeroboam,ירבעם,Jeroboam,first king of northern 10-tribe kingdom
+Nadab,נדב,Nadab,less than 2
+Baasha,באשה,Baasha,
+Elah,אלה,Elah,
+Zimri,זמרי,Zimri,Only 7 days in ca. 751 BCE
+OmriTibni,עומרי ותבני ביחד,Omri and Tibni together,4 years Omri and Tibni
+Omri,עומרי (לבד),Omri (alone),from 947 Omri alone
+Ahab,אחאב,Ahab,
+Jehoram,יהורם,Jehoram,
+Jehu,יהוא,Jehu,
+Jeoahaz,ג'ואחאז,Jeoahaz,
+JeoahazJehoash,יהואחז ויהואש,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together
 Jehoash2,יהואש (לבד),Jehoash (alone),Jehoash (alone)
-Jeroboam2,ירבעם השני,,Jeroboam II
-Zechariah,זכריה,"reign only recorded 6 months, probably only established 792 BCE",Zechariah
-Schallum,שלום,only one month,Schallum
-Menahem,מנחם,,Menahem
-Pekahiah,פקחיה,,Pekahiah
-Pekah,פקה,,Pekah
-Hoshea,הושע,9 years from c. 748,Hoshea
-Elijah,אליהו,,Elijah
-Elisha,אלישע,,Elisha
-Jonah,יונה,,Jonah
-Amos,עמוס,,Amos
-Joel,יואל,,Joel
-Hosea,הושע,,Hosea
-Isaiah,ישעיהו,,Isaiah
-Micah,מיכה,,Micah
-Zephaniah,צפניה,,Zephaniah
-Nahum,נחום,,Nahum
-Jeremiah,ירמיהו,,Jeremiah
-Habakuk,חבקוק,,Habakuk
-Daniel,דניאל,,Daniel
-Ezekiel,יחזקאל,,Ezekiel
-Obadiah,עובדיה,,Obadiah
-Malachi,מלאכי,,Malachi
-Ruth,רות,,Ruth
-Ezra,עזרא,,Ezra
-Nehemiah,נחמיה,,Nehemiah
-Esther,אסתר,,Esther
-Job,עבודה,,Job
-moses2,"1593 עד 1473 לפנה""ס – 120 שנה",,1593 to 1473 B.C.E. – 120 years
-moses3,משה רבנו,,Moses
-wilderness,"ישראל במדבר 1513 עד 1473 לפנה""ס. - 40 שנה",,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years
-timespan_judges,"1473 עד 1117 לפנה""ס – 356 שנים",,1473 to 1117 B.C.E. – 356 years
-timespan_judges2,זמן השופטים,,Time of the judges
-temple1,"ניסן 1513 לפנה""ס לזיו 1034 לפנה""ס.",,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.
-temple2,"479 שנים עד בניית המקדש – מלכים א ו, א",1034 BCE,479 years until the temple construction – 1 Kings 6:1
-69weeks,ישוע הטביל את סתיו 29 לספירה.,,Jesus baptized autumn 29 C.E.
-69weeks2,69 שבועות למשיח - דניאל ט':25,,69 weeks to the Messiah – Daniel 9:25
-jesus_service,"3.5 שנים של שירות ישוע, הוצא להורג ב-14 בניסן, 33 לספירה.",,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E."
-jesus_life,"ישוע נולד ב-2 לפנה""ס",,Jesus born 2 B.C.E.
-exile,"607 עד 537 לפנה""ס – 70 שנה (ירמיהו כ""ה:11)",,607 to 537 B.C.E. – 70 years (Jeremiah 25:11)
-exile2,גלות,,exile
-7times,התגלות יב:9,,Revelation 12:9
-7times2,7 פעמים – 2520 שנה לממלכת המשיח 1914 לספירה (דניאל ד':23),,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)
-ww1,מלחמת העולם הראשונה - 1914–1918 לספירה,,World War I – 1914–1918 C.E.
-ww2,מלחמת העולם השנייה - 1939–1945 לספירה,,World War II – 1939–1945 C.E.
-30_year_war,מלחמת שלושים שנה באירופה 1618-1648,,Thirty Years' War in Europe 1618-1648
-joshua,110 שנים,,110 years
-joshua2,יהושע,,Joshua
-caleb,יותר מ-85 שנים,,more than 85 years
-caleb2,כיילב,,Caleb
-missionary1,"מסע המיסיונרי הראשון של פול, כ. 47-48 לספירה עם ברנבאס וג'ון מארק",,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark"
-circumcision,"סוגיית ברית מילה באנטיוכיה, ועידה בירושלים כ. 49 לספירה",,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E."
-missionary2,מסע מיסיונר שני ג. 49-52 לספירה עם סילאס (סילוואנוס),,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)
-missionary3,מסע מיסיונר שלישי ג. 52-56 לספירה,,Third Missionary Journey c. 52-56 C.E.
-caesarea,פול במעצר בקיסריה כ. 56-58 לספירה,,Paul in custody in Caesarea c. 56-58 C.E.
-rome1,מאסרו הראשון של פאולוס ברומא כ. 59-61 לספירה,,Paul’s first imprisonment in Rome c. 59-61 C.E.
-rome2,"מאסרו השני של פאולוס ברומא כ. 65 לספירה, טימותיוס ב' נכתב, פאולוס הוצא להורג",,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed"
-Julius,יוליוס,,Julius
-Augustus,אוגוסטוס,,Augustus
-Tiberius,טיבריוס,,Tiberius
-Caligula,קליגולה,,Caligula
-Claudius,קלאודיוס,,Claudius
-Nero,נירון,,Nero
-Galba-Otho-Vitellius,"גלבה, אוטו וויטליוס (שנת ארבעת הקיסרים)",,"Galba, Otho and Vitellius (Year of the Four Emperors)"
-Vespasian,אספסיאנוס,,Vespasian
-event_exodus,"יציאת מצרים ביום י""ד בניסן, 1513 לפנה""ס.",,"Exodus from Egypt on Nisan 14th, 1513 B.C.E."
-event_division_kingdom,"חלוקת ישראל 997 לפנה""ס",,Division of Israel 997 BCE
+Jeroboam2,ירבעם השני,Jeroboam II,
+Zechariah,זכריה,Zechariah,"reign only recorded 6 months, probably only established 792 BCE"
+Schallum,שלום,Schallum,only one month
+Menahem,מנחם,Menahem,
+Pekahiah,פקחיה,Pekahiah,
+Pekah,פקה,Pekah,
+Hoshea,הושע,Hoshea,9 years from c. 748
+Elijah,אליהו,Elijah,
+Elisha,אלישע,Elisha,
+Jonah,יונה,Jonah,
+Amos,עמוס,Amos,
+Joel,יואל,Joel,
+Hosea,הושע,Hosea,
+Isaiah,ישעיהו,Isaiah,
+Micah,מיכה,Micah,
+Zephaniah,צפניה,Zephaniah,
+Nahum,נחום,Nahum,
+Jeremiah,ירמיהו,Jeremiah,
+Habakuk,חבקוק,Habakuk,
+Daniel,דניאל,Daniel,
+Ezekiel,יחזקאל,Ezekiel,
+Obadiah,עובדיה,Obadiah,
+Malachi,מלאכי,Malachi,
+Ruth,רות,Ruth,
+Ezra,עזרא,Ezra,
+Nehemiah,נחמיה,Nehemiah,
+Esther,אסתר,Esther,
+Job,עבודה,Job,
+moses2,"1593 עד 1473 לפנה""ס – 120 שנה",1593 to 1473 B.C.E. – 120 years,
+moses3,משה רבנו,Moses,
+wilderness,"ישראל במדבר 1513 עד 1473 לפנה""ס. - 40 שנה",Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,
+timespan_judges,"1473 עד 1117 לפנה""ס – 356 שנים",1473 to 1117 B.C.E. – 356 years,
+timespan_judges2,זמן השופטים,Time of the judges,
+temple1,"ניסן 1513 לפנה""ס לזיו 1034 לפנה""ס.",Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,
+temple2,"479 שנים עד בניית המקדש – מלכים א ו, א",479 years until the temple construction – 1 Kings 6:1,1034 BCE
+69weeks,ישוע הטביל את סתיו 29 לספירה.,Jesus baptized autumn 29 C.E.,
+69weeks2,69 שבועות למשיח - דניאל ט':25,69 weeks to the Messiah – Daniel 9:25,
+jesus_service,"3.5 שנים של שירות ישוע, הוצא להורג ב-14 בניסן, 33 לספירה.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
+jesus_life,"ישוע נולד ב-2 לפנה""ס",Jesus born 2 B.C.E.,
+exile,"607 עד 537 לפנה""ס – 70 שנה (ירמיהו כ""ה:11)",607 to 537 B.C.E. – 70 years (Jeremiah 25:11),
+exile2,גלות,exile,
+7times,התגלות יב:9,Revelation 12:9,
+7times2,7 פעמים – 2520 שנה לממלכת המשיח 1914 לספירה (דניאל ד':23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),
+ww1,מלחמת העולם הראשונה - 1914–1918 לספירה,World War I – 1914–1918 C.E.,
+ww2,מלחמת העולם השנייה - 1939–1945 לספירה,World War II – 1939–1945 C.E.,
+30_year_war,מלחמת שלושים שנה באירופה 1618-1648,Thirty Years' War in Europe 1618-1648,
+joshua,110 שנים,110 years,
+joshua2,יהושע,Joshua,
+caleb,יותר מ-85 שנים,more than 85 years,
+caleb2,כיילב,Caleb,
+missionary1,"מסע המיסיונרי הראשון של פול, כ. 47-48 לספירה עם ברנבאס וג'ון מארק","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark",
+circumcision,"סוגיית ברית מילה באנטיוכיה, ועידה בירושלים כ. 49 לספירה","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.",
+missionary2,מסע מיסיונר שני ג. 49-52 לספירה עם סילאס (סילוואנוס),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),
+missionary3,מסע מיסיונר שלישי ג. 52-56 לספירה,Third Missionary Journey c. 52-56 C.E.,
+caesarea,פול במעצר בקיסריה כ. 56-58 לספירה,Paul in custody in Caesarea c. 56-58 C.E.,
+rome1,מאסרו הראשון של פאולוס ברומא כ. 59-61 לספירה,Paul’s first imprisonment in Rome c. 59-61 C.E.,
+rome2,"מאסרו השני של פאולוס ברומא כ. 65 לספירה, טימותיוס ב' נכתב, פאולוס הוצא להורג","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",
+Julius,יוליוס,Julius,
+Augustus,אוגוסטוס,Augustus,
+Tiberius,טיבריוס,Tiberius,
+Caligula,קליגולה,Caligula,
+Claudius,קלאודיוס,Claudius,
+Nero,נירון,Nero,
+Galba-Otho-Vitellius,"גלבה, אוטו וויטליוס (שנת ארבעת הקיסרים)","Galba, Otho and Vitellius (Year of the Four Emperors)",
+Vespasian,אספסיאנוס,Vespasian,
+event_exodus,"יציאת מצרים ביום י""ד בניסן, 1513 לפנה""ס.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.",
+event_division_kingdom,"חלוקת ישראל 997 לפנה""ס",Division of Israel 997 BCE,
 event_destruction_samaria,"חורבן השומרון 740 לפנה""ס. על ידי אשור",Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
-event_destruction_samaria2,"740 לפנה""ס על ידי אשור",was shortened here for 2 lines,740 B.C.E. by Assyria
-event_destruction_jerusalem1,"חורבן ירושלים 607 לפנה""ס. על ידי בבל, 390 שנה לאחר חלוקת הממלכה (יחזקאל ד' ה')",,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)"
-event_temple_rebuilt,"מקדש בירושלים נבנה מחדש בשנת 515 לפנה""ס.",,Temple in Jerusalem rebuilt 515 B.C.E.
-event_jerusalem_rebuilt,"חומת ירושלים נבנתה מחדש בשנת 455 לפנה""ס.",,Jerusalem wall rebuilt 455 B.C.E.
-event_destruction_jerusalem2,חורבן ירושלים 70 לספירה על ידי רומא תחת טיטוס,,Destruction of Jerusalem 70 C.E. by Rome under Titus
-event_1914,"סוף תקופת האומות (לוקס כ""א:24), מלכות אלוהים מתחילה לשלוט בשמים בשנת 1914 לספירה.",include scripture Luke 21:24,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E. "
-became_king,הפך למלך בגיל,,became king at age
-vulgate,"וולגטה שהושלמה על ידי ג'רום (תרגום לטינית של התנ""ך) ג. 405 לספירה",,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
-gutenberg,"תנ""ך גוטנברג נדפס בשנת 1455",,Gutenberg bible printed 1455
-erasmus,טקסט יווני של כתבים יווניים נוצריים שפורסם על ידי Desiderius Erasmus מרוטרדם 1516,,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
-luther,"תרגום תנ""ך לותר בספטמבר 1522",,Luther Bible translation in September 1522
-tyndale,"תרגום תנ""ך לאנגלית מאת Tyndale 1536",,English Bible translation by Tyndale 1536
-king_james,"קינג ג'יימס תנ""ך 1611",,King James Bible 1611
-69weeks3,"ישוע מתחיל את שירותו בשנת 29 לספירה (לוקס ג':1, 21)",,"Jesus starts his service 29 CE (Luke 3:1, 21)"
-ransom,"אמצע השבוע ""הקרבה להפסיק"" דניאל ט' 27",,middle of week “sacrifice to cease” Daniel 9:27
-cornelius,קורנליוס הוטבל בתום 70 שבועות (דניאל ט:24) בשנת 36 לספירה.,,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.
-columbus,סוף התקופה הפרה-קולומביאנית ביבשת אמריקה 1492,,end of the pre-columbian period in the Americas 1492
-declaration_independence,הכרזת העצמאות של 13 מושבות באמריקה 1776,,declaration of independence of 13 colonies in America 1776
-tischendorf,טישנדורף מגלה את הקודקס סיניטיקוס מהמאה הרביעית ב-1844,,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844
-dead_sea_scrolls,נכתבו מגילות ים המלח,,Dead Sea Scrolls written
-septuagint,תרגום השבעים LXX,,Septuagint LXX translated
-watchtower,"הגיליון הראשון של ""מגדל השמירה של ציון ומבשר נוכחות ישו"" יצא לאור בשנת 1879",,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879
-photodrama,"""הצילום-דרמה של הבריאה"" מוצגת לראשונה בניו יורק ב-11 בינואר 1914",,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914"
-jehovahs_witnesses,"תלמידי המקרא אימצו שם חדש - עדי יהוה (ישעיהו 43:10, 12) בקולומבוס, אוהיו, 1931",include scripture,"The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931"
-gilead_school,"בית הספר לתנ""ך מגדל השמירה בגלעד החל ביום שני, 1 בפברואר 1943",,"Watchtower Bible School of Gilead began on Monday, February 1, 1943"
-new_world_translation1,"""תרגום עולם חדש של כתבי הקודש"" שיצא במנצ'סטר, אנגליה ב-18 ביוני 1960, מציג מחדש את השם יהוה בחלקים רבים של התנ""ך",hightlight reintroduction of Jehovah’s name,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible"
-truth_book,"הספר ""האמת שמובילה לחיי נצח"" יצא לאור ב-1968",,The book “The Truth That Leads to Eternal Life” released 1968
-metropolitan,תחילת העדות במטרופולין בשנת 2011,,Start of metropolitan witnessing in 2011
-jw_org,התחלת JW.ORG עם הנחיות במשרד הממלכה דצמבר 2012,,Start of JW.ORG with instructions in kingdom ministry December 2012
-new_world_translation2,"""תרגום עולם חדש של כתבי הקודש"" מתוקן שפורסם במפגש השנתי 2013, מותאם לשימוש דיגיטלי ומקוון",new edition with digital and online in mind,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online"
-jw_broadcasting,תחילת שידור jw.broadcasting באוקטובר 2014,,Start of jw.broadcasting in October 2014
-meeting_workbook,"פורמט חדש של פגישה באמצע השבוע עם ""חוברת עבודה לפגישה"" החל מינואר 2016",,New format of midweek meeting with “meeting workbook” starting January 2016
-covid19,Covid 19,,Covid-19
-cold_war,"מצב גיאופוליטי שכותרתו ""מלחמה קרה"" 1945-1991",,Geopolitical situation labeled “Cold War” 1945-1991
-timeline_created,"ציר הזמן הזה נוצר בשנת 2023, השנה החמה ביותר בהיסטוריה האנושית ו-125,000 השנים האחרונות",,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years"
-codex_sinaiticus,קודקס סיניטיקוס נכתב,,Codex Sinaiticus written
-codex_vaticanus,קודקס ותיקן נכתב,,Codex Vaticanus written
-leningrad_codex,קודקס לנינגרד שנכתב בקהיר 1008 לספירה,,Leningrad Codex written in Cairo AD 1008
-john,"יוחנן כותב ""התגלות"" בעודו גלות בפאטמוס 96-98 לספירה.",,John writes “revelation” while exiled on Patmos 96-98 C.E.
-nicaea1,המועצה הראשונה של ניקאה,,First Council of Nicaea
-buddha,"הבודהה - סידהרתה גאוטמה בסביבות ה-563-483 לפנה""ס",,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E
-buddha2,בודהה לחילופין ג. 480-400 לפני הספירה,,Buddha alternatively c. 480-400 B.C.E.
-mohammed,מוחמד ג. 570-632 לספירה,,Mohammed c. 570-632 C.E.
-confucius,"קונפוציוס בסביבות ה-551-479 לפנה""ס.",,Confucius c.551-c.479 B.C.E.
-hijrah,היג'רה - מסע מכה למדינה 16 ביולי 622,,Hijrah - Journey Mecca to Medina 16 July 622
-moses_escape,"1553 לפני הספירה משה צריך לברוח ממצרים - שמות ב' 15, מעשי השליחים ז' 23",,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23"
-10plagues,1513 לפני הספירה מצרים מקבלת 10 מכות,,1513 B.C.E Egypt receives 10 plagues
-joseph_sold,יוסף מכר כעבד בגיל 17 - בראשית 37:2,,Joseph sold as slave at the age of 17 – Gen 37:2
-infliction,"גרימת 400 שנה (מעשי השליחים ז':6) - ישמעאל 1913 לפנה""ס",,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E
-Alexander,"אלכסנדר מוקדון (דניאל י""א:3)",,Alexander the Great (Daniel 11:3)
-persia,"כורש הגדול, קמביסס השני, דריוש הראשון 490 לפנה""ס, קסרקסס הראשון 480 לפנה""ס (בעלה של אסתר, דניאל יא:2)",,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)"
-persia2,פָּרַס,,Persia
-king_north,"סלאוקוס הראשון ניקטור (v5) סוריה לאנטיוכוס השלישי (v10) וסלאוקוס הרביעי (v18, 19) עד אוקטביאנוס (v20) וטיבריוס (v21-24)",,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)"
-king_north1,מלך הצפון,,King of the North
-king_south,"תלמי I, II, III, IV (v11, 12), V (v15, 16) לקרב Actium 31 B.C.E.",,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
-king_south1,מלך הדרום,,King of the South
-king_south2,"האימפריה הבריטית 1870, מעצמה אנגלו-אמריקאית מאז 1914",,"British empire 1870, Anglo-American World Power since 1914"
-king_south3,מלך הדרום,,King of the South
-king_north2,"גרמניה עם הקיסר ויליאם הראשון 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,צָפוֹן,,North
-king_north4,"ברית המועצות 1945-1991 (דניאל 11:32-39, 40b, 41)",,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)"
-king_north5,רוסיה מאז 2017 (20 במאי),,Russia since 2017 (w20 May)
-time_of_end,"נוכחות המשיח, סיום מערכת הדברים (מתי כ""ד:3), אחרית הימים (ב' טימותיאוס ג':1)",scriptures written out,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)"
-time_of_end2,ימים אחרונים,,last days
-suryavaman2,המלך Suryavarman השני בונה את Angkor Wat 1113-1150,,King Suryavarman II builds Angkor Wat 1113-1150
-notre-dame,נוטרדאם דה פריז נבנה בשנים 1163-1260,,Notre-Dame de Paris built 1163-1260
-jehoiada,יהוידע,,Jehoiada
-babel,מגדל בבל בנוי,,tower of Babel built
-Haggai,חגי,,Haggai
-Zerubbabel,זרובבל (לוקס ג':27),,Zerubbabel (Luke 3:27)
-Babylon,"דניאל ב' 32, 36-38; 7:4",,"Daniel 2:32, 36-38; 7:4"
-Medopersia,"דניאל ב' 32, 39; 7:5",,"Daniel 2:32, 39; 7:5"
-Greece,"דניאל ב' 32, 39; 7:6",,"Daniel 2:32, 39; 7:6"
-Rome,"דניאל ב:33, 40; 7:7",,"Daniel 2:33, 40; 7:7"
-Angloamerica,"דניאל ב' 33, 41-43",,"Daniel 2:33, 41-43"
-Babylon_c,בָּבֶל,,Babylon
-Medopersia_c,מדו-פרס,,Medo-Persia
-Greece_c,יָוָן,,Greece
-Rome_c,רומא,,Rome
-Angloamerica_c,אנגלו-אמריקה,,Anglo-America
-infliction1,גרימת 400 שנה,Acts 7:6,400 year infliction
-infliction2,מעשי השליחים ז':6,,Acts 7:6
-Jacob2,יעקב/,Jacob/Israel 1858-1711 – 147 years,Jacob/
-Israel,ישראל,Genesis 35:10,Israel
-Sarah,שרה,2008-1881 BCE – 127 years,Sarah
-Hagar,הגר,Genesis 21:14,Hagar
-Haran,הרן,Genesis 11:26,Haran
-Reumah,רעומה,Concubine – 4 sons,Reumah
-Milcah,מילכה,8 sons (Bethuel and 7 more),Milcah
-Lot,מִגרָשׁ,Genesis 11:27,Lot
-Lots_wife,אשתו של לוט,,Lot’s wife
-Lots_daughters,בנות לוט,,Daughters of Lot
-Moab,מואב (בת גדולה),Genesis 19:37,Moab (older daughter)
-Ammon,בן עמי (עמון),Genesis 19:38,Ben-ammi (Ammon)
-Bethuel,בתואל,Genesis 22:23,Bethuel
-Rebekah,רבקה,,Rebekah
-Laban,לבן,,Laban
-Leah,לאה,Genesis 35:23,Leah
-Rachel,רייצ'ל,Genesis 35:24,Rachel
-Bilhah,בלהה,Genesis 35:25,Bilhah
-Zilpah,זילפה,Genesis 35:26,Zilpah
-Reuben,ראובן,,Reuben
-Simeon,שמעון,,Simeon
-Levi,לֵוִי,,Levi
-Judah,יְהוּדָה,,Judah
-Issachar,יששכר,,Issachar
-Zebulun,זבולון,,Zebulun
-Dinah,דינה,Genesis 34,Dinah
-Esau,עֵשָׂו/,,Esau/
-Edom,אֱדוֹם,Genesis 36:1,Edom
-Ishmael,ישמעאל,,Ishmael
-Manasseh2,(מנשה,Genesis 41:50-52,(Manasseh
-Ephraim,ואפרים),,and Ephraim)
-Benjamin,בנימין,,Benjamin
-Dan,דן,,Dan
-Naphtali,נפתלי,,Naphtali
-Gad,גאד,,Gad
-Asher,אשר,,Asher
-Milcah1,"עוז, בוז, קמואל,",Genesis 22:21,"Uz, Buz, Kemuel,"
-Milcah2,"חסד, חזו,",,"Chesed, Hazo,"
-Milcah3,"פילדש, ג'ידלאף",,"Pildash, Jidlaph"
-Tebah,טבח,Genesis 22:23,Tebah
-Gaham,גאהם,,Gaham
-Tahash,טהאש,,Tahash
-Maacah,מעכה,,Maacah
-Mahalath,מהלת/,"Genesis 28:8, 9",Mahalath/
-Basemath,Basemath,"Genesis36:3, 4",Basemath
-Reuel,ראואל,"36:13, 17",Reuel
-Nahath,נהאת,,Nahath
-Zerah,זרח,,Zerah
-Schammah,שממה,,Schammah
-Mizzah,מצה,,Mizzah
-Adah,עדה,"36:11, 12, 15, 16",Adah
-Eliphaz,אליפז,,Eliphaz
-Teman,תמן,,Teman
-Omar,עומר,,Omar
-Zepho,זפו,,Zepho
-Kenaz,קנז,,Kenaz
-Korah,קורה,,Korah
-Gatam,גאתם,,Gatam
-Amalek,עמלק,,Amalek
-Oholibamah,אוהליבאמה,"36:14, 18",Oholibamah
-Jeush,ג'וש,,Jeush
-Jalam,ג'לם,,Jalam
-Nebaioth,נבאיות,Genesis 25:13,Nebaioth
-Kedar,קידר,,Kedar
-Adbeel,אדביל,,Adbeel
-Mibsam,מיבסם,,Mibsam
-Mishma,משמע,,Mishma
-Dumah,דומא,,Dumah
-Massa,מאסה,,Massa
-Hadad,חדד,,Hadad
-Tema,תמה,,Tema
-Jetur,ג'טור,,Jetur
-Naphish,נאפיש,,Naphish
-Kedemah,קדם,,Kedemah
-Babylon2, ,no text left and right – empty!, 
-terahfam,בני משפחתו של תרח,,members of Terah’s family
-rosetta,"אבן רוזטה 196 לפנה""ס",,Rosetta stone 196 B.C.E.
-Herodotus,"הרודוטוס ג. 484 – ג. 425 לפני הספירה, כותב The Histories",Father of History,"Herodotus c. 484 – c. 425 BC, writes The Histories"
-Aristotle,"אריסטו 384 - 322 לפנה""ס","The First Teacher, The Philosopher",Aristotle 384 – 322 BC
-Ptolemy,תלמי כ 100 – ג. 170 לספירה,,Ptolemy c 100 – c. 170 C.E.
-Pythagoras,פיתגורס ג. 570 – ג. 495 לפני הספירה,,Pythagoras c. 570 – c. 495 BC
-Plato,אפלטון ג. 427 - ג. 348 לפני הספירה,,Plato c. 427 – c. 348 BC
-Socrates,סוקרטס ג. 470 - ג. 399 לפני הספירה,,Socrates c. 470 – c. 399 BC
-Josephus,יוספוס ג. 37 – ג. שנת 100 לספירה,,Josephus c. 37 – c. 100 C.E.
-Cicero,"קיקרו 106–43 לפנה""ס","influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",Cicero 106–43 BC
-lachish_letters,"אותיות לכיש ג. 590 לפנה""ס",,Lachish letters c. 590 B.C.E.
-lachish_reliefs,"תבליטי לכיש ג. 681 לפנה""ס",,Lachish reliefs c. 681 B.C.E.
-mesha_stele,"משה סטלה (אבן מואבית) ג. 840 לפנה""ס",,Mesha Stele (Moabite stone) c. 840 B.C.E.
-gilgamesh,גילגמש ואג'ה,,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,אפוס גילגמש (Sîn-lēqi-unninni),,Epic of Gilgamesh (Sîn-lēqi-unninni)
-oxyrhynchus,Oxyrhynchus Papyri,,Oxyrhynchus Papyri
-p52,פפירוס P52,,Papyrus P52
-daniel2_shift,0,Start 4.2,0
-daniel2_1,המלך נבוכדנצר,607 BCE,King Nebuchadnezzar
-daniel2_2,הורס את ירושלים,,destroys Jerusalem
-daniel2_3,כובש את בבל,539 BCE,Conquers Babylon
-daniel2_4,גזרות כורש חוזרות,537 BCE,Cyrus decrees return
-daniel2_5,של יהודים לירושלים,,of Jews to Jerusalem
-daniel2_6,אלכסנדר הגדול,331 BCE,Alexander the Great
-daniel2_7,כובש את פרס,,conquers Persia
-daniel2_8,שולט על ישראל,63 BCE,Rules over Israel
-daniel2_9,הורס את ירושלים,70 CE,Destroys Jerusalem
-daniel2_10,"במהלך מלחמת העולם הראשונה,",1914-1918 CE,"During World War I,"
-daniel2_11,מעצמה עולמית אנגלו-אמריקאית,,Anglo-American World Power
-daniel2_12,מתהווה,End 4.2,comes into being
-qing-dynasty,1636-1912,,1636-1912
-qing-dynasty_c,שושלת צ'ינג,1636-1912,Qing dynasty
-ming-dynasty,1368-1644,,1368-1644
-ming-dynasty_c,שושלת מינג בסין האימפריאלית,1368-1644,Ming dynasty in imperial China
-yuan-dynasty,1271-1368,,1271-1368
-southern-song,1127-1279,,1127-1279
-northern-song,960-1127,,960-1127
-western-xia,1038-1227,,1038-1227
-yuan-dynasty_c,יוּאָן,1271-1368,Yuan
-southern-song_c,שיר דרומי,1127-1279,Southern Song
-northern-song_c,שיר צפוני,960-1127,Northern Song
-western-xia_c,מערב שיה,1038-1227,Western Xia
-Copernicus,ניקולאוס קופרניקוס,,Nicolaus Copernicus
-Galileo,גלילאו גליליי,Galileo di Vincenzo Bonaiuti de' Galilei,Galileo Galilei
-Newton,אייזק ניוטון,,Isaac Newton
-gregorian,לוח שנה גרגוריאני 1582,,Gregorian calendar 1582
-shang-dynasty,ג. 1600-1046 לפני הספירה,,c. 1600-1046 BC
-western-zhou,"ג. 1046-771 לפנה""ס",,c. 1046-771 BC
-eastern-zhou,770-256 לפני הספירה,,770-256 BC
-qin-dynasty,צ'ין 221-207 לפני הספירה,,Qin 221-207 BC
-western-han,"207 לפנה""ס - 9 לספירה",,207 BC – 9 CE
-eastern-han,25-220 לספירה,,25-220 CE
-three-kingdoms,שלוש ממלכות 220-280 לספירה,,Three kingdoms 220-280 CE
-sixteen-kingdoms,שש עשרה ממלכות 304-439 לספירה,,Sixteen kingdoms 304-439 CE
-northern-dynasties,368-581 לספירה,,368-581 CE
-southern-dynasties,420-589 לספירה,,420-589 CE
-tang-dynasty1, ,, 
-tang-dynasty2,"618-690, 705-907",,"618-690, 705-907"
-wu-zhou,690-705 Wu Zhou,,690-705 Wu Zhou
-shang-dynasty_c,שושלת שאנג,c. 1600-1046 BC,Shang Dynasty
-western-zhou_c,מערב ג'ואו,c. 1046-771 BC,Western Zhou
-eastern-zhou_c,מזרח ג'ואו,770-256 BC,Eastern Zhou
-western-han_c,האן המערבי,207 BC – 9 CE,Western Han
-eastern-han_c,האן המזרחית,25-220 CE,Eastern Han
-three-kingdoms_c,חרסינה,Three kingdoms 220-280 CE,China
-sixteen-kingdoms_c,חרסינה,Sixteen kingdoms 304-439 CE,China
-northern-dynasties_c,שושלות צפוניות,368-581 CE,Northern Dynasties
-southern-dynasties_c,שושלות דרום,420-589 CE,Southern Dynasties
-tang-dynasty1_c,רֵיחַ חָרִיף,,Tang
-tang-dynasty2_c,שושלת טאנג,"618-690, 705-907",Tang Dynasty
-xia-dynasty,שושלת שיה בסין ג. 2070 - ג. 1600 לפני הספירה,,Xia dynasty in China c. 2070 – c. 1600 BC
-gonghe,גונגה ריג'נסי 841-828 לפני הספירה,,Gonghe Regency 841-828 BC
-Ashoka,"אשוקה (בערך 304-232 לפנה""ס) מקדם את הבודהיזם",,Ashoka (c. 304-232 BC) promotes Buddhism
-siloam-tunnel,חזקיהו מאריך את מנהרת סילועם,c. 742-732 BC,Hezekiah extends Siloam tunnel
-Angloamerica2,"אנגלו-אמריקאי מסומל על ידי רגלי ברזל מעורבות בחימר בנבואה בדניאל ב':33, 41-43",,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43"
-Manetho,Manetho כותב Aegyptiaca,,Manetho writes Aegyptiaca
-tribulation,"הצרה הגדולה (מרקוס י""ג:19; דניאל י""ב:1; מאט כ""ד:21,22)",,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)"
-destruction_babylon,"חורבן בבל הגדולה (התגלות י""ז:3, 15-18; י""ח:9, 10)",beginning of great tribulation (GT),"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)"
-gog_of_magog,"התקפה של גוג ממגוג (יחזקאל ל""ח, א, ב, ט-יב, י""ח-כ""ג)",end of GT,"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)"
-sheep_goat,"תושבי כדור הארץ ישפטו, ויפרידו בין כבשים ועיזים (מתי כ""ה:31-33)",end of GT,"Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)"
-annointed,"כינוס שליטי המלכות (מתי כ""ד:31; א' לקורינתים ט""ו:50-53; א' לתסלוניקים ד':15-17)",end of GT,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17)
-armageddon,"קרב ארמגדון (התגלות ט""ז:14, 16; ישעיהו י""ג:9; פיטר ב' ג':12)",end of system of things,"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)"
-millenium,"מלכות אלוהים מתחילה את מלכותה בת 1000 השנים (התגלות ה':9, 10; כ':4, 6)",,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)"
-great_crowd,"קהל גדול שורד את ארמגדון (התגלות ז':9, 14; תהילים ל""ז:9-11)",,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)"
-world_population,אוכלוסיית העולם במיליארדים ב-2000 השנים האחרונות,,World population in billions in the last 2000 years
-607BCE,"607 לפנה""ס",accommodate for language,607 B.C.E.
-539BCE,539 לפני הספירה,systems in style:,539 B.C.E.
-537BCE,"537 לפנה""ס",>>year 537 before time<<,537 B.C.E.
-331BCE,"331 לפנה""ס",so they need a word,331 B.C.E.
-63BCE,"63 לפנה""ס",prior to the year,63 B.C.E.
-70CE,שנת 70 לספירה,and something,70 C.E.
-1914CE,1914-1918 לספירה,after the year,1914-1918 C.E.
-khmer_empire,804 - 1431 לספירה,,804 – 1431 C.E.
-khmer_empire_c,אימפריית החמר - תקופת אנגקור,,Khmer Empire - Angkor period
-byzantine_empire,330-1453 לספירה,,330-1453 C.E.
-byzantine_empire_c,האימפריה הביזנטית,,Byzantine Empire
-ottoman_empire,1299 - 1922 לספירה,,1299 – 1922 C.E.
-ottoman_empire_c,אימפריה עות'מאנית,,Ottoman Empire
-holy_roman_empire,800 - 924 לספירה,,800 – 924 C.E.
-holy_roman_empire2,862 - 1806 לספירה,,862 – 1806 C.E.
-holy_roman_empire_c,האימפריה הרומית הקדושה - לאחר 1512 האימפריה הרומית הקדושה של האומה הגרמנית,,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation
-mongol_empire,האימפריה המונגולית 1206 - 1294 לספירה,,Mongol Empire 1206 – 1294 C.E.
-Genghis,ג'ינג'ס חאן,,Genghis Khan
-maya_classic,250-950,,250-950
-maya_classic_c,תרבות מאיה - תקופה קלאסית,,Maya civilization – classic period
-maya_postclassic,950-1539,,950-1539
-maya_postclassic_c,תרבות מאיה - תקופה פוסט-קלאסית,,Maya civilization – postclassic period
-inca_empire,1438 - 1533 לספירה,,1438 – 1533 C.E.
-inca_empire_c,אימפריית האינקה,,Inca empire
-gupta_empire,319 - 550 לספירה,,319 – 550 C.E.
-gupta_empire_c,אימפריית גופטה,,Gupta empire
-Teotihuacan,"העיר הגדולה ביותר ביבשת אמריקה, פירמידות בונות כ. שנת 200 לספירה",,"largest city in the Americas, pyramids build c. 200 C.E."
-Teotihuacan_c,Teotihuacan,,Teotihuacan
-Dionysius_Exiguus,"דיוניסיוס אקסיגוס, ממציא אנו דומיני",,"Dionysius Exiguus, inventor of Anno Domini"
-Umayyad,661 - 750 לספירה,,661 – 750 C.E.
-Umayyad_c,אומיה,,Umayyad
-Abbasid,750 - 1258 לספירה,,750 – 1258 C.E.
-Abbasid_c,הח'ליפות העבאסית,,Abbasid Caliphate
-Mamluk,1250 - 1517 לספירה,,1250 – 1517 C.E.
-Mamluk_c,סולטנות ממלוכית,,Mamluk Sultanate
-ur3,שושלת Ur III 💋𒀕𒆠,,Ur III dynasty 𒋀𒀕𒆠
-hammurabi,חמורבי 💄𒄠𒈬𒊏𒁉,,Hammurabi 𒄩𒄠𒈬𒊏𒁉
-Al-Khwarizmi,אל-ח'ואריזמי כותב את אל-ג'בר (אלגברה),,al-Khwarizmi writes Al-Jabr (Algebra)
-al-azhar,אוניברסיטת אל-אזהר מוקמת בקהיר,,Al-Azhar University is established in Cairo
-Ibn-Sina,אבן סינא או אביסנה,,Ibn Sina or Avicenna
-Al-Ghazali,אל-ע'זאלי,,Al-Ghazali
+event_destruction_samaria2,"740 לפנה""ס על ידי אשור",740 B.C.E. by Assyria,was shortened here for 2 lines
+event_destruction_jerusalem1,"חורבן ירושלים 607 לפנה""ס. על ידי בבל, 390 שנה לאחר חלוקת הממלכה (יחזקאל ד' ה')","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",
+event_temple_rebuilt,"מקדש בירושלים נבנה מחדש בשנת 515 לפנה""ס.",Temple in Jerusalem rebuilt 515 B.C.E.,
+event_jerusalem_rebuilt,"חומת ירושלים נבנתה מחדש בשנת 455 לפנה""ס.",Jerusalem wall rebuilt 455 B.C.E.,
+event_destruction_jerusalem2,חורבן ירושלים 70 לספירה על ידי רומא תחת טיטוס,Destruction of Jerusalem 70 C.E. by Rome under Titus,
+event_1914,"סוף תקופת האומות (לוקס כ""א:24), מלכות אלוהים מתחילה לשלוט בשמים בשנת 1914 לספירה.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E. ",include scripture Luke 21:24
+became_king,הפך למלך בגיל,became king at age,
+vulgate,"וולגטה שהושלמה על ידי ג'רום (תרגום לטינית של התנ""ך) ג. 405 לספירה",Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
+gutenberg,"תנ""ך גוטנברג נדפס בשנת 1455",Gutenberg bible printed 1455,
+erasmus,טקסט יווני של כתבים יווניים נוצריים שפורסם על ידי Desiderius Erasmus מרוטרדם 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,
+luther,"תרגום תנ""ך לותר בספטמבר 1522",Luther Bible translation in September 1522,
+tyndale,"תרגום תנ""ך לאנגלית מאת Tyndale 1536",English Bible translation by Tyndale 1536,
+king_james,"קינג ג'יימס תנ""ך 1611",King James Bible 1611,
+69weeks3,"ישוע מתחיל את שירותו בשנת 29 לספירה (לוקס ג':1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",
+ransom,"אמצע השבוע ""הקרבה להפסיק"" דניאל ט' 27",middle of week “sacrifice to cease” Daniel 9:27,
+cornelius,קורנליוס הוטבל בתום 70 שבועות (דניאל ט:24) בשנת 36 לספירה.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,
+columbus,סוף התקופה הפרה-קולומביאנית ביבשת אמריקה 1492,end of the pre-columbian period in the Americas 1492,
+declaration_independence,הכרזת העצמאות של 13 מושבות באמריקה 1776,declaration of independence of 13 colonies in America 1776,
+tischendorf,טישנדורף מגלה את הקודקס סיניטיקוס מהמאה הרביעית ב-1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,
+dead_sea_scrolls,נכתבו מגילות ים המלח,Dead Sea Scrolls written,
+septuagint,תרגום השבעים LXX,Septuagint LXX translated,
+watchtower,"הגיליון הראשון של ""מגדל השמירה של ציון ומבשר נוכחות ישו"" יצא לאור בשנת 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
+photodrama,הצילום-דרמה של הבריאה מוצגת לראשונה בניו יורק ב-11 בינואר 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
+jehovahs_witnesses,"תלמידי המקרא אימצו שם חדש - עדי יהוה (ישעיהו 43:10, 12) בקולומבוס, אוהיו, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
+gilead_school,"בית הספר לתנ""ך מגדל השמירה בגלעד החל ביום שני, 1 בפברואר 1943","Watchtower Bible School of Gilead began on Monday, February 1, 1943",
+new_world_translation1,"תרגום עולם חדש של כתבי הקודש שיצא במנצ'סטר, אנגליה ב-18 ביוני 1960, מציג מחדש את השם יהוה בחלקים רבים של התנ""ך","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
+truth_book,"הספר ""האמת שמובילה לחיי נצח"" יצא לאור ב-1968",The book “The Truth That Leads to Eternal Life” released 1968,
+metropolitan,תחילת העדות במטרופולין בשנת 2011,Start of metropolitan witnessing in 2011,
+jw_org,התחלת JW.ORG עם הנחיות במשרד הממלכה דצמבר 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
+new_world_translation2,"תרגום עולם חדש של כתבי הקודש מתוקן שפורסם במפגש השנתי 2013, מותאם לשימוש דיגיטלי ומקוון","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
+jw_broadcasting,תחילת שידור jw.broadcasting באוקטובר 2014,Start of jw.broadcasting in October 2014,
+meeting_workbook,"פורמט חדש של פגישה באמצע השבוע עם ""חוברת עבודה לפגישה"" החל מינואר 2016",New format of midweek meeting with “meeting workbook” starting January 2016,
+covid19,Covid 19,Covid-19,
+cold_war,"מצב גיאופוליטי שכותרתו ""מלחמה קרה"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991,
+timeline_created,"ציר הזמן הזה נוצר בשנת 2023, השנה החמה ביותר בהיסטוריה האנושית ו-125,000 השנים האחרונות","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
+codex_sinaiticus,קודקס סיניטיקוס נכתב,Codex Sinaiticus written,
+codex_vaticanus,קודקס ותיקן נכתב,Codex Vaticanus written,
+leningrad_codex,קודקס לנינגרד שנכתב בקהיר 1008 לספירה,Leningrad Codex written in Cairo AD 1008,
+john,"יוחנן כותב ""התגלות"" בעודו גלות בפאטמוס 96-98 לספירה.",John writes “revelation” while exiled on Patmos 96-98 C.E.,
+nicaea1,המועצה הראשונה של ניקאה,First Council of Nicaea,
+buddha,"הבודהה - סידהרתה גאוטמה בסביבות ה-563-483 לפנה""ס",The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,
+buddha2,בודהה לחילופין ג. 480-400 לפני הספירה,Buddha alternatively c. 480-400 B.C.E.,
+mohammed,מוחמד ג. 570-632 לספירה,Mohammed c. 570-632 C.E.,
+confucius,"קונפוציוס בסביבות ה-551-479 לפנה""ס.",Confucius c.551-c.479 B.C.E.,
+hijrah,היג'רה - מסע מכה למדינה 16 ביולי 622,Hijrah - Journey Mecca to Medina 16 July 622,
+moses_escape,"1553 לפני הספירה משה צריך לברוח ממצרים - שמות ב' 15, מעשי השליחים ז' 23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",
+10plagues,1513 לפני הספירה מצרים מקבלת 10 מכות,1513 B.C.E Egypt receives 10 plagues,
+joseph_sold,יוסף מכר כעבד בגיל 17 - בראשית 37:2,Joseph sold as slave at the age of 17 – Gen 37:2,
+infliction,"גרימת 400 שנה (מעשי השליחים ז':6) - ישמעאל 1913 לפנה""ס",400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,
+Alexander,"אלכסנדר מוקדון (דניאל י""א:3)",Alexander the Great (Daniel 11:3),
+persia,"כורש הגדול, קמביסס השני, דריוש הראשון 490 לפנה""ס, קסרקסס הראשון 480 לפנה""ס (בעלה של אסתר, דניאל יא:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",
+persia2,פָּרַס,Persia,
+king_north,"סלאוקוס הראשון ניקטור (v5) סוריה לאנטיוכוס השלישי (v10) וסלאוקוס הרביעי (v18, 19) עד אוקטביאנוס (v20) וטיבריוס (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",
+king_north1,מלך הצפון,King of the North,
+king_south,"תלמי I, II, III, IV (v11, 12), V (v15, 16) לקרב Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",
+king_south1,מלך הדרום,King of the South,
+king_south2,"האימפריה הבריטית 1870, מעצמה אנגלו-אמריקאית מאז 1914","British empire 1870, Anglo-American World Power since 1914",
+king_south3,מלך הדרום,King of the South,
+king_north2,"גרמניה עם הקיסר ויליאם הראשון 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
+king_north3,צָפוֹן,North,
+king_north4,"ברית המועצות 1945-1991 (דניאל 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",
+king_north5,רוסיה מאז 2017 (20 במאי),Russia since 2017 (w20 May),
+time_of_end,"נוכחות המשיח, סיום מערכת הדברים (מתי כ""ד:3), אחרית הימים (ב' טימותיאוס ג':1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out
+time_of_end2,ימים אחרונים,last days,
+suryavaman2,המלך Suryavarman השני בונה את Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
+notre-dame,נוטרדאם דה פריז נבנה בשנים 1163-1260,Notre-Dame de Paris built 1163-1260,
+jehoiada,יהוידע,Jehoiada,
+babel,מגדל בבל בנוי,tower of Babel built,
+Haggai,חגי,Haggai,
+Zerubbabel,זרובבל (לוקס ג':27),Zerubbabel (Luke 3:27),
+Babylon,"דניאל ב' 32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",
+Medopersia,"דניאל ב' 32, 39; 7:5","Daniel 2:32, 39; 7:5",
+Greece,"דניאל ב' 32, 39; 7:6","Daniel 2:32, 39; 7:6",
+Rome,"דניאל ב:33, 40; 7:7","Daniel 2:33, 40; 7:7",
+Angloamerica,"דניאל ב' 33, 41-43","Daniel 2:33, 41-43",
+Babylon_c,בָּבֶל,Babylon,
+Medopersia_c,מדו-פרס,Medo-Persia,
+Greece_c,יָוָן,Greece,
+Rome_c,רומא,Rome,
+Angloamerica_c,אנגלו-אמריקה,Anglo-America,
+infliction1,גרימת 400 שנה,400 year infliction,Acts 7:6
+infliction2,מעשי השליחים ז':6,Acts 7:6,
+Jacob2,יעקב/,Jacob/,Jacob/Israel 1858-1711 – 147 years
+Israel,ישראל,Israel,Genesis 35:10
+Sarah,שרה,Sarah,2008-1881 BCE – 127 years
+Hagar,הגר,Hagar,Genesis 21:14
+Haran,הרן,Haran,Genesis 11:26
+Reumah,רעומה,Reumah,Concubine – 4 sons
+Milcah,מילכה,Milcah,8 sons (Bethuel and 7 more)
+Lot,מִגרָשׁ,Lot,Genesis 11:27
+Lots_wife,אשתו של לוט,Lot’s wife,
+Lots_daughters,בנות לוט,Daughters of Lot,
+Moab,מואב (בת גדולה),Moab (older daughter),Genesis 19:37
+Ammon,בן עמי (עמון),Ben-ammi (Ammon),Genesis 19:38
+Bethuel,בתואל,Bethuel,Genesis 22:23
+Rebekah,רבקה,Rebekah,
+Laban,לבן,Laban,
+Leah,לאה,Leah,Genesis 35:23
+Rachel,רייצ'ל,Rachel,Genesis 35:24
+Bilhah,בלהה,Bilhah,Genesis 35:25
+Zilpah,זילפה,Zilpah,Genesis 35:26
+Reuben,ראובן,Reuben,
+Simeon,שמעון,Simeon,
+Levi,לֵוִי,Levi,
+Judah,יְהוּדָה,Judah,
+Issachar,יששכר,Issachar,
+Zebulun,זבולון,Zebulun,
+Dinah,דינה,Dinah,Genesis 34
+Esau,עֵשָׂו/,Esau/,
+Edom,אֱדוֹם,Edom,Genesis 36:1
+Ishmael,ישמעאל,Ishmael,
+Manasseh2,(מנשה,(Manasseh,Genesis 41:50-52
+Ephraim,ואפרים),and Ephraim),
+Benjamin,בנימין,Benjamin,
+Dan,דן,Dan,
+Naphtali,נפתלי,Naphtali,
+Gad,גאד,Gad,
+Asher,אשר,Asher,
+Milcah1,"עוז, בוז, קמואל,","Uz, Buz, Kemuel,",Genesis 22:21
+Milcah2,"חסד, חזו,","Chesed, Hazo,",
+Milcah3,"פילדש, ג'ידלאף","Pildash, Jidlaph",
+Tebah,טבח,Tebah,Genesis 22:23
+Gaham,גאהם,Gaham,
+Tahash,טהאש,Tahash,
+Maacah,מעכה,Maacah,
+Mahalath,מהלת/,Mahalath/,"Genesis 28:8, 9"
+Basemath,Basemath,Basemath,"Genesis36:3, 4"
+Reuel,ראואל,Reuel,"36:13, 17"
+Nahath,נהאת,Nahath,
+Zerah,זרח,Zerah,
+Schammah,שממה,Schammah,
+Mizzah,מצה,Mizzah,
+Adah,עדה,Adah,"36:11, 12, 15, 16"
+Eliphaz,אליפז,Eliphaz,
+Teman,תמן,Teman,
+Omar,עומר,Omar,
+Zepho,זפו,Zepho,
+Kenaz,קנז,Kenaz,
+Korah,קורה,Korah,
+Gatam,גאתם,Gatam,
+Amalek,עמלק,Amalek,
+Oholibamah,אוהליבאמה,Oholibamah,"36:14, 18"
+Jeush,ג'וש,Jeush,
+Jalam,ג'לם,Jalam,
+Nebaioth,נבאיות,Nebaioth,Genesis 25:13
+Kedar,קידר,Kedar,
+Adbeel,אדביל,Adbeel,
+Mibsam,מיבסם,Mibsam,
+Mishma,משמע,Mishma,
+Dumah,דומא,Dumah,
+Massa,מאסה,Massa,
+Hadad,חדד,Hadad,
+Tema,תמה,Tema,
+Jetur,ג'טור,Jetur,
+Naphish,נאפיש,Naphish,
+Kedemah,קדם,Kedemah,
+Babylon2,, ,no text left and right – empty!
+terahfam,בני משפחתו של תרח,members of Terah’s family,
+rosetta,"אבן רוזטה 196 לפנה""ס",Rosetta stone 196 B.C.E.,
+Herodotus,"הרודוטוס ג. 484 – ג. 425 לפני הספירה, כותב The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
+Aristotle,"אריסטו 384 - 322 לפנה""ס",Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
+Ptolemy,תלמי כ 100 – ג. 170 לספירה,Ptolemy c 100 – c. 170 C.E.,
+Pythagoras,פיתגורס ג. 570 – ג. 495 לפני הספירה,Pythagoras c. 570 – c. 495 BC,
+Plato,אפלטון ג. 427 - ג. 348 לפני הספירה,Plato c. 427 – c. 348 BC,
+Socrates,סוקרטס ג. 470 - ג. 399 לפני הספירה,Socrates c. 470 – c. 399 BC,
+Josephus,יוספוס ג. 37 – ג. שנת 100 לספירה,Josephus c. 37 – c. 100 C.E.,
+Cicero,"קיקרו 106–43 לפנה""ס",Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
+lachish_letters,"אותיות לכיש ג. 590 לפנה""ס",Lachish letters c. 590 B.C.E.,
+lachish_reliefs,"תבליטי לכיש ג. 681 לפנה""ס",Lachish reliefs c. 681 B.C.E.,
+mesha_stele,"משה סטלה (אבן מואבית) ג. 840 לפנה""ס",Mesha Stele (Moabite stone) c. 840 B.C.E.,
+gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
+epic_gilgamesh,אפוס גילגמש (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
+oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
+p52,פפירוס P52,Papyrus P52,
+daniel2_shift,0,0,Start 4.2
+daniel2_1,המלך נבוכדנצר,King Nebuchadnezzar,607 BCE
+daniel2_2,הורס את ירושלים,destroys Jerusalem,
+daniel2_3,כובש את בבל,Conquers Babylon,539 BCE
+daniel2_4,גזרות כורש חוזרות,Cyrus decrees return,537 BCE
+daniel2_5,של יהודים לירושלים,of Jews to Jerusalem,
+daniel2_6,אלכסנדר הגדול,Alexander the Great,331 BCE
+daniel2_7,כובש את פרס,conquers Persia,
+daniel2_8,שולט על ישראל,Rules over Israel,63 BCE
+daniel2_9,הורס את ירושלים,Destroys Jerusalem,70 CE
+daniel2_10,"במהלך מלחמת העולם הראשונה,","During World War I,",1914-1918 CE
+daniel2_11,מעצמה עולמית אנגלו-אמריקאית,Anglo-American World Power,
+daniel2_12,מתהווה,comes into being,End 4.2
+qing-dynasty,1636-1912,1636-1912,
+qing-dynasty_c,שושלת צ'ינג,Qing dynasty,1636-1912
+ming-dynasty,1368-1644,1368-1644,
+ming-dynasty_c,שושלת מינג בסין האימפריאלית,Ming dynasty in imperial China,1368-1644
+yuan-dynasty,1271-1368,1271-1368,
+southern-song,1127-1279,1127-1279,
+northern-song,960-1127,960-1127,
+western-xia,1038-1227,1038-1227,
+yuan-dynasty_c,יוּאָן,Yuan,1271-1368
+southern-song_c,שיר דרומי,Southern Song,1127-1279
+northern-song_c,שיר צפוני,Northern Song,960-1127
+western-xia_c,מערב שיה,Western Xia,1038-1227
+Copernicus,ניקולאוס קופרניקוס,Nicolaus Copernicus,
+Galileo,גלילאו גליליי,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei
+Newton,אייזק ניוטון,Isaac Newton,
+gregorian,לוח שנה גרגוריאני 1582,Gregorian calendar 1582,
+shang-dynasty,ג. 1600-1046 לפני הספירה,c. 1600-1046 BC,
+western-zhou,"ג. 1046-771 לפנה""ס",c. 1046-771 BC,
+eastern-zhou,770-256 לפני הספירה,770-256 BC,
+qin-dynasty,צ'ין 221-207 לפני הספירה,Qin 221-207 BC,
+western-han,"207 לפנה""ס - 9 לספירה",207 BC – 9 CE,
+eastern-han,25-220 לספירה,25-220 CE,
+three-kingdoms,שלוש ממלכות 220-280 לספירה,Three kingdoms 220-280 CE,
+sixteen-kingdoms,שש עשרה ממלכות 304-439 לספירה,Sixteen kingdoms 304-439 CE,
+northern-dynasties,368-581 לספירה,368-581 CE,
+southern-dynasties,420-589 לספירה,420-589 CE,
+tang-dynasty1,, ,
+tang-dynasty2,"618-690, 705-907","618-690, 705-907",
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
+shang-dynasty_c,שושלת שאנג,Shang Dynasty,c. 1600-1046 BC
+western-zhou_c,מערב ג'ואו,Western Zhou,c. 1046-771 BC
+eastern-zhou_c,מזרח ג'ואו,Eastern Zhou,770-256 BC
+western-han_c,האן המערבי,Western Han,207 BC – 9 CE
+eastern-han_c,האן המזרחית,Eastern Han,25-220 CE
+three-kingdoms_c,חרסינה,China,Three kingdoms 220-280 CE
+sixteen-kingdoms_c,חרסינה,China,Sixteen kingdoms 304-439 CE
+northern-dynasties_c,שושלות צפוניות,Northern Dynasties,368-581 CE
+southern-dynasties_c,שושלות דרום,Southern Dynasties,420-589 CE
+tang-dynasty1_c,רֵיחַ חָרִיף,Tang,
+tang-dynasty2_c,שושלת טאנג,Tang Dynasty,"618-690, 705-907"
+xia-dynasty,שושלת שיה בסין ג. 2070 - ג. 1600 לפני הספירה,Xia dynasty in China c. 2070 – c. 1600 BC,
+gonghe,גונגה ריג'נסי 841-828 לפני הספירה,Gonghe Regency 841-828 BC,
+Ashoka,"אשוקה (בערך 304-232 לפנה""ס) מקדם את הבודהיזם",Ashoka (c. 304-232 BC) promotes Buddhism,
+siloam-tunnel,חזקיהו מאריך את מנהרת סילועם,Hezekiah extends Siloam tunnel,c. 742-732 BC
+Angloamerica2,"אנגלו-אמריקאי מסומל על ידי רגלי ברזל מעורבות בחימר בנבואה בדניאל ב':33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",
+Manetho,מנת'ו כותב אגיפדיאקה,Manetho writes Aegyptiaca,
+tribulation,"הצרה הגדולה (מרקוס י""ג:19; דניאל י""ב:1; מאט כ""ד:21,22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
+destruction_babylon,"חורבן בבל הגדולה (התגלות י""ז:3, 15-18; י""ח:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
+gog_of_magog,"התקפה של גוג ממגוג (יחזקאל ל""ח, א, ב, ט-יב, י""ח-כ""ג)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
+sheep_goat,"תושבי כדור הארץ ישפטו, ויפרידו בין כבשים ועיזים (מתי כ""ה:31-33)","Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
+annointed,"כינוס שליטי המלכות (מתי כ""ד:31; א' לקורינתים ט""ו:50-53; א' לתסלוניקים ד':15-17)",Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT
+armageddon,"קרב ארמגדון (התגלות ט""ז:14, 16; ישעיהו י""ג:9; פיטר ב' ג':12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
+millenium,"מלכות אלוהים מתחילה את מלכותה בת 1000 השנים (התגלות ה':9, 10; כ':4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
+great_crowd,"קהל גדול שורד את ארמגדון (התגלות ז':9, 14; תהילים ל""ז:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
+world_population,אוכלוסיית העולם במיליארדים ב-2000 השנים האחרונות,World population in billions in the last 2000 years,
+607BCE,"607 לפנה""ס",607 B.C.E.,accommodate for language
+539BCE,539 לפני הספירה,539 B.C.E.,systems in style:
+537BCE,"537 לפנה""ס",537 B.C.E.,>>year 537 before time<<
+331BCE,"331 לפנה""ס",331 B.C.E.,so they need a word
+63BCE,"63 לפנה""ס",63 B.C.E.,prior to the year
+70CE,שנת 70 לספירה,70 C.E.,and something
+1914CE,1914-1918 לספירה,1914-1918 C.E.,after the year
+khmer_empire,804 - 1431 לספירה,804 – 1431 C.E.,
+khmer_empire_c,אימפריית החמר - תקופת אנגקור,Khmer Empire - Angkor period,
+byzantine_empire,330-1453 לספירה,330-1453 C.E.,
+byzantine_empire_c,האימפריה הביזנטית,Byzantine Empire,
+ottoman_empire,1299 - 1922 לספירה,1299 – 1922 C.E.,
+ottoman_empire_c,אימפריה עות'מאנית,Ottoman Empire,
+holy_roman_empire,800 - 924 לספירה,800 – 924 C.E.,
+holy_roman_empire2,862 - 1806 לספירה,862 – 1806 C.E.,
+holy_roman_empire_c,האימפריה הרומית הקדושה - לאחר 1512 האימפריה הרומית הקדושה של האומה הגרמנית,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,
+mongol_empire,האימפריה המונגולית 1206 - 1294 לספירה,Mongol Empire 1206 – 1294 C.E.,
+Genghis,ג'ינג'ס חאן,Genghis Khan,
+maya_classic,250-950,250-950,
+maya_classic_c,תרבות מאיה - תקופה קלאסית,Maya civilization – classic period,
+maya_postclassic,950-1539,950-1539,
+maya_postclassic_c,תרבות מאיה - תקופה פוסט-קלאסית,Maya civilization – postclassic period,
+inca_empire,1438 - 1533 לספירה,1438 – 1533 C.E.,
+inca_empire_c,אימפריית האינקה,Inca empire,
+gupta_empire,319 - 550 לספירה,319 – 550 C.E.,
+gupta_empire_c,אימפריית גופטה,Gupta empire,
+Teotihuacan,"העיר הגדולה ביותר ביבשת אמריקה, פירמידות בונות כ. שנת 200 לספירה","largest city in the Americas, pyramids build c. 200 C.E.",
+Teotihuacan_c,Teotihuacan,Teotihuacan,
+Dionysius_Exiguus,"דיוניסיוס אקסיגוס, ממציא אנו דומיני","Dionysius Exiguus, inventor of Anno Domini",
+Umayyad,661 - 750 לספירה,661 – 750 C.E.,
+Umayyad_c,אומיה,Umayyad,
+Abbasid,750 - 1258 לספירה,750 – 1258 C.E.,
+Abbasid_c,הח'ליפות העבאסית,Abbasid Caliphate,
+Mamluk,1250 - 1517 לספירה,1250 – 1517 C.E.,
+Mamluk_c,סולטנות ממלוכית,Mamluk Sultanate,
+ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
+Al-Khwarizmi,אל-ח'ואריזמי כותב את אל-ג'בר (אלגברה),al-Khwarizmi writes Al-Jabr (Algebra),
+al-azhar,אוניברסיטת אל-אזהר מוקמת בקהיר,Al-Azhar University is established in Cairo,
+Ibn-Sina,אבן סינא או אביסנה,Ibn Sina or Avicenna,
+Al-Ghazali,אל-ע'זאלי,Al-Ghazali,

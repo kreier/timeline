@@ -547,7 +547,7 @@ def create_objects():
             counter_objects += 1
 
 def create_periods():
-    global counter_periods, fontsize_regular
+    global counter_periods, fontsize_regular, render_type
     # Import the perios with start and end as pandas dataframe
     periods = pd.read_csv("../db/periods.csv", encoding='utf8')
     print("Imported data of periods:", len(periods))
@@ -560,7 +560,9 @@ def create_periods():
         x_box = x_position(start)
         y_box = y_position(row.row_y) - 9
         # x_boxwidth = (end - start) * dots_year
-        x_boxwidth = x_position(end) - x_position(start)                
+        x_boxwidth = x_position(end) - x_position(start)
+        if row.key == "millenium" and render_type == "print":
+            x_boxwidth = x_position(end + 230) - x_position(start) 
         co = color[f"{row.key}"]
         pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
         pdf.set_line_width(0.3)
@@ -568,9 +570,7 @@ def create_periods():
         if row.end_fade > row.end or row.start_fade < row.start:
             pdf.set_line_width(0.0)
             pdf.set_draw_color(1)
-        shift = -1
-        if left_to_right:
-            shift = 1
+        shift = -1 * direction_factor
         pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style="DF")
         if row.end_fade > row.end:                                              # fade end
             fade_width = x_position(row.end_fade) - x_position(row.end)
