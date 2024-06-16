@@ -542,6 +542,7 @@ def create_objects():
                 shift = 0
             pdf.set_xy(x_position(row.start) - shift , y_position(row.row_y) - 8)
             pdf.cell(text=dict[row.key])
+            pdf.set_font(font_regular, "", fontsize_regular)
         else:
             text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], False)
             counter_objects += 1
