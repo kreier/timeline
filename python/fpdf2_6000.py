@@ -733,6 +733,8 @@ def include_pictures_svg():
     for index, row in pictures_svg.iterrows():
         location = "../images/" + row.key + ".svg"
         local_x = x_position(row.x)
+        if row.key == "world_population":
+            local_x += int(dict["daniel2_shift"])
         if row.fpdf2:
             if row.year != 0:
                 drawString(str(row.year), 5.9, local_x, y_position(row.y) - 1, direction, True)
@@ -740,13 +742,14 @@ def include_pictures_svg():
                 local_x -= row.width
             pdf.image(location, local_x, y_position(row.y) - row.height - 1.2, row.width, row.height)
     # text for world population graphic
+    population_x = x_position(-3677) + int(dict["daniel2_shift"])
     pdf.set_text_color(25, 25, 160)
     pdf.set_font_size(4)
-    drawString("source: https://www.worldometers.info/world-population/#table-historical", 4, x_position(-3677), y_position(20), direction, False)
+    drawString("source: https://www.worldometers.info/world-population/#table-historical", 4, population_x, y_position(20), direction, False)
     population_color = color["world_population"]
     pdf.set_font(font_regular, "", 10)
     pdf.set_text_color(population_color[0]*255, population_color[1]*255, population_color[2]*255)
-    drawString(dict["world_population"], 10, x_position(-3677), y_position(19) , direction, False)
+    drawString(dict["world_population"], 10, population_x, y_position(19) , direction, False)
 
 def create_daniel2():
     global font_regular, font_bold
