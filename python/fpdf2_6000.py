@@ -825,22 +825,25 @@ def create_timestamp():
     pdf.cell(text="CC BY-SA", link="https://creativecommons.org/licenses/by-sa/4.0/")
 
     qr_file = "../images/qr-" + language + ".png"
+    qr_size = 15*mm
     if os.path.exists(qr_file):
         if left_to_right:
-            pdf.image(qr_file, x_position(-4026), y_position(6.10), 12*mm, 12*mm)
+            pdf.image(qr_file, x_position(-4026), y_position(6.10), qr_size, qr_size)
         else:
-            pdf.image(qr_file, x_position(-4026) - 12*mm, y_position(6.1), 12*mm, 12*mm)
+            pdf.image(qr_file, x_position(-4026) - qr_size, y_position(6.1), qr_size, qr_size)
         pdf.set_font_size(4.5)
         pdf.set_text_color(30)
         timestamp = str(datetime.datetime.now())
         dateindex = timestamp[2:4] + timestamp[5:7] + timestamp[8:10]
-        rotation_angle = 0
+        rotation_angle = -90
+        rotation_y = y_position(6.2)
         if left_to_right:
             rotation_angle = 90
-        with pdf.rotation(angle=rotation_angle, x=x_position(-3965), y=y_position(8.9)):
-            pdf.set_xy(x_position(-3963), y_position(9.06))
+            rotation_y += qr_size * 0.94
+        with pdf.rotation(angle=rotation_angle, x=x_position(-4026), y=rotation_y):
+            pdf.set_xy(x_position(-4026), y_position(6.3) + qr_size * (1.47 + 0.47 * direction_factor))
             pdf.cell(text="timeline " + language)
-            pdf.set_xy(x_position(-3963), y_position(9.44))
+            pdf.set_xy(x_position(-4026), y_position(6.68) + qr_size * (1.47 + 0.47 * direction_factor))
             pdf.cell(text=dateindex)
 
 def render_to_file():
