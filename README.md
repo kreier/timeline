@@ -18,30 +18,30 @@ You see that **many more details** were added. And something is off with the sca
 
 ### Translations
 
-Since v3.4 the language specific files have been separated from the program code, data information and list of colors. With some good bible translations I can use the reference location of names to get a start of a translation, since the location of the names is not changing. I just "_have to replace the utf-8 string_" 😎 for the name (problems below 😰). This is a general start to translate into another language. Currently there are 446 text fields in total. I have to rely on Google translate or Azure cloud for a first attempt - and then need some native speakers to complete the translation. This is our current state (print has 5 cm extra left and right):
+Since v3.4 the language specific files have been separated from the program code, together with other information, data and list of colors. While I put the translated string into an utf-8 encoded `.csv` file, the very process is not that straightforward. It starts with a proper translation (cloud APIs for Azure cloud and Googletranslate are only a start), continues with fontfiles that support this language and glyphs (January 2024 with CJK) and continues with font shaping engines like harfbuzz (May 2024) for complexer writing systems like Persian, Devanagari for Hindi, Khmer and Sinhala, among a few. Currently there are 446 text fields in total in a few languages. The print edition has 5cm extra left and right for the rollers at the end of the scroll. The reference size is 1308x210 mm but it can be scaled to any size at the print shop:
 
 | Language                                                                |                    print                                    | names | reviewed | complete |   latest   |
 |-------------------------------------------------------------------------|:-----------------------------------------------------------:|:-----:|:--------:|:--------:|:----------:|
-| [English](https://timeline24.github.io/timeline_en.pdf)                 | [link](https://timeline24.github.io/timeline_en_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
+| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)           | [link](https://timeline24.github.io/timeline_ar_print.pdf)  |       |          |          |            |
 | [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        | [link](https://timeline24.github.io/timeline_de_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
-| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) | [link](https://timeline24.github.io/timeline_vi_print.pdf)  |   x   |          |     x    | 2024-06-11 |
-| [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        | [link](https://timeline24.github.io/timeline_ilo_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
-| [Filipino (Tagalog)](https://timeline24.github.io/timeline_tl.pdf)      | [link](https://timeline24.github.io/timeline_tl_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
-| [Kankana-ey](https://timeline24.github.io/timeline_kne.pdf)             | [link](https://timeline24.github.io/timeline_kne_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
-| [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       |                 |               |          |          |       |
-| [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       |                 |               |          |          |       |
-| [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       |                 |               |          |          |       |
-| [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       |                 |               |          |          |       |
+| [English](https://timeline24.github.io/timeline_en.pdf)                 | [link](https://timeline24.github.io/timeline_en_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
+| [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       | [link](https://timeline24.github.io/timeline_es_print.pdf)  |   x   |          |          | 2024-06-15 |
 | [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         |                 |               |          |          |       |
+| [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       |                 |               |          |          |       |
+| [Igbo (Ásụ̀sụ́ Ìgbò)](https://timeline24.github.io/timeline_ig.pdf)       |                 |               |          |          |       |
+| [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        | [link](https://timeline24.github.io/timeline_ilo_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
 | [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        | [link](https://timeline24.github.io/timeline_ja_print.pdf)  |   x   |    x     |          | 2024-06-11 |
+| [Khmer (ខ្មែរ)](https://timeline24.github.io/timeline_km.pdf)             | [link](https://timeline24.github.io/timeline_km_print.pdf)  |   x   |          |          | 2024-06-19 |
+| [Kankana-ey](https://timeline24.github.io/timeline_kne.pdf)             | [link](https://timeline24.github.io/timeline_kne_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
 | [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          |                 |               |          |          |       |
+| [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       |                 |               |          |          |       |
+| [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       | [link](https://timeline24.github.io/timeline_ru_print.pdf)  |   x   |          |          | 2024-06-17 |
 | [Sinhala (සිංහල)](https://timeline24.github.io/timeline_si.pdf)         |                 |               |          |          |       |
 | [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          |                 |               |          |          |       |
-| [Igbo (Ásụ̀sụ́ Ìgbò)](https://timeline24.github.io/timeline_ig.pdf)       |                 |               |          |          |       |
-| [Khmer (ខ្មែរ)](https://timeline24.github.io/timeline_km.pdf)             |                 |               |          |          |       |
-| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)           |        x        |               |          |          |       |
-| [Chinese Mandarin (Simplified) (普通话)](https://timeline24.github.io/timeline_zh.pdf)   |   x   |         |          |          |       |
+| [Filipino (Tagalog)](https://timeline24.github.io/timeline_tl.pdf)      | [link](https://timeline24.github.io/timeline_tl_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
+| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) | [link](https://timeline24.github.io/timeline_vi_print.pdf)  |   x   |          |     x    | 2024-06-11 |
 | [Chinese Cantonese (Simplified) (普通话)](https://timeline24.github.io/timeline_yue.pdf) |   x   |         |          |          |       |
+| [Chinese Mandarin (Simplified) (普通话)](https://timeline24.github.io/timeline_zh.pdf)   |   x   |         |          |          |       |
 
 Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects in January 2024. For Khmer, Sinhala and Arabic I finally needed a shape engine like [harfbuzz](https://github.com/harfbuzz/harfbuzz). Since it is not supported in reportlab, I switched to [fpdf2](https://py-pdf.github.io/fpdf2/index.html) with version 4.7 in July 2024. 
 
