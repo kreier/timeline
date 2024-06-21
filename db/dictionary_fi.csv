@@ -1,5 +1,5 @@
 key,text,english,notes
-version,4.5,,
+version,4.6,4.6,
 pdf_title,6000 vuoden ihmiskunnan historia visualisoituna,6000 years human history visualized,
 pdf_subject,Ihmiskunnan aikajana,Timeline of humankind,
 BCE,EAA.,B.C.E.,
@@ -7,7 +7,7 @@ CE,JAA.,C.E.,
 year,vuosi,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,vuotta,years,
 years_age,vuotta,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,kuukausi,month,
 months,kuukautta,months,
 day,päivä,day,
@@ -19,7 +19,7 @@ prophets,profeettoja,prophets,
 kings,kuninkaat,kings,
 periods,kausia,periods,
 events,Tapahtumat,events,
-objects,asioita tai esineitä,things or items,
+objects,asioita tai esineitä,objects or items,
 Deluge,Hukuttaa,Deluge,
 Adam,Aadam,Adam,Luke 3:38
 Seth,Seth,Seth,
@@ -245,18 +245,18 @@ Angloamerica_c,Britannia ja Yhdysvallat,Anglo-America,
 infliction1,400 vuoden vahinko,400 year infliction,Acts 7:6
 infliction2,Apostolien teot 7:6,Acts 7:6,
 Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years
-Israel,Israel,Israel,
+Israel,Israel,Israel,Genesis 35:10
 Sarah,Sarah,Sarah,2008-1881 BCE – 127 years
 Hagar,Hagar,Hagar,Genesis 21:14
 Haran,Haran,Haran,Genesis 11:26
 Reumah,Reumah,Reumah,Concubine – 4 sons
 Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more)
-Lot,Loot,Lot,
+Lot,Loot,Lot,Genesis 11:27
 Lots_wife,Lootin vaimo,Lot’s wife,
 Lots_daughters,Lootin tyttäret,Daughters of Lot,
-Moab,Moab (vanhempi tytär),Moab (older daughter),
-Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon),
-Bethuel,Bethuel,Bethuel,
+Moab,Moab (vanhempi tytär),Moab (older daughter),Genesis 19:37
+Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon),Genesis 19:38
+Bethuel,Bethuel,Bethuel,Genesis 22:23
 Rebekah,Rebeka,Rebekah,
 Laban,Laban,Laban,
 Leah,Lea,Leah,Genesis 35:23
@@ -273,7 +273,7 @@ Dinah,Dinah,Dinah,Genesis 34
 Esau,Esau/,Esau/,
 Edom,Edom,Edom,Genesis 36:1
 Ishmael,Ismael,Ishmael,
-Manasseh2,(Manasse,(Manasseh,
+Manasseh2,(Manasse,(Manasseh,Genesis 41:50-52
 Ephraim,ja Efraim),and Ephraim),
 Benjamin,Benjamin,Benjamin,
 Dan,Dan,Dan,
@@ -318,7 +318,7 @@ Tema,Tema,Tema,
 Jetur,Jetur,Jetur,
 Naphish,Naphish,Naphish,
 Kedemah,Kedemah,Kedemah,
-Babylon2, , ,no text left and right – empty!
+Babylon2,,,no text left and right – empty!
 terahfam,Terahin perheen jäseniä,members of Terah’s family,
 rosetta,Rosetta-kivi 196 eaa.,Rosetta stone 196 B.C.E.,
 Herodotus,"Herodotos c. 484 - n. 425 eKr., kirjoittaa The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
@@ -336,7 +336,7 @@ gilgamesh,Gilgamesh ja Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥�
 epic_gilgamesh,Gilgameshin eepos (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
 p52,Papyrus P52,Papyrus P52,
-daniel2_shift,-5,,Start 4.2
+daniel2_shift,-5,0,Start 4.2
 daniel2_1,kuningas Nebukadnessar,King Nebuchadnezzar,607 BCE
 daniel2_2,tuhoaa Jerusalemin,destroys Jerusalem,
 daniel2_3,valloittaa Babylonian,Conquers Babylon,539 BCE
@@ -375,7 +375,7 @@ three-kingdoms,Kolme valtakuntaa 220-280 jKr,Three kingdoms 220-280 CE,
 sixteen-kingdoms,Kuusitoista valtakuntaa 304-439 jKr,Sixteen kingdoms 304-439 CE,
 northern-dynasties,368-581 jKr,368-581 CE,
 southern-dynasties,420-589 jKr,420-589 CE,
-tang-dynasty1, , ,
+tang-dynasty1,,,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
 shang-dynasty_c,Shang-dynastia,Shang Dynasty,c. 1600-1046 BC
@@ -404,3 +404,44 @@ armageddon,"Harmagedonin taistelu (Ilmestys 16:14, 16; Jesaja 13:9; 2. Piet. 3:1
 millenium,"Jumalan valtakunta aloittaa 1000-vuotisen hallituskautensa (Ilmestys 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
 great_crowd,"Suuri joukko selviytyy Harmagedonista (Ilmestys 7:9, 14; Psalmi 37:9–11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
 world_population,Maailman väkiluku miljardeissa viimeisen 2000 vuoden aikana,World population in billions in the last 2000 years,
+607BCE,607 eaa.,607 B.C.E.,accommodate for language
+539BCE,539 eaa.,539 B.C.E.,systems in style:
+537BCE,537 eaa.,537 B.C.E.,>>year 537 before time<<
+331BCE,331 eaa.,331 B.C.E.,so they need a word
+63BCE,63 eaa.,63 B.C.E.,prior to the year
+70CE,70 jKr.,70 C.E.,and something
+1914CE,1914-1918 eaa.,1914-1918 C.E.,after the year
+khmer_empire,804 – 1431 eaa.,804 – 1431 C.E.,
+khmer_empire_c,Khmerien valtakunta - Angkor-aika,Khmer Empire - Angkor period,
+byzantine_empire,330-1453 jKr.,330-1453 C.E.,
+byzantine_empire_c,Bysantin valtakunta,Byzantine Empire,
+ottoman_empire,1299 – 1922 eaa.,1299 – 1922 C.E.,
+ottoman_empire_c,Ottomaanien valtakunta,Ottoman Empire,
+holy_roman_empire,800–924 jKr.,800 – 924 C.E.,
+holy_roman_empire2,862 – 1806 eaa.,862 – 1806 C.E.,
+holy_roman_empire_c,Pyhä Rooman valtakunta – vuoden 1512 jälkeen Saksan kansan Pyhä Rooman valtakunta,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,
+mongol_empire,Mongoli-imperiumi 1206 - 1294 eaa.,Mongol Empire 1206 – 1294 C.E.,
+Genghis,Tšingis-kaani,Genghis Khan,
+maya_classic,250-950,250-950,
+maya_classic_c,Maya-sivilisaatio – klassinen aikakausi,Maya civilization – classic period,
+maya_postclassic,950-1539,950-1539,
+maya_postclassic_c,Maya-sivilisaatio – klassisen jälkeinen aika,Maya civilization – postclassic period,
+inca_empire,1438 – 1533 eaa.,1438 – 1533 C.E.,
+inca_empire_c,Inka-imperiumi,Inca empire,
+gupta_empire,319–550 eaa.,319 – 550 C.E.,
+gupta_empire_c,Gupta-imperiumi,Gupta empire,
+Teotihuacan,"Amerikan suurin kaupunki, pyramideja rakennetaan c. 200 jKr.","largest city in the Americas, pyramids build c. 200 C.E.",
+Teotihuacan_c,Teotihuacan,Teotihuacan,
+Dionysius_Exiguus,"Dionysius Exiguus, Anno Dominin keksijä","Dionysius Exiguus, inventor of Anno Domini",
+Umayyad,661–750 eaa.,661 – 750 C.E.,
+Umayyad_c,Umayyad,Umayyad,
+Abbasid,750 – 1258 eaa.,750 – 1258 C.E.,
+Abbasid_c,Abbasidin kalifaatti,Abbasid Caliphate,
+Mamluk,1250 – 1517 eaa.,1250 – 1517 C.E.,
+Mamluk_c,Mamelukkien sulttaanikunta,Mamluk Sultanate,
+ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
+Al-Khwarizmi,al-Khwarizmi kirjoittaa Al-Jabrin (algebra),al-Khwarizmi writes Al-Jabr (Algebra),
+al-azhar,Al-Azharin yliopisto perustetaan Kairoon,Al-Azhar University is established in Cairo,
+Ibn-Sina,Ibn Sina tai Avicenna,Ibn Sina or Avicenna,
+Al-Ghazali,Al-Ghazali,Al-Ghazali,

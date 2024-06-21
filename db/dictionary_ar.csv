@@ -1,13 +1,13 @@
 key,text,english,notes
-version,4.5,4.5,
+version,4.6,4.6,
 pdf_title,تصور 6000 سنة من تاريخ البشرية,6000 years human history visualized,
 pdf_subject,الجدول الزمني للبشرية,Timeline of humankind,
 BCE,ق.م.,B.C.E.,
 CE,م.,C.E.,
 year,سنة,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,سنين,years,
-years_age,سنين,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old "
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+years_age,سنين,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
+age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,شهر,month,
 months,شهور,months,
 day,يوم,day,
@@ -149,7 +149,7 @@ circumcision,قضية الختان في أنطاكية، مؤتمر في الق�
 missionary2,الرحلة التبشيرية الثانية ج. ٤٩-٥٢ بم في عهد سيلاس (سيلفانوس),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),
 missionary3,الرحلة التبشيرية الثالثة ج. ٥٢-٥٦ م,Third Missionary Journey c. 52-56 C.E.,
 caesarea,بولس في الحجز في قيصرية ج. ٥٦-٥٨ م,Paul in custody in Caesarea c. 56-58 C.E.,
-rome1,سجن بولس الأول في روما ج. 59-61 م,Paul’s first imprisonment in Rome c. 59-61 C.E.,
+rome1,سجن بولس الأول في روما ج. 59-61 م.,Paul’s first imprisonment in Rome c. 59-61 C.E.,
 rome2,سجن بولس الثاني في روما ج. 65 م، كتابة رسالة تيموثاوس الثانية، إعدام بولس,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",
 Julius,يوليوس,Julius,
 Augustus,أغسطس,Augustus,
@@ -167,7 +167,7 @@ event_destruction_jerusalem1,خراب اورشليم سنة ٦٠٧ ق‌م عل�
 event_temple_rebuilt,أعيد بناء معبد في القدس عام 515 ق.م.,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,أعيد بناء سور القدس عام 455 ق.م.,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,تدمير اورشليم سنة ٧٠ بم على يد روما في عهد تيطس,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,نهاية زمن الأمم (لوقا 21: 24)، يبدأ ملكوت الله بالحكم في السماء سنة 1914م.,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E. ",include scripture Luke 21:24
+event_1914,نهاية زمن الأمم (لوقا 21: 24)، يبدأ ملكوت الله بالحكم في السماء سنة 1914م.,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
 became_king,أصبح ملكا في سن,became king at age,
 vulgate,النسخه اللاتينية للانجيل أكملها جيروم (الترجمة اللاتينية للكتاب المقدس) ج. 405 م.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,الكتاب المقدس لجوتنبرج طبع عام 1455,Gutenberg bible printed 1455,
@@ -216,7 +216,7 @@ persia,كورش الكبير، قمبيز الثاني، داريوس الأول
 persia2,بلاد فارس,Persia,
 king_north,سلوقس الأول نيكاتور (آية ٥) سوريا إلى أنطيوخس الثالث (آية ١٠) وسلوقس الرابع (آية ١٨، ١٩) نزولاً إلى أوكتافيان (آية ٢٠) وتيبيريوس (آية ٢١-٢٤).,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",
 king_north1,ملك الشمال,King of the North,
-king_south,بطليموس الأول والثاني والثالث والرابع (آية ١١، ١٢)، ٥ (آية ١٥، ١٦) إلى معركة أكتيوم ٣١ قم.,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",
+king_south,بطليموس الأول والثاني والثالث والرابع (آية ١١، ١٢)، والخامس (آية ١٥، ١٦) إلى معركة أكتيوم ٣١ قم.,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",
 king_south1,ملك الجنوب,King of the South,
 king_south2,الإمبراطورية البريطانية 1870، القوة العالمية الأنجلو-أمريكية منذ 1914,"British empire 1870, Anglo-American World Power since 1914",
 king_south3,ملك الجنوب,King of the South,
@@ -318,7 +318,7 @@ Tema,تيما,Tema,
 Jetur,جيتور,Jetur,
 Naphish,نافيش,Naphish,
 Kedemah,قديمة,Kedemah,
-Babylon2, , ,no text left and right – empty!
+Babylon2,,,no text left and right – empty!
 terahfam,افراد عائلة تارح,members of Terah’s family,
 rosetta,حجر رشيد 196 ق.م.,Rosetta stone 196 B.C.E.,
 Herodotus,هيرودوت ج. 484 - ج. 425 قبل الميلاد، يكتب التاريخ,"Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
@@ -375,7 +375,7 @@ three-kingdoms,الممالك الثلاث 220 – 280 م,Three kingdoms 220-280
 sixteen-kingdoms,الممالك الستة عشر 304-439 م,Sixteen kingdoms 304-439 CE,
 northern-dynasties,368-581 م,368-581 CE,
 southern-dynasties,420-589 م,420-589 CE,
-tang-dynasty1, , ,
+tang-dynasty1,,,
 tang-dynasty2,618-690، 705-907,"618-690, 705-907",
 wu-zhou,690-705 وو تشو,690-705 Wu Zhou,
 shang-dynasty_c,سلالة شانغ,Shang Dynasty,c. 1600-1046 BC
@@ -404,3 +404,44 @@ armageddon,معركة هرمجدون (رؤيا ١٦: ١٤، ١٦؛ إشعياء 
 millenium,يبدأ ملكوت الله حكمه الذي يمتد لألف سنة (رؤيا ٥: ٩، ١٠؛ ٢٠: ٤، ٦),"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
 great_crowd,نجا جمع كبير من هرمجدون (رؤيا ٩:٧، ١٤؛ مزمور ٩:٣٧-١١).,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
 world_population,عدد سكان العالم بالمليارات في آخر 2000 سنة,World population in billions in the last 2000 years,
+607BCE,607 ق.م.,607 B.C.E.,accommodate for language
+539BCE,539 ق.م.,539 B.C.E.,systems in style:
+537BCE,537 ق.م.,537 B.C.E.,>>year 537 before time<<
+331BCE,331 ق.م.,331 B.C.E.,so they need a word
+63BCE,63 ق.م.,63 B.C.E.,prior to the year
+70CE,70 م,70 C.E.,and something
+1914CE,1914-1918 م,1914-1918 C.E.,after the year
+khmer_empire,804 – 1431 م,804 – 1431 C.E.,
+khmer_empire_c,إمبراطورية الخمير - فترة أنغكور,Khmer Empire - Angkor period,
+byzantine_empire,330-1453 م.,330-1453 C.E.,
+byzantine_empire_c,الإمبراطورية البيزنطية,Byzantine Empire,
+ottoman_empire,1299 - 1922 م.,1299 – 1922 C.E.,
+ottoman_empire_c,الإمبراطورية العثمانية,Ottoman Empire,
+holy_roman_empire,800 – 924 م.,800 – 924 C.E.,
+holy_roman_empire2,862 - 1806 م.,862 – 1806 C.E.,
+holy_roman_empire_c,الإمبراطورية الرومانية المقدسة – بعد 1512 الإمبراطورية الرومانية المقدسة للأمة الألمانية,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,
+mongol_empire,الإمبراطورية المغولية 1206 – 1294 م.,Mongol Empire 1206 – 1294 C.E.,
+Genghis,جنكيز خان,Genghis Khan,
+maya_classic,250-950,250-950,
+maya_classic_c,حضارة المايا – الفترة الكلاسيكية,Maya civilization – classic period,
+maya_postclassic,950-1539,950-1539,
+maya_postclassic_c,حضارة المايا – فترة ما بعد الكلاسيكية,Maya civilization – postclassic period,
+inca_empire,1438 – 1533 م,1438 – 1533 C.E.,
+inca_empire_c,إنكا الإمبراطورية,Inca empire,
+gupta_empire,319 - 550 م.,319 – 550 C.E.,
+gupta_empire_c,إمبراطورية غوبتا,Gupta empire,
+Teotihuacan,أكبر مدينة في الأمريكتين، تم بناء الأهرامات ج. 200 م.,"largest city in the Americas, pyramids build c. 200 C.E.",
+Teotihuacan_c,تيوتيهواكان,Teotihuacan,
+Dionysius_Exiguus,ديونيسيوس إكسيجوس، مخترع أنو دوميني,"Dionysius Exiguus, inventor of Anno Domini",
+Umayyad,661 - 750 م.,661 – 750 C.E.,
+Umayyad_c,الأمويين,Umayyad,
+Abbasid,750 - 1258 م.,750 – 1258 C.E.,
+Abbasid_c,الخلافة العباسية,Abbasid Caliphate,
+Mamluk,1250 – 1517 م.,1250 – 1517 C.E.,
+Mamluk_c,سلطنة المماليك,Mamluk Sultanate,
+ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
+Al-Khwarizmi,الخوارزمي يكتب الجبر (الجبر),al-Khwarizmi writes Al-Jabr (Algebra),
+al-azhar,تأسيس جامعة الأزهر في القاهرة,Al-Azhar University is established in Cairo,
+Ibn-Sina,ابن سينا ​​أو ابن سينا,Ibn Sina or Avicenna,
+Al-Ghazali,الغزالي,Al-Ghazali,
