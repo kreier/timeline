@@ -49,6 +49,8 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - [v4.3](https://github.com/kreier/timeline/releases/tag/v4.3) 2024/03/16 Convert dictionary files to __.csv__ format to be easier readable in a [Jupyter Notebook](db/timeline.ipynb). You can create the latest PDF in your language in [Google Colab](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing) with just a browser.
 - [v4.4](https://github.com/kreier/timeline/releases/tag/v4.4) 2024/03/24 Include inventions and insights that enable modern society from the last centuries with pictures. Add some of the __Chinese dynasties__ to the oldest known historic date of 841 BC (Sima Qian) and beyond.
 - [v4.5](https://github.com/kreier/timeline/releases/tag/v4.4) 2024/04/13 Include the great tribulation in the time of the end, and a graph of the world population for the last 2000 years. It aligns with advancements in science, culture and society.
+- [v4.6](https://github.com/kreier/timeline/releases/tag/v4.5) 2024/05/31 Include more empires in Umayyad, Teotihuacan, Mongol, Inca and more. Added historic figures like Hammurabi, al-Khwarizimi, Genghis Khan and Dionysius Exiguus plus a few more smaller images
+- v4.7 2024/07/01 Finally the rendering of RTL languages like Hebrew and Arabic are supported. The proper rendering of Arabic glyphs require a special font shape engine like [Harfbuzz](https://en.wikipedia.org/wiki/HarfBuzz) (also on [Github](https://github.com/harfbuzz/harfbuzz)) and my previous PDF generator [reportlab](https://www.reportlab.com/) has this not yet included. The pdf is now generated with [fpdf2](https://py-pdf.github.io/fpdf2/index.html). This project included text shaping [with version 2.7.5](https://py-pdf.github.io/fpdf2/TextShaping.html) in August 2023. This solved my problems with Khmer and Sinhala as well.
 
 ### Translations
 
@@ -56,26 +58,26 @@ Since v3.4 the language specific files have been separated from the program code
 
 | language                                                                | version | last updated |
 |-------------------------------------------------------------------------|:-------:|:------------:|
-| [English](https://timeline24.github.io/timeline_en.pdf)                 |   4.6   |  2024-05-15  |
-| [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        |   4.6   |  2024-05-15  |
-| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) |   4.5   |  2024-04-02  |
-| [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       |   4.5   |  2024-04-14  |
-| [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       |   4.5   |  2024-04-23  |
-| [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       |   4.5   |  2024-04-15  |
-| [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        |   4.6   |  2024-05-16  |
-| [Kankana-ey](https://timeline24.github.io/timeline_kne.pdf)             |   4.6   |  2024-05-16  |
-| [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         |   4.5   |  2024-04-17  |
-| [Tagalog (Filipino)](https://timeline24.github.io/timeline_tl.pdf)      |   4.6   |  2024-05-16  |
-| [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       |   4.3   |  2024-03-30  |
-| [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        |   4.5   |  2024-04-15  |
-| [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          |   4.4   |  2024-03-30  |
-| [Sinhala (සිංහල)](https://timeline24.github.io/timeline_si.pdf)         |   4.3   |  2024-03-30   |
-| [Chinese Mandarin (Simplified) (中文简体（普通话))](https://timeline24.github.io/timeline_zh.pdf) | 4.4 | 2024-04-04 |
-| [Chinese Cantonese (Simplified)  [中文简体（广东话）]](https://timeline24.github.io/timeline_yue.pdf) | 4.4 | 2024-04-04 |
-| [Khmer (ខ្មែរ)](https://timeline24.github.io/timeline_km.pdf)             |   4.5   |  2024-04-22  |
 | [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)           |   3.6   |              |
+| [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        |   4.6   |  2024-06-07  |
+| [English](https://timeline24.github.io/timeline_en.pdf)                 |   4.6   |  2024-06-07  |
+| [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       |   4.6   |  2024-06-15  |
+| [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         |   4.5   |  2024-04-17  |
+| [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       |   4.5   |  2024-04-14  |
 | [Igbo (Ásụ̀sụ́ Ìgbò)](https://timeline24.github.io/timeline_ig.pdf)       |   3.6   |              |
+| [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        |   4.6   |  2024-06-07  |
+| [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        |   4.5   |  2024-04-15  |
+| [Khmer (ខ្មែរ)](https://timeline24.github.io/timeline_km.pdf)             |   4.5   |  2024-04-22  |
+| [Kankana-ey](https://timeline24.github.io/timeline_kne.pdf)             |   4.6   |  2024-05-16  |
+| [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          |   4.4   |  2024-03-30  |
+| [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       |   4.3   |  2024-03-30  |
+| [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       |   4.6   |  2024-06-17  |
+| [Sinhala (සිංහල)](https://timeline24.github.io/timeline_si.pdf)         |   4.3   |  2024-03-30   |
 | [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          |   3.6   |              |
+| [Tagalog (Filipino)](https://timeline24.github.io/timeline_tl.pdf)      |   4.6   |  2024-05-16  |
+| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) |   4.5   |  2024-04-02  |
+| [Chinese Cantonese (Simplified) （广东话）](https://timeline24.github.io/timeline_yue.pdf) | 4.4 | 2024-04-04 |
+| [Chinese Mandarin (Simplified) （普通话)](https://timeline24.github.io/timeline_zh.pdf) | 4.4 | 2024-04-04 |
 
 Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects.
 
