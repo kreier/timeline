@@ -32,6 +32,7 @@ The language specific files have been separated from the program code (together 
 | [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        | [link](https://timeline24.github.io/timeline_ilo_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
 | [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        | [link](https://timeline24.github.io/timeline_ja_print.pdf)  |   x   |    x     |          | 2024-06-11 |
 | [Khmer (ខ្មែរ)](https://timeline24.github.io/timeline_km.pdf)             | [link](https://timeline24.github.io/timeline_km_print.pdf)  |   x   |          |          | 2024-06-19 |
+| [Khmer (ខ្មែរ) with Arabic numerals](https://timeline24.github.io/timeline_kman.pdf)  | [link](https://timeline24.github.io/timeline_kman_print.pdf) | x | |          | 2024-06-24 |
 | [Kankana-ey](https://timeline24.github.io/timeline_kne.pdf)             | [link](https://timeline24.github.io/timeline_kne_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
 | [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          |                 |               |          |          |       |
 | [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       |                 |               |          |          |       |
@@ -40,8 +41,8 @@ The language specific files have been separated from the program code (together 
 | [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          |                 |               |          |          |       |
 | [Filipino (Tagalog)](https://timeline24.github.io/timeline_tl.pdf)      | [link](https://timeline24.github.io/timeline_tl_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
 | [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) | [link](https://timeline24.github.io/timeline_vi_print.pdf)  |   x   |          |     x    | 2024-06-11 |
-| [Chinese Cantonese (Simplified) (普通话)](https://timeline24.github.io/timeline_yue.pdf) |   x   |         |          |          |       |
-| [Chinese Mandarin (Simplified) (普通话)](https://timeline24.github.io/timeline_zh.pdf)   |   x   |         |          |          |       |
+| [Chinese Cantonese (Simplified) (普通话)](https://timeline24.github.io/timeline_yue.pdf) |       |         |          |          |       |
+| [Chinese Mandarin (Simplified) (普通话)](https://timeline24.github.io/timeline_zh.pdf)   |       |         |          |          |       |
 
 Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects in January 2024. For Khmer, Sinhala and Arabic I finally needed a shape engine like [harfbuzz](https://github.com/harfbuzz/harfbuzz). Since it is not supported in reportlab, I switched to [fpdf2](https://py-pdf.github.io/fpdf2/index.html) with version 4.7 in July 2024. 
 
@@ -96,6 +97,13 @@ After the experience of 8 months with [reportlab](https://pypi.org/project/repor
 Why __46 rows__? For Adam to Joseph the lifespans overlap and create a descending shifted graph for 23 rows. A little space (maybe for Job) and adding Moses requires a minimum 25 rows. More are needed for the kings of Judah and Israel. There are 3 kings for the united kingdom, followed by 21 kings in the northern 10-tribe kingdom (some as short as 7 days like Zimri) and 20 kings in the southern kingdom of Judah. With the project in 2009 this resulted in 3+21+20 = 44 rows. In time I flipped the names for the kings to opposite sites, so I could overlap them with just 4 rows between them, reducing the requirement to just 29 lines, leaving 17 lines below for prophets, other dynasties, philosophers and kingdoms of Daniel's prophecy in chapter 2, 7 and 10. The scale in 2023 had 44.7 rows, but with some adjustment I increased it to 46 and can now directly reference the rows in the data file csv.
 
 Reflecting on larger solutions with more space, some are found below (for example the 7 meter long and 68 cm wide chart by Adams), while they contain a lot more information, in the end they ran out of space anyways. You can't include every important detail. And the large size is hard to use, or even to transport. The limitation to four A4 papers makes the scroll small enough to put in a backpack and bring with you. And it's still long enough that usually you use it as a scroll and open the part you're interested in. Many now use the digital version on their tablet or smartphone, which still serves the purpose of visualizing time and events. There is the temptation to include more details in smaller sizes, but many pdf viewers limit the maximum zoom level. And it is inconsistent with the experience of the print version. It's better to be inspired to search for more information in addition to the presented events. 
+
+## Create your own pdf file and fix mistakes on the fly - with just a browser in less than 60 seconds
+
+With a Jupyter Notebook you can download all required files and install all software in 2 steps in a virtual machine and then create a fresh pdf in the third step. Edit the downloaded files in your browser and repeat step 3 for an updated version:
+
+- [Jypyter Notebook in Google Colab with reportlab](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing)
+- [Jupyter Notebook in Google Colab with fpdf2](https://colab.research.google.com/drive/1WbLz2Gz775j0bSFPHdQihAkub3wltAof?usp=sharing)
 
 ## Inspiration and other solutions
 
