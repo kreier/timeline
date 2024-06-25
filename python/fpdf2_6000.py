@@ -799,18 +799,12 @@ def create_daniel2():
 
 def create_timestamp():
     timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "objects", "terahfam"]
-    pdf.set_font(font_regular, "", 4)
     for index, detail in enumerate(timestamp_details):
-        if left_to_right:
-            drawString(f"{dict[detail]}", 4, x1 + 6,   y2 - 42 + 4.5 * index, "r", False)
-            counter_detail = str(eval("counter_" + detail))
-            drawString(counter_detail,    4, x1 + 5.4, y2 - 42 + 4.5 * index, "l", False)
-        else:
-            drawString(f"{dict[detail]}", 4, x2 - 6,   y2 - 42 + 4.5 * index, "l", False)
-            # print(pdf.get_x())
-            counter_detail = str(eval("counter_" + detail))
-            counter_detail = number_to_string(counter_detail, language)
-            drawString(counter_detail,    4, x2 - 5.4, y2 - 42 + 4.5 * index, "r", False)
+        drawString(f"{dict[detail]}", 4, x_position(-4075) + 6 * direction_factor, y2 - 42 + 4.5 * index, direction, False)
+    for index, detail in enumerate(timestamp_details):
+        counter_detail = str(eval("counter_" + detail))
+        counter_detail = number_to_string(counter_detail, language)
+        drawString(counter_detail, 4, x_position(-4075) + 5.4 * direction_factor, y2 - 42 + 4.5 * index, direction_rl, False)
     pdf.set_font("Aptos", "", 4)
     pdf.set_text_color(50)
     pdf.set_text_shaping(use_shaping_engine=True, language="eng")

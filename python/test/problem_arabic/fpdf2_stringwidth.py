@@ -29,4 +29,9 @@ for typeface in fontname:
     render_strings(teststrings)
     render_strings([''.join(teststrings)])
     render_strings(["عمَّد يسوع في خريف سنة ٢٩ بم"])
+    for string in teststrings:
+        pdf.set_x(110 - pdf.get_string_width(string))
+        pdf.rect(pdf.get_x(), pdf.get_y()+2, pdf.get_string_width(string), 13, style="D")
+        pdf.cell(h=17, text=string + " ")
+        pdf.ln()
     pdf.output("fpdf2_stringwidth" + typeface + ".pdf")
