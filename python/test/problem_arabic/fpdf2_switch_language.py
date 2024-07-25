@@ -9,9 +9,10 @@ def render_strings(teststrings):
     pdf.set_draw_color(160)
     pdf.set_line_width(0.3)
     for string in teststrings:
+        pdf.set_text_shaping(use_shaping_engine=True, script="arab", language="ara")
         pdf.set_x(110 - pdf.get_string_width(string))
         pdf.rect(pdf.get_x(), pdf.get_y()+2, pdf.get_string_width(string), 13, style="D")
-        pdf.cell(h=17, text=string + " ")
+        pdf.cell(h=17, text=string)
         pdf.ln()
     pdf.ln()
 

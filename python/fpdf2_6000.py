@@ -77,6 +77,7 @@ def drawString(text, fontsize, x_string, y_string, position, white_background):
     xtra = 0                     # used for labels under images
     if fontsize < 6:
         xtra = 0
+    pdf.set_text_shaping(use_shaping_engine=True) # explicit to trigger switch to arabic
     white_width = pdf.get_string_width(text) # depends on font, fontsize
     if position == "r":                                                   # r - draw to the right
         if white_background:
