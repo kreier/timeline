@@ -77,6 +77,7 @@ def drawString(text, fontsize, x_string, y_string, position, white_background):
     xtra = 0                     # used for labels under images
     if fontsize < 6:
         xtra = 0
+    pdf.set_text_shaping(use_shaping_engine=True) # explicit to trigger switch to arabic
     white_width = pdf.get_string_width(text) # depends on font, fontsize
     if position == "r":                                                   # r - draw to the right
         if white_background:
@@ -223,7 +224,10 @@ def create_canvas(edition):
         fontname_bold = glyphs + "-bold"
         fontfile_bold = "fonts/" + glyphs + "-bold.ttf"
         pdf.add_font(fontname, style="", fname=fontfile)
-        pdf.add_font(fontname_bold, style="", fname=fontfile_bold)
+        if os.path.exists(fontfile_bold):
+            pdf.add_font(fontname_bold, style="", fname=fontfile_bold)
+        else:
+            pdf.add_font(fontname_bold, style="", fname=fontfile)
         font_regular = fontname
         font_bold    = fontname_bold
     if df.at[row_index[0], 'shaping_engine']:                  # set the font shaper
@@ -797,14 +801,11 @@ def create_daniel2():
 def create_timestamp():
     timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "objects", "terahfam"]
     for index, detail in enumerate(timestamp_details):
-        if left_to_right:
-            drawString(f"{dict[detail]}", 4, x1 + 6,   y2 - 42 + 4.5 * index, "r", False)
-            counter_detail = str(eval("counter_" + detail))
-            drawString(counter_detail,    4, x1 + 5.4, y2 - 42 + 4.5 * index, "l", False)
-        else:
-            drawString(f"{dict[detail]}", 4, x_position(-4075) - 6,   y2 - 42 + 4.5 * index, "l", False)
-            counter_detail = str(eval("counter_" + detail))
-            drawString(counter_detail,    4, x_position(-4075) - 5.4, y2 - 42 + 4.5 * index, "r", False)
+        drawString(f"{dict[detail]}", 4, x_position(-4075) + 6 * direction_factor, y2 - 42 + 4.5 * index, direction, False)
+    for index, detail in enumerate(timestamp_details):
+        counter_detail = str(eval("counter_" + detail))
+        counter_detail = number_to_string(counter_detail, language)
+        drawString(counter_detail, 4, x_position(-4075) + 5.4 * direction_factor, y2 - 42 + 4.5 * index, direction_rl, False)
     pdf.set_font("Aptos", "", 4)
     pdf.set_text_color(50)
     pdf.set_text_shaping(use_shaping_engine=True, language="eng")

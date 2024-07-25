@@ -6,8 +6,8 @@ BCE,ه.س.إ.,B.C.E.,
 CE,س. إ.,C.E.,
 year,سال,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,سال ها,years,
-years_age,سال ها,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old "
-age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+years_age,سال ها,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
+age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,ماه,month,
 months,ماه ها,months,
 day,روز,day,
@@ -22,29 +22,29 @@ events,مناسبت ها,events,
 objects,اشیاء یا اقلام,objects or items,
 Deluge,سیل,Deluge,
 Adam,آدم,Adam,Luke 3:38
-Seth,ست,Seth,
-Enosh,انوش,Enosh,
-Kenan,کنان,Kenan,
-Mahalalel,محللیل,Mahalalel,
-Jared,جرد,Jared,
-Enoch,خنوخ,Enoch,
-Methuselah,متوشالح,Methuselah,Luke 3:37
-Lamech,لمک,Lamech,
+Seth,شِیث,Seth,
+Enosh,اَنوش,Enosh,
+Kenan,قینان,Kenan,
+Mahalalel,مَهَلَل‌ئیل,Mahalalel,
+Jared,یارِد,Jared,
+Enoch,خَنوخ,Enoch,
+Methuselah,مَتوشالَح,Methuselah,Luke 3:37
+Lamech,لَمِک,Lamech,
 Noah,نوح,Noah,
-Shem,شم,Shem,
-Arpachshad,ارپاچشاد,Arpachshad,Luke 3:36
-Shelah,شله,Shelah,
-Eber,ایبر,Eber,
-Peleg,پلگ,Peleg,
-Reu,ريو,Reu,
-Serug,سرگ,Serug,Luke 3:35
-Nahor,ناهور,Nahor,
-Terah,ترا,Terah,
+Shem,سام,Shem,
+Arpachshad,اَرفَکشاد,Arpachshad,Luke 3:36
+Shelah,شالَح,Shelah,
+Eber,عِبِر,Eber,
+Peleg,فِلِج,Peleg,
+Reu,رِعو,Reu,
+Serug,سِروج,Serug,Luke 3:35
+Nahor,ناحور,Nahor,Genesis 11:24
+Terah,تارَح,Terah,
 Abraham,ابراهیم,Abraham,
 Isaac,اسحاق,Isaac,
 Jacob,یعقوب,Jacob,Luke 3:34
-Joseph,جوزف,Joseph,
-Moses,حضرت موسی,Moses,
+Joseph,یوسِف,Joseph,Genesis 37
+Moses,موسی,Moses,
 Othniel,اوتنیل,Othniel,Judges 3:9-11
 Ehud,ایهود,Ehud,Judges 3:15-18
 Shamgar,شامگر,Shamgar,Judges 3:31
@@ -63,15 +63,15 @@ David,دیوید,David,1 Samuel 16:13
 Solomon,سلیمان,Solomon,1 Kings 2:1
 Rehoboam,رحوبام,Rehoboam,first king of southern kingdom of Juda
 Abijah,ابیجه (ابیجم),Abijah (Abijam),"3 years, also Abijam"
-Asa,آسا,Asa,
-Jehoshaphat,یهوشافاط,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360
+Asa,آسا,Asa,A6-A
+Jehoshaphat,یهوشافاط,Jehoshaphat,
 Jehoram2,جهورام,Jehoram,
 Ahaziah,آحازیا,Ahaziah,
 Athaliah,ملکه آتالیا,Queen Athaliah,Queen Athaliah
 Jehoash,یهوآش,Jehoash,
 Amaziah,آمازیا,Amaziah,
 Uzziah,عزیه (ازاریا),Uzziah (Azariah),also Azariah
-Jotham,یوتهام,Jotham,
+Jotham,یوتهام,Jotham,A6-B
 Ahaz,آحاز,Ahaz,
 Hezekiah,حزقیا,Hezekiah,
 Manasseh,مناسه,Manasseh,
@@ -152,10 +152,10 @@ caesarea,پولس در بازداشت در قیصریه ج. 56-58 C.E.,Paul in c
 rome1,اولین زندانی شدن پولس در رم ج. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E.,
 rome2,دومین زندانی شدن پولس در روم ج. ۶۵ بعد از میلاد، ۲ تیموتائوس نوشته شد، پولس اعدام شد,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",
 Julius,جولیوس,Julius,
-Augustus,آگوستوس,Augustus,
-Tiberius,تیبریوس,Tiberius,
+Augustus,آگوستوس,Augustus,Luke 2:1
+Tiberius,تیبریوس,Tiberius,Luke 3:1
 Caligula,کالیگولا,Caligula,
-Claudius,کلودیوس,Claudius,
+Claudius,کلودیوس,Claudius,Acts 11:28
 Nero,نرون,Nero,
 Galba-Otho-Vitellius,گالبا، اوتو و ویتلیوس (سال چهار امپراتور),"Galba, Otho and Vitellius (Year of the Four Emperors)",
 Vespasian,وسپاسیان,Vespasian,
@@ -167,7 +167,7 @@ event_destruction_jerusalem1,ویرانی اورشلیم 607 پ.م. توسط ب�
 event_temple_rebuilt,معبدی در اورشلیم که در سال 515 قبل از میلاد بازسازی شد.,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,دیوار اورشلیم بازسازی شده 455 قبل از میلاد,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,ویرانی اورشلیم در سال 70 میلادی توسط روم در زمان تیتوس,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,پایان زمان ملل (لوقا 21:24)، پادشاهی خدا در سال 1914 پس از میلاد مسیح در آسمان شروع به حکومت کرد.,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E. ",include scripture Luke 21:24
+event_1914,پایان زمان ملل (لوقا 21:24)، پادشاهی خدا در سال 1914 پس از میلاد مسیح در آسمان شروع به حکومت کرد.,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
 became_king,در سنین بالا پادشاه شد,became king at age,
 vulgate,Vulgate تکمیل شده توسط Jerome (ترجمه لاتین کتاب مقدس) ج. 405 ق.م.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,کتاب مقدس گوتنبرگ چاپ 1455,Gutenberg bible printed 1455,
@@ -228,10 +228,10 @@ time_of_end,حضور مسیح، نتیجه گیری نظام چیزها (متی 
 time_of_end2,روزهای گذشته,last days,
 suryavaman2,پادشاه سوریاوارمان دوم انگکور وات 1113-1150 را می سازد,King Suryavarman II builds Angkor Wat 1113-1150,
 notre-dame,نوتردام پاریس در سال های 1163-1260 ساخته شد,Notre-Dame de Paris built 1163-1260,
-jehoiada,یهویادا,Jehoiada,
+jehoiada,یهویادا,Jehoiada,2 Kings 11:4
 babel,برج بابل ساخته شد,tower of Babel built,
 Haggai,هاگی,Haggai,
-Zerubbabel,زروبابل (لوقا 3:27),Zerubbabel (Luke 3:27),
+Zerubbabel,زروبابل (لوقا 3:27),Zerubbabel (Luke 3:27),Luke 3:27
 Babylon,دانیال 2:32، 36-38; 7:4,"Daniel 2:32, 36-38; 7:4",
 Medopersia,دانیال 2:32، 39; 7:5,"Daniel 2:32, 39; 7:5",
 Greece,دانیال 2:32، 39; 7:6,"Daniel 2:32, 39; 7:6",
@@ -246,10 +246,10 @@ infliction1,400 سال تحمیل,400 year infliction,Acts 7:6
 infliction2,اعمال رسولان 7:6,Acts 7:6,
 Jacob2,یعقوب/,Jacob/,Jacob/Israel 1858-1711 – 147 years
 Israel,اسرائيل,Israel,Genesis 35:10
-Sarah,سارا,Sarah,2008-1881 BCE – 127 years
+Sarah,سارا,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2"
 Hagar,هاجر,Hagar,Genesis 21:14
 Haran,هاران,Haran,Genesis 11:26
-Reumah,روما,Reumah,Concubine – 4 sons
+Reumah,روما,Reumah,Concubine – 4 sons 22:24
 Milcah,میلکا,Milcah,8 sons (Bethuel and 7 more)
 Lot,لات,Lot,Genesis 11:27
 Lots_wife,همسر لوط,Lot’s wife,
@@ -258,32 +258,32 @@ Moab,موآب (دختر بزرگتر),Moab (older daughter),Genesis 19:37
 Ammon,بن آمی (آمون),Ben-ammi (Ammon),Genesis 19:38
 Bethuel,بتوئل,Bethuel,Genesis 22:23
 Rebekah,ربکا,Rebekah,
-Laban,لابان,Laban,
+Laban,لابان,Laban,Genesis 24:29
 Leah,لیا,Leah,Genesis 35:23
 Rachel,راشل,Rachel,Genesis 35:24
 Bilhah,بیلحه,Bilhah,Genesis 35:25
 Zilpah,زیلپا,Zilpah,Genesis 35:26
 Reuben,روبن,Reuben,
 Simeon,سیمئون,Simeon,
-Levi,لوی,Levi,
-Judah,یهودا,Judah,
+Levi,لوی,Levi,Genesis 35:23
+Judah,يَهُوذَا,Judah,
 Issachar,ایساکار,Issachar,
 Zebulun,زبولون,Zebulun,
 Dinah,دینا,Dinah,Genesis 34
 Esau,عیسو/,Esau/,
 Edom,ادوم,Edom,Genesis 36:1
-Ishmael,اسماعیل,Ishmael,
+Ishmael,اسماعیل,Ishmael,Genesis 16:16
 Manasseh2,(مناسی,(Manasseh,Genesis 41:50-52
 Ephraim,و افرایم),and Ephraim),
 Benjamin,بنیامین,Benjamin,
-Dan,دن,Dan,
+Dan,دن,Dan,Genesis 35:23
 Naphtali,نفتالی,Naphtali,
 Gad,گاد,Gad,
 Asher,آشر,Asher,
 Milcah1,اوز، بوز، کموئل،,"Uz, Buz, Kemuel,",Genesis 22:21
 Milcah2,چسد، هازو،,"Chesed, Hazo,",
 Milcah3,پیلداش، جیدلاف,"Pildash, Jidlaph",
-Tebah,تباه,Tebah,Genesis 22:23
+Tebah,تباه,Tebah,Genesis 22:24
 Gaham,گهام,Gaham,
 Tahash,طاهاش,Tahash,
 Maacah,ماکاه,Maacah,
@@ -318,7 +318,7 @@ Tema,تم,Tema,
 Jetur,جتور,Jetur,
 Naphish,نافیش,Naphish,
 Kedemah,کدمه,Kedemah,
-Babylon2,, ,no text left and right – empty!
+Babylon2,,,no text left and right – empty!
 terahfam,اعضای خانواده ترح,members of Terah’s family,
 rosetta,سنگ روزتا ۱۹۶ پ.م.,Rosetta stone 196 B.C.E.,
 Herodotus,هرودوت ج. 484 - ج. 425 قبل از میلاد، تاریخ می نویسد,"Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
@@ -375,7 +375,7 @@ three-kingdoms,سه پادشاهی 220-280 بعد از میلاد,Three kingdoms
 sixteen-kingdoms,شانزده پادشاهی 304-439 بعد از میلاد,Sixteen kingdoms 304-439 CE,
 northern-dynasties,368-581 م,368-581 CE,
 southern-dynasties,420-589 م,420-589 CE,
-tang-dynasty1,, ,
+tang-dynasty1,,,
 tang-dynasty2,618-690، 705-907,"618-690, 705-907",
 wu-zhou,690-705 وو ژو,690-705 Wu Zhou,
 shang-dynasty_c,سلسله شانگ,Shang Dynasty,c. 1600-1046 BC
@@ -444,4 +444,4 @@ hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
 Al-Khwarizmi,الخوارزمي يكتب الجبر (الجبر),al-Khwarizmi writes Al-Jabr (Algebra),
 al-azhar,تأسيس جامعة الأزهر في القاهرة,Al-Azhar University is established in Cairo,
 Ibn-Sina,ابن سينا ​​أو ابن سينا,Ibn Sina or Avicenna,
-Al-Ghazali,الغزالي,Al-Ghazali,
+Al-Ghazali,الغزالي,Al-Ghazali,2024-06-26

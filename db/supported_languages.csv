@@ -1,9 +1,9 @@
 key,lang,shaping_engine,script,language,direction,fontname,fontsize,fontsize_AM,y_offset,replace_numerals,language_str
-ar,Arabic,TRUE,arab,ara,RTL,NotoArabic,9.2,15,-1,FALSE,Arabic (العربية) 
+ar,Arabic,TRUE,arab,ara,RTL,NotoArabic,9.2,12,1,TRUE,Arabic (العربية) 
 de,German,FALSE,,,ltr,,10,15,0,FALSE,German (Deutsch) 
 en,English,FALSE,,,ltr,,10,15,0,FALSE,English
 es,Spanish,FALSE,,,ltr,,10,15,0,FALSE,Spanish (Español) 
-fa,Persian,TRUE,arab,fas,RTL,NotoArabic,8,13,2,TRUE,Persian or Farsi (فارسی)
+fa,Persian,TRUE,arab,fas,RTL,NotoArabic,9.2,12,1,TRUE,Persian or Farsi (فارسی)
 fi,Finnish,FALSE,,,ltr,,10,15,0,FALSE,Finnish (Suomi) 
 fr,French,FALSE,,,ltr,,10,15,0,FALSE,French (Français) 
 he,Hebrew,TRUE,hebr,heb,RTL,NotoHebrew,10,15,0,FALSE,Hebrew (עִבְרִית)
