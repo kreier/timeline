@@ -1,6 +1,6 @@
 key,text,english,notes
 version,4.6,4.6,
-pdf_title,ប្រវត្តិសាស្រ្តមនុស្សជាតិ ៦០០០ ឆ្នាំត្រូវបានមើលឃើញ,6000 years human history visualized,
+pdf_title,ប្រវត្តិសាស្ត្រមនុស្សជាតិ អំឡុងពេល ៦០០០ឆ្នាំ,6000 years human history visualized,
 pdf_subject,ការកំណត់ពេលវេលារបស់មនុស្ស,Timeline of humankind,
 BCE,មុន​គ.ស.,B.C.E.,
 CE,គ.ស.,C.E.,
@@ -19,7 +19,7 @@ prophets,ហោរា,prophets,
 kings,ស្តេច,kings,
 periods,រយៈពេល,periods,
 events,ព្រឹត្តិការណ៍,events,
-objects,វត្ថុឬវត្ថុ,objects or items,
+objects,វត្ថុ,objects or items,
 Deluge,ទឹកជំនន់,Deluge,
 Adam,អាដាម​,Adam,Luke 3:38
 Seth,សេត​,Seth,
@@ -125,9 +125,9 @@ Job,យ៉ូប,Job,
 moses2,១៥៩៣ ដល់ ១៤៧៣ មុនគ.ស. - ១២០ ឆ្នាំ។,1593 to 1473 B.C.E. – 120 years,
 moses3,ម៉ូសេ,Moses,
 wilderness,អ៊ីស្រាអែលនៅទីរហោស្ថានពីឆ្នាំ ១៥១៣ ដល់ ១៤៧៣ មុនគ. - ៤០ ឆ្នាំ។,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,
-timespan_judges,១៤៧៣ ដល់ ១១៧ មុនគ.ស. - ៣៥៦ ឆ្នាំ។,1473 to 1117 B.C.E. – 356 years,
-timespan_judges2,ពេលវេលារបស់ចៅក្រម,Time of the judges,
-temple1,ខែ​ណែសាន ឆ្នាំ ១៥១៣ មុន គ.ស. ទៅ Ziv ១០៣៤ មុនគ។,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,
+timespan_judges,១៤៧៣ ដល់ ១១១៧ មុនគ.ស -- ៣៥៦ឆ្នាំ,1473 to 1117 B.C.E. – 356 years,
+timespan_judges2,ចន្លោះពេលវេលានៃចៅក្រម,Time of the judges,
+temple1,ខែ​ណែសាន ឆ្នាំ ១៥១៣ មុន គ.ស. ទៅ ស៊ីវ ១០៣៤ មុនគ។,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,
 temple2,៤៧៩ ឆ្នាំ​រហូត​ដល់​ការ​សាងសង់​ព្រះវិហារ​បរិសុទ្ធ — ពង្សាវតារក្សត្រ​ទី ១៦:១,479 years until the temple construction – 1 Kings 6:1,1034 BCE
 69weeks,ព្រះ​យេស៊ូ​បាន​ធ្វើ​បុណ្យ​ជ្រមុជ​ទឹក​នៅ​រដូវ​ស្លឹក​ឈើ​ជ្រុះ ឆ្នាំ ២៩ គ.ស.,Jesus baptized autumn 29 C.E.,
 69weeks2,៦៩ សប្តាហ៍ដល់ព្រះមេស្ស៊ី - ដានីយ៉ែល ៩: ២៥,69 weeks to the Messiah – Daniel 9:25,
@@ -196,10 +196,10 @@ jw_broadcasting,ការផ្សាយ jw.broadcast នៅខែតុលា �
 meeting_workbook,"ទម្រង់ថ្មីនៃកិច្ចប្រជុំពាក់កណ្តាលសប្តាហ៍ជាមួយ ""សៀវភៅការងារ"" ដែលចាប់ផ្តើមពីខែមករា ឆ្នាំ ២០១៦",New format of midweek meeting with “meeting workbook” starting January 2016,
 covid19,កូវីដ-១៩,Covid-19,
 cold_war,"ស្ថានភាពភូមិសាស្ត្រនយោបាយ បានដាក់ស្លាកថា ""សង្គ្រាមត្រជាក់"" ឆ្នាំ ១៩៤៥-១៩៩១",Geopolitical situation labeled “Cold War” 1945-1991,
-timeline_created,ការកំណត់ពេលវេលានេះត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ ២០១២៣ ដែលជាឆ្នាំក្តៅបំផុតក្នុងប្រវត្តិសាស្ត្រមនុស្សជាតិ និង ១២៥្០០០ ឆ្នាំចុងក្រោយ,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
+timeline_created,ចន្លោះពេលវេលានេះត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ២០២៣ ដែលជាឆ្នាំដែលមានអាកាសធាតុក្តៅបំផុតក្នុងប្រវត្តិសាស្ត្រមនុស្សជាតិ តាំងពី១២៥ ០០០ឆ្នាំមុន,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,Codex Sinaiticus បានសរសេរ,Codex Sinaiticus written,
 codex_vaticanus,Codex Vaticanus បានសរសេរ,Codex Vaticanus written,
-leningrad_codex,Leningrad Codex បានសរសេរនៅក្នុង ការ៉ូ ១០០៨,Leningrad Codex written in Cairo AD 1008,
+leningrad_codex,Leningrad Codex បានសរសេរនៅក្នុង Cairo AD ១០០៨,Leningrad Codex written in Cairo AD 1008,
 john,យ៉ូហាន​សរសេរ « វិវរណៈ » ពេល​ត្រូវ​និរទេស​នៅ​ប៉ាត់ម៉ុស ៩៦-៩៨ គ.ស.,John writes “revelation” while exiled on Patmos 96-98 C.E.,
 nicaea1,ក្រុមប្រឹក្សាទីមួយនៃនីកា,First Council of Nicaea,
 buddha,ព្រះពុទ្ធ - សត្ថាធិប្បាយ ហ្គោតាម៉ា ៥៦៣ - ៤៨៣ មុន​គ.ស.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,
@@ -338,17 +338,17 @@ oxyrhynchus,អាល់បាណាសា ផងដែរ។,Oxyrhynchus Papyri
 p52,ផងដែរ។ P៥២,Papyrus P52,
 daniel2_shift,10,10,Start 4.2
 daniel2_1,ស្ដេច​នេប៊ូក្នេសា​បំផ្លាញ,King Nebuchadnezzar,607 BCE
-daniel2_2,យេរូសាឡិម,destroys Jerusalem,
-daniel2_3,ច្បាំង​ឈ្នះ​បាប៊ីឡូន,Conquers Babylon,539 BCE
+daniel2_2,ការធ្លាក់ចុះនៃយេរូសាឡិម,destroys Jerusalem,
+daniel2_3,ការត្រួតត្រានៃបាប៉ីឡូន,Conquers Babylon,539 BCE
 daniel2_4,ស៊ីរូស​បង្គាប់​ពួក​យូដា​ឲ្យ​ទៅ​,Cyrus decrees return,537 BCE
 daniel2_5,យេរូសាឡិម​វិញ,of Jews to Jerusalem,
 daniel2_6,អាឡិចសង់​ដ៏​ខ្លាំង​ក្លា​,Alexander the Great,331 BCE
-daniel2_7,ច្បាំង​ឈ្នះ​ពើស៊ី,conquers Persia,
+daniel2_7,ការត្រួតត្រានៃពើស៉ី,conquers Persia,
 daniel2_8,គ្រប់​គ្រង​អ៊ីស្រាអែល,Rules over Israel,63 BCE
-daniel2_9,បំផ្លាញ​យេរូសាឡិម,Destroys Jerusalem,70 CE
+daniel2_9,ការធ្លាក់ចុះនៃយេរូសាឡិម,Destroys Jerusalem,70 CE
 daniel2_10,អំឡុង​សង្គ្រាម​លោក​លើក​ទី​១,"During World War I,",1914-1918 CE
-daniel2_11,ចាប់​ផ្ដើម​មាន​ម,Anglo-American World Power,
-daniel2_12,ហា​អំណាច​អង់គ្លេស​អាម៉េរិក,comes into being,End 4.2
+daniel2_11,មហាអំណាចអង់គ្លេសអាម៉េរិច,Anglo-American World Power,
+daniel2_12,ចាប់ផ្តើមកាន់កាប់,comes into being,End 4.2
 qing-dynasty,១៦៣៦-១៩១២,1636-1912,
 qing-dynasty_c,រាជវង្សឈីង,Qing dynasty,1636-1912
 ming-dynasty,១៣៦៨-១៦៤៤,1368-1644,
@@ -389,9 +389,9 @@ northern-dynasties_c,រាជវង្សខាងជើង,Northern Dynasties,
 southern-dynasties_c,រាជវង្សខាងត្បូង,Southern Dynasties,420-589 CE
 tang-dynasty1_c,តាំង,Tang,
 tang-dynasty2_c,រាជវង្សថាង,Tang Dynasty,"618-690, 705-907"
-xia-dynasty,រាជវង្ស Xia នៅប្រទេសចិន គ. ២០៧០ – គ. ១៦០០ មុនគ,Xia dynasty in China c. 2070 – c. 1600 BC,
-gonghe,រាជវង្ស ហ្គុនហេ ៨៤១-៨២៨ មុនគ,Gonghe Regency 841-828 BC,
-Ashoka,អសោក (គ.៣០៤-២៣២ មុនគ.ស) លើកស្ទួយព្រះពុទ្ធសាសនា,Ashoka (c. 304-232 BC) promotes Buddhism,
+xia-dynasty,រាជវង្ស Xia នៅបករទេសចិនប្រហែល ឆ្នាំ២០៧០- ប្រហែល១៦០០ មុនគ.ស,Xia dynasty in China c. 2070 – c. 1600 BC,
+gonghe,រាជវង្សហ្គុនហេ ៨៤១-៨២៨ មុនគ.ស,Gonghe Regency 841-828 BC,
+Ashoka,អសោក (ប្រហែល ៣០៤-២៣២ មុនគ.ស) ផ្សព្វផ្សាយសាសនាព្រះពុទ្ធ,Ashoka (c. 304-232 BC) promotes Buddhism,
 siloam-tunnel,ហេសេគាពង្រីកផ្លូវរូងក្រោមដីស៊ីឡូអាម,Hezekiah extends Siloam tunnel,c. 742-732 BC
 Angloamerica2,"អង់គ្លេស​អាម៉េរិក ត្រូវ​បាន​តំណាង​ដោយ​ជើង​ដែក​លាយ​នឹង​ដីឥដ្ឋ នៅ​ក្នុង​ទំនាយ​នៅ​ក្នុង ដានីយ៉ែល ២:៣៣, ៤១-៤៣។","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",
 Manetho,ម៉ាណេតូ សរសេរ អេហ្ស៊ីប,Manetho writes Aegyptiaca,
@@ -444,4 +444,4 @@ hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
 Al-Khwarizmi,អាល់-ឃវ៉ារីសមី សរសេរ Al-Jabr (ពិជគណិត),al-Khwarizmi writes Al-Jabr (Algebra),
 al-azhar,សាកលវិទ្យាល័យ អាល់អាហ្សា ត្រូវបានបង្កើតឡើងនៅទីក្រុងគែរ,Al-Azhar University is established in Cairo,
 Ibn-Sina,អ៊ីប៊ីនស៊ីណា ឬ អាវីសេណា,Ibn Sina or Avicenna,
-Al-Ghazali,អាល់ហ្គាហ្សាលី,Al-Ghazali,2024-06-19
+Al-Ghazali,អាល់ហ្គាហ្សាលី,Al-Ghazali,2024-09-10

@@ -4,24 +4,47 @@
 [![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 
-This project creates a graph of Human history with python and reportlab. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With version 4.2 some images make it into the timeline after 15 years of slow development. See both for comparison below.
+This project creates a graph of Human history with python and ~~reportlab~~ fpdf2. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With v4.2 in early 2024 some images make it into the timeline after 15 years of slow development.
 
 ![timeline 4.6](timeline20240516_4.6.png)
 
-Compare this 4000 year timespan of version 4.2 from 2024:
+Compare this 4000 year timespan of **v4.2 from 2024** with the same time period in **v1.1 from 2009** (below):
 
 ![timeline 4.2 first 4000 years](timeline20240309_4k.png)
 
-With the same time period in version 1.1 from 2009:
-
 ![timeline 1.1](timeline20230630.png)
 
-## Create your own pdf file and fix mistakes on the fly
+You see that **many more details** were added. And something is off with the scale - explained later - since the **scale** (millimeter/year) in 2009 was not constant.
 
-With a Jupyter Notebook you can download all required files and install all software in 2 steps in a virtual machine and then create a fresh pdf in the third step. Edit the downloaded files in your browser and repeat step 3 for an updated version:
+### Translations
 
-- [Jypyter Notebook in Google Colab with reportlab](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing)
-- [Jupyter Notebook in Google Colab with fpdf2](https://colab.research.google.com/drive/1WbLz2Gz775j0bSFPHdQihAkub3wltAof?usp=sharing)
+The language specific files have been separated from the program code (together with other information, data and list of colors) since version 3.4. While I put the translated string into an utf-8 encoded `.csv` file, the very process is not that straightforward. It starts with a proper translation (cloud APIs for Azure cloud and Googletranslate are only a start), continues with fontfiles that support this language and glyphs (January 2024 with CJK) and continues with font shaping engines like harfbuzz (May 2024) for complexer writing systems like Persian, Devanagari for Hindi, Khmer and Sinhala, among a few. Currently there are 446 text fields in total in a few languages. The print edition has 5cm extra left and right for the rollers at the end of the scroll. The reference size is 1308x210 mm but it can be scaled to any size at the print shop:
+
+| Language                                                                |                    print                                    | names | reviewed | complete |   latest   |
+|-------------------------------------------------------------------------|:-----------------------------------------------------------:|:-----:|:--------:|:--------:|:----------:|
+| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)           | [link](https://timeline24.github.io/timeline_ar_print.pdf)  |       |          |          |            |
+| [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        | [link](https://timeline24.github.io/timeline_de_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
+| [English](https://timeline24.github.io/timeline_en.pdf)                 | [link](https://timeline24.github.io/timeline_en_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
+| [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       | [link](https://timeline24.github.io/timeline_es_print.pdf)  |   x   |          |          | 2024-06-15 |
+| [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         |                 |               |          |          |       |
+| [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       |                 |               |          |          |       |
+| [Igbo (Ásụ̀sụ́ Ìgbò)](https://timeline24.github.io/timeline_ig.pdf)       |                 |               |          |          |       |
+| [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        | [link](https://timeline24.github.io/timeline_ilo_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
+| [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        | [link](https://timeline24.github.io/timeline_ja_print.pdf)  |   x   |    x     |          | 2024-06-11 |
+| [Khmer (ខ្មែរ)](https://timeline24.github.io/timeline_km.pdf)             | [link](https://timeline24.github.io/timeline_km_print.pdf)  |   x   |          |          | 2024-06-19 |
+| [Khmer (ខ្មែរ) with Arabic numerals](https://timeline24.github.io/timeline_kman.pdf)  | [link](https://timeline24.github.io/timeline_kman_print.pdf) | x | |          | 2024-06-24 |
+| [Kankana-ey](https://timeline24.github.io/timeline_kne.pdf)             | [link](https://timeline24.github.io/timeline_kne_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
+| [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          |                 |               |          |          |       |
+| [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       |                 |               |          |          |       |
+| [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       | [link](https://timeline24.github.io/timeline_ru_print.pdf)  |   x   |          |          | 2024-06-17 |
+| [Sinhala (සිංහල)](https://timeline24.github.io/timeline_si.pdf)         |                 |               |          |          |       |
+| [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          |                 |               |          |          |       |
+| [Filipino (Tagalog)](https://timeline24.github.io/timeline_tl.pdf)      | [link](https://timeline24.github.io/timeline_tl_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
+| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) | [link](https://timeline24.github.io/timeline_vi_print.pdf)  |   x   |          |     x    | 2024-06-11 |
+| [Chinese Cantonese (Simplified) (普通话)](https://timeline24.github.io/timeline_yue.pdf) |       |         |          |          |       |
+| [Chinese Mandarin (Simplified) (普通话)](https://timeline24.github.io/timeline_zh.pdf)   |       |         |          |          |       |
+
+Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects in January 2024. For Khmer, Sinhala and Arabic I finally needed a shape engine like [harfbuzz](https://github.com/harfbuzz/harfbuzz). Since it is not supported in reportlab, I switched to [fpdf2](https://py-pdf.github.io/fpdf2/index.html) with version 4.7 in July 2024. 
 
 ## Reactivation 2023
 
@@ -48,36 +71,9 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - [v4.2](https://github.com/kreier/timeline/releases/tag/v4.2) 2024/03/09 Included the family of Terah and the image from __Daniel 2__ with the world powers from Daniel 7. And 6 small images as illustration.
 - [v4.3](https://github.com/kreier/timeline/releases/tag/v4.3) 2024/03/16 Convert dictionary files to __.csv__ format to be easier readable in a [Jupyter Notebook](db/timeline.ipynb). You can create the latest PDF in your language in [Google Colab](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing) with just a browser.
 - [v4.4](https://github.com/kreier/timeline/releases/tag/v4.4) 2024/03/24 Include inventions and insights that enable modern society from the last centuries with pictures. Add some of the __Chinese dynasties__ to the oldest known historic date of 841 BC (Sima Qian) and beyond.
-- [v4.5](https://github.com/kreier/timeline/releases/tag/v4.4) 2024/04/13 Include the great tribulation in the time of the end, and a graph of the world population for the last 2000 years. It aligns with advancements in science, culture and society.
-
-### Translations
-
-Since v3.4 the language specific files have been separated from the program code, data information and list of colors. With some good bible translations I get use the reference location of names to get a start of a translation, since the very dates are not changing. This gives a start to translate into another language. With currently 235 text fields I have to rely on Google translate for a first attempt - and then need someone with good language skills in the target language to complete the translation. Our current state:
-
-| language                                                                | version | last updated |
-|-------------------------------------------------------------------------|:-------:|:------------:|
-| [English](https://timeline24.github.io/timeline_en.pdf)                 |   4.6   |  2024-05-15  |
-| [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        |   4.6   |  2024-05-15  |
-| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) |   4.5   |  2024-04-02  |
-| [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       |   4.5   |  2024-04-14  |
-| [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       |   4.5   |  2024-04-23  |
-| [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       |   4.5   |  2024-04-15  |
-| [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        |   4.6   |  2024-05-16  |
-| [Kankana-ey](https://timeline24.github.io/timeline_kne.pdf)             |   4.6   |  2024-05-16  |
-| [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         |   4.5   |  2024-04-17  |
-| [Tagalog (Filipino)](https://timeline24.github.io/timeline_tl.pdf)      |   4.6   |  2024-05-16  |
-| [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       |   4.3   |  2024-03-30  |
-| [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        |   4.5   |  2024-04-15  |
-| [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          |   4.4   |  2024-03-30  |
-| [Sinhala (සිංහල)](https://timeline24.github.io/timeline_si.pdf)         |   4.3   |  2024-03-30   |
-| [Chinese Mandarin (Simplified) (中文简体（普通话))](https://timeline24.github.io/timeline_zh.pdf) | 4.4 | 2024-04-04 |
-| [Chinese Cantonese (Simplified)  [中文简体（广东话）]](https://timeline24.github.io/timeline_yue.pdf) | 4.4 | 2024-04-04 |
-| [Khmer (ខ្មែរ)](https://timeline24.github.io/timeline_km.pdf)             |   4.5   |  2024-04-22  |
-| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)           |   3.6   |              |
-| [Igbo (Ásụ̀sụ́ Ìgbò)](https://timeline24.github.io/timeline_ig.pdf)       |   3.6   |              |
-| [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          |   3.6   |              |
-
-Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects.
+- [v4.5](https://github.com/kreier/timeline/releases/tag/v4.5) 2024/04/13 Include the great tribulation in the time of the end, and a graph of the world population for the last 2000 years. It aligns with advancements in science, culture and society.
+- [v4.6](https://github.com/kreier/timeline/releases/tag/v4.6) 2024/05/31 Include more empires in Umayyad, Teotihuacan, Mongol, Inca and more. Added historic figures like Hammurabi, al-Khwarizimi, Genghis Khan and Dionysius Exiguus plus a few more smaller images
+- [v4.7](https://github.com/kreier/timeline/releases/tag/v4.7) 2024/07/25 Finally the rendering of RTL languages like Hebrew and Arabic are supported. The proper rendering of Arabic glyphs require a special font shape engine like [Harfbuzz](https://en.wikipedia.org/wiki/HarfBuzz) (also on [Github](https://github.com/harfbuzz/harfbuzz)) and my previous PDF generator [reportlab](https://www.reportlab.com/) has this not yet included. The pdf is now generated with [fpdf2](https://py-pdf.github.io/fpdf2/index.html). This project included text shaping [with version 2.7.5](https://py-pdf.github.io/fpdf2/TextShaping.html) in August 2023. This solved my problems with Khmer and Sinhala as well.
 
 ### Scale challenges
 
@@ -89,10 +85,25 @@ To compensate for limited printing area I created a border of 1cm around each pa
 | table 2          | -1550 | 150   | 1700     | 277      | 6.14     | 5          | 340     | 2009-02-10 |
 | table 3          | -130  | 2050  | 2180     | 277      | 7.87     | 10         | 218     | 2009-02-10 |
 | drawing odg      | -4000 | 2000  | 6000     | 1250     | 4.8      | ∞          | ∞       | 2015-12-13 |
-| reportlab python | -4050 | 2050  | 6100     | 1168     | 5.22     | ∞          | ∞       | 2023-10-17 |
+| reportlab python | -4075 | 2075  | 6150     | 1188     | 5.18     | ∞          | ∞       | 2023-10-17 |
 | [Adams Chart](https://en.wikipedia.org/wiki/Adams_Synchronological_Chart_or_Map_of_History)     | -4004 | 1900  | 5904     | 6900     | 0.86     | ∞          | ∞       | 1871-01-01 |
 
 See [scale.csv](spreadsheet/scale.csv)
+
+### Decision on the dimensions for this project
+
+After the experience of 8 months with [reportlab](https://pypi.org/project/reportlab/) I decided in June 2024 to fix some scale parameters with the new rendering engine [fpdf2](https://pypi.org/project/fpdf2/). The original project from 2009 was to fit on three landscape A4 papers, but for v3.0 I decided to have four A4 papers width to be able to see more details in the first century and during the time of the northern and southern kingdom in Israel. That gives a height of 210 mm and 4 x 297 = 1188 mm. With 7mm border top and bottom for the scale and numbering the drawing area is 1188 x 196 mm for 6150 years: 4075 BCE to 2075 CE. Inside we leave 1 mm on top and bottom, so 194 mm are used for 46 rows of 10pt text (1 pt = 1/72 inch = 0.3528 mm). 10 pt is therefore 3.5mm and line height 194/46 = 4.217 mm = 12 pt.
+
+Why __46 rows__? For Adam to Joseph the lifespans overlap and create a descending shifted graph for 23 rows. A little space (maybe for Job) and adding Moses requires a minimum 25 rows. More are needed for the kings of Judah and Israel. There are 3 kings for the united kingdom, followed by 21 kings in the northern 10-tribe kingdom (some as short as 7 days like Zimri) and 20 kings in the southern kingdom of Judah. With the project in 2009 this resulted in 3+21+20 = 44 rows. In time I flipped the names for the kings to opposite sites, so I could overlap them with just 4 rows between them, reducing the requirement to just 29 lines, leaving 17 lines below for prophets, other dynasties, philosophers and kingdoms of Daniel's prophecy in chapter 2, 7 and 10. The scale in 2023 had 44.7 rows, but with some adjustment I increased it to 46 and can now directly reference the rows in the data file csv.
+
+Reflecting on larger solutions with more space, some are found below (for example the 7 meter long and 68 cm wide chart by Adams), while they contain a lot more information, in the end they ran out of space anyways. You can't include every important detail. And the large size is hard to use, or even to transport. The limitation to four A4 papers makes the scroll small enough to put in a backpack and bring with you. And it's still long enough that usually you use it as a scroll and open the part you're interested in. Many now use the digital version on their tablet or smartphone, which still serves the purpose of visualizing time and events. There is the temptation to include more details in smaller sizes, but many pdf viewers limit the maximum zoom level. And it is inconsistent with the experience of the print version. It's better to be inspired to search for more information in addition to the presented events. 
+
+## Create your own pdf file and fix mistakes on the fly - with just a browser in less than 60 seconds
+
+With a Jupyter Notebook you can download all required files and install all software in 2 steps in a virtual machine and then create a fresh pdf in the third step. Edit the downloaded files in your browser and repeat step 3 for an updated version:
+
+- [Jypyter Notebook in Google Colab with reportlab](https://colab.research.google.com/drive/1G0z6jKIs_B_Md_y6Wen108Keo5WazalZ?usp=sharing)
+- [Jupyter Notebook in Google Colab with fpdf2](https://colab.research.google.com/drive/1WbLz2Gz775j0bSFPHdQihAkub3wltAof?usp=sharing)
 
 ## Inspiration and other solutions
 
@@ -104,64 +115,39 @@ Even more similar to my project is [Adams Synchronological Chart or Map of Histo
 
 ![Adams Chart](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Adams_Synchronological_Chart%2C_1881.jpg/1280px-Adams_Synchronological_Chart%2C_1881.jpg)
 
-In 2008 I got "Knaur's Zeittafel der Weltgeschichte - Den letzten 6000 Jahren auf der Spur" with a total length of 10 meters. I'm far from having all these information included in my edition. Here are links to [two editions](https://www.amazon.de/-/en/Alex-Klubertanz/dp/3828908519/ref=monarch_sidesheet) at [amazon.de](https://www.amazon.de/-/en/dp/3829017057/ref=monarch_sidesheet).
+In 2008 I got "Knaur's Zeittafel der Weltgeschichte - Den letzten 6000 Jahren auf der Spur" with a total length of 7 meters. I'm far from having all these information included in my edition. Here are links to [two editions](https://www.amazon.de/-/en/Alex-Klubertanz/dp/3828908519/ref=monarch_sidesheet) at [amazon.de](https://www.amazon.de/-/en/dp/3829017057/ref=monarch_sidesheet).
 
-Here is [another example from amazon.de](https://www.amazon.de/Super-Jumbo-History-Timeline-Poster/dp/0721712002/ref=monarch_sidesheet), covering the last 5000 years in 1.2 meter like this project here:
+Here is [another example from amazon.de](https://www.amazon.de/Super-Jumbo-History-Timeline-Poster/dp/0721712002/ref=monarch_sidesheet), covering the last 5000 years in 1.2 meter like this project here. The map by Schofield & Sims:
 
-![map by Schofield & Sims](amazon_schofield_sims.jpg) 
-<!-- 
-![map by Schofield & Sims](amazon_schofield_sims.jpg) 
 ![map by Schofield & Sims](https://m.media-amazon.com/images/I/A1QO0k+1wZL._SL1500_.jpg)
+<!-- map by Schofield & Sims
+https://m.media-amazon.com/images/I/A1QO0k+1wZL._SL1500_.jpg
+https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_schofield_sims.jpg
 -->
 
-It looks like Knaur's book was inspired by [Adams Synchronological Chart or Map of History](https://www.amazon.com/Adams-Synchronological-Chart-Map-History/dp/0890515131) - it is 23' long (7 meter) and 27" tall (68 cm). Original from 1871.
+It looks like Knaur's book is a translated and updated version of [Adams Synchronological Chart or Map of History](https://www.amazon.com/Adams-Synchronological-Chart-Map-History/dp/0890515131) - which is 23' long (7 meter) and 27" tall (68 cm). The original is from 1871.
 
-<!-- ![Adams Map of History](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71Gu3yuzzKL._SL1500_.jpg) -->
-![Adams Map of History](amazon_adams_map.jpg)
+![Adams Map of History](https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_adams_map.jpg)
+<!-- Adams Map of History
+https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71Gu3yuzzKL._SL1500_.jpg
+https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_adams_map.jpg
+-->
+
 
 The reformation made [a timeline for the 220 years](https://www.amazon.com/Timeline-of-the-Reformation-Poster/dp/B09DRPQN3V) 1480 - 1700 AD in a similar style.
 
 Another design attempt to pack a lot of information in a written horizontal way into a timeline that progresses from left to right is this [Texan Spiral semicircle project](https://www.amazon.com/Bible-Timeline-History-Chart-Chronological/dp/B0BMWW7WWP):
 
-<!-- ![Bible Timeline History Chart](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81C4HVcpl4L._AC_SL1500_.jpg) -->
-![Bible Timeline History Chart](amazon_bible_history_cart.jpg)
+![Bible Timeline History Chart](https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_bible_history_cart.jpg)
+<!-- Bible Timeline History Chart
+https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81C4HVcpl4L._AC_SL1500_.jpg
+https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_bible_history_cart.jpg
+-->
 
 Time of 12 Prophets from 850 BCE to 400 BCE
 
 ![time of 12 prophets](12prophets.jpg)
 
-
-## Vector Image with .odg in 2015
-
-Using a spreadsheet limits the options in resolution of a digital image or pdf to create. A pixel image does not allow for a good zoom, so I wanted to create a vector image that could be exported as pdf with the ability to zoom into details. On October 12, 2015 I started a LibreOffice 4.4 Drawing ODG with a scale of 1cm for 50 years or 5 years/millimeter, resulting in a document with the dimensions 1250x297 mm. This could be printed on my endless A4 paper roll. [Last export as pdf](https://github.com/kreier/timeline/blob/main/spreadsheet/Zeitleiste_wide_20151213.pdf) on December 13, 2015. 
-
-![Zeitleiste 2015](zeitleiste2015.png)
-
-## Start with a spreadsheet in February 2009
-
-The project to create a paper timeline of human history is done by teenagers around the world. I got an endless paper roll of 10 meters length to start this project, but decided to begin with a digital version. On February 10th, 2009 I created a spreadsheet in OpenOffice 3.0 with 3 tabs for the time 4050-1450 BCE, 1550 BCE - 150 CE and 150-2050 CE. All are designed to fit on a A4 paper, so these 3 pages can be glued together for a single timeline spanning 6000 years.
-
-![Zeitleiste 2009](zeitleiste2009.png)
-
-### 4050 - 1450 BCE
-
-For these 2600 years I chose a resolution of 10 years. The spreadsheet has 260 columns, but for the long periods of this time it is precise enough.
-
-![Zeitleiste 4050-1450](zeitleiste_4050-1450.png)
-
-### 1550 BCE - 150 CE
-
-The resolution of only 10 years makes it difficult to visualize shorter time perios like the 2 years that Pekachja ruled Israel from 780-778 BCE or the one year that Ahasja ruled Juda 907-906 BCE. The second tile therefore is divided into columns for 5 years and needs 340 columns for the 1700 years from 1550 BCE to 150 CE.
-
-![Zeitleiste 1550 BCE - 150 CE](zeitleiste_1550-150.png)
-
-### 130 BCE - 2050 CE
-
-The third tile went back to 10 years per column and needs 218 columns.
-
-![Zeitleiste 130 BCE - 2050 CE](zeitleiste_130-2050.png)
-
-To be continued and get inspired ...
 
 ## Short history of this project - with just pictures
 
@@ -183,3 +169,4 @@ To be continued and get inspired ...
 ![2024-1](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240309_4.2.png)
 ![2024-2](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240413_4.5.png)
 ![2024-3 timeline 4.6](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240516_4.6.png)
+![2024-7 timeline 4.7](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240725_4.7.png)
