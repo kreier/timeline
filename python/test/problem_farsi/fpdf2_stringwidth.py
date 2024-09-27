@@ -27,5 +27,7 @@ for typeface in fontname:
     right_align(teststrings, False)
     pdf.set_text_shaping(use_shaping_engine=True, script="arab", language="far")
     right_align(teststrings, False)
+    pdf.cell(text="hello")
+    right_align(teststrings, False)
     right_align(teststrings, True)
     pdf.output("fpdf2_stringwidth" + typeface + ".pdf")
