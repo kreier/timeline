@@ -8,7 +8,7 @@ import googletrans
 import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 4.7
+version  = 4.9
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -199,6 +199,17 @@ def create_canvas(edition):
     global dots_year
     dots_year = drawing_width / 6150
 
+    # Draw small lines into the corners for the print edition, since print shops import only the
+    # content area and exclude the white space from the desired print area
+    if edition == "print":
+        pdf.set_line_width(0.1)
+        pdf.set_draw_color(r=0, g=0, b=0)
+        cornerpoints = [[0.1, 0.1, 1, 1], [page_width - 0.2, 0.1, -1, 1], [0.1, page_height - 0.2, 1, -1], [page_width - 0.2, page_height - 0.2, -1, -1]]
+        for [x, y, dx, dy] in cornerpoints:
+            pdf.line(x, y, x + 10*dx, y)
+            pdf.line(x, y, x, y + 10*dy)
+            print(x, y, dx, dy)
+
     # import features of the supported language into dataframe supported_language
     df = pd.read_csv("../db/supported_languages.csv", encoding='utf8')
     df = df.fillna(" ")
@@ -213,6 +224,7 @@ def create_canvas(edition):
         direction = "l"
         direction_rl = "r"
         direction_factor = -1
+
     # Import the script/glyph for this language
     if df.at[row_index[0], 'fontname'] == " ":
         font_regular = "Aptos"
