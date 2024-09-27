@@ -14,7 +14,7 @@ def right_align(teststrings, more_text):
         pdf.set_x(120 - pdf.get_string_width(string))
         print(f"{pdf.get_string_width(string):.2f} {string}    ", end="")
         pdf.rect(pdf.get_x(), pdf.get_y() + 2.2, pdf.get_string_width(string), 11, style="D")
-        pdf.cell(h=13, text=string + " ")
+        pdf.cell(h=13, text=string)
         pdf.ln()
     print(" ")
 
