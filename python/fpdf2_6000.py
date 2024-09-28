@@ -694,6 +694,7 @@ def create_terah_familytree():
     global counter_terahfam, direction_factor
     shift_x = 30 * direction_factor
     lines = pd.read_csv("../db/terah-lines.csv", encoding='utf8')        # lines in black and green
+    shift_lines = -0.33
     for index, row in lines.iterrows():
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
@@ -701,9 +702,9 @@ def create_terah_familytree():
             pdf.set_line_width(1.0)
             pdf.set_draw_color(13, 155, 13)
         x_1 = x_position(-row.start) + shift_x
-        y_1 = y_position(row.start_row - 0.33)
+        y_1 = y_position(row.start_row + shift_lines)
         x_2 = x_position(-row.end) + shift_x
-        y_2 = y_position(row.end_row - 0.33)
+        y_2 = y_position(row.end_row + shift_lines)
         pdf.line(x_1, y_1, x_2, y_2)
     terah = pd.read_csv("../db/terah-family.csv", encoding='utf8')      # text in blue and red on white boxes
     print(f"Imported family tree of Terah: {len(terah)} text fields")
@@ -722,6 +723,10 @@ def create_terah_familytree():
         if row.color == "red":
             pdf.set_text_color(red[0]*255, red[1]*255, red[2]*255)
         drawString(dict[row.key], 10, x, y, "c", False)
+        if row.sup > 0:
+            pdf.char_vpos = "SUP"
+            pdf.write(text=str(row.sup))
+            pdf.char_vpos = "LINE"
     counter_terahfam = 80
 
 def include_pictures():
