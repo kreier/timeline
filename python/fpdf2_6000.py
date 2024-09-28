@@ -208,7 +208,6 @@ def create_canvas(edition):
         for [x, y, dx, dy] in cornerpoints:
             pdf.line(x, y, x + 10*dx, y)
             pdf.line(x, y, x, y + 10*dy)
-            print(x, y, dx, dy)
 
     # import features of the supported language into dataframe supported_language
     df = pd.read_csv("../db/supported_languages.csv", encoding='utf8')
@@ -758,20 +757,29 @@ def include_pictures_svg():
                 local_x -= row.width
             pdf.image(location, local_x, y_position(row.y) - row.height - 1.2, row.width, row.height)
     # text for world population graphic
+
     population_x = x_position(-3677) + int(dict["daniel2_shift"])
+    population_y = 19
+    if version > 4.8:
+        population_x = x_position(-4075)
+        population_y = 33
     pdf.set_text_color(25, 25, 160)
     pdf.set_font_size(4)
-    drawString("source: https://www.worldometers.info/world-population/#table-historical", 4, population_x, y_position(20), direction, False)
+    drawString("source: https://www.worldometers.info/world-population/#table-historical", 4, population_x, y_position(population_y + 1), direction, False)
     population_color = color["world_population"]
     pdf.set_font(font_regular, "", 10)
     pdf.set_text_color(population_color[0]*255, population_color[1]*255, population_color[2]*255)
-    drawString(dict["world_population"], 10, population_x, y_position(19) , direction, False)
+    drawString(dict["world_population"], 10, population_x, y_position(population_y) , direction, False)
 
 def create_daniel2():
     global font_regular, font_bold
+    left_x = -4026
+    shift_upward = 30*mm    
+    if version > 4.8:
+        left_x = -4075
+        shift_upward = 70*mm
     d2_height = 96*mm
     d2_width  = d2_height / 748 * 240
-    shift_upward   = 30*mm    
     kingdoms = ["Babylon", "Medopersia", "Greece", "Rome", "Angloamerica"]
     years = ["607BCE", "", "539BCE", "537BCE", "", "331BCE", "", "63BCE", "70CE", "1914CE", "", ""] 
     yearlines = [2, 3, 2, 2, 3]
@@ -782,13 +790,13 @@ def create_daniel2():
         co = color["daniel2"]
         pdf.set_draw_color(co[0]*255, co[1]*255, co[2]*255)
         y_line = y2 - shift_upward - d2_height * (0.91 - index * 0.212)
-        pdf.line(x_position(-3800) + image_shift, y_line, x_position(-4026), y_line)
+        pdf.line(x_position(left_x+226) + image_shift, y_line, x_position(left_x), y_line)
         pdf.set_text_color(co[0]*255, co[1]*255, co[2]*255)
         pdf.set_font(font_bold, "", 12)
-        drawString(dict[kingdom + "_c"], 12, x_position(-4026), y_line + 2, direction, False)
+        drawString(dict[kingdom + "_c"], 12, x_position(left_x), y_line + 2, direction, False)
         pdf.set_text_color(50)
         pdf.set_font(font_regular, "", 8)
-        drawString(dict[kingdom], 8, x_position(-4026), y_line + 15.4, direction, False)
+        drawString(dict[kingdom], 8, x_position(left_x), y_line + 15.4, direction, False)
         if years[current_yearline] != "":
             current_yearstring = dict[years[current_yearline]]
         pdf.set_font(font_regular, "", 6)
@@ -797,31 +805,37 @@ def create_daniel2():
             yearstring = " "
             if years[current_yearline] != "":
                 yearstring = dict[years[current_yearline]]
-            drawString(yearstring, 6, x_position(-4026), y_line + 25.2 + 8 * yearline, direction, False)
+            drawString(yearstring, 6, x_position(left_x), y_line + 25.2 + 8 * yearline, direction, False)
             line_daniel2 = "daniel2_" + str(current_yearline+1)
-            drawString(dict[line_daniel2], 6, x_position(-4026) + indentation*direction_factor, y_line + 25.2 + 8 * yearline, direction, False)
+            drawString(dict[line_daniel2], 6, x_position(left_x) + indentation*direction_factor, y_line + 25.2 + 8 * yearline, direction, False)
             current_yearline += 1
     file_d2 = "../images/daniel2"
     if daniel2_nwt:
         file_d2 += "_nwt"
-    d2_x = x_position(-3850) + image_shift * direction_factor
+    d2_x = x_position(left_x+176) + image_shift * direction_factor
     if not left_to_right:
         file_d2 += "_rtl"
         d2_x -= d2_width
     pdf.image(file_d2 + ".svg", x = d2_x, y = y2 - shift_upward - d2_height, w = d2_width , h = d2_height)
 
 def create_timestamp():
-    timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "objects", "terahfam"]
-    for index, detail in enumerate(timestamp_details):
-        drawString(f"{dict[detail]}", 4, x_position(-4075) + 6 * direction_factor, y2 - 42 + 4.5 * index, direction, False)
-    for index, detail in enumerate(timestamp_details):
-        counter_detail = str(eval("counter_" + detail))
-        counter_detail = number_to_string(counter_detail, language)
-        drawString(counter_detail, 4, x_position(-4075) + 5.4 * direction_factor, y2 - 42 + 4.5 * index, direction_rl, False)
+    qr_x = -4026
+    qr_y = 6.1
+    if version < 4.8:
+        timestamp_details = ["people", "judges", "prophets", "kings", "periods", "events", "objects", "terahfam"]
+        for index, detail in enumerate(timestamp_details):
+            drawString(f"{dict[detail]}", 4, x_position(-4075) + 6 * direction_factor, y2 - 42 + 4.5 * index, direction, False)
+        for index, detail in enumerate(timestamp_details):
+            counter_detail = str(eval("counter_" + detail))
+            counter_detail = number_to_string(counter_detail, language)
+            drawString(counter_detail, 4, x_position(-4075) + 5.4 * direction_factor, y2 - 42 + 4.5 * index, direction_rl, False)
+    else:
+        qr_x = -4075
+        qr_y = 3.8
     pdf.set_font("Aptos", "", 4)
     pdf.set_text_color(50)
     pdf.set_text_shaping(use_shaping_engine=True, language="eng")
-    info_width = pdf.get_string_width(f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – some images are CC BY-SA")
+    info_width = pdf.get_string_width(f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – license: MIT – some images are CC BY-SA")
     if left_to_right:
         info_width = 0
     pdf.set_xy(x_position(-4075) - info_width, y2 - 6)
@@ -829,7 +843,7 @@ def create_timestamp():
     pdf.set_text_color(25, 25, 150)
     pdf.cell(text=f"{pdf_author}", link="https://kreier.github.io/timeline/")
     pdf.set_text_color(50)
-    pdf.cell(text=" – some ")
+    pdf.cell(text=" – license: MIT – some ")
     pdf.set_text_color(25, 25, 150)
     pdf.cell(text="images", link="https://github.com/kreier/timeline/blob/main/images/images_source.csv")
     pdf.set_text_color(50)
@@ -841,22 +855,22 @@ def create_timestamp():
     qr_size = 15*mm
     if os.path.exists(qr_file):
         if left_to_right:
-            pdf.image(qr_file, x_position(-4026), y_position(6.10), qr_size, qr_size)
+            pdf.image(qr_file, x_position(qr_x), y_position(qr_y), qr_size, qr_size)
         else:
-            pdf.image(qr_file, x_position(-4026) - qr_size, y_position(6.1), qr_size, qr_size)
+            pdf.image(qr_file, x_position(qr_x) - qr_size, y_position(qr_y), qr_size, qr_size)
         pdf.set_font_size(4.5)
         pdf.set_text_color(30)
         timestamp = str(datetime.datetime.now())
         dateindex = timestamp[2:4] + timestamp[5:7] + timestamp[8:10]
         rotation_angle = -90
-        rotation_y = y_position(6.2)
+        rotation_y = y_position(qr_y + 0.1)
         if left_to_right:
             rotation_angle = 90
             rotation_y += qr_size * 0.94
-        with pdf.rotation(angle=rotation_angle, x=x_position(-4026), y=rotation_y):
-            pdf.set_xy(x_position(-4026), y_position(6.3) + qr_size * (1.47 + 0.47 * direction_factor))
+        with pdf.rotation(angle=rotation_angle, x=x_position(qr_x), y=rotation_y):
+            pdf.set_xy(x_position(qr_x), y_position(qr_y + 0.2) + qr_size * (1.47 + 0.47 * direction_factor))
             pdf.cell(text="timeline " + language)
-            pdf.set_xy(x_position(-4026), y_position(6.68) + qr_size * (1.47 + 0.47 * direction_factor))
+            pdf.set_xy(x_position(qr_x), y_position(qr_y + 0.58) + qr_size * (1.47 + 0.47 * direction_factor))
             pdf.cell(text=dateindex)
 
 def render_to_file():
@@ -961,4 +975,4 @@ if __name__ == "__main__":
         daniel2_nwt = True
     if is_supported(language):
         create_timeline(language, "digital")
-        create_timeline(language, "print")
+        # create_timeline(language, "print")
