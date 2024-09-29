@@ -693,7 +693,12 @@ def create_tribulation():
 def create_terah_familytree():
     global counter_terahfam, direction_factor
     shift_x = 30 * direction_factor
-    lines = pd.read_csv("../db/terah-lines.csv", encoding='utf8')        # lines in black and green
+    file_lines  = "../db/terah-lines.csv"
+    file_family = "../db/terah-family.csv"
+    if version > 4.8:
+        file_lines  = "../db/terah-lines2.csv"
+        file_family = "../db/terah-family2.csv"
+    lines = pd.read_csv(file_lines, encoding='utf8')        # lines in black and green
     shift_lines = -0.33
     for index, row in lines.iterrows():
         pdf.set_line_width(0.3)
@@ -706,7 +711,7 @@ def create_terah_familytree():
         x_2 = x_position(-row.end) + shift_x
         y_2 = y_position(row.end_row + shift_lines)
         pdf.line(x_1, y_1, x_2, y_2)
-    terah = pd.read_csv("../db/terah-family.csv", encoding='utf8')      # text in blue and red on white boxes
+    terah = pd.read_csv(file_family, encoding='utf8')      # text in blue and red on white boxes
     print(f"Imported family tree of Terah: {len(terah)} text fields")
     red  = color["terah_red"]
     blue = color["terah_blue"]
@@ -723,11 +728,16 @@ def create_terah_familytree():
         if row.color == "red":
             pdf.set_text_color(red[0]*255, red[1]*255, red[2]*255)
         drawString(dict[row.key], 10, x, y, "c", False)
-        if row.sup > 0:
-            pdf.char_vpos = "SUP"
-            pdf.write(text=str(row.sup))
-            pdf.char_vpos = "LINE"
-    counter_terahfam = 80
+        if version > 4.8:
+            if row.sup > 0:
+                pdf.char_vpos = "SUP"
+                pdf.write(text=str(row.sup))
+                pdf.char_vpos = "LINE"
+    footnotes = pd.read_csv("../db/terah-footnotes.csv", encoding='utf8')
+    pdf.set_text_color(0, 0, 0)
+    for index, row in footnotes.iterrows():
+        drawString(dict[row.key], 10, x_position(row.year), y_position(row.row), "r", False)
+    counter_terahfam = 88
 
 def include_pictures():
     global font_regular, direction, pdf
@@ -753,16 +763,20 @@ def include_pictures_svg():
     for index, row in pictures_svg.iterrows():
         location = "../images/" + row.key + ".svg"
         local_x = x_position(row.x)
+        local_y = y_position(row.y)
         if row.key == "world_population":
             local_x += int(dict["daniel2_shift"])
+            if version > 4.8:
+                local_x = x_position(-4090)
+                local_y = y_position(45.3)
         if row.fpdf2:
             if row.year != 0:
-                drawString(str(row.year), 5.9, local_x, y_position(row.y) - 1, direction, True)
+                drawString(str(row.year), 5.9, local_x, local_y - 1, direction, True)
             if not left_to_right:
                 local_x -= row.width
-            pdf.image(location, local_x, y_position(row.y) - row.height - 1.2, row.width, row.height)
-    # text for world population graphic
+            pdf.image(location, local_x, local_y - row.height - 1.2, row.width, row.height)
 
+    # text for world population graphic
     population_x = x_position(-3677) + int(dict["daniel2_shift"])
     population_y = 19
     if version > 4.8:
@@ -980,4 +994,4 @@ if __name__ == "__main__":
         daniel2_nwt = True
     if is_supported(language):
         create_timeline(language, "digital")
-        # create_timeline(language, "print")
+        create_timeline(language, "print")
