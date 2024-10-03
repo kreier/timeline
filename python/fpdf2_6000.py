@@ -177,7 +177,6 @@ def create_canvas(edition):
     pdf = FPDF(unit="pt", format=(page_width, page_height))       # no orientation ="landscape" since it only swaps width and height
     pdf.set_margin(0)
     pdf.c_margin = 0
-    pdf.set_author(pdf_author)
     pdf.add_font("Aptos", style="", fname="fonts/aptos.ttf")
     pdf.set_font("Aptos", "", fontsize_regular)
     pdf.set_text_color(0)
