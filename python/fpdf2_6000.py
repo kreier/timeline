@@ -4,7 +4,7 @@
 
 from fpdf import FPDF
 import pandas as pd
-import googletrans
+# import googletrans # there is a PR for v4.0.0 since 2024-11-20 that should fix many problems
 import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
