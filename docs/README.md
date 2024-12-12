@@ -4,7 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 
-This project creates a graph of Human history with python and ~~reportlab~~ fpdf2. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With v4.2 in early 2024 some images make it into the timeline after 15 years of slow development.
+This [project](https://github.com/kreier/timeline) creates a graph of Human history with python and ~~reportlab~~ fpdf2. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. After 15 years of slow development some images make it into the timeline in early 2024 with v4.2.
 
 ![timeline 4.6](timeline20240516_4.6.png)
 
