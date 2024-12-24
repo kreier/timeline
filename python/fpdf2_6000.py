@@ -995,4 +995,4 @@ if __name__ == "__main__":
         daniel2_nwt = True
     if is_supported(language):
         create_timeline(language, "digital")
-        # create_timeline(language, "print")
+        create_timeline(language, "print")
