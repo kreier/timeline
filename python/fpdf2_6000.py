@@ -8,7 +8,7 @@ import pandas as pd
 import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 4.9
+version  = 5.1
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -336,7 +336,9 @@ def create_adam_moses():
         if language == "ilo":
             details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {dict['years_age']} {born - died}"
         x_box = x_position(row.born)
-        y_box = y1 + index * 21 + 2
+        y_box = y1 + index * 20.5 + 2   # line height was 21 until 2024
+        if index > 18:   # after Terah
+            y_box += 10.5
         if index == 23:  # Moses
             y_box += 12
         x_boxwidth = x_position(born) - x_position(died)
@@ -345,7 +347,7 @@ def create_adam_moses():
         pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
-        pdf.rect(x_box, y_box, x_boxwidth, 19, style="FD")
+        pdf.rect(x_box, y_box, x_boxwidth, 19, style="FD") # Boxes are 19 pt high, 21 pt seperated from one another - 20.5 since 5.1
         y_box += y_offset
         pdf.set_text_color(255)
         pdf.set_font(font_bold, "", fontsize_AMoses)
@@ -993,4 +995,4 @@ if __name__ == "__main__":
         daniel2_nwt = True
     if is_supported(language):
         create_timeline(language, "digital")
-        create_timeline(language, "print")
+        # create_timeline(language, "print")
