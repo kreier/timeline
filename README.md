@@ -22,12 +22,12 @@ The language specific files have been separated from the program code (together 
 
 | Language                                                                |                    print                                    | names | reviewed | complete |   latest   |
 |-------------------------------------------------------------------------|:-----------------------------------------------------------:|:-----:|:--------:|:--------:|:----------:|
-| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)           | [link](https://timeline24.github.io/timeline_ar_print.pdf)  |       |          |          |            |
+| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)           | [link](https://timeline24.github.io/timeline_ar_print.pdf)  |   x   |          |          | 2024-06-25 |
 | [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        | [link](https://timeline24.github.io/timeline_de_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
 | [English](https://timeline24.github.io/timeline_en.pdf)                 | [link](https://timeline24.github.io/timeline_en_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
 | [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       | [link](https://timeline24.github.io/timeline_es_print.pdf)  |   x   |          |          | 2024-06-15 |
 | [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         |                 |               |          |          |       |
-| [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       |                 |               |          |          |       |
+| [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       | [link](https://timeline24.github.io/timeline_es_print.pdf)  |   x   |          |          | 2024-04-14 |
 | [Igbo (Ásụ̀sụ́ Ìgbò)](https://timeline24.github.io/timeline_ig.pdf)       |                 |               |          |          |       |
 | [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        | [link](https://timeline24.github.io/timeline_ilo_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
 | [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        | [link](https://timeline24.github.io/timeline_ja_print.pdf)  |   x   |    x     |          | 2024-06-11 |
@@ -74,6 +74,8 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - [v4.5](https://github.com/kreier/timeline/releases/tag/v4.5) 2024/04/13 Include the great tribulation in the time of the end, and a graph of the world population for the last 2000 years. It aligns with advancements in science, culture and society.
 - [v4.6](https://github.com/kreier/timeline/releases/tag/v4.6) 2024/05/31 Include more empires in Umayyad, Teotihuacan, Mongol, Inca and more. Added historic figures like Hammurabi, al-Khwarizimi, Genghis Khan and Dionysius Exiguus plus a few more smaller images
 - [v4.7](https://github.com/kreier/timeline/releases/tag/v4.7) 2024/07/25 Finally the rendering of RTL languages like Hebrew and Arabic are supported. The proper rendering of Arabic glyphs require a special font shape engine like [Harfbuzz](https://en.wikipedia.org/wiki/HarfBuzz) (also on [Github](https://github.com/harfbuzz/harfbuzz)) and my previous PDF generator [reportlab](https://www.reportlab.com/) has this not yet included. The pdf is now generated with [fpdf2](https://py-pdf.github.io/fpdf2/index.html). This project included text shaping [with version 2.7.5](https://py-pdf.github.io/fpdf2/TextShaping.html) in August 2023. This solved my problems with Khmer and Sinhala as well.
+- [v4.9](https://github.com/kreier/timeline/releases/tag/v4.9) 2024/09/15 Abraham's later wife Keturah is included into the image and the ancestry of the Midianites. Now the genealogy includes 6 nations with their name-giving father and illustrate the family relations. The extra space needed for Keturah and her 6 sons was provides by reorganizing the Daniel 2 image and the world population of the last 2000 years. And finally the life expectancy in Moses times was included with a graph to represent the health condition of people in his time.
+- [5.1]() The time period of 430 years was included as a graph.
 
 ### Scale challenges
 
