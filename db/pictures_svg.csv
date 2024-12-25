@@ -2,16 +2,17 @@ key,x,y,width,height,pix_w,pix_h,year,notes,fpdf2
 cessna,1903,1,21,12.2,1600,930,1903,from wikipedia,TRUE
 dna,1953,43.5,20,20,800,800,1953,,TRUE
 edison,1879,45.7,15,22.5,500,750,1879,was 7.7,TRUE
-haber_process,1903,7.6,58,6.845,161,19,1903,,FALSE
+haber_process,1903,7.6,58,6.84,161,19,1903,,FALSE
 history_of_china,1368,41.2,40,9.45,512,121,0,from wikipedia,FALSE
 JW_Logo,2012,15.2,15,15,100,100,2012,,TRUE
 laptop,1980,4.5,25,23.23,424,394,0,,FALSE
 maxwell,1860,4.4,23,18.42,201,161,1861,,FALSE
 morse,1837,1.3,25,9.8,255,100,1837,,FALSE
 nuclear,1940,1.3,21,21,500,500,1945,,TRUE
-signaltower,1920,5.3,8,16.4,100,205,1920,,TRUE
+signaltower,1920,5.3,8,16.4,100,205,1920,column E will be:,TRUE
 telephone,1876,2.3,15,13.55,300,271,1876,=INT(D5/F5*G5*100)/100,FALSE
 telescope,1609,2.2,16,22.54,550,775,1609,,TRUE
 tv,1928,45.7,20,14.196,286,203,1928,,FALSE
 world_population,-3695,31.3,260,133.95,757,390,0,,TRUE
 www,1991,41,35,7.35,1000,210,1991,was 5.6,FALSE
+maya,-3135,18.8,15,34.99,670,1563,0,,TRUE
