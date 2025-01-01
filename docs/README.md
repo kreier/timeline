@@ -170,3 +170,7 @@ Time of 12 Prophets from 850 BCE to 400 BCE
 ![2024-2](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240413_4.5.png)
 ![2024-3 timeline 4.6](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240516_4.6.png)
 ![2024-7 timeline 4.7](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240725_4.7.png)
+
+#### 2025
+
+![2025-01](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250101_5.1.png)
