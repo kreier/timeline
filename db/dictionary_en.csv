@@ -1,6 +1,6 @@
 key,text,english,notes,alternative
-version,4.9,4.9,,
-pdf_title,6000 years human history visualized,6000 years human history visualized,,
+version,5.1,5.1,2025-01-01,
+pdf_title,6000 years human history visualized,6000 years human history visualized,5.1,
 pdf_subject,Timeline of humankind,Timeline of humankind,,
 BCE,B.C.E.,B.C.E.,,
 CE,C.E.,C.E.,,
@@ -418,7 +418,7 @@ byzantine_empire_c,Byzantine Empire,Byzantine Empire,,
 ottoman_empire,1299 – 1922 C.E.,1299 – 1922 C.E.,,
 ottoman_empire_c,Ottoman Empire,Ottoman Empire,,
 holy_roman_empire,800 – 924 C.E.,800 – 924 C.E.,,
-holy_roman_empire2,862 – 1806 C.E.,862 – 1806 C.E.,,
+holy_roman_empire2,962 – 1806 C.E.,962 – 1806 C.E.,fixed 2024-12-31,
 holy_roman_empire_c,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,,
 mongol_empire,Mongol Empire 1206 – 1294 C.E.,Mongol Empire 1206 – 1294 C.E.,,
 Genghis,Genghis Khan,Genghis Khan,,
@@ -461,3 +461,10 @@ Temanites,5) Teman·ites: Job 42:7,,,Teʹman·ites
 Amalekites,6) A·malek·ites: 1 Samuel 15:2,,2024-09-29,A·malʹek·ites
 life-expectancy,life expectancy 75 years ,life expectancy 75 years ,,
 life-expectancy2,(Psalm 90:10),(Psalm 90:10),2024-11-29,
+430years,1943 – 1513 B.C.E.,,,
+430years_c,"430 years: Exodus 12:41, Galatians 3:17",,2024-12-24,captivity in Egypt
+maya_calendar,"calculated beginning of Maya calendar August 11, 3114 B.C.E.",,2024-12-25,proleptic Gregorian calendar
+xia-dynasty2,c. 2070 – c. 1600 BC,c. 2070 – c. 1600 BC,,
+xia-dynasty2_c,Xia dynasty in China,Xia dynasty in China,,moved down for continuity
+tres_zapotes,"September 3rd, 32 B.C.E.",,2024-12-31,second oldest use of Maya calendar 32 BC
+joseph_jacob_reunited,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,

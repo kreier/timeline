@@ -8,7 +8,7 @@ import pandas as pd
 import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 4.9
+version  = 5.1
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -317,7 +317,7 @@ def create_adam_moses():
 
     # one special for Job
     co = color['books']
-    job_y = 40.7           # see books.csv for the text and second timebar at 41.9
+    job_y = 40.83           # see books.csv for the text and second timebar at 41.9
     pdf.set_fill_color(r=191 + 64 * co[0], g=191 + 64 * co[1], b=191 + 64 * co[2])
     # c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
@@ -336,7 +336,9 @@ def create_adam_moses():
         if language == "ilo":
             details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {dict['years_age']} {born - died}"
         x_box = x_position(row.born)
-        y_box = y1 + index * 21 + 2
+        y_box = y1 + index * 20.5 + 2   # line height was 21 until 2024
+        if index > 18:   # after Terah
+            y_box += 12.5
         if index == 23:  # Moses
             y_box += 12
         x_boxwidth = x_position(born) - x_position(died)
@@ -345,7 +347,7 @@ def create_adam_moses():
         pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
-        pdf.rect(x_box, y_box, x_boxwidth, 19, style="FD")
+        pdf.rect(x_box, y_box, x_boxwidth, 19, style="FD") # Boxes are 19 pt high, 21 pt seperated from one another - 20.5 since 5.1
         y_box += y_offset
         pdf.set_text_color(255)
         pdf.set_font(font_bold, "", fontsize_AMoses)

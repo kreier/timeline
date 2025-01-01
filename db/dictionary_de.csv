@@ -1,5 +1,5 @@
 key,text,english,notes
-version,4.7,4.7,
+version,5.1,5.1,2025-01-01
 pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,
 pdf_subject,Zeitleiste der Menschheit,Timeline of humankind,
 BCE,v.u.Z.,B.C.E.,
@@ -418,7 +418,7 @@ byzantine_empire_c,Byzantinisches Reich,Byzantine Empire,
 ottoman_empire,1299 – 1922 u.Z.,1299 – 1922 C.E., 
 ottoman_empire_c,Osmanisches Reich,Ottoman Empire, 
 holy_roman_empire,800 – 924 u.Z.,800 – 924 C.E., 
-holy_roman_empire2,862 – 1806 u.Z.,862 – 1806 C.E., 
+holy_roman_empire2,962 – 1806 u.Z.,962 – 1806 C.E.,fixed 2024-12-31
 holy_roman_empire_c,Heiliges Römisches Reich – nach 1512 Heiliges Römisches Reich Deutscher Nation,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation, 
 mongol_empire,Mongolisches Reich 1206 – 1294 n. Chr.,Mongol Empire 1206 – 1294 C.E., 
 Genghis,Dschingis Khan,Genghis Khan, 
@@ -445,3 +445,26 @@ Al-Khwarizmi,al-Khwarizmi schreibt Al-Jabr (Algebra),al-Khwarizmi writes Al-Jabr
 al-azhar,Gründung der Al-Azhar-Universität in Kairo,Al-Azhar University is established in Cairo, 
 Ibn-Sina,Ibn Sina oder Avicenna,Ibn Sina or Avicenna, 
 Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-09-28
+Keturah,Ketụra,Ke·turah,Genesis 25:1-4
+Zimran,Sịmran,Zimran,
+Jokshan,Jọkschan,Jokshan,
+Medan,Mẹdan,Medan,
+Midian,Mịdian,Midian,
+Ishbak,Jịschbak,Ishbak,
+Shuah,Schụach,Shuah,
+Timna,Tịmna,Timna,"1 Chr 1:36, Ge 36:10-12"
+Midianites,"1) Midianịter: 4. Mose 31:2, 3",,
+Moabites,"2) Moabịter: 5. Mose 23:3, 4",,
+Ammonites,3) Ammonịter: Josua 12:2,,
+Edomites,4) Ẹdomiter: 4. Mose 20:14-17,,
+Temanites,5) Temanịter: Hiob 42:7,,
+Amalekites,6) Amalekịter: 1. Samuel 15:2,,2024-09-29
+life-expectancy,Lebenserwartung 75 Jahre,life expectancy 75 years,
+life-expectancy2,(Psalm 90:10),(Psalm 90:10),2024-11-29
+430years,1943 – 1513 v.u.Z.,,
+430years_c,"430 Jahre: 2. Mose 12:41, Galater 3:17",,2024-12-24
+maya_calendar,berechneter Beginn des Maya-Kalenders: 11. August 3114 v. Chr.,"calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
+xia-dynasty2,ca. 2070 – ca. 1600 v.u.Z.,c. 2070 – c. 1600 BC,
+xia-dynasty2_c,Xia-Dynastie in China,Xia dynasty in China,
+tres_zapotes,3. September 32 v.u.Z.,"September 3rd, 32 B.C.E.",2024-12-31
+joseph_jacob_reunited,Joseph und Jakob in Ägypten wiedervereint – 1728 v.u.Z. (1.Mo 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01
