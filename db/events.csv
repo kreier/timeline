@@ -1,6 +1,6 @@
 key,date,y_start,y_end,y_text,width,position,old
 event_division_kingdom,-997,0.08,9.26,7.5,0.7,l,
-event_exodus,-1513,0.08,34.534,3.5,0.7,l,33.25
+event_exodus,-1513,0.08,34.64,3.5,0.7,l,34.534
 event_1914,1914.75,24.4,46.38,37.5,0.7,l,32.3
 event_destruction_jerusalem2,70,14,36.4,32,0.7,r,22.5
 event_destruction_jerusalem1,-607,22.1,26.3,26.2,0.5,r,
@@ -24,10 +24,10 @@ new_world_translation2,2013.75,0.08,17.6,17.5,0.4,l,19
 timeline_created,2023.82,0.08,12.1,12,0.4,l,23
 nicaea1,325,0.08,1.1,1,0.4,l,
 hijrah,622,46.38,36.6,37.6,0.4,r,46
-moses_escape,-1553,43.06,44.1,44,0.4,l,
-10plagues,-1513,43.06,44.1,44,0.4,r,46.38
-joseph_sold,-1750,41.4,40.34,41.3,0.4,l,
-infliction,-1913,39.4,36.83,39,0.4,l,
+moses_escape,-1553,43.173,44.1,44,0.4,l,
+10plagues,-1513,43.173,44.1,44,0.4,r,46.38
+joseph_sold,-1750,41.4,40.48,41.3,0.4,l,40.34
+infliction,-1913,39.4,37.05,39,0.4,l,36.83
 tischendorf,1844,0.08,8.1,8,0.5,l,
 destruction_babylon,2030,23.25,21.5,22.1,0.5,l,
 gog_of_magog,2054,35,33.7,34.3,0.4,l,

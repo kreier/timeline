@@ -317,7 +317,7 @@ def create_adam_moses():
 
     # one special for Job
     co = color['books']
-    job_y = 40.7           # see books.csv for the text and second timebar at 41.9
+    job_y = 40.83           # see books.csv for the text and second timebar at 41.9
     pdf.set_fill_color(r=191 + 64 * co[0], g=191 + 64 * co[1], b=191 + 64 * co[2])
     # c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
@@ -338,7 +338,7 @@ def create_adam_moses():
         x_box = x_position(row.born)
         y_box = y1 + index * 20.5 + 2   # line height was 21 until 2024
         if index > 18:   # after Terah
-            y_box += 10.5
+            y_box += 12.5
         if index == 23:  # Moses
             y_box += 12
         x_boxwidth = x_position(born) - x_position(died)

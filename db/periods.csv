@@ -1,8 +1,8 @@
 key,start,end,row_y,text_center,location_description,notes,start_fade,end_fade
 wilderness,-1512.75,-1472.75,1, ,l,5.1,-1512.75,-1472.75
 timespan_judges,-1472.75,-1116.75,2,timespan_judges2,l,,-1472.75,-1116.75
-wilderness,-1512.75,-1472.75,34.3, ,r,,-1512.75,-1472.75
-timespan_judges,-1472.75,-1116.75,35.3,timespan_judges2,r,,-1472.75,-1116.75
+wilderness,-1512.75,-1472.75,34.4, ,r,,-1512.75,-1472.75
+timespan_judges,-1472.75,-1116.75,35.4,timespan_judges2,r,,-1472.75,-1116.75
 temple1,-1512.75,-1033.75,6,temple2,l,1 Kings 6:1,-1512.75,-1033.75
 69weeks,-454.25,29.867,2,69weeks2,r,,-454.25,29.867
 jesus_service,29.867,33.25,4, ,r,,29.867,33.25
@@ -81,5 +81,5 @@ Teotihuacan,200,550,34.3,Teotihuacan_c,r,,100,750
 Umayyad,661,750,13,Umayyad_c,l,,661,750
 Abbasid,750,1258,12,Abbasid_c,l,,750,1258
 Mamluk,1250,1517,11,Mamluk_c,l,,1250,1517
-430years,-1942.25,-1513,33.334,430years_c,l,,-1942.25,-1513
+430years,-1942.25,-1513,33.417,430years_c,r,33.334,-1942.25,-1513
 xia-dynasty2,-1980,-1600,46.03,xia-dynasty2_c,r,,-2080,-1510
