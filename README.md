@@ -1,8 +1,8 @@
 # A Timeline of human history
 
-[![pages-build-deployment](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment)
 [![GitHub release](https://img.shields.io/github/release/kreier/timeline.svg)](https://GitHub.com/kreier/timeline/releases/)
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
+[![pages-build-deployment](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment)
 
 This [project](https://github.com/kreier/timeline) creates a graph of Human history with python and ~~reportlab~~ fpdf2. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With v4.2 in early 2024 some images make it into the timeline after 15 years of slow development.
 
@@ -75,7 +75,7 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - [v4.6](https://github.com/kreier/timeline/releases/tag/v4.6) 2024/05/31 Include more empires in Umayyad, Teotihuacan, Mongol, Inca and more. Added historic figures like Hammurabi, al-Khwarizimi, Genghis Khan and Dionysius Exiguus plus a few more smaller images
 - [v4.7](https://github.com/kreier/timeline/releases/tag/v4.7) 2024/07/25 Finally the rendering of RTL languages like Hebrew and Arabic are supported. The proper rendering of Arabic glyphs require a special font shape engine like [Harfbuzz](https://en.wikipedia.org/wiki/HarfBuzz) (also on [Github](https://github.com/harfbuzz/harfbuzz)) and my previous PDF generator [reportlab](https://www.reportlab.com/) has this not yet included. The pdf is now generated with [fpdf2](https://py-pdf.github.io/fpdf2/index.html). This project included text shaping [with version 2.7.5](https://py-pdf.github.io/fpdf2/TextShaping.html) in August 2023. This solved my problems with Khmer and Sinhala as well.
 - [v4.9](https://github.com/kreier/timeline/releases/tag/v4.9) 2024/09/15 Abraham's later wife Keturah is included into the image and the ancestry of the Midianites. Now the genealogy includes 6 nations with their name-giving father and illustrate the family relations. The extra space needed for Keturah and her 6 sons was provides by reorganizing the Daniel 2 image and the world population of the last 2000 years. And finally the life expectancy in Moses times was included with a graph to represent the health condition of people in his time.
-- [5.1]() The time period of 430 years was included as a graph.
+- [5.1](https://github.com/kreier/timeline/releases/tag/v5.1) The time period of 430 years was included as a graph. And some exaples from the Maya calender were included.
 
 ### Scale challenges
 
