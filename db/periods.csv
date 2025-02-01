@@ -1,5 +1,5 @@
 key,start,end,row_y,text_center,location_description,notes,start_fade,end_fade
-wilderness,-1512.75,-1472.75,1, ,l,5.1,-1512.75,-1472.75
+wilderness,-1512.75,-1472.75,1, ,l,5.2,-1512.75,-1472.75
 timespan_judges,-1472.75,-1116.75,2,timespan_judges2,l,,-1472.75,-1116.75
 wilderness,-1512.75,-1472.75,34.4, ,r,,-1512.75,-1472.75
 timespan_judges,-1472.75,-1116.75,35.4,timespan_judges2,r,,-1472.75,-1116.75
@@ -8,7 +8,7 @@ temple1,-1512.75,-1033.75,6,temple2,l,1 Kings 6:1,-1512.75,-1033.75
 jesus_service,29.867,33.25,4, ,r,,29.867,33.25
 jesus_life,-1.25,33.25,3, ,l,,-1.25,33.25
 exile,-606.75,-536.75,24,exile2,r,,-606.75,-536.75
-7times,-606.75,1914.867,25.1,7times2,r,,-606.75,1914.867
+7times,-606.75,1914.867,26,7times2,r,was: 27.1,-606.75,1914.867
 ww1,1914.867,1918.867,43, ,l,,1914.867,1918.867
 ww2,1939.867,1945.439,42, ,l,,1939.867,1945.439
 30_year_war,1618.25,1648.25,45, ,l,,1618.25,1648.25
@@ -36,9 +36,9 @@ king_north4,1945,1991,28, ,l,,1945,1991
 king_north5,2017,2060,29, ,l,,2017,2060
 king_south,-320,-31,31,king_south1,r,,-320,-31
 king_south2,1870,2060,31,king_south3,l,,1870,2060
-time_of_end,1914.867,2060,24.1,time_of_end2,l,,1914.867,2060
-suryavaman2,1113,1150,38.7, ,l,,1113,1150
-notre-dame,1163,1260,40.85, ,l,,1163,1260
+time_of_end,1914.867,2060,25,time_of_end2,l,was: 24.1,1914.867,2060
+suryavaman2,1113,1150,40.7, ,l,was: 38.7,1113,1150
+notre-dame,1163,1260,38.5, ,l,was: 40.85,1163,1260
 Babylon2,-607,-539,33.5,Babylon_c,l,no explanation,-607,-539
 Medopersia,-539,-331,34.5,Medopersia_c,r,,-539,-331
 Greece,-331,-63,35.5,Greece_c,r,,-331,-63
@@ -73,8 +73,8 @@ ottoman_empire,1299,1922,38.5,ottoman_empire_c,r,,1299,1922
 holy_roman_empire,800,924,30, ,l,,800,924
 holy_roman_empire2,962,1806,30,holy_roman_empire_c,r,,962,1806
 mongol_empire,1206,1294,20.5, ,l,,1206,1304
-maya_classic,250,952,22.1,maya_classic_c,l,,230,970
-maya_postclassic,948,1539,23.1,maya_postclassic_c,l,,930,1539
+maya_classic,250,952,22,maya_classic_c,l,was: 22.1,230,970
+maya_postclassic,948,1539,23,maya_postclassic_c,l,was: 23.1,930,1539
 inca_empire,1438,1533,34.3,inca_empire_c,l,,1438,1572
 gupta_empire,319,550,20.7,gupta_empire_c,r,,270,550
 Teotihuacan,200,550,34.3,Teotihuacan_c,r,,100,750
