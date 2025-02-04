@@ -588,7 +588,10 @@ def create_periods():
             pdf.set_line_width(0.0)
             pdf.set_draw_color(1)
         shift = direction_factor
-        pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style="DF")
+        stil = "F"
+        if row.border:
+            stil = "DF"
+        pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style=stil)
         if row.end_fade > row.end:                                              # fade end
             fade_width = x_position(row.end_fade) - x_position(row.end)
             x_boxwidth += fade_width
