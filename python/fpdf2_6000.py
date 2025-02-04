@@ -684,7 +684,7 @@ def tribulation_graphics(row):
 def create_tribulation():
     # draw the band above last days (24.1) and king of the south anglo-america (36)
     global fontsize_regular, direction_rl
-    tribulation_lines = [22.35, 34.65]
+    tribulation_lines = [23.25]     # this was 22.35 and 34.65 until 5.2 in 2025-02-05
     for row in tribulation_lines:
         pdf.set_text_color(0)
         pdf.set_font(font_regular, "", fontsize_regular)
