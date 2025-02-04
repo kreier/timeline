@@ -30,11 +30,12 @@ cold_war,1945,1991,11, ,l,14,1945,1991,TRUE
 john,96,98,15, ,r,,96,98,TRUE
 mohammed,570,632.436,39.6, ,l,570(?)-632 CE,570,632.436,TRUE
 persia,-522,-336,29,persia2,r,,-522,-336,TRUE
+king_north_light,1050,1500,28,king_north_light_c,l,,980,1580,FALSE
 king_north,-320,37,28,king_north1,r,,-320,66,TRUE
 king_north2,1871,1945,27,king_north3,l,,1871,1945,TRUE
 king_north4,1945,1991,28, ,l,,1945,1991,TRUE
 king_north5,2017,2060,29, ,l,,2017,2060,TRUE
-king_south_light,600,1300,31,king_south_light_c,l,,400,1500,FALSE
+king_south_light,600,1300,31,king_south_light_c,l,,500,1400,FALSE
 king_south,-320,-31,31,king_south1,r,,-320,-31,TRUE
 king_south2,1870,2060,31,king_south3,l,,1870,2060,TRUE
 time_of_end,1914.867,2060,25,time_of_end2,l,,1914.867,2060,TRUE
@@ -44,6 +45,7 @@ Babylon2,-607,-539,33.5,Babylon_c,l,no explanation,-607,-539,TRUE
 Medopersia,-539,-331,34.5,Medopersia_c,r,,-539,-331,TRUE
 Greece,-331,-63,35.5,Greece_c,r,,-331,-63,TRUE
 Rome,-63,70,36.5,Rome_c,r,,-63,100,TRUE
+daniel2_iron,300,1050,36.5,daniel2_iron_c,l,,250,1130,FALSE
 Angloamerica2,1914.867,2060,36.5,Angloamerica_c,l,,1914.867,2060,TRUE
 infliction2,-1912.75,-1512.75,4.9,infliction1,r,,-1912.75,-1512.75,TRUE
 qing-dynasty,1636,1912,41,qing-dynasty_c,l,,1636,1912,TRUE
