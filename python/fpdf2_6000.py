@@ -588,7 +588,10 @@ def create_periods():
             pdf.set_line_width(0.0)
             pdf.set_draw_color(1)
         shift = direction_factor
-        pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style="DF")
+        stil = "F"
+        if row.border:
+            stil = "DF"
+        pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style=stil)
         if row.end_fade > row.end:                                              # fade end
             fade_width = x_position(row.end_fade) - x_position(row.end)
             x_boxwidth += fade_width
@@ -684,7 +687,7 @@ def tribulation_graphics(row):
 def create_tribulation():
     # draw the band above last days (24.1) and king of the south anglo-america (36)
     global fontsize_regular, direction_rl
-    tribulation_lines = [22.35, 34.65]
+    tribulation_lines = [23.25]     # this was 22.35 and 34.65 until 5.2 in 2025-02-05
     for row in tribulation_lines:
         pdf.set_text_color(0)
         pdf.set_font(font_regular, "", fontsize_regular)
