@@ -1,7 +1,7 @@
 key,text,english,notes
-version,5.1,5.1,5.1.1
-pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2025-01-18
-pdf_subject,Zeitleiste der Menschheit,Timeline of humankind,5.1.1
+version,5.2,5.2,5.2
+pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2025-02-21
+pdf_subject,Zeitleiste der Menschheit,Timeline of humankind,5.2
 BCE,v.u.Z.,B.C.E.,
 CE,u.Z.,C.E.,
 year,Jahr,year,"timespan, age (Adam was 130 years old when Shem was born)"
@@ -132,7 +132,7 @@ temple2,479 Jahre bis Beginn des Tempelbaus – 1. Könige 6:1,479 years until t
 69weeks,Jesus getauft im Herbst 29 u.Z,Jesus baptized autumn 29 C.E.,
 69weeks2,69 Wochen bis zum Messias – Daniel 9:25,69 weeks to the Messiah – Daniel 9:25,
 jesus_service,"3,5 Jahre Dienstzeit Jesu, getötet am 14. Nisan 33 u.Z.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
-jesus_life,Jesus wurde im Jahr 2 v.u.Z. geboren,Jesus born 2 B.C.E.,
+jesus_life,Jesus im Jahr 2 v.u.Z. geboren,Jesus born 2 B.C.E.,
 exile,607 bis 537 v.u.Z. – 70 Jahre (Jeremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),
 exile2,Exil,exile,
 7times,Offenbarung 12:9,Revelation 12:9,
@@ -167,7 +167,7 @@ event_destruction_jerusalem1,"Zerstörung von Jerusalem 607 v.u.Z. durch Babylon
 event_temple_rebuilt,Tempel wieder aufgebaut 515 v.u.Z.,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,Jerusalems Mauern aufgebaut 455 v.u.Z,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Zerstörung von Jerusalem 70 u.Z. durch Rom unter Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"Ende der „Zeiten der Nationen“ (Lukas 21:24), Gottes Königkreich beginn im Himmel zu regieren 1914 u.Z.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
+event_1914,"Ende der „Zeiten der Nationen“ (Lukas 21:24), Gottes Königkreich beginnt im Himmel zu regieren 1914 u.Z.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
 became_king,wurde König im Alter von,became king at age,
 vulgate,Vulgata von Hieronymus fertiggestellt (Lateinische Übersetzung der Bibel) ca. 405 u.Z.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,Gutenbergbibel gedruckt 1455,Gutenberg bible printed 1455,
@@ -175,20 +175,20 @@ erasmus,Griechischer Text der Bibel veröffentlicht durch Desiderius Erasmus von
 luther,Lutherübersetzung der Bibel im September 1522,Luther Bible translation in September 1522,
 tyndale,Englische Bibelübersetzung von Tyndale 1536,English Bible translation by Tyndale 1536,
 king_james,King-James-Bibel 1611,King James Bible 1611,
-69weeks3,"Jesus beginnt seinen Dienst 29 u.Z. (Lukas 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",
+69weeks3,"Jesus begann seinen Dienst 29 u.Z. (Lukas 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",
 ransom,Opfergaben hören zur “Mitte der Woche” auf Daniel 9:27,middle of week “sacrifice to cease” Daniel 9:27,
-cornelius,Kornelius wird am Ende der 70 Wochen getauft (Daniel 9:24) in 36 u.Z.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,
+cornelius,Kornelius am Ende der 70 Wochen getauft (Daniel 9:24) in 36 u.Z.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,
 columbus,Ende der präkolumbianischen Zeitepoche in Amerika 1492,end of the pre-columbian period in the Americas 1492,
 declaration_independence,Unabhängigkeitserklärung der 13 Kolonien Amerikas 1776,declaration of independence of 13 colonies in America 1776,
 tischendorf,Tischendorf entdeckt den Codex Sinaiticus aus dem 4ten Jahrhundert in 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,
 dead_sea_scrolls,Schriftrollen vom Toten Meer,Dead Sea Scrolls written,
 septuagint,Septuaginta LXX übersetzt,Septuagint LXX translated,
-watchtower,Die erste Ausgabe des “Zion’s Watch Tower and Herald of Christ’s Presence” wird veröffentlicht in 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
-photodrama,Das “Photo-Drama of Creation” wird zuerst in New York gezeigt am 11 Januar 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
+watchtower,erste Ausgabe des “Zion’s Watch Tower and Herald of Christ’s Presence” veröffentlicht in 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
+photodrama,erste Aufführung “Photo-Drama of Creation” in New York am 11 Januar 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
 jehovahs_witnesses,"Die Bibelforscher nahmen 1931 in Columbus, Ohio, einen neuen Namen an – Zeugen Jehovas (Jesaja 43:10, 12).","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
 gilead_school,Die “Watchtower Bible School of Gilead” beginnt am 1. Februar 1943,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",
-new_world_translation1,"Die “New World Translation of the Holy Scriptures” wird am 18 Juni 1960 in Manchester, England veröffentlicht; der Name Jehova and vielen Stellen wieder eingefügt","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
-truth_book,"Das Buch “Die Wahrheit, die zu ewigem Leben führt” wird 1968 herausgegeben",The book “The Truth That Leads to Eternal Life” released 1968,
+new_world_translation1,"Veröffentlichung der “New World Translation of the Holy Scriptures” am 18 Juni 1960 in Manchester, England; der Name Jehova an vielen Stellen wieder eingefügt","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
+truth_book,"Das Buch “Die Wahrheit, die zu ewigem Leben führt” im Jahr 1968 herausgegeben",The book “The Truth That Leads to Eternal Life” released 1968,
 metropolitan,Beginn des “metropolitan witnessing” in 2011,Start of metropolitan witnessing in 2011,
 jw_org,Start von JW.ORG mit Anweisungen im Königreichsdienst im Dezember 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
 new_world_translation2,"Revidierte “New World Translation of the Holy Scriptures” auf Englisch veröffentlicht auf der Jahresversammlung 2013, optimiert zur digitalen und online Benutzung","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
@@ -396,10 +396,10 @@ siloam-tunnel,Hiskia erweitert den Siloam-Tunnel,Hezekiah extends Siloam tunnel,
 Angloamerica2,"Anglo-Amerika wird in der Prophezeiung in Daniel 2:33, 41-43 durch die Füße aus Eisen, vermischt mit Ton, symbolisiert","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",
 Manetho,Manetho schreibt Aegyptiaca,Manetho writes Aegyptiaca,
 tribulation,"Die große Drangsal (Markus 13:19; Dan. 12:1; Matt. 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
-destruction_babylon,"Zerstörung Babylons der Großen (Offenbarung 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
+destruction_babylon,"Zerstörung Babylons der Großen (Off. 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
 gog_of_magog,"Angriff von Gog von Magog (Hesekiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
-sheep_goat,"Die Bewohner der Erde werden gerichtet, Trennung von Schafe und Böcken (Matthäus 25:31-33)","Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
-annointed,Jesu Mitregenten versammeln sich (Matthäus 24:31; 1. Korinther 15:50-53; 1. Thessalonicher 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT
+sheep_goat,"Bewohner der Erde werden gerichtet, Trennung von Schafe und Böcken (Matthäus 25:31-33)","Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
+annointed,Jesu Mitregenten versammeln sich (Matthäus 24:31; 1. Korinther 15:50-53; 1. Thes. 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT
 armageddon,"Harmagedon (Offenbarung 16:14, 16; Jesaja 13:9; 2. Petrus 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
 millenium,"Gottes Königreich beginnt seine tausendjährige Regierungszeit (Offenbarung 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
 great_crowd,"Eine „große Volksmenge“ überlebt Harmagedon (Offenbarung 7:9, 14; Psalm 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
@@ -468,3 +468,9 @@ xia-dynasty2,"ca. 2070 – ca. 1600 v. u. Z., früheste Erwähnungen während de
 xia-dynasty2_c,Xia-Dynastie in China,Xia dynasty in China,
 tres_zapotes,3. September 32 v.u.Z.,"September 3rd, 32 B.C.E.",2024-12-31
 joseph_jacob_reunited,Joseph und Jakob in Ägypten wiedervereint – 1728 v.u.Z. (1.Mo 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01
+king_south_light,,,2025-02-05
+king_south_light_c,König des Südens aus Daniel 11,King of the South from Daniel 11,2025-02-05
+king_north_light,,,2025-02-05
+king_north_light_c,König des Nordens aus Daniel 11,King of the North from Daniel 11,2025-02-05
+daniel2_iron,,,2025-02-05
+daniel2_iron_c,Füße aus Eisen aus Daniel 2,Iron legs from Daniel 2,2025-02-05
