@@ -8,7 +8,7 @@ import pandas as pd
 import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 5.1
+version  = 5.2
 language = "en"
 language_str = "English"
 color_scheme = "normal"
