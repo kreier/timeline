@@ -18,13 +18,13 @@ You see that **many more details** were added. And something is off with the sca
 
 ### Translations
 
-The language specific files have been separated from the program code (together with other information, data and list of colors) since version 3.4. While I put the translated string into an utf-8 encoded `.csv` file, the very process is not that straightforward. It starts with a proper translation (cloud APIs for Azure cloud and Googletranslate are only a start), continues with fontfiles that support this language and glyphs (January 2024 with CJK) and continues with font shaping engines like harfbuzz (May 2024) for complexer writing systems like Persian, Devanagari for Hindi, Khmer and Sinhala, among a few. Currently there are 446 text fields in total in a few languages. The print edition has 5cm extra left and right for the rollers at the end of the scroll. The reference size is 1308x210 mm but it can be scaled to any size at the print shop:
+The language specific files have been separated from the program code (together with other information, data and list of colors) since version 3.4. While I put the translated string into an utf-8 encoded `.csv` file, the very process is not that straightforward. It starts with a proper translation (cloud APIs for Azure cloud and Googletranslate are only a start), continues with fontfiles that support this language and glyphs (January 2024 with CJK) and continues with font shaping engines like harfbuzz (May 2024) for complexer writing systems like Persian, Devanagari for Hindi, Khmer and Sinhala, among a few. Currently there are 475 text fields in total in a few languages. The print edition has 5cm extra left and right for the rollers at the end of the scroll. The reference size is 1308x210 mm but it can be scaled to any size at the print shop:
 
 | Language                                                                |                    print                                    | names | reviewed | complete |   latest   |
 |-------------------------------------------------------------------------|:-----------------------------------------------------------:|:-----:|:--------:|:--------:|:----------:|
 | [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)           | [link](https://timeline24.github.io/timeline_ar_print.pdf)  |   x   |          |          | 2024-06-25 |
-| [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        | [link](https://timeline24.github.io/timeline_de_print.pdf)  |   x   |     x    |     x    | 2025-01-01 |
-| [English](https://timeline24.github.io/timeline_en.pdf)                 | [link](https://timeline24.github.io/timeline_en_print.pdf)  |   x   |     x    |     x    | 2025-01-01 |
+| [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        | [link](https://timeline24.github.io/timeline_de_print.pdf)  |   x   |     x    |     x    | 2025-02-21 |
+| [English](https://timeline24.github.io/timeline_en.pdf)                 | [link](https://timeline24.github.io/timeline_en_print.pdf)  |   x   |     x    |     x    | 2025-02-21 |
 | [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       | [link](https://timeline24.github.io/timeline_es_print.pdf)  |   x   |          |          | 2024-06-15 |
 | [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         | [link](https://timeline24.github.io/timeline_fi_print.pdf)  |       |          |          | 2024-06-14 |
 | [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       | [link](https://timeline24.github.io/timeline_fr_print.pdf)  |   x   |          |          | 2024-09-27 |
@@ -40,7 +40,7 @@ The language specific files have been separated from the program code (together 
 | [Sinhala (සිංහල)](https://timeline24.github.io/timeline_si.pdf)         |  [link](https://timeline24.github.io/timeline_si_print.pdf) |       |          |          | 2024-06-11 |
 | [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          | [link](https://timeline24.github.io/timeline_th_print.pdf)  |       |          |          | 2024-06-14 |
 | [Filipino (Tagalog)](https://timeline24.github.io/timeline_tl.pdf)      | [link](https://timeline24.github.io/timeline_tl_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
-| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) | [link](https://timeline24.github.io/timeline_vi_print.pdf)  |   x   |          |     x    | 2024-06-11 |
+| [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) | [link](https://timeline24.github.io/timeline_vi_print.pdf)  |   x   |          |     x    | 2025-01-15 |
 | [Chinese Cantonese (Simplified) (普通话)](https://timeline24.github.io/timeline_yue.pdf) | [link](https://timeline24.github.io/timeline_yue_print.pdf) | x |  |      | 2024-06-16 |
 | [Chinese Mandarin (Simplified) (普通话)](https://timeline24.github.io/timeline_zh.pdf)   | [link](https://timeline24.github.io/timeline_zh_print.pdf)  | x |  |      | 2024-06-14 |
 
@@ -76,6 +76,7 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - [v4.7](https://github.com/kreier/timeline/releases/tag/v4.7) 2024/07/25 Finally the rendering of RTL languages like Hebrew and Arabic are supported. The proper rendering of Arabic glyphs require a special font shape engine like [Harfbuzz](https://en.wikipedia.org/wiki/HarfBuzz) (also on [Github](https://github.com/harfbuzz/harfbuzz)) and my previous PDF generator [reportlab](https://www.reportlab.com/) has this not yet included. The pdf is now generated with [fpdf2](https://py-pdf.github.io/fpdf2/index.html). This project included text shaping [with version 2.7.5](https://py-pdf.github.io/fpdf2/TextShaping.html) in August 2023. This solved my problems with Khmer and Sinhala as well.
 - [v4.9](https://github.com/kreier/timeline/releases/tag/v4.9) 2024/09/15 Abraham's later wife Keturah is included into the image and the ancestry of the Midianites. Now the genealogy includes 6 nations with their name-giving father and illustrate the family relations. The extra space needed for Keturah and her 6 sons was provides by reorganizing the Daniel 2 image and the world population of the last 2000 years. And finally the life expectancy in Moses times was included with a graph to represent the health condition of people in his time.
 - [5.1](https://github.com/kreier/timeline/releases/tag/v5.1) The time period of 430 years was included as a graph. And some exaples from the Maya calender were included.
+- [5.2](https://github.com/kreier/timeline/releases/tag/v5.2) Time around last days reorganized, faded times for Daniels prophecies.
 
 ### Scale challenges
 
@@ -172,3 +173,7 @@ Time of 12 Prophets from 850 BCE to 400 BCE
 ![2024-2](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240413_4.5.png)
 ![2024-3 timeline 4.6](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240516_4.6.png)
 ![2024-7 timeline 4.7](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline20240725_4.7.png)
+
+#### 2025
+
+![2025-01](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250101_5.1.png)
