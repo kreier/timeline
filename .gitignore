@@ -3,3 +3,7 @@
 
 # update created timelines manually
 *.pdf
+
+# Do not sync environment variables and settings
+.env
+*.env

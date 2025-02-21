@@ -1,9 +1,19 @@
-# Create a translated dictionary for a new language
-# https://pypi.org/project/translators/ 5.9.5 with 452 languages at Nuitrans and 221 at Alibaba
+# Create a translated dictionary for a new language wit alibaba cloud machine translation
+# pip install alibabacloud-alimt20181012 https://pypi.org/project/alibabacloud-alimt20181012/
+# with 221 languages
 
 import os, sys
 import pandas as pd
-import translators as ts
+from aliyunsdkcore.client import AcsClient
+from aliyunsdkalimt.request.v20181012 import TranslateRequest
+import json
+
+# Your API credentials
+access_key_id = 'import_1'
+access_key_secret = 'import_2'
+# region = 'cn-hangzhou'
+# region = 'cn-shanghai'
+region = 'ap-southeast-1'
 
 def check_existing(language, filename):
     # Check execution location, exit if not in /timeline/db
@@ -77,22 +87,42 @@ if __name__ == "__main__":
 
     # print(translated_text)
 
-    import translators as ts
+    # import translators as ts
 
-    # Array of English texts
-    texts = ["Hello, how are you?", "I am fine, thank you.", "What is your name?", "My name is John."]
+    # # Array of English texts
+    # texts = ["Hello, how are you?", "I am fine, thank you.", "What is your name?", "My name is John."]
 
-    # Translate each text to Spanish using Bing (since the Alibaba API is currently not supported in the translators library)
-    translated_texts = [ts.bing(text, to_language='es') for text in texts]
+    # # Translate each text to Spanish using Bing (since the Alibaba API is currently not supported in the translators library)
+    # translated_texts = [ts.bing(text, to_language='es') for text in texts]
 
-    # Print the translated texts
-    for original, translated in zip(texts, translated_texts):
-        print(f"Original: {original}\nTranslated: {translated}\n")
+    # # Print the translated texts
+    # for original, translated in zip(texts, translated_texts):
+    #     print(f"Original: {original}\nTranslated: {translated}\n")
 
-    # Test if it works
-    assert translated_texts[0] == "Hola, ¿cómo estás?"
-    assert translated_texts[1] == "Estoy bien, gracias."
-    assert translated_texts[2] == "¿Cuál es tu nombre?"
-    assert translated_texts[3] == "Mi nombre es John."
+    # # Test if it works
+    # assert translated_texts[0] == "Hola, ¿cómo estás?"
+    # assert translated_texts[1] == "Estoy bien, gracias."
+    # assert translated_texts[2] == "¿Cuál es tu nombre?"
+    # assert translated_texts[3] == "Mi nombre es John."
 
-    print("All translations are correct!")
+    # print("All translations are correct!")
+
+
+    # Create an AcsClient instance
+    client = AcsClient(access_key_id, access_key_secret, region)
+
+    # Create a TranslateRequest instance
+    request = TranslateRequest.TranslateRequest()
+
+    # Set the request parameters
+    request.set_FormatType('text')
+    request.set_SourceLanguage('en')
+    request.set_TargetLanguage('es')
+    request.set_SourceText('Hello, how are you?')
+    request.set_Scene('general')
+
+    # Make the request
+    response = client.do_action_with_exception(request)
+    translated_text = response['Data']['TargetText']
+
+    print(translated_text)
