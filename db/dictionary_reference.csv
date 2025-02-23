@@ -1,13 +1,13 @@
 key,text,version,notes
 version,5.2,5.2,5.2
-pdf_title,6000 years human history visualized,3.1,2025-02-21
-pdf_subject,Timeline of humankind,3.1,
+pdf_title,6000 years human history visualized,3.1,2025-02-24
+pdf_subject,Timeline of humankind,3.1,5.2
 BCE,B.C.E.,3.1,
 CE,C.E.,3.1,
 year,year,3.1,"timespan, age (Adam was 130 years old when Shem was born)"
 years,years,3.1,
-years_age,years,3.1,"years when used as age for a person (different word than years in some languages), like he is 23 years old "
-age_kings, ,4.1,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+years_age,years,3.1,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
+age_kings,,4.1,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,month,3.1,
 months,months,3.1,
 day,day,3.1,
@@ -38,12 +38,12 @@ Eber,Eber,3.1,
 Peleg,Peleg,3.1,
 Reu,Reu,3.1,
 Serug,Serug,3.1,Luke 3:35
-Nahor,Nahor,3.1,Genesis 11:24 
+Nahor,Nahor,3.1,Genesis 11:24
 Terah,Terah,3.1,
 Abraham,Abraham,3.1,
 Isaac,Isaac,3.1,
 Jacob,Jacob,3.1,Luke 3:34
-Joseph,Joseph,3.1,Genesis 37 
+Joseph,Joseph,3.1,Genesis 37
 Moses,Moses,3.1,
 Othniel,Othniel,4.1,Judges 3:9-11
 Ehud,Ehud,4.1,Judges 3:15-18
@@ -167,8 +167,8 @@ event_destruction_jerusalem1,"Destruction of Jerusalem 607 B.C.E. by Babylon, 39
 event_temple_rebuilt,Temple in Jerusalem rebuilt 515 B.C.E.,4.1,
 event_jerusalem_rebuilt,Jerusalem wall rebuilt 455 B.C.E.,4.1,
 event_destruction_jerusalem2,Destruction of Jerusalem 70 C.E. by Rome under Titus,4.1,
-event_1914,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E. ",4.5,include scripture Luke 21:24
-became_king,became king at age,4.1,
+event_1914,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",4.5,include scripture Luke 21:24
+became_king,becomes king at age,4.1,
 vulgate,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,4.1,
 gutenberg,Gutenberg bible printed 1455,4.1,
 erasmus,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,4.1,
@@ -183,25 +183,25 @@ declaration_independence,declaration of independence of 13 colonies in America 1
 tischendorf,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,4.1,
 dead_sea_scrolls,Dead Sea Scrolls written,4.1,
 septuagint,Septuagint LXX translated,4.1,
-watchtower,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,4.1,
-photodrama,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",4.1,
-jehovahs_witnesses,"The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",4.5,include scripture
-gilead_school,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",4.1,
-new_world_translation1,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",4.5,hightlight reintroduction of Jehovah’s name
-truth_book,The book “The Truth That Leads to Eternal Life” released 1968,4.1,
-metropolitan,Start of metropolitan witnessing in 2011,4.1,
-jw_org,Start of JW.ORG with instructions in kingdom ministry December 2012,4.1,
-new_world_translation2,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",4.5,new edition with digital and online in mind
-jw_broadcasting,Start of jw.broadcasting in October 2014,4.1,
-meeting_workbook,New format of midweek meeting with “meeting workbook” starting January 2016,4.1,
+watchtower,the first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,4.1,
+photodrama,"the “Photo-Drama of Creation” is first shown in New York on January 11, 1914",4.1,
+jehovahs_witnesses,"the Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",4.5,include scripture
+gilead_school,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943",4.1,
+new_world_translation1,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",4.5,hightlight reintroduction of Jehovah’s name
+truth_book,the book “The Truth That Leads to Eternal Life” is released 1968,4.1,
+metropolitan,start of metropolitan witnessing in 2011,4.1,
+jw_org,start of JW.ORG with instructions in kingdom ministry December 2012,4.1,
+new_world_translation2,"revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",4.5,new edition with digital and online in mind
+jw_broadcasting,start of jw.broadcasting in October 2014,4.1,
+meeting_workbook,new format of midweek meeting with “meeting workbook” starting January 2016,4.1,
 covid19,Covid-19,4.1,
-cold_war,Geopolitical situation labeled “Cold War” 1945-1991,4.1,
+cold_war,geopolitical situation labeled “Cold War” 1945-1991,4.1,
 timeline_created,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years",4.1,
 codex_sinaiticus,Codex Sinaiticus written,4.1,
 codex_vaticanus,Codex Vaticanus written,4.1,
 leningrad_codex,Leningrad Codex written in Cairo AD 1008,4.1,
 john,John writes “revelation” while exiled on Patmos 96-98 C.E.,4.1,
-nicaea1,First Council of Nicaea,4.1,
+nicaea1,first Council of Nicaea,4.1,
 buddha,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,4.1,
 buddha2,Buddha alternatively c. 480-400 B.C.E.,4.1,
 mohammed,Mohammed c. 570-632 C.E.,4.1,
@@ -318,7 +318,7 @@ Tema,Tema,4.3,
 Jetur,Jetur,4.3,
 Naphish,Naphish,4.3,
 Kedemah,Kedemah,4.3,
-Babylon2, ,4.2,no text left and right – empty!
+Babylon2,,4.2,no text left and right – empty!
 terahfam,members of Terah’s family,4.1,
 rosetta,Rosetta stone 196 B.C.E.,4.1,
 Herodotus,"Herodotus c. 484 – c. 425 BC, writes The Histories",4.3,Father of History
@@ -331,7 +331,7 @@ Josephus,Josephus c. 37 – c. 100 C.E.,4.3,
 Cicero,Cicero 106–43 BC,4.3,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
 lachish_letters,Lachish letters c. 590 B.C.E.,4.3,
 lachish_reliefs,Lachish reliefs c. 681 B.C.E.,4.3,
-mesha_stele,Mesha Stele (Moabite stone) c. 840 B.C.E.,4.3,
+mesha_stele,Mesha Stele (Moabite stone) c. 840 B.C.E.,4.3,w25/12 study article 50 paragraph 6
 gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,4.3,
 epic_gilgamesh,Epic of Gilgamesh (Sîn-lēqi-unninni),4.3,
 oxyrhynchus,Oxyrhynchus Papyri,4.3,
@@ -375,7 +375,7 @@ three-kingdoms,Three kingdoms 220-280 CE,4.4,
 sixteen-kingdoms,Sixteen kingdoms 304-439 CE,4.4,
 northern-dynasties,368-581 CE,4.4,
 southern-dynasties,420-589 CE,4.4,
-tang-dynasty1, ,4.4,
+tang-dynasty1,,4.4,
 tang-dynasty2,"618-690, 705-907",4.4,
 wu-zhou,690-705 Wu Zhou,4.4,
 shang-dynasty_c,Shang Dynasty,4.4,c. 1600-1046 BC
@@ -398,7 +398,7 @@ Manetho,Manetho writes Aegyptiaca,4.5,
 tribulation,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",4.5,
 destruction_babylon,"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",4.5,beginning of great tribulation (GT)
 gog_of_magog,"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",4.5,end of GT
-sheep_goat,"Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",4.5,end of GT
+sheep_goat,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",4.5,end of GT
 annointed,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),4.5,end of GT
 armageddon,"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",4.5,end of system of things
 millenium,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",4.5,
@@ -445,26 +445,26 @@ Al-Khwarizmi,al-Khwarizmi writes Al-Jabr (Algebra),4.6,
 al-azhar,Al-Azhar University is established in Cairo,4.6,
 Ibn-Sina,Ibn Sina or Avicenna,4.6,
 Al-Ghazali,Al-Ghazali,4.6,2024-07-30
-Keturah,Keturah,4.9,Genesis 25:1-4 
+Keturah,Keturah,4.9,Genesis 25:1-4
 Zimran,Zimran,4.9,
 Jokshan,Jokshan,4.9,
 Medan,Medan,4.9,
 Midian,Midian,4.9,
 Ishbak,Ishbak,4.9,
 Shuah,Shuah,4.9,
-Timna,Timna,4.9,"1 Chr 1:36, Ge 36:10-12 "
+Timna,Timna,4.9,"1 Chr 1:36, Ge 36:10-12"
 Midianites,"1) Midianites: Numbers 31:2, 3",4.9,
 Moabites,"2) Moabites: Deuteronomy 23:3, 4",4.9,
 Ammonites,3) Ammonites: Joshua 12:2,4.9,
 Edomites,4) Edomites: Numbers 20:14-17,4.9,
 Temanites,5) Temanites: Job 42:7,4.9,
 Amalekites,6) Amalekites: 1 Samuel 15:2,4.9,2024-09-29
-life-expectancy,life expectancy 75 years ,4.9,
+life-expectancy,life expectancy 75 years,4.9,
 life-expectancy2,(Psalm 90:10),4.9,2024-11-29
 430years,1943 – 1513 B.C.E.,5.1,
 430years_c,"430 years: Exodus 12:41, Galatians 3:17",5.1,2024-12-24
 maya_calendar,"calculated beginning of Maya calendar August 11, 3114 B.C.E.",5.1,2024-12-25
-xia-dynasty2,"c. 2070 – c. 1600 BC, earliest mentions during Western Zhou period",5.1,2025-01-02
+xia-dynasty2,c. 2070 – c. 1600 BC; earliest mentions during Western Zhou period,5.1,2025-01-02
 xia-dynasty2_c,Xia dynasty in China,5.1,
 tres_zapotes,"September 3rd, 32 B.C.E.",5.1,2024-12-31
 joseph_jacob_reunited,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),5.1,2025-01-01
