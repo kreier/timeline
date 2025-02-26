@@ -1,8 +1,8 @@
 key,text,english,notes
-version,4.6,4.6,
-pdf_title,Afọ 6000 akụkọ ihe mere eme mmadụ na-ahụ anya,6000 years human history visualized,
-pdf_subject,Oge nke ihe a kpọrọ mmadụ,Timeline of humankind,
-BCE,T.O.N.K.,B.C.E.,
+version,5.2,5.2,
+pdf_title,Afọ 6000 akụkọ ihe mere eme mmadụ na-ahụ anya,6000 years human history visualized,2025-02-26
+pdf_subject,Oge nke ihe a kpọrọ mmadụ,Timeline of humankind,5.2
+BCE,T.O.N.K.,B.C.E.,appendix B9
 CE,O.N.K.,C.E.,
 year,afọ,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,afọ,years,
@@ -24,26 +24,26 @@ Deluge,Iju Mmiri,Deluge,
 Adam,Adam,Adam,Luke 3:38
 Seth,Seth,Seth,
 Enosh,Inọsh,Enosh,
-Kenan,Kenan,Kenan,
+Kenan,Kaịnan,Kenan,
 Mahalalel,Mahalalel,Mahalalel,
-Jared,Jared,Jared,
-Enoch,Inọk,Enoch,
+Jared,Jered,Jared,
+Enoch,Ịnọk,Enoch,
 Methuselah,Metusela,Methuselah,Luke 3:37
-Lamech,Lamech,Lamech,
+Lamech,Lemek,Lamech,
 Noah,Noa,Noah,
 Shem,Shem,Shem,
-Arpachshad,Arpachshad,Arpachshad,Luke 3:36
-Shelah,Shelah,Shelah,
-Eber,Eber,Eber,
-Peleg,Peleg,Peleg,
-Reu,Reu,Reu,
-Serug,Serug,Serug,Luke 3:35
-Nahor,Nehọ,Nahor,
+Arpachshad,Apakshad,Arpachshad,Luke 3:36
+Shelah,Shila,Shelah,
+Eber,Iba,Eber,
+Peleg,Pileg,Peleg,
+Reu,Riu,Reu,
+Serug,Sirọg,Serug,Luke 3:35
+Nahor,Nehọ,Nahor,Genesis 11:24
 Terah,Tira,Terah,
-Abraham,Abraham,Abraham,
-Isaac,Isaac,Isaac,
+Abraham,Ebreham,Abraham,
+Isaac,Aịzik,Isaac,
 Jacob,Jekọb,Jacob,Luke 3:34
-Joseph,Joseph,Joseph,
+Joseph,Josef,Joseph,Genesis 37
 Moses,Mozis,Moses,
 Othniel,Othniel,Othniel,Judges 3:9-11
 Ehud,Ehud,Ehud,Judges 3:15-18
@@ -63,15 +63,15 @@ David,David,David,1 Samuel 16:13
 Solomon,Solomon,Solomon,1 Kings 2:1
 Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda
 Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam"
-Asa,Asa,Asa,
-Jehoshaphat,Jehoshaphat,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360
+Asa,Asa,Asa,A6-A
+Jehoshaphat,Jehoshaphat,Jehoshaphat,
 Jehoram2,Jehoram,Jehoram,
 Ahaziah,Ahaziah,Ahaziah,
 Athaliah,Queen Athaliah,Queen Athaliah,Queen Athaliah
 Jehoash,Jehoash,Jehoash,
 Amaziah,Amaziah,Amaziah,
 Uzziah,Uzziah (Azaraia),Uzziah (Azariah),also Azariah
-Jotham,Jotham,Jotham,
+Jotham,Jotham,Jotham,A6-B
 Ahaz,Ahaz,Ahaz,
 Hezekiah,Hezekiah,Hezekiah,
 Manasseh,Manase,Manasseh,
@@ -152,10 +152,10 @@ caesarea,Pọl nọ n'ụlọ mkpọrọ na Sesaria c. 56-58 O.A.,Paul in custod
 rome1,A tụọ Pọl mkpọrọ mbụ na Rom 59-61 O.A.,Paul’s first imprisonment in Rome c. 59-61 C.E.,
 rome2,"Mkpọrọ nke abụọ Pọl na Rom 65 OA, 2 Timoti dere, Pọl gburu","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",
 Julius,Julius,Julius,
-Augustus,Augustus,Augustus,
-Tiberius,Tiberius,Tiberius,
+Augustus,Augustus,Augustus,Luke 2:1
+Tiberius,Tiberius,Tiberius,Luke 3:1
 Caligula,Caligula,Caligula,
-Claudius,Claudius,Claudius,
+Claudius,Claudius,Claudius,Acts 11:28
 Nero,Nero,Nero,
 Galba-Otho-Vitellius,"Galba, Otho na Vitellius (Afọ nke Eze Ukwu Anọ)","Galba, Otho and Vitellius (Year of the Four Emperors)",
 Vespasian,Vespasian,Vespasian,
@@ -168,7 +168,7 @@ event_temple_rebuilt,E wughachiri ụlọ nsọ dị na Jeruselem n'afọ 515 T.
 event_jerusalem_rebuilt,E wughachiri mgbidi Jeruselem n'afọ 455 T.O.A.,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Mbibi nke Jerusalem 70 O.A. site rome n'okpuru Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus,
 event_1914,"Ọgwụgwụ oge nke mba dị iche iche (Luk 21:24), alaeze Chineke malitere ịchị n'eluigwe n'afọ 1914 O.A.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
-became_king,Ọ ghọrọ eze mgbe ọ dị afọ,became king at age,
+became_king,na-aghọ eze na afọ,becomes king at age,
 vulgate,Vulgate dechara site Jerome (Latin translation of the Bible) c. 405 O.A.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,Gutenberg Bible e biri ebi 1455,Gutenberg bible printed 1455,
 erasmus,Ihe odide Grik nke Akwụkwọ Nsọ Grik nke Ndị Kraịst bipụtara Desiderius Erasmus nke Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,
@@ -185,10 +185,10 @@ dead_sea_scrolls,Akwụkwọ Mpịakọta Oké Osimiri Nwụrụ Anwụ e dere,D
 septuagint,Septuagint LXX sụgharịrị,Septuagint LXX translated,
 watchtower,"E bipụtara mbipụta mbụ nke ""Zion's Watch Tower and Herald of Christ's Presence"" na 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
 photodrama,"E gosipụtara ""Photo-Drama of Creation"" na New York na Jenụwarị 11, 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
-jehovahs_witnesses,"Ndị Mmụta Baịbụl nakweere aha ọhụrụ - Ndịàmà Jehova (Aịzaya 43:10, 12) na Columbus, Ohio, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
-gilead_school,"Ụlọ Akwụkwọ Gilied Nke Ụlọ Nche malitere n'ụbọchị Mọnde, Febụwarị 1, 1943","Watchtower Bible School of Gilead began on Monday, February 1, 1943",
-new_world_translation1,"“Nsụgharị Ụwa Ọhụrụ nke Akwụkwọ Nsọ” nke e wepụtara na Manchester, England na June 18, 1960, weghachite aha Jehova n'ọtụtụ ebe na Bible","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
-truth_book,"Akwụkwọ bụ́ ""Eziokwu Nke Na-eduga ná Ndụ Ebighị Ebi"" wepụtara n'afọ 1968",The book “The Truth That Leads to Eternal Life” released 1968,
+jehovahs_witnesses,"Ndị Mmụta Bible nakweere aha ọhụrụ—Ndịàmà Jehova (Aịsaịa 43:10, 12) na Columbus, Ohio, 1931","the Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
+gilead_school,"Ụlọ Akwụkwọ Gilied malitere na Mọnde, Febụwarị 1, 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943",
+new_world_translation1,"“Nsụgharị Ụwa Ọhụrụ nke Akwụkwọ Nsọ” e wepụtara na Manchester, England na June 18, 1960, eweghachighachiri aha Jehova n’ọtụtụ akụkụ nke Bible","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
+truth_book,E wepụtara akwụkwọ bụ́ “Eziokwu nke Na-eduba ná Ndụ Ebighị Ebi” n’afọ 1968,the book “The Truth That Leads to Eternal Life” is released 1968,
 metropolitan,Mmalite nke ịgba àmà obodo ukwu na 2011,Start of metropolitan witnessing in 2011,
 jw_org,Malite JW.ORG na ntụziaka n'ozi alaeze Disemba 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
 new_world_translation2,"Revised ""New World Translation of the Holy Scriptures"" wepụtara na nzukọ kwa afọ 2013, kachasị mma iji mee ihe na dijitalụ na ntanetị","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
@@ -209,7 +209,7 @@ confucius,Confucius c.551-c.479 T.O.A.,Confucius c.551-c.479 B.C.E.,
 hijrah,Hijrah - Njem Mecca ka Medina 16 July 622,Hijrah - Journey Mecca to Medina 16 July 622,
 moses_escape,"1553 T.O.A. Mozis aghaghị ịgbanahụ Ijipt - Ọpụpụ 2:15, Ọrụ 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",
 10plagues,1513 T.O.E Ijipt na-enweta ihe otiti 10,1513 B.C.E Egypt receives 10 plagues,
-joseph_sold,Joseph rere dị ka ohu mgbe ọ dị afọ 17 - Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2,
+joseph_sold,Josef rere dị ka ohu mgbe ọ dị afọ 17 - Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2,
 infliction,400 afọ infliction (Ọrụ 7:6) - Ishmael 1913 T.O.A,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,
 Alexander,Alexander OnyeUkwu (Daniel 11:3),Alexander the Great (Daniel 11:3),
 persia,"Saịrọs Onye Ukwu, Cambyses II, Darayọs Nke Mbụ 490 TOA, Xerxes I 480 TOA (di Esta, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",
@@ -228,10 +228,10 @@ time_of_end,"Ọnụnọ nke Kraịst, Mmechi nke usoro ihe (Matiu 24: 3), ụb�
 time_of_end2,Ụbọchị ikpeazụ,last days,
 suryavaman2,Eze Suryavarman II na-ewu Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
 notre-dame,Notre-Dame de Paris wuru 1163-1260,Notre-Dame de Paris built 1163-1260,
-jehoiada,Jehoiada,Jehoiada,
+jehoiada,Jehoiada,Jehoiada,2 Kings 11:4
 babel,Ụlọ elu nke Babel wuru,tower of Babel built,
 Haggai,Haggai,Haggai,
-Zerubbabel,Zerubbabel (Luk 3:27),Zerubbabel (Luke 3:27),
+Zerubbabel,Zerubbabel (Luk 3:27),Zerubbabel (Luke 3:27),Luke 3:27
 Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",
 Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",
 Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",
@@ -246,10 +246,10 @@ infliction1,400 afọ infliction,400 year infliction,Acts 7:6
 infliction2,Ọrụ Ndịozi 7:6,Acts 7:6,
 Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years
 Israel,Israel,Israel,Genesis 35:10
-Sarah,Sarah,Sarah,2008-1881 BCE – 127 years
+Sarah,Sarah,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2"
 Hagar,Hagar,Hagar,Genesis 21:14
 Haran,Haran,Haran,Genesis 11:26
-Reumah,Reumah,Reumah,Concubine – 4 sons
+Reumah,Reumah,Reumah,Concubine – 4 sons 22:24
 Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more)
 Lot,Lot,Lot,Genesis 11:27
 Lots_wife,Nwunye Lọt,Lot’s wife,
@@ -258,32 +258,32 @@ Moab,Moab (nwa nwanyị nke okenye),Moab (older daughter),Genesis 19:37
 Ammon,Ben-ammi (Amọn),Ben-ammi (Ammon),Genesis 19:38
 Bethuel,Bethuel,Bethuel,Genesis 22:23
 Rebekah,Rebekah,Rebekah,
-Laban,Laban,Laban,
+Laban,Laban,Laban,Genesis 24:29
 Leah,Leah,Leah,Genesis 35:23
 Rachel,Rachel,Rachel,Genesis 35:24
 Bilhah,Bilhah,Bilhah,Genesis 35:25
 Zilpah,Zilpah,Zilpah,Genesis 35:26
 Reuben,Reuben,Reuben,
 Simeon,Simeon,Simeon,
-Levi,Levi,Levi,
+Levi,Levi,Levi,Genesis 35:23
 Judah,Juda,Judah,
 Issachar,Issachar,Issachar,
 Zebulun,Zebulun,Zebulun,
 Dinah,Dinah,Dinah,Genesis 34
 Esau,Isọ /,Esau/,
 Edom,Edom,Edom,Genesis 36:1
-Ishmael,Ishmael,Ishmael,
+Ishmael,Ishmael,Ishmael,Genesis 16:16
 Manasseh2,(Manase,(Manasseh,Genesis 41:50-52
 Ephraim,na Ephraim),and Ephraim),
 Benjamin,Benjamin,Benjamin,
-Dan,Dan,Dan,
+Dan,Dan,Dan,Genesis 35:23
 Naphtali,Naphtali,Naphtali,
 Gad,Gad,Gad,
 Asher,Asher,Asher,
 Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21
 Milcah2,"Chesed, Hazo,","Chesed, Hazo,",
 Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",
-Tebah,Tebah,Tebah,Genesis 22:23
+Tebah,Tebah,Tebah,Genesis 22:24
 Gaham,Gaham,Gaham,
 Tahash,Tahash,Tahash,
 Maacah,Maacah,Maacah,
@@ -331,7 +331,7 @@ Josephus,Josephus c. 37 - ihe dị ka 100 O.A.,Josephus c. 37 – c. 100 C.E.,
 Cicero,Cicero 106–43 BC,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
 lachish_letters,Akwụkwọ ozi Lachish c. 590 T.O.A.,Lachish letters c. 590 B.C.E.,
 lachish_reliefs,Lachish reliefs c. 681 T.O.A.,Lachish reliefs c. 681 B.C.E.,
-mesha_stele,Mesha Stele (nkume Moab) ihe dị ka 840 T.O.A.,Mesha Stele (Moabite stone) c. 840 B.C.E.,
+mesha_stele,Mesha Stele (nkume Moab) ihe dị ka 840 T.O.A.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6
 gilgamesh,Gilgamesh na Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
 epic_gilgamesh,Epic nke Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
@@ -398,7 +398,7 @@ Manetho,Manetho dere Aegyptiaca,Manetho writes Aegyptiaca,
 tribulation,"Oké Mkpagbu ahụ (Mak 13:19; Daniel 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
 destruction_babylon,"Mbibi nke Babilọn Ukwu ahụ (Mkpughe 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
 gog_of_magog,"Mwakpo Gọg nke Maggọg (Ezikiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
-sheep_goat,"A ga-ekpe ndị bi n'ụwa ikpe, na-ekewa atụrụ na ewu (Matiu 25:31-33)","Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
+sheep_goat,"Ekpere ndị bi n’ụwa ikpe, na-ekewa atụrụ na ewu (Matiu 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT
 annointed,Ịchịkọta ndị ọchịchị Alaeze (Matiu 24:31; 1 Ndị Kọrịnt 15:50-53; 1 Ndị Tesalonaịka 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT
 armageddon,"Agha Amagedọn (Mkpughe 16:14, 16; Aịzaya 13:9; 2 Pita 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
 millenium,"Alaeze Chineke malitere ịchị otu narị afọ ya (Mkpughe 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
@@ -418,7 +418,7 @@ byzantine_empire_c,Alaeze Ukwu Byzantine,Byzantine Empire,
 ottoman_empire,1299 - 1922 O.A.,1299 – 1922 C.E.,
 ottoman_empire_c,Alaeze Ukwu Ottoman,Ottoman Empire,
 holy_roman_empire,800 - 924 O.A.,800 – 924 C.E.,
-holy_roman_empire2,862 - 1806 O.A.,862 – 1806 C.E.,
+holy_roman_empire2,962 - 1806 O.A.,962 – 1806 C.E.,fixed 2024-12-31
 holy_roman_empire_c,Alaeze Ukwu Rom dị nsọ - mgbe Alaeze Ukwu Rom dị nsọ nke 1512 nke Mba Germany gasịrị,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,
 mongol_empire,Alaeze Ukwu Mongol 1206 - 1294 O.A.,Mongol Empire 1206 – 1294 C.E.,
 Genghis,Genghis Khan,Genghis Khan,
@@ -444,4 +444,33 @@ hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
 Al-Khwarizmi,Al-Khwarizmi dere Al-Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra),
 al-azhar,E guzobere Mahadum Al-Azhar na Cairo,Al-Azhar University is established in Cairo,
 Ibn-Sina,Ibn Sina ma ọ bụ Avicenna,Ibn Sina or Avicenna,
-Al-Ghazali,Al-Ghazali,Al-Ghazali,
+Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30
+Keturah,Keturah,Keturah,Genesis 25:1-4
+Zimran,Zimran,Zimran,
+Jokshan,Jokshan,Jokshan,
+Medan,Medan,Medan,
+Midian,Midian,Midian,
+Ishbak,Ishbak,Ishbak,
+Shuah,Shuah,Shuah,
+Timna,Timna,Timna,"1 Chr 1:36, Ge 36:10-12"
+Midianites,"1) Midian: Ọnụ Ọgụgụ 31:2, 3","1) Midianites: Numbers 31:2, 3",
+Moabites,"2) Ndị Moab: Diuterọnọmi 23:3, 4","2) Moabites: Deuteronomy 23:3, 4",
+Ammonites,3) Ụmụ Amọn: Jọshụa 12:2,3) Ammonites: Joshua 12:2,
+Edomites,4) Edomites: Ọnụ Ọgụgụ 20:14-17,4) Edomites: Numbers 20:14-17,
+Temanites,5) Ndị Teman: Job 42:7,5) Temanites: Job 42:7,
+Amalekites,6) Amalek: 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29
+life-expectancy,Ogologo ndụ 75 afọ,life expectancy 75 years,
+life-expectancy2,(Abụ Ọma 90:10),(Psalm 90:10),2024-11-29
+430years,1943 - 1513 T.O.A.,1943 – 1513 B.C.E.,
+430years_c,"430 afọ: Ọpụpụ 12:41, Ndị Galeshia 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24
+maya_calendar,"Gbakọọ mmalite nke kalenda Maya August 11, 3114 T.O.A.","calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
+xia-dynasty2,"c. 2070 - c. 1600 BC, mbụ kwuru n'oge Western Zhou oge",c. 2070 – c. 1600 BC; earliest mentions during Western Zhou period,2025-01-02
+xia-dynasty2_c,Xia Dynasty na China,Xia dynasty in China,
+tres_zapotes,"Septemba 3rd, 32 T.O.A.","September 3rd, 32 B.C.E.",2024-12-31
+joseph_jacob_reunited,Josef na Jekọb jikọtara ọnụ n'Ijipt - 1728 T.O.A. (Jen 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01
+king_south_light,,,2025-02-05
+king_south_light_c,Southern Ngbandi - Daniel 11,King of the South from Daniel 11,2025-02-05
+king_north_light,,,2025-02-05
+king_north_light_c,Eze Ugwu Daniel 11,King of the North from Daniel 11,2025-02-05
+daniel2_iron,,,2025-02-05
+daniel2_iron_c,Iron ụkwụ si Daniel 2,Iron legs from Daniel 2,2025-02-05
