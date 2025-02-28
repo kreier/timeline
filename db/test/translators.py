@@ -1,10 +1,9 @@
-# Create a google translated dictionary as starting point for a new language
-# It works again in 2025 with https://pypi.org/project/googletrans/ 4.0.2 (latest version) and asyncio
+# Create a translated dictionary for a new language
+# https://pypi.org/project/translators/ 5.9.5 with 452 languages at Nuitrans and 221 at Alibaba
 
 import os, sys
-import asyncio
 import pandas as pd
-from googletrans import Translator
+import translators as ts
 
 def check_existing(language, filename):
     # Check execution location, exit if not in /timeline/db
@@ -28,27 +27,26 @@ def check_existing(language, filename):
 def import_english():
     global dict
     print("Import english mini dictionary file: ", end="")
-    # dict = pd.read_csv("./mini_en.tsv", sep="\t")
     dict = pd.read_csv("./mini_en.csv")
     dict = dict.fillna(" ")
     print(f"found {len(dict)} entries.")
     print(dict)
 
-async def translate_dictionary():
+def translate_dictionary():
     global dict_translated
-    global number_characters  
-    async with Translator() as translator:
-        for index, row in dict_translated.iterrows(): # with 3 columns 'key' 'text' and 'english'
-            english_text = row.english
-            number_characters += len(english_text)
-            if not english_text == " ": # it only applies to row with empty strings - causes translation error
-                result = await translator.translate(english_text, src='en', dest=language)
-                dict_translated.at[index, 'text'] = result.text
-                # print('.', end='')
-            if (index + 1) % 40 == 0:
-                print(f" {index}")
+    global number_characters
+    for index, row in dict_translated.iterrows(): # with 3 columns 'key' 'text' and 'english'
+        english_text = row.english
+        number_characters += len(english_text)
+        if not english_text == " ": # it only applies to row with empty strings - causes translation error
+            result = ts.translate_text(english_text, translator='alibaba', to_language=language)
+            dict_translated.at[index, 'text'] = result.text
+            # print('.', end='')
+        if (index + 1) % 40 == 0:
+            print(f" {index}")
 
 if __name__ == "__main__":
+    '''
     dict = pd.DataFrame() # will contain the english dictionary with 'key' and 'text' column, plus 'alternative' and 'notes' (not used)
     if len(sys.argv) < 2:
         print("You did not provide a language as argument. Put it as a parameter after the program name.")
@@ -63,8 +61,38 @@ if __name__ == "__main__":
     dict_translated['english'] = dict['text'].copy() # add a column 'english' and fill with 'text' from english dictionary
     print("\nTranslating ...")
     number_characters = 0      # you can translate up to 500,000 characters per month for free        
-    asyncio.run(translate_dictionary())
+    # asyncio.run(translate_dictionary())
+    translate_dictionary()
     print(dict_translated)
     print("Exporting ...")
     dict_translated.to_csv(filename, index=False)
     print(f"You translated {number_characters} characters.")
+    '''
+
+    # # Your English text
+    # text = {"Hello, how are you?", "I am fine, thank you.", "What is your name?", "My name is John."}
+
+    # # Translating to Spanish using Alibaba
+    # translated_text = ts.bing(text, to_language='es')
+
+    # print(translated_text)
+
+    import translators as ts
+
+    # Array of English texts
+    texts = ["Hello, how are you?", "I am fine, thank you.", "What is your name?", "My name is John."]
+
+    # Translate each text to Spanish using Bing (since the Alibaba API is currently not supported in the translators library)
+    translated_texts = [ts.bing(text, to_language='es') for text in texts]
+
+    # Print the translated texts
+    for original, translated in zip(texts, translated_texts):
+        print(f"Original: {original}\nTranslated: {translated}\n")
+
+    # Test if it works
+    assert translated_texts[0] == "Hola, ¿cómo estás?"
+    assert translated_texts[1] == "Estoy bien, gracias."
+    assert translated_texts[2] == "¿Cuál es tu nombre?"
+    assert translated_texts[3] == "Mi nombre es John."
+
+    print("All translations are correct!")

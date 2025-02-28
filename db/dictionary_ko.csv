@@ -1,7 +1,7 @@
 key,text,english,notes
-version,4.6,4.6,
-pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,
-pdf_subject,인류의 타임라인,Timeline of humankind,
+version,5.2,5.2,
+pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,2025-02-22
+pdf_subject,인류의 타임라인,Timeline of humankind,5.2
 BCE,기원전,B.C.E.,
 CE,기원후,C.E.,
 year,년,year,"timespan, age (Adam was 130 years old when Shem was born)"
@@ -38,7 +38,7 @@ Eber,에벨,Eber,
 Peleg,벨렉,Peleg,
 Reu,르우,Reu,
 Serug,스룩,Serug,Luke 3:35
-Nahor,나홀,Nahor,
+Nahor,나홀,Nahor,Genesis 11:24
 Terah,데라,Terah,
 Abraham,아브라함,Abraham,
 Isaac,이삭,Isaac,
@@ -63,15 +63,15 @@ David,다윗,David,1 Samuel 16:13
 Solomon,솔로몬,Solomon,1 Kings 2:1
 Rehoboam,르호보암,Rehoboam,first king of southern kingdom of Juda
 Abijah,아비야(아비얌),Abijah (Abijam),"3 years, also Abijam"
-Asa,아사,Asa,
-Jehoshaphat,여호사밧,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360
+Asa,아사,Asa,A6-A
+Jehoshaphat,여호사밧,Jehoshaphat,
 Jehoram2,여호람,Jehoram,
 Ahaziah,아하시야,Ahaziah,
 Athaliah,아달랴 여왕,Queen Athaliah,Queen Athaliah
 Jehoash,여호아스,Jehoash,
 Amaziah,아마샤,Amaziah,
 Uzziah,웃시야(아사랴),Uzziah (Azariah),also Azariah
-Jotham,요담,Jotham,
+Jotham,요담,Jotham,A6-B
 Ahaz,아하스,Ahaz,
 Hezekiah,히스기야,Hezekiah,
 Manasseh,므낫세,Manasseh,
@@ -331,7 +331,7 @@ Josephus,요세푸스 ㄷ. 37 – 다. 기원 100년,Josephus c. 37 – c. 100 C
 Cicero,키케로 기원전 106-43년,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
 lachish_letters,라기스 편지 ㄷ. 기원전 590년,Lachish letters c. 590 B.C.E.,
 lachish_reliefs,라기스 부조 ㄷ. 기원전 681년,Lachish reliefs c. 681 B.C.E.,
-mesha_stele,메사비석(모압석) 다. 기원전 840년,Mesha Stele (Moabite stone) c. 840 B.C.E.,
+mesha_stele,메사비석(모압석) 다. 기원전 840년,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6
 gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
 epic_gilgamesh,길가메시 서사시(Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,옥시린쿠스 파피루스,Oxyrhynchus Papyri,
@@ -399,3 +399,78 @@ tribulation,"큰 환난 (마가복음 13:19; 다니엘 12:1; 마 24:21, 22)","Th
 destruction_babylon,"큰 바빌론의 멸망 (계시 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
 gog_of_magog,"마곡의 곡의 공격 (에스겔 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
 sheep_goat,땅의 주민들이 양과 염소를 분리하여 심판을 받을 것입니다(마태복음 25:31-33).,"Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
+annointed,왕국 통치자들의 집합 (마태복음 24:31; 고린도전서 15:50-53; 데살로니가전서 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT
+armageddon,"아마겟돈 전쟁 (요한계시록 16:14, 16; 이사야 13:9; 베드로후서 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
+millenium,"하느님의 왕국이 1000년 통치를 시작합니다 (계시 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
+great_crowd,"큰 무리가 아마겟돈을 살아남습니다 (계시 7:9, 14; 시 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
+world_population,지난 2000년간 수십억의 세계 인구,World population in billions in the last 2000 years,
+607BCE,기원전 607년,607 B.C.E.,accommodate for language
+539BCE,기원전 539년,539 B.C.E.,systems in style:
+537BCE,기원전 537년,537 B.C.E.,>>year 537 before time<<
+331BCE,기원전 331년,331 B.C.E.,so they need a word
+63BCE,기원전 63년,63 B.C.E.,prior to the year
+70CE,기원 70년,70 C.E.,and something
+1914CE,기원 1914-1918년,1914-1918 C.E.,after the year
+khmer_empire,804 – 1431년,804 – 1431 C.E.,
+khmer_empire_c,크메르 제국 - 앙코르 시대,Khmer Empire - Angkor period,
+byzantine_empire,기원 330-1453년,330-1453 C.E.,
+byzantine_empire_c,비잔틴 제국,Byzantine Empire,
+ottoman_empire,1299년 – 1922년,1299 – 1922 C.E.,
+ottoman_empire_c,오스만 제국,Ottoman Empire,
+holy_roman_empire,기원 800년 – 924년,800 – 924 C.E.,
+holy_roman_empire2,기원 962년 – 1806년,962 – 1806 C.E.,fixed 2024-12-31
+holy_roman_empire_c,신성 로마 제국 – 1512년 이후 독일 국가의 신성 로마 제국,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,
+mongol_empire,몽골 제국 1206년 – 1294년,Mongol Empire 1206 – 1294 C.E.,
+Genghis,징기스칸,Genghis Khan,
+maya_classic,250-950,250-950,
+maya_classic_c,마야 문명 – 고전 시대,Maya civilization – classic period,
+maya_postclassic,950-1539,950-1539,
+maya_postclassic_c,마야 문명 - 고전 이후 시대,Maya civilization – postclassic period,
+inca_empire,1438년 – 1533년,1438 – 1533 C.E.,
+inca_empire_c,잉카 제국,Inca empire,
+gupta_empire,기원 319년 – 550년,319 – 550 C.E.,
+gupta_empire_c,굽타 제국,Gupta empire,
+Teotihuacan,"아메리카 대륙에서 가장 큰 도시, 피라미드 건설 c. 기원 200년","largest city in the Americas, pyramids build c. 200 C.E.",
+Teotihuacan_c,테오티우아칸,Teotihuacan,
+Dionysius_Exiguus,Anno Domini의 발명가인 Dionysius Exiguus,"Dionysius Exiguus, inventor of Anno Domini",
+Umayyad,661 – 750년,661 – 750 C.E.,
+Umayyad_c,우마이야,Umayyad,
+Abbasid,기원 750년 – 1258년,750 – 1258 C.E.,
+Abbasid_c,아바스 칼리프 왕조,Abbasid Caliphate,
+Mamluk,기원 1250년 – 1517년,1250 – 1517 C.E.,
+Mamluk_c,맘루크 술탄국,Mamluk Sultanate,
+ur3,우르 3왕조 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
+hammurabi,함무라비 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
+Al-Khwarizmi,al-Khwarizmi는 Al-Jabr(대수학)을 씁니다.,al-Khwarizmi writes Al-Jabr (Algebra),
+al-azhar,Al-Azhar University가 카이로에 설립됨,Al-Azhar University is established in Cairo,
+Ibn-Sina,이븐 시나 또는 아비센나,Ibn Sina or Avicenna,
+Al-Ghazali,알 가잘리,Al-Ghazali,2024-07-30
+Keturah,케 투라,Keturah,Genesis 25:1-4
+Zimran,짐마란,Zimran,
+Jokshan,Jokshan,Jokshan,
+Medan,메단,Medan,
+Midian,미디안,Midian,
+Ishbak,ISHBAK,Ishbak,
+Shuah,Shuah,Shuah,
+Timna,팀 나,Timna,"1 Chr 1:36, Ge 36:10-12"
+Midianites,"1) 중부인 : 번호 31 : 2, 3","1) Midianites: Numbers 31:2, 3",
+Moabites,"2) Moabites : 신명기 23 : 3, 4","2) Moabites: Deuteronomy 23:3, 4",
+Ammonites,3) 암모나이트 : 여호수아 12 : 2,3) Ammonites: Joshua 12:2,
+Edomites,4) 에돔 사람들 : 숫자 20 : 14-17,4) Edomites: Numbers 20:14-17,
+Temanites,5) Temanites : 직업 42 : 7,5) Temanites: Job 42:7,
+Amalekites,6) 아말렉 시트 : 사무엘 15 : 2,6) Amalekites: 1 Samuel 15:2,2024-09-29
+life-expectancy,기대 수명 75 년,life expectancy 75 years,
+life-expectancy2,(시편 90:10),(Psalm 90:10),2024-11-29
+430years,1943 - 1513 B.C.E.,1943 – 1513 B.C.E.,
+430years_c,"430 년 : 출애굽기 12:41, 갈라디아서 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24
+maya_calendar,Maya Calendar의 시작 계산 기원전 8 월 11 일 기원전.,"calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
+xia-dynasty2,"기음. 2070 - c. 기원전 1600 년, 서부 Zhou 기간 동안 가장 초기의 언급","c. 2070 – c. 1600 BC, earliest mentions during Western Zhou period",2025-01-02
+xia-dynasty2_c,중국의 Xia 왕조,Xia dynasty in China,
+tres_zapotes,"9 월 3 일, 기원전 32 년","September 3rd, 32 B.C.E.",2024-12-31
+joseph_jacob_reunited,조셉과 야곱은 이집트에서 재결합했다 - 1728 년 기원전. (창 45:11; 47 : 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01
+king_south_light,,,2025-02-05
+king_south_light_c,다니엘 11 장에서 남쪽 왕,King of the South from Daniel 11,2025-02-05
+king_north_light,,,2025-02-05
+king_north_light_c,다니엘 11에서 북쪽 왕,King of the North from Daniel 11,2025-02-05
+daniel2_iron,,,2025-02-05
+daniel2_iron_c,다니엘 2의 철 다리,Iron legs from Daniel 2,2025-02-05
