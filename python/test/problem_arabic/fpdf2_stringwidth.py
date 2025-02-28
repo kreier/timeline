@@ -1,5 +1,10 @@
+# this used to be a problem in July 2024, was fixed in July 27th, 2024
+# see https://github.com/py-pdf/fpdf2/issues/1231
+
 from fpdf import FPDF
+
 fontname = ["NotoArabic.ttf", "Amiri-Regular.ttf", "IBMPlexSansArabic-Regular.ttf"]
+
 # strings:     prophets    kings     periods   events    Abraham     book
 teststrings = ["الأنبياء", "الملوك", "فترات", "الأحداث", "إبْرَاهِيم", "كتاب"]
 
@@ -9,7 +14,8 @@ def render_strings(teststrings):
     pdf.set_line_width(0.3)
     for string in teststrings:
         pdf.rect(pdf.get_x(), pdf.get_y()+2, pdf.get_string_width(string), 13, style="D")
-        pdf.cell(h=17, text=string + " ")
+        pdf.cell(h=17, text=string)
+        pdf.cell(h=17, text=" ")
     pdf.ln()
 
 def info(text):
@@ -32,6 +38,6 @@ for typeface in fontname:
     for string in teststrings:
         pdf.set_x(110 - pdf.get_string_width(string))
         pdf.rect(pdf.get_x(), pdf.get_y()+2, pdf.get_string_width(string), 13, style="D")
-        pdf.cell(h=17, text=string + " ")
+        pdf.cell(h=17, text=string)
         pdf.ln()
-    pdf.output("fpdf2_stringwidth" + typeface + ".pdf")
+    pdf.output("fpdf2_stringwidth." + typeface + ".pdf")
