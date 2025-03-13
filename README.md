@@ -8,12 +8,6 @@ This [project](https://github.com/kreier/timeline) creates a graph of Human hist
 
 ![timeline 4.6](docs/timeline20240516_4.6.png)
 
-Compare this 4000 year timespan of **v4.2 from 2024** with the same time period in **v1.1 from 2009** (below):
-
-![timeline 4.2 first 4000 years](docs/timeline20240309_4k.png)
-
-![timeline 1.1](docs/timeline20230630.png)
-
 Compare this 4000 year timespan of **v5.2 from 2025** with the same time period in **v1.1 from 2009** (below):
 
 ![timeline 5.2 first 4000 years](docs/timeline20250228_4k.png)
