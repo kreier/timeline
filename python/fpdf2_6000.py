@@ -8,7 +8,7 @@ import pandas as pd
 import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 5.2
+version  = 5.3
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -28,7 +28,8 @@ direction        = "r"
 direction_rl     = "l"
 direction_factor = 1
 replace_numerals = False  # for Khmer, Arabic, 
-daniel2_nwt      = False
+daniel2_image    = ""
+edition_2025     = False
 # logging.getLogger("fpdf.svg").propagate = False # suppress warnings for unsupported svg features
 
 # Check execution location, exit if not in /timeline/python
@@ -832,9 +833,9 @@ def create_daniel2():
             line_daniel2 = "daniel2_" + str(current_yearline+1)
             drawString(dict[line_daniel2], 6, x_position(left_x) + indentation*direction_factor, y_line + 25.2 + 8 * yearline, direction, False)
             current_yearline += 1
-    file_d2 = "../images/daniel2"
-    if daniel2_nwt:
-        file_d2 += "_nwt"
+    file_d2 = "../images/daniel2" + daniel2_image
+    # if daniel2_nwt:
+    #     file_d2 += "_nwt"
     d2_x = x_position(left_x+176) + image_shift * direction_factor
     if not left_to_right:
         file_d2 += "_rtl"
@@ -989,13 +990,16 @@ def is_supported(language):
         return True
 
 if __name__ == "__main__":
-    print(f"Timeline v{version}")
+    print(f"Timeline v{version}") # parameters are language, image Daniel 2 and 2025 edition
     if len(sys.argv) < 2:
         print("You did not provide a language as argument. Put it as a parameter after fpdf2_6000.py")
         exit()
     language = sys.argv[1]
-    if len(sys.argv) == 3:
-        daniel2_nwt = True
+    if len(sys.argv) > 2:
+        daniel2_image = sys.argv[2]
+    if len(sys.argv) > 3:
+        if sys.argv[3] == "2025":
+            edition_2025 = True
     if is_supported(language):
         create_timeline(language, "digital")
         create_timeline(language, "print")
