@@ -805,16 +805,21 @@ def create_daniel2():
     d2_height = 96*mm
     d2_width  = d2_height / 748 * 240
     kingdoms = ["Babylon", "Medopersia", "Greece", "Rome", "Angloamerica"]
+    kingdom_x = [0, 0, 0, 0, 0]
     years = ["607BCE", "", "539BCE", "537BCE", "", "331BCE", "", "63BCE", "70CE", "1914CE", "", ""] 
     yearlines = [2, 3, 2, 2, 3]
     current_yearline = 0
     image_shift = int(dict["daniel2_shift"])
+    if daniel2_image == "_fiverr1":
+        kingdom_x = [0, 0, 0, 0, -15]
+    if daniel2_image == "_fiverr2":
+        kingdom_x = [10, 0, 0, 0, -10]
     for index, kingdom in enumerate(kingdoms):
         pdf.set_line_width(0.4)
         co = color["daniel2"]
         pdf.set_draw_color(co[0]*255, co[1]*255, co[2]*255)
         y_line = y2 - shift_upward - d2_height * (0.91 - index * 0.212)
-        pdf.line(x_position(left_x+226) + image_shift, y_line, x_position(left_x), y_line)
+        pdf.line(x_position(left_x+226) + image_shift + kingdom_x[index], y_line, x_position(left_x), y_line)
         pdf.set_text_color(co[0]*255, co[1]*255, co[2]*255)
         pdf.set_font(font_bold, "", 12)
         drawString(dict[kingdom + "_c"], 12, x_position(left_x), y_line + 2, direction, False)
