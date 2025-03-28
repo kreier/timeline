@@ -392,7 +392,10 @@ def draw_event(text, date, ys, ye, yt, wl, pos):
 def create_reference_events():
     # Deluge in 2370 BCE is special and included in the Adam_Moses part
     global counter_events
-    events = pd.read_csv("../db/events.csv", encoding='utf8')
+    file_events = "../db/events.csv"
+    if edition_2025:
+        file_events = "../db/events25.csv"
+    events = pd.read_csv(file_events, encoding='utf8')
     print("Imported data of reference events:", len(events))
     for index, row in events.iterrows():
         draw_event(row.key, row.date, row.y_start, row.y_end, row.y_text, row.width, row.position)
@@ -577,6 +580,8 @@ def create_periods():
         key   = row.key
         x_box = x_position(start)
         y_box = y_position(row.row_y) - 9
+        if edition_2025 and row.key == "millenium":
+            y_box = y_position(row.row_y - 14) - 9
         # x_boxwidth = (end - start) * dots_year
         x_boxwidth = x_position(end) - x_position(start)
         if row.key == "millenium" and render_type == "print":
@@ -689,6 +694,8 @@ def create_tribulation():
     # draw the band above last days (24.1) and king of the south anglo-america (36)
     global fontsize_regular, direction_rl
     tribulation_lines = [23.25]     # this was 22.35 and 34.65 until 5.2 in 2025-02-05
+    if edition_2025:
+        tribulation_lines = [21.25]
     for row in tribulation_lines:
         pdf.set_text_color(0)
         pdf.set_font(font_regular, "", fontsize_regular)
@@ -774,12 +781,13 @@ def include_pictures_svg():
             if version > 4.8:
                 local_x = x_position(-4090)
                 local_y = y_position(45.3)
-        if row.fpdf2:
-            if row.year != 0:
-                drawString(str(row.year), 5.9, local_x, local_y - 1, direction, True)
-            if not left_to_right:
-                local_x -= row.width
-            pdf.image(location, local_x, local_y - row.height - 1.2, row.width, row.height)
+        if row.fpdf2:    # only include the SVG images compatible with fpdf2, as indicated in csv
+            if not edition_2025 or (edition_2025 and row.edition25):
+                if row.year != 0:
+                    drawString(str(row.year), 5.9, local_x, local_y - 1, direction, True)
+                if not left_to_right:
+                    local_x -= row.width
+                pdf.image(location, local_x, local_y - row.height - 1.2, row.width, row.height)
 
     # text for world population graphic
     population_x = x_position(-3677) + int(dict["daniel2_shift"])
@@ -795,7 +803,7 @@ def include_pictures_svg():
     pdf.set_text_color(population_color[0]*255, population_color[1]*255, population_color[2]*255)
     drawString(dict["world_population"], 10, population_x, y_position(population_y) , direction, False)
 
-def create_daniel2():
+def create_daniel2():                   # reference image has dimensions 748 x 240
     global font_regular, font_bold
     left_x = -4026
     shift_upward = 30*mm    
@@ -805,16 +813,21 @@ def create_daniel2():
     d2_height = 96*mm
     d2_width  = d2_height / 748 * 240
     kingdoms = ["Babylon", "Medopersia", "Greece", "Rome", "Angloamerica"]
+    kingdom_x = [0, 0, 0, 0, 0]
     years = ["607BCE", "", "539BCE", "537BCE", "", "331BCE", "", "63BCE", "70CE", "1914CE", "", ""] 
     yearlines = [2, 3, 2, 2, 3]
     current_yearline = 0
     image_shift = int(dict["daniel2_shift"])
+    if daniel2_image == "_fiverr1":
+        kingdom_x = [0, 0, 0, 0, -15]
+    if daniel2_image == "_fiverr2":
+        kingdom_x = [10, 0, 0, 0, -10]
     for index, kingdom in enumerate(kingdoms):
         pdf.set_line_width(0.4)
         co = color["daniel2"]
         pdf.set_draw_color(co[0]*255, co[1]*255, co[2]*255)
         y_line = y2 - shift_upward - d2_height * (0.91 - index * 0.212)
-        pdf.line(x_position(left_x+226) + image_shift, y_line, x_position(left_x), y_line)
+        pdf.line(x_position(left_x+226) + image_shift + kingdom_x[index], y_line, x_position(left_x), y_line)
         pdf.set_text_color(co[0]*255, co[1]*255, co[2]*255)
         pdf.set_font(font_bold, "", 12)
         drawString(dict[kingdom + "_c"], 12, x_position(left_x), y_line + 2, direction, False)
@@ -876,6 +889,8 @@ def create_timestamp():
     pdf.cell(text="CC BY-SA", link="https://creativecommons.org/licenses/by-sa/4.0/")
 
     qr_file = "../images/qr-" + language + ".png"
+    if edition_2025:
+        qr_file = "../images/qr-" + language + "25.png"
     qr_size = 15*mm
     if os.path.exists(qr_file):
         if left_to_right:
