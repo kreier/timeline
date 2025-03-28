@@ -16,6 +16,9 @@ With my retirement starting on June 10th, 2023 I started this repository to crea
 |   4.2   | February 2024 |   128   |    47   |   52   |     13    |    342   |   119  |      7 |
 |   4.3   | March 2024    |   131   |    52   |   52   |     15    |    371   |   128  |     27 |
 |   4.4   | April 2024    |   132   |    66   |   53   |     15    |    398   |   142  |     49 |
+|   4.6   |   June 2024   |   194   |    82   |   45   |     20    |    447   |   162  |   39   |
+|   4.9   | November 2024 |   194   |    82   |   45   |     20    |    462   |   162  |   47   |
+|   5.3   |   March 2025  |   202   |    87   |   48   |     20    |    475   |   166  |   52   |
 
 ## Inspirations
 
