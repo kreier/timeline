@@ -1,8 +1,8 @@
 key,text,english,notes
-version,5.3,5.3,
-pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,2025-03-24
-pdf_subject,Dòng thời gian của loài người,Timeline of humankind,5.3
-BCE,TCN,B.C.E.,
+version,5.4,5.4,
+pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,2025-04-15
+pdf_subject,Dòng thời gian của loài người,Timeline of humankind,5.4
+BCE,TCN,B.C.E.,appendix B9
 CE,CN,C.E.,
 year,năm,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,năm,years,
@@ -24,8 +24,8 @@ Deluge,Trận Đại Hồng Thủy,Deluge,
 Adam,A-đam,Adam,Luke 3:38
 Seth,Sết,Seth,
 Enosh,Ê-nót,Enosh,
-Kenan,Kê-nan,Kenan,
-Mahalalel,Ma-ha-la-ên,Mahalalel,
+Kenan,Kê-nan,Kenan,Genesis 5:12
+Mahalalel,Ma-ha-la-ên,Mahalalel,Genesis 5:15
 Jared,Gia-rết,Jared,
 Enoch,Hê-nóc,Enoch,
 Methuselah,Mê-tu-sê-la,Methuselah,Luke 3:37
@@ -99,7 +99,7 @@ Zechariah,Xa-cha-ri,Zechariah,"reign only recorded 6 months, probably only estab
 Schallum,Sa-lum,Schallum,only one month
 Menahem,Mê-na-hem,Menahem,
 Pekahiah,Phê-ca-hia,Pekahiah,
-Pekah,Phê-ca,Pekah,Fix 2025-03-13
+Pekah,Phê-ca,Pekah,
 Hoshea,Hô-sê,Hoshea,9 years from c. 748
 Elijah,Ê-li-gia,Elijah,
 Elisha,Ê-li-sê,Elisha,
@@ -167,8 +167,8 @@ event_destruction_jerusalem1,"Giê-ru-sa-lem bị hủy phá, dân chúng bị l
 event_temple_rebuilt,xây lại đền thờ 515 TCN,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,tường thành Giê-ru-sa-lem xây lại 455 TCN,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Sự phá hủy thành Giê-ru-sa-lem vào năm 70 CN bởi La Mã dưới thời Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"Cuối thời kỳ của các dân ngoại (Lu-ca 21:24), Vương quốc của Đức Chúa Trời bắt đầu cai trị trên trời 1914","End of the time of the nations (Luke 21:24), Gods kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
-became_king,làm vua lúc,became king at age,
+event_1914,"Cuối thời kỳ của các dân ngoại (Lu-ca 21:24), Vương quốc của Đức Chúa Trời bắt đầu cai trị trên trời 1914","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
+became_king,làm vua lúc,becomes king at age,
 vulgate,Vulgate được hoàn thành bởi Jerome (bản dịch kinh thánh bằng tiếng Latin) c. 405 CN,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,Kinh thánh Gutenberg in năm 1455,Gutenberg bible printed 1455,
 erasmus,"Năm 1516, Desiderius Erasmus xuất bản phần tân ước của kinh thánh trong tiếng Hy lạp ở Rotterdam.",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,
@@ -185,10 +185,10 @@ dead_sea_scrolls,Cuộn giấy Biển Chết được viết,Dead Sea Scrolls wr
 septuagint,Bản Bảy Mươi LXX được dịch,Septuagint LXX translated,
 watchtower,Số đầu tiên của tạp chí “Tháp Canh Si-ôn và sứ giả loan báo sự hiện diện của Đấng Ki-tô” được xuất bản năm 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
 photodrama,“Kịch ảnh về sự sáng tạo” được trình chiếu lần đầu tiên tại New York vào ngày 11 tháng 1 năm 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
-jehovahs_witnesses,"Các Học viên Kinh Thánh lấy tên mới – Nhân Chứng Giê-hô-va (Ê-sai 43:10, 12) ở Columbus, Ohio, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
-gilead_school,Trường Kinh Thánh Ga-la-át của Tháp Canh bắt đầu vào thứ Hai 1. 2. 1943,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",
-new_world_translation1,"“Kinh Thánh—Bản dịch Thế Giới Mới” ra mắt tại Manchester, Anh quốc vào ngày 18. 6. 1960, khôi phục lại danh Giê-hô-va trong nhiều phần của Kinh Thánh","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
-truth_book,Sách “Sự Thật Dẫn Đến Sự Sống Đời Đời” xuất bản năm 1968,The book “The Truth That Leads to Eternal Life” released 1968,
+jehovahs_witnesses,"Các Học viên Kinh Thánh lấy tên mới – Nhân Chứng Giê-hô-va (Ê-sai 43:10, 12) ở Columbus, Ohio, 1931","the Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
+gilead_school,Trường Kinh Thánh Ga-la-át của Tháp Canh bắt đầu vào thứ Hai 1. 2. 1943,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943",
+new_world_translation1,"“Kinh Thánh—Bản dịch Thế Giới Mới” ra mắt tại Manchester, Anh quốc vào ngày 18. 6. 1960, khôi phục lại danh Giê-hô-va trong nhiều phần của Kinh Thánh","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
+truth_book,Sách “Sự Thật Dẫn Đến Sự Sống Đời Đời” xuất bản năm 1968,the book “The Truth That Leads to Eternal Life” is released 1968,
 metropolitan,Bắt đầu làm chứng tại đô thị vào năm 2011,Start of metropolitan witnessing in 2011,
 jw_org,Bắt đầu JW.ORG với những hướng dẫn trong Thánh Chức Nước Trời tháng 12 năm 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
 new_world_translation2,"Kinh Thánh—Bản dịch Thế Giới Mới hiệu đính được ra mắt tại cuộc họp thường niên năm 2013, được tối ưu hóa để sử dụng kỹ thuật số và trực tuyến","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
@@ -196,7 +196,7 @@ jw_broadcasting,Bắt đầu phát sóng Kênh truyền thông JW vào tháng 10
 meeting_workbook,Hình thức mới của cuộc họp giữa tuần với “sổ bài tập cuộc họp” bắt đầu từ tháng 1 năm 2016,New format of midweek meeting with “meeting workbook” starting January 2016,
 covid19,Covid-19,Covid-19,
 cold_war,Tình hình địa chính trị “Chiến tranh Lạnh” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991,
-timeline_created,"2023 là năm nóng nhất trong lịch sử loài người và trong 125.000 năm qua, dòng TG này đã tạo ra","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
+timeline_created,"2023 là năm nóng nhất trong lịch sử loài người và trong 125.000 năm qua, dòng TG này đã tạo ra","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,Codex Sinaiticus được viết,Codex Sinaiticus written,
 codex_vaticanus,Codex Vaticanus được viết,Codex Vaticanus written,
 leningrad_codex,Leningrad Codex được viết ở Cairo năm 1008 CN,Leningrad Codex written in Cairo AD 1008,
@@ -224,7 +224,7 @@ king_north2,"Đức với Hoàng đế William I 1871 (v28), 1914 (v29), 1935 (v
 king_north3,Bắc,North,
 king_north4,"Liên Xô 1945-1991 (Đa-ni-ên 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",
 king_north5,Nga kể từ năm 2017 (w20 tháng 5),Russia since 2017 (w20 May),
-time_of_end,"Sự hiện diện của Đấng Ki tô, Sự kết thúc của hệ thống mọi sự (Ma-thi-ơ 24:3), ngày sau cùng (2 Ti-mô-thê 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",
+time_of_end,"Sự hiện diện của Đấng Ki tô, Sự kết thúc của hệ thống mọi sự (Ma-thi-ơ 24:3), ngày sau cùng (2 Ti-mô-thê 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out
 time_of_end2,Ngày cuối cùng,last days,
 suryavaman2,Vua Suryavarman II xây dựng Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
 notre-dame,Nhà thờ Đức Bà Paris được xây dựng 1163-1260,Notre-Dame de Paris built 1163-1260,
@@ -331,7 +331,7 @@ Josephus,Josephus c. 37 – c. 100 CN,Josephus c. 37 – c. 100 C.E.,
 Cicero,Cicero 106–43 TCN,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
 lachish_letters,Chữ Lachish c. 590 TCN,Lachish letters c. 590 B.C.E.,
 lachish_reliefs,Phù điêu Lachish c. 681 TCN,Lachish reliefs c. 681 B.C.E.,
-mesha_stele,Tấm bia Mê-sa (Bia đá Mô-áp) c. 840 TCN,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6 
+mesha_stele,Tấm bia Mê-sa (Bia đá Mô-áp) c. 840 TCN,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6
 gilgamesh,Gilgamesh và Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
 epic_gilgamesh,Sử thi Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),
 oxyrhynchus,Giấy cói Oxyrhynchus,Oxyrhynchus Papyri,
@@ -398,7 +398,7 @@ Manetho,Manetho viết Aegyptiaca,Manetho writes Aegyptiaca,
 tribulation,"Cơn Đại Nạn (Mác 13:19; Đa-ni-ên 12:1; Ma-thi-ơ 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
 destruction_babylon,"Sự hủy diệt Ba-by-lôn Lớn (Khải Huyền 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
 gog_of_magog,"Cuộc tấn công của Gót ở xứ Ma-gót (Êxê 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
-sheep_goat,"Cư dân trên đất sẽ bị phán xét, phân biệt chiên và dê (Ma-thi-ơ 25:31-33)","Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
+sheep_goat,"Cư dân trên đất sẽ bị phán xét, phân biệt chiên và dê (Ma-thi-ơ 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT
 annointed,Những tín đồ được xức dầu còn sót lại sẽ được thu nhóm về trời (Ma-thi-ơ 24:31; 1 Cô-rinh-tô 15:50-53; 1 Tê-sa-lô-ni-ca 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT
 armageddon,"Trận chiến Ha-ma-ghê-đôn (Khải huyền 16:14, 16; Ê-sai 13:9; 2 Phi-e-rơ 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
 millenium,"Nước Đức Chúa Trời bắt đầu trị vì 1.000 năm (Khải Huyền 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
@@ -464,7 +464,7 @@ life-expectancy2,(Thi Thiên 90:10),(Psalm 90:10),2024-11-29
 430years,1943 – 1513 TCN,1943 – 1513 B.C.E.,
 430years_c,"430 năm: Xuất Ai Cập 12:41, Ga-la-ti 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24
 maya_calendar,tính ngày bắt đầu của lịch Maya là ngày 11 tháng 8 năm 3114 TCN.,"calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
-xia-dynasty2,"khoảng năm 2070 – khoảng năm 1600 trước Công nguyên, những đề cập sớm nhất trong thời kỳ Tây Chu","c. 2070 – c. 1600 BC, earliest mentions during Western Zhou period",2025-01-02
+xia-dynasty2,"khoảng năm 2070 – khoảng năm 1600 trước Công nguyên, những đề cập sớm nhất trong thời kỳ Tây Chu",c. 2070 – c. 1600 BC; earliest mentions during Western Zhou period,2025-01-02
 xia-dynasty2_c,Nhà Hạ ở Trung Quốc,Xia dynasty in China,
 tres_zapotes,Ngày 3 tháng 9 năm 32 TCN,"September 3rd, 32 B.C.E.",2024-12-31
 joseph_jacob_reunited,Giô-sép và Gia-cốp đoàn tụ tại Ai Cập – 1728 TCN (Sáng thế 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01
