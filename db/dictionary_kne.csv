@@ -1,7 +1,7 @@
 key,text,english,notes,
-version,4.7,4.7,,
-pdf_title,Picture di 6000 ay tawen ay history di ipogao ,6000 years human history visualized,,
-pdf_subject,Timeline di sangatauan,Timeline of humankind,,
+version,5.4,5.4,,
+pdf_title,Picture di 6000 ay tawen ay history di ipogao,6000 years human history visualized,2025-04-17,
+pdf_subject,Timeline di sangatauan,Timeline of humankind,5.4,
 BCE,K.K.P.,B.C.E.,,
 CE,K.P.,C.E.,,
 year,tawen,year,"timespan, age (Adam was 130 years old when Shem was born)",
@@ -13,7 +13,7 @@ months,buwan,months,,
 day,agew,day,,
 days,agew,days,,
 to,–,to,,
-people,ipogao,people,"people, persons",
+people,ipogao,people,,
 judges,uk- ukom,judges,,
 prophets,propeta,prophets,,
 kings,ar-ari,kings,,
@@ -21,57 +21,57 @@ periods,periodo,periods,,
 events,pasamak,events,,
 objects,banag wenno ban-banag,objects or items,,
 Deluge,Layus,Deluge,,
-Adam,Adan,Adam,,
+Adam,Adan,Adam,Luke 3:38,
 Seth,Set,Seth,,
 Enosh,Enos,Enosh,,
 Kenan,Kena,Kenan,,
 Mahalalel,Mahalaleel,Mahalalel,,
 Jared,Jared,Jared,,
 Enoch,Enoc,Enoch,,
-Methuselah,Matusalem,Methuselah,,
+Methuselah,Matusalem,Methuselah,Luke 3:37,
 Lamech,Lamec,Lamech,,
 Noah,Noe,Noah,,
 Shem,Sem,Shem,,
-Arpachshad,Arpaksad,Arpachshad,,
+Arpachshad,Arpaksad,Arpachshad,Luke 3:36,
 Shelah,Sela,Shelah,,
 Eber,Eber,Eber,,
 Peleg,Peleg,Peleg,,
 Reu,Reu,Reu,,
-Serug,Serug,Serug,,
-Nahor,Nahor,Nahor,,
+Serug,Serug,Serug,Luke 3:35,
+Nahor,Nahor,Nahor,Genesis 11:24,
 Terah,Tera,Terah,,
 Abraham,Abraham,Abraham,,
 Isaac,Isaac,Isaac,,
-Jacob,Jacob,Jacob,,
-Joseph,Jose,Joseph,,
+Jacob,Jacob,Jacob,Luke 3:34,
+Joseph,Jose,Joseph,Genesis 37,
 Moses,Moises,Moses,,
-Othniel,Otniel,Othniel,,
-Ehud,Ehud,Ehud,,
-Shamgar,Samgar,Shamgar,,
-Barak,Barak,Barak,,
-Gideon,Gideon,Gideon,,
-Tola,Tola,Tola,,
-Jair,Jair,Jair,,
-Jephthah,Jefte,Jephthah,,
-Ibzan,Ibzan,Ibzan,,
-Elon,Elon,Elon,,
-Abdon,Abdon,Abdon,,
-Samson,Samson,Samson,,
-Samuel,Samuel,Samuel,,
-Saul,Saul,Saul,,
-David,David,David,,
-Solomon,Solomon,Solomon,,
+Othniel,Otniel,Othniel,Judges 3:9-11,
+Ehud,Ehud,Ehud,Judges 3:15-18,
+Shamgar,Samgar,Shamgar,Judges 3:31,
+Barak,Barak,Barak,Judges 4:6,
+Gideon,Gideon,Gideon,Judges 7:1,
+Tola,Tola,Tola,Judges 10:1,
+Jair,Jair,Jair,Judges 10:3,
+Jephthah,Jefte,Jephthah,Judges 11:1,
+Ibzan,Ibzan,Ibzan,Judges 12:8,
+Elon,Elon,Elon,Judges 12:11,
+Abdon,Abdon,Abdon,Judges 12:13,
+Samson,Samson,Samson,Judges 13:24,
+Samuel,Samuel,Samuel,1 Samuel 1:20,
+Saul,Saul,Saul,1 Samuel 9:2,
+David,David,David,1 Samuel 16:13,
+Solomon,Solomon,Solomon,1 Kings 2:1,
 Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,
 Abijah,Abias (Abiam),Abijah (Abijam),"3 years, also Abijam",
-Asa,Asa,Asa,,
-Jehoshaphat,Jehosafat,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,
+Asa,Asa,Asa,A6-A,
+Jehoshaphat,Jehosafat,Jehoshaphat,,
 Jehoram2,Jehoram,Jehoram,,
 Ahaziah,Ahazias,Ahaziah,,
 Athaliah,Reyna Atalia,Queen Athaliah,Queen Athaliah,
 Jehoash,Jehoas,Jehoash,,
 Amaziah,Amazias,Amaziah,,
 Uzziah,Uzias (Azarias),Uzziah (Azariah),also Azariah,
-Jotham,Jotam,Jotham,,
+Jotham,Jotam,Jotham,A6-B,
 Ahaz,Ahaz,Ahaz,,
 Hezekiah,Ezekias,Hezekiah,,
 Manasseh,Manases,Manasseh,,
@@ -80,7 +80,7 @@ Josiah,Josias,Josiah,,
 Jehoahaz,Jehoahaz,Jehoahaz,Only 3 months,
 Jehoiakim,Jehoiakim,Jehoiakim,,
 Jehoiachin,Jehoiakin,Jehoiachin,Only 3 months 10 days,
-Zedekiah,Zedekias,Zedekiah,Zedekiah,
+Zedekiah,Zedekias,Zedekiah,,
 Jeroboam,Jeroboam,Jeroboam,first king of northern 10-tribe kingdom,
 Nadab,Nadab,Nadab,less than 2,
 Baasha,Baasa,Baasha,,
@@ -152,22 +152,22 @@ caesarea,Naibalud si Pablo ed Cesarea c. 56-58 K.P.,Paul in custody in Caesarea 
 rome1,Umuna ay pannakaibalud Pablo ed Roma c. 59-61 K.P.,Paul’s first imprisonment in Rome c. 59-61 C.E.,,
 rome2,"Maikadua ay pannakaibalud Pablo ed Roma c. 65 K.P., Panaka isurat di 2 Timoteo , Napese si Pablo","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",,
 Julius,Julio,Julius,,
-Augustus,Augusto,Augustus,,
-Tiberius,Tiberio,Tiberius,,
+Augustus,Augusto,Augustus,Luke 2:1,
+Tiberius,Tiberio,Tiberius,Luke 3:1,
 Caligula,Caligula,Caligula,,
-Claudius,Claudio,Claudius,,
+Claudius,Claudio,Claudius,Acts 11:28,
 Nero,Nero,Nero,,
 Galba-Otho-Vitellius,"Galba, Otho ken Vitellius (Tawen ti 4 nga Emperador)","Galba, Otho and Vitellius (Year of the Four Emperors)",,
 Vespasian,Vespasiano,Vespasian,,
 event_exodus,"Kinmaan da ed Egipto sin maika-14 di Nisan, 1513 K.K.P.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.",,
 event_division_kingdom,Dibision ti Israel 997 K.K.P,Division of Israel 997 BCE,,
-event_destruction_samaria,Pannakadadael di Samaria 740 K.K.P. ni Asiria,Destruction of Samaria 740 B.C.E. by Assyria,,
-event_destruction_samaria2,740 K.K.P. ti Asiria,740 B.C.E. by Assyria,,
+event_destruction_samaria,Pannakadadael di Samaria 740 K.K.P. ni Asiria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,
+event_destruction_samaria2,740 K.K.P. ti Asiria,740 B.C.E. by Assyria,was shortened here for 2 lines,
 event_destruction_jerusalem1,"Pannakadadael di Jerusalem 607 K.K.P. babaen si Babilonia, 390 a tawen nan nalapabas di nabingay bingay nan pagarian (Ezekiel 4:5) .","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",,
 event_temple_rebuilt,Naibangon san templo - Jerusalem idi 515,Temple in Jerusalem rebuilt 515 B.C.E.,,
 event_jerusalem_rebuilt,Naibangon san pader - Jerusalem idi 455,Jerusalem wall rebuilt 455 B.C.E.,,
 event_destruction_jerusalem2,Nadadael san Jerusalem 70 K.P. babaen ken Tito di Roma,Destruction of Jerusalem 70 C.E. by Rome under Titus,,
-event_1914,"Ngudon di panawen di nasnasion (Lucas 21:24), rugin di turay di Dios ed langit 1914 K.P.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",,
+event_1914,"Ngudon di panawen di nasnasion (Lucas 21:24), rugin di turay di Dios ed langit 1914 K.P.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,
 became_king,nanbalin ay ari,became king at age,,
 vulgate,Nelpas Jerome nan Vulgate (Latin a patarus di Biblia) c. 405 K.P.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,,
 gutenberg,Na-imprenta nan Gutenberg ay Biblia idi 1455,Gutenberg bible printed 1455,,
@@ -185,13 +185,13 @@ dead_sea_scrolls,Naisurat din Dead Sea Scroll,Dead Sea Scrolls written,,
 septuagint,Nai-translate nan Septuagint LXX,Septuagint LXX translated,,
 watchtower,Umuna ay ruar di “Zion’s Watch Tower and Herald of Christ’s Presence” naipablaak edi 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,,
 photodrama,"Damo ay naipabuyaan di “Photo-Drama of Creation” ed New York idi Enero 11, 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",,
-jehovahs_witnesses,"Inadaptar nan Estudiante di Biblia san baro ay nagan – Saksi ni Jehova (Isaias 43:10, 12). ed Columbus, Ohio, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",,
+jehovahs_witnesses,"Inadaptar nan Estudiante di Biblia san baro ay nagan – Saksi ni Jehova (Isaias 43:10, 12). ed Columbus, Ohio, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,
 gilead_school,"Nanrugi nan Watchtower Bible School of Gilead idi Lunes, Pebrero 1, 1943","Watchtower Bible School of Gilead began on Monday, February 1, 1943",,
-new_world_translation1,"“Baro a Lubong a Patarus ti Nasantuan a Kasuratan” nairuar ed Manchester, England idi Hunio 18, 1960","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",,
+new_world_translation1,"“Baro a Lubong a Patarus ti Nasantuan a Kasuratan” nairuar ed Manchester, England idi Hunio 18, 1960","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,
 truth_book,Ti libro a “Ti Kinapudno a Mangiturong iti Biag nga Agnanayon” a nairuar idi 1968,The book “The Truth That Leads to Eternal Life” released 1968,,
 metropolitan,Nanrugi nan panangasaba di metropolitan idi 2011,Start of metropolitan witnessing in 2011,,
 jw_org,Nangrugi ti JW.ORG nga addaan kadagiti instruksion iti ministerio iti pagarian Disiembre 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,,
-new_world_translation2,Na-revise nan “Baro a Lubong a Patarus ti Nasantuan a Kasuratan” nairuar iti tinawen a miting 2013,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",,
+new_world_translation2,Na-revise nan “Baro a Lubong a Patarus ti Nasantuan a Kasuratan” nairuar iti tinawen a miting 2013,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,
 jw_broadcasting,Nanrugi nan jw.broadcasting idi Oktubre 2014,Start of jw.broadcasting in October 2014,,
 meeting_workbook,Baro ay pormat di midweek meeting - nawada nan “meeting workbook” nanrugi idi Enero 2016,New format of midweek meeting with “meeting workbook” starting January 2016,,
 covid19,Covid-19,Covid-19,,
@@ -224,14 +224,14 @@ king_north2,"Alemania (Emperador Guillermo I)1871 (b28), 1914 (b29), 1935 (b30b)
 king_north3,Amianan,North,,
 king_north4,"Union ti Soviet 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",,
 king_north5,Rusia manipud idi 2017 (w20 Mayo),Russia since 2017 (w20 May),,
-time_of_end,"Sinyales di Kaaddan Cristo, Ngudo ti sistema ti bambanag (Mateo 24:3), maudi nga al-aldaw (2 Timoteo 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",,
+time_of_end,"Sinyales di Kaaddan Cristo, Ngudo ti sistema ti bambanag (Mateo 24:3), maudi nga al-aldaw (2 Timoteo 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,
 time_of_end2,maudi nga al-aldaw,last days,,
 suryavaman2,Inbangon ni Ari Suryavarman II ti Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,,
 notre-dame,Notre-Dame de Paris ket naibangon idi 1163-1260,Notre-Dame de Paris built 1163-1260,,
-jehoiada,Jehoiada,Jehoiada,,
+jehoiada,Jehoiada,Jehoiada,2 Kings 11:4,
 babel,Na-amag nan torre di Babel,tower of Babel built,,
 Haggai,Haggeo,Haggai,,
-Zerubbabel,Zerubabel (Lucas 3:27),Zerubbabel (Luke 3:27),Zerubbabel (Luke 3:27),
+Zerubbabel,Zerubabel (Lucas 3:27),Zerubbabel (Luke 3:27),Luke 3:27,
 Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",,
 Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",,
 Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",,
@@ -245,67 +245,67 @@ Angloamerica_c,Anglo-America,Anglo-America,,
 infliction1,400 a panagrigat,400 year infliction,Acts 7:6,
 infliction2,Acts 7:6,Acts 7:6,,
 Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,
-Israel,Israel,Israel,,
-Sarah,Sarah,Sarah,2008-1881 BCE – 127 years,
+Israel,Israel,Israel,Genesis 35:10,
+Sarah,Sarah,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",
 Hagar,Hagar,Hagar,Genesis 21:14,
 Haran,Haran,Haran,Genesis 11:26,
-Reumah,Reumah,Reumah,Concubine – 4 sons,
+Reumah,Reumah,Reumah,Concubine – 4 sons 22:24,
 Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more),
-Lot,Lot,Lot,,
+Lot,Lot,Lot,Genesis 11:27,
 Lots_wife,Asawa ni Lot,Lot’s wife,,
 Lots_daughters,Annak a babbae ni Lot,Daughters of Lot,,
-Moab,Moab (ina una nga anak),Moab (older daughter),,
-Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon),,
-Bethuel,Bethuel,Bethuel,,Be·thuʹel
+Moab,Moab (ina una nga anak),Moab (older daughter),Genesis 19:37,
+Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon),Genesis 19:38,
+Bethuel,Bethuel,Bethuel,Genesis 22:23,Be·thuʹel
 Rebekah,Rebekah,Rebekah,,Re·bekʹah
-Laban,Laban,Laban,,Laʹban
+Laban,Laban,Laban,Genesis 24:29,Laʹban
 Leah,Lea,Leah,Genesis 35:23,Leʹah
 Rachel,Raquel,Rachel,Genesis 35:24, 
 Bilhah,Bilha,Bilhah,Genesis 35:25,Bilʹhah
 Zilpah,Zilpah,Zilpah,Genesis 35:26,Zilʹpah
-Reuben,Reuben,Reuben, ,Reuʹben
-Simeon,Simeon,Simeon, ,Simʹe·on
-Levi,Levi,Levi, ,Leʹvi
-Judah,Juda,Judah, ,Judah
-Issachar,Isacar,Issachar, ,Isʹsa·char
-Zebulun,Zabulon,Zebulun, ,Zebʹu·lun
+Reuben,Reuben,Reuben,,Reuʹben
+Simeon,Simeon,Simeon,,Simʹe·on
+Levi,Levi,Levi,Genesis 35:23,Leʹvi
+Judah,Juda,Judah,,Judah
+Issachar,Isacar,Issachar,,Isʹsa·char
+Zebulun,Zabulon,Zebulun,,Zebʹu·lun
 Dinah,Dinah,Dinah,Genesis 34,Diʹnah
-Esau,Esau/,Esau/, ,Eʹsau
+Esau,Esau/,Esau/,,Eʹsau
 Edom,Edom,Edom,Genesis 36:1, 
-Ishmael,Ismael,Ishmael, , 
-Manasseh2,(Manasseh,(Manasseh, , 
-Ephraim,and Ephraim),and Ephraim), , 
-Benjamin,Benjamin,Benjamin, , 
-Dan,Dan,Dan, , 
-Naphtali,Neftali,Naphtali, ,Naphʹta·li
-Gad,Gad,Gad, , 
-Asher,Aser,Asher, ,Ashʹer
+Ishmael,Ismael,Ishmael,Genesis 16:16, 
+Manasseh2,(Manasseh,(Manasseh,Genesis 41:50-52, 
+Ephraim,and Ephraim),and Ephraim),, 
+Benjamin,Benjamin,Benjamin,, 
+Dan,Dan,Dan,Genesis 35:23, 
+Naphtali,Neftali,Naphtali,,Naphʹta·li
+Gad,Gad,Gad,, 
+Asher,Aser,Asher,,Ashʹer
 Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,Genesis 22:21
-Milcah2,"Chesed, Hazo,","Chesed, Hazo,", , 
-Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph", , 
-Tebah,Tebah,Tebah,Genesis 22:23,Genesis 22:23
-Gaham,Gaham,Gaham, , 
-Tahash,Tahash,Tahash, , 
-Maacah,Maacah,Maacah, , 
+Milcah2,"Chesed, Hazo,","Chesed, Hazo,",, 
+Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",, 
+Tebah,Tebah,Tebah,Genesis 22:24,Genesis 22:23
+Gaham,Gaham,Gaham,, 
+Tahash,Tahash,Tahash,, 
+Maacah,Maacah,Maacah,, 
 Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9", 
 Basemath,Basemat,Basemath,"Genesis36:3, 4",Basʹe·math
 Reuel,Reuel,Reuel,"36:13, 17",Reuʹel
-Nahath,Nahath,Nahath, ,Naʹhath
-Zerah,Zerah,Zerah, ,Zeʹrah
-Schammah,Schammah,Schammah, ,Shamʹmah
-Mizzah,Mizzah,Mizzah, ,Mizʹzah
+Nahath,Nahath,Nahath,,Naʹhath
+Zerah,Zerah,Zerah,,Zeʹrah
+Schammah,Schammah,Schammah,,Shamʹmah
+Mizzah,Mizzah,Mizzah,,Mizʹzah
 Adah,Adah,Adah,"36:11, 12, 15, 16",Aʹdah
-Eliphaz,Eliphaz,Eliphaz, ,Elʹi·phaz
-Teman,Teman,Teman, ,Teʹman
-Omar,Omar,Omar, ,Oʹmar
-Zepho,Zepho,Zepho, ,Zeʹpho
-Kenaz,Kenaz,Kenaz, ,Keʹnaz
-Korah,Korah,Korah, ,Korʹah
-Gatam,Gatam,Gatam, ,Gaʹtam
-Amalek,Amalek,Amalek, ,Amʹa·lek
+Eliphaz,Eliphaz,Eliphaz,,Elʹi·phaz
+Teman,Teman,Teman,,Teʹman
+Omar,Omar,Omar,,Oʹmar
+Zepho,Zepho,Zepho,,Zeʹpho
+Kenaz,Kenaz,Kenaz,,Keʹnaz
+Korah,Korah,Korah,,Korʹah
+Gatam,Gatam,Gatam,,Gaʹtam
+Amalek,Amalek,Amalek,,Amʹa·lek
 Oholibamah,Oholibamah,Oholibamah,"36:14, 18",O·hol·i·baʹmah
-Jeush,Jeush,Jeush, ,Jeʹush
-Jalam,Jalam,Jalam, ,Jaʹlam
+Jeush,Jeush,Jeush,,Jeʹush
+Jalam,Jalam,Jalam,,Jaʹlam
 Nebaioth,Nebayot,Nebaioth,Genesis 25:13,Ne·baʹioth
 Kedar,Kedar,Kedar,,Keʹdar
 Adbeel,Adbeel,Adbeel,,Adʹbe·el
@@ -321,14 +321,14 @@ Kedemah,Kedema,Kedemah,,Kedʹe·mah
 Babylon2,,,empty!,empty!!
 terahfam,Membro ti pamilya ni Tera,members of Terah’s family,,
 rosetta,Rosetta stone 196 K.K.P.,Rosetta stone 196 B.C.E.,,
-Herodotus,"Herodotus c. 484 – c. 425 K.K.P., insurat ti The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",,
-Aristotle,Aristotle 384 – 322 K.K.P.,Aristotle 384 – 322 BC,,
+Herodotus,"Herodotus c. 484 – c. 425 K.K.P., insurat ti The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,
+Aristotle,Aristotle 384 – 322 K.K.P.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",
 Ptolemy,Ptolemy c 100 – c. 170 K.P.,Ptolemy c 100 – c. 170 C.E.,,
 Pythagoras,Pythagoras c. 570 – c. 495 K.K.P.,Pythagoras c. 570 – c. 495 BC,,
 Plato,Plato c. 427 – c. 348 K.K.P.,Plato c. 427 – c. 348 BC,,
 Socrates,Socrates c. 470 – c. 399 K.K.P.,Socrates c. 470 – c. 399 BC,,
 Josephus,Josephus c. 37 – c. 100 K.P.,Josephus c. 37 – c. 100 C.E.,,
-Cicero,Cicero 106–43 K.K.P.,Cicero 106–43 BC,,3 Jan 106 BC – 7 Dec 43 BC
+Cicero,Cicero 106–43 K.K.P.,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",3 Jan 106 BC – 7 Dec 43 BC
 lachish_letters,Nan letra ti Lakis c. 590 K.K.P.,Lachish letters c. 590 B.C.E.,,
 lachish_reliefs,Kinitikitan a ladladawan ti Lakis c. 681 K.K.P.,Lachish reliefs c. 681 B.C.E.,,
 mesha_stele,Mesha Stele (Moabite stone) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,,
@@ -418,7 +418,7 @@ byzantine_empire_c,Imperio di Byzantine,Byzantine Empire,,
 ottoman_empire,1299 – 1922 K.P.,1299 – 1922 C.E.,,
 ottoman_empire_c,Imperio di Ottoman,Ottoman Empire,,
 holy_roman_empire,800 – 924 K.P.,800 – 924 C.E.,,
-holy_roman_empire2,862 – 1806 K.P.,862 – 1806 C.E.,,
+holy_roman_empire2,962 – 1806 K.P.,962 – 1806 C.E.,fixed 2024-12-31,
 holy_roman_empire_c,Imperio di Roma – kalpasan ti 1512 Imperio di Romano ay kadwa nan nasion di Aleman,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,,
 mongol_empire,Imperio di Mongol 1206 – 1294 K.P.,Mongol Empire 1206 – 1294 C.E.,,
 Genghis,Genghis Khan,Genghis Khan,,
@@ -444,4 +444,33 @@ hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,,
 Al-Khwarizmi,insulat Al Khwarizmi nan Al Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra),,
 al-azhar,Al Azhar University et nabangon ed Cairo,Al-Azhar University is established in Cairo,,
 Ibn-Sina,Ibn Sina o Avicenna,Ibn Sina or Avicenna,,
-Al-Ghazali,Al Ghazali,Al-Ghazali,,
+Al-Ghazali,Al Ghazali,Al-Ghazali,2024-07-30,
+Keturah,,Keturah,Genesis 25:1-4,
+Zimran,,Zimran,,
+Jokshan,,Jokshan,,
+Medan,,Medan,,
+Midian,,Midian,,
+Ishbak,,Ishbak,,
+Shuah,,Shuah,,
+Timna,,Timna,"1 Chr 1:36, Ge 36:10-12",
+Midianites,,"1) Midianites: Numbers 31:2, 3",,
+Moabites,,"2) Moabites: Deuteronomy 23:3, 4",,
+Ammonites,,3) Ammonites: Joshua 12:2,,
+Edomites,,4) Edomites: Numbers 20:14-17,,
+Temanites,,5) Temanites: Job 42:7,,
+Amalekites,,6) Amalekites: 1 Samuel 15:2,2024-09-29,
+life-expectancy,,life expectancy 75 years,,
+life-expectancy2,,(Psalm 90:10),2024-11-29,
+430years,,1943 – 1513 B.C.E.,,
+430years_c,,"430 years: Exodus 12:41, Galatians 3:17",2024-12-24,
+maya_calendar,,"calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,
+xia-dynasty2,,"c. 2070 – c. 1600 BC, earliest mentions during Western Zhou period",2025-01-02,
+xia-dynasty2_c,,Xia dynasty in China,,
+tres_zapotes,,"September 3rd, 32 B.C.E.",2024-12-31,
+joseph_jacob_reunited,,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,
+king_south_light,,,2025-02-05,
+king_south_light_c,,King of the South from Daniel 11,2025-02-05,
+king_north_light,,,2025-02-05,
+king_north_light_c,,King of the North from Daniel 11,2025-02-05,
+daniel2_iron,,,2025-02-05,
+daniel2_iron_c,,Iron legs from Daniel 2,2025-02-05,
