@@ -2,7 +2,7 @@ key,text,english,notes
 version,5.4,5.4,5.4
 pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2025-04-15
 pdf_subject,Zeitleiste der Menschheit,Timeline of humankind,5.4
-BCE,v.u.Z.,B.C.E.,
+BCE,v.u.Z.,B.C.E.,appendix B9
 CE,u.Z.,C.E.,
 year,Jahr,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,Jahre,years,
@@ -24,7 +24,7 @@ Deluge,Sintflut,Deluge,
 Adam,Adam,Adam,Luke 3:38
 Seth,Seth,Seth,
 Enosh,Ẹnosch,Enosh,
-Kenan,Kẹnan,Kenan,
+Kenan,Kẹnan,Kenan,Genesis 5:12
 Mahalalel,Mahalạlel,Mahalalel,
 Jared,Jạred,Jared,
 Enoch,Hẹnoch,Enoch,
@@ -134,7 +134,7 @@ temple2,479 Jahre bis Beginn des Tempelbaus – 1. Könige 6:1,479 years until t
 jesus_service,"3,5 Jahre Dienstzeit Jesu, getötet am 14. Nisan 33 u.Z.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
 jesus_life,Jesus im Jahr 2 v.u.Z. geboren,Jesus born 2 B.C.E.,
 exile,607 bis 537 v.u.Z. – 70 Jahre (Jeremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),
-exile2,Exil,exile,
+exile2,Exil,Exile,
 7times,Offenbarung 12:9,Revelation 12:9,
 7times2,7 Zeiten – 2520 Jahre bis zum Messianischen Königreich 1914 u.Z. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),
 ww1,1. Weltkrieg – 1914–1918 u.Z.,World War I – 1914–1918 C.E.,
@@ -168,7 +168,7 @@ event_temple_rebuilt,Tempel wieder aufgebaut 515 v.u.Z.,Temple in Jerusalem rebu
 event_jerusalem_rebuilt,Jerusalems Mauern aufgebaut 455 v.u.Z,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Zerstörung von Jerusalem 70 u.Z. durch Rom unter Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus,
 event_1914,"Ende der „Zeiten der Nationen“ (Lukas 21:24), Gottes Königkreich beginnt im Himmel zu regieren 1914 u.Z.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
-became_king,wurde König im Alter von,became king at age,
+became_king,wird König im Alter von,becomes king at age,2025-04-14
 vulgate,Vulgata von Hieronymus fertiggestellt (Lateinische Übersetzung der Bibel) ca. 405 u.Z.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,Gutenbergbibel gedruckt 1455,Gutenberg bible printed 1455,
 erasmus,Griechischer Text der Bibel veröffentlicht durch Desiderius Erasmus von Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,
@@ -176,32 +176,32 @@ luther,Lutherübersetzung der Bibel im September 1522,Luther Bible translation i
 tyndale,Englische Bibelübersetzung von Tyndale 1536,English Bible translation by Tyndale 1536,
 king_james,King-James-Bibel 1611,King James Bible 1611,
 69weeks3,"Jesus beginnt seinen Dienst 29 u.Z. (Lukas 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",
-ransom,Opfergaben hören zur “Mitte der Woche” auf Daniel 9:27,middle of week “sacrifice to cease” Daniel 9:27,
+ransom,Opfergaben hören zur “Mitte der Woche” auf Daniel 9:27,Middle of week “sacrifice to cease” Daniel 9:27,
 cornelius,Kornelius am Ende der 70 Wochen getauft (Daniel 9:24) in 36 u.Z.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,
-columbus,Ende der präkolumbianischen Zeitepoche in Amerika 1492,end of the pre-columbian period in the Americas 1492,
-declaration_independence,Unabhängigkeitserklärung der 13 Kolonien Amerikas 1776,declaration of independence of 13 colonies in America 1776,
+columbus,Ende der präkolumbianischen Zeitepoche in Amerika 1492,End of the pre-columbian period in the Americas 1492,
+declaration_independence,Unabhängigkeitserklärung der 13 Kolonien Amerikas 1776,Declaration of independence of 13 colonies in America 1776,
 tischendorf,Tischendorf entdeckt den Codex Sinaiticus aus dem 4ten Jahrhundert in 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,
 dead_sea_scrolls,Schriftrollen vom Toten Meer,Dead Sea Scrolls written,
 septuagint,Septuaginta LXX übersetzt,Septuagint LXX translated,
-watchtower,erste Ausgabe des “Zion’s Watch Tower and Herald of Christ’s Presence” veröffentlicht in 1879,the first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
-photodrama,erste Aufführung “Photo-Drama of Creation” in New York am 11 Januar 1914,"the “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
-jehovahs_witnesses,"1931 nehmen die Bibelforscher in Columbus, Ohio, einen neuen Namen an – Zeugen Jehovas (Jesaja 43:10, 12).","the Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
+watchtower,erste Ausgabe des “Zion’s Watch Tower and Herald of Christ’s Presence” veröffentlicht in 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
+photodrama,erste Aufführung “Photo-Drama of Creation” in New York am 11 Januar 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
+jehovahs_witnesses,"1931 nehmen die Bibelforscher in Columbus, Ohio, einen neuen Namen an – Zeugen Jehovas (Jesaja 43:10, 12).","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
 gilead_school,am 1. Februar 1943 beginnt die “Watchtower Bible School of Gilead”,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943",
 new_world_translation1,"“New World Translation of the Holy Scriptures” wird am 18 Juni 1960 in Manchester, England veröffentlicht; der Name Jehova and vielen Stellen wieder eingefügt","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
-truth_book,"das Buch “Die Wahrheit, die zu ewigem Leben führt” wird 1968 herausgegeben",the book “The Truth That Leads to Eternal Life” is released 1968,
-metropolitan,Beginn des “metropolitan witnessing” in 2011,start of metropolitan witnessing in 2011,
-jw_org,Start von JW.ORG mit Anweisungen im Königreichsdienst im Dezember 2012,start of JW.ORG with instructions in kingdom ministry December 2012,
-new_world_translation2,"revidierte “New World Translation of the Holy Scriptures” auf Englisch auf der Jahresversammlung 2013 veröffentlicht, optimiert zur digitalen und online Benutzung ","revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
-jw_broadcasting,"Beginn von jw.broadcasting im October 2014 auf Englisch, ab Mai 2015 auf Deutsch",start of jw.broadcasting in October 2014,
-meeting_workbook,Start der “Leben und Dienst” Zusammenkunft mit einem Arbeitsheft ab Januar 2016,new format of midweek meeting with “meeting workbook” starting January 2016,
+truth_book,"das Buch “Die Wahrheit, die zu ewigem Leben führt” wird 1968 herausgegeben",The book “The Truth That Leads to Eternal Life” is released 1968,
+metropolitan,Beginn des “metropolitan witnessing” in 2011,Start of metropolitan witnessing in 2011,
+jw_org,Start von JW.ORG mit Anweisungen im Königreichsdienst im Dezember 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
+new_world_translation2,"revidierte “New World Translation of the Holy Scriptures” auf Englisch auf der Jahresversammlung 2013 veröffentlicht, optimiert zur digitalen und online Benutzung","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
+jw_broadcasting,"Beginn von jw.broadcasting im October 2014 auf Englisch, ab Mai 2015 auf Deutsch",Start of jw.broadcasting in October 2014,
+meeting_workbook,Start der “Leben und Dienst” Zusammenkunft mit einem Arbeitsheft ab Januar 2016,New format of midweek meeting with “meeting workbook” starting January 2016,
 covid19,Covid-19,Covid-19,
-cold_war,geopolitische Situation “Kalter Krieg” 1945-1991,geopolitical situation labeled “Cold War” 1945-1991,
-timeline_created,"Jahr 2023: Zeitleiste erstellt, heißestes Jahr der Menschheit – und der letzten 125000 Jahre!","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
+cold_war,geopolitische Situation “Kalter Krieg” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991,
+timeline_created,"Jahr 2023: Zeitleiste erstellt, heißestes Jahr der Menschheit – und der letzten 125000 Jahre!","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,Codex Sinaiticus geschrieben,Codex Sinaiticus written,
 codex_vaticanus,Codex Vaticanus geschrieben,Codex Vaticanus written,
 leningrad_codex,Leningrad Codex geschrieben in Kairo AD 1008,Leningrad Codex written in Cairo AD 1008,
 john,Johannes schreibt die Offenbarung im Exil auf Patmos 96-98 u.Z.,John writes “revelation” while exiled on Patmos 96-98 C.E.,
-nicaea1,erstes Konzil von Nicäa,first Council of Nicaea,
+nicaea1,erstes Konzil von Nicäa,First Council of Nicaea,
 buddha,Siddhartha Gautama – Buddha ca.563-ca.483 v.u.Z.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,
 buddha2,Buddha alternativ ca. 480-400 v.u.Z.,Buddha alternatively c. 480-400 B.C.E.,
 mohammed,Mohammed ca. 570-632 u.Z.,Mohammed c. 570-632 C.E.,
@@ -225,11 +225,11 @@ king_north3,Norden,North,
 king_north4,"Sowjetunion 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",
 king_north5,Russland seit 2017 (w20 Mai),Russia since 2017 (w20 May),
 time_of_end,"Gegenwart Christi, Abschluss des Weltsystems (Matthäus 24:3), die letzten Tage (2. Timotheus 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out
-time_of_end2,letzte Tage,last days,
+time_of_end2,letzte Tage,Last days,
 suryavaman2,König Suryavarman II erbaut Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
 notre-dame,Notre-Dame de Paris gebaut 1163-1260,Notre-Dame de Paris built 1163-1260,
 jehoiada,Jehojada,Jehoiada,2 Kings 11:4
-babel,Turmbau zu Babel,tower of Babel built,
+babel,Turmbau zu Babel,Tower of Babel built,
 Haggai,Haggai,Haggai,
 Zerubbabel,Serubbabel (Lukas 3:27),Zerubbabel (Luke 3:27),Luke 3:27
 Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",
@@ -419,7 +419,7 @@ ottoman_empire,1299 – 1922 u.Z.,1299 – 1922 C.E.,
 ottoman_empire_c,Osmanisches Reich,Ottoman Empire,
 holy_roman_empire,800 – 924 u.Z.,800 – 924 C.E.,
 holy_roman_empire2,962 – 1806 u.Z.,962 – 1806 C.E.,fixed 2024-12-31
-holy_roman_empire_c,Heiliges Römisches Reich – nach 1512 Heiliges Römisches Reich Deutscher Nation,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,
+holy_roman_empire_c,Heiliges Römisches Reich – nach 1512 Heiliges Römisches Reich Deutscher Nation,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,
 mongol_empire,Mongolisches Reich 1206 – 1294 n. Chr.,Mongol Empire 1206 – 1294 C.E.,
 Genghis,Dschingis Khan,Genghis Khan,
 maya_classic,250-950,250-950,
@@ -430,7 +430,7 @@ inca_empire,1438 – 1533 u.Z.,1438 – 1533 C.E.,
 inca_empire_c,Inka-Reich,Inca empire,
 gupta_empire,319 – 550 u.Z.,319 – 550 C.E.,
 gupta_empire_c,Gupta-Reich,Gupta empire,
-Teotihuacan,"größte Stadt Amerikas, Pyramiden erbaut ca. 200 u.Z.","largest city in the Americas, pyramids build c. 200 C.E.",
+Teotihuacan,"größte Stadt Amerikas, Pyramiden erbaut ca. 200 u.Z.","Largest city in the Americas, pyramids build c. 200 C.E.",
 Teotihuacan_c,Teotihuacán,Teotihuacan,
 Dionysius_Exiguus,"Dionysius Exiguus, Erfinder von Anno Domini","Dionysius Exiguus, inventor of Anno Domini",
 Umayyad,661 – 750 u.Z.,661 – 750 C.E.,
@@ -459,12 +459,12 @@ Ammonites,3) Ammonịter: Josua 12:2,3) Ammonites: Joshua 12:2,
 Edomites,4) Ẹdomiter: 4. Mose 20:14-17,4) Edomites: Numbers 20:14-17,
 Temanites,5) Temanịter: Hiob 42:7,5) Temanites: Job 42:7,
 Amalekites,6) Amalekịter: 1. Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29
-life-expectancy,Lebenserwartung 75 Jahre,life expectancy 75 years,
+life-expectancy,Lebenserwartung 75 Jahre,Life expectancy 75 years,
 life-expectancy2,(Psalm 90:10),(Psalm 90:10),2024-11-29
 430years,1943 – 1513 v.u.Z.,1943 – 1513 B.C.E.,
 430years_c,"430 Jahre: 2. Mose 12:41, Galater 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24
-maya_calendar,berechneter Beginn des Maya-Kalenders: 11. August 3114 v. u. Z.,"calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
-xia-dynasty2,ca. 2070 – ca. 1600 v. u. Z.; früheste Erwähnungen während der Westlichen Zhou-Zeit,c. 2070 – c. 1600 BC; earliest mentions during Western Zhou period,2025-01-02
+maya_calendar,berechneter Beginn des Maya-Kalenders: 11. August 3114 v. u. Z.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
+xia-dynasty2,ca. 2070 – ca. 1600 v. u. Z.; früheste Erwähnungen während der Westlichen Zhou-Zeit,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02
 xia-dynasty2_c,Xia-Dynastie in China,Xia dynasty in China,
 tres_zapotes,3. September 32 v.u.Z.,"September 3rd, 32 B.C.E.",2024-12-31
 joseph_jacob_reunited,Joseph und Jakob in Ägypten wiedervereint – 1728 v.u.Z. (1.Mo 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01
