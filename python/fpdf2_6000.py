@@ -8,7 +8,7 @@ import pandas as pd
 import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 5.3
+version  = 5.4
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -580,7 +580,10 @@ def create_periods():
         key   = row.key
         x_box = x_position(start)
         y_box = y_position(row.row_y) - 9
-        if edition_2025 and row.key == "millenium":
+        special_language = {"ilo", "kne"}                 # move maya postclassic one lower
+        if language in special_language and key == "maya_postclassic":
+            y_box = y_position(row.row_y + 1) - 9
+        if edition_2025 and row.key == "millenium":       # change for edition_2025
             y_box = y_position(row.row_y - 14) - 9
         # x_boxwidth = (end - start) * dots_year
         x_boxwidth = x_position(end) - x_position(start)
