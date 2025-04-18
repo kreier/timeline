@@ -1,0 +1,51 @@
+key,start,start_row,end,end_row,type,notes,v3,fix
+a_Terach,3125,22,2700,22,,,x,3100
+1,3125,22,3125,23,,Abraham,x,3100
+2,3000,22,3000,23,,Sarah,,
+3,2850,22,2850,25,,Nahor,,
+4,2700,22,2700,23,,Haran,,
+5,2925,21,2925,22,,Terah,x,2900
+6,3000,23,3000,31,,Isaac,,
+7,3387,23,3387,32,,Ishmael,x,3325
+8,3250,23,3250,25,,Keturah,x,3325
+b_Isaac,3000,32,2900,32,,Esau-Jacob,,
+9,2950,31,2950,32,,,,
+10,3000,32,3000,33,,Esau,,
+11,2900,32,2900,33,,Jacob,,
+c_Laban,2800,32,2700,32,,Leah-Rachel,,
+12,2750,31,2750,32,,,,
+13,2800,32,2800,42,,Leah,,
+14,2700,32,2700,38,,Rachel,,
+15,2600,33,2600,36,,Bilhah,,
+16,2500,33,2500,36,,Zilpah,,
+d_Haran,2750,24,2650,24,,,,
+17,2700,23,2700,24,,,,
+18,2750,24,2750,25,,Milcah,,
+19,2650,24,2650,25,,Lot,,
+e_Nahor,2850,26,2725,26,,,,
+20,2800,25,2800,26,,,,
+21,2850,26,2850,27,,Bethuel,,
+22,2725,26,2725,27,,7 other sons,,
+f_Bethuel,2900,30,2750,30,,,,
+23,2850,27,2850,30,,,,
+24,2900,30,2900,31,,Rebekah,,
+25,2750,30,2750,31,,Laban,,
+g_Lot,2650,26,2585,26,,,,
+26,2650,25,2650,26,,,,
+27,2585,26,2585,27,,,x,2600
+28,2565,25,2565,27,,from Lot’s wife,x,2575
+29,2575,27,2575,29,,to Moab and Ammon,x,2550
+30,2950,25,2950,27,,"Tebach, Gaham, Tahasch, Maacha",,
+h_Ishmael,3450,32,3325,32,,,x,3200
+31,3450,32,3450,34,,Nebajoth and 11 more,,
+32,3325,32,3325,39,,Basemath,x,3200
+33,3100,33,3100,38,,Adah,,
+34,3200,33,3200,37,,Oholiabamah,x,3325
+35,3000,36,3000,38,,Timna,,
+Abraham,3387,23,3000,23,married,"Sarah, Hagar and Keturah",x,3325
+Nahor,2950,25,2750,25,married,Reuma and Milka,,
+Lot,2650,25,2500,25,married,Lot’s wife (name unknown),,
+Isaac,3000,31,2900,31,married,Rebecca,,
+Jacob_Israel,2900,33,2500,33,married,"Leah, Rachel, Bilhah, Zilpah",,
+Esau,3000,33,3300,33,married,"Basemath, Adah, Oholibamah",,
+Eliphaz,3000,36,3100,36,married,Timna,,
