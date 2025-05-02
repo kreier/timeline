@@ -1,7 +1,7 @@
 key,text,english,notes
-version,5.4,5.4,
-pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,2025-04-15
-pdf_subject,Dòng thời gian của loài người,Timeline of humankind,5.4
+version,5.5,5.5,
+pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,2025-05-02
+pdf_subject,Dòng thời gian của loài người,Timeline of humankind,5.5
 BCE,TCN,B.C.E.,appendix B9
 CE,CN,C.E.,
 year,năm,year,"timespan, age (Adam was 130 years old when Shem was born)"
@@ -134,7 +134,7 @@ temple2,479 năm mới xây dựng đền – 1 Các vua 6:1,479 years until the
 jesus_service,"3,5 năm Chúa Giê su làm thánh chức trên đất, bị xử tử vào ngày 14 Ni-san năm 33 CN.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
 jesus_life,Chúa Giê-su sinh năm 2 TCN,Jesus born 2 B.C.E.,
 exile,70 năm Dân Y-sơ-ra-ên bị lưu đày tại Ba-by-lon (607 - 537 TCN) (Giê-rê-mi 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),
-exile2,lưu đày,exile,
+exile2,lưu đày,Exile,
 7times,Khải huyền 12:9,Revelation 12:9,
 7times2,"Bảy kỳ , “các kỳ dân ngoại” (Đa-ni-ên 4:16) – 2520 năm đến khi Nước Trời cai trị (thành lập) năm 1914 CN (Đa-ni-ên 4:23)",7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),
 ww1,Thế chiến thứ nhất – 1914–1918,World War I – 1914–1918 C.E.,
@@ -164,36 +164,36 @@ event_division_kingdom,Y-sơ-ra-ên chia làm hai nước 997 TCN,Division of Is
 event_destruction_samaria,Sự hủy diệt Sa-ma-ri 740 TCN bởi người Assyria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
 event_destruction_samaria2,740 TCN bởi người Assyria,740 B.C.E. by Assyria,was shortened here for 2 lines
 event_destruction_jerusalem1,"Giê-ru-sa-lem bị hủy phá, dân chúng bị lưu đày sang Ba-by-lôn 607 TCN, 390 năm sau khi Y-sơ-ra-ên chia làm hai nước (Ê-xê-chi-ên 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",
-event_temple_rebuilt,xây lại đền thờ 515 TCN,Temple in Jerusalem rebuilt 515 B.C.E.,
-event_jerusalem_rebuilt,tường thành Giê-ru-sa-lem xây lại 455 TCN,Jerusalem wall rebuilt 455 B.C.E.,
+event_temple_rebuilt,Xây lại đền thờ 515 TCN,Temple in Jerusalem rebuilt 515 B.C.E.,
+event_jerusalem_rebuilt,Tường thành Giê-ru-sa-lem xây lại 455 TCN,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Sự phá hủy thành Giê-ru-sa-lem vào năm 70 CN bởi La Mã dưới thời Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"Cuối thời kỳ của các dân ngoại (Lu-ca 21:24), Vương quốc của Đức Chúa Trời bắt đầu cai trị trên trời 1914","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
-became_king,làm vua lúc,becomes king at age,
+event_1914,"Cuối thời kỳ của các dân ngoại (Lu-ca 21:24), Vương quốc của Đức Chúa Trời bắt đầu cai trị trên trời 1914","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
+became_king,làm vua lúc,becomes king at age,2025-04-14
 vulgate,Vulgate được hoàn thành bởi Jerome (bản dịch kinh thánh bằng tiếng Latin) c. 405 CN,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
-gutenberg,Kinh thánh Gutenberg in năm 1455,Gutenberg bible printed 1455,
+gutenberg,Kinh thánh Gutenberg in năm 1455,Gutenberg Bible printed 1455,
 erasmus,"Năm 1516, Desiderius Erasmus xuất bản phần tân ước của kinh thánh trong tiếng Hy lạp ở Rotterdam.",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,
 luther,Bản dịch Kinh thánh Luther vào tháng 9 năm 1522,Luther Bible translation in September 1522,
 tyndale,Bản dịch Kinh thánh tiếng Anh của Tyndale 1536,English Bible translation by Tyndale 1536,
 king_james,Kinh thánh King James 1611,King James Bible 1611,
 69weeks3,"Chúa Giê-su bắt đầu rao truyền 29 CN (Lu-ca 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",
-ransom,giữa tuần “hy sinh để chấm dứt” Đa-ni-ên 9:27,middle of week “sacrifice to cease” Daniel 9:27,
+ransom,Giữa tuần “hy sinh để chấm dứt” Đa-ni-ên 9:27,Middle of week “sacrifice to cease” Daniel 9:27,
 cornelius,Cọt-nây làm báp-têm vào cuối 70 tuần lễ (Đa-ni-ên 9:24) vào năm 36 CN.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,
-columbus,Kết thúc thời kỳ tiền Colombia ở châu Mỹ 1492,end of the pre-columbian period in the Americas 1492,
-declaration_independence,Tuyên ngôn độc lập của 13 thuộc địa ở Mỹ 1776,declaration of independence of 13 colonies in America 1776,
+columbus,Kết thúc thời kỳ tiền Colombia ở châu Mỹ 1492,End of the pre-columbian period in the Americas 1492,
+declaration_independence,Tuyên ngôn độc lập của 13 thuộc địa ở Mỹ 1776,Declaration of independence of 13 colonies in America 1776,
 tischendorf,Tischendorf phát hiện ra Codex Sinaiticus năm 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,
 dead_sea_scrolls,Cuộn giấy Biển Chết được viết,Dead Sea Scrolls written,
 septuagint,Bản Bảy Mươi LXX được dịch,Septuagint LXX translated,
 watchtower,Số đầu tiên của tạp chí “Tháp Canh Si-ôn và sứ giả loan báo sự hiện diện của Đấng Ki-tô” được xuất bản năm 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
 photodrama,“Kịch ảnh về sự sáng tạo” được trình chiếu lần đầu tiên tại New York vào ngày 11 tháng 1 năm 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
-jehovahs_witnesses,"Các Học viên Kinh Thánh lấy tên mới – Nhân Chứng Giê-hô-va (Ê-sai 43:10, 12) ở Columbus, Ohio, 1931","the Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
+jehovahs_witnesses,"Các Học viên Kinh Thánh lấy tên mới – Nhân Chứng Giê-hô-va (Ê-sai 43:10, 12) ở Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
 gilead_school,Trường Kinh Thánh Ga-la-át của Tháp Canh bắt đầu vào thứ Hai 1. 2. 1943,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943",
 new_world_translation1,"“Kinh Thánh—Bản dịch Thế Giới Mới” ra mắt tại Manchester, Anh quốc vào ngày 18. 6. 1960, khôi phục lại danh Giê-hô-va trong nhiều phần của Kinh Thánh","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
-truth_book,Sách “Sự Thật Dẫn Đến Sự Sống Đời Đời” xuất bản năm 1968,the book “The Truth That Leads to Eternal Life” is released 1968,
+truth_book,Sách “Sự Thật Dẫn Đến Sự Sống Đời Đời” xuất bản năm 1968,The book “The Truth That Leads to Eternal Life” is released 1968,
 metropolitan,Bắt đầu làm chứng tại đô thị vào năm 2011,Start of metropolitan witnessing in 2011,
-jw_org,Bắt đầu JW.ORG với những hướng dẫn trong Thánh Chức Nước Trời tháng 12 năm 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
+jw_org,Bắt đầu JW.ORG với những hướng dẫn trong Thánh Chức Nước Trời tháng 12 năm 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012,
 new_world_translation2,"Kinh Thánh—Bản dịch Thế Giới Mới hiệu đính được ra mắt tại cuộc họp thường niên năm 2013, được tối ưu hóa để sử dụng kỹ thuật số và trực tuyến","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
-jw_broadcasting,Bắt đầu phát sóng Kênh truyền thông JW vào tháng 10 năm 2014,Start of jw.broadcasting in October 2014,
-meeting_workbook,Hình thức mới của cuộc họp giữa tuần với “sổ bài tập cuộc họp” bắt đầu từ tháng 1 năm 2016,New format of midweek meeting with “meeting workbook” starting January 2016,
+jw_broadcasting,Bắt đầu phát sóng Kênh truyền thông JW vào tháng 10 năm 2014,Start of JW Broadcasting® in October 2014,
+meeting_workbook,Hình thức mới của cuộc họp giữa tuần với “sổ bài tập cuộc họp” bắt đầu từ tháng 1 năm 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016,
 covid19,Covid-19,Covid-19,
 cold_war,Tình hình địa chính trị “Chiến tranh Lạnh” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991,
 timeline_created,"2023 là năm nóng nhất trong lịch sử loài người và trong 125.000 năm qua, dòng TG này đã tạo ra","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
@@ -218,18 +218,18 @@ king_north,"Seleukos I Nicator (v5) Syria đến Antiochus III (v10) và Seleuko
 king_north1,Vua phương Bắc,King of the North,
 king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) tới Trận Actium 31 TCN","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",
 king_south1,Vua phương Nam,King of the South,
-king_south2,"Đế quốc Anh 1870, Cường quốc Thế giới Anh-Mỹ từ 1914","British empire 1870, Anglo-American World Power since 1914",
+king_south2,"Đế quốc Anh 1870, Cường quốc Thế giới Anh-Mỹ từ 1914","British Empire 1870, Anglo-American World Power since 1914",
 king_south3,Vua phương Nam,King of the South,
 king_north2,"Đức với Hoàng đế William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
 king_north3,Bắc,North,
 king_north4,"Liên Xô 1945-1991 (Đa-ni-ên 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",
 king_north5,Nga kể từ năm 2017 (w20 tháng 5),Russia since 2017 (w20 May),
 time_of_end,"Sự hiện diện của Đấng Ki tô, Sự kết thúc của hệ thống mọi sự (Ma-thi-ơ 24:3), ngày sau cùng (2 Ti-mô-thê 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out
-time_of_end2,Ngày cuối cùng,last days,
+time_of_end2,Ngày cuối cùng,Last days,
 suryavaman2,Vua Suryavarman II xây dựng Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
 notre-dame,Nhà thờ Đức Bà Paris được xây dựng 1163-1260,Notre-Dame de Paris built 1163-1260,
 jehoiada,Giê-hô-gia-đa,Jehoiada,2 Kings 11:4
-babel,Tháp Babel được xây dựng,tower of Babel built,
+babel,Tháp Babel được xây dựng,Tower of Babel built,
 Haggai,Ha-gai,Haggai,
 Zerubbabel,Xô-rô-ba-bên (Lu-ca 3:27),Zerubbabel (Luke 3:27),Luke 3:27
 Babylon,"Đa-ni-ên 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",
@@ -319,7 +319,7 @@ Jetur,Giê-thu,Jetur,
 Naphish,Na-phích,Naphish,
 Kedemah,Kết-ma,Kedemah,
 Babylon2,,,no text left and right – empty!
-terahfam,Các thành viên trong gia đình Tha-rê,members of Terah’s family,
+terahfam,Các thành viên trong gia đình Tha-rê,Members of Terah’s family,
 rosetta,Phiến đá Rosetta 196 TCN,Rosetta stone 196 B.C.E.,
 Herodotus,"Herodotus c. 484 – c. 425 TCN, viết Lịch sử","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
 Aristotle,Aristoteles 384 – 322 TCN,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
@@ -378,17 +378,17 @@ southern-dynasties,420-589 CN,420-589 CE,
 tang-dynasty1,,,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
-shang-dynasty_c,Nhà Thương,Shang Dynasty,c. 1600-1046 BC
+shang-dynasty_c,Nhà Thương,Shang dynasty,c. 1600-1046 BC
 western-zhou_c,Tây Chu,Western Zhou,c. 1046-771 BC
 eastern-zhou_c,Đông Chu,Eastern Zhou,770-256 BC
 western-han_c,Tây Hán,Western Han,207 BC – 9 CE
 eastern-han_c,Đông Hán,Eastern Han,25-220 CE
 three-kingdoms_c,TQ,China,Three kingdoms 220-280 CE
 sixteen-kingdoms_c,Trung Quốc,China,Sixteen kingdoms 304-439 CE
-northern-dynasties_c,Bắc triều,Northern Dynasties,368-581 CE
-southern-dynasties_c,Nam triều,Southern Dynasties,420-589 CE
+northern-dynasties_c,Bắc triều,Northern dynasties,368-581 CE
+southern-dynasties_c,Nam triều,Southern dynasties,420-589 CE
 tang-dynasty1_c,N. Đ.,Tang,
-tang-dynasty2_c,Nhà Đường (N. Đ.),Tang Dynasty,"618-690, 705-907"
+tang-dynasty2_c,Nhà Đường (N. Đ.),Tang dynasty,"618-690, 705-907"
 xia-dynasty,Nhà Hạ ở Trung Quốc c. 2070 – c. 1600 TCN,Xia dynasty in China c. 2070 – c. 1600 BC,
 gonghe,Chu Thiệu cộng hòa 841-828 TCN,Gonghe Regency 841-828 BC,
 Ashoka,A-dục vương (khoảng 304-232 TCN) quảng bá Phật giáo,Ashoka (c. 304-232 BC) promotes Buddhism,
@@ -419,18 +419,18 @@ ottoman_empire,1299 – 1922,1299 – 1922 C.E.,
 ottoman_empire_c,Đế quốc Ottoman,Ottoman Empire,
 holy_roman_empire,800 – 924 CN,800 – 924 C.E.,
 holy_roman_empire2,962 – 1806 CN,962 – 1806 C.E.,fixed 2024-12-31
-holy_roman_empire_c,Đế quốc La Mã Thần thánh - sau năm 1512 Đế quốc La Mã Thần thánh của Quốc gia Đức,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,
+holy_roman_empire_c,Đế quốc La Mã Thần thánh - sau năm 1512 Đế quốc La Mã Thần thánh của Quốc gia Đức,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,
 mongol_empire,Đế quốc Mông Cổ 1206 – 1294,Mongol Empire 1206 – 1294 C.E.,
 Genghis,Thành Cát Tư Hãn,Genghis Khan,
 maya_classic,250-950,250-950,
-maya_classic_c,Nền văn minh Maya – thời kỳ cổ điển,Maya civilization – classic period,
+maya_classic_c,Nền văn minh Maya – thời kỳ cổ điển,Maya civilization – Classic period,
 maya_postclassic,950-1539,950-1539,
-maya_postclassic_c,Nền văn minh Maya – thời kỳ hậu cổ điển,Maya civilization – postclassic period,
+maya_postclassic_c,Nền văn minh Maya – thời kỳ hậu cổ điển,Maya civilization – Postclassic period,Văn minh Maya? Wikipedia
 inca_empire,1438 – 1533,1438 – 1533 C.E.,
 inca_empire_c,Đế quốc Inca,Inca empire,
 gupta_empire,319 – 550 CN,319 – 550 C.E.,
-gupta_empire_c,Đế quốc Gupta,Gupta empire,
-Teotihuacan,"Thành phố lớn nhất châu Mỹ, xây dựng kim tự tháp c. 200 CN","largest city in the Americas, pyramids build c. 200 C.E.",
+gupta_empire_c,Đế quốc Gupta,Gupta Empire,
+Teotihuacan,"Thành phố lớn nhất châu Mỹ, xây dựng kim tự tháp c. 200 CN","Largest city in the Americas, pyramids build c. 200 C.E.",
 Teotihuacan_c,Teotihuacan,Teotihuacan,
 Dionysius_Exiguus,"Dionysius Exiguus, nhà phát minh của Anno Domini","Dionysius Exiguus, inventor of Anno Domini",
 Umayyad,661 – 750,661 – 750 C.E.,
@@ -439,7 +439,7 @@ Abbasid,750 – 1258,750 – 1258 C.E.,
 Abbasid_c,Nhà Abbas,Abbasid Caliphate,
 Mamluk,1250 – 1517,1250 – 1517 C.E.,
 Mamluk_c,Vương quốc Hồi giáo Mamluk,Mamluk Sultanate,
-ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
+ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠,
 hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
 Al-Khwarizmi,Al-Khwarizmi viết Al-Jabr (Đại số),al-Khwarizmi writes Al-Jabr (Algebra),
 al-azhar,Đại học Al-Azhar được thành lập tại Cairo,Al-Azhar University is established in Cairo,
@@ -456,15 +456,15 @@ Timna,Thim-na,Timna,"1 Chr 1:36, Ge 36:10-12"
 Midianites,"1) Dân Ma-đi-an: Dân số 31:2, 3","1) Midianites: Numbers 31:2, 3",
 Moabites,"2) Dân Mô-áp: Phục 23:3, 4","2) Moabites: Deuteronomy 23:3, 4",
 Ammonites,3) Dân Am-môn: Giô-suê 12:2,3) Ammonites: Joshua 12:2,
-Edomites,4) Người Ê-đôm: Dân số 20:14-17,4) Edomites: Numbers 20:14-17,
+Edomites,4) Người Ê-đôm: Dân số ký 20:14-17,4) Edomites: Numbers 20:14-17,
 Temanites,5) Người Thê-man: Gióp 42:7,5) Temanites: Job 42:7,
 Amalekites,6) Dân A-ma-léc: 1 Sa-mu-ên 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29
-life-expectancy,tuổi thọ trung bình 75 năm,life expectancy 75 years,
+life-expectancy,tuổi thọ trung bình 75 năm,Life expectancy 75 years,
 life-expectancy2,(Thi Thiên 90:10),(Psalm 90:10),2024-11-29
 430years,1943 – 1513 TCN,1943 – 1513 B.C.E.,
 430years_c,"430 năm: Xuất Ai Cập 12:41, Ga-la-ti 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24
-maya_calendar,tính ngày bắt đầu của lịch Maya là ngày 11 tháng 8 năm 3114 TCN.,"calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
-xia-dynasty2,"khoảng năm 2070 – khoảng năm 1600 trước Công nguyên, những đề cập sớm nhất trong thời kỳ Tây Chu",c. 2070 – c. 1600 BC; earliest mentions during Western Zhou period,2025-01-02
+maya_calendar,tính ngày bắt đầu của lịch Maya là ngày 11 tháng 8 năm 3114 TCN.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
+xia-dynasty2,"khoảng năm 2070 – khoảng năm 1600 trước Công nguyên, những đề cập sớm nhất trong thời kỳ Tây Chu",c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02
 xia-dynasty2_c,Nhà Hạ ở Trung Quốc,Xia dynasty in China,
 tres_zapotes,Ngày 3 tháng 9 năm 32 TCN,"September 3rd, 32 B.C.E.",2024-12-31
 joseph_jacob_reunited,Giô-sép và Gia-cốp đoàn tụ tại Ai Cập – 1728 TCN (Sáng thế 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01
