@@ -8,7 +8,7 @@ import pandas as pd
 import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 5.4
+version  = 5.5
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -713,6 +713,9 @@ def create_terah_familytree():
     if version > 4.8:
         file_lines  = "../db/terah-lines2.csv"
         file_family = "../db/terah-family2.csv"
+    if version > 5.4:
+        file_lines  = "../db/terah-lines3.csv"
+        file_family = "../db/terah-family3.csv"
     lines = pd.read_csv(file_lines, encoding='utf8')        # lines in black and green
     shift_lines = -0.33
     for index, row in lines.iterrows():
