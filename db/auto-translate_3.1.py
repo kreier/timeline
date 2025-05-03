@@ -1,7 +1,10 @@
 # Create a google translated dictionary as starting point for a new language
-# Updated to work with with https://pypi.org/project/googletrans/ 4.0.2 (latest version)
+# It does not work with https://pypi.org/project/googletrans/ 3.0.0 (latest version)
+# You need the 3.1.0a0 alpha version from 2020
+# pip3 install googletrans==3.1.0a0
+# https://pypi.org/project/googletrans/3.1.0a0/ 
 
-import os, sys, asyncio
+import os, sys
 import pandas as pd
 from googletrans import Translator
 
@@ -27,24 +30,16 @@ def check_existing(language, filename):
 def import_reference():
     global dict
     print("Import reference english dictionary: ", end="")
+    # dict = pd.read_csv("./dictionary_en.tsv", sep="\t")
     dict = pd.read_csv("./dictionary_reference.csv")
-    dict.fillna(" ", inplace=True) # fill empty cells with a space
     print(f"found {len(dict)} entries.")
     print(dict)
 
-async def translate_dictionary(dictionary, language):
-    global number_characters
-    async with Translator() as translator:
-        for index, row in dict_translated.iterrows(): # with 3 columns 'key' 'text' and 'english'
-            english_text = row.english
-            number_characters += len(str(english_text))
-            if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
-                # dict_translated.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
-                result = await translator.translate(english_text, src='en', dest=language)
-                dict_translated.at[index, 'text'] = result.text
-                print('.', end='')
-            if (index + 1) % 40 == 0:
-                print(f" {index}")
+def second_func():
+    print("Import reference english dictionary")
+    print("Check if target language already exists")
+    print("start a dialog: Do you want to overwrite?")
+    print("Auto translation done. Translated x key phrases.")
 
 if __name__ == "__main__":
     dict = pd.DataFrame() # will contain the english dictionary with 'key' and 'text' column, plus 'alternative' and 'notes' (not used)
@@ -60,8 +55,19 @@ if __name__ == "__main__":
     dict_translated = dict[['key', 'text', 'notes']].copy()   # create a new dictionary, copy columns key and text
     dict_translated['english'] = dict['text'].copy() # add a column 'english' and fill with 'text' from english dictionary
     print("\nTranslating ...")
+    translator = Translator()
     number_characters = 0      # you can translate up to 500,000 characters per month for free
-    asyncio.run(translate_dictionary(dict_translated, language)) # translate the dictionary
+    for index, row in dict_translated.iterrows(): # with 3 columns 'key' 'text' and 'english'
+        # dict_translated.at[index, 'text'] = "new"
+        english_text = row.english
+        number_characters += len(english_text)
+        if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
+            dict_translated.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
+            print('.', end='')
+            # print(f'English: {english_text}, Translated: {dict_translated[index]}')
+        if (index + 1) % 40 == 0:
+            print(f" {index}")
+
     print(dict_translated)
     print("Exporting ...")
     dict_translated.to_csv(filename, index=False)
