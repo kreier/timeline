@@ -1,8 +1,8 @@
 key,text,english,notes
-version,5.2,5.2,
-pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,2025-02-22
-pdf_subject,인류의 타임라인,Timeline of humankind,5.2
-BCE,기원전,B.C.E.,
+version,5.6,5.6,
+pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,2025-06-15
+pdf_subject,인류의 타임라인,Timeline of humankind,5.6
+BCE,기원전,B.C.E.,appendix B9
 CE,기원후,C.E.,
 year,년,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,년,years,
@@ -24,7 +24,7 @@ Deluge,대홍수,Deluge,
 Adam,아담,Adam,Luke 3:38
 Seth,셋,Seth,
 Enosh,에노스,Enosh,
-Kenan,게난,Kenan,
+Kenan,게난,Kenan,Genesis 5:12
 Mahalalel,마할랄레엘,Mahalalel,
 Jared,야렛,Jared,
 Enoch,에녹,Enoch,
@@ -134,7 +134,7 @@ temple2,성전 건축까지 479년 – 왕상 6:1,479 years until the temple con
 jesus_service,"3년 반 동안 예수를 섬김, 기원 33년 니산월 14일에 처형됨","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
 jesus_life,예수께서는 기원전 2년에 태어나셨습니다.,Jesus born 2 B.C.E.,
 exile,기원전 607년부터 537년까지 – 70년(예레미야 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),
-exile2,망명,exile,
+exile2,망명,Exile,
 7times,요한계시록 12:9,Revelation 12:9,
 7times2,"7번 – 메시아 왕국까지 2520년, 기원 1914년(다니엘 4:23)",7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),
 ww1,제1차 세계 대전 – 서기 1914년~1918년,World War I – 1914–1918 C.E.,
@@ -167,36 +167,36 @@ event_destruction_jerusalem1,기원전 607년 예루살렘의 멸망 왕국이 �
 event_temple_rebuilt,예루살렘 성전은 기원전 515년에 재건되었습니다.,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,예루살렘 성벽은 기원전 455년에 재건되었습니다.,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,기원 70년 티투스 휘하의 로마가 예루살렘을 멸망시키다,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"나라들의 때의 끝, 하나님의 왕국이 기원 1914년에 하늘에서 통치하기 시작합니다.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
-became_king,왕이 되었다,became king at age,
+event_1914,"나라들의 때의 끝, 하나님의 왕국이 기원 1914년에 하늘에서 통치하기 시작합니다.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
+became_king,왕이 되었다,becomes king at age,2025-04-14
 vulgate,제롬이 완성한 벌게이트(성경의 라틴어 번역) ㄷ. 기원 405년,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
-gutenberg,1455년 구텐베르크 성경 인쇄,Gutenberg bible printed 1455,
+gutenberg,1455년 구텐베르크 성경 인쇄,Gutenberg Bible printed 1455,
 erasmus,1516년 로테르담의 데시데리우스 에라스무스가 발행한 그리스도인 그리스어 성경의 그리스어 본문,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,
 luther,1522년 9월 루터 성경 번역,Luther Bible translation in September 1522,
 tyndale,1536년 Tyndale의 영어 성경 번역,English Bible translation by Tyndale 1536,
 king_james,킹 제임스 성경 1611,King James Bible 1611,
 69weeks3,"예수께서는 기원 29년에 봉사를 시작하십니다. (마가복음 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",
-ransom,주의 중간 “제사를 그치고” 다니엘 9:27,middle of week “sacrifice to cease” Daniel 9:27,
+ransom,주의 중간 “제사를 그치고” 다니엘 9:27,Middle of week “sacrifice to cease” Daniel 9:27,
 cornelius,고넬료는 기원 36년에 70주 후에 침례를 받았습니다(다니엘 9:24).,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,
-columbus,1492년 아메리카 대륙의 콜럼버스 이전 시대의 끝,end of the pre-columbian period in the Americas 1492,
-declaration_independence,1776년 미국 13개 식민지의 독립 선언,declaration of independence of 13 colonies in America 1776,
+columbus,1492년 아메리카 대륙의 콜럼버스 이전 시대의 끝,End of the pre-columbian period in the Americas 1492,
+declaration_independence,1776년 미국 13개 식민지의 독립 선언,Declaration of independence of 13 colonies in America 1776,
 tischendorf,티셴도르프는 1844년 4세기의 시내 사본을 발견합니다.,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,
 dead_sea_scrolls,사해 두루마리가 기록됨,Dead Sea Scrolls written,
 septuagint,칠십인역 LXX 번역됨,Septuagint LXX translated,
 watchtower,“시온의 파수대와 그리스도의 임재의 전령” 창간호가 1879년에 발행되었습니다,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
 photodrama,“창조 사진극”이 1914년 1월 11일 뉴욕에서 처음 상영되었습니다.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
-jehovahs_witnesses,성경 연구생들은 여호와의 증인이라는 새로운 이름을 채택했습니다. 1931년 오하이오주 콜럼버스에서,"The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
-gilead_school,워치타워 길르앗 성서 학교는 1943년 2월 1일 월요일에 시작되었습니다,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",
-new_world_translation1,“신세계역 성경”이 1960년 6월 18일 영국 맨체스터에서 발표되었습니다.,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
-truth_book,1968년에 “영원한 생명으로 인도하는 진리”라는 책이 발표되었습니다,The book “The Truth That Leads to Eternal Life” released 1968,
+jehovahs_witnesses,성경 연구생들은 여호와의 증인이라는 새로운 이름을 채택했습니다. 1931년 오하이오주 콜럼버스에서,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
+gilead_school,워치타워 길르앗 성서 학교는 1943년 2월 1일 월요일에 시작되었습니다,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943",
+new_world_translation1,“신세계역 성경”이 1960년 6월 18일 영국 맨체스터에서 발표되었습니다.,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
+truth_book,1968년에 “영원한 생명으로 인도하는 진리”라는 책이 발표되었습니다,The book “The Truth That Leads to Eternal Life” is released 1968,
 metropolitan,2011년에 광역 증거가 시작됨,Start of metropolitan witnessing in 2011,
-jw_org,2012년 12월 왕국 사역에 대한 지침으로 JW.ORG 시작,Start of JW.ORG with instructions in kingdom ministry December 2012,
+jw_org,2012년 12월 왕국 사역에 대한 지침으로 JW.ORG 시작,Start of JW.ORG with instructions in Kingdom Ministry December 2012,
 new_world_translation2,2013년 연례 총회에서 개정판 “신세계역 성경”이 발표되었습니다,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
-jw_broadcasting,2014년 10월에 jw.broadcasting 시작,Start of jw.broadcasting in October 2014,
-meeting_workbook,2016년 1월부터 '미팅워크북'으로 새로운 형식의 주중모임 시작,New format of midweek meeting with “meeting workbook” starting January 2016,
+jw_broadcasting,2014년 10월에 jw.broadcasting 시작,Start of JW Broadcasting® in October 2014,
+meeting_workbook,2016년 1월부터 '미팅워크북'으로 새로운 형식의 주중모임 시작,New format of midweek meeting with “Meeting Workbook” starting January 2016,
 covid19,코로나 19,Covid-19,
 cold_war,1945~1991년 “냉전”이라는 지정학적 상황,Geopolitical situation labeled “Cold War” 1945-1991,
-timeline_created,"이 타임라인은 인류 역사상 가장 더운 해이자 지난 125,000년인 2023년에 만들어졌습니다.","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
+timeline_created,"이 타임라인은 인류 역사상 가장 더운 해이자 지난 125,000년인 2023년에 만들어졌습니다.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,코덱스 시나이티쿠스가 작성됨,Codex Sinaiticus written,
 codex_vaticanus,코덱스 바티카누스 작성,Codex Vaticanus written,
 leningrad_codex,레닌그라드 사본은 서기 1008년 카이로에서 작성되었습니다.,Leningrad Codex written in Cairo AD 1008,
@@ -218,18 +218,18 @@ king_north,"셀레우코스 1세 니카토르(v5) 시리아에서 안티오코�
 king_north1,북방의 왕,King of the North,
 king_south,"프톨레마이오스 1세, 2세, 3세, 4세(11, 12절), 5세(15, 16절) - 기원전 31년 악티움 전투","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",
 king_south1,남쪽의 왕,King of the South,
-king_south2,"1870년 대영 제국, 1914년 이후 영미 세계 강국","British empire 1870, Anglo-American World Power since 1914",
+king_south2,"1870년 대영 제국, 1914년 이후 영미 세계 강국","British Empire 1870, Anglo-American World Power since 1914",
 king_south3,남쪽의 왕,King of the South,
 king_north2,"독일과 빌헬름 1세 1871년(v28), 1914년(v29), 1935년(v30b), 1939년(v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
 king_north3,북쪽,North,
 king_north4,"소련 1945-1991 (다니엘 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",
 king_north5,2017년 이후 러시아 (5월 20일),Russia since 2017 (w20 May),
 time_of_end,"그리스도의 임재, 사물의 제도의 종결(마 24:3), 마지막 날(딤후 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out
-time_of_end2,지난 날들,last days,
+time_of_end2,지난 날들,Last days,
 suryavaman2,수르야바르만 2세 국왕이 앙코르와트 건설 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
 notre-dame,노트르담 드 파리 건축(1163~1260),Notre-Dame de Paris built 1163-1260,
 jehoiada,여호야다,Jehoiada,2 Kings 11:4
-babel,바벨탑이 세워지다,tower of Babel built,
+babel,바벨탑이 세워지다,Tower of Babel built,
 Haggai,학개,Haggai,
 Zerubbabel,스룹바벨(눅 3:27),Zerubbabel (Luke 3:27),Luke 3:27
 Babylon,"다니엘 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",
@@ -319,7 +319,7 @@ Jetur,제투르,Jetur,
 Naphish,나피쉬,Naphish,
 Kedemah,게데마,Kedemah,
 Babylon2,,,no text left and right – empty!
-terahfam,데라의 가족들,members of Terah’s family,
+terahfam,데라의 가족들,Members of Terah’s family,
 rosetta,로제타스톤 기원전 196년,Rosetta stone 196 B.C.E.,
 Herodotus,"헤로도토스 ㄷ. 484 – 다. 기원전 425년, 『역사』 집필","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
 Aristotle,아리스토텔레스 기원전 384년 – 기원전 322년,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
@@ -378,17 +378,17 @@ southern-dynasties,420-589 CE,420-589 CE,
 tang-dynasty1,,,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
 wu-zhou,690-705 우저우,690-705 Wu Zhou,
-shang-dynasty_c,상나라,Shang Dynasty,c. 1600-1046 BC
+shang-dynasty_c,상나라,Shang dynasty,c. 1600-1046 BC
 western-zhou_c,서부 저우,Western Zhou,c. 1046-771 BC
 eastern-zhou_c,저우 동부,Eastern Zhou,770-256 BC
 western-han_c,서부 한,Western Han,207 BC – 9 CE
 eastern-han_c,한 동부,Eastern Han,25-220 CE
 three-kingdoms_c,중국,China,Three kingdoms 220-280 CE
 sixteen-kingdoms_c,중국,China,Sixteen kingdoms 304-439 CE
-northern-dynasties_c,북부 왕조,Northern Dynasties,368-581 CE
-southern-dynasties_c,남부 왕조,Southern Dynasties,420-589 CE
+northern-dynasties_c,북부 왕조,Northern dynasties,368-581 CE
+southern-dynasties_c,남부 왕조,Southern dynasties,420-589 CE
 tang-dynasty1_c,당나라,Tang,
-tang-dynasty2_c,당나라,Tang Dynasty,"618-690, 705-907"
+tang-dynasty2_c,당나라,Tang dynasty,"618-690, 705-907"
 xia-dynasty,중국 하왕조 c. 2070 – c. 기원전 1600년,Xia dynasty in China c. 2070 – c. 1600 BC,
 gonghe,공허섭정(기원전 841-828년),Gonghe Regency 841-828 BC,
 Ashoka,아쇼카(기원전 304-232년경)는 불교를 장려했습니다.,Ashoka (c. 304-232 BC) promotes Buddhism,
@@ -398,7 +398,7 @@ Manetho,마네토는 아이귑티카 를 쓴다,Manetho writes Aegyptiaca,
 tribulation,"큰 환난 (마가복음 13:19; 다니엘 12:1; 마 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
 destruction_babylon,"큰 바빌론의 멸망 (계시 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
 gog_of_magog,"마곡의 곡의 공격 (에스겔 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
-sheep_goat,땅의 주민들이 양과 염소를 분리하여 심판을 받을 것입니다(마태복음 25:31-33).,"Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
+sheep_goat,땅의 주민들이 양과 염소를 분리하여 심판을 받을 것입니다(마태복음 25:31-33).,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT
 annointed,왕국 통치자들의 집합 (마태복음 24:31; 고린도전서 15:50-53; 데살로니가전서 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT
 armageddon,"아마겟돈 전쟁 (요한계시록 16:14, 16; 이사야 13:9; 베드로후서 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
 millenium,"하느님의 왕국이 1000년 통치를 시작합니다 (계시 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
@@ -419,18 +419,18 @@ ottoman_empire,1299년 – 1922년,1299 – 1922 C.E.,
 ottoman_empire_c,오스만 제국,Ottoman Empire,
 holy_roman_empire,기원 800년 – 924년,800 – 924 C.E.,
 holy_roman_empire2,기원 962년 – 1806년,962 – 1806 C.E.,fixed 2024-12-31
-holy_roman_empire_c,신성 로마 제국 – 1512년 이후 독일 국가의 신성 로마 제국,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,
+holy_roman_empire_c,신성 로마 제국 – 1512년 이후 독일 국가의 신성 로마 제국,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,
 mongol_empire,몽골 제국 1206년 – 1294년,Mongol Empire 1206 – 1294 C.E.,
 Genghis,징기스칸,Genghis Khan,
 maya_classic,250-950,250-950,
-maya_classic_c,마야 문명 – 고전 시대,Maya civilization – classic period,
+maya_classic_c,마야 문명 – 고전 시대,Maya civilization – Classic period,
 maya_postclassic,950-1539,950-1539,
-maya_postclassic_c,마야 문명 - 고전 이후 시대,Maya civilization – postclassic period,
+maya_postclassic_c,마야 문명 - 고전 이후 시대,Maya civilization – Postclassic period,
 inca_empire,1438년 – 1533년,1438 – 1533 C.E.,
 inca_empire_c,잉카 제국,Inca empire,
 gupta_empire,기원 319년 – 550년,319 – 550 C.E.,
-gupta_empire_c,굽타 제국,Gupta empire,
-Teotihuacan,"아메리카 대륙에서 가장 큰 도시, 피라미드 건설 c. 기원 200년","largest city in the Americas, pyramids build c. 200 C.E.",
+gupta_empire_c,굽타 제국,Gupta Empire,
+Teotihuacan,"아메리카 대륙에서 가장 큰 도시, 피라미드 건설 c. 기원 200년","Largest city in the Americas, pyramids build c. 200 C.E.",
 Teotihuacan_c,테오티우아칸,Teotihuacan,
 Dionysius_Exiguus,Anno Domini의 발명가인 Dionysius Exiguus,"Dionysius Exiguus, inventor of Anno Domini",
 Umayyad,661 – 750년,661 – 750 C.E.,
@@ -439,19 +439,19 @@ Abbasid,기원 750년 – 1258년,750 – 1258 C.E.,
 Abbasid_c,아바스 칼리프 왕조,Abbasid Caliphate,
 Mamluk,기원 1250년 – 1517년,1250 – 1517 C.E.,
 Mamluk_c,맘루크 술탄국,Mamluk Sultanate,
-ur3,우르 3왕조 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
+ur3,우르 3왕조 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠,
 hammurabi,함무라비 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
 Al-Khwarizmi,al-Khwarizmi는 Al-Jabr(대수학)을 씁니다.,al-Khwarizmi writes Al-Jabr (Algebra),
 al-azhar,Al-Azhar University가 카이로에 설립됨,Al-Azhar University is established in Cairo,
 Ibn-Sina,이븐 시나 또는 아비센나,Ibn Sina or Avicenna,
 Al-Ghazali,알 가잘리,Al-Ghazali,2024-07-30
-Keturah,케 투라,Keturah,Genesis 25:1-4
-Zimran,짐마란,Zimran,
-Jokshan,Jokshan,Jokshan,
-Medan,메단,Medan,
+Keturah,그두라,Keturah,Genesis 25:1-4
+Zimran,시므란,Zimran,
+Jokshan,욕산,Jokshan,
+Medan,므단,Medan,
 Midian,미디안,Midian,
-Ishbak,ISHBAK,Ishbak,
-Shuah,Shuah,Shuah,
+Ishbak,이스박,Ishbak,
+Shuah,수아,Shuah,
 Timna,팀 나,Timna,"1 Chr 1:36, Ge 36:10-12"
 Midianites,"1) 중부인 : 번호 31 : 2, 3","1) Midianites: Numbers 31:2, 3",
 Moabites,"2) Moabites : 신명기 23 : 3, 4","2) Moabites: Deuteronomy 23:3, 4",
@@ -459,12 +459,12 @@ Ammonites,3) 암모나이트 : 여호수아 12 : 2,3) Ammonites: Joshua 12:2,
 Edomites,4) 에돔 사람들 : 숫자 20 : 14-17,4) Edomites: Numbers 20:14-17,
 Temanites,5) Temanites : 직업 42 : 7,5) Temanites: Job 42:7,
 Amalekites,6) 아말렉 시트 : 사무엘 15 : 2,6) Amalekites: 1 Samuel 15:2,2024-09-29
-life-expectancy,기대 수명 75 년,life expectancy 75 years,
+life-expectancy,기대 수명 75 년,Life expectancy 75 years,
 life-expectancy2,(시편 90:10),(Psalm 90:10),2024-11-29
 430years,1943 - 1513 B.C.E.,1943 – 1513 B.C.E.,
 430years_c,"430 년 : 출애굽기 12:41, 갈라디아서 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24
-maya_calendar,Maya Calendar의 시작 계산 기원전 8 월 11 일 기원전.,"calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
-xia-dynasty2,"기음. 2070 - c. 기원전 1600 년, 서부 Zhou 기간 동안 가장 초기의 언급","c. 2070 – c. 1600 BC, earliest mentions during Western Zhou period",2025-01-02
+maya_calendar,Maya Calendar의 시작 계산 기원전 8 월 11 일 기원전.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
+xia-dynasty2,"기음. 2070 - c. 기원전 1600 년, 서부 Zhou 기간 동안 가장 초기의 언급",c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02
 xia-dynasty2_c,중국의 Xia 왕조,Xia dynasty in China,
 tres_zapotes,"9 월 3 일, 기원전 32 년","September 3rd, 32 B.C.E.",2024-12-31
 joseph_jacob_reunited,조셉과 야곱은 이집트에서 재결합했다 - 1728 년 기원전. (창 45:11; 47 : 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01
