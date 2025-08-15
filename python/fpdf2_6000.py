@@ -4,11 +4,11 @@
 
 from fpdf import FPDF
 import pandas as pd
-# import googletrans # there is a PR for v4.0.0 since 2024-11-20 that should fix many problems
+import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix many problems
 import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 5.5
+version  = 5.8
 language = "en"
 language_str = "English"
 color_scheme = "normal"
