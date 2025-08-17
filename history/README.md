@@ -136,3 +136,5 @@ To visualize the progress after 15 years here is a comparison of the spreadsheet
 
 ![Zeitleiste 1550 BCE - 150 CE](https://raw.githubusercontent.com/kreier/timeline/main/docs/zeitleiste_1550-150.png)
 ![Zeitleiste 1550 BCE - 150 CE](https://raw.githubusercontent.com/kreier/timeline/main/docs/timeline_1550-150.png)
+
+Now we changed this file in the KH.
