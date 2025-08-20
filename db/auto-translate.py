@@ -42,9 +42,10 @@ async def translate_dictionary(dictionary, language):
                 # dict_translated.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
                 result = await translator.translate(english_text, src='en', dest=language)
                 dict_translated.at[index, 'text'] = result.text
-                print('.', end='')
-            if (index + 1) % 40 == 0:
-                print(f" {index}")
+                # print('.', end='')
+                print(f'{index}: {english_text} - {result.text}')
+            # if (index + 1) % 40 == 0:
+            #     print(f" {index}")
 
 if __name__ == "__main__":
     dict = pd.DataFrame() # will contain the english dictionary with 'key' and 'text' column, plus 'alternative' and 'notes' (not used)
