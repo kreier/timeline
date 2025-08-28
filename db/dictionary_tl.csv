@@ -1,7 +1,7 @@
 key,text,english,notes
 version,5.4,5.4,
-pdf_title,6000 taon na paglalarawan na kasaysayan ng tao,6000 years human history visualized,2025-04-16
-pdf_subject,Timeline ng sangkatauhan,Timeline of humankind,5.4
+pdf_title,6000 taon na paglalarawan na kasaysayan ng tao,6000 years human history visualized,2025-05-16
+pdf_subject,Timeline ng sangkatauhan,Timeline of humankind,5.5
 BCE,B.C.E.,B.C.E.,appendix B9
 CE,C.E.,C.E.,
 year,taon,year,"timespan, age (Adam was 130 years old when Shem was born)"
@@ -167,10 +167,10 @@ event_destruction_jerusalem1,"Pagkawasak ng Jerusalem 607 B.C.E. ng Babilonya, 3
 event_temple_rebuilt,Muling tinayo ang templo sa Jerusalem - 515,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,Muling tinayo ang pader ng Jerusalem - 455,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Pagkawasak ng Jerusalem 70 C.E.- Roma (kay Titus),Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"Katapusan ng panahon ng mga bansa (Lucas 21:24), kaharian ng Diyos nagsimulang mamahala -1914 C.E.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
+event_1914,"Katapusan ng panahon ng mga bansa (Lucas 21:24), kaharian ng Diyos nagsimulang mamahala -1914 C.E.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
 became_king,naging hari sa edad,becomes king at age,2025-04-14
 vulgate,Natapos ni Jerome ang Vulgate (salin sa Latin ng bibliya) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
-gutenberg,Ang Bibliyang Gutenberg ay inilimbag -1455,Gutenberg bible printed 1455,
+gutenberg,Ang Bibliyang Gutenberg ay inilimbag -1455,Gutenberg Bible printed 1455,
 erasmus,Griegong salin ng Kristiyanong Griegong Kasulatan inilathala ni Desiderius Erasmus ng Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,
 luther,Pagsasalin ng Bibliya ni Luther noong Setyembre 1522,Luther Bible translation in September 1522,
 tyndale,Pagsasalin ng Bibliya sa Ingles ni Tyndale 1536,English Bible translation by Tyndale 1536,
@@ -190,10 +190,10 @@ gilead_school,"Ang Watchtower Bible School of Gilead ay nagsimula , Pebrero 1, 1
 new_world_translation1,"“New World Translation of the Holy Scriptures” na inilabas sa Manchester, England - Hunyo 18, 1960, ay binalik ang pangalang Jehova sa maraming bahagi ng Bibliya","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
 truth_book,“The Truth That Leads to Eternal Life” ay inilabas noong 1968,The book “The Truth That Leads to Eternal Life” is released 1968,
 metropolitan,Nagsimula ang metropolitan witnessing noong 2011,Start of metropolitan witnessing in 2011,
-jw_org,Nagsimula ang JW.ORG - may mga tagubilin sa ministeryo - Disyembre 2012,Start of JW.ORG with instructions in kingdom ministry December 2012,
+jw_org,Nagsimula ang JW.ORG - may mga tagubilin sa ministeryo - Disyembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012,
 new_world_translation2,"Binagong “Bagong Sanlibutang Salin ng Banal na Kasulatan” inilabas sa taunang pulong 2013, na-optimize para magamit sa digital at online","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
-jw_broadcasting,Simula ng jw.broadcasting noong Oktubre 2014,Start of jw.broadcasting in October 2014,
-meeting_workbook,"Bagong pormat ng midweek meeting na may ""workbook ng pagpupulong"" simula Enero 2016",New format of midweek meeting with “meeting workbook” starting January 2016,
+jw_broadcasting,Simula ng jw.broadcasting noong Oktubre 2014,Start of JW Broadcasting® in October 2014,
+meeting_workbook,"Bagong pormat ng midweek meeting na may ""workbook ng pagpupulong"" simula Enero 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016,
 covid19,COVID-19,Covid-19,
 cold_war,"Geopolitikal na sitwasyon - ""Cold War"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991,
 timeline_created,"Itong timeline ay ginawa - 2023, pinakamainit na taon sa nakalipas 125,000 na panahon","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
@@ -218,7 +218,7 @@ king_north,"Seleucus I Nicator (v5) Syria hanggang Antiochus III (v10) at Seleuc
 king_north1,Hari ng Hilaga,King of the North,
 king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) hanggang sa labanang Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",
 king_south1,Hari ng Timog,King of the South,
-king_south2,"British empire 1870, Anglo-American World Power mula noong 1914","British empire 1870, Anglo-American World Power since 1914",
+king_south2,"British empire 1870, Anglo-American World Power mula noong 1914","British Empire 1870, Anglo-American World Power since 1914",
 king_south3,Hari ng Timog,King of the South,
 king_north2,"Germany kasama si Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
 king_north3,Hilaga,North,
@@ -319,7 +319,7 @@ Jetur,Jetur,Jetur,
 Naphish,Napis,Naphish,
 Kedemah,Kedema,Kedemah,
 Babylon2,,,no text left and right – empty!
-terahfam,miyembro ng pamilya ni Tera,members of Terah’s family,
+terahfam,miyembro ng pamilya ni Tera,Members of Terah’s family,
 rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E.,
 Herodotus,"Herodotus c. 484 – c. 425 BC, isinulat ang The History","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
 Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
@@ -378,17 +378,17 @@ southern-dynasties,420-589 CE,420-589 CE,
 tang-dynasty1,,,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
-shang-dynasty_c,Dinastiyang Shang,Shang Dynasty,c. 1600-1046 BC
+shang-dynasty_c,Dinastiyang Shang,Shang dynasty,c. 1600-1046 BC
 western-zhou_c,Kanlurang Zhou,Western Zhou,c. 1046-771 BC
 eastern-zhou_c,Silangang Zhou,Eastern Zhou,770-256 BC
 western-han_c,Kanlurang Han,Western Han,207 BC – 9 CE
 eastern-han_c,Silangang Han,Eastern Han,25-220 CE
 three-kingdoms_c,Tsina,China,Three kingdoms 220-280 CE
 sixteen-kingdoms_c,Tsina,China,Sixteen kingdoms 304-439 CE
-northern-dynasties_c,Hilagang Dinastiya,Northern Dynasties,368-581 CE
-southern-dynasties_c,Kanlurang Dinastiya,Southern Dynasties,420-589 CE
+northern-dynasties_c,Hilagang Dinastiya,Northern dynasties,368-581 CE
+southern-dynasties_c,Kanlurang Dinastiya,Southern dynasties,420-589 CE
 tang-dynasty1_c,Tang,Tang,
-tang-dynasty2_c,Dinastiyang Tang,Tang Dynasty,"618-690, 705-907"
+tang-dynasty2_c,Dinastiyang Tang,Tang dynasty,"618-690, 705-907"
 xia-dynasty,Dinastiyang Xia sa China c. 2070 – c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC,
 gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC,
 Ashoka,Si Ashoka (c. 304-232 BC) ay nagtataguyod ng Budismo,Ashoka (c. 304-232 BC) promotes Buddhism,
@@ -423,13 +423,13 @@ holy_roman_empire_c,Banal na Imperyong Romano – Kinilalang Banal na Imperyong 
 mongol_empire,Imperyong Mongol 1206 – 1294 C.E.,Mongol Empire 1206 – 1294 C.E.,
 Genghis,Genghis Khan,Genghis Khan,
 maya_classic,250-950,250-950,
-maya_classic_c,Kabihasnang Maya – klasikong panahon,Maya civilization – classic period,
+maya_classic_c,Kabihasnang Maya – klasikong panahon,Maya civilization – Classic period,
 maya_postclassic,950-1539,950-1539,
-maya_postclassic_c,Kabihasnang Maya – postclassic period,Maya civilization – postclassic period,
+maya_postclassic_c,Kabihasnang Maya – postclassic period,Maya civilization – Postclassic period,
 inca_empire,1438 – 1533 C.E.,1438 – 1533 C.E.,
 inca_empire_c,Imperyo ng inca,Inca empire,
 gupta_empire,319 – 550 C.E.,319 – 550 C.E.,
-gupta_empire_c,Imperyong Gupta,Gupta empire,
+gupta_empire_c,Imperyong Gupta,Gupta Empire,
 Teotihuacan,"Pinakamalaking lungsod sa Americas, pyramids build c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.",
 Teotihuacan_c,Teotihuacan,Teotihuacan,
 Dionysius_Exiguus,"Dionysius Exiguus, imbentor ng Anno Domini","Dionysius Exiguus, inventor of Anno Domini",
@@ -439,13 +439,13 @@ Abbasid,750 – 1258 C.E.,750 – 1258 C.E.,
 Abbasid_c,Abbasid Caliphate,Abbasid Caliphate,
 Mamluk,1250 – 1517 C.E.,1250 – 1517 C.E.,
 Mamluk_c,Sultanato ng Mamluk,Mamluk Sultanate,
-ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,
+ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠,
 hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
 Al-Khwarizmi,Isinulat ni al Khwarizmi ang Al Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra),
 al-azhar,Ang Al Azhar University ay itinatag sa Cairo,Al-Azhar University is established in Cairo,
 Ibn-Sina,Ibn Sina o Avicenna,Ibn Sina or Avicenna,
 Al-Ghazali,Al Ghazali,Al-Ghazali,2024-07-30
-Keturah,Keturah,Keturah,Genesis 25:1-4
+Keturah,Ketura,Keturah,Genesis 25:1-4
 Zimran,Zimran,Zimran,
 Jokshan,Joksan,Jokshan,
 Medan,Medan,Medan,
