@@ -1,7 +1,7 @@
 key,lang,shaping_engine,script,language,direction,fontname,fontsize,fontsize_AM,y_offset,replace_numerals,language_str
 en,English,FALSE,,,ltr,,10,15,0,FALSE,English
 ar,Arabic,TRUE,arab,ara,RTL,NotoArabic,9.2,12,1,TRUE,Arabic (العربية) 
-hy,Armenian,FALSE,,,ltr,NotoArmenian,10,15,0,FALSE,Armenian (Հայերեն)
+hy,Armenian,TRUE,armn,hye,ltr,NotoArmenian,10,15,0,FALSE,Armenian (Հայերեն)
 ceb,Cebuano,FALSE,,,ltr,,10,15,0,FALSE,Cebuano (Bisayâ)
 et,Estonian,FALSE,,,ltr,,10,15,0,FALSE,Estonian (eesti keel)
 fi,Finnish,FALSE,,,ltr,,10,15,0,FALSE,Finnish (Suomi) 
@@ -19,14 +19,17 @@ kman,Khmer ar24,TRUE,khmr,khm,ltr,NotoKhmer,10,15,0,FALSE,Khmer (ខ្មែរ
 kg,Kikongo,FALSE,,,ltr,,10,15,0,FALSE,Kikongo
 ko,Korean,FALSE,,,ltr,NotoKorean,10,15,0,FALSE,Korean (한국인) 
 ms,Malay,FALSE,,,ltr,,10,15,0,FALSE,Malay (Bahasa Melayu)
-no,Norwegian,FALSE,,,ltr,,10,15,0,FALSE,Norwegian (norsk) 
+no,Norwegian,FALSE,,,ltr,,10,15,0,FALSE,Norwegian (Norsk) 
 fa,Persian,TRUE,arab,fas,RTL,NotoArabic,9.2,12,1,TRUE,Persian or Farsi (فارسی)
+pt,Portugese,FALSE,,,ltr,,10,15,0,FALSE,Portugese (Português)
+pa,Punjabi,TRUE,gurm,pan,ltr,NotoGurmukhi,10,15,0,FALSE,Punjabi (ਪੰਜਾਬੀ)
 ru,Russian,FALSE,,,ltr,,10,15,0,FALSE,Russian (Русский) 
 si,Sinhala,TRUE,sinh,snh,ltr,NotoSinhala,9,14,1,TRUE,Sinhala (සිංහල) 
 es,Spanish,FALSE,,,ltr,,10,15,0,FALSE,Spanish (Español) 
 sw,Swahili,FALSE,,,ltr,,10,15,0,FALSE,Swahili (Kiswahili)
-tl,Tagalog,FALSE,,,ltr,,10,15,0,FALSE,Tagalog (Filipino) 
+tl,Tagalog,FALSE,tglg,,ltr,,10,15,0,FALSE,Tagalog (Filipino) 
 th,Thai,TRUE,thai,tha,ltr,NotoThai,10,15,0,FALSE,Thai (ภาษาไทย) 
+uk,Ukrainian,FALSE,,,ltr,,10,15,0,FALSE,Ukrainian (українська)
 ur,Urdu,TRUE,,urd,RTL,NotoNastaliqUrdu,10,15,0,FALSE,Urdu (اُردُو)
 vi,Vietnamese,FALSE,,,ltr,,10,15,0,FALSE,Vietnamese (Tiếng Việt) 
 yue,Cantonese,FALSE,,,ltr,NotoSimplifiedChinese,10,15,0,FALSE,Chinese Cantonese (Simplified) [中文简体（广东话)] 
