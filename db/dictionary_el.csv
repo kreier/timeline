@@ -2,12 +2,12 @@ key,text,english,notes
 version,5.5,5.5,5.5
 pdf_title,6000 χρόνια ανθρώπινη ιστορία απεικόνισε,6000 years human history visualized,2025-05-02
 pdf_subject,Χρονοδιάγραμμα της ανθρωπότητας,Timeline of humankind,5.5
-BCE,B.C.E.,B.C.E.,appendix B9
-CE,C.E.,C.E., 
+BCE,Π.Κ.Χ.,B.C.E.,appendix B9
+CE,Κ.Χ.,C.E., 
 year,έτος,year,"timespan, age (Adam was 130 years old when Shem was born)"
 years,έτη,years, 
 years_age,έτη,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
+age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
 month,μήνας,month, 
 months,μήνες,months, 
 day,ημέρα,day, 
@@ -22,27 +22,27 @@ events,εκδηλώσεις,events,
 objects,αντικείμενα ή αντικείμενα,objects or items, 
 Deluge,Κατακλυσμός,Deluge, 
 Adam,Αδάμ,Adam,Luke 3:38
-Seth,Σέθ,Seth, 
-Enosh,Ενωμένος,Enosh, 
-Kenan,Είδος,Kenan,Genesis 5:12
-Mahalalel,Μαχαλάλελ,Mahalalel, 
-Jared,Τσιντόλα,Jared, 
-Enoch,Ερεθός,Enoch, 
-Methuselah,Μαθουσάλας,Methuselah,Luke 3:37
-Lamech,Λαδιές,Lamech, 
+Seth,Σηθ,Seth, 
+Enosh,Ενώς,Enosh, 
+Kenan,Καϊνάν,Kenan,Genesis 5:12
+Mahalalel,Μααλαλεήλ,Mahalalel, 
+Jared,Ιάρεδ,Jared, 
+Enoch,Ενώχ,Enoch, 
+Methuselah,Μαθουσάλα,Methuselah,Luke 3:37
+Lamech,Λάμεχ,Lamech, 
 Noah,Νώε,Noah, 
-Shem,Χείλος,Shem, 
-Arpachshad,Arpachshad,Arpachshad,Luke 3:36
-Shelah,Shelah,Shelah, 
-Eber,Eber,Eber, 
-Peleg,Πέλμα,Peleg, 
-Reu,Ρέω,Reu, 
-Serug,Συνηθισμένος,Serug,Luke 3:35
-Nahor,Σάχα,Nahor,Genesis 11:24
-Terah,Τερρά,Terah, 
+Shem,Σημ,Shem, 
+Arpachshad,Αρφαξάδ,Arpachshad,Luke 3:36
+Shelah,Σηλά,Shelah, 
+Eber,Έβερ,Eber, 
+Peleg,Φάλεκ,Peleg, 
+Reu,Ραγαύ,Reu, 
+Serug,Σερούχ,Serug,Luke 3:35
+Nahor,Ναχώρ,Nahor,Genesis 11:24
+Terah,Θάρα,Terah, 
 Abraham,Αβραάμ,Abraham, 
 Isaac,Ισαάκ,Isaac, 
-Jacob,Ιάκωβος,Jacob,Luke 3:34
+Jacob,Ιακώβ,Jacob,Luke 3:34
 Joseph,Ιωσήφ,Joseph,Genesis 37
 Moses,Μωυσής,Moses, 
 Othniel,Οθνίελ,Othniel,Judges 3:9-11
@@ -232,16 +232,16 @@ jehoiada,Ιεϊιάντα,Jehoiada,2 Kings 11:4
 babel,Πύργος της Βαβέλ,Tower of Babel built, 
 Haggai,Χαζοκάρισμα,Haggai, 
 Zerubbabel,Zerubbabel (Λουκάς 3:27),Zerubbabel (Luke 3:27),Luke 3:27
-Babylon,"Δανιήλ 2:32, 36-38; 7: 4","Daniel 2:32, 36-38; 7:4", 
-Medopersia,"Δανιήλ 2:32, 39; 7: 5","Daniel 2:32, 39; 7:5", 
-Greece,"Δανιήλ 2:32, 39; 7: 6","Daniel 2:32, 39; 7:6", 
-Rome,"Δανιήλ 2:33, 40; 7: 7","Daniel 2:33, 40; 7:7", 
+Babylon,"Δανιήλ 2:32, 36-38· 7:4","Daniel 2:32, 36-38; 7:4", 
+Medopersia,"Δανιήλ 2:32, 39· 7:5","Daniel 2:32, 39; 7:5", 
+Greece,"Δανιήλ 2:32, 39· 7:6","Daniel 2:32, 39; 7:6", 
+Rome,"Δανιήλ 2:33, 40· 7:7","Daniel 2:33, 40; 7:7", 
 Angloamerica,"Δανιήλ 2:33, 41-43","Daniel 2:33, 41-43", 
-Babylon_c,Βαβυλών,Babylon, 
-Medopersia_c,Medo-Persia,Medo-Persia, 
+Babylon_c,Βαβυλώνα,Babylon, 
+Medopersia_c,Μηδοπερσία,Medo-Persia, 
 Greece_c,Ελλάδα,Greece, 
 Rome_c,Ρώμη,Rome, 
-Angloamerica_c,Αγγλο-Αμερική,Anglo-America, 
+Angloamerica_c,Αγγλία-Αμερική,Anglo-America, 
 infliction1,400 χρόνια πρόβλεψη,400 year infliction,Acts 7:6
 infliction2,Πράξεις 7: 6,Acts 7:6, 
 Jacob2,Ιάκωβος/,Jacob/,Jacob/Israel 1858-1711 – 147 years
@@ -318,7 +318,7 @@ Tema,Θόρυβος,Tema,
 Jetur,Αεριωθούμενος,Jetur, 
 Naphish,Ναφιστικός,Naphish, 
 Kedemah,Κένταμ,Kedemah, 
-Babylon2, , ,no text left and right – empty!
+Babylon2,, ,no text left and right – empty!
 terahfam,Μέλη της οικογένειας του Terah,Members of Terah’s family, 
 rosetta,Rosetta Stone 196 B.C.E.,Rosetta stone 196 B.C.E., 
 Herodotus,"Ηρόδοτος γ. 484 - γ. 425 π.Χ., γράφει τις ιστορίες","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
@@ -337,18 +337,18 @@ epic_gilgamesh,Epic of Gilgamesh (sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-l�
 oxyrhynchus,Oxyrhynchus papyri,Oxyrhynchus Papyri, 
 p52,Παπύρος p52,Papyrus P52, 
 daniel2_shift,0,0,Start 4.2
-daniel2_1,Βασιλιάς Ναβουχοδονόσορ,King Nebuchadnezzar,607 BCE
+daniel2_1,Ο Βασιλιάς Ναβουχοδονόσορ,King Nebuchadnezzar,607 BCE
 daniel2_2,καταστρέφει την Ιερουσαλήμ,destroys Jerusalem, 
 daniel2_3,Κατακτά τη Βαβυλώνα,Conquers Babylon,539 BCE
-daniel2_4,Η επιστροφή των διατάξεων Cyrus,Cyrus decrees return,537 BCE
-daniel2_5,των Εβραίων στην Ιερουσαλήμ,of Jews to Jerusalem, 
-daniel2_6,Μεγάλος Αλέξανδρος,Alexander the Great,331 BCE
+daniel2_4,Ο Κύρος εκδίδει διάταγμα για την επιστροφή,Cyrus decrees return,537 BCE
+daniel2_5,των Ιουδαίων στην Ιερουσαλήμ,of Jews to Jerusalem, 
+daniel2_6,Ο Μέγας Αλέξανδρος,Alexander the Great,331 BCE
 daniel2_7,κατακτά την Περσία,conquers Persia, 
-daniel2_8,Κανόνες για το Ισραήλ,Rules over Israel,63 BCE
+daniel2_8,Κυριεύει τον Ισραήλ,Rules over Israel,63 BCE
 daniel2_9,Καταστρέφει την Ιερουσαλήμ,Destroys Jerusalem,70 CE
-daniel2_10,"Κατά τη διάρκεια του Α 'Παγκοσμίου Πολέμου,","During World War I,",1914-1918 CE
-daniel2_11,Αγγλοαμερικανική παγκόσμια δύναμη,Anglo-American World Power, 
-daniel2_12,δημιουργείται,comes into being,End 4.2
+daniel2_10,"Στον Α΄ Παγκόσμιο Πόλεμο,","During World War I,",1914-1918 CE
+daniel2_11,έρχεται σε ύπαρξη η Αγγλοαμερικανική,Anglo-American World Power, 
+daniel2_12,Παγκόσμια Δύναμη,comes into being,End 4.2
 qing-dynasty,1636-1912,1636-1912, 
 qing-dynasty_c,Δυναστεία Qing,Qing dynasty,1636-1912
 ming-dynasty,1368-1644,1368-1644, 
@@ -375,7 +375,7 @@ three-kingdoms,Τρία βασίλεια 220-280 μ.Χ.,Three kingdoms 220-280 C
 sixteen-kingdoms,Δεκαέξι βασίλεια 304-439 μ.Χ.,Sixteen kingdoms 304-439 CE, 
 northern-dynasties,368-581 CE,368-581 CE, 
 southern-dynasties,420-589 μ.Χ.,420-589 CE, 
-tang-dynasty1, , , 
+tang-dynasty1,, , 
 tang-dynasty2,"618-690, 705-907","618-690, 705-907", 
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, 
 shang-dynasty_c,Δυναστεία,Shang dynasty,c. 1600-1046 BC
@@ -404,40 +404,40 @@ armageddon,"Μάχη του Armageddon (Αποκάλυψη 16:14, 16 · Ησαΐ
 millenium,"Η βασιλεία του Θεού ξεκινά την 1000ετή βασιλεία της (Αποκάλυψη 5: 9, 10 · 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", 
 great_crowd,"Ένα μεγάλο πλήθος επιβιώνει Armageddon (Αποκάλυψη 7: 9, 14, Ψαλμός 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", 
 world_population,Παγκόσμιος πληθυσμός σε δισεκατομμύρια τα τελευταία 2000 χρόνια,World population in billions in the last 2000 years, 
-607BCE,607 π.Χ.,607 B.C.E.,accommodate for language
-539BCE,539 π.Χ.,539 B.C.E.,systems in style:
-537BCE,537 B.C.E.,537 B.C.E.,>>year 537 before time<<
-331BCE,331 B.C.E.,331 B.C.E.,so they need a word
-63BCE,63 π.Χ.,63 B.C.E.,prior to the year
-70CE,70 C.E.,70 C.E.,and something
-1914CE,1914-1918 C.E.,1914-1918 C.E.,after the year
-khmer_empire,804 - 1431 C.E.,804 – 1431 C.E., 
+607BCE,607 Π.Κ.Χ.,607 B.C.E.,accommodate for language
+539BCE,539 Π.Κ.Χ.,539 B.C.E.,systems in style:
+537BCE,537 Π.Κ.Χ.,537 B.C.E.,>>year 537 before time<<
+331BCE,331 Π.Κ.Χ.,331 B.C.E.,so they need a word
+63BCE,63 Π.Κ.Χ,63 B.C.E.,prior to the year
+70CE,70 Κ.Χ.,70 C.E.,and something
+1914CE,1914-1918 Κ.Χ.,1914-1918 C.E.,after the year
+khmer_empire,804 - 1431 Κ.Χ.,804 – 1431 C.E., 
 khmer_empire_c,Khmer Empire - Angkor περίοδος,Khmer Empire - Angkor period, 
-byzantine_empire,330-1453 C.E.,330-1453 C.E., 
+byzantine_empire,330-1453 Κ.Χ.,330-1453 C.E., 
 byzantine_empire_c,Βυζαντινή αυτοκρατορία,Byzantine Empire, 
-ottoman_empire,1299 - 1922 C.E.,1299 – 1922 C.E., 
+ottoman_empire,1299 - 1922 Κ.Χ.,1299 – 1922 C.E., 
 ottoman_empire_c,Οθωμανική αυτοκρατορία,Ottoman Empire, 
-holy_roman_empire,800 - 924 C.E.,800 – 924 C.E., 
-holy_roman_empire2,962 - 1806 C.E.,962 – 1806 C.E.,fixed 2024-12-31
+holy_roman_empire,800 - 924 Κ.Χ.,800 – 924 C.E., 
+holy_roman_empire2,962 - 1806 Κ.Χ.,962 – 1806 C.E.,fixed 2024-12-31
 holy_roman_empire_c,Η Αγία Ρωμαϊκή Αυτοκρατορία - γνωστή ως Αγία Ρωμαϊκή Αυτοκρατορία του Γερμανικού Έθνους μετά το 1512,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, 
-mongol_empire,Μογγολική Αυτοκρατορία 1206 - 1294 C.E.,Mongol Empire 1206 – 1294 C.E., 
+mongol_empire,Μογγολική Αυτοκρατορία 1206 - 1294 Κ.Χ.,Mongol Empire 1206 – 1294 C.E., 
 Genghis,Γκένγκις Χαν,Genghis Khan, 
 maya_classic,250-950,250-950, 
 maya_classic_c,Πολιτισμός Maya - Κλασική περίοδος,Maya civilization – Classic period, 
 maya_postclassic,950-1539,950-1539, 
 maya_postclassic_c,Πολιτισμός Maya - Μετακλασική περίοδο,Maya civilization – Postclassic period, 
-inca_empire,1438 - 1533 C.E.,1438 – 1533 C.E., 
+inca_empire,1438 - 1533 Κ.Χ.,1438 – 1533 C.E., 
 inca_empire_c,Αυτοκρατορία,Inca empire, 
-gupta_empire,319 - 550 C.E.,319 – 550 C.E., 
+gupta_empire,319 - 550 Κ.Χ.,319 – 550 C.E., 
 gupta_empire_c,Gupta αυτοκρατορία,Gupta Empire, 
-Teotihuacan,"Η μεγαλύτερη πόλη στην Αμερική, οι πυραμίδες χτίζουν γ. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.", 
+Teotihuacan,"Η μεγαλύτερη πόλη στην Αμερική, οι πυραμίδες χτίζουν γ. 200 Κ.Χ.","Largest city in the Americas, pyramids build c. 200 C.E.", 
 Teotihuacan_c,Τζοτιχουένος,Teotihuacan, 
 Dionysius_Exiguus,"Dionysius exiguus, εφευρέτης του Anno Domini","Dionysius Exiguus, inventor of Anno Domini", 
-Umayyad,661 - 750 C.E.,661 – 750 C.E., 
+Umayyad,661 - 750 Κ.Χ.,661 – 750 C.E., 
 Umayyad_c,Umayyad,Umayyad, 
-Abbasid,750 - 1258 C.E.,750 – 1258 C.E., 
+Abbasid,750 - 1258 Κ.Χ.,750 – 1258 C.E., 
 Abbasid_c,Χαλιφάτο Abbasid,Abbasid Caliphate, 
-Mamluk,1250 - 1517 C.E.,1250 – 1517 C.E., 
+Mamluk,1250 - 1517 Κ.Χ.,1250 – 1517 C.E., 
 Mamluk_c,Σουλτανάτο Mamluk,Mamluk Sultanate, 
 ur3,Ur iii δυναστεία 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, 
 hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, 
@@ -463,14 +463,14 @@ life-expectancy,Προσδόκιμο ζωής 75 χρόνια,Life expectancy 75
 life-expectancy2,(Ψαλμός 90:10),(Psalm 90:10),2024-11-29
 430years,1943 - 1513 B.C.E.,1943 – 1513 B.C.E., 
 430years_c,"430 χρόνια: Έξοδος 12:41, Γαλάτες 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24
-maya_calendar,Υπολογισμένη αρχή του ημερολογίου Maya 11 Αυγούστου 3114 π.Χ.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
-xia-dynasty2,ντο. 2070 - γ. 1600 π.Χ. Η εποχή αναφέρθηκε για πρώτη φορά κατά τη διάρκεια της περιόδου Western Zhou,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02
+maya_calendar,Υπολογισμένη αρχή του ημερολογίου Maya 11 Αυγούστου 3114 Π.Κ.Χ.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25
+xia-dynasty2,ντο. 2070 - γ. 1600 Π.Κ.Χ. Η εποχή αναφέρθηκε για πρώτη φορά κατά τη διάρκεια της περιόδου Western Zhou,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02
 xia-dynasty2_c,Δυναστεία XIA στην Κίνα,Xia dynasty in China, 
-tres_zapotes,"3 Σεπτεμβρίου, 32 π.Χ.","September 3rd, 32 B.C.E.",2024-12-31
-joseph_jacob_reunited,Ο Ιωσήφ και ο Ιακώβ επανενώθηκαν στην Αίγυπτο - 1728 π.Χ. (Γένεση 45:11 · 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01
-king_south_light, , ,2025-02-05
+tres_zapotes,"3 Σεπτεμβρίου, 32 Π.Κ.Χ.","September 3rd, 32 B.C.E.",2024-12-31
+joseph_jacob_reunited,Ο Ιωσήφ και ο Ιακώβ επανενώθηκαν στην Αίγυπτο - 1728 Π.Κ.Χ. (Γένεση 45:11 · 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01
+king_south_light,, ,2025-02-05
 king_south_light_c,Βασιλιάς του Νότου από τον Δανιήλ 11,King of the South from Daniel 11,2025-02-05
-king_north_light, , ,2025-02-05
+king_north_light,, ,2025-02-05
 king_north_light_c,Βασιλιάς του Βορρά από τον Δανιήλ 11,King of the North from Daniel 11,2025-02-05
-daniel2_iron, , ,2025-02-05
-daniel2_iron_c,Σίδερο από το Daniel 2,Iron legs from Daniel 2,2025-02-05
+daniel2_iron,, ,2025-02-05
+daniel2_iron_c,Σίδερο από το Δανιήλ 2,Iron legs from Daniel 2,2025-02-05
