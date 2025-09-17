@@ -58,8 +58,9 @@ if __name__ == "__main__":
     check_existing(language, filename)
     import_reference()
     # create the dataframe
-    dict_translated = dict[['key', 'text', 'notes']].copy()   # create a new dictionary, copy columns key and text
+    dict_translated = dict[['key', 'text']].copy()   # create a new dictionary, copy columns key and text
     dict_translated['english'] = dict['text'].copy() # add a column 'english' and fill with 'text' from english dictionary
+    dict_translated['notes'] = dict['notes'].copy() # add a column 'notes' and fill with 'notes' from english dictionary
     print("\nTranslating ...")
     number_characters = 0      # you can translate up to 500,000 characters per month for free
     asyncio.run(translate_dictionary(dict_translated, language)) # translate the dictionary

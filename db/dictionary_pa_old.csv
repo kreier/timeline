@@ -1,0 +1,401 @@
+key,text,notes,english
+version,4.5,,4.5
+pdf_title,6000 ਸਾਲਾਂ ਦੇ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਕਲਪਨਾ ਕੀਤੀ ਗਈ,,6000 years human history visualized
+pdf_subject,ਮਨੁੱਖਜਾਤੀ ਦੀ ਸਮਾਂ-ਰੇਖਾ,,Timeline of humankind
+BCE,ਬੀ.ਸੀ.ਈ.,,B.C.E.
+CE,ਸੀ.ਈ.,,C.E.
+year,ਸਾਲ,"timespan, age (Adam was 130 years old when Shem was born)",year
+years,ਸਾਲ,,years
+years_age,ਸਾਲ,years when used as age for a person (different word than years in some languages),years
+age_kings, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""", 
+month,ਮਹੀਨਾ,,month
+months,ਮਹੀਨੇ,,months
+day,ਦਿਨ,,day
+days,ਦਿਨ,,days
+to,ਨੂੰ,,to
+people,ਲੋਕ,,people
+judges,ਜੱਜ,,judges
+prophets,ਨਬੀ,,prophets
+kings,ਰਾਜੇ,,kings
+periods,ਮਿਆਦ,,periods
+events,ਘਟਨਾਵਾਂ,,events
+objects,ਵਸਤੂਆਂ ਜਾਂ ਆਈਟਮਾਂ,,objects or items
+Deluge,ਹੜ੍ਹ,,Deluge
+Adam,ਐਡਮ,,Adam
+Seth,ਸੇਠ,,Seth
+Enosh,Enosh,,Enosh
+Kenan,ਕੇਨਨ,,Kenan
+Mahalalel,ਮਹਲਾਲੇਲ,,Mahalalel
+Jared,ਜੈਰੇਡ,,Jared
+Enoch,ਹਨੋਕ,,Enoch
+Methuselah,Methuseਲਾਹ,,Methuselah
+Lamech,Lamech,,Lamech
+Noah,ਨੂਹ,,Noah
+Shem,ਸ਼ੇਮ,,Shem
+Arpachshad,ਅਰਪਚਸ਼ਾਦ,,Arpachshad
+Shelah,ਸ਼ੇਲਾਹ,,Shelah
+Eber,Eber,,Eber
+Peleg,Peleg,,Peleg
+Reu,Reu,,Reu
+Serug,Serug,,Serug
+Nahor,ਨਾਹੋਰ,,Nahor
+Terah,ਤੇਰਾਹ,,Terah
+Abraham,ਅਬਰਾਹਾਮ,,Abraham
+Isaac,ਇਸਹਾਕ,,Isaac
+Jacob,ਯਾਕੂਬ,,Jacob
+Joseph,ਯੂਸੁਫ਼,,Joseph
+Moses,ਮੂਸਾ,,Moses
+Othniel,ਓਥਨੀਅਲ,,Othniel
+Ehud,ਏਹੂਦ,,Ehud
+Shamgar,ਸ਼ਮਗਰ,,Shamgar
+Barak,ਬਰਾਕ,,Barak
+Gideon,ਗਿਦਾਊਨ,,Gideon
+Tola,ਟੋਲਾ,,Tola
+Jair,ਜੈਰ,,Jair
+Jephthah,ਯਿਫ਼ਤਾਹ,,Jephthah
+Ibzan,Ibzan,,Ibzan
+Elon,ਐਲਨ,,Elon
+Abdon,ਅਬਡਨ,,Abdon
+Samson,ਸੈਮਸਨ,,Samson
+Samuel,ਸਮੂਏਲ,,Samuel
+Saul,ਸ਼ਾਊਲ,,Saul
+David,ਡੇਵਿਡ,,David
+Solomon,ਸੋਲੋਮੋ,,Solomon
+Rehoboam,ਰਹੋਬਾਮ,first king of southern kingdom of Juda,Rehoboam
+Abijah,ਅਬੀਜਾਹ (ਅਬੀਜਮ),"3 years, also Abijam",Abijah (Abijam)
+Asa,ਆਸਾ,,Asa
+Jehoshaphat,ਯਹੋਸ਼ਾਫਾਟ,bce_float = -y+1 - (12-m)/12 – (31-d)/360,Jehoshaphat
+Jehoram2,ਜੇਹੋਰਾਮ,,Jehoram
+Ahaziah,ਅਹਾਜ਼ੀਯਾਹ,,Ahaziah
+Athaliah,ਰਾਣੀ ਅਥਾਲੀਆ,Queen Athaliah,Queen Athaliah
+Jehoash,ਯਹੋਆਸ਼,,Jehoash
+Amaziah,ਅਮਾਜ਼ੀਯਾਹ,,Amaziah
+Uzziah,ਉਜ਼ੀਯਾਹ (ਅਜ਼ਰੀਆਹ),also Azariah,Uzziah (Azariah)
+Jotham,ਜੋਥਮ,,Jotham
+Ahaz,ਅਹਾਜ਼,,Ahaz
+Hezekiah,ਹਿਜ਼ਕੀਯਾਹ,,Hezekiah
+Manasseh,ਮਨੱਸ਼ਹ,,Manasseh
+Amon,ਅਮੋਨ,,Amon
+Josiah,ਯੋਸੀਯਾਹ,,Josiah
+Jehoahaz,ਯਹੋਆਹਾਜ਼,Only 3 months,Jehoahaz
+Jehoiakim,ਯਹੋਯਾਕਿਮ,,Jehoiakim
+Jehoiachin,ਯਹੋਯਾਚਿਨ,Only 3 months 10 days,Jehoiachin
+Zedekiah,Zedekiah,,Zedekiah
+Jeroboam,ਜੇਰੋਬਾਮ,first king of northern 10-tribe kingdom,Jeroboam
+Nadab,ਨਦਾਬ,less than 2,Nadab
+Baasha,ਬਾਸ਼ਾ,,Baasha
+Elah,ਏਲਾਹ,,Elah
+Zimri,ਜ਼ਿਮਰੀ,Only 7 days in ca. 751 BCE,Zimri
+OmriTibni,ਓਮਰੀ ਅਤੇ ਤਿਬਨੀ ਇਕੱਠੇ,4 years Omri and Tibni,Omri and Tibni together
+Omri,ਓਮਰੀ (ਇਕੱਲੇ),from 947 Omri alone,Omri (alone)
+Ahab,ਅਹਾਬ,,Ahab
+Ahaziah,ਅਹਾਜ਼ੀਯਾਹ,,Ahaziah
+Jehoram,ਜੇਹੋਰਾਮ,,Jehoram
+Jehu,ਜੇਹੂ,,Jehu
+Jeoahaz,Jaoahaz,,Jeoahaz
+JeoahazJehoash,ਯਹੋਆਹਾਜ਼ ਅਤੇ ਯਹੋਆਸ਼,For 3 years Jeoahaz and Jeoash reigned together,Jeoahaz and Jehoash
+Jehoash2,ਯਹੋਆਸ਼ (ਇਕੱਲਾ),Jehoash (alone),Jehoash (alone)
+Jeroboam2,ਜੇਰੋਬਾਮ II,,Jeroboam II
+Zechariah,ਜ਼ਕਰਯਾਹ,"reign only recorded 6 months, probably only established 792 BCE",Zechariah
+Schallum,Schallum,only one month,Schallum
+Menahem,ਮੇਨਾਹੇਮ,,Menahem
+Pekahiah,Pekahiah,,Pekahiah
+Pekah,Pekah,,Pekah
+Hoshea,ਹੋਸ਼ੀਆ,9 years from c. 748,Hoshea
+Elijah,ਏਲੀਯਾਹ,,Elijah
+Elisha,ਅਲੀਸ਼ਾ,,Elisha
+Jonah,ਯੂਨਾਹ,,Jonah
+Amos,Amos,,Amos
+Joel,ਜੋਏਲ,,Joel
+Hosea,ਹੋਸ਼ੀਆ,,Hosea
+Isaiah,ਯਸਾਯਾਹ,,Isaiah
+Micah,ਮੀਕਾਹ,,Micah
+Zephaniah,ਸਫ਼ਨਯਾਹ,,Zephaniah
+Nahum,Nahum,,Nahum
+Jeremiah,ਯਿਰਮਿਯਾਹ,,Jeremiah
+Habakuk,ਹਾਬਾਕੂਕ,,Habakuk
+Daniel,ਡੈਨੀਅਲ,,Daniel
+Ezekiel,Ezekiel,,Ezekiel
+Obadiah,ਓਬਦਯਾਹ,,Obadiah
+Malachi,ਮਲਾਚੀ,,Malachi
+Ruth,ਰੂਥ,,Ruth
+Ezra,Ezra,,Ezra
+Nehemiah,ਨਹੇਮਯਾਹ,,Nehemiah
+Esther,ਐਸਥਰ,,Esther
+Job,ਨੌਕਰੀ,,Job
+moses2,1593 ਤੋਂ 1473 ਈ. ਪੂ. - 120 ਸਾਲ,,1593 to 1473 B.C.E. – 120 years
+moses3,ਮੂਸਾ,,Moses
+wilderness,ਜੰਗਲ ਵਿੱਚ ਇਸਰਾਏਲ 1513 ਤੋਂ 1473 ਈ. ਪੂ. - 40 ਸਾਲ,,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years
+timespan_judges,1473 ਤੋਂ 1117 ਈ. ਪੂ. - 356 ਸਾਲ,,1473 to 1117 B.C.E. – 356 years
+timespan_judges2,ਜੱਜਾਂ ਦਾ ਸਮਾਂ,,Time of the judges
+temple1,ਨਿਸਾਨ 1513 ਈ. ਪੂ. ਤੋਂ ਜ਼ੀਵ 1034 ਈ. ਪੂ.,,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.
+temple2,ਮੰਦਰ ਦੀ ਉਸਾਰੀ ਤੋਂ 479 ਸਾਲ ਪਹਿਲਾਂ - 1 ਰਾਜਾ 6:1,1034 BCE,479 years until the temple construction – 1 Kings 6:1
+69weeks,ਯਿਸੂ ਨੇ 29 ਈ. ਨੂੰ ਬਪਤਿਸਮਾ ਦਿੱਤਾ।,,Jesus baptized autumn 29 C.E.
+69weeks2,ਮਸੀਹ ਲਈ 69 ਹਫਤੇ - ਦਾਨੀਏਲ 9:25,,69 weeks to the Messiah – Daniel 9:25
+jesus_service,"3.5 ਸਾਲ ਯਿਸੂ ਦੀ ਸੇਵਾ, ਨਿਸਾਨ ਨੂੰ 14ਵੀਂ, 33 ਈ. ਨੂੰ ਫਾਂਸੀ ਦਿੱਤੀ ਗਈ।",,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E."
+jesus_life,ਯਿਸੂ ਦਾ ਜਨਮ 2 ਈ. ਪੂ. ਵਿੱਚ ਹੋਇਆ ਸੀ।,,Jesus born 2 B.C.E.
+exile,607 ਤੋਂ 537 ਈਸਾ ਪੂਰਵ - 70 ਸਾਲ (ਯਿਰਮਿਯਾਹ 25:11),,607 to 537 B.C.E. – 70 years (Jeremiah 25:11)
+exile2,ਜਲਾਵਤਨ,,exile
+7times,ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ 12:9,,Revelation 12:9
+7times2,7 ਵਾਰ - 2520 ਸਾਲ ਮਸੀਹੀ ਰਾਜ 1914 ਈ. (ਦਾਨੀਏਲ 4:23),,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)
+ww1,ਪਹਿਲਾ ਵਿਸ਼ਵ ਯੁੱਧ – 1914-1918 ਈ.,,World War I – 1914–1918 C.E.
+ww2,ਦੂਜਾ ਵਿਸ਼ਵ ਯੁੱਧ - 1939-1945 ਈ.,,World War II – 1939–1945 C.E.
+30_year_war,ਯੂਰਪ ਵਿੱਚ ਤੀਹ ਸਾਲਾਂ ਦੀ ਜੰਗ 1618-1648,,Thirty Years' War in Europe 1618-1648
+joshua,110 ਸਾਲ,,110 years
+joshua2,ਯਹੋਸ਼ੁਆ,,Joshua
+caleb,85 ਸਾਲ ਤੋਂ ਵੱਧ,,more than 85 years
+caleb2,ਕਾਲੇਬ,,Caleb
+missionary1,"ਪੌਲੁਸ ਦੀ ਪਹਿਲੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ, 47-48 ਈ. ਵਿੱਚ ਬਰਨਬਾਸ ਅਤੇ ਜੌਹਨ ਮਾਰਕ ਨਾਲ",,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark"
+circumcision,"ਅੰਤੋਕੀਆ ਵਿਖੇ ਸੁੰਨਤ ਦਾ ਮੁੱਦਾ, ਯਰੂਸ਼ਲਮ ਵਿੱਚ ਕਾਨਫਰੰਸ 49 ਈ.",,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E."
+missionary2,ਦੂਜੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ 49-52 ਈ. ਸੀਲਾਸ (ਸਿਲਵਾਨਸ) ਨਾਲ ਹੋਈ,,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)
+missionary3,ਤੀਜੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ 52-56 ਈ.,,Third Missionary Journey c. 52-56 C.E.
+caesarea,ਪੌਲੁਸ ਕੈਸਰੀਆ ਵਿੱਚ ਹਿਰਾਸਤ ਵਿੱਚ 56-58 ਈ.,,Paul in custody in Caesarea c. 56-58 C.E.
+rome1,ਪੌਲੁਸ ਦੀ ਰੋਮ ਵਿੱਚ ਪਹਿਲੀ ਕੈਦ 59-61 ਈ.,,Paul’s first imprisonment in Rome c. 59-61 C.E.
+rome2,"ਪੌਲੁਸ ਦੀ ਰੋਮ ਵਿੱਚ ਦੂਜੀ ਕੈਦ 65 ਈਸਵੀ ਵਿੱਚ, 2 ਤਿਮੋਥਿਉਸ ਲਿਖੀ, ਪੌਲੁਸ ਨੂੰ ਫਾਂਸੀ ਦਿੱਤੀ ਗਈ",,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed"
+Julius,ਜੂਲੀਅਸ,,Julius
+Augustus,ਅਗਸਤਸ,,Augustus
+Tiberius,ਟਿਬੇਰਿਅਸ,,Tiberius
+Caligula,ਕੈਲੀਗੁਲਾ,,Caligula
+Claudius,Claudius,,Claudius
+Nero,ਨੀਰੋ,,Nero
+Galba-Otho-Vitellius,"ਗਲਬਾ, ਓਥੋ ਅਤੇ ਵਿਟੇਲਿਅਸ (ਚਾਰ ਸਮਰਾਟਾਂ ਦਾ ਸਾਲ)",,"Galba, Otho and Vitellius (Year of the Four Emperors)"
+Vespasian,ਵੇਸਪਾਸੀਅਨ,,Vespasian
+event_exodus,14 ਈ. ਪੂ. ਨੂੰ ਮਿਸਰ ਤੋਂ ਨਿਸਾਨ ਤੋਂ ਪ੍ਰਵਾਸ।,,"Exodus from Egypt on Nisan 14th, 1513 B.C.E."
+event_division_kingdom,ਇਜ਼ਰਾਈਲ ਦੀ ਵੰਡ 997 ਈ.ਪੂ.,,Division of Israel 997 BCE
+event_destruction_samaria,ਅੱਸ਼ੂਰ ਦੁਆਰਾ ਸਮਰੀਆ 740 ਈ. ਪੂ. ਦਾ ਵਿਨਾਸ਼,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
+event_destruction_samaria2,ਅੱਸ਼ੂਰ ਦੁਆਰਾ 740 ਈ. ਪੂ.,was shortened here for 2 lines,740 B.C.E. by Assyria
+event_destruction_jerusalem1,ਰਾਜ ਦੀ ਵੰਡ ਤੋਂ 390 ਸਾਲ ਬਾਅਦ ਬਾਬਲ ਦੁਆਰਾ ਯਰੂਸ਼ਲਮ ਦੀ ਤਬਾਹੀ 607 ਈ. ਪੂ.,,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)"
+event_temple_rebuilt,ਯਰੂਸ਼ਲਮ ਦੇ ਮੰਦਰ ਦਾ ਪੁਨਰ ਨਿਰਮਾਣ 515 ਈ. ਪੂ.,,Temple in Jerusalem rebuilt 515 B.C.E.
+event_jerusalem_rebuilt,ਯਰੂਸ਼ਲਮ ਦੀ ਕੰਧ ਦਾ ਪੁਨਰ ਨਿਰਮਾਣ 455 ਈ. ਪੂ.,,Jerusalem wall rebuilt 455 B.C.E.
+event_destruction_jerusalem2,70 ਈ. ਵਿੱਚ ਤੀਤੁਸ ਦੇ ਅਧੀਨ ਰੋਮ ਦੁਆਰਾ ਯਰੂਸ਼ਲਮ ਦੀ ਤਬਾਹੀ,,Destruction of Jerusalem 70 C.E. by Rome under Titus
+event_1914,"ਕੌਮਾਂ ਦੇ ਸਮੇਂ ਦਾ ਅੰਤ, ਪਰਮੇਸ਼ੁਰ ਦਾ ਰਾਜ ਸਵਰਗ ਵਿੱਚ ਰਾਜ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ 1914 ਈ. ",,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. "
+became_king,ਉਮਰ ਵਿੱਚ ਰਾਜਾ ਬਣ ਗਿਆ,,became king at age
+vulgate,ਵੁਲਗੇਟ ਜੇਰੋਮ (ਬਾਈਬਲ ਦਾ ਲਾਤੀਨੀ ਅਨੁਵਾਦ) ਦੁਆਰਾ ਪੂਰਾ ਕੀਤਾ ਗਿਆ।,,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.
+gutenberg,ਗੁਟੇਨਬਰਗ ਬਾਈਬਲ 1455 ਵਿੱਚ ਛਪੀ,,Gutenberg bible printed 1455
+erasmus,ਈਸਾਈ ਯੂਨਾਨੀ ਸ਼ਾਸਤਰਾਂ ਦਾ ਯੂਨਾਨੀ ਪਾਠ ਰੋਟਰਡੈਮ ਦੇ ਡੇਸੀਡਰਿਅਸ ਇਰਾਸਮਸ ਦੁਆਰਾ ਪ੍ਰਕਾਸ਼ਤ 1516,,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516
+luther,ਸਤੰਬਰ 1522 ਵਿੱਚ ਲੂਥਰ ਬਾਈਬਲ ਅਨੁਵਾਦ,,Luther Bible translation in September 1522
+tyndale,ਟਿੰਡੇਲ ਦੁਆਰਾ ਅੰਗਰੇਜ਼ੀ ਬਾਈਬਲ ਅਨੁਵਾਦ 1536,,English Bible translation by Tyndale 1536
+king_james,ਕਿੰਗ ਜੇਮਜ਼ ਬਾਈਬਲ 1611,,King James Bible 1611
+69weeks3,"ਯਿਸੂ ਆਪਣੀ ਸੇਵਾ 29 ਈਸਵੀ ਤੋਂ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ (ਲੂਕਾ 3:1, 21)",,"Jesus starts his service 29 CE (Luke 3:1, 21)"
+ransom,"ਹਫਤੇ ਦੇ ਮੱਧ ""ਬੰਦ ਹੋਣ ਲਈ ਕੁਰਬਾਨੀ"" ਦਾਨੀਏਲ 9:27",,middle of week “sacrifice to cease” Daniel 9:27
+cornelius,ਕੁਰਨੇਲੀਅਸ ਨੇ 70 ਹਫਤਿਆਂ ਦੇ ਅੰਤ ਵਿੱਚ (ਦਾਨੀਏਲ 9:24) 36 ਈਸਵੀ ਵਿੱਚ ਬਪਤਿਸਮਾ ਲਿਆ।,,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.
+columbus,ਅਮਰੀਕਾ ਦੇ 1492 ਵਿੱਚ ਪੂਰਵ-ਕੋਲੰਬੀਆਈ ਕਾਲ ਦਾ ਅੰਤ,,end of the pre-columbian period in the Americas 1492
+declaration_independence,ਅਮਰੀਕਾ ਵਿੱਚ 13 ਬਸਤੀਆਂ ਦੀ ਆਜ਼ਾਦੀ ਦਾ ਐਲਾਨ 1776,,declaration of independence of 13 colonies in America 1776
+tischendorf,ਟਿਸ਼ੇਨਡੋਰਫ ਨੇ 1844 ਵਿੱਚ ਚੌਥੀ ਸਦੀ ਤੋਂ ਕੋਡੇਕਸ ਸਿਨੈਟਿਕਸ ਦੀ ਖੋਜ ਕੀਤੀ,,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844
+dead_sea_scrolls,ਮ੍ਰਿਤ ਸਾਗਰ ਦੀਆਂ ਲਿਖਤਾਂ,,Dead Sea Scrolls written
+septuagint,ਸੈਪਟੂਆਗਿੰਟ LXX ਦਾ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ,,Septuagint LXX translated
+watchtower,"""ਸਿਯੋਨ ਜ਼ ਵਾਚ ਟਾਵਰ ਅਤੇ ਮਸੀਹ ਦੀ ਮੌਜੂਦਗੀ ਦਾ ਹੇਰਾਲਡ"" ਦਾ ਪਹਿਲਾ ਅੰਕ 1879 ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਤ ਹੋਇਆ ਸੀ",,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879
+photodrama,"""ਫੋਟੋ-ਡਰਾਮਾ ਆਫ ਕ੍ਰਿਏਸ਼ਨ"" ਪਹਿਲੀ ਵਾਰ 11 ਜਨਵਰੀ, 1914 ਨੂੰ ਨਿਊਯਾਰਕ ਵਿੱਚ ਦਿਖਾਇਆ ਗਿਆ ਸੀ",,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914"
+jehovahs_witnesses,"ਬਾਈਬਲ ਸਟੂਡੈਂਟਸ ਨੇ ਇਕ ਨਵਾਂ ਨਾਂ ਅਪਣਾਇਆ- ਯਹੋਵਾਹ ਦੇ ਗਵਾਹ। ਕੋਲੰਬਸ, ਓਹੀਓ ਵਿੱਚ, 1931",,"The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931"
+gilead_school,"ਵਾਚਟਾਵਰ ਬਾਈਬਲ ਸਕੂਲ ਆਫ ਗਿਲਿਅਡ ਦੀ ਸ਼ੁਰੂਆਤ ਸੋਮਵਾਰ, 1 ਫਰਵਰੀ, 1943 ਨੂੰ ਹੋਈ",,"Watchtower Bible School of Gilead began on Monday, February 1, 1943"
+new_world_translation1,"18 ਜੂਨ, 1960 ਨੂੰ ਮੈਨਚੇਸਟਰ, ਇੰਗਲੈਂਡ ਵਿੱਚ ""ਪਵਿੱਤਰ ਸ਼ਾਸਤਰਾਂ ਦਾ ਨਵਾਂ ਸੰਸਾਰ ਅਨੁਵਾਦ"" ਜਾਰੀ ਕੀਤਾ ਗਿਆ",,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960"
+truth_book,"ਕਿਤਾਬ ""ਦ ਟਰੂਥ ਜੋ ਸਦੀਵੀ ਜੀਵਨ ਵੱਲ ਲੈ ਜਾਂਦੀ ਹੈ"" 1968 ਵਿੱਚ ਜਾਰੀ ਕੀਤੀ ਗਈ ਸੀ",,The book “The Truth That Leads to Eternal Life” released 1968
+metropolitan,2011 ਵਿੱਚ ਮੈਟਰੋਪੋਲੀਟਨ ਗਵਾਹੀ ਦੀ ਸ਼ੁਰੂਆਤ,,Start of metropolitan witnessing in 2011
+jw_org,ਰਾਜ ਮੰਤਰਾਲੇ ਵਿੱਚ ਨਿਰਦੇਸ਼ਾਂ ਨਾਲ JW.ORG ਦੀ ਸ਼ੁਰੂਆਤ ਦਸੰਬਰ 2012,,Start of JW.ORG with instructions in kingdom ministry December 2012
+new_world_translation2,"ਸਲਾਨਾ ਮੀਟਿੰਗ 2013 ਵਿੱਚ ਸੋਧਿਆ ਹੋਇਆ ""ਪਵਿੱਤਰ ਸ਼ਾਸਤਰਾਂ ਦਾ ਨਵਾਂ ਸੰਸਾਰ ਅਨੁਵਾਦ"" ਜਾਰੀ ਕੀਤਾ ਗਿਆ",,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013
+jw_broadcasting,ਅਕਤੂਬਰ 2014 ਵਿੱਚ JW.ਪ੍ਰਸਾਰਣ ਦੀ ਸ਼ੁਰੂਆਤ,,Start of jw.broadcasting in October 2014
+meeting_workbook,"ਜਨਵਰੀ 2016 ਤੋਂ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲੀ ""ਮੀਟਿੰਗ ਵਰਕਬੁੱਕ"" ਦੇ ਨਾਲ ਮੱਧ-ਹਫਤੇ ਦੀ ਮੀਟਿੰਗ ਦਾ ਨਵਾਂ ਫਾਰਮੈਟ",,New format of midweek meeting with “meeting workbook” starting January 2016
+covid19,ਕੋਵਿਡ-19,,Covid-19
+cold_war,"ਭੂ-ਰਾਜਨੀਤਿਕ ਸਥਿਤੀ ਨੂੰ ""ਸ਼ੀਤ ਯੁੱਧ"" ਦਾ ਲੇਬਲ ਦਿੱਤਾ ਗਿਆ 1945-1991",,Geopolitical situation labeled “Cold War” 1945-1991
+timeline_created,"ਇਹ ਟਾਈਮਲਾਈਨ 2023 ਵਿੱਚ ਬਣਾਈ ਗਈ ਸੀ, ਜੋ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦਾ ਸਭ ਤੋਂ ਗਰਮ ਸਾਲ ਅਤੇ ਪਿਛਲੇ 125,000 ਸਾਲ ਸੀ",,"This timeline was created in 2023, the hottest year in human history and the last 125,000 years"
+codex_sinaiticus,ਕੋਡੇਕਸ ਸਿਨੈਟਿਕਸ ਲਿਖਿਆ ਗਿਆ ਹੈ,,Codex Sinaiticus written
+codex_vaticanus,ਕੋਡੇਕਸ ਵੈਟੀਕਨਸ ਲਿਖਿਆ ਗਿਆ ਹੈ,,Codex Vaticanus written
+leningrad_codex,ਲੈਨਿਨਗ੍ਰਾਡ ਕੋਡੇਕਸ ਕਾਹਿਰਾ ਈ. ਵਿੱਚ 1008 ਈ. ਵਿੱਚ ਲਿਖਿਆ ਗਿਆ ਸੀ,,Leningrad Codex written in Cairo AD 1008
+john,"ਯੂਹੰਨਾ ਨੇ ਪਤਮੋਸ 96-98 ਈਸਵੀ ਨੂੰ ਜਲਾਵਤਨ ਦੌਰਾਨ ""ਪਰਕਾਸ਼"" ਲਿਖਿਆ ਸੀ।",,John writes “revelation” while exiled on Patmos 96-98 C.E.
+nicaea1,ਨਿਕੇਆ ਦੀ ਪਹਿਲੀ ਕੌਂਸਲ,,First Council of Nicaea
+buddha,ਬੁੱਧ – ਸਿਧਾਰਥ ਗੌਤਮ ਸੀ.563-ਸੀ.483 ਈ. ਪੂ.,,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E
+buddha2,ਬੁੱਧ ਵਿਕਲਪਕ ਤੌਰ 'ਤੇ 480-400 ਈ. ਪੂ.,,Buddha alternatively c. 480-400 B.C.E.
+mohammed,ਮੁਹੰਮਦ ਸੀ. 570-632 ਈ.,,Mohammed c. 570-632 C.E.
+confucius,ਕਨਫਿਊਸ਼ੀਅਸ ਸੀ.551-ਸੀ.479 ਈ. ਪੂ.,,Confucius c.551-c.479 B.C.E.
+hijrah,ਹਿਜਰਾਹ - ਮੱਕਾ ਤੋਂ ਮਦੀਨਾ ਦੀ ਯਾਤਰਾ 16 ਜੁਲਾਈ 622,,Hijrah - Journey Mecca to Medina 16 July 622
+moses_escape,"1553 ਈ. ਪੂ. ਮੂਸਾ ਨੂੰ ਮਿਸਰ ਤੋਂ ਭੱਜਣਾ ਪਿਆ - ਕੂਚ 2:15, ਰਸੂਲਾਂ ਦੇ ਕੰਮ 7:23",,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23"
+10plagues,1513 ਈ. ਪੂ. ਮਿਸਰ ਵਿੱਚ 10 ਮਹਾਂਮਾਰੀਆਂ ਹੋਈਆਂ,,1513 B.C.E Egypt receives 10 plagues
+joseph_sold,ਯੂਸੁਫ਼ ਨੂੰ 17 ਸਾਲ ਦੀ ਉਮਰ ਵਿੱਚ ਗੁਲਾਮ ਵਜੋਂ ਵੇਚ ਿਆ ਗਿਆ - ਉਤਪਤ 37:2,,Joseph sold as slave at the age of 17 – Gen 37:2
+infliction,400 ਸਾਲ ਦਾ ਜ਼ੁਲਮ (ਰਸੂਲਾਂ ਦੇ ਕੰਮ 7:6) - ਇਸ਼ਮਾਏਲ 1913 ਈ. ਪੂ.,,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E
+Alexander,ਸਿਕੰਦਰ ਮਹਾਨ (ਦਾਨੀਏਲ 11:3),,Alexander the Great (Daniel 11:3)
+persia,"ਸਾਇਰਸ ਮਹਾਨ, ਕੈਂਬੀਸ ਦੂਜਾ, ਦਾਰਿਅਸ ਪਹਿਲਾ 490 ਈ.ਪੂ., ਜ਼ੇਰਕਸ ਪਹਿਲਾ 480 ਈ.ਪੂ. (ਏਸਤਰ ਦਾ ਪਤੀ, ਦਾਨੀਏਲ 11:2)",,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)"
+persia2,ਫਾਰਸ,,Persia
+king_north,"ਸੇਲੂਕਸ I ਨਿਕੇਟਰ (v5) ਸੀਰੀਆ ਤੋਂ ਐਂਟੀਓਕਸ III (v10) ਅਤੇ ਸੇਲੂਕਸ IV (v18, 19) ਤੋਂ ਹੇਠਾਂ ਆਕਟੇਵੀਅਨ (v20) ਅਤੇ ਟਿਬੇਰਿਅਸ (v21-24)",,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)"
+king_north1,ਉੱਤਰ ਦਾ ਰਾਜਾ,,King of the North
+king_south,"ਟੋਲੇਮੀ I, II, III, IV (V11, 12), V (v15, 16) ਲੜਾਈ ਐਕਟੀਅਮ 31 ਈ.ਪੂ.",,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E."
+king_south1,ਦੱਖਣ ਦਾ ਰਾਜਾ,,King of the South
+king_south2,"ਬ੍ਰਿਟਿਸ਼ ਸਾਮਰਾਜ 1870, 1914 ਤੋਂ ਐਂਗਲੋ-ਅਮਰੀਕਨ ਵਿਸ਼ਵ ਸ਼ਕਤੀ",,"British empire 1870, Anglo-American World Power since 1914"
+king_south3,ਦੱਖਣ ਦਾ ਰਾਜਾ,,King of the South
+king_north2,"ਜਰਮਨੀ ਸਮਰਾਟ ਵਿਲੀਅਮ ਪਹਿਲੇ ਨਾਲ 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,ਉੱਤਰ,,North
+king_north4,"ਸੋਵੀਅਤ ਯੂਨੀਅਨ 1945-1991 (ਦਾਨੀਏਲ 11:32-39, 40ਬੀ, 41)",,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)"
+king_north5,2017 ਤੋਂ ਰੂਸ (20 ਮਈ),,Russia since 2017 (w20 May)
+time_of_end,"ਮਸੀਹ ਦੀ ਮੌਜੂਦਗੀ, ਚੀਜ਼ਾਂ ਦੀ ਪ੍ਰਣਾਲੀ ਦਾ ਸਿੱਟਾ (ਮੱਤੀ 24:3), ਆਖਰੀ ਦਿਨ (2ਤੀ 3:1)",,"Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)"
+time_of_end2,ਆਖਰੀ ਦਿਨ,,last days
+suryavaman2,ਰਾਜਾ ਸੂਰਿਆਵਰਮਨ ਦੂਜਾ ਅੰਗਕੋਰ ਵਾਟ 1113-1150 ਦਾ ਨਿਰਮਾਣ ਕਰਦਾ ਹੈ,,King Suryavarman II builds Angkor Wat 1113-1150
+notre-dame,ਨੋਟ੍ਰੇ-ਡੇਮ ਡੀ ਪੈਰਿਸ ਦਾ ਨਿਰਮਾਣ 1163-1260,,Notre-Dame de Paris built 1163-1260
+jehoiada,ਯਹੋਯਾਦਾ,,Jehoiada
+babel,ਟਾਵਰ ਆਫ ਬਾਬਲ ਬਣਾਇਆ ਗਿਆ ਸੀ,,tower of Babel built
+Haggai,ਹਾਗਈ,,Haggai
+Zephaniah,ਸਫ਼ਨਯਾਹ,,Zephaniah
+Zerubbabel,ਜ਼ਰੂਬਾਬਲ (ਲੂਕਾ 3:27),,Zerubbabel (Luke 3:27)
+Babylon,"ਦਾਨੀਏਲ 2:32, 36-38; 7:4",,"Daniel 2:32, 36-38; 7:4"
+Medopersia,"ਦਾਨੀਏਲ 2:32, 39; 7:5",,"Daniel 2:32, 39; 7:5"
+Greece,"ਦਾਨੀਏਲ 2:32, 39; 7:6",,"Daniel 2:32, 39; 7:6"
+Rome,"ਦਾਨੀਏਲ 2:33, 40; 7:7",,"Daniel 2:33, 40; 7:7"
+Angloamerica,"ਦਾਨੀਏਲ 2:33, 41-43",,"Daniel 2:33, 41-43"
+Babylon_c,ਬਾਬਲ,,Babylon
+Medopersia_c,ਮੇਡੋ-ਫਾਰਸ,,Medo-Persia
+Greece_c,ਯੂਨਾਨ,,Greece
+Rome_c,ਰੋਮ,,Rome
+Angloamerica_c,ਐਂਗਲੋ-ਅਮਰੀਕਾ,,Anglo-America
+infliction1,400 ਸਾਲ ਦੀ ਸਜ਼ਾ,Acts 7:6,400 year infliction
+infliction2,ਰਸੂਲਾਂ ਦੇ ਕੰਮ 7:6,,Acts 7:6
+Jacob2,ਜੈਕਬ/,Jacob/Israel 1858-1711 – 147 years,Jacob/
+Israel,ਇਜ਼ਰਾਈਲ,,Israel
+Sarah,ਸਾਰਾ,2008-1881 BCE – 127 years,Sarah
+Hagar,ਹਾਜਰਾ,Genesis 21:14,Hagar
+Haran,ਹਾਰਨ,Genesis 11:26,Haran
+Nahor,ਨਾਹੋਰ,,Nahor
+Reumah,Reumah,Concubine – 4 sons,Reumah
+Milcah,ਮਿਲਕਾਹ,8 sons (Bethuel and 7 more),Milcah
+Lot,Lot,,Lot
+Lots_wife,ਲੋਟ ਦੀ ਪਤਨੀ,,Lot’s wife
+Lots_daughters,ਲੂਤ ਦੀਆਂ ਧੀਆਂ,,Daughters of Lot
+Moab,ਮੋਆਬ (ਵੱਡੀ ਧੀ),,Moab (older daughter)
+Ammon,ਬੇਨ-ਅੰਮੀ (ਅੰਮੋਨ),,Ben-ammi (Ammon)
+Bethuel,ਬੇਥੁਏਲ,,Bethuel
+Rebekah,ਰਿਬਕਾ,,Rebekah
+Laban,ਲਾਬਾਨ,,Laban
+Leah,ਲੇਹ,Genesis 35:23,Leah
+Rachel,ਰਾਚੇਲ,Genesis 35:24,Rachel
+Bilhah,ਬਿਲਹਾ,Genesis 35:25,Bilhah
+Zilpah,ਜ਼ਿਲਪਾਹ,Genesis 35:26,Zilpah
+Reuben,ਰੂਬੇਨ,,Reuben
+Simeon,Simoon,,Simeon
+Levi,ਲੇਵੀ,,Levi
+Judah,ਯਹੂਦਾਹ,,Judah
+Issachar,Issachar,,Issachar
+Zebulun,Zebulun,,Zebulun
+Dinah,ਦੀਨਾਹ,Genesis 34,Dinah
+Esau,Esau/,,Esau/
+Edom,Edom,Genesis 36:1,Edom
+Ishmael,ਇਸ਼ਮਾਏਲ,,Ishmael
+Manasseh2,(ਮਨੱਸ਼ਹ,,(Manasseh
+Ephraim,ਅਤੇ ਇਫ਼ਰਾਈਮ),,and Ephraim)
+Benjamin,ਬੈਂਜਾਮਿਨ,,Benjamin
+Dan,ਡੈਨ,,Dan
+Naphtali,ਨੈਫਤਾਲੀ,,Naphtali
+Gad,Gad,,Gad
+Asher,ਅਸ਼ਰ,,Asher
+Milcah1,"ਉਜ਼, ਬੁਜ਼, ਕੇਮੂਅਲ,",,"Uz, Buz, Kemuel,"
+Milcah2,"ਚੇਸਡ, ਹਾਜੋ,",,"Chesed, Hazo,"
+Milcah3,"ਪਿਲਦਾਸ, ਜਿਦਲਾਫ",,"Pildash, Jidlaph"
+Tebah,Tebah,,Tebah
+Gaham,ਗਾਹਮ,,Gaham
+Tahash,ਤਾਹਾਸ਼,,Tahash
+Maacah,Maacah,,Maacah
+Mahalath,ਮਹਾਲਥ/,"Genesis 28:8, 9",Mahalath/
+Basemath,Base·math,"Genesis36:3, 4",Base·math
+Reuel,ਰੀਊਲ,"36:13, 17",Reuel
+Nahath,ਨਾਹਥ,,Nahath
+Zerah,ਜ਼ੇਰਾਹ,,Zerah
+Schammah,ਸ਼ਮਹ,,Schammah
+Mizzah,Mizzah,,Mizzah
+Adah,ਅਦਾ,"36:11, 12, 15, 16",Adah
+Eliphaz,Elipfa,,Eliphaz
+Teman,Teman,,Teman
+Omar,ਉਮਰ,,Omar
+Zepho,Zefo,,Zepho
+Kenaz,ਕੇਨਾਜ਼,,Kenaz
+Korah,ਕੋਰਾਹ,,Korah
+Gatam,ਗਾਟਮ,,Gatam
+Amalek,ਅਮਾਲੇਕ,,Amalek
+Oholibamah,ਓਹੋਲੀਬਾਮਾ,"36:14, 18",Oholibamah
+Jeush,Jeush,,Jeush
+Jalam,ਜਾਲਮ,,Jalam
+Korah,ਕੋਰਾਹ,,Korah
+Nebaioth,Nebaioth,Genesis 25:13,Nebaioth
+Kedar,ਕੇਦਾਰ,,Kedar
+Adbeel,Adbel,,Adbeel
+Mibsam,Mibsam,,Mibsam
+Mishma,ਮਿਸ਼ਮਾ,,Mishma
+Dumah,ਡੁਮਾਹ,,Dumah
+Massa,ਮਾਸਾ,,Massa
+Hadad,ਹਾਦਾਦ,,Hadad
+Tema,Tema,,Tema
+Jetur,Jetur,,Jetur
+Naphish,ਨੈਫਿਸ਼,,Naphish
+Kedemah,Kedemaah,,Kedemah
+Babylon2, ,no text left and right – empty!, 
+terahfam,ਤੇਰਾਹ ਦੇ ਪਰਿਵਾਰ ਦੇ ਮੈਂਬਰ,,members of Terah’s family
+rosetta,ਰੋਸੇਟਾ ਪੱਥਰ 196 ਈ. ਪੂ.,,Rosetta stone 196 B.C.E.
+Herodotus,ਹੇਰੋਡੋਟਸ ਸੀ. 484 - ਸੀ. 425 ਈ.ਪੂ.,Father of History,"Herodotus c. 484 – c. 425 BC, writes The Histories"
+Aristotle,ਅਰਸਤੂ 384 – 322 ਈ.ਪੂ.,"The First Teacher, The Philosopher",Aristotle 384 – 322 BC
+Ptolemy,ਟੋਲੇਮੀ ਸੀ 100 - ਸੀ. 170 ਈ.,,Ptolemy c 100 – c. 170 C.E.
+Pythagoras,ਪਾਈਥਾਗੋਰਸ ਸੀ. 570 – ਸੀ. 495 ਈ.ਪੂ.,,Pythagoras c. 570 – c. 495 BC
+Plato,ਪਲੈਟੋ ਸੀ. 427 - ਸੀ. 348 ਈ.ਪੂ.,,Plato c. 427 – c. 348 BC
+Socrates,ਸੁਕਰਾਤ c. 470 – c. 399 BC,,Socrates c. 470 – c. 399 BC
+Josephus,ਯੂਸੁਫ਼ਸ 37 – ਸ. 100 ਈ.,,Josephus c. 37 – c. 100 C.E.
+Cicero,ਸਿਸੇਰੋ 106–43 ਈ.ਪੂ.,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",Cicero 106–43 BC
+lachish_letters,ਲਛੀਸ਼ ਅੱਖਰ 590 ਈ. ਪੂ.,,Lachish letters c. 590 B.C.E.
+lachish_reliefs,681 ਈ. ਪੂ. ਵਿੱਚ ਲਛੀਸ਼ ਰਾਹਤ ਾਂ,,Lachish reliefs c. 681 B.C.E.
+mesha_stele,ਮੇਸ਼ਾ ਸਟੇਲ (ਮੋਆਬਾਈਟ ਪੱਥਰ) 840 ਈ. ਪੂ.,,Mesha Stele (Moabite stone) c. 840 B.C.E.
+gilgamesh,Gilgamash and Aga 😀😀😀😀😀😀😀,,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Epic of Gilgamash (Sin-lēqi-unninni),,Epic of Gilgamesh (Sîn-lēqi-unninni)
+oxyrhynchus,ਆਕਸੀਰਾਈਨਚਸ ਪੈਪੀਰੀ,,Oxyrhynchus Papyri
+p52,ਪੈਪੀਰਸ P52,,Papyrus P52
+daniel2_shift,0,Start 4.2,0
+daniel2_1,ਰਾਜਾ ਨਬੂਕਦਨੱਸਰ,607 BCE,King Nebuchadnezzar
+daniel2_2,ਯਰੂਸ਼ਲਮ ਨੂੰ ਤਬਾਹ ਕਰ ਦਿੱਤਾ,,destroys Jerusalem
+daniel2_3,ਬਾਬਲ 'ਤੇ ਜਿੱਤ ਪ੍ਰਾਪਤ ਕੀਤੀ,539 BCE,Conquers Babylon
+daniel2_4,ਸਾਇਰਸ ਨੇ ਵਾਪਸੀ ਦਾ ਹੁਕਮ ਦਿੱਤਾ,537 BCE,Cyrus decrees return
+daniel2_5,ਯਰੂਸ਼ਲਮ ਵਿੱਚ ਯਹੂਦੀਆਂ ਦੀ ਗਿਣਤੀ,,of Jews to Jerusalem
+daniel2_6,ਅਲੈਗਜ਼ੈਂਡਰ ਮਹਾਨ,331 BCE,Alexander the Great
+daniel2_7,ਫਾਰਸ ਨੂੰ ਜਿੱਤਦਾ ਹੈ,,conquers Persia
+daniel2_8,ਇਸਰਾਏਲ ਉੱਤੇ ਰਾਜ,63 BCE,Rules over Israel
+daniel2_9,ਯਰੂਸ਼ਲਮ ਨੂੰ ਤਬਾਹ ਕਰ ਦਿੱਤਾ,70 CE,Destroys Jerusalem
+daniel2_10,"ਪਹਿਲੇ ਵਿਸ਼ਵ ਯੁੱਧ ਦੌਰਾਨ,",1914-1918 CE,"During World War I,"
+daniel2_11,ਐਂਗਲੋ-ਅਮਰੀਕਨ ਵਿਸ਼ਵ ਸ਼ਕਤੀ,,Anglo-American World Power
+daniel2_12,ਹੋਂਦ ਵਿੱਚ ਆਉਂਦਾ ਹੈ,End 4.2,comes into being
+qing-dynasty,1636-1912,,1636-1912
+qing-dynasty_c,ਕਿੰਗ ਰਾਜਵੰਸ਼,1636-1912,Qing dynasty
+ming-dynasty,1368-1644,,1368-1644
+ming-dynasty_c,ਸਾਮਰਾਜੀ ਚੀਨ ਵਿੱਚ ਮਿੰਗ ਰਾਜਵੰਸ਼,1368-1644,Ming dynasty in imperial China
+yuan-dynasty,1271-1368,,1271-1368
+southern-song,1127-1279,,1127-1279
+northern-song,960-1127,,960-1127
+western-xia,1038-1227,,1038-1227
+yuan-dynasty_c,ਯੁਆਨ,1271-1368,Yuan
+southern-song_c,ਦੱਖਣੀ ਗੀਤ,1127-1279,Southern Song
+northern-song_c,ਉੱਤਰੀ ਗੀਤ,960-1127,Northern Song
+western-xia_c,ਪੱਛਮੀ ਸ਼ੀਆ,1038-1227,Western Xia
+Copernicus,ਨਿਕੋਲਸ ਕੋਪਰਨਿਕਸ,,Nicolaus Copernicus
+Galileo,ਗੈਲੀਲੀਓ ਗੈਲੀਲੀ,Galileo di Vincenzo Bonaiuti de' Galilei,Galileo Galilei
+Newton,ਆਈਜ਼ਕ ਨਿਊਟਨ,,Isaac Newton
+gregorian,ਗ੍ਰੇਗੋਰੀਅਨ ਕੈਲੰਡਰ 1582,,Gregorian calendar 1582
+shang-dynasty,c. 1600-1046 BC,,c. 1600-1046 BC
+western-zhou,c. 1046-771 BC,,c. 1046-771 BC
+eastern-zhou,770-256 ਈ.ਪੂ.,,770-256 BC
+qin-dynasty,ਕਿਨ 221-207 ਈ.ਪੂ.,,Qin 221-207 BC
+western-han,207 ਈ.ਪੂ. - 9 ਈ.ਸੀ.,,207 BC – 9 CE
+eastern-han,25-220 CE,,25-220 CE
+three-kingdoms,ਤਿੰਨ ਰਾਜ 220-280 ਈ.,,Three kingdoms 220-280 CE
+sixteen-kingdoms,ਸੋਲ੍ਹਾਂ ਰਾਜ 304-439 ਈ.,,Sixteen kingdoms 304-439 CE
+northern-dynasties,368-581 CE,,368-581 CE
+southern-dynasties,420-589 CE,,420-589 CE
+tang-dynasty1, ,, 
+tang-dynasty2,"618-690, 705-907",,"618-690, 705-907"
+wu-zhou,690-705 ਵੂ ਝੋਊ,,690-705 Wu Zhou
+shang-dynasty_c,ਸ਼ਾਂਗ ਰਾਜਵੰਸ਼,c. 1600-1046 BC,Shang Dynasty
+western-zhou_c,ਪੱਛਮੀ ਝੋਊ,c. 1046-771 BC,Western Zhou
+eastern-zhou_c,ਪੂਰਬੀ ਝੋਊ,770-256 BC,Eastern Zhou
+western-han_c,ਪੱਛਮੀ ਹਾਨ,207 BC – 9 CE,Western Han
+eastern-han_c,ਪੂਰਬੀ ਹਾਨ,25-220 CE,Eastern Han
+three-kingdoms_c,ਚੀਨ,Three kingdoms 220-280 CE,China
+sixteen-kingdoms_c,ਚੀਨ,Sixteen kingdoms 304-439 CE,China
+northern-dynasties_c,ਉੱਤਰੀ ਰਾਜਵੰਸ਼,368-581 CE,Northern Dynasties
+southern-dynasties_c,ਦੱਖਣੀ ਰਾਜਵੰਸ਼,420-589 CE,Southern Dynasties
+tang-dynasty1_c,Tang,,Tang
+tang-dynasty2_c,ਤਾਂਗ ਰਾਜਵੰਸ਼,"618-690, 705-907",Tang Dynasty
+xia-dynasty,ਚੀਨ ਵਿੱਚ ਸ਼ੀਆ ਰਾਜਵੰਸ਼ c. 2070 – c. 1600 ਈ.ਪੂ.,,Xia dynasty in China c. 2070 – c. 1600 BC
+gonghe,ਗੋਂਘੇ ਰੀਜੈਂਸੀ 841-828 ਬੀ.ਸੀ.,,Gonghe Regency 841-828 BC
+Ashoka,ਅਸ਼ੋਕ (304-232 ਈ.ਪੂ.) ਬੁੱਧ ਧਰਮ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕਰਦਾ ਹੈ,,Ashoka (c. 304-232 BC) promotes Buddhism
+siloam-tunnel,ਹਿਜ਼ਕੀਯਾਹ ਨੇ ਸਿਲੋਆਮ ਸੁਰੰਗ ਦਾ ਵਿਸਥਾਰ ਕੀਤਾ,c. 742-732 BC,Hezekiah extends Siloam tunnel
+Angloamerica2,"ਐਂਗਲੋ-ਅਮਰੀਕਨ ਨੂੰ ਦਾਨੀਏਲ 2:33, 41-43 ਵਿਚ ਭਵਿੱਖਬਾਣੀ ਵਿਚ ਮਿੱਟੀ ਨਾਲ ਮਿਲਾਏ ਗਏ ਲੋਹੇ ਦੇ ਪੈਰਾਂ ਦੁਆਰਾ ਦਰਸਾਇਆ ਗਿਆ ਹੈ",,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43"
+Manetho,ਮਨੇਥੋ ਏਜੀਪਟੀਆਕਾ ਲਿਖਦਾ ਹੈ,,Manetho writes Aegyptiaca
