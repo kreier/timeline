@@ -1,5 +1,4 @@
 key,date,y_start,y_end,y_text,width,position
-vulgate,405,0.08,1.1,1,0.5,r
 gutenberg,1455,0.08,1.1,1,0.5,l
 king_james,1611,0.08,6.1,6,0.5,l
 gregorian,1582,0.08,5.1,5,0.5,l
@@ -9,3 +8,6 @@ lachish_letters,-590,46.38,39.4,40,0.5,l
 lachish_reliefs,-681,46.38,40.5,41.1,0.5,l
 al-azhar,980,10.4,11.4,11,0.4,l
 maya_calendar,-3114,18.3,19.1,19,0.4,r
+wulfila,350,0.08,2.1,2,0.5,r
+argenteus,505,0.08,3.1,3,0.5,l
+vulgate,405,0.08,1.1,1,0.5,r
