@@ -8,7 +8,7 @@ import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix
 import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 5.8
+version  = 5.9
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -716,6 +716,9 @@ def create_terah_familytree():
     if version > 5.4:
         file_lines  = "../db/terah-lines3.csv"
         file_family = "../db/terah-family3.csv"
+    if version > 5.8:
+        file_lines  = "../db/terah-lines4.csv"
+        file_family = "../db/terah-family4.csv"
     lines = pd.read_csv(file_lines, encoding='utf8')        # lines in black and green
     shift_lines = -0.33
     for index, row in lines.iterrows():
@@ -749,7 +752,7 @@ def create_terah_familytree():
         if version > 4.8:
             if row.sup > 0:
                 pdf.char_vpos = "SUP"
-                pdf.write(text=str(row.sup))
+                pdf.write(text=str(int(row.sup)))
                 pdf.char_vpos = "LINE"
     footnotes = pd.read_csv("../db/terah-footnotes.csv", encoding='utf8')
     pdf.set_text_color(0, 0, 0)
