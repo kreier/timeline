@@ -721,6 +721,7 @@ def create_terah_familytree():
         file_family = "../db/terah-family4.csv"
     lines = pd.read_csv(file_lines, encoding='utf8')        # lines in black and green
     shift_lines = -0.33
+    footnotes = pd.read_csv("../db/terah-footnotes.csv", encoding='utf8')    
     for index, row in lines.iterrows():
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
@@ -750,15 +751,22 @@ def create_terah_familytree():
             pdf.set_text_color(red[0]*255, red[1]*255, red[2]*255)
         drawString(dict[row.key], 10, x, y, "c", False)
         if version > 4.8:
+            # check if key is in footnotes to add a superscript number
+            if row.key in footnotes['key'].values:
+                fn_row = footnotes.loc[footnotes['key'] == row.key].iloc[0]
+                if fn_row.sup > 0:
+                    pdf.char_vpos = "SUP"
+                    pdf.write(text=str(int(fn_row.sup)))
+                    pdf.char_vpos = "LINE"
             if row.sup > 0:
                 pdf.char_vpos = "SUP"
                 pdf.write(text=str(int(row.sup)))
                 pdf.char_vpos = "LINE"
-    footnotes = pd.read_csv("../db/terah-footnotes.csv", encoding='utf8')
     pdf.set_text_color(0, 0, 0)
     for index, row in footnotes.iterrows():
-        drawString(dict[row.key], 10, x_position(row.year), y_position(row.row), "r", False)
-    counter_terahfam = 88
+        text_footnote = row.key + "_fn"
+        drawString(dict[text_footnote], fontsize_regular-2, x_position(row.year), y_position(row.row), "r", False)
+    counter_terahfam = 126  # hardcoded instead of 88, as counting is difficult here
 
 def include_pictures():
     global font_regular, direction, pdf
