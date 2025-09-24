@@ -1,6 +1,6 @@
 key,text,english,notes
 version,5.9,5.9,5.9
-pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2025-09-23
+pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2025-09-24
 pdf_subject,Zeitleiste der Menschheit,Timeline of humankind,5.9
 BCE,v.u.Z.,B.C.E.,appendix B9
 CE,u.Z.,C.E.,
@@ -25,7 +25,7 @@ Adam,Adam,Adam,Luke 3:38
 Seth,Seth,Seth,
 Enosh,Ẹnosch,Enosh,
 Kenan,Kẹnan,Kenan,Genesis 5:12
-Mahalalel,Mahalạlel,Mahalalel,
+Mahalalel,Mahalạlel,Mahalalel,Ma·hala·lel
 Jared,Jạred,Jared,
 Enoch,Hẹnoch,Enoch,
 Methuselah,Methụsalah,Methuselah,Luke 3:37
@@ -150,7 +150,7 @@ missionary2,Zweite Missionsreise ca. 49-52 u.Z. mit Silas (Silvanus),Second Miss
 missionary3,Dritte Missionsreise ca. 52-56 u.Z.,Third Missionary Journey c. 52-56 C.E.,
 caesarea,Paulus in Gefangenschaft in Cäserea ca. 56-58 u.Z.,Paul in custody in Caesarea c. 56-58 C.E.,
 rome1,Erste Gefangenschaft von Paulus in Rom ca. 59-61 u.Z.,Paul’s first imprisonment in Rome c. 59-61 C.E.,
-rome2,"Zweite Gefangenschaft in Rom ca. 65 u.Z., 2. Timotheus geschrieben, Paulus hingerichtet","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",
+rome2,"Zweite Gefangenschaft in Rom ca. 65 u.Z., 2. Timotheus geschrieben, Paulus hingerichtet","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed",
 Julius,Julius,Julius,
 Augustus,Augụstus,Augustus,Luke 2:1
 Tiberius,Tibẹrius,Tiberius,Luke 3:1
@@ -338,7 +338,7 @@ oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,
 p52,Papyrus 52,Papyrus P52,
 daniel2_shift,4,4,Start 4.2
 daniel2_1,König Nebukadnezar,King Nebuchadnezzar,607 BCE
-daniel2_2,zerstört Jerusalem,destroys Jerusalem,
+daniel2_2,zerstört Jerusalem,destroys Jerusalem,appendix B9
 daniel2_3,Eroberung Babylons,Conquers Babylon,539 BCE
 daniel2_4,Erlass von Cyrus ermöglicht Rück-,Cyrus decrees return,537 BCE
 daniel2_5,kehr der Juden nach Jerusalem,of Jews to Jerusalem,
@@ -403,7 +403,7 @@ annointed,Jesu Mitregenten versammeln sich (Matthäus 24:31; 1. Korinther 15:50-
 armageddon,"Harmagedon (Offenbarung 16:14, 16; Jesaja 13:9; 2. Petrus 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
 millenium,"Gottes Königreich beginnt seine tausendjährige Regierungszeit (Offenbarung 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
 great_crowd,"Eine „große Volksmenge“ überlebt Harmagedon (Offenbarung 7:9, 14; Psalm 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
-world_population,Weltbevölkerung in Milliarden in den letzten 2000 Jahren,World population in billions in the last 2000 years,
+world_population,Weltbevölkerung in Milliarden in den letzten 2000 Jahren,World population in billions in the last 2000 years,appendix B9
 607BCE,607 v.u.Z.,607 B.C.E.,accommodate for language
 539BCE,539 v.u.Z.,539 B.C.E.,systems in style:
 537BCE,537 v.u.Z.,537 B.C.E.,>>year 537 before time<<
@@ -474,70 +474,75 @@ king_north_light,,,2025-02-05
 king_north_light_c,König des Nordens aus Daniel 11,King of the North from Daniel 11,2025-02-05
 daniel2_iron,,,2025-02-05
 daniel2_iron_c,Füße aus Eisen aus Daniel 2,Iron legs from Daniel 2,2025-02-05
-wulfila,Wulfila Bible,Wulfila Bible,2025-09-20
+wulfila,Wulfila-Bibel,Wulfila Bible,2025-09-20
 argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible
 tran_dynasty,1225 – 1400,1225 – 1400,
-tran_dynasty_c,Trần dynasty,Trần dynasty,
-le_dynasty,1428–1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ 
-le_dynasty_c,Lê dynasty ,Lê dynasty ,
+tran_dynasty_c,Trần-Dynastie,Trần dynasty,
+le_dynasty,1428 – 1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ
+le_dynasty_c,Lê-Dynastie,Lê dynasty,
 revival_le_dynasty,1533-1789,1533-1789,
-revival_le_dynasty_c,Revival Lê dynasty,Revival Lê dynasty,Nhà Lê trung hưng
+revival_le_dynasty_c,Trịnh-Fürsten und Nguyễn-Fürsten,Revival Lê dynasty,Nhà Lê trung hưng
 nguyen_dynasty,1802 – 1883,1802 – 1883,
 nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20
 edo,1603 – 1868,1603 – 1868,
-edo_c,Edo period in Japan,Edo period in Japan,
+edo_c,Edo-Zeit in Japan,Edo period in Japan,
 meiji,1868 – 1912,1868 – 1912,
 meiji_c,Meiji,Meiji,2025-09-20
-Ham,Ham,Ham,Gen 10:1 
-Canaan,Canaan,Canaan,Gen 10:6 
-Sidon,Sidon,Sidon,Gen 10:15
+Ham,Ham,Ham,Gen 10:1
+Canaan,Kạnaan,Canaan,Gen 10:6
+Sidon,Sịdon,Sidon,Gen 10:15
 Heth,Heth,Heth,Gen 10:15
-Jebusite,Jebusite,Jebusite,Gen 10:16
-Amorite,Amorite,Amorite,Gen 10:16
-Girgashite,Girgashite,Girgashite,Gen 10:16
-Hivite,Hivite,Hivite,Gen 10:17
-Arkite,Arkite,Arkite,Gen 10:17
-Sinite,Sinite,Sinite,Gen 10:17
-Cush,Cush,Cush,Gen 10:18
-Nimrod,Nimrod,Nimrod,Gen 10:18
-Japhet,Japhet,Japhet,Gen 10:18
-Elam,Elam,Elam,Gen 10:22
-Asshur,Asshur,Asshur,Gen 10:22
+Jebusite,Jebusịter,Jebusite,Gen 10:16
+Amorite,Amorịter,Amorite,Gen 10:16
+Girgashite,Girgaschịter,Girgashite,Gen 10:16
+Hivite,Hiwịter,Hivite,Gen 10:17
+Arkite,Arkịter,Arkite,Gen 10:17
+Sinite,Sinịter,Sinite,Gen 10:17
+Arvadite,Arwadịter,Arvadite,Gen 10:18
+Zemarite,Zemarịter,Zemarite,Gen 10:18
+Hamathite,Hamathịter,Hamathite,Gen 10:18
+Cush,Kusch,Cush,Gen 10:6
+Nimrod,Nịmrod,Nimrod,Gen 10:8
+Mizraim,Mizrạjim,Mizraim,Gen 10:14
+Casluh,Kạsluchim,Casluh,1 Chronicles 1:12 (Philistines)
+Japheth,Jạphet,Japheth,Gen 10:3
+Asshur,Ạssur,Asshur,Gen 10:22
 Lud,Lud,Lud,Gen 10:22
-Aram,Aram,Aram,Gen 10:22
-Elam,Elam,Elam,Gen 10:22
-Joktan,Joktan,Joktan,Gen 10:26 
-Alawdad,Alawdad,Alawdad,Gen 10:26
-Sheleph,Sheleph,Sheleph,Gen 10:26
-Hazarmareth,Hazarmareth,Hazarmareth,Gen 10:26
-Jerah,Jerah,Jerah,Gen 10:26
-Hadoram,Hadoram,Hadoram,Gen 10:27
-Uzal,Uzal,Uzal,Gen 10:27
-Diklah_Obal,"Diklah, Obal","Diklah, Obal",Gen 10:27
-Abimael,Abimael,Abimael,Gen 10:28
-Sheba,Sheba,Sheba,Gen 10:28
-Ophir,Ophir,Ophir,Gen 10:29
-Harid,Harid,Harid,Gen 10:29
-Jobab,Jobab,Jobab,Gen 10:29
-Korah_Gatam,"Korah, Gatam","Korah, Gatam",303 and 304
-Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",311 and 312
-Dumah_Massa,"Dumah, Massa","Dumah, Massa",314 and 315
-Ham_fn,1) Egyptians: Psalms 105:23,1) Egyptians: Psalms 105:23,2025-09-22
-Canaan_fn,2) Canaanites: Joshua 13:3,2) Canaanites: Joshua 13:3,2025-09-22
-Aram_fn,3) Arameans: Hosea 12:12,3) Arameans: Hosea 12:12,2025-09-22
-Elam_fn,4) Elamites: Ezra 4:9,4) Elamites: Ezra 4:9,2025-09-22
-Asshur_fn,5) Assyrians: Ezekiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22
-Casluh_fn,6) Philistines: 1 Chronicles 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22
-Cush_fn,7) Ethiopian [Cushite]: 2 Kings 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22
-Edom_fn,8) Edomites: Numbers 20:14-17,8) Edomites: Numbers 20:14-17,same as 459
-Moab_fn,"9) Moabites: Deuteronomy 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457
-Ammon_fn,10) Ammonites: Joshua 12:2,10) Ammonites: Joshua 12:2,same as 458
-Midian_fn,"11) Midianites: Numbers 31:2, 3","11) Midianites: Numbers 31:2, 3",same as 456
-Amalek_fn,12) Amalekites: 1 Samuel 15:2,12) Amalekites: 1 Samuel 15:2,same as 461
-Teman_fn,13) Temanites: Job 42:7,13) Temanites: Job 42:7,same as 460
-Sidon_fn,14) Sidonians: Zechariah 9:2,14) Sidonians: Zechariah 9:2,2025-09-22
-Heth_fn,15) Hittites: Genesis 15:20,15) Hittites: Genesis 15:20,2025-09-22
-Jebusite_fn,16) Jebusites: Joshua 15:63,16) Jebusites: Joshua 15:63,2025-09-22
-Judith,Judith?,Judith?,"Genesis 26:34, 35"
-Lud_fn,17) Lydians: 1 Chronicles 1:17 ,17) Lydians: 1 Chronicles 1:17 ,"Jewish Antiquities, I, 143, 144 [vi, 4] "
-Ishmael_fn,18) Ishmaelites: Genesis 37:27 ,18) Ishmaelites: Genesis 37:27 ,2025-09-22
+Aram,Ạram,Aram,Gen 10:22
+Elam,Ẹlam,Elam,Gen 10:22
+Joktan,Jọktan,Joktan,Gen 10:26
+Almodad,Ạlmodad,Almodad,Gen 10:26
+Sheleph,Schẹleph,Sheleph,Gen 10:26
+Hazarmareth,Hazarmạweth,Hazarmareth,Gen 10:26
+Jerah,Jẹrach,Jerah,Gen 10:26
+Hadoram,Hạdoram,Hadoram,Gen 10:27
+Uzal,Ụsal,Uzal,Gen 10:27
+Diklah_Obal,"Dịkla, Ọbal","Diklah, Obal",Gen 10:27
+Abimael,Abịmaël,Abimael,Gen 10:28
+Sheba_Ophir,"Schẹba, Ọphir","Sheba, Ophir","Gen 10:28, 29"
+Havilah,Hawịla,Havilah,Gen 10:29
+Jobab,Jọbab,Jobab,Gen 10:29
+Korah_Gatam,"Kọrah, Gạtam","Korah, Gatam",303 and 304
+Adbeel_Mibsam,"Ạdbeël, Mịbsam","Adbeel, Mibsam",311 and 312
+Dumah_Massa,"Dụma, Mạssa","Dumah, Massa",314 and 315
+Ham_fn,1) Ägypter: Psalm 105:23,1) Egyptians: Psalms 105:23,2025-09-22
+Canaan_fn,2) Kanaaniter: Josua 13:3,2) Canaanites: Joshua 13:3,2025-09-22
+Aram_fn,3) Aramäer: Hosea 12:12,3) Arameans: Hosea 12:12,2025-09-22
+Elam_fn,4) Elamiter: Esra 4:9,4) Elamites: Ezra 4:9,2025-09-22
+Asshur_fn,5) Assyrer: Hesekiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22
+Casluh_fn,6) Philister: 1 Chronika 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22
+Cush_fn,7) Äthiọpier [Kuschịter]: 2 Könige 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22
+Edom_fn,8) Ẹdomiter: 4. Mose 20:14-17,8) Edomites: Numbers 20:14-17,same as 459
+Moab_fn,"9) Moabịter: 5. Mose 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457
+Ammon_fn,10) Ammonịter: Josua 12:2,10) Ammonites: Joshua 12:2,same as 458
+Midian_fn,"11) Midianịter: 4. Mose 31:2, 3","11) Midianites: Numbers 31:2, 3",same as 456
+Amalek_fn,12) Amalekịter: 1. Samuel 15:2,12) Amalekites: 1 Samuel 15:2,same as 461
+Teman_fn,13) Temanịter: Hiob 42:7,13) Temanites: Job 42:7,same as 460
+Sidon_fn,14) Sidonier: Sacharja 9:2,14) Sidonians: Zechariah 9:2,2025-09-22
+Heth_fn,15) Hethịter: 1. Mose 15:20,15) Hittites: Genesis 15:20,2025-09-22
+Jebusite_fn,16) Jebusịter: Josua 15:63,16) Jebusites: Joshua 15:63,2025-09-22
+Judith,Jụdith?,Judith?,"Genesis 26:34, 35"
+Lud_fn,17) Lyder: 1 Chronika 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]"
+Ishmael_fn,18) Ismaelịter: 1. Mose 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22
+Amorite_fn,19) Amorịter: Richter 6:10,19) Amorites: Judges 6:10,2025-09-22
+Hivite_fn,"20) Hiwịter [Gịbeon]: Josua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites
