@@ -8,7 +8,7 @@ import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix
 import datetime, sys, os
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 5.8
+version  = 5.9
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -710,14 +710,20 @@ def create_terah_familytree():
     shift_x = 30 * direction_factor
     file_lines  = "../db/terah-lines.csv"
     file_family = "../db/terah-family.csv"
+    file_footnotes = "../db/terah-footnotes.csv"
     if version > 4.8:
         file_lines  = "../db/terah-lines2.csv"
         file_family = "../db/terah-family2.csv"
     if version > 5.4:
         file_lines  = "../db/terah-lines3.csv"
         file_family = "../db/terah-family3.csv"
+    if version > 5.8:
+        file_lines  = "../db/terah-lines4.csv"
+        file_family = "../db/terah-family4.csv"
+        file_footnotes = "../db/terah-footnotes4.csv"
     lines = pd.read_csv(file_lines, encoding='utf8')        # lines in black and green
     shift_lines = -0.33
+    footnotes = pd.read_csv(file_footnotes, encoding='utf8')    
     for index, row in lines.iterrows():
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
@@ -747,15 +753,26 @@ def create_terah_familytree():
             pdf.set_text_color(red[0]*255, red[1]*255, red[2]*255)
         drawString(dict[row.key], 10, x, y, "c", False)
         if version > 4.8:
+            # check if key is in footnotes to add a superscript number
+            if row.key in footnotes['key'].values:
+                fn_row = footnotes.loc[footnotes['key'] == row.key].iloc[0]
+                if fn_row.sup > 0:
+                    pdf.char_vpos = "SUP"
+                    pdf.write(text=str(int(fn_row.sup)))
+                    pdf.char_vpos = "LINE"
             if row.sup > 0:
                 pdf.char_vpos = "SUP"
-                pdf.write(text=str(row.sup))
+                pdf.write(text=str(int(row.sup)))
                 pdf.char_vpos = "LINE"
-    footnotes = pd.read_csv("../db/terah-footnotes.csv", encoding='utf8')
     pdf.set_text_color(0, 0, 0)
     for index, row in footnotes.iterrows():
-        drawString(dict[row.key], 10, x_position(row.year), y_position(row.row), "r", False)
-    counter_terahfam = 88
+        text_footnote = row.key
+        fontsize_footnote = fontsize_regular
+        if version > 5.8:
+            text_footnote += "_fn"
+            fontsize_footnote -= 2
+        drawString(dict[text_footnote], fontsize_footnote, x_position(row.year), y_position(row.row), "r", True)
+    counter_terahfam = 126  # hardcoded instead of 88, as counting is difficult here
 
 def include_pictures():
     global font_regular, direction, pdf

@@ -1,7 +1,7 @@
 key,text,english,notes
-version,5.8,5.8,5.8
-pdf_title,6000 ans d'histoire humaine visualisés,6000 years human history visualized,2025-08-15
-pdf_subject,Chronologie de l'humanité,Timeline of humankind,5.8
+version,5.9,5.9,5.9
+pdf_title,6000 ans d'histoire humaine visualisés,6000 years human history visualized,2025-09-24
+pdf_subject,Chronologie de l'humanité,Timeline of humankind,5.9
 BCE,av. n. è.,B.C.E.,appendix B9
 CE,de n. è.,C.E.,
 year,année,year,"timespan, age (Adam was 130 years old when Shem was born)"
@@ -20,12 +20,12 @@ kings,rois,kings,
 periods,périodes,periods,
 events,événements,events,
 objects,objets ou choses,objects or items,
-Deluge,Inonder,Deluge,
+Deluge,Déluge,Deluge,
 Adam,Adam,Adam,Luke 3:38
 Seth,Seth,Seth,
 Enosh,Énosh,Enosh,
 Kenan,Kénân,Kenan,Genesis 5:12
-Mahalalel,Maalaléel,Mahalalel,
+Mahalalel,Maalaléel,Mahalalel,Ma·hala·lel
 Jared,Jared,Jared,
 Enoch,Hénoch,Enoch,
 Methuselah,Mathusalem,Methuselah,Luke 3:37
@@ -134,9 +134,9 @@ temple2,479 ans jusqu'à la construction du temple – 1 Rois 6:1,479 years unti
 jesus_service,"3,5 années de service auprès de Jésus, exécutées le 14 Nisan 33 de notre ère.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
 jesus_life,Jésus né en 2 avant notre ère.,Jesus born 2 B.C.E.,
 exile,607 à 537 avant notre ère – 70 ans (Jérémie 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),
-exile2,exilé,Exile,
+exile2,Exile,Exile,
 7times,Apocalypse 12:9,Revelation 12:9,
-7times2,7 fois – 2 520 ans jusqu’au Royaume messianique 1914 de notre ère (Daniel 4 :23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),
+7times2,7 temps– 2 520 ans jusqu’au Royaume messianique 1914 de notre ère (Daniel 4 :23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),
 ww1,Première Guerre mondiale: 1914-1918,World War I – 1914–1918 C.E.,
 ww2,Seconde Guerre mondiale: 1939-45,World War II – 1939–1945 C.E.,
 30_year_war,Guerre de Trente Ans en Europe 1618-1648,Thirty Years' War in Europe 1618-1648,
@@ -145,12 +145,12 @@ joshua2,Josué,Joshua,
 caleb,plus de 85 ans,more than 85 years,
 caleb2,Caleb,Caleb,
 missionary1,"Premier voyage missionnaire de Paul, v. 47-48 de notre ère avec Barnabas et Jean Marc","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark",
-circumcision,"Problème de circoncision à Antioche, conférence à Jérusalem c. 49 de notre ère","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.",
+circumcision,"Problème de circoncision à Antioche, conférence à Jérusalem v. 49 de notre ère","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.",
 missionary2,Deuxième voyage missionnaire v. 49-52 de notre ère avec Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),
-missionary3,Troisième voyage missionnaire c. 52-56 de n. è.,Third Missionary Journey c. 52-56 C.E.,
-caesarea,Paul en détention à Césarée c. 56-58 de notre ère,Paul in custody in Caesarea c. 56-58 C.E.,
-rome1,Le premier emprisonnement de Paul à Rome c. 59-61 de notre ère,Paul’s first imprisonment in Rome c. 59-61 C.E.,
-rome2,"Deuxième emprisonnement de Paul à Rome c. 65 CE, 2 Timothée écrit, Paul exécuté","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",
+missionary3,Troisième voyage missionnaire v. 52-56 de n. è.,Third Missionary Journey c. 52-56 C.E.,
+caesarea,Paul en détention à Césarée v. 56-58 de notre ère,Paul in custody in Caesarea c. 56-58 C.E.,
+rome1,Le premier emprisonnement de Paul à Rome v. 59-61 de notre ère,Paul’s first imprisonment in Rome c. 59-61 C.E.,
+rome2,"Deuxième emprisonnement de Paul à Rome v. 65 CE, 2 Timothée écrit, Paul exécuté","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed",
 Julius,Jules,Julius,
 Augustus,Auguste,Augustus,Luke 2:1
 Tiberius,Tibère,Tiberius,Luke 3:1
@@ -167,7 +167,7 @@ event_destruction_jerusalem1,"Destruction de Jérusalem 607 av. n. è. par Bab
 event_temple_rebuilt,Temple de Jérusalem reconstruit en 515,Temple in Jerusalem rebuilt 515 B.C.E.,
 event_jerusalem_rebuilt,Mur de Jérusalem reconstruit en 455,Jerusalem wall rebuilt 455 B.C.E.,
 event_destruction_jerusalem2,Destruction de Jérusalem en 70 de n. è. par Rome sous Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,"Fin du temps des nations (Luc 21 :24), le royaume de Dieu commence à régner dans les cieux en 1914 de notre ère.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
+event_1914,"Fin du temps accordé aux nations (Luc 21 :24), le royaume de Dieu commence à régner dans les cieux en 1914 de notre ère.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
 became_king,est devenu roi à l'âge,becomes king at age,2025-04-14
 vulgate,Vulgate complétée par Jérôme (traduction latine de la Bible) c. 405 de notre ère,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
 gutenberg,Bible de Gutenberg imprimée en 1455,Gutenberg Bible printed 1455,
@@ -193,7 +193,7 @@ metropolitan,Début du témoignage métropolitain en 2011,Start of metropolitan 
 jw_org,Début de JW.ORG avec des instructions pour le ministère du Royaume en décembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012,
 new_world_translation2,"La version révisée de la « Traduction du monde nouveau des Saintes Écritures » publiée lors de la réunion annuelle 2013, optimisée pour être utilisée sous forme numérique et en ligne.","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
 jw_broadcasting,Début de jw.broadcasting en octobre 2014,Start of JW Broadcasting® in October 2014,
-meeting_workbook,Nouveau format de réunion en milieu de semaine avec « cahier de réunion » à partir de janvier 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016,
+meeting_workbook,Nouveau format de réunion en milieu de semaine avec « Cahier Vie et Ministère » à partir de janvier 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016,
 covid19,Covid-19,Covid-19,
 cold_war,Situation géopolitique qualifiée de « Guerre froide » 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991,
 timeline_created,"Cette chronologie a été créée en 2023, l'année la plus chaude de l'histoire de l'humanité et des 125 000 dernières années.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
@@ -338,7 +338,7 @@ oxyrhynchus,Papyrus Oxyrhynchus,Oxyrhynchus Papyri,
 p52,Papyrus P52,Papyrus P52,
 daniel2_shift,5,5,Start 4.2
 daniel2_1,Destruction de Jérusalem,King Nebuchadnezzar,607 BCE
-daniel2_2,par le roi Nabuchodonosor,destroys Jerusalem,
+daniel2_2,par le roi Nabuchodonosor,destroys Jerusalem,appendix B9
 daniel2_3,Conquête de Babylone,Conquers Babylon,539 BCE
 daniel2_4,Décret de Cyrus autorisant le,Cyrus decrees return,537 BCE
 daniel2_5,retour des Juifs à Jérusalem,of Jews to Jerusalem,
@@ -403,7 +403,7 @@ annointed,Rassemblement des dirigeants du Royaume (Matthieu 24:31; 1 Corinthiens
 armageddon,"Bataille d'Harmaguédon (Apocalypse 16:14, 16; Ésaïe 13:9; 2 Pierre 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
 millenium,"Le Royaume de Dieu commence son règne de 1000 ans (Apocalypse 5 :9, 10 ; 20 :4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
 great_crowd,"Une grande foule survit à Harmaguédon (Apocalypse 7:9, 14; Psaume 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
-world_population,Population mondiale en milliards au cours des 2000 dernières années,World population in billions in the last 2000 years,
+world_population,Population mondiale en milliards au cours des 2000 dernières années,World population in billions in the last 2000 years,appendix B9
 607BCE,607 av. n. è.,607 B.C.E.,accommodate for language
 539BCE,539 av. n. è.,539 B.C.E.,systems in style:
 537BCE,537 av. n. è.,537 B.C.E.,>>year 537 before time<<
@@ -474,3 +474,75 @@ king_north_light,,,2025-02-05
 king_north_light_c,Roi du Nord (Daniel 11),King of the North from Daniel 11,2025-02-05
 daniel2_iron,,,2025-02-05
 daniel2_iron_c,Jambes de fer (Daniel 2),Iron legs from Daniel 2,2025-02-05
+wulfila,Bible de Wulfila,Wulfila Bible,2025-09-20
+argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible
+tran_dynasty,1225 – 1400,1225 – 1400,
+tran_dynasty_c,Dynastie Trần,Trần dynasty,
+le_dynasty,1428 – 1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ
+le_dynasty_c,Dynastie Lê,Lê dynasty,
+revival_le_dynasty,1533-1789,1533-1789,
+revival_le_dynasty_c,Dynastie des Lê postérieurs,Revival Lê dynasty,Nhà Lê trung hưng
+nguyen_dynasty,1802 – 1883,1802 – 1883,
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20
+edo,1603 – 1868,1603 – 1868,
+edo_c,Époque d'Edo au Japon,Edo period in Japan,
+meiji,1868 – 1912,1868 – 1912,
+meiji_c,Meiji,Meiji,2025-09-20
+Ham,Cham,Ham,Gen 10:1
+Canaan,Canaan,Canaan,Gen 10:6
+Sidon,Sidon,Sidon,Gen 10:15
+Heth,Heth,Heth,Gen 10:15
+Jebusite,Jébuséen,Jebusite,Gen 10:16
+Amorite,Amorite,Amorite,Gen 10:16
+Girgashite,Guirgashite,Girgashite,Gen 10:16
+Hivite,Hivite,Hivite,Gen 10:17
+Arkite,Arkite,Arkite,Gen 10:17
+Sinite,Sinite,Sinite,Gen 10:17
+Arvadite,Arvadite,Arvadite,Gen 10:18
+Zemarite,Zemarite,Zemarite,Gen 10:18
+Hamathite,Hamathien,Hamathite,Gen 10:18
+Cush,Koush,Cush,Gen 10:6
+Nimrod,Nemrod,Nimrod,Gen 10:8
+Mizraim,Mizraïm,Mizraim,Gen 10:14
+Casluh,Kaslouhim,Casluh,1 Chronicles 1:12 (Philistines)
+Japheth,Japhet,Japheth,Gen 10:3
+Asshur,Assour,Asshur,Gen 10:22
+Lud,Loud,Lud,Gen 10:22
+Aram,Aram,Aram,Gen 10:22
+Elam,Élam,Elam,Gen 10:22
+Joktan,Joktân,Joktan,Gen 10:26
+Almodad,Almodad,Almodad,Gen 10:26
+Sheleph,Shélèf,Sheleph,Gen 10:26
+Hazarmareth,Hazarmaveth,Hazarmareth,Gen 10:26
+Jerah,Jéra,Jerah,Gen 10:26
+Hadoram,Hadoram,Hadoram,Gen 10:27
+Uzal,Ouzal,Uzal,Gen 10:27
+Diklah_Obal,"Dikla, Obal","Diklah, Obal",Gen 10:27
+Abimael,Abimael,Abimael,Gen 10:28
+Sheba_Ophir,"Saba, Ophir","Sheba, Ophir","Gen 10:28, 29"
+Havilah,Havila,Havilah,Gen 10:29
+Jobab,Jobab,Jobab,Gen 10:29
+Korah_Gatam,"Coré, Gatam","Korah, Gatam",303 and 304
+Adbeel_Mibsam,"Adbéel, Mibsam","Adbeel, Mibsam",311 and 312
+Dumah_Massa,"Douma, Massa","Dumah, Massa",314 and 315
+Ham_fn,1) Égyptiens: Psaumes 105: 23,1) Egyptians: Psalms 105:23,2025-09-22
+Canaan_fn,2) Canaanites: Joshua 13: 3,2) Canaanites: Joshua 13:3,2025-09-22
+Aram_fn,3) Arameans: Osée 12:12,3) Arameans: Hosea 12:12,2025-09-22
+Elam_fn,4) Elamites: Ezra 4: 9,4) Elamites: Ezra 4:9,2025-09-22
+Asshur_fn,5) Assyriens: Ézéchiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22
+Casluh_fn,6) Philistins: 1 Chroniques 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22
+Cush_fn,7) Ethiopien [Cushite]: 2 Rois 19: 9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22
+Edom_fn,8) Edomites: Nombres 20: 14-17,8) Edomites: Numbers 20:14-17,same as 459
+Moab_fn,"9) Moabites: Deutéronome 23: 3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457
+Ammon_fn,10) Ammonites: Joshua 12: 2,10) Ammonites: Joshua 12:2,same as 458
+Midian_fn,"11) Midianites: Nombres 31: 2, 3","11) Midianites: Numbers 31:2, 3",same as 456
+Amalek_fn,12) Amalekites: 1 Samuel 15: 2,12) Amalekites: 1 Samuel 15:2,same as 461
+Teman_fn,13) Temanites: Job 42: 7,13) Temanites: Job 42:7,same as 460
+Sidon_fn,14) Sidoniens: Zachariah 9: 2,14) Sidonians: Zechariah 9:2,2025-09-22
+Heth_fn,15) Hittites: Genèse 15:20,15) Hittites: Genesis 15:20,2025-09-22
+Jebusite_fn,16) Jébusites: Joshua 15:63,16) Jebusites: Joshua 15:63,2025-09-22
+Judith,Judith?,Judith?,"Genesis 26:34, 35"
+Lud_fn,17) Lydiens: 1 Chroniques 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]"
+Ishmael_fn,18) Ismaélites: Genèse 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22
+Amorite_fn,19) Amorites: juges 6:10,19) Amorites: Judges 6:10,2025-09-22
+Hivite_fn,"20) Hivites [Gibeon]: Joshua 9: 3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites
