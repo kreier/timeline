@@ -771,7 +771,7 @@ def create_terah_familytree():
         if version > 5.8:
             text_footnote += "_fn"
             fontsize_footnote -= 2
-        drawString(dict[text_footnote], fontsize_footnote, x_position(row.year), y_position(row.row), "r", False)
+        drawString(dict[text_footnote], fontsize_footnote, x_position(row.year), y_position(row.row), "r", True)
     counter_terahfam = 126  # hardcoded instead of 88, as counting is difficult here
 
 def include_pictures():

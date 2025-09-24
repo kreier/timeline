@@ -25,7 +25,7 @@ Adam,Adam,3.1,Luke 3:38
 Seth,Seth,3.1,
 Enosh,Enosh,3.1,
 Kenan,Kenan,3.1,Genesis 5:12
-Mahalalel,Mahalalel,3.1,
+Mahalalel,Mahalalel,3.1,Ma·hala·lel
 Jared,Jared,3.1,
 Enoch,Enoch,3.1,
 Methuselah,Methuselah,3.1,Luke 3:37
@@ -150,7 +150,7 @@ missionary2,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),4.1,
 missionary3,Third Missionary Journey c. 52-56 C.E.,4.1,
 caesarea,Paul in custody in Caesarea c. 56-58 C.E.,4.1,
 rome1,Paul’s first imprisonment in Rome c. 59-61 C.E.,4.1,
-rome2,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",4.1,
+rome2,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed",4.1,
 Julius,Julius,4.1,
 Augustus,Augustus,4.1,Luke 2:1
 Tiberius,Tiberius,4.1,Luke 3:1
@@ -478,8 +478,8 @@ wulfila,Wulfila Bible,5.9,2025-09-20
 argenteus,Codex Argenteus c. 505,5.9,written copy of Wulfila Bible
 tran_dynasty,1225 – 1400,5.9,
 tran_dynasty_c,Trần dynasty,5.9,
-le_dynasty,1428 – 1527,5.9,triều Lê sơ or Vietnamese: nhà Lê sơ 
-le_dynasty_c,Lê dynasty ,5.9,
+le_dynasty,1428 – 1527,5.9,triều Lê sơ or Vietnamese: nhà Lê sơ
+le_dynasty_c,Lê dynasty,5.9,
 revival_le_dynasty,1533-1789,5.9,
 revival_le_dynasty_c,Revival Lê dynasty,5.9,Nhà Lê trung hưng
 nguyen_dynasty,1802 – 1883,5.9,
@@ -488,8 +488,8 @@ edo,1603 – 1868,5.9,
 edo_c,Edo period in Japan,5.9,
 meiji,1868 – 1912,5.9,
 meiji_c,Meiji,5.9,2025-09-20
-Ham,Ham,5.9,Gen 10:1 
-Canaan,Canaan,5.9,Gen 10:6 
+Ham,Ham,5.9,Gen 10:1
+Canaan,Canaan,5.9,Gen 10:6
 Sidon,Sidon,5.9,Gen 10:15
 Heth,Heth,5.9,Gen 10:15
 Jebusite,Jebusite,5.9,Gen 10:16
@@ -501,16 +501,16 @@ Sinite,Sinite,5.9,Gen 10:17
 Arvadite,Arvadite,5.9,Gen 10:18
 Zemarite,Zemarite,5.9,Gen 10:18
 Hamathite,Hamathite,5.9,Gen 10:18
-Cush,Cush,5.9,Gen 10:6 
-Nimrod,Nimrod,5.9,Gen 10:8 
-Mizraim,Mizraim,5.9,Gen 10:14 
+Cush,Cush,5.9,Gen 10:6
+Nimrod,Nimrod,5.9,Gen 10:8
+Mizraim,Mizraim,5.9,Gen 10:14
 Casluh,Casluh,5.9,1 Chronicles 1:12 (Philistines)
-Japheth,Japheth,5.9,Gen 10:3 
+Japheth,Japheth,5.9,Gen 10:3
 Asshur,Asshur,5.9,Gen 10:22
 Lud,Lud,5.9,Gen 10:22
 Aram,Aram,5.9,Gen 10:22
 Elam,Elam,5.9,Gen 10:22
-Joktan,Joktan,5.9,Gen 10:26 
+Joktan,Joktan,5.9,Gen 10:26
 Almodad,Almodad,5.9,Gen 10:26
 Sheleph,Sheleph,5.9,Gen 10:26
 Hazarmareth,Hazarmareth,5.9,Gen 10:26
@@ -542,7 +542,7 @@ Sidon_fn,14) Sidonians: Zechariah 9:2,5.9,2025-09-22
 Heth_fn,15) Hittites: Genesis 15:20,5.9,2025-09-22
 Jebusite_fn,16) Jebusites: Joshua 15:63,5.9,2025-09-22
 Judith,Judith?,5.9,"Genesis 26:34, 35"
-Lud_fn,17) Lydians: 1 Chronicles 1:17 ,5.9,"Jewish Antiquities, I, 143, 144 [vi, 4] "
-Ishmael_fn,18) Ishmaelites: Genesis 37:27 ,5.9,2025-09-22
-Amorite_fn,19) Amorites: Judges 6:10 ,5.9,2025-09-22
-Hivite_fn,"20) Hivites [Gibeon]: Joshua 9:3, 7 ",5.9,Gibeonites
+Lud_fn,17) Lydians: 1 Chronicles 1:17,5.9,"Jewish Antiquities, I, 143, 144 [vi, 4]"
+Ishmael_fn,18) Ishmaelites: Genesis 37:27,5.9,2025-09-22
+Amorite_fn,19) Amorites: Judges 6:10,5.9,2025-09-22
+Hivite_fn,"20) Hivites [Gibeon]: Joshua 9:3, 7",5.9,Gibeonites
