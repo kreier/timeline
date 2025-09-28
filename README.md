@@ -5,7 +5,7 @@
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 [![pages-build-deployment](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment)
 
-This [project](https://github.com/kreier/timeline) creates a graph of Human history with python and ~~reportlab~~ fpdf2. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. With v4.2 in early 2024 some images make it into the timeline after 15 years of slow development.
+This [project](https://github.com/kreier/timeline) creates a graph of Human history with python and ~~reportlab~~ fpdf2. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. After 15 years of slow development some images make it into the timeline in early 2024 with v4.2.
 
 ![timeline 4.6](docs/timeline20240516_4.6.png)
 
@@ -25,40 +25,42 @@ The language specific files have been separated from the program code (together 
 | Language                                                                |                    print                                    | names | reviewed | complete |   latest   |
 |-------------------------------------------------------------------------|:-----------------------------------------------------------:|:-----:|:--------:|:--------:|:----------:|
 | [English](https://timeline24.github.io/timeline_en.pdf)                 | [link](https://timeline24.github.io/timeline_en_print.pdf)  |   x   |     x    |     x    | 2025-09-24 |
-| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)           | [link](https://timeline24.github.io/timeline_ar_print.pdf)  |   x   |          |          | 2024-07-25 |
+| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)       | [link](https://timeline24.github.io/timeline_ar_print.pdf)  |   x   |          |          | 2024-07-25 |
 | [Armenian (Հայերեն)](https://timeline24.github.io/timeline_hy.pdf)      | [link](https://timeline24.github.io/timeline_hy_print.pdf)  |   x   |          |          | 2025-09-17 |
 | [Cebuano (Bisayâ)](https://timeline24.github.io/timeline_ceb.pdf)       | [link](https://timeline24.github.io/timeline_ceb_print.pdf) |       |          |          | 2025-09-17 |
-| [Estonian (eesti keel)](https://timeline24.github.io/timeline_et.pdf)   | [link](https://timeline24.github.io/timeline_et_print.pdf)  |       |          |          | 2025-05-03 |
+| [Chinese Cantonese (Simplified) (普通话)](https://timeline24.github.io/timeline_yue.pdf) | [link](https://timeline24.github.io/timeline_yue_print.pdf) | x |  |      | 2024-06-16 |
+| [Chinese Mandarin (Simplified) (普通话)](https://timeline24.github.io/timeline_zh.pdf)   | [link](https://timeline24.github.io/timeline_zh_print.pdf)  | x |  |      | 2024-06-14 |
+| [Estonian (eesti keel)](https://timeline24.github.io/timeline_et.pdf)   | [link](https://timeline24.github.io/timeline_et_print.pdf)  |   x   |          |          | 2025-05-03 |
 | [Finnish (Suomi)](https://timeline24.github.io/timeline_fi.pdf)         | [link](https://timeline24.github.io/timeline_fi_print.pdf)  |       |          |          | 2024-06-14 |
 | [French (Français)](https://timeline24.github.io/timeline_fr.pdf)       | [link](https://timeline24.github.io/timeline_fr_print.pdf)  |   x   |     x    |          | 2025-09-24 |
 | [German (Deutsch)](https://timeline24.github.io/timeline_de.pdf)        | [link](https://timeline24.github.io/timeline_de_print.pdf)  |   x   |     x    |     x    | 2025-09-24 |
-| [Greek (Ελληνικά)](https://timeline24.github.io/timeline_el.pdf)        | [link](https://timeline24.github.io/timeline_el_print.pdf)  |       |          |          | 2025-09-17 |
-| Hebrew (עִבְרִית) | link |    |    |    | 2025-09-17 |
-| Hindi (हिन्दी)    | link |    |    |    | 2025-09-17 |
+| [Greek (Ελληνικά)](https://timeline24.github.io/timeline_el.pdf)        | [link](https://timeline24.github.io/timeline_el_print.pdf)  |   x   |          |          | 2025-09-17 |
+| [Hebrew (עִבְרִית)](https://timeline24.github.io/timeline_he.pdf)         | [link](https://timeline24.github.io/timeline_he_print.pdf)  |       |          |          | 2025-09-17 |
+| [Hindi (हिन्दी)](https://timeline24.github.io/timeline_hi.pdf)            | [link](https://timeline24.github.io/timeline_hi_print.pdf)  |       |          |          | 2025-09-17 |
 | [Igbo (Ásụ̀sụ́ Ìgbò)](https://timeline24.github.io/timeline_ig.pdf)       | [link](https://timeline24.github.io/timeline_ig_print.pdf)  |       |          |          | 2025-02-18 |
 | [Iloko (Ilocano)](https://timeline24.github.io/timeline_ilo.pdf)        | [link](https://timeline24.github.io/timeline_ilo_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
+| [Italian (Italiano)](https://timeline24.github.io/timeline_it.pdf)      | [link](https://timeline24.github.io/timeline_it_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
 | [Japanese (日本語)](https://timeline24.github.io/timeline_ja.pdf)        | [link](https://timeline24.github.io/timeline_ja_print.pdf)  |   x   |    x     |          | 2024-06-11 |
 | [Kankana-ey](https://timeline24.github.io/timeline_kne.pdf)             | [link](https://timeline24.github.io/timeline_kne_print.pdf) |   x   |     x    |     x    | 2024-06-07 |
 | [Khmer (ខ្មែរ)](https://timeline24.github.io/timeline_km.pdf)             | [link](https://timeline24.github.io/timeline_km_print.pdf)  |   x   |          |          | 2024-06-19 |
 | [Khmer (ខ្មែរ) with Arabic numerals](https://timeline24.github.io/timeline_kman.pdf)  | [link](https://timeline24.github.io/timeline_kman_print.pdf) | x | |          | 2024-06-24 |
-| Kikongo                 | link |    |    |    | 2025-09-17 |
+| [Kikongo](https://timeline24.github.io/timeline_kg.pdf)                 | [link](https://timeline24.github.io/timeline_kg_print.pdf)  |   x   |          |          | 2025-09-17 |
 | [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          | [link](https://timeline24.github.io/timeline_ko_print.pdf)  |       |          |          | 2024-06-16 |
-| Malay (Bahasa Melayu)   | link |    |    |    | 2025-09-17 |
-| [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       | [link](https://timeline24.github.io/timeline_no_print.pdf)  |       |          |          | 2024-06-16 |
-| Persian (فارسی)          | link |    |    |    | 2025-09-17 |
-| Portugese (Português)   | link |    |    |    | 2025-09-17 |
-| Punjabi (ਪੰਜਾਬੀ)          | link |    |    |    | 2025-09-17 |
+| [Malay (Bahasa Melayu)](https://timeline24.github.io/timeline_ms.pdf)   | [link](https://timeline24.github.io/timeline_ms_print.pdf)  |   x   |          |          | 2025-09-17 |
+| [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       | [link](https://timeline24.github.io/timeline_no_print.pdf)  |   x   |          |          | 2024-06-16 |
+| [Persian (فارسی)](https://timeline24.github.io/timeline_fa.pdf)         | [link](https://timeline24.github.io/timeline_fa_print.pdf)  |   x   |          |          | 2025-09-17 |
+| [Portugese (Português)](https://timeline24.github.io/timeline_pt.pdf)   | [link](https://timeline24.github.io/timeline_pt_print.pdf)  |   x   |          |          | 2025-09-17 |
+| [Punjabi (ਪੰਜਾਬੀ)](https://timeline24.github.io/timeline_pa.pdf)          | [link](https://timeline24.github.io/timeline_pa_print.pdf)  |       |          |          | 2025-09-17 |
 | [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       | [link](https://timeline24.github.io/timeline_ru_print.pdf)  |   x   |          |          | 2024-06-17 |
 | [Sinhala (සිංහල)](https://timeline24.github.io/timeline_si.pdf)         |  [link](https://timeline24.github.io/timeline_si_print.pdf) |       |          |          | 2024-06-11 |
 | [Spanish (Español)](https://timeline24.github.io/timeline_es.pdf)       | [link](https://timeline24.github.io/timeline_es_print.pdf)  |   x   |          |          | 2025-02-27 |
-| Swahili (Kiswahili)     | link |    |    |    | 2025-09-17 |
+| [Swahili (Kiswahili)](https://timeline24.github.io/timeline_sw.pdf)     | [link](https://timeline24.github.io/timeline_sw_print.pdf)  |       |          |          | 2025-09-17 |
 | [Filipino (Tagalog)](https://timeline24.github.io/timeline_tl.pdf)      | [link](https://timeline24.github.io/timeline_tl_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
 | [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          | [link](https://timeline24.github.io/timeline_th_print.pdf)  |       |          |          | 2024-06-14 |
-| Ukrainian (українська)   | link |    |    |    | 2025-09-17 |
-| Urdu (اُردُو)               | link |    |    |    | 2025-09-17 |
+| [Ukrainian (українська)](https://timeline24.github.io/timeline_uk.pdf)   | [link](https://timeline24.github.io/timeline_uk_print.pdf) |   x   |          |          | 2025-09-17 |
+| [Urdu (اُردُو)](https://timeline24.github.io/timeline_ur.pdf)             | [link](https://timeline24.github.io/timeline_ur_print.pdf)  |       |          |          | 2025-09-17 |
 | [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) | [link](https://timeline24.github.io/timeline_vi_print.pdf)  |   x   |          |     x    | 2025-02-20 |
-| [Chinese Cantonese (Simplified) (普通话)](https://timeline24.github.io/timeline_yue.pdf) | [link](https://timeline24.github.io/timeline_yue_print.pdf) | x |  |      | 2024-06-16 |
-| [Chinese Mandarin (Simplified) (普通话)](https://timeline24.github.io/timeline_zh.pdf)   | [link](https://timeline24.github.io/timeline_zh_print.pdf)  | x |  |      | 2024-06-14 |
+
 
 Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects in January 2024. For Khmer, Sinhala and Arabic I finally needed a shape engine like [harfbuzz](https://github.com/harfbuzz/harfbuzz). Since it is not supported in reportlab, I switched to [fpdf2](https://py-pdf.github.io/fpdf2/index.html) with version 4.7 in July 2024. 
 
@@ -93,6 +95,8 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 - [v4.9](https://github.com/kreier/timeline/releases/tag/v4.9) 2024/09/15 Abraham's later wife Keturah is included into the image and the ancestry of the Midianites. Now the genealogy includes 6 nations with their name-giving father and illustrate the family relations. The extra space needed for Keturah and her 6 sons was provides by reorganizing the Daniel 2 image and the world population of the last 2000 years. And finally the life expectancy in Moses times was included with a graph to represent the health condition of people in his time.
 - [5.1](https://github.com/kreier/timeline/releases/tag/v5.1) The time period of 430 years was included as a graph. And some exaples from the Maya calender were included.
 - [5.2](https://github.com/kreier/timeline/releases/tag/v5.2) Time around last days reorganized, faded times for Daniels prophecies.
+- [5.3](https://github.com/kreier/timeline/releases/tag/v5.3) New Daniel 2 images, reorganize Ghenghis Khan and the last days
+- [5.9](https://github.com/kreier/timeline/releases/tag/v5.9) Extended family tree back to Noah, relate 20 nations in footnotes, add 4 Vietnamese Dynasties, Edo and Meiji period in Japan, Wulfila bible, first designed alphabet with a known creator, fresh NIRCam image of Pismis 24 by NASA with Webb telescope from September 11th, 2025.
 
 ### Scale challenges
 

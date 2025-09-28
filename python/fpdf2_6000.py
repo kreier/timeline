@@ -5,7 +5,7 @@
 from fpdf import FPDF
 import pandas as pd
 import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix many problems
-import datetime, sys, os
+import datetime, sys, os, asyncio
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
 version  = 5.9
@@ -976,29 +976,35 @@ def checkForValidLanguageCode(langCode):
             return True
     return False
 
+async def translate_dictionary(dictionary, language):
+    global number_characters
+    async with googletrans.Translator() as translator:
+        for index, row in dict.iterrows(): # with 3 columns 'key' 'text' and 'english'
+            english_text = row.english
+            number_characters += len(str(english_text))
+            if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
+                result = await translator.translate(english_text, src='en', dest=language)
+                dict.at[index, 'text'] = result.text
+                print(f'{index}: {english_text} - {result.text}')
+
 def create_dictionary(target_language):
-    global dict, language
+    global dict, language, number_characters
     filename = "../db/dictionary_" + target_language + ".csv"
     if os.path.isfile(filename):
         print(f"A dictionary file {filename} already exists. Delete it if you want to create a new Google translated file.")
         return    
     reference = pd.DataFrame() # will contain the english dictionary with 'key' and 'text' column, plus 'alternative' and 'notes' (not used)
     reference = pd.read_csv("../db/dictionary_reference.csv")
+    reference.fillna(" ", inplace=True) # fill empty cells with a space
     print(f"Imported reference english dictionary, found {len(reference)} entries.")
     print(reference)
-    dict = reference[['key', 'text', 'notes']].copy()  # create a new dictionary, copy columns key and text
-    dict['english'] = reference['text'].copy()         # add a column 'english' and fill with 'text' from english dictionary
+    dict = reference[['key', 'text']].copy()     # create a new dictionary, copy columns key and text
+    dict['english'] = reference['text'].copy()   # add a column 'english' and fill with 'text' from english dictionary
+    dict['notes'] = reference['notes'].copy()         # add a column 'notes' and fill with 'notes' from english dictionary
     print("\nTranslating ...")
-    translator = googletrans.Translator()
-    number_characters = 0                   # you can translate up to 500,000 characters per month for free
-    for index, row in dict.iterrows():      # with 3 columns 'key' 'text' and 'english'
-        english_text = row.english
-        number_characters += len(english_text)
-        if not english_text == " ":  # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
-            dict.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
-            print('.', end='')
-        if (index + 1) % 40 == 0:
-            print(f" {index}")
+    # start with asyncio since googletrans 4.x is async
+    number_characters = 0      # you can translate up to 500,000 characters per month for free
+    asyncio.run(translate_dictionary(dict, language)) # translate the dictionary
     print(dict)
     print("Exporting ...")
     dict.to_csv(filename, index=False)
@@ -1025,6 +1031,11 @@ def is_supported(language):
     else:
         language_str = df.at[row_index[0], 'language_str'] # language is used for the shape engine
         print(f"Your selected language {language} is supported: {language_str}")
+        # check if dictionary file exists
+        filename = "../db/dictionary_" + language + ".csv"
+        if not os.path.isfile(filename):
+            print(f"But the dictionary file {filename} does not exist. Creating it now with Google Translate.")
+            create_dictionary(language)
         return True
 
 if __name__ == "__main__":
