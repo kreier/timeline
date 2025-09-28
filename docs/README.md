@@ -9,9 +9,9 @@ This [project](https://github.com/kreier/timeline) creates a graph of Human hist
 
 ![timeline 4.6](timeline20240516_4.6.png)
 
-Compare this 4000 year timespan of **v5.2 from 2025** with the same time period in **v1.1 from 2009** (below):
+Compare this 4000 year timespan of **v5.9 from 2025** with the same time period in **v1.1 from 2009** (below):
 
-![timeline 5.2 first 4000 years](timeline20250228_4k.png)
+![timeline 5.9 first 4000 years](timeline20250925_4k.png)
 
 ![timeline 1.1](timeline20230630.png)
 
@@ -19,12 +19,12 @@ You see that **many more details** were added. And something is off with the sca
 
 ### Translations
 
-The language specific files have been separated from the program code (together with other information, data and list of colors) since version 3.4. While I put the translated string into an utf-8 encoded `.csv` file, the very process is not that straightforward. It starts with a proper translation (cloud APIs for Azure cloud and Googletranslate are only a start), continues with fontfiles that support this language and glyphs (January 2024 with CJK) and continues with font shaping engines like harfbuzz (May 2024) for complexer writing systems like Persian, Devanagari for Hindi, Khmer and Sinhala, among a few. Currently there are 446 text fields in total in a few languages. The print edition has 5cm extra left and right for the rollers at the end of the scroll. The reference size is 1308x210 mm but it can be scaled to any size at the print shop:
+The language specific files have been separated from the program code (together with other information, data and list of colors) since version 3.4. While I put the translated string into an utf-8 encoded `.csv` file, the very process is not that straightforward. It starts with a proper translation (cloud APIs for Azure cloud and Googletranslate are only a start), continues with fontfiles that support this language and glyphs (January 2024 with CJK) and continues with font shaping engines like harfbuzz (May 2024) for complexer writing systems like Persian, Devanagari for Hindi, Khmer and Sinhala, among a few. Currently there are in total 548 text fields in a few languages. The print edition has on the left and right side 5cm extra for the rollers at the end of the scroll. The reference size is 1308x210 mm, but it can be scaled to any size at the print shop:
 
 | Language                                                                |                    print                                    | names | reviewed | complete |   latest   |
 |-------------------------------------------------------------------------|:-----------------------------------------------------------:|:-----:|:--------:|:--------:|:----------:|
 | [English](https://timeline24.github.io/timeline_en.pdf)                 | [link](https://timeline24.github.io/timeline_en_print.pdf)  |   x   |     x    |     x    | 2025-09-24 |
-| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)       | [link](https://timeline24.github.io/timeline_ar_print.pdf)  |   x   |          |          | 2024-07-25 |
+| [Arabic (العربية)](https://timeline24.github.io/timeline_ar.pdf)           | [link](https://timeline24.github.io/timeline_ar_print.pdf)  |   x   |          |          | 2024-07-25 |
 | [Armenian (Հայերեն)](https://timeline24.github.io/timeline_hy.pdf)      | [link](https://timeline24.github.io/timeline_hy_print.pdf)  |   x   |          |          | 2025-09-17 |
 | [Cebuano (Bisayâ)](https://timeline24.github.io/timeline_ceb.pdf)       | [link](https://timeline24.github.io/timeline_ceb_print.pdf) |       |          |          | 2025-09-17 |
 | [Chinese Cantonese (Simplified) (普通话)](https://timeline24.github.io/timeline_yue.pdf) | [link](https://timeline24.github.io/timeline_yue_print.pdf) | x |  |      | 2024-06-16 |
@@ -47,7 +47,7 @@ The language specific files have been separated from the program code (together 
 | [Korean (한국인)](https://timeline24.github.io/timeline_ko.pdf)          | [link](https://timeline24.github.io/timeline_ko_print.pdf)  |       |          |          | 2024-06-16 |
 | [Malay (Bahasa Melayu)](https://timeline24.github.io/timeline_ms.pdf)   | [link](https://timeline24.github.io/timeline_ms_print.pdf)  |   x   |          |          | 2025-09-17 |
 | [Norwegian (Norsk)](https://timeline24.github.io/timeline_no.pdf)       | [link](https://timeline24.github.io/timeline_no_print.pdf)  |   x   |          |          | 2024-06-16 |
-| [Persian (فارسی)](https://timeline24.github.io/timeline_fa.pdf)         | [link](https://timeline24.github.io/timeline_fa_print.pdf)  |   x   |          |          | 2025-09-17 |
+| [Persian (فارسی)](https://timeline24.github.io/timeline_fa.pdf)          | [link](https://timeline24.github.io/timeline_fa_print.pdf)  |   x   |          |          | 2025-09-17 |
 | [Portugese (Português)](https://timeline24.github.io/timeline_pt.pdf)   | [link](https://timeline24.github.io/timeline_pt_print.pdf)  |   x   |          |          | 2025-09-17 |
 | [Punjabi (ਪੰਜਾਬੀ)](https://timeline24.github.io/timeline_pa.pdf)          | [link](https://timeline24.github.io/timeline_pa_print.pdf)  |       |          |          | 2025-09-17 |
 | [Russian (Русский)](https://timeline24.github.io/timeline_ru.pdf)       | [link](https://timeline24.github.io/timeline_ru_print.pdf)  |   x   |          |          | 2024-06-17 |
@@ -56,8 +56,8 @@ The language specific files have been separated from the program code (together 
 | [Swahili (Kiswahili)](https://timeline24.github.io/timeline_sw.pdf)     | [link](https://timeline24.github.io/timeline_sw_print.pdf)  |       |          |          | 2025-09-17 |
 | [Filipino (Tagalog)](https://timeline24.github.io/timeline_tl.pdf)      | [link](https://timeline24.github.io/timeline_tl_print.pdf)  |   x   |     x    |     x    | 2024-06-07 |
 | [Thai (ภาษาไทย)](https://timeline24.github.io/timeline_th.pdf)          | [link](https://timeline24.github.io/timeline_th_print.pdf)  |       |          |          | 2024-06-14 |
-| [Ukrainian (українська)](https://timeline24.github.io/timeline_uk.pdf)   | [link](https://timeline24.github.io/timeline_uk_print.pdf) |   x   |          |          | 2025-09-17 |
-| [Urdu (اُردُو)](https://timeline24.github.io/timeline_ur.pdf)             | [link](https://timeline24.github.io/timeline_ur_print.pdf)  |       |          |          | 2025-09-17 |
+| [Ukrainian (українська)](https://timeline24.github.io/timeline_uk.pdf)  | [link](https://timeline24.github.io/timeline_uk_print.pdf)  |   x   |          |          | 2025-09-17 |
+| [Urdu (اُردُو)](https://timeline24.github.io/timeline_ur.pdf)              | [link](https://timeline24.github.io/timeline_ur_print.pdf)  |       |          |          | 2025-09-17 |
 | [Vietnamese (Tiếng Việt)](https://timeline24.github.io/timeline_vi.pdf) | [link](https://timeline24.github.io/timeline_vi_print.pdf)  |   x   |          |     x    | 2025-02-20 |
 
 Support for languages using the CJK glyphs took some extra work, and I learned a lot about tofu and NO TOfu (noto) and related projects in January 2024. For Khmer, Sinhala and Arabic I finally needed a shape engine like [harfbuzz](https://github.com/harfbuzz/harfbuzz). Since it is not supported in reportlab, I switched to [fpdf2](https://py-pdf.github.io/fpdf2/index.html) with version 4.7 in July 2024. 
@@ -195,3 +195,5 @@ Time of 12 Prophets from 850 BCE to 400 BCE
 #### 2025
 
 ![2025-01](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250101_5.1.png)
+![2025-02](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250221_5.2.png)
+![2025-09](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250925_5.9.png)
