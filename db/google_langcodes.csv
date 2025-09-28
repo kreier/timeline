@@ -1,107 +1,195 @@
-key,value
-afrikaans,af
-albanian,sq
-amharic,am
-arabic,ar
-armenian,hy
-azerbaijani,az
-basque,eu
-belarusian,be
-bengali,bn
-bosnian,bs
-bulgarian,bg
-catalan,ca
-cebuano,ceb
-chichewa,ny
-chinese (simplified),zh-cn
-chinese (traditional),zh-tw
-corsican,co
-croatian,hr
-czech,cs
-danish,da
-dutch,nl
-english,en
-esperanto,eo
-estonian,et
-filipino,tl
-finnish,fi
-french,fr
-frisian,fy
-galician,gl
-georgian,ka
-german,de
-greek,el
-gujarati,gu
-haitian creole,ht
-hausa,ha
-hawaiian,haw
-hebrew,he
-hindi,hi
-hmong,hmn
-hungarian,hu
-icelandic,is
-igbo,ig
-indonesian,id
-irish,ga
-italian,it
-japanese,ja
-javanese,jw
-kannada,kn
-kazakh,kk
-khmer,km
-korean,ko
-kurdish (kurmanji),ku
-kyrgyz,ky
-lao,lo
-latin,la
-latvian,lv
-lithuanian,lt
-luxembourgish,lb
-macedonian,mk
-malagasy,mg
-malay,ms
-malayalam,ml
-maltese,mt
-maori,mi
-marathi,mr
-mongolian,mn
-myanmar (burmese),my
-nepali,ne
-norwegian,no
-odia,or
-pashto,ps
-persian,fa
-polish,pl
-portuguese,pt
-punjabi,pa
-romanian,ro
-russian,ru
-samoan,sm
-scots gaelic,gd
-serbian,sr
-sesotho,st
-shona,sn
-sindhi,sd
-sinhala,si
-slovak,sk
-slovenian,sl
-somali,so
-spanish,es
-sundanese,su
-swahili,sw
-swedish,sv
-tajik,tg
-tamil,ta
-telugu,te
-thai,th
-turkish,tr
-ukrainian,uk
-urdu,ur
-uyghur,ug
-uzbek,uz
-vietnamese,vi
-welsh,cy
-xhosa,xh
-yiddish,yi
-yoruba,yo
-zulu,zu
+key,Language,ISO-639 code,value2024
+ab,Abkhaz,ab,
+ace,Acehnese,ace,
+ach,Acholi,ach,
+af,Afrikaans,af,afrikaans
+sq,Albanian,sq,albanian
+alz,Alur,alz,
+am,Amharic,am,amharic
+ar,Arabic,ar,arabic
+hy,Armenian,hy,armenian
+as,Assamese,as,
+awa,Awadhi,awa,
+ay,Aymara,ay,azerbaijani
+az,Azerbaijani,az,
+ban,Balinese,ban,
+bm,Bambara,bm,
+ba,Bashkir,ba,
+eu,Basque,eu,basque
+btx,Batak Karo,btx,
+bts,Batak Simalungun,bts,
+bbc,Batak Toba,bbc,
+be,Belarusian,be,belarusian
+bem,Bemba,bem,
+bn,Bengali,bn,bengali
+bew,Betawi,bew,
+bho,Bhojpuri,bho,
+bik,Bikol,bik,
+bs,Bosnian,bs,bosnian
+br,Breton,br,
+bg,Bulgarian,bg,bulgarian
+bua,Buryat,bua,
+yue,Cantonese,yue,
+ca,Catalan,ca,catalan
+ceb,Cebuano,ceb,cebuano
+ny,Chichewa (Nyanja),ny,chichewa
+zh,Chinese (Simplified),zh-CN or zh (BCP-47),chinese (simplified)
+zh-TW,Chinese (Traditional),zh-TW (BCP-47),chinese (traditional)
+cv,Chuvash,cv,
+co,Corsican,co,corsican
+crh,Crimean Tatar,crh,
+hr,Croatian,hr,croatian
+cs,Czech,cs,czech
+da,Danish,da,danish
+din,Dinka,din,
+dv,Divehi,dv,
+doi,Dogri,doi,
+dov,Dombe,dov,
+nl,Dutch,nl,dutch
+dz,Dzongkha,dz,
+en,English,en,english
+eo,Esperanto,eo,esperanto
+et,Estonian,et,estonian
+ee,Ewe,ee,
+fj,Fijian,fj,
+tl,Filipino (Tagalog),fil or tl,filipino
+fi,Finnish,fi,finnish
+fr,French,fr,french
+fr-FR,French (French),fr-FR,
+fr-CA,French (Canadian),fr-CA,
+fy,Frisian,fy,frisian
+ff,Fulfulde,ff,
+gaa,Ga,gaa,
+gl,Galician,gl,galician
+lg,Ganda (Luganda),lg,
+ka,Georgian,ka,georgian
+de,German,de,german
+el,Greek,el,greek
+gn,Guarani,gn,
+gu,Gujarati,gu,gujarati
+ht,Haitian Creole,ht,haitian creole
+cnh,Hakha Chin,cnh,
+ha,Hausa,ha,hausa
+haw,Hawaiian,haw,hawaiian
+he,Hebrew,iw or he,hebrew
+hil,Hiligaynon,hil,
+hi,Hindi,hi,hindi
+hmn,Hmong,hmn,hmong
+hu,Hungarian,hu,hungarian
+hrx,Hunsrik,hrx,
+is,Icelandic,is,icelandic
+ig,Igbo,ig,igbo
+ilo,Iloko,ilo,
+id,Indonesian,id,indonesian
+ga,Irish,ga,irish
+it,Italian,it,italian
+ja,Japanese,ja,japanese
+jv,Javanese,jw or jv,javanese
+kn,Kannada,kn,kannada
+pam,Kapampangan,pam,
+kk,Kazakh,kk,kazakh
+km,Khmer,km,khmer
+cgg,Kiga,cgg,
+rw,Kinyarwanda,rw,
+ktu,Kituba,ktu,
+gom,Konkani,gom,
+ko,Korean,ko,korean
+kri,Krio,kri,
+ku,Kurdish (Kurmanji),ku,kurdish (kurmanji)
+ckb,Kurdish (Sorani),ckb,
+ky,Kyrgyz,ky,kyrgyz
+lo,Lao,lo,lao
+ltg,Latgalian,ltg,
+la,Latin,la,latin
+lv,Latvian,lv,latvian
+lij,Ligurian,lij,
+li,Limburgan,li,
+ln,Lingala,ln,
+lt,Lithuanian,lt,lithuanian
+lmo,Lombard,lmo,
+luo,Luo,luo,
+lb,Luxembourgish,lb,luxembourgish
+mk,Macedonian,mk,macedonian
+mai,Maithili,mai,
+mak,Makassar,mak,
+mg,Malagasy,mg,malagasy
+ms,Malay,ms,malay
+ms-Arab,Malay (Jawi),ms-Arab,
+ml,Malayalam,ml,malayalam
+mt,Maltese,mt,maltese
+mi,Maori,mi,maori
+mr,Marathi,mr,marathi
+chm,Meadow Mari,chm,
+mni-Mtei,Meiteilon (Manipuri),mni-Mtei,
+min,Minang,min,
+lus,Mizo,lus,
+mn,Mongolian,mn,mongolian
+my,Myanmar (Burmese),my,myanmar (burmese)
+nr,Ndebele (South),nr,
+new,Nepalbhasa (Newari),new,
+ne,Nepali,ne,nepali
+nso,Northern Sotho (Sepedi),nso,
+no,Norwegian,no,norwegian
+nus,Nuer,nus,
+oc,Occitan,oc,
+or,Odia (Oriya),or,odia
+om,Oromo,om,
+pag,Pangasinan,pag,
+pap,Papiamento,pap,
+ps,Pashto,ps,pashto
+fa,Persian,fa,persian
+pl,Polish,pl,polish
+pt,Portuguese,pt,portuguese
+pt-PT,Portuguese (Portugal),pt-PT,
+pt-BR,Portuguese (Brazil),pt-BR,
+pa,Punjabi,pa,punjabi
+pa-Arab,Punjabi (Shahmukhi),pa-Arab,
+qu,Quechua,qu,
+rom,Romani,rom,
+ro,Romanian,ro,romanian
+rn,Rundi,rn,
+ru,Russian,ru,russian
+sm,Samoan,sm,samoan
+sg,Sango,sg,
+sa,Sanskrit,sa,
+gd,Scots Gaelic,gd,scots gaelic
+sr,Serbian,sr,serbian
+st,Sesotho,st,sesotho
+crs,Seychellois Creole,crs,
+shn,Shan,shn,
+sn,Shona,sn,shona
+scn,Sicilian,scn,
+szl,Silesian,szl,
+sd,Sindhi,sd,sindhi
+si,Sinhala (Sinhalese),si,sinhala
+sk,Slovak,sk,slovak
+sl,Slovenian,sl,slovenian
+so,Somali,so,somali
+es,Spanish,es,spanish
+su,Sundanese,su,sundanese
+sw,Swahili,sw,swahili
+ss,Swati,ss,
+sv,Swedish,sv,swedish
+tg,Tajik,tg,tajik
+ta,Tamil,ta,tamil
+tt,Tatar,tt,
+te,Telugu,te,telugu
+tet,Tetum,tet,
+th,Thai,th,thai
+ti,Tigrinya,ti,
+ts,Tsonga,ts,
+tn,Tswana,tn,
+tr,Turkish,tr,turkish
+tk,Turkmen,tk,
+ak,Twi (Akan),ak,
+uk,Ukrainian,uk,ukrainian
+ur,Urdu,ur,urdu
+ug,Uyghur,ug,uyghur
+uz,Uzbek,uz,uzbek
+vi,Vietnamese,vi,vietnamese
+cy,Welsh,cy,welsh
+xh,Xhosa,xh,xhosa
+yi,Yiddish,yi,yiddish
+yo,Yoruba,yo,yoruba
+yua,Yucatec Maya,yua,
+zu,Zulu,zu,zulu
