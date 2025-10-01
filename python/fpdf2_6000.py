@@ -1044,6 +1044,8 @@ if __name__ == "__main__":
         print("You did not provide a language as argument. Put it as a parameter after fpdf2_6000.py")
         exit()
     language = sys.argv[1]
+    daniel2_image = "_fiverr2"   # default image for Daniel 2
+    edition_2025 = False
     if len(sys.argv) > 2:
         daniel2_image = sys.argv[2]
     if len(sys.argv) > 3:
