@@ -3,9 +3,10 @@
 # Documentation found on https://py-pdf.github.io/fpdf2/Tutorial.html
 
 from fpdf import FPDF
+from PIL import Image
 import pandas as pd
 import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix many problems
-import datetime, sys, os, asyncio
+import datetime, sys, os, asyncio, qrcode
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
 version  = 5.9
@@ -878,6 +879,25 @@ def create_daniel2():                   # reference image has dimensions 748 x 2
         d2_x -= d2_width
     pdf.image(file_d2 + ".svg", x = d2_x, y = y2 - shift_upward - d2_height, w = d2_width , h = d2_height)
 
+def create_qr_code(qr_file, language, edition_2025):
+    # Create QR code instance
+    qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_M,  # L 7%, M 15%, Q 25%, H 30%
+        box_size=8,
+        border=1,
+    )
+    url = f"https://timeline24.github.io/timeline_{language}.pdf"
+    if edition_2025:
+        url = f"https://timeline25.github.io/timeline_{language}.pdf"
+    qr.add_data(url)
+    qr.make(fit=True)
+
+    # Generate image
+    img = qr.make_image(fill_color="black", back_color="white")    
+    img.save(qr_file)
+    print(f"QR code saved as {qr_file}")
+
 def create_timestamp():
     qr_x = -4026
     qr_y = 6.1
@@ -915,25 +935,26 @@ def create_timestamp():
     if edition_2025:
         qr_file = "../images/qr-" + language + "25.png"
     qr_size = 15*mm
-    if os.path.exists(qr_file):
-        if left_to_right:
-            pdf.image(qr_file, x_position(qr_x), y_position(qr_y), qr_size, qr_size)
-        else:
-            pdf.image(qr_file, x_position(qr_x) - qr_size, y_position(qr_y), qr_size, qr_size)
-        pdf.set_font_size(4.5)
-        pdf.set_text_color(30)
-        timestamp = str(datetime.datetime.now())
-        dateindex = timestamp[2:4] + timestamp[5:7] + timestamp[8:10]
-        rotation_angle = -90
-        rotation_y = y_position(qr_y + 0.1)
-        if left_to_right:
-            rotation_angle = 90
-            rotation_y += qr_size * 0.94
-        with pdf.rotation(angle=rotation_angle, x=x_position(qr_x), y=rotation_y):
-            pdf.set_xy(x_position(qr_x), y_position(qr_y + 0.2) + qr_size * (1.47 + 0.47 * direction_factor))
-            pdf.cell(text="timeline " + language)
-            pdf.set_xy(x_position(qr_x), y_position(qr_y + 0.58) + qr_size * (1.47 + 0.47 * direction_factor))
-            pdf.cell(text=dateindex)
+    if not os.path.exists(qr_file):
+        create_qr_code(qr_file, language, edition_2025)
+    if left_to_right:
+        pdf.image(qr_file, x_position(qr_x), y_position(qr_y), qr_size, qr_size)
+    else:
+        pdf.image(qr_file, x_position(qr_x) - qr_size, y_position(qr_y), qr_size, qr_size)
+    pdf.set_font_size(4.5)
+    pdf.set_text_color(30)
+    timestamp = str(datetime.datetime.now())
+    dateindex = timestamp[2:4] + timestamp[5:7] + timestamp[8:10]
+    rotation_angle = -90
+    rotation_y = y_position(qr_y + 0.1)
+    if left_to_right:
+        rotation_angle = 90
+        rotation_y += qr_size * 0.94
+    with pdf.rotation(angle=rotation_angle, x=x_position(qr_x), y=rotation_y):
+        pdf.set_xy(x_position(qr_x), y_position(qr_y + 0.2) + qr_size * (1.47 + 0.47 * direction_factor))
+        pdf.cell(text="timeline " + language)
+        pdf.set_xy(x_position(qr_x), y_position(qr_y + 0.58) + qr_size * (1.47 + 0.47 * direction_factor))
+        pdf.cell(text=dateindex)
 
 def render_to_file():
     global pdf, filename
