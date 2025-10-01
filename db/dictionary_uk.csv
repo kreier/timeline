@@ -1,6 +1,6 @@
 key,text,english,notes
 version,5.9,5.9,5.9
-pdf_title,6000 років людська історія візуалізована,6000 years human history visualized,2025-09-25
+pdf_title,6000 років людська історія візуалізована,6000 years human history visualized,2025-09-29
 pdf_subject,Графік людства,Timeline of humankind,5.9
 BCE,до н. е.,B.C.E.,appendix B9
 CE,н. е.,C.E.,
@@ -122,14 +122,14 @@ Ezra,Ездра,Ezra,
 Nehemiah,Неемія,Nehemiah,
 Esther,Естер,Esther,
 Job,Йов,Job,
-moses2,1593 по 1473 р. До н.е. - 120 років,1593 to 1473 B.C.E. – 120 years,
+moses2,1593 по 1473 р. до н. е. - 120 років,1593 to 1473 B.C.E. – 120 years,
 moses3,Мойсей,Moses,
-wilderness,Ізраїль у пустелі 1513 по 1473 рр. До н.е. - 40 років,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,
-timespan_judges,1473 по 1117 рр. До н.е. - 356 років,1473 to 1117 B.C.E. – 356 years,
+wilderness,Ізраїль у пустелі 1513 по 1473 рр. до н. е. - 40 років,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,
+timespan_judges,1473 по 1117 рр. до н. е. - 356 років,1473 to 1117 B.C.E. – 356 years,
 timespan_judges2,Час суддів,Time of the judges,
-temple1,Nisan 1513 B.C.E. до ZIV 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,
+temple1,Nisan 1513 до н. е.. до ZIV 1034 до н. е.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,
 temple2,479 років до будівництва храму - 1 Царі 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE
-69weeks,Ісус охрестив осінь 29 до.е.,Jesus baptized autumn 29 C.E.,
+69weeks,Ісус охрестив осінь 29 н. е.,Jesus baptized autumn 29 C.E.,
 69weeks2,69 тижнів до Месії - Даніель 9:25,69 weeks to the Messiah – Daniel 9:25,
 jesus_service,"3,5 роки служби Ісуса, виконував Нісан 14 -го, 33 р.е.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
 jesus_life,Ісус народився 2 до н.е.,Jesus born 2 B.C.E.,
@@ -159,9 +159,9 @@ Claudius,Клавдій,Claudius,Acts 11:28
 Nero,Неро,Nero,
 Galba-Otho-Vitellius,"Гальба, Ото та Вітеллій (рік чотирьох імператорів)","Galba, Otho and Vitellius (Year of the Four Emperors)",
 Vespasian,Веспасіан,Vespasian,
-event_exodus,"Вихід з Єгипту 14 -го, 1513 р. До н.е.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.",
-event_division_kingdom,Відділ Ізраїлю 997 р. До н.е.,Division of Israel 997 BCE,
-event_destruction_samaria,Знищення Самарії 740 р. До н.е. від Ассирії,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
+event_exodus,"Вихід з Єгипту 14 -го, 1513 р. до н. е.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.",
+event_division_kingdom,Відділ Ізраїлю 997 р. до н. е.,Division of Israel 997 BCE,
+event_destruction_samaria,Знищення Самарії 740 р. до н. е. від Ассирії,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
 event_destruction_samaria2,740 B.C.E. від Ассирії,740 B.C.E. by Assyria,was shortened here for 2 lines
 event_destruction_jerusalem1,"Знищення Єрусалиму 607 до н.е. Вавилон, через 390 років після поділу Королівства (Єзекіїль 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",
 event_temple_rebuilt,Храм в Єрусалимі перебудований 515 до н.е.,Temple in Jerusalem rebuilt 515 B.C.E.,
@@ -196,27 +196,27 @@ jw_broadcasting,Початок JW Broadcasting® у жовтні 2014 року,S
 meeting_workbook,"Новий формат зустрічі в середині тижні з ""Робота з зустрічі"", починаючи з січня 2016 року",New format of midweek meeting with “Meeting Workbook” starting January 2016,
 covid19,COVID 19,Covid-19,
 cold_war,"Геополітична ситуація позначена ""Холодна війна"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991,
-timeline_created,"Ця часова шкала створена в 2023 році, найгарячіший рік в історії людства та останні 125 000 років","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
+timeline_created,"Ця часова шкала створена 2023, найгарячіший рік в історії людства та останні 125 000 р.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
 codex_sinaiticus,Codex sinaiticus написаний,Codex Sinaiticus written,
 codex_vaticanus,Codex vaticanus написано,Codex Vaticanus written,
 leningrad_codex,"Leningrad Codex, написаний у Каїрі AD 1008",Leningrad Codex written in Cairo AD 1008,
 john,"Джон пише ""Об'явлення"", засланий на Patmos 96-98 C.E.",John writes “revelation” while exiled on Patmos 96-98 C.E.,
 nicaea1,Перша рада Нікеї,First Council of Nicaea,
-buddha,Будда-Siddhartha Gautama C.563-C.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,
+buddha,Будда-Siddhartha Gautama C.563-C.483 до н. е.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,
 buddha2,Будда альтернативно c. 480-400 до н.е.,Buddha alternatively c. 480-400 B.C.E.,
 mohammed,Мохаммед c. 570-632 C.E.,Mohammed c. 570-632 C.E.,
-confucius,Confucius C.551-C.479 B.C.E.,Confucius c.551-c.479 B.C.E.,
+confucius,Confucius C.551-C.479 до н. е.,Confucius c.551-c.479 B.C.E.,
 hijrah,Hijrah - Подорож Мекка до Медіни 16 липня 622,Hijrah - Journey Mecca to Medina 16 July 622,
 moses_escape,"1553 р. B.C.E. Мойсей повинен уникнути Єгипту - Вихід 2:15, Дії 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",
 10plagues,1513 р. До н.е. Єгипет отримує 10 чум,1513 B.C.E Egypt receives 10 plagues,
 joseph_sold,Йосиф продав як раба у віці 17 років - Ген 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2,
 infliction,400 років заподіяння (Дії 7: 6) - Ізмаїл 1913 р. До н.е.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,
 Alexander,Олександр Великий (Даніель 11: 3),Alexander the Great (Daniel 11:3),
-persia,"Cyrus The Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (чоловік Естер, Даніель 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",
+persia,"Cyrus The Great, Cambyses II, Darius I 490 до н. е., Xerxes I 480 до н. е. (чоловік Естер, Даніель 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",
 persia2,Персія,Persia,
 king_north,"Seleucus I Nicator (V5) Сирія до Антіоха III (V10) та Seleucus IV (V18, 19) аж до Октавіана (V20) та Тіберія (V21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",
 king_north1,Король Півночі,King of the North,
-king_south,"Птолемея I, II, III, IV (V11, 12), V (V15, 16) до бойового акту 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",
+king_south,"Птолемея I, II, III, IV (V11, 12), V (V15, 16) до бойового акту 31 до н. е.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",
 king_south1,Король Півдня,King of the South,
 king_south2,"Британська імперія 1870, англо-американська світова влада з 1914 року","British Empire 1870, Anglo-American World Power since 1914",
 king_south3,Король Півдня,King of the South,
@@ -287,8 +287,8 @@ Tebah,Тева́х,Tebah,Genesis 22:24
 Gaham,Гаха́м,Gaham,
 Tahash,Таха́ш,Tahash,
 Maacah,Маа́ху,Maacah,
-Mahalath,Махалат/,Mahalath/,"Genesis 28:8, 9"
-Basemath,Основний,Basemath,"Genesis36:3, 4"
+Mahalath,Махала́т/,Mahalath/,"Genesis 28:8, 9"
+Basemath,Оголіва́ма,Basemath,"Genesis 36:3, 4"
 Reuel,Реуї́л,Reuel,"36:13, 17"
 Nahath,Наха́т,Nahath,
 Zerah,Зера́х,Zerah,
@@ -306,36 +306,36 @@ Amalek,Амали́к,Amalek,
 Oholibamah,Оголіва́ма,Oholibamah,"36:14, 18"
 Jeush,Єу́ш,Jeush,
 Jalam,Яла́м,Jalam,
-Nebaioth,Нечітка,Nebaioth,Genesis 25:13
-Kedar,Кедар,Kedar,
-Adbeel,Adbeel,Adbeel,
-Mibsam,Мібсам,Mibsam,
-Mishma,Мішма,Mishma,
-Dumah,Дума,Dumah,
-Massa,Масса,Massa,
-Hadad,Хадад,Hadad,
-Tema,Тема,Tema,
-Jetur,Струмінь,Jetur,
-Naphish,Накопичуватися,Naphish,
-Kedemah,Кедемах,Kedemah,
+Nebaioth,Невайо́т,Nebaioth,Genesis 25:13
+Kedar,Кеда́р,Kedar,
+Adbeel,Адбеї́л,Adbeel,
+Mibsam,Мівса́м,Mibsam,
+Mishma,Мı́шма,Mishma,
+Dumah,Ду́ма,Dumah,
+Massa,Ма́сса,Massa,
+Hadad,Гада́д,Hadad,
+Tema,Те́ма,Tema,
+Jetur,Єту́р,Jetur,
+Naphish,Нафı́ш,Naphish,
+Kedemah,Ке́дма,Kedemah,
 Babylon2,,,no text left and right – empty!
 terahfam,Члени родини Тера,Members of Terah’s family,
-rosetta,Rosetta Stone 196 B.C.E.,Rosetta stone 196 B.C.E.,
-Herodotus,"Herodotus c. 484 - c. 425 р. До н.е., пише історії","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
-Aristotle,Арістотель 384 - 322 р. До н.е.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
-Ptolemy,Ptelomem c 100 - c. 170 C.E.,Ptolemy c 100 – c. 170 C.E.,
-Pythagoras,Pythagoras c. 570 - c. 495 р. До н.,Pythagoras c. 570 – c. 495 BC,
-Plato,Платон c. 427 - c. 348 р. До н.,Plato c. 427 – c. 348 BC,
-Socrates,Сократ c. 470 - c. 399 р. До н.,Socrates c. 470 – c. 399 BC,
-Josephus,Йосиф c. 37 - c. 100 до.е.,Josephus c. 37 – c. 100 C.E.,
-Cicero,Цицерон 106–43 до н.е.,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
-lachish_letters,Ліші листи c. 590 B.C.E.,Lachish letters c. 590 B.C.E.,
-lachish_reliefs,Лахіші рельєфи c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E.,
-mesha_stele,Mesha Stele (моабітський камінь) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6
+rosetta,Розетський камінь 196 до н. е.,Rosetta stone 196 B.C.E.,
+Herodotus,"Геродот c. 484 - c. 425 р. до н. е., пише історії","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
+Aristotle,Арістотель 384 - 322 р. до н. е.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
+Ptolemy,Клавдій Птолемей c 100 - c. 170 н. е.,Ptolemy c 100 – c. 170 C.E.,
+Pythagoras,Pythagoras c. 570 - c. 495,Pythagoras c. 570 – c. 495 BC,
+Plato,Платон c. 427 - c. 348 р. до н. е.,Plato c. 427 – c. 348 BC,
+Socrates,Сократ c. 470 - c. 399 р. до н. е.,Socrates c. 470 – c. 399 BC,
+Josephus,Йосип Флавій бл. 37 - бл. 100 н. е.,Josephus c. 37 – c. 100 C.E.,
+Cicero,Цицерон 106–43,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
+lachish_letters,Ліші листи бл. 590 до н. е.,Lachish letters c. 590 B.C.E.,
+lachish_reliefs,Лахіші рельєфи бл. 681 до н. е.,Lachish reliefs c. 681 B.C.E.,
+mesha_stele,Стела Меша (моабітський камінь) бл. 840 до н. е.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6
 gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
-epic_gilgamesh,ЕПІК ГІЛГАМЕШ (SON-LēQI-UNNINNI),Epic of Gilgamesh (Sîn-lēqi-unninni),
-oxyrhynchus,Oxyrhynchus papyri,Oxyrhynchus Papyri,
-p52,Papyrus p52,Papyrus P52,
+epic_gilgamesh,Епос про Гільгамеша,Epic of Gilgamesh (Sîn-lēqi-unninni),
+oxyrhynchus,Оксіринхські папіруси,Oxyrhynchus Papyri,
+p52,Папірус P52,Papyrus P52,
 daniel2_shift,10,10,Start 4.2
 daniel2_1,Цар Навуходоносор,King Nebuchadnezzar,607 BCE
 daniel2_2,знищує Єрусалим,destroys Jerusalem,appendix B9
@@ -365,16 +365,16 @@ Copernicus,Ніколаус Коперник,Nicolaus Copernicus,
 Galileo,Галілей Галілей,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei
 Newton,Ісаак Ньютон,Isaac Newton,
 gregorian,Грегоріанський календар 1582,Gregorian calendar 1582,
-shang-dynasty,c. 1600-1046 рр. До н.,c. 1600-1046 BC,
-western-zhou,c. 1046-771 рр. До н.,c. 1046-771 BC,
-eastern-zhou,770-256 р. До н.е.,770-256 BC,
-qin-dynasty,QIN 221-207 р. До н.е.,Qin 221-207 BC,
-western-han,207 р. До н.е. - 9 н.е.,207 BC – 9 CE,
-eastern-han,25-220 рр. Н.е.,25-220 CE,
-three-kingdoms,Три королівства 220-280 CE,Three kingdoms 220-280 CE,
-sixteen-kingdoms,Шістнадцять королівств 304-439 CE,Sixteen kingdoms 304-439 CE,
-northern-dynasties,368-581 CE,368-581 CE,
-southern-dynasties,420-589 CE,420-589 CE,
+shang-dynasty,c. 1600-1046 рр. до н. е.,c. 1600-1046 BC,
+western-zhou,c. 1046-771 рр. до н. е.,c. 1046-771 BC,
+eastern-zhou,770-256 р. до н. е.,770-256 BC,
+qin-dynasty,QIN 221-207 р. до н. е.,Qin 221-207 BC,
+western-han,207 р. до н. е. - 9 н.е.,207 BC – 9 CE,
+eastern-han,25-220 рр. н.е.,25-220 CE,
+three-kingdoms,Три королівства 220-280 н.е.,Three kingdoms 220-280 CE,
+sixteen-kingdoms,Шістнадцять королівств 304-439 Cн.е.,Sixteen kingdoms 304-439 CE,
+northern-dynasties,368-581 н.е.,368-581 CE,
+southern-dynasties,420-589 н.е.,420-589 CE,
 tang-dynasty1,,,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
 wu-zhou,690-705 Ву Чжоу,690-705 Wu Zhou,
@@ -389,8 +389,8 @@ northern-dynasties_c,Північні династій,Northern dynasties,368-58
 southern-dynasties_c,Південні династій,Southern dynasties,420-589 CE
 tang-dynasty1_c,Дерен,Tang,
 tang-dynasty2_c,Династія Тан,Tang dynasty,"618-690, 705-907"
-xia-dynasty,Династія Ся в Китаї c. 2070 - c. 1600 р. До н.,Xia dynasty in China c. 2070 – c. 1600 BC,
-gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC,
+xia-dynasty,Династія Ся в Китаї c. 2070 - c. 1600 р. до н. е.,Xia dynasty in China c. 2070 – c. 1600 BC,
+gonghe,Gonghe Regency 841-828 до н. е.,Gonghe Regency 841-828 BC,
 Ashoka,Ашока (бл. 304-232 р. До н.е.) сприяє буддизму,Ashoka (c. 304-232 BC) promotes Buddhism,
 siloam-tunnel,Єзекія розширює силоам -тунель,Hezekiah extends Siloam tunnel,c. 742-732 BC
 Angloamerica2,"Англо-американець символізується ногами заліза, змішаним з глиною в пророцтві в Даниїлі 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",
@@ -413,14 +413,14 @@ world_population,Всесвітнє населення в мільярдах з�
 1914CE,1914—1918,1914-1918 C.E.,after the year
 khmer_empire,804 - 1431 р.,804 – 1431 C.E.,
 khmer_empire_c,Кхмерська імперія - період Ангкор,Khmer Empire - Angkor period,
-byzantine_empire,330-1453 C.E.,330-1453 C.E.,
+byzantine_empire,330-1453 н. е.,330-1453 C.E.,
 byzantine_empire_c,Візантійська імперія,Byzantine Empire,
-ottoman_empire,1299 - 1922 рр.,1299 – 1922 C.E.,
+ottoman_empire,1299 - 1922 рр. н. е.,1299 – 1922 C.E.,
 ottoman_empire_c,Османська імперія,Ottoman Empire,
-holy_roman_empire,800 - 924 C.E.,800 – 924 C.E.,
+holy_roman_empire,800 - 924 н. е.,800 – 924 C.E.,
 holy_roman_empire2,962 - 1806 рр.,962 – 1806 C.E.,fixed 2024-12-31
 holy_roman_empire_c,Свята Римська імперія - відома як Свята Римська імперія німецької нації після 1512 року,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,
-mongol_empire,Монгольська імперія 1206 - 1294 C.E.,Mongol Empire 1206 – 1294 C.E.,
+mongol_empire,Монгольська імперія 1206 - 1294 н. е.,Mongol Empire 1206 – 1294 C.E.,
 Genghis,Гінгіс Хан,Genghis Khan,
 maya_classic,250-950,250-950,
 maya_classic_c,Майя Цивілізація - Класичний період,Maya civilization – Classic period,
@@ -428,16 +428,16 @@ maya_postclassic,950-1539,950-1539,
 maya_postclassic_c,Цивілізація майя - посткласичний період,Maya civilization – Postclassic period,
 inca_empire,1438 - 1533 рр.,1438 – 1533 C.E.,
 inca_empire_c,Імперія Інка,Inca empire,
-gupta_empire,319 - 550 C.E.,319 – 550 C.E.,
+gupta_empire,319 - 550 н. е.,319 – 550 C.E.,
 gupta_empire_c,Імперія Гупта,Gupta Empire,
-Teotihuacan,"Найбільше місто в Америці, піраміди будують c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.",
+Teotihuacan,"Найбільше місто в Америці, піраміди будують c. 200 н. е.","Largest city in the Americas, pyramids build c. 200 C.E.",
 Teotihuacan_c,Теотіуакан,Teotihuacan,
 Dionysius_Exiguus,"Діонісій Енгуус, винахідник Анно Доміні","Dionysius Exiguus, inventor of Anno Domini",
-Umayyad,661 - 750 C.E.,661 – 750 C.E.,
+Umayyad,661 - 750 н. е.,661 – 750 C.E.,
 Umayyad_c,Умейяд,Umayyad,
-Abbasid,750 - 1258 C.E.,750 – 1258 C.E.,
+Abbasid,750 - 1258 н. е.,750 – 1258 C.E.,
 Abbasid_c,Аббасідний халіфат,Abbasid Caliphate,
-Mamluk,1250 - 1517 рр.,1250 – 1517 C.E.,
+Mamluk,1250 - 1517 н. е.,1250 – 1517 C.E.,
 Mamluk_c,Мамлюк султанат,Mamluk Sultanate,
 ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠,
 hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,
@@ -453,12 +453,12 @@ Midian,Мідіан,Midian,
 Ishbak,Ішбак,Ishbak,
 Shuah,Шуа,Shuah,
 Timna,Тімна,Timna,"1 Chr 1:36, Ge 36:10-12"
-Midianites,"1) Мадіанії: числа 31: 2, 3","1) Midianites: Numbers 31:2, 3",
-Moabites,"2) Моабіт: Второзаконня 23: 3, 4","2) Moabites: Deuteronomy 23:3, 4",
-Ammonites,3) Аммоніти: Джошуа 12: 2,3) Ammonites: Joshua 12:2,
-Edomites,4) едомити: числа 20: 14-17,4) Edomites: Numbers 20:14-17,
-Temanites,5) Теманіти: робота 42: 7,5) Temanites: Job 42:7,
-Amalekites,6) Амалекіт: 1 Самуїл 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29
+Midianites,"1) Мадіанії: Числа 31:2, 3","1) Midianites: Numbers 31:2, 3",
+Moabites,"2) Моабіт: Второзаконня 23:3, 4","2) Moabites: Deuteronomy 23:3, 4",
+Ammonites,3) Аммоніти: Джошуа 12:2,3) Ammonites: Joshua 12:2,
+Edomites,4) Едомити: Числа 20:14-17,4) Edomites: Numbers 20:14-17,
+Temanites,5) Теманіти: Йов 42:7,5) Temanites: Job 42:7,
+Amalekites,6) Амалекіт: 1 Самуїл 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29
 life-expectancy,Тривалість життя 75 років,Life expectancy 75 years,
 life-expectancy2,(Псалом 90:10),(Psalm 90:10),2024-11-29
 430years,1943 - 1513 рр. B.C.E.,1943 – 1513 B.C.E.,
@@ -475,75 +475,75 @@ king_north_light_c,Король Півночі від Даніеля 11,King of 
 daniel2_iron,,,2025-02-05
 daniel2_iron_c,Залізні ноги з Даніеля 2,Iron legs from Daniel 2,2025-02-05
 wulfila,Вульфіла Біблія,Wulfila Bible,2025-09-20
-argenteus,Codex argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible
+argenteus,Срі́бний ко́декс (Codex argenteus) c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible
 tran_dynasty,1225 - 1400,1225 – 1400,
 tran_dynasty_c,Династія Трầн,Trần dynasty,
-le_dynasty,1428 - 1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ
-le_dynasty_c,Династія Л.,Lê dynasty,
+le_dynasty,1428 – 1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ
+le_dynasty_c,Династія Lê,Lê dynasty,
 revival_le_dynasty,1533-1789,1533-1789,
 revival_le_dynasty_c,Відродження династії Lê,Revival Lê dynasty,Nhà Lê trung hưng
-nguyen_dynasty,1802 - 1883,1802 – 1883,
-nguyen_dynasty_c,Нгуйн,Nguyễn,2025-09-20
-edo,1603 - 1868,1603 – 1868,
-edo_c,Період Едо в Японії,Edo period in Japan,
-meiji,1868 - 1912,1868 – 1912,
+nguyen_dynasty,1802 – 1883,1802 – 1883,
+nguyen_dynasty_c,Нгуєн,Nguyễn,2025-09-20
+edo,1603 – 1868,1603 – 1868,
+edo_c,Період Едо (сьоґунату Токуґава),Edo period in Japan,
+meiji,1868 – 1912,1868 – 1912,
 meiji_c,Мейдзі,Meiji,2025-09-20
-Ham,Шинка,Ham,Gen 10:1
-Canaan,Ханаан,Canaan,Gen 10:6
-Sidon,Сідон,Sidon,Gen 10:15
-Heth,Гет,Heth,Gen 10:15
-Jebusite,Джебузіт,Jebusite,Gen 10:16
-Amorite,Аморит,Amorite,Gen 10:16
-Girgashite,Гіргашит,Girgashite,Gen 10:16
-Hivite,Віруючий,Hivite,Gen 10:17
-Arkite,Аркіт,Arkite,Gen 10:17
-Sinite,Синіт,Sinite,Gen 10:17
-Arvadite,Арвадіт,Arvadite,Gen 10:18
-Zemarite,Zemarite,Zemarite,Gen 10:18
-Hamathite,Хаматіт,Hamathite,Gen 10:18
-Cush,Клич,Cush,Gen 10:6
-Nimrod,Німрод,Nimrod,Gen 10:8
-Mizraim,Мізраїм,Mizraim,Gen 10:14
+Ham,Ха́м,Ham,Gen 10:1
+Canaan,Ханаа́н,Canaan,Gen 10:6
+Sidon,Сидо́н,Sidon,Gen 10:15
+Heth,Хет,Heth,Gen 10:15
+Jebusite,євусея́ни,Jebusite,Gen 10:16
+Amorite,аморея́ни,Amorite,Gen 10:16
+Girgashite,гіргашея́ни,Girgashite,Gen 10:16
+Hivite,хіввея́ни,Hivite,Gen 10:17
+Arkite,аркія́ни,Arkite,Gen 10:17
+Sinite,сінея́ни,Sinite,Gen 10:17
+Arvadite,арвадя́ни,Arvadite,Gen 10:18
+Zemarite,цемаритя́ни,Zemarite,Gen 10:18
+Hamathite,хаматя́ни,Hamathite,Gen 10:18
+Cush,Куш,Cush,Gen 10:6
+Nimrod,Нı́мрод,Nimrod,Gen 10:8
+Mizraim,Міцраї́м,Mizraim,Gen 10:14
 Casluh,Каслух,Casluh,1 Chronicles 1:12 (Philistines)
-Japheth,Яфет,Japheth,Gen 10:3
-Asshur,Асшур,Asshur,Gen 10:22
-Lud,Лат,Lud,Gen 10:22
-Aram,Аррам,Aram,Gen 10:22
-Elam,Елам,Elam,Gen 10:22
-Joktan,Джоктан,Joktan,Gen 10:26
-Almodad,Альмодад,Almodad,Gen 10:26
-Sheleph,Шліф,Sheleph,Gen 10:26
-Hazarmareth,Хазармарет,Hazarmareth,Gen 10:26
-Jerah,Єра,Jerah,Gen 10:26
-Hadoram,Хадорам,Hadoram,Gen 10:27
-Uzal,Узал,Uzal,Gen 10:27
-Diklah_Obal,"Дікла, Обал","Diklah, Obal",Gen 10:27
-Abimael,Абімуель,Abimael,Gen 10:28
-Sheba_Ophir,"Шеба, Офір","Sheba, Ophir","Gen 10:28, 29"
-Havilah,Хавіла,Havilah,Gen 10:29
-Jobab,Ваканка,Jobab,Gen 10:29
-Korah_Gatam,"Кора, Гатам","Korah, Gatam",303 and 304
-Adbeel_Mibsam,"Adbeel, mibsam","Adbeel, Mibsam",311 and 312
-Dumah_Massa,"Дума, Масса","Dumah, Massa",314 and 315
-Ham_fn,1) Єгиптяни: Псалми 105: 23,1) Egyptians: Psalms 105:23,2025-09-22
-Canaan_fn,2) Ханаанітяни: Джошуа 13: 3,2) Canaanites: Joshua 13:3,2025-09-22
+Japheth,Яфе́т,Japheth,Gen 10:3
+Asshur,Ашшу́р,Asshur,Gen 10:22
+Lud,Луд,Lud,Gen 10:22
+Aram,Ара́м,Aram,Gen 10:22
+Elam,Ела́м,Elam,Gen 10:22
+Joktan,Йокта́н,Joktan,Gen 10:26
+Almodad,Алмода́д,Almodad,Gen 10:26
+Sheleph,Шеле́ф,Sheleph,Gen 10:26
+Hazarmareth,Хацармаве́т,Hazarmareth,Gen 10:26
+Jerah,Єра́х,Jerah,Gen 10:26
+Hadoram,Гадора́м,Hadoram,Gen 10:27
+Uzal,Уза́л,Uzal,Gen 10:27
+Diklah_Obal,"Ди́кла, Ова́л","Diklah, Obal",Gen 10:27
+Abimael,Авімаї́л,Abimael,Gen 10:28
+Sheba_Ophir,"Ше́ва, Офı́р","Sheba, Ophir","Gen 10:28, 29"
+Havilah,Хавı́ла,Havilah,Gen 10:29
+Jobab,Йова́в,Jobab,Gen 10:29
+Korah_Gatam,"Коре́й, Гата́м","Korah, Gatam",303 and 304
+Adbeel_Mibsam,"Адбеї́л, Мівса́м","Adbeel, Mibsam",311 and 312
+Dumah_Massa,"Ду́ма, Ма́сса","Dumah, Massa",314 and 315
+Ham_fn,1) Єгиптяни: Псалми 105:23,1) Egyptians: Psalms 105:23,2025-09-22
+Canaan_fn,2) Ханаанітяни: Джошуа 13:3,2) Canaanites: Joshua 13:3,2025-09-22
 Aram_fn,3) Арамейці: Осія 12:12,3) Arameans: Hosea 12:12,2025-09-22
-Elam_fn,4) Еламіт: Езра 4: 9,4) Elamites: Ezra 4:9,2025-09-22
+Elam_fn,4) Еламіт: Езра 4:9,4) Elamites: Ezra 4:9,2025-09-22
 Asshur_fn,5) Ассирійці: Єзекіїль 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22
 Casluh_fn,6) Филістин: 1 Хроніки 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22
-Cush_fn,7) Ефіопський [Кушит]: 2 Царі 19: 9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22
-Edom_fn,8) едомити: числа 20: 14-17,8) Edomites: Numbers 20:14-17,same as 459
-Moab_fn,"9) Моабіт: Второзаконня 23: 3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457
-Ammon_fn,10) Аммоніти: Джошуа 12: 2,10) Ammonites: Joshua 12:2,same as 458
-Midian_fn,"11) Мадіанії: числа 31: 2, 3","11) Midianites: Numbers 31:2, 3",same as 456
-Amalek_fn,12) Амалекіт: 1 Самуїл 15: 2,12) Amalekites: 1 Samuel 15:2,same as 461
-Teman_fn,13) Теманіти: робота 42: 7,13) Temanites: Job 42:7,same as 460
-Sidon_fn,14) Сідонці: Захарія 9: 2,14) Sidonians: Zechariah 9:2,2025-09-22
+Cush_fn,7) Ефіопський [Кушит]: 2 Царі 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22
+Edom_fn,8) Едомити: числа 20:14-17,8) Edomites: Numbers 20:14-17,same as 459
+Moab_fn,"9) Моабіт: Второзаконня 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457
+Ammon_fn,10) Аммоніти: Ісуса Навина 12:2,10) Ammonites: Joshua 12:2,same as 458
+Midian_fn,"11) Мадіанії: Числа 31:2, 3","11) Midianites: Numbers 31:2, 3",same as 456
+Amalek_fn,12) Амалекіт: 1 Самуїл 15:2,12) Amalekites: 1 Samuel 15:2,same as 461
+Teman_fn,13) Теманіти: Йов 42:7,13) Temanites: Job 42:7,same as 460
+Sidon_fn,14) Сідонці: Захарія 9:2,14) Sidonians: Zechariah 9:2,2025-09-22
 Heth_fn,15) Хетти: Буття 15:20,15) Hittites: Genesis 15:20,2025-09-22
-Jebusite_fn,16) Єбузити: Джошуа 15:63,16) Jebusites: Joshua 15:63,2025-09-22
-Judith,Джудіт?,Judith?,"Genesis 26:34, 35"
-Lud_fn,17) Лідіани: 1 Хроніки 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]"
+Jebusite_fn,16) Єбузити: Ісуса Навина 15:63,16) Jebusites: Joshua 15:63,2025-09-22
+Judith,Єгуди́т?,Judith?,"Genesis 26:34, 35"
+Lud_fn,17) Лідіани: 1 Хронік 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]"
 Ishmael_fn,18) Ізмаеліти: Буття 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22
 Amorite_fn,19) Аморити: Судді 6:10,19) Amorites: Judges 6:10,2025-09-22
-Hivite_fn,"20) Вівіт [gibeon]: Джошуа 9: 3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites
-american_civil_war,Американська громадянська війна 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865"
+Hivite_fn,"20) Хіввея́ни [Гіво́н]: Ісуса Навина 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites
+american_civil_war,Громадянська війна США 1861-65,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865"
