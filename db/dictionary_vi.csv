@@ -1,7 +1,7 @@
 key,text,english,notes
-version,5.8,5.8,
-pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,2025-08-01
-pdf_subject,Dòng thời gian của loài người,Timeline of humankind,5.8
+version,5.9,5.9,
+pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,2025-10-07
+pdf_subject,Dòng thời gian của loài người,Timeline of humankind,5.9
 BCE,TCN,B.C.E.,appendix B9
 CE,CN,C.E.,
 year,năm,year,"timespan, age (Adam was 130 years old when Shem was born)"
@@ -48,7 +48,7 @@ Moses,Môi-se,Moses,
 Othniel,Ốt-ni-ên,Othniel,Judges 3:9-11
 Ehud,Ê-hút,Ehud,Judges 3:15-18
 Shamgar,Sam-ga,Shamgar,Judges 3:31
-Barak,Ba-rác,Barak,Judges 4:6
+Barak,"Ba-rác, Đê-bô-ra, Gia-ên","Barak, Deborah, Jael",Judges 4:6
 Gideon,Ghi-đê-ôn,Gideon,Judges 7:1
 Tola,Thô-la,Tola,Judges 10:1
 Jair,Giai-rơ,Jair,Judges 10:3
@@ -129,9 +129,9 @@ timespan_judges,1473 đến 1117 TCN – 356 năm,1473 to 1117 B.C.E. – 356 ye
 timespan_judges2,Thời gian của Quan xét,Time of the judges,
 temple1,Ni-san 1513 TCN đến Xi-u 1034 TCN,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,
 temple2,479 năm mới xây dựng đền – 1 Các vua 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE
-69weeks,Chúa Giê-su làm báp-têm vào mùa thu năm 29 CN,Jesus baptized autumn 29 C.E.,
+69weeks,Giê-su báp-têm mùa thu 29 CN,Jesus baptized autumn 29 C.E.,
 69weeks2,69 tuần cho đến lúc Đấng Mê-si – Đa-ni-ên 9:25,69 weeks to the Messiah – Daniel 9:25,
-jesus_service,"3,5 năm Chúa Giê su làm thánh chức trên đất, bị xử tử vào ngày 14 Ni-san năm 33 CN.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
+jesus_service,"3,5 năm phục vụ Giê-su, được thực hiện 14 Ni-san 33 CN","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
 jesus_life,Chúa Giê-su sinh năm 2 TCN,Jesus born 2 B.C.E.,
 exile,70 năm Dân Y-sơ-ra-ên bị lưu đày tại Ba-by-lon (607 - 537 TCN) (Giê-rê-mi 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),
 exile2,lưu đày,Exile,
@@ -150,7 +150,7 @@ missionary2,Chuyến hành trình truyền giáo thứ hai của Phao-lô c. 49-
 missionary3,Chuyến hành trình truyền giáo thứ ba của Phao-lô c. 52-56 CN,Third Missionary Journey c. 52-56 C.E.,
 caesarea,Phao-lô bị giam ở Sê-sa-rê c. 56-58 CN,Paul in custody in Caesarea c. 56-58 C.E.,
 rome1,Phao-lô bị tù lần đầu ở Rô-ma c. 59-61 CN,Paul’s first imprisonment in Rome c. 59-61 C.E.,
-rome2,"Phao-lô bị tù lần thứ hai ở Rô-ma c. 65 CN, 2 Ti-mô-thê được viết, Phao-lô bị xử tử","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",
+rome2,"Phao-lô bị tù lần thứ hai ở Rô-ma c. 65 CN, 2 Ti-mô-thê được viết, Phao-lô bị xử tử","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed",
 Julius,Sê-sa Giu-lơ (Julius),Julius,
 Augustus,Au-gút-tơ (Augustus),Augustus,Luke 2:1
 Tiberius,Ti-be-rơ (Tiberius),Tiberius,Luke 3:1
@@ -229,7 +229,7 @@ time_of_end2,Ngày cuối cùng,Last days,
 suryavaman2,Vua Suryavarman II xây dựng Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
 notre-dame,Nhà thờ Đức Bà Paris được xây dựng 1163-1260,Notre-Dame de Paris built 1163-1260,
 jehoiada,Giê-hô-gia-đa,Jehoiada,2 Kings 11:4
-babel,Tháp Babel được xây dựng,Tower of Babel built,
+babel,Tháp Ba-bên được xây dựng,Tower of Babel built,
 Haggai,Ha-gai,Haggai,
 Zerubbabel,Xô-rô-ba-bên (Lu-ca 3:27),Zerubbabel (Luke 3:27),Luke 3:27
 Babylon,"Đa-ni-ên 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",
@@ -338,7 +338,7 @@ oxyrhynchus,Giấy cói Oxyrhynchus,Oxyrhynchus Papyri,
 p52,Thư viện Rylands Giấy cói P52,Papyrus P52,
 daniel2_shift,-10,-10,Start 4.2
 daniel2_1,Vua Nê-bu-cát-nết-xa,King Nebuchadnezzar,607 BCE
-daniel2_2,hủy diệt Giê-ru-sa-lem,destroys Jerusalem,
+daniel2_2,hủy diệt Giê-ru-sa-lem,destroys Jerusalem,appendix B9
 daniel2_3,Chinh phục Ba-by-lôn,Conquers Babylon,539 BCE
 daniel2_4,Si-ru ban chiếu chỉ cho dân,Cyrus decrees return,537 BCE
 daniel2_5,Do Thái trở về Giê-ru-sa-lem,of Jews to Jerusalem,
@@ -403,7 +403,7 @@ annointed,Những tín đồ được xức dầu còn sót lại sẽ được 
 armageddon,"Trận chiến Ha-ma-ghê-đôn (Khải huyền 16:14, 16; Ê-sai 13:9; 2 Phi-e-rơ 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things
 millenium,"Nước Đức Chúa Trời bắt đầu trị vì 1.000 năm (Khải Huyền 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
 great_crowd,"Một đám đông sống sót sau Ha-ma-ghê-đôn (Khải huyền 7:9, 14; Thi thiên 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
-world_population,Dân số thế giới tính theo tỷ người trong 2000 năm qua,World population in billions in the last 2000 years,
+world_population,Dân số thế giới tính theo tỷ người trong 2000 năm qua,World population in billions in the last 2000 years,appendix B9
 607BCE,607 TCN,607 B.C.E.,accommodate for language
 539BCE,539 TCN,539 B.C.E.,systems in style:
 537BCE,537 TCN,537 B.C.E.,>>year 537 before time<<
@@ -474,3 +474,77 @@ king_north_light,,,2025-02-05
 king_north_light_c,Vua phương Bắc từ Đa-ni-ên 11,King of the North from Daniel 11,2025-02-05
 daniel2_iron,,,2025-02-05
 daniel2_iron_c,Chân sắt từ Daniel 2,Iron legs from Daniel 2,2025-02-05
+wulfila,Kinh thánh Wulfila,Wulfila Bible,2025-09-20
+argenteus,Codex argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible
+tran_dynasty,1225 – 1400,1225 – 1400,
+tran_dynasty_c,Triều đại Nhà Trần,Trần dynasty,
+le_dynasty,1428 – 1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ
+le_dynasty_c,Nhà Hậu Lê,Lê dynasty,
+revival_le_dynasty,1533-1789,1533-1789,
+revival_le_dynasty_c,Nhà Lê trung hưng,Revival Lê dynasty,Nhà Lê trung hưng
+nguyen_dynasty,1802 – 1883,1802 – 1883,
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20
+edo,1603 – 1868,1603 – 1868,
+edo_c,Thời kỳ Edo (Mạc phủ Tokugawa),Edo period in Japan,
+meiji,1868 – 1912,1868 – 1912,
+meiji_c,Meiji,Meiji,2025-09-20
+Ham,Cham,Ham,Gen 10:1
+Canaan,Ca-na-an,Canaan,Gen 10:6
+Sidon,Si-đôn,Sidon,Gen 10:15
+Heth,Hếch,Heth,Gen 10:15
+Jebusite,dân Giê-bu,Jebusite,Gen 10:16
+Amorite,A-mô-rít,Amorite,Gen 10:16
+Girgashite,Ghi-rê-ga-sít,Girgashite,Gen 10:16
+Hivite,Hê-vít,Hivite,Gen 10:17
+Arkite,A-rê-kít,Arkite,Gen 10:17
+Sinite,Si-nít,Sinite,Gen 10:17
+Arvadite,A-vát,Arvadite,Gen 10:18
+Zemarite,Xê-ma-rít,Zemarite,Gen 10:18
+Hamathite,Ha-mát,Hamathite,Gen 10:18
+Cush,Cút-sơ,Cush,Gen 10:6
+Nimrod,Nim-rốt,Nimrod,Gen 10:8
+Mizraim,Mích-ra-im,Mizraim,Gen 10:14
+Casluh,Cách-lu-him,Casluh,1 Chronicles 1:12 (Philistines)
+Japheth,Gia-phết,Japheth,Gen 10:3
+Asshur,A-su-rơ,Asshur,Gen 10:22
+Lud,Lút,Lud,Gen 10:22
+Aram,A-ram,Aram,Gen 10:22
+Elam,Ê-lam,Elam,Gen 10:22
+Joktan,Giốc-tan,Joktan,Gen 10:26
+Almodad,A-mô-đát,Almodad,Gen 10:26
+Sheleph,Sê-lép,Sheleph,Gen 10:26
+Hazarmareth,Ha-xa-ma-vết,Hazarmareth,Gen 10:26
+Jerah,Giê-rách,Jerah,Gen 10:26
+Hadoram,Ha-đô-ram,Hadoram,Gen 10:27
+Uzal,U-xan,Uzal,Gen 10:27
+Diklah_Obal,"Điệt-la, Ô-banh","Diklah, Obal",Gen 10:27
+Abimael,A-bi-ma-ên,Abimael,Gen 10:28
+Sheba_Ophir,"Sê-ba, Ô-phia","Sheba, Ophir","Gen 10:28, 29"
+Havilah,Ha-vi-la,Havilah,Gen 10:29
+Jobab,Giô-báp,Jobab,Gen 10:29
+Korah_Gatam,"Cô-rê, Ga-tham","Korah, Gatam",303 and 304
+Adbeel_Mibsam,"Át-bê-ên, Mi-bô-sam","Adbeel, Mibsam",311 and 312
+Dumah_Massa,"Đu-ma, Mác-sa","Dumah, Massa",314 and 315
+Ham_fn,1) Người Ai Cập: Thi thiên 105:23,1) Egyptians: Psalms 105:23,2025-09-22
+Canaan_fn,2) Dân Ca-na-an: Giô-suê 13:3,2) Canaanites: Joshua 13:3,2025-09-22
+Aram_fn,3) Người A-ram: Ô-sê 12:12,3) Arameans: Hosea 12:12,2025-09-22
+Elam_fn,4) Người Ê-lam: Ê-xơ-ra 4:9,4) Elamites: Ezra 4:9,2025-09-22
+Asshur_fn,5) Người A-su-rơ: Ê-xê-chi-ên 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22
+Casluh_fn,6) Người Phi-li-tia: 1 Sư Ký 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22
+Cush_fn,7) Ê-thi-ô-bi [Cút-sơ]: 2 Các vua 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22
+Edom_fn,8) Người Ê-đôm: Dân số ký 20:14-17,8) Edomites: Numbers 20:14-17,same as 459
+Moab_fn,"9) Dân Mô-áp: Phục 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457
+Ammon_fn,10) Người Ê-đôm: Dân số ký 20:14-17,10) Ammonites: Joshua 12:2,same as 458
+Midian_fn,"11) Dân Ma-đi-an: Dân số 31:2, 3","11) Midianites: Numbers 31:2, 3",same as 456
+Amalek_fn,12) Dân A-ma-léc: 1 Sa-mu-ên 15:2,12) Amalekites: 1 Samuel 15:2,same as 461
+Teman_fn,13) Người Thê-man: Gióp 42:7,13) Temanites: Job 42:7,same as 460
+Sidon_fn,14) Người Si-đôn: Xa-cha-ri 9:2,14) Sidonians: Zechariah 9:2,2025-09-22
+Heth_fn,15) Người Hếch: Sáng thế 15:20,15) Hittites: Genesis 15:20,2025-09-22
+Jebusite_fn,16) Dân Giê-bu: Giô-suê 15:63,16) Jebusites: Joshua 15:63,2025-09-22
+Judith,Giu-đi-tha?,Judith?,"Genesis 26:34, 35"
+Lud_fn,17) Người Lút: 1 Sử ký 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]"
+Ishmael_fn,18) Người Ích-ma-ên: Sáng thế 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22
+Amorite_fn,19) Dân A-mô-rít: Quan xét 6:10,19) Amorites: Judges 6:10,2025-09-22
+Hivite_fn,"20) Người Hê-vít [Ga-ba-ôn]: Giô-suê 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites
+american_civil_war,Nội chiến Mỹ 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865"
+aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920,2025-10-03

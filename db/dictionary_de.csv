@@ -1,6 +1,6 @@
 key,text,english,notes
 version,5.9,5.9,5.9
-pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2025-09-24
+pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2025-10-06
 pdf_subject,Zeitleiste der Menschheit,Timeline of humankind,5.9
 BCE,v.u.Z.,B.C.E.,appendix B9
 CE,u.Z.,C.E.,
@@ -48,7 +48,7 @@ Moses,Moses,Moses,
 Othniel,Ọthniël,Othniel,Judges 3:9-11
 Ehud,Ẹhud,Ehud,Judges 3:15-18
 Shamgar,Schạmgar,Shamgar,Judges 3:31
-Barak,Bạrak,Barak,Judges 4:6
+Barak,"Bạrak, Debọra, Jạel","Barak, Deborah, Jael",Judges 4:6
 Gideon,Gịdeon,Gideon,Judges 7:1
 Tola,Tọla,Tola,Judges 10:1
 Jair,Jạir,Jair,Judges 10:3
@@ -481,7 +481,7 @@ tran_dynasty_c,Trần-Dynastie,Trần dynasty,
 le_dynasty,1428 – 1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ
 le_dynasty_c,Lê-Dynastie,Lê dynasty,
 revival_le_dynasty,1533-1789,1533-1789,
-revival_le_dynasty_c,Trịnh-Fürsten und Nguyễn-Fürsten,Revival Lê dynasty,Nhà Lê trung hưng
+revival_le_dynasty_c,Trịnh-Fürsten & Nguyễn-Fürsten,Revival Lê dynasty,Nhà Lê trung hưng
 nguyen_dynasty,1802 – 1883,1802 – 1883,
 nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20
 edo,1603 – 1868,1603 – 1868,
@@ -546,4 +546,5 @@ Lud_fn,17) Lyder: 1 Chronika 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiqui
 Ishmael_fn,18) Ismaelịter: 1. Mose 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22
 Amorite_fn,19) Amorịter: Richter 6:10,19) Amorites: Judges 6:10,2025-09-22
 Hivite_fn,"20) Hiwịter [Gịbeon]: Josua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites
-american_civil_war,Sezessionskrieg 1861-1865,American Civil War,"April 12, 1861 to May 26, 1865"
+american_civil_war,Sezessionskrieg 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865"
+aleppo_codex,Codex von Aleppo ca. 920,Aleppo Codex c. 920,2025-10-03
