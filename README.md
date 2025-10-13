@@ -9,9 +9,9 @@ This [project](https://github.com/kreier/timeline) creates a graph of Human hist
 
 ![timeline 4.6](docs/timeline20240516_4.6.png)
 
-Compare this 4000 year timespan of **v5.9 from 2025** with the same time period in **v1.1 from 2009** (below):
+Compare this 4000 year timespan of **v5.10 from 2025** with the same time period in **v1.1 from 2009** (below):
 
-![timeline 5.9 first 4000 years](docs/timeline20250925_4k.png)
+![timeline 5.10 first 4000 years](docs/timeline20251007_4k.png)
 
 ![timeline 1.1](docs/timeline20230630.png)
 
@@ -198,4 +198,5 @@ Time of 12 Prophets from 850 BCE to 400 BCE
 
 ![2025-01](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250101_5.1.png)
 ![2025-02](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250221_5.2.png)
+![2025-05](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250506_5.5.png)
 ![2025-09](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250925_5.9.png)
