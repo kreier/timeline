@@ -28,7 +28,7 @@ ww1,1914.867,1918.867,9, ,l,10,1914.867,1918.867,TRUE
 ww2,1939.867,1945.439,10, ,l,12,1939.867,1945.439,TRUE
 cold_war,1945,1991,11, ,l,14,1945,1991,TRUE
 john,96,98,15, ,r,,96,98,TRUE
-mohammed,570,632.436,39.6, ,l,570(?)-632 CE,570,632.436,TRUE
+mohammed,570,632.436,38.6, ,l,570(?)-632 CE,570,632.436,TRUE
 persia,-522,-336,29,persia2,r,,-522,-336,TRUE
 king_north_light,1050,1500,28,king_north_light_c,l,,980,1580,FALSE
 king_north,-320,37,28,king_north1,r,,-320,66,TRUE
@@ -76,8 +76,8 @@ ottoman_empire,1299,1922,38.5,ottoman_empire_c,r,,1299,1922,TRUE
 holy_roman_empire,800,924,32, ,l,,800,924,TRUE
 holy_roman_empire2,962,1806,32,holy_roman_empire_c,r,,962,1806,TRUE
 mongol_empire,1206,1294,19, ,l,,1206,1304,TRUE
-maya_classic,250,952,22,maya_classic_c,l,was: 22.1,230,970,TRUE
-maya_postclassic,948,1539,23,maya_postclassic_c,l,was: 23.1,930,1539,TRUE
+maya_classic,250,952,21.95,maya_classic_c,l,was: 22.1,230,970,TRUE
+maya_postclassic,948,1539,22.95,maya_postclassic_c,l,was: 23.1,930,1539,TRUE
 inca_empire,1438,1533,34.3,inca_empire_c,l,,1438,1572,TRUE
 gupta_empire,319,550,20.7,gupta_empire_c,r,,270,550,TRUE
 Teotihuacan,200,550,34.3,Teotihuacan_c,r,,100,750,FALSE
@@ -93,3 +93,9 @@ nguyen_dynasty,1802,1883,39.8,nguyen_dynasty_c,r,,1802,1883,TRUE
 edo,1603,1868,35.4,edo_c,l,,1603,1868,TRUE
 meiji,1868,1912,35.4,meiji_c,r,,1868,1912,TRUE
 american_civil_war,1861.3667,1865.4889,34.3, ,l,,1861.3667,1865.4889,TRUE
+seljuk_empire,1037,1194,20,seljuk_empire_c,l,,1037,1194,TRUE
+vandals,435,534,23.9,vandals_c,r,,435,534,TRUE
+francia,509,843,33.15,francia_c,r,,481,843,FALSE
+lombard,568,774,24.9,lombard_c,r,,568,774,TRUE
+100_years_war,1337,1453,24, ,l,,1337,1453,TRUE
+black_death,1346,1353,9.9, ,l,,1346,1353,TRUE
