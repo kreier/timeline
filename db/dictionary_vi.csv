@@ -1,7 +1,7 @@
 key,text,english,notes
 version,5.9,5.9,
-pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,2025-10-07
-pdf_subject,Dòng thời gian của loài người,Timeline of humankind,5.9
+pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,2025-11-09
+pdf_subject,Dòng thời gian của loài người,Timeline of humankind,5.11
 BCE,TCN,B.C.E.,appendix B9
 CE,CN,C.E.,
 year,năm,year,"timespan, age (Adam was 130 years old when Shem was born)"
@@ -377,7 +377,7 @@ northern-dynasties,368-581 CN,368-581 CE,
 southern-dynasties,420-589 CN,420-589 CE,
 tang-dynasty1,,,
 tang-dynasty2,"618-690, 705-907","618-690, 705-907",
-wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,
+wu-zhou,690-705 Võ Chu,690-705 Wu Zhou,
 shang-dynasty_c,Nhà Thương,Shang dynasty,c. 1600-1046 BC
 western-zhou_c,Tây Chu,Western Zhou,c. 1046-771 BC
 eastern-zhou_c,Đông Chu,Eastern Zhou,770-256 BC
@@ -548,3 +548,15 @@ Amorite_fn,19) Dân A-mô-rít: Quan xét 6:10,19) Amorites: Judges 6:10,2025-09
 Hivite_fn,"20) Người Hê-vít [Ga-ba-ôn]: Giô-suê 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites
 american_civil_war,Nội chiến Mỹ 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865"
 aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920,2025-10-03
+seljuk_empire,1037 – 1194 CN,1037 – 1194 C.E.,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308"
+seljuk_empire_c,Đế quốc Seljuk,Seljuk empire,
+vandals,Vương quốc Vandal và Alan 435 – 534 CN,Kingdom of the Vandals and Alans 435 – 534 C.E.,Vandals 435-534 C.E.
+vandals_c,Vandal,Vandals,
+francia,"c. 481/509 – 843 CN, Vương triều Meroving đến 751, sau đó là Carolingian","c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun
+francia_c,Vương quốc Frank,Kingdom of the Franks,
+lombard,568 – 774 CN,568 – 774 C.E.,Kingdom of the Lombards 568-774
+lombard_c,Vương quốc Lombardia,Lombard Kingdom,2025-10-13
+100_years_war,Chiến tranh Trăm Năm 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453
+black_death,Cái Chết Đen 1346-1353,Black death 1346-1353,1346-1353
+sui_dynasty,581-618 Nhà Tùy,581-618 Sui dynasty,2025-11-09
+sui_dynasty_c,Tùy,Sui,2025-11-09
