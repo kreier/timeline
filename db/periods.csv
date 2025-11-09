@@ -60,8 +60,8 @@ eastern-zhou,-770,-256,43.2,eastern-zhou_c,r,,-770,-256,TRUE
 qin-dynasty,-221,-207,45, ,r,,-221,-207,TRUE
 western-han,-207,9,46,western-han_c,l,,-207,9,TRUE
 eastern-han,25,220,46,eastern-han_c,r,,25,220,TRUE
-three-kingdoms,220,280,40.55,three-kingdoms_c,r,,220,280,TRUE
-sixteen-kingdoms,304,439,41.55,sixteen-kingdoms_c,r,,304,439,TRUE
+three-kingdoms,220,280,40,three-kingdoms_c,r,,220,280,TRUE
+sixteen-kingdoms,304,439,41,sixteen-kingdoms_c,r,,304,439,TRUE
 northern-dynasties,368,581,44.8,northern-dynasties_c,r,,368,581,TRUE
 southern-dynasties,420,589,46,southern-dynasties_c,r,,420,589,TRUE
 tang-dynasty1,618,690,43,tang-dynasty1_c,r,,618,690,TRUE
@@ -99,4 +99,4 @@ francia,509,843,33.15,francia_c,r,,481,843,FALSE
 lombard,568,774,24.9,lombard_c,r,,568,774,TRUE
 100_years_war,1337,1453,24, ,l,,1337,1453,TRUE
 black_death,1346,1353,9.9, ,l,,1346,1353,TRUE
-sui_dynasty,581,618,42.55,sui_dynasty_c,l,Line height like Nero,581,618,TRUE
+sui_dynasty,581,618,42,sui_dynasty_c,l,Line height like Nero,581,618,TRUE
