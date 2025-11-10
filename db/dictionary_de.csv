@@ -1,7 +1,7 @@
 key,text,english,notes
-version,5.9,5.9,5.9
-pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2025-10-06
-pdf_subject,Zeitleiste der Menschheit,Timeline of humankind,5.9
+version,6.01,6.01,
+pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2025-10-13
+pdf_subject,Zeitleiste der Menschheit,Timeline of humankind,6.01
 BCE,v.u.Z.,B.C.E.,appendix B9
 CE,u.Z.,C.E.,
 year,Jahr,year,"timespan, age (Adam was 130 years old when Shem was born)"
@@ -323,7 +323,7 @@ terahfam,Mitglieder von Terach’s Familie,Members of Terah’s family,
 rosetta,Rosetta-Stein 196 v.u.Z.,Rosetta stone 196 B.C.E.,
 Herodotus,"Herodot c. 484 – ca. 425 v.u.Z., schreibt Historien","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
 Aristotle,Aristoteles 384 – 322 v.u.Z.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
-Ptolemy,Claudius Ptolemäus um 100 – ca. 170 u.Z.,Ptolemy c 100 – c. 170 C.E.,
+Ptolemy,Claudius Ptolemäus c. 100 – c. 170 u.Z.,Ptolemy c 100 – c. 170 C.E.,
 Pythagoras,Pythagoras ca. 570 – 495 v.u.Z.,Pythagoras c. 570 – c. 495 BC,
 Plato,Platon c. 427 – ca. 348v.u.Z.,Plato c. 427 – c. 348 BC,
 Socrates,Sokrates c. 470 – ca. 399 v.u.Z.,Socrates c. 470 – c. 399 BC,
@@ -548,3 +548,15 @@ Amorite_fn,19) Amorịter: Richter 6:10,19) Amorites: Judges 6:10,2025-09-22
 Hivite_fn,"20) Hiwịter [Gịbeon]: Josua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites
 american_civil_war,Sezessionskrieg 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865"
 aleppo_codex,Codex von Aleppo ca. 920,Aleppo Codex c. 920,2025-10-03
+seljuk_empire,1037 – 1194 u.Z.,1037 – 1194 C.E.,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308"
+seljuk_empire_c,Seldschuken,Seljuk empire,
+vandals,Königreich der Vandalen und Alanen 435 – 534 u.Z.,Kingdom of the Vandals and Alans 435 – 534 C.E.,Vandals 435-534 C.E.
+vandals_c,Vandalen,Vandals,
+francia,"c. 481/509 – 843 u.Z., Merowinger bis 751, dann Karolinger","c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun
+francia_c,Fränkisches Reich,Kingdom of the Franks,
+lombard,568 – 774 u.Z.,568 – 774 C.E.,Kingdom of the Lombards 568-774
+lombard_c,Langobardenreich,Lombard Kingdom,2025-10-13
+100_years_war,Hundertjähriger Krieg 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453
+black_death,Schwarzer Tod 1346-1353,Black death 1346-1353,1346-1353
+sui_dynasty,581-618 Sui-Dynastie,581-618 Sui dynasty,2025-11-09
+sui_dynasty_c,Sui,Sui,2025-11-09
