@@ -17,10 +17,13 @@ But there are more things to consider. I started a digital timeline already in 2
 - [v3.0 Creation of an vector based version with python and reportlab in October 2023](#v30-creation-of-an-vector-based-version-with-python-and-reportlab-in-october-2023)
 - [v4.0 Increase of version number to reflect the year in January 2024](#v40-increase-of-version-number-to-reflect-the-year-in-january-2024)
 - [v4.7 Switch from reportlab to fpdf2 im May 2024](#v47-switch-from-reportlab-to-fpdf2-im-may-2024)
+- [v5.1 Include the period of 430 years](#v51-include-the-period-of-430-years)
+- [v5.9 Extended family tree back to Noah and relate 20 nations in footnotes](#v59-extended-family-tree-back-to-noah-and-relate-20-nations-in-footnotes)
+- [v6.01 Updated numbering system, Kain's family](#v601-updated-numbering-system-kains-family)
 - [Inspirations](#inspirations)
   - [Historic versions](#historic-versions)
   - [Contemporary versions](#contemporary-versions)
-  - []
+  - [Other media](#other-media)
 - [Comparison 2009 vs. 2024](#comparison-2009-vs-2024)
 
 ## v0.1 A digital timeline as html files in August 2006
@@ -150,7 +153,20 @@ For 8 months I have been using the reportlab library in python to create the pdf
 Interestingly, fpdf2 itself is a fork from PyPDF from [reingart/pypdf](https://github.com/reingart/pyfpdf) 2016, itself being a fork of the [fpdf](http://www.fpdf.org/) library by Max Pat in 2006. See a [little history](https://py-pdf.github.io/fpdf2/History.html). The [release history](https://pypi.org/project/fpdf2/#history) indicates that [Text Shaping](https://py-pdf.github.io/fpdf2/TextShaping.html) was only introduced with 2.7.5 in August 2023. Now with 1479 commits and 969 stars, 33 releases since 2021, the latest being [2.7.9](https://github.com/py-pdf/fpdf2/releases/tag/2.7.9) from May 2024.
 
 
+### v5.1 Include the period of 430 years
 
+The time period of 430 years was included as a graph. And some exaples from the Maya calender were included.
+
+![timeline v5.1](../docs/timeline20250101_5.1.png)
+
+### v5.9 Extended family tree back to Noah and relate 20 nations in footnotes
+
+With Noah and his 3 sons in the picture I can relate 20 nations to this family tree instead of just 6 nations. I also add 4 Vietnamese Dynasties, Edo and Meiji period in Japan, Wulfila bible (first designed alphabet with a known creator), a fresh NIRCam image of Pismis 24 by NASA with Webb telescope from September 11th, 2025.
+
+
+### v6.01 Updated numbering system, Kain's family
+
+In October 2025 I observed problems with the new v5.10 version number, since the float 5.10 < 5.4 in the version number. So features after 5.4 would not be applied for version v5.10 because the float value is smaller. From January 2026 on the version number is therefore no longer v6.1 but instead v6.01 to accomodate for these comparisons inside the 6000.py.
 
 ## Evolving content
 

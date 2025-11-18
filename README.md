@@ -5,7 +5,7 @@
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 [![pages-build-deployment](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment)
 
-This [project](https://github.com/kreier/timeline) creates a graph of Human history with python and ~~reportlab~~ fpdf2. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. After 15 years of slow development some images make it into the timeline in early 2024 with v4.2.
+This [project](https://github.com/kreier/timeline) creates a graph of Human history with python and ~~reportlab~~ fpdf2. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. After 15 (18) years of slow development some images make it into the timeline in early 2024 with v4.2.
 
 ![timeline 4.6](docs/timeline20240516_4.6.png)
 
@@ -66,7 +66,7 @@ Support for languages using the CJK glyphs took some extra work, and I learned a
 
 ## Reactivation 2023
 
-After 14 years it was finally time to translate the project to English and share with my friends. In the years since 2009 I learned a lot about programming languages, vector graphics and possible solutions using pandas, csv files and reportlab (instead of matplotlib). In a first stage I translated the old OpenOffice documents to English. Then I collected data into csv/tsv files for later automated processing and graph generation. This way the translation to another language is "just" the change of one import file. So far I translated the first page:
+After 14 (17) years it was finally time to translate the project to English and share with my friends. In the years since 2009 (2006) I learned a lot about programming languages, vector graphics and possible solutions using pandas, csv files and reportlab (instead of matplotlib). In a first stage I translated the old OpenOffice documents to English. Then I collected data into csv/tsv files for later automated processing and graph generation. This way the translation to another language is "just" the change of one import file. So far I translated the first page:
 
 ![timeline one 4050 - 1450 BCE](docs/timeline_4050-1450.png)
 
@@ -74,6 +74,7 @@ This project started on here on Github on June 10th, 2023. My last day of work.
 
 ## Version history
 
+- [v0.1](https://github.com/kreier/timeline/releases/tag/v0.1) 2006/08/30 several large HTML files with [linked articles](https://kreier.github.io/timeline/history/2006/zeitleiste1.html) about the persons in this timeline. One version is [30,000 pixels](history/zeit2.html) wide!
 - [v1.0](https://github.com/kreier/timeline/releases/tag/v1.0) 2009/02/10 An [OpenOffice spreadsheet](https://github.com/kreier/timeline/blob/5ffa9bac5cb4ff3c2cdc362b63df161e0d909c9d/spreadsheet/Zeitleiste_3A4_20090210.ods) with 260, 340 and 218 columns to create the overview with a resolution of 5 or 10 years. See the [resulting pdf](https://github.com/kreier/timeline/blob/5ffa9bac5cb4ff3c2cdc362b63df161e0d909c9d/spreadsheet/Zeitleiste_3A4_20090211.pdf). It contains 63 persons, 8 time periods and 20 events.
 - [v2.0](https://github.com/kreier/timeline/releases/tag/v2.0) 2015/10/12 A __vector image__ as a LibreOffice odf to cover 6000 years on [one pdf](https://github.com/kreier/timeline/blob/5ffa9bac5cb4ff3c2cdc362b63df161e0d909c9d/spreadsheet/Zeitleiste_wide_20151213.pdf) and no restrictions in the representation of years. It was very cumbersome to edit and by December only the first __24 persons__ were indicated with their lifetime. And 2 time periods and 3 event dates.
 - [v1.1](https://github.com/kreier/timeline/releases/tag/v1.1) 2023/06/30 __Translation to English.__ For a broader audience and to get feedback on the planned vector version I translated the original OpenOffice Spreadsheet version to English. By June 30th the exported pdf from LibreOffice was finished with the same __63 persons__, 8 time periods and 20 event dates.
