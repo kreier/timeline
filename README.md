@@ -174,6 +174,12 @@ Time of 12 Prophets from 850 BCE to 400 BCE
 
 ## Short history of this project - with just pictures
 
+A more detailled story is written in [history](history/).
+
+#### 2006
+
+![2006](history/leiste.png)
+
 #### 2009
 
 ![2009](https://raw.githubusercontent.com/kreier/timeline/4.6/docs/zeitleiste2009full.png)

@@ -7,11 +7,11 @@ With my retirement starting on June 10th, 2023 I started **this repository** to 
 
 But there are more things to consider. I started a digital timeline already in 2006. The following is a little history of my projects. Below follows a history of other timeline projects. Here an overwiew of the subheadings:
 
-- [v0.1 A digital timeline as html files](#v01-a-digital-timeline-as-html-files-in-august-2006)
+- [v0.1 A digital timeline as html files in August 2006](#v01-a-digital-timeline-as-html-files-in-august-2006)
 - [v1.0 Start with a spreadsheet in February 2009](#v10-start-with-a-spreadsheet-in-february-2009)
   - [4050 - 1450 BCE](#4050---1450-bce)
-  - [1550 BCE - 150 CE]
-  - [130 BCE - 2050 CE]
+  - [1550 BCE - 150 CE](#1550-bce---150-ce)
+  - [130 BCE - 2050 CE](#130-bce---2050-ce)
 - [v2.0 Creating a Vector Image with .odg in October 2015](#v20-creating-a-vector-image-with-odg-in-october-2015)
 - [v1.1 Translation of v1.0 to English in June 2023](#v11-translation-of-v10-to-english-in-june-2023)
 - [v3.0 Creation of an vector based version with python and reportlab in October 2023](#v30-creation-of-an-vector-based-version-with-python-and-reportlab-in-october-2023)
@@ -32,21 +32,31 @@ The project to create a paper timeline of human history is done by teenagers aro
 This includes a reference to the year 2006, and the 30000 pixel wide (zeit2.html below) ends for myself in 2005 and has a timestamp from 2006-08-30. For further details, here are the links (all in German):
 
 - [Projekte: 13. Zeitleiste der Menschheitsgeschichte](https://saiht.de/legacy/projekte/13zeitleiste.html)
-- [4100 v.u.Z. bis 2100 u.Z. auf 10000 Pixeln, 3 Zeilen, html](https://saiht.de/legacy/projekte/zeitleiste/zeit1.html) and [local copy zeit1.html](./zeit1.html)
-- [4100 v.u.Z. bis 2100 u.Z. auf 30000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit2.html) and [local copy zeit2](./zeit2.html)
-- [4100 v.u.Z. bis 2100 u.Z. auf 3000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit3.html) and [local copy zeit3](./zeit3.html)
-- [4100 v.u.Z. bis 2100 u.Z. auf 6000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit4.html) and [local copy zeit4](./zeit4.html)
+- [4100 v.u.Z. bis 2100 u.Z. auf 10000 Pixeln, 3 Zeilen, html](https://saiht.de/legacy/projekte/zeitleiste/zeit1.html) and [local copy zeit1.html](./2006/zeit1.html)
+- [4100 v.u.Z. bis 2100 u.Z. auf 30000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit2.html) and [local copy zeit2](./2006/zeit2.html)
+- [4100 v.u.Z. bis 2100 u.Z. auf 3000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit3.html) and [local copy zeit3](./2006/zeit3.html)
+- [4100 v.u.Z. bis 2100 u.Z. auf 6000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit4.html) and [local copy zeit4](./2006/zeit4.html)
 - [4100 v.u.Z. bis 2100 u.Z. auf 3200x463 Pixeln, png-Grafik](https://saiht.de/legacy/projekte/zeitleiste/pic/leiste.png)
 - [4050 v.u.Z. bis 150 u.Z. auf 2386x886 Pixeln, png-Grafik](https://saiht.de/legacy/projekte/zeitleiste/Zeitleiste.png)
-- a [vertical version of the timeline with linked people](https://saiht.de/legacy/projekte/zeitleiste/zeitleiste1.html)
+- a [vertical version of the timeline with linked people](https://saiht.de/legacy/projekte/zeitleiste/zeitleiste1.html) and [local copy zeitleiste1](./2006/zeitleiste1.html), so far only 4 people
 
 About the creation I noted: *Da ich ein solches Projekt allein niemals schaffen würde, arbeiten jetzt gemeinsam an diesem Projekt: Dennis, Manuel, Matthias und Thomas.*
 
-The scale is rather large. An image of the 30000 pixel image scaled to 25% is still 7665 pixel wide and need 2 screenshots of my two FullHD monitors side-by-side. This is the result, below the stacked 10000 px zeit2.html (8027 at 80%) and zeit3.html (3369 px):
+The scale is rather large. An image of the 30000 pixel image scaled to 25% is still 7665 pixel wide and need 2 screenshots of my two FullHD monitors side-by-side. This is the result: below the stacked 10000 px zeit2.html (8027 at 80%) and zeit3.html (3369 px):
 
 ![30000 pixels](./2006_30000.png)
+
+I also created a stacked version, "only" 10000 pixels wide. Here the zeit2.html (8027 at 80%):
 ![10000 pixels](./2006_zeit2.png)
+
+And finally the zeit3.html (3369 px):
+
 ![3000 pixels](./2006_zeit3.png)
+
+In 2006 I rendered the following image:
+
+![image from 2006](./leiste.png)
+
 
 ## v1.0 Start with a spreadsheet in February 2009
 
@@ -214,7 +224,7 @@ https://raw.githubusercontent.com/kreier/timeline/main/docs/amazon_bible_history
 
 Time of 12 Prophets from 850 BCE to 400 BCE
 
-![time of 12 prophets](docs/12prophets.jpg)
+![time of 12 prophets](../docs/12prophets.jpg)
 
 
 ### Other media
