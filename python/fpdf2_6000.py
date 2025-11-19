@@ -188,6 +188,8 @@ def create_canvas(edition):
     pdf.set_author(pdf_author)
     pdf.set_title(dict['pdf_title'])
     pdf.set_subject(dict['pdf_subject'])
+    pdf.set_producer("fpdf2 library 2.8.5 https://py-pdf.github.io/fpdf2/")
+    pdf.set_creator("Python https://github.com/kreier/timeline/python/6000.py")    
     drawing_width  = page_width - 2 * border_lr
     drawing_height = page_height - 2 * border_tb
     x1 = border_lr                                  # left for fpdf2 and reportlab
