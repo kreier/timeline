@@ -1,0 +1,19 @@
+Ba̱smath
+
+The string looks like "Basmath" with a combining diacritic under the a. Let’s decompose it:
+- B → U+0042 LATIN CAPITAL LETTER B
+- a → U+0061 LATIN SMALL LETTER A
+- ̱ → U+0331 COMBINING MACRON BELOW
+- s → U+0073 LATIN SMALL LETTER S
+- m → U+006D LATIN SMALL LETTER M
+- a → U+0061 LATIN SMALL LETTER A
+- t → U+0074 LATIN SMALL LETTER T
+- h → U+0068 LATIN SMALL LETTER H
+So the sequence is:
+
+🔎 Step 2: Why HarfBuzz might struggle
+HarfBuzz is a text shaping engine. It takes Unicode code points and applies OpenType rules from fonts. If you just pass raw bytes without normalization, you may get unexpected results:
+- The a̱ (a + combining macron below) is not a single precomposed character in Unicode.
+- Fonts may or may not have glyphs for this combination. HarfBuzz relies on the font’s GSUB/GPOS tables to position the combining mark correctly.
+- If the font doesn’t support combining marks well, you’ll see misplacement or fallback rendering.
+
