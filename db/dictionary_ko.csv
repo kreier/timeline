@@ -1,6 +1,6 @@
-key,text,english,notes,checked 
+key,text,english,notes,checked
 version,6.01,6.01,,
-pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,2025-12-14,FALSE
+pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,2026-01-02,FALSE
 pdf_subject,인류의 타임라인,Timeline of humankind,6.01,FALSE
 BCE,기원전,B.C.E.,appendix B9,TRUE
 CE,기원,C.E.,,FALSE
@@ -232,16 +232,16 @@ jehoiada,여호야다,Jehoiada,2 Kings 11:4,FALSE
 babel,바벨탑 건축,Tower of Babel built,,FALSE
 Haggai,학개,Haggai,,FALSE
 Zerubbabel,스룹바벨(눅 3:27),Zerubbabel (Luke 3:27),Luke 3:27,FALSE
-Babylon,"다니엘 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",,FALSE
-Medopersia,"다니엘 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",,FALSE
-Greece,"다니엘 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",,FALSE
-Rome,"다니엘 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",,FALSE
-Angloamerica,"다니엘 2:33, 41-43","Daniel 2:33, 41-43",,FALSE
-Babylon_c,바빌론,Babylon,,FALSE
-Medopersia_c,메디아-페르시아,Medo-Persia,,FALSE
-Greece_c,그리스,Greece,,FALSE
-Rome_c,로마,Rome,,FALSE
-Angloamerica_c,영국-미국,Anglo-America,,FALSE
+Babylon,"다니엘 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",,TRUE
+Medopersia,"다니엘 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",,TRUE
+Greece,"다니엘 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",,TRUE
+Rome,"다니엘 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",,TRUE
+Angloamerica,"다니엘 2:33, 41-43","Daniel 2:33, 41-43",,TRUE
+Babylon_c,바빌론,Babylon,,TRUE
+Medopersia_c,메디아-페르시아,Medo-Persia,,TRUE
+Greece_c,그리스,Greece,,TRUE
+Rome_c,로마,Rome,,TRUE
+Angloamerica_c,영국-미국,Anglo-America,,TRUE
 infliction1,400년의 괴롭힘,400 year infliction,Acts 7:6,FALSE
 infliction2,사도행전 7:6,Acts 7:6,,FALSE
 Jacob2,야곱/,Jacob/,Jacob/Israel 1858-1711 – 147 years,FALSE
@@ -445,13 +445,13 @@ Al-Khwarizmi,al-Khwarizmi는 Al-Jabr(대수학)을 씁니다.,al-Khwarizmi write
 al-azhar,Al-Azhar University가 카이로에 설립됨,Al-Azhar University is established in Cairo,,FALSE
 Ibn-Sina,이븐 시나 또는 아비센나,Ibn Sina or Avicenna,,FALSE
 Al-Ghazali,알 가잘리,Al-Ghazali,2024-07-30,FALSE
-Keturah,그두라,Keturah,Genesis 25:1-4,FALSE
-Zimran,시므란,Zimran,,FALSE
-Jokshan,욕산,Jokshan,,FALSE
-Medan,므단,Medan,,FALSE
-Midian,미디안,Midian,,FALSE
-Ishbak,이스박,Ishbak,,FALSE
-Shuah,수아,Shuah,,FALSE
+Keturah,그두라,Keturah,Genesis 25:1-4,TRUE
+Zimran,시므란,Zimran,,TRUE
+Jokshan,욕산,Jokshan,,TRUE
+Medan,므단,Medan,,TRUE
+Midian,미디안,Midian,,TRUE
+Ishbak,이스박,Ishbak,,TRUE
+Shuah,수아,Shuah,,TRUE
 Timna,팀 나,Timna,"1 Chr 1:36, Ge 36:10-12",FALSE
 Midianites,"1) 미디안 사람들 : 민수기 31 : 2, 3","1) Midianites: Numbers 31:2, 3",,FALSE
 Moabites,"2) 모압 사람들: 신명기 23 : 3, 4","2) Moabites: Deuteronomy 23:3, 4",,FALSE
@@ -485,7 +485,7 @@ revival_le_dynasty_c,Trịnh 영주와 Nguyễn 영주,Revival Lê dynasty,Nhà 
 nguyen_dynasty,1802년 – 1883년,1802 – 1883,,FALSE
 nguyen_dynasty_c,응우옌,Nguyễn,2025-09-20,FALSE
 edo,1603년 – 1868년,1603 – 1868,,FALSE
-edo_c,일본의 에도 시대,Edo period in Japan,,FALSE
+edo_c,일본의 에도 시대,Edo period in Japan,Edo period (Tokugawa shogunate),FALSE
 meiji,1868년 – 1912년,1868 – 1912,,FALSE
 meiji_c,메이지,Meiji,2025-09-20,FALSE
 Ham,햄,Ham,Gen 10:1,FALSE
@@ -558,3 +558,5 @@ lombard,기원 568년 – 774년,568 – 774 C.E.,Kingdom of the Lombards 568-77
 lombard_c,롬바드 왕국,Lombard Kingdom,2025-10-13,FALSE
 100_years_war,백년전쟁 1337년 – 1453년,Hundred Years’ War 1337 – 1453,1337–1453,FALSE
 black_death,흑사병 1346-1353,Black death 1346-1353,1346-1353,FALSE
+sui_dynasty,581-618 수나라,581-618 Sui dynasty,2025-11-09,TRUE
+sui_dynasty_c,수나라,Sui,2025-11-09,TRUE

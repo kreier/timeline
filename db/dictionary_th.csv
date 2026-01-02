@@ -1,7 +1,7 @@
-key,text,english,notes,checked 
+key,text,english,notes,checked
 version,6.01,6.01,,
-pdf_title,"ประวัติศาสตร์ของมนุษย์ 6,000 ปีถูกมองเห็น",6000 years human history visualized,2025-12-20,FALSE
-pdf_subject,เส้นเวลาของมนุษยชาติ,Timeline of humankind,,FALSE
+pdf_title,"ประวัติศาสตร์ของมนุษย์ 6,000 ปีถูกมองเห็น",6000 years human history visualized,2026-01-02,FALSE
+pdf_subject,เส้นเวลาของมนุษยชาติ,Timeline of humankind,6.01,FALSE
 BCE,ก่อนคริสตศักราช,B.C.E.,appendix B9,FALSE
 CE,ส.ศ.,C.E.,,FALSE
 year,ปี,year,"timespan, age (Adam was 130 years old when Shem was born)",FALSE
@@ -485,7 +485,7 @@ revival_le_dynasty_c,ขุนนาง Trịnh และขุนนาง Nguy
 nguyen_dynasty,พ.ศ. 2345 – 2426,1802 – 1883,,FALSE
 nguyen_dynasty_c,เหงียน,Nguyễn,2025-09-20,FALSE
 edo,1603 – 1868,1603 – 1868,,FALSE
-edo_c,สมัยเอโดะในญี่ปุ่น,Edo period in Japan,,FALSE
+edo_c,สมัยเอโดะในญี่ปุ่น,Edo period in Japan,Edo period (Tokugawa shogunate),FALSE
 meiji,พ.ศ. 2411 – 2455,1868 – 1912,,FALSE
 meiji_c,เมจิ,Meiji,2025-09-20,FALSE
 Ham,แฮม,Ham,Gen 10:1,FALSE
@@ -549,14 +549,14 @@ Hivite_fn,"20) ชาวฮีไวต์ [กิเบโอน]: โยชู
 american_civil_war,สงครามกลางเมืองอเมริกา ค.ศ. 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",FALSE
 aleppo_codex,อเลปโป โคเด็กซ์ ค. 920,Aleppo Codex c. 920,2025-10-03,FALSE
 seljuk_empire,ค.ศ. 1037 – 1194 ส.ศ.,1037 – 1194 C.E.,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",FALSE
-seljuk_empire_c,อาณาจักรเซลจุค,Seljuk empire,,FALSE
+seljuk_empire_c,อาณาจักรเซลจุค,Seljuk empire,,TRUE
 vandals,อาณาจักรแห่งป่าเถื่อนและอลันส์ ค.ศ. 435 – 534,Kingdom of the Vandals and Alans 435 – 534 C.E.,Vandals 435-534 C.E.,FALSE
 vandals_c,พวกป่าเถื่อน,Vandals,,FALSE
 francia,"ค. 481/509 – 843 C.E., Merovingian จนถึง 751 จากนั้น Carolingian","c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,FALSE
 francia_c,อาณาจักรแห่งแฟรงค์,Kingdom of the Franks,,FALSE
 lombard,ค.ศ. 568 – 774,568 – 774 C.E.,Kingdom of the Lombards 568-774,FALSE
-lombard_c,อาณาจักรลอมบาร์ด,Lombard Kingdom,2025-10-13,FALSE
-100_years_war,สงครามร้อยปี ค.ศ. 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,FALSE
+lombard_c,อาณาจักรลอมบาร์ด,Lombard Kingdom,2025-10-13,TRUE
+100_years_war,สงครามร้อยปี ค.ศ. 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,TRUE
 black_death,มรณะสีดำ ค.ศ. 1346-1353,Black death 1346-1353,1346-1353,FALSE
-sui_dynasty,581-618 Sui-dynastie,581-618 Sui-dynastie,2025-11-09,FALSE
-sui_dynasty_c,Sui,Sui,2025-11-09,FALSE
+sui_dynasty,581-618 ราชวงศ์สุย,581-618 Sui dynasty,2025-11-09,TRUE
+sui_dynasty_c,สุย,Sui,2025-11-09,TRUE

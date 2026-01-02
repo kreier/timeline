@@ -40,13 +40,22 @@ else:
 
 # Part II ********************************************************************************************
 
+# Load supported_languages.csv into a dict {key -> language_str}
+language_map = {}
+with open(languages_file, newline='', encoding="utf-8") as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        code = row["key"].strip()
+        language_str = row["language_str"].strip()
+        language_map[code] = language_str
+
 # Pattern to find all language files
 files = actual_dict_files
 
 print(f"\nProcessing {len(files)} language files for statistics...")
 
 # Output file
-output_file = "../db/statistics.csv"
+output_file = "../history/statistics.csv"
 
 summary = []
 
@@ -65,6 +74,7 @@ for f in files:
 
         summary.append({
             "language": code,
+            "language_str": language_map.get(code, ""),  # add human-readable name
             "length": length,
             "checked_true": checked_true if checked_true is not None else "",
             "percentage_checked_true": percentage if percentage != "" else ""
@@ -75,13 +85,14 @@ summary.sort(key=lambda x: (x["percentage_checked_true"] if x["percentage_checke
 
 # Write summary CSV
 with open(output_file, "w", newline='', encoding="utf-8") as outcsv:
-    writer = csv.DictWriter(outcsv, fieldnames=["language", "length", "checked_true", "percentage_checked_true"])
+    writer = csv.DictWriter(outcsv, fieldnames=["language", "language_str","length", "checked_true", "percentage_checked_true"])
     writer.writeheader()
     for entry in summary:
         # Format percentage nicely for CSV
         pct = f"{entry['percentage_checked_true']:.2f}%" if entry["percentage_checked_true"] != "" else ""
         writer.writerow({
             "language": entry["language"],
+            "language_str": entry["language_str"],
             "length": entry["length"],
             "checked_true": entry["checked_true"],
             "percentage_checked_true": pct
@@ -90,8 +101,9 @@ with open(output_file, "w", newline='', encoding="utf-8") as outcsv:
 # Print results for languages where "checked" column exists
 for entry in summary:
     if entry["checked_true"] != "":
-        pct = f"{entry['percentage_checked_true']:.2f}%"
-        print(f"{entry['language']}: length={entry['length']}, checked_true={entry['checked_true']}, percentage={pct}")
+        pct = f"{entry['percentage_checked_true']:.1f}%"
+        print(f"{entry['language']} - {entry['language_str']}: length={entry['length']}, "
+              f"checked_true={entry['checked_true']}, percentage={pct}")
         if entry["checked_true"] == 0:
             print(f"⚠️ Warning: {entry['language']} has a 'checked' column but no TRUE values")
 
