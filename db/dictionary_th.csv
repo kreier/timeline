@@ -1,9 +1,9 @@
 key,text,english,notes,checked
-version,6.01,6.01,,
+version,6.01,6.01,,TRUE
 pdf_title,"ประวัติศาสตร์ของมนุษย์ 6,000 ปีถูกมองเห็น",6000 years human history visualized,2026-01-02,FALSE
 pdf_subject,เส้นเวลาของมนุษยชาติ,Timeline of humankind,6.01,FALSE
-BCE,ก่อนคริสตศักราช,B.C.E.,appendix B9,FALSE
-CE,ส.ศ.,C.E.,,FALSE
+BCE,ก่อน ค.ศ.,B.C.E.,appendix B9,TRUE
+CE,ค.ศ.,C.E.,,TRUE
 year,ปี,year,"timespan, age (Adam was 130 years old when Shem was born)",FALSE
 years,ปี,years,,FALSE
 years_age,ปี,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",FALSE
@@ -23,12 +23,12 @@ objects,วัตถุหรือรายการ,objects or items,,FALSE
 Deluge,น้ำท่วม,Deluge,,FALSE
 Adam,อดัม,Adam,Luke 3:38,FALSE
 Seth,เซธ,Seth,,FALSE
-Enosh,เอโนช,Enosh,,FALSE
+Enosh,เอโนช​,Enosh,,TRUE
 Kenan,คีนัน,Kenan,Genesis 5:12,FALSE
 Mahalalel,มาฮาลาเลล,Mahalalel,Ma·hala·lel,FALSE
-Jared,จาเร็ด,Jared,,FALSE
-Enoch,เอโนค,Enoch,,FALSE
-Methuselah,เมธูเสลาห์,Methuselah,Luke 3:37,FALSE
+Jared,จาเร็ด,Jared,,TRUE
+Enoch,เอโนค,Enoch,,TRUE
+Methuselah,เมธูเสลาห์,Methuselah,Luke 3:37,TRUE
 Lamech,ลาเมช,Lamech,,FALSE
 Noah,โนอาห์,Noah,,FALSE
 Shem,เชม,Shem,,FALSE
@@ -332,23 +332,23 @@ Cicero,ซิเซโร 106–43 ปีก่อนคริสตกาล,Ci
 lachish_letters,ตัวอักษร Lachish ค. ปี 590 ก่อน ส.ศ.,Lachish letters c. 590 B.C.E.,,FALSE
 lachish_reliefs,ภาพนูนต่ำนูนสูงค. ปี 681 ก่อน ส.ศ.,Lachish reliefs c. 681 B.C.E.,,FALSE
 mesha_stele,Mesha Stele (หินโมอับ) ค. 840 ก่อน ส.ศ.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,FALSE
-gilgamesh,กิลกาเมช และ อาก้า 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,,FALSE
+gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,,FALSE
 epic_gilgamesh,มหากาพย์แห่งกิลกาเมช (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),,FALSE
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,,FALSE
 p52,พาไพรัส P52,Papyrus P52,,FALSE
-daniel2_shift,0,4,Start 4.2,FALSE
-daniel2_1,กษัตริย์เนบูคัดเนสซาร์,King Nebuchadnezzar,607 BCE,FALSE
-daniel2_2,ทำลายกรุงเยรูซาเล็ม,destroys Jerusalem,appendix B9,FALSE
-daniel2_3,พิชิตบาบิโลน,Conquers Babylon,539 BCE,FALSE
-daniel2_4,ไซรัสประกาศให้กลับมา,Cyrus decrees return,537 BCE,FALSE
-daniel2_5,ของชาวยิวไปยังกรุงเยรูซาเล็ม,of Jews to Jerusalem,,FALSE
-daniel2_6,อเล็กซานเดอร์มหาราช,Alexander the Great,331 BCE,FALSE
-daniel2_7,พิชิตเปอร์เซีย,conquers Persia,,FALSE
-daniel2_8,กฎเกณฑ์เหนืออิสราเอล,Rules over Israel,63 BCE,FALSE
-daniel2_9,ทำลายกรุงเยรูซาเล็ม,Destroys Jerusalem,70 CE,FALSE
-daniel2_10,ในช่วงสงครามโลกครั้งที่ 1,"During World War I,",1914-1918 CE,FALSE
-daniel2_11,มหาอำนาจโลกแองโกล-อเมริกัน,Anglo-American World Power,,FALSE
-daniel2_12,เกิดขึ้น,comes into being,End 4.2,FALSE
+daniel2_shift,10,10,Start 4.2,TRUE
+daniel2_1,กษัตริย์​เนบูคัดเนสซาร์,King Nebuchadnezzar,607 BCE,TRUE
+daniel2_2,ทำลาย​กรุง​เยรูซาเล็ม,destroys Jerusalem,appendix B9,TRUE
+daniel2_3,พิชิต​บาบิโลน,Conquers Babylon,539 BCE,TRUE
+daniel2_4,ไซรัส​อนุญาต​ให้​ชาว​ยิว,Cyrus decrees return,537 BCE,TRUE
+daniel2_5,กลับ​กรุง​เยรูซาเล็ม,of Jews to Jerusalem,,TRUE
+daniel2_6,อเล็กซานเดอร์​มหาราช​,Alexander the Great,331 BCE,TRUE
+daniel2_7,​พิชิต​เปอร์เซีย,conquers Persia,,TRUE
+daniel2_8,ปกครอง​อิสราเอล,Rules over Israel,63 BCE,TRUE
+daniel2_9,ทำลาย​กรุง​เยรูซาเล็ม,Destroys Jerusalem,70 CE,TRUE
+daniel2_10,ระหว่าง​สงคราม​โลก​ครั้ง​ที่ 1,"During World War I,",1914-1918 CE,TRUE
+daniel2_11,มหาอำนาจ​อังกฤษ-อเมริกา,Anglo-American World Power,,TRUE
+daniel2_12,​เริ่ม​มีอำนาจ,comes into being,End 4.2,TRUE
 qing-dynasty,ค.ศ. 1636-1912,1636-1912,,FALSE
 qing-dynasty_c,ราชวงศ์ชิง,Qing dynasty,1636-1912,FALSE
 ming-dynasty,1368-1644,1368-1644,,FALSE
@@ -404,13 +404,13 @@ armageddon,"ยุทธการอาร์มาเก็ดดอน (วิ
 millenium,"ราชอาณาจักรของพระเจ้าเริ่มต้นรัชกาล 1,000 ปี (วิวรณ์ 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",,FALSE
 great_crowd,"ฝูงชนจำนวนมากรอดพ้นจากอาร์มาเก็ดดอน (วิวรณ์ 7:9, 14; สดุดี 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",,FALSE
 world_population,ประชากรโลกหลายพันล้านคนในช่วง 2000 ปีที่ผ่านมา,World population in billions in the last 2000 years,appendix B9,FALSE
-607BCE,607 ก่อนคริสตศักราช,607 B.C.E.,accommodate for language,FALSE
-539BCE,ปี 539 ก่อน ส.ศ.,539 B.C.E.,systems in style:,FALSE
-537BCE,ปี 537 ก่อน ส.ศ.,537 B.C.E.,>>year 537 before time<<,FALSE
-331BCE,331 ก่อน ส.ศ.,331 B.C.E.,so they need a word,FALSE
-63BCE,ปี 63 ก่อน ส.ศ.,63 B.C.E.,prior to the year,FALSE
-70CE,ส.ศ. 70,70 C.E.,and something,FALSE
-1914CE,ส.ศ. 1914-1918,1914-1918 C.E.,after the year,FALSE
+607BCE,ปี 607 ก่อน ค.ศ.,607 B.C.E.,accommodate for language,TRUE
+539BCE,ปี 539 ก่อน ค.ศ.,539 B.C.E.,systems in style:,TRUE
+537BCE,ปี 537 ก่อน ค.ศ,537 B.C.E.,>>year 537 before time<<,TRUE
+331BCE,ปี 331 ก่อน ค.ศ.,331 B.C.E.,so they need a word,TRUE
+63BCE,ปี 63 ก่อน ค.ศ.,63 B.C.E.,prior to the year,TRUE
+70CE,ค.ศ. 70,70 C.E.,and something,TRUE
+1914CE,ค.ศ. 1914-1918,1914-1918 C.E.,after the year,TRUE
 khmer_empire,ค.ศ. 804 – 1431 ส.ศ.,804 – 1431 C.E.,,FALSE
 khmer_empire_c,จักรวรรดิเขมร-สมัยอังกอร์,Khmer Empire - Angkor period,,FALSE
 byzantine_empire,ส.ศ. 330-1453,330-1453 C.E.,,FALSE
@@ -439,41 +439,41 @@ Abbasid,ค.ศ. 750 – 1258 ส.ศ.,750 – 1258 C.E.,,FALSE
 Abbasid_c,อับบาซิด คอลีฟะห์,Abbasid Caliphate,,FALSE
 Mamluk,ค.ศ. 1250 – 1517 ส.ศ.,1250 – 1517 C.E.,,FALSE
 Mamluk_c,สุลต่านมัมลุค,Mamluk Sultanate,,FALSE
-ur3,ราชวงศ์อูร์ที่ 3 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,,FALSE
-hammurabi,ฮัมมูราบี 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,,FALSE
+ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,,FALSE
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,,FALSE
 Al-Khwarizmi,al-Khwarizmi เขียน Al-Jabr (พีชคณิต),al-Khwarizmi writes Al-Jabr (Algebra),,FALSE
 al-azhar,มหาวิทยาลัย Al-Azhar ก่อตั้งขึ้นในกรุงไคโร,Al-Azhar University is established in Cairo,,FALSE
 Ibn-Sina,อิบนุ ซินา หรืออาวิเซนนา,Ibn Sina or Avicenna,,FALSE
 Al-Ghazali,อัล-ฆอซาลี,Al-Ghazali,2024-07-30,FALSE
-Keturah,,Keturah,Genesis 25:1-4,FALSE
-Zimran,,Zimran,,FALSE
-Jokshan,,Jokshan,,FALSE
-Medan,,Medan,,FALSE
-Midian,,Midian,,FALSE
-Ishbak,,Ishbak,,FALSE
-Shuah,,Shuah,,FALSE
-Timna,,Timna,"1 Chr 1:36, Ge 36:10-12",FALSE
-Midianites,,"1) Midianites: Numbers 31:2, 3",,FALSE
-Moabites,,"2) Moabites: Deuteronomy 23:3, 4",,FALSE
-Ammonites,,3) Ammonites: Joshua 12:2,,FALSE
-Edomites,,4) Edomites: Numbers 20:14-17,,FALSE
-Temanites,,5) Temanites: Job 42:7,,FALSE
-Amalekites,,6) Amalekites: 1 Samuel 15:2,2024-09-29,FALSE
-life-expectancy,,Life expectancy 75 years,,FALSE
-life-expectancy2,,(Psalm 90:10),2024-11-29,FALSE
-430years,,1943 – 1513 B.C.E.,,FALSE
-430years_c,,"430 years: Exodus 12:41, Galatians 3:17",2024-12-24,FALSE
-maya_calendar,,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,FALSE
-xia-dynasty2,,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,FALSE
-xia-dynasty2_c,,Xia dynasty in China,,FALSE
-tres_zapotes,,"September 3rd, 32 B.C.E.",2024-12-31,FALSE
-joseph_jacob_reunited,,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,FALSE
+Keturah,เคทูราห์,Keturah,Genesis 25:1-4,FALSE
+Zimran,ซิมราน,Zimran,,FALSE
+Jokshan,โจกชัน,Jokshan,,FALSE
+Medan,เมดัน,Medan,,FALSE
+Midian,มิเดียน,Midian,,FALSE
+Ishbak,อิชบัก,Ishbak,,FALSE
+Shuah,ชูอาห์,Shuah,,FALSE
+Timna,ทิมนา,Timna,"1 Chr 1:36, Ge 36:10-12",FALSE
+Midianites,"1) ชาวมีเดียน: กันดารวิถี 31:2, 3","1) Midianites: Numbers 31:2, 3",,FALSE
+Moabites,"2) ชาวโมอับ: เฉลยธรรมบัญญัติ 23:3, 4","2) Moabites: Deuteronomy 23:3, 4",,FALSE
+Ammonites,3) ชาวอัมโมน: โยชูวา 12:2,3) Ammonites: Joshua 12:2,,FALSE
+Edomites,4) ชาวเอโดม: กันดารวิถี 20:14-17,4) Edomites: Numbers 20:14-17,,FALSE
+Temanites,5) ชาวเทมาน: โยบ 42:7,5) Temanites: Job 42:7,,FALSE
+Amalekites,6) ชาวอะมาเลก: 1 ซามูเอล 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,FALSE
+life-expectancy,อายุขัยเฉลี่ย 75 ปี,Life expectancy 75 years,,FALSE
+life-expectancy2,(สดุดี 90:10),(Psalm 90:10),2024-11-29,FALSE
+430years,1943 – 1513 ปีก่อนคริสตกาล,1943 – 1513 B.C.E.,,FALSE
+430years_c,"430 ปี: อพยพ 12:41, กาลาเทีย 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,FALSE
+maya_calendar,คำนวณจุดเริ่มต้นของปฏิทินมายา 11 สิงหาคม 3114 ปีก่อนคริสตกาล,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,FALSE
+xia-dynasty2,ประมาณ ค.ศ. 2070 – ประมาณ ค.ศ. 1600 ก่อนคริสตกาล; ยุคนี้ถูกกล่าวถึงครั้งแรกในสมัยราชวงศ์โจวตะวันตก,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,FALSE
+xia-dynasty2_c,ราชวงศ์เซี่ยในประเทศจีน,Xia dynasty in China,,FALSE
+tres_zapotes,วันที่ 3 กันยายน ค.ศ. 32 ก่อนคริสตกาล,"September 3rd, 32 B.C.E.",2024-12-31,FALSE
+joseph_jacob_reunited,โยเซฟและยาโคบได้กลับมาพบกันอีกครั้งในอียิปต์ – 1728 ปีก่อนคริสตกาล (ปฐมกาล 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,FALSE
 king_south_light,,,2025-02-05,FALSE
-king_south_light_c,,King of the South from Daniel 11,2025-02-05,FALSE
+king_south_light_c,กษัตริย์แห่งทิศใต้จากดาเนียล 11,King of the South from Daniel 11,2025-02-05,FALSE
 king_north_light,,,2025-02-05,FALSE
-king_north_light_c,,King of the North from Daniel 11,2025-02-05,FALSE
+king_north_light_c,กษัตริย์แห่งทิศเหนือจากดาเนียล 11,King of the North from Daniel 11,2025-02-05,FALSE
 daniel2_iron,,,2025-02-05,FALSE
-daniel2_iron_c,,Iron legs from Daniel 2,2025-02-05,FALSE
+daniel2_iron_c,ขาเหล็กจากดาเนียล บทที่ 2,Iron legs from Daniel 2,2025-02-05,FALSE
 wulfila,พระคัมภีร์ Wulfila,Wulfila Bible,2025-09-20,FALSE
 argenteus,โคเด็กซ์ อาร์เจนเทียส ค. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,FALSE
 tran_dynasty,1225 – 14.00 น,1225 – 1400,,FALSE

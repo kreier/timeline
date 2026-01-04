@@ -1,5 +1,5 @@
 key,lang,dict,shaping_engine,script,language,direction,fontname,fontsize,fontsize_AM,y_offset,replace_numerals,language_str,nr,test
-en,English,TRUE,FALSE,,,ltr,,10,15,0,FALSE,English,49,1
+en,English,TRUE,,,,ltr,NotoSans,10,15,0,FALSE,English,49,1
 ab,Abkhaz,FALSE,,,,ltr,,10,15,0,FALSE,Abkhaz(*** no dictionary yet ***),1,2
 ace,Acehnese,FALSE,,,,ltr,,10,15,0,FALSE,Acehnese(*** no dictionary yet ***),2,3
 ach,Acholi,FALSE,,,,ltr,,10,15,0,FALSE,Acholi(*** no dictionary yet ***),3,4
@@ -46,7 +46,7 @@ din,Dinka,FALSE,,,,ltr,,10,15,0,FALSE,Dinka(*** no dictionary yet ***),43,44
 dv,Divehi,FALSE,,,,ltr,,10,15,0,FALSE,Divehi(*** no dictionary yet ***),44,45
 doi,Dogri,FALSE,,,,ltr,,10,15,0,FALSE,Dogri(*** no dictionary yet ***),45,46
 dov,Dombe,FALSE,,,,ltr,,10,15,0,FALSE,Dombe(*** no dictionary yet ***),46,47
-nl,Dutch,TRUE,TRUE,,,ltr,NotoSans,10,15,0,FALSE,Dutch(Nederlands),47,48
+nl,Dutch,TRUE,,,,ltr,NotoSans,10,15,0,FALSE,Dutch(Nederlands),47,48
 dz,Dzongkha,FALSE,,,,ltr,,10,15,0,FALSE,Dzongkha(*** no dictionary yet ***),48,49
 eo,Esperanto,FALSE,,,,ltr,,10,15,0,FALSE,Esperanto(*** no dictionary yet ***),50,50
 et,Estonian,TRUE,FALSE,,,ltr,,10,15,0,FALSE,Estonian (eesti keel),51,51

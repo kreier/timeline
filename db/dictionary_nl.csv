@@ -1,12 +1,12 @@
-key,text,english,notes,checked 
-version,6.01,6.01,6.01,
-pdf_title,6000 jaar menselijke geschiedenis in beeld,6000 years human history visualized,2025-12-14,FALSE
+key,text,english,notes,checked
+version,6.01,6.01,6.01,TRUE
+pdf_title,6000 jaar menselijke geschiedenis in beeld,6000 years human history visualized,2025-12-14,TRUE
 pdf_subject,Tijdlijn van de mensheid,Timeline of humankind,6.01,FALSE
-BCE,v.G.T.,B.C.E.,appendix B9,FALSE
-CE,CE,C.E.,,FALSE
-year,jaar,year,"timespan, age (Adam was 130 years old when Shem was born)",FALSE
-years,jaar,years,,FALSE
-years_age,jaar,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",FALSE
+BCE,v.Chr.,B.C.E.,appendix B9,TRUE
+CE,n.Chr.,C.E.,,TRUE
+year,jaar,year,"timespan, age (Adam was 130 years old when Shem was born)",TRUE
+years,jaar,years,,TRUE
+years_age,jaar,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",TRUE
 age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",FALSE
 month,maand,month,,FALSE
 months,maanden,months,,FALSE
@@ -21,28 +21,28 @@ periods,periodes,periods,,FALSE
 events,evenementen,events,,FALSE
 objects,voorwerpen of voorwerpen,objects or items,,FALSE
 Deluge,Zondvloed,Deluge,,FALSE
-Adam,Adam,Adam,Luke 3:38,FALSE
-Seth,Seth,Seth,,FALSE
-Enosh,Enos,Enosh,,FALSE
+Adam,Adam,Adam,Luke 3:38,TRUE
+Seth,Seth,Seth,,TRUE
+Enosh,E̱nos,Enosh,,TRUE
 Kenan,Kenan,Kenan,Genesis 5:12,FALSE
-Mahalalel,Mahalalel,Mahalalel,Ma·hala·lel,FALSE
-Jared,Jared,Jared,,FALSE
-Enoch,Enoch,Enoch,,FALSE
-Methuselah,Methusalem,Methuselah,Luke 3:37,FALSE
-Lamech,Lamech,Lamech,,FALSE
-Noah,Noach,Noah,,FALSE
-Shem,Sem,Shem,,FALSE
-Arpachshad,Arpakshad,Arpachshad,Luke 3:36,FALSE
-Shelah,Sela,Shelah,,FALSE
-Eber,Eber,Eber,,FALSE
-Peleg,Peleg,Peleg,,FALSE
-Reu,Reu,Reu,,FALSE
-Serug,Serug,Serug,Luke 3:35,FALSE
-Nahor,Nahor,Nahor,Genesis 11:24,FALSE
-Terah,Tera,Terah,,FALSE
-Abraham,Abraham,Abraham,,FALSE
-Isaac,Isaak,Isaac,,FALSE
-Jacob,Jakob,Jacob,Luke 3:34,FALSE
+Mahalalel,Mahala̱leël,Mahalalel,Ma·hala·lel,TRUE
+Jared,Je̱red,Jared,,TRUE
+Enoch,He̱noch,Enoch,,TRUE
+Methuselah,Methu̱salah,Methuselah,Luke 3:37,TRUE
+Lamech,La̱mech,Lamech,,TRUE
+Noah,Noach,Noah,,TRUE
+Shem,Sem,Shem,,TRUE
+Arpachshad,Arpa̱chsad,Arpachshad,Luke 3:36,TRUE
+Shelah,Se̱lah,Shelah,,TRUE
+Eber,He̱ber,Eber,,TRUE
+Peleg,Pe̱leg,Peleg,,TRUE
+Reu,Re̱hu,Reu,,TRUE
+Serug,Se̱rug,Serug,Luke 3:35,TRUE
+Nahor,Na̱hor,Nahor,Genesis 11:24,TRUE
+Terah,Te̱rah,Terah,,TRUE
+Abraham,Abraham,Abraham,,TRUE
+Isaac,Isaäk,Isaac,,TRUE
+Jacob,Jakob,Jacob,Luke 3:34,TRUE
 Joseph,Jozef,Joseph,Genesis 37,FALSE
 Moses,Mozes,Moses,,FALSE
 Othniel,Othniël,Othniel,Judges 3:9-11,FALSE
@@ -232,16 +232,16 @@ jehoiada,Jojada,Jehoiada,2 Kings 11:4,FALSE
 babel,Toren van Babel gebouwd,Tower of Babel built,,FALSE
 Haggai,Haggaï,Haggai,,FALSE
 Zerubbabel,Zerubbabel (Lukas 3:27),Zerubbabel (Luke 3:27),Luke 3:27,FALSE
-Babylon,"Daniël 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",,FALSE
-Medopersia,"Daniël 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",,FALSE
-Greece,"Daniël 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",,FALSE
-Rome,"Daniël 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",,FALSE
-Angloamerica,"Daniël 2:33, 41-43","Daniel 2:33, 41-43",,FALSE
-Babylon_c,Babylon,Babylon,,FALSE
-Medopersia_c,Medo-Perzië,Medo-Persia,,FALSE
-Greece_c,Griekenland,Greece,,FALSE
-Rome_c,Rome,Rome,,FALSE
-Angloamerica_c,Anglo-Amerika,Anglo-America,,FALSE
+Babylon,"Daniël 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",,TRUE
+Medopersia,"Daniël 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",,TRUE
+Greece,"Daniël 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",,TRUE
+Rome,"Daniël 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",,TRUE
+Angloamerica,"Daniël 2:33, 41-43","Daniel 2:33, 41-43",,TRUE
+Babylon_c,Babylon,Babylon,,TRUE
+Medopersia_c,Medië-Perzië,Medo-Persia,,TRUE
+Greece_c,Griekenland,Greece,,TRUE
+Rome_c,Rome,Rome,,TRUE
+Angloamerica_c,Engeland-Amerika,Anglo-America,,TRUE
 infliction1,400 jaar toebrengen,400 year infliction,Acts 7:6,FALSE
 infliction2,Handelingen 7:6,Acts 7:6,,FALSE
 Jacob2,Jakob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,FALSE
@@ -337,18 +337,18 @@ epic_gilgamesh,Epos van Gilgamesj (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-l
 oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,,FALSE
 p52,Papyrus P52,Papyrus P52,,FALSE
 daniel2_shift,0,4,Start 4.2,FALSE
-daniel2_1,Koning Nebukadnezar,King Nebuchadnezzar,607 BCE,FALSE
-daniel2_2,vernietigt Jeruzalem,destroys Jerusalem,appendix B9,FALSE
-daniel2_3,Verovert Babylon,Conquers Babylon,539 BCE,FALSE
-daniel2_4,Cyrus besluit terug te keren,Cyrus decrees return,537 BCE,FALSE
-daniel2_5,van Joden naar Jeruzalem,of Jews to Jerusalem,,FALSE
-daniel2_6,Alexander de Grote,Alexander the Great,331 BCE,FALSE
-daniel2_7,verovert Perzië,conquers Persia,,FALSE
-daniel2_8,Regeert over Israël,Rules over Israel,63 BCE,FALSE
-daniel2_9,Vernietigt Jeruzalem,Destroys Jerusalem,70 CE,FALSE
-daniel2_10,"Tijdens de Eerste Wereldoorlog,","During World War I,",1914-1918 CE,FALSE
-daniel2_11,Anglo-Amerikaanse wereldmacht,Anglo-American World Power,,FALSE
-daniel2_12,komt tot stand,comes into being,End 4.2,FALSE
+daniel2_1,Koning Nebukadnezar,King Nebuchadnezzar,607 BCE,TRUE
+daniel2_2,verwoest Jeruzalem,destroys Jerusalem,appendix B9,TRUE
+daniel2_3,Verovert Babylon,Conquers Babylon,539 BCE,TRUE
+daniel2_4,Cyrus vaardigt besluit uit:,Cyrus decrees return,537 BCE,TRUE
+daniel2_5,terugkeer Joden naar Jeruzalem,of Jews to Jerusalem,,TRUE
+daniel2_6,Alexander de Grote,Alexander the Great,331 BCE,TRUE
+daniel2_7,verovert Perzië,conquers Persia,,TRUE
+daniel2_8,Heerst over Israël,Rules over Israel,63 BCE,TRUE
+daniel2_9,Verwoest Jeruzalem,Destroys Jerusalem,70 CE,TRUE
+daniel2_10,Tijdens Eerste Wereldoorlog,"During World War I,",1914-1918 CE,TRUE
+daniel2_11,ontstaat Engels-Amerikaanse,Anglo-American World Power,,TRUE
+daniel2_12,wereldmacht,comes into being,End 4.2,TRUE
 qing-dynasty,1636-1912,1636-1912,,FALSE
 qing-dynasty_c,Qing-dynastie,Qing dynasty,1636-1912,FALSE
 ming-dynasty,1368-1644,1368-1644,,FALSE
@@ -404,13 +404,13 @@ armageddon,"Slag bij Armageddon (Openbaring 16:14, 16; Jesaja 13:9; 2 Petrus 3:1
 millenium,"Gods koninkrijk begint zijn duizendjarige regering (Openbaring 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",,FALSE
 great_crowd,"Een grote schare overleeft Armageddon (Openbaring 7:9, 14; Psalm 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",,FALSE
 world_population,Wereldbevolking in miljarden in de afgelopen 2000 jaar,World population in billions in the last 2000 years,appendix B9,FALSE
-607BCE,607 v.G.T.,607 B.C.E.,accommodate for language,FALSE
-539BCE,539 v.G.T.,539 B.C.E.,systems in style:,FALSE
-537BCE,537 v.G.T.,537 B.C.E.,>>year 537 before time<<,FALSE
-331BCE,331 v.G.T.,331 B.C.E.,so they need a word,FALSE
-63BCE,63 v.G.T.,63 B.C.E.,prior to the year,FALSE
-70CE,70 CE,70 C.E.,and something,FALSE
-1914CE,1914-1918 G.T.,1914-1918 C.E.,after the year,FALSE
+607BCE,607 v.Chr.,607 B.C.E.,accommodate for language,TRUE
+539BCE,539 v.Chr.,539 B.C.E.,systems in style:,TRUE
+537BCE,537 v.Chr.,537 B.C.E.,>>year 537 before time<<,TRUE
+331BCE,331 v.Chr.,331 B.C.E.,so they need a word,TRUE
+63BCE,63 v.Chr.,63 B.C.E.,prior to the year,TRUE
+70CE,70 n.Chr.,70 C.E.,and something,TRUE
+1914CE,1914-1918 n.Chr.,1914-1918 C.E.,after the year,TRUE
 khmer_empire,804 – 1431 G.T.,804 – 1431 C.E.,,FALSE
 khmer_empire_c,Khmer-rijk - Angkor-periode,Khmer Empire - Angkor period,,FALSE
 byzantine_empire,330-1453 G.T.,330-1453 C.E.,,FALSE
@@ -558,5 +558,5 @@ lombard,568 – 774 G.T.,568 – 774 C.E.,Kingdom of the Lombards 568-774,FALSE
 lombard_c,Lombardisch koninkrijk,Lombard Kingdom,2025-10-13,FALSE
 100_years_war,Honderdjarige oorlog 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,FALSE
 black_death,Zwarte dood 1346-1353,Black death 1346-1353,1346-1353,FALSE
-sui_dynasty,581-618 Sui-dynastie,581-618 Sui-dynastie,2025-11-09,FALSE
+sui_dynasty,581-618 Sui-dynastie,581-618 Sui dynasty,2025-11-09,FALSE
 sui_dynasty_c,Sui,Sui,2025-11-09,FALSE

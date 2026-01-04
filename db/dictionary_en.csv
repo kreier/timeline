@@ -23,23 +23,23 @@ objects,objects or items,objects or items,,TRUE,things or items
 Deluge,Deluge,Deluge,,TRUE, 
 Adam,Adam,Adam,Luke 3:38,TRUE, 
 Seth,Seth,Seth,,TRUE, 
-Enosh,Enosh,Enosh,,FALSE,Eʹnosh
-Kenan,Kenan,Kenan,Genesis 5:12,FALSE,Keʹnan
-Mahalalel,Ma·hala·lel,Mahalalel,Ma·hala·lel,FALSE,Ma·haʹla·le·el
-Jared,Jared,Jared,,FALSE,Jaʹred
-Enoch,Enoch,Enoch,,FALSE,Eʹnoch
-Methuselah,Me·thuse·lah,Methuselah,Luke 3:37,FALSE,Me·thuʹse·lah
-Lamech,Lamech,Lamech,,FALSE,Laʹmech
-Noah,Noah,Noah,,FALSE, 
-Shem,Shem,Shem,,FALSE, 
-Arpachshad,Ar·pachshad,Arpachshad,Luke 3:36,FALSE,Ar·pachʹshad
-Shelah,Shelah,Shelah,,FALSE,Sheʹlah
-Eber,Eber,Eber,,FALSE,Eʹber
-Peleg,Peleg,Peleg,,FALSE,Peʹleg
-Reu,Reu,Reu,,FALSE,Reʹu
-Serug,Serug,Serug,Luke 3:35,FALSE,Seʹrug
-Nahor,Nahor,Nahor,Genesis 11:24,FALSE,Naʹhor
-Terah,Terah,Terah,,FALSE,Teʹrah
+Enosh,Eʹnosh,Enosh,,TRUE,Eʹnosh
+Kenan,Keʹnan,Kenan,Genesis 5:12,TRUE,Keʹnan
+Mahalalel,Ma·haʹla·le·el,Mahalalel,Ma·hala·lel,TRUE,Ma·haʹla·le·el
+Jared,Jaʹred,Jared,,TRUE,Jaʹred
+Enoch,Eʹnoch,Enoch,,TRUE,Eʹnoch
+Methuselah,Me·thuʹse·lah,Methuselah,Luke 3:37,TRUE,Me·thuʹse·lah
+Lamech,Laʹmech,Lamech,,TRUE,Laʹmech
+Noah,Noah,Noah,,TRUE, 
+Shem,Shem,Shem,,TRUE, 
+Arpachshad,Ar·pachʹshad,Arpachshad,Luke 3:36,TRUE,Ar·pachʹshad
+Shelah,Sheʹlah,Shelah,,TRUE,Sheʹlah
+Eber,Eʹber,Eber,,TRUE,Eʹber
+Peleg,Peʹleg,Peleg,,TRUE,Peʹleg
+Reu,Reʹu,Reu,,TRUE,Reʹu
+Serug,Seʹrug,Serug,Luke 3:35,TRUE,Seʹrug
+Nahor,Naʹhor,Nahor,Genesis 11:24,TRUE,Naʹhor
+Terah,Teʹrah,Terah,,TRUE,Teʹrah
 Abraham,Abraham,Abraham,,FALSE, 
 Isaac,Isaac,Isaac,,FALSE, 
 Jacob,Jacob,Jacob,Luke 3:34,FALSE, 
@@ -288,42 +288,42 @@ Gaham,Gaham,Gaham,,FALSE,
 Tahash,Tahash,Tahash,,FALSE,Genesis 22:23
 Maacah,Maacah,Maacah,,FALSE, 
 Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",FALSE, 
-Basemath,Base·math,Basemath,"Genesis36:3, 4",FALSE, 
-Reuel,Reuel,Reuel,"36:13, 17",FALSE, 
-Nahath,Nahath,Nahath,,FALSE,Basʹe·math
-Zerah,Zerah,Zerah,,FALSE,Reuʹel
-Schammah,Schammah,Schammah,,FALSE,Naʹhath
-Mizzah,Mizzah,Mizzah,,FALSE,Zeʹrah
-Adah,Adah,Adah,"36:11, 12, 15, 16",FALSE,Shamʹmah
-Eliphaz,Eliphaz,Eliphaz,,FALSE,Mizʹzah
-Teman,Teman,Teman,,FALSE,Aʹdah
-Omar,Omar,Omar,,FALSE,Elʹi·phaz
-Zepho,Zepho,Zepho,,FALSE,Teʹman
-Kenaz,Kenaz,Kenaz,,FALSE,Oʹmar
-Korah,Korah,Korah,,FALSE,Zeʹpho
-Gatam,Gatam,Gatam,,FALSE,Keʹnaz
-Amalek,Amalek,Amalek,,FALSE,Korʹah
-Oholibamah,O·hol·i·bamah,Oholibamah,"36:14, 18",FALSE,Gaʹtam
-Jeush,Jeush,Jeush,,FALSE,Amʹa·lek
-Jalam,Jalam,Jalam,,FALSE,O·hol·i·baʹmah
-Nebaioth,Nebaioth,Nebaioth,Genesis 25:13,FALSE,Jeʹush
-Kedar,Kedar,Kedar,,FALSE,Jaʹlam
-Adbeel,Adbeel,Adbeel,,FALSE,Ne·baʹioth
-Mibsam,Mibsam,Mibsam,,FALSE,Keʹdar
-Mishma,Mishma,Mishma,,FALSE,Adʹbe·el
-Dumah,Dumah,Dumah,,FALSE,Mibʹsam
-Massa,Massa,Massa,,FALSE,Mishʹma
-Hadad,Hadad,Hadad,,FALSE,Duʹmah
-Tema,Tema,Tema,,FALSE,Masʹsa
-Jetur,Jetur,Jetur,,FALSE,Haʹdad
-Naphish,Naphish,Naphish,,FALSE,Teʹma
-Kedemah,Kedemah,Kedemah,,FALSE,Jeʹtur
-Babylon2,,,no text left and right – empty!,FALSE,Naʹphish
-terahfam,Members of Terah’s family,Members of Terah’s family,,FALSE,Kedʹe·mah
-rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E.,,FALSE,empty!!
-Herodotus,"Herodotus c. 484–425 BC, writes The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,FALSE,
-Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",FALSE,
-Ptolemy,Ptolemy c 100 – c. 170 C.E.,Ptolemy c 100 – c. 170 C.E.,,FALSE,
+Basemath,Base·math,Basemath,"Genesis36:3, 4",TRUE,Basʹe·math
+Reuel,Reuel,Reuel,"36:13, 17",TRUE,Reuʹel
+Nahath,Nahath,Nahath,,TRUE,Naʹhath
+Zerah,Zerah,Zerah,,TRUE,Zeʹrah
+Schammah,Schammah,Schammah,,TRUE,Shamʹmah
+Mizzah,Mizzah,Mizzah,,TRUE,Mizʹzah
+Adah,Adah,Adah,"36:11, 12, 15, 16",TRUE,Aʹdah
+Eliphaz,Eliphaz,Eliphaz,,TRUE,Elʹi·phaz
+Teman,Teman,Teman,,TRUE,Teʹman
+Omar,Omar,Omar,,TRUE,Oʹmar
+Zepho,Zepho,Zepho,,TRUE,Zeʹpho
+Kenaz,Kenaz,Kenaz,,TRUE,Keʹnaz
+Korah,Korah,Korah,,TRUE,Korʹah
+Gatam,Gatam,Gatam,,TRUE,Gaʹtam
+Amalek,Amalek,Amalek,,TRUE,Amʹa·lek
+Oholibamah,O·hol·i·bamah,Oholibamah,"36:14, 18",TRUE,O·hol·i·baʹmah
+Jeush,Jeush,Jeush,,TRUE,Jeʹush
+Jalam,Jalam,Jalam,,TRUE,Jaʹlam
+Nebaioth,Nebaioth,Nebaioth,Genesis 25:13,TRUE,Ne·baʹioth
+Kedar,Kedar,Kedar,,TRUE,Keʹdar
+Adbeel,Adbeel,Adbeel,,TRUE,Adʹbe·el
+Mibsam,Mibsam,Mibsam,,TRUE,Mibʹsam
+Mishma,Mishma,Mishma,,TRUE,Mishʹma
+Dumah,Dumah,Dumah,,TRUE,Duʹmah
+Massa,Massa,Massa,,TRUE,Masʹsa
+Hadad,Hadad,Hadad,,TRUE,Haʹdad
+Tema,Tema,Tema,,TRUE,Teʹma
+Jetur,Jetur,Jetur,,TRUE,Jeʹtur
+Naphish,Naphish,Naphish,,TRUE,Naʹphish
+Kedemah,Kedemah,Kedemah,,TRUE,Kedʹe·mah
+Babylon2,,,no text left and right – empty!,TRUE,empty!!
+terahfam,Members of Terah’s family,Members of Terah’s family,,TRUE,
+rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E.,,TRUE,
+Herodotus,"Herodotus c. 484–425 BC, writes The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,TRUE,
+Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",TRUE,
+Ptolemy,Ptolemy c 100 – c. 170 C.E.,Ptolemy c 100 – c. 170 C.E.,,TRUE,
 Pythagoras,Pythagoras c. 570 – c. 495 BC,Pythagoras c. 570 – c. 495 BC,,FALSE,
 Plato,Plato c. 427 – c. 348 BC,Plato c. 427 – c. 348 BC,,FALSE,
 Socrates,Socrates c. 470 – c. 399 BC,Socrates c. 470 – c. 399 BC,,FALSE,
@@ -404,15 +404,15 @@ armageddon,"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:1
 millenium,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",,FALSE,
 great_crowd,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",,FALSE,
 world_population,World population in billions in the last 2000 years,World population in billions in the last 2000 years,appendix B9,FALSE,
-607BCE,607 B.C.E.,607 B.C.E.,accommodate for language,FALSE,
-539BCE,539 B.C.E.,539 B.C.E.,systems in style:,FALSE,
-537BCE,537 B.C.E.,537 B.C.E.,>>year 537 before time<<,FALSE,
-331BCE,331 B.C.E.,331 B.C.E.,so they need a word,FALSE,
-63BCE,63 B.C.E.,63 B.C.E.,prior to the year,FALSE,
-70CE,70 C.E.,70 C.E.,and something,FALSE,
-1914CE,1914-1918 C.E.,1914-1918 C.E.,after the year,FALSE,
-khmer_empire,804 – 1431 C.E.,804 – 1431 C.E.,,FALSE,
-khmer_empire_c,Khmer Empire - Angkor period,Khmer Empire - Angkor period,,FALSE,
+607BCE,607 B.C.E.,607 B.C.E.,accommodate for language,TRUE,
+539BCE,539 B.C.E.,539 B.C.E.,systems in style:,TRUE,
+537BCE,537 B.C.E.,537 B.C.E.,>>year 537 before time<<,TRUE,
+331BCE,331 B.C.E.,331 B.C.E.,so they need a word,TRUE,
+63BCE,63 B.C.E.,63 B.C.E.,prior to the year,TRUE,
+70CE,70 C.E.,70 C.E.,and something,TRUE,
+1914CE,1914-1918 C.E.,1914-1918 C.E.,after the year,TRUE,
+khmer_empire,804 – 1431 C.E.,804 – 1431 C.E.,,TRUE,
+khmer_empire_c,Khmer Empire - Angkor period,Khmer Empire - Angkor period,,TRUE,
 byzantine_empire,330-1453 C.E.,330-1453 C.E.,,FALSE,
 byzantine_empire_c,Byzantine Empire,Byzantine Empire,,FALSE,
 ottoman_empire,1299 – 1922 C.E.,1299 – 1922 C.E.,,FALSE,
