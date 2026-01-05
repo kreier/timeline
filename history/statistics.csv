@@ -1,4 +1,5 @@
 language,language_str,length,checked_true,percentage_checked_true
+de,German (Deutsch),561,322,57.40%
 vi,Vietnamese (Tiếng Việt),561,321,57.22%
 ru,Russian (Русский),548,254,46.35%
 it,Italian (Italiano),548,181,33.03%
@@ -8,31 +9,32 @@ km,Khmer (ខ្មែរ),561,149,26.56%
 hy,Armenian (Հայերեն),475,121,25.47%
 fr,French (Français),561,117,20.86%
 en,English,561,107,19.07%
-nl,Dutch(Nederlands),561,74,13.19%
+nl,Dutch (Nederlands),561,74,13.19%
 ig,Igbo (Ásụ̀sụ́ Ìgbò),475,56,11.79%
 el,Greek (Ελληνικά),475,55,11.58%
 ar,Arabic (العربية),446,40,8.97%
 th,Thai (ภาษาไทย),561,32,5.70%
 ko,Korean (한국인),561,24,4.28%
 no,Norwegian (Norsk),400,11,2.75%
-de,German (Deutsch),561,13,2.32%
+zh,Chinese Mandarin (Simplified) [中文简体（普通话)],475,12,2.53%
 fa,Persian or Farsi (فارسی),446,5,1.12%
 kman,Khmer (ខ្មែរ) with arabic numerals,446,5,1.12%
 si,Sinhala (සිංහල),446,5,1.12%
 ur,Urdu (اُردُو),446,5,1.12%
+yue,Chinese Cantonese (Simplified) [中文简体（广东话)],400,3,0.75%
 pa,Punjabi (ਪੰਜਾਬੀ),548,4,0.73%
 ja,Japanese (日本語),475,3,0.63%
 he,Hebrew (עִבְרִית),446,2,0.45%
 ceb,Cebuano (Bisayâ),561,2,0.36%
+fj,Fijian (Vosa Vaka-Viti),400,1,0.25%
 fi,Finnish (Suomi),446,1,0.22%
 hi,Hindi (हिन्दी),446,1,0.22%
-fj,Fijian(*** no dictionary yet ***),400,,
-hu,Hungarian(*** no dictionary yet ***),400,,
-id,Indonesian(*** no dictionary yet ***),400,,
+hu,Hungarian (Magyar),400,,
+id,Indonesian (Indonesia),400,,
 ilo,Iloko (Illocano),475,,
 kg,Kikongo,475,,
 kne,Kankana-ey,475,,
-mn,Mongolian(*** no dictionary yet ***),400,,
+mn,Mongolian (монгол),400,,
 ms,Malay (Bahasa Melayu),548,,
 pt,Portugese (Português),548,,
 reference,,561,,
@@ -40,5 +42,3 @@ reference59,,87,,
 sw,Swahili (Kiswahili),475,,
 tl,Tagalog (Filipino),475,,
 uk,Ukrainian (українська),548,,
-yue,Chinese Cantonese (Simplified) [中文简体（广东话)],400,,
-zh,Chinese Mandarin (Simplified) [中文简体（普通话)],475,,

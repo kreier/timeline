@@ -1,401 +1,401 @@
-key,text,english,notes
-version,4.6,4.6,
-pdf_title,6000年嘅人類歷史可視化,6000 years human history visualized,
-pdf_subject,人類大事記,Timeline of humankind,
-BCE,公元前,B.C.E.,
-CE,C.E.,C.E.,
-year,年,year,"timespan, age (Adam was 130 years old when Shem was born)"
-years,年,years,
-years_age,年,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old"
-age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"""
-month,月,month,
-months,月份,months,
-day,日,day,
-days,日,days,
-to,自,to,
-people,人,people,
-judges,法官,judges,
-prophets,先知,prophets,
-kings,國王,kings,
-periods,時期,periods,
-events,事件,events,
-objects,對象或項目,objects or items,
-Deluge,洪水,Deluge,
-Adam,亞當,Adam,Luke 3:38
-Seth,賽斯,Seth,
-Enosh,以諾什,Enosh,
-Kenan,凱南,Kenan,
-Mahalalel,马哈拉雷尔,Mahalalel,
-Jared,杰瑞德,Jared,
-Enoch,諾,Enoch,
-Methuselah,瑪土撒拉,Methuselah,Luke 3:37
-Lamech,拉麥,Lamech,
-Noah,諾亞,Noah,
-Shem,閃,Shem,
-Arpachshad,阿帕赫沙德,Arpachshad,Luke 3:36
-Shelah,希拉,Shelah,
-Eber,埃伯,Eber,
-Peleg,佩莱格,Peleg,
-Reu,魯,Reu,
-Serug,塞魯格,Serug,Luke 3:35
-Nahor,纳霍尔,Nahor,Genesis 11:24
-Terah,佢拉,Terah,
-Abraham,亚伯拉罕,Abraham,
-Isaac,艾萨克,Isaac,
-Jacob,雅各,Jacob,Luke 3:34
-Joseph,約瑟夫,Joseph,Genesis 37
-Moses,摩西,Moses,
-Othniel,奥特尼尔,Othniel,Judges 3:9-11
-Ehud,埃胡德,Ehud,Judges 3:15-18
-Shamgar,沙姆加尔,Shamgar,Judges 3:31
-Barak,波利克,Barak,Judges 4:6
-Gideon,吉迪恩,Gideon,Judges 7:1
-Tola,托拉,Tola,Judges 10:1
-Jair,迨,Jair,Judges 10:3
-Jephthah,耶弗佢,Jephthah,Judges 11:1
-Ibzan,伊布讚,Ibzan,Judges 12:8
-Elon,伊隆,Elon,Judges 12:11
-Abdon,阿布頓,Abdon,Judges 12:13
-Samson,參孫,Samson,Judges 13:24
-Samuel,塞缪尔,Samuel,1 Samuel 1:20
-Saul,掃羅,Saul,1 Samuel 9:2
-David,大衛,David,1 Samuel 16:13
-Solomon,索洛莫,Solomon,1 Kings 2:1
-Rehoboam,羅波安,Rehoboam,first king of southern kingdom of Juda
-Abijah,阿比雅（阿比雅）,Abijah (Abijam),"3 years, also Abijam"
-Asa,阿薩,Asa,
-Jehoshaphat,約沙法,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360
-Jehoram2,約蘭,Jehoram,
-Ahaziah,亞哈謝,Ahaziah,
-Athaliah,亞他利雅王后,Queen Athaliah,Queen Athaliah
-Jehoash,約阿施,Jehoash,
-Amaziah,亞瑪謝,Amaziah,
-Uzziah,乌西雅（亞撒利雅）,Uzziah (Azariah),also Azariah
-Jotham,约坦,Jotham,
-Ahaz,亚哈斯,Ahaz,
-Hezekiah,希西屋企,Hezekiah,
-Manasseh,瑪拿西,Manasseh,
-Amon,阿蒙,Amon,
-Josiah,約西亞,Josiah,
-Jehoahaz,约哈斯,Jehoahaz,Only 3 months
-Jehoiakim,約雅敬,Jehoiakim,
-Jehoiachin,約雅斤,Jehoiachin,Only 3 months 10 days
-Zedekiah,西底家,Zedekiah,
-Jeroboam,耶羅波安,Jeroboam,first king of northern 10-tribe kingdom
-Nadab,納達布,Nadab,less than 2
-Baasha,巴沙,Baasha,
-Elah,以拉,Elah,
-Zimri,齐姆里,Zimri,Only 7 days in ca. 751 BCE
-OmriTibni,Omri同Tibni喺一齐,Omri and Tibni together,4 years Omri and Tibni
-Omri,Omri （單獨）,Omri (alone),from 947 Omri alone
-Ahab,亞哈,Ahab,
-Jehoram,約蘭,Jehoram,
-Jehu,耶戶,Jehu,
-Jeoahaz,热瓦哈兹,Jeoahaz,
-JeoahazJehoash,约哈斯同约阿施,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together
-Jehoash2,約阿施（獨自一人）,Jehoash (alone),Jehoash (alone)
-Jeroboam2,耶罗波安二世,Jeroboam II,
-Zechariah,撒迦利亞,Zechariah,"reign only recorded 6 months, probably only established 792 BCE"
-Schallum,沙勒姆,Schallum,only one month
-Menahem,梅纳赫姆,Menahem,
-Pekahiah,佩卡希亚,Pekahiah,
-Pekah,佩卡,Pekah,
-Hoshea,霍謝,Hoshea,9 years from c. 748
-Elijah,以利亞,Elijah,
-Elisha,以利沙,Elisha,
-Jonah,約拿,Jonah,
-Amos,阿莫斯,Amos,
-Joel,乔尔,Joel,
-Hosea,何西阿,Hosea,
-Isaiah,以賽亞書,Isaiah,
-Micah,彌迦,Micah,
-Zephaniah,西番雅,Zephaniah,
-Nahum,果鴻,Nahum,
-Jeremiah,耶利米,Jeremiah,
-Habakuk,哈巴谷,Habakuk,
-Daniel,丹尼尔,Daniel,
-Ezekiel,以西結,Ezekiel,
-Obadiah,俄巴底亞,Obadiah,
-Malachi,玛拉基,Malachi,
-Ruth,露絲,Ruth,
-Ezra,艾拉,Ezra,
-Nehemiah,尼希米,Nehemiah,
-Esther,以斯帖記,Esther,
-Job,工作,Job,
-moses2,公元前1593年至公元前1473年–120年,1593 to 1473 B.C.E. – 120 years,
-moses3,摩西,Moses,
-wilderness,曠野中嘅以色列公元前1513年至公元前1473年–40年,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,
-timespan_judges,公元前1473年至公元前1117年–356年,1473 to 1117 B.C.E. – 356 years,
-timespan_judges2,評委時間,Time of the judges,
-temple1,公元前1513年尼散至公元前1034年,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,
-temple2,聖殿建成前479年–列王紀上6：1,479 years until the temple construction – 1 Kings 6:1,1034 BCE
-69weeks,耶穌在公元29年秋天施洗。,Jesus baptized autumn 29 C.E.,
-69weeks2,彌賽亞69周–但以理書9：25,69 weeks to the Messiah – Daniel 9:25,
-jesus_service,服侍耶穌3.5年，于公元33年尼散月14日被處決。,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
-jesus_life,耶穌生於公元前2年,Jesus born 2 B.C.E.,
-exile,公元前607年至公元前537年–70年（耶利米書25：11）,607 to 537 B.C.E. – 70 years (Jeremiah 25:11),
-exile2,流亡,exile,
-7times,啟示錄12：9,Revelation 12:9,
-7times2,7次–2520年到彌賽亞王國，公元1914年（但以理書4：23）,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),
-ww1,第一次世界大戰–公元1914-1918年,World War I – 1914–1918 C.E.,
-ww2,第二次世界大戰–公元1939-1945年,World War II – 1939–1945 C.E.,
-30_year_war,歐洲三十年戰爭1618-1648,Thirty Years' War in Europe 1618-1648,
-joshua,110岁,110 years,
-joshua2,乔舒亚,Joshua,
-caleb,超過85年,more than 85 years,
-caleb2,凱勒,Caleb,
-missionary1,保羅嘅第一次傳教之旅，約公元47-48年，與巴拿巴同约翰·马可,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark",
-circumcision,安提阿嘅割礼問題，約公元49年喺耶路撒冷舉行嘅會議,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.",
-missionary2,第二次傳教之旅，約公元49-52年，與西拉（西爾瓦努斯）,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),
-missionary3,第三次傳教之旅，約公元52-56年,Third Missionary Journey c. 52-56 C.E.,
-caesarea,保羅被關押在凱撒利亞，約公元56-58年,Paul in custody in Caesarea c. 56-58 C.E.,
-rome1,保羅第一次被囚禁喺罗马，約公元59-61年,Paul’s first imprisonment in Rome c. 59-61 C.E.,
-rome2,保羅第二次被囚禁在羅馬，約公元65年，提摩太后書，保羅被處決,"Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",
-Julius,朱利叶斯,Julius,
-Augustus,奥古斯都,Augustus,Luke 2:1
-Tiberius,提比略,Tiberius,Luke 3:1
-Caligula,卡利古拉,Caligula,
-Claudius,克劳迪斯,Claudius,Acts 11:28
-Nero,尼祿,Nero,
-Galba-Otho-Vitellius,加爾巴、奧托同維特利烏斯（四皇之年）,"Galba, Otho and Vitellius (Year of the Four Emperors)",
-Vespasian,維斯帕先,Vespasian,
-event_exodus,公元前1513年尼散月14日出埃及記,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.",
-event_division_kingdom,以色列分裂公元前997年,Division of Israel 997 BCE,
-event_destruction_samaria,公元前740年撒玛利亚被亞述摧毀,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria
-event_destruction_samaria2,公元前740年，亞述,740 B.C.E. by Assyria,was shortened here for 2 lines
-event_destruction_jerusalem1,公元前607年，巴比倫在耶路撒冷分裂390年後，耶路撒冷被巴比倫摧毀（以西結書4：5）,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",
-event_temple_rebuilt,耶路撒冷嘅聖殿重建於公元前515年。,Temple in Jerusalem rebuilt 515 B.C.E.,
-event_jerusalem_rebuilt,耶路撒冷城牆重建於公元前455年,Jerusalem wall rebuilt 455 B.C.E.,
-event_destruction_jerusalem2,公元70年罗马喺提图斯統治下摧毀耶路撒冷,Destruction of Jerusalem 70 C.E. by Rome under Titus,
-event_1914,萬國時代的終結，神嘅國度開始喺天上統治公元1914年,"End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24
-became_king,年紀大咗就成了國王,became king at age,
-vulgate,杰罗姆（ Jerome ）完成嘅通俗譯本（聖經嘅拉丁文譯本）約公元405年,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,
-gutenberg,古腾堡聖經印刷1455年,Gutenberg bible printed 1455,
-erasmus,1516年鹿特丹嘅德西德里乌斯·伊拉斯杓（ Desiderius Erasmus ）出版嘅基督教希臘語聖經嘅希臘文本,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,
-luther,1522年9月路德聖經翻譯,Luther Bible translation in September 1522,
-tyndale,Tyndale 1536年嘅英文聖經翻譯,English Bible translation by Tyndale 1536,
-king_james,欽定版聖經1611,King James Bible 1611,
-69weeks3,"耶穌在公元29年開始服侍（路加福音3：1,21）","Jesus starts his service 29 CE (Luke 3:1, 21)",
-ransom,周中≤停止獻祭桎梏但以理書9：27,middle of week “sacrifice to cease” Daniel 9:27,
-cornelius,哥尼流在公元36年70周結束時受洗（但以理書9：24）。,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,
-columbus,1492年美洲前哥倫布時期結束,end of the pre-columbian period in the Americas 1492,
-declaration_independence,1776年美洲13個殖民地宣佈獨立,declaration of independence of 13 colonies in America 1776,
-tischendorf,Tischendorf於1844年發現咗4世紀嘅西奈抄本,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,
-dead_sea_scrolls,死海古卷寫作,Dead Sea Scrolls written,
-septuagint,七十士譯本LXX翻譯,Septuagint LXX translated,
-watchtower,1879年出版了第一期《錫安的守望台和基督同系的先驅》,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,
-photodrama,1914年1月11日，徜徉創造嘅攝影劇徜徉喺紐約首次展出,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",
-jehovahs_witnesses,聖經研究者取了一個新名字——耶和華見證人。 1931年，俄亥俄州哥伦布市,"The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture
-gilead_school,守望台基列聖經學校於1943年2月1日星期一開學,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",
-new_world_translation1,1960年6月18日，《聖經新世界譯本》在英國曼徹斯特出版,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name
-truth_book,1968年出版嘅《通往永生嘅真理》一書,The book “The Truth That Leads to Eternal Life” released 1968,
-metropolitan,2011年開始大都會見證,Start of metropolitan witnessing in 2011,
-jw_org,2012年12月，在王國事工中開始 JW.ORG,Start of JW.ORG with instructions in kingdom ministry December 2012,
-new_world_translation2,2013年年會上修訂嘅《聖經新世界譯本》,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind
-jw_broadcasting,2014年10月jw.broadcasting開播,Start of jw.broadcasting in October 2014,
-meeting_workbook,由2016年1月開始，採用“會議工作簿”嘅周中會議新形式,New format of midweek meeting with “meeting workbook” starting January 2016,
-covid19,Covid-19嘅,Covid-19,
-cold_war,1945-1991年被稱為“冷戰”嘅地緣政治局勢,Geopolitical situation labeled “Cold War” 1945-1991,
-timeline_created,"呢條時間綫創建于2023年，係人類歷史上最熱的一年，也是過去125,000年","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",
-codex_sinaiticus,西奈抄本,Codex Sinaiticus written,
-codex_vaticanus,梵蒂岡抄本,Codex Vaticanus written,
-leningrad_codex,列宁格勒抄本，寫於開羅，公元1008年,Leningrad Codex written in Cairo AD 1008,
-john,約翰在公元96-98年被擄到拔摩島時寫下了“啟示錄”。,John writes “revelation” while exiled on Patmos 96-98 C.E.,
-nicaea1,尼西亞第一届大公會議,First Council of Nicaea,
-buddha,佛陀–悉达多·乔达摩c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,
-buddha2,佛陀約公元前480-400年,Buddha alternatively c. 480-400 B.C.E.,
-mohammed,穆罕默德，約公元570-632年,Mohammed c. 570-632 C.E.,
-confucius,孔子，約公元前551年—約公元前479年,Confucius c.551-c.479 B.C.E.,
-hijrah,希吉拉-麥加之旅到麥地622年7月16日,Hijrah - Journey Mecca to Medina 16 July 622,
-moses_escape,公元前1553年，摩西必須逃離埃及——出埃及記2：15，使徒行傳7：23,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",
-10plagues,公元前1513年，埃及遭遇10次瘟疫,1513 B.C.E Egypt receives 10 plagues,
-joseph_sold,約瑟在17歲時被賣為奴隸——創世記37：2,Joseph sold as slave at the age of 17 – Gen 37:2,
-infliction,400年的苦難（使徒行傳7：6）—以實瑪利，公元前1913年，公元前,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,
-Alexander,亞歷山大大帝（但以理書11：3 ）,Alexander the Great (Daniel 11:3),
-persia,居魯士大帝，岡比西斯二世，大流士一世公元前490年，薛西斯一世公元前480年（以斯帖嘅老公，但以理書11：2 ）,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",
-persia2,波斯,Persia,
-king_north,"塞琉古一世尼卡托（ v5 ）敘利亞到安條克三世（ v10 ）同塞琉古四世（ v18,19 ）落到屋大維（ v20 ）同提比略（ v21-24 ）","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",
-king_north1,北方之王,King of the North,
-king_south,托勒密一世、二世、三世、四世（ 11、12節）、五世（ 15節、16節）到公元前31年嘅戰鬥Actium,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",
-king_south1,南方之王,King of the South,
-king_south2,1870年大英帝国嘅，1914年以來嘅英美世界強國,"British empire 1870, Anglo-American World Power since 1914",
-king_south3,南方之王,King of the South,
-king_north2,德國與威廉一世皇帝1871 （v28）、1914 （v29）、1935 （v30b）、1939 （v31a）,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
-king_north3,北,North,
-king_north4,"蘇聯1945-1991 （但以理書11：32-39,40b，41 ）","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",
-king_north5,俄羅斯自2017年以來（ w20 May ）,Russia since 2017 (w20 May),
-time_of_end,基督的同在，事物制度的終結（馬太福音24：3），末世（提摩太后書3：1）,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out
-time_of_end2,最後幾日,last days,
-suryavaman2,苏里亚跋摩二世國王建造吳哥窟1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,
-notre-dame,巴黎聖母院建於1163-1260年,Notre-Dame de Paris built 1163-1260,
-jehoiada,約何亞達,Jehoiada,2 Kings 11:4
-babel,巴别塔建成,tower of Babel built,
-Haggai,哈該,Haggai,
-Zerubbabel,所罗巴伯（路加福音3：27 ）,Zerubbabel (Luke 3:27),Luke 3:27
-Babylon,"但以理书 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",
-Medopersia,"但以理书 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",
-Greece,"但以理书 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",
-Rome,"但以理书 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",
-Angloamerica,"但以理书 2:33, 41-43","Daniel 2:33, 41-43",
-Babylon_c,巴比伦,Babylon,
-Medopersia_c,米底亚－波斯,Medo-Persia,
-Greece_c,希腊,Greece,
-Rome_c,罗马,Rome,
-Angloamerica_c,英美,Anglo-America,
-infliction1,400年受害,400 year infliction,Acts 7:6
-infliction2,使徒行傳7：6,Acts 7:6,
-Jacob2,雅各/,Jacob/,Jacob/Israel 1858-1711 – 147 years
-Israel,以色列,Israel,Genesis 35:10
-Sarah,莎拉,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2"
-Hagar,夏甲,Hagar,Genesis 21:14
-Haran,哈蘭,Haran,Genesis 11:26
-Reumah,鲁玛,Reumah,Concubine – 4 sons 22:24
-Milcah,米尔卡,Milcah,8 sons (Bethuel and 7 more)
-Lot,好多,Lot,Genesis 11:27
-Lots_wife,羅得的妻子,Lot’s wife,
-Lots_daughters,羅得的女兒,Daughters of Lot,
-Moab,摩押（大女）,Moab (older daughter),Genesis 19:37
-Ammon,Ben-ammi （阿蒙）,Ben-ammi (Ammon),Genesis 19:38
-Bethuel,貝休爾,Bethuel,Genesis 22:23
-Rebekah,麗貝卡,Rebekah,
-Laban,拉班,Laban,Genesis 24:29
-Leah,利亞,Leah,Genesis 35:23
-Rachel,瑞秋,Rachel,Genesis 35:24
-Bilhah,比爾哈,Bilhah,Genesis 35:25
-Zilpah,齐尔帕,Zilpah,Genesis 35:26
-Reuben,魯本,Reuben,
-Simeon,緬,Simeon,
-Levi,利瓦伊,Levi,Genesis 35:23
-Judah,猶大,Judah,
-Issachar,以薩迦,Issachar,
-Zebulun,澤布倫,Zebulun,
-Dinah,黛娜,Dinah,Genesis 34
-Esau,以掃/,Esau/,
-Edom,以東,Edom,Genesis 36:1
-Ishmael,以實瑪利,Ishmael,Genesis 16:16
-Manasseh2,（瑪拿西,(Manasseh,Genesis 41:50-52
-Ephraim,同以法蓮）,and Ephraim),
-Benjamin,本傑明,Benjamin,
-Dan,擔,Dan,Genesis 35:23
-Naphtali,萘鞘利,Naphtali,
-Gad,迨,Gad,
-Asher,阿瑟,Asher,
-Milcah1,烏茲、布兹、凯缪尔、,"Uz, Buz, Kemuel,",Genesis 22:21
-Milcah2,切塞德，哈佐，,"Chesed, Hazo,",
-Milcah3,皮尔达什，吉德拉夫,"Pildash, Jidlaph",
-Tebah,特巴,Tebah,Genesis 22:24
-Gaham,加汉姆,Gaham,
-Tahash,塔哈什,Tahash,
-Maacah,馬加,Maacah,
-Mahalath,玛哈拉特/,Mahalath/,"Genesis 28:8, 9"
-Basemath,基礎·數學,Basemath,"Genesis36:3, 4"
-Reuel,鲁埃尔,Reuel,"36:13, 17"
-Nahath,那哈特,Nahath,
-Zerah,泽拉,Zerah,
-Schammah,沙瑪,Schammah,
-Mizzah,米扎,Mizzah,
-Adah,阿达,Adah,"36:11, 12, 15, 16"
-Eliphaz,以利法,Eliphaz,
-Teman,特曼,Teman,
-Omar,奥马尔,Omar,
-Zepho,澤福,Zepho,
-Kenaz,肯纳兹,Kenaz,
-Korah,可拉,Korah,
-Gatam,加塔姆,Gatam,
-Amalek,亞瑪力人,Amalek,
-Oholibamah,奥霍利巴马,Oholibamah,"36:14, 18"
-Jeush,杰什,Jeush,
-Jalam,贾拉姆,Jalam,
-Nebaioth,尼拜奧特,Nebaioth,Genesis 25:13
-Kedar,凱達爾,Kedar,
-Adbeel,阿德比爾,Adbeel,
-Mibsam,米布薩姆,Mibsam,
-Mishma,米什玛,Mishma,
-Dumah,杜馬,Dumah,
-Massa,馬薩,Massa,
-Hadad,哈達德,Hadad,
-Tema,特馬,Tema,
-Jetur,杰图尔,Jetur,
-Naphish,纳菲什,Naphish,
-Kedemah,凯德玛,Kedemah,
-Babylon2,,,no text left and right – empty!
-terahfam,Terah家人,members of Terah’s family,
-rosetta,罗塞塔石碑公元前196年,Rosetta stone 196 B.C.E.,
-Herodotus,希罗多德約公元前484年–約公元前425年，撰寫《歷史》,"Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History
-Aristotle,亚里士多德384–公元前322年,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher"
-Ptolemy,托勒密c 100–c. 170 C.E.,Ptolemy c 100 – c. 170 C.E.,
-Pythagoras,畢達哥拉斯，約公元前570年-約公元前495年,Pythagoras c. 570 – c. 495 BC,
-Plato,柏拉图約公元前427年–約公元前348年,Plato c. 427 – c. 348 BC,
-Socrates,苏格拉底約公元前470年–約公元前399年,Socrates c. 470 – c. 399 BC,
-Josephus,約瑟夫斯約公元37年-約公元100年,Josephus c. 37 – c. 100 C.E.,
-Cicero,西塞罗公元前106-43年,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC"
-lachish_letters,約公元前590年嘅拉奇字母,Lachish letters c. 590 B.C.E.,
-lachish_reliefs,拉奇浮雕，約公元前681年,Lachish reliefs c. 681 B.C.E.,
-mesha_stele,米沙石碑（摩押石），約公元前840年,Mesha Stele (Moabite stone) c. 840 B.C.E.,
-gilgamesh,吉爾伽美什和阿迦𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,
-epic_gilgamesh,吉爾伽美什史詩（Són-lóqi-unninni）,Epic of Gilgamesh (Sîn-lēqi-unninni),
-oxyrhynchus,Oxyrhynchus紙莎草紙,Oxyrhynchus Papyri,
-p52,紙莎草紙P52,Papyrus P52,
-daniel2_shift,0,0,Start 4.2
-daniel2_1,尼布甲尼撒王,King Nebuchadnezzar,607 BCE
-daniel2_2,摧毁耶路撒冷,destroys Jerusalem,
-daniel2_3,征服巴比伦,Conquers Babylon,539 BCE
-daniel2_4,居鲁士下旨让犹,Cyrus decrees return,537 BCE
-daniel2_5,太人返回耶路撒冷,of Jews to Jerusalem,
-daniel2_6,亚历山大,Alexander the Great,331 BCE
-daniel2_7,大帝征服波斯,conquers Persia,
-daniel2_8,开始统治以色列,Rules over Israel,63 BCE
-daniel2_9,摧毁耶路撒冷,Destroys Jerusalem,70 CE
-daniel2_10,第一次世界大战期间，,"During World War I,",1914-1918 CE
-daniel2_11,英美世界霸权崛起,Anglo-American World Power,
-daniel2_12,,comes into being,End 4.2
-qing-dynasty,1636-1912,1636-1912,
-qing-dynasty_c,清朝,Qing dynasty,1636-1912
-ming-dynasty,1368-1644,1368-1644,
-ming-dynasty_c,中國帝國嘅明朝,Ming dynasty in imperial China,1368-1644
-yuan-dynasty,1271-1368,1271-1368,
-southern-song,1127-1279,1127-1279,
-northern-song,960-1127,960-1127,
-western-xia,1038-1227,1038-1227,
-yuan-dynasty_c,文,Yuan,1271-1368
-southern-song_c,南宋,Southern Song,1127-1279
-northern-song_c,北宋,Northern Song,960-1127
-western-xia_c,西夏,Western Xia,1038-1227
-Copernicus,尼古拉斯·哥白尼,Nicolaus Copernicus,
-Galileo,伽利略·伽利萊,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei
-Newton,牛頓,Isaac Newton,
-gregorian,公曆1582,Gregorian calendar 1582,
-shang-dynasty,約公元前1600-1046年,c. 1600-1046 BC,
-western-zhou,約公元前1046-771年,c. 1046-771 BC,
-eastern-zhou,公元前770-256年,770-256 BC,
-qin-dynasty,秦 公元前221-207年,Qin 221-207 BC,
-western-han,公元前207年–公元9年,207 BC – 9 CE,
-eastern-han,公元25-220年,25-220 CE,
-three-kingdoms,三國公元220-280年,Three kingdoms 220-280 CE,
-sixteen-kingdoms,十六國公元304-439年,Sixteen kingdoms 304-439 CE,
-northern-dynasties,公元368-581年,368-581 CE,
-southern-dynasties,公元420-589年,420-589 CE,
-tang-dynasty1,,,
-tang-dynasty2,"618-690, 705-907","618-690, 705-907",
-wu-zhou,690-705吴周,690-705 Wu Zhou,
-shang-dynasty_c,商代,Shang Dynasty,c. 1600-1046 BC
-western-zhou_c,西周,Western Zhou,c. 1046-771 BC
-eastern-zhou_c,東部周,Eastern Zhou,770-256 BC
-western-han_c,西漢,Western Han,207 BC – 9 CE
-eastern-han_c,東漢,Eastern Han,25-220 CE
-three-kingdoms_c,中國,China,Three kingdoms 220-280 CE
-sixteen-kingdoms_c,中國,China,Sixteen kingdoms 304-439 CE
-northern-dynasties_c,南北朝,Northern Dynasties,368-581 CE
-southern-dynasties_c,南北朝,Southern Dynasties,420-589 CE
-tang-dynasty1_c,柄腳,Tang,
-tang-dynasty2_c,唐代,Tang Dynasty,"618-690, 705-907"
-xia-dynasty,中國夏朝約公元前2070年–約公元前1600年,Xia dynasty in China c. 2070 – c. 1600 BC,
-gonghe,巩河攝政公元前841-828年,Gonghe Regency 841-828 BC,
-Ashoka,阿育王（約公元前304-232年）推廣佛教,Ashoka (c. 304-232 BC) promotes Buddhism,
-siloam-tunnel,希西屋企擴建西罗亚隧道,Hezekiah extends Siloam tunnel,c. 742-732 BC
-Angloamerica2,但以理書2：33緊，41-43嘅預言中，英美人以鐵腳與粘土混合為象徵,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",
-Manetho,Manetho寫道Aegyptiaca,Manetho writes Aegyptiaca,
-tribulation,"大災難（馬可福音13：19; 但以理書12：1; 馬太福音24：21,22）","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
-destruction_babylon,"大巴比倫的毀滅（啟示錄17：3,15-18;18：9,10）","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT)
-gog_of_magog,"瑪各歌革的攻擊（以西結書38：1,2,9-12,18-23）","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT
-sheep_goat,地上的居民將受到審判，將綿羊和山羊分開（馬太福音25：31-33）,"Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT
+key,text,english,notes,checked
+version,4.6,4.6, ,False
+pdf_title,6000年嘅人類歷史可視化,6000 years human history visualized,2026-01-05,False
+pdf_subject,人類大事記,Timeline of humankind, ,False
+BCE,公元前,B.C.E.,appendix B9,False
+CE,C.E.,C.E., ,False
+year,年,year,"timespan, age (Adam was 130 years old when Shem was born)",False
+years,年,years, ,False
+years_age,年,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",False
+month,月,month, ,False
+months,月份,months, ,False
+day,日,day, ,False
+days,日,days, ,False
+to,自,to, ,False
+people,人,people, ,False
+judges,法官,judges, ,False
+prophets,先知,prophets, ,False
+kings,國王,kings, ,False
+periods,時期,periods, ,False
+events,事件,events, ,False
+objects,對象或項目,objects or items, ,False
+Deluge,洪水,Deluge, ,False
+Adam,亞當,Adam,Luke 3:38,False
+Seth,賽斯,Seth, ,False
+Enosh,以諾什,Enosh, ,False
+Kenan,凱南,Kenan,Genesis 5:12,False
+Mahalalel,马哈拉雷尔,Mahalalel,Ma·hala·lel,True
+Jared,杰瑞德,Jared, ,False
+Enoch,諾,Enoch, ,False
+Methuselah,瑪土撒拉,Methuselah,Luke 3:37,False
+Lamech,拉麥,Lamech, ,False
+Noah,諾亞,Noah, ,True
+Shem,閃,Shem, ,True
+Arpachshad,阿帕赫沙德,Arpachshad,Luke 3:36,False
+Shelah,希拉,Shelah, ,False
+Eber,埃伯,Eber, ,False
+Peleg,佩莱格,Peleg, ,False
+Reu,魯,Reu, ,False
+Serug,塞魯格,Serug,Luke 3:35,False
+Nahor,纳霍尔,Nahor,Genesis 11:24,False
+Terah,佢拉,Terah, ,False
+Abraham,亚伯拉罕,Abraham, ,False
+Isaac,艾萨克,Isaac, ,False
+Jacob,雅各,Jacob,Luke 3:34,False
+Joseph,約瑟夫,Joseph,Genesis 37,False
+Moses,摩西,Moses, ,False
+Othniel,奥特尼尔,Othniel,Judges 3:9-11,False
+Ehud,埃胡德,Ehud,Judges 3:15-18,False
+Shamgar,沙姆加尔,Shamgar,Judges 3:31,False
+Barak,波利克,"Barak, Deborah, Jael",Judges 4:6,False
+Gideon,吉迪恩,Gideon,Judges 7:1,False
+Tola,托拉,Tola,Judges 10:1,False
+Jair,迨,Jair,Judges 10:3,False
+Jephthah,耶弗佢,Jephthah,Judges 11:1,False
+Ibzan,伊布讚,Ibzan,Judges 12:8,False
+Elon,伊隆,Elon,Judges 12:11,False
+Abdon,阿布頓,Abdon,Judges 12:13,False
+Samson,參孫,Samson,Judges 13:24,False
+Samuel,塞缪尔,Samuel,1 Samuel 1:20,False
+Saul,掃羅,Saul,1 Samuel 9:2,False
+David,大衛,David,1 Samuel 16:13,False
+Solomon,索洛莫,Solomon,1 Kings 2:1,False
+Rehoboam,羅波安,Rehoboam,first king of southern kingdom of Juda,False
+Abijah,阿比雅（阿比雅）,Abijah (Abijam),"3 years, also Abijam",False
+Asa,阿薩,Asa,A6-A,False
+Jehoshaphat,約沙法,Jehoshaphat, ,False
+Jehoram2,約蘭,Jehoram, ,False
+Ahaziah,亞哈謝,Ahaziah, ,False
+Athaliah,亞他利雅王后,Queen Athaliah,Queen Athaliah,False
+Jehoash,約阿施,Jehoash, ,False
+Amaziah,亞瑪謝,Amaziah, ,False
+Uzziah,乌西雅（亞撒利雅）,Uzziah (Azariah),also Azariah,False
+Jotham,约坦,Jotham,A6-B,False
+Ahaz,亚哈斯,Ahaz, ,False
+Hezekiah,希西屋企,Hezekiah, ,False
+Manasseh,瑪拿西,Manasseh, ,False
+Amon,阿蒙,Amon, ,False
+Josiah,約西亞,Josiah, ,False
+Jehoahaz,约哈斯,Jehoahaz,Only 3 months,False
+Jehoiakim,約雅敬,Jehoiakim, ,False
+Jehoiachin,約雅斤,Jehoiachin,Only 3 months 10 days,False
+Zedekiah,西底家,Zedekiah, ,False
+Jeroboam,耶羅波安,Jeroboam,first king of northern 10-tribe kingdom,False
+Nadab,納達布,Nadab,less than 2,False
+Baasha,巴沙,Baasha, ,False
+Elah,以拉,Elah, ,False
+Zimri,齐姆里,Zimri,Only 7 days in ca. 751 BCE,False
+OmriTibni,Omri同Tibni喺一齐,Omri and Tibni together,4 years Omri and Tibni,False
+Omri,Omri （單獨）,Omri (alone),from 947 Omri alone,False
+Ahab,亞哈,Ahab, ,False
+Jehoram,約蘭,Jehoram, ,False
+Jehu,耶戶,Jehu, ,False
+Jeoahaz,热瓦哈兹,Jeoahaz, ,False
+JeoahazJehoash,约哈斯同约阿施,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,False
+Jehoash2,約阿施（獨自一人）,Jehoash (alone),Jehoash (alone),False
+Jeroboam2,耶罗波安二世,Jeroboam II, ,False
+Zechariah,撒迦利亞,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",False
+Schallum,沙勒姆,Schallum,only one month,False
+Menahem,梅纳赫姆,Menahem, ,False
+Pekahiah,佩卡希亚,Pekahiah, ,False
+Pekah,佩卡,Pekah, ,False
+Hoshea,霍謝,Hoshea,9 years from c. 748,False
+Elijah,以利亞,Elijah, ,False
+Elisha,以利沙,Elisha, ,False
+Jonah,約拿,Jonah, ,False
+Amos,阿莫斯,Amos, ,False
+Joel,乔尔,Joel, ,False
+Hosea,何西阿,Hosea, ,False
+Isaiah,以賽亞書,Isaiah, ,False
+Micah,彌迦,Micah, ,False
+Zephaniah,西番雅,Zephaniah, ,False
+Nahum,果鴻,Nahum, ,False
+Jeremiah,耶利米,Jeremiah, ,False
+Habakuk,哈巴谷,Habakuk, ,False
+Daniel,丹尼尔,Daniel, ,False
+Ezekiel,以西結,Ezekiel, ,False
+Obadiah,俄巴底亞,Obadiah, ,False
+Malachi,玛拉基,Malachi, ,False
+Ruth,露絲,Ruth, ,False
+Ezra,艾拉,Ezra, ,False
+Nehemiah,尼希米,Nehemiah, ,False
+Esther,以斯帖記,Esther, ,False
+Job,工作,Job, ,False
+moses2,公元前1593年至公元前1473年–120年,1593 to 1473 B.C.E. – 120 years, ,False
+moses3,摩西,Moses, ,False
+wilderness,曠野中嘅以色列公元前1513年至公元前1473年–40年,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,False
+timespan_judges,公元前1473年至公元前1117年–356年,1473 to 1117 B.C.E. – 356 years, ,False
+timespan_judges2,評委時間,Time of the judges, ,False
+temple1,公元前1513年尼散至公元前1034年,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,False
+temple2,聖殿建成前479年–列王紀上6：1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,False
+69weeks,耶穌在公元29年秋天施洗。,Jesus baptized autumn 29 C.E., ,False
+69weeks2,彌賽亞69周–但以理書9：25,69 weeks to the Messiah – Daniel 9:25, ,False
+jesus_service,服侍耶穌3.5年，于公元33年尼散月14日被處決。,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,False
+jesus_life,耶穌生於公元前2年,Jesus born 2 B.C.E., ,False
+exile,公元前607年至公元前537年–70年（耶利米書25：11）,607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,False
+exile2,流亡,Exile, ,False
+7times,啟示錄12：9,Revelation 12:9, ,False
+7times2,7次–2520年到彌賽亞王國，公元1914年（但以理書4：23）,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,False
+ww1,第一次世界大戰–公元1914-1918年,World War I – 1914–1918 C.E., ,False
+ww2,第二次世界大戰–公元1939-1945年,World War II – 1939–1945 C.E., ,False
+30_year_war,歐洲三十年戰爭1618-1648,Thirty Years' War in Europe 1618-1648, ,False
+joshua,110岁,110 years, ,False
+joshua2,乔舒亚,Joshua, ,False
+caleb,超過85年,more than 85 years, ,False
+caleb2,凱勒,Caleb, ,False
+missionary1,保羅嘅第一次傳教之旅，約公元47-48年，與巴拿巴同约翰·马可,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,False
+circumcision,安提阿嘅割礼問題，約公元49年喺耶路撒冷舉行嘅會議,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,False
+missionary2,第二次傳教之旅，約公元49-52年，與西拉（西爾瓦努斯）,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,False
+missionary3,第三次傳教之旅，約公元52-56年,Third Missionary Journey c. 52-56 C.E., ,False
+caesarea,保羅被關押在凱撒利亞，約公元56-58年,Paul in custody in Caesarea c. 56-58 C.E., ,False
+rome1,保羅第一次被囚禁喺罗马，約公元59-61年,Paul’s first imprisonment in Rome c. 59-61 C.E., ,False
+rome2,保羅第二次被囚禁在羅馬，約公元65年，提摩太后書，保羅被處決,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,False
+Julius,朱利叶斯,Julius, ,False
+Augustus,奥古斯都,Augustus,Luke 2:1,False
+Tiberius,提比略,Tiberius,Luke 3:1,False
+Caligula,卡利古拉,Caligula, ,False
+Claudius,克劳迪斯,Claudius,Acts 11:28,False
+Nero,尼祿,Nero, ,False
+Galba-Otho-Vitellius,加爾巴、奧托同維特利烏斯（四皇之年）,"Galba, Otho and Vitellius (Year of the Four Emperors)", ,False
+Vespasian,維斯帕先,Vespasian, ,False
+event_exodus,公元前1513年尼散月14日出埃及記,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,False
+event_division_kingdom,以色列分裂公元前997年,Division of Israel 997 BCE, ,False
+event_destruction_samaria,公元前740年撒玛利亚被亞述摧毀,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,False
+event_destruction_samaria2,公元前740年，亞述,740 B.C.E. by Assyria,was shortened here for 2 lines,False
+event_destruction_jerusalem1,公元前607年，巴比倫在耶路撒冷分裂390年後，耶路撒冷被巴比倫摧毀（以西結書4：5）,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,False
+event_temple_rebuilt,耶路撒冷嘅聖殿重建於公元前515年。,Temple in Jerusalem rebuilt 515 B.C.E., ,False
+event_jerusalem_rebuilt,耶路撒冷城牆重建於公元前455年,Jerusalem wall rebuilt 455 B.C.E., ,False
+event_destruction_jerusalem2,公元70年罗马喺提图斯統治下摧毀耶路撒冷,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,False
+event_1914,萬國時代的終結，神嘅國度開始喺天上統治公元1914年,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,False
+became_king,年紀大咗就成了國王,becomes king at age,2025-04-14,False
+vulgate,杰罗姆（ Jerome ）完成嘅通俗譯本（聖經嘅拉丁文譯本）約公元405年,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,False
+gutenberg,古腾堡聖經印刷1455年,Gutenberg Bible printed 1455, ,False
+erasmus,1516年鹿特丹嘅德西德里乌斯·伊拉斯杓（ Desiderius Erasmus ）出版嘅基督教希臘語聖經嘅希臘文本,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,False
+luther,1522年9月路德聖經翻譯,Luther Bible translation in September 1522, ,False
+tyndale,Tyndale 1536年嘅英文聖經翻譯,English Bible translation by Tyndale 1536, ,False
+king_james,欽定版聖經1611,King James Bible 1611, ,False
+69weeks3,"耶穌在公元29年開始服侍（路加福音3：1,21）","Jesus starts his service 29 CE (Luke 3:1, 21)", ,False
+ransom,周中≤停止獻祭桎梏但以理書9：27,Middle of week “sacrifice to cease” Daniel 9:27, ,False
+cornelius,哥尼流在公元36年70周結束時受洗（但以理書9：24）。,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,False
+columbus,1492年美洲前哥倫布時期結束,End of the pre-columbian period in the Americas 1492, ,False
+declaration_independence,1776年美洲13個殖民地宣佈獨立,Declaration of independence of 13 colonies in America 1776, ,False
+tischendorf,Tischendorf於1844年發現咗4世紀嘅西奈抄本,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,False
+dead_sea_scrolls,死海古卷寫作,Dead Sea Scrolls written, ,False
+septuagint,七十士譯本LXX翻譯,Septuagint LXX translated, ,False
+watchtower,1879年出版了第一期《錫安的守望台和基督同系的先驅》,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,False
+photodrama,1914年1月11日，徜徉創造嘅攝影劇徜徉喺紐約首次展出,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,False
+jehovahs_witnesses,聖經研究者取了一個新名字——耶和華見證人。 1931年，俄亥俄州哥伦布市,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,False
+gilead_school,守望台基列聖經學校於1943年2月1日星期一開學,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,False
+new_world_translation1,1960年6月18日，《聖經新世界譯本》在英國曼徹斯特出版,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,False
+truth_book,1968年出版嘅《通往永生嘅真理》一書,The book “The Truth That Leads to Eternal Life” is released 1968, ,False
+metropolitan,2011年開始大都會見證,Start of metropolitan witnessing in 2011, ,False
+jw_org,2012年12月，在王國事工中開始 JW.ORG,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,False
+new_world_translation2,2013年年會上修訂嘅《聖經新世界譯本》,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,False
+jw_broadcasting,2014年10月jw.broadcasting開播,Start of JW Broadcasting® in October 2014, ,False
+meeting_workbook,由2016年1月開始，採用“會議工作簿”嘅周中會議新形式,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,False
+covid19,Covid-19嘅,Covid-19, ,False
+cold_war,1945-1991年被稱為“冷戰”嘅地緣政治局勢,Geopolitical situation labeled “Cold War” 1945-1991, ,False
+timeline_created,"呢條時間綫創建于2023年，係人類歷史上最熱的一年，也是過去125,000年","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,False
+codex_sinaiticus,西奈抄本,Codex Sinaiticus written, ,False
+codex_vaticanus,梵蒂岡抄本,Codex Vaticanus written, ,False
+leningrad_codex,列宁格勒抄本，寫於開羅，公元1008年,Leningrad Codex written in Cairo AD 1008, ,False
+john,約翰在公元96-98年被擄到拔摩島時寫下了“啟示錄”。,John writes “revelation” while exiled on Patmos 96-98 C.E., ,False
+nicaea1,尼西亞第一届大公會議,First Council of Nicaea, ,False
+buddha,佛陀–悉达多·乔达摩c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,False
+buddha2,佛陀約公元前480-400年,Buddha alternatively c. 480-400 B.C.E., ,False
+mohammed,穆罕默德，約公元570-632年,Mohammed c. 570-632 C.E., ,False
+confucius,孔子，約公元前551年—約公元前479年,Confucius c.551-c.479 B.C.E., ,False
+hijrah,希吉拉-麥加之旅到麥地622年7月16日,Hijrah - Journey Mecca to Medina 16 July 622, ,False
+moses_escape,公元前1553年，摩西必須逃離埃及——出埃及記2：15，使徒行傳7：23,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,False
+10plagues,公元前1513年，埃及遭遇10次瘟疫,1513 B.C.E Egypt receives 10 plagues, ,False
+joseph_sold,約瑟在17歲時被賣為奴隸——創世記37：2,Joseph sold as slave at the age of 17 – Gen 37:2, ,False
+infliction,400年的苦難（使徒行傳7：6）—以實瑪利，公元前1913年，公元前,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,False
+Alexander,亞歷山大大帝（但以理書11：3 ）,Alexander the Great (Daniel 11:3), ,False
+persia,居魯士大帝，岡比西斯二世，大流士一世公元前490年，薛西斯一世公元前480年（以斯帖嘅老公，但以理書11：2 ）,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,False
+persia2,波斯,Persia, ,False
+king_north,"塞琉古一世尼卡托（ v5 ）敘利亞到安條克三世（ v10 ）同塞琉古四世（ v18,19 ）落到屋大維（ v20 ）同提比略（ v21-24 ）","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,False
+king_north1,北方之王,King of the North, ,False
+king_south,托勒密一世、二世、三世、四世（ 11、12節）、五世（ 15節、16節）到公元前31年嘅戰鬥Actium,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,False
+king_south1,南方之王,King of the South, ,False
+king_south2,1870年大英帝国嘅，1914年以來嘅英美世界強國,"British Empire 1870, Anglo-American World Power since 1914", ,False
+king_south3,南方之王,King of the South, ,False
+king_north2,德國與威廉一世皇帝1871 （v28）、1914 （v29）、1935 （v30b）、1939 （v31a）,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,False
+king_north3,北,North, ,False
+king_north4,"蘇聯1945-1991 （但以理書11：32-39,40b，41 ）","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,False
+king_north5,俄羅斯自2017年以來（ w20 May ）,Russia since 2017 (w20 May), ,False
+time_of_end,基督的同在，事物制度的終結（馬太福音24：3），末世（提摩太后書3：1）,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,False
+time_of_end2,最後幾日,Last days, ,False
+suryavaman2,苏里亚跋摩二世國王建造吳哥窟1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,False
+notre-dame,巴黎聖母院建於1163-1260年,Notre-Dame de Paris built 1163-1260, ,False
+jehoiada,約何亞達,Jehoiada,2 Kings 11:4,False
+babel,巴别塔建成,Tower of Babel built, ,False
+Haggai,哈該,Haggai, ,False
+Zerubbabel,所罗巴伯（路加福音3：27 ）,Zerubbabel (Luke 3:27),Luke 3:27,False
+Babylon,"但以理书 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,False
+Medopersia,"但以理书 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,False
+Greece,"但以理书 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,False
+Rome,"但以理书 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,False
+Angloamerica,"但以理书 2:33, 41-43","Daniel 2:33, 41-43", ,False
+Babylon_c,巴比伦,Babylon, ,False
+Medopersia_c,米底亚－波斯,Medo-Persia, ,False
+Greece_c,希腊,Greece, ,False
+Rome_c,罗马,Rome, ,False
+Angloamerica_c,英美,Anglo-America, ,False
+infliction1,400年受害,400 year infliction,Acts 7:6,False
+infliction2,使徒行傳7：6,Acts 7:6, ,False
+Jacob2,雅各/,Jacob/,Jacob/Israel 1858-1711 – 147 years,False
+Israel,以色列,Israel,Genesis 35:10,False
+Sarah,莎拉,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",False
+Hagar,夏甲,Hagar,Genesis 21:14,False
+Haran,哈蘭,Haran,Genesis 11:26,False
+Reumah,鲁玛,Reumah,Concubine – 4 sons 22:24,False
+Milcah,米尔卡,Milcah,8 sons (Bethuel and 7 more),False
+Lot,好多,Lot,Genesis 11:27,False
+Lots_wife,羅得的妻子,Lot’s wife, ,False
+Lots_daughters,羅得的女兒,Daughters of Lot, ,False
+Moab,摩押（大女）,Moab (older daughter),Genesis 19:37,False
+Ammon,Ben-ammi （阿蒙）,Ben-ammi (Ammon),Genesis 19:38,False
+Bethuel,貝休爾,Bethuel,Genesis 22:23,False
+Rebekah,麗貝卡,Rebekah, ,False
+Laban,拉班,Laban,Genesis 24:29,False
+Leah,利亞,Leah,Genesis 35:23,False
+Rachel,瑞秋,Rachel,Genesis 35:24,False
+Bilhah,比爾哈,Bilhah,Genesis 35:25,False
+Zilpah,齐尔帕,Zilpah,Genesis 35:26,False
+Reuben,魯本,Reuben, ,False
+Simeon,緬,Simeon, ,False
+Levi,利瓦伊,Levi,Genesis 35:23,False
+Judah,猶大,Judah, ,False
+Issachar,以薩迦,Issachar, ,False
+Zebulun,澤布倫,Zebulun, ,False
+Dinah,黛娜,Dinah,Genesis 34,False
+Esau,以掃/,Esau/, ,False
+Edom,以東,Edom,Genesis 36:1,False
+Ishmael,以實瑪利,Ishmael,Genesis 16:16,False
+Manasseh2,（瑪拿西,(Manasseh,Genesis 41:50-52,False
+Ephraim,同以法蓮）,and Ephraim), ,False
+Benjamin,本傑明,Benjamin, ,False
+Dan,擔,Dan,Genesis 35:23,False
+Naphtali,萘鞘利,Naphtali, ,False
+Gad,迨,Gad, ,False
+Asher,阿瑟,Asher, ,False
+Milcah1,烏茲、布兹、凯缪尔、,"Uz, Buz, Kemuel,",Genesis 22:21,False
+Milcah2,切塞德，哈佐，,"Chesed, Hazo,", ,False
+Milcah3,皮尔达什，吉德拉夫,"Pildash, Jidlaph", ,False
+Tebah,特巴,Tebah,Genesis 22:24,False
+Gaham,加汉姆,Gaham, ,False
+Tahash,塔哈什,Tahash, ,False
+Maacah,馬加,Maacah, ,False
+Mahalath,玛哈拉特/,Mahalath/,"Genesis 28:8, 9",False
+Basemath,基礎·數學,Basemath,"Genesis36:3, 4",False
+Reuel,鲁埃尔,Reuel,"36:13, 17",False
+Nahath,那哈特,Nahath, ,False
+Zerah,泽拉,Zerah, ,False
+Schammah,沙瑪,Schammah, ,False
+Mizzah,米扎,Mizzah, ,False
+Adah,阿达,Adah,"36:11, 12, 15, 16",False
+Eliphaz,以利法,Eliphaz, ,False
+Teman,特曼,Teman, ,False
+Omar,奥马尔,Omar, ,False
+Zepho,澤福,Zepho, ,False
+Kenaz,肯纳兹,Kenaz, ,False
+Korah,可拉,Korah, ,False
+Gatam,加塔姆,Gatam, ,False
+Amalek,亞瑪力人,Amalek, ,False
+Oholibamah,奥霍利巴马,Oholibamah,"36:14, 18",False
+Jeush,杰什,Jeush, ,False
+Jalam,贾拉姆,Jalam, ,False
+Nebaioth,尼拜奧特,Nebaioth,Genesis 25:13,False
+Kedar,凱達爾,Kedar, ,False
+Adbeel,阿德比爾,Adbeel, ,False
+Mibsam,米布薩姆,Mibsam, ,False
+Mishma,米什玛,Mishma, ,False
+Dumah,杜馬,Dumah, ,False
+Massa,馬薩,Massa, ,False
+Hadad,哈達德,Hadad, ,False
+Tema,特馬,Tema, ,False
+Jetur,杰图尔,Jetur, ,False
+Naphish,纳菲什,Naphish, ,False
+Kedemah,凯德玛,Kedemah, ,False
+Babylon2, , ,no text left and right – empty!,False
+terahfam,Terah家人,Members of Terah’s family, ,False
+rosetta,罗塞塔石碑公元前196年,Rosetta stone 196 B.C.E., ,False
+Herodotus,希罗多德約公元前484年–約公元前425年，撰寫《歷史》,"Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,False
+Aristotle,亚里士多德384–公元前322年,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",False
+Ptolemy,托勒密c 100–c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,False
+Pythagoras,畢達哥拉斯，約公元前570年-約公元前495年,Pythagoras c. 570 – c. 495 BC, ,False
+Plato,柏拉图約公元前427年–約公元前348年,Plato c. 427 – c. 348 BC, ,False
+Socrates,苏格拉底約公元前470年–約公元前399年,Socrates c. 470 – c. 399 BC, ,False
+Josephus,約瑟夫斯約公元37年-約公元100年,Josephus c. 37 – c. 100 C.E., ,False
+Cicero,西塞罗公元前106-43年,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",False
+lachish_letters,約公元前590年嘅拉奇字母,Lachish letters c. 590 B.C.E., ,False
+lachish_reliefs,拉奇浮雕，約公元前681年,Lachish reliefs c. 681 B.C.E., ,False
+mesha_stele,米沙石碑（摩押石），約公元前840年,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,False
+gilgamesh,吉爾伽美什和阿迦𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,False
+epic_gilgamesh,吉爾伽美什史詩（Són-lóqi-unninni）,Epic of Gilgamesh (Sîn-lēqi-unninni), ,False
+oxyrhynchus,Oxyrhynchus紙莎草紙,Oxyrhynchus Papyri, ,False
+p52,紙莎草紙P52,Papyrus P52, ,False
+daniel2_shift,0,0,Start 4.2,False
+daniel2_1,尼布甲尼撒王,King Nebuchadnezzar,607 BCE,False
+daniel2_2,摧毁耶路撒冷,destroys Jerusalem,appendix B9,False
+daniel2_3,征服巴比伦,Conquers Babylon,539 BCE,False
+daniel2_4,居鲁士下旨让犹,Cyrus decrees return,537 BCE,False
+daniel2_5,太人返回耶路撒冷,of Jews to Jerusalem, ,False
+daniel2_6,亚历山大,Alexander the Great,331 BCE,False
+daniel2_7,大帝征服波斯,conquers Persia, ,False
+daniel2_8,开始统治以色列,Rules over Israel,63 BCE,False
+daniel2_9,摧毁耶路撒冷,Destroys Jerusalem,70 CE,False
+daniel2_10,第一次世界大战期间，,"During World War I,",1914-1918 CE,False
+daniel2_11,英美世界霸权崛起,Anglo-American World Power, ,False
+daniel2_12, ,comes into being,End 4.2,False
+qing-dynasty,1636-1912,1636-1912, ,False
+qing-dynasty_c,清朝,Qing dynasty,1636-1912,False
+ming-dynasty,1368-1644,1368-1644, ,False
+ming-dynasty_c,中國帝國嘅明朝,Ming dynasty in imperial China,1368-1644,False
+yuan-dynasty,1271-1368,1271-1368, ,False
+southern-song,1127-1279,1127-1279, ,False
+northern-song,960-1127,960-1127, ,False
+western-xia,1038-1227,1038-1227, ,False
+yuan-dynasty_c,文,Yuan,1271-1368,False
+southern-song_c,南宋,Southern Song,1127-1279,False
+northern-song_c,北宋,Northern Song,960-1127,False
+western-xia_c,西夏,Western Xia,1038-1227,False
+Copernicus,尼古拉斯·哥白尼,Nicolaus Copernicus, ,False
+Galileo,伽利略·伽利萊,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,False
+Newton,牛頓,Isaac Newton, ,False
+gregorian,公曆1582,Gregorian calendar 1582, ,False
+shang-dynasty,約公元前1600-1046年,c. 1600-1046 BC, ,False
+western-zhou,約公元前1046-771年,c. 1046-771 BC, ,False
+eastern-zhou,公元前770-256年,770-256 BC, ,False
+qin-dynasty,秦 公元前221-207年,Qin 221-207 BC, ,False
+western-han,公元前207年–公元9年,207 BC – 9 CE, ,False
+eastern-han,公元25-220年,25-220 CE, ,False
+three-kingdoms,三國公元220-280年,Three kingdoms 220-280 CE, ,False
+sixteen-kingdoms,十六國公元304-439年,Sixteen kingdoms 304-439 CE, ,False
+northern-dynasties,公元368-581年,368-581 CE, ,False
+southern-dynasties,公元420-589年,420-589 CE, ,False
+tang-dynasty1, , , ,False
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,False
+wu-zhou,690-705吴周,690-705 Wu Zhou, ,False
+shang-dynasty_c,商代,Shang dynasty,c. 1600-1046 BC,False
+western-zhou_c,西周,Western Zhou,c. 1046-771 BC,False
+eastern-zhou_c,東部周,Eastern Zhou,770-256 BC,False
+western-han_c,西漢,Western Han,207 BC – 9 CE,False
+eastern-han_c,東漢,Eastern Han,25-220 CE,False
+three-kingdoms_c,中國,China,Three kingdoms 220-280 CE,False
+sixteen-kingdoms_c,中國,China,Sixteen kingdoms 304-439 CE,False
+northern-dynasties_c,南北朝,Northern dynasties,368-581 CE,False
+southern-dynasties_c,南北朝,Southern dynasties,420-589 CE,False
+tang-dynasty1_c,柄腳,Tang, ,False
+tang-dynasty2_c,唐代,Tang dynasty,"618-690, 705-907",False
+xia-dynasty,中國夏朝約公元前2070年–約公元前1600年,Xia dynasty in China c. 2070 – c. 1600 BC, ,False
+gonghe,巩河攝政公元前841-828年,Gonghe Regency 841-828 BC, ,False
+Ashoka,阿育王（約公元前304-232年）推廣佛教,Ashoka (c. 304-232 BC) promotes Buddhism, ,False
+siloam-tunnel,希西屋企擴建西罗亚隧道,Hezekiah extends Siloam tunnel,c. 742-732 BC,False
+Angloamerica2,但以理書2：33緊，41-43嘅預言中，英美人以鐵腳與粘土混合為象徵,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,False
+Manetho,Manetho寫道Aegyptiaca,Manetho writes Aegyptiaca, ,False
+tribulation,"大災難（馬可福音13：19; 但以理書12：1; 馬太福音24：21,22）","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,False
+destruction_babylon,"大巴比倫的毀滅（啟示錄17：3,15-18;18：9,10）","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),False
+gog_of_magog,"瑪各歌革的攻擊（以西結書38：1,2,9-12,18-23）","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,False
+sheep_goat,地上的居民將受到審判，將綿羊和山羊分開（馬太福音25：31-33）,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,False

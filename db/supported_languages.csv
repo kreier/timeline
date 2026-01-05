@@ -46,12 +46,12 @@ din,Dinka,FALSE,,,,ltr,,10,15,0,FALSE,Dinka(*** no dictionary yet ***),43,44
 dv,Divehi,FALSE,,,,ltr,,10,15,0,FALSE,Divehi(*** no dictionary yet ***),44,45
 doi,Dogri,FALSE,,,,ltr,,10,15,0,FALSE,Dogri(*** no dictionary yet ***),45,46
 dov,Dombe,FALSE,,,,ltr,,10,15,0,FALSE,Dombe(*** no dictionary yet ***),46,47
-nl,Dutch,TRUE,,,,ltr,NotoSans,10,15,0,FALSE,Dutch(Nederlands),47,48
+nl,Dutch,TRUE,,,,ltr,NotoSans,10,15,0,FALSE,Dutch (Nederlands),47,48
 dz,Dzongkha,FALSE,,,,ltr,,10,15,0,FALSE,Dzongkha(*** no dictionary yet ***),48,49
 eo,Esperanto,FALSE,,,,ltr,,10,15,0,FALSE,Esperanto(*** no dictionary yet ***),50,50
 et,Estonian,TRUE,FALSE,,,ltr,,10,15,0,FALSE,Estonian (eesti keel),51,51
 ee,Ewe,FALSE,,,,ltr,,10,15,0,FALSE,Ewe(*** no dictionary yet ***),52,52
-fj,Fijian,TRUE,,,,ltr,,10,15,0,FALSE,Fijian(*** no dictionary yet ***),53,53
+fj,Fijian,TRUE,,,,ltr,,10,15,0,FALSE,Fijian (Vosa Vaka-Viti),53,53
 tl,Tagalog,TRUE,FALSE,tglg,,ltr,,10,15,0,FALSE,Tagalog (Filipino) ,54,54
 fi,Finnish,TRUE,FALSE,,,ltr,,10,15,0,FALSE,Finnish (Suomi) ,55,55
 fr,French,TRUE,FALSE,,,ltr,,10,15,0,FALSE,French (Français) ,56,56
@@ -75,12 +75,12 @@ he,Hebrew,TRUE,TRUE,hebr,heb,RTL,NotoHebrew,10,15,0,FALSE,Hebrew (עִבְרִי
 hil,Hiligaynon,FALSE,,,,ltr,,10,15,0,FALSE,Hiligaynon(*** no dictionary yet ***),74,74
 hi,Hindi,TRUE,TRUE,deva,hin,ltr,NotoDevanagari,10,15,0,FALSE,Hindi (हिन्दी),75,75
 hmn,Hmong,FALSE,,,,ltr,,10,15,0,FALSE,Hmong(*** no dictionary yet ***),76,76
-hu,Hungarian,TRUE,,,,ltr,,10,15,0,FALSE,Hungarian(*** no dictionary yet ***),77,77
+hu,Hungarian,TRUE,,,,ltr,,10,15,0,FALSE,Hungarian (Magyar),77,77
 hrx,Hunsrik,FALSE,,,,ltr,,10,15,0,FALSE,Hunsrik(*** no dictionary yet ***),78,78
 is,Icelandic,FALSE,,,,ltr,,10,15,0,FALSE,Icelandic(*** no dictionary yet ***),79,79
 ig,Igbo,TRUE,FALSE,,,ltr,,10,15,0,FALSE,Igbo (Ásụ̀sụ́ Ìgbò) ,80,80
 ilo,Iloko,TRUE,FALSE,,,ltr,,10,15,0,FALSE,Iloko (Illocano) ,81,81
-id,Indonesian,TRUE,,,,ltr,,10,15,0,FALSE,Indonesian(*** no dictionary yet ***),82,82
+id,Indonesian,TRUE,,,,ltr,,10,15,0,FALSE,Indonesian (Indonesia),82,82
 ga,Irish,FALSE,,,,ltr,,10,15,0,FALSE,Irish(*** no dictionary yet ***),83,83
 it,Italian,TRUE,FALSE,,,ltr,,10,15,0,FALSE,Italian (Italiano),84,84
 ja,Japanese,TRUE,FALSE,,,ltr,NotoJapanese,10,15,0,FALSE,Japanese (日本語) ,85,85
@@ -127,7 +127,7 @@ chm,Meadow Mari,FALSE,,,,ltr,,10,15,0,FALSE,Meadow Mari(*** no dictionary yet **
 mni-Mtei,Meiteilon (Manipuri),FALSE,,,,ltr,,10,15,0,FALSE,Meiteilon (Manipuri)(*** no dictionary yet ***),122,126
 min,Minang,FALSE,,,,ltr,,10,15,0,FALSE,Minang(*** no dictionary yet ***),123,127
 lus,Mizo,FALSE,,,,ltr,,10,15,0,FALSE,Mizo(*** no dictionary yet ***),124,128
-mn,Mongolian,TRUE,,,,ltr,,10,15,0,FALSE,Mongolian(*** no dictionary yet ***),125,129
+mn,Mongolian,TRUE,,,,ltr,,10,15,0,FALSE,Mongolian (монгол),125,129
 my,Myanmar (Burmese),FALSE,,,,ltr,,10,15,0,FALSE,Myanmar (Burmese)(*** no dictionary yet ***),126,130
 nr,Ndebele (South),FALSE,,,,ltr,,10,15,0,FALSE,Ndebele (South)(*** no dictionary yet ***),127,131
 new,Nepalbhasa (Newari),FALSE,,,,ltr,,10,15,0,FALSE,Nepalbhasa (Newari)(*** no dictionary yet ***),128,132

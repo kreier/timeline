@@ -1,7 +1,7 @@
 key,text,version,notes
-version,6.01,6.01,5.11
-pdf_title,6000 years human history visualized,3.1,2025-10-01
-pdf_subject,Timeline of humankind,3.1,5.11
+version,6.01,6.01,
+pdf_title,6000 years human history visualized,3.1,2026-01-05
+pdf_subject,Timeline of humankind,3.1,6.01
 BCE,B.C.E.,3.1,appendix B9
 CE,C.E.,3.1,
 year,year,3.1,"timespan, age (Adam was 130 years old when Shem was born)"
@@ -48,7 +48,7 @@ Moses,Moses,3.1,
 Othniel,Othniel,4.1,Judges 3:9-11
 Ehud,Ehud,4.1,Judges 3:15-18
 Shamgar,Shamgar,4.1,Judges 3:31
-Barak,Barak,4.1,Judges 4:6
+Barak,"Barak, Deborah, Jael",4.1,Judges 4:6
 Gideon,Gideon,4.1,Judges 7:1
 Tola,Tola,4.1,Judges 10:1
 Jair,Jair,4.1,Judges 10:3
@@ -338,7 +338,7 @@ oxyrhynchus,Oxyrhynchus Papyri,4.3,
 p52,Papyrus P52,4.3,
 daniel2_shift,0,4.2,Start 4.2
 daniel2_1,King Nebuchadnezzar,4.2,607 BCE
-daniel2_2,destroys Jerusalem,4.2,
+daniel2_2,destroys Jerusalem,4.2,appendix B9
 daniel2_3,Conquers Babylon,4.2,539 BCE
 daniel2_4,Cyrus decrees return,4.2,537 BCE
 daniel2_5,of Jews to Jerusalem,4.2,
