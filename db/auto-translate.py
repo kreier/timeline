@@ -22,7 +22,9 @@ def check_existing(language, filename):
         dict_translated.fillna(" ", inplace=True) # fill empty cells with a space
         print(f"The reference dictionary has {len(dict)} entries. The existing dictionary has {len(dict_translated)} entries.")
         # Compare existing: key match the row?
-        # Compare existing: notes and text vs english
+        # Compare existing: notes 
+        # Compare existing: text vs english
+        # Check if dict_translated has values in 'checked' column
         # If different, ask user if they want to sync from reference dictionary
 
         
