@@ -9,7 +9,7 @@ import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix
 import datetime, sys, os, asyncio, qrcode
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 5.9
+version  = 6.01
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -143,7 +143,7 @@ def import_dictionary():           # Import strings for the respective language 
     key_dict = pd.read_csv(reference, encoding='utf8')
     key_dict = key_dict.fillna(" ")
     for index, row in key_dict.iterrows():
-        dict.update({f"{row.key}" : f"{row.text}"})
+        dict.update({f"{row.key}" : f"{row.english}"})
     # now overwrite with the translated text values
     file_dictionary = "../db/dictionary_" + language + ".csv"
     key_dict = pd.read_csv(file_dictionary, encoding='utf8')
