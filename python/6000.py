@@ -183,6 +183,8 @@ def create_canvas(edition):
     pdf.set_font("Aptos", "", fontsize_regular)
     pdf.set_text_color(0)
     pdf.add_font("Aptos-bold", style="", fname="fonts/aptos-bold.ttf")
+    pdf.add_font("NotoSans", style="", fname="fonts/NotoSans.ttf")           # for English U+02B9 as ʹ (modifier letter prime, looks like a raised apostrophe)
+    pdf.add_font("NotoSans-bold", style="", fname="fonts/NotoSans-bold.ttf") # and Dutch   U+0331 as ̱  (combining macron below)
     pdf.add_font("NotoCuneiform", style="", fname="fonts/NotoCuneiform.ttf") # Akkadian    
     pdf.add_page(format=(page_width, page_height))
     pdf.set_author(pdf_author)
@@ -354,8 +356,13 @@ def create_adam_moses():
         pdf.rect(x_box, y_box, x_boxwidth, 19, style="FD") # Boxes are 19 pt high, 21 pt seperated from one another - 20.5 since 5.1
         y_box += y_offset
         pdf.set_text_color(255)
+        fsize_AMoses = fontsize_AMoses
         pdf.set_font(font_bold, "", fontsize_AMoses)
-        drawString(person, fontsize_AMoses, x_text, y_box + 2, "c", False)
+        if "\u02b9" in person or "\u0331" in person:  # if modifier letter prime or combining macron below is used, switch to NotoSans
+            pdf.set_font("NotoSans-bold", "", fontsize_AMoses)
+            fsize_AMoses = fontsize_AMoses * 0.92     # NotoSans is slightly larger, about 8% than Aptos
+            y_box += 1                                # adjust vertical position to be centered                
+        drawString(person, fsize_AMoses, x_text, y_box + 2, "c", False)
         pdf.set_text_color(0)
         pdf.set_font(font_regular, "", 12)
         drawString(details_r, 12, x_box + x_boxwidth + 2 * direction_factor, y_box + 3.5, direction, True)
@@ -743,10 +750,17 @@ def create_terah_familytree():
     red  = color["terah_red"]
     blue = color["terah_blue"]
     for index, row in terah.iterrows():
-        pdf.set_font(font_regular, "", 10)
+        fontsize_Terah = 10
+        fix_y_position_noto = 0
+        pdf.set_font(font_regular, "", fontsize_Terah)
+        person = dict[row.key]
+        if "\u02b9" in person or "\u0331" in person:  # if modifier letter prime or combining macron below is used, switch to NotoSans
+            fontsize_Terah = 9.2  # NotoSans is slightly larger, about 8% than Aptos
+            pdf.set_font("NotoSans", "", fontsize_Terah)
+            fix_y_position_noto = 0.7
         text_width = pdf.get_string_width(dict[row.key])
         x = x_position(-row.left) + shift_x
-        y = y_position(row.row) - 9
+        y = y_position(row.row) - 9 + fix_y_position_noto
         pdf.set_line_width(2.0)
         pdf.set_fill_color(255)
         pdf.set_draw_color(255)
@@ -754,7 +768,7 @@ def create_terah_familytree():
         pdf.set_text_color(blue[0]*255, blue[1]*255, blue[2]*255)
         if row.color == "red":
             pdf.set_text_color(red[0]*255, red[1]*255, red[2]*255)
-        drawString(dict[row.key], 10, x, y, "c", False)
+        drawString(dict[row.key], fontsize_Terah, x, y, "c", False)
         if version > 4.8:
             # check if key is in footnotes to add a superscript number
             if row.key in footnotes['key'].values:

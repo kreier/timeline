@@ -1,5 +1,5 @@
 key,lang,dict,shaping_engine,script,language,direction,fontname,fontsize,fontsize_AM,y_offset,replace_numerals,language_str,nr,test
-en,English,TRUE,,,,ltr,NotoSans,10,15,0,FALSE,English,49,1
+en,English,TRUE,,,,ltr,,10,15,0,FALSE,English,49,1
 ab,Abkhaz,FALSE,,,,ltr,,10,15,0,FALSE,Abkhaz(*** no dictionary yet ***),1,2
 ace,Acehnese,FALSE,,,,ltr,,10,15,0,FALSE,Acehnese(*** no dictionary yet ***),2,3
 ach,Acholi,FALSE,,,,ltr,,10,15,0,FALSE,Acholi(*** no dictionary yet ***),3,4
