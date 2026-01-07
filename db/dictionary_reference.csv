@@ -1,6 +1,7 @@
 key,version,english,notes,tag
-pdf_title,3.1,6000 years human history visualized,2026-01-06,text
-pdf_subject,3.1,Timeline of humankind,6.01,float
+version,3.1,6.01,,float
+pdf_title,3.1,6000 years human history visualized,2026-01-07,text
+pdf_subject,3.1,Timeline of humankind,,text
 BCE,3.1,B.C.E.,appendix B9,B9
 CE,3.1,C.E.,,B9
 year,3.1,year,"timespan, age (Adam was 130 years old when Shem was born)",text
@@ -21,29 +22,29 @@ events,3.1,events,,text
 objects,4.1,objects or items,,text
 Deluge,4.1,Deluge,,text
 Adam,3.1,Adam,Luke 3:38,bible
-Seth,3.1,Seth,,bible
-Enosh,3.1,Enosh,,bible
-Kenan,3.1,Kenan,Genesis 5:12,bible
-Mahalalel,3.1,Mahalalel,Ma·hala·lel,bible
-Jared,3.1,Jared,,bible
-Enoch,3.1,Enoch,,bible
+Seth,3.1,Seth,Luke 3:38,bible
+Enosh,3.1,Enosh,Luke 3:38,bible
+Kenan,6.01,Kenan (Cainan),"Genesis 5:12, Luke 3:37",bible
+Mahalalel,6.01,Mahalalel (Mahalaleel),"Genesis 5:15, Luke 3:37",bible
+Jared,3.1,Jared,Luke 3:37,bible
+Enoch,3.1,Enoch,Luke 3:37,bible
 Methuselah,3.1,Methuselah,Luke 3:37,bible
-Lamech,3.1,Lamech,,bible
-Noah,3.1,Noah,,bible
-Shem,3.1,Shem,,bible
+Lamech,3.1,Lamech,Luke 3:36,bible
+Noah,3.1,Noah,Luke 3:36,bible
+Shem,3.1,Shem,Luke 3:36,bible
 Arpachshad,3.1,Arpachshad,Luke 3:36,bible
-Shelah,3.1,Shelah,,bible
-Eber,3.1,Eber,,bible
-Peleg,3.1,Peleg,,bible
-Reu,3.1,Reu,,bible
+Shelah,3.1,Shelah,Luke 3:35,bible
+Eber,3.1,Eber,Luke 3:35,bible
+Peleg,3.1,Peleg,Luke 3:35,bible
+Reu,3.1,Reu,Luke 3:35,bible
 Serug,3.1,Serug,Luke 3:35,bible
-Nahor,3.1,Nahor,Genesis 11:24,bible
-Terah,3.1,Terah,,bible
-Abraham,3.1,Abraham,,bible
-Isaac,3.1,Isaac,,bible
+Nahor,3.1,Nahor,"Luke 3:34, Genesis 11:24",bible
+Terah,3.1,Terah,Luke 3:34,bible
+Abraham,3.1,Abraham,Luke 3:34,bible
+Isaac,3.1,Isaac,Luke 3:34,bible
 Jacob,3.1,Jacob,Luke 3:34,bible
 Joseph,3.1,Joseph,Genesis 37,bible
-Moses,3.1,Moses,,bible
+Moses,3.1,Moses,Exodus 2:10,bible
 Othniel,4.1,Othniel,Judges 3:9-11,bible
 Ehud,4.1,Ehud,Judges 3:15-18,bible
 Shamgar,4.1,Shamgar,Judges 3:31,bible
@@ -248,75 +249,78 @@ Israel,4.3,Israel,Genesis 35:10,bible
 Sarah,4.3,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible
 Hagar,4.3,Hagar,Genesis 21:14,bible
 Haran,4.3,Haran,Genesis 11:26,bible
-Reumah,4.3,Reumah,Concubine – 4 sons 22:24,bible
-Milcah,4.3,Milcah,8 sons (Bethuel and 7 more),bible
+Reumah,4.3,Reumah,Genesis 22:24 Concubine – 4 sons,bible
+Milcah,4.3,Milcah,Genesis 22:20 - 8 sons (Bethuel and 7 more),bible
 Lot,4.3,Lot,Genesis 11:27,bible
 Lots_wife,4.3,Lot’s wife,,text
 Lots_daughters,4.3,Daughters of Lot,,text
 Moab,4.3,Moab (older daughter),Genesis 19:37,text
 Ammon,4.3,Ben-ammi (Ammon),Genesis 19:38,bible
 Bethuel,4.3,Bethuel,Genesis 22:23,bible
-Rebekah,4.3,Rebekah,,bible
+Rebekah,4.3,Rebekah,Genesis 22:23,bible
 Laban,4.3,Laban,Genesis 24:29,bible
 Leah,4.3,Leah,Genesis 35:23,bible
 Rachel,4.3,Rachel,Genesis 35:24,bible
 Bilhah,4.3,Bilhah,Genesis 35:25,bible
 Zilpah,4.3,Zilpah,Genesis 35:26,bible
-Reuben,4.3,Reuben,,bible
-Simeon,4.3,Simeon,,bible
+Reuben,4.3,Reuben,Genesis 35:23,bible
+Simeon,4.3,Simeon,Genesis 35:23,bible
 Levi,4.3,Levi,Genesis 35:23,bible
-Judah,4.3,Judah,,bible
-Issachar,4.3,Issachar,,bible
-Zebulun,4.3,Zebulun,,bible
-Dinah,4.3,Dinah,Genesis 34,bible
-Esau,4.3,Esau/,,bible
+Judah,4.3,Judah,Genesis 35:23,bible
+Issachar,4.3,Issachar,Genesis 35:23,bible
+Zebulun,4.3,Zebulun,Genesis 35:23,bible
+Dinah,4.3,Dinah,Genesis 34:1,bible
+Esau,4.3,Esau/,Genesis 36:1,bible
 Edom,4.3,Edom,Genesis 36:1,bible
 Ishmael,4.3,Ishmael,Genesis 16:16,bible
-Manasseh2,4.3,(Manasseh,Genesis 41:50-52,bible
-Ephraim,4.3,and Ephraim),,bible
-Benjamin,4.3,Benjamin,,bible
-Dan,4.3,Dan,Genesis 35:23,bible
-Naphtali,4.3,Naphtali,,bible
-Gad,4.3,Gad,,bible
-Asher,4.3,Asher,,bible
+Manasseh2,4.3,(Manasseh,Genesis 41:51,bible
+Ephraim,4.3,and Ephraim),Genesis 41:52,bible
+Benjamin,4.3,Benjamin,Genesis 35:24,bible
+Dan,4.3,Dan,Genesis 35:25,bible
+Naphtali,4.3,Naphtali,Genesis 35:25,bible
+Gad,4.3,Gad,Genesis 35:26,bible
+Asher,4.3,Asher,Genesis 35:26,bible
 Milcah1,4.3,"Uz, Buz, Kemuel,",Genesis 22:21,bible
-Milcah2,4.3,"Chesed, Hazo,",,bible
-Milcah3,4.3,"Pildash, Jidlaph",,bible
+Milcah2,4.3,"Chesed, Hazo,",Genesis 22:22,bible
+Milcah3,4.3,"Pildash, Jidlaph",Genesis 22:22,bible
 Tebah,4.3,Tebah,Genesis 22:24,bible
-Gaham,4.3,Gaham,,bible
-Tahash,4.3,Tahash,,bible
-Maacah,4.3,Maacah,,bible
+Gaham,4.3,Gaham,Genesis 22:24,bible
+Tahash,4.3,Tahash,Genesis 22:24,bible
+Maacah,4.3,Maacah,Genesis 22:24,bible
 Mahalath,4.3,Mahalath/,"Genesis 28:8, 9",bible
-Basemath,4.3,Basemath,"Genesis36:3, 4",bible
-Reuel,4.3,Reuel,"36:13, 17",bible
-Nahath,4.3,Nahath,,bible
-Zerah,4.3,Zerah,,bible
-Schammah,4.3,Schammah,,bible
-Mizzah,4.3,Mizzah,,bible
-Adah,4.3,Adah,"36:11, 12, 15, 16",bible
-Eliphaz,4.3,Eliphaz,,bible
-Teman,4.3,Teman,,bible
-Omar,4.3,Omar,,bible
-Zepho,4.3,Zepho,,bible
-Kenaz,4.3,Kenaz,,bible
-Korah,4.3,Korah,,bible
-Gatam,4.3,Gatam,,bible
-Amalek,4.3,Amalek,,bible
-Oholibamah,4.3,Oholibamah,"36:14, 18",bible
-Jeush,4.3,Jeush,,bible
-Jalam,4.3,Jalam,,bible
+Basemath,4.3,Basemath,"Genesis 36:3, 4",bible
+Reuel,4.3,Reuel,"Genesis 36:13, 17",bible
+Nahath,4.3,Nahath,Genesis 36:13,bible
+Zerah,4.3,Zerah,Genesis 36:13,bible
+Schammah,4.3,Schammah,Genesis 36:13,bible
+Mizzah,4.3,Mizzah,Genesis 36:13,bible
+Adah,4.3,Adah,"Genesis 36:11, 12, 15, 16",bible
+Eliphaz,4.3,Eliphaz,Genesis 36:11,bible
+Teman,4.3,Teman,Genesis 36:11,bible
+Omar,4.3,Omar,Genesis 36:11,bible
+Zepho,4.3,Zepho,Genesis 36:11,bible
+Kenaz,4.3,Kenaz,Genesis 36:11,bible
+Korah,4.3,Korah,Genesis 36:16,bible
+Gatam,4.3,Gatam,Genesis 36:11,bible
+Korah_Gatam,5.9,"Korah, Gatam","Genesis 36:11, 16",bible
+Amalek,4.3,Amalek,Genesis 36:12,bible
+Oholibamah,4.3,Oholibamah,"Genesis 36:14, 18",bible
+Jeush,4.3,Jeush,Genesis 36:14,bible
+Jalam,4.3,Jalam,Genesis 36:14,bible
 Nebaioth,4.3,Nebaioth,Genesis 25:13,bible
-Kedar,4.3,Kedar,,bible
-Adbeel,4.3,Adbeel,,bible
-Mibsam,4.3,Mibsam,,bible
-Mishma,4.3,Mishma,,bible
-Dumah,4.3,Dumah,,bible
-Massa,4.3,Massa,,bible
-Hadad,4.3,Hadad,,bible
-Tema,4.3,Tema,,bible
-Jetur,4.3,Jetur,,bible
-Naphish,4.3,Naphish,,bible
-Kedemah,4.3,Kedemah,,bible
+Kedar,4.3,Kedar,Genesis 25:13,bible
+Adbeel,4.3,Adbeel,Genesis 25:13,bible
+Mibsam,4.3,Mibsam,Genesis 25:13,bible
+Mishma,4.3,Mishma,Genesis 25:14,bible
+Adbeel_Mibsam,5.9,"Adbeel, Mibsam",Genesis 25:13,bible
+Dumah_Massa,5.9,"Dumah, Massa",Genesis 25:14,bible
+Dumah,4.3,Dumah,Genesis 25:14,bible
+Massa,4.3,Massa,Genesis 25:14,bible
+Hadad,4.3,Hadad,Genesis 25:15,bible
+Tema,4.3,Tema,Genesis 25:15,bible
+Jetur,4.3,Jetur,Genesis 25:15,bible
+Naphish,4.3,Naphish,Genesis 25:15,bible
+Kedemah,4.3,Kedemah,Genesis 25:15,bible
 Babylon2,4.2,,no text left and right – empty!,text
 terahfam,4.1,Members of Terah’s family,,text
 rosetta,4.1,Rosetta stone 196 B.C.E.,,text
@@ -444,14 +448,14 @@ Al-Khwarizmi,4.6,al-Khwarizmi writes Al-Jabr (Algebra),,text
 al-azhar,4.6,Al-Azhar University is established in Cairo,,text
 Ibn-Sina,4.6,Ibn Sina or Avicenna,,text
 Al-Ghazali,4.6,Al-Ghazali,2024-07-30,wiki
-Keturah,4.9,Keturah,Genesis 25:1-4,bible
-Zimran,4.9,Zimran,,bible
-Jokshan,4.9,Jokshan,,bible
-Medan,4.9,Medan,,bible
-Midian,4.9,Midian,,bible
-Ishbak,4.9,Ishbak,,bible
-Shuah,4.9,Shuah,,bible
-Timna,4.9,Timna,"1 Chr 1:36, Ge 36:10-12",bible
+Keturah,4.9,Keturah,Genesis 25:1,bible
+Zimran,4.9,Zimran,Genesis 25:1,bible
+Jokshan,4.9,Jokshan,Genesis 25:1,bible
+Medan,4.9,Medan,Genesis 25:1,bible
+Midian,4.9,Midian,Genesis 25:1,bible
+Ishbak,4.9,Ishbak,Genesis 25:1,bible
+Shuah,4.9,Shuah,Genesis 25:1,bible
+Timna,4.9,Timna,"Genesis 36:12, 1 Chr 1:36",bible
 Midianites,4.9,"1) Midianites: Numbers 31:2, 3",,bible
 Moabites,4.9,"2) Moabites: Deuteronomy 23:3, 4",,bible
 Ammonites,4.9,3) Ammonites: Joshua 12:2,,bible
@@ -484,7 +488,7 @@ revival_le_dynasty_c,5.9,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng,
 nguyen_dynasty,5.9,1802 – 1883,,timespan
 nguyen_dynasty_c,5.9,Nguyễn,2025-09-20,text
 edo,5.9,1603 – 1868,,timespan
-edo_c,5.9,Edo period in Japan,,text
+edo_c,5.9,Edo period in Japan,Edo period (Tokugawa shogunate),text
 meiji,5.9,1868 – 1912,,timespan
 meiji_c,5.9,Meiji,2025-09-20,text
 Ham,5.9,Ham,Gen 10:1,bible
@@ -504,7 +508,7 @@ Cush,5.9,Cush,Gen 10:6,bible
 Nimrod,5.9,Nimrod,Gen 10:8,bible
 Mizraim,5.9,Mizraim,Gen 10:14,bible
 Casluh,5.9,Casluh,1 Chronicles 1:12 (Philistines),bible
-Japheth,5.9,Japheth,Gen 10:3,bible
+Japheth,5.9,Japheth,Gen 10:1,bible
 Asshur,5.9,Asshur,Gen 10:22,bible
 Lud,5.9,Lud,Gen 10:22,bible
 Aram,5.9,Aram,Gen 10:22,bible
@@ -521,9 +525,6 @@ Abimael,5.9,Abimael,Gen 10:28,bible
 Sheba_Ophir,5.9,"Sheba, Ophir","Gen 10:28, 29",bible
 Havilah,5.9,Havilah,Gen 10:29,bible
 Jobab,5.9,Jobab,Gen 10:29,bible
-Korah_Gatam,5.9,"Korah, Gatam",303 and 304,bible
-Adbeel_Mibsam,5.9,"Adbeel, Mibsam",311 and 312,bible
-Dumah_Massa,5.9,"Dumah, Massa",314 and 315,bible
 Ham_fn,5.9,1) Egyptians: Psalms 105:23,2025-09-22,bible
 Canaan_fn,5.9,2) Canaanites: Joshua 13:3,2025-09-22,bible
 Aram_fn,5.9,3) Arameans: Hosea 12:12,2025-09-22,bible

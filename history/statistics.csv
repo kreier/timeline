@@ -1,5 +1,6 @@
 language,language_str,length,checked_true,percentage_checked_true
 de,German (Deutsch),561,561,100.00%
+en,English,561,561,100.00%
 vi,Vietnamese (Tiếng Việt),561,321,57.22%
 pt,Portugese (Português),548,254,46.35%
 ru,Russian (Русский),548,254,46.35%
@@ -12,7 +13,6 @@ km,Khmer (ខ្មែរ),561,149,26.56%
 hy,Armenian (Հայերեն),475,121,25.47%
 kne,Kankana-ey,475,106,22.32%
 fr,French (Français),561,117,20.86%
-en,English,561,107,19.07%
 nl,Dutch (Nederlands),561,74,13.19%
 ig,Igbo (Ásụ̀sụ́ Ìgbò),475,56,11.79%
 el,Greek (Ελληνικά),475,55,11.58%
@@ -40,5 +40,5 @@ ceb,Cebuano (Bisayâ),561,2,0.36%
 fj,Fijian (Vosa Vaka-Viti),400,1,0.25%
 fi,Finnish (Suomi),446,1,0.22%
 hi,Hindi (हिन्दी),446,1,0.22%
-reference,,561,,
+reference,,562,,
 reference59,,87,,
