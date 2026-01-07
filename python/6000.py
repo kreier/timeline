@@ -581,6 +581,7 @@ def create_periods():
     global counter_periods, fontsize_regular, render_type
     # Import the perios with start and end as pandas dataframe
     periods = pd.read_csv("../db/periods.csv", encoding='utf8')
+    periods.fillna(" ", inplace=True) # fill empty cells with a space to avoid issues in string operations later on
     print("Imported data of periods:", len(periods))
     pdf.set_font(font_regular, "", 10)
     for index, row in periods.iterrows():
@@ -611,6 +612,7 @@ def create_periods():
         if row.border:
             stil = "DF"
         pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style=stil)
+        # add fading if specified at the end of the time period
         if row.end_fade > row.end:                                              # fade end
             fade_width = x_position(row.end_fade) - x_position(row.end)
             x_boxwidth += fade_width
@@ -619,6 +621,7 @@ def create_periods():
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
                 pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
                 pdf.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps - 0.2 * shift, y_box - 1, fade_width / 45, 12, style="F")
+        # add fading if specified at the start of the time period
         if row.start_fade < row.start:                                          # fade start
             fade_width = x_position(row.start) - x_position(row.start_fade)
             x_boxwidth += fade_width
@@ -628,6 +631,7 @@ def create_periods():
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
                 pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
                 pdf.rect(x_box + fade_width * i/fade_steps + 0.2 * shift, y_box - 1, fade_width / 45, 12, style="F")
+        # add text in the center of the time period
         if len(row.text_center) > 1:
             detail_c = dict[row.text_center]
             textsize = fontsize_regular
@@ -638,14 +642,13 @@ def create_periods():
                 pdf.set_font(font_bold, "", textsize)
                 print(textsize, " ", detail_c)
             drawString(detail_c, textsize, x_box + x_boxwidth * 0.5, y_box, "c", True)
-        detail = dict[key]
-        # y_box -= 8
+        # add text left and right of the time period
         pdf.set_text_color(0)
         pdf.set_font(font_regular, "", fontsize_regular)
-        if row.location_description == "l":
-            drawString(detail, fontsize_regular, x_box - 2 * direction_factor, y_box , direction_rl, True)
-        else:
-            drawString(detail, fontsize_regular, x_box + x_boxwidth + 2*direction_factor, y_box, direction, True)
+        if row.text_left != " ":
+            drawString(dict[row.text_left], fontsize_regular, x_box - 2 * direction_factor, y_box , direction_rl, True)
+        if row.text_right != " ":
+            drawString(dict[row.text_right], fontsize_regular, x_box + x_boxwidth + 2*direction_factor, y_box, direction, True)
         counter_periods += 1
 
 def create_caesars():
