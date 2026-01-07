@@ -20,8 +20,78 @@ def check_existing(language, filename):
         print(f"Importing existing dictionary_{language}.csv file for comparison...")
         dict_translated = pd.read_csv(filename)
         dict_translated.fillna(" ", inplace=True) # fill empty cells with a space
-        print(f"The reference dictionary has {len(dict)} entries. The existing dictionary has {len(dict_translated)} entries.")
+
+        # Step 1: Compare the number of keys in both dictionaries and report differences
+        if len(dict) != len(dict_translated):
+            print(f"⚠️ Warning: The number of entries in the reference dictionary ({len(dict)}) and the existing dictionary ({len(dict_translated)}) do not match.")
+        else:
+            print("✅ The number of entries in both dictionaries match. Both have", len(dict), "entries.")
+        
+        # Step 2: Find keys that are in dict_translated but not in dict
+        extra_keys = set(dict_translated["key"]) - set(dict["key"])
+
+        # Filter dict_translated to show only extra entries
+        extra_entries = dict_translated[dict_translated["key"].isin(extra_keys)]
+
+        if not extra_entries.empty:
+            print("Extra entries found:")
+            print(extra_entries)
+
+            # Ask user if they want to remove these lines
+            user_input = input("Do you want to remove these extra entries? (yes/no): ")
+
+            if user_input.lower() == "yes" or user_input.lower() == "y":
+                dict_translated = dict_translated[~dict_translated["key"].isin(extra_keys)]
+                print("Updated dict_translated after removal:")
+                print(dict_translated)
+                dict_translated.to_csv(filename, index=False)
+            else:
+                print("No changes made.")
+        
+        # Step 3: Find keys that are in dict but not in dict_translated
+        missing_keys = set(dict["key"]) - set(dict_translated["key"])
+        missing_entries = dict[dict["key"].isin(missing_keys)]
+        if not missing_entries.empty:
+            print("Entries missing in the existing dictionary:")
+            print(missing_entries)
+
+            # Ask user if they want to add these lines
+            user_input = input("Do you want to add these missing entries? (yes/no): ")
+
+            if user_input.lower() == "yes" or user_input.lower() == "y":
+                # Create a DataFrame for missing entries with required columns
+                missing_df = missing_entries[['key', 'text']].copy()
+                missing_df['english'] = missing_entries['text'].copy()
+                missing_df['notes'] = missing_entries['notes'].copy()
+
+                # Append missing entries to dict_translated
+                dict_translated = pd.concat([dict_translated, missing_df], ignore_index=True)
+                print("Updated dict_translated after adding missing entries:")
+                print(dict_translated)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        print(f"\n\n********************\n\nThe reference dictionary has {len(dict)} entries. The existing dictionary has {len(dict_translated)} entries.")
+
+        # Step 2: Compare the order of keys
+        print("\nComparing the order of keys in the dictionary with reference dictionary...")
+
+
         # Compare existing: key match the row?
+
         # Compare existing: notes 
         # Compare existing: text vs english
         # Check if dict_translated has values in 'checked' column
@@ -60,7 +130,7 @@ def check_existing(language, filename):
                     print("❌ Skipped.")
             
             # Compare text vs english
-            text_dict = dict.iloc[i]["text"]
+            text_dict = dict.iloc[i]["english"]
             text_trans = dict_translated.iloc[i]["english"]
 
             if text_dict != text_trans and dict.iloc[i]["key"] != "daniel2_shift": # exception for this shift value in line 339
@@ -96,7 +166,7 @@ def check_existing(language, filename):
             print(f"\nThe reference dictionary has {len(dict)} entries, but the existing dictionary has only {len(dict_translated)} entries.")
             print("Some entries are missing in the existing dictionary.")
 
-
+        exit()
         user_input = input("A file with this name already exists. Do you want to overwrite it? (yes/no): ")
         # Check user input
         if user_input.lower() == "yes" or user_input.lower() == "":

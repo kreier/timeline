@@ -718,12 +718,6 @@ def create_tribulation():
     drawString(dict["tribulation"], fontsize_regular, x_position(2027), y_position(tribulation_lines), direction_rl, True)
     tribulation_graphics(tribulation_lines)
 
-    # for row in tribulation_lines:
-    #     pdf.set_text_color(0)
-    #     pdf.set_font(font_regular, "", fontsize_regular)
-    #     drawString(dict["tribulation"], fontsize_regular, x_position(2027), y_position(row), direction_rl, True)
-    #     tribulation_graphics(row)
-
 def create_terah_familytree():
     global counter_terahfam, direction_factor
     shift_x = 30 * direction_factor
