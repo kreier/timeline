@@ -20,13 +20,27 @@ def check_existing(language, filename):
         print(f"Importing existing dictionary_{language}.csv file for comparison...")
         dict_translated = pd.read_csv(filename)
         dict_translated.fillna(" ", inplace=True) # fill empty cells with a space
+        dict_translated.to_csv(filename, index=False)
 
         # Step 1: Compare the number of keys in both dictionaries and report differences
         if len(dict) != len(dict_translated):
             print(f"⚠️ Warning: The number of entries in the reference dictionary ({len(dict)}) and the existing dictionary ({len(dict_translated)}) do not match.")
         else:
             print("✅ The number of entries in both dictionaries match. Both have", len(dict), "entries.")
+
+        # Multiple entries in the dict_translated with the same key?
+        duplicates = dict_translated[dict_translated.duplicated(subset=["key"], keep=False)]
+        if not duplicates.empty:
+            print("⚠️ Warning: There are duplicate keys in the existing dictionary:")
+            print(duplicates)
+            user_input = input("Do you want to remove duplicate entries? (yes/no): ")
+            if user_input.lower() == "yes" or user_input.lower() == "y":
+                dict_translated = dict_translated.drop_duplicates(subset=["key"], keep="first")
+                print("Updated dict_translated after removing duplicates:")
+                print(dict_translated)
+                dict_translated.to_csv(filename, index=False)
         
+
         # Step 2: Find keys that are in dict_translated but not in dict
         extra_keys = set(dict_translated["key"]) - set(dict["key"])
 
@@ -47,8 +61,24 @@ def check_existing(language, filename):
                 dict_translated.to_csv(filename, index=False)
             else:
                 print("No changes made.")
+        else:
+            print("No extra entries found in the existing dictionary.")
+
+
+        # Step 3: Check if dict_translated has the required columns
+        required_cols = ["key", "text", "english", "notes", "tag", "checked"]
+
+        # Add missing columns to dict_translated
+        for col in required_cols:
+            if col not in dict_translated.columns:
+                dict_translated[col] = " "   # or use None / pd.NA if you prefer
+                print(f"Added missing column: {col}")
         
-        # Step 3: Find keys that are in dict but not in dict_translated
+        # Reorder columns in dict_translated
+        dict_translated = dict_translated[required_cols]
+
+
+        # Step 4: Find keys that are in dict but not in dict_translated
         missing_keys = set(dict["key"]) - set(dict_translated["key"])
         missing_entries = dict[dict["key"].isin(missing_keys)]
         if not missing_entries.empty:
@@ -60,20 +90,47 @@ def check_existing(language, filename):
 
             if user_input.lower() == "yes" or user_input.lower() == "y":
                 # Create a DataFrame for missing entries with required columns
-                missing_df = missing_entries[['key', 'text']].copy()
-                missing_df['english'] = missing_entries['text'].copy()
+                missing_df = missing_entries[['key', 'english']].copy()
+                missing_df['english'] = missing_entries['english'].copy()
                 missing_df['notes'] = missing_entries['notes'].copy()
 
                 # Append missing entries to dict_translated
                 dict_translated = pd.concat([dict_translated, missing_df], ignore_index=True)
                 print("Updated dict_translated after adding missing entries:")
                 print(dict_translated)
+                dict_translated.to_csv(filename, index=False)
 
 
+        # Step 5: Match the order of entries in dict_translated to match dict
+        dict_translated = dict_translated.set_index("key").reindex(dict["key"]).reset_index()
 
 
+        # Step 6: Check entries in the tag column
+        print("\nChecking 'tag' column entries in the existing dictionary...")
+
+        # 1. Count missing tag entries
+        missing_tags = dict_translated["tag"].isna().sum() + (dict_translated["tag"] == "").sum()
+
+        # 2. Find mismatches between dict and dict_translated
+        merged = dict_translated.merge(dict[["key", "tag"]], on="key", how="left", suffixes=("", "_dict"))
+        mismatches = (merged["tag"] != merged["tag_dict"]) & merged["tag_dict"].notna()
+        num_mismatches = mismatches.sum()
+
+        print(f"Number of missing tags in dict_translated: {missing_tags}")
+        print(f"Number of mismatched tags compared to dict: {num_mismatches}")
+
+        # 3. Update dict_translated's tag values to match dict
+        dict_translated["tag"] = merged["tag_dict"].fillna(dict_translated["tag"])
+
+        print("dict_translated updated with corrected tag values:")
+        print(dict_translated.head())
+        dict_translated.to_csv(filename, index=False)
 
 
+        # Step 7: Check entries in the checked column
+        print("\nChecking 'checked' column entries in the existing dictionary...")
+        num_checked = (dict_translated["checked"].str.lower() == "yes").sum()
+        print(f"Number of entries marked as 'checked': {num_checked} out of {len(dict_translated)}")
 
 
 
