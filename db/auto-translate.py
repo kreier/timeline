@@ -160,38 +160,38 @@ def check_existing(language, filename):
         dict_translated["checked"] = dict_translated["checked"].astype(bool)
         dict_translated.to_csv(filename, index=False)
 
-
-        # Step 8: Compare known entries and fix them
-        # Step 8.1: match all entries with tag 'timespan' and set checked to True
-        timespan_mask = dict_translated["tag"] == "timespan"
-        dict_translated.loc[timespan_mask, "checked"] = True
-        dict_translated.to_csv(filename, index=False)
-
-        # Step 8.2: Fix 'span_ce' entries
-
-        # Step 8.3: Fix 'span_bce' entries
-
-        # Step 8.4: Fix 'span_bc' entries
-
-        # Step 8.5: Fix 'float' entries
-
-        # Step 8.6: Fix 'wiki' entries
-
-        # It remains:
-        # - scripture
-        # - A6-A
-        # - A6-B
-        # - B9
-        # - bible
-        # - text
-
     else:
         print(f"Creating a new dictionary_{language}.csv file.")
         dict_translated = dict[['key', 'english']].copy()   # create a new dictionary, copy columns key and text
-        dict_translated['text'] = dict['english'].copy() # add a column 'english' and fill with 'text' from english dictionary
-        dict_translated['notes'] = dict['notes'].copy()  # add a column 'notes' and fill with 'notes' from english dictionary
-        dict_translated['tag'] = dict['tag'].copy()      # add a column 'tag' and fill with 'tag' from english dictionary
-        dict_translated['checked'] = False                # add a column 'checked' and fill with False
+        dict_translated['text'] = dict['english'].copy()    # add a column 'english' and fill with 'text' from english dictionary
+        dict_translated['notes'] = dict['notes'].copy()     # add a column 'notes' and fill with 'notes' from english dictionary
+        dict_translated['tag'] = dict['tag'].copy()         # add a column 'tag' and fill with 'tag' from english dictionary
+        dict_translated['checked'] = False                  # add a column 'checked' and fill with False
+
+    # Step 8: Compare known entries and fix them
+    # Step 8.1: match all entries with tag 'timespan' and set checked to True
+    timespan_mask = dict_translated["tag"] == "timespan"
+    dict_translated.loc[timespan_mask, "checked"] = True
+    dict_translated.to_csv(filename, index=False)
+
+    # Step 8.2: Fix 'span_ce' entries - overwrite if checked is False
+
+    # Step 8.3: Fix 'span_bce' entries
+
+    # Step 8.4: Fix 'span_bc' entries
+
+    # Step 8.5: Fix 'float' entries
+
+    # Step 8.6: Fix 'wiki' entries
+
+    # It remains:
+    # - scripture
+    # - A6-A
+    # - A6-B
+    # - B9
+    # - bible
+    # - text
+
 
 def import_reference():
     global dict
@@ -200,6 +200,24 @@ def import_reference():
     dict.fillna(" ", inplace=True) # fill empty cells with a space
     # print(f"found {len(dict)} entries.")
     # print(dict)
+
+def missing_bc_bce():
+    global dict_translated
+    # Check if 'bc' and 'bce' entries are missing or if checked is False
+    return False
+    missing_bc_bce = False
+    for tag in ['span_bc', 'span_bce']:
+        mask = (dict_translated['tag'] == tag) & ((dict_translated['text'] == "") | (dict_translated['text'].isna()))
+        if mask.any():  # If there are any missing entries for this tag
+            missing_bc_bce = True
+            num_missing = mask.sum()
+            print(f"Found {num_missing} missing entries for tag '{tag}'.")
+
+async def translate_bc_bce(language):
+    global dict_translated, number_characters
+    async with Translator() as translator:
+        for tag in ['span_bc', 'span_bce']:
+            mask = (dict_translated['tag'] == tag) & ((dict_translated['text'] == "") | (dict_translated['text'].isna()))
 
 async def translate_dictionary(dictionary, language):
     global number_characters
@@ -238,15 +256,29 @@ if __name__ == "__main__":
     # Normalize text column: treat NaN and " " as empty
     dict_translated["text"] = dict_translated["text"].replace(" ", "").fillna("")
 
-    # Count empty cells for each tag
-    empty_counts = (
+    # Build counts per tag
+    summary = (
         dict_translated[dict_translated["tag"].isin(tags_to_check)]
         .groupby("tag")["text"]
-        .apply(lambda col: (col == "").sum())
+        .agg(
+            missing=lambda col: (col == "").sum(),
+            existing=lambda col: (col != "").sum()
+        )
+        .reset_index()
     )
+    # Add totals row
+    totals = pd.DataFrame({
+        "tag": ["TOTAL"],
+        "missing": [summary["missing"].sum()],
+        "existing": [summary["existing"].sum()]
+    })
 
-    print("Empty text counts per tag:")
-    print(empty_counts)
+    summary_table = pd.concat([summary, totals], ignore_index=True)
+    print(summary_table)
+
+
+    if missing_bc_bce(): # true if missing or checked is False
+        asyncio.run(translate_bc_bce(language)) # translate the missing 'bc' and 'bce' entries for span_bce, span_bc and span_ce tags
 
 
     print("\nTranslating ...")
