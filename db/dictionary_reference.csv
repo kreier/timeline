@@ -4,10 +4,6 @@ pdf_title,3.1,6000 years human history visualized,2026-01-07,text
 pdf_subject,3.1,Timeline of humankind,,text
 BCE,3.1,B.C.E.,appendix B9,B9
 CE,3.1,C.E.,,B9
-year,3.1,year,"timespan, age (Adam was 130 years old when Shem was born)",text
-years,3.1,years,,text
-years_age,3.1,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text
-age_kings,4.1,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text
 month,3.1,month,,text
 months,3.1,months,,text
 day,3.1,day,,text
@@ -15,12 +11,16 @@ days,3.1,days,,text
 to,3.1,to,,text
 Deluge,4.1,Deluge,,text
 moses2,4.1,1593 to 1473 B.C.E. – 120 years,,text
+temple1,4.1,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,text
+69weeks,4.1,Jesus baptized autumn 29 C.E.,,text
+year,3.1,year,"timespan, age (Adam was 130 years old when Shem was born)",text
+years,3.1,years,,text
+years_age,3.1,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text
+age_kings,4.1,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text
 wilderness,4.1,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,,text
 timespan_judges,4.1,1473 to 1117 B.C.E. – 356 years,,text
 timespan_judges2,4.1,Time of the judges,,text
-temple1,4.1,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,text
 temple2,4.1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text
-69weeks,4.1,Jesus baptized autumn 29 C.E.,,text
 69weeks2,4.1,69 weeks to the Messiah – Daniel 9:25,,text
 jesus_service,4.1,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",,text
 jesus_life,4.1,Jesus born 2 B.C.E.,,text
@@ -66,8 +66,6 @@ watchtower,4.1,The first issue of “Zion’s Watch Tower and Herald of Christ�
 jehovahs_witnesses,4.5,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text
 gilead_school,4.1,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943",,text
 new_world_translation1,4.5,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text
-metropolitan,4.1,Start of metropolitan witnessing in 2011,,text
-jw_org,4.1,Start of JW.ORG with instructions in Kingdom Ministry December 2012,,text
 new_world_translation2,4.5,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text
 cold_war,4.1,Geopolitical situation labeled “Cold War” 1945-1991,,text
 timeline_created,4.1,"This timeline is created in 2023, the hottest year in human history and the last 125,000 years",,text
@@ -178,6 +176,7 @@ francia_c,5.11,Kingdom of the Franks,,text
 black_death,5.11,Black death 1346-1353,1346-1353,text
 sui_dynasty,5.11,581-618 Sui dynasty,2025-11-09,text
 sui_dynasty_c,5.11,Sui,2025-11-09,text
+tribulation,4.5,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",,text
 Adam,3.1,Adam,Luke 3:38,bible
 Seth,3.1,Seth,Luke 3:38,bible
 Enosh,3.1,Enosh,Luke 3:38,bible
@@ -529,35 +528,3 @@ revival_le_dynasty_c,5.9,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng,
 seljuk_empire_c,5.11,Seljuk empire,,wiki
 vandals_c,5.11,Vandals,,wiki
 lombard_c,5.11,Lombard Kingdom,2025-10-13,wiki
-event_destruction_samaria2,4.1,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated
-photodrama,4.1,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",,deprecated
-truth_book,4.1,The book “The Truth That Leads to Eternal Life” is released 1968,,deprecated
-jw_broadcasting,4.1,Start of JW Broadcasting® in October 2014,,deprecated
-meeting_workbook,4.1,New format of midweek meeting with “Meeting Workbook” starting January 2016,,deprecated
-Gatam,4.3,Gatam,Genesis 36:11,deprecated
-Adbeel,4.3,Adbeel,Genesis 25:13,deprecated
-Mibsam,4.3,Mibsam,Genesis 25:13,deprecated
-Dumah,4.3,Dumah,Genesis 25:14,deprecated
-Massa,4.3,Massa,Genesis 25:14,deprecated
-Babylon2,4.2,,no text left and right – empty!,deprecated
-terahfam,4.1,Members of Terah’s family,,deprecated
-tang-dynasty1,4.4,,,deprecated
-xia-dynasty,4.4,Xia dynasty in China c. 2070 – c. 1600 BC,,deprecated
-tribulation,4.5,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",,deprecated
-Midianites,4.9,"1) Midianites: Numbers 31:2, 3",,deprecated
-Moabites,4.9,"2) Moabites: Deuteronomy 23:3, 4",,deprecated
-Ammonites,4.9,3) Ammonites: Joshua 12:2,,deprecated
-Edomites,4.9,4) Edomites: Numbers 20:14-17,,deprecated
-Temanites,4.9,5) Temanites: Job 42:7,,deprecated
-Amalekites,4.9,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated
-king_south_light,5.2,,2025-02-05,deprecated
-king_north_light,5.2,,2025-02-05,deprecated
-daniel2_iron,5.2,,2025-02-05,deprecated
-people,3.1,people,,deprecated
-judges,3.1,judges,,deprecated
-prophets,3.1,prophets,,deprecated
-kings,3.1,kings,,deprecated
-periods,3.1,periods,,deprecated
-events,3.1,events,,deprecated
-objects,4.1,objects or items,,deprecated
-sui_dynasty_c,5.11,Sui,2025-11-09,

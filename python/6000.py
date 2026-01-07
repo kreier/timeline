@@ -709,14 +709,20 @@ def tribulation_graphics(row):
 def create_tribulation():
     # draw the band above last days (24.1) and king of the south anglo-america (36)
     global fontsize_regular, direction_rl
-    tribulation_lines = [23.25]     # this was 22.35 and 34.65 until 5.2 in 2025-02-05
+    tribulation_lines = 23.25     # this was 22.35 and 34.65 until 5.2 in 2025-02-05
     if edition_2025:
-        tribulation_lines = [21.25]
-    for row in tribulation_lines:
-        pdf.set_text_color(0)
-        pdf.set_font(font_regular, "", fontsize_regular)
-        drawString(dict["tribulation"], fontsize_regular, x_position(2027), y_position(row), direction_rl, True)
-        tribulation_graphics(row)
+        tribulation_lines = 21.25
+    # Only one time in 2026, no need to cycle trough multiple lines
+    pdf.set_text_color(0)
+    pdf.set_font(font_regular, "", fontsize_regular)
+    drawString(dict["tribulation"], fontsize_regular, x_position(2027), y_position(tribulation_lines), direction_rl, True)
+    tribulation_graphics(tribulation_lines)
+
+    # for row in tribulation_lines:
+    #     pdf.set_text_color(0)
+    #     pdf.set_font(font_regular, "", fontsize_regular)
+    #     drawString(dict["tribulation"], fontsize_regular, x_position(2027), y_position(row), direction_rl, True)
+    #     tribulation_graphics(row)
 
 def create_terah_familytree():
     global counter_terahfam, direction_factor

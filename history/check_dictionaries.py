@@ -22,12 +22,22 @@ files_using_dictionary = [
     "../db/kings.csv",
     "../db/objects.csv",
     "../db/people.csv",
-    "../db/periods.csv", # this one is special, it uses both key and text_center 
+    "../db/periods.csv", # this one is special, it does not use key but text_left, text_center and text_right
     "../db/prophets.csv",
     "../db/terah-family4.csv",
     "../db/terah-footnotes4.csv", # the values in the dictionary add a "_fn" suffix
     "../db/internal_keys.csv"
 ]
+
+def clean_keys(series):
+    """Convert to string, strip whitespace, drop blanks and NaN."""
+    return set(
+        series.dropna()
+              .astype(str)
+              .str.strip()
+              .replace("", pd.NA)
+              .dropna()
+    )
 
 all_keys = set()
 
@@ -35,17 +45,18 @@ for file in files_using_dictionary:
     df = pd.read_csv(file)
     
     if file.endswith("periods.csv"):
-        # Use both key and text_center
-        keys = set(df['key'].astype(str)) | set(df['text_center'].astype(str))
+        keys = clean_keys(df['text_left']) | \
+               clean_keys(df['text_center']) | \
+               clean_keys(df['text_right'])
     elif file.endswith("terah-footnotes4.csv"):
-        # Add "_fn" suffix to match dictionary
-        keys = set(df['key'].astype(str).apply(lambda x: f"{x}_fn"))
+        keys = {f"{k}_fn" for k in clean_keys(df['key'])}
     else:
-        keys = set(df['key'].astype(str))
+        keys = clean_keys(df['key'])
     
     all_keys |= keys
 
 # Compare
+
 missing_keys = dict_keys - all_keys
 extra_keys = all_keys - dict_keys
 
