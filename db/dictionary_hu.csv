@@ -1,9 +1,9 @@
 key,text,english,notes,tag,checked
-version,4.5,4.5, ,float,True
-pdf_title,6000 éves emberi történelem vizualizálva,6000 years human history visualized, ,text,False
+version,6.01,6.01, ,float,True
+pdf_title,6000 éves emberi történelem vizualizálva,6000 years human history visualized,2026-01-08,text,False
 pdf_subject,Az emberiség idővonala,Timeline of humankind, ,text,False
-BCE,BCE,B.C.E., ,B9,False
-CE,C.E.,C.E., ,B9,False
+BCE,I. e.,B.C.E., ,B9,True
+CE,I. sz.,C.E., ,B9,True
 month,hónap,month, ,text,False
 months,Hónapok,months, ,text,False
 day,nap,day, ,text,False
@@ -421,35 +421,35 @@ Habakuk,Habakuk,Habakuk, ,A6-B,False
 Daniel,Daniel,Daniel, ,A6-B,False
 Ezekiel,Ezékiel,Ezekiel, ,A6-B,False
 Obadiah,Abdiás,Obadiah, ,A6-B,False
-Babylon,"Dániel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,False
-Medopersia,"Dániel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,False
-Greece,"Dániel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,False
-Rome,"Dániel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,False
-Angloamerica,"Dániel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,False
-Babylon_c,Babilon,Babylon, ,B9,False
-Medopersia_c,Medo-Perzsia,Medo-Persia, ,B9,False
-Greece_c,Görögország,Greece, ,B9,False
-Rome_c,Róma,Rome, ,B9,False
-Angloamerica_c,Angol-Amerika,Anglo-America, ,B9,False
-daniel2_1,Nabukodonozor király,King Nebuchadnezzar,607 BCE,B9,False
-daniel2_2,elpusztítja Jeruzsálemet,destroys Jerusalem, ,B9,False
-daniel2_3,Meghódítja Babilont,Conquers Babylon,539 BCE,B9,False
-daniel2_4,Cyrus rendeletek visszatérnek,Cyrus decrees return,537 BCE,B9,False
-daniel2_5,zsidók Jeruzsálembe,of Jews to Jerusalem, ,B9,False
-daniel2_6,Nagy Sándor,Alexander the Great,331 BCE,B9,False
-daniel2_7,meghódítja Perzsiát,conquers Persia, ,B9,False
-daniel2_8,Szabályok Izrael felett,Rules over Israel,63 BCE,B9,False
-daniel2_9,Elpusztítja Jeruzsálemet,Destroys Jerusalem,70 CE,B9,False
-daniel2_10,Az első világháború alatt,"During World War I,",1914-1918 CE,B9,False
-daniel2_11,Angol-amerikai világhatalom,Anglo-American World Power, ,B9,False
-daniel2_12,létrejön,comes into being,End 4.2,B9,False
-607BCE, ,607 B.C.E.,accommodate for language,B9,False
-539BCE, ,539 B.C.E.,systems in style:,B9,False
-537BCE, ,537 B.C.E.,>>year 537 before time<<,B9,False
-331BCE, ,331 B.C.E.,so they need a word,B9,False
-63BCE, ,63 B.C.E.,prior to the year,B9,False
-70CE, ,70 C.E.,and something,B9,False
-1914CE, ,1914-1918 C.E.,after the year,B9,False
+Babylon,"Dániel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True
+Medopersia,"Dániel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True
+Greece,"Dániel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True
+Rome,"Dániel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True
+Angloamerica,"Dániel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True
+Babylon_c,Babilónia,Babylon, ,B9,True
+Medopersia_c,Méd–perzsa birodalom,Medo-Persia, ,B9,True
+Greece_c,Görögország,Greece, ,B9,True
+Rome_c,Római Birodalom,Rome, ,B9,True
+Angloamerica_c,Angol–amerikai világhatalom,Anglo-America, ,B9,True
+daniel2_1,Nabukodonozor király,King Nebuchadnezzar,607 BCE,B9,True
+daniel2_2,elpusztítja Jeruzsálemet,destroys Jerusalem, ,B9,True
+daniel2_3,meghódítja Babilont,Conquers Babylon,539 BCE,B9,True
+daniel2_4,"Círusz rendeletet bocsát ki, miszerint",Cyrus decrees return,537 BCE,B9,True
+daniel2_5,a zsidók visszatérhetnek Jeruzsálembe,of Jews to Jerusalem, ,B9,True
+daniel2_6,Nagy Sándor,Alexander the Great,331 BCE,B9,True
+daniel2_7,meghódítja Perzsiát,conquers Persia, ,B9,True
+daniel2_8,uralkodni kezd Izrael fölött,Rules over Israel,63 BCE,B9,True
+daniel2_9,elpusztítja Jeruzsálemet,Destroys Jerusalem,70 CE,B9,True
+daniel2_10,az I. világháború idején létrejön,"During World War I,",1914-1918 CE,B9,True
+daniel2_11,az angol–amerikai világhatalom,Anglo-American World Power, ,B9,True
+daniel2_12, ,comes into being,End 4.2,B9,True
+607BCE,I. e. 607-ben,607 B.C.E.,accommodate for language,B9,True
+539BCE,I. e. 539-ben,539 B.C.E.,systems in style:,B9,True
+537BCE,I. e. 537-ben,537 B.C.E.,>>year 537 before time<<,B9,True
+331BCE,I. e. 331-ben,331 B.C.E.,so they need a word,B9,True
+63BCE,I. e. 63-ban,63 B.C.E.,prior to the year,B9,True
+70CE,I. sz. 70-ben,70 C.E.,and something,B9,True
+1914CE,1914–1918:,1914-1918 C.E.,after the year,B9,True
 daniel2_shift,0,0,Start 4.2,float,False
 7times,Jelenések 12:9,Revelation 12:9, ,scripture,False
 infliction2,ApCsel 7:6,Acts 7:6, ,scripture,False
@@ -476,14 +476,14 @@ yuan-dynasty,1271-1368,1271-1368, ,timespan,True
 southern-song,1127-1279,1127-1279, ,timespan,True
 northern-song,960-1127,960-1127, ,timespan,True
 western-xia,1038-1227,1038-1227, ,timespan,True
-maya_classic, ,250-950, ,timespan,True
-maya_postclassic, ,950-1539, ,timespan,True
-tran_dynasty, ,1225 – 1400, ,timespan,True
-le_dynasty, ,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
-revival_le_dynasty, ,1533-1789, ,timespan,True
-nguyen_dynasty, ,1802 – 1883, ,timespan,True
-edo, ,1603 – 1868, ,timespan,True
-meiji, ,1868 – 1912, ,timespan,True
+maya_classic,250-950,250-950, ,timespan,True
+maya_postclassic,950-1539,950-1539, ,timespan,True
+tran_dynasty,1225 – 1400,1225 – 1400, ,timespan,True
+le_dynasty,1428 – 1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
+revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
+nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
+edo,1603 – 1868,1603 – 1868, ,timespan,True
+meiji,1868 – 1912,1868 – 1912, ,timespan,True
 Julius,Julius,Julius, ,wiki,False
 Caligula,Caligula,Caligula, ,wiki,False
 Nero,Nero,Nero, ,wiki,False

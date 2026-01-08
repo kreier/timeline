@@ -168,19 +168,13 @@ def check_existing(language, filename):
 
     # Step 8: Compare known entries and fix them
     # Step 8.1: match all entries with tag 'timespan' and set checked to True
-    timespan_mask = dict_translated["tag"] == "timespan"
-    dict_translated.loc[timespan_mask, "checked"] = True
+    mask = dict["tag"] == "timespan"                        # find all timespan entries in the reference dictionary
+    lookup = dict.loc[mask].set_index("key")["english"]     # create a lookup series with key and text for timespan entries
+    # Update dict_translated text for timespan entries
+    update_mask = dict_translated["key"].isin(lookup.index)
+    dict_translated.loc[update_mask, "text"] = dict_translated.loc[update_mask, "key"].map(lookup)
+    dict_translated.loc[update_mask, "checked"] = True
     dict_translated.to_csv(filename, index=False)
-
-    # Step 8.2: Fix 'span_ce' entries - overwrite if checked is False
-
-    # Step 8.3: Fix 'span_bce' entries
-
-    # Step 8.4: Fix 'span_bc' entries
-
-    # Step 8.5: Fix 'float' entries
-
-    # Step 8.6: Fix 'wiki' entries
 
     # It remains:
     # - scripture
@@ -199,23 +193,33 @@ def import_reference():
     # print(f"found {len(dict)} entries.")
     # print(dict)
 
-def missing_bc_bce():
+def unchecked_BCE_CE():
     global dict_translated
-    # Check if 'bc' and 'bce' entries are missing or if checked is False
-    return False
-    missing_bc_bce = False
-    for tag in ['span_bc', 'span_bce']:
-        mask = (dict_translated['tag'] == tag) & ((dict_translated['text'] == "") | (dict_translated['text'].isna()))
-        if mask.any():  # If there are any missing entries for this tag
-            missing_bc_bce = True
-            num_missing = mask.sum()
-            print(f"Found {num_missing} missing entries for tag '{tag}'.")
+    # Check if 'BCE' and 'CE' are checked as False
+    subset = dict_translated.loc[dict_translated["key"].isin(["BCE", "CE"]), "checked"]
+    if (subset == False).any():
+        print("At least one of BCE or CE is not checked.")
+        return True
+    else:
+        print("Both BCE and CE are checked.")
+        return False
 
-async def translate_bc_bce(language):
+async def translate_bce_ce(language):
     global dict_translated, number_characters
+    keywords = {
+        "BCE": "B.C.E.",
+        "CE": "C.E."
+    }
     async with Translator() as translator:
-        for tag in ['span_bc', 'span_bce']:
-            mask = (dict_translated['tag'] == tag) & ((dict_translated['text'] == "") | (dict_translated['text'].isna()))
+        translations = {}
+        for key, english_text in keywords.items():
+            result = await translator.translate(english_text, src="en", dest=language)
+            translations[key] = result.text
+            print(f"Translating {english_text} to {result.text}")
+    for key, translated_text in translations.items():
+            dict_translated.loc[dict_translated["key"] == key, "text"] = translated_text
+    dict_translated.to_csv(filename, index=False)
+
 
 async def translate_dictionary(dictionary, language):
     global number_characters
@@ -272,8 +276,8 @@ if __name__ == "__main__":
     print(summary_table)
 
 
-    if missing_bc_bce(): # true if missing or checked is False
-        asyncio.run(translate_bc_bce(language)) # translate the missing 'bc' and 'bce' entries for span_bce, span_bc and span_ce tags
+    if unchecked_BCE_CE(): # true if missing or checked is False
+        asyncio.run(translate_bce_ce(language)) # translate the missing 'BCE' and 'CE' entries for span_bce, span_bc and span_ce tags
 
     # Update 'span_ce', 'span_bce', 'span_bc' and 'float' entries if checked is False
 
