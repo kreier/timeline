@@ -20,6 +20,11 @@
 # Step 6.2 Find mismatches between dict and dict_translated
 # Step 6.3 Update dict_translated's tag values to match dict, checked to FALSE
 # Step 7: Check entries in the checked column
+# Step 8: Compare known entries and fix them
+# Step 8.1: match all entries with tag 'timespan' and set checked to True
+# Step 8.2: Match the version number and date
+# Step 9: Find empty entries in text and send them for translation
+
 
 import os, sys, asyncio
 import pandas as pd
@@ -105,7 +110,6 @@ def check_existing(language, filename):
         if not missing_entries.empty:
             print("Entries missing in the existing dictionary:")
             print(missing_entries)
-
             # Ask user if they want to add these lines
             user_input = input("Do you want to add these missing entries? (yes/no): ")
             if user_input.lower() == "yes" or user_input.lower() == "y":
@@ -113,7 +117,6 @@ def check_existing(language, filename):
                 missing_df = missing_entries[['key', 'english']].copy()
                 missing_df['english'] = missing_entries['english'].copy()
                 missing_df['notes'] = missing_entries['notes'].copy()
-
                 # Append missing entries to dict_translated
                 dict_translated = pd.concat([dict_translated, missing_df], ignore_index=True)
                 print("Updated dict_translated after adding missing entries:")
@@ -145,22 +148,16 @@ def check_existing(language, filename):
         # 6.3 Update dict_translated's tag values to match dict
         if missing_tags > 0 or num_mismatches > 0:
             print("Updating 'tag' values in dict_translated to match the reference dictionary...")
-
             # Create a mask for rows where the tag will change
             tag_changed = merged["tag_dict"].notna() & (merged["tag_dict"] != dict_translated["tag"])
-
             # Update tags
             dict_translated["tag"] = merged["tag_dict"].fillna(dict_translated["tag"])
-
             # Reset 'checked' to False where tag was changed
             dict_translated.loc[tag_changed, "checked"] = False
-
             # Show only the rows that changed
             changed_rows = dict_translated.loc[tag_changed]
-
             print("Rows that were updated:")
             print(changed_rows)
-
             dict_translated.to_csv(filename, index=False)
 
 
@@ -212,7 +209,16 @@ def check_existing(language, filename):
     update_mask = dict_translated["key"].isin(lookup.index)
     dict_translated.loc[update_mask, "text"] = dict_translated.loc[update_mask, "key"].map(lookup)
     dict_translated.loc[update_mask, "checked"] = True
+    # Step 8.2: Match the version number and date
+    dict_translated.loc[dict_translated['key'] == 'version', 'english'] = \
+        dict.loc[dict['key'] == 'version', 'english'].values
+    dict_translated.loc[dict_translated['key'] == 'pdf_title', 'notes'] = \
+        dict.loc[dict['key'] == 'pdf_title', 'notes'].values
+
+    # Step 8.3: Check the entracne in "english" between dict and dict_translated
+
     dict_translated.to_csv(filename, index=False)
+
 
     # It remains:
     # - scripture
@@ -319,14 +325,10 @@ if __name__ == "__main__":
 
     # Update 'span_ce', 'span_bce', 'span_bc' and 'float' entries if checked is False
 
-
-    # Step 8.2: Fix 'span_ce' entries - overwrite if checked is False
-
-    # Step 8.3: Fix 'span_bce' entries
-
-    # Step 8.4: Fix 'span_bc' entries
-
     # Step 8.5: Fix 'float' entries
+
+    # Step 9: Find empty entries in text and send them for translation
+
 
     print("\nTranslating ...")
     number_characters = 0      # you can translate up to 500,000 characters per month for free

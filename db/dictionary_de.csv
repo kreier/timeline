@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,6.01,6.01, ,float,True
-pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2026-01-15,text,True
+pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2026-01-16,text,True
 pdf_subject,Zeitleiste der Menschheit,Timeline of humankind, ,text,True
 BCE,v.u.Z.,B.C.E.,appendix B9,B9,True
 CE,u.Z.,C.E., ,B9,True
@@ -458,28 +458,28 @@ eastern-zhou,770-256 v.u.Z.,770-256 BC, ,span_bc,True
 eastern-han,25-220 u.Z.,25-220 CE, ,span_ce,True
 northern-dynasties,368-581 u.Z.,368-581 CE, ,span_ce,True
 southern-dynasties,420-589 u.Z.,420-589 CE, ,span_ce,True
-khmer_empire,804 – 1431 u.Z.,804 – 1431 C.E., ,span_ce,True
-byzantine_empire,330-1453 u.Z.,330-1453 C.E., ,span_ce,True
-ottoman_empire,1299 – 1922 u.Z.,1299 – 1922 C.E., ,span_ce,True
-holy_roman_empire,800 – 924 u.Z.,800 – 924 C.E., ,span_ce,True
-holy_roman_empire2,962 – 1806 u.Z.,962 – 1806 C.E.,fixed 2024-12-31,span_ce,True
-inca_empire,1438 – 1533 u.Z.,1438 – 1533 C.E., ,span_ce,True
-gupta_empire,319 – 550 u.Z.,319 – 550 C.E., ,span_ce,True
-Umayyad,661 – 750 u.Z.,661 – 750 C.E., ,span_ce,True
-Abbasid,750 – 1258 u.Z.,750 – 1258 C.E., ,span_ce,True
-Mamluk,1250 – 1517 u.Z.,1250 – 1517 C.E., ,span_ce,True
-seljuk_empire,1037 – 1194 u.Z.,1037 – 1194 C.E.,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",span_ce,True
-lombard,568 – 774 u.Z.,568 – 774 C.E.,Kingdom of the Lombards 568-774,span_ce,True
+khmer_empire,804 – 1431,804 – 1431 C.E., ,timespan,True
+byzantine_empire,330 –1453,330-1453 C.E., ,timespan,True
+ottoman_empire,1299 – 1922,1299 – 1922 C.E., ,timespan,True
+holy_roman_empire,800 – 924,800 – 924 C.E., ,timespan,True
+holy_roman_empire2,962 – 1806,962 – 1806 C.E.,fixed 2024-12-31,timespan,True
+inca_empire,1438 – 1533,1438 – 1533 C.E., ,timespan,True
+gupta_empire,319 – 550,319 – 550 C.E., ,timespan,True
+Umayyad,661 – 750,661 – 750 C.E., ,timespan,True
+Abbasid,750 – 1258,750 – 1258 C.E., ,timespan,True
+Mamluk,1250 – 1517,1250 – 1517 C.E., ,timespan,True
+seljuk_empire,1037 – 1194,1037 – 1194 C.E.,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
+lombard,568 – 774,568 – 774 C.E.,Kingdom of the Lombards 568-774,timespan,True
 qing-dynasty,1636-1912,1636-1912, ,timespan,True
 ming-dynasty,1368-1644,1368-1644, ,timespan,True
 yuan-dynasty,1271-1368,1271-1368, ,timespan,True
 southern-song,1127-1279,1127-1279, ,timespan,True
 northern-song,960-1127,960-1127, ,timespan,True
 western-xia,1038-1227,1038-1227, ,timespan,True
-maya_classic,250-950,250-950, ,timespan,True
+maya_classic,250–950,250-950, ,timespan,True
 maya_postclassic,950-1539,950-1539, ,timespan,True
-tran_dynasty,1225 – 1400,1225 – 1400, ,timespan,True
-le_dynasty,1428 – 1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
+tran_dynasty,1225–1400,1225 – 1400, ,timespan,True
+le_dynasty,1428–1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
 revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
 edo,1603 – 1868,1603 – 1868, ,timespan,True
