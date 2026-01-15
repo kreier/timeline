@@ -6,6 +6,21 @@
 # dictionary_reference.csv has 'key', 'v', 'english', 'notes' and 'tag'
 # dictionary_XX.csv has 'key', 'text', 'english', 'notes', 'tag'and 'checked'
 
+# Step 1: Compare the number of keys in both dictionaries and report differences
+# Step 2: Find keys that are in dict_translated but not in dict
+# Step 3: Check if dict_translated has the required columns
+# Step 4: Find keys that are in dict but not in dict_translated
+# Step 5: Match the order of entries in dict_translated to match dict
+# Step 5.1: align dict_translated to dict's key order
+# Step 5.2: find extra rows (keys not in dict)
+# Step 5.3: mark them as deprecated
+# Step 5.4: concatenate aligned first, extras at the end
+# Step 6: Check entries in the tag column
+# Step 6.1 Count missing tag entries
+# Step 6.2 Find mismatches between dict and dict_translated
+# Step 6.3 Update dict_translated's tag values to match dict, checked to FALSE
+# Step 7: Check entries in the checked column
+
 import os, sys, asyncio
 import pandas as pd
 from googletrans import Translator
@@ -130,9 +145,22 @@ def check_existing(language, filename):
         # 6.3 Update dict_translated's tag values to match dict
         if missing_tags > 0 or num_mismatches > 0:
             print("Updating 'tag' values in dict_translated to match the reference dictionary...")
+
+            # Create a mask for rows where the tag will change
+            tag_changed = merged["tag_dict"].notna() & (merged["tag_dict"] != dict_translated["tag"])
+
+            # Update tags
             dict_translated["tag"] = merged["tag_dict"].fillna(dict_translated["tag"])
-            print("dict_translated updated with corrected tag values:")
-            print(dict_translated.head())
+
+            # Reset 'checked' to False where tag was changed
+            dict_translated.loc[tag_changed, "checked"] = False
+
+            # Show only the rows that changed
+            changed_rows = dict_translated.loc[tag_changed]
+
+            print("Rows that were updated:")
+            print(changed_rows)
+
             dict_translated.to_csv(filename, index=False)
 
 
