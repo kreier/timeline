@@ -3,8 +3,8 @@
 # Usage: python auto-translate.py [language_code]
 # Update 2026: check the translation, expand if necessary
 
-# dictionary_reference.csv has 'key', 'text', 'version' and 'notes'
-# dictionary_XX.csv has 'key', 'text', 'english', 'notes' and 'checked'
+# dictionary_reference.csv has 'key', 'v', 'english', 'notes' and 'tag'
+# dictionary_XX.csv has 'key', 'text', 'english', 'notes', 'tag'and 'checked'
 
 import os, sys, asyncio
 import pandas as pd
@@ -46,8 +46,18 @@ def check_existing(language, filename):
         # Filter dict_translated to show only extra entries
         extra_entries = dict_translated[dict_translated["key"].isin(extra_keys)]
         if not extra_entries.empty:
-            print("Extra entries found, will be relabeled as deprecated:")
-            print(extra_entries)
+            if "tag" in extra_entries.columns:
+                # Filter out rows where tag == "deprecated"
+                filtered_entries = extra_entries[extra_entries["tag"] != "deprecated"]
+            else:
+                # If no "tag" column, keep everything
+                filtered_entries = extra_entries
+
+            # Print only if there are entries left after filtering
+            if not filtered_entries.empty:
+                print(filtered_entries)
+            print(f"Found some {len(extra_entries)} extra entries, {len(filtered_entries)} will "
+                  f"be relabeled as deprecated:") # Step 5.3
 
             # # Ask user if they want to remove these lines
             # user_input = input("Do you want to remove these extra entries? (yes/no): ")

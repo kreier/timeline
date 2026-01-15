@@ -358,7 +358,7 @@ def create_adam_moses():
         pdf.set_text_color(255)
         fsize_AMoses = fontsize_AMoses
         pdf.set_font(font_bold, "", fontsize_AMoses)
-        if "\u02b9" in person or "\u0331" in person:  # if modifier letter prime or combining macron below is used, switch to NotoSans
+        if "\u02b9" in person or "\u0331" in person or "\u0332" in person:  # if modifier letter prime or combining macron below is used, switch to NotoSans
             pdf.set_font("NotoSans-bold", "", fontsize_AMoses)
             fsize_AMoses = fontsize_AMoses * 0.92     # NotoSans is slightly larger, about 8% than Aptos
             y_box += 1                                # adjust vertical position to be centered                
