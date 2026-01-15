@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,6.01,6.01,,float,TRUE
-pdf_title,6000 years human history visualized,6000 years human history visualized,2026-01-07,text,TRUE
+pdf_title,6000 years human history visualized,6000 years human history visualized,2026-01-15,text,TRUE
 pdf_subject,Timeline of humankind,Timeline of humankind,,text,TRUE
 BCE,B.C.E.,B.C.E.,appendix B9,B9,TRUE
 CE,C.E.,C.E.,,B9,TRUE
@@ -27,8 +27,8 @@ jesus_life,Jesus born 2 B.C.E.,Jesus born 2 B.C.E.,,text,TRUE
 exile,607 to 537 B.C.E. – 70 years (Jeremiah 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),,text,TRUE
 exile2,Exile,Exile,,text,TRUE
 7times2,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),,text,TRUE
-ww1,World War I – 1914–1918 C.E.,World War I – 1914–1918 C.E.,,text,TRUE
-ww2,World War II – 1939–1945 C.E.,World War II – 1939–1945 C.E.,,text,TRUE
+ww1,World War I – 1914–1918,World War I – 1914–1918,,text,TRUE
+ww2,World War II – 1939–1945,World War II – 1939–1945,,text,TRUE
 30_year_war,Thirty Years' War in Europe 1618-1648,Thirty Years' War in Europe 1618-1648,,text,TRUE
 joshua,110 years,110 years,,text,TRUE
 caleb,more than 85 years,more than 85 years,,text,TRUE
@@ -75,7 +75,7 @@ leningrad_codex,Leningrad Codex written in Cairo AD 1008,Leningrad Codex written
 john,John writes “revelation” while exiled on Patmos 96-98 C.E.,John writes “revelation” while exiled on Patmos 96-98 C.E.,,text,TRUE
 buddha,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,,text,TRUE
 buddha2,Buddha alternatively c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E.,,text,TRUE
-mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632 C.E.,,text,TRUE
+mohammed,Mohammed c. 570-632 ,Mohammed c. 570-632,,text,TRUE
 confucius,Confucius c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E.,,text,TRUE
 hijrah,Hijrah - Journey Mecca to Medina 16 July 622,Hijrah - Journey Mecca to Medina 16 July 622,,text,TRUE
 moses_escape,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",,text,TRUE
@@ -142,7 +142,7 @@ great_crowd,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-1
 world_population,World population in billions in the last 2000 years,World population in billions in the last 2000 years,,text,TRUE
 khmer_empire_c,Khmer Empire - Angkor period,Khmer Empire - Angkor period,,text,TRUE
 holy_roman_empire_c,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,,text,TRUE
-mongol_empire,Mongol Empire 1206 – 1294 C.E.,Mongol Empire 1206 – 1294 C.E.,,text,TRUE
+mongol_empire,Mongol Empire 1206 – 1294,Mongol Empire 1206 – 1294,,text,TRUE
 maya_classic_c,Maya civilization – Classic period,Maya civilization – Classic period,,text,TRUE
 maya_postclassic_c,Maya civilization – Postclassic period,Maya civilization – Postclassic period,,text,TRUE
 Teotihuacan,"Largest city in the Americas, pyramids build c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.",,text,TRUE
@@ -169,8 +169,8 @@ edo_c,Edo period (Tokugawa shogunate),Edo period in Japan,Edo period (Tokugawa s
 meiji_c,Meiji,Meiji,2025-09-20,text,TRUE
 american_civil_war,American Civil War 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,TRUE
 aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920,2025-10-03,text,TRUE
-vandals,Kingdom of the Vandals and Alans 435 – 534 C.E.,Kingdom of the Vandals and Alans 435 – 534 C.E.,Vandals 435-534 C.E.,text,TRUE
-francia,"c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian","c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,TRUE
+vandals,Kingdom of the Vandals and Alans 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,TRUE
+francia,"c. 481/509 – 843, Merovingian till 751, then Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,TRUE
 francia_c,Kingdom of the Franks,Kingdom of the Franks,,text,TRUE
 100_years_war,Hundred Years’ War 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,TRUE
 black_death,Black death 1346-1353,Black death 1346-1353,1346-1353,text,TRUE
@@ -223,9 +223,9 @@ Ezra,Ezra,Ezra,bible book,bible,TRUE
 Nehemiah,Nehemiah,Nehemiah,bible book,bible,TRUE
 Esther,Esther,Esther,bible book,bible,TRUE
 Job,Job,Job,bible book,bible,TRUE
-moses3,Moses,Moses,,bible,TRUE
-joshua2,Joshua,Joshua,,bible,TRUE
-caleb2,Caleb,Caleb,,bible,TRUE
+moses3,Moses,Moses,Exodus 2:10,bible,TRUE
+joshua2,Joshua,Joshua,Exodus 17:14,bible,TRUE
+caleb2,Caleb,Caleb,Numbers 13:30,bible,TRUE
 Augustus,Augustus,Augustus,Luke 2:1,bible,TRUE
 Tiberius,Tiberius,Tiberius,Luke 3:1,bible,TRUE
 Claudius,Claudius,Claudius,Acts 11:28,bible,TRUE
@@ -458,28 +458,28 @@ eastern-zhou,770-256 BC,770-256 BC,,span_bc,TRUE
 eastern-han,25-220 CE,25-220 CE,,span_ce,TRUE
 northern-dynasties,368-581 CE,368-581 CE,,span_ce,TRUE
 southern-dynasties,420-589 CE,420-589 CE,,span_ce,TRUE
-khmer_empire,804 – 1431 C.E.,804 – 1431 C.E.,,span_ce,TRUE
-byzantine_empire,330-1453 C.E.,330-1453 C.E.,,span_ce,TRUE
-ottoman_empire,1299 – 1922 C.E.,1299 – 1922 C.E.,,span_ce,TRUE
-holy_roman_empire,800 – 924 C.E.,800 – 924 C.E.,,span_ce,TRUE
-holy_roman_empire2,962 – 1806 C.E.,962 – 1806 C.E.,fixed 2024-12-31,span_ce,TRUE
-inca_empire,1438 – 1533 C.E.,1438 – 1533 C.E.,,span_ce,TRUE
-gupta_empire,319 – 550 C.E.,319 – 550 C.E.,,span_ce,TRUE
-Umayyad,661 – 750 C.E.,661 – 750 C.E.,,span_ce,TRUE
-Abbasid,750 – 1258 C.E.,750 – 1258 C.E.,,span_ce,TRUE
-Mamluk,1250 – 1517 C.E.,1250 – 1517 C.E.,,span_ce,TRUE
-seljuk_empire,1037 – 1194 C.E.,1037 – 1194 C.E.,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",span_ce,TRUE
-lombard,568 – 774 C.E.,568 – 774 C.E.,Kingdom of the Lombards 568-774,span_ce,TRUE
+khmer_empire,804 – 1431,804 – 1431,,timespan,TRUE
+byzantine_empire,330 –1453,330 –1453,,timespan,TRUE
+ottoman_empire,1299 – 1922,1299 – 1922,,timespan,TRUE
+holy_roman_empire,800 – 924,800 – 924,,timespan,TRUE
+holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,TRUE
+inca_empire,1438 – 1533,1438 – 1533,,timespan,TRUE
+gupta_empire,319 – 550,319 – 550,,timespan,TRUE
+Umayyad,661 – 750,661 – 750,,timespan,TRUE
+Abbasid,750 – 1258,750 – 1258,,timespan,TRUE
+Mamluk,1250 – 1517,1250 – 1517,,timespan,TRUE
+seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,TRUE
+lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,TRUE
 qing-dynasty,1636-1912,1636-1912,,timespan,TRUE
 ming-dynasty,1368-1644,1368-1644,,timespan,TRUE
 yuan-dynasty,1271-1368,1271-1368,,timespan,TRUE
 southern-song,1127-1279,1127-1279,,timespan,TRUE
 northern-song,960-1127,960-1127,,timespan,TRUE
 western-xia,1038-1227,1038-1227,,timespan,TRUE
-maya_classic,250-950,250-950,,timespan,TRUE
+maya_classic,250–950,250–950,,timespan,TRUE
 maya_postclassic,950-1539,950-1539,,timespan,TRUE
-tran_dynasty,1225 – 1400,1225 – 1400,,timespan,TRUE
-le_dynasty,1428–1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,TRUE
+tran_dynasty,1225–1400,1225–1400,,timespan,TRUE
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,TRUE
 revival_le_dynasty,1533-1789,1533-1789,,timespan,TRUE
 nguyen_dynasty,1802 – 1883,1802 – 1883,,timespan,TRUE
 edo,1603 – 1868,1603 – 1868,,timespan,TRUE
@@ -528,3 +528,35 @@ revival_le_dynasty_c,Trịnh lords and Nguyễn lords,Trịnh lords and Nguyễn
 seljuk_empire_c,Seljuk empire,Seljuk empire,,wiki,TRUE
 vandals_c,Vandals,Vandals,,wiki,TRUE
 lombard_c,Lombard Kingdom,Lombard Kingdom,2025-10-13,wiki,TRUE
+event_destruction_samaria2,740 B.C.E. by Assyria,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,True
+photodrama,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,True
+truth_book,The book “The Truth That Leads to Eternal Life” is released 1968,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,True
+jw_broadcasting,Start of JW Broadcasting® in October 2014,Start of JW Broadcasting® in October 2014, ,deprecated,True
+meeting_workbook,New format of midweek meeting with “Meeting Workbook” starting January 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,True
+Gatam,Gaʹtam,Gatam,Genesis 36:11,deprecated,True
+Adbeel,Adʹbe·el,Adbeel,Genesis 25:13,deprecated,True
+Mibsam,Mibʹsam,Mibsam,Genesis 25:13,deprecated,True
+Dumah,Duʹmah,Dumah,Genesis 25:14,deprecated,True
+Massa,Masʹsa,Massa,Genesis 25:14,deprecated,True
+Babylon2, , ,no text left and right – empty!,deprecated,True
+terahfam,Members of Terah’s family,Members of Terah’s family, ,deprecated,True
+tang-dynasty1, , , ,deprecated,True
+xia-dynasty,Xia dynasty in China c. 2070 – c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,True
+Midianites,"1) Midi·an·ites: Numbers 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,True
+Moabites,"2) Moab·ites: Deuteronomy 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,True
+Ammonites,3) Ammon·ites: Joshua 12:2,3) Ammonites: Joshua 12:2, ,deprecated,True
+Edomites,4) Edom·ites: Numbers 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,True
+Temanites,5) Teman·ites: Job 42:7,5) Temanites: Job 42:7, ,deprecated,True
+Amalekites,6) A·malek·ites: 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,True
+king_south_light, , ,2025-02-05,deprecated,True
+king_north_light, , ,2025-02-05,deprecated,True
+daniel2_iron, , ,2025-02-05,deprecated,True
+people,people,people, ,deprecated,True
+judges,judges,judges, ,deprecated,True
+prophets,prophets,prophets, ,deprecated,True
+kings,kings,kings, ,deprecated,True
+periods,periods,periods, ,deprecated,True
+events,events,events, ,deprecated,True
+objects,objects or items,objects or items, ,deprecated,True
+metropolitan,Start of metropolitan witnessing in 2011,Start of metropolitan witnessing in 2011, ,deprecated,True
+jw_org,Start of JW.ORG with instructions in Kingdom Ministry December 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,True

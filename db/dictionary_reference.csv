@@ -1,6 +1,6 @@
 key,version,english,notes,tag
 version,3.1,6.01,,float
-pdf_title,3.1,6000 years human history visualized,2026-01-07,text
+pdf_title,3.1,6000 years human history visualized,2026-01-15,text
 pdf_subject,3.1,Timeline of humankind,,text
 BCE,3.1,B.C.E.,appendix B9,B9
 CE,3.1,C.E.,,B9
@@ -27,8 +27,8 @@ jesus_life,4.1,Jesus born 2 B.C.E.,,text
 exile,4.1,607 to 537 B.C.E. – 70 years (Jeremiah 25:11),,text
 exile2,4.1,Exile,,text
 7times2,4.1,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),,text
-ww1,4.1,World War I – 1914–1918 C.E.,,text
-ww2,4.1,World War II – 1939–1945 C.E.,,text
+ww1,4.1,World War I – 1914–1918,,text
+ww2,4.1,World War II – 1939–1945,,text
 30_year_war,4.1,Thirty Years' War in Europe 1618-1648,,text
 joshua,4.1,110 years,,text
 caleb,4.1,more than 85 years,,text
@@ -75,7 +75,7 @@ leningrad_codex,4.1,Leningrad Codex written in Cairo AD 1008,,text
 john,4.1,John writes “revelation” while exiled on Patmos 96-98 C.E.,,text
 buddha,4.1,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,,text
 buddha2,4.1,Buddha alternatively c. 480-400 B.C.E.,,text
-mohammed,4.1,Mohammed c. 570-632 C.E.,,text
+mohammed,4.1,Mohammed c. 570-632,,text
 confucius,4.1,Confucius c.551-c.479 B.C.E.,,text
 hijrah,4.1,Hijrah - Journey Mecca to Medina 16 July 622,,text
 moses_escape,4.1,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",,text
@@ -142,7 +142,7 @@ great_crowd,4.5,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37
 world_population,4.5,World population in billions in the last 2000 years,,text
 khmer_empire_c,4.6,Khmer Empire - Angkor period,,text
 holy_roman_empire_c,4.6,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,,text
-mongol_empire,4.6,Mongol Empire 1206 – 1294 C.E.,,text
+mongol_empire,4.6,Mongol Empire 1206 – 1294,,text
 maya_classic_c,4.6,Maya civilization – Classic period,,text
 maya_postclassic_c,4.6,Maya civilization – Postclassic period,,text
 Teotihuacan,4.6,"Largest city in the Americas, pyramids build c. 200 C.E.",,text
@@ -169,8 +169,8 @@ edo_c,5.9,Edo period in Japan,Edo period (Tokugawa shogunate),text
 meiji_c,5.9,Meiji,2025-09-20,text
 american_civil_war,5.9,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text
 aleppo_codex,5.11,Aleppo Codex c. 920,2025-10-03,text
-vandals,5.11,Kingdom of the Vandals and Alans 435 – 534 C.E.,Vandals 435-534 C.E.,text
-francia,5.11,"c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text
+vandals,5.11,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text
+francia,5.11,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text
 francia_c,5.11,Kingdom of the Franks,,text
 100_years_war,5.11,Hundred Years’ War 1337 – 1453,1337–1453,text
 black_death,5.11,Black death 1346-1353,1346-1353,text
@@ -223,9 +223,9 @@ Ezra,4.1,Ezra,bible book,bible
 Nehemiah,4.1,Nehemiah,bible book,bible
 Esther,4.1,Esther,bible book,bible
 Job,4.1,Job,bible book,bible
-moses3,4.1,Moses,,bible
-joshua2,4.1,Joshua,,bible
-caleb2,4.1,Caleb,,bible
+moses3,4.1,Moses,Exodus 2:10,bible
+joshua2,4.1,Joshua,Exodus 17:14,bible
+caleb2,4.1,Caleb,Numbers 13:30,bible
 Augustus,4.1,Augustus,Luke 2:1,bible
 Tiberius,4.1,Tiberius,Luke 3:1,bible
 Claudius,4.1,Claudius,Acts 11:28,bible
@@ -458,28 +458,28 @@ eastern-zhou,4.4,770-256 BC,,span_bc
 eastern-han,4.4,25-220 CE,,span_ce
 northern-dynasties,4.4,368-581 CE,,span_ce
 southern-dynasties,4.4,420-589 CE,,span_ce
-khmer_empire,4.6,804 – 1431 C.E.,,span_ce
-byzantine_empire,4.6,330-1453 C.E.,,span_ce
-ottoman_empire,4.6,1299 – 1922 C.E.,,span_ce
-holy_roman_empire,4.6,800 – 924 C.E.,,span_ce
-holy_roman_empire2,5.1,962 – 1806 C.E.,fixed 2024-12-31,span_ce
-inca_empire,4.6,1438 – 1533 C.E.,,span_ce
-gupta_empire,4.6,319 – 550 C.E.,,span_ce
-Umayyad,4.6,661 – 750 C.E.,,span_ce
-Abbasid,4.6,750 – 1258 C.E.,,span_ce
-Mamluk,4.6,1250 – 1517 C.E.,,span_ce
-seljuk_empire,5.11,1037 – 1194 C.E.,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",span_ce
-lombard,5.11,568 – 774 C.E.,Kingdom of the Lombards 568-774,span_ce
+khmer_empire,4.6,804 – 1431,,timespan
+byzantine_empire,4.6,330 –1453,,timespan
+ottoman_empire,4.6,1299 – 1922,,timespan
+holy_roman_empire,4.6,800 – 924,,timespan
+holy_roman_empire2,5.1,962 – 1806,fixed 2024-12-31,timespan
+inca_empire,4.6,1438 – 1533,,timespan
+gupta_empire,4.6,319 – 550,,timespan
+Umayyad,4.6,661 – 750,,timespan
+Abbasid,4.6,750 – 1258,,timespan
+Mamluk,4.6,1250 – 1517,,timespan
+seljuk_empire,5.11,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan
+lombard,5.11,568 – 774,Kingdom of the Lombards 568-774,timespan
 qing-dynasty,4.4,1636-1912,,timespan
 ming-dynasty,4.4,1368-1644,,timespan
 yuan-dynasty,4.4,1271-1368,,timespan
 southern-song,4.4,1127-1279,,timespan
 northern-song,4.4,960-1127,,timespan
 western-xia,4.4,1038-1227,,timespan
-maya_classic,4.6,250-950,,timespan
+maya_classic,4.6,250–950,,timespan
 maya_postclassic,4.6,950-1539,,timespan
-tran_dynasty,5.9,1225 – 1400,,timespan
-le_dynasty,5.9,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan
+tran_dynasty,5.9,1225–1400,,timespan
+le_dynasty,5.9,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan
 revival_le_dynasty,5.9,1533-1789,,timespan
 nguyen_dynasty,5.9,1802 – 1883,,timespan
 edo,5.9,1603 – 1868,,timespan
