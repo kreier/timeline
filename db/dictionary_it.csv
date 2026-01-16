@@ -168,14 +168,14 @@ nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,True
 edo_c,Periodo Edo in Giappone,Edo period in Japan, ,text,False
 meiji_c,Meiji,Meiji,2025-09-20,text,False
 american_civil_war,Guerra civile americana 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,True
-aleppo_codex,,Aleppo Codex c. 920,2025-10-03,text,False
-vandals,,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
-francia,,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
-francia_c,,Kingdom of the Franks, ,text,False
-100_years_war,,Hundred Years’ War 1337 – 1453,1337–1453,text,False
-black_death,,Black death 1346-1353,1346-1353,text,False
-sui_dynasty,,581-618 Sui dynasty,2025-11-09,text,False
-sui_dynasty_c,,Sui,2025-11-09,text,False
+aleppo_codex, ,Aleppo Codex c. 920,2025-10-03,text,False
+vandals, ,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia, ,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+francia_c, ,Kingdom of the Franks, ,text,False
+100_years_war, ,Hundred Years’ War 1337 – 1453,1337–1453,text,False
+black_death, ,Black death 1346-1353,1346-1353,text,False
+sui_dynasty, ,581-618 Sui dynasty,2025-11-09,text,False
+sui_dynasty_c, ,Sui,2025-11-09,text,False
 tribulation,"The Great Tribolation (Marco 13:19; Daniele 12: 1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
 Adam,Adamo,Adam,Luke 3:38,bible,True
 Seth,Set,Seth, ,bible,True
@@ -458,16 +458,16 @@ eastern-zhou,770-256 a.C.,770-256 BC, ,span_bc,False
 eastern-han,25-220 CE,25-220 CE, ,span_ce,False
 northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False
 southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False
-khmer_empire,804 – 1431,804 – 1431, ,timespan,False
-byzantine_empire,330 – 1453,330 – 1453, ,timespan,False
-ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,False
-holy_roman_empire,800 – 924,800 – 924, ,timespan,False
-holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,False
-inca_empire,1438 – 1533,1438 – 1533, ,timespan,False
-gupta_empire,319 – 550,319 – 550, ,timespan,False
-Umayyad,661 – 750,661 – 750, ,timespan,False
-Abbasid,750 – 1258,750 – 1258, ,timespan,False
-Mamluk,1250 – 1517,1250 – 1517, ,timespan,False
+khmer_empire,804 – 1431,804 – 1431, ,timespan,True
+byzantine_empire,330 – 1453,330 – 1453, ,timespan,True
+ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
+holy_roman_empire,800 – 924,800 – 924, ,timespan,True
+holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True
+inca_empire,1438 – 1533,1438 – 1533, ,timespan,True
+gupta_empire,319 – 550,319 – 550, ,timespan,True
+Umayyad,661 – 750,661 – 750, ,timespan,True
+Abbasid,750 – 1258,750 – 1258, ,timespan,True
+Mamluk,1250 – 1517,1250 – 1517, ,timespan,True
 seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
 lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True
 qing-dynasty,1636-1912,1636-1912, ,timespan,True
@@ -476,10 +476,10 @@ yuan-dynasty,1271-1368,1271-1368, ,timespan,True
 southern-song,1127-1279,1127-1279, ,timespan,True
 northern-song,960-1127,960-1127, ,timespan,True
 western-xia,1038-1227,1038-1227, ,timespan,True
-maya_classic,250–950,250–950, ,timespan,False
+maya_classic,250–950,250–950, ,timespan,True
 maya_postclassic,950-1539,950-1539, ,timespan,True
-tran_dynasty,1225–1400,1225–1400, ,timespan,False
-le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,False
+tran_dynasty,1225–1400,1225–1400, ,timespan,True
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
 revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
 edo,1603 – 1868,1603 – 1868, ,timespan,True
@@ -525,9 +525,9 @@ wulfila,Wulfila Bible,Wulfila Bible,2025-09-20,wiki,False
 tran_dynasty_c,Dinastia Trần,Trần dynasty, ,wiki,True
 le_dynasty_c,Dinastia Lê,Lê dynasty, ,wiki,True
 revival_le_dynasty_c,"Sovrani Trịnh, Sovrani Nguyễn",Trịnh lords and Nguyễn lords,Nhà Lê trung hưng,wiki,False
-seljuk_empire_c,,Seljuk empire, ,wiki,False
-vandals_c,,Vandals, ,wiki,False
-lombard_c,,Lombard Kingdom,2025-10-13,wiki,False
+seljuk_empire_c, ,Seljuk empire, ,wiki,False
+vandals_c, ,Vandals, ,wiki,False
+lombard_c, ,Lombard Kingdom,2025-10-13,wiki,False
 people,persone,people, ,deprecated,False
 judges,Giudici,judges, ,deprecated,False
 prophets,profeti,prophets, ,deprecated,False

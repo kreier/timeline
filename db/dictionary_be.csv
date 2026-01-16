@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,6.01,6.01, ,float,False
-pdf_title,6000 years human history visualized,6000 years human history visualized,2026-01-07,text,False
+pdf_title,6000 years human history visualized,6000 years human history visualized,2026-01-16,text,False
 pdf_subject,Timeline of humankind,Timeline of humankind, ,text,False
 BCE,да н.э.,B.C.E.,appendix B9,B9,False
 CE,н.э.,C.E., ,B9,False
@@ -27,8 +27,8 @@ jesus_life,Jesus born 2 B.C.E.,Jesus born 2 B.C.E., ,text,False
 exile,607 to 537 B.C.E. – 70 years (Jeremiah 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False
 exile2,Exile,Exile, ,text,False
 7times2,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False
-ww1,World War I – 1914–1918 C.E.,World War I – 1914–1918 C.E., ,text,False
-ww2,World War II – 1939–1945 C.E.,World War II – 1939–1945 C.E., ,text,False
+ww1,World War I – 1914–1918 C.E.,World War I – 1914–1918, ,text,False
+ww2,World War II – 1939–1945 C.E.,World War II – 1939–1945, ,text,False
 30_year_war,Thirty Years' War in Europe 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False
 joshua,110 years,110 years, ,text,False
 caleb,more than 85 years,more than 85 years, ,text,False
@@ -75,7 +75,7 @@ leningrad_codex,Leningrad Codex written in Cairo AD 1008,Leningrad Codex written
 john,John writes “revelation” while exiled on Patmos 96-98 C.E.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False
 buddha,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False
 buddha2,Buddha alternatively c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False
-mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632 C.E., ,text,False
+mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632, ,text,False
 confucius,Confucius c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False
 hijrah,Hijrah - Journey Mecca to Medina 16 July 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False
 moses_escape,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False
@@ -142,7 +142,7 @@ great_crowd,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-1
 world_population,World population in billions in the last 2000 years,World population in billions in the last 2000 years, ,text,False
 khmer_empire_c,Khmer Empire - Angkor period,Khmer Empire - Angkor period, ,text,False
 holy_roman_empire_c,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False
-mongol_empire,Mongol Empire 1206 – 1294 C.E.,Mongol Empire 1206 – 1294 C.E., ,text,False
+mongol_empire,Mongol Empire 1206 – 1294 C.E.,Mongol Empire 1206 – 1294, ,text,False
 maya_classic_c,Maya civilization – Classic period,Maya civilization – Classic period, ,text,False
 maya_postclassic_c,Maya civilization – Postclassic period,Maya civilization – Postclassic period, ,text,False
 Teotihuacan,"Largest city in the Americas, pyramids build c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False
@@ -169,8 +169,8 @@ edo_c,Edo period in Japan,Edo period in Japan,Edo period (Tokugawa shogunate),te
 meiji_c,Meiji,Meiji,2025-09-20,text,False
 american_civil_war,American Civil War 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
 aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920,2025-10-03,text,False
-vandals,Kingdom of the Vandals and Alans 435 – 534 C.E.,Kingdom of the Vandals and Alans 435 – 534 C.E.,Vandals 435-534 C.E.,text,False
-francia,"c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian","c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+vandals,Kingdom of the Vandals and Alans 435 – 534 C.E.,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia,"c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
 francia_c,Kingdom of the Franks,Kingdom of the Franks, ,text,False
 100_years_war,Hundred Years’ War 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False
 black_death,Black death 1346-1353,Black death 1346-1353,1346-1353,text,False
@@ -458,28 +458,28 @@ eastern-zhou,770-256 BC,770-256 BC, ,span_bc,False
 eastern-han,25-220 CE,25-220 CE, ,span_ce,False
 northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False
 southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False
-khmer_empire,804 – 1431 C.E.,804 – 1431 C.E., ,span_ce,False
-byzantine_empire,330-1453 C.E.,330-1453 C.E., ,span_ce,False
-ottoman_empire,1299 – 1922 C.E.,1299 – 1922 C.E., ,span_ce,False
-holy_roman_empire,800 – 924 C.E.,800 – 924 C.E., ,span_ce,False
-holy_roman_empire2,962 – 1806 C.E.,962 – 1806 C.E.,fixed 2024-12-31,span_ce,False
-inca_empire,1438 – 1533 C.E.,1438 – 1533 C.E., ,span_ce,False
-gupta_empire,319 – 550 C.E.,319 – 550 C.E., ,span_ce,False
-Umayyad,661 – 750 C.E.,661 – 750 C.E., ,span_ce,False
-Abbasid,750 – 1258 C.E.,750 – 1258 C.E., ,span_ce,False
-Mamluk,1250 – 1517 C.E.,1250 – 1517 C.E., ,span_ce,False
-seljuk_empire,1037 – 1194 C.E.,1037 – 1194 C.E.,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",span_ce,False
-lombard,568 – 774 C.E.,568 – 774 C.E.,Kingdom of the Lombards 568-774,span_ce,False
+khmer_empire,804 – 1431,804 – 1431, ,timespan,True
+byzantine_empire,330 – 1453,330 – 1453, ,timespan,True
+ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
+holy_roman_empire,800 – 924,800 – 924, ,timespan,True
+holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True
+inca_empire,1438 – 1533,1438 – 1533, ,timespan,True
+gupta_empire,319 – 550,319 – 550, ,timespan,True
+Umayyad,661 – 750,661 – 750, ,timespan,True
+Abbasid,750 – 1258,750 – 1258, ,timespan,True
+Mamluk,1250 – 1517,1250 – 1517, ,timespan,True
+seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
+lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True
 qing-dynasty,1636-1912,1636-1912, ,timespan,True
 ming-dynasty,1368-1644,1368-1644, ,timespan,True
 yuan-dynasty,1271-1368,1271-1368, ,timespan,True
 southern-song,1127-1279,1127-1279, ,timespan,True
 northern-song,960-1127,960-1127, ,timespan,True
 western-xia,1038-1227,1038-1227, ,timespan,True
-maya_classic,250-950,250-950, ,timespan,True
+maya_classic,250–950,250–950, ,timespan,True
 maya_postclassic,950-1539,950-1539, ,timespan,True
-tran_dynasty,1225 – 1400,1225 – 1400, ,timespan,True
-le_dynasty,1428 – 1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
+tran_dynasty,1225–1400,1225–1400, ,timespan,True
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
 revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
 edo,1603 – 1868,1603 – 1868, ,timespan,True

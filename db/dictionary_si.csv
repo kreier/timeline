@@ -1,447 +1,553 @@
-key,text,english,notes,checked
-version,4.7,4.7,,TRUE
-pdf_title,වසර 6000ක මානව ඉතිහාසය දර්ශනය විය,6000 years human history visualized,2024-12-25,TRUE
-pdf_subject,මානව වර්ගයාගේ කාල සටහන,Timeline of humankind,,FALSE
-BCE,ක්රි.පූ.,B.C.E.,,TRUE
-CE,සී.ඊ.,C.E.,,TRUE
-year,අවුරුදු,year,"timespan, age (Adam was 130 years old when Shem was born)",TRUE
-years,අවුරුදු,years,,
-years_age,අවුරුදු,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",
-age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",
-month,මස,month,,
-months,මාස,months,,
-day,දවස,day,,
-days,දින,days,,
-to,දක්වා,to,,
-people,මහජන,people,,
-judges,විනිසුරුවන්,judges,,
-prophets,අනාගතවක්තෘවරුන්,prophets,,
-kings,රජවරු,kings,,
-periods,කාල පරිච්ඡේද,periods,,
-events,සිද්ධීන්,events,,
-objects,වස්තූන් හෝ අයිතම,objects or items,,
-Deluge,ගංවතුර,Deluge,,
-Adam,ආදම්,Adam,Luke 3:38,
-Seth,සෙත්,Seth,,
-Enosh,ඒනොෂ්,Enosh,,
-Kenan,කෙනන්,Kenan,,
-Mahalalel,මහලලෙල්,Mahalalel,,
-Jared,ජැරඩ්,Jared,,
-Enoch,ඒනොක්,Enoch,,
-Methuselah,මෙතුසෙලා,Methuselah,Luke 3:37,
-Lamech,ලාමෙක්,Lamech,,
-Noah,නෝවා,Noah,,
-Shem,ෂෙම්,Shem,,
-Arpachshad,අර්පච්චාද්,Arpachshad,Luke 3:36,
-Shelah,ෂෙලාහ්,Shelah,,
-Eber,ඊබර්,Eber,,
-Peleg,පෙලෙග්,Peleg,,
-Reu,Reu,Reu,,
-Serug,සෙරුග්,Serug,Luke 3:35,
-Nahor,නාහෝර්,Nahor,,
-Terah,ටෙරා,Terah,,
-Abraham,ඒබ්‍රහම්,Abraham,,
-Isaac,අයිසැක්,Isaac,,
-Jacob,යාකොබ්,Jacob,Luke 3:34,
-Joseph,ජෝසප්,Joseph,,
-Moses,මෝසෙස්,Moses,,
-Othniel,ඔත්නියෙල්,Othniel,Judges 3:9-11,
-Ehud,එහෙව්,Ehud,Judges 3:15-18,
-Shamgar,ෂම්ගර්,Shamgar,Judges 3:31,
-Barak,බාරාක්,Barak,Judges 4:6,
-Gideon,ගිඩියොන්,Gideon,Judges 7:1,
-Tola,ටෝලා,Tola,Judges 10:1,
-Jair,ජෙයාර්,Jair,Judges 10:3,
-Jephthah,ජෙප්තා,Jephthah,Judges 11:1,
-Ibzan,ඉබ්සාන්,Ibzan,Judges 12:8,
-Elon,එලොන්,Elon,Judges 12:11,
-Abdon,අබ්දොන්,Abdon,Judges 12:13,
-Samson,සැම්සන්,Samson,Judges 13:24,
-Samuel,සැමුවෙල්,Samuel,1 Samuel 1:20,
-Saul,සාවුල්,Saul,1 Samuel 9:2,
-David,ඩේවිඩ්,David,1 Samuel 16:13,
-Solomon,සොලමන්,Solomon,1 Kings 2:1,
-Rehoboam,රෙහොබෝවම්,Rehoboam,first king of southern kingdom of Juda,
-Abijah,අබියා (අබියාම්),Abijah (Abijam),"3 years, also Abijam",
-Asa,ආසා,Asa,,
-Jehoshaphat,ජෙහෝෂාපාට්,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,
-Jehoram2,ජෙහෝරාම්,Jehoram,,
-Ahaziah,අහසියා,Ahaziah,,
-Athaliah,අතලියා රැජින,Queen Athaliah,Queen Athaliah,
-Jehoash,යෙහෝවාෂ්,Jehoash,,
-Amaziah,ඇමෂියා,Amaziah,,
-Uzziah,උසියා (අසාරියා),Uzziah (Azariah),also Azariah,
-Jotham,ජෝතම්,Jotham,,
-Ahaz,ආහාස්,Ahaz,,
-Hezekiah,හෙසකියා,Hezekiah,,
-Manasseh,මනස්සේ,Manasseh,,
-Amon,ආමොන්,Amon,,
-Josiah,ජොෂියා,Josiah,,
-Jehoahaz,ජෙහෝහාස්,Jehoahaz,Only 3 months,
-Jehoiakim,ජෙහෝයාකිම්,Jehoiakim,,
-Jehoiachin,ජෙහෝයාචින්,Jehoiachin,Only 3 months 10 days,
-Zedekiah,සෙදෙකියා,Zedekiah,,
-Jeroboam,ජෙරොබෝවම්,Jeroboam,first king of northern 10-tribe kingdom,
-Nadab,නාදබ්,Nadab,less than 2,
-Baasha,බාෂා,Baasha,,
-Elah,එලාහ්,Elah,,
-Zimri,සිම්රි,Zimri,Only 7 days in ca. 751 BCE,
-OmriTibni,ඔම්රි සහ ටිබ්නි එකට,Omri and Tibni together,4 years Omri and Tibni,
-Omri,ඔම්රි (තනිකම),Omri (alone),from 947 Omri alone,
-Ahab,ආහබ්,Ahab,,
-Jehoram,ජෙහෝරාම්,Jehoram,,
-Jehu,ජේහු,Jehu,,
-Jeoahaz,ජෙයෝහාස්,Jeoahaz,,
-JeoahazJehoash,ජෙයෝහාස් සහ යෝවාෂ්,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,
-Jehoash2,යෝවාෂ් (තනිවම),Jehoash (alone),Jehoash (alone),
-Jeroboam2,ජෙරොබෝවම් II,Jeroboam II,,
-Zechariah,සෙකරියා,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",
-Schallum,ෂැලුම්,Schallum,only one month,
-Menahem,මෙනහෙම්,Menahem,,
-Pekahiah,පෙකහියා,Pekahiah,,
-Pekah,පෙකාහ්,Pekah,,
-Hoshea,හොෂෙයා,Hoshea,9 years from c. 748,
-Elijah,එලියා,Elijah,,
-Elisha,එලිෂා,Elisha,,
-Jonah,ජෝනා,Jonah,,
-Amos,ආමොස්,Amos,,
-Joel,ජොයෙල්,Joel,,
-Hosea,හොසියා,Hosea,,
-Isaiah,යෙසායා,Isaiah,,
-Micah,මයිකා,Micah,,
-Zephaniah,ශෙපනියා,Zephaniah,,
-Nahum,නාහුම්,Nahum,,
-Jeremiah,ජෙරමියා,Jeremiah,,
-Habakuk,හබකුක්,Habakuk,,
-Daniel,ඩැනියෙල්,Daniel,,
-Ezekiel,එසකියෙල්,Ezekiel,,
-Obadiah,ඔබදියා,Obadiah,,
-Malachi,මලාකි,Malachi,,
-Ruth,රූත්,Ruth,,
-Ezra,එස්රා,Ezra,,
-Nehemiah,නෙහෙමියා,Nehemiah,,
-Esther,එස්තර්,Esther,,
-Job,රැකියා,Job,,
-moses2,1593 සිට 1473 දක්වා ක්‍රි.පූ. - අවුරුදු 120 යි,1593 to 1473 B.C.E. – 120 years,,
-moses3,මෝසෙස්,Moses,,
-wilderness,ඉශ්‍රායෙල් පාළුකරයේ 1513 සිට 1473 දක්වා ක්‍රි.පූ. - අවුරුදු 40 යි,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,,
-timespan_judges,1473 සිට 1117 දක්වා ක්‍රි.පූ. - අවුරුදු 356 යි,1473 to 1117 B.C.E. – 356 years,,
-timespan_judges2,විනිසුරුවරුන්ගේ කාලය,Time of the judges,,
-temple1,නීසාන් ක්‍රි.පූ. 1513 Ziv 1034 දක්වා ක්‍රි.පූ.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,
-temple2,දේවමාළිගාව ඉදිකරන තෙක් අවුරුදු 479 - 1 රාජාවලිය 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,
-69weeks,යේසුස් බව්තීස්ම කළේ ක්‍රිස්තු වර්ෂ 29 සරත් සමයයි.,Jesus baptized autumn 29 C.E.,,
-69weeks2,මෙසියස් වෙත සති 69 - දානියෙල් 9:25,69 weeks to the Messiah – Daniel 9:25,,
-jesus_service,"ක්‍රිස්තු වර්ෂ 33, නීසාන් 14 වැනිදා ක්‍රියාත්මක කරන ලද යේසුස්ගේ වසර 3.5ක සේවය.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",,
-jesus_life,යේසුස් ඉපදුණේ ක්‍රි.පූ. 2දී.,Jesus born 2 B.C.E.,,
-exile,607 සිට 537 දක්වා ක්‍රි.පූ. - අවුරුදු 70 (යෙරෙමියා 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),,
-exile2,පිටුවහල් කිරීම,exile,,
-7times,එළිදරව් 12:9,Revelation 12:9,,
-7times2,7 වතාවක් - මෙසියානු රාජධානියට වසර 2520 ක් 1914 ක්‍රි.ව. (දානියෙල් 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),,
-ww1,පළමු ලෝක යුද්ධය - 1914-1918 ක්රි.ව.,World War I – 1914–1918 C.E.,,
-ww2,දෙවන ලෝක යුද්ධය - 1939-1945 C.E.,World War II – 1939–1945 C.E.,,
-30_year_war,1618-1648 යුරෝපයේ තිස් අවුරුදු යුද්ධය,Thirty Years' War in Europe 1618-1648,,
-joshua,අවුරුදු 110 යි,110 years,,
-joshua2,ජෝෂුවා,Joshua,,
-caleb,අවුරුදු 85 ට වැඩි,more than 85 years,,
-caleb2,කාලෙබ්,Caleb,,
-missionary1,"පෝල්ගේ පළමු මිෂනාරි ගමන, ඇ. 47-48 බානබස් සහ ජෝන් මාක් සමඟ","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark",,
-circumcision,"අන්තියෝකියේ චර්මච්ඡේදනය පිළිබඳ ගැටලුව, යෙරුසලමේ සමුළුව c. 49 ක්රි.ව.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.",,
-missionary2,දෙවන මිෂනාරි ගමන ඇ. 49-52 සීලස් (සිල්වානස්) සමඟ,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),,
-missionary3,තුන්වන මිෂනාරි ගමන ඇ. 52-56 ක්රි.ව.,Third Missionary Journey c. 52-56 C.E.,,
-caesarea,පාවුල් සිසේරියේදී අත්අඩංගුවේ පසුවන ඇ. 56-58 ක්රි.ව.,Paul in custody in Caesarea c. 56-58 C.E.,,
-rome1,පාවුල්ගේ පළමු සිරගත කිරීම රෝමයේ ක්‍රි. 59-61 ක්රි.ව.,Paul’s first imprisonment in Rome c. 59-61 C.E.,,
-rome2,"පාවුල්ගේ දෙවන සිරගත කිරීම රෝමයේ ක්‍රි. ක්‍රි.ව. 65, 2 තිමෝති ලිව්වා, පාවුල්ව මරලා දැම්මා","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",,
-Julius,ජුලියස්,Julius,,
-Augustus,ඔගස්ටස්,Augustus,,
-Tiberius,ටයිබීරියස්,Tiberius,,
-Caligula,කැලිගුලා,Caligula,,
-Claudius,ක්ලෝඩියස්,Claudius,,
-Nero,නීරෝ,Nero,,
-Galba-Otho-Vitellius,"ගල්බා, ඔතෝ සහ විටෙලියස් (සතර අධිරාජ්‍යයන්ගේ වසර)","Galba, Otho and Vitellius (Year of the Four Emperors)",,
-Vespasian,වෙස්පේසියන්,Vespasian,,
-event_exodus,ක්‍රිස්තු පූර්ව 1513 නීසාන් 14 වැනිදා ඊජිප්තුවෙන් නික්මයාම.,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.",,
-event_division_kingdom,997 ක්‍රි.පූ,Division of Israel 997 BCE,,
-event_destruction_samaria,සමාරිය විනාශ කිරීම ක්‍රි.පූ. 740 ඇසිරියාව විසිනි,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,
-event_destruction_samaria2,740 ක් රි.පූ. ඇසිරියාව විසිනි,740 B.C.E. by Assyria,was shortened here for 2 lines,
-event_destruction_jerusalem1,"607 යෙරුසලම විනාශ කිරීම. බබිලෝනිය විසින්, රාජ්‍යය බෙදීමෙන් වසර 390කට පසුව (එසකියෙල් 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",,
-event_temple_rebuilt,515 යෙරුසලමේ දේවමාළිගාව නැවත ගොඩනඟා ඇත.,Temple in Jerusalem rebuilt 515 B.C.E.,,
-event_jerusalem_rebuilt,455 යෙරුසලමේ තාප්පය නැවත ගොඩනඟා ඇත.,Jerusalem wall rebuilt 455 B.C.E.,,
-event_destruction_jerusalem2,ටයිටස් යටතේ රෝමය විසින් 70 CE යෙරුසලම විනාශ කිරීම,Destruction of Jerusalem 70 C.E. by Rome under Titus,,
-event_1914,"ජාතීන්ගේ කාලය අවසානයේදී (ලූක් 21:24), දෙවිගේ රාජ්‍යය ස්වර්ගයේ පාලනය කිරීමට පටන් ගනී 1914 ක්‍රි.ව.","End of the time of the nations (Luke 21:24), God’s kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,
-became_king,වයසින් රජ වුණා,became king at age,,
-vulgate,වල්ගේට් සම්පූර්ණ කළේ ජෙරොම් (බයිබලයේ ලතින් පරිවර්තනය) c. 405 ක්රි.ව.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,,
-gutenberg,ගුටන්බර්ග් බයිබලය 1455 මුද්‍රණය කරන ලදී,Gutenberg bible printed 1455,,
-erasmus,1516 Rotterdam හි Desiderius Erasmus විසින් ප්‍රකාශයට පත් කරන ලද ක්‍රිස්තියානි ග්‍රීක ශුද්ධ ලියවිලිවල ග්‍රීක පාඨය,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,,
-luther,1522 සැප්තැම්බර් මාසයේදී ලූතර් බයිබල් පරිවර්තනය,Luther Bible translation in September 1522,,
-tyndale,ටින්ඩේල් විසින් ඉංග්‍රීසි බයිබල් පරිවර්තනය 1536,English Bible translation by Tyndale 1536,,
-king_james,කිං ජේම්ස් බයිබලය 1611,King James Bible 1611,,
-69weeks3,"යේසුස් තම සේවය ආරම්භ කරන්නේ ක්‍රි.ව. 29 (ලූක් 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",,
-ransom,සතියේ මැද “නැවතීමට පූජාව” දානියෙල් 9:27,middle of week “sacrifice to cease” Daniel 9:27,,
-cornelius,36 සති 70 අවසානයේදී කොර්නේලියස් බව්තීස්ම විය (දානියෙල් 9:24).,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,,
-columbus,1492 ඇමරිකාවේ පූර්ව කොලොම්බියානු යුගයේ අවසානය,end of the pre-columbian period in the Americas 1492,,
-declaration_independence,1776 දී ඇමරිකාවේ ජනපද 13 ක නිදහස ප්‍රකාශ කිරීම,declaration of independence of 13 colonies in America 1776,,
-tischendorf,ටිෂෙන්ඩෝෆ් 4 වන සියවසේ සිට 1844 දී කෝඩෙක්ස් සයිනයිටිකස් සොයා ගත්තේය,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,,
-dead_sea_scrolls,මළ මුහුදේ ලියවිලි ලියා ඇත,Dead Sea Scrolls written,,
-septuagint,Septuagint LXX පරිවර්තනය කර ඇත,Septuagint LXX translated,,
-watchtower,“සියොන්ස් වොච් ටවර් සහ හෙරල්ඩ් ඔෆ් ක්‍රයිස්ට්ස් ප්‍රෙසන්ස්” හි පළමු කලාපය 1879දී ප්‍රකාශයට පත් විය.,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,,
-photodrama,“නිර්මාණයේ ඡායාරූප නාට්‍යය” මුලින්ම ප්‍රදර්ශනය කළේ 1914 ජනවාරි 11 වැනිදා නිව් යෝර්ක් නුවරදීයි,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",,
-jehovahs_witnesses,"1931 ඔහියෝහි කොලොම්බස්හිදී බයිබල් ශිෂ්‍යයන් අලුත් නමක් - යෙහෝවාගේ සාක්ෂිකරුවන් (යෙසායා 43:10, 12) පිළිගත්තා","The Bible Students adopted a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,
-gilead_school,ගිලියද් මුරටැඹ බයිබල් පාසැල 1943 පෙබරවාරි 1 සඳුදා ආරම්භ විය,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",,
-new_world_translation1,1960 ජූනි 18 වැනිදා එංගලන්තයේ මැන්චෙස්ටර්හිදී නිකුත් කළ “ශුද්ධ ලියවිල්ලේ නව ලෝක පරිවර්තනය” බයිබලයේ බොහෝ කොටස්වල යෙහෝවා යන නාමය නැවත හඳුන්වා දෙයි,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduce the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,
-truth_book,“සදාකාල ජීවනයට මඟ පෙන්වන සත්‍යය” පොත 1968 නිකුත් විය,The book “The Truth That Leads to Eternal Life” released 1968,,
-metropolitan,2011දී නාගරික සාක්ෂි දැරීමේ ආරම්භය,Start of metropolitan witnessing in 2011,,
-jw_org,2012 දෙසැම්බර් රාජ්‍ය සේවයේ උපදෙස් සමඟ JW.ORG ආරම්භය,Start of JW.ORG with instructions in kingdom ministry December 2012,,
-new_world_translation2,"සංශෝධිත “ශුද්ධ ශුද්ධ ලියවිල්ලේ නව ලෝක පරිවර්තනය” 2013 වාර්ෂික රැස්වීමේදී නිකුත් කරන ලද, ඩිජිටල් සහ මාර්ගගතව භාවිතා කිරීමට ප්‍රශස්ත කර ඇත","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,
-jw_broadcasting,jw.broadcasting ආරම්භය 2014 ඔක්තෝම්බර් මාසයේදී,Start of jw.broadcasting in October 2014,,
-meeting_workbook,"2016 ජනවාරි සිට ""රැස්වීම් වැඩපොත"" සමඟින් මැද සති රැස්වීමේ නව ආකෘතිය",New format of midweek meeting with “meeting workbook” starting January 2016,,
-covid19,COVID-19,Covid-19,,
-cold_war,"1945-1991 ""සීතල යුද්ධය"" ලෙස නම් කරන ලද භූ දේශපාලනික තත්ත්වය",Geopolitical situation labeled “Cold War” 1945-1991,,
-timeline_created,"මෙම කාල සටහන 2023 දී නිර්මාණය කරන ලදී, මානව ඉතිහාසයේ උණුසුම්ම වසර සහ පසුගිය වසර 125,000","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",,
-codex_sinaiticus,කෝඩෙක්ස් සයිනයිටිකස් ලියා ඇත,Codex Sinaiticus written,,
-codex_vaticanus,වතිකානුස් කෝඩෙක්ස් ලියා ඇත,Codex Vaticanus written,,
-leningrad_codex,1008 කයිරෝ හි ලියා ඇති ලෙනින්ග්‍රෑඩ් කෝඩෙක්ස්,Leningrad Codex written in Cairo AD 1008,,
-john,96-98 පැට්මොස්හි පිටුවහල්ව සිටියදී ජෝන් “එළිදරව්ව” ලියයි.,John writes “revelation” while exiled on Patmos 96-98 C.E.,,
-nicaea1,නයිසියා හි පළමු කවුන්සිලය,First Council of Nicaea,,
-buddha,බුදුන් - සිද්ධාර්ථ ගෞතම c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,,
-buddha2,බුදුන් විකල්ප වශයෙන් c. 480-400 ක්‍රි.පූ.,Buddha alternatively c. 480-400 B.C.E.,,
-mohammed,මොහොමඩ් සී. 570-632 ක්රි.ව.,Mohammed c. 570-632 C.E.,,
-confucius,කොන්ෆියුසියස් c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E.,,
-hijrah,හිජ්රා - 622 ජූලි 16 වන දින මක්කම සිට මදීනාව දක්වා ගමන් කිරීම,Hijrah - Journey Mecca to Medina 16 July 622,,
-moses_escape,"1553 ක්රි.පූ. මෝසෙස්ට ඊජිප්තුවෙන් පැන යාමට සිදුවේ - නික්මයාම 2:15, ක්‍රියා 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",,
-10plagues,1513 ඊජිප්තුවට වසංගත 10ක් ලැබිණි,1513 B.C.E Egypt receives 10 plagues,,
-joseph_sold,ජෝසප් වයස අවුරුදු 17 දී වහලෙකු ලෙස විකුණුවා - උත්පත්ති 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2,,
-infliction,අවුරුදු 400 ආන්දෝලනයක් (ක්‍රියා 7:6) - ඉෂ්මායෙල් 1913 ක්‍රි.පූ.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,,
-Alexander,මහා ඇලෙක්සැන්ඩර් (දානියෙල් 11:3),Alexander the Great (Daniel 11:3),,
-persia,"මහා සයිරස්, දෙවන කැම්බිසෙස්, දාරියස් I ක්රි.පූ. 490, Xerxes I ක්රි.පූ. 480 (එස්තර්ගේ ස්වාමිපුරුෂයා, දානියෙල් 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",,
-persia2,පර්සියාව,Persia,,
-king_north,"සෙලියුකස් I නිකේටර් (v5) සිරියාව III වන ඇන්ටියෝකස් (v10) සහ IV වන සෙලියුකස් (v18, 19) සිට ඔක්ටේවියන් (v20) සහ ටයිබීරියස් (21-24) දක්වා පහළට","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",,
-king_north1,උතුරේ රජ,King of the North,,
-king_south,"ටොලමි I, II, III, IV (v11, 12), V (v15, 16) සටනට Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",,
-king_south1,දකුණේ රජු,King of the South,,
-king_south2,"බ්‍රිතාන්‍ය අධිරාජ්‍යය 1870, ඇන්ග්ලෝ-ඇමරිකානු ලෝක බලය 1914 සිට","British empire 1870, Anglo-American World Power since 1914",,
-king_south3,දකුණේ රජු,King of the South,,
-king_north2,"I විලියම් අධිරාජ්‍යයා සමඟ ජර්මනිය 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,
-king_north3,උතුරු,North,,
-king_north4,"සෝවියට් සංගමය 1945-1991 (ඩැනියෙල් 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",,
-king_north5,2017 සිට රුසියාව (w20 මැයි),Russia since 2017 (w20 May),,
-time_of_end,"ක්‍රිස්තුස් වහන්සේගේ පැමිණීම, දේවල ක්‍රමයේ අවසානය (මතෙව් 24:3), අවසාන දවස් (2 තිමෝති 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,
-time_of_end2,අන්තිම දවස්,last days,,
-suryavaman2,දෙවන සූර්යවර්මන් රජු Angkor Wat 1113-1150 ගොඩනඟයි,King Suryavarman II builds Angkor Wat 1113-1150,,
-notre-dame,Notre-Dame de Paris 1163-1260 ඉදි කරන ලදී,Notre-Dame de Paris built 1163-1260,,
-jehoiada,ජෙහෝයාදා,Jehoiada,,
-babel,බාබෙල් කුළුණ ඉදි කරන ලදී,tower of Babel built,,
-Haggai,හග්ගයි,Haggai,,
-Zerubbabel,සෙරුබාබෙල් (ලූක් 3:27),Zerubbabel (Luke 3:27),,
-Babylon,"දානියෙල් 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",,
-Medopersia,"දානියෙල් 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",,
-Greece,"දානියෙල් 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",,
-Rome,"දානියෙල් 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",,
-Angloamerica,"දානියෙල් 2:33, 41-43","Daniel 2:33, 41-43",,
-Babylon_c,බබිලෝනිය,Babylon,,
-Medopersia_c,මේද-පර්සියාව,Medo-Persia,,
-Greece_c,ග්රීසිය,Greece,,
-Rome_c,රෝමය,Rome,,
-Angloamerica_c,ඇන්ග්ලෝ-ඇමරිකාව,Anglo-America,,
-infliction1,වසර 400 ක අපයෝජනය,400 year infliction,Acts 7:6,
-infliction2,ක්‍රියා 7:6,Acts 7:6,,
-Jacob2,යාකොබ්/,Jacob/,Jacob/Israel 1858-1711 – 147 years,
-Israel,ඊශ්රායෙල්,Israel,Genesis 35:10,
-Sarah,සාරා,Sarah,2008-1881 BCE – 127 years,
-Hagar,හාගර්,Hagar,Genesis 21:14,
-Haran,හරන්,Haran,Genesis 11:26,
-Reumah,රූමා,Reumah,Concubine – 4 sons,
-Milcah,මිල්කා,Milcah,8 sons (Bethuel and 7 more),
-Lot,ගොඩක්,Lot,Genesis 11:27,
-Lots_wife,ලොත්ගේ බිරිඳ,Lot’s wife,,
-Lots_daughters,ලොත්ගේ දූවරු,Daughters of Lot,,
-Moab,මෝවබ් (වැඩිහිටි දියණිය),Moab (older daughter),Genesis 19:37,
-Ammon,බෙන්-අම්මි (Ammon),Ben-ammi (Ammon),Genesis 19:38,
-Bethuel,බෙතුයෙල්,Bethuel,Genesis 22:23,
-Rebekah,රෙබෙකා,Rebekah,,
-Laban,ලාබන්,Laban,,
-Leah,ලෙයා,Leah,Genesis 35:23,
-Rachel,රේචල්,Rachel,Genesis 35:24,
-Bilhah,බිල්හා,Bilhah,Genesis 35:25,
-Zilpah,සිල්පා,Zilpah,Genesis 35:26,
-Reuben,රූබන්,Reuben,,
-Simeon,සිමියොන්,Simeon,,
-Levi,ලෙවී,Levi,,
-Judah,යූදා,Judah,,
-Issachar,ඉසාචාර්,Issachar,,
-Zebulun,සෙබුලන්,Zebulun,,
-Dinah,දීනා,Dinah,Genesis 34,
-Esau,එසවු/,Esau/,,
-Edom,ඒදොම්,Edom,Genesis 36:1,
-Ishmael,ඉස්මායෙල්,Ishmael,,
-Manasseh2,(මනාසේ,(Manasseh,Genesis 41:50-52,
-Ephraim,සහ එෆ්‍රායිම්),and Ephraim),,
-Benjamin,බෙන්ජමින්,Benjamin,,
-Dan,ඩෑන්,Dan,,
-Naphtali,නැප්තලි,Naphtali,,
-Gad,ගාඩ්,Gad,,
-Asher,අෂර්,Asher,,
-Milcah1,"උස්, බුස්, කෙමුයෙල්,","Uz, Buz, Kemuel,",Genesis 22:21,
-Milcah2,"චෙස්ඩ්, හසෝ,","Chesed, Hazo,",,
-Milcah3,"පිල්ඩාෂ්, ජිඩ්ලාෆ්","Pildash, Jidlaph",,
-Tebah,ටෙබාහ්,Tebah,Genesis 22:23,
-Gaham,ගහම්,Gaham,,
-Tahash,ටහාෂ්,Tahash,,
-Maacah,Maacah,Maacah,,
-Mahalath,මහාලත්/,Mahalath/,"Genesis 28:8, 9",
-Basemath,බේස්මත්,Basemath,"Genesis36:3, 4",
-Reuel,රූයෙල්,Reuel,"36:13, 17",
-Nahath,නාහත්,Nahath,,
-Zerah,සේරා,Zerah,,
-Schammah,ෂම්මා,Schammah,,
-Mizzah,මිස්සා,Mizzah,,
-Adah,අඩා,Adah,"36:11, 12, 15, 16",
-Eliphaz,එලිෆස්,Eliphaz,,
-Teman,තේමාන්,Teman,,
-Omar,ඕමාර්,Omar,,
-Zepho,Zepho,Zepho,,
-Kenaz,කෙනස්,Kenaz,,
-Korah,කෝරා,Korah,,
-Gatam,ගැටම්,Gatam,,
-Amalek,අමලෙක්,Amalek,,
-Oholibamah,ඔහොලිබාමා,Oholibamah,"36:14, 18",
-Jeush,ජෙයුෂ්,Jeush,,
-Jalam,ජලම්,Jalam,,
-Nebaioth,නෙබයෝත්,Nebaioth,Genesis 25:13,
-Kedar,කේදාර්,Kedar,,
-Adbeel,Adbeel,Adbeel,,
-Mibsam,මිබ්සම්,Mibsam,,
-Mishma,මිෂ්මා,Mishma,,
-Dumah,ඩූමා,Dumah,,
-Massa,මැස්සා,Massa,,
-Hadad,හදද්,Hadad,,
-Tema,තේමා,Tema,,
-Jetur,ජෙටූර්,Jetur,,
-Naphish,නෆිෂ්,Naphish,,
-Kedemah,කෙදෙමා,Kedemah,,
-Babylon2,,,no text left and right – empty!,
-terahfam,ටෙරාගේ පවුලේ සාමාජිකයන්,members of Terah’s family,,
-rosetta,රොසෙටා ගල් 196 ක්‍රි.පූ.,Rosetta stone 196 B.C.E.,,
-Herodotus,"හෙරෝඩෝටස් සී. 484 - ඇ. 425 BC, The Histories ලියයි","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,
-Aristotle,ඇරිස්ටෝටල් 384 - 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",
-Ptolemy,ටොලමි c 100 – c. 170 ක්රි.ව.,Ptolemy c 100 – c. 170 C.E.,,
-Pythagoras,පයිතගරස් c. 570 - ඇ. 495 ක්රි.පූ,Pythagoras c. 570 – c. 495 BC,,
-Plato,ප්ලේටෝ සී. 427 - ඇ. 348 ක්රි.පූ,Plato c. 427 – c. 348 BC,,
-Socrates,සොක්‍රටීස් සී. 470 - ඇ. 399 ක්රි.පූ,Socrates c. 470 – c. 399 BC,,
-Josephus,ජොසීෆස් සී. 37 - ඇ. 100 ක්රි.ව.,Josephus c. 37 – c. 100 C.E.,,
-Cicero,සිසෙරෝ 106-43 ක්රි.පූ,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",
-lachish_letters,ලචිෂ් අක්ෂර c. 590 ක් රි.පූ.,Lachish letters c. 590 B.C.E.,,
-lachish_reliefs,ලචිෂ් සහන c. 681 ක් රි.පූ.,Lachish reliefs c. 681 B.C.E.,,
-mesha_stele,මේෂා ස්ටීල් (මෝවබ් ගල්) c. 840 ක්රි.පූ.,Mesha Stele (Moabite stone) c. 840 B.C.E.,,
-gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,,
-epic_gilgamesh,ගිල්ගමේෂ්ගේ වීර කාව්‍යය (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),,
-oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,,
-p52,පැපිරස් P52,Papyrus P52,,
-daniel2_shift,0,0,Start 4.2,
-daniel2_1,නෙබුකද්නෙශර් රජු,King Nebuchadnezzar,607 BCE,
-daniel2_2,ජෙරුසලම විනාශ කරයි,destroys Jerusalem,,
-daniel2_3,බැබිලෝනිය යටත් කර ගනී,Conquers Babylon,539 BCE,
-daniel2_4,සයිරස් නැවත පැමිණීමට නියෝග කරයි,Cyrus decrees return,537 BCE,
-daniel2_5,යුදෙව්වන්ගෙන් ජෙරුසලමට,of Jews to Jerusalem,,
-daniel2_6,මහා ඇලෙක්සැන්ඩර්,Alexander the Great,331 BCE,
-daniel2_7,පර්සියාව ජය ගනී,conquers Persia,,
-daniel2_8,ඊශ්‍රායලය පාලනය කරයි,Rules over Israel,63 BCE,
-daniel2_9,ජෙරුසලම විනාශ කරයි,Destroys Jerusalem,70 CE,
-daniel2_10,"පළමු ලෝක යුද්ධ සමයේදී,","During World War I,",1914-1918 CE,
-daniel2_11,ඇන්ග්ලෝ-ඇමරිකානු ලෝක බලය,Anglo-American World Power,,
-daniel2_12,ඇති වෙනවා,comes into being,End 4.2,
-qing-dynasty,1636-1912,1636-1912,,
-qing-dynasty_c,ක්විං රාජවංශය,Qing dynasty,1636-1912,
-ming-dynasty,1368-1644,1368-1644,,
-ming-dynasty_c,අධිරාජ්‍ය චීනයේ මින්ග් රාජවංශය,Ming dynasty in imperial China,1368-1644,
-yuan-dynasty,1271-1368,1271-1368,,
-southern-song,1127-1279,1127-1279,,
-northern-song,960-1127,960-1127,,
-western-xia,1038-1227,1038-1227,,
-yuan-dynasty_c,යුවාන්,Yuan,1271-1368,
-southern-song_c,දක්ෂිණ ගීතය,Southern Song,1127-1279,
-northern-song_c,උතුරු ගීතය,Northern Song,960-1127,
-western-xia_c,බටහිර Xia,Western Xia,1038-1227,
-Copernicus,නිකොලස් කොපර්නිකස්,Nicolaus Copernicus,,
-Galileo,ගැලීලියෝ ගැලීලි,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,
-Newton,අයිසැක් නිව්ටන්,Isaac Newton,,
-gregorian,ග්‍රෙගෝරියානු දින දර්ශනය 1582,Gregorian calendar 1582,,
-shang-dynasty,c. 1600-1046 ක්රි.පූ,c. 1600-1046 BC,,
-western-zhou,c. 1046-771 ක්රි.පූ,c. 1046-771 BC,,
-eastern-zhou,770-256 ක් රි.පූ,770-256 BC,,
-qin-dynasty,ක්වින් 221-207 ක්රි.පූ,Qin 221-207 BC,,
-western-han,207 BC - 9 CE,207 BC – 9 CE,,
-eastern-han,25-220 ක්රි.ව,25-220 CE,,
-three-kingdoms,220-280 රාජධානි තුනක්,Three kingdoms 220-280 CE,,
-sixteen-kingdoms,304-439 රාජධානි දහසය,Sixteen kingdoms 304-439 CE,,
-northern-dynasties,368-581 ක්රි.ව,368-581 CE,,
-southern-dynasties,420-589 ක්රි.ව,420-589 CE,,
-tang-dynasty1,,,,
-tang-dynasty2,"618-690, 705-907","618-690, 705-907",,
-wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,,
-shang-dynasty_c,ෂැං රාජවංශය,Shang Dynasty,c. 1600-1046 BC,
-western-zhou_c,බටහිර Zhou,Western Zhou,c. 1046-771 BC,
-eastern-zhou_c,නැගෙනහිර ෂෝ,Eastern Zhou,770-256 BC,
-western-han_c,බටහිර හැන්,Western Han,207 BC – 9 CE,
-eastern-han_c,නැගෙනහිර හැන්,Eastern Han,25-220 CE,
-three-kingdoms_c,චීනය,China,Three kingdoms 220-280 CE,
-sixteen-kingdoms_c,චීනය,China,Sixteen kingdoms 304-439 CE,
-northern-dynasties_c,උතුරු රාජවංශ,Northern Dynasties,368-581 CE,
-southern-dynasties_c,දක්ෂිණ රාජවංශ,Southern Dynasties,420-589 CE,
-tang-dynasty1_c,ටැන්ග්,Tang,,
-tang-dynasty2_c,ටැං රාජවංශය,Tang Dynasty,"618-690, 705-907",
-xia-dynasty,චීනයේ Xia රාජවංශය c. 2070 - ඇ. 1600 ක්රි.පූ,Xia dynasty in China c. 2070 – c. 1600 BC,,
-gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC,,
-Ashoka,අශෝක (ක්‍රි.පූ. 304-232) බුද්ධාගම ප්‍රවර්ධනය කරයි,Ashoka (c. 304-232 BC) promotes Buddhism,,
-siloam-tunnel,හෙසකියා සිලෝම් උමග දිගු කරයි,Hezekiah extends Siloam tunnel,c. 742-732 BC,
-Angloamerica2,"ඩැනියෙල් 2:33, 41-43 හි අනාවැකියේ ඇන්ග්ලෝ-ඇමරිකානුව සංකේතවත් කරන්නේ මැටි සමඟ යකඩ මිශ්‍ර පාදවලින්","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",,
-Manetho,මැනතෝ ඊජිප්ටියාකා ලියයි,Manetho writes Aegyptiaca,,
-tribulation,"මහා පීඩාව (මාර්ක් 13:19; දානියෙල් 12:1; මතෙව් 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",,
-destruction_babylon,"මහා බබිලෝනියේ විනාශය (එළිදරව් 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),
-gog_of_magog,"මාගොග්හි ගොග්ගේ ප්‍රහාරය (එසකියෙල් 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,
-sheep_goat,"පෘථිවි වැසියන් විනිශ්චය කරනු ලැබේ, බැටළුවන් සහ එළුවන් වෙන් කරනු ලැබේ (මතෙව් 25:31-33)","Earth’s inhabitants will be judged, separating sheep and goats (Matthew 25:31-33)",end of GT,
-annointed,රාජ්‍ය පාලකයන් එක්රැස් කිරීම (මතෙව් 24:31; 1 කොරින්ති 15:50-53; 1 තෙසලෝනික 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,
-armageddon,"හර්-මගෙදොන් සටන (එළිදරව් 16:14, 16; යෙසායා 13:9; 2 පේතෘස් 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,
-millenium,"දේවරාජ්‍යය එහි අවුරුදු 1000 පාලනය ආරම්භ කරයි (එළිදරව් 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",,
-great_crowd,"මහත් සමූහයක් හර්–මගෙදොන් යුද්ධයෙන් බේරෙයි (එළිදරව් 7:9, 14; ගීතාවලිය 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",,
-world_population,පසුගිය වසර 2000 තුළ ලෝක ජනගහනය බිලියන ගණනකි,World population in billions in the last 2000 years,,
-607BCE,607 ක්රි.පූ.,607 B.C.E.,accommodate for language,
-539BCE,539 ක්රි.පූ.,539 B.C.E.,systems in style:,
-537BCE,537 ක්රි.පූ.,537 B.C.E.,>>year 537 before time<<,
-331BCE,331 ක්රි.පූ.,331 B.C.E.,so they need a word,
-63BCE,63 ක්‍රි.පූ.,63 B.C.E.,prior to the year,
-70CE,70 ක්රි.ව.,70 C.E.,and something,
-1914CE,1914-1918 ක්රි.ව.,1914-1918 C.E.,after the year,
-khmer_empire,804 - 1431 ක්රි.ව.,804 – 1431 C.E.,so they need a word,
-khmer_empire_c,ඛමර් අධිරාජ්‍යය - ඇන්කෝර් යුගය,Khmer Empire - Angkor period,prior to the year,
-byzantine_empire,330-1453 ක්රි.ව.,330-1453 C.E.,and something,
-byzantine_empire_c,බයිසැන්තියානු අධිරාජ්යය,Byzantine Empire,after the year,
-ottoman_empire,1299 - 1922 ක්රි.ව.,1299 – 1922 C.E.,,
-ottoman_empire_c,ඔටෝමන් අධිරාජ්යයා,Ottoman Empire,,
-holy_roman_empire,800 - 924 ක්රි.ව.,800 – 924 C.E.,,
-holy_roman_empire2,862 - 1806 ක්රි.ව.,862 – 1806 C.E.,,
-holy_roman_empire_c,ශුද්ධ රෝම අධිරාජ්‍යය - 1512 න් පසු ජර්මානු ජාතියේ ශුද්ධ රෝම අධිරාජ්‍යය,Holy Roman Empire – after 1512 Holy Roman Empire of the German Nation,,
-mongol_empire,මොංගල් අධිරාජ්‍යය 1206 – 1294 ක්‍රි.ව.,Mongol Empire 1206 – 1294 C.E.,,
-Genghis,ජෙන්ගිස් ඛාන්,Genghis Khan,,
-maya_classic,250-950,250-950,,
-maya_classic_c,මායා ශිෂ්ටාචාරය - සම්භාව්ය යුගය,Maya civilization – classic period,,
-maya_postclassic,950-1539,950-1539,,
-maya_postclassic_c,මායා ශිෂ්ටාචාරය - පශ්චාත් සම්භාව්‍ය යුගය,Maya civilization – postclassic period,,
-inca_empire,1438 - 1533 ක්රි.ව.,1438 – 1533 C.E.,,
-inca_empire_c,ඉන්කා අධිරාජ්‍යය,Inca empire,,
-gupta_empire,319 - 550 ක්රි.ව.,319 – 550 C.E.,,
-gupta_empire_c,ගුප්ත අධිරාජ්‍යය,Gupta empire,,
-Teotihuacan,"ඇමරිකාවේ විශාලතම නගරය, පිරමිඩ ගොඩනැගීම c. 200 ක්රි.ව.","largest city in the Americas, pyramids build c. 200 C.E.",,
-Teotihuacan_c,ටියෝටිහුකාන්,Teotihuacan,,
-Dionysius_Exiguus,ඇනෝ ඩොමිනිගේ නව නිපැයුම්කරු වන ඩයොනිසියස් එක්සිගුස්,"Dionysius Exiguus, inventor of Anno Domini",,
-Umayyad,661 - 750 ක්රි.ව.,661 – 750 C.E.,,
-Umayyad_c,උමයියාද්,Umayyad,,
-Abbasid,750 - 1258 ක්රි.ව.,750 – 1258 C.E.,,
-Abbasid_c,අබ්බාසිඩ් කැලිෆේට්,Abbasid Caliphate,,
-Mamluk,1250 - 1517 ක්රි.ව.,1250 – 1517 C.E.,,
-Mamluk_c,මාම්ලුක් සුල්තාන් රාජ්යය,Mamluk Sultanate,,
-ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III dynasty 𒋀𒀕𒆠,,
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,,
-Al-Khwarizmi,අල්-ක්වාරිස්මි අල්-ජබර් (වීජ ගණිතය) ලියයි,al-Khwarizmi writes Al-Jabr (Algebra),,
-al-azhar,අල්-අසාර් විශ්ව විද්‍යාලය කයිරෝවේ පිහිටුවා ඇත,Al-Azhar University is established in Cairo,,
-Ibn-Sina,Ibn Sina හෝ Avicenna,Ibn Sina or Avicenna,,
-Al-Ghazali,අල්-ගසාලි,Al-Ghazali,,
+key,text,english,notes,tag,checked
+version,4.7,6.01, ,float,True
+pdf_title,වසර 6000ක මානව ඉතිහාසය දර්ශනය විය,6000 years human history visualized,2026-01-16,text,True
+pdf_subject,මානව වර්ගයාගේ කාල සටහන,Timeline of humankind, ,text,False
+BCE,ක්රි.පූ.,B.C.E., ,B9,True
+CE,සී.ඊ.,C.E., ,B9,True
+month,මස,month, ,text,False
+months,මාස,months, ,text,False
+day,දවස,day, ,text,False
+days,දින,days, ,text,False
+to,දක්වා,to, ,text,False
+Deluge,ගංවතුර,Deluge, ,text,False
+moses2,1593 සිට 1473 දක්වා ක්‍රි.පූ. - අවුරුදු 120 යි,1593 to 1473 B.C.E. – 120 years, ,text,False
+temple1,නීසාන් ක්‍රි.පූ. 1513 Ziv 1034 දක්වා ක්‍රි.පූ.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False
+69weeks,යේසුස් බව්තීස්ම කළේ ක්‍රිස්තු වර්ෂ 29 සරත් සමයයි.,Jesus baptized autumn 29 C.E., ,text,False
+year,අවුරුදු,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True
+years,අවුරුදු,years, ,text,False
+years_age,අවුරුදු,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+wilderness,ඉශ්‍රායෙල් පාළුකරයේ 1513 සිට 1473 දක්වා ක්‍රි.පූ. - අවුරුදු 40 යි,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
+timespan_judges,1473 සිට 1117 දක්වා ක්‍රි.පූ. - අවුරුදු 356 යි,1473 to 1117 B.C.E. – 356 years, ,text,False
+timespan_judges2,විනිසුරුවරුන්ගේ කාලය,Time of the judges, ,text,False
+temple2,දේවමාළිගාව ඉදිකරන තෙක් අවුරුදු 479 - 1 රාජාවලිය 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False
+69weeks2,මෙසියස් වෙත සති 69 - දානියෙල් 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False
+jesus_service,"ක්‍රිස්තු වර්ෂ 33, නීසාන් 14 වැනිදා ක්‍රියාත්මක කරන ලද යේසුස්ගේ වසර 3.5ක සේවය.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False
+jesus_life,යේසුස් ඉපදුණේ ක්‍රි.පූ. 2දී.,Jesus born 2 B.C.E., ,text,False
+exile,607 සිට 537 දක්වා ක්‍රි.පූ. - අවුරුදු 70 (යෙරෙමියා 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False
+exile2,පිටුවහල් කිරීම,Exile, ,text,False
+7times2,7 වතාවක් - මෙසියානු රාජධානියට වසර 2520 ක් 1914 ක්‍රි.ව. (දානියෙල් 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False
+ww1,පළමු ලෝක යුද්ධය - 1914-1918 ක්රි.ව.,World War I – 1914–1918, ,text,False
+ww2,දෙවන ලෝක යුද්ධය - 1939-1945 C.E.,World War II – 1939–1945, ,text,False
+30_year_war,1618-1648 යුරෝපයේ තිස් අවුරුදු යුද්ධය,Thirty Years' War in Europe 1618-1648, ,text,False
+joshua,අවුරුදු 110 යි,110 years, ,text,False
+caleb,අවුරුදු 85 ට වැඩි,more than 85 years, ,text,False
+missionary1,"පෝල්ගේ පළමු මිෂනාරි ගමන, ඇ. 47-48 බානබස් සහ ජෝන් මාක් සමඟ","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False
+circumcision,"අන්තියෝකියේ චර්මච්ඡේදනය පිළිබඳ ගැටලුව, යෙරුසලමේ සමුළුව c. 49 ක්රි.ව.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False
+missionary2,දෙවන මිෂනාරි ගමන ඇ. 49-52 සීලස් (සිල්වානස්) සමඟ,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False
+missionary3,තුන්වන මිෂනාරි ගමන ඇ. 52-56 ක්රි.ව.,Third Missionary Journey c. 52-56 C.E., ,text,False
+caesarea,පාවුල් සිසේරියේදී අත්අඩංගුවේ පසුවන ඇ. 56-58 ක්රි.ව.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False
+rome1,පාවුල්ගේ පළමු සිරගත කිරීම රෝමයේ ක්‍රි. 59-61 ක්රි.ව.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False
+rome2,"පාවුල්ගේ දෙවන සිරගත කිරීම රෝමයේ ක්‍රි. ක්‍රි.ව. 65, 2 තිමෝති ලිව්වා, පාවුල්ව මරලා දැම්මා","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False
+event_exodus,ක්‍රිස්තු පූර්ව 1513 නීසාන් 14 වැනිදා ඊජිප්තුවෙන් නික්මයාම.,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False
+event_division_kingdom,997 ක්‍රි.පූ,Division of Israel 997 BCE, ,text,False
+event_destruction_samaria,සමාරිය විනාශ කිරීම ක්‍රි.පූ. 740 ඇසිරියාව විසිනි,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False
+event_destruction_jerusalem1,"607 යෙරුසලම විනාශ කිරීම. බබිලෝනිය විසින්, රාජ්‍යය බෙදීමෙන් වසර 390කට පසුව (එසකියෙල් 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False
+event_temple_rebuilt,515 යෙරුසලමේ දේවමාළිගාව නැවත ගොඩනඟා ඇත.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False
+event_jerusalem_rebuilt,455 යෙරුසලමේ තාප්පය නැවත ගොඩනඟා ඇත.,Jerusalem wall rebuilt 455 B.C.E., ,text,False
+event_destruction_jerusalem2,ටයිටස් යටතේ රෝමය විසින් 70 CE යෙරුසලම විනාශ කිරීම,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False
+event_1914,"ජාතීන්ගේ කාලය අවසානයේදී (ලූක් 21:24), දෙවිගේ රාජ්‍යය ස්වර්ගයේ පාලනය කිරීමට පටන් ගනී 1914 ක්‍රි.ව.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False
+became_king,වයසින් රජ වුණා,becomes king at age, ,text,False
+vulgate,වල්ගේට් සම්පූර්ණ කළේ ජෙරොම් (බයිබලයේ ලතින් පරිවර්තනය) c. 405 ක්රි.ව.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False
+gutenberg,ගුටන්බර්ග් බයිබලය 1455 මුද්‍රණය කරන ලදී,Gutenberg Bible printed 1455, ,text,False
+erasmus,1516 Rotterdam හි Desiderius Erasmus විසින් ප්‍රකාශයට පත් කරන ලද ක්‍රිස්තියානි ග්‍රීක ශුද්ධ ලියවිලිවල ග්‍රීක පාඨය,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False
+luther,1522 සැප්තැම්බර් මාසයේදී ලූතර් බයිබල් පරිවර්තනය,Luther Bible translation in September 1522, ,text,False
+tyndale,ටින්ඩේල් විසින් ඉංග්‍රීසි බයිබල් පරිවර්තනය 1536,English Bible translation by Tyndale 1536, ,text,False
+king_james,කිං ජේම්ස් බයිබලය 1611,King James Bible 1611, ,text,False
+69weeks3,"යේසුස් තම සේවය ආරම්භ කරන්නේ ක්‍රි.ව. 29 (ලූක් 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False
+ransom,සතියේ මැද “නැවතීමට පූජාව” දානියෙල් 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False
+cornelius,36 සති 70 අවසානයේදී කොර්නේලියස් බව්තීස්ම විය (දානියෙල් 9:24).,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False
+columbus,1492 ඇමරිකාවේ පූර්ව කොලොම්බියානු යුගයේ අවසානය,End of the pre-columbian period in the Americas 1492, ,text,False
+declaration_independence,1776 දී ඇමරිකාවේ ජනපද 13 ක නිදහස ප්‍රකාශ කිරීම,Declaration of independence of 13 colonies in America 1776, ,text,False
+tischendorf,ටිෂෙන්ඩෝෆ් 4 වන සියවසේ සිට 1844 දී කෝඩෙක්ස් සයිනයිටිකස් සොයා ගත්තේය,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False
+dead_sea_scrolls,මළ මුහුදේ ලියවිලි ලියා ඇත,Dead Sea Scrolls written, ,text,False
+septuagint,Septuagint LXX පරිවර්තනය කර ඇත,Septuagint LXX translated, ,text,False
+watchtower,“සියොන්ස් වොච් ටවර් සහ හෙරල්ඩ් ඔෆ් ක්‍රයිස්ට්ස් ප්‍රෙසන්ස්” හි පළමු කලාපය 1879දී ප්‍රකාශයට පත් විය.,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False
+jehovahs_witnesses,"1931 ඔහියෝහි කොලොම්බස්හිදී බයිබල් ශිෂ්‍යයන් අලුත් නමක් - යෙහෝවාගේ සාක්ෂිකරුවන් (යෙසායා 43:10, 12) පිළිගත්තා","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False
+gilead_school,ගිලියද් මුරටැඹ බයිබල් පාසැල 1943 පෙබරවාරි 1 සඳුදා ආරම්භ විය,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False
+new_world_translation1,1960 ජූනි 18 වැනිදා එංගලන්තයේ මැන්චෙස්ටර්හිදී නිකුත් කළ “ශුද්ධ ලියවිල්ලේ නව ලෝක පරිවර්තනය” බයිබලයේ බොහෝ කොටස්වල යෙහෝවා යන නාමය නැවත හඳුන්වා දෙයි,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
+new_world_translation2,"සංශෝධිත “ශුද්ධ ශුද්ධ ලියවිල්ලේ නව ලෝක පරිවර්තනය” 2013 වාර්ෂික රැස්වීමේදී නිකුත් කරන ලද, ඩිජිටල් සහ මාර්ගගතව භාවිතා කිරීමට ප්‍රශස්ත කර ඇත","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
+cold_war,"1945-1991 ""සීතල යුද්ධය"" ලෙස නම් කරන ලද භූ දේශපාලනික තත්ත්වය",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
+timeline_created,"මෙම කාල සටහන 2023 දී නිර්මාණය කරන ලදී, මානව ඉතිහාසයේ උණුසුම්ම වසර සහ පසුගිය වසර 125,000","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
+codex_sinaiticus,කෝඩෙක්ස් සයිනයිටිකස් ලියා ඇත,Codex Sinaiticus written, ,text,False
+codex_vaticanus,වතිකානුස් කෝඩෙක්ස් ලියා ඇත,Codex Vaticanus written, ,text,False
+leningrad_codex,1008 කයිරෝ හි ලියා ඇති ලෙනින්ග්‍රෑඩ් කෝඩෙක්ස්,Leningrad Codex written in Cairo AD 1008, ,text,False
+john,96-98 පැට්මොස්හි පිටුවහල්ව සිටියදී ජෝන් “එළිදරව්ව” ලියයි.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False
+buddha,බුදුන් - සිද්ධාර්ථ ගෞතම c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False
+buddha2,බුදුන් විකල්ප වශයෙන් c. 480-400 ක්‍රි.පූ.,Buddha alternatively c. 480-400 B.C.E., ,text,False
+mohammed,මොහොමඩ් සී. 570-632 ක්රි.ව.,Mohammed c. 570-632, ,text,False
+confucius,කොන්ෆියුසියස් c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False
+hijrah,හිජ්රා - 622 ජූලි 16 වන දින මක්කම සිට මදීනාව දක්වා ගමන් කිරීම,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False
+moses_escape,"1553 ක්රි.පූ. මෝසෙස්ට ඊජිප්තුවෙන් පැන යාමට සිදුවේ - නික්මයාම 2:15, ක්‍රියා 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False
+10plagues,1513 ඊජිප්තුවට වසංගත 10ක් ලැබිණි,1513 B.C.E Egypt receives 10 plagues, ,text,False
+joseph_sold,ජෝසප් වයස අවුරුදු 17 දී වහලෙකු ලෙස විකුණුවා - උත්පත්ති 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False
+infliction,අවුරුදු 400 ආන්දෝලනයක් (ක්‍රියා 7:6) - ඉෂ්මායෙල් 1913 ක්‍රි.පූ.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False
+Alexander,මහා ඇලෙක්සැන්ඩර් (දානියෙල් 11:3),Alexander the Great (Daniel 11:3), ,text,False
+persia,"මහා සයිරස්, දෙවන කැම්බිසෙස්, දාරියස් I ක්රි.පූ. 490, Xerxes I ක්රි.පූ. 480 (එස්තර්ගේ ස්වාමිපුරුෂයා, දානියෙල් 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False
+king_north,"සෙලියුකස් I නිකේටර් (v5) සිරියාව III වන ඇන්ටියෝකස් (v10) සහ IV වන සෙලියුකස් (v18, 19) සිට ඔක්ටේවියන් (v20) සහ ටයිබීරියස් (21-24) දක්වා පහළට","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False
+king_north1,උතුරේ රජ,King of the North, ,text,False
+king_south,"ටොලමි I, II, III, IV (v11, 12), V (v15, 16) සටනට Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False
+king_south1,දකුණේ රජු,King of the South, ,text,False
+king_south2,"බ්‍රිතාන්‍ය අධිරාජ්‍යය 1870, ඇන්ග්ලෝ-ඇමරිකානු ලෝක බලය 1914 සිට","British Empire 1870, Anglo-American World Power since 1914", ,text,False
+king_south3,දකුණේ රජු,King of the South, ,text,False
+king_north2,"I විලියම් අධිරාජ්‍යයා සමඟ ජර්මනිය 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False
+king_north3,උතුරු,North, ,text,False
+king_north4,"සෝවියට් සංගමය 1945-1991 (ඩැනියෙල් 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False
+king_north5,2017 සිට රුසියාව (w20 මැයි),Russia since 2017 (w20 May), ,text,False
+time_of_end,"ක්‍රිස්තුස් වහන්සේගේ පැමිණීම, දේවල ක්‍රමයේ අවසානය (මතෙව් 24:3), අවසාන දවස් (2 තිමෝති 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False
+time_of_end2,අන්තිම දවස්,Last days, ,text,False
+suryavaman2,දෙවන සූර්යවර්මන් රජු Angkor Wat 1113-1150 ගොඩනඟයි,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False
+notre-dame,Notre-Dame de Paris 1163-1260 ඉදි කරන ලදී,Notre-Dame de Paris built 1163-1260, ,text,False
+babel,බාබෙල් කුළුණ ඉදි කරන ලදී,Tower of Babel built, ,text,False
+infliction1,වසර 400 ක අපයෝජනය,400 year infliction,Acts 7:6,text,False
+Lots_wife,ලොත්ගේ බිරිඳ,Lot’s wife, ,text,False
+Lots_daughters,ලොත්ගේ දූවරු,Daughters of Lot, ,text,False
+Moab,මෝවබ් (වැඩිහිටි දියණිය),Moab (older daughter),Genesis 19:37,text,False
+rosetta,රොසෙටා ගල් 196 ක්‍රි.පූ.,Rosetta stone 196 B.C.E., ,text,False
+Herodotus,"හෙරෝඩෝටස් සී. 484 - ඇ. 425 BC, The Histories ලියයි","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False
+Aristotle,ඇරිස්ටෝටල් 384 - 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False
+Ptolemy,ටොලමි c 100 – c. 170 ක්රි.ව.,Ptolemy c 100 – c. 170 C.E., ,text,False
+Pythagoras,පයිතගරස් c. 570 - ඇ. 495 ක්රි.පූ,Pythagoras c. 570 – c. 495 BC, ,text,False
+Plato,ප්ලේටෝ සී. 427 - ඇ. 348 ක්රි.පූ,Plato c. 427 – c. 348 BC, ,text,False
+Socrates,සොක්‍රටීස් සී. 470 - ඇ. 399 ක්රි.පූ,Socrates c. 470 – c. 399 BC, ,text,False
+Josephus,ජොසීෆස් සී. 37 - ඇ. 100 ක්රි.ව.,Josephus c. 37 – c. 100 C.E., ,text,False
+Cicero,සිසෙරෝ 106-43 ක්රි.පූ,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False
+lachish_letters,ලචිෂ් අක්ෂර c. 590 ක් රි.පූ.,Lachish letters c. 590 B.C.E., ,text,False
+lachish_reliefs,ලචිෂ් සහන c. 681 ක් රි.පූ.,Lachish reliefs c. 681 B.C.E., ,text,False
+mesha_stele,මේෂා ස්ටීල් (මෝවබ් ගල්) c. 840 ක්රි.පූ.,Mesha Stele (Moabite stone) c. 840 B.C.E., ,text,False
+gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False
+epic_gilgamesh,ගිල්ගමේෂ්ගේ වීර කාව්‍යය (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False
+gregorian,ග්‍රෙගෝරියානු දින දර්ශනය 1582,Gregorian calendar 1582, ,text,False
+shang-dynasty,c. 1600-1046 ක්රි.පූ,c. 1600-1046 BC, ,text,False
+western-zhou,c. 1046-771 ක්රි.පූ,c. 1046-771 BC, ,text,False
+qin-dynasty,ක්වින් 221-207 ක්රි.පූ,Qin 221-207 BC, ,text,False
+western-han,207 BC - 9 CE,207 BC – 9 CE, ,text,False
+three-kingdoms,220-280 රාජධානි තුනක්,Three kingdoms 220-280 CE, ,text,False
+sixteen-kingdoms,304-439 රාජධානි දහසය,Sixteen kingdoms 304-439 CE, ,text,False
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False
+tang-dynasty1_c,ටැන්ග්,Tang, ,text,False
+gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC, ,text,False
+Ashoka,අශෝක (ක්‍රි.පූ. 304-232) බුද්ධාගම ප්‍රවර්ධනය කරයි,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False
+siloam-tunnel,හෙසකියා සිලෝම් උමග දිගු කරයි,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False
+Angloamerica2,"ඩැනියෙල් 2:33, 41-43 හි අනාවැකියේ ඇන්ග්ලෝ-ඇමරිකානුව සංකේතවත් කරන්නේ මැටි සමඟ යකඩ මිශ්‍ර පාදවලින්","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
+Manetho,මැනතෝ ඊජිප්ටියාකා ලියයි,Manetho writes Aegyptiaca, ,text,False
+destruction_babylon,"මහා බබිලෝනියේ විනාශය (එළිදරව් 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+gog_of_magog,"මාගොග්හි ගොග්ගේ ප්‍රහාරය (එසකියෙල් 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
+sheep_goat,"පෘථිවි වැසියන් විනිශ්චය කරනු ලැබේ, බැටළුවන් සහ එළුවන් වෙන් කරනු ලැබේ (මතෙව් 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
+annointed,රාජ්‍ය පාලකයන් එක්රැස් කිරීම (මතෙව් 24:31; 1 කොරින්ති 15:50-53; 1 තෙසලෝනික 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
+armageddon,"හර්-මගෙදොන් සටන (එළිදරව් 16:14, 16; යෙසායා 13:9; 2 පේතෘස් 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False
+millenium,"දේවරාජ්‍යය එහි අවුරුදු 1000 පාලනය ආරම්භ කරයි (එළිදරව් 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False
+great_crowd,"මහත් සමූහයක් හර්–මගෙදොන් යුද්ධයෙන් බේරෙයි (එළිදරව් 7:9, 14; ගීතාවලිය 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False
+world_population,පසුගිය වසර 2000 තුළ ලෝක ජනගහනය බිලියන ගණනකි,World population in billions in the last 2000 years, ,text,False
+khmer_empire_c,ඛමර් අධිරාජ්‍යය - ඇන්කෝර් යුගය,Khmer Empire - Angkor period,prior to the year,text,False
+holy_roman_empire_c,ශුද්ධ රෝම අධිරාජ්‍යය - 1512 න් පසු ජර්මානු ජාතියේ ශුද්ධ රෝම අධිරාජ්‍යය,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False
+mongol_empire,මොංගල් අධිරාජ්‍යය 1206 – 1294 ක්‍රි.ව.,Mongol Empire 1206 – 1294, ,text,False
+maya_classic_c,මායා ශිෂ්ටාචාරය - සම්භාව්ය යුගය,Maya civilization – Classic period, ,text,False
+maya_postclassic_c,මායා ශිෂ්ටාචාරය - පශ්චාත් සම්භාව්‍ය යුගය,Maya civilization – Postclassic period, ,text,False
+Teotihuacan,"ඇමරිකාවේ විශාලතම නගරය, පිරමිඩ ගොඩනැගීම c. 200 ක්රි.ව.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False
+Dionysius_Exiguus,ඇනෝ ඩොමිනිගේ නව නිපැයුම්කරු වන ඩයොනිසියස් එක්සිගුස්,"Dionysius Exiguus, inventor of Anno Domini", ,text,False
+Umayyad_c,උමයියාද්,Umayyad, ,text,False
+ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False
+Al-Khwarizmi,අල්-ක්වාරිස්මි අල්-ජබර් (වීජ ගණිතය) ලියයි,al-Khwarizmi writes Al-Jabr (Algebra), ,text,False
+al-azhar,අල්-අසාර් විශ්ව විද්‍යාලය කයිරෝවේ පිහිටුවා ඇත,Al-Azhar University is established in Cairo, ,text,False
+Ibn-Sina,Ibn Sina හෝ Avicenna,Ibn Sina or Avicenna, ,text,False
+life-expectancy, ,Life expectancy 75 years, ,text,False
+430years_c, ,"430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False
+maya_calendar, ,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False
+xia-dynasty2, ,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False
+xia-dynasty2_c, ,Xia dynasty in China, ,text,False
+tres_zapotes, ,"September 3rd, 32 B.C.E.",2024-12-31,text,False
+joseph_jacob_reunited, ,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False
+king_south_light_c, ,King of the South from Daniel 11,2025-02-05,text,False
+king_north_light_c, ,King of the North from Daniel 11,2025-02-05,text,False
+daniel2_iron_c, ,Iron legs from Daniel 2,2025-02-05,text,False
+argenteus, ,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False
+nguyen_dynasty_c, ,Nguyễn,2025-09-20,text,False
+edo_c, ,Edo period in Japan,Edo period (Tokugawa shogunate),text,False
+meiji_c, ,Meiji,2025-09-20,text,False
+american_civil_war, ,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
+aleppo_codex, ,Aleppo Codex c. 920,2025-10-03,text,False
+vandals, ,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia, ,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+francia_c, ,Kingdom of the Franks, ,text,False
+100_years_war, ,Hundred Years’ War 1337 – 1453,1337–1453,text,False
+black_death, ,Black death 1346-1353,1346-1353,text,False
+sui_dynasty, ,581-618 Sui dynasty,2025-11-09,text,False
+sui_dynasty_c, ,Sui,2025-11-09,text,False
+tribulation,"මහා පීඩාව (මාර්ක් 13:19; දානියෙල් 12:1; මතෙව් 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
+Adam,ආදම්,Adam,Luke 3:38,bible,False
+Seth,සෙත්,Seth, ,bible,False
+Enosh,ඒනොෂ්,Enosh, ,bible,False
+Kenan,කෙනන්,Kenan (Cainan), ,bible,False
+Mahalalel,මහලලෙල්,Mahalalel (Mahalaleel), ,bible,False
+Jared,ජැරඩ්,Jared, ,bible,False
+Enoch,ඒනොක්,Enoch, ,bible,False
+Methuselah,මෙතුසෙලා,Methuselah,Luke 3:37,bible,False
+Lamech,ලාමෙක්,Lamech, ,bible,False
+Noah,නෝවා,Noah, ,bible,False
+Shem,ෂෙම්,Shem, ,bible,False
+Arpachshad,අර්පච්චාද්,Arpachshad,Luke 3:36,bible,False
+Shelah,ෂෙලාහ්,Shelah, ,bible,False
+Eber,ඊබර්,Eber, ,bible,False
+Peleg,පෙලෙග්,Peleg, ,bible,False
+Reu,Reu,Reu, ,bible,False
+Serug,සෙරුග්,Serug,Luke 3:35,bible,False
+Nahor,නාහෝර්,Nahor, ,bible,False
+Terah,ටෙරා,Terah, ,bible,False
+Abraham,ඒබ්‍රහම්,Abraham, ,bible,False
+Isaac,අයිසැක්,Isaac, ,bible,False
+Jacob,යාකොබ්,Jacob,Luke 3:34,bible,False
+Joseph,ජෝසප්,Joseph, ,bible,False
+Moses,මෝසෙස්,Moses, ,bible,False
+Othniel,ඔත්නියෙල්,Othniel,Judges 3:9-11,bible,False
+Ehud,එහෙව්,Ehud,Judges 3:15-18,bible,False
+Shamgar,ෂම්ගර්,Shamgar,Judges 3:31,bible,False
+Barak,බාරාක්,"Barak, Deborah, Jael",Judges 4:6,bible,False
+Gideon,ගිඩියොන්,Gideon,Judges 7:1,bible,False
+Tola,ටෝලා,Tola,Judges 10:1,bible,False
+Jair,ජෙයාර්,Jair,Judges 10:3,bible,False
+Jephthah,ජෙප්තා,Jephthah,Judges 11:1,bible,False
+Ibzan,ඉබ්සාන්,Ibzan,Judges 12:8,bible,False
+Elon,එලොන්,Elon,Judges 12:11,bible,False
+Abdon,අබ්දොන්,Abdon,Judges 12:13,bible,False
+Samson,සැම්සන්,Samson,Judges 13:24,bible,False
+Samuel,සැමුවෙල්,Samuel,1 Samuel 1:20,bible,False
+Saul,සාවුල්,Saul,1 Samuel 9:2,bible,False
+David,ඩේවිඩ්,David,1 Samuel 16:13,bible,False
+Solomon,සොලමන්,Solomon,1 Kings 2:1,bible,False
+Malachi,මලාකි,Malachi, ,bible,False
+Ruth,රූත්,Ruth, ,bible,False
+Ezra,එස්රා,Ezra, ,bible,False
+Nehemiah,නෙහෙමියා,Nehemiah, ,bible,False
+Esther,එස්තර්,Esther, ,bible,False
+Job,රැකියා,Job, ,bible,False
+moses3,මෝසෙස්,Moses, ,bible,False
+joshua2,ජෝෂුවා,Joshua, ,bible,False
+caleb2,කාලෙබ්,Caleb, ,bible,False
+Augustus,ඔගස්ටස්,Augustus, ,bible,False
+Tiberius,ටයිබීරියස්,Tiberius, ,bible,False
+Claudius,ක්ලෝඩියස්,Claudius, ,bible,False
+persia2,පර්සියාව,Persia, ,bible,False
+jehoiada,ජෙහෝයාදා,Jehoiada, ,bible,False
+Haggai,හග්ගයි,Haggai, ,bible,False
+Zerubbabel,සෙරුබාබෙල් (ලූක් 3:27),Zerubbabel (Luke 3:27), ,bible,False
+Jacob2,යාකොබ්/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False
+Israel,ඊශ්රායෙල්,Israel,Genesis 35:10,bible,False
+Sarah,සාරා,Sarah,2008-1881 BCE – 127 years,bible,False
+Hagar,හාගර්,Hagar,Genesis 21:14,bible,False
+Haran,හරන්,Haran,Genesis 11:26,bible,False
+Reumah,රූමා,Reumah,Concubine – 4 sons,bible,False
+Milcah,මිල්කා,Milcah,8 sons (Bethuel and 7 more),bible,False
+Lot,ගොඩක්,Lot,Genesis 11:27,bible,False
+Ammon,බෙන්-අම්මි (Ammon),Ben-ammi (Ammon),Genesis 19:38,bible,False
+Bethuel,බෙතුයෙල්,Bethuel,Genesis 22:23,bible,False
+Rebekah,රෙබෙකා,Rebekah, ,bible,False
+Laban,ලාබන්,Laban, ,bible,False
+Leah,ලෙයා,Leah,Genesis 35:23,bible,False
+Rachel,රේචල්,Rachel,Genesis 35:24,bible,False
+Bilhah,බිල්හා,Bilhah,Genesis 35:25,bible,False
+Zilpah,සිල්පා,Zilpah,Genesis 35:26,bible,False
+Reuben,රූබන්,Reuben, ,bible,False
+Simeon,සිමියොන්,Simeon, ,bible,False
+Levi,ලෙවී,Levi, ,bible,False
+Judah,යූදා,Judah, ,bible,False
+Issachar,ඉසාචාර්,Issachar, ,bible,False
+Zebulun,සෙබුලන්,Zebulun, ,bible,False
+Dinah,දීනා,Dinah,Genesis 34,bible,False
+Esau,එසවු/,Esau/, ,bible,False
+Edom,ඒදොම්,Edom,Genesis 36:1,bible,False
+Ishmael,ඉස්මායෙල්,Ishmael, ,bible,False
+Manasseh2,(මනාසේ,(Manasseh,Genesis 41:50-52,bible,False
+Ephraim,සහ එෆ්‍රායිම්),and Ephraim), ,bible,False
+Benjamin,බෙන්ජමින්,Benjamin, ,bible,False
+Dan,ඩෑන්,Dan, ,bible,False
+Naphtali,නැප්තලි,Naphtali, ,bible,False
+Gad,ගාඩ්,Gad, ,bible,False
+Asher,අෂර්,Asher, ,bible,False
+Milcah1,"උස්, බුස්, කෙමුයෙල්,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False
+Milcah2,"චෙස්ඩ්, හසෝ,","Chesed, Hazo,", ,bible,False
+Milcah3,"පිල්ඩාෂ්, ජිඩ්ලාෆ්","Pildash, Jidlaph", ,bible,False
+Tebah,ටෙබාහ්,Tebah,Genesis 22:23,bible,False
+Gaham,ගහම්,Gaham, ,bible,False
+Tahash,ටහාෂ්,Tahash, ,bible,False
+Maacah,Maacah,Maacah, ,bible,False
+Mahalath,මහාලත්/,Mahalath/,"Genesis 28:8, 9",bible,False
+Basemath,බේස්මත්,Basemath,"Genesis36:3, 4",bible,False
+Reuel,රූයෙල්,Reuel,"36:13, 17",bible,False
+Nahath,නාහත්,Nahath, ,bible,False
+Zerah,සේරා,Zerah, ,bible,False
+Schammah,ෂම්මා,Schammah, ,bible,False
+Mizzah,මිස්සා,Mizzah, ,bible,False
+Adah,අඩා,Adah,"36:11, 12, 15, 16",bible,False
+Eliphaz,එලිෆස්,Eliphaz, ,bible,False
+Teman,තේමාන්,Teman, ,bible,False
+Omar,ඕමාර්,Omar, ,bible,False
+Zepho,Zepho,Zepho, ,bible,False
+Kenaz,කෙනස්,Kenaz, ,bible,False
+Korah,කෝරා,Korah, ,bible,False
+Korah_Gatam, ,"Korah, Gatam","Genesis 36:11, 16",bible,False
+Amalek,අමලෙක්,Amalek, ,bible,False
+Oholibamah,ඔහොලිබාමා,Oholibamah,"36:14, 18",bible,False
+Jeush,ජෙයුෂ්,Jeush, ,bible,False
+Jalam,ජලම්,Jalam, ,bible,False
+Nebaioth,නෙබයෝත්,Nebaioth,Genesis 25:13,bible,False
+Kedar,කේදාර්,Kedar, ,bible,False
+Mishma,මිෂ්මා,Mishma, ,bible,False
+Adbeel_Mibsam, ,"Adbeel, Mibsam",Genesis 25:13,bible,False
+Dumah_Massa, ,"Dumah, Massa",Genesis 25:14,bible,False
+Hadad,හදද්,Hadad, ,bible,False
+Tema,තේමා,Tema, ,bible,False
+Jetur,ජෙටූර්,Jetur, ,bible,False
+Naphish,නෆිෂ්,Naphish, ,bible,False
+Kedemah,කෙදෙමා,Kedemah, ,bible,False
+Keturah, ,Keturah,Genesis 25:1,bible,False
+Zimran, ,Zimran,Genesis 25:1,bible,False
+Jokshan, ,Jokshan,Genesis 25:1,bible,False
+Medan, ,Medan,Genesis 25:1,bible,False
+Midian, ,Midian,Genesis 25:1,bible,False
+Ishbak, ,Ishbak,Genesis 25:1,bible,False
+Shuah, ,Shuah,Genesis 25:1,bible,False
+Timna, ,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False
+life-expectancy2, ,(Psalm 90:10),2024-11-29,bible,False
+Ham, ,Ham,Gen 10:1,bible,False
+Canaan, ,Canaan,Gen 10:6,bible,False
+Sidon, ,Sidon,Gen 10:15,bible,False
+Heth, ,Heth,Gen 10:15,bible,False
+Jebusite, ,Jebusite,Gen 10:16,bible,False
+Amorite, ,Amorite,Gen 10:16,bible,False
+Girgashite, ,Girgashite,Gen 10:16,bible,False
+Hivite, ,Hivite,Gen 10:17,bible,False
+Arkite, ,Arkite,Gen 10:17,bible,False
+Sinite, ,Sinite,Gen 10:17,bible,False
+Arvadite, ,Arvadite,Gen 10:18,bible,False
+Zemarite, ,Zemarite,Gen 10:18,bible,False
+Hamathite, ,Hamathite,Gen 10:18,bible,False
+Cush, ,Cush,Gen 10:6,bible,False
+Nimrod, ,Nimrod,Gen 10:8,bible,False
+Mizraim, ,Mizraim,Gen 10:14,bible,False
+Casluh, ,Casluh,1 Chronicles 1:12 (Philistines),bible,False
+Japheth, ,Japheth,Gen 10:1,bible,False
+Asshur, ,Asshur,Gen 10:22,bible,False
+Lud, ,Lud,Gen 10:22,bible,False
+Aram, ,Aram,Gen 10:22,bible,False
+Elam, ,Elam,Gen 10:22,bible,False
+Joktan, ,Joktan,Gen 10:26,bible,False
+Almodad, ,Almodad,Gen 10:26,bible,False
+Sheleph, ,Sheleph,Gen 10:26,bible,False
+Hazarmareth, ,Hazarmareth,Gen 10:26,bible,False
+Jerah, ,Jerah,Gen 10:26,bible,False
+Hadoram, ,Hadoram,Gen 10:27,bible,False
+Uzal, ,Uzal,Gen 10:27,bible,False
+Diklah_Obal, ,"Diklah, Obal",Gen 10:27,bible,False
+Abimael, ,Abimael,Gen 10:28,bible,False
+Sheba_Ophir, ,"Sheba, Ophir","Gen 10:28, 29",bible,False
+Havilah, ,Havilah,Gen 10:29,bible,False
+Jobab, ,Jobab,Gen 10:29,bible,False
+Ham_fn, ,1) Egyptians: Psalms 105:23,2025-09-22,bible,False
+Canaan_fn, ,2) Canaanites: Joshua 13:3,2025-09-22,bible,False
+Aram_fn, ,3) Arameans: Hosea 12:12,2025-09-22,bible,False
+Elam_fn, ,4) Elamites: Ezra 4:9,2025-09-22,bible,False
+Asshur_fn, ,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False
+Casluh_fn, ,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False
+Cush_fn, ,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False
+Edom_fn, ,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False
+Moab_fn, ,"9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False
+Ammon_fn, ,10) Ammonites: Joshua 12:2,2025-09-22,bible,False
+Midian_fn, ,"11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False
+Amalek_fn, ,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False
+Teman_fn, ,13) Temanites: Job 42:7,2025-09-22,bible,False
+Sidon_fn, ,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False
+Heth_fn, ,15) Hittites: Genesis 15:20,2025-09-22,bible,False
+Jebusite_fn, ,16) Jebusites: Joshua 15:63,2025-09-22,bible,False
+Judith, ,Judith?,"Genesis 26:34, 35",bible,False
+Lud_fn, ,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False
+Ishmael_fn, ,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
+Amorite_fn, ,19) Amorites: Judges 6:10,2025-09-22,bible,False
+Hivite_fn, ,"20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Rehoboam,රෙහොබෝවම්,Rehoboam,first king of southern kingdom of Juda,A6-A,False
+Abijah,අබියා (අබියාම්),Abijah (Abijam),"3 years, also Abijam",A6-A,False
+Asa,ආසා,Asa, ,A6-A,False
+Jehoshaphat,ජෙහෝෂාපාට්,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,A6-A,False
+Jehoram2,ජෙහෝරාම්,Jehoram, ,A6-A,False
+Ahaziah,අහසියා,Ahaziah, ,A6-A,False
+Athaliah,අතලියා රැජින,Queen Athaliah,Queen Athaliah,A6-A,False
+Jehoash,යෙහෝවාෂ්,Jehoash, ,A6-A,False
+Amaziah,ඇමෂියා,Amaziah, ,A6-A,False
+Uzziah,උසියා (අසාරියා),Uzziah (Azariah),also Azariah,A6-A,False
+Jeroboam,ජෙරොබෝවම්,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False
+Nadab,නාදබ්,Nadab,less than 2,A6-A,False
+Baasha,බාෂා,Baasha, ,A6-A,False
+Elah,එලාහ්,Elah, ,A6-A,False
+Zimri,සිම්රි,Zimri,Only 7 days in ca. 751 BCE,A6-A,False
+OmriTibni,ඔම්රි සහ ටිබ්නි එකට,Omri and Tibni together,4 years Omri and Tibni,A6-A,False
+Omri,ඔම්රි (තනිකම),Omri (alone),from 947 Omri alone,A6-A,False
+Ahab,ආහබ්,Ahab, ,A6-A,False
+Jehoram,ජෙහෝරාම්,Jehoram, ,A6-A,False
+Jehu,ජේහු,Jehu, ,A6-A,False
+Jeoahaz,ජෙයෝහාස්,Jeoahaz, ,A6-A,False
+JeoahazJehoash,ජෙයෝහාස් සහ යෝවාෂ්,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False
+Jehoash2,යෝවාෂ් (තනිවම),Jehoash (alone),Jehoash (alone),A6-A,False
+Jeroboam2,ජෙරොබෝවම් II,Jeroboam II, ,A6-A,False
+Elijah,එලියා,Elijah, ,A6-A,False
+Elisha,එලිෂා,Elisha, ,A6-A,False
+Jonah,ජෝනා,Jonah, ,A6-A,False
+Amos,ආමොස්,Amos, ,A6-A,False
+Joel,ජොයෙල්,Joel, ,A6-A,False
+Jotham,ජෝතම්,Jotham, ,A6-B,False
+Ahaz,ආහාස්,Ahaz, ,A6-B,False
+Hezekiah,හෙසකියා,Hezekiah, ,A6-B,False
+Manasseh,මනස්සේ,Manasseh, ,A6-B,False
+Amon,ආමොන්,Amon, ,A6-B,False
+Josiah,ජොෂියා,Josiah, ,A6-B,False
+Jehoahaz,ජෙහෝහාස්,Jehoahaz,Only 3 months,A6-B,False
+Jehoiakim,ජෙහෝයාකිම්,Jehoiakim, ,A6-B,False
+Jehoiachin,ජෙහෝයාචින්,Jehoiachin,Only 3 months 10 days,A6-B,False
+Zedekiah,සෙදෙකියා,Zedekiah, ,A6-B,False
+Zechariah,සෙකරියා,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False
+Schallum,ෂැලුම්,Schallum,only one month,A6-B,False
+Menahem,මෙනහෙම්,Menahem, ,A6-B,False
+Pekahiah,පෙකහියා,Pekahiah, ,A6-B,False
+Pekah,පෙකාහ්,Pekah, ,A6-B,False
+Hoshea,හොෂෙයා,Hoshea,9 years from c. 748,A6-B,False
+Hosea,හොසියා,Hosea, ,A6-B,False
+Isaiah,යෙසායා,Isaiah, ,A6-B,False
+Micah,මයිකා,Micah, ,A6-B,False
+Zephaniah,ශෙපනියා,Zephaniah, ,A6-B,False
+Nahum,නාහුම්,Nahum, ,A6-B,False
+Jeremiah,ජෙරමියා,Jeremiah, ,A6-B,False
+Habakuk,හබකුක්,Habakuk, ,A6-B,False
+Daniel,ඩැනියෙල්,Daniel, ,A6-B,False
+Ezekiel,එසකියෙල්,Ezekiel, ,A6-B,False
+Obadiah,ඔබදියා,Obadiah, ,A6-B,False
+Babylon,"දානියෙල් 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,False
+Medopersia,"දානියෙල් 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,False
+Greece,"දානියෙල් 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,False
+Rome,"දානියෙල් 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,False
+Angloamerica,"දානියෙල් 2:33, 41-43","Daniel 2:33, 41-43", ,B9,False
+Babylon_c,බබිලෝනිය,Babylon, ,B9,False
+Medopersia_c,මේද-පර්සියාව,Medo-Persia, ,B9,False
+Greece_c,ග්රීසිය,Greece, ,B9,False
+Rome_c,රෝමය,Rome, ,B9,False
+Angloamerica_c,ඇන්ග්ලෝ-ඇමරිකාව,Anglo-America, ,B9,False
+daniel2_1,නෙබුකද්නෙශර් රජු,King Nebuchadnezzar,607 BCE,B9,False
+daniel2_2,ජෙරුසලම විනාශ කරයි,destroys Jerusalem, ,B9,False
+daniel2_3,බැබිලෝනිය යටත් කර ගනී,Conquers Babylon,539 BCE,B9,False
+daniel2_4,සයිරස් නැවත පැමිණීමට නියෝග කරයි,Cyrus decrees return,537 BCE,B9,False
+daniel2_5,යුදෙව්වන්ගෙන් ජෙරුසලමට,of Jews to Jerusalem, ,B9,False
+daniel2_6,මහා ඇලෙක්සැන්ඩර්,Alexander the Great,331 BCE,B9,False
+daniel2_7,පර්සියාව ජය ගනී,conquers Persia, ,B9,False
+daniel2_8,ඊශ්‍රායලය පාලනය කරයි,Rules over Israel,63 BCE,B9,False
+daniel2_9,ජෙරුසලම විනාශ කරයි,Destroys Jerusalem,70 CE,B9,False
+daniel2_10,"පළමු ලෝක යුද්ධ සමයේදී,","During World War I,",1914-1918 CE,B9,False
+daniel2_11,ඇන්ග්ලෝ-ඇමරිකානු ලෝක බලය,Anglo-American World Power, ,B9,False
+daniel2_12,ඇති වෙනවා,comes into being,End 4.2,B9,False
+607BCE,607 ක්රි.පූ.,607 B.C.E.,accommodate for language,B9,False
+539BCE,539 ක්රි.පූ.,539 B.C.E.,systems in style:,B9,False
+537BCE,537 ක්රි.පූ.,537 B.C.E.,>>year 537 before time<<,B9,False
+331BCE,331 ක්රි.පූ.,331 B.C.E.,so they need a word,B9,False
+63BCE,63 ක්‍රි.පූ.,63 B.C.E.,prior to the year,B9,False
+70CE,70 ක්රි.ව.,70 C.E.,and something,B9,False
+1914CE,1914-1918 ක්රි.ව.,1914-1918 C.E.,after the year,B9,False
+daniel2_shift,0,0,Start 4.2,float,False
+7times,එළිදරව් 12:9,Revelation 12:9, ,scripture,False
+infliction2,ක්‍රියා 7:6,Acts 7:6, ,scripture,False
+eastern-zhou,770-256 ක් රි.පූ,770-256 BC, ,span_bc,False
+430years, ,1943 – 1513 B.C.E., ,span_bce,False
+eastern-han,25-220 ක්රි.ව,25-220 CE, ,span_ce,False
+northern-dynasties,368-581 ක්රි.ව,368-581 CE, ,span_ce,False
+southern-dynasties,420-589 ක්රි.ව,420-589 CE, ,span_ce,False
+khmer_empire,804 – 1431,804 – 1431,so they need a word,timespan,True
+byzantine_empire,330 – 1453,330 – 1453,and something,timespan,True
+ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
+holy_roman_empire,800 – 924,800 – 924, ,timespan,True
+holy_roman_empire2,962 – 1806,962 – 1806, ,timespan,True
+inca_empire,1438 – 1533,1438 – 1533, ,timespan,True
+gupta_empire,319 – 550,319 – 550, ,timespan,True
+Umayyad,661 – 750,661 – 750, ,timespan,True
+Abbasid,750 – 1258,750 – 1258, ,timespan,True
+Mamluk,1250 – 1517,1250 – 1517, ,timespan,True
+seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
+lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True
+qing-dynasty,1636-1912,1636-1912, ,timespan,True
+ming-dynasty,1368-1644,1368-1644, ,timespan,True
+yuan-dynasty,1271-1368,1271-1368, ,timespan,True
+southern-song,1127-1279,1127-1279, ,timespan,True
+northern-song,960-1127,960-1127, ,timespan,True
+western-xia,1038-1227,1038-1227, ,timespan,True
+maya_classic,250–950,250–950, ,timespan,True
+maya_postclassic,950-1539,950-1539, ,timespan,True
+tran_dynasty,1225–1400,1225–1400, ,timespan,True
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
+revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
+nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
+edo,1603 – 1868,1603 – 1868, ,timespan,True
+meiji,1868 – 1912,1868 – 1912, ,timespan,True
+Julius,ජුලියස්,Julius, ,wiki,False
+Caligula,කැලිගුලා,Caligula, ,wiki,False
+Nero,නීරෝ,Nero, ,wiki,False
+Galba-Otho-Vitellius,"ගල්බා, ඔතෝ සහ විටෙලියස් (සතර අධිරාජ්‍යයන්ගේ වසර)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False
+Vespasian,වෙස්පේසියන්,Vespasian, ,wiki,False
+covid19,COVID-19,Covid-19, ,wiki,False
+nicaea1,නයිසියා හි පළමු කවුන්සිලය,First Council of Nicaea, ,wiki,False
+oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri, ,wiki,False
+p52,පැපිරස් P52,Papyrus P52, ,wiki,False
+qing-dynasty_c,ක්විං රාජවංශය,Qing dynasty,1636-1912,wiki,False
+ming-dynasty_c,අධිරාජ්‍ය චීනයේ මින්ග් රාජවංශය,Ming dynasty in imperial China,1368-1644,wiki,False
+yuan-dynasty_c,යුවාන්,Yuan,1271-1368,wiki,False
+southern-song_c,දක්ෂිණ ගීතය,Southern Song,1127-1279,wiki,False
+northern-song_c,උතුරු ගීතය,Northern Song,960-1127,wiki,False
+western-xia_c,බටහිර Xia,Western Xia,1038-1227,wiki,False
+Copernicus,නිකොලස් කොපර්නිකස්,Nicolaus Copernicus, ,wiki,False
+Galileo,ගැලීලියෝ ගැලීලි,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False
+Newton,අයිසැක් නිව්ටන්,Isaac Newton, ,wiki,False
+shang-dynasty_c,ෂැං රාජවංශය,Shang dynasty,c. 1600-1046 BC,wiki,False
+western-zhou_c,බටහිර Zhou,Western Zhou,c. 1046-771 BC,wiki,False
+eastern-zhou_c,නැගෙනහිර ෂෝ,Eastern Zhou,770-256 BC,wiki,False
+western-han_c,බටහිර හැන්,Western Han,207 BC – 9 CE,wiki,False
+eastern-han_c,නැගෙනහිර හැන්,Eastern Han,25-220 CE,wiki,False
+three-kingdoms_c,චීනය,China,Three kingdoms 220-280 CE,wiki,False
+sixteen-kingdoms_c,චීනය,China,Sixteen kingdoms 304-439 CE,wiki,False
+northern-dynasties_c,උතුරු රාජවංශ,Northern dynasties,368-581 CE,wiki,False
+southern-dynasties_c,දක්ෂිණ රාජවංශ,Southern dynasties,420-589 CE,wiki,False
+tang-dynasty2_c,ටැං රාජවංශය,Tang dynasty,"618-690, 705-907",wiki,False
+byzantine_empire_c,බයිසැන්තියානු අධිරාජ්යය,Byzantine Empire,after the year,wiki,False
+ottoman_empire_c,ඔටෝමන් අධිරාජ්යයා,Ottoman Empire, ,wiki,False
+Genghis,ජෙන්ගිස් ඛාන්,Genghis Khan, ,wiki,False
+inca_empire_c,ඉන්කා අධිරාජ්‍යය,Inca empire, ,wiki,False
+gupta_empire_c,ගුප්ත අධිරාජ්‍යය,Gupta Empire, ,wiki,False
+Teotihuacan_c,ටියෝටිහුකාන්,Teotihuacan, ,wiki,False
+Abbasid_c,අබ්බාසිඩ් කැලිෆේට්,Abbasid Caliphate, ,wiki,False
+Mamluk_c,මාම්ලුක් සුල්තාන් රාජ්යය,Mamluk Sultanate, ,wiki,False
+Al-Ghazali,අල්-ගසාලි,Al-Ghazali, ,wiki,False
+wulfila, ,Wulfila Bible,2025-09-20,wiki,False
+tran_dynasty_c, ,Trần dynasty, ,wiki,False
+le_dynasty_c, ,Lê dynasty, ,wiki,False
+revival_le_dynasty_c, ,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False
+seljuk_empire_c, ,Seljuk empire, ,wiki,False
+vandals_c, ,Vandals, ,wiki,False
+lombard_c, ,Lombard Kingdom,2025-10-13,wiki,False
+people,මහජන,people, ,deprecated,False
+judges,විනිසුරුවන්,judges, ,deprecated,False
+prophets,අනාගතවක්තෘවරුන්,prophets, ,deprecated,False
+kings,රජවරු,kings, ,deprecated,False
+periods,කාල පරිච්ඡේද,periods, ,deprecated,False
+events,සිද්ධීන්,events, ,deprecated,False
+objects,වස්තූන් හෝ අයිතම,objects or items, ,deprecated,False
+event_destruction_samaria2,740 ක් රි.පූ. ඇසිරියාව විසිනි,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
+photodrama,“නිර්මාණයේ ඡායාරූප නාට්‍යය” මුලින්ම ප්‍රදර්ශනය කළේ 1914 ජනවාරි 11 වැනිදා නිව් යෝර්ක් නුවරදීයි,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
+truth_book,“සදාකාල ජීවනයට මඟ පෙන්වන සත්‍යය” පොත 1968 නිකුත් විය,The book “The Truth That Leads to Eternal Life” released 1968, ,deprecated,False
+metropolitan,2011දී නාගරික සාක්ෂි දැරීමේ ආරම්භය,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,2012 දෙසැම්බර් රාජ්‍ය සේවයේ උපදෙස් සමඟ JW.ORG ආරම්භය,Start of JW.ORG with instructions in kingdom ministry December 2012, ,deprecated,False
+jw_broadcasting,jw.broadcasting ආරම්භය 2014 ඔක්තෝම්බර් මාසයේදී,Start of jw.broadcasting in October 2014, ,deprecated,False
+meeting_workbook,"2016 ජනවාරි සිට ""රැස්වීම් වැඩපොත"" සමඟින් මැද සති රැස්වීමේ නව ආකෘතිය",New format of midweek meeting with “meeting workbook” starting January 2016, ,deprecated,False
+Gatam,ගැටම්,Gatam, ,deprecated,False
+Adbeel,Adbeel,Adbeel, ,deprecated,False
+Mibsam,මිබ්සම්,Mibsam, ,deprecated,False
+Dumah,ඩූමා,Dumah, ,deprecated,False
+Massa,මැස්සා,Massa, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
+terahfam,ටෙරාගේ පවුලේ සාමාජිකයන්,members of Terah’s family, ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
+xia-dynasty,චීනයේ Xia රාජවංශය c. 2070 - ඇ. 1600 ක්රි.පූ,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False

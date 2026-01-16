@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,6.01,6.01, ,float,True
-pdf_title,6000 éves emberi történelem vizualizálva,6000 years human history visualized,2026-01-08,text,False
+pdf_title,6000 éves emberi történelem vizualizálva,6000 years human history visualized,2026-01-16,text,False
 pdf_subject,Az emberiség idővonala,Timeline of humankind, ,text,False
 BCE,I. e.,B.C.E., ,B9,True
 CE,I. sz.,C.E., ,B9,True
@@ -25,10 +25,10 @@ temple2,479 év a templom építéséig – 1Királyok 6:1,479 years until the t
 jesus_service,"3,5 év Jézus szolgálata, kivégezték Niszán 14-én, i. sz. 33","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False
 jesus_life,"Jézus, született Kr.e. 2-ben",Jesus born 2 B.C.E., ,text,False
 exile,607–537 – 70 év (Jeremiás 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False
-exile2,száműzetés,exile, ,text,False
+exile2,száműzetés,Exile, ,text,False
 7times2,7-szer – 2520 évvel a messiási királyságig 1914-ben (Dániel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False
-ww1,Első világháború – i. sz. 1914–1918,World War I – 1914–1918 C.E., ,text,False
-ww2,II. világháború – 1939–1945,World War II – 1939–1945 C.E., ,text,False
+ww1,Első világháború – i. sz. 1914–1918,World War I – 1914–1918, ,text,False
+ww2,II. világháború – 1939–1945,World War II – 1939–1945, ,text,False
 30_year_war,Harmincéves háború Európában 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False
 joshua,110 év,110 years, ,text,False
 caleb,több mint 85 év,more than 85 years, ,text,False
@@ -38,7 +38,7 @@ missionary2,Második missziós út kb. i. sz. 49-52 Silasszal (Silvanus),Second 
 missionary3,Harmadik missziós utazás i. sz. 52-56 körül,Third Missionary Journey c. 52-56 C.E., ,text,False
 caesarea,Pál őrizetben Cezáreában kb. i. sz. 56-58,Paul in custody in Caesarea c. 56-58 C.E., ,text,False
 rome1,Pál első római bebörtönzése kb. i. sz. 59-61,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False
-rome2,"Pál második római bebörtönzése i. sz. 65 körül, 2 Timóteus írása, Pál kivégzése","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed", ,text,False
+rome2,"Pál második római bebörtönzése i. sz. 65 körül, 2 Timóteus írása, Pál kivégzése","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False
 event_exodus,Kivonulás Egyiptomból 1513. niszán 14-én,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False
 event_division_kingdom,Izrael felosztása i. e. 997,Division of Israel 997 BCE, ,text,False
 event_destruction_samaria,Samária elpusztítása i.e. 740-ben Asszíria által,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False
@@ -46,36 +46,36 @@ event_destruction_jerusalem1,"Jeruzsálem pusztulása 607-ben Babilon által, 39
 event_temple_rebuilt,A jeruzsálemi templom újjáépítése Kr.e. 515-ben,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False
 event_jerusalem_rebuilt,A jeruzsálemi falat Kr.e. 455-ben újjáépítették.,Jerusalem wall rebuilt 455 B.C.E., ,text,False
 event_destruction_jerusalem2,Jeruzsálem lerombolása i. sz. 70 Róma által Titusz alatt,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False
-event_1914,"A nemzetek idejének vége, Isten királysága uralkodni kezd a mennyben 1914 i. sz. ","End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. ", ,text,False
-became_king,korában király lett,became king at age, ,text,False
+event_1914,"A nemzetek idejének vége, Isten királysága uralkodni kezd a mennyben 1914 i. sz. ","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.", ,text,False
+became_king,korában király lett,becomes king at age, ,text,False
 vulgate,A Vulgatát Jeromos fejezte be (a Biblia latin fordítása) kb. i. sz. 405,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False
-gutenberg,Gutenberg Biblia nyomtatása 1455,Gutenberg bible printed 1455, ,text,False
+gutenberg,Gutenberg Biblia nyomtatása 1455,Gutenberg Bible printed 1455, ,text,False
 erasmus,"A Keresztény Görög Iratok görög szövege, kiadta Desiderius Erasmus rotterdami herceg, 1516;",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False
 luther,Luther bibliafordítása 1522 szeptemberében,Luther Bible translation in September 1522, ,text,False
 tyndale,"Angol bibliafordítás: Tyndale, 1536",English Bible translation by Tyndale 1536, ,text,False
 king_james,Jakab király Biblia 1611,King James Bible 1611, ,text,False
 69weeks3,"Jézus 29-ben kezdi meg szolgálatát (Lukács 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False
-ransom,"a hét közepe ""áldozat, hogy megszűnjön"" Dániel 9:27",middle of week “sacrifice to cease” Daniel 9:27, ,text,False
+ransom,"a hét közepe ""áldozat, hogy megszűnjön"" Dániel 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False
 cornelius,Kornélius a 70. hét végén keresztelkedett meg (Dániel 9:24) i. sz. 36-ban.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False
-columbus,a Kolumbusz előtti időszak vége Amerikában 1492,end of the pre-columbian period in the Americas 1492, ,text,False
-declaration_independence,13 amerikai gyarmat függetlenségének kikiáltása 1776,declaration of independence of 13 colonies in America 1776, ,text,False
+columbus,a Kolumbusz előtti időszak vége Amerikában 1492,End of the pre-columbian period in the Americas 1492, ,text,False
+declaration_independence,13 amerikai gyarmat függetlenségének kikiáltása 1776,Declaration of independence of 13 colonies in America 1776, ,text,False
 tischendorf,Tischendorf 1844-ben fedezi fel a Codex Sinaiticust a 4. századból,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False
 dead_sea_scrolls,Holt-tengeri tekercsek írva,Dead Sea Scrolls written, ,text,False
 septuagint,Septuaginta LXX fordítás,Septuagint LXX translated, ,text,False
 watchtower,"A ""Sion Őrtornya és Krisztus jelenlétének hírnöke"" első száma 1879-ben jelenik meg",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False
-jehovahs_witnesses,"A Bibliakutatók új nevet vettek fel: Jehova Tanúi. Columbus, Ohio, 1931","The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931", ,text,False
-gilead_school,"Az Őrtorony Gileád Bibliaiskola 1943. február 1-jén, hétfőn kezdődött","Watchtower Bible School of Gilead began on Monday, February 1, 1943", ,text,False
-new_world_translation1,"""A Szentírás új világ fordítása"" megjelent Manchesterben, Angliában, 1960. június 18-án","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960", ,text,False
-new_world_translation2,"Átdolgozott ""A Szentírás új világ fordítása"", megjelent a 2013-as éves találkozón",Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, ,text,False
+jehovahs_witnesses,"A Bibliakutatók új nevet vettek fel: Jehova Tanúi. Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931", ,text,False
+gilead_school,"Az Őrtorony Gileád Bibliaiskola 1943. február 1-jén, hétfőn kezdődött","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False
+new_world_translation1,"""A Szentírás új világ fordítása"" megjelent Manchesterben, Angliában, 1960. június 18-án","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible", ,text,False
+new_world_translation2,"Átdolgozott ""A Szentírás új világ fordítása"", megjelent a 2013-as éves találkozón","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online", ,text,False
 cold_war,"A ""hidegháború"" címkével ellátott geopolitikai helyzet 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"Ezt az idővonalat 2023-ban hozták létre, az emberi történelem legforróbb évében és az elmúlt 125 000 évben","This timeline was created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
+timeline_created,"Ezt az idővonalat 2023-ban hozták létre, az emberi történelem legforróbb évében és az elmúlt 125 000 évben","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Codex Sinaiticus írása,Codex Sinaiticus written, ,text,False
 codex_vaticanus,Codex Vaticanus írása,Codex Vaticanus written, ,text,False
 leningrad_codex,Kairóban írt Leningrádi kódex Kr. u. 1008,Leningrad Codex written in Cairo AD 1008, ,text,False
 john,"János ""kinyilatkoztatást"" ír száműzetésében Pátmosz 96-98-ban.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False
 buddha,Buddha – Gautama Sziddhártha Kr.e. 563-483 körül,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False
 buddha2,Buddha kb. Kr.e. 480-400,Buddha alternatively c. 480-400 B.C.E., ,text,False
-mohammed,Mohamed kb. i. sz. 570-632,Mohammed c. 570-632 C.E., ,text,False
+mohammed,Mohamed kb. i. sz. 570-632,Mohammed c. 570-632, ,text,False
 confucius,Konfuciusz kb. Kr.e. 551-c.479,Confucius c.551-c.479 B.C.E., ,text,False
 hijrah,Hidzsra - utazás Mekkába Medinába 622. július 16.,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False
 moses_escape,"1553 Mózesnek el kell menekülnie Egyiptomból – 2Mózes 2:15, ApCsel 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False
@@ -88,17 +88,17 @@ king_north,"I. Szeleukosz Nicator (v5) Szíriától III. Antiokhoszig (10. vers)
 king_north1,Észak királya,King of the North, ,text,False
 king_south,"Ptolemaiosz I., II., III., IV. (v11, 12), V (v15, 16) az Actium csatába i. e. 31.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False
 king_south1,Dél királya,King of the South, ,text,False
-king_south2,"Brit birodalom 1870, angol-amerikai világhatalom 1914 óta","British empire 1870, Anglo-American World Power since 1914", ,text,False
+king_south2,"Brit birodalom 1870, angol-amerikai világhatalom 1914 óta","British Empire 1870, Anglo-American World Power since 1914", ,text,False
 king_south3,Dél királya,King of the South, ,text,False
 king_north2,"Németország I. Vilmos császárral 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False
 king_north3,Észak,North, ,text,False
 king_north4,"Szovjetunió 1945-1991 (Dániel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False
 king_north5,Oroszország 2017 óta (w20 május),Russia since 2017 (w20 May), ,text,False
-time_of_end,"Krisztus jelenléte, a dolgok rendszerének befejezése (Mt 24,3), az utolsó napok (2Ti 3,1)","Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)", ,text,False
-time_of_end2,Utolsó napok,last days, ,text,False
+time_of_end,"Krisztus jelenléte, a dolgok rendszerének befejezése (Mt 24,3), az utolsó napok (2Ti 3,1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)", ,text,False
+time_of_end2,Utolsó napok,Last days, ,text,False
 suryavaman2,II. Suryavarman király megépíti Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False
 notre-dame,Notre-Dame de Paris épült 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False
-babel,Bábel tornya épült,tower of Babel built, ,text,False
+babel,Bábel tornya épült,Tower of Babel built, ,text,False
 infliction1,400 éves következmény,400 year infliction,Acts 7:6,text,False
 Lots_wife,Lót felesége,Lot’s wife, ,text,False
 Lots_daughters,Lót leányai,Daughters of Lot, ,text,False
@@ -142,7 +142,7 @@ great_crowd, ,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9
 world_population, ,World population in billions in the last 2000 years, ,text,False
 khmer_empire_c, ,Khmer Empire - Angkor period, ,text,False
 holy_roman_empire_c, ,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False
-mongol_empire, ,Mongol Empire 1206 – 1294 C.E., ,text,False
+mongol_empire, ,Mongol Empire 1206 – 1294, ,text,False
 maya_classic_c, ,Maya civilization – Classic period, ,text,False
 maya_postclassic_c, ,Maya civilization – Postclassic period, ,text,False
 Teotihuacan, ,"Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False
@@ -169,8 +169,8 @@ edo_c, ,Edo period in Japan,Edo period (Tokugawa shogunate),text,False
 meiji_c, ,Meiji,2025-09-20,text,False
 american_civil_war, ,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
 aleppo_codex, ,Aleppo Codex c. 920,2025-10-03,text,False
-vandals, ,Kingdom of the Vandals and Alans 435 – 534 C.E.,Vandals 435-534 C.E.,text,False
-francia, ,"c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+vandals, ,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia, ,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
 francia_c, ,Kingdom of the Franks, ,text,False
 100_years_war, ,Hundred Years’ War 1337 – 1453,1337–1453,text,False
 black_death, ,Black death 1346-1353,1346-1353,text,False
@@ -180,8 +180,8 @@ tribulation, ,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
 Adam,Adam,Adam, ,bible,False
 Seth,Seth,Seth, ,bible,False
 Enosh,Énosh,Enosh, ,bible,False
-Kenan,Kenán,Kenan, ,bible,False
-Mahalalel,Mahalalel,Mahalalel, ,bible,False
+Kenan,Kenán,Kenan (Cainan), ,bible,False
+Mahalalel,Mahalalel,Mahalalel (Mahalaleel), ,bible,False
 Jared,Jared,Jared, ,bible,False
 Enoch,Énók,Enoch, ,bible,False
 Methuselah,Matuzsálem,Methuselah, ,bible,False
@@ -204,7 +204,7 @@ Moses,Mózes,Moses, ,bible,False
 Othniel,Othniel,Othniel, ,bible,False
 Ehud,Ehud,Ehud, ,bible,False
 Shamgar,Shamgar,Shamgar, ,bible,False
-Barak,Barak,Barak, ,bible,False
+Barak,Barak,"Barak, Deborah, Jael", ,bible,False
 Gideon,Gideon,Gideon, ,bible,False
 Tola,Tola,Tola, ,bible,False
 Jair,Jair,Jair, ,bible,False
@@ -274,7 +274,7 @@ Gaham,Gáhám,Gaham, ,bible,False
 Tahash,Tahash,Tahash, ,bible,False
 Maacah,Maáka,Maacah, ,bible,False
 Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False
-Basemath,Alap·matematika,Base·math,"Genesis36:3, 4",bible,False
+Basemath,Alap·matematika,Basemath,"Genesis36:3, 4",bible,False
 Reuel,Reuel,Reuel,"36:13, 17",bible,False
 Nahath,Nahát,Nahath, ,bible,False
 Zerah,Zerah,Zerah, ,bible,False
@@ -458,28 +458,28 @@ eastern-zhou,Kr. e. 770-256,770-256 BC, ,span_bc,False
 eastern-han,25-220 CE,25-220 CE, ,span_ce,False
 northern-dynasties,368-581,368-581 CE, ,span_ce,False
 southern-dynasties,420-589,420-589 CE, ,span_ce,False
-khmer_empire, ,804 – 1431 C.E., ,span_ce,False
-byzantine_empire, ,330-1453 C.E., ,span_ce,False
-ottoman_empire, ,1299 – 1922 C.E., ,span_ce,False
-holy_roman_empire, ,800 – 924 C.E., ,span_ce,False
-holy_roman_empire2, ,962 – 1806 C.E.,fixed 2024-12-31,span_ce,False
-inca_empire, ,1438 – 1533 C.E., ,span_ce,False
-gupta_empire, ,319 – 550 C.E., ,span_ce,False
-Umayyad, ,661 – 750 C.E., ,span_ce,False
-Abbasid, ,750 – 1258 C.E., ,span_ce,False
-Mamluk, ,1250 – 1517 C.E., ,span_ce,False
-seljuk_empire, ,1037 – 1194 C.E.,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",span_ce,False
-lombard, ,568 – 774 C.E.,Kingdom of the Lombards 568-774,span_ce,False
+khmer_empire,804 – 1431,804 – 1431, ,timespan,True
+byzantine_empire,330 – 1453,330 – 1453, ,timespan,True
+ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
+holy_roman_empire,800 – 924,800 – 924, ,timespan,True
+holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True
+inca_empire,1438 – 1533,1438 – 1533, ,timespan,True
+gupta_empire,319 – 550,319 – 550, ,timespan,True
+Umayyad,661 – 750,661 – 750, ,timespan,True
+Abbasid,750 – 1258,750 – 1258, ,timespan,True
+Mamluk,1250 – 1517,1250 – 1517, ,timespan,True
+seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
+lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True
 qing-dynasty,1636-1912,1636-1912, ,timespan,True
 ming-dynasty,1368-1644,1368-1644, ,timespan,True
 yuan-dynasty,1271-1368,1271-1368, ,timespan,True
 southern-song,1127-1279,1127-1279, ,timespan,True
 northern-song,960-1127,960-1127, ,timespan,True
 western-xia,1038-1227,1038-1227, ,timespan,True
-maya_classic,250-950,250-950, ,timespan,True
+maya_classic,250–950,250–950, ,timespan,True
 maya_postclassic,950-1539,950-1539, ,timespan,True
-tran_dynasty,1225 – 1400,1225 – 1400, ,timespan,True
-le_dynasty,1428 – 1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
+tran_dynasty,1225–1400,1225–1400, ,timespan,True
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
 revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
 edo,1603 – 1868,1603 – 1868, ,timespan,True
@@ -502,16 +502,16 @@ western-xia_c,Nyugat-Hszia,Western Xia,1038-1227,wiki,False
 Copernicus,Nicolaus Kopernikusz,Nicolaus Copernicus, ,wiki,False
 Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False
 Newton,Isaac Newton,Isaac Newton, ,wiki,False
-shang-dynasty_c,Shang-dinasztia,Shang Dynasty,c. 1600-1046 BC,wiki,False
+shang-dynasty_c,Shang-dinasztia,Shang dynasty,c. 1600-1046 BC,wiki,False
 western-zhou_c,Nyugat-Csou,Western Zhou,c. 1046-771 BC,wiki,False
 eastern-zhou_c,Kelet-Csou,Eastern Zhou,770-256 BC,wiki,False
 western-han_c,Nyugat-Han,Western Han,207 BC – 9 CE,wiki,False
 eastern-han_c,Kelet-Han,Eastern Han,25-220 CE,wiki,False
 three-kingdoms_c,Kína,China,Three kingdoms 220-280 CE,wiki,False
 sixteen-kingdoms_c,Kína,China,Sixteen kingdoms 304-439 CE,wiki,False
-northern-dynasties_c,Északi dinasztiák,Northern Dynasties,368-581 CE,wiki,False
-southern-dynasties_c,Déli dinasztiák,Southern Dynasties,420-589 CE,wiki,False
-tang-dynasty2_c,Tang-dinasztia,Tang Dynasty,"618-690, 705-907",wiki,False
+northern-dynasties_c,Északi dinasztiák,Northern dynasties,368-581 CE,wiki,False
+southern-dynasties_c,Déli dinasztiák,Southern dynasties,420-589 CE,wiki,False
+tang-dynasty2_c,Tang-dinasztia,Tang dynasty,"618-690, 705-907",wiki,False
 byzantine_empire_c, ,Byzantine Empire, ,wiki,False
 ottoman_empire_c, ,Ottoman Empire, ,wiki,False
 Genghis, ,Genghis Khan, ,wiki,False

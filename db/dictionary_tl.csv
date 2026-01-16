@@ -1,476 +1,562 @@
-key,text,english,notes,checked
-version,5.4,5.4,,TRUE
-pdf_title,6000 taon na paglalarawan na kasaysayan ng tao,6000 years human history visualized,2025-05-16,TRUE
-pdf_subject,Timeline ng sangkatauhan,Timeline of humankind,5.5,TRUE
-BCE,B.C.E.,B.C.E.,appendix B9,FALSE
-CE,C.E.,C.E.,,FALSE
-year,taon,year,"timespan, age (Adam was 130 years old when Shem was born)",TRUE
-years,taon,years,,TRUE
-years_age,taon,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",TRUE
-age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",TRUE
-month,buwan,month,,TRUE
-months,buwan,months,,FALSE
-day,araw,day,,
-days,araw,days,,
-to,—,to,,
-people,mga tao,people,,
-judges,mga hukom,judges,,
-prophets,mga propeta,prophets,,
-kings,mga hari,kings,,
-periods,mga panahon,periods,,
-events,mga pangyayari,events,,
-objects,bagay o bagay,objects or items,,
-Deluge,Delubyo,Deluge,,
-Adam,Adan,Adam,Luke 3:38,
-Seth,Set,Seth,,
-Enosh,Enos,Enosh,,
-Kenan,Kenan,Kenan,Genesis 5:12,
-Mahalalel,Mahalaleel,Mahalalel,,
-Jared,Jared,Jared,,
-Enoch,Enoc,Enoch,,
-Methuselah,Matusalem,Methuselah,Luke 3:37,
-Lamech,Lamec,Lamech,,
-Noah,Noe,Noah,,
-Shem,Sem,Shem,,
-Arpachshad,Arpacsad,Arpachshad,Luke 3:36,
-Shelah,Shela,Shelah,,
-Eber,Eber,Eber,,
-Peleg,Peleg,Peleg,,
-Reu,Reu,Reu,,
-Serug,Serug,Serug,Luke 3:35,
-Nahor,Nahor,Nahor,Genesis 11:24,
-Terah,Tera,Terah,,
-Abraham,Abraham,Abraham,,
-Isaac,Isaac,Isaac,,
-Jacob,Jacob,Jacob,Luke 3:34,
-Joseph,Joseph,Joseph,Genesis 37,
-Moses,Moises,Moses,,
-Othniel,Otniel,Othniel,Judges 3:9-11,
-Ehud,Ehud,Ehud,Judges 3:15-18,
-Shamgar,Samgar,Shamgar,Judges 3:31,
-Barak,Barak,Barak,Judges 4:6,
-Gideon,Gideon,Gideon,Judges 7:1,
-Tola,Tola,Tola,Judges 10:1,
-Jair,Jair,Jair,Judges 10:3,
-Jephthah,Jepte,Jephthah,Judges 11:1,
-Ibzan,Ibzan,Ibzan,Judges 12:8,
-Elon,Elon,Elon,Judges 12:11,
-Abdon,Abdon,Abdon,Judges 12:13,
-Samson,Samson,Samson,Judges 13:24,
-Samuel,Samuel,Samuel,1 Samuel 1:20,
-Saul,Saul,Saul,1 Samuel 9:2,
-David,David,David,1 Samuel 16:13,
-Solomon,Solomon,Solomon,1 Kings 2:1,
-Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,
-Abijah,Abias (Abiam),Abijah (Abijam),"3 years, also Abijam",
-Asa,Asa,Asa,A6-A,
-Jehoshaphat,Jehosapat,Jehoshaphat,,
-Jehoram2,Jehoram,Jehoram,,
-Ahaziah,Ahazias,Ahaziah,,
-Athaliah,Reyna Athalia,Queen Athaliah,Queen Athaliah,
-Jehoash,Jehoas,Jehoash,,
-Amaziah,Amazias,Amaziah,,
-Uzziah,Uzias (Azarias),Uzziah (Azariah),also Azariah,
-Jotham,Jotam,Jotham,A6-B,
-Ahaz,Ahaz,Ahaz,,
-Hezekiah,Hezekias,Hezekiah,,
-Manasseh,Manases,Manasseh,,
-Amon,Amon,Amon,,
-Josiah,Josias,Josiah,,
-Jehoahaz,Jehoahaz,Jehoahaz,Only 3 months,
-Jehoiakim,Jehoiakim,Jehoiakim,,
-Jehoiachin,Jehoiakin,Jehoiachin,Only 3 months 10 days,
-Zedekiah,Zedekias,Zedekiah,,
-Jeroboam,Jeroboam II,Jeroboam,first king of northern 10-tribe kingdom,
-Nadab,Nadab,Nadab,less than 2,
-Baasha,Baasa,Baasha,,
-Elah,Elah,Elah,,
-Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,
-OmriTibni,Omri at Tibni,Omri and Tibni together,4 years Omri and Tibni,
-Omri,Omri (mag-isa),Omri (alone),from 947 Omri alone,
-Ahab,Ahab,Ahab,,
-Jehoram,Jehoram,Jehoram,,
-Jehu,Jehu,Jehu,,
-Jeoahaz,Jeoahaz,Jeoahaz,,
-JeoahazJehoash,Jehoahaz at Jehoas,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,
-Jehoash2,Jehoas (mag-isa),Jehoash (alone),Jehoash (alone),
-Jeroboam2,Jeroboam II,Jeroboam II,,
-Zechariah,Zacarias,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",
-Schallum,Salum,Schallum,only one month,
-Menahem,Menahem,Menahem,,
-Pekahiah,Pekahias,Pekahiah,,
-Pekah,Peka,Pekah,,
-Hoshea,Hosea,Hoshea,9 years from c. 748,
-Elijah,Elias,Elijah,,
-Elisha,Eliseo,Elisha,,
-Jonah,Jonas,Jonah,,
-Amos,Amos,Amos,,
-Joel,Joel,Joel,,
-Hosea,Oseas,Hosea,,
-Isaiah,Isaias,Isaiah,,
-Micah,Mikas,Micah,,
-Zephaniah,Zefanias,Zephaniah,,
-Nahum,Nahum,Nahum,,
-Jeremiah,Jeremiah,Jeremiah,,
-Habakuk,Habakuk,Habakuk,,
-Daniel,Daniel,Daniel,,
-Ezekiel,Ezekiel,Ezekiel,,
-Obadiah,Obadias,Obadiah,,
-Malachi,Malakias,Malachi,,
-Ruth,Ruth,Ruth,,
-Ezra,Ezra,Ezra,,
-Nehemiah,Nehemias,Nehemiah,,
-Esther,Esther,Esther,,
-Job,Job,Job,,
-moses2,1593 hanggang 1473 B.C.E. – 120 taon,1593 to 1473 B.C.E. – 120 years,,
-moses3,Moses,Moses,,
-wilderness,Israel sa ilang 1513 hanggang 1473 B.C.E. – 40 taon,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,,
-timespan_judges,1473 hanggang 1117 B.C.E. – 356 taon,1473 to 1117 B.C.E. – 356 years,,
-timespan_judges2,Panahon ng mga hukom,Time of the judges,,
-temple1,Nisan 1513 B.C.E. hanggang Ziv 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,
-temple2,479 taon bago tinayo ang templo – 1 Hari 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,
-69weeks,Binautismuhan si Jesus noong taglagas 29 C.E.,Jesus baptized autumn 29 C.E.,,
-69weeks2,69 na linggo bago dumating ang Mesiyas - Daniel 9:25,69 weeks to the Messiah – Daniel 9:25,,
-jesus_service,"3.5 taon na ministeryo niJesus, pinatay - Nisan 14, 33 C.E.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",,
-jesus_life,Ipinanganak si Jesus noong 2 B.C.E.,Jesus born 2 B.C.E.,,
-exile,607 hanggang 537 B.C.E. – 70 taon (Jeremias 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),,
-exile2,Exile,Exile,old: pagpapatapon,
-7times,Apocalipsis 12:9,Revelation 12:9,,
-7times2,7 beses – 2520 taon hanggang sa Mesiyanikong Kaharian 1914 C.E. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),,
-ww1,Digmaang Pandaigdig I – 1914–1918,World War I – 1914–1918 C.E.,,
-ww2,Digmaang Pandaigdig II – 1939–1945,World War II – 1939–1945 C.E.,,
-30_year_war,30 - Taong Digmaan sa Europa 1618-1648,Thirty Years' War in Europe 1618-1648,,
-joshua,110 taon,110 years,,
-joshua2,Joshua,Joshua,,
-caleb,higit 85 na taon,more than 85 years,,
-caleb2,Caleb,Caleb,,
-missionary1,"Unang Paglalakbay ni Pablo, c. 47-48 C.E. kasama sina Bernabe at Juan Marcos","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark",,
-circumcision,"Isyo ng pagtutuli sa Antioquia, kumperensya sa Jerusalem 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.",,
-missionary2,Ikalawang Paglalakbay ni Pablo c. 49-52 C.E kasama si Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),,
-missionary3,Ikatlong Paglalakbay ni Pablo c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E.,,
-caesarea,Pagkabilango ni Pablo sa Caesarea c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E.,,
-rome1,Unang pagkabilanggo ni Pablo sa Roma c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E.,,
-rome2,"Ikalawang pagkabilanggo ni Pablo sa Roma c. 65 CE, Isinulat ang 2 Timoteo, pinatay si Pablo","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",,
-Julius,Julio,Julius,,
-Augustus,Augusto,Augustus,Luke 2:1,
-Tiberius,Tiberio,Tiberius,Luke 3:1,
-Caligula,Caligula,Caligula,,
-Claudius,Claudio,Claudius,Acts 11:28,
-Nero,Nero,Nero,,
-Galba-Otho-Vitellius,"Galba, Otho at Vitellius (Taon ng Apat na Emperador)","Galba, Otho and Vitellius (Year of the Four Emperors)",,
-Vespasian,Vespasian,Vespasian,,
-event_exodus,"Pag-alis mula sa Ehipto noong ika-14 ng Nisan, 1513 B.C.E.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.",,
-event_division_kingdom,Dibisyon ng Israel 997 BCE,Division of Israel 997 BCE,,
-event_destruction_samaria,Pagkawasak ng Samaria 740 B.C.E. ng Asiria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,
-event_destruction_samaria2,740 B.C.E. ng Asiria,740 B.C.E. by Assyria,was shortened here for 2 lines,
-event_destruction_jerusalem1,"Pagkawasak ng Jerusalem 607 B.C.E. ng Babilonya, 390 taon pagkatapos ng paghahati ng kaharian (Ezekiel 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",,
-event_temple_rebuilt,Muling tinayo ang templo sa Jerusalem - 515,Temple in Jerusalem rebuilt 515 B.C.E.,,
-event_jerusalem_rebuilt,Muling tinayo ang pader ng Jerusalem - 455,Jerusalem wall rebuilt 455 B.C.E.,,
-event_destruction_jerusalem2,Pagkawasak ng Jerusalem 70 C.E.- Roma (kay Titus),Destruction of Jerusalem 70 C.E. by Rome under Titus,,
-event_1914,"Katapusan ng panahon ng mga bansa (Lucas 21:24), kaharian ng Diyos nagsimulang mamahala -1914 C.E.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,
-became_king,naging hari sa edad,becomes king at age,2025-04-14,
-vulgate,Natapos ni Jerome ang Vulgate (salin sa Latin ng bibliya) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,,
-gutenberg,Ang Bibliyang Gutenberg ay inilimbag -1455,Gutenberg Bible printed 1455,,
-erasmus,Griegong salin ng Kristiyanong Griegong Kasulatan inilathala ni Desiderius Erasmus ng Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,,
-luther,Pagsasalin ng Bibliya ni Luther noong Setyembre 1522,Luther Bible translation in September 1522,,
-tyndale,Pagsasalin ng Bibliya sa Ingles ni Tyndale 1536,English Bible translation by Tyndale 1536,,
-king_james,King James Bible 1611,King James Bible 1611,,
-69weeks3,"Sinimulan ni Jesus ang kaniyang ministeryo 29 CE (Lucas 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",,
-ransom,"Kalagitnaan ng linggo ""patitigilin ang pagaalay"" Dan 9:27",Middle of week “sacrifice to cease” Daniel 9:27,,
-cornelius,Nagbautismo si Cornelio sa pagtatapos ng 70 linggo (Daniel 9:24) noong 36 C.E.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,,
-columbus,Pagtatapos ng pre-columbian period sa Americas 1492,End of the pre-columbian period in the Americas 1492,,
-declaration_independence,Deklarasyon ng kalayaan ng 13 kolonya sa America 1776,Declaration of independence of 13 colonies in America 1776,,
-tischendorf,Natuklasan ni Tischendorf ang Codex Sinaiticus mula sa ika-4 na siglo noong 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,,
-dead_sea_scrolls,Isinulat ang Dead Sea Scrolls,Dead Sea Scrolls written,,
-septuagint,Isinalin ang Septuagint LXX,Septuagint LXX translated,,
-watchtower,Ang unang isyu ng “Zion’s Watch Tower and Herald of Christ’s Presence” ay inilathala noong 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,,
-photodrama,"Ang “Photo-Drama of Creation” ay unang ipinalabas sa New York noong Enero 11, 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",,
-jehovahs_witnesses,"Estudyante ng Bibliya may bagong pangalan - Mga Saksi ni Jehova (Isaias 43:10, 12) sa Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,
-gilead_school,"Ang Watchtower Bible School of Gilead ay nagsimula , Pebrero 1, 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943",,
-new_world_translation1,"“New World Translation of the Holy Scriptures” na inilabas sa Manchester, England - Hunyo 18, 1960, ay binalik ang pangalang Jehova sa maraming bahagi ng Bibliya","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,
-truth_book,“The Truth That Leads to Eternal Life” ay inilabas noong 1968,The book “The Truth That Leads to Eternal Life” is released 1968,,
-metropolitan,Nagsimula ang metropolitan witnessing noong 2011,Start of metropolitan witnessing in 2011,,
-jw_org,Nagsimula ang JW.ORG - may mga tagubilin sa ministeryo - Disyembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012,,
-new_world_translation2,"Binagong “Bagong Sanlibutang Salin ng Banal na Kasulatan” inilabas sa taunang pulong 2013, na-optimize para magamit sa digital at online","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,
-jw_broadcasting,Simula ng jw.broadcasting noong Oktubre 2014,Start of JW Broadcasting® in October 2014,,
-meeting_workbook,"Bagong pormat ng midweek meeting na may ""workbook ng pagpupulong"" simula Enero 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016,,
-covid19,COVID-19,Covid-19,,
-cold_war,"Geopolitikal na sitwasyon - ""Cold War"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991,,
-timeline_created,"Itong timeline ay ginawa - 2023, pinakamainit na taon sa nakalipas 125,000 na panahon","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",,
-codex_sinaiticus,Isinulat ang Codex Sinaiticus,Codex Sinaiticus written,,
-codex_vaticanus,Isinulat ang Codex Vaticanus,Codex Vaticanus written,,
-leningrad_codex,Leningrad Codex na isinulat sa Cairo AD 1008,Leningrad Codex written in Cairo AD 1008,,
-john,Isinulat ni Juan ang “Apocalipsis” nong ipinatapon sa Patmos 96-98 C.E.,John writes “revelation” while exiled on Patmos 96-98 C.E.,,
-nicaea1,Unang Konseho ng Nicea,First Council of Nicaea,,
-buddha,Buddha – Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,,
-buddha2,Buddha bilang kahalili c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E.,,
-mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632 C.E.,,
-confucius,Confucius c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E.,,
-hijrah,Hijrah - Paglakbay sa Mecca - Medina 16 Hulyo 622,Hijrah - Journey Mecca to Medina 16 July 622,,
-moses_escape,"1553 B.C.E. Kailangang makatakas si Moises sa Ehipto - Exo.2:15, Gawa 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",,
-10plagues,1513 B.C.E Nakatanggap ang Ehipto ng 10 salot,1513 B.C.E Egypt receives 10 plagues,,
-joseph_sold,Nabenta si Jose bilang alipin sa edad na 17 – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2,,
-infliction,400 taon na pagpapahirap (Gawa 7:6) – Ismael 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,,
-Alexander,Alejandrong Dakila (Daniel 11:3),Alexander the Great (Daniel 11:3),,
-persia,"Cirong Dakila, Cambyses II, Dario I 490 BCE, Jerjes I 480 BCE (asawa ni Esther, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",,
-persia2,Persia,Persia,,
-king_north,"Seleucus I Nicator (v5) Syria hanggang Antiochus III (v10) at Seleucus IV (v18, 19) hanggang Octavian (v20) at Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",,
-king_north1,Hari ng Hilaga,King of the North,,
-king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) hanggang sa labanang Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",,
-king_south1,Hari ng Timog,King of the South,,
-king_south2,"British empire 1870, Anglo-American World Power mula noong 1914","British Empire 1870, Anglo-American World Power since 1914",,
-king_south3,Hari ng Timog,King of the South,,
-king_north2,"Germany kasama si Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,
-king_north3,Hilaga,North,,
-king_north4,"Unyong Sobyet 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",,
-king_north5,Russia mula noong 2017 (w20 May),Russia since 2017 (w20 May),,
-time_of_end,"Presensya ni Kristo, Konklusyon ng sistema ng mga bagay (Mateo 24:3), ang mga huling araw (2 Timoteo 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,
-time_of_end2,Mga huling Araw,Last days,,
-suryavaman2,Itinayo ni Haring Suryavarman II ang Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,,
-notre-dame,Itinayo ang Notre-Dame de Paris noong 1163-1260,Notre-Dame de Paris built 1163-1260,,
-jehoiada,Jehoiada,Jehoiada,2 Kings 11:4,
-babel,Itinayo ang tore ng Babel,Tower of Babel built,,
-Haggai,Hagai,Haggai,,
-Zerubbabel,Zorobabel (Lucas 3:27),Zerubbabel (Luke 3:27),Luke 3:27,
-Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",,
-Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",,
-Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",,
-Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",,
-Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43",,
-Babylon_c,Babilonya,Babylon,,
-Medopersia_c,Medo-Persia,Medo-Persia,,
-Greece_c,Gresya,Greece,,
-Rome_c,Roma,Rome,,
-Angloamerica_c,Anglo-Amerika,Anglo-America,,
-infliction1,400 taon na pagpapahirap,400 year infliction,Acts 7:6,
-infliction2,Gawa 7:6,Acts 7:6,,
-Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,
-Israel,Israel,Israel,Genesis 35:10,
-Sarah,Sara,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",
-Hagar,Hagar,Hagar,Genesis 21:14,
-Haran,Haran,Haran,Genesis 11:26,
-Reumah,Reuma,Reumah,Concubine – 4 sons 22:24,
-Milcah,Milca,Milcah,8 sons (Bethuel and 7 more),
-Lot,Lot,Lot,Genesis 11:27,
-Lots_wife,Asawa ni Lot,Lot’s wife,,
-Lots_daughters,Mga Anak ni Lot,Daughters of Lot,,
-Moab,Moab (nakatandang anak ),Moab (older daughter),Genesis 19:37,
-Ammon,Ben-ami (Ammon),Ben-ammi (Ammon),Genesis 19:38,
-Bethuel,Betuel,Bethuel,Genesis 22:23,
-Rebekah,Rebeka,Rebekah,,
-Laban,Laban,Laban,Genesis 24:29,
-Leah,Lea,Leah,Genesis 35:23,
-Rachel,Raquel,Rachel,Genesis 35:24,
-Bilhah,Bilha,Bilhah,Genesis 35:25,
-Zilpah,Zilpa,Zilpah,Genesis 35:26,
-Reuben,Ruben,Reuben,,
-Simeon,Simeon,Simeon,,
-Levi,Levi,Levi,Genesis 35:23,
-Judah,Juda,Judah,,
-Issachar,Isacar,Issachar,,
-Zebulun,Zebulon,Zebulun,,
-Dinah,Dina,Dinah,Genesis 34,
-Esau,Esau/,Esau/,,
-Edom,Edom,Edom,Genesis 36:1,
-Ishmael,Ismael,Ishmael,Genesis 16:16,
-Manasseh2,(Manasse,(Manasseh,Genesis 41:50-52,
-Ephraim,at Efraim),and Ephraim),,
-Benjamin,Benjamin,Benjamin,,
-Dan,Dan,Dan,Genesis 35:23,
-Naphtali,Neptali,Naphtali,,
-Gad,Gad,Gad,,
-Asher,Aser,Asher,,
-Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,
-Milcah2,"Kesed, Hazo,","Chesed, Hazo,",,
-Milcah3,"Pildas, Jidlap","Pildash, Jidlaph",,
-Tebah,Teba,Tebah,Genesis 22:24,
-Gaham,Gaham,Gaham,,
-Tahash,Tahas,Tahash,,
-Maacah,Maaca,Maacah,,
-Mahalath,Mahalat/,Mahalath/,"Genesis 28:8, 9",
-Basemath,Basemat,Basemath,"Genesis36:3, 4",
-Reuel,Reuel,Reuel,"36:13, 17",
-Nahath,Nahat,Nahath,,
-Zerah,Zera,Zerah,,
-Schammah,Schammah,Schammah,,
-Mizzah,Miza,Mizzah,,
-Adah,Ada,Adah,"36:11, 12, 15, 16",
-Eliphaz,Elipaz,Eliphaz,,
-Teman,Teman,Teman,,
-Omar,Omar,Omar,,
-Zepho,Zepo,Zepho,,
-Kenaz,Kenaz,Kenaz,,
-Korah,Kora,Korah,,
-Gatam,Gatam,Gatam,,
-Amalek,Amalek,Amalek,,
-Oholibamah,Oholibama,Oholibamah,"36:14, 18",
-Jeush,Jeus,Jeush,,
-Jalam,Jalam,Jalam,,
-Nebaioth,Nebaiot,Nebaioth,Genesis 25:13,
-Kedar,Kedar,Kedar,,
-Adbeel,Adbeel,Adbeel,,
-Mibsam,Mibsam,Mibsam,,
-Mishma,Misma,Mishma,,
-Dumah,Duma,Dumah,,
-Massa,Masa,Massa,,
-Hadad,Hadad,Hadad,,
-Tema,Tema,Tema,,
-Jetur,Jetur,Jetur,,
-Naphish,Napis,Naphish,,
-Kedemah,Kedema,Kedemah,,
-Babylon2,,,no text left and right – empty!,
-terahfam,miyembro ng pamilya ni Tera,Members of Terah’s family,,
-rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E.,,
-Herodotus,"Herodotus c. 484 – c. 425 BC, isinulat ang The History","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,
-Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",
-Ptolemy,Ptolemy c 100 – c. 170 C.E.,Ptolemy c 100 – c. 170 C.E.,,
-Pythagoras,Pythagoras c. 570 – c. 495 BC,Pythagoras c. 570 – c. 495 BC,,
-Plato,Plato c. 427 – c. 348 BC,Plato c. 427 – c. 348 BC,,
-Socrates,Socrates c. 470 – c. 399 BC,Socrates c. 470 – c. 399 BC,,
-Josephus,Josephus c. 37 – c. 100 C.E.,Josephus c. 37 – c. 100 C.E.,,
-Cicero,Cicero 106–43 BC,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",
-lachish_letters,Mga titik ng Lachish c. 590 B.C.E.,Lachish letters c. 590 B.C.E.,,
-lachish_reliefs,Mga relief ng Lachish c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E.,,
-mesha_stele,Mesha Stele (Batong Moabita) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,
-gilgamesh,Gilgamesh at Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,,
-epic_gilgamesh,Epiko ni Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),,
-oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,,
-p52,Papyrus P52,Papyrus P52,,
-daniel2_shift,-3,-3,Start 4.2,
-daniel2_1,Winasak ni Haring Nabu-,King Nebuchadnezzar,607 BCE,
-daniel2_2,codonosor ang Jerusalem,destroys Jerusalem,,
-daniel2_3,Tinalo ang Babilonya,Conquers Babylon,539 BCE,
-daniel2_4,Iniutos ni Ciro na bumalik ang,Cyrus decrees return,537 BCE,
-daniel2_5,mga Judio sa Jerusalem,of Jews to Jerusalem,,
-daniel2_6,Tinalo ni Alejandrong,Alexander the Great,331 BCE,
-daniel2_7,Dakila ang Persia,conquers Persia,,
-daniel2_8,Nagsimulang mamahala sa Israel,Rules over Israel,63 BCE,
-daniel2_9,Winasak ang Jerusalem,Destroys Jerusalem,70 CE,
-daniel2_10,"Noong Digmaang Pandaigdig I,","During World War I,",1914-1918 CE,
-daniel2_11,nabuo ang Kapangyarihang,Anglo-American World Power,,
-daniel2_12,Pandaigdig na Anglo-Amerikano,comes into being,End 4.2,
-qing-dynasty,1636-1912,1636-1912,,
-qing-dynasty_c,Dinastiyang Qing,Qing dynasty,1636-1912,
-ming-dynasty,1368-1644,1368-1644,,
-ming-dynasty_c,Dinastiyang Ming sa imperyal na Tsina,Ming dynasty in imperial China,1368-1644,
-yuan-dynasty,1271-1368,1271-1368,,
-southern-song,1127-1279,1127-1279,,
-northern-song,960-1127,960-1127,,
-western-xia,1038-1227,1038-1227,,
-yuan-dynasty_c,Yuan,Yuan,1271-1368,
-southern-song_c,Timog na Song,Southern Song,1127-1279,
-northern-song_c,Hilagang Song,Northern Song,960-1127,
-western-xia_c,Kanlurang Xia,Western Xia,1038-1227,
-Copernicus,Nicolaus Copernicus,Nicolaus Copernicus,,
-Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,
-Newton,Isaac Newton,Isaac Newton,,
-gregorian,Kalendaryo na Gregorian 1582,Gregorian calendar 1582,,
-shang-dynasty,c. 1600-1046 BC,c. 1600-1046 BC,,
-western-zhou,c. 1046-771 BC,c. 1046-771 BC,,
-eastern-zhou,770-256 BC,770-256 BC,,
-qin-dynasty,Qin 221-207 BC,Qin 221-207 BC,,
-western-han,207 BC – 9 CE,207 BC – 9 CE,,
-eastern-han,25-220 CE,25-220 CE,,
-three-kingdoms,Tatlong kaharian 220-280 CE,Three kingdoms 220-280 CE,,
-sixteen-kingdoms,Labing-anim na kaharian 304-439 CE,Sixteen kingdoms 304-439 CE,,
-northern-dynasties,368-581 CE,368-581 CE,,
-southern-dynasties,420-589 CE,420-589 CE,,
-tang-dynasty1,,,,
-tang-dynasty2,"618-690, 705-907","618-690, 705-907",,
-wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,,
-shang-dynasty_c,Dinastiyang Shang,Shang dynasty,c. 1600-1046 BC,
-western-zhou_c,Kanlurang Zhou,Western Zhou,c. 1046-771 BC,
-eastern-zhou_c,Silangang Zhou,Eastern Zhou,770-256 BC,
-western-han_c,Kanlurang Han,Western Han,207 BC – 9 CE,
-eastern-han_c,Silangang Han,Eastern Han,25-220 CE,
-three-kingdoms_c,Tsina,China,Three kingdoms 220-280 CE,
-sixteen-kingdoms_c,Tsina,China,Sixteen kingdoms 304-439 CE,
-northern-dynasties_c,Hilagang Dinastiya,Northern dynasties,368-581 CE,
-southern-dynasties_c,Kanlurang Dinastiya,Southern dynasties,420-589 CE,
-tang-dynasty1_c,Tang,Tang,,
-tang-dynasty2_c,Dinastiyang Tang,Tang dynasty,"618-690, 705-907",
-xia-dynasty,Dinastiyang Xia sa China c. 2070 – c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC,,
-gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC,,
-Ashoka,Si Ashoka (c. 304-232 BC) ay nagtataguyod ng Budismo,Ashoka (c. 304-232 BC) promotes Buddhism,,
-siloam-tunnel,Pinahaba ni Hezekias ang lagusan ng Siloam,Hezekiah extends Siloam tunnel,c. 742-732 BC,
-Angloamerica2,"Ang Anglo-Amerikano ay sumasagisag sa paa na bakal na hinaluan ng putik sa hula sa Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",,
-Manetho,Isinulat ni Manetho ang Aegyptiaca,Manetho writes Aegyptiaca,,
-tribulation,"Malaking Kapighatian (Mar 13:19; Dan 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",,
-destruction_babylon,"Pagkawasak ng Babilonyang Dakila (Apo 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),
-gog_of_magog,"Pag-atake ni Gog ng Magog (Ezekiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,
-sheep_goat,"Ang mga naninirahan sa lupa ay hahatulan, ibubukod ang mga tupa sa kambing (Mateo 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,
-annointed,Pagtitipon ng mga tagapamahala ng Kaharian (Mateo 24:31; 1 Corinto 15:50-53; 1 Tesalonica 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,
-armageddon,"Labanan ng Armagedon (Apocalipsis 16:14, 16; Isaias 13:9; 2 Pedro 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,
-millenium,"Simula ng 1000 na paghahari ng Kaharian ng Diyos (Apocalipsis 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",,
-great_crowd,"Isang malaking pulutong ang makaligtas sa Armagedon (Apocalipsis 7:9, 14; Awit 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",,
-world_population,Bilyon-bilyon ang populasyon ng mundo sa nakalipas na 2000 taon,World population in billions in the last 2000 years,,
-607BCE,607 B.C.E.,607 B.C.E.,accommodate for language,
-539BCE,539 B.C.E.,539 B.C.E.,systems in style:,
-537BCE,537 B.C.E.,537 B.C.E.,>>year 537 before time<<,
-331BCE,331 B.C.E.,331 B.C.E.,so they need a word,
-63BCE,63 B.C.E.,63 B.C.E.,prior to the year,
-70CE,70 C.E.,70 C.E.,and something,
-1914CE,1914-1918 C.E.,1914-1918 C.E.,after the year,
-khmer_empire,804 – 1431 C.E.,804 – 1431 C.E.,,
-khmer_empire_c,Imperyong Khmer - Panahon ng Angkor,Khmer Empire - Angkor period,,
-byzantine_empire,330-1453 C.E.,330-1453 C.E.,,
-byzantine_empire_c,Imperyong Byzantine,Byzantine Empire,,
-ottoman_empire,1299 – 1922 C.E.,1299 – 1922 C.E.,,
-ottoman_empire_c,Imperyong Ottoman,Ottoman Empire,,
-holy_roman_empire,800 – 924 C.E.,800 – 924 C.E.,,
-holy_roman_empire2,962 – 1806 C.E.,962 – 1806 C.E.,fixed 2024-12-31,
-holy_roman_empire_c,Banal na Imperyong Romano – Kinilalang Banal na Imperyong Romano ng Bansang Aleman noong 1512,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,,
-mongol_empire,Imperyong Mongol 1206 – 1294 C.E.,Mongol Empire 1206 – 1294 C.E.,,
-Genghis,Genghis Khan,Genghis Khan,,
-maya_classic,250-950,250-950,,
-maya_classic_c,Kabihasnang Maya – klasikong panahon,Maya civilization – Classic period,,
-maya_postclassic,950-1539,950-1539,,
-maya_postclassic_c,Kabihasnang Maya – postclassic period,Maya civilization – Postclassic period,,
-inca_empire,1438 – 1533 C.E.,1438 – 1533 C.E.,,
-inca_empire_c,Imperyo ng inca,Inca empire,,
-gupta_empire,319 – 550 C.E.,319 – 550 C.E.,,
-gupta_empire_c,Imperyong Gupta,Gupta Empire,,
-Teotihuacan,"Pinakamalaking lungsod sa Americas, pyramids build c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.",,
-Teotihuacan_c,Teotihuacan,Teotihuacan,,
-Dionysius_Exiguus,"Dionysius Exiguus, imbentor ng Anno Domini","Dionysius Exiguus, inventor of Anno Domini",,
-Umayyad,661 – 750 C.E.,661 – 750 C.E.,,
-Umayyad_c,Umayyad,Umayyad,,
-Abbasid,750 – 1258 C.E.,750 – 1258 C.E.,,
-Abbasid_c,Abbasid Caliphate,Abbasid Caliphate,,
-Mamluk,1250 – 1517 C.E.,1250 – 1517 C.E.,,
-Mamluk_c,Sultanato ng Mamluk,Mamluk Sultanate,,
-ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠,,
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,,
-Al-Khwarizmi,Isinulat ni al Khwarizmi ang Al Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra),,
-al-azhar,Ang Al Azhar University ay itinatag sa Cairo,Al-Azhar University is established in Cairo,,
-Ibn-Sina,Ibn Sina o Avicenna,Ibn Sina or Avicenna,,
-Al-Ghazali,Al Ghazali,Al-Ghazali,2024-07-30,
-Keturah,Ketura,Keturah,Genesis 25:1-4,
-Zimran,Zimran,Zimran,,
-Jokshan,Joksan,Jokshan,,
-Medan,Medan,Medan,,
-Midian,Midian,Midian,,
-Ishbak,Isbak,Ishbak,,
-Shuah,Shuah,Shuah,,
-Timna,Timna,Timna,"1 Chr 1:36, Ge 36:10-12",
-Midianites,"1) Midianita: Bilang 31:2, 3","1) Midianites: Numbers 31:2, 3",,
-Moabites,"2) Moabita: Deuteronomio 23:3, 4","2) Moabites: Deuteronomy 23:3, 4",,
-Ammonites,3) Ammonita: Josue 12:2,3) Ammonites: Joshua 12:2,,
-Edomites,4) Edomita: Bilang 20:14-17,4) Edomites: Numbers 20:14-17,,
-Temanites,5) Temanita: Job 42:7,5) Temanites: Job 42:7,,
-Amalekites,6) Amalekita: 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,
-life-expectancy,Haba ng buhay 75 taon,Life expectancy 75 years,,
-life-expectancy2,(Awit 90:10),(Psalm 90:10),2024-11-29,
-430years,1943 – 1513 B.C.E.,1943 – 1513 B.C.E.,,
-430years_c,"430 taon: Exodo 12:41, Galacia 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,
-maya_calendar,"Kinalkula na pasimula ng Kalendaryo Maya Augosto 11, 3114 B.C.E.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,
-xia-dynasty2,c. 2070 – c. 1600 BC; Kapanahunan na unang nabanggit sa panahon ng Kanlurang Zhou ,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,
-xia-dynasty2_c,Xia dinastiya ng Tsina,Xia dynasty in China,,
-tres_zapotes,"Septembre 3rd, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,
-joseph_jacob_reunited,Jose at Jacob nagpisan muli sa Egypto – 1728 B.C.E. (Gen 45:11; 47:9,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,
-king_south_light,,,2025-02-05,
-king_south_light_c,Hari ng Timog ulat ni Daniel 11,King of the South from Daniel 11,2025-02-05,
-king_north_light,,,2025-02-05,
-king_north_light_c,Hari ng Hilaga ulat ni Daniel 11,King of the North from Daniel 11,2025-02-05,
-daniel2_iron,,,2025-02-05,
-daniel2_iron_c,Bakal na binti ulat ni Daniel 2,Iron legs from Daniel 2,2025-02-05,
+key,text,english,notes,tag,checked
+version,5.4,6.01, ,float,True
+pdf_title,6000 taon na paglalarawan na kasaysayan ng tao,6000 years human history visualized,2026-01-16,text,True
+pdf_subject,Timeline ng sangkatauhan,Timeline of humankind,5.5,text,True
+BCE,B.C.E.,B.C.E.,appendix B9,B9,False
+CE,C.E.,C.E., ,B9,False
+month,buwan,month, ,text,True
+months,buwan,months, ,text,False
+day,araw,day, ,text,False
+days,araw,days, ,text,False
+to,—,to, ,text,False
+Deluge,Delubyo,Deluge, ,text,False
+moses2,1593 hanggang 1473 B.C.E. – 120 taon,1593 to 1473 B.C.E. – 120 years, ,text,False
+temple1,Nisan 1513 B.C.E. hanggang Ziv 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False
+69weeks,Binautismuhan si Jesus noong taglagas 29 C.E.,Jesus baptized autumn 29 C.E., ,text,False
+year,taon,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True
+years,taon,years, ,text,True
+years_age,taon,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True
+age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,True
+wilderness,Israel sa ilang 1513 hanggang 1473 B.C.E. – 40 taon,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
+timespan_judges,1473 hanggang 1117 B.C.E. – 356 taon,1473 to 1117 B.C.E. – 356 years, ,text,False
+timespan_judges2,Panahon ng mga hukom,Time of the judges, ,text,False
+temple2,479 taon bago tinayo ang templo – 1 Hari 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False
+69weeks2,69 na linggo bago dumating ang Mesiyas - Daniel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False
+jesus_service,"3.5 taon na ministeryo niJesus, pinatay - Nisan 14, 33 C.E.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False
+jesus_life,Ipinanganak si Jesus noong 2 B.C.E.,Jesus born 2 B.C.E., ,text,False
+exile,607 hanggang 537 B.C.E. – 70 taon (Jeremias 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False
+exile2,Exile,Exile,old: pagpapatapon,text,False
+7times2,7 beses – 2520 taon hanggang sa Mesiyanikong Kaharian 1914 C.E. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False
+ww1,Digmaang Pandaigdig I – 1914–1918,World War I – 1914–1918, ,text,False
+ww2,Digmaang Pandaigdig II – 1939–1945,World War II – 1939–1945, ,text,False
+30_year_war,30 - Taong Digmaan sa Europa 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False
+joshua,110 taon,110 years, ,text,False
+caleb,higit 85 na taon,more than 85 years, ,text,False
+missionary1,"Unang Paglalakbay ni Pablo, c. 47-48 C.E. kasama sina Bernabe at Juan Marcos","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False
+circumcision,"Isyo ng pagtutuli sa Antioquia, kumperensya sa Jerusalem 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False
+missionary2,Ikalawang Paglalakbay ni Pablo c. 49-52 C.E kasama si Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False
+missionary3,Ikatlong Paglalakbay ni Pablo c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False
+caesarea,Pagkabilango ni Pablo sa Caesarea c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False
+rome1,Unang pagkabilanggo ni Pablo sa Roma c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False
+rome2,"Ikalawang pagkabilanggo ni Pablo sa Roma c. 65 CE, Isinulat ang 2 Timoteo, pinatay si Pablo","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False
+event_exodus,"Pag-alis mula sa Ehipto noong ika-14 ng Nisan, 1513 B.C.E.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False
+event_division_kingdom,Dibisyon ng Israel 997 BCE,Division of Israel 997 BCE, ,text,False
+event_destruction_samaria,Pagkawasak ng Samaria 740 B.C.E. ng Asiria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False
+event_destruction_jerusalem1,"Pagkawasak ng Jerusalem 607 B.C.E. ng Babilonya, 390 taon pagkatapos ng paghahati ng kaharian (Ezekiel 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False
+event_temple_rebuilt,Muling tinayo ang templo sa Jerusalem - 515,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False
+event_jerusalem_rebuilt,Muling tinayo ang pader ng Jerusalem - 455,Jerusalem wall rebuilt 455 B.C.E., ,text,False
+event_destruction_jerusalem2,Pagkawasak ng Jerusalem 70 C.E.- Roma (kay Titus),Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False
+event_1914,"Katapusan ng panahon ng mga bansa (Lucas 21:24), kaharian ng Diyos nagsimulang mamahala -1914 C.E.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False
+became_king,naging hari sa edad,becomes king at age,2025-04-14,text,False
+vulgate,Natapos ni Jerome ang Vulgate (salin sa Latin ng bibliya) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False
+gutenberg,Ang Bibliyang Gutenberg ay inilimbag -1455,Gutenberg Bible printed 1455, ,text,False
+erasmus,Griegong salin ng Kristiyanong Griegong Kasulatan inilathala ni Desiderius Erasmus ng Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False
+luther,Pagsasalin ng Bibliya ni Luther noong Setyembre 1522,Luther Bible translation in September 1522, ,text,False
+tyndale,Pagsasalin ng Bibliya sa Ingles ni Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False
+king_james,King James Bible 1611,King James Bible 1611, ,text,False
+69weeks3,"Sinimulan ni Jesus ang kaniyang ministeryo 29 CE (Lucas 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False
+ransom,"Kalagitnaan ng linggo ""patitigilin ang pagaalay"" Dan 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False
+cornelius,Nagbautismo si Cornelio sa pagtatapos ng 70 linggo (Daniel 9:24) noong 36 C.E.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False
+columbus,Pagtatapos ng pre-columbian period sa Americas 1492,End of the pre-columbian period in the Americas 1492, ,text,False
+declaration_independence,Deklarasyon ng kalayaan ng 13 kolonya sa America 1776,Declaration of independence of 13 colonies in America 1776, ,text,False
+tischendorf,Natuklasan ni Tischendorf ang Codex Sinaiticus mula sa ika-4 na siglo noong 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False
+dead_sea_scrolls,Isinulat ang Dead Sea Scrolls,Dead Sea Scrolls written, ,text,False
+septuagint,Isinalin ang Septuagint LXX,Septuagint LXX translated, ,text,False
+watchtower,Ang unang isyu ng “Zion’s Watch Tower and Herald of Christ’s Presence” ay inilathala noong 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False
+jehovahs_witnesses,"Estudyante ng Bibliya may bagong pangalan - Mga Saksi ni Jehova (Isaias 43:10, 12) sa Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False
+gilead_school,"Ang Watchtower Bible School of Gilead ay nagsimula , Pebrero 1, 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False
+new_world_translation1,"“New World Translation of the Holy Scriptures” na inilabas sa Manchester, England - Hunyo 18, 1960, ay binalik ang pangalang Jehova sa maraming bahagi ng Bibliya","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
+new_world_translation2,"Binagong “Bagong Sanlibutang Salin ng Banal na Kasulatan” inilabas sa taunang pulong 2013, na-optimize para magamit sa digital at online","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
+cold_war,"Geopolitikal na sitwasyon - ""Cold War"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
+timeline_created,"Itong timeline ay ginawa - 2023, pinakamainit na taon sa nakalipas 125,000 na panahon","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
+codex_sinaiticus,Isinulat ang Codex Sinaiticus,Codex Sinaiticus written, ,text,False
+codex_vaticanus,Isinulat ang Codex Vaticanus,Codex Vaticanus written, ,text,False
+leningrad_codex,Leningrad Codex na isinulat sa Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False
+john,Isinulat ni Juan ang “Apocalipsis” nong ipinatapon sa Patmos 96-98 C.E.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False
+buddha,Buddha – Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False
+buddha2,Buddha bilang kahalili c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False
+mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632, ,text,False
+confucius,Confucius c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False
+hijrah,Hijrah - Paglakbay sa Mecca - Medina 16 Hulyo 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False
+moses_escape,"1553 B.C.E. Kailangang makatakas si Moises sa Ehipto - Exo.2:15, Gawa 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False
+10plagues,1513 B.C.E Nakatanggap ang Ehipto ng 10 salot,1513 B.C.E Egypt receives 10 plagues, ,text,False
+joseph_sold,Nabenta si Jose bilang alipin sa edad na 17 – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False
+infliction,400 taon na pagpapahirap (Gawa 7:6) – Ismael 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False
+Alexander,Alejandrong Dakila (Daniel 11:3),Alexander the Great (Daniel 11:3), ,text,False
+persia,"Cirong Dakila, Cambyses II, Dario I 490 BCE, Jerjes I 480 BCE (asawa ni Esther, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False
+king_north,"Seleucus I Nicator (v5) Syria hanggang Antiochus III (v10) at Seleucus IV (v18, 19) hanggang Octavian (v20) at Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False
+king_north1,Hari ng Hilaga,King of the North, ,text,False
+king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) hanggang sa labanang Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False
+king_south1,Hari ng Timog,King of the South, ,text,False
+king_south2,"British empire 1870, Anglo-American World Power mula noong 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False
+king_south3,Hari ng Timog,King of the South, ,text,False
+king_north2,"Germany kasama si Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False
+king_north3,Hilaga,North, ,text,False
+king_north4,"Unyong Sobyet 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False
+king_north5,Russia mula noong 2017 (w20 May),Russia since 2017 (w20 May), ,text,False
+time_of_end,"Presensya ni Kristo, Konklusyon ng sistema ng mga bagay (Mateo 24:3), ang mga huling araw (2 Timoteo 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False
+time_of_end2,Mga huling Araw,Last days, ,text,False
+suryavaman2,Itinayo ni Haring Suryavarman II ang Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False
+notre-dame,Itinayo ang Notre-Dame de Paris noong 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False
+babel,Itinayo ang tore ng Babel,Tower of Babel built, ,text,False
+infliction1,400 taon na pagpapahirap,400 year infliction,Acts 7:6,text,False
+Lots_wife,Asawa ni Lot,Lot’s wife, ,text,False
+Lots_daughters,Mga Anak ni Lot,Daughters of Lot, ,text,False
+Moab,Moab (nakatandang anak ),Moab (older daughter),Genesis 19:37,text,False
+rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False
+Herodotus,"Herodotus c. 484 – c. 425 BC, isinulat ang The History","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False
+Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False
+Ptolemy,Ptolemy c 100 – c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False
+Pythagoras,Pythagoras c. 570 – c. 495 BC,Pythagoras c. 570 – c. 495 BC, ,text,False
+Plato,Plato c. 427 – c. 348 BC,Plato c. 427 – c. 348 BC, ,text,False
+Socrates,Socrates c. 470 – c. 399 BC,Socrates c. 470 – c. 399 BC, ,text,False
+Josephus,Josephus c. 37 – c. 100 C.E.,Josephus c. 37 – c. 100 C.E., ,text,False
+Cicero,Cicero 106–43 BC,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False
+lachish_letters,Mga titik ng Lachish c. 590 B.C.E.,Lachish letters c. 590 B.C.E., ,text,False
+lachish_reliefs,Mga relief ng Lachish c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E., ,text,False
+mesha_stele,Mesha Stele (Batong Moabita) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False
+gilgamesh,Gilgamesh at Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False
+epic_gilgamesh,Epiko ni Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False
+gregorian,Kalendaryo na Gregorian 1582,Gregorian calendar 1582, ,text,False
+shang-dynasty,c. 1600-1046 BC,c. 1600-1046 BC, ,text,False
+western-zhou,c. 1046-771 BC,c. 1046-771 BC, ,text,False
+qin-dynasty,Qin 221-207 BC,Qin 221-207 BC, ,text,False
+western-han,207 BC – 9 CE,207 BC – 9 CE, ,text,False
+three-kingdoms,Tatlong kaharian 220-280 CE,Three kingdoms 220-280 CE, ,text,False
+sixteen-kingdoms,Labing-anim na kaharian 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False
+tang-dynasty1_c,Tang,Tang, ,text,False
+gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC, ,text,False
+Ashoka,Si Ashoka (c. 304-232 BC) ay nagtataguyod ng Budismo,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False
+siloam-tunnel,Pinahaba ni Hezekias ang lagusan ng Siloam,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False
+Angloamerica2,"Ang Anglo-Amerikano ay sumasagisag sa paa na bakal na hinaluan ng putik sa hula sa Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
+Manetho,Isinulat ni Manetho ang Aegyptiaca,Manetho writes Aegyptiaca, ,text,False
+destruction_babylon,"Pagkawasak ng Babilonyang Dakila (Apo 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+gog_of_magog,"Pag-atake ni Gog ng Magog (Ezekiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
+sheep_goat,"Ang mga naninirahan sa lupa ay hahatulan, ibubukod ang mga tupa sa kambing (Mateo 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
+annointed,Pagtitipon ng mga tagapamahala ng Kaharian (Mateo 24:31; 1 Corinto 15:50-53; 1 Tesalonica 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
+armageddon,"Labanan ng Armagedon (Apocalipsis 16:14, 16; Isaias 13:9; 2 Pedro 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False
+millenium,"Simula ng 1000 na paghahari ng Kaharian ng Diyos (Apocalipsis 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False
+great_crowd,"Isang malaking pulutong ang makaligtas sa Armagedon (Apocalipsis 7:9, 14; Awit 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False
+world_population,Bilyon-bilyon ang populasyon ng mundo sa nakalipas na 2000 taon,World population in billions in the last 2000 years, ,text,False
+khmer_empire_c,Imperyong Khmer - Panahon ng Angkor,Khmer Empire - Angkor period, ,text,False
+holy_roman_empire_c,Banal na Imperyong Romano – Kinilalang Banal na Imperyong Romano ng Bansang Aleman noong 1512,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False
+mongol_empire,Imperyong Mongol 1206 – 1294 C.E.,Mongol Empire 1206 – 1294, ,text,False
+maya_classic_c,Kabihasnang Maya – klasikong panahon,Maya civilization – Classic period, ,text,False
+maya_postclassic_c,Kabihasnang Maya – postclassic period,Maya civilization – Postclassic period, ,text,False
+Teotihuacan,"Pinakamalaking lungsod sa Americas, pyramids build c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False
+Dionysius_Exiguus,"Dionysius Exiguus, imbentor ng Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False
+Umayyad_c,Umayyad,Umayyad, ,text,False
+ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False
+Al-Khwarizmi,Isinulat ni al Khwarizmi ang Al Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False
+al-azhar,Ang Al Azhar University ay itinatag sa Cairo,Al-Azhar University is established in Cairo, ,text,False
+Ibn-Sina,Ibn Sina o Avicenna,Ibn Sina or Avicenna, ,text,False
+life-expectancy,Haba ng buhay 75 taon,Life expectancy 75 years, ,text,False
+430years_c,"430 taon: Exodo 12:41, Galacia 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False
+maya_calendar,"Kinalkula na pasimula ng Kalendaryo Maya Augosto 11, 3114 B.C.E.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False
+xia-dynasty2,c. 2070 – c. 1600 BC; Kapanahunan na unang nabanggit sa panahon ng Kanlurang Zhou ,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False
+xia-dynasty2_c,Xia dinastiya ng Tsina,Xia dynasty in China, ,text,False
+tres_zapotes,"Septembre 3rd, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,text,False
+joseph_jacob_reunited,Jose at Jacob nagpisan muli sa Egypto – 1728 B.C.E. (Gen 45:11; 47:9,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False
+king_south_light_c,Hari ng Timog ulat ni Daniel 11,King of the South from Daniel 11,2025-02-05,text,False
+king_north_light_c,Hari ng Hilaga ulat ni Daniel 11,King of the North from Daniel 11,2025-02-05,text,False
+daniel2_iron_c,Bakal na binti ulat ni Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False
+argenteus,,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False
+nguyen_dynasty_c,,Nguyễn,2025-09-20,text,False
+edo_c,,Edo period in Japan,Edo period (Tokugawa shogunate),text,False
+meiji_c,,Meiji,2025-09-20,text,False
+american_civil_war,,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
+aleppo_codex,,Aleppo Codex c. 920,2025-10-03,text,False
+vandals,,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia,,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+francia_c,,Kingdom of the Franks, ,text,False
+100_years_war,,Hundred Years’ War 1337 – 1453,1337–1453,text,False
+black_death,,Black death 1346-1353,1346-1353,text,False
+sui_dynasty,,581-618 Sui dynasty,2025-11-09,text,False
+sui_dynasty_c,,Sui,2025-11-09,text,False
+tribulation,"Malaking Kapighatian (Mar 13:19; Dan 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
+Adam,Adan,Adam,Luke 3:38,bible,False
+Seth,Set,Seth, ,bible,False
+Enosh,Enos,Enosh, ,bible,False
+Kenan,Kenan,Kenan (Cainan),Genesis 5:12,bible,False
+Mahalalel,Mahalaleel,Mahalalel (Mahalaleel), ,bible,False
+Jared,Jared,Jared, ,bible,False
+Enoch,Enoc,Enoch, ,bible,False
+Methuselah,Matusalem,Methuselah,Luke 3:37,bible,False
+Lamech,Lamec,Lamech, ,bible,False
+Noah,Noe,Noah, ,bible,False
+Shem,Sem,Shem, ,bible,False
+Arpachshad,Arpacsad,Arpachshad,Luke 3:36,bible,False
+Shelah,Shela,Shelah, ,bible,False
+Eber,Eber,Eber, ,bible,False
+Peleg,Peleg,Peleg, ,bible,False
+Reu,Reu,Reu, ,bible,False
+Serug,Serug,Serug,Luke 3:35,bible,False
+Nahor,Nahor,Nahor,Genesis 11:24,bible,False
+Terah,Tera,Terah, ,bible,False
+Abraham,Abraham,Abraham, ,bible,False
+Isaac,Isaac,Isaac, ,bible,False
+Jacob,Jacob,Jacob,Luke 3:34,bible,False
+Joseph,Joseph,Joseph,Genesis 37,bible,False
+Moses,Moises,Moses, ,bible,False
+Othniel,Otniel,Othniel,Judges 3:9-11,bible,False
+Ehud,Ehud,Ehud,Judges 3:15-18,bible,False
+Shamgar,Samgar,Shamgar,Judges 3:31,bible,False
+Barak,Barak,"Barak, Deborah, Jael",Judges 4:6,bible,False
+Gideon,Gideon,Gideon,Judges 7:1,bible,False
+Tola,Tola,Tola,Judges 10:1,bible,False
+Jair,Jair,Jair,Judges 10:3,bible,False
+Jephthah,Jepte,Jephthah,Judges 11:1,bible,False
+Ibzan,Ibzan,Ibzan,Judges 12:8,bible,False
+Elon,Elon,Elon,Judges 12:11,bible,False
+Abdon,Abdon,Abdon,Judges 12:13,bible,False
+Samson,Samson,Samson,Judges 13:24,bible,False
+Samuel,Samuel,Samuel,1 Samuel 1:20,bible,False
+Saul,Saul,Saul,1 Samuel 9:2,bible,False
+David,David,David,1 Samuel 16:13,bible,False
+Solomon,Solomon,Solomon,1 Kings 2:1,bible,False
+Malachi,Malakias,Malachi, ,bible,False
+Ruth,Ruth,Ruth, ,bible,False
+Ezra,Ezra,Ezra, ,bible,False
+Nehemiah,Nehemias,Nehemiah, ,bible,False
+Esther,Esther,Esther, ,bible,False
+Job,Job,Job, ,bible,False
+moses3,Moses,Moses, ,bible,False
+joshua2,Joshua,Joshua, ,bible,False
+caleb2,Caleb,Caleb, ,bible,False
+Augustus,Augusto,Augustus,Luke 2:1,bible,False
+Tiberius,Tiberio,Tiberius,Luke 3:1,bible,False
+Claudius,Claudio,Claudius,Acts 11:28,bible,False
+persia2,Persia,Persia, ,bible,False
+jehoiada,Jehoiada,Jehoiada,2 Kings 11:4,bible,False
+Haggai,Hagai,Haggai, ,bible,False
+Zerubbabel,Zorobabel (Lucas 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False
+Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False
+Israel,Israel,Israel,Genesis 35:10,bible,False
+Sarah,Sara,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False
+Hagar,Hagar,Hagar,Genesis 21:14,bible,False
+Haran,Haran,Haran,Genesis 11:26,bible,False
+Reumah,Reuma,Reumah,Concubine – 4 sons 22:24,bible,False
+Milcah,Milca,Milcah,8 sons (Bethuel and 7 more),bible,False
+Lot,Lot,Lot,Genesis 11:27,bible,False
+Ammon,Ben-ami (Ammon),Ben-ammi (Ammon),Genesis 19:38,bible,False
+Bethuel,Betuel,Bethuel,Genesis 22:23,bible,False
+Rebekah,Rebeka,Rebekah, ,bible,False
+Laban,Laban,Laban,Genesis 24:29,bible,False
+Leah,Lea,Leah,Genesis 35:23,bible,False
+Rachel,Raquel,Rachel,Genesis 35:24,bible,False
+Bilhah,Bilha,Bilhah,Genesis 35:25,bible,False
+Zilpah,Zilpa,Zilpah,Genesis 35:26,bible,False
+Reuben,Ruben,Reuben, ,bible,False
+Simeon,Simeon,Simeon, ,bible,False
+Levi,Levi,Levi,Genesis 35:23,bible,False
+Judah,Juda,Judah, ,bible,False
+Issachar,Isacar,Issachar, ,bible,False
+Zebulun,Zebulon,Zebulun, ,bible,False
+Dinah,Dina,Dinah,Genesis 34,bible,False
+Esau,Esau/,Esau/, ,bible,False
+Edom,Edom,Edom,Genesis 36:1,bible,False
+Ishmael,Ismael,Ishmael,Genesis 16:16,bible,False
+Manasseh2,(Manasse,(Manasseh,Genesis 41:50-52,bible,False
+Ephraim,at Efraim),and Ephraim), ,bible,False
+Benjamin,Benjamin,Benjamin, ,bible,False
+Dan,Dan,Dan,Genesis 35:23,bible,False
+Naphtali,Neptali,Naphtali, ,bible,False
+Gad,Gad,Gad, ,bible,False
+Asher,Aser,Asher, ,bible,False
+Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False
+Milcah2,"Kesed, Hazo,","Chesed, Hazo,", ,bible,False
+Milcah3,"Pildas, Jidlap","Pildash, Jidlaph", ,bible,False
+Tebah,Teba,Tebah,Genesis 22:24,bible,False
+Gaham,Gaham,Gaham, ,bible,False
+Tahash,Tahas,Tahash, ,bible,False
+Maacah,Maaca,Maacah, ,bible,False
+Mahalath,Mahalat/,Mahalath/,"Genesis 28:8, 9",bible,False
+Basemath,Basemat,Basemath,"Genesis36:3, 4",bible,False
+Reuel,Reuel,Reuel,"36:13, 17",bible,False
+Nahath,Nahat,Nahath, ,bible,False
+Zerah,Zera,Zerah, ,bible,False
+Schammah,Schammah,Schammah, ,bible,False
+Mizzah,Miza,Mizzah, ,bible,False
+Adah,Ada,Adah,"36:11, 12, 15, 16",bible,False
+Eliphaz,Elipaz,Eliphaz, ,bible,False
+Teman,Teman,Teman, ,bible,False
+Omar,Omar,Omar, ,bible,False
+Zepho,Zepo,Zepho, ,bible,False
+Kenaz,Kenaz,Kenaz, ,bible,False
+Korah,Kora,Korah, ,bible,False
+Korah_Gatam,,"Korah, Gatam","Genesis 36:11, 16",bible,False
+Amalek,Amalek,Amalek, ,bible,False
+Oholibamah,Oholibama,Oholibamah,"36:14, 18",bible,False
+Jeush,Jeus,Jeush, ,bible,False
+Jalam,Jalam,Jalam, ,bible,False
+Nebaioth,Nebaiot,Nebaioth,Genesis 25:13,bible,False
+Kedar,Kedar,Kedar, ,bible,False
+Mishma,Misma,Mishma, ,bible,False
+Adbeel_Mibsam,,"Adbeel, Mibsam",Genesis 25:13,bible,False
+Dumah_Massa,,"Dumah, Massa",Genesis 25:14,bible,False
+Hadad,Hadad,Hadad, ,bible,False
+Tema,Tema,Tema, ,bible,False
+Jetur,Jetur,Jetur, ,bible,False
+Naphish,Napis,Naphish, ,bible,False
+Kedemah,Kedema,Kedemah, ,bible,False
+Keturah,Ketura,Keturah,Genesis 25:1-4,bible,False
+Zimran,Zimran,Zimran, ,bible,False
+Jokshan,Joksan,Jokshan, ,bible,False
+Medan,Medan,Medan, ,bible,False
+Midian,Midian,Midian, ,bible,False
+Ishbak,Isbak,Ishbak, ,bible,False
+Shuah,Shuah,Shuah, ,bible,False
+Timna,Timna,Timna,"1 Chr 1:36, Ge 36:10-12",bible,False
+life-expectancy2,(Awit 90:10),(Psalm 90:10),2024-11-29,bible,False
+Ham,,Ham,Gen 10:1,bible,False
+Canaan,,Canaan,Gen 10:6,bible,False
+Sidon,,Sidon,Gen 10:15,bible,False
+Heth,,Heth,Gen 10:15,bible,False
+Jebusite,,Jebusite,Gen 10:16,bible,False
+Amorite,,Amorite,Gen 10:16,bible,False
+Girgashite,,Girgashite,Gen 10:16,bible,False
+Hivite,,Hivite,Gen 10:17,bible,False
+Arkite,,Arkite,Gen 10:17,bible,False
+Sinite,,Sinite,Gen 10:17,bible,False
+Arvadite,,Arvadite,Gen 10:18,bible,False
+Zemarite,,Zemarite,Gen 10:18,bible,False
+Hamathite,,Hamathite,Gen 10:18,bible,False
+Cush,,Cush,Gen 10:6,bible,False
+Nimrod,,Nimrod,Gen 10:8,bible,False
+Mizraim,,Mizraim,Gen 10:14,bible,False
+Casluh,,Casluh,1 Chronicles 1:12 (Philistines),bible,False
+Japheth,,Japheth,Gen 10:1,bible,False
+Asshur,,Asshur,Gen 10:22,bible,False
+Lud,,Lud,Gen 10:22,bible,False
+Aram,,Aram,Gen 10:22,bible,False
+Elam,,Elam,Gen 10:22,bible,False
+Joktan,,Joktan,Gen 10:26,bible,False
+Almodad,,Almodad,Gen 10:26,bible,False
+Sheleph,,Sheleph,Gen 10:26,bible,False
+Hazarmareth,,Hazarmareth,Gen 10:26,bible,False
+Jerah,,Jerah,Gen 10:26,bible,False
+Hadoram,,Hadoram,Gen 10:27,bible,False
+Uzal,,Uzal,Gen 10:27,bible,False
+Diklah_Obal,,"Diklah, Obal",Gen 10:27,bible,False
+Abimael,,Abimael,Gen 10:28,bible,False
+Sheba_Ophir,,"Sheba, Ophir","Gen 10:28, 29",bible,False
+Havilah,,Havilah,Gen 10:29,bible,False
+Jobab,,Jobab,Gen 10:29,bible,False
+Ham_fn,,1) Egyptians: Psalms 105:23,2025-09-22,bible,False
+Canaan_fn,,2) Canaanites: Joshua 13:3,2025-09-22,bible,False
+Aram_fn,,3) Arameans: Hosea 12:12,2025-09-22,bible,False
+Elam_fn,,4) Elamites: Ezra 4:9,2025-09-22,bible,False
+Asshur_fn,,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False
+Casluh_fn,,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False
+Cush_fn,,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False
+Edom_fn,,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False
+Moab_fn,,"9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False
+Ammon_fn,,10) Ammonites: Joshua 12:2,2025-09-22,bible,False
+Midian_fn,,"11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False
+Amalek_fn,,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False
+Teman_fn,,13) Temanites: Job 42:7,2025-09-22,bible,False
+Sidon_fn,,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False
+Heth_fn,,15) Hittites: Genesis 15:20,2025-09-22,bible,False
+Jebusite_fn,,16) Jebusites: Joshua 15:63,2025-09-22,bible,False
+Judith,,Judith?,"Genesis 26:34, 35",bible,False
+Lud_fn,,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False
+Ishmael_fn,,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
+Amorite_fn,,19) Amorites: Judges 6:10,2025-09-22,bible,False
+Hivite_fn,,"20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False
+Abijah,Abias (Abiam),Abijah (Abijam),"3 years, also Abijam",A6-A,False
+Asa,Asa,Asa,A6-A,A6-A,False
+Jehoshaphat,Jehosapat,Jehoshaphat, ,A6-A,False
+Jehoram2,Jehoram,Jehoram, ,A6-A,False
+Ahaziah,Ahazias,Ahaziah, ,A6-A,False
+Athaliah,Reyna Athalia,Queen Athaliah,Queen Athaliah,A6-A,False
+Jehoash,Jehoas,Jehoash, ,A6-A,False
+Amaziah,Amazias,Amaziah, ,A6-A,False
+Uzziah,Uzias (Azarias),Uzziah (Azariah),also Azariah,A6-A,False
+Jeroboam,Jeroboam II,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False
+Nadab,Nadab,Nadab,less than 2,A6-A,False
+Baasha,Baasa,Baasha, ,A6-A,False
+Elah,Elah,Elah, ,A6-A,False
+Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,A6-A,False
+OmriTibni,Omri at Tibni,Omri and Tibni together,4 years Omri and Tibni,A6-A,False
+Omri,Omri (mag-isa),Omri (alone),from 947 Omri alone,A6-A,False
+Ahab,Ahab,Ahab, ,A6-A,False
+Jehoram,Jehoram,Jehoram, ,A6-A,False
+Jehu,Jehu,Jehu, ,A6-A,False
+Jeoahaz,Jeoahaz,Jeoahaz, ,A6-A,False
+JeoahazJehoash,Jehoahaz at Jehoas,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False
+Jehoash2,Jehoas (mag-isa),Jehoash (alone),Jehoash (alone),A6-A,False
+Jeroboam2,Jeroboam II,Jeroboam II, ,A6-A,False
+Elijah,Elias,Elijah, ,A6-A,False
+Elisha,Eliseo,Elisha, ,A6-A,False
+Jonah,Jonas,Jonah, ,A6-A,False
+Amos,Amos,Amos, ,A6-A,False
+Joel,Joel,Joel, ,A6-A,False
+Jotham,Jotam,Jotham,A6-B,A6-B,False
+Ahaz,Ahaz,Ahaz, ,A6-B,False
+Hezekiah,Hezekias,Hezekiah, ,A6-B,False
+Manasseh,Manases,Manasseh, ,A6-B,False
+Amon,Amon,Amon, ,A6-B,False
+Josiah,Josias,Josiah, ,A6-B,False
+Jehoahaz,Jehoahaz,Jehoahaz,Only 3 months,A6-B,False
+Jehoiakim,Jehoiakim,Jehoiakim, ,A6-B,False
+Jehoiachin,Jehoiakin,Jehoiachin,Only 3 months 10 days,A6-B,False
+Zedekiah,Zedekias,Zedekiah, ,A6-B,False
+Zechariah,Zacarias,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False
+Schallum,Salum,Schallum,only one month,A6-B,False
+Menahem,Menahem,Menahem, ,A6-B,False
+Pekahiah,Pekahias,Pekahiah, ,A6-B,False
+Pekah,Peka,Pekah, ,A6-B,False
+Hoshea,Hosea,Hoshea,9 years from c. 748,A6-B,False
+Hosea,Oseas,Hosea, ,A6-B,False
+Isaiah,Isaias,Isaiah, ,A6-B,False
+Micah,Mikas,Micah, ,A6-B,False
+Zephaniah,Zefanias,Zephaniah, ,A6-B,False
+Nahum,Nahum,Nahum, ,A6-B,False
+Jeremiah,Jeremiah,Jeremiah, ,A6-B,False
+Habakuk,Habakuk,Habakuk, ,A6-B,False
+Daniel,Daniel,Daniel, ,A6-B,False
+Ezekiel,Ezekiel,Ezekiel, ,A6-B,False
+Obadiah,Obadias,Obadiah, ,A6-B,False
+Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,False
+Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,False
+Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,False
+Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,False
+Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,False
+Babylon_c,Babilonya,Babylon, ,B9,False
+Medopersia_c,Medo-Persia,Medo-Persia, ,B9,False
+Greece_c,Gresya,Greece, ,B9,False
+Rome_c,Roma,Rome, ,B9,False
+Angloamerica_c,Anglo-Amerika,Anglo-America, ,B9,False
+daniel2_1,Winasak ni Haring Nabu-,King Nebuchadnezzar,607 BCE,B9,False
+daniel2_2,codonosor ang Jerusalem,destroys Jerusalem, ,B9,False
+daniel2_3,Tinalo ang Babilonya,Conquers Babylon,539 BCE,B9,False
+daniel2_4,Iniutos ni Ciro na bumalik ang,Cyrus decrees return,537 BCE,B9,False
+daniel2_5,mga Judio sa Jerusalem,of Jews to Jerusalem, ,B9,False
+daniel2_6,Tinalo ni Alejandrong,Alexander the Great,331 BCE,B9,False
+daniel2_7,Dakila ang Persia,conquers Persia, ,B9,False
+daniel2_8,Nagsimulang mamahala sa Israel,Rules over Israel,63 BCE,B9,False
+daniel2_9,Winasak ang Jerusalem,Destroys Jerusalem,70 CE,B9,False
+daniel2_10,"Noong Digmaang Pandaigdig I,","During World War I,",1914-1918 CE,B9,False
+daniel2_11,nabuo ang Kapangyarihang,Anglo-American World Power, ,B9,False
+daniel2_12,Pandaigdig na Anglo-Amerikano,comes into being,End 4.2,B9,False
+607BCE,607 B.C.E.,607 B.C.E.,accommodate for language,B9,False
+539BCE,539 B.C.E.,539 B.C.E.,systems in style:,B9,False
+537BCE,537 B.C.E.,537 B.C.E.,>>year 537 before time<<,B9,False
+331BCE,331 B.C.E.,331 B.C.E.,so they need a word,B9,False
+63BCE,63 B.C.E.,63 B.C.E.,prior to the year,B9,False
+70CE,70 C.E.,70 C.E.,and something,B9,False
+1914CE,1914-1918 C.E.,1914-1918 C.E.,after the year,B9,False
+daniel2_shift,-3,-3,Start 4.2,float,False
+7times,Apocalipsis 12:9,Revelation 12:9, ,scripture,False
+infliction2,Gawa 7:6,Acts 7:6, ,scripture,False
+eastern-zhou,770-256 BC,770-256 BC, ,span_bc,False
+430years,1943 – 1513 B.C.E.,1943 – 1513 B.C.E., ,span_bce,False
+eastern-han,25-220 CE,25-220 CE, ,span_ce,False
+northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False
+southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False
+khmer_empire,804 – 1431,804 – 1431, ,timespan,True
+byzantine_empire,330 – 1453,330 – 1453, ,timespan,True
+ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
+holy_roman_empire,800 – 924,800 – 924, ,timespan,True
+holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True
+inca_empire,1438 – 1533,1438 – 1533, ,timespan,True
+gupta_empire,319 – 550,319 – 550, ,timespan,True
+Umayyad,661 – 750,661 – 750, ,timespan,True
+Abbasid,750 – 1258,750 – 1258, ,timespan,True
+Mamluk,1250 – 1517,1250 – 1517, ,timespan,True
+seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
+lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True
+qing-dynasty,1636-1912,1636-1912, ,timespan,True
+ming-dynasty,1368-1644,1368-1644, ,timespan,True
+yuan-dynasty,1271-1368,1271-1368, ,timespan,True
+southern-song,1127-1279,1127-1279, ,timespan,True
+northern-song,960-1127,960-1127, ,timespan,True
+western-xia,1038-1227,1038-1227, ,timespan,True
+maya_classic,250–950,250–950, ,timespan,True
+maya_postclassic,950-1539,950-1539, ,timespan,True
+tran_dynasty,1225–1400,1225–1400, ,timespan,True
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
+revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
+nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
+edo,1603 – 1868,1603 – 1868, ,timespan,True
+meiji,1868 – 1912,1868 – 1912, ,timespan,True
+Julius,Julio,Julius, ,wiki,False
+Caligula,Caligula,Caligula, ,wiki,False
+Nero,Nero,Nero, ,wiki,False
+Galba-Otho-Vitellius,"Galba, Otho at Vitellius (Taon ng Apat na Emperador)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False
+Vespasian,Vespasian,Vespasian, ,wiki,False
+covid19,COVID-19,Covid-19, ,wiki,False
+nicaea1,Unang Konseho ng Nicea,First Council of Nicaea, ,wiki,False
+oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri, ,wiki,False
+p52,Papyrus P52,Papyrus P52, ,wiki,False
+qing-dynasty_c,Dinastiyang Qing,Qing dynasty,1636-1912,wiki,False
+ming-dynasty_c,Dinastiyang Ming sa imperyal na Tsina,Ming dynasty in imperial China,1368-1644,wiki,False
+yuan-dynasty_c,Yuan,Yuan,1271-1368,wiki,False
+southern-song_c,Timog na Song,Southern Song,1127-1279,wiki,False
+northern-song_c,Hilagang Song,Northern Song,960-1127,wiki,False
+western-xia_c,Kanlurang Xia,Western Xia,1038-1227,wiki,False
+Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,False
+Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False
+Newton,Isaac Newton,Isaac Newton, ,wiki,False
+shang-dynasty_c,Dinastiyang Shang,Shang dynasty,c. 1600-1046 BC,wiki,False
+western-zhou_c,Kanlurang Zhou,Western Zhou,c. 1046-771 BC,wiki,False
+eastern-zhou_c,Silangang Zhou,Eastern Zhou,770-256 BC,wiki,False
+western-han_c,Kanlurang Han,Western Han,207 BC – 9 CE,wiki,False
+eastern-han_c,Silangang Han,Eastern Han,25-220 CE,wiki,False
+three-kingdoms_c,Tsina,China,Three kingdoms 220-280 CE,wiki,False
+sixteen-kingdoms_c,Tsina,China,Sixteen kingdoms 304-439 CE,wiki,False
+northern-dynasties_c,Hilagang Dinastiya,Northern dynasties,368-581 CE,wiki,False
+southern-dynasties_c,Kanlurang Dinastiya,Southern dynasties,420-589 CE,wiki,False
+tang-dynasty2_c,Dinastiyang Tang,Tang dynasty,"618-690, 705-907",wiki,False
+byzantine_empire_c,Imperyong Byzantine,Byzantine Empire, ,wiki,False
+ottoman_empire_c,Imperyong Ottoman,Ottoman Empire, ,wiki,False
+Genghis,Genghis Khan,Genghis Khan, ,wiki,False
+inca_empire_c,Imperyo ng inca,Inca empire, ,wiki,False
+gupta_empire_c,Imperyong Gupta,Gupta Empire, ,wiki,False
+Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False
+Abbasid_c,Abbasid Caliphate,Abbasid Caliphate, ,wiki,False
+Mamluk_c,Sultanato ng Mamluk,Mamluk Sultanate, ,wiki,False
+Al-Ghazali,Al Ghazali,Al-Ghazali,2024-07-30,wiki,False
+wulfila,,Wulfila Bible,2025-09-20,wiki,False
+tran_dynasty_c,,Trần dynasty, ,wiki,False
+le_dynasty_c,,Lê dynasty, ,wiki,False
+revival_le_dynasty_c,,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False
+seljuk_empire_c,,Seljuk empire, ,wiki,False
+vandals_c,,Vandals, ,wiki,False
+lombard_c,,Lombard Kingdom,2025-10-13,wiki,False
+people,mga tao,people, ,deprecated,False
+judges,mga hukom,judges, ,deprecated,False
+prophets,mga propeta,prophets, ,deprecated,False
+kings,mga hari,kings, ,deprecated,False
+periods,mga panahon,periods, ,deprecated,False
+events,mga pangyayari,events, ,deprecated,False
+objects,bagay o bagay,objects or items, ,deprecated,False
+event_destruction_samaria2,740 B.C.E. ng Asiria,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
+photodrama,"Ang “Photo-Drama of Creation” ay unang ipinalabas sa New York noong Enero 11, 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
+truth_book,“The Truth That Leads to Eternal Life” ay inilabas noong 1968,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+metropolitan,Nagsimula ang metropolitan witnessing noong 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,Nagsimula ang JW.ORG - may mga tagubilin sa ministeryo - Disyembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+jw_broadcasting,Simula ng jw.broadcasting noong Oktubre 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,"Bagong pormat ng midweek meeting na may ""workbook ng pagpupulong"" simula Enero 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+Gatam,Gatam,Gatam, ,deprecated,False
+Adbeel,Adbeel,Adbeel, ,deprecated,False
+Mibsam,Mibsam,Mibsam, ,deprecated,False
+Dumah,Duma,Dumah, ,deprecated,False
+Massa,Masa,Massa, ,deprecated,False
+Babylon2,, ,no text left and right – empty!,deprecated,False
+terahfam,miyembro ng pamilya ni Tera,Members of Terah’s family, ,deprecated,False
+tang-dynasty1,, , ,deprecated,False
+xia-dynasty,Dinastiyang Xia sa China c. 2070 – c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites,"1) Midianita: Bilang 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites,"2) Moabita: Deuteronomio 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites,3) Ammonita: Josue 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites,4) Edomita: Bilang 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites,5) Temanita: Job 42:7,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites,6) Amalekita: 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light,, ,2025-02-05,deprecated,False
+king_north_light,, ,2025-02-05,deprecated,False
+daniel2_iron,, ,2025-02-05,deprecated,False
