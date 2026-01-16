@@ -1,562 +1,562 @@
-key,text,english,notes,checked
-version,6.01,6.01,6.01,TRUE
-pdf_title,6000 jaar menselijke geschiedenis in beeld,6000 years human history visualized,2025-12-14,TRUE
-pdf_subject,Tijdlijn van de mensheid,Timeline of humankind,6.01,FALSE
-BCE,v.Chr.,B.C.E.,appendix B9,TRUE
-CE,n.Chr.,C.E.,,TRUE
-year,jaar,year,"timespan, age (Adam was 130 years old when Shem was born)",TRUE
-years,jaar,years,,TRUE
-years_age,jaar,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",TRUE
-age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",FALSE
-month,maand,month,,FALSE
-months,maanden,months,,FALSE
-day,dag,day,,FALSE
-days,dagen,days,,FALSE
-to,naar,to,,FALSE
-people,mensen,people,,FALSE
-judges,rechters,judges,,FALSE
-prophets,profeten,prophets,,FALSE
-kings,koningen,kings,,FALSE
-periods,periodes,periods,,FALSE
-events,evenementen,events,,FALSE
-objects,voorwerpen of voorwerpen,objects or items,,FALSE
-Deluge,Zondvloed,Deluge,,FALSE
-Adam,Adam,Adam,Luke 3:38,TRUE
-Seth,Seth,Seth,,TRUE
-Enosh,E̱nos,Enosh,,TRUE
-Kenan,Kenan,Kenan,Genesis 5:12,FALSE
-Mahalalel,Mahala̱leël,Mahalalel,Ma·hala·lel,TRUE
-Jared,Je̱red,Jared,,TRUE
-Enoch,He̱noch,Enoch,,TRUE
-Methuselah,Methu̱salah,Methuselah,Luke 3:37,TRUE
-Lamech,La̱mech,Lamech,,TRUE
-Noah,Noach,Noah,,TRUE
-Shem,Sem,Shem,,TRUE
-Arpachshad,Arpa̱chsad,Arpachshad,Luke 3:36,TRUE
-Shelah,Se̱lah,Shelah,,TRUE
-Eber,He̱ber,Eber,,TRUE
-Peleg,Pe̱leg,Peleg,,TRUE
-Reu,Re̱hu,Reu,,TRUE
-Serug,Se̱rug,Serug,Luke 3:35,TRUE
-Nahor,Na̱hor,Nahor,Genesis 11:24,TRUE
-Terah,Te̱rah,Terah,,TRUE
-Abraham,Abraham,Abraham,,TRUE
-Isaac,Isaäk,Isaac,,TRUE
-Jacob,Jakob,Jacob,Luke 3:34,TRUE
-Joseph,Jozef,Joseph,Genesis 37,FALSE
-Moses,Mozes,Moses,,FALSE
-Othniel,Othniël,Othniel,Judges 3:9-11,FALSE
-Ehud,Ehud,Ehud,Judges 3:15-18,FALSE
-Shamgar,Shamgar,Shamgar,Judges 3:31,FALSE
-Barak,Barak,"Barak, Deborah, Jael",Judges 4:6,FALSE
-Gideon,Gideon,Gideon,Judges 7:1,FALSE
-Tola,Tola,Tola,Judges 10:1,FALSE
-Jair,Jaïr,Jair,Judges 10:3,FALSE
-Jephthah,Jefta,Jephthah,Judges 11:1,FALSE
-Ibzan,Ibzan,Ibzan,Judges 12:8,FALSE
-Elon,Elon,Elon,Judges 12:11,FALSE
-Abdon,Abdon,Abdon,Judges 12:13,FALSE
-Samson,Samson,Samson,Judges 13:24,FALSE
-Samuel,Samuel,Samuel,1 Samuel 1:20,FALSE
-Saul,Saul,Saul,1 Samuel 9:2,FALSE
-David,David,David,1 Samuel 16:13,FALSE
-Solomon,Solomon,Solomon,1 Kings 2:1,FALSE
-Rehoboam,Rehabeam,Rehoboam,first king of southern kingdom of Juda,FALSE
-Abijah,Abia (Abiam),Abijah (Abijam),"3 years, also Abijam",FALSE
-Asa,Asa,Asa,A6-A,FALSE
-Jehoshaphat,Josafat,Jehoshaphat,,FALSE
-Jehoram2,Joram,Jehoram,,FALSE
-Ahaziah,Ahazia,Ahaziah,,FALSE
-Athaliah,Koningin Athalia,Queen Athaliah,Queen Athaliah,FALSE
-Jehoash,Joas,Jehoash,,FALSE
-Amaziah,Amazia,Amaziah,,FALSE
-Uzziah,Uzzia (Azarja),Uzziah (Azariah),also Azariah,FALSE
-Jotham,Jotam,Jotham,A6-B,FALSE
-Ahaz,Achaz,Ahaz,,FALSE
-Hezekiah,Hizkia,Hezekiah,,FALSE
-Manasseh,Manasse,Manasseh,,FALSE
-Amon,Amon,Amon,,FALSE
-Josiah,Josia,Josiah,,FALSE
-Jehoahaz,Joahaz,Jehoahaz,Only 3 months,FALSE
-Jehoiakim,Jojakim,Jehoiakim,,FALSE
-Jehoiachin,Jojachin,Jehoiachin,Only 3 months 10 days,FALSE
-Zedekiah,Zedekia,Zedekiah,,FALSE
-Jeroboam,Jerobeam,Jeroboam,first king of northern 10-tribe kingdom,FALSE
-Nadab,Nadab,Nadab,less than 2,FALSE
-Baasha,Basa,Baasha,,FALSE
-Elah,Ela,Elah,,FALSE
-Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,FALSE
-OmriTibni,Omri en Tibni samen,Omri and Tibni together,4 years Omri and Tibni,FALSE
-Omri,Omri (alleen),Omri (alone),from 947 Omri alone,FALSE
-Ahab,Achab,Ahab,,FALSE
-Jehoram,Joram,Jehoram,,FALSE
-Jehu,Jehu,Jehu,,FALSE
-Jeoahaz,Joahaz,Jeoahaz,,FALSE
-JeoahazJehoash,Joahaz en Joas,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,FALSE
-Jehoash2,Joas (alleen),Jehoash (alone),Jehoash (alone),FALSE
-Jeroboam2,Jerobeam II,Jeroboam II,,FALSE
-Zechariah,Zacharias,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",FALSE
-Schallum,Schallum,Schallum,only one month,FALSE
-Menahem,Menahem,Menahem,,FALSE
-Pekahiah,Pekahia,Pekahiah,,FALSE
-Pekah,Pekah,Pekah,,FALSE
-Hoshea,Hosea,Hoshea,9 years from c. 748,FALSE
-Elijah,Elia,Elijah,,FALSE
-Elisha,Elisa,Elisha,,FALSE
-Jonah,Jona,Jonah,,FALSE
-Amos,Amos,Amos,,FALSE
-Joel,Joël,Joel,,FALSE
-Hosea,Hosea,Hosea,,FALSE
-Isaiah,Jesaja,Isaiah,,FALSE
-Micah,Micha,Micah,,FALSE
-Zephaniah,Zefanja,Zephaniah,,FALSE
-Nahum,Nahum,Nahum,,FALSE
-Jeremiah,Jeremia,Jeremiah,,FALSE
-Habakuk,Habakuk,Habakuk,,FALSE
-Daniel,Daniël,Daniel,,FALSE
-Ezekiel,Ezechiël,Ezekiel,,FALSE
-Obadiah,Obadja,Obadiah,,FALSE
-Malachi,Maleachi,Malachi,,FALSE
-Ruth,Ruth,Ruth,,FALSE
-Ezra,Esra,Ezra,,FALSE
-Nehemiah,Nehemia,Nehemiah,,FALSE
-Esther,Ester,Esther,,FALSE
-Job,Functie,Job,,FALSE
-moses2,1593 tot 1473 v.G.T. – 120 jaar,1593 to 1473 B.C.E. – 120 years,,FALSE
-moses3,Mozes,Moses,,FALSE
-wilderness,Israël in de wildernis 1513 tot 1473 v.G.T. – 40 jaar,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,,FALSE
-timespan_judges,1473 tot 1117 v.G.T. – 356 jaar,1473 to 1117 B.C.E. – 356 years,,FALSE
-timespan_judges2,Tijd van de juryleden,Time of the judges,,FALSE
-temple1,Nisan 1513 v.G.T. tot Ziv 1034 v.G.T.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,FALSE
-temple2,479 jaar tot de tempelbouw – 1 Koningen 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,FALSE
-69weeks,Jezus doopte in de herfst van 29 G.T.,Jesus baptized autumn 29 C.E.,,FALSE
-69weeks2,69 weken tot de Messias – Daniël 9:25,69 weeks to the Messiah – Daniel 9:25,,FALSE
-jesus_service,"3,5 jaar Jezus-dienst, geëxecuteerd op 14 Nisan 33 G.T.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",,FALSE
-jesus_life,Jezus geboren in 2 v.G.T.,Jesus born 2 B.C.E.,,FALSE
-exile,607 tot 537 v.G.T. – 70 jaar (Jeremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),,FALSE
-exile2,Verbannen,Exile,,FALSE
-7times,Openbaring 12:9,Revelation 12:9,,FALSE
-7times2,7 keer – 2520 jaar tot het Messiaanse koninkrijk 1914 G.T. (Daniël 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),,FALSE
-ww1,Eerste Wereldoorlog – 1914–1918 G.T.,World War I – 1914–1918 C.E.,,FALSE
-ww2,Tweede Wereldoorlog – 1939–1945 CE,World War II – 1939–1945 C.E.,,FALSE
-30_year_war,Dertigjarige oorlog in Europa 1618-1648,Thirty Years' War in Europe 1618-1648,,FALSE
-joshua,110 jaar,110 years,,FALSE
-joshua2,Jozua,Joshua,,FALSE
-caleb,ruim 85 jaar,more than 85 years,,FALSE
-caleb2,Kaleb,Caleb,,FALSE
-missionary1,"Eerste zendingsreis van Paulus, ca. 47-48 G.T. met Barnabas en Johannes Marcus","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark",,FALSE
-circumcision,"Besnijdeniskwestie in Antiochië, conferentie in Jeruzalem ca. 49 CE","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.",,FALSE
-missionary2,Tweede zendingsreis c. 49-52 CE met Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),,FALSE
-missionary3,Derde zendingsreis c. 52-56 G.T.,Third Missionary Journey c. 52-56 C.E.,,FALSE
-caesarea,Paulus in hechtenis in Caesarea c. 56-58 G.T.,Paul in custody in Caesarea c. 56-58 C.E.,,FALSE
-rome1,Paulus’ eerste gevangenschap in Rome ca. 59-61 G.T.,Paul’s first imprisonment in Rome c. 59-61 C.E.,,FALSE
-rome2,"Paulus’ tweede gevangenschap in Rome ca. 65 G.T., 2 Timotheüs geschreven, Paulus geëxecuteerd","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed",,FALSE
-Julius,Julius,Julius,,FALSE
-Augustus,Augustus,Augustus,Luke 2:1,FALSE
-Tiberius,Tiberius,Tiberius,Luke 3:1,FALSE
-Caligula,Caligula,Caligula,,FALSE
-Claudius,Claudius,Claudius,Acts 11:28,FALSE
-Nero,Nero,Nero,,FALSE
-Galba-Otho-Vitellius,"Galba, Otho en Vitellius (Jaar van de vier keizers)","Galba, Otho and Vitellius (Year of the Four Emperors)",,FALSE
-Vespasian,Vespasianus,Vespasian,,FALSE
-event_exodus,Uittocht uit Egypte op 14 Nisan 1513 v.G.T.,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.",,FALSE
-event_division_kingdom,Verdeling van Israël 997 v.Chr,Division of Israel 997 BCE,,FALSE
-event_destruction_samaria,Vernietiging van Samaria 740 v.G.T. door Assyrië,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,FALSE
-event_destruction_samaria2,740 v.G.T. door Assyrië,740 B.C.E. by Assyria,was shortened here for 2 lines,FALSE
-event_destruction_jerusalem1,"Vernietiging van Jeruzalem 607 v.G.T. door Babylon, 390 jaar na de verdeling van het koninkrijk (Ezechiël 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",,FALSE
-event_temple_rebuilt,Tempel in Jeruzalem herbouwd 515 v.G.T.,Temple in Jerusalem rebuilt 515 B.C.E.,,FALSE
-event_jerusalem_rebuilt,De muur van Jeruzalem werd in 455 v.G.T. herbouwd.,Jerusalem wall rebuilt 455 B.C.E.,,FALSE
-event_destruction_jerusalem2,Vernietiging van Jeruzalem 70 G.T. door Rome onder Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus,,FALSE
-event_1914,"Einde van de tijd der natiën (Lukas 21:24), Gods koninkrijk begint in de hemel te regeren 1914 G.T.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,FALSE
-became_king,wordt koning op leeftijd,becomes king at age,2025-04-14,FALSE
-vulgate,Vulgaat aangevuld door Hiëronymus (Latijnse vertaling van de bijbel) c. 405 CE,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,,FALSE
-gutenberg,Gutenbergbijbel gedrukt in 1455,Gutenberg Bible printed 1455,,FALSE
-erasmus,"Griekse tekst van de christelijke Griekse Geschriften, uitgegeven door Desiderius Erasmus uit Rotterdam, 1516",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,,FALSE
-luther,Lutherbijbelvertaling in september 1522,Luther Bible translation in September 1522,,FALSE
-tyndale,Engelse bijbelvertaling door Tyndale 1536,English Bible translation by Tyndale 1536,,FALSE
-king_james,King Jamesbijbel 1611,King James Bible 1611,,FALSE
-69weeks3,"Jezus begint zijn dienst in 29 GT (Lukas 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",,FALSE
-ransom,Midden van de week “offer om op te houden” Daniël 9:27,Middle of week “sacrifice to cease” Daniel 9:27,,FALSE
-cornelius,Cornelius doopte aan het einde van de zeventig weken (Daniël 9:24) in 36 G.T.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,,FALSE
-columbus,Einde van de precolumbiaanse periode in Amerika 1492,End of the pre-columbian period in the Americas 1492,,FALSE
-declaration_independence,Onafhankelijkheidsverklaring van 13 koloniën in Amerika 1776,Declaration of independence of 13 colonies in America 1776,,FALSE
-tischendorf,Tischendorf ontdekt in 1844 de Codex Sinaiticus uit de 4e eeuw,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,,FALSE
-dead_sea_scrolls,Dode Zeerollen geschreven,Dead Sea Scrolls written,,FALSE
-septuagint,Septuaginta LXX vertaald,Septuagint LXX translated,,FALSE
-watchtower,De eerste uitgave van “Zion’s Watch Tower and Herald of Christ’s Presence” verschijnt in 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,,FALSE
-photodrama,Het „Photo-Drama der Schepping” wordt voor het eerst vertoond in New York op 11 januari 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",,FALSE
-jehovahs_witnesses,"De Bijbelonderzoekers nemen een nieuwe naam aan – Jehovah’s Getuigen (Jesaja 43:10, 12) in Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,FALSE
-gilead_school,De Wachttoren-Bijbelschool Gilead begint op maandag 1 februari 1943,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943",,FALSE
-new_world_translation1,"In de „Nieuwe-Wereldvertaling van de Heilige Schrift”, die op 18 juni 1960 in Manchester (Engeland) werd uitgegeven, wordt de naam Jehovah opnieuw in veel delen van de Bijbel geïntroduceerd","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,FALSE
-truth_book,Het boek ‘De waarheid die tot eeuwig leven leidt’ verschijnt in 1968,The book “The Truth That Leads to Eternal Life” is released 1968,,FALSE
-metropolitan,Start van grootstedelijk getuigenis in 2011,Start of metropolitan witnessing in 2011,,FALSE
-jw_org,Start van JW.ORG met instructies in Koninkrijksdienst december 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012,,FALSE
-new_world_translation2,"Herziene ‘Nieuwe-Wereldvertaling van de Heilige Schrift’ uitgebracht tijdens de jaarvergadering van 2013, geoptimaliseerd voor digitaal en online gebruik","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,FALSE
-jw_broadcasting,Start van JW Broadcasting® in oktober 2014,Start of JW Broadcasting® in October 2014,,FALSE
-meeting_workbook,Nieuw format voor midweekvergaderingen met “Vergaderwerkboek” vanaf januari 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016,,FALSE
-covid19,COVID-19,Covid-19,,FALSE
-cold_war,Geopolitieke situatie met het label ‘Koude Oorlog’ 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991,,FALSE
-timeline_created,"Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de afgelopen 125.000 jaar","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",,FALSE
-codex_sinaiticus,Codex Sinaiticus geschreven,Codex Sinaiticus written,,FALSE
-codex_vaticanus,Codex Vaticanus geschreven,Codex Vaticanus written,,FALSE
-leningrad_codex,Leningrad Codex geschreven in Caïro in 1008 na Christus,Leningrad Codex written in Cairo AD 1008,,FALSE
-john,Johannes schrijft ‘openbaring’ terwijl hij in ballingschap was op Patmos van 96 tot 98 G.T.,John writes “revelation” while exiled on Patmos 96-98 C.E.,,FALSE
-nicaea1,Eerste Concilie van Nicea,First Council of Nicaea,,FALSE
-buddha,De Boeddha – Siddhartha Gautama ca. 563-ca. 483 v.G.T,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,,FALSE
-buddha2,Boeddha alternatief c. 480-400 v.G.T.,Buddha alternatively c. 480-400 B.C.E.,,FALSE
-mohammed,Mohammed c. 570-632 G.T.,Mohammed c. 570-632 C.E.,,FALSE
-confucius,Confucius ca. 551-ca. 479 v.G.T.,Confucius c.551-c.479 B.C.E.,,FALSE
-hijrah,"Hijrah - Reis van Mekka naar Medina, 16 juli 622",Hijrah - Journey Mecca to Medina 16 July 622,,FALSE
-moses_escape,"1553 v.G.T. Mozes moet Egypte ontvluchten – Exodus 2:15, Handelingen 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",,FALSE
-10plagues,1513 v.G.T. Egypte krijgt tien plagen,1513 B.C.E Egypt receives 10 plagues,,FALSE
-joseph_sold,Jozef werd op 17-jarige leeftijd als slaaf verkocht – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2,,FALSE
-infliction,400 jaar durende straf (Handelingen 7:6) – Ismaël 1913 v.G.T.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,,FALSE
-Alexander,Alexander de Grote (Daniël 11:3),Alexander the Great (Daniel 11:3),,FALSE
-persia,"Cyrus de Grote, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (echtgenoot van Esther, Daniël 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",,FALSE
-persia2,Perzië,Persia,,FALSE
-king_north,"Seleucus I Nicator (v5) Syrië tot Antiochus III (v10) en Seleucus IV (v18, 19) tot Octavianus (v20) en Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",,FALSE
-king_north1,Koning van het Noorden,King of the North,,FALSE
-king_south,"Ptolemaeus I, II, III, IV (v11, 12), V (v15, 16) naar de slag Actium 31 v.G.T.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",,FALSE
-king_south1,Koning van het Zuiden,King of the South,,FALSE
-king_south2,"Britse Rijk 1870, Anglo-Amerikaanse wereldmacht sinds 1914","British Empire 1870, Anglo-American World Power since 1914",,FALSE
-king_south3,Koning van het Zuiden,King of the South,,FALSE
-king_north2,"Duitsland met keizer Willem I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,FALSE
-king_north3,Noorden,North,,FALSE
-king_north4,"Sovjet-Unie 1945-1991 (Daniël 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",,FALSE
-king_north5,Rusland sinds 2017 (w20 mei),Russia since 2017 (w20 May),,FALSE
-time_of_end,"Aanwezigheid van Christus, conclusie van het samenstel van dingen (Matteüs 24:3), de laatste dagen (2 Timotheüs 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,FALSE
-time_of_end2,Laatste dagen,Last days,,FALSE
-suryavaman2,Koning Suryavarman II bouwt Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,,FALSE
-notre-dame,"Notre Dame de Paris, gebouwd tussen 1163 en 1260",Notre-Dame de Paris built 1163-1260,,FALSE
-jehoiada,Jojada,Jehoiada,2 Kings 11:4,FALSE
-babel,Toren van Babel gebouwd,Tower of Babel built,,FALSE
-Haggai,Haggaï,Haggai,,FALSE
-Zerubbabel,Zerubbabel (Lukas 3:27),Zerubbabel (Luke 3:27),Luke 3:27,FALSE
-Babylon,"Daniël 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4",,TRUE
-Medopersia,"Daniël 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",,TRUE
-Greece,"Daniël 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",,TRUE
-Rome,"Daniël 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",,TRUE
-Angloamerica,"Daniël 2:33, 41-43","Daniel 2:33, 41-43",,TRUE
-Babylon_c,Babylon,Babylon,,TRUE
-Medopersia_c,Medië-Perzië,Medo-Persia,,TRUE
-Greece_c,Griekenland,Greece,,TRUE
-Rome_c,Rome,Rome,,TRUE
-Angloamerica_c,Engeland-Amerika,Anglo-America,,TRUE
-infliction1,400 jaar toebrengen,400 year infliction,Acts 7:6,FALSE
-infliction2,Handelingen 7:6,Acts 7:6,,FALSE
-Jacob2,Jakob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,FALSE
-Israel,Israël,Israel,Genesis 35:10,FALSE
-Sarah,Sara,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",FALSE
-Hagar,Hagar,Hagar,Genesis 21:14,FALSE
-Haran,Haraan,Haran,Genesis 11:26,FALSE
-Reumah,Reuma,Reumah,Concubine – 4 sons 22:24,FALSE
-Milcah,Melk,Milcah,8 sons (Bethuel and 7 more),FALSE
-Lot,Kavel,Lot,Genesis 11:27,FALSE
-Lots_wife,Lot's vrouw,Lot’s wife,,FALSE
-Lots_daughters,Dochters van Lot,Daughters of Lot,,FALSE
-Moab,Moab (oudere dochter),Moab (older daughter),Genesis 19:37,FALSE
-Ammon,Ben-Ammi (Ammon),Ben-ammi (Ammon),Genesis 19:38,FALSE
-Bethuel,Betuel,Bethuel,Genesis 22:23,FALSE
-Rebekah,Rebekka,Rebekah,,FALSE
-Laban,Laban,Laban,Genesis 24:29,FALSE
-Leah,Lea,Leah,Genesis 35:23,FALSE
-Rachel,Rachel,Rachel,Genesis 35:24,FALSE
-Bilhah,Bilha,Bilhah,Genesis 35:25,FALSE
-Zilpah,Zilpa,Zilpah,Genesis 35:26,FALSE
-Reuben,Ruben,Reuben,,FALSE
-Simeon,Simeon,Simeon,,FALSE
-Levi,Levi,Levi,Genesis 35:23,FALSE
-Judah,Juda,Judah,,FALSE
-Issachar,Issaschar,Issachar,,FALSE
-Zebulun,Zebulon,Zebulun,,FALSE
-Dinah,Dina,Dinah,Genesis 34,FALSE
-Esau,Ezau/,Esau/,,FALSE
-Edom,Edom,Edom,Genesis 36:1,FALSE
-Ishmael,Ismaël,Ishmael,Genesis 16:16,FALSE
-Manasseh2,(Manasse,(Manasseh,Genesis 41:50-52,FALSE
-Ephraim,en Efraïm),and Ephraim),,FALSE
-Benjamin,Benjamin,Benjamin,,FALSE
-Dan,Dan,Dan,Genesis 35:23,FALSE
-Naphtali,Naftali,Naphtali,,FALSE
-Gad,Gadver,Gad,,FALSE
-Asher,Aser,Asher,,FALSE
-Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,FALSE
-Milcah2,"Chesed, Hazo,","Chesed, Hazo,",,FALSE
-Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",,FALSE
-Tebah,Tebah,Tebah,Genesis 22:24,FALSE
-Gaham,Gaham,Gaham,,FALSE
-Tahash,Tahash,Tahash,,FALSE
-Maacah,Maacha,Maacah,,FALSE
-Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",FALSE
-Basemath,Ba̱smath,Basemath,"Genesis 36:3, 4",TRUE
-Reuel,Re̱huël,Reuel,"36:13, 17",TRUE
-Nahath,Na̱hath,Nahath,,TRUE
-Zerah,Ze̱ra,Zerah,,TRUE
-Schammah,Sa̱mma,Schammah,,TRUE
-Mizzah,Mi̱zza,Mizzah,,TRUE
-Adah,Ada,Adah,"36:11, 12, 15, 16",FALSE
-Eliphaz,Eli̱faz,Eliphaz,,TRUE
-Teman,Te̱man,Teman,,TRUE
-Omar,O̱mar,Omar,,TRUE
-Zepho,Ze̱fo,Zepho,,TRUE
-Kenaz,Ke̱naz,Kenaz,,TRUE
-Korah,Korach,Korah,,TRUE
-Gatam,Ga̱ëtam,Gatam,,TRUE
-Amalek,A̱malek,Amalek,,TRUE
-Oholibamah,Oholiba̱ma,Oholibamah,"36:14, 18",TRUE
-Jeush,Je̱üs,Jeush,,TRUE
-Jalam,Jaë̱lam,Jalam,,TRUE
-Nebaioth,Nebajoth,Nebaioth,Genesis 25:13,FALSE
-Kedar,Kedar,Kedar,,FALSE
-Adbeel,Adbeël,Adbeel,,FALSE
-Mibsam,Mibsam,Mibsam,,FALSE
-Mishma,Misma,Mishma,,FALSE
-Dumah,Doema,Dumah,,FALSE
-Massa,Massa,Massa,,FALSE
-Hadad,Hadad,Hadad,,FALSE
-Tema,Tema,Tema,,FALSE
-Jetur,Jetur,Jetur,,FALSE
-Naphish,Nafis,Naphish,,FALSE
-Kedemah,Kedema,Kedemah,,FALSE
-Babylon2,,,no text left and right – empty!,FALSE
-terahfam,Leden van Terahs familie,Members of Terah’s family,,FALSE
-rosetta,Rosetta-steen 196 v.G.T.,Rosetta stone 196 B.C.E.,,FALSE
-Herodotus,"Herodotus c. 484 - ca. 425 voor Christus, schrijft The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,FALSE
-Aristotle,Aristoteles 384 – 322 v.Chr,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",FALSE
-Ptolemy,Ptolemaeus c 100 – c. 170 G.T.,Ptolemy c 100 – c. 170 C.E.,,FALSE
-Pythagoras,Pythagoras c. 570 - ca. 495 v.Chr,Pythagoras c. 570 – c. 495 BC,,FALSE
-Plato,Plato c. 427 – ca. 348 v.Chr,Plato c. 427 – c. 348 BC,,FALSE
-Socrates,Socrates c. 470 – ca. 399 v.Chr,Socrates c. 470 – c. 399 BC,,FALSE
-Josephus,Josephus c. 37 – ca. 100 CE,Josephus c. 37 – c. 100 C.E.,,FALSE
-Cicero,Cicero 106–43 v.Chr,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",FALSE
-lachish_letters,Lachise brieven c. 590 v.G.T.,Lachish letters c. 590 B.C.E.,,FALSE
-lachish_reliefs,Lachise reliëfs c. 681 v.G.T.,Lachish reliefs c. 681 B.C.E.,,FALSE
-mesha_stele,Mesha Stele (Moabitische steen) c. 840 v.G.T.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,FALSE
-gilgamesh,Gilgamesj en Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,,FALSE
-epic_gilgamesh,Epos van Gilgamesj (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),,FALSE
-oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri,,FALSE
-p52,Papyrus P52,Papyrus P52,,FALSE
-daniel2_shift,0,4,Start 4.2,FALSE
-daniel2_1,Koning Nebukadnezar,King Nebuchadnezzar,607 BCE,TRUE
-daniel2_2,verwoest Jeruzalem,destroys Jerusalem,appendix B9,TRUE
-daniel2_3,Verovert Babylon,Conquers Babylon,539 BCE,TRUE
-daniel2_4,Cyrus vaardigt besluit uit:,Cyrus decrees return,537 BCE,TRUE
-daniel2_5,terugkeer Joden naar Jeruzalem,of Jews to Jerusalem,,TRUE
-daniel2_6,Alexander de Grote,Alexander the Great,331 BCE,TRUE
-daniel2_7,verovert Perzië,conquers Persia,,TRUE
-daniel2_8,Heerst over Israël,Rules over Israel,63 BCE,TRUE
-daniel2_9,Verwoest Jeruzalem,Destroys Jerusalem,70 CE,TRUE
-daniel2_10,Tijdens Eerste Wereldoorlog,"During World War I,",1914-1918 CE,TRUE
-daniel2_11,ontstaat Engels-Amerikaanse,Anglo-American World Power,,TRUE
-daniel2_12,wereldmacht,comes into being,End 4.2,TRUE
-qing-dynasty,1636-1912,1636-1912,,FALSE
-qing-dynasty_c,Qing-dynastie,Qing dynasty,1636-1912,FALSE
-ming-dynasty,1368-1644,1368-1644,,FALSE
-ming-dynasty_c,Ming-dynastie in het keizerlijke China,Ming dynasty in imperial China,1368-1644,FALSE
-yuan-dynasty,1271-1368,1271-1368,,FALSE
-southern-song,1127-1279,1127-1279,,FALSE
-northern-song,960-1127,960-1127,,FALSE
-western-xia,1038-1227,1038-1227,,FALSE
-yuan-dynasty_c,Yuan,Yuan,1271-1368,FALSE
-southern-song_c,Zuidelijk lied,Southern Song,1127-1279,FALSE
-northern-song_c,Noordelijk lied,Northern Song,960-1127,FALSE
-western-xia_c,Westelijke Xia,Western Xia,1038-1227,FALSE
-Copernicus,Nicolaus Copernicus,Nicolaus Copernicus,,FALSE
-Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,FALSE
-Newton,Isaak Newton,Isaac Newton,,FALSE
-gregorian,Gregoriaanse kalender 1582,Gregorian calendar 1582,,FALSE
-shang-dynasty,C. 1600-1046 v.Chr,c. 1600-1046 BC,,FALSE
-western-zhou,C. 1046-771 v.Chr,c. 1046-771 BC,,FALSE
-eastern-zhou,770-256 v.Chr,770-256 BC,,FALSE
-qin-dynasty,Qin 221-207 v.Chr,Qin 221-207 BC,,FALSE
-western-han,207 v.Chr. - 9 n.Chr,207 BC – 9 CE,,FALSE
-eastern-han,25-220 n.Chr,25-220 CE,,FALSE
-three-kingdoms,Drie koninkrijken 220-280 CE,Three kingdoms 220-280 CE,,FALSE
-sixteen-kingdoms,Zestien koninkrijken 304-439 CE,Sixteen kingdoms 304-439 CE,,FALSE
-northern-dynasties,368-581 CE,368-581 CE,,FALSE
-southern-dynasties,420-589 CE,420-589 CE,,FALSE
-tang-dynasty1,,,,FALSE
-tang-dynasty2,"618-690, 705-907","618-690, 705-907",,FALSE
-wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou,,FALSE
-shang-dynasty_c,Shang-dynastie,Shang dynasty,c. 1600-1046 BC,FALSE
-western-zhou_c,Westelijke Zhou,Western Zhou,c. 1046-771 BC,FALSE
-eastern-zhou_c,Oostelijke Zhou,Eastern Zhou,770-256 BC,FALSE
-western-han_c,Westelijke Han,Western Han,207 BC – 9 CE,FALSE
-eastern-han_c,Oostelijke Han,Eastern Han,25-220 CE,FALSE
-three-kingdoms_c,China,China,Three kingdoms 220-280 CE,FALSE
-sixteen-kingdoms_c,China,China,Sixteen kingdoms 304-439 CE,FALSE
-northern-dynasties_c,Noordelijke dynastieën,Northern dynasties,368-581 CE,FALSE
-southern-dynasties_c,Zuidelijke dynastieën,Southern dynasties,420-589 CE,FALSE
-tang-dynasty1_c,Tang,Tang,,FALSE
-tang-dynasty2_c,Tang-dynastie,Tang dynasty,"618-690, 705-907",FALSE
-xia-dynasty,Xia-dynastie in China c. 2070 – ca. 1600 voor Christus,Xia dynasty in China c. 2070 – c. 1600 BC,,FALSE
-gonghe,Gonghe-regentschap 841-828 v.Chr,Gonghe Regency 841-828 BC,,FALSE
-Ashoka,Ashoka (ca. 304-232 v.Chr.) bevordert het boeddhisme,Ashoka (c. 304-232 BC) promotes Buddhism,,FALSE
-siloam-tunnel,Hizkia breidt de Siloam-tunnel uit,Hezekiah extends Siloam tunnel,c. 742-732 BC,FALSE
-Angloamerica2,"Anglo-Amerikaans wordt gesymboliseerd door de voeten van ijzer vermengd met klei in de profetie in Daniël 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",,FALSE
-Manetho,Manetho schrijft Aegyptiaca,Manetho writes Aegyptiaca,,FALSE
-tribulation,"De Grote Verdrukking (Marcus 13:19; Daniël 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",,FALSE
-destruction_babylon,"Vernietiging van Babylon de Grote (Openbaring 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),FALSE
-gog_of_magog,"Aanval van Gog van Magog (Ezechiël 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,FALSE
-sheep_goat,"De bewoners van de aarde worden geoordeeld, waarbij schapen en geiten worden gescheiden (Matteüs 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,FALSE
-annointed,Bijeenkomst van Koninkrijksheersers (Mattheüs 24:31; 1 Korintiërs 15:50-53; 1 Thessalonicenzen 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,FALSE
-armageddon,"Slag bij Armageddon (Openbaring 16:14, 16; Jesaja 13:9; 2 Petrus 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,FALSE
-millenium,"Gods koninkrijk begint zijn duizendjarige regering (Openbaring 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",,FALSE
-great_crowd,"Een grote schare overleeft Armageddon (Openbaring 7:9, 14; Psalm 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",,FALSE
-world_population,Wereldbevolking in miljarden in de afgelopen 2000 jaar,World population in billions in the last 2000 years,appendix B9,FALSE
-607BCE,607 v.Chr.,607 B.C.E.,accommodate for language,TRUE
-539BCE,539 v.Chr.,539 B.C.E.,systems in style:,TRUE
-537BCE,537 v.Chr.,537 B.C.E.,>>year 537 before time<<,TRUE
-331BCE,331 v.Chr.,331 B.C.E.,so they need a word,TRUE
-63BCE,63 v.Chr.,63 B.C.E.,prior to the year,TRUE
-70CE,70 n.Chr.,70 C.E.,and something,TRUE
-1914CE,1914-1918 n.Chr.,1914-1918 C.E.,after the year,TRUE
-khmer_empire,804 – 1431 G.T.,804 – 1431 C.E.,,FALSE
-khmer_empire_c,Khmer-rijk - Angkor-periode,Khmer Empire - Angkor period,,FALSE
-byzantine_empire,330-1453 G.T.,330-1453 C.E.,,FALSE
-byzantine_empire_c,Byzantijnse rijk,Byzantine Empire,,FALSE
-ottoman_empire,1299 – 1922 CE,1299 – 1922 C.E.,,FALSE
-ottoman_empire_c,Ottomaanse Rijk,Ottoman Empire,,FALSE
-holy_roman_empire,800 – 924 CE,800 – 924 C.E.,,FALSE
-holy_roman_empire2,962 – 1806 CE,962 – 1806 C.E.,fixed 2024-12-31,FALSE
-holy_roman_empire_c,Heilige Roomse Rijk - na 1512 bekend als Heilige Roomse Rijk van de Duitse Natie,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,,FALSE
-mongol_empire,Mongoolse Rijk 1206 – 1294 G.T.,Mongol Empire 1206 – 1294 C.E.,,FALSE
-Genghis,Genghis Khan,Genghis Khan,,FALSE
-maya_classic,250-950,250-950,,FALSE
-maya_classic_c,Maya-beschaving – Klassieke periode,Maya civilization – Classic period,,FALSE
-maya_postclassic,950-1539,950-1539,,FALSE
-maya_postclassic_c,Maya-beschaving – Postklassieke periode,Maya civilization – Postclassic period,,FALSE
-inca_empire,1438 – 1533 G.T.,1438 – 1533 C.E.,,FALSE
-inca_empire_c,Inca-rijk,Inca empire,,FALSE
-gupta_empire,319 – 550 CE,319 – 550 C.E.,,FALSE
-gupta_empire_c,Gupta-rijk,Gupta Empire,,FALSE
-Teotihuacan,"Grootste stad in Amerika, piramides gebouwd c. 200 CE","Largest city in the Americas, pyramids build c. 200 C.E.",,FALSE
-Teotihuacan_c,Teotihuacán,Teotihuacan,,FALSE
-Dionysius_Exiguus,"Dionysius Exiguus, uitvinder van Anno Domini","Dionysius Exiguus, inventor of Anno Domini",,FALSE
-Umayyad,661 – 750 CE,661 – 750 C.E.,,FALSE
-Umayyad_c,Umayyad,Umayyad,,FALSE
-Abbasid,750 – 1258 CE,750 – 1258 C.E.,,FALSE
-Abbasid_c,Abbasidische kalifaat,Abbasid Caliphate,,FALSE
-Mamluk,1250 – 1517 G.T.,1250 – 1517 C.E.,,FALSE
-Mamluk_c,Mamluk-sultanaat,Mamluk Sultanate,,FALSE
-ur3,Ur III-dynastie 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠,,FALSE
-hammurabi,Hammurabi𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉,,FALSE
-Al-Khwarizmi,al-Khwarizmi schrijft Al-Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra),,FALSE
-al-azhar,De Al-Azhar Universiteit is gevestigd in Caïro,Al-Azhar University is established in Cairo,,FALSE
-Ibn-Sina,Ibn Sina of Avicenna,Ibn Sina or Avicenna,,FALSE
-Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,FALSE
-Keturah,Ketura,Keturah,Genesis 25:1-4,FALSE
-Zimran,Zimran,Zimran,,FALSE
-Jokshan,Jokshan,Jokshan,,FALSE
-Medan,Medan,Medan,,FALSE
-Midian,Midian,Midian,,FALSE
-Ishbak,Isbak,Ishbak,,FALSE
-Shuah,Shua,Shuah,,FALSE
-Timna,Timna,Timna,"1 Chr 1:36, Ge 36:10-12",FALSE
-Midianites,"1) Midianieten: Numeri 31:2, 3","1) Midianites: Numbers 31:2, 3",,FALSE
-Moabites,"2) Moabieten: Deuteronomium 23:3, 4","2) Moabites: Deuteronomy 23:3, 4",,FALSE
-Ammonites,3) Ammonieten: Jozua 12:2,3) Ammonites: Joshua 12:2,,FALSE
-Edomites,4) Edomieten: Numeri 20:14-17,4) Edomites: Numbers 20:14-17,,FALSE
-Temanites,5) Temanieten: Job 42:7,5) Temanites: Job 42:7,,FALSE
-Amalekites,6) Amalekieten: 1 Samuël 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,FALSE
-life-expectancy,Levensverwachting 75 jaar,Life expectancy 75 years,,FALSE
-life-expectancy2,(Psalm 90:10),(Psalm 90:10),2024-11-29,FALSE
-430years,1943 – 1513 v.G.T.,1943 – 1513 B.C.E.,,FALSE
-430years_c,"430 jaar: Exodus 12:41, Galaten 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,FALSE
-maya_calendar,Berekend begin van de Maya-kalender op 11 augustus 3114 v.G.T.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,FALSE
-xia-dynasty2,C. 2070 – ca. 1600 voor Christus; Er werd voor het eerst gezinspeeld tijdens de Westelijke Zhou-periode,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,FALSE
-xia-dynasty2_c,Xia-dynastie in China,Xia dynasty in China,,FALSE
-tres_zapotes,3 september 32 v.G.T.,"September 3rd, 32 B.C.E.",2024-12-31,FALSE
-joseph_jacob_reunited,Jozef en Jakob herenigd in Egypte – 1728 v.G.T. (Genesis 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,FALSE
-king_south_light,,,2025-02-05,FALSE
-king_south_light_c,Koning van het Zuiden uit Daniël 11,King of the South from Daniel 11,2025-02-05,FALSE
-king_north_light,,,2025-02-05,FALSE
-king_north_light_c,Koning van het Noorden uit Daniël 11,King of the North from Daniel 11,2025-02-05,FALSE
-daniel2_iron,,,2025-02-05,FALSE
-daniel2_iron_c,IJzeren poten uit Daniel 2,Iron legs from Daniel 2,2025-02-05,FALSE
-wulfila,Wulfila Bijbel,Wulfila Bible,2025-09-20,FALSE
-argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,FALSE
-tran_dynasty,1225 – 1400,1225 – 1400,,FALSE
-tran_dynasty_c,Trần-dynastie,Trần dynasty,,FALSE
-le_dynasty,1428 – 1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ,FALSE
-le_dynasty_c,De dynastie,Lê dynasty,,FALSE
-revival_le_dynasty,1533-1789,1533-1789,,FALSE
-revival_le_dynasty_c,Trịnh-heren en Nguyễn-heren,Revival Lê dynasty,Nhà Lê trung hưng,FALSE
-nguyen_dynasty,1802 – 1883,1802 – 1883,,FALSE
-nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,FALSE
-edo,1603 – 1868,1603 – 1868,,FALSE
-edo_c,Edo-periode in Japan,Edo period in Japan,,FALSE
-meiji,1868 – 1912,1868 – 1912,,FALSE
-meiji_c,Meiji,Meiji,2025-09-20,FALSE
-Ham,Ham,Ham,Gen 10:1,FALSE
-Canaan,Kanaän,Canaan,Gen 10:6,FALSE
-Sidon,Sidon,Sidon,Gen 10:15,FALSE
-Heth,Het,Heth,Gen 10:15,FALSE
-Jebusite,Jebusiet,Jebusite,Gen 10:16,FALSE
-Amorite,Amoriet,Amorite,Gen 10:16,FALSE
-Girgashite,Gigashiet,Girgashite,Gen 10:16,FALSE
-Hivite,Heviet,Hivite,Gen 10:17,FALSE
-Arkite,Arkite,Arkite,Gen 10:17,FALSE
-Sinite,Siniet,Sinite,Gen 10:17,FALSE
-Arvadite,Arvadiet,Arvadite,Gen 10:18,FALSE
-Zemarite,Zemariet,Zemarite,Gen 10:18,FALSE
-Hamathite,Hamathiet,Hamathite,Gen 10:18,FALSE
-Cush,Kus,Cush,Gen 10:6,FALSE
-Nimrod,Nimrod,Nimrod,Gen 10:8,FALSE
-Mizraim,Mizraim,Mizraim,Gen 10:14,FALSE
-Casluh,Casluh,Casluh,1 Chronicles 1:12 (Philistines),FALSE
-Japheth,Jafeth,Japheth,Gen 10:3,FALSE
-Asshur,Assur,Asshur,Gen 10:22,FALSE
-Lud,Luid,Lud,Gen 10:22,FALSE
-Aram,Aram,Aram,Gen 10:22,FALSE
-Elam,Elam,Elam,Gen 10:22,FALSE
-Joktan,Joktan,Joktan,Gen 10:26,FALSE
-Almodad,Almodad,Almodad,Gen 10:26,FALSE
-Sheleph,Shelef,Sheleph,Gen 10:26,FALSE
-Hazarmareth,Hazmareth,Hazarmareth,Gen 10:26,FALSE
-Jerah,Jera,Jerah,Gen 10:26,FALSE
-Hadoram,Hadoram,Hadoram,Gen 10:27,FALSE
-Uzal,Uzal,Uzal,Gen 10:27,FALSE
-Diklah_Obal,"Diklah, Obal","Diklah, Obal",Gen 10:27,FALSE
-Abimael,Abimaël,Abimael,Gen 10:28,FALSE
-Sheba_Ophir,"Scheba, Ofir","Sheba, Ophir","Gen 10:28, 29",FALSE
-Havilah,Havila,Havilah,Gen 10:29,FALSE
-Jobab,Jobab,Jobab,Gen 10:29,FALSE
-Korah_Gatam,"Korach, Gatam","Korah, Gatam",303 and 304,FALSE
-Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",311 and 312,FALSE
-Dumah_Massa,"Duma, Massa","Dumah, Massa",314 and 315,FALSE
-Ham_fn,1) Egyptenaren: Psalmen 105:23,1) Egyptians: Psalms 105:23,2025-09-22,FALSE
-Canaan_fn,2) Kanaänieten: Jozua 13:3,2) Canaanites: Joshua 13:3,2025-09-22,FALSE
-Aram_fn,3) Arameeërs: Hosea 12:12,3) Arameans: Hosea 12:12,2025-09-22,FALSE
-Elam_fn,4) Elamieten: Ezra 4:9,4) Elamites: Ezra 4:9,2025-09-22,FALSE
-Asshur_fn,5) Assyriërs: Ezechiël 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,FALSE
-Casluh_fn,6) Filistijnen: 1 Kronieken 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,FALSE
-Cush_fn,7) Ethiopisch [Kushiet]: 2 Koningen 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,FALSE
-Edom_fn,8) Edomieten: Numeri 20:14-17,8) Edomites: Numbers 20:14-17,same as 459,FALSE
-Moab_fn,"9) Moabieten: Deuteronomium 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457,FALSE
-Ammon_fn,10) Ammonieten: Jozua 12:2,10) Ammonites: Joshua 12:2,same as 458,FALSE
-Midian_fn,"11) Midianieten: Numeri 31:2, 3","11) Midianites: Numbers 31:2, 3",same as 456,FALSE
-Amalek_fn,12) Amalekieten: 1 Samuël 15:2,12) Amalekites: 1 Samuel 15:2,same as 461,FALSE
-Teman_fn,13) Temanieten: Job 42:7,13) Temanites: Job 42:7,same as 460,FALSE
-Sidon_fn,14) Sidoniërs: Zacharia 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,FALSE
-Heth_fn,15) Hethieten: Genesis 15:20,15) Hittites: Genesis 15:20,2025-09-22,FALSE
-Jebusite_fn,16) Jebusieten: Jozua 15:63,16) Jebusites: Joshua 15:63,2025-09-22,FALSE
-Judith,Judith?,Judith?,"Genesis 26:34, 35",FALSE
-Lud_fn,17) Lydiërs: 1 Kronieken 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",FALSE
-Ishmael_fn,18) Ismaëlieten: Genesis 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,FALSE
-Amorite_fn,19) Amorieten: Richteren 6:10,19) Amorites: Judges 6:10,2025-09-22,FALSE
-Hivite_fn,"20) Hevieten [Gibeon]: Jozua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,FALSE
-american_civil_war,Amerikaanse Burgeroorlog 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",FALSE
-aleppo_codex,Aleppo-codex c. 920,Aleppo Codex c. 920,2025-10-03,FALSE
-seljuk_empire,1037 – 1194 G.T.,1037 – 1194 C.E.,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",FALSE
-seljuk_empire_c,Seltsjoekse rijk,Seljuk empire,,FALSE
-vandals,Koninkrijk van de Vandalen en Alanen 435 – 534 G.T.,Kingdom of the Vandals and Alans 435 – 534 C.E.,Vandals 435-534 C.E.,FALSE
-vandals_c,Vandalen,Vandals,,FALSE
-francia,"C. 481/509 – 843 G.T., Merovingisch tot 751, daarna Karolingisch","c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,FALSE
-francia_c,Koninkrijk der Franken,Kingdom of the Franks,,FALSE
-lombard,568 – 774 G.T.,568 – 774 C.E.,Kingdom of the Lombards 568-774,FALSE
-lombard_c,Lombardisch koninkrijk,Lombard Kingdom,2025-10-13,FALSE
-100_years_war,Honderdjarige oorlog 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,FALSE
-black_death,Zwarte dood 1346-1353,Black death 1346-1353,1346-1353,FALSE
-sui_dynasty,581-618 Sui-dynastie,581-618 Sui dynasty,2025-11-09,FALSE
-sui_dynasty_c,Sui,Sui,2025-11-09,FALSE
+key,text,english,notes,tag,checked
+version,6.01,6.01,6.01,float,True
+pdf_title,6000 jaar menselijke geschiedenis in beeld,6000 years human history visualized,2026-01-16,text,True
+pdf_subject,Tijdlijn van de mensheid,Timeline of humankind,6.01,text,False
+BCE,v.Chr.,B.C.E.,appendix B9,B9,True
+CE,n.Chr.,C.E., ,B9,True
+month,maand,month, ,text,False
+months,maanden,months, ,text,False
+day,dag,day, ,text,False
+days,dagen,days, ,text,False
+to,naar,to, ,text,False
+Deluge,Zondvloed,Deluge, ,text,False
+moses2,1593 tot 1473 v.G.T. – 120 jaar,1593 to 1473 B.C.E. – 120 years, ,text,False
+temple1,Nisan 1513 v.G.T. tot Ziv 1034 v.G.T.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False
+69weeks,Jezus doopte in de herfst van 29 G.T.,Jesus baptized autumn 29 C.E., ,text,False
+year,jaar,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True
+years,jaar,years, ,text,True
+years_age,jaar,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+wilderness,Israël in de wildernis 1513 tot 1473 v.G.T. – 40 jaar,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
+timespan_judges,1473 tot 1117 v.G.T. – 356 jaar,1473 to 1117 B.C.E. – 356 years, ,text,False
+timespan_judges2,Tijd van de juryleden,Time of the judges, ,text,False
+temple2,479 jaar tot de tempelbouw – 1 Koningen 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False
+69weeks2,69 weken tot de Messias – Daniël 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False
+jesus_service,"3,5 jaar Jezus-dienst, geëxecuteerd op 14 Nisan 33 G.T.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False
+jesus_life,Jezus geboren in 2 v.G.T.,Jesus born 2 B.C.E., ,text,False
+exile,607 tot 537 v.G.T. – 70 jaar (Jeremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False
+exile2,Verbannen,Exile, ,text,False
+7times2,7 keer – 2520 jaar tot het Messiaanse koninkrijk 1914 G.T. (Daniël 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False
+ww1,Eerste Wereldoorlog – 1914–1918 G.T.,World War I – 1914–1918, ,text,False
+ww2,Tweede Wereldoorlog – 1939–1945 CE,World War II – 1939–1945, ,text,False
+30_year_war,Dertigjarige oorlog in Europa 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False
+joshua,110 jaar,110 years, ,text,False
+caleb,ruim 85 jaar,more than 85 years, ,text,False
+missionary1,"Eerste zendingsreis van Paulus, ca. 47-48 G.T. met Barnabas en Johannes Marcus","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False
+circumcision,"Besnijdeniskwestie in Antiochië, conferentie in Jeruzalem ca. 49 CE","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False
+missionary2,Tweede zendingsreis c. 49-52 CE met Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False
+missionary3,Derde zendingsreis c. 52-56 G.T.,Third Missionary Journey c. 52-56 C.E., ,text,False
+caesarea,Paulus in hechtenis in Caesarea c. 56-58 G.T.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False
+rome1,Paulus’ eerste gevangenschap in Rome ca. 59-61 G.T.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False
+rome2,"Paulus’ tweede gevangenschap in Rome ca. 65 G.T., 2 Timotheüs geschreven, Paulus geëxecuteerd","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False
+event_exodus,Uittocht uit Egypte op 14 Nisan 1513 v.G.T.,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False
+event_division_kingdom,Verdeling van Israël 997 v.Chr,Division of Israel 997 BCE, ,text,False
+event_destruction_samaria,Vernietiging van Samaria 740 v.G.T. door Assyrië,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False
+event_destruction_jerusalem1,"Vernietiging van Jeruzalem 607 v.G.T. door Babylon, 390 jaar na de verdeling van het koninkrijk (Ezechiël 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False
+event_temple_rebuilt,Tempel in Jeruzalem herbouwd 515 v.G.T.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False
+event_jerusalem_rebuilt,De muur van Jeruzalem werd in 455 v.G.T. herbouwd.,Jerusalem wall rebuilt 455 B.C.E., ,text,False
+event_destruction_jerusalem2,Vernietiging van Jeruzalem 70 G.T. door Rome onder Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False
+event_1914,"Einde van de tijd der natiën (Lukas 21:24), Gods koninkrijk begint in de hemel te regeren 1914 G.T.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False
+became_king,wordt koning op leeftijd,becomes king at age,2025-04-14,text,False
+vulgate,Vulgaat aangevuld door Hiëronymus (Latijnse vertaling van de bijbel) c. 405 CE,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False
+gutenberg,Gutenbergbijbel gedrukt in 1455,Gutenberg Bible printed 1455, ,text,False
+erasmus,"Griekse tekst van de christelijke Griekse Geschriften, uitgegeven door Desiderius Erasmus uit Rotterdam, 1516",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False
+luther,Lutherbijbelvertaling in september 1522,Luther Bible translation in September 1522, ,text,False
+tyndale,Engelse bijbelvertaling door Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False
+king_james,King Jamesbijbel 1611,King James Bible 1611, ,text,False
+69weeks3,"Jezus begint zijn dienst in 29 GT (Lukas 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False
+ransom,Midden van de week “offer om op te houden” Daniël 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False
+cornelius,Cornelius doopte aan het einde van de zeventig weken (Daniël 9:24) in 36 G.T.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False
+columbus,Einde van de precolumbiaanse periode in Amerika 1492,End of the pre-columbian period in the Americas 1492, ,text,False
+declaration_independence,Onafhankelijkheidsverklaring van 13 koloniën in Amerika 1776,Declaration of independence of 13 colonies in America 1776, ,text,False
+tischendorf,Tischendorf ontdekt in 1844 de Codex Sinaiticus uit de 4e eeuw,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False
+dead_sea_scrolls,Dode Zeerollen geschreven,Dead Sea Scrolls written, ,text,False
+septuagint,Septuaginta LXX vertaald,Septuagint LXX translated, ,text,False
+watchtower,De eerste uitgave van “Zion’s Watch Tower and Herald of Christ’s Presence” verschijnt in 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False
+jehovahs_witnesses,"De Bijbelonderzoekers nemen een nieuwe naam aan – Jehovah’s Getuigen (Jesaja 43:10, 12) in Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False
+gilead_school,De Wachttoren-Bijbelschool Gilead begint op maandag 1 februari 1943,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False
+new_world_translation1,"In de „Nieuwe-Wereldvertaling van de Heilige Schrift”, die op 18 juni 1960 in Manchester (Engeland) werd uitgegeven, wordt de naam Jehovah opnieuw in veel delen van de Bijbel geïntroduceerd","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
+new_world_translation2,"Herziene ‘Nieuwe-Wereldvertaling van de Heilige Schrift’ uitgebracht tijdens de jaarvergadering van 2013, geoptimaliseerd voor digitaal en online gebruik","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
+cold_war,Geopolitieke situatie met het label ‘Koude Oorlog’ 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
+timeline_created,"Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de afgelopen 125.000 jaar","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
+codex_sinaiticus,Codex Sinaiticus geschreven,Codex Sinaiticus written, ,text,False
+codex_vaticanus,Codex Vaticanus geschreven,Codex Vaticanus written, ,text,False
+leningrad_codex,Leningrad Codex geschreven in Caïro in 1008 na Christus,Leningrad Codex written in Cairo AD 1008, ,text,False
+john,Johannes schrijft ‘openbaring’ terwijl hij in ballingschap was op Patmos van 96 tot 98 G.T.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False
+buddha,De Boeddha – Siddhartha Gautama ca. 563-ca. 483 v.G.T,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False
+buddha2,Boeddha alternatief c. 480-400 v.G.T.,Buddha alternatively c. 480-400 B.C.E., ,text,False
+mohammed,Mohammed c. 570-632 G.T.,Mohammed c. 570-632, ,text,False
+confucius,Confucius ca. 551-ca. 479 v.G.T.,Confucius c.551-c.479 B.C.E., ,text,False
+hijrah,"Hijrah - Reis van Mekka naar Medina, 16 juli 622",Hijrah - Journey Mecca to Medina 16 July 622, ,text,False
+moses_escape,"1553 v.G.T. Mozes moet Egypte ontvluchten – Exodus 2:15, Handelingen 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False
+10plagues,1513 v.G.T. Egypte krijgt tien plagen,1513 B.C.E Egypt receives 10 plagues, ,text,False
+joseph_sold,Jozef werd op 17-jarige leeftijd als slaaf verkocht – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False
+infliction,400 jaar durende straf (Handelingen 7:6) – Ismaël 1913 v.G.T.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False
+Alexander,Alexander de Grote (Daniël 11:3),Alexander the Great (Daniel 11:3), ,text,False
+persia,"Cyrus de Grote, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (echtgenoot van Esther, Daniël 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False
+king_north,"Seleucus I Nicator (v5) Syrië tot Antiochus III (v10) en Seleucus IV (v18, 19) tot Octavianus (v20) en Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False
+king_north1,Koning van het Noorden,King of the North, ,text,False
+king_south,"Ptolemaeus I, II, III, IV (v11, 12), V (v15, 16) naar de slag Actium 31 v.G.T.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False
+king_south1,Koning van het Zuiden,King of the South, ,text,False
+king_south2,"Britse Rijk 1870, Anglo-Amerikaanse wereldmacht sinds 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False
+king_south3,Koning van het Zuiden,King of the South, ,text,False
+king_north2,"Duitsland met keizer Willem I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False
+king_north3,Noorden,North, ,text,False
+king_north4,"Sovjet-Unie 1945-1991 (Daniël 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False
+king_north5,Rusland sinds 2017 (w20 mei),Russia since 2017 (w20 May), ,text,False
+time_of_end,"Aanwezigheid van Christus, conclusie van het samenstel van dingen (Matteüs 24:3), de laatste dagen (2 Timotheüs 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False
+time_of_end2,Laatste dagen,Last days, ,text,False
+suryavaman2,Koning Suryavarman II bouwt Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False
+notre-dame,"Notre Dame de Paris, gebouwd tussen 1163 en 1260",Notre-Dame de Paris built 1163-1260, ,text,False
+babel,Toren van Babel gebouwd,Tower of Babel built, ,text,False
+infliction1,400 jaar toebrengen,400 year infliction,Acts 7:6,text,False
+Lots_wife,Lot's vrouw,Lot’s wife, ,text,False
+Lots_daughters,Dochters van Lot,Daughters of Lot, ,text,False
+Moab,Moab (oudere dochter),Moab (older daughter),Genesis 19:37,text,False
+rosetta,Rosetta-steen 196 v.G.T.,Rosetta stone 196 B.C.E., ,text,False
+Herodotus,"Herodotus c. 484 - ca. 425 voor Christus, schrijft The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False
+Aristotle,Aristoteles 384 – 322 v.Chr,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False
+Ptolemy,Ptolemaeus c 100 – c. 170 G.T.,Ptolemy c 100 – c. 170 C.E., ,text,False
+Pythagoras,Pythagoras c. 570 - ca. 495 v.Chr,Pythagoras c. 570 – c. 495 BC, ,text,False
+Plato,Plato c. 427 – ca. 348 v.Chr,Plato c. 427 – c. 348 BC, ,text,False
+Socrates,Socrates c. 470 – ca. 399 v.Chr,Socrates c. 470 – c. 399 BC, ,text,False
+Josephus,Josephus c. 37 – ca. 100 CE,Josephus c. 37 – c. 100 C.E., ,text,False
+Cicero,Cicero 106–43 v.Chr,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False
+lachish_letters,Lachise brieven c. 590 v.G.T.,Lachish letters c. 590 B.C.E., ,text,False
+lachish_reliefs,Lachise reliëfs c. 681 v.G.T.,Lachish reliefs c. 681 B.C.E., ,text,False
+mesha_stele,Mesha Stele (Moabitische steen) c. 840 v.G.T.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False
+gilgamesh,Gilgamesj en Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False
+epic_gilgamesh,Epos van Gilgamesj (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False
+gregorian,Gregoriaanse kalender 1582,Gregorian calendar 1582, ,text,False
+shang-dynasty,C. 1600-1046 v.Chr,c. 1600-1046 BC, ,text,False
+western-zhou,C. 1046-771 v.Chr,c. 1046-771 BC, ,text,False
+qin-dynasty,Qin 221-207 v.Chr,Qin 221-207 BC, ,text,False
+western-han,207 v.Chr. - 9 n.Chr,207 BC – 9 CE, ,text,False
+three-kingdoms,Drie koninkrijken 220-280 CE,Three kingdoms 220-280 CE, ,text,False
+sixteen-kingdoms,Zestien koninkrijken 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False
+tang-dynasty1_c,Tang,Tang, ,text,False
+gonghe,Gonghe-regentschap 841-828 v.Chr,Gonghe Regency 841-828 BC, ,text,False
+Ashoka,Ashoka (ca. 304-232 v.Chr.) bevordert het boeddhisme,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False
+siloam-tunnel,Hizkia breidt de Siloam-tunnel uit,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False
+Angloamerica2,"Anglo-Amerikaans wordt gesymboliseerd door de voeten van ijzer vermengd met klei in de profetie in Daniël 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
+Manetho,Manetho schrijft Aegyptiaca,Manetho writes Aegyptiaca, ,text,False
+destruction_babylon,"Vernietiging van Babylon de Grote (Openbaring 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+gog_of_magog,"Aanval van Gog van Magog (Ezechiël 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
+sheep_goat,"De bewoners van de aarde worden geoordeeld, waarbij schapen en geiten worden gescheiden (Matteüs 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
+annointed,Bijeenkomst van Koninkrijksheersers (Mattheüs 24:31; 1 Korintiërs 15:50-53; 1 Thessalonicenzen 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
+armageddon,"Slag bij Armageddon (Openbaring 16:14, 16; Jesaja 13:9; 2 Petrus 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False
+millenium,"Gods koninkrijk begint zijn duizendjarige regering (Openbaring 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False
+great_crowd,"Een grote schare overleeft Armageddon (Openbaring 7:9, 14; Psalm 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False
+world_population,Wereldbevolking in miljarden in de afgelopen 2000 jaar,World population in billions in the last 2000 years,appendix B9,text,False
+khmer_empire_c,Khmer-rijk - Angkor-periode,Khmer Empire - Angkor period, ,text,False
+holy_roman_empire_c,Heilige Roomse Rijk - na 1512 bekend als Heilige Roomse Rijk van de Duitse Natie,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False
+mongol_empire,Mongoolse Rijk 1206 – 1294 G.T.,Mongol Empire 1206 – 1294, ,text,False
+maya_classic_c,Maya-beschaving – Klassieke periode,Maya civilization – Classic period, ,text,False
+maya_postclassic_c,Maya-beschaving – Postklassieke periode,Maya civilization – Postclassic period, ,text,False
+Teotihuacan,"Grootste stad in Amerika, piramides gebouwd c. 200 CE","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False
+Dionysius_Exiguus,"Dionysius Exiguus, uitvinder van Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False
+Umayyad_c,Umayyad,Umayyad, ,text,False
+ur3,Ur III-dynastie 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False
+hammurabi,Hammurabi𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False
+Al-Khwarizmi,al-Khwarizmi schrijft Al-Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False
+al-azhar,De Al-Azhar Universiteit is gevestigd in Caïro,Al-Azhar University is established in Cairo, ,text,False
+Ibn-Sina,Ibn Sina of Avicenna,Ibn Sina or Avicenna, ,text,False
+life-expectancy,Levensverwachting 75 jaar,Life expectancy 75 years, ,text,False
+430years_c,"430 jaar: Exodus 12:41, Galaten 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False
+maya_calendar,Berekend begin van de Maya-kalender op 11 augustus 3114 v.G.T.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False
+xia-dynasty2,C. 2070 – ca. 1600 voor Christus; Er werd voor het eerst gezinspeeld tijdens de Westelijke Zhou-periode,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False
+xia-dynasty2_c,Xia-dynastie in China,Xia dynasty in China, ,text,False
+tres_zapotes,3 september 32 v.G.T.,"September 3rd, 32 B.C.E.",2024-12-31,text,False
+joseph_jacob_reunited,Jozef en Jakob herenigd in Egypte – 1728 v.G.T. (Genesis 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False
+king_south_light_c,Koning van het Zuiden uit Daniël 11,King of the South from Daniel 11,2025-02-05,text,False
+king_north_light_c,Koning van het Noorden uit Daniël 11,King of the North from Daniel 11,2025-02-05,text,False
+daniel2_iron_c,IJzeren poten uit Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False
+argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False
+edo_c,Edo-periode in Japan,Edo period in Japan, ,text,False
+meiji_c,Meiji,Meiji,2025-09-20,text,False
+american_civil_war,Amerikaanse Burgeroorlog 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
+aleppo_codex,Aleppo-codex c. 920,Aleppo Codex c. 920,2025-10-03,text,False
+vandals,Koninkrijk van de Vandalen en Alanen 435 – 534 G.T.,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia,"C. 481/509 – 843 G.T., Merovingisch tot 751, daarna Karolingisch","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+francia_c,Koninkrijk der Franken,Kingdom of the Franks, ,text,False
+100_years_war,Honderdjarige oorlog 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False
+black_death,Zwarte dood 1346-1353,Black death 1346-1353,1346-1353,text,False
+sui_dynasty,581-618 Sui-dynastie,581-618 Sui dynasty,2025-11-09,text,False
+sui_dynasty_c,Sui,Sui,2025-11-09,text,False
+tribulation,"De Grote Verdrukking (Marcus 13:19; Daniël 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
+Adam,Adam,Adam,Luke 3:38,bible,True
+Seth,Seth,Seth, ,bible,True
+Enosh,E̱nos,Enosh, ,bible,True
+Kenan,Kenan,Kenan (Cainan),Genesis 5:12,bible,False
+Mahalalel,Mahala̱leël,Mahalalel (Mahalaleel),Ma·hala·lel,bible,False
+Jared,Je̱red,Jared, ,bible,True
+Enoch,He̱noch,Enoch, ,bible,True
+Methuselah,Methu̱salah,Methuselah,Luke 3:37,bible,True
+Lamech,La̱mech,Lamech, ,bible,True
+Noah,Noach,Noah, ,bible,True
+Shem,Sem,Shem, ,bible,True
+Arpachshad,Arpa̱chsad,Arpachshad,Luke 3:36,bible,True
+Shelah,Se̱lah,Shelah, ,bible,True
+Eber,He̱ber,Eber, ,bible,True
+Peleg,Pe̱leg,Peleg, ,bible,True
+Reu,Re̱hu,Reu, ,bible,True
+Serug,Se̱rug,Serug,Luke 3:35,bible,True
+Nahor,Na̱hor,Nahor,Genesis 11:24,bible,True
+Terah,Te̱rah,Terah, ,bible,True
+Abraham,Abraham,Abraham, ,bible,True
+Isaac,Isaäk,Isaac, ,bible,True
+Jacob,Jakob,Jacob,Luke 3:34,bible,True
+Joseph,Jozef,Joseph,Genesis 37,bible,False
+Moses,Mozes,Moses, ,bible,False
+Othniel,Othniël,Othniel,Judges 3:9-11,bible,False
+Ehud,Ehud,Ehud,Judges 3:15-18,bible,False
+Shamgar,Shamgar,Shamgar,Judges 3:31,bible,False
+Barak,Barak,"Barak, Deborah, Jael",Judges 4:6,bible,False
+Gideon,Gideon,Gideon,Judges 7:1,bible,False
+Tola,Tola,Tola,Judges 10:1,bible,False
+Jair,Jaïr,Jair,Judges 10:3,bible,False
+Jephthah,Jefta,Jephthah,Judges 11:1,bible,False
+Ibzan,Ibzan,Ibzan,Judges 12:8,bible,False
+Elon,Elon,Elon,Judges 12:11,bible,False
+Abdon,Abdon,Abdon,Judges 12:13,bible,False
+Samson,Samson,Samson,Judges 13:24,bible,False
+Samuel,Samuel,Samuel,1 Samuel 1:20,bible,False
+Saul,Saul,Saul,1 Samuel 9:2,bible,False
+David,David,David,1 Samuel 16:13,bible,False
+Solomon,Solomon,Solomon,1 Kings 2:1,bible,False
+Malachi,Maleachi,Malachi, ,bible,False
+Ruth,Ruth,Ruth, ,bible,False
+Ezra,Esra,Ezra, ,bible,False
+Nehemiah,Nehemia,Nehemiah, ,bible,False
+Esther,Ester,Esther, ,bible,False
+Job,Functie,Job, ,bible,False
+moses3,Mozes,Moses, ,bible,False
+joshua2,Jozua,Joshua, ,bible,False
+caleb2,Kaleb,Caleb, ,bible,False
+Augustus,Augustus,Augustus,Luke 2:1,bible,False
+Tiberius,Tiberius,Tiberius,Luke 3:1,bible,False
+Claudius,Claudius,Claudius,Acts 11:28,bible,False
+persia2,Perzië,Persia, ,bible,False
+jehoiada,Jojada,Jehoiada,2 Kings 11:4,bible,False
+Haggai,Haggaï,Haggai, ,bible,False
+Zerubbabel,Zerubbabel (Lukas 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False
+Jacob2,Jakob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False
+Israel,Israël,Israel,Genesis 35:10,bible,False
+Sarah,Sara,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False
+Hagar,Hagar,Hagar,Genesis 21:14,bible,False
+Haran,Haraan,Haran,Genesis 11:26,bible,False
+Reumah,Reuma,Reumah,Concubine – 4 sons 22:24,bible,False
+Milcah,Melk,Milcah,8 sons (Bethuel and 7 more),bible,False
+Lot,Kavel,Lot,Genesis 11:27,bible,False
+Ammon,Ben-Ammi (Ammon),Ben-ammi (Ammon),Genesis 19:38,bible,False
+Bethuel,Betuel,Bethuel,Genesis 22:23,bible,False
+Rebekah,Rebekka,Rebekah, ,bible,False
+Laban,Laban,Laban,Genesis 24:29,bible,False
+Leah,Lea,Leah,Genesis 35:23,bible,False
+Rachel,Rachel,Rachel,Genesis 35:24,bible,False
+Bilhah,Bilha,Bilhah,Genesis 35:25,bible,False
+Zilpah,Zilpa,Zilpah,Genesis 35:26,bible,False
+Reuben,Ruben,Reuben, ,bible,False
+Simeon,Simeon,Simeon, ,bible,False
+Levi,Levi,Levi,Genesis 35:23,bible,False
+Judah,Juda,Judah, ,bible,False
+Issachar,Issaschar,Issachar, ,bible,False
+Zebulun,Zebulon,Zebulun, ,bible,False
+Dinah,Dina,Dinah,Genesis 34,bible,False
+Esau,Ezau/,Esau/, ,bible,False
+Edom,Edom,Edom,Genesis 36:1,bible,False
+Ishmael,Ismaël,Ishmael,Genesis 16:16,bible,False
+Manasseh2,(Manasse,(Manasseh,Genesis 41:50-52,bible,False
+Ephraim,en Efraïm),and Ephraim), ,bible,False
+Benjamin,Benjamin,Benjamin, ,bible,False
+Dan,Dan,Dan,Genesis 35:23,bible,False
+Naphtali,Naftali,Naphtali, ,bible,False
+Gad,Gadver,Gad, ,bible,False
+Asher,Aser,Asher, ,bible,False
+Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False
+Milcah2,"Chesed, Hazo,","Chesed, Hazo,", ,bible,False
+Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph", ,bible,False
+Tebah,Tebah,Tebah,Genesis 22:24,bible,False
+Gaham,Gaham,Gaham, ,bible,False
+Tahash,Tahash,Tahash, ,bible,False
+Maacah,Maacha,Maacah, ,bible,False
+Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False
+Basemath,Ba̱smath,Basemath,"Genesis 36:3, 4",bible,True
+Reuel,Re̱huël,Reuel,"36:13, 17",bible,True
+Nahath,Na̱hath,Nahath, ,bible,True
+Zerah,Ze̱ra,Zerah, ,bible,True
+Schammah,Sa̱mma,Schammah, ,bible,True
+Mizzah,Mi̱zza,Mizzah, ,bible,True
+Adah,Ada,Adah,"36:11, 12, 15, 16",bible,False
+Eliphaz,Eli̱faz,Eliphaz, ,bible,True
+Teman,Te̱man,Teman, ,bible,True
+Omar,O̱mar,Omar, ,bible,True
+Zepho,Ze̱fo,Zepho, ,bible,True
+Kenaz,Ke̱naz,Kenaz, ,bible,True
+Korah,Korach,Korah, ,bible,True
+Korah_Gatam,"Korach, Gatam","Korah, Gatam",303 and 304,bible,False
+Amalek,A̱malek,Amalek, ,bible,True
+Oholibamah,Oholiba̱ma,Oholibamah,"36:14, 18",bible,True
+Jeush,Je̱üs,Jeush, ,bible,True
+Jalam,Jaë̱lam,Jalam, ,bible,True
+Nebaioth,Nebajoth,Nebaioth,Genesis 25:13,bible,False
+Kedar,Kedar,Kedar, ,bible,False
+Mishma,Misma,Mishma, ,bible,False
+Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",311 and 312,bible,False
+Dumah_Massa,"Duma, Massa","Dumah, Massa",314 and 315,bible,False
+Hadad,Hadad,Hadad, ,bible,False
+Tema,Tema,Tema, ,bible,False
+Jetur,Jetur,Jetur, ,bible,False
+Naphish,Nafis,Naphish, ,bible,False
+Kedemah,Kedema,Kedemah, ,bible,False
+Keturah,Ketura,Keturah,Genesis 25:1-4,bible,False
+Zimran,Zimran,Zimran, ,bible,False
+Jokshan,Jokshan,Jokshan, ,bible,False
+Medan,Medan,Medan, ,bible,False
+Midian,Midian,Midian, ,bible,False
+Ishbak,Isbak,Ishbak, ,bible,False
+Shuah,Shua,Shuah, ,bible,False
+Timna,Timna,Timna,"1 Chr 1:36, Ge 36:10-12",bible,False
+life-expectancy2,(Psalm 90:10),(Psalm 90:10),2024-11-29,bible,False
+Ham,Ham,Ham,Gen 10:1,bible,False
+Canaan,Kanaän,Canaan,Gen 10:6,bible,False
+Sidon,Sidon,Sidon,Gen 10:15,bible,False
+Heth,Het,Heth,Gen 10:15,bible,False
+Jebusite,Jebusiet,Jebusite,Gen 10:16,bible,False
+Amorite,Amoriet,Amorite,Gen 10:16,bible,False
+Girgashite,Gigashiet,Girgashite,Gen 10:16,bible,False
+Hivite,Heviet,Hivite,Gen 10:17,bible,False
+Arkite,Arkite,Arkite,Gen 10:17,bible,False
+Sinite,Siniet,Sinite,Gen 10:17,bible,False
+Arvadite,Arvadiet,Arvadite,Gen 10:18,bible,False
+Zemarite,Zemariet,Zemarite,Gen 10:18,bible,False
+Hamathite,Hamathiet,Hamathite,Gen 10:18,bible,False
+Cush,Kus,Cush,Gen 10:6,bible,False
+Nimrod,Nimrod,Nimrod,Gen 10:8,bible,False
+Mizraim,Mizraim,Mizraim,Gen 10:14,bible,False
+Casluh,Casluh,Casluh,1 Chronicles 1:12 (Philistines),bible,False
+Japheth,Jafeth,Japheth,Gen 10:3,bible,False
+Asshur,Assur,Asshur,Gen 10:22,bible,False
+Lud,Luid,Lud,Gen 10:22,bible,False
+Aram,Aram,Aram,Gen 10:22,bible,False
+Elam,Elam,Elam,Gen 10:22,bible,False
+Joktan,Joktan,Joktan,Gen 10:26,bible,False
+Almodad,Almodad,Almodad,Gen 10:26,bible,False
+Sheleph,Shelef,Sheleph,Gen 10:26,bible,False
+Hazarmareth,Hazmareth,Hazarmareth,Gen 10:26,bible,False
+Jerah,Jera,Jerah,Gen 10:26,bible,False
+Hadoram,Hadoram,Hadoram,Gen 10:27,bible,False
+Uzal,Uzal,Uzal,Gen 10:27,bible,False
+Diklah_Obal,"Diklah, Obal","Diklah, Obal",Gen 10:27,bible,False
+Abimael,Abimaël,Abimael,Gen 10:28,bible,False
+Sheba_Ophir,"Scheba, Ofir","Sheba, Ophir","Gen 10:28, 29",bible,False
+Havilah,Havila,Havilah,Gen 10:29,bible,False
+Jobab,Jobab,Jobab,Gen 10:29,bible,False
+Ham_fn,1) Egyptenaren: Psalmen 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False
+Canaan_fn,2) Kanaänieten: Jozua 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False
+Aram_fn,3) Arameeërs: Hosea 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False
+Elam_fn,4) Elamieten: Ezra 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False
+Asshur_fn,5) Assyriërs: Ezechiël 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False
+Casluh_fn,6) Filistijnen: 1 Kronieken 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False
+Cush_fn,7) Ethiopisch [Kushiet]: 2 Koningen 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False
+Edom_fn,8) Edomieten: Numeri 20:14-17,8) Edomites: Numbers 20:14-17,same as 459,bible,False
+Moab_fn,"9) Moabieten: Deuteronomium 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457,bible,False
+Ammon_fn,10) Ammonieten: Jozua 12:2,10) Ammonites: Joshua 12:2,same as 458,bible,False
+Midian_fn,"11) Midianieten: Numeri 31:2, 3","11) Midianites: Numbers 31:2, 3",same as 456,bible,False
+Amalek_fn,12) Amalekieten: 1 Samuël 15:2,12) Amalekites: 1 Samuel 15:2,same as 461,bible,False
+Teman_fn,13) Temanieten: Job 42:7,13) Temanites: Job 42:7,same as 460,bible,False
+Sidon_fn,14) Sidoniërs: Zacharia 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False
+Heth_fn,15) Hethieten: Genesis 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False
+Jebusite_fn,16) Jebusieten: Jozua 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False
+Judith,Judith?,Judith?,"Genesis 26:34, 35",bible,False
+Lud_fn,17) Lydiërs: 1 Kronieken 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False
+Ishmael_fn,18) Ismaëlieten: Genesis 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
+Amorite_fn,19) Amorieten: Richteren 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
+Hivite_fn,"20) Hevieten [Gibeon]: Jozua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Rehoboam,Rehabeam,Rehoboam,first king of southern kingdom of Juda,A6-A,False
+Abijah,Abia (Abiam),Abijah (Abijam),"3 years, also Abijam",A6-A,False
+Asa,Asa,Asa,A6-A,A6-A,False
+Jehoshaphat,Josafat,Jehoshaphat, ,A6-A,False
+Jehoram2,Joram,Jehoram, ,A6-A,False
+Ahaziah,Ahazia,Ahaziah, ,A6-A,False
+Athaliah,Koningin Athalia,Queen Athaliah,Queen Athaliah,A6-A,False
+Jehoash,Joas,Jehoash, ,A6-A,False
+Amaziah,Amazia,Amaziah, ,A6-A,False
+Uzziah,Uzzia (Azarja),Uzziah (Azariah),also Azariah,A6-A,False
+Jeroboam,Jerobeam,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False
+Nadab,Nadab,Nadab,less than 2,A6-A,False
+Baasha,Basa,Baasha, ,A6-A,False
+Elah,Ela,Elah, ,A6-A,False
+Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,A6-A,False
+OmriTibni,Omri en Tibni samen,Omri and Tibni together,4 years Omri and Tibni,A6-A,False
+Omri,Omri (alleen),Omri (alone),from 947 Omri alone,A6-A,False
+Ahab,Achab,Ahab, ,A6-A,False
+Jehoram,Joram,Jehoram, ,A6-A,False
+Jehu,Jehu,Jehu, ,A6-A,False
+Jeoahaz,Joahaz,Jeoahaz, ,A6-A,False
+JeoahazJehoash,Joahaz en Joas,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False
+Jehoash2,Joas (alleen),Jehoash (alone),Jehoash (alone),A6-A,False
+Jeroboam2,Jerobeam II,Jeroboam II, ,A6-A,False
+Elijah,Elia,Elijah, ,A6-A,False
+Elisha,Elisa,Elisha, ,A6-A,False
+Jonah,Jona,Jonah, ,A6-A,False
+Amos,Amos,Amos, ,A6-A,False
+Joel,Joël,Joel, ,A6-A,False
+Jotham,Jotam,Jotham,A6-B,A6-B,False
+Ahaz,Achaz,Ahaz, ,A6-B,False
+Hezekiah,Hizkia,Hezekiah, ,A6-B,False
+Manasseh,Manasse,Manasseh, ,A6-B,False
+Amon,Amon,Amon, ,A6-B,False
+Josiah,Josia,Josiah, ,A6-B,False
+Jehoahaz,Joahaz,Jehoahaz,Only 3 months,A6-B,False
+Jehoiakim,Jojakim,Jehoiakim, ,A6-B,False
+Jehoiachin,Jojachin,Jehoiachin,Only 3 months 10 days,A6-B,False
+Zedekiah,Zedekia,Zedekiah, ,A6-B,False
+Zechariah,Zacharias,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False
+Schallum,Schallum,Schallum,only one month,A6-B,False
+Menahem,Menahem,Menahem, ,A6-B,False
+Pekahiah,Pekahia,Pekahiah, ,A6-B,False
+Pekah,Pekah,Pekah, ,A6-B,False
+Hoshea,Hosea,Hoshea,9 years from c. 748,A6-B,False
+Hosea,Hosea,Hosea, ,A6-B,False
+Isaiah,Jesaja,Isaiah, ,A6-B,False
+Micah,Micha,Micah, ,A6-B,False
+Zephaniah,Zefanja,Zephaniah, ,A6-B,False
+Nahum,Nahum,Nahum, ,A6-B,False
+Jeremiah,Jeremia,Jeremiah, ,A6-B,False
+Habakuk,Habakuk,Habakuk, ,A6-B,False
+Daniel,Daniël,Daniel, ,A6-B,False
+Ezekiel,Ezechiël,Ezekiel, ,A6-B,False
+Obadiah,Obadja,Obadiah, ,A6-B,False
+Babylon,"Daniël 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True
+Medopersia,"Daniël 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True
+Greece,"Daniël 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True
+Rome,"Daniël 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True
+Angloamerica,"Daniël 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True
+Babylon_c,Babylon,Babylon, ,B9,True
+Medopersia_c,Medië-Perzië,Medo-Persia, ,B9,True
+Greece_c,Griekenland,Greece, ,B9,True
+Rome_c,Rome,Rome, ,B9,True
+Angloamerica_c,Engeland-Amerika,Anglo-America, ,B9,True
+daniel2_1,Koning Nebukadnezar,King Nebuchadnezzar,607 BCE,B9,True
+daniel2_2,verwoest Jeruzalem,destroys Jerusalem,appendix B9,B9,True
+daniel2_3,Verovert Babylon,Conquers Babylon,539 BCE,B9,True
+daniel2_4,Cyrus vaardigt besluit uit:,Cyrus decrees return,537 BCE,B9,True
+daniel2_5,terugkeer Joden naar Jeruzalem,of Jews to Jerusalem, ,B9,True
+daniel2_6,Alexander de Grote,Alexander the Great,331 BCE,B9,True
+daniel2_7,verovert Perzië,conquers Persia, ,B9,True
+daniel2_8,Heerst over Israël,Rules over Israel,63 BCE,B9,True
+daniel2_9,Verwoest Jeruzalem,Destroys Jerusalem,70 CE,B9,True
+daniel2_10,Tijdens Eerste Wereldoorlog,"During World War I,",1914-1918 CE,B9,True
+daniel2_11,ontstaat Engels-Amerikaanse,Anglo-American World Power, ,B9,True
+daniel2_12,wereldmacht,comes into being,End 4.2,B9,True
+607BCE,607 v.Chr.,607 B.C.E.,accommodate for language,B9,True
+539BCE,539 v.Chr.,539 B.C.E.,systems in style:,B9,True
+537BCE,537 v.Chr.,537 B.C.E.,>>year 537 before time<<,B9,True
+331BCE,331 v.Chr.,331 B.C.E.,so they need a word,B9,True
+63BCE,63 v.Chr.,63 B.C.E.,prior to the year,B9,True
+70CE,70 n.Chr.,70 C.E.,and something,B9,True
+1914CE,1914-1918 n.Chr.,1914-1918 C.E.,after the year,B9,True
+daniel2_shift,0,4,Start 4.2,float,False
+7times,Openbaring 12:9,Revelation 12:9, ,scripture,False
+infliction2,Handelingen 7:6,Acts 7:6, ,scripture,False
+eastern-zhou,770-256 v.Chr,770-256 BC, ,span_bc,False
+430years,1943 – 1513 v.G.T.,1943 – 1513 B.C.E., ,span_bce,False
+eastern-han,25-220 n.Chr,25-220 CE, ,span_ce,False
+northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False
+southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False
+khmer_empire,804 – 1431,804 – 1431, ,timespan,True
+byzantine_empire,330 – 1453,330 – 1453, ,timespan,True
+ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
+holy_roman_empire,800 – 924,800 – 924, ,timespan,True
+holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True
+inca_empire,1438 – 1533,1438 – 1533, ,timespan,True
+gupta_empire,319 – 550,319 – 550, ,timespan,True
+Umayyad,661 – 750,661 – 750, ,timespan,True
+Abbasid,750 – 1258,750 – 1258, ,timespan,True
+Mamluk,1250 – 1517,1250 – 1517, ,timespan,True
+seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
+lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True
+qing-dynasty,1636-1912,1636-1912, ,timespan,True
+ming-dynasty,1368-1644,1368-1644, ,timespan,True
+yuan-dynasty,1271-1368,1271-1368, ,timespan,True
+southern-song,1127-1279,1127-1279, ,timespan,True
+northern-song,960-1127,960-1127, ,timespan,True
+western-xia,1038-1227,1038-1227, ,timespan,True
+maya_classic,250–950,250–950, ,timespan,True
+maya_postclassic,950-1539,950-1539, ,timespan,True
+tran_dynasty,1225–1400,1225–1400, ,timespan,True
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
+revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
+nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
+edo,1603 – 1868,1603 – 1868, ,timespan,True
+meiji,1868 – 1912,1868 – 1912, ,timespan,True
+Julius,Julius,Julius, ,wiki,False
+Caligula,Caligula,Caligula, ,wiki,False
+Nero,Nero,Nero, ,wiki,False
+Galba-Otho-Vitellius,"Galba, Otho en Vitellius (Jaar van de vier keizers)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False
+Vespasian,Vespasianus,Vespasian, ,wiki,False
+covid19,COVID-19,Covid-19, ,wiki,False
+nicaea1,Eerste Concilie van Nicea,First Council of Nicaea, ,wiki,False
+oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri, ,wiki,False
+p52,Papyrus P52,Papyrus P52, ,wiki,False
+qing-dynasty_c,Qing-dynastie,Qing dynasty,1636-1912,wiki,False
+ming-dynasty_c,Ming-dynastie in het keizerlijke China,Ming dynasty in imperial China,1368-1644,wiki,False
+yuan-dynasty_c,Yuan,Yuan,1271-1368,wiki,False
+southern-song_c,Zuidelijk lied,Southern Song,1127-1279,wiki,False
+northern-song_c,Noordelijk lied,Northern Song,960-1127,wiki,False
+western-xia_c,Westelijke Xia,Western Xia,1038-1227,wiki,False
+Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,False
+Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False
+Newton,Isaak Newton,Isaac Newton, ,wiki,False
+shang-dynasty_c,Shang-dynastie,Shang dynasty,c. 1600-1046 BC,wiki,False
+western-zhou_c,Westelijke Zhou,Western Zhou,c. 1046-771 BC,wiki,False
+eastern-zhou_c,Oostelijke Zhou,Eastern Zhou,770-256 BC,wiki,False
+western-han_c,Westelijke Han,Western Han,207 BC – 9 CE,wiki,False
+eastern-han_c,Oostelijke Han,Eastern Han,25-220 CE,wiki,False
+three-kingdoms_c,China,China,Three kingdoms 220-280 CE,wiki,False
+sixteen-kingdoms_c,China,China,Sixteen kingdoms 304-439 CE,wiki,False
+northern-dynasties_c,Noordelijke dynastieën,Northern dynasties,368-581 CE,wiki,False
+southern-dynasties_c,Zuidelijke dynastieën,Southern dynasties,420-589 CE,wiki,False
+tang-dynasty2_c,Tang-dynastie,Tang dynasty,"618-690, 705-907",wiki,False
+byzantine_empire_c,Byzantijnse rijk,Byzantine Empire, ,wiki,False
+ottoman_empire_c,Ottomaanse Rijk,Ottoman Empire, ,wiki,False
+Genghis,Genghis Khan,Genghis Khan, ,wiki,False
+inca_empire_c,Inca-rijk,Inca empire, ,wiki,False
+gupta_empire_c,Gupta-rijk,Gupta Empire, ,wiki,False
+Teotihuacan_c,Teotihuacán,Teotihuacan, ,wiki,False
+Abbasid_c,Abbasidische kalifaat,Abbasid Caliphate, ,wiki,False
+Mamluk_c,Mamluk-sultanaat,Mamluk Sultanate, ,wiki,False
+Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False
+wulfila,Wulfila Bijbel,Wulfila Bible,2025-09-20,wiki,False
+tran_dynasty_c,Trần-dynastie,Trần dynasty, ,wiki,False
+le_dynasty_c,De dynastie,Lê dynasty, ,wiki,False
+revival_le_dynasty_c,Trịnh-heren en Nguyễn-heren,Trịnh lords and Nguyễn lords,Nhà Lê trung hưng,wiki,False
+seljuk_empire_c,Seltsjoekse rijk,Seljuk empire, ,wiki,False
+vandals_c,Vandalen,Vandals, ,wiki,False
+lombard_c,Lombardisch koninkrijk,Lombard Kingdom,2025-10-13,wiki,False
+people,mensen,people, ,deprecated,False
+judges,rechters,judges, ,deprecated,False
+prophets,profeten,prophets, ,deprecated,False
+kings,koningen,kings, ,deprecated,False
+periods,periodes,periods, ,deprecated,False
+events,evenementen,events, ,deprecated,False
+objects,voorwerpen of voorwerpen,objects or items, ,deprecated,False
+event_destruction_samaria2,740 v.G.T. door Assyrië,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
+photodrama,Het „Photo-Drama der Schepping” wordt voor het eerst vertoond in New York op 11 januari 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
+truth_book,Het boek ‘De waarheid die tot eeuwig leven leidt’ verschijnt in 1968,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+metropolitan,Start van grootstedelijk getuigenis in 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,Start van JW.ORG met instructies in Koninkrijksdienst december 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+jw_broadcasting,Start van JW Broadcasting® in oktober 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,Nieuw format voor midweekvergaderingen met “Vergaderwerkboek” vanaf januari 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+Gatam,Ga̱ëtam,Gatam, ,deprecated,True
+Adbeel,Adbeël,Adbeel, ,deprecated,False
+Mibsam,Mibsam,Mibsam, ,deprecated,False
+Dumah,Doema,Dumah, ,deprecated,False
+Massa,Massa,Massa, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
+terahfam,Leden van Terahs familie,Members of Terah’s family, ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
+xia-dynasty,Xia-dynastie in China c. 2070 – ca. 1600 voor Christus,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites,"1) Midianieten: Numeri 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites,"2) Moabieten: Deuteronomium 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites,3) Ammonieten: Jozua 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites,4) Edomieten: Numeri 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites,5) Temanieten: Job 42:7,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites,6) Amalekieten: 1 Samuël 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

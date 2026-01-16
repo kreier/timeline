@@ -32,16 +32,16 @@ The project to create a paper timeline of human history is done by teenagers aro
 
 ![mini image](https://saiht.de/legacy/projekte/zeitleiste/pic/mini1.jpg)
 
-This includes a reference to the year 2006, and the 30000 pixel wide (zeit2.html below) ends for myself in 2005 and has a timestamp from 2006-08-30. For further details, here are the links (all in German):
+This includes a reference to the year 2006 (inside the html file itself with meta name="date" content="2006-08-30"), and the 30000 pixel wide (zeit2.html below - with the old encoding `meta http-equiv="content-type" content="text/html; charset=iso-8859-1"`) ends for myself in 2005 and has a timestamp from 2006-08-30. For further details, here are the links (all in German):
 
-- [Projekte: 13. Zeitleiste der Menschheitsgeschichte](https://saiht.de/legacy/projekte/13zeitleiste.html)
-- [4100 v.u.Z. bis 2100 u.Z. auf 10000 Pixeln, 3 Zeilen, html](https://saiht.de/legacy/projekte/zeitleiste/zeit1.html) and [local copy zeit1.html](./2006/zeit1.html)
-- [4100 v.u.Z. bis 2100 u.Z. auf 30000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit2.html) and [local copy zeit2](./2006/zeit2.html)
-- [4100 v.u.Z. bis 2100 u.Z. auf 3000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit3.html) and [local copy zeit3](./2006/zeit3.html)
-- [4100 v.u.Z. bis 2100 u.Z. auf 6000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit4.html) and [local copy zeit4](./2006/zeit4.html)
+- Original source: [Projekte: 13. Zeitleiste der Menschheitsgeschichte](https://saiht.de/legacy/projekte/13zeitleiste.html)
+- [4100 v.u.Z. bis 2100 u.Z. auf 10000 Pixeln, 3 Zeilen, html](https://saiht.de/legacy/projekte/zeitleiste/zeit1.html) and a local copy [zeit1](https://kreier.github.io/timeline/history/2006/zeit1.html)
+- [4100 v.u.Z. bis 2100 u.Z. auf 30000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit2.html) and a local copy [zeit2](https://kreier.github.io/timeline/history/2006/zeit2.html)
+- [4100 v.u.Z. bis 2100 u.Z. auf 3000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit3.html) and a local copy [zeit3](https://kreier.github.io/timeline/history/2006/zeit3.html)
+- [4100 v.u.Z. bis 2100 u.Z. auf 6000 Pixeln, html](https://saiht.de/legacy/projekte/zeitleiste/zeit4.html) from 2006/09/07 and a local copy of [zeit4](https://kreier.github.io/timeline/history/2006/zeit4.html)
 - [4100 v.u.Z. bis 2100 u.Z. auf 3200x463 Pixeln, png-Grafik](https://saiht.de/legacy/projekte/zeitleiste/pic/leiste.png)
 - [4050 v.u.Z. bis 150 u.Z. auf 2386x886 Pixeln, png-Grafik](https://saiht.de/legacy/projekte/zeitleiste/Zeitleiste.png)
-- a [vertical version of the timeline with linked people](https://saiht.de/legacy/projekte/zeitleiste/zeitleiste1.html) and [local copy zeitleiste1](./2006/zeitleiste1.html), so far only 4 people
+- And a vertical version of the timeline with linked people called [zeitleiste1](https://saiht.de/legacy/projekte/zeitleiste/zeitleiste1.html) and a local Github copy [zeitleiste1](https://kreier.github.io/timeline/history/2006/zeitleiste1.html), so far only 4 people are linked: [Adam](./2006/adam.html), [Eva](./2006/eva.html), [Abel](./2006/abel.html) and [Kain](./2006/kain.html).
 
 About the creation I noted: *Da ich ein solches Projekt allein niemals schaffen würde, arbeiten jetzt gemeinsam an diesem Projekt: Dennis, Manuel, Matthias und Thomas.*
 

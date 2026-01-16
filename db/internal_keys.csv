@@ -1,0 +1,49 @@
+key,use_case,tag
+version,text for final rendered PDF file,float
+pdf_title,text for final rendered PDF file,text
+pdf_subject,text for final rendered PDF file,text
+CE,outline of the timeline,B9
+BCE,outline of the timeline,B9
+year,"timespan, age (Adam was 130 years old when Shem was born) ",text 
+years,plural of above,text 
+years_age,"years when used as age for a person (different word than years in some languages), like he is 23 years old ",text 
+age_kings,"if the word ""year"" appears after the numeral, like ""at the age of 35 years"" ",text 
+became_king,becomes king at age – it was “became king” until 2025-04-14,text 
+month,if a king reigns for less than a year,text 
+months,plural of above,text 
+day,if a king reigns for less than a month,text 
+days,plural of above,text 
+to,"connect years, in many cases just a dash -",text 
+607BCE,accommodate for language,B9
+539BCE,systems in style:,B9
+537BCE,>>year 537 before time<<,B9
+331BCE,so they need a word,B9
+63BCE,prior to the year,B9
+70CE,and something,B9
+1914CE,after the year,B9
+Deluge,text next to the blue marking line 2370 B.C.E,text 
+daniel2_shift,appendix B9 ,B9
+daniel2_1,King Nebuchadnezzar,B9
+daniel2_2,destroys Jerusalem,B9
+daniel2_3,Conquers Babylon,B9
+daniel2_4,Cyrus decrees return,B9
+daniel2_5,of Jews to Jerusalem,B9
+daniel2_6,Alexander the Great,B9
+daniel2_7,conquers Persia,B9
+daniel2_8,Rules over Israel,B9
+daniel2_9,Destroys Jerusalem,B9
+daniel2_10,"During World War I,",B9
+daniel2_11,Anglo-American World Power,B9
+daniel2_12,comes into being,B9
+Babylon,"Daniel 2:32, 36-38; 7:4",B9
+Medopersia,"Daniel 2:32, 39; 7:5",B9
+Greece,"Daniel 2:32, 39; 7:6",B9
+Rome,"Daniel 2:33, 40; 7:7",B9
+Angloamerica,"Daniel 2:33, 41-43",B9
+Babylon_c,Babylon,B9
+Medopersia_c,Medo-Persia,B9
+Greece_c,Greece,B9
+Rome_c,Rome,B9
+Angloamerica_c,Anglo-America,B9
+world_population,Caption “ World population in billions in the last 2000 years “,text
+tribulation,"inside the function create_tribulation(): it writes the text in there, it was twice one – fixed February 2025",text

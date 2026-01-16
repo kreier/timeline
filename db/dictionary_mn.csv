@@ -1,401 +1,553 @@
-key,text,english,notes,checked
-version,4.5,4.5,,TRUE
-pdf_title,6000 жилийн хүн төрөлхтний түүхийг төсөөлсөн нь,6000 years human history visualized,,TRUE
-pdf_subject,Хүн төрөлхтний цагийн хуваарь,Timeline of humankind,,FALSE
-BCE,Б.Энх-Эрдэнэ,B.C.E.,,TRUE
-CE,Ц.Элбэгдорж:,C.E.,,TRUE
-year,жил,year,"timespan, age (Adam was 130 years old when Shem was born)",TRUE
-years,он жилүүд,years,,FALSE
-years_age,он жилүүд,years,years when used as age for a person (different word than years in some languages),FALSE
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",FALSE
-month,сар,month,,TRUE
-months,сарууд,months,,TRUE
-day,өдөр,day,,TRUE
-days,өдрүүд,days,,TRUE
-to,руу,to,,
-people,хүмүүс,people,,
-judges,шүүгч нар,judges,,
-prophets,зөнчид,prophets,,
-kings,хаад,kings,,
-periods,үе,periods,,
-events,үйл явдал,events,,
-objects,эд зүйлс эсвэл эд зүйлс,objects or items,,
-Deluge,Үер,Deluge,,
-Adam,Адам,Adam,,
-Seth,Сэт,Seth,,
-Enosh,Энош,Enosh,,
-Kenan,Кенан,Kenan,,
-Mahalalel,Махалалел,Mahalalel,,
-Jared,Жаред,Jared,,
-Enoch,Енох,Enoch,,
-Methuselah,Метусела,Methuselah,,
-Lamech,Ламех,Lamech,,
-Noah,Ноа,Noah,,
-Shem,Шем,Shem,,
-Arpachshad,Арпачшад,Arpachshad,,
-Shelah,Шела,Shelah,,
-Eber,Эбер,Eber,,
-Peleg,Пэлжээ,Peleg,,
-Reu,Реу,Reu,,
-Serug,Серуг,Serug,,
-Nahor,Нахор,Nahor,,
-Terah,Тера,Terah,,
-Abraham,Абрахам,Abraham,,
-Isaac,Исаак,Isaac,,
-Jacob,Жейкоб,Jacob,,
-Joseph,Иосеф,Joseph,,
-Moses,Мосе,Moses,,
-Othniel,Отниел,Othniel,,
-Ehud,Эхуд,Ehud,,
-Shamgar,Шамгар,Shamgar,,
-Barak,Барак,Barak,,
-Gideon,Гидеон,Gideon,,
-Tola,Толбо,Tola,,
-Jair,Жайр,Jair,,
-Jephthah,Иефта,Jephthah,,
-Ibzan,Ибзан,Ibzan,,
-Elon,Элон,Elon,,
-Abdon,Абдон,Abdon,,
-Samson,Самсон,Samson,,
-Samuel,Самуэл,Samuel,,
-Saul,Саул,Saul,,
-David,Давид,David,,
-Solomon,Соломо,Solomon,,
-Rehoboam,Рехобоам,Rehoboam,first king of southern kingdom of Juda,
-Abijah,Абыжа (Абыжам),Abijah (Abijam),"3 years, also Abijam",
-Asa,Аса,Asa,,
-Jehoshaphat,Иехошафат,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,
-Jehoram2,Иорам,Jehoram,,
-Ahaziah,Ахазиа,Ahaziah,,
-Athaliah,Аталиа хатан,Queen Athaliah,Queen Athaliah,
-Jehoash,Иоаш,Jehoash,,
-Amaziah,Амазиа,Amaziah,,
-Uzziah,Уззиа (Азарга),Uzziah (Azariah),also Azariah,
-Jotham,Жотам,Jotham,,
-Ahaz,Ахаз,Ahaz,,
-Hezekiah,Хезекиа,Hezekiah,,
-Manasseh,Манассе,Manasseh,,
-Amon,Amon,Amon,,
-Josiah,Иосиа,Josiah,,
-Jehoahaz,Иехоахаз,Jehoahaz,Only 3 months,
-Jehoiakim,Иехоиаким,Jehoiakim,,
-Jehoiachin,Иехоиахин,Jehoiachin,Only 3 months 10 days,
-Zedekiah,Зедекиа,Zedekiah,,
-Jeroboam,Иеробоам,Jeroboam,first king of northern 10-tribe kingdom,
-Nadab,Надаб,Nadab,less than 2,
-Baasha,Бааша,Baasha,,
-Elah,Эла,Elah,,
-Zimri,Зимри,Zimri,Only 7 days in ca. 751 BCE,
-OmriTibni,"Омри, Тибни хоёр хамтдаа",Omri and Tibni together,4 years Omri and Tibni,
-Omri,Омри (ганцаараа),Omri (alone),from 947 Omri alone,
-Ahab,Ахаб,Ahab,,
-Ahaziah,Ахазиа,Ahaziah,,
-Jehoram,Иорам,Jehoram,,
-Jehu,Иехү,Jehu,,
-Jeoahaz,Иоахаз,Jeoahaz,,
-JeoahazJehoash,Иоахаз Иоаш хоёр,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,
-Jehoash2,Иоаш (ганцаараа),Jehoash (alone),Jehoash (alone),
-Jeroboam2,II Иеробоам,Jeroboam II,,
-Zechariah,Зехариа,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",
-Schallum,Шаллюм,Schallum,only one month,
-Menahem,Менхем,Menahem,,
-Pekahiah,Пекахиа,Pekahiah,,
-Pekah,Пека,Pekah,,
-Hoshea,Хошеа,Hoshea,9 years from c. 748,
-Elijah,Элижа,Elijah,,
-Elisha,Елиша,Elisha,,
-Jonah,Иона,Jonah,,
-Amos,Амос,Amos,,
-Joel,Жоэл,Joel,,
-Hosea,Хосеа,Hosea,,
-Isaiah,Исаиа,Isaiah,,
-Micah,Мика,Micah,,
-Zephaniah,Зефаниа,Zephaniah,,
-Nahum,Нахум,Nahum,,
-Jeremiah,Иеремиа,Jeremiah,,
-Habakuk,Хабакук,Habakuk,,
-Daniel,Даниэл,Daniel,,
-Ezekiel,Езекиел,Ezekiel,,
-Obadiah,Обадиа,Obadiah,,
-Malachi,Малахи,Malachi,,
-Ruth,Рут,Ruth,,
-Ezra,Эзра,Ezra,,
-Nehemiah,Нехемиа,Nehemiah,,
-Esther,Эстер,Esther,,
-Job,Иов,Job,,
-moses2,1593- 1473 он – 120 жил,1593 to 1473 B.C.E. – 120 years,,
-moses3,Мосе,Moses,,
-wilderness,МЭӨ 1513 – 1473 оны цөл дэх Израиль – 40 жил,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,,
-timespan_judges,1473-1117 он – 356 жил,1473 to 1117 B.C.E. – 356 years,,
-timespan_judges2,Шүүгчдийн цаг,Time of the judges,,
-temple1,Нисан 1513-МЭӨ 1034 оны Зев хүртэл,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,
-temple2,Сүм барих хүртэл 479 жил – Хаадын дээд 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,
-69weeks,Есүс МЭ 29 оны намар баптисм хүртжээ.,Jesus baptized autumn 29 C.E.,,
-69weeks2,Мессиаг 69 долоо хоног – Даниел 9:25,69 weeks to the Messiah – Daniel 9:25,,
-jesus_service,Нисан сарын 14-нд буюу МЭ 33 онд цаазлагдсан Есүсийн үйлчлэлийн 3.5 жил,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",,
-jesus_life,Есүс МЭӨ 2 онд төрсөн.,Jesus born 2 B.C.E.,,
-exile,МЭӨ 607 –537 он – 70 жил (Иеремиа 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11),,
-exile2,цөллөг,exile,,
-7times,Илчлэлт 12:9,Revelation 12:9,,
-7times2,7 удаа – 2520 жил Мэссиагийн Хаанчлал МЭ 1914 он (Даниел 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),,
-ww1,Дэлхийн нэгдүгээр дайн – 1914–1918 онд,World War I – 1914–1918 C.E.,,
-ww2,Дэлхийн хоёрдугаар дайн – 1939–1945 онд,World War II – 1939–1945 C.E.,,
-30_year_war,Европ дахь 30 жилийн дайн 1618-1648,Thirty Years' War in Europe 1618-1648,,
-joshua,110 жил,110 years,,
-joshua2,Жошуа,Joshua,,
-caleb,85-аас дээш жил,more than 85 years,,
-caleb2,Калеб,Caleb,,
-missionary1,"Паулын анхны номлолын аялал, х. 47-48. Барнаб, Жон Марк нарын хамт","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark",,
-circumcision,"МЭ 49 онд Иерусалимд болсон чуулган, Антиохт хөвч хөндөхтэй холбоотой асуудал","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.",,
-missionary2,2 дахь удаагийн миссийн аялал с.з 49-52 Силас (Силванус)-тай хамт,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),,
-missionary3,52-56 х. 3 дахь удаагийн миссийн аялал,Third Missionary Journey c. 52-56 C.E.,,
-caesarea,Мэ 56–58 онд Паул Кайсарид хоригдож байсан.,Paul in custody in Caesarea c. 56-58 C.E.,,
-rome1,59-61 онд Ромд Паулын анхны шоронд хоригдсон.,Paul’s first imprisonment in Rome c. 59-61 C.E.,,
-rome2,"Паул Ромд хоёр дахь удаагаа шоронд хоригдож байгаа нь, 65 CE, 2 Тимот бичсэн, Паул цаазаар авах ял","Paul’s second imprisonment in Rome c. 65 CE, 2 Timothy written, Paul executed",,
-Julius,Жулиус,Julius,,
-Augustus,Августус,Augustus,,
-Tiberius,Тибериус,Tiberius,,
-Caligula,Калигула,Caligula,,
-Claudius,Клавдий,Claudius,,
-Nero,Неро,Nero,,
-Galba-Otho-Vitellius,"Галба, Отхо, Вителлиус (Дөрвөн эзэн хааны жил)","Galba, Otho and Vitellius (Year of the Four Emperors)",,
-Vespasian,Васпасиан,Vespasian,,
-event_exodus,МЭӨ 1513 оны нисан сарын 14 - нд Египетээс гарсан нь,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.",,
-event_division_kingdom,Израйлийн хэсэг 997 МЭӨ,Division of Israel 997 BCE,,
-event_destruction_samaria,МЭӨ 740 оны Ассирийн Самарийн сүйрэл,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,
-event_destruction_samaria2,МЭӨ 740 он Ассирийн,740 B.C.E. by Assyria,was shortened here for 2 lines,
-event_destruction_jerusalem1,"МЭӨ 607 оны Иерусалимыг Вавилоны мөхөл, хаант улс хуваагдсанаас хойш 390 жилийн дараа (Езекиел 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",,
-event_temple_rebuilt,Иерусалимын сүмийг МЭӨ 515 онд сэргээн босгов.,Temple in Jerusalem rebuilt 515 B.C.E.,,
-event_jerusalem_rebuilt,Иерусалимын хэрэм МЭӨ 455 онд сэргээн босгов.,Jerusalem wall rebuilt 455 B.C.E.,,
-event_destruction_jerusalem2,Титийн удирдлага дор МЭ 70 оны Иерусалимыг устгасан нь,Destruction of Jerusalem 70 C.E. by Rome under Titus,,
-event_1914,Үндэстнүүдийн цаг дуусахад Бурхны Хаанчлал 1914 онд тэнгэрт захирч эхэлсэн. ,"End of the time of the nations, Gods kingdom starts to rule in heaven 1914 C.E. ",,
-became_king,насандаа хаан болсон,became king at age,,
-vulgate,Вулгэйт Иером (Библийн латин орчуулга) х. 405 х.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,,
-gutenberg,Гутенберг библи хэвлэгдсэн 1455,Gutenberg bible printed 1455,,
-erasmus,Роттердамын Дэзидриус Эрасмусын хэвлүүлсэн Грек Грек Судрын грек бичвэр 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,,
-luther,Лютер Библийн орчуулга 1522 оны 9-р сард,Luther Bible translation in September 1522,,
-tyndale,Тиндале 1536-ийн Англи Библийн орчуулга,English Bible translation by Tyndale 1536,,
-king_james,Хаан Жеймс Библи 1611,King James Bible 1611,,
-69weeks3,"Есүс үйлчлэлээ эхлэв 29 CE (Лук 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)",,
-ransom,"Долоо хоногийн дундуур ""зогсоох золиослол"" Даниел 9:27",middle of week “sacrifice to cease” Daniel 9:27,,
-cornelius,Корнел МЭ 36 онд 70 долоо хоногийн эцэст баптисм хүртсэн (Даниел 9:24).,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,,
-columbus,Америк дахь Колумбын өмнөх үеийн төгсгөл 1492,end of the pre-columbian period in the Americas 1492,,
-declaration_independence,Америк дахь 13 колони тусгаар тогтнолоо зарласан нь 1776,declaration of independence of 13 colonies in America 1776,,
-tischendorf,Тишендорф 1844 онд 4-р зуунаас Кодекс Синайтыг нээжээ,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,,
-dead_sea_scrolls,Сөнөсөн тэнгисийн хуйлмал бичгүүд бичигдэх,Dead Sea Scrolls written,,
-septuagint,Септуагинт LXX орчуулсан,Septuagint LXX translated,,
-watchtower,«Сионы Харуулын цамхаг ба Христийн залран буйг тунхаглагч» сэтгүүлийн анхны дугаар 1879 онд хэвлэгдэн гарлаа,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,,
-photodrama,«Бүтээлийн тухай фото драм»-ыг 1914 оны 1 дүгээр сарын 11-нд Нью-Йорк хотноо анх удаа үзүүлжээ.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",,
-jehovahs_witnesses,Библи Судлаачид шинэ нэр авсан нь Еховагийн Гэрчүүд юм. Охайо мужийн Колумбус хотод 1931,"The Bible Students adopted a new name – Jehovah’s Witnesses. In Columbus, Ohio, 1931",,
-gilead_school,«Гилеад» сургуулийн Библийн сургууль 1943 оны 2-р сарын 1-ний даваа гаригт эхэлсэн,"Watchtower Bible School of Gilead began on Monday, February 1, 1943",,
-new_world_translation1,«Ариун Судрын шинэ ертөнцийн орчуулга» 1960 оны 6-р сарын 18-нд Английн Манчестер хотноо гарсан,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960",,
-truth_book,"""Мөнхийн амь руу хөтлөх үнэн"" ном 1968 онд гарсан",The book “The Truth That Leads to Eternal Life” released 1968,,
-metropolitan,2011 онд хот суурин газарт дэлгэрүүлж эхэлсэн,Start of metropolitan witnessing in 2011,,
-jw_org,2012 оны 12-р сард хаанчлалын тухай сайн мэдээ дэлгэрүүлэх ажилд JW.ORG эхэлсэн,Start of JW.ORG with instructions in kingdom ministry December 2012,,
-new_world_translation2,2013 оны жил тутмын уулзалтаас гаргасан «Ариун Судрын шинэ ертөнцийн орчуулга» шинэчлэгдсэн,Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013,,
-jw_broadcasting,2014 оны 10-р сараас эхлэн jw.broadcasting,Start of jw.broadcasting in October 2014,,
-meeting_workbook,"2016 оны 1-р сараас эхлэн ""хурлын дасгалын ном""-той долоо хоногийн дундуур уулзах шинэ хэлбэр",New format of midweek meeting with “meeting workbook” starting January 2016,,
-covid19,Covid-19,Covid-19,,
-cold_war,"Геополитикийн нөхцөл байдал ""Хүйтэн дайн"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991,,
-timeline_created,"Энэ цагийн хуваарийг 2023 онд бүтээсэн бөгөөд хүн төрөлхтний түүхэн дэх хамгийн халуун жил, сүүлийн 125,000 жил","This timeline was created in 2023, the hottest year in human history and the last 125,000 years",,
-codex_sinaiticus,Кодекс Синайтик бичсэн,Codex Sinaiticus written,,
-codex_vaticanus,Кодекс Ватикан бичсэн,Codex Vaticanus written,,
-leningrad_codex,Cairo AD 1008-д бичсэн Ленинградын кодекс,Leningrad Codex written in Cairo AD 1008,,
-john,Иохан МЭ 96—98 онд Патмд цөлөгдсөн үедээ «илчлэлт» бичжээ.,John writes “revelation” while exiled on Patmos 96-98 C.E.,,
-nicaea1,Никейн анхдугаар зөвлөлгөөн,First Council of Nicaea,,
-buddha,Будда – Сиддхарта Гаутама с.563-с.483 МЭӨ,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,,
-buddha2,Будда альтернатив c. МЭӨ 480-400,Buddha alternatively c. 480-400 B.C.E.,,
-mohammed,Мухамед с. 570-632,Mohammed c. 570-632 C.E.,,
-confucius,МЭӨ 551-с.479,Confucius c.551-c.479 B.C.E.,,
-hijrah,Хижра - Медина руу аялсан Мекка 16 Долоодугаар сарын 622,Hijrah - Journey Mecca to Medina 16 July 622,,
-moses_escape,"МЭӨ 1553 онд Мосе Египетээс зугтах хэрэгтэй – Египетээс гарсан нь 2:15, Үйлс 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",,
-10plagues,МЭӨ 1513 онд Египетэд 10 гамшиг тохиолдсон,1513 B.C.E Egypt receives 10 plagues,,
-joseph_sold,Иосеф 17 настайдаа боол болон худалдагдсан – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2,,
-infliction,400 жилийн инфляц (Үйлс 7:6) – Ишмэил 1913 он,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,,
-Alexander,Их Александр (Даниэль 11:3),Alexander the Great (Daniel 11:3),,
-persia,"Агуу Их Кирус, Камбис II, Дариус I 490 БС, Xerxes I 480 МЭӨ (Естерийн нөхөр, Даниел 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",,
-persia2,Перс,Persia,,
-king_north,"Селевк I Никатор (v5) Сири iii (v10) болон Селевк IV (v18, 19) хүртэл Октавиан (v20) болон Тибери (v21-24) хүртэл","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",,
-king_north1,Умардын хаан,King of the North,,
-king_south,"Птолемей I, II, III, IV (в11, 12), В (в15, 16) тулаанд МЭӨ 31 оны Актиумын тулалдаан.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",,
-king_south1,Өмнөговь аймгийн хаан,King of the South,,
-king_south2,"Их Британийн эзэнт гүрэн 1870, Англи-Америкийн эзэнт гүрэн 1914 оноос хойш","British empire 1870, Anglo-American World Power since 1914",,
-king_south3,Өмнөговь аймгийн хаан,King of the South,,
-king_north2,"Герман эзэн хаан I Уильямтай хамт 1871 (в28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",,
-king_north3,Хойд,North,,
-king_north4,"Зху 1945-1991 (Дани 11:32-39, 40б, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",,
-king_north5,Орос улс 2017 оноос хойш (w20 May),Russia since 2017 (w20 May),,
-time_of_end,"Христийн залран байх үе, юмсын тогтолцооны төгсгөлийн үе (Мат 24:3), Эцсийн өдрүүд (2 Ти 3:1)","Presence of Christ, Conclusion of the system of things (Matt 24:3), the last days (2Ti 3:1)",,
-time_of_end2,сүүлийн өдрүүд,last days,,
-suryavaman2,II Суряварман хаан Ангкор Ват 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150,,
-notre-dame,Нотр-Дам де Парис 1163-1260,Notre-Dame de Paris built 1163-1260,,
-jehoiada,Иехоиада,Jehoiada,,
-babel,Бабелын цамхаг баригдав,tower of Babel built,,
-Haggai,Хаггай,Haggai,,
-Zephaniah,Зефаниа,Zephaniah,,
-Zerubbabel,Зеруббабел (Лук 3:27),Zerubbabel (Luke 3:27),,
-Babylon,"Даниел 2:32, 36–38; 7:4","Daniel 2:32, 36-38; 7:4",,
-Medopersia,"Даниел 2:32, 39; 7:5","Daniel 2:32, 39; 7:5",,
-Greece,"Даниел 2:32, 39; 7:6","Daniel 2:32, 39; 7:6",,
-Rome,"Даниел 2:33, 40; 7:7","Daniel 2:33, 40; 7:7",,
-Angloamerica,"Даниел 2:33, 41–43","Daniel 2:33, 41-43",,
-Babylon_c,Бабилон,Babylon,,
-Medopersia_c,Медо-Перс,Medo-Persia,,
-Greece_c,Грек,Greece,,
-Rome_c,Ром,Rome,,
-Angloamerica_c,Ангилал:Америк,Anglo-America,,
-infliction1,400 жилийн тирл,400 year infliction,Acts 7:6,
-infliction2,Үйлс 7:6,Acts 7:6,,
-Jacob2,Жейкоб/,Jacob/,Jacob/Israel 1858-1711 – 147 years,
-Israel,Израиль,Israel,,
-Sarah,Сара,Sarah,2008-1881 BCE – 127 years,
-Hagar,Хагар,Hagar,Genesis 21:14,
-Haran,Харан,Haran,Genesis 11:26,
-Nahor,Нахор,Nahor,,
-Reumah,Реума,Reumah,Concubine – 4 sons,
-Milcah,Милка,Milcah,8 sons (Bethuel and 7 more),
-Lot,Лот,Lot,,
-Lots_wife,Лотын эхнэр,Lot’s wife,,
-Lots_daughters,Лотын охид,Daughters of Lot,,
-Moab,Моаб (том охин),Moab (older daughter),,
-Ammon,Бен-амми (Аммон),Ben-ammi (Ammon),,
-Bethuel,Бетуел,Bethuel,,
-Rebekah,Ребека,Rebekah,,
-Laban,Лабан,Laban,,
-Leah,Лэе,Leah,Genesis 35:23,
-Rachel,Рэйчел,Rachel,Genesis 35:24,
-Bilhah,Билхаг,Bilhah,Genesis 35:25,
-Zilpah,Зилпах,Zilpah,Genesis 35:26,
-Reuben,Реубен,Reuben,,
-Simeon,Симеон,Simeon,,
-Levi,Леви,Levi,,
-Judah,Иуда,Judah,,
-Issachar,Искахар,Issachar,,
-Zebulun,Зебулун,Zebulun,,
-Dinah,Динах,Dinah,Genesis 34,
-Esau,Есүй/,Esau/,,
-Edom,Эдом,Edom,Genesis 36:1,
-Ishmael,Ишмэил,Ishmael,,
-Manasseh2,(Манассе,(Manasseh,,
-Ephraim,Ефраим),and Ephraim),,
-Benjamin,Бенжамин,Benjamin,,
-Dan,Дан,Dan,,
-Naphtali,Нафталий,Naphtali,,
-Gad,Гад,Gad,,
-Asher,Ашер,Asher,,
-Milcah1,"Уз, Буз, Кэмюэл,","Uz, Buz, Kemuel,",,
-Milcah2,"Чезед, Хазо,","Chesed, Hazo,",,
-Milcah3,"Пилдаш, Жидлаф","Pildash, Jidlaph",,
-Tebah,Теба,Tebah,,
-Gaham,Гахам,Gaham,,
-Tahash,Тахаш,Tahash,,
-Maacah,Маака,Maacah,,
-Mahalath,Махалат/,Mahalath/,"Genesis 28:8, 9",
-Basemath,Баз·математик,Base·math,"Genesis36:3, 4",
-Reuel,Реуэл,Reuel,"36:13, 17",
-Nahath,Нахат,Nahath,,
-Zerah,Зера,Zerah,,
-Schammah,Шамбара,Schammah,,
-Mizzah,Мизза,Mizzah,,
-Adah,Адаа,Adah,"36:11, 12, 15, 16",
-Eliphaz,Элифаз,Eliphaz,,
-Teman,Теман,Teman,,
-Omar,Омар,Omar,,
-Zepho,Зефо,Zepho,,
-Kenaz,Кеназ,Kenaz,,
-Korah,Кора,Korah,,
-Gatam,Гатам,Gatam,,
-Amalek,Амалек,Amalek,,
-Oholibamah,Охолибама,Oholibamah,"36:14, 18",
-Jeush,Жюш,Jeush,,
-Jalam,Жалам,Jalam,,
-Korah,Кора,Korah,,
-Nebaioth,Небайот,Nebaioth,Genesis 25:13,
-Kedar,Кедар,Kedar,,
-Adbeel,Адбил,Adbeel,,
-Mibsam,Мибсам,Mibsam,,
-Mishma,Мишма,Mishma,,
-Dumah,Думах,Dumah,,
-Massa,Масса,Massa,,
-Hadad,Хадад,Hadad,,
-Tema,Тема,Tema,,
-Jetur,Жетур,Jetur,,
-Naphish,Нафиш,Naphish,,
-Kedemah,Кедема,Kedemah,,
-Babylon2, , ,no text left and right – empty!,
-terahfam,Терагийн гэр бүлийн гишүүд,members of Terah’s family,,
-rosetta,Розетта чулуу МЭӨ 196,Rosetta stone 196 B.C.E.,,
-Herodotus,"Геродот с. 484 – с. МЭӨ 425, ""Түүхүүд"" гэж бичсэн нь","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,
-Aristotle,Аристотеле 384 – МЭӨ 322,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",
-Ptolemy,Ptolemy c 100 – с. 170.,Ptolemy c 100 – c. 170 C.E.,,
-Pythagoras,Питагорас с. 570 – с.з 495 МЭӨ,Pythagoras c. 570 – c. 495 BC,,
-Plato,Платон с. 427 – с.з 348 МЭӨ,Plato c. 427 – c. 348 BC,,
-Socrates,Сократ с. 470 – с.з 399 МЭӨ,Socrates c. 470 – c. 399 BC,,
-Josephus,Иoсеф с. 37 – с. 100.,Josephus c. 37 – c. 100 C.E.,,
-Cicero,Цицеро 106–43 МЭӨ,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",
-lachish_letters,Лаашийн үсэг с. МЭӨ 590,Lachish letters c. 590 B.C.E.,,
-lachish_reliefs,Лакишийн хөнгөлөлтүүд c. МЭӨ 681,Lachish reliefs c. 681 B.C.E.,,
-mesha_stele,Меша Стеле (Моабын чулуу) с. МЭӨ 840.,Mesha Stele (Moabite stone) c. 840 B.C.E.,,
-gilgamesh,"Гигамеш, Ага 𒇽𒆥𒄄𒀀𒀝𒂵",Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,,
-epic_gilgamesh,Гилгамын эпик (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),,
-oxyrhynchus,Оксирхинчус Папири,Oxyrhynchus Papyri,,
-p52,Папирус P52,Papyrus P52,,
-daniel2_shift,0,0,Start 4.2,
-daniel2_1,Небухаднезар хаан,King Nebuchadnezzar,607 BCE,
-daniel2_2,Иерусалимыг устгасан нь,destroys Jerusalem,,
-daniel2_3,Бабилоныг ялсан нь,Conquers Babylon,539 BCE,
-daniel2_4,Сайрусын зарлиг эргэн ирлээ,Cyrus decrees return,537 BCE,
-daniel2_5,иудейчуудаас Иерусалим хүртэл,of Jews to Jerusalem,,
-daniel2_6,Их Александр,Alexander the Great,331 BCE,
-daniel2_7,Персийг эзлэн авсан нь,conquers Persia,,
-daniel2_8,Израилийн талаарх дүрэм,Rules over Israel,63 BCE,
-daniel2_9,Иерусалимыг устгасан нь,Destroys Jerusalem,70 CE,
-daniel2_10,Дэлхийн 1-р дайны үед,"During World War I,",1914-1918 CE,
-daniel2_11,Ангилал:Дэлхийн эзэнт гүрэн,Anglo-American World Power,,
-daniel2_12,бий болдог.,comes into being,End 4.2,
-qing-dynasty,1636-1912,1636-1912,,
-qing-dynasty_c,Цинь улс,Qing dynasty,1636-1912,
-ming-dynasty,1368-1644,1368-1644,,
-ming-dynasty_c,Мин улс Эзэн хааны Хятад дахь,Ming dynasty in imperial China,1368-1644,
-yuan-dynasty,1271-1368,1271-1368,,
-southern-song,1127-1279,1127-1279,,
-northern-song,960-1127,960-1127,,
-western-xia,1038-1227,1038-1227,,
-yuan-dynasty_c,Юань,Yuan,1271-1368,
-southern-song_c,Уртын дуу,Southern Song,1127-1279,
-northern-song_c,Умардын дуу,Northern Song,960-1127,
-western-xia_c,Баруун Шя,Western Xia,1038-1227,
-Copernicus,Николаус Коперник,Nicolaus Copernicus,,
-Galileo,Галилео Галилей,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,
-Newton,Исаак Ньютон,Isaac Newton,,
-gregorian,Грегорийн хуанли 1582 он,Gregorian calendar 1582,,
-shang-dynasty,c. МЭӨ 1600-1046,c. 1600-1046 BC,,
-western-zhou,c. МЭӨ 1046-771,c. 1046-771 BC,,
-eastern-zhou,770-256 МЭӨ,770-256 BC,,
-qin-dynasty,Qin 221-207 МЭӨ,Qin 221-207 BC,,
-western-han,МЭӨ 207 – 9 CE,207 BC – 9 CE,,
-eastern-han,25-220 CE,25-220 CE,,
-three-kingdoms,Гурван улс 220-280 CE,Three kingdoms 220-280 CE,,
-sixteen-kingdoms,16 хаант улс 304-439 CE,Sixteen kingdoms 304-439 CE,,
-northern-dynasties,368-581 CE,368-581 CE,,
-southern-dynasties,420-589 CE,420-589 CE,,
-tang-dynasty1, , ,,
-tang-dynasty2,"618-690, 705-907","618-690, 705-907",,
-wu-zhou,690-705 У Жоу,690-705 Wu Zhou,,
-shang-dynasty_c,Шанг династи,Shang Dynasty,c. 1600-1046 BC,
-western-zhou_c,Баруун Жоу,Western Zhou,c. 1046-771 BC,
-eastern-zhou_c,Зүүн Жоу,Eastern Zhou,770-256 BC,
-western-han_c,Баруун Хан,Western Han,207 BC – 9 CE,
-eastern-han_c,Дорнод Хан,Eastern Han,25-220 CE,
-three-kingdoms_c,Хятад улс,China,Three kingdoms 220-280 CE,
-sixteen-kingdoms_c,Хятад улс,China,Sixteen kingdoms 304-439 CE,
-northern-dynasties_c,Хойд хаант улсууд,Northern Dynasties,368-581 CE,
-southern-dynasties_c,Өмнөдийн династууд,Southern Dynasties,420-589 CE,
-tang-dynasty1_c,Танг,Tang,,
-tang-dynasty2_c,Танг династи,Tang Dynasty,"618-690, 705-907",
-xia-dynasty,Хятад дахь Шяны угсааны улс c. 2070 – c. МЭӨ 1600,Xia dynasty in China c. 2070 – c. 1600 BC,,
-gonghe,Гонгэ Реженси 841-828 МЭӨ,Gonghe Regency 841-828 BC,,
-Ashoka,Ашиока (МЭӨ 304-232) буддын шашныг сурталчилсан нь,Ashoka (c. 304-232 BC) promotes Buddhism,,
-siloam-tunnel,Хезекиа Силоамын хонгилыг сунгав,Hezekiah extends Siloam tunnel,c. 742-732 BC,
-Angloamerica2,"Англи-Америкийг Даниел 2:33, 41–43-т байдаг зөгнөлд шавартай хольсон төмөр хөлөөр бэлэгддэг","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",,
-Manetho,Манэто Эгиптиака гэж бичдэг,Manetho writes Aegyptiaca,,
+key,text,english,notes,tag,checked
+version,4.5,6.01, ,float,True
+pdf_title,6000 жилийн хүн төрөлхтний түүхийг төсөөлсөн нь,6000 years human history visualized,2026-01-16,text,True
+pdf_subject,Хүн төрөлхтний цагийн хуваарь,Timeline of humankind, ,text,False
+BCE,Б.Энх-Эрдэнэ,B.C.E., ,B9,True
+CE,Ц.Элбэгдорж:,C.E., ,B9,True
+month,сар,month, ,text,True
+months,сарууд,months, ,text,True
+day,өдөр,day, ,text,True
+days,өдрүүд,days, ,text,True
+to,руу,to, ,text,False
+Deluge,Үер,Deluge, ,text,False
+moses2,1593- 1473 он – 120 жил,1593 to 1473 B.C.E. – 120 years, ,text,False
+temple1,Нисан 1513-МЭӨ 1034 оны Зев хүртэл,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False
+69weeks,Есүс МЭ 29 оны намар баптисм хүртжээ.,Jesus baptized autumn 29 C.E., ,text,False
+year,жил,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True
+years,он жилүүд,years, ,text,False
+years_age,он жилүүд,years,years when used as age for a person (different word than years in some languages),text,False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+wilderness,МЭӨ 1513 – 1473 оны цөл дэх Израиль – 40 жил,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
+timespan_judges,1473-1117 он – 356 жил,1473 to 1117 B.C.E. – 356 years, ,text,False
+timespan_judges2,Шүүгчдийн цаг,Time of the judges, ,text,False
+temple2,Сүм барих хүртэл 479 жил – Хаадын дээд 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False
+69weeks2,Мессиаг 69 долоо хоног – Даниел 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False
+jesus_service,Нисан сарын 14-нд буюу МЭ 33 онд цаазлагдсан Есүсийн үйлчлэлийн 3.5 жил,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False
+jesus_life,Есүс МЭӨ 2 онд төрсөн.,Jesus born 2 B.C.E., ,text,False
+exile,МЭӨ 607 –537 он – 70 жил (Иеремиа 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False
+exile2,цөллөг,Exile, ,text,False
+7times2,7 удаа – 2520 жил Мэссиагийн Хаанчлал МЭ 1914 он (Даниел 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False
+ww1,Дэлхийн нэгдүгээр дайн – 1914–1918 онд,World War I – 1914–1918, ,text,False
+ww2,Дэлхийн хоёрдугаар дайн – 1939–1945 онд,World War II – 1939–1945, ,text,False
+30_year_war,Европ дахь 30 жилийн дайн 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False
+joshua,110 жил,110 years, ,text,False
+caleb,85-аас дээш жил,more than 85 years, ,text,False
+missionary1,"Паулын анхны номлолын аялал, х. 47-48. Барнаб, Жон Марк нарын хамт","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False
+circumcision,"МЭ 49 онд Иерусалимд болсон чуулган, Антиохт хөвч хөндөхтэй холбоотой асуудал","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False
+missionary2,2 дахь удаагийн миссийн аялал с.з 49-52 Силас (Силванус)-тай хамт,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False
+missionary3,52-56 х. 3 дахь удаагийн миссийн аялал,Third Missionary Journey c. 52-56 C.E., ,text,False
+caesarea,Мэ 56–58 онд Паул Кайсарид хоригдож байсан.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False
+rome1,59-61 онд Ромд Паулын анхны шоронд хоригдсон.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False
+rome2,"Паул Ромд хоёр дахь удаагаа шоронд хоригдож байгаа нь, 65 CE, 2 Тимот бичсэн, Паул цаазаар авах ял","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False
+event_exodus,МЭӨ 1513 оны нисан сарын 14 - нд Египетээс гарсан нь,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False
+event_division_kingdom,Израйлийн хэсэг 997 МЭӨ,Division of Israel 997 BCE, ,text,False
+event_destruction_samaria,МЭӨ 740 оны Ассирийн Самарийн сүйрэл,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False
+event_destruction_jerusalem1,"МЭӨ 607 оны Иерусалимыг Вавилоны мөхөл, хаант улс хуваагдсанаас хойш 390 жилийн дараа (Езекиел 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False
+event_temple_rebuilt,Иерусалимын сүмийг МЭӨ 515 онд сэргээн босгов.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False
+event_jerusalem_rebuilt,Иерусалимын хэрэм МЭӨ 455 онд сэргээн босгов.,Jerusalem wall rebuilt 455 B.C.E., ,text,False
+event_destruction_jerusalem2,Титийн удирдлага дор МЭ 70 оны Иерусалимыг устгасан нь,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False
+event_1914,Үндэстнүүдийн цаг дуусахад Бурхны Хаанчлал 1914 онд тэнгэрт захирч эхэлсэн. ,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.", ,text,False
+became_king,насандаа хаан болсон,becomes king at age, ,text,False
+vulgate,Вулгэйт Иером (Библийн латин орчуулга) х. 405 х.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False
+gutenberg,Гутенберг библи хэвлэгдсэн 1455,Gutenberg Bible printed 1455, ,text,False
+erasmus,Роттердамын Дэзидриус Эрасмусын хэвлүүлсэн Грек Грек Судрын грек бичвэр 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False
+luther,Лютер Библийн орчуулга 1522 оны 9-р сард,Luther Bible translation in September 1522, ,text,False
+tyndale,Тиндале 1536-ийн Англи Библийн орчуулга,English Bible translation by Tyndale 1536, ,text,False
+king_james,Хаан Жеймс Библи 1611,King James Bible 1611, ,text,False
+69weeks3,"Есүс үйлчлэлээ эхлэв 29 CE (Лук 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False
+ransom,"Долоо хоногийн дундуур ""зогсоох золиослол"" Даниел 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False
+cornelius,Корнел МЭ 36 онд 70 долоо хоногийн эцэст баптисм хүртсэн (Даниел 9:24).,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False
+columbus,Америк дахь Колумбын өмнөх үеийн төгсгөл 1492,End of the pre-columbian period in the Americas 1492, ,text,False
+declaration_independence,Америк дахь 13 колони тусгаар тогтнолоо зарласан нь 1776,Declaration of independence of 13 colonies in America 1776, ,text,False
+tischendorf,Тишендорф 1844 онд 4-р зуунаас Кодекс Синайтыг нээжээ,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False
+dead_sea_scrolls,Сөнөсөн тэнгисийн хуйлмал бичгүүд бичигдэх,Dead Sea Scrolls written, ,text,False
+septuagint,Септуагинт LXX орчуулсан,Septuagint LXX translated, ,text,False
+watchtower,«Сионы Харуулын цамхаг ба Христийн залран буйг тунхаглагч» сэтгүүлийн анхны дугаар 1879 онд хэвлэгдэн гарлаа,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False
+jehovahs_witnesses,Библи Судлаачид шинэ нэр авсан нь Еховагийн Гэрчүүд юм. Охайо мужийн Колумбус хотод 1931,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931", ,text,False
+gilead_school,«Гилеад» сургуулийн Библийн сургууль 1943 оны 2-р сарын 1-ний даваа гаригт эхэлсэн,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False
+new_world_translation1,«Ариун Судрын шинэ ертөнцийн орчуулга» 1960 оны 6-р сарын 18-нд Английн Манчестер хотноо гарсан,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible", ,text,False
+new_world_translation2,2013 оны жил тутмын уулзалтаас гаргасан «Ариун Судрын шинэ ертөнцийн орчуулга» шинэчлэгдсэн,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online", ,text,False
+cold_war,"Геополитикийн нөхцөл байдал ""Хүйтэн дайн"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
+timeline_created,"Энэ цагийн хуваарийг 2023 онд бүтээсэн бөгөөд хүн төрөлхтний түүхэн дэх хамгийн халуун жил, сүүлийн 125,000 жил","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
+codex_sinaiticus,Кодекс Синайтик бичсэн,Codex Sinaiticus written, ,text,False
+codex_vaticanus,Кодекс Ватикан бичсэн,Codex Vaticanus written, ,text,False
+leningrad_codex,Cairo AD 1008-д бичсэн Ленинградын кодекс,Leningrad Codex written in Cairo AD 1008, ,text,False
+john,Иохан МЭ 96—98 онд Патмд цөлөгдсөн үедээ «илчлэлт» бичжээ.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False
+buddha,Будда – Сиддхарта Гаутама с.563-с.483 МЭӨ,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False
+buddha2,Будда альтернатив c. МЭӨ 480-400,Buddha alternatively c. 480-400 B.C.E., ,text,False
+mohammed,Мухамед с. 570-632,Mohammed c. 570-632, ,text,False
+confucius,МЭӨ 551-с.479,Confucius c.551-c.479 B.C.E., ,text,False
+hijrah,Хижра - Медина руу аялсан Мекка 16 Долоодугаар сарын 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False
+moses_escape,"МЭӨ 1553 онд Мосе Египетээс зугтах хэрэгтэй – Египетээс гарсан нь 2:15, Үйлс 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False
+10plagues,МЭӨ 1513 онд Египетэд 10 гамшиг тохиолдсон,1513 B.C.E Egypt receives 10 plagues, ,text,False
+joseph_sold,Иосеф 17 настайдаа боол болон худалдагдсан – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False
+infliction,400 жилийн инфляц (Үйлс 7:6) – Ишмэил 1913 он,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False
+Alexander,Их Александр (Даниэль 11:3),Alexander the Great (Daniel 11:3), ,text,False
+persia,"Агуу Их Кирус, Камбис II, Дариус I 490 БС, Xerxes I 480 МЭӨ (Естерийн нөхөр, Даниел 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False
+king_north,"Селевк I Никатор (v5) Сири iii (v10) болон Селевк IV (v18, 19) хүртэл Октавиан (v20) болон Тибери (v21-24) хүртэл","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False
+king_north1,Умардын хаан,King of the North, ,text,False
+king_south,"Птолемей I, II, III, IV (в11, 12), В (в15, 16) тулаанд МЭӨ 31 оны Актиумын тулалдаан.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False
+king_south1,Өмнөговь аймгийн хаан,King of the South, ,text,False
+king_south2,"Их Британийн эзэнт гүрэн 1870, Англи-Америкийн эзэнт гүрэн 1914 оноос хойш","British Empire 1870, Anglo-American World Power since 1914", ,text,False
+king_south3,Өмнөговь аймгийн хаан,King of the South, ,text,False
+king_north2,"Герман эзэн хаан I Уильямтай хамт 1871 (в28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False
+king_north3,Хойд,North, ,text,False
+king_north4,"Зху 1945-1991 (Дани 11:32-39, 40б, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False
+king_north5,Орос улс 2017 оноос хойш (w20 May),Russia since 2017 (w20 May), ,text,False
+time_of_end,"Христийн залран байх үе, юмсын тогтолцооны төгсгөлийн үе (Мат 24:3), Эцсийн өдрүүд (2 Ти 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)", ,text,False
+time_of_end2,сүүлийн өдрүүд,Last days, ,text,False
+suryavaman2,II Суряварман хаан Ангкор Ват 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False
+notre-dame,Нотр-Дам де Парис 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False
+babel,Бабелын цамхаг баригдав,Tower of Babel built, ,text,False
+infliction1,400 жилийн тирл,400 year infliction,Acts 7:6,text,False
+Lots_wife,Лотын эхнэр,Lot’s wife, ,text,False
+Lots_daughters,Лотын охид,Daughters of Lot, ,text,False
+Moab,Моаб (том охин),Moab (older daughter), ,text,False
+rosetta,Розетта чулуу МЭӨ 196,Rosetta stone 196 B.C.E., ,text,False
+Herodotus,"Геродот с. 484 – с. МЭӨ 425, ""Түүхүүд"" гэж бичсэн нь","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False
+Aristotle,Аристотеле 384 – МЭӨ 322,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False
+Ptolemy,Ptolemy c 100 – с. 170.,Ptolemy c 100 – c. 170 C.E., ,text,False
+Pythagoras,Питагорас с. 570 – с.з 495 МЭӨ,Pythagoras c. 570 – c. 495 BC, ,text,False
+Plato,Платон с. 427 – с.з 348 МЭӨ,Plato c. 427 – c. 348 BC, ,text,False
+Socrates,Сократ с. 470 – с.з 399 МЭӨ,Socrates c. 470 – c. 399 BC, ,text,False
+Josephus,Иoсеф с. 37 – с. 100.,Josephus c. 37 – c. 100 C.E., ,text,False
+Cicero,Цицеро 106–43 МЭӨ,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False
+lachish_letters,Лаашийн үсэг с. МЭӨ 590,Lachish letters c. 590 B.C.E., ,text,False
+lachish_reliefs,Лакишийн хөнгөлөлтүүд c. МЭӨ 681,Lachish reliefs c. 681 B.C.E., ,text,False
+mesha_stele,Меша Стеле (Моабын чулуу) с. МЭӨ 840.,Mesha Stele (Moabite stone) c. 840 B.C.E., ,text,False
+gilgamesh,"Гигамеш, Ага 𒇽𒆥𒄄𒀀𒀝𒂵",Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False
+epic_gilgamesh,Гилгамын эпик (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False
+gregorian,Грегорийн хуанли 1582 он,Gregorian calendar 1582, ,text,False
+shang-dynasty,c. МЭӨ 1600-1046,c. 1600-1046 BC, ,text,False
+western-zhou,c. МЭӨ 1046-771,c. 1046-771 BC, ,text,False
+qin-dynasty,Qin 221-207 МЭӨ,Qin 221-207 BC, ,text,False
+western-han,МЭӨ 207 – 9 CE,207 BC – 9 CE, ,text,False
+three-kingdoms,Гурван улс 220-280 CE,Three kingdoms 220-280 CE, ,text,False
+sixteen-kingdoms,16 хаант улс 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False
+wu-zhou,690-705 У Жоу,690-705 Wu Zhou, ,text,False
+tang-dynasty1_c,Танг,Tang, ,text,False
+gonghe,Гонгэ Реженси 841-828 МЭӨ,Gonghe Regency 841-828 BC, ,text,False
+Ashoka,Ашиока (МЭӨ 304-232) буддын шашныг сурталчилсан нь,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False
+siloam-tunnel,Хезекиа Силоамын хонгилыг сунгав,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False
+Angloamerica2,"Англи-Америкийг Даниел 2:33, 41–43-т байдаг зөгнөлд шавартай хольсон төмөр хөлөөр бэлэгддэг","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
+Manetho,Манэто Эгиптиака гэж бичдэг,Manetho writes Aegyptiaca, ,text,False
+destruction_babylon,"Агуу Вавилоны сүйрэл (Илчлэлт 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+gog_of_magog,"Магогийн Гогийн довтолгоо (Езекиел 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
+sheep_goat,"Дэлхийн оршин суугчид хонь, ямааг тусгаарлан шүүгддэг (Матай 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
+annointed,Хаанчлалын удирдагчдын цугларалт (Матай 24:31; 1 Коринт 15:50-53; 1 Тесалоник 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
+armageddon,"Армагеддоны тулаан (Илчлэлт 16:14, 16; Исаиа 13:9; 2 Петр 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False
+millenium,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False
+great_crowd,"Армагеддоныг маш олон хүн амьд үлджээ (Илчлэлт 7:9, 14; Дуулал 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False
+world_population,Сүүлийн 2000 жилийн дэлхийн хүн ам хэдэн тэрбумаар хэмжигдэнэ,World population in billions in the last 2000 years, ,text,False
+khmer_empire_c,Кхмерийн эзэнт гүрэн - Ангкорын үе,Khmer Empire - Angkor period, ,text,False
+holy_roman_empire_c,Ариун Ромын эзэнт гүрэн - 1512 оноос хойш Герман үндэстний Ариун Ромын эзэнт гүрэн гэж нэрлэгддэг,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False
+mongol_empire,Монголын эзэнт гүрэн 1206-1294 он,Mongol Empire 1206 – 1294, ,text,False
+maya_classic_c,Maya civilization – Classic period,Maya civilization – Classic period, ,text,False
+maya_postclassic_c,Маяагийн соёл иргэншил - Сонгодогоос хойшхи үе,Maya civilization – Postclassic period, ,text,False
+Teotihuacan,Америк тивийн хамгийн том хот болох пирамидуудыг барьсан c. МЭ 200,"Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False
+Dionysius_Exiguus,"Дионисиус Эксигус, Анно Доминигийн зохион бүтээгч","Dionysius Exiguus, inventor of Anno Domini", ,text,False
+Umayyad_c,Умайяд,Umayyad, ,text,False
+ur3,Ур III гүрэн 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False
+hammurabi,Хаммурапи 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False
+Al-Khwarizmi,"аль-Хорезми ""Аль-Жабр"" (Алгебр) бичжээ.",al-Khwarizmi writes Al-Jabr (Algebra), ,text,False
+al-azhar,Аль-Азхар их сургууль Каир хотод байгуулагдсан,Al-Azhar University is established in Cairo, ,text,False
+Ibn-Sina,Ибн Сина эсвэл Авиценна,Ibn Sina or Avicenna, ,text,False
+life-expectancy,Дундаж наслалт 75 жил,Life expectancy 75 years, ,text,False
+430years_c,"430 жил: Египетээс гарсан нь 12:41, Галат 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False
+maya_calendar,Маяа хуанлийн тооцоолсон эхлэл МЭӨ 3114 оны 8-р сарын 11.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False
+xia-dynasty2,в. 2070 - c. МЭӨ 1600 он; Эрин үеийг Баруун Жоугийн үед анх дурдсан,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False
+xia-dynasty2_c,Хятад дахь Шиа гүрэн,Xia dynasty in China, ,text,False
+tres_zapotes,"9-р сарын 3, МЭӨ 32.","September 3rd, 32 B.C.E.",2024-12-31,text,False
+joseph_jacob_reunited,"Иосеф, Иаков хоёр Египетэд дахин нэгдэв - МЭӨ 1728 он. (Эхлэл 45:11; 47:9)",Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False
+king_south_light_c,Даниел 11-ээс өмнө зүгийн хаан,King of the South from Daniel 11,2025-02-05,text,False
+king_north_light_c,Даниел 11-ээс хойд зүгийн хаан,King of the North from Daniel 11,2025-02-05,text,False
+daniel2_iron_c,Даниел 2-ын төмөр хөл,Iron legs from Daniel 2,2025-02-05,text,False
+argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False
+nguyen_dynasty_c,Нгуен,Nguyễn,2025-09-20,text,False
+edo_c,Япон дахь Эдогийн үе,Edo period in Japan,Edo period (Tokugawa shogunate),text,False
+meiji_c,Мэйжи,Meiji,2025-09-20,text,False
+american_civil_war,Америкийн иргэний дайн 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
+aleppo_codex,Алеппо кодекс в. 920,Aleppo Codex c. 920,2025-10-03,text,False
+vandals,Вандал ба Алануудын хаант улс 435-534 он,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia,"в. 481/509 – 843, Меровинг 751 он хүртэл, дараа нь Каролинг","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+francia_c,Франкуудын хаант улс,Kingdom of the Franks, ,text,False
+100_years_war,Зуун жилийн дайн 1337-1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False
+black_death,Хар үхэл 1346-1353,Black death 1346-1353,1346-1353,text,False
+sui_dynasty,581-618 он Суй улс,581-618 Sui dynasty,2025-11-09,text,False
+sui_dynasty_c,Сүй,Sui,2025-11-09,text,False
+tribulation,"Агуу их зовлон (Марк 13:19; Даниел 12:1; Мат 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
+Adam,Адам,Adam, ,bible,False
+Seth,Сэт,Seth, ,bible,False
+Enosh,Энош,Enosh, ,bible,False
+Kenan,Кенан,Kenan (Cainan), ,bible,False
+Mahalalel,Махалалел,Mahalalel (Mahalaleel), ,bible,False
+Jared,Жаред,Jared, ,bible,False
+Enoch,Енох,Enoch, ,bible,False
+Methuselah,Метусела,Methuselah, ,bible,False
+Lamech,Ламех,Lamech, ,bible,False
+Noah,Ноа,Noah, ,bible,False
+Shem,Шем,Shem, ,bible,False
+Arpachshad,Арпачшад,Arpachshad, ,bible,False
+Shelah,Шела,Shelah, ,bible,False
+Eber,Эбер,Eber, ,bible,False
+Peleg,Пэлжээ,Peleg, ,bible,False
+Reu,Реу,Reu, ,bible,False
+Serug,Серуг,Serug, ,bible,False
+Nahor,Нахор,Nahor, ,bible,False
+Terah,Тера,Terah, ,bible,False
+Abraham,Абрахам,Abraham, ,bible,False
+Isaac,Исаак,Isaac, ,bible,False
+Jacob,Жейкоб,Jacob, ,bible,False
+Joseph,Иосеф,Joseph, ,bible,False
+Moses,Мосе,Moses, ,bible,False
+Othniel,Отниел,Othniel, ,bible,False
+Ehud,Эхуд,Ehud, ,bible,False
+Shamgar,Шамгар,Shamgar, ,bible,False
+Barak,Барак,"Barak, Deborah, Jael", ,bible,False
+Gideon,Гидеон,Gideon, ,bible,False
+Tola,Толбо,Tola, ,bible,False
+Jair,Жайр,Jair, ,bible,False
+Jephthah,Иефта,Jephthah, ,bible,False
+Ibzan,Ибзан,Ibzan, ,bible,False
+Elon,Элон,Elon, ,bible,False
+Abdon,Абдон,Abdon, ,bible,False
+Samson,Самсон,Samson, ,bible,False
+Samuel,Самуэл,Samuel, ,bible,False
+Saul,Саул,Saul, ,bible,False
+David,Давид,David, ,bible,False
+Solomon,Соломо,Solomon, ,bible,False
+Malachi,Малахи,Malachi, ,bible,False
+Ruth,Рут,Ruth, ,bible,False
+Ezra,Эзра,Ezra, ,bible,False
+Nehemiah,Нехемиа,Nehemiah, ,bible,False
+Esther,Эстер,Esther, ,bible,False
+Job,Иов,Job, ,bible,False
+moses3,Мосе,Moses, ,bible,False
+joshua2,Жошуа,Joshua, ,bible,False
+caleb2,Калеб,Caleb, ,bible,False
+Augustus,Августус,Augustus, ,bible,False
+Tiberius,Тибериус,Tiberius, ,bible,False
+Claudius,Клавдий,Claudius, ,bible,False
+persia2,Перс,Persia, ,bible,False
+jehoiada,Иехоиада,Jehoiada, ,bible,False
+Haggai,Хаггай,Haggai, ,bible,False
+Zerubbabel,Зеруббабел (Лук 3:27),Zerubbabel (Luke 3:27), ,bible,False
+Jacob2,Жейкоб/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False
+Israel,Израиль,Israel, ,bible,False
+Sarah,Сара,Sarah,2008-1881 BCE – 127 years,bible,False
+Hagar,Хагар,Hagar,Genesis 21:14,bible,False
+Haran,Харан,Haran,Genesis 11:26,bible,False
+Reumah,Реума,Reumah,Concubine – 4 sons,bible,False
+Milcah,Милка,Milcah,8 sons (Bethuel and 7 more),bible,False
+Lot,Лот,Lot, ,bible,False
+Ammon,Бен-амми (Аммон),Ben-ammi (Ammon), ,bible,False
+Bethuel,Бетуел,Bethuel, ,bible,False
+Rebekah,Ребека,Rebekah, ,bible,False
+Laban,Лабан,Laban, ,bible,False
+Leah,Лэе,Leah,Genesis 35:23,bible,False
+Rachel,Рэйчел,Rachel,Genesis 35:24,bible,False
+Bilhah,Билхаг,Bilhah,Genesis 35:25,bible,False
+Zilpah,Зилпах,Zilpah,Genesis 35:26,bible,False
+Reuben,Реубен,Reuben, ,bible,False
+Simeon,Симеон,Simeon, ,bible,False
+Levi,Леви,Levi, ,bible,False
+Judah,Иуда,Judah, ,bible,False
+Issachar,Искахар,Issachar, ,bible,False
+Zebulun,Зебулун,Zebulun, ,bible,False
+Dinah,Динах,Dinah,Genesis 34,bible,False
+Esau,Есүй/,Esau/, ,bible,False
+Edom,Эдом,Edom,Genesis 36:1,bible,False
+Ishmael,Ишмэил,Ishmael, ,bible,False
+Manasseh2,(Манассе,(Manasseh, ,bible,False
+Ephraim,Ефраим),and Ephraim), ,bible,False
+Benjamin,Бенжамин,Benjamin, ,bible,False
+Dan,Дан,Dan, ,bible,False
+Naphtali,Нафталий,Naphtali, ,bible,False
+Gad,Гад,Gad, ,bible,False
+Asher,Ашер,Asher, ,bible,False
+Milcah1,"Уз, Буз, Кэмюэл,","Uz, Buz, Kemuel,", ,bible,False
+Milcah2,"Чезед, Хазо,","Chesed, Hazo,", ,bible,False
+Milcah3,"Пилдаш, Жидлаф","Pildash, Jidlaph", ,bible,False
+Tebah,Теба,Tebah, ,bible,False
+Gaham,Гахам,Gaham, ,bible,False
+Tahash,Тахаш,Tahash, ,bible,False
+Maacah,Маака,Maacah, ,bible,False
+Mahalath,Махалат/,Mahalath/,"Genesis 28:8, 9",bible,False
+Basemath,Баз·математик,Basemath,"Genesis36:3, 4",bible,False
+Reuel,Реуэл,Reuel,"36:13, 17",bible,False
+Nahath,Нахат,Nahath, ,bible,False
+Zerah,Зера,Zerah, ,bible,False
+Schammah,Шамбара,Schammah, ,bible,False
+Mizzah,Мизза,Mizzah, ,bible,False
+Adah,Адаа,Adah,"36:11, 12, 15, 16",bible,False
+Eliphaz,Элифаз,Eliphaz, ,bible,False
+Teman,Теман,Teman, ,bible,False
+Omar,Омар,Omar, ,bible,False
+Zepho,Зефо,Zepho, ,bible,False
+Kenaz,Кеназ,Kenaz, ,bible,False
+Korah,Кора,Korah, ,bible,False
+Korah_Gatam,"Кора, Гатам","Korah, Gatam","Genesis 36:11, 16",bible,False
+Amalek,Амалек,Amalek, ,bible,False
+Oholibamah,Охолибама,Oholibamah,"36:14, 18",bible,False
+Jeush,Жюш,Jeush, ,bible,False
+Jalam,Жалам,Jalam, ,bible,False
+Nebaioth,Небайот,Nebaioth,Genesis 25:13,bible,False
+Kedar,Кедар,Kedar, ,bible,False
+Mishma,Мишма,Mishma, ,bible,False
+Adbeel_Mibsam,"Адбел, Мибсам","Adbeel, Mibsam",Genesis 25:13,bible,False
+Dumah_Massa,"Дума, Масса","Dumah, Massa",Genesis 25:14,bible,False
+Hadad,Хадад,Hadad, ,bible,False
+Tema,Тема,Tema, ,bible,False
+Jetur,Жетур,Jetur, ,bible,False
+Naphish,Нафиш,Naphish, ,bible,False
+Kedemah,Кедема,Kedemah, ,bible,False
+Keturah,Кетура,Keturah,Genesis 25:1,bible,False
+Zimran,Зимран,Zimran,Genesis 25:1,bible,False
+Jokshan,Жокшан,Jokshan,Genesis 25:1,bible,False
+Medan,Медан,Medan,Genesis 25:1,bible,False
+Midian,Мидиан,Midian,Genesis 25:1,bible,False
+Ishbak,Ишбак,Ishbak,Genesis 25:1,bible,False
+Shuah,Шуах,Shuah,Genesis 25:1,bible,False
+Timna,Тимна,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False
+life-expectancy2,(Дуулал 90:10),(Psalm 90:10),2024-11-29,bible,False
+Ham,Хэм,Ham,Gen 10:1,bible,False
+Canaan,Канаан,Canaan,Gen 10:6,bible,False
+Sidon,Сидон,Sidon,Gen 10:15,bible,False
+Heth,Хэт,Heth,Gen 10:15,bible,False
+Jebusite,Жебусит,Jebusite,Gen 10:16,bible,False
+Amorite,Аморит,Amorite,Gen 10:16,bible,False
+Girgashite,Гиргашит,Girgashite,Gen 10:16,bible,False
+Hivite,Хивит,Hivite,Gen 10:17,bible,False
+Arkite,Аркит,Arkite,Gen 10:17,bible,False
+Sinite,Синит,Sinite,Gen 10:17,bible,False
+Arvadite,Арвадит,Arvadite,Gen 10:18,bible,False
+Zemarite,Земарит,Zemarite,Gen 10:18,bible,False
+Hamathite,Хаматит,Hamathite,Gen 10:18,bible,False
+Cush,Куш,Cush,Gen 10:6,bible,False
+Nimrod,Нимрод,Nimrod,Gen 10:8,bible,False
+Mizraim,Мизраим,Mizraim,Gen 10:14,bible,False
+Casluh,Каслух,Casluh,1 Chronicles 1:12 (Philistines),bible,False
+Japheth,Иафет,Japheth,Gen 10:1,bible,False
+Asshur,Ашур,Asshur,Gen 10:22,bible,False
+Lud,Люд,Lud,Gen 10:22,bible,False
+Aram,Арам,Aram,Gen 10:22,bible,False
+Elam,Элам,Elam,Gen 10:22,bible,False
+Joktan,Жоктан,Joktan,Gen 10:26,bible,False
+Almodad,Альмодад,Almodad,Gen 10:26,bible,False
+Sheleph,Шелеп,Sheleph,Gen 10:26,bible,False
+Hazarmareth,Хазармарет,Hazarmareth,Gen 10:26,bible,False
+Jerah,Жера,Jerah,Gen 10:26,bible,False
+Hadoram,Хадорам,Hadoram,Gen 10:27,bible,False
+Uzal,Узал,Uzal,Gen 10:27,bible,False
+Diklah_Obal,"Диклах, Обал","Diklah, Obal",Gen 10:27,bible,False
+Abimael,Абимаел,Abimael,Gen 10:28,bible,False
+Sheba_Ophir,"Шеба, Офир","Sheba, Ophir","Gen 10:28, 29",bible,False
+Havilah,Хавила,Havilah,Gen 10:29,bible,False
+Jobab,Жобаб,Jobab,Gen 10:29,bible,False
+Ham_fn,1) Египетчүүд: Дуулал 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False
+Canaan_fn,2) Канаанчууд: Иошуа 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False
+Aram_fn,3) Арамейчууд: Хосеа 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False
+Elam_fn,4) Эламчууд: Езра 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False
+Asshur_fn,5) Ассирчууд: Езекиел 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False
+Casluh_fn,6) Филистчүүд: Шастирын дээд 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False
+Cush_fn,7) Этиоп [Кушит]: 2 Хаад 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False
+Edom_fn,8) Эдомитчууд: Тооллого 20:14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False
+Moab_fn,"9) Моабчууд: Дэд хууль 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False
+Ammon_fn,10) Аммончууд: Иошуа 12:2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False
+Midian_fn,"11) Мидианчууд: Тооллого 31:2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False
+Amalek_fn,12) Амалекчууд: 1 Самуел 15:2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False
+Teman_fn,13) Теманчууд: Иов 42:7,13) Temanites: Job 42:7,2025-09-22,bible,False
+Sidon_fn,14) Сидончууд: Зехариа 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False
+Heth_fn,15) Хитчүүд: Эхлэл 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False
+Jebusite_fn,16) Иебусчууд: Иошуа 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False
+Judith,Жудит?,Judith?,"Genesis 26:34, 35",bible,False
+Lud_fn,17) Лидичууд: 1 Шастир 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False
+Ishmael_fn,18) Ишмаелчууд: Эхлэл 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
+Amorite_fn,19) Аморичууд: Шүүгчид 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
+Hivite_fn,"20) Хивитүүд [Гибеон]: Иошуа 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Rehoboam,Рехобоам,Rehoboam,first king of southern kingdom of Juda,A6-A,False
+Abijah,Абыжа (Абыжам),Abijah (Abijam),"3 years, also Abijam",A6-A,False
+Asa,Аса,Asa, ,A6-A,False
+Jehoshaphat,Иехошафат,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,A6-A,False
+Jehoram2,Иорам,Jehoram, ,A6-A,False
+Ahaziah,Ахазиа,Ahaziah, ,A6-A,False
+Athaliah,Аталиа хатан,Queen Athaliah,Queen Athaliah,A6-A,False
+Jehoash,Иоаш,Jehoash, ,A6-A,False
+Amaziah,Амазиа,Amaziah, ,A6-A,False
+Uzziah,Уззиа (Азарга),Uzziah (Azariah),also Azariah,A6-A,False
+Jeroboam,Иеробоам,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False
+Nadab,Надаб,Nadab,less than 2,A6-A,False
+Baasha,Бааша,Baasha, ,A6-A,False
+Elah,Эла,Elah, ,A6-A,False
+Zimri,Зимри,Zimri,Only 7 days in ca. 751 BCE,A6-A,False
+OmriTibni,"Омри, Тибни хоёр хамтдаа",Omri and Tibni together,4 years Omri and Tibni,A6-A,False
+Omri,Омри (ганцаараа),Omri (alone),from 947 Omri alone,A6-A,False
+Ahab,Ахаб,Ahab, ,A6-A,False
+Jehoram,Иорам,Jehoram, ,A6-A,False
+Jehu,Иехү,Jehu, ,A6-A,False
+Jeoahaz,Иоахаз,Jeoahaz, ,A6-A,False
+JeoahazJehoash,Иоахаз Иоаш хоёр,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False
+Jehoash2,Иоаш (ганцаараа),Jehoash (alone),Jehoash (alone),A6-A,False
+Jeroboam2,II Иеробоам,Jeroboam II, ,A6-A,False
+Elijah,Элижа,Elijah, ,A6-A,False
+Elisha,Елиша,Elisha, ,A6-A,False
+Jonah,Иона,Jonah, ,A6-A,False
+Amos,Амос,Amos, ,A6-A,False
+Joel,Жоэл,Joel, ,A6-A,False
+Jotham,Жотам,Jotham, ,A6-B,False
+Ahaz,Ахаз,Ahaz, ,A6-B,False
+Hezekiah,Хезекиа,Hezekiah, ,A6-B,False
+Manasseh,Манассе,Manasseh, ,A6-B,False
+Amon,Amon,Amon, ,A6-B,False
+Josiah,Иосиа,Josiah, ,A6-B,False
+Jehoahaz,Иехоахаз,Jehoahaz,Only 3 months,A6-B,False
+Jehoiakim,Иехоиаким,Jehoiakim, ,A6-B,False
+Jehoiachin,Иехоиахин,Jehoiachin,Only 3 months 10 days,A6-B,False
+Zedekiah,Зедекиа,Zedekiah, ,A6-B,False
+Zechariah,Зехариа,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False
+Schallum,Шаллюм,Schallum,only one month,A6-B,False
+Menahem,Менхем,Menahem, ,A6-B,False
+Pekahiah,Пекахиа,Pekahiah, ,A6-B,False
+Pekah,Пека,Pekah, ,A6-B,False
+Hoshea,Хошеа,Hoshea,9 years from c. 748,A6-B,False
+Hosea,Хосеа,Hosea, ,A6-B,False
+Isaiah,Исаиа,Isaiah, ,A6-B,False
+Micah,Мика,Micah, ,A6-B,False
+Zephaniah,Зефаниа,Zephaniah, ,A6-B,False
+Nahum,Нахум,Nahum, ,A6-B,False
+Jeremiah,Иеремиа,Jeremiah, ,A6-B,False
+Habakuk,Хабакук,Habakuk, ,A6-B,False
+Daniel,Даниэл,Daniel, ,A6-B,False
+Ezekiel,Езекиел,Ezekiel, ,A6-B,False
+Obadiah,Обадиа,Obadiah, ,A6-B,False
+Babylon,"Даниел 2:32, 36–38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,False
+Medopersia,"Даниел 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,False
+Greece,"Даниел 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,False
+Rome,"Даниел 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,False
+Angloamerica,"Даниел 2:33, 41–43","Daniel 2:33, 41-43", ,B9,False
+Babylon_c,Бабилон,Babylon, ,B9,False
+Medopersia_c,Медо-Перс,Medo-Persia, ,B9,False
+Greece_c,Грек,Greece, ,B9,False
+Rome_c,Ром,Rome, ,B9,False
+Angloamerica_c,Ангилал:Америк,Anglo-America, ,B9,False
+daniel2_1,Небухаднезар хаан,King Nebuchadnezzar,607 BCE,B9,False
+daniel2_2,Иерусалимыг устгасан нь,destroys Jerusalem, ,B9,False
+daniel2_3,Бабилоныг ялсан нь,Conquers Babylon,539 BCE,B9,False
+daniel2_4,Сайрусын зарлиг эргэн ирлээ,Cyrus decrees return,537 BCE,B9,False
+daniel2_5,иудейчуудаас Иерусалим хүртэл,of Jews to Jerusalem, ,B9,False
+daniel2_6,Их Александр,Alexander the Great,331 BCE,B9,False
+daniel2_7,Персийг эзлэн авсан нь,conquers Persia, ,B9,False
+daniel2_8,Израилийн талаарх дүрэм,Rules over Israel,63 BCE,B9,False
+daniel2_9,Иерусалимыг устгасан нь,Destroys Jerusalem,70 CE,B9,False
+daniel2_10,Дэлхийн 1-р дайны үед,"During World War I,",1914-1918 CE,B9,False
+daniel2_11,Ангилал:Дэлхийн эзэнт гүрэн,Anglo-American World Power, ,B9,False
+daniel2_12,бий болдог.,comes into being,End 4.2,B9,False
+607BCE,МЭӨ 607 он,607 B.C.E.,accommodate for language,B9,False
+539BCE,МЭӨ 539 он,539 B.C.E.,systems in style:,B9,False
+537BCE,МЭӨ 537 он,537 B.C.E.,>>year 537 before time<<,B9,False
+331BCE,МЭӨ 331 он,331 B.C.E.,so they need a word,B9,False
+63BCE,МЭӨ 63 он,63 B.C.E.,prior to the year,B9,False
+70CE,МЭ 70,70 C.E.,and something,B9,False
+1914CE,1914-1918 он.,1914-1918 C.E.,after the year,B9,False
+daniel2_shift,0,0,Start 4.2,float,False
+7times,Илчлэлт 12:9,Revelation 12:9, ,scripture,False
+infliction2,Үйлс 7:6,Acts 7:6, ,scripture,False
+eastern-zhou,770-256 МЭӨ,770-256 BC, ,span_bc,False
+430years,МЭӨ 1943-1513 он,1943 – 1513 B.C.E., ,span_bce,False
+eastern-han,25-220 CE,25-220 CE, ,span_ce,False
+northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False
+southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False
+khmer_empire,804 – 1431,804 – 1431, ,timespan,True
+byzantine_empire,330 – 1453,330 – 1453, ,timespan,True
+ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
+holy_roman_empire,800 – 924,800 – 924, ,timespan,True
+holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True
+inca_empire,1438 – 1533,1438 – 1533, ,timespan,True
+gupta_empire,319 – 550,319 – 550, ,timespan,True
+Umayyad,661 – 750,661 – 750, ,timespan,True
+Abbasid,750 – 1258,750 – 1258, ,timespan,True
+Mamluk,1250 – 1517,1250 – 1517, ,timespan,True
+seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
+lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True
+qing-dynasty,1636-1912,1636-1912, ,timespan,True
+ming-dynasty,1368-1644,1368-1644, ,timespan,True
+yuan-dynasty,1271-1368,1271-1368, ,timespan,True
+southern-song,1127-1279,1127-1279, ,timespan,True
+northern-song,960-1127,960-1127, ,timespan,True
+western-xia,1038-1227,1038-1227, ,timespan,True
+maya_classic,250–950,250–950, ,timespan,True
+maya_postclassic,950-1539,950-1539, ,timespan,True
+tran_dynasty,1225–1400,1225–1400, ,timespan,True
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
+revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
+nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
+edo,1603 – 1868,1603 – 1868, ,timespan,True
+meiji,1868 – 1912,1868 – 1912, ,timespan,True
+Julius,Жулиус,Julius, ,wiki,False
+Caligula,Калигула,Caligula, ,wiki,False
+Nero,Неро,Nero, ,wiki,False
+Galba-Otho-Vitellius,"Галба, Отхо, Вителлиус (Дөрвөн эзэн хааны жил)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False
+Vespasian,Васпасиан,Vespasian, ,wiki,False
+covid19,Covid-19,Covid-19, ,wiki,False
+nicaea1,Никейн анхдугаар зөвлөлгөөн,First Council of Nicaea, ,wiki,False
+oxyrhynchus,Оксирхинчус Папири,Oxyrhynchus Papyri, ,wiki,False
+p52,Папирус P52,Papyrus P52, ,wiki,False
+qing-dynasty_c,Цинь улс,Qing dynasty,1636-1912,wiki,False
+ming-dynasty_c,Мин улс Эзэн хааны Хятад дахь,Ming dynasty in imperial China,1368-1644,wiki,False
+yuan-dynasty_c,Юань,Yuan,1271-1368,wiki,False
+southern-song_c,Уртын дуу,Southern Song,1127-1279,wiki,False
+northern-song_c,Умардын дуу,Northern Song,960-1127,wiki,False
+western-xia_c,Баруун Шя,Western Xia,1038-1227,wiki,False
+Copernicus,Николаус Коперник,Nicolaus Copernicus, ,wiki,False
+Galileo,Галилео Галилей,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False
+Newton,Исаак Ньютон,Isaac Newton, ,wiki,False
+shang-dynasty_c,Шанг династи,Shang dynasty,c. 1600-1046 BC,wiki,False
+western-zhou_c,Баруун Жоу,Western Zhou,c. 1046-771 BC,wiki,False
+eastern-zhou_c,Зүүн Жоу,Eastern Zhou,770-256 BC,wiki,False
+western-han_c,Баруун Хан,Western Han,207 BC – 9 CE,wiki,False
+eastern-han_c,Дорнод Хан,Eastern Han,25-220 CE,wiki,False
+three-kingdoms_c,Хятад улс,China,Three kingdoms 220-280 CE,wiki,False
+sixteen-kingdoms_c,Хятад улс,China,Sixteen kingdoms 304-439 CE,wiki,False
+northern-dynasties_c,Хойд хаант улсууд,Northern dynasties,368-581 CE,wiki,False
+southern-dynasties_c,Өмнөдийн династууд,Southern dynasties,420-589 CE,wiki,False
+tang-dynasty2_c,Танг династи,Tang dynasty,"618-690, 705-907",wiki,False
+byzantine_empire_c,Византийн эзэнт гүрэн,Byzantine Empire, ,wiki,False
+ottoman_empire_c,Османы эзэнт гүрэн,Ottoman Empire, ,wiki,False
+Genghis,Чингис хаан,Genghis Khan, ,wiki,False
+inca_empire_c,Инкийн эзэнт гүрэн,Inca empire, ,wiki,False
+gupta_empire_c,Гупта эзэнт гүрэн,Gupta Empire, ,wiki,False
+Teotihuacan_c,Теотихуакан,Teotihuacan, ,wiki,False
+Abbasid_c,Аббасидын халифат,Abbasid Caliphate, ,wiki,False
+Mamluk_c,Мамлюкийн Султант улс,Mamluk Sultanate, ,wiki,False
+Al-Ghazali,Аль-Газали,Al-Ghazali,2024-07-30,wiki,False
+wulfila,Вульфила Библи,Wulfila Bible,2025-09-20,wiki,False
+tran_dynasty_c,Тран гүрэн,Trần dynasty, ,wiki,False
+le_dynasty_c,Лэ гүрэн,Lê dynasty, ,wiki,False
+revival_le_dynasty_c,Trịnh ноёд ба Нгуен ноёд,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False
+seljuk_empire_c,Селжукийн эзэнт гүрэн,Seljuk empire, ,wiki,False
+vandals_c,Вандалууд,Vandals, ,wiki,False
+lombard_c,Ломбардын хаант улс,Lombard Kingdom,2025-10-13,wiki,False
+people,хүмүүс,people, ,deprecated,False
+judges,шүүгч нар,judges, ,deprecated,False
+prophets,зөнчид,prophets, ,deprecated,False
+kings,хаад,kings, ,deprecated,False
+periods,үе,periods, ,deprecated,False
+events,үйл явдал,events, ,deprecated,False
+objects,эд зүйлс эсвэл эд зүйлс,objects or items, ,deprecated,False
+event_destruction_samaria2,МЭӨ 740 он Ассирийн,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
+photodrama,«Бүтээлийн тухай фото драм»-ыг 1914 оны 1 дүгээр сарын 11-нд Нью-Йорк хотноо анх удаа үзүүлжээ.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
+truth_book,"""Мөнхийн амь руу хөтлөх үнэн"" ном 1968 онд гарсан",The book “The Truth That Leads to Eternal Life” released 1968, ,deprecated,False
+metropolitan,2011 онд хот суурин газарт дэлгэрүүлж эхэлсэн,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,2012 оны 12-р сард хаанчлалын тухай сайн мэдээ дэлгэрүүлэх ажилд JW.ORG эхэлсэн,Start of JW.ORG with instructions in kingdom ministry December 2012, ,deprecated,False
+jw_broadcasting,2014 оны 10-р сараас эхлэн jw.broadcasting,Start of jw.broadcasting in October 2014, ,deprecated,False
+meeting_workbook,"2016 оны 1-р сараас эхлэн ""хурлын дасгалын ном""-той долоо хоногийн дундуур уулзах шинэ хэлбэр",New format of midweek meeting with “meeting workbook” starting January 2016, ,deprecated,False
+Gatam,Гатам,Gatam, ,deprecated,False
+Adbeel,Адбил,Adbeel, ,deprecated,False
+Mibsam,Мибсам,Mibsam, ,deprecated,False
+Dumah,Думах,Dumah, ,deprecated,False
+Massa,Масса,Massa, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
+terahfam,Терагийн гэр бүлийн гишүүд,members of Terah’s family, ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
+xia-dynasty,Хятад дахь Шяны угсааны улс c. 2070 – c. МЭӨ 1600,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
