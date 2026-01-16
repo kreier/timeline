@@ -459,7 +459,7 @@ eastern-han,25-220 CE,25-220 CE, ,span_ce,False
 northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False
 southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False
 khmer_empire,804 – 1431,804 – 1431, ,timespan,True
-byzantine_empire,330 – 1453,330 – 1453, ,timespan,False
+byzantine_empire,330 – 1453,330 – 1453, ,timespan,True
 ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
 holy_roman_empire,800 – 924,800 – 924, ,timespan,True
 holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True
