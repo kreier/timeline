@@ -27,8 +27,8 @@ jesus_life,Jesus im Jahr 2 v.u.Z. geboren,Jesus born 2 B.C.E., ,text,True
 exile,607 bis 537 v.u.Z. – 70 Jahre (Jeremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,True
 exile2,Exil,Exile, ,text,True
 7times2,7 Zeiten – 2520 Jahre bis zum Messianischen Königreich 1914 u.Z. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,True
-ww1,1. Weltkrieg – 1914–1918 u.Z.,World War I – 1914–1918, ,text,False
-ww2,2. Weltkrieg – 1939–1945 u.Z.,World War II – 1939–1945, ,text,False
+ww1,1. Weltkrieg – 1914–1918,World War I – 1914–1918, ,text,True
+ww2,2. Weltkrieg – 1939–1945,World War II – 1939–1945, ,text,True
 30_year_war,Dreißigjähriger Krieg in Europa 1618-1648 u.Z.,Thirty Years' War in Europe 1618-1648, ,text,True
 joshua,110 Jahre,110 years, ,text,True
 caleb,mehr als 85 Jahre,more than 85 years, ,text,True
@@ -75,7 +75,7 @@ leningrad_codex,Leningrad Codex geschrieben in Kairo AD 1008,Leningrad Codex wri
 john,Johannes schreibt die Offenbarung im Exil auf Patmos 96-98 u.Z.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,True
 buddha,Siddhartha Gautama – Buddha ca.563-ca.483 v.u.Z.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,True
 buddha2,Buddha alternativ ca. 480-400 v.u.Z.,Buddha alternatively c. 480-400 B.C.E., ,text,True
-mohammed,Mohammed ca. 570-632 u.Z.,Mohammed c. 570-632, ,text,False
+mohammed,Mohammed ca. 570-632,Mohammed c. 570-632, ,text,True
 confucius,Konfuzius ca.551-ca.479 v.u.Z.,Confucius c.551-c.479 B.C.E., ,text,True
 hijrah,Hidschra – Mecca nach Medina 16 Juli 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,True
 moses_escape,"1553 v.u.Z. Moses muss aus Ägypten fliehen – 2. Mose 2:15, Apg 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,True
@@ -142,7 +142,7 @@ great_crowd,"Eine „große Volksmenge“ überlebt Harmagedon (Offenbarung 7:9,
 world_population,Weltbevölkerung in Milliarden in den letzten 2000 Jahren,World population in billions in the last 2000 years, ,text,True
 khmer_empire_c,Khmer-Reich - Angkor-Zeit,Khmer Empire - Angkor period, ,text,True
 holy_roman_empire_c,Heiliges Römisches Reich – nach 1512 Heiliges Römisches Reich Deutscher Nation,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,True
-mongol_empire,Mongolisches Reich 1206 – 1294 n. Chr.,Mongol Empire 1206 – 1294, ,text,False
+mongol_empire,Mongolisches Reich 1206 – 1294,Mongol Empire 1206 – 1294, ,text,True
 maya_classic_c,Maya-Zivilisation – klassische Periode,Maya civilization – Classic period, ,text,True
 maya_postclassic_c,Maya-Zivilisation – postklassische Periode,Maya civilization – Postclassic period, ,text,True
 Teotihuacan,"größte Stadt Amerikas, Pyramiden erbaut ca. 200 u.Z.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,True
@@ -167,10 +167,10 @@ argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila 
 nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,True
 edo_c,Edo-Zeit (Tokugawa-Shōgunat),Edo period in Japan,Edo period (Tokugawa shogunate),text,True
 meiji_c,Meiji,Meiji,2025-09-20,text,True
-american_civil_war,Sezessionskrieg 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
+american_civil_war,Sezessionskrieg 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,True
 aleppo_codex,Codex von Aleppo ca. 920,Aleppo Codex c. 920,2025-10-03,text,True
-vandals,Königreich der Vandalen und Alanen 435 – 534 u.Z.,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
-francia,"c. 481/509 – 843 u.Z., Merowinger bis 751, dann Karolinger","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+vandals,Königreich der Vandalen und Alanen 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,True
+francia,"c. 481/509 – 843, Merowinger bis 751, dann Karolinger","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,True
 francia_c,Fränkisches Reich,Kingdom of the Franks, ,text,True
 100_years_war,Hundertjähriger Krieg 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,True
 black_death,Schwarzer Tod 1346-1353,Black death 1346-1353,1346-1353,text,True
@@ -295,14 +295,14 @@ Jalam,Jạlam,Jalam,Genesis 36:14,bible,True
 Nebaioth,Nẹbajoth,Nebaioth,Genesis 25:13,bible,True
 Kedar,Kẹdar,Kedar,Genesis 25:13,bible,True
 Mishma,Mịschma,Mishma,Genesis 25:14,bible,True
-Adbeel_Mibsam,"Ạdbeël, Mịbsam","Adbeel, Mibsam",Genesis 25:13,bible,False
+Adbeel_Mibsam,"Ạdbeël, Mịbsam","Adbeel, Mibsam",Genesis 25:13,bible,True
 Dumah_Massa,"Dụma, Mạssa","Dumah, Massa",Genesis 25:14,bible,True
 Hadad,Hạdad,Hadad,Genesis 25:15,bible,True
 Tema,Tẹma,Tema,Genesis 25:15,bible,True
 Jetur,Jẹtur,Jetur,Genesis 25:15,bible,True
 Naphish,Nạphisch,Naphish,Genesis 25:15,bible,True
 Kedemah,Kẹdma,Kedemah,Genesis 25:15,bible,True
-Keturah,Ketụra,Keturah,Genesis 25:1,bible,False
+Keturah,Ketụra,Keturah,Genesis 25:1,bible,True
 Zimran,Sịmran,Zimran,Genesis 25:1,bible,True
 Jokshan,Jọkschan,Jokshan,Genesis 25:1,bible,True
 Medan,Mẹdan,Medan,Genesis 25:1,bible,True
@@ -317,7 +317,7 @@ Sidon,Sịdon,Sidon,Gen 10:15,bible,True
 Heth,Heth,Heth,Gen 10:15,bible,True
 Jebusite,Jebusịter,Jebusite,Gen 10:16,bible,True
 Amorite,Amorịter,Amorite,Gen 10:16,bible,True
-Girgashite,Girgaschịter,Girgashite,Gen 10:16,bible,False
+Girgashite,Girgaschịter,Girgashite,Gen 10:16,bible,True
 Hivite,Hiwịter,Hivite,Gen 10:17,bible,True
 Arkite,Arkịter,Arkite,Gen 10:17,bible,True
 Sinite,Sinịter,Sinite,Gen 10:17,bible,True
@@ -325,7 +325,7 @@ Arvadite,Arwadịter,Arvadite,Gen 10:18,bible,True
 Zemarite,Zemarịter,Zemarite,Gen 10:18,bible,True
 Hamathite,Hamathịter,Hamathite,Gen 10:18,bible,True
 Cush,Kusch,Cush,Gen 10:6,bible,True
-Nimrod,Nịmrod,Nimrod,Gen 10:8,bible,False
+Nimrod,Nịmrod,Nimrod,Gen 10:8,bible,True
 Mizraim,Mizrạjim,Mizraim,Gen 10:14,bible,True
 Casluh,Kạsluchim,Casluh,1 Chronicles 1:12 (Philistines),bible,True
 Japheth,Jạphet,Japheth,Gen 10:1,bible,True
@@ -351,7 +351,7 @@ Aram_fn,3) Aramäer: Hosea 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,True
 Elam_fn,4) Elamiter: Esra 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,True
 Asshur_fn,5) Assyrer: Hesekiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,True
 Casluh_fn,6) Philister: 1 Chronika 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,True
-Cush_fn,7) Äthiọpier [Kuschịter]: 2 Könige 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False
+Cush_fn,7) Äthiọpier [Kuschịter]: 2 Könige 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,True
 Edom_fn,8) Ẹdomiter: 4. Mose 20:14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,True
 Moab_fn,"9) Moabịter: 5. Mose 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,True
 Ammon_fn,10) Ammonịter: Josua 12:2,10) Ammonites: Joshua 12:2,2025-09-22,bible,True
@@ -366,6 +366,16 @@ Lud_fn,17) Lyder: 1 Chronika 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiqui
 Ishmael_fn,18) Ismaelịter: 1. Mose 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,True
 Amorite_fn,19) Amorịter: Richter 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,True
 Hivite_fn,"20) Hiwịter [Gịbeon]: Josua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,True
+Cain,Kain,Cain,"Genesis 4:1, son Enoch same name as other",bible,True
+Abel,Abel,Abel,Genesis 4:2,bible,True
+Irad,Ịrad,Irad,Genesis 4:18,bible,True
+Mehujael,Mehụjaël,Mehujael,Genesis 4:18,bible,True
+Methushael,Methụschaël,Methushael,"Genesis 4:18, son Lamech same as other",bible,True
+Jabal,Jạbal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,True
+Jubal,Jụbal,Jubal,Genesis 4:21 play harp and pipe,bible,True
+Zillah,Zịlla,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,True
+Tubal-cain,Tụbal-Kain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,True
+Naamah,Naama,Naamah,Genesis 4:22 his sister,bible,True
 Rehoboam,Rehạbeam,Rehoboam,first king of southern kingdom of Juda,A6-A,True
 Abijah,Abija (Abịjam),Abijah (Abijam),"3 years, also Abijam",A6-A,True
 Asa,Ạsa,Asa,A6-A,A6-A,True
