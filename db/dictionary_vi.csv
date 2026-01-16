@@ -142,7 +142,7 @@ great_crowd,"Một đám đông sống sót sau Ha-ma-ghê-đôn (Khải huyền
 world_population,Dân số thế giới tính theo tỷ người trong 2000 năm qua,World population in billions in the last 2000 years, ,text,True
 khmer_empire_c,Đế quốc Khmer - thời kỳ Angkor,Khmer Empire - Angkor period, ,text,True
 holy_roman_empire_c,Đế quốc La Mã Thần thánh - sau năm 1512 Đế quốc La Mã Thần thánh của Quốc gia Đức,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,True
-mongol_empire,Đế quốc Mông Cổ 1206 – 1294,Mongol Empire 1206 – 1294, ,text,False
+mongol_empire,Đế quốc Mông Cổ 1206 – 1294,Mongol Empire 1206 – 1294, ,text,True
 maya_classic_c,Nền văn minh Maya – thời kỳ cổ điển,Maya civilization – Classic period, ,text,True
 maya_postclassic_c,Nền văn minh Maya – thời kỳ hậu cổ điển,Maya civilization – Postclassic period,Văn minh Maya? Wikipedia,text,True
 Teotihuacan,"Thành phố lớn nhất châu Mỹ, xây dựng kim tự tháp c. 200 CN","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,True
@@ -162,26 +162,26 @@ tres_zapotes,Ngày 3 tháng 9 năm 32 TCN,"September 3rd, 32 B.C.E.",2024-12-31,
 joseph_jacob_reunited,Giô-sép và Gia-cốp đoàn tụ tại Ai Cập – 1728 TCN (Sáng thế 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False
 king_south_light_c,Vua phương Nam từ Đa-ni-ên 11,King of the South from Daniel 11,2025-02-05,text,True
 king_north_light_c,Vua phương Bắc từ Đa-ni-ên 11,King of the North from Daniel 11,2025-02-05,text,True
-daniel2_iron_c,Chân sắt từ Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False
+daniel2_iron_c,Chân sắt từ Daniel 2,Iron legs from Daniel 2,2025-02-05,text,True
 argenteus,Codex argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False
 nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False
 edo_c,Thời kỳ Edo (Mạc phủ Tokugawa),Edo period in Japan,Edo period (Tokugawa shogunate),text,False
 meiji_c,Meiji,Meiji,2025-09-20,text,False
-american_civil_war,Nội chiến Mỹ 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
+american_civil_war,Nội chiến Mỹ 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,True
 aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920,2025-10-03,text,False
-vandals,Vương quốc Vandal và Alan 435 – 534 CN,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
-francia,"c. 481/509 – 843 CN, Vương triều Meroving đến 751, sau đó là Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
-francia_c,Vương quốc Frank,Kingdom of the Franks, ,text,False
+vandals,Vương quốc Vandal và Alan 435 – 534 CN,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,True
+francia,"c. 481/509 – 843, Vương triều Meroving đến 751, sau đó là Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,True
+francia_c,Vương quốc Frank,Kingdom of the Franks, ,text,True
 100_years_war,Chiến tranh Trăm Năm 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False
-black_death,Cái Chết Đen 1346-1353,Black death 1346-1353,1346-1353,text,False
-sui_dynasty,581-618 Nhà Tùy,581-618 Sui dynasty,2025-11-09,text,False
+black_death,Cái Chết Đen 1346-1353,Black death 1346-1353,1346-1353,text,True
+sui_dynasty,581-618 Nhà Tùy,581-618 Sui dynasty,2025-11-09,text,True
 sui_dynasty_c,Tùy,Sui,2025-11-09,text,True
 tribulation,"Cơn Đại Nạn (Mác 13:19; Đa-ni-ên 12:1; Ma-thi-ơ 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,True
 Adam,A-đam,Adam,Luke 3:38,bible,True
 Seth,Sết,Seth,Luke 3:38,bible,True
 Enosh,Ê-nót,Enosh,Luke 3:38,bible,True
-Kenan,Kê-nan,Kenan (Cainan),"Genesis 5:12, Luke 3:37",bible,False
-Mahalalel,Ma-ha-la-ên,Mahalalel (Mahalaleel),"Genesis 5:15, Luke 3:37",bible,False
+Kenan,Kê-nan (Cai-nan),Kenan (Cainan),"Genesis 5:12, Luke 3:37",bible,True
+Mahalalel,Ma-ha-la-ên (Ma-ha-la-lê-ên),Mahalalel (Mahalaleel),"Genesis 5:15, Luke 3:37",bible,True
 Jared,Gia-rết,Jared,Luke 3:37,bible,True
 Enoch,Hê-nóc,Enoch,Luke 3:37,bible,True
 Methuselah,Mê-tu-sê-la,Methuselah,Luke 3:37,bible,True
@@ -366,6 +366,16 @@ Lud_fn,17) Người Lút: 1 Sử ký 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish
 Ishmael_fn,18) Người Ích-ma-ên: Sáng thế 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,True
 Amorite_fn,19) Dân A-mô-rít: Quan xét 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,True
 Hivite_fn,"20) Người Hê-vít [Ga-ba-ôn]: Giô-suê 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,True
+Cain,Ca-in,Cain,"Genesis 4:1, son Enoch same name as other",bible,True
+Abel,A-bên,Abel,Genesis 4:2,bible,True
+Irad,Y-rát,Irad,Genesis 4:18,bible,True
+Mehujael,Mê-hu-da-ên,Mehujael,Genesis 4:18,bible,True
+Methushael,Mê-tu-sa-ên,Methushael,"Genesis 4:18, son Lamech same as other",bible,True
+Jabal,Gia-banh,Jabal,"Genesis 4:20 living in tents, have livestock",bible,True
+Jubal,Giu-banh,Jubal,Genesis 4:21 play harp and pipe,bible,True
+Zillah,Xi-la,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,True
+Tubal-cain,Tu-banh-ca-in,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,True
+Naamah,Na-a-ma,Naamah,Genesis 4:22 his sister,bible,True
 Rehoboam,Rê-hô-bô-am,Rehoboam,first king of southern kingdom of Juda,A6-A,True
 Abijah,A-bi-gia (A-bi-giam),Abijah (Abijam),"3 years, also Abijam",A6-A,True
 Asa,A-sa,Asa,A6-A,A6-A,True
@@ -484,50 +494,50 @@ revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
 edo,1603 – 1868,1603 – 1868, ,timespan,True
 meiji,1868 – 1912,1868 – 1912, ,timespan,True
-Julius,Sê-sa Giu-lơ (Julius),Julius, ,wiki,False
-Caligula,Caligula,Caligula, ,wiki,False
-Nero,Nê-rô (Nero),Nero, ,wiki,False
-Galba-Otho-Vitellius,"Galba, Otho và Vitellius (Năm Tứ Hoàng)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False
-Vespasian,Vespasian,Vespasian, ,wiki,False
-covid19,Covid-19,Covid-19, ,wiki,False
-nicaea1,Công đồng Nicaea đầu tiên,First Council of Nicaea, ,wiki,False
-oxyrhynchus,Giấy cói Oxyrhynchus,Oxyrhynchus Papyri, ,wiki,False
-p52,Thư viện Rylands Giấy cói P52,Papyrus P52, ,wiki,False
-qing-dynasty_c,Nhà Thanh,Qing dynasty,1636-1912,wiki,False
-ming-dynasty_c,Nhà Minh ở Trung Quốc,Ming dynasty in imperial China,1368-1644,wiki,False
-yuan-dynasty_c,Nhà Nguyên,Yuan,1271-1368,wiki,False
-southern-song_c,Nam Tống,Southern Song,1127-1279,wiki,False
-northern-song_c,Bắc Tống,Northern Song,960-1127,wiki,False
-western-xia_c,Tây Hạ,Western Xia,1038-1227,wiki,False
-Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,False
-Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False
-Newton,Isaac Newton,Isaac Newton, ,wiki,False
-shang-dynasty_c,Nhà Thương,Shang dynasty,c. 1600-1046 BC,wiki,False
-western-zhou_c,Tây Chu,Western Zhou,c. 1046-771 BC,wiki,False
-eastern-zhou_c,Đông Chu,Eastern Zhou,770-256 BC,wiki,False
-western-han_c,Tây Hán,Western Han,207 BC – 9 CE,wiki,False
-eastern-han_c,Đông Hán,Eastern Han,25-220 CE,wiki,False
-three-kingdoms_c,TQ,China,Three kingdoms 220-280 CE,wiki,False
-sixteen-kingdoms_c,Trung Quốc,China,Sixteen kingdoms 304-439 CE,wiki,False
-northern-dynasties_c,Bắc triều,Northern dynasties,368-581 CE,wiki,False
-southern-dynasties_c,Nam triều,Southern dynasties,420-589 CE,wiki,False
-tang-dynasty2_c,Nhà Đường (N. Đ.),Tang dynasty,"618-690, 705-907",wiki,False
-byzantine_empire_c,Đế quốc Byzantine,Byzantine Empire, ,wiki,False
-ottoman_empire_c,Đế quốc Ottoman,Ottoman Empire, ,wiki,False
-Genghis,Thành Cát Tư Hãn,Genghis Khan, ,wiki,False
-inca_empire_c,Đế quốc Inca,Inca empire, ,wiki,False
-gupta_empire_c,Đế quốc Gupta,Gupta Empire, ,wiki,False
-Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False
-Abbasid_c,Nhà Abbas,Abbasid Caliphate, ,wiki,False
-Mamluk_c,Vương quốc Hồi giáo Mamluk,Mamluk Sultanate, ,wiki,False
-Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False
-wulfila,Kinh thánh Wulfila,Wulfila Bible,2025-09-20,wiki,False
-tran_dynasty_c,Triều đại Nhà Trần,Trần dynasty, ,wiki,False
-le_dynasty_c,Nhà Hậu Lê,Lê dynasty, ,wiki,False
-revival_le_dynasty_c,Nhà Lê trung hưng,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False
-seljuk_empire_c,Đế quốc Seljuk,Seljuk empire, ,wiki,False
-vandals_c,Vandal,Vandals, ,wiki,False
-lombard_c,Vương quốc Lombardia,Lombard Kingdom,2025-10-13,wiki,False
+Julius,Sê-sa Giu-lơ (Julius),Julius, ,wiki,True
+Caligula,Caligula,Caligula, ,wiki,True
+Nero,Nê-rô (Nero),Nero, ,wiki,True
+Galba-Otho-Vitellius,"Galba, Otho và Vitellius (Năm Tứ Hoàng)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,True
+Vespasian,Vespasian,Vespasian, ,wiki,True
+covid19,Covid-19,Covid-19, ,wiki,True
+nicaea1,Công đồng Nicaea đầu tiên,First Council of Nicaea, ,wiki,True
+oxyrhynchus,Giấy cói Oxyrhynchus,Oxyrhynchus Papyri, ,wiki,True
+p52,Giấy cói P52,Papyrus P52, ,wiki,True
+qing-dynasty_c,Nhà Thanh,Qing dynasty,1636-1912,wiki,True
+ming-dynasty_c,Nhà Minh ở Trung Quốc,Ming dynasty in imperial China,1368-1644,wiki,True
+yuan-dynasty_c,Nhà Nguyên,Yuan,1271-1368,wiki,True
+southern-song_c,Nam Tống,Southern Song,1127-1279,wiki,True
+northern-song_c,Bắc Tống,Northern Song,960-1127,wiki,True
+western-xia_c,Tây Hạ,Western Xia,1038-1227,wiki,True
+Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,True
+Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,True
+Newton,Isaac Newton,Isaac Newton, ,wiki,True
+shang-dynasty_c,Nhà Thương,Shang dynasty,c. 1600-1046 BC,wiki,True
+western-zhou_c,Tây Chu,Western Zhou,c. 1046-771 BC,wiki,True
+eastern-zhou_c,Đông Chu,Eastern Zhou,770-256 BC,wiki,True
+western-han_c,Tây Hán,Western Han,207 BC – 9 CE,wiki,True
+eastern-han_c,Đông Hán,Eastern Han,25-220 CE,wiki,True
+three-kingdoms_c,TQ,China,Three kingdoms 220-280 CE,wiki,True
+sixteen-kingdoms_c,Trung Quốc,China,Sixteen kingdoms 304-439 CE,wiki,True
+northern-dynasties_c,Bắc triều,Northern dynasties,368-581 CE,wiki,True
+southern-dynasties_c,Nam triều,Southern dynasties,420-589 CE,wiki,True
+tang-dynasty2_c,Nhà Đường (N. Đ.),Tang dynasty,"618-690, 705-907",wiki,True
+byzantine_empire_c,Đế quốc Đông La Mã,Byzantine Empire, ,wiki,True
+ottoman_empire_c,Đế quốc Ottoman,Ottoman Empire, ,wiki,True
+Genghis,Thành Cát Tư Hãn,Genghis Khan, ,wiki,True
+inca_empire_c,Đế quốc Inca,Inca empire, ,wiki,True
+gupta_empire_c,Đế quốc Gupta,Gupta Empire, ,wiki,True
+Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,True
+Abbasid_c,Nhà Abbas,Abbasid Caliphate, ,wiki,True
+Mamluk_c,Vương quốc Hồi giáo Mamluk,Mamluk Sultanate, ,wiki,True
+Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,True
+wulfila,Kinh thánh Wulfila,Wulfila Bible,2025-09-20,wiki,True
+tran_dynasty_c,Triều đại Nhà Trần,Trần dynasty, ,wiki,True
+le_dynasty_c,Nhà Hậu Lê,Lê dynasty, ,wiki,True
+revival_le_dynasty_c,Nhà Lê trung hưng,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,True
+seljuk_empire_c,Đế quốc Seljuk,Seljuk empire, ,wiki,True
+vandals_c,n. Vandal,Vandals, ,wiki,True
+lombard_c,Vương quốc Lombardia,Lombard Kingdom,2025-10-13,wiki,True
 people,Người,people, ,deprecated,True
 judges,Quan xét,judges, ,deprecated,True
 prophets,Tiên tri,prophets, ,deprecated,True
