@@ -23,6 +23,7 @@
 # Step 8: Compare known entries and fix them
 # Step 8.1: match all entries with tag 'timespan' and set checked to True
 # Step 8.2: Match the version number and date
+# Step 8.3: Compare the values in "english" between dict and dict_translated, set checked to FALSE, update english
 # Step 9: Find empty entries in text and send them for translation
 
 
@@ -299,6 +300,24 @@ async def translate_dictionary(dictionary, language):
             # if (index + 1) % 40 == 0:
             #     print(f" {index}")
 
+async def translate_missing_values_in_dictionary(dictionary, language):
+    global number_characters
+    async with Translator() as translator:
+        for index, row in dict_translated.iterrows(): # with columns 'key' 'text' 'english' and 'checked'
+            if row.checked:   # skip checked entries
+                continue 
+            english_text = row.english
+            if english_text == " ": # skip empty strings
+                continue
+            translated_text = row.text
+            if translated_text != " ": # skip already translated entries
+                continue
+            number_characters += len(str(english_text))
+            result = await translator.translate(english_text, src='en', dest=language)
+            dict_translated.at[index, 'text'] = result.text
+            # print('.', end='')
+            print(f'{index}: {english_text} - {result.text}')
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("You did not provide a language as argument. Put it as a parameter after the program name.")
@@ -342,17 +361,17 @@ if __name__ == "__main__":
     if unchecked_BCE_CE(): # true if missing or checked is False
         asyncio.run(translate_bce_ce(language)) # translate the missing 'BCE' and 'CE' entries for span_bce, span_bc and span_ce tags
 
-    # Update 'span_ce', 'span_bce', 'span_bc' and 'float' entries if checked is False
-
-    # Step 8.5: Fix 'float' entries
-
     # Step 9: Find empty entries in text and send them for translation
 
 
     print("\nTranslating ...")
+    dict_translated = dict_translated.replace("", " ")
     number_characters = 0      # you can translate up to 500,000 characters per month for free
-        # asyncio.run(translate_dictionary(dict_translated, language)) # translate the dictionary
-        # print(dict_translated)
-        # print("Exporting ...")
-        # dict_translated.to_csv(filename, index=False)
-    print(f"You translated {number_characters} characters.")
+    asyncio.run(translate_missing_values_in_dictionary(dict_translated, language)) # translate the dictionary
+    if number_characters == 0:
+        print("No characters to translate.")
+    else:
+        print(dict_translated)
+        print(f"You translated {number_characters} characters.")
+    print("Exporting ...")
+    dict_translated.to_csv(filename, index=False)
