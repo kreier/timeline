@@ -5,7 +5,12 @@
 #  Google docs:    key, text, english, notes - current_key, current_text, current_english, current_notes
 #  dictionary csv: key, text, english, notes 
 #  reference csv:  key,          text, version, notes
-# reference dictionary: key, text, alternative, notes
+#  reference dictionary: key, text, alternative, notes
+#
+# 2026-01-16 outdated:
+#  Google docs:              key, text, english, notes, tag, checked
+#  dictionary csv:           key, text, english, notes, tag, checked
+#  dictionary_reference.csv: key, v, english, notes, tag
 
 import sys
 import pandas as pd
