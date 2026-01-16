@@ -722,20 +722,12 @@ def create_tribulation():
 
 def create_terah_familytree():
     global counter_terahfam, direction_factor
-    shift_x = 30 * direction_factor
-    file_lines  = "../db/terah-lines.csv"
-    file_family = "../db/terah-family.csv"
+    # shift_x = 30 * direction_factor
+    shift_x = 0
+    file_lines     = "../db/terah-lines.csv"
+    file_family    = "../db/terah-family.csv"
     file_footnotes = "../db/terah-footnotes.csv"
-    if version > 4.8:
-        file_lines  = "../db/terah-lines2.csv"
-        file_family = "../db/terah-family2.csv"
-    if version > 5.4:
-        file_lines  = "../db/terah-lines3.csv"
-        file_family = "../db/terah-family3.csv"
-    if version > 5.8:
-        file_lines  = "../db/terah-lines4.csv"
-        file_family = "../db/terah-family4.csv"
-        file_footnotes = "../db/terah-footnotes4.csv"
+    # From version 6.01 no longer check for version > 4.8, 5.4 or 5.8, its autotranslated to be fixed later
     lines = pd.read_csv(file_lines, encoding='utf8')        # lines in black and green
     shift_lines = -0.33
     footnotes = pd.read_csv(file_footnotes, encoding='utf8')    
@@ -771,30 +763,30 @@ def create_terah_familytree():
         pdf.set_draw_color(255)
         pdf.rect(x - 0.5 * text_width - 1, y, text_width + 2, 10, style = "FD")
         pdf.set_text_color(blue[0]*255, blue[1]*255, blue[2]*255)
-        if row.color == "red":
+        if row.color == "red": # men in blue, women in red
             pdf.set_text_color(red[0]*255, red[1]*255, red[2]*255)
         drawString(dict[row.key], fontsize_Terah, x, y, "c", False)
-        if version > 4.8:
-            # check if key is in footnotes to add a superscript number
-            if row.key in footnotes['key'].values:
-                fn_row = footnotes.loc[footnotes['key'] == row.key].iloc[0]
-                if fn_row.sup > 0:
-                    pdf.char_vpos = "SUP"
-                    pdf.write(text=str(int(fn_row.sup)))
-                    pdf.char_vpos = "LINE"
-            if row.sup > 0:
+        # check if key is in footnotes to add a superscript number, footnotes itself rendered later
+        if row.key in footnotes['key'].values:
+            fn_row = footnotes.loc[footnotes['key'] == row.key].iloc[0]
+            if fn_row.sup > 0:
                 pdf.char_vpos = "SUP"
-                pdf.write(text=str(int(row.sup)))
+                pdf.write(text=str(int(fn_row.sup)))
                 pdf.char_vpos = "LINE"
+        # footnotes that appear more than once or not for the very namegiver of a certain
+        # tribe are hardcoded in the names itself in the sup superscript column 4x
+        if row.sup > 0:
+            pdf.char_vpos = "SUP"
+            pdf.write(text=str(int(row.sup)))
+            pdf.char_vpos = "LINE"
+    # render the actual 20 footnotes
+    fontsize_footnote = fontsize_regular - 2
     pdf.set_text_color(0, 0, 0)
+    pdf.set_font(font_regular, "", fontsize_footnote)
     for index, row in footnotes.iterrows():
-        text_footnote = row.key
-        fontsize_footnote = fontsize_regular
-        if version > 5.8:
-            text_footnote += "_fn"
-            fontsize_footnote -= 2
+        text_footnote = row.key + "_fn"
         drawString(dict[text_footnote], fontsize_footnote, x_position(row.year), y_position(row.row), "r", True)
-    counter_terahfam = 126  # hardcoded instead of 88, as counting is difficult here
+    counter_terahfam = 126  # hardcoded instead of 88, as counting is difficult here, irrelevant since 2025
 
 def include_pictures():
     global font_regular, direction, pdf

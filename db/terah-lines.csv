@@ -1,49 +1,93 @@
-key,start,start_row,end,end_row,type,notes
-a_Terach,3075,25,2700,25,,
-1,3075,25,3075,26,,Abraham
-2,2950,25,2950,26,,Sarah
-3,2850,25,2850,28,,Nahor
-4,2700,25,2700,26,,Haran
-5,2900,24,2900,25,,Terah
-6,3000,26,3000,34,,Isaac
-7,3150,26,3150,32,,Ishmael
-b_Isaac,3000,35,2900,35,,Esau-Jacob
-8,2950,34,2950,35,,
-9,3000,35,3000,36,,Esau
-10,2900,35,2900,36,,Jacob
-c_Laban,2800,35,2700,35,,Leah-Rachel
-11,2750,34,2750,35,,
-12,2800,35,2800,45,,Leah
-13,2700,35,2700,41,,Rachel
-14,2600,36,2600,39,,Bilhah
-15,2500,36,2500,39,,Zilpah
-d_Haran,2750,27,2650,27,,
-16,2700,26,2700,27,,
-17,2750,27,2750,28,,Milcah
-18,2650,27,2650,28,,Lot
-e_Nahor,2850,29,2725,29,,
-19,2800,28,2800,29,,
-20,2850,29,2850,30,,Bethuel
-21,2725,29,2725,30,,7 other sons
-f_Bethuel,2900,33,2750,33,,
-22,2850,30,2850,33,,
-23,2900,33,2900,34,,Rebekah
-24,2750,33,2750,34,,Laban
-g_Lot,2650,29,2600,29,,
-25,2650,28,2650,29,,
-26,2600,29,2600,30,,
-27,2575,28,2575,30,,from Lot’s wife
-28,2550,30,2550,32,,to Moab and Ammon
-29,2950,28,2950,30,,"Tebach, Gaham, Tahasch, Maacha"
-h_Ishmael,3425,33,3100,33,,
-30,3150,33,3150,31,,
-31,3425,33,3425,35,,Nebajoth and 11 more
-32,3100,33,3100,42,,Basemath
-33,3200,36,3200,40,,Adah
-34,3300,36,3300,40,,Oholiabamah
-Abraham,3200,26,2950,26,married,Sarah and Hagar
-Nahor,2950,28,2750,28,married,Reuma and Milka
-Lot,2650,28,2500,28,married,Lot’s wife (name unknown)
-Isaac,3000,34,2900,34,married,Rebecca
-Jacob_Israel,2900,36,2500,36,married,"Leah, Rachel, Bilhah, Zilpah"
-Esau,3000,36,3300,36,married,"Basemath, Adah, Oholibamah"
+key,start,start_row,end,end_row,type,notes,ver
+a_Terach,3065,23.4,2640,23.4,,Abraham - Haran,3
+1,3065,23.4,3065,24.3,,Abraham,3
+2,2940,23.4,2940,24.3,,Sarah,3
+3,2790,23.4,2790,26.3,,Nahor,3
+4,2640,23.4,2640,24.3,,Haran,3
+5,2865,22.5,2865,23.4,,Terah,3
+6,2940,24.3,2940,31.7,,Isaac,3
+7,3327,24.3,3327,32.6,,Ishmael,3
+8,3190,24.3,3190,26.3,,Keturah,3
+b_Isaac,2940,32.6,2840,32.6,,Esau-Jacob,3
+9,2890,31.7,2890,32.5,,,3
+10,2940,32.6,2940,33.5,,Esau,3
+11,2840,32.6,2840,33.5,,Jacob,3
+c_Laban,2740,32.6,2640,32.6,,Leah-Rachel,3
+12,2690,31.7,2690,32.5,,,3
+13,2740,32.6,2740,42.5,,Leah,3
+14,2640,32.6,2640,38.5,,Rachel,3
+15,2540,33.5,2540,36.5,,Bilhah,3
+16,2440,33.5,2440,36.5,,Zilpah,3
+d_Haran,2690,25.2,2590,25.2,,Milcah - Lot,3
+17,2640,24.3,2640,25.2,,Haran,3
+18,2690,25.2,2690,26.1,,Milcah,3
+19,2590,25.2,2590,26.1,,Lot,3
+e_Nahor,2790,27,2665,27,,Bethuel - 7 other sons,3
+20,2740,26.1,2740,27,,Nahor+Milcah to children,3
+21,2790,27,2790,27.8,,Bethuel,3
+22,2665,27,2665,27.9,,7 other sons,3
+f_Bethuel,2840,30.8,2690,30.8,,Rebekah - Laban,3
+23,2790,27.9,2790,30.8,,Bethuel,3
+24,2840,30.8,2840,31.7,,Rebekah,3
+25,2690,30.8,2690,31.7,,Laban,3
+g_Lot,2590,27.1,2525,27.1,,Lot_1,3
+26,2590,26.1,2590,27.1,,Lot_2,3
+27,2525,27.1,2525,28.1,,Lot_3,3
+28,2505,26.1,2505,28.1,,from Lot’s wife,3
+29,2515,28.1,2515,31.1,,to Moab and Ammon,3
+30,2890,26.1,2890,28.1,,"Tebach, Gaham, Tahasch, Maacha",3
+h_Ishmael,3390,32.6,3265,32.6,,Nebajoth - Mahalath,3
+31,3390,32.6,3390,34.5,,Nebajoth and 11 more,3
+32,3265,32.6,3265,39.5,,Basemath,3
+33,3040,33.5,3040,38.5,,Adah,3
+34,3140,33.5,3140,37.5,,Oholiabamah,3
+35,2940,36.5,2940,38.5,,Timna,3
+i_Noah,3620,13.6,3440,13.6,,horizontal: Ham – Shem,4
+36,3500,12.7,3500,13.6,,Noah,4
+37,3620,13.6,3620,14.5,,Ham,4
+38,3530,13.6,3530,14.5,,Japhet,4
+39,3440,13.6,3440,16.5,,Shem,4
+j_Ham,3640,15.5,3540,15.5,,horizontal: Canaan – Cush,4
+40,3620,14.5,3620,15.5,,Ham,4
+41,3640,15.5,3640,18.5,,Canaan,4
+42,3540,15.5,3540,17.9,,Cush,4
+43,3590,15.5,3590,18.6,,Mizraim_1,4
+44,3590,18.6,3530,18.6,,Mizraim_2,4
+45,3530,18.6,3530,20.8,,Mizraim_3,4
+k_Arpachshad,3440,16.5,3340,16.5,,Arpachshad,4
+46,3340,16.5,3340,17.5,,Shelah,4
+l_Shelah,3340,17.5,3290,17.5,,Shelah - horizontal,4
+47,3290,17.5,3290,18.5,,Eber,4
+m_Eber,3340,18.5,3240,18.5,,Eber – horizontal,4
+48,3240,18.5,3240,19.5,,Peleg,4
+49,3340,18.5,3340,21.5,,vertical1,4
+50,3340,21.5,3490,21.5,,horizontal1,4
+51,3490,21.5,3490,24.5,,Joktan,4
+n_Peleg,3240,19.5,3190,19.5,,Peleg – horizontal,4
+52,3190,19.5,3190,20.5,,Reu,4
+o_Reu,3190,20.5,3140,20.5,,Reu – horizontal,4
+53,3140,20.5,3140,21.5,,Serug,4
+p_Serug,3140,21.3,3002,21.3,,Serug – horizontal,4
+54,3002,21.3,3002,21.8,,Nahor,4
+q_Nahor,3002,21.8,2865,21.8,,Nahor,4
+55,2865,21.8,2865,22.5,,Terah,4
+r_Cain,3950,5,3890,5,,Cain – horizontal,5
+56,3890,5,3890,6.1,,Cain,5
+s_Enoch,3890,6.1,3830,6.1,,Enoch,5
+57,3830,6.1,3830,7.2,,,5
+t_Irad,3830,7.2,3770,7.2,,Irad,5
+58,3770,7.2,3770,8.3,,,5
+u_Mehujael,3770,8.3,3710,8.3,,Mehujael,5
+59,3710,8.3,3710,9.4,,,5
+v_Methushael,3710,9.4,3770,9.4,,Methushael,5
+60,3770,9.4,3770,10.5,,,5
+Zillah,3690,10.5,3690,12.8,,Zillah’s children,5
+Adah,3610,10.5,3610,12.8,,Adah’s children,5
+Abraham,3327,24.3,2940,24.3,married,"Sarah, Hagar and Keturah",3
+Nahor,2890,26.1,2690,26.1,married,Reuma and Milka,3
+Lot,2590,26.1,2440,26.1,married,Lot’s wife (name unknown),3
+Isaac,2940,31.7,2840,31.7,married,Rebecca,3
+Jacob_Israel,2840,33.5,2440,33.5,married,"Leah, Rachel, Bilhah, Zilpah",3
+Esau,2940,33.5,3240,33.5,married,"Basemath, Adah, Oholibamah",4
+Eliphaz,2940,36.5,3040,36.5,married,Timna,4
+Lamech,3770,10.5,3610,10.5,married,Lamech – Zillah – Adah,5
