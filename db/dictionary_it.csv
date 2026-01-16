@@ -168,14 +168,14 @@ nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,True
 edo_c,Periodo Edo in Giappone,Edo period in Japan, ,text,False
 meiji_c,Meiji,Meiji,2025-09-20,text,False
 american_civil_war,Guerra civile americana 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,True
-aleppo_codex, ,Aleppo Codex c. 920,2025-10-03,text,False
-vandals, ,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
-francia, ,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
-francia_c, ,Kingdom of the Franks, ,text,False
-100_years_war, ,Hundred Years’ War 1337 – 1453,1337–1453,text,False
-black_death, ,Black death 1346-1353,1346-1353,text,False
-sui_dynasty, ,581-618 Sui dynasty,2025-11-09,text,False
-sui_dynasty_c, ,Sui,2025-11-09,text,False
+aleppo_codex,Codice di Aleppo c. 920,Aleppo Codex c. 920,2025-10-03,text,False
+vandals,Regno dei Vandali e degli Alani 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia,"C. 481/509 – 843, merovingio fino al 751, poi carolingio","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+francia_c,Regno dei Franchi,Kingdom of the Franks, ,text,False
+100_years_war,Guerra dei Cent’anni 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False
+black_death,Morte nera 1346-1353,Black death 1346-1353,1346-1353,text,False
+sui_dynasty,581-618 Dinastia Sui,581-618 Sui dynasty,2025-11-09,text,False
+sui_dynasty_c,Sui,Sui,2025-11-09,text,False
 tribulation,"The Great Tribolation (Marco 13:19; Daniele 12: 1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
 Adam,Adamo,Adam,Luke 3:38,bible,True
 Seth,Set,Seth, ,bible,True
@@ -525,9 +525,9 @@ wulfila,Wulfila Bible,Wulfila Bible,2025-09-20,wiki,False
 tran_dynasty_c,Dinastia Trần,Trần dynasty, ,wiki,True
 le_dynasty_c,Dinastia Lê,Lê dynasty, ,wiki,True
 revival_le_dynasty_c,"Sovrani Trịnh, Sovrani Nguyễn",Trịnh lords and Nguyễn lords,Nhà Lê trung hưng,wiki,False
-seljuk_empire_c, ,Seljuk empire, ,wiki,False
-vandals_c, ,Vandals, ,wiki,False
-lombard_c, ,Lombard Kingdom,2025-10-13,wiki,False
+seljuk_empire_c,Impero selgiuchide,Seljuk empire, ,wiki,False
+vandals_c,Vandali,Vandals, ,wiki,False
+lombard_c,Regno Longobardo,Lombard Kingdom,2025-10-13,wiki,False
 people,persone,people, ,deprecated,False
 judges,Giudici,judges, ,deprecated,False
 prophets,profeti,prophets, ,deprecated,False

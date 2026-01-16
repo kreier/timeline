@@ -163,19 +163,19 @@ joseph_jacob_reunited,Ο Ιωσήφ και ο Ιακώβ επανενώθηκα�
 king_south_light_c,Βασιλιάς του Νότου από τον Δανιήλ 11,King of the South from Daniel 11,2025-02-05,text,False
 king_north_light_c,Βασιλιάς του Βορρά από τον Δανιήλ 11,King of the North from Daniel 11,2025-02-05,text,False
 daniel2_iron_c,Σίδερο από το Δανιήλ 2,Iron legs from Daniel 2,2025-02-05,text,False
-argenteus, ,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False
-nguyen_dynasty_c, ,Nguyễn,2025-09-20,text,False
-edo_c, ,Edo period in Japan,Edo period (Tokugawa shogunate),text,False
-meiji_c, ,Meiji,2025-09-20,text,False
-american_civil_war, ,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
-aleppo_codex, ,Aleppo Codex c. 920,2025-10-03,text,False
-vandals, ,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
-francia, ,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
-francia_c, ,Kingdom of the Franks, ,text,False
-100_years_war, ,Hundred Years’ War 1337 – 1453,1337–1453,text,False
-black_death, ,Black death 1346-1353,1346-1353,text,False
-sui_dynasty, ,581-618 Sui dynasty,2025-11-09,text,False
-sui_dynasty_c, ,Sui,2025-11-09,text,False
+argenteus,Codex Argenteus γ. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False
+edo_c,Περίοδος Έντο στην Ιαπωνία,Edo period in Japan,Edo period (Tokugawa shogunate),text,False
+meiji_c,Meiji,Meiji,2025-09-20,text,False
+american_civil_war,Αμερικανικός Εμφύλιος Πόλεμος 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
+aleppo_codex,Κώδικας Χαλεπίου γ. 920,Aleppo Codex c. 920,2025-10-03,text,False
+vandals,Βασίλειο των Βανδάλων και των Αλανών 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia,"ντο. 481/509 – 843, Μεροβίγγεια μέχρι το 751, στη συνέχεια Καρολίγγεια","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+francia_c,Βασίλειο των Φράγκων,Kingdom of the Franks, ,text,False
+100_years_war,Εκατονταετής Πόλεμος 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False
+black_death,Μαύρος θάνατος 1346-1353,Black death 1346-1353,1346-1353,text,False
+sui_dynasty,581-618 Δυναστεία Σούι,581-618 Sui dynasty,2025-11-09,text,False
+sui_dynasty_c,Σούι,Sui,2025-11-09,text,False
 tribulation,"Η Μεγάλη Θλίψη (Μάρκος 13:19 · Δανιήλ 12: 1, Ματ 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
 Adam,Αδάμ,Adam,Luke 3:38,bible,True
 Seth,Σηθ,Seth, ,bible,True
@@ -287,7 +287,7 @@ Omar,Ομοφυλόφιλος,Omar, ,bible,False
 Zepho,Zepho,Zepho, ,bible,False
 Kenaz,Καζέζ,Kenaz, ,bible,False
 Korah,Κοράνα,Korah, ,bible,False
-Korah_Gatam, ,"Korah, Gatam","Genesis 36:11, 16",bible,False
+Korah_Gatam,"Korah, Gatam","Korah, Gatam","Genesis 36:11, 16",bible,False
 Amalek,Αμάλεκ,Amalek, ,bible,False
 Oholibamah,Ωολιμάμα,Oholibamah,"36:14, 18",bible,False
 Jeush,Τζέουζ,Jeush, ,bible,False
@@ -295,8 +295,8 @@ Jalam,Ζαλάμ,Jalam, ,bible,False
 Nebaioth,Νεμπάιθο,Nebaioth,Genesis 25:13,bible,False
 Kedar,Κέδρας,Kedar, ,bible,False
 Mishma,Βομβαρδισμός,Mishma, ,bible,False
-Adbeel_Mibsam, ,"Adbeel, Mibsam",Genesis 25:13,bible,False
-Dumah_Massa, ,"Dumah, Massa",Genesis 25:14,bible,False
+Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",Genesis 25:13,bible,False
+Dumah_Massa,"Dumah, Massa","Dumah, Massa",Genesis 25:14,bible,False
 Hadad,Hadad,Hadad, ,bible,False
 Tema,Θόρυβος,Tema, ,bible,False
 Jetur,Αεριωθούμενος,Jetur, ,bible,False
@@ -311,61 +311,61 @@ Ishbak,Ishbak,Ishbak, ,bible,False
 Shuah,Σούχα,Shuah, ,bible,False
 Timna,Κωνοφόρια,Timna,"1 Chr 1:36, Ge 36:10-12",bible,False
 life-expectancy2,(Ψαλμός 90:10),(Psalm 90:10),2024-11-29,bible,False
-Ham, ,Ham,Gen 10:1,bible,False
-Canaan, ,Canaan,Gen 10:6,bible,False
-Sidon, ,Sidon,Gen 10:15,bible,False
-Heth, ,Heth,Gen 10:15,bible,False
-Jebusite, ,Jebusite,Gen 10:16,bible,False
-Amorite, ,Amorite,Gen 10:16,bible,False
-Girgashite, ,Girgashite,Gen 10:16,bible,False
-Hivite, ,Hivite,Gen 10:17,bible,False
-Arkite, ,Arkite,Gen 10:17,bible,False
-Sinite, ,Sinite,Gen 10:17,bible,False
-Arvadite, ,Arvadite,Gen 10:18,bible,False
-Zemarite, ,Zemarite,Gen 10:18,bible,False
-Hamathite, ,Hamathite,Gen 10:18,bible,False
-Cush, ,Cush,Gen 10:6,bible,False
-Nimrod, ,Nimrod,Gen 10:8,bible,False
-Mizraim, ,Mizraim,Gen 10:14,bible,False
-Casluh, ,Casluh,1 Chronicles 1:12 (Philistines),bible,False
-Japheth, ,Japheth,Gen 10:1,bible,False
-Asshur, ,Asshur,Gen 10:22,bible,False
-Lud, ,Lud,Gen 10:22,bible,False
-Aram, ,Aram,Gen 10:22,bible,False
-Elam, ,Elam,Gen 10:22,bible,False
-Joktan, ,Joktan,Gen 10:26,bible,False
-Almodad, ,Almodad,Gen 10:26,bible,False
-Sheleph, ,Sheleph,Gen 10:26,bible,False
-Hazarmareth, ,Hazarmareth,Gen 10:26,bible,False
-Jerah, ,Jerah,Gen 10:26,bible,False
-Hadoram, ,Hadoram,Gen 10:27,bible,False
-Uzal, ,Uzal,Gen 10:27,bible,False
-Diklah_Obal, ,"Diklah, Obal",Gen 10:27,bible,False
-Abimael, ,Abimael,Gen 10:28,bible,False
-Sheba_Ophir, ,"Sheba, Ophir","Gen 10:28, 29",bible,False
-Havilah, ,Havilah,Gen 10:29,bible,False
-Jobab, ,Jobab,Gen 10:29,bible,False
-Ham_fn, ,1) Egyptians: Psalms 105:23,2025-09-22,bible,False
-Canaan_fn, ,2) Canaanites: Joshua 13:3,2025-09-22,bible,False
-Aram_fn, ,3) Arameans: Hosea 12:12,2025-09-22,bible,False
-Elam_fn, ,4) Elamites: Ezra 4:9,2025-09-22,bible,False
-Asshur_fn, ,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False
-Casluh_fn, ,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False
-Cush_fn, ,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False
-Edom_fn, ,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False
-Moab_fn, ,"9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False
-Ammon_fn, ,10) Ammonites: Joshua 12:2,2025-09-22,bible,False
-Midian_fn, ,"11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False
-Amalek_fn, ,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False
-Teman_fn, ,13) Temanites: Job 42:7,2025-09-22,bible,False
-Sidon_fn, ,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False
-Heth_fn, ,15) Hittites: Genesis 15:20,2025-09-22,bible,False
-Jebusite_fn, ,16) Jebusites: Joshua 15:63,2025-09-22,bible,False
-Judith, ,Judith?,"Genesis 26:34, 35",bible,False
-Lud_fn, ,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False
-Ishmael_fn, ,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
-Amorite_fn, ,19) Amorites: Judges 6:10,2025-09-22,bible,False
-Hivite_fn, ,"20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Ham,Ζαμπόν,Ham,Gen 10:1,bible,False
+Canaan,Χαναάν,Canaan,Gen 10:6,bible,False
+Sidon,Σιδώνας,Sidon,Gen 10:15,bible,False
+Heth,Heth,Heth,Gen 10:15,bible,False
+Jebusite,Ιεβουσίτης,Jebusite,Gen 10:16,bible,False
+Amorite,Αμορίτης,Amorite,Gen 10:16,bible,False
+Girgashite,Γκιργασίτης,Girgashite,Gen 10:16,bible,False
+Hivite,Hivite,Hivite,Gen 10:17,bible,False
+Arkite,Arkite,Arkite,Gen 10:17,bible,False
+Sinite,Sinite,Sinite,Gen 10:17,bible,False
+Arvadite,Αρβαδίτης,Arvadite,Gen 10:18,bible,False
+Zemarite,Ζεμαρίτης,Zemarite,Gen 10:18,bible,False
+Hamathite,Χαμαθίτης,Hamathite,Gen 10:18,bible,False
+Cush,Cush,Cush,Gen 10:6,bible,False
+Nimrod,Nimrod,Nimrod,Gen 10:8,bible,False
+Mizraim,Μιζραΐμ,Mizraim,Gen 10:14,bible,False
+Casluh,Casluh,Casluh,1 Chronicles 1:12 (Philistines),bible,False
+Japheth,Ιάφεθ,Japheth,Gen 10:1,bible,False
+Asshur,Ασσούρ,Asshur,Gen 10:22,bible,False
+Lud,Lud,Lud,Gen 10:22,bible,False
+Aram,Αραμ,Aram,Gen 10:22,bible,False
+Elam,Ελάμ,Elam,Gen 10:22,bible,False
+Joktan,Joktan,Joktan,Gen 10:26,bible,False
+Almodad,Almodad,Almodad,Gen 10:26,bible,False
+Sheleph,Sheleph,Sheleph,Gen 10:26,bible,False
+Hazarmareth,Χαζαρμάρεθ,Hazarmareth,Gen 10:26,bible,False
+Jerah,Jerah,Jerah,Gen 10:26,bible,False
+Hadoram,Hadoram,Hadoram,Gen 10:27,bible,False
+Uzal,Ουζάλ,Uzal,Gen 10:27,bible,False
+Diklah_Obal,"Diklah, Obal","Diklah, Obal",Gen 10:27,bible,False
+Abimael,Ο Αμπιμαήλ,Abimael,Gen 10:28,bible,False
+Sheba_Ophir,"Sheba, Ophir","Sheba, Ophir","Gen 10:28, 29",bible,False
+Havilah,Χαβιλά,Havilah,Gen 10:29,bible,False
+Jobab,Jobab,Jobab,Gen 10:29,bible,False
+Ham_fn,1) Αιγύπτιοι: Ψαλμοί 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False
+Canaan_fn,2) Χαναναίοι: Ιησούς του Ναυή 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False
+Aram_fn,3) Αραμαίοι: Ωσηέ 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False
+Elam_fn,4) Ελαμίτες: Έσδρας 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False
+Asshur_fn,5) Ασσύριοι: Ιεζεκιήλ 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False
+Casluh_fn,6) Φιλισταίοι: 1 Χρονικών 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False
+Cush_fn,7) Αιθιοπικός [Κουσίτης]: 2 Βασιλέων 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False
+Edom_fn,8) Εδωμίτες: Αριθμοί 20:14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False
+Moab_fn,"9) Μωαβίτες: Δευτερονόμιο 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False
+Ammon_fn,10) Αμμωνίτες: Ιησούς του Ναυή 12:2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False
+Midian_fn,"11) Μαδιανίτες: Αριθμοί 31:2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False
+Amalek_fn,12) Αμαληκίτες: 1 Σαμουήλ 15:2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False
+Teman_fn,13) Τεμανίτες: Ιώβ 42:7,13) Temanites: Job 42:7,2025-09-22,bible,False
+Sidon_fn,14) Σιδώνιοι: Ζαχαρίας 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False
+Heth_fn,15) Χετταίοι: Γένεση 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False
+Jebusite_fn,16) Ιεβουσαίτες: Ιησούς του Ναυή 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False
+Judith,Ιουδίθ;,Judith?,"Genesis 26:34, 35",bible,False
+Lud_fn,17) Λυδοί: 1 Χρονικών 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False
+Ishmael_fn,18) Ισμαηλίτες: Γένεση 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
+Amorite_fn,19) Αμορραίοι: Κριτές 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
+Hivite_fn,"20) Χεβαίοι [Γαβαών]: Ιησούς του Ναυή 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
 Rehoboam,Επαναπροσδιορισμός,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,Asa,Asa,A6-A,A6-A,False
@@ -521,13 +521,13 @@ Teotihuacan_c,Τζοτιχουένος,Teotihuacan, ,wiki,False
 Abbasid_c,Χαλιφάτο Abbasid,Abbasid Caliphate, ,wiki,False
 Mamluk_c,Σουλτανάτο Mamluk,Mamluk Sultanate, ,wiki,False
 Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False
-wulfila, ,Wulfila Bible,2025-09-20,wiki,False
-tran_dynasty_c, ,Trần dynasty, ,wiki,False
-le_dynasty_c, ,Lê dynasty, ,wiki,False
-revival_le_dynasty_c, ,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False
-seljuk_empire_c, ,Seljuk empire, ,wiki,False
-vandals_c, ,Vandals, ,wiki,False
-lombard_c, ,Lombard Kingdom,2025-10-13,wiki,False
+wulfila,Βίβλος Wulfila,Wulfila Bible,2025-09-20,wiki,False
+tran_dynasty_c,Δυναστεία των Trần,Trần dynasty, ,wiki,False
+le_dynasty_c,Lê δυναστεία,Lê dynasty, ,wiki,False
+revival_le_dynasty_c,Άρχοντες Trịnh και άρχοντες Nguyễn,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False
+seljuk_empire_c,αυτοκρατορία των Σελτζούκων,Seljuk empire, ,wiki,False
+vandals_c,Βάνδαλοι,Vandals, ,wiki,False
+lombard_c,Λομβαρδικό Βασίλειο,Lombard Kingdom,2025-10-13,wiki,False
 people,άνθρωποι,people, ,deprecated,False
 judges,δικαστές,judges, ,deprecated,False
 prophets,προφήτες,prophets, ,deprecated,False

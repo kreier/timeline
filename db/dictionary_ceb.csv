@@ -167,15 +167,15 @@ argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila 
 nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False
 edo_c,EDO PERO SA JAPAN,Edo period in Japan,Edo period (Tokugawa shogunate),text,False
 meiji_c,Meiji,Meiji,2025-09-20,text,False
-american_civil_war,,American Civil War 1861-1865, ,text,False
-aleppo_codex,,Aleppo Codex c. 920, ,text,False
-vandals,,Kingdom of the Vandals and Alans 435 – 534, ,text,False
-francia,,"c. 481/509 – 843, Merovingian till 751, then Carolingian", ,text,False
-francia_c,,Kingdom of the Franks, ,text,False
-100_years_war,,Hundred Years’ War 1337 – 1453, ,text,False
-black_death,,Black death 1346-1353, ,text,False
-sui_dynasty,,581-618 Sui dynasty, ,text,False
-sui_dynasty_c,,Sui, ,text,False
+american_civil_war,Gubat Sibil sa Amerika 1861-1865,American Civil War 1861-1865, ,text,False
+aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920, ,text,False
+vandals,Gingharian sa mga Vandal ug Alans 435 - 534,Kingdom of the Vandals and Alans 435 – 534, ,text,False
+francia,"c. 481/509 – 843, Merovingian hangtod 751, dayon Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian", ,text,False
+francia_c,Gingharian sa mga Frank,Kingdom of the Franks, ,text,False
+100_years_war,Usa ka Gatos ka Tuig nga Gubat 1337 - 1453,Hundred Years’ War 1337 – 1453, ,text,False
+black_death,Itom nga kamatayon 1346-1353,Black death 1346-1353, ,text,False
+sui_dynasty,581-618 Sui dinastiya,581-618 Sui dynasty, ,text,False
+sui_dynasty_c,Sui,Sui, ,text,False
 tribulation,"Ang Dakong Kasakitan (Marcos 13:19; Daniel 12: 1; Mat 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
 Adam,Adan,Adam,Luke 3:38,bible,False
 Seth,Set,Seth, ,bible,False
@@ -525,9 +525,9 @@ wulfila,Wulfila nga Bibliya,Wulfila Bible,2025-09-20,wiki,False
 tran_dynasty_c,Dinastiya sa Trần,Trần dynasty, ,wiki,False
 le_dynasty_c,Dê Dinastiya,Lê dynasty, ,wiki,False
 revival_le_dynasty_c,Revival Lê Dinastiya,Trịnh lords and Nguyễn lords,Nhà Lê trung hưng,wiki,False
-seljuk_empire_c,,Seljuk empire, ,wiki,False
-vandals_c,,Vandals, ,wiki,False
-lombard_c,,Lombard Kingdom, ,wiki,False
+seljuk_empire_c,Imperyo sa Seljuk,Seljuk empire, ,wiki,False
+vandals_c,Mga Vandal,Vandals, ,wiki,False
+lombard_c,Gingharian sa Lombard,Lombard Kingdom, ,wiki,False
 people,katawhan,people, ,deprecated,False
 judges,Mga Maghuhukom,judges, ,deprecated,False
 prophets,Mga Manalagna,prophets, ,deprecated,False

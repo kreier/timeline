@@ -168,14 +168,14 @@ nguyen_dynasty_c,Нгуєн,Nguyễn,2025-09-20,text,False
 edo_c,Період Едо (сьоґунату Токуґава),Edo period in Japan, ,text,False
 meiji_c,Мейдзі,Meiji,2025-09-20,text,False
 american_civil_war,Громадянська війна США 1861-65,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
-aleppo_codex, ,Aleppo Codex c. 920,2025-10-03,text,False
-vandals, ,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
-francia, ,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
-francia_c, ,Kingdom of the Franks, ,text,False
-100_years_war, ,Hundred Years’ War 1337 – 1453,1337–1453,text,False
-black_death, ,Black death 1346-1353,1346-1353,text,False
-sui_dynasty, ,581-618 Sui dynasty,2025-11-09,text,False
-sui_dynasty_c, ,Sui,2025-11-09,text,False
+aleppo_codex,Кодекс Алеппо c. 920,Aleppo Codex c. 920,2025-10-03,text,False
+vandals,Королівство вандалів і аланів 435 – 534 рр,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia,"в. 481/509 – 843, Меровінги до 751, потім Каролінги","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+francia_c,Королівство франків,Kingdom of the Franks, ,text,False
+100_years_war,Столітня війна 1337-1453 рр,Hundred Years’ War 1337 – 1453,1337–1453,text,False
+black_death,Чорна смерть 1346-1353,Black death 1346-1353,1346-1353,text,False
+sui_dynasty,581-618 Династія Суй,581-618 Sui dynasty,2025-11-09,text,False
+sui_dynasty_c,Sui,Sui,2025-11-09,text,False
 tribulation,"Велика скорбота (Марк 13:19; Даниїл 12: 1; Мт 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
 Adam,Адам,Adam,Luke 3:38,bible,False
 Seth,Си́ф,Seth, ,bible,False
@@ -525,9 +525,9 @@ wulfila,Вульфіла Біблія,Wulfila Bible,2025-09-20,wiki,False
 tran_dynasty_c,Династія Трầн,Trần dynasty, ,wiki,False
 le_dynasty_c,Династія Lê,Lê dynasty, ,wiki,False
 revival_le_dynasty_c,Відродження династії Lê,Trịnh lords and Nguyễn lords,Nhà Lê trung hưng,wiki,False
-seljuk_empire_c, ,Seljuk empire, ,wiki,False
-vandals_c, ,Vandals, ,wiki,False
-lombard_c, ,Lombard Kingdom,2025-10-13,wiki,False
+seljuk_empire_c,імперія сельджуків,Seljuk empire, ,wiki,False
+vandals_c,Вандали,Vandals, ,wiki,False
+lombard_c,Ломбардське королівство,Lombard Kingdom,2025-10-13,wiki,False
 people,люди,people, ,deprecated,True
 judges,судді,judges, ,deprecated,True
 prophets,пророки,prophets, ,deprecated,False

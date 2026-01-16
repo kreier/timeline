@@ -373,5 +373,5 @@ if __name__ == "__main__":
     else:
         print(dict_translated)
         print(f"You translated {number_characters} characters.")
-    print("Exporting ...")
-    dict_translated.to_csv(filename, index=False)
+        print("Exporting ...")
+        dict_translated.to_csv(filename, index=False)
