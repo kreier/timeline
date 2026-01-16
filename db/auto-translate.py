@@ -153,7 +153,7 @@ def check_existing(language, filename):
             # Update tags
             dict_translated["tag"] = merged["tag_dict"].fillna(dict_translated["tag"])
             # Reset 'checked' to False where tag was changed
-            dict_translated.loc[tag_changed, "checked"] = False
+            # dict_translated.loc[tag_changed, "checked"] = False
             # Show only the rows that changed
             changed_rows = dict_translated.loc[tag_changed]
             print("Rows that were updated:")
@@ -215,7 +215,26 @@ def check_existing(language, filename):
     dict_translated.loc[dict_translated['key'] == 'pdf_title', 'notes'] = \
         dict.loc[dict['key'] == 'pdf_title', 'notes'].values
 
-    # Step 8.3: Check the entracne in "english" between dict and dict_translated
+    # Step 8.3: Compare the values in "english" between dict and dict_translated
+    # Index both by 'key'
+    dict_indexed = dict.set_index("key")
+    trans_indexed = dict_translated.set_index("key")
+    # Restrict to common keys
+    common_keys = dict_indexed.index.intersection(trans_indexed.index)
+    # Align both DataFrames to common keys
+    dict_common = dict_indexed.loc[common_keys]
+    trans_common = trans_indexed.loc[common_keys]
+    # Build mismatch mask (skip daniel2_shift)
+    mask = (dict_common["english"] != trans_common["english"]) & (common_keys != "daniel2_shift")
+    # Keys to update
+    keys_to_update = common_keys[mask]
+    # Update english values in dict_translated
+    dict_translated.loc[dict_translated["key"].isin(keys_to_update), "english"] = dict_common.loc[keys_to_update, "english"].values
+    # Set checked = False for mismatches
+    dict_translated.loc[dict_translated["key"].isin(keys_to_update), "checked"] = False
+    # Print changed rows
+    print(f"Updated {len(keys_to_update)} rows in dict_translated:")
+    print(dict_translated[dict_translated["key"].isin(keys_to_update)])
 
     dict_translated.to_csv(filename, index=False)
 

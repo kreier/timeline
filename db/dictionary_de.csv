@@ -27,8 +27,8 @@ jesus_life,Jesus im Jahr 2 v.u.Z. geboren,Jesus born 2 B.C.E., ,text,True
 exile,607 bis 537 v.u.Z. – 70 Jahre (Jeremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,True
 exile2,Exil,Exile, ,text,True
 7times2,7 Zeiten – 2520 Jahre bis zum Messianischen Königreich 1914 u.Z. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,True
-ww1,1. Weltkrieg – 1914–1918 u.Z.,World War I – 1914–1918 C.E., ,text,True
-ww2,2. Weltkrieg – 1939–1945 u.Z.,World War II – 1939–1945 C.E., ,text,True
+ww1,1. Weltkrieg – 1914–1918 u.Z.,World War I – 1914–1918, ,text,False
+ww2,2. Weltkrieg – 1939–1945 u.Z.,World War II – 1939–1945, ,text,False
 30_year_war,Dreißigjähriger Krieg in Europa 1618-1648 u.Z.,Thirty Years' War in Europe 1618-1648, ,text,True
 joshua,110 Jahre,110 years, ,text,True
 caleb,mehr als 85 Jahre,more than 85 years, ,text,True
@@ -75,7 +75,7 @@ leningrad_codex,Leningrad Codex geschrieben in Kairo AD 1008,Leningrad Codex wri
 john,Johannes schreibt die Offenbarung im Exil auf Patmos 96-98 u.Z.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,True
 buddha,Siddhartha Gautama – Buddha ca.563-ca.483 v.u.Z.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,True
 buddha2,Buddha alternativ ca. 480-400 v.u.Z.,Buddha alternatively c. 480-400 B.C.E., ,text,True
-mohammed,Mohammed ca. 570-632 u.Z.,Mohammed c. 570-632 C.E., ,text,True
+mohammed,Mohammed ca. 570-632 u.Z.,Mohammed c. 570-632, ,text,False
 confucius,Konfuzius ca.551-ca.479 v.u.Z.,Confucius c.551-c.479 B.C.E., ,text,True
 hijrah,Hidschra – Mecca nach Medina 16 Juli 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,True
 moses_escape,"1553 v.u.Z. Moses muss aus Ägypten fliehen – 2. Mose 2:15, Apg 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,True
@@ -142,7 +142,7 @@ great_crowd,"Eine „große Volksmenge“ überlebt Harmagedon (Offenbarung 7:9,
 world_population,Weltbevölkerung in Milliarden in den letzten 2000 Jahren,World population in billions in the last 2000 years, ,text,True
 khmer_empire_c,Khmer-Reich - Angkor-Zeit,Khmer Empire - Angkor period, ,text,True
 holy_roman_empire_c,Heiliges Römisches Reich – nach 1512 Heiliges Römisches Reich Deutscher Nation,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,True
-mongol_empire,Mongolisches Reich 1206 – 1294 n. Chr.,Mongol Empire 1206 – 1294 C.E., ,text,True
+mongol_empire,Mongolisches Reich 1206 – 1294 n. Chr.,Mongol Empire 1206 – 1294, ,text,False
 maya_classic_c,Maya-Zivilisation – klassische Periode,Maya civilization – Classic period, ,text,True
 maya_postclassic_c,Maya-Zivilisation – postklassische Periode,Maya civilization – Postclassic period, ,text,True
 Teotihuacan,"größte Stadt Amerikas, Pyramiden erbaut ca. 200 u.Z.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,True
@@ -169,8 +169,8 @@ edo_c,Edo-Zeit (Tokugawa-Shōgunat),Edo period in Japan,Edo period (Tokugawa sho
 meiji_c,Meiji,Meiji,2025-09-20,text,True
 american_civil_war,Sezessionskrieg 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
 aleppo_codex,Codex von Aleppo ca. 920,Aleppo Codex c. 920,2025-10-03,text,True
-vandals,Königreich der Vandalen und Alanen 435 – 534 u.Z.,Kingdom of the Vandals and Alans 435 – 534 C.E.,Vandals 435-534 C.E.,text,True
-francia,"c. 481/509 – 843 u.Z., Merowinger bis 751, dann Karolinger","c. 481/509 – 843 C.E., Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,True
+vandals,Königreich der Vandalen und Alanen 435 – 534 u.Z.,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia,"c. 481/509 – 843 u.Z., Merowinger bis 751, dann Karolinger","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
 francia_c,Fränkisches Reich,Kingdom of the Franks, ,text,True
 100_years_war,Hundertjähriger Krieg 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,True
 black_death,Schwarzer Tod 1346-1353,Black death 1346-1353,1346-1353,text,True
@@ -458,28 +458,28 @@ eastern-zhou,770-256 v.u.Z.,770-256 BC, ,span_bc,True
 eastern-han,25-220 u.Z.,25-220 CE, ,span_ce,True
 northern-dynasties,368-581 u.Z.,368-581 CE, ,span_ce,True
 southern-dynasties,420-589 u.Z.,420-589 CE, ,span_ce,True
-khmer_empire,804 – 1431,804 – 1431 C.E., ,timespan,True
-byzantine_empire,330 –1453,330-1453 C.E., ,timespan,True
-ottoman_empire,1299 – 1922,1299 – 1922 C.E., ,timespan,True
-holy_roman_empire,800 – 924,800 – 924 C.E., ,timespan,True
-holy_roman_empire2,962 – 1806,962 – 1806 C.E.,fixed 2024-12-31,timespan,True
-inca_empire,1438 – 1533,1438 – 1533 C.E., ,timespan,True
-gupta_empire,319 – 550,319 – 550 C.E., ,timespan,True
-Umayyad,661 – 750,661 – 750 C.E., ,timespan,True
-Abbasid,750 – 1258,750 – 1258 C.E., ,timespan,True
-Mamluk,1250 – 1517,1250 – 1517 C.E., ,timespan,True
-seljuk_empire,1037 – 1194,1037 – 1194 C.E.,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
-lombard,568 – 774,568 – 774 C.E.,Kingdom of the Lombards 568-774,timespan,True
+khmer_empire,804 – 1431,804 – 1431, ,timespan,True
+byzantine_empire,330 – 1453,330 – 1453, ,timespan,False
+ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
+holy_roman_empire,800 – 924,800 – 924, ,timespan,True
+holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True
+inca_empire,1438 – 1533,1438 – 1533, ,timespan,True
+gupta_empire,319 – 550,319 – 550, ,timespan,True
+Umayyad,661 – 750,661 – 750, ,timespan,True
+Abbasid,750 – 1258,750 – 1258, ,timespan,True
+Mamluk,1250 – 1517,1250 – 1517, ,timespan,True
+seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
+lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True
 qing-dynasty,1636-1912,1636-1912, ,timespan,True
 ming-dynasty,1368-1644,1368-1644, ,timespan,True
 yuan-dynasty,1271-1368,1271-1368, ,timespan,True
 southern-song,1127-1279,1127-1279, ,timespan,True
 northern-song,960-1127,960-1127, ,timespan,True
 western-xia,1038-1227,1038-1227, ,timespan,True
-maya_classic,250–950,250-950, ,timespan,True
+maya_classic,250–950,250–950, ,timespan,True
 maya_postclassic,950-1539,950-1539, ,timespan,True
-tran_dynasty,1225–1400,1225 – 1400, ,timespan,True
-le_dynasty,1428–1527,1428 – 1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
+tran_dynasty,1225–1400,1225–1400, ,timespan,True
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
 revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
 edo,1603 – 1868,1603 – 1868, ,timespan,True
