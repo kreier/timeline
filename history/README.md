@@ -163,10 +163,14 @@ The time period of 430 years was included as a graph. And some exaples from the 
 
 With Noah and his 3 sons in the picture I can relate 20 nations to this family tree instead of just 6 nations. I also add 4 Vietnamese Dynasties, Edo and Meiji period in Japan, Wulfila bible (first designed alphabet with a known creator), a fresh NIRCam image of Pismis 24 by NASA with Webb telescope from September 11th, 2025.
 
+![2025-09](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250925_5.9.png)
 
 ### v6.01 Updated numbering system, Kain's family
 
 In October 2025 I observed problems with the new v5.10 version number, since the float 5.10 < 5.4 in the version number. So features after 5.4 would not be applied for version v5.10 because the float value is smaller. From January 2026 on the version number is therefore no longer v6.1 but instead v6.01 to accomodate for these comparisons inside the 6000.py.
+
+![2026-01](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20260117_6.01.png)
+
 
 ## Evolving content
 

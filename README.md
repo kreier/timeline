@@ -207,3 +207,7 @@ A more detailled story is written in [history](history/).
 ![2025-02](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250221_5.2.png)
 ![2025-05](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250506_5.5.png)
 ![2025-09](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20250925_5.9.png)
+
+#### 2026
+
+![2026-01](https://raw.githubusercontent.com/kreier/timeline/refs/heads/main/docs/timeline20260117_6.01.png)
