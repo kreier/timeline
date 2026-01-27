@@ -10,8 +10,8 @@ day,día,day,,text,TRUE
 days,días,days,,text,TRUE
 to,a,to,,text,FALSE
 Deluge,Diluvio,Deluge,,text,FALSE
-moses2,1593 a 1473 a.E.C. – 120 años,1593 to 1473 B.C.E. – 120 years,,text,FALSE
-temple1,Nisán 1513 a.E.C. a Ziv 1034 a.E.C.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,text,FALSE
+moses2,1593 a 1473 a.e.c. – 120 años,1593 to 1473 B.C.E. – 120 years,,text,FALSE
+temple1,Nisán 1513 a.e.c. a Ziv 1034 a.e.c.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,text,FALSE
 69weeks,Jesús bautizó en el otoño de 29 E.C.,Jesus baptized autumn 29 C.E.,,text,FALSE
 year,año,year,"timespan, age (Adam was 130 years old when Shem was born)",text,TRUE
 years,años,years,,text,TRUE
@@ -78,7 +78,7 @@ buddha2,Buda alternativamente c. 480-400 a.e.c.,Buddha alternatively c. 480-400 
 mohammed,Mahoma c. 570-632,Mohammed c. 570-632,,text,FALSE
 confucius,Confucio c.551-c.479 a.e.c.,Confucius c.551-c.479 B.C.E.,,text,FALSE
 hijrah,Hégira - Viaje de La Meca a Medina 16 de julio de 622,Hijrah - Journey Mecca to Medina 16 July 622,,text,FALSE
-moses_escape,"1553 a.E.C. Moisés tiene que escapar de Egipto – Éxodo 2:15, Hechos 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",,text,FALSE
+moses_escape,"1553 a.e.c. Moisés tiene que escapar de Egipto – Éxodo 2:15, Hechos 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",,text,FALSE
 10plagues,1513 a.e.c. Egipto recibe 10 plagas.,1513 B.C.E Egypt receives 10 plagues,,text,FALSE
 joseph_sold,José vendido como esclavo a la edad de 17 años – Génesis 37:2,Joseph sold as slave at the age of 17 – Gen 37:2,,text,FALSE
 infliction,Inflicción de 400 años (Hechos 7:6) – Ismael 1913 a.e.c.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,,text,FALSE
@@ -112,9 +112,9 @@ Plato,Platón c. 427-c. 348 a.C.,Plato c. 427 – c. 348 BC,,text,FALSE
 Socrates,Sócrates c. 470-c. 399 a.C.,Socrates c. 470 – c. 399 BC,,text,FALSE
 Josephus,Josefo c. 37-c. 100 d.C.,Josephus c. 37 – c. 100 C.E.,,text,FALSE
 Cicero,Cicerón 106-43 a. C.,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,FALSE
-lachish_letters,Letras de Laquis c. 590 a.E.C.,Lachish letters c. 590 B.C.E.,,text,FALSE
-lachish_reliefs,Relieves de Laquis c. 681 a.E.C.,Lachish reliefs c. 681 B.C.E.,,text,FALSE
-mesha_stele,Estela de Mesha (piedra moabita) c. 840 a.E.C.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,FALSE
+lachish_letters,Letras de Laquis c. 590 a.e.c.,Lachish letters c. 590 B.C.E.,,text,FALSE
+lachish_reliefs,Relieves de Laquis c. 681 a.e.c.,Lachish reliefs c. 681 B.C.E.,,text,FALSE
+mesha_stele,Estela de Mesha (piedra moabita) c. 840 a.e.c.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,FALSE
 gilgamesh,Gilgamesh y Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,,text,TRUE
 epic_gilgamesh,Epopeya de Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni),,text,FALSE
 gregorian,Calendario gregoriano de 1582,Gregorian calendar 1582,,text,TRUE
@@ -155,11 +155,11 @@ al-azhar,Se establece la Universidad Al-Azhar en El Cairo,Al-Azhar University is
 Ibn-Sina,Ibn Sina o Avicena,Ibn Sina or Avicenna,,text,FALSE
 life-expectancy,Esperanza de vida 75 años,Life expectancy 75 years,,text,FALSE
 430years_c,"430 años: Éxodo 12:41, Gálatas 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,FALSE
-maya_calendar,"El comienzo calculado del calendario maya 11 de agosto, 3114 a.E.C.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,FALSE
+maya_calendar,"El comienzo calculado del calendario maya 11 de agosto, 3114 a.e.c.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,FALSE
 xia-dynasty2,"do. 2070 - c. 1600 aC, menciones más tempranas durante el período de Zhou occidental",c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,FALSE
 xia-dynasty2_c,Dinastía Xia en China,Xia dynasty in China,,text,FALSE
-tres_zapotes,"3 de septiembre, 32 a.E.C.","September 3rd, 32 B.C.E.",2024-12-31,text,FALSE
-joseph_jacob_reunited,Joseph y Jacob se reunieron en Egipto - 1728 a.E.C. (Gen 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,FALSE
+tres_zapotes,"3 de septiembre, 32 a.e.c.","September 3rd, 32 B.C.E.",2024-12-31,text,FALSE
+joseph_jacob_reunited,Joseph y Jacob se reunieron en Egipto - 1728 a.e.c. (Gen 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,FALSE
 king_south_light_c,Rey del Sur desde Daniel 11,King of the South from Daniel 11,2025-02-05,text,FALSE
 king_north_light_c,Rey del Norte desde Daniel 11,King of the North from Daniel 11,2025-02-05,text,FALSE
 daniel2_iron_c,Piernas de hierro de Daniel 2,Iron legs from Daniel 2,2025-02-05,text,FALSE
