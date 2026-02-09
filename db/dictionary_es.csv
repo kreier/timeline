@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,6.01,6.01,,float,TRUE
-pdf_title,6000 años de historia humana visualizados,6000 years human history visualized,2026-01-16,text,FALSE
+pdf_title,6000 años de historia humana visualizados,6000 years human history visualized,2026-01-28,text,FALSE
 pdf_subject,Cronología de la humanidad,Timeline of humankind,,text,FALSE
 BCE,a.e.c.,B.C.E.,appendix B9,B9,TRUE
 CE,e.c.,C.E.,,B9,TRUE
@@ -12,7 +12,7 @@ to,a,to,,text,FALSE
 Deluge,Diluvio,Deluge,,text,FALSE
 moses2,1593 a 1473 a.e.c. – 120 años,1593 to 1473 B.C.E. – 120 years,,text,FALSE
 temple1,Nisán 1513 a.e.c. a Ziv 1034 a.e.c.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,,text,FALSE
-69weeks,Jesús bautizó en el otoño de 29 E.C.,Jesus baptized autumn 29 C.E.,,text,FALSE
+69weeks,Jesús bautizó en el otoño de 29 e.c. ,Jesus baptized autumn 29 C.E.,,text,FALSE
 year,año,year,"timespan, age (Adam was 130 years old when Shem was born)",text,TRUE
 years,años,years,,text,TRUE
 years_age,años,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,TRUE
@@ -548,17 +548,17 @@ objects,objetos o artículos,objects or items,,deprecated,FALSE
 event_destruction_samaria2,740 a.E.C. por Asiria,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,FALSE
 photodrama,El “Foto-Drama de la Creación” se muestra por primera vez en Nueva York el 11 de enero de 1914.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",,deprecated,FALSE
 truth_book,El libro “La verdad que lleva a vida eterna” publicado en 1968,The book “The Truth That Leads to Eternal Life” is released 1968,,deprecated,FALSE
-metropolitan,Inicio de la testificación metropolitana en 2011,Start of metropolitan witnessing in 2011,,deprecated,FALSE
-jw_org,Inicio de JW.ORG con instrucciones en el ministerio del reino Diciembre de 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012,,deprecated,FALSE
 jw_broadcasting,Inicio de jw.broadcasting en octubre de 2014,Start of JW Broadcasting® in October 2014,,deprecated,FALSE
 meeting_workbook,Nuevo formato de reunión entre semana con “cuaderno de reuniones” a partir de enero de 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016,,deprecated,FALSE
-Gatam,Gatam,Gatam,,deprecated,TRUE
-Adbeel,Adbeel,Adbeel,,deprecated,TRUE
-Mibsam,Mibsam,Mibsam,,deprecated,TRUE
-Dumah,Dumá,Dumah,,deprecated,TRUE
-Massa,Masá,Massa,,deprecated,TRUE
-Babylon2,,,no text left and right – empty!,deprecated,TRUE
 terahfam,Miembros de la familia de Taré,Members of Terah’s family,,deprecated,FALSE
+metropolitan,Inicio de la testificación metropolitana en 2011,Start of metropolitan witnessing in 2011,,deprecated,FALSE
+jw_org,Inicio de JW.ORG con instrucciones en el ministerio del reino Diciembre de 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012,,deprecated,TRUE
+Babylon2,,,no text left and right – empty!,deprecated,TRUE
+Gatam,Gatam,Gatam,Genesis 36:11,deprecated,TRUE
+Adbeel,Adbeel,Adbeel,Genesis 25:13,deprecated,TRUE
+Mibsam,Mibsam,Mibsam,Genesis 25:13,deprecated,TRUE
+Dumah,Dumá,Dumah,Genesis 25:14,deprecated,TRUE
+Massa,Masá,Massa,Genesis 25:14,deprecated,FALSE
 tang-dynasty1,,,,deprecated,TRUE
 xia-dynasty,Dinastía Xia en China c. 2070 – c. 1600 a. C.,Xia dynasty in China c. 2070 – c. 1600 BC,,deprecated,FALSE
 Midianites,"1) Los madianitas: Números 31: 2, 3","1) Midianites: Numbers 31:2, 3",,deprecated,FALSE
