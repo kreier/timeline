@@ -207,8 +207,8 @@ def create_canvas(edition):
     # Draw small lines into the corners for the print edition, since print shops import only the
     # content area and exclude the white space from the desired print area
     factor_width = page_width / 2
-    if edition == "digital":
-        factor_width = 10 
+    # if edition == "digital":
+    #     factor_width = 10 
     pdf.set_line_width(0.1)
     pdf.set_draw_color(r=0, g=0, b=0)
     cornerpoints = [[0.1, 0.1, 1, 1], [page_width - 0.2, 0.1, -1, 1], [0.1, page_height - 0.2, 1, -1], [page_width - 0.2, page_height - 0.2, -1, -1]]
