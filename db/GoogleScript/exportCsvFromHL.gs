@@ -1,9 +1,13 @@
 function exportCsvFromHL() {
-  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = ss.getActiveSheet();
   const folderId = "folder_for_csv_files";
+  
+  // Get language code from sheet name
+  const langCode = sheet.getName().trim().toLowerCase();
 
-  const spreadsheetName = SpreadsheetApp.getActiveSpreadsheet().getName();
-  const csvFileName = spreadsheetName + ".csv";
+  // Build filename like dictionary_en.csv
+  const csvFileName = `dictionary_${langCode}.csv`;
 
   // Read H2:M572 (6 columns)
   const startRow = 2;
