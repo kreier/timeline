@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.01,6.01,5.9,float,True
-pdf_title,6000 ka tuig ang kasaysayan sa tawo mahanduraw,6000 years human history visualized,2026-01-16,text,True
+version,6.01,6.02,5.9,float,True
+pdf_title,6000 ka tuig ang kasaysayan sa tawo mahanduraw,6000 years human history visualized,2026-02-11,text,True
 pdf_subject,Timeline sa Katawhan,Timeline of humankind,6.01,text,False
 BCE,B.C.E.,B.C.E.,appendix B9,B9,False
 CE,C.E.,C.E., ,B9,False
@@ -16,7 +16,7 @@ temple1,Nisan 1513 B.C.E. sa Ziv 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E
 year,ka tuig,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False
 years,ka tuig,years, ,text,False
 years_age,ka tuig,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
-age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
 wilderness,Israel sa kamingawan 1513 hangtod 1473 B.C.E. - 40 ka tuig,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
 timespan_judges,1473 hangtod 1117 B.C.E. - 356 ka tuig,1473 to 1117 B.C.E. – 356 years, ,text,False
 timespan_judges2,Oras sa Mga Maghuhukom,Time of the judges, ,text,False
@@ -366,6 +366,16 @@ Lud_fn,17) Mga Lydiano: 1 Cronicas 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish A
 Ishmael_fn,18) Ismaelita: Genesis 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) Amorihanon: Mga Maghuhukom 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) Mga Hivihanon [Gabaon]: Josue 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,Cain,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,Abel,Abel,Genesis 4:2,bible,False
+Irad,Irad,Irad,Genesis 4:18,bible,False
+Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False
+Methushael,Methushael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,Si Zilla,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,Naama,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,Abias (Abiam),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,Asa,Asa,A6-A,A6-A,False
@@ -547,9 +557,9 @@ Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Mibsam,Mibsam, ,deprecated,False
 Dumah,Dumah,Dumah, ,deprecated,False
 Massa,Massa,Massa, ,deprecated,False
-Babylon2,, ,no text left and right – empty!,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 terahfam,Mga Miyembro sa Pamilya ni Terah,Members of Terah’s family, ,deprecated,False
-tang-dynasty1,, , ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
 xia-dynasty,Xia Dinastiya sa China c. 2070 - c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) mga Madianhon: Numeros 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
 Moabites,"2) Moabita: Deuteronomio 23: 3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
@@ -557,6 +567,6 @@ Ammonites,3) Mga Ammonite: Josue 12: 2,3) Ammonites: Joshua 12:2, ,deprecated,Fa
 Edomites,4) Mga Edomita: Numeros 20: 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
 Temanites,5) Mga Temanite: Job 42: 7,5) Temanites: Job 42:7, ,deprecated,False
 Amalekites,6) Amalekanhon: 1 Samuel 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
-king_south_light,, ,2025-02-05,deprecated,False
-king_north_light,, ,2025-02-05,deprecated,False
-daniel2_iron,, ,2025-02-05,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

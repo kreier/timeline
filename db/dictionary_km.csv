@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,5.5,6.01,5.5,float,True
-pdf_title,ប្រវត្តិសាស្ត្រមនុស្សជាតិ អំឡុងពេល ៦០០០ឆ្នាំ,6000 years human history visualized,2026-01-16,text,False
+version,5.5,6.02,5.5,float,True
+pdf_title,ប្រវត្តិសាស្ត្រមនុស្សជាតិ អំឡុងពេល ៦០០០ឆ្នាំ,6000 years human history visualized,2026-02-11,text,False
 pdf_subject,ការកំណត់ពេលវេលារបស់មនុស្ស,Timeline of humankind,Timeline of humankind,text,False
 BCE,B.C.E.,B.C.E.,B.C.E.,B9,False
 CE,C.E.,C.E.,C.E.,B9,False
@@ -16,7 +16,7 @@ temple1,ខែ​ណែសាន ឆ្នាំ ១៥១៣ មុន គ.ស.
 year,ឆ្នាំ,year,year,text,False
 years,ឆ្នាំ,years,years,text,False
 years_age,ឆ្នាំ,years,years,text,False
-age_kings,, , ,text,False
+age_kings, , , ,text,False
 wilderness,អ៊ីស្រាអែលនៅទីរហោស្ថានពីឆ្នាំ ១៥១៣ ដល់ ១៤៧៣ មុនគ. - ៤០ ឆ្នាំ។,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,text,False
 timespan_judges,១៤៧៣ ដល់ ១១១៧ មុនគ.ស -- ៣៥៦ឆ្នាំ,1473 to 1117 B.C.E. – 356 years,1473 to 1117 B.C.E. – 356 years,text,False
 timespan_judges2,ចន្លោះពេលវេលានៃចៅក្រម,Time of the judges,Time of the judges,text,False
@@ -366,6 +366,16 @@ Lud_fn,១៧) លីឌាន៖ ១ របាក្សត្រ ១:១៧,17)
 Ishmael_fn,១៨) អ៊ីសម៉ាអែល៖ លោកុប្បត្តិ ៣៧:២៧,18) Ishmaelites: Genesis 37:27,18) Ishmaelites: Genesis 37:27,bible,False
 Amorite_fn,១៩) អាម៉ូរី៖ ចៅហ្វាយ ៦:១០,19) Amorites: Judges 6:10,19) Amorites: Judges 6:10,bible,False
 Hivite_fn,"២០) សាសន៍​ហ៊ីវី [គីបៀន]៖ យ៉ូស្វេ ៩:៣, ៧","20) Hivites [Gibeon]: Joshua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",bible,False
+Cain,កាអ៊ីន,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,អេបិល,Abel,Genesis 4:2,bible,False
+Irad,អ៊ីរ៉ាដ,Irad,Genesis 4:18,bible,False
+Mehujael,មហ៊ូចាអែល,Mehujael,Genesis 4:18,bible,False
+Methushael,មធូសាអែល,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,ចាបាល។,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,ជូបល។,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,ហ្សីឡា,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,ទូបាល-កាអ៊ីន,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,ណាម៉ា,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,រេហូបោម,Rehoboam,Rehoboam,A6-A,False
 Abijah,អាប៊ីយ៉ា (​អាប៊ីយ៉ាម​),Abijah (Abijam),Abijah (Abijam),A6-A,False
 Asa,អេសា,Asa,Asa,A6-A,False
@@ -549,7 +559,7 @@ Dumah,ឌូម៉ា, ,Dumah,deprecated,True
 Massa,ម៉ាសា, ,Massa,deprecated,True
 Babylon2,គ្មានអត្ថបទឆ្វេងនិងស្តាំ - ទទេ!,no text left and right – empty!, ,deprecated,False
 terahfam,សមាជិកនៃគ្រួសាររបស់ ថេរ៉ា, ,Members of Terah’s family,deprecated,False
-tang-dynasty1,, , ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
 xia-dynasty,រាជវង្ស Xia នៅបករទេសចិនប្រហែល ឆ្នាំ២០៧០- ប្រហែល១៦០០ មុនគ.ស, ,Xia dynasty in China c. 2070 – c. 1600 BC,deprecated,False
 Midianites,"1) ជនជាតិម៉ាឌាន: ជនគណនា 31: 2, 3", ,"1) Midianites: Numbers 31:2, 3",deprecated,False
 Moabites,"2) ជនជាតិម៉ូអាប់: ចោទិយកថា 23: 3, 4", ,"2) Moabites: Deuteronomy 23:3, 4",deprecated,False

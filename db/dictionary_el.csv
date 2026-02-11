@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.01,6.01, ,float,True
-pdf_title,6000 χρόνια ανθρώπινη ιστορία απεικόνισε,6000 years human history visualized,2026-01-16,text,True
+version,6.01,6.02, ,float,True
+pdf_title,6000 χρόνια ανθρώπινη ιστορία απεικόνισε,6000 years human history visualized,2026-02-11,text,True
 pdf_subject,Χρονοδιάγραμμα της ανθρωπότητας,Timeline of humankind,6.01,text,False
 BCE,Π.Κ.Χ.,B.C.E.,appendix B9,B9,True
 CE,Κ.Χ.,C.E., ,B9,True
@@ -366,6 +366,16 @@ Lud_fn,17) Λυδοί: 1 Χρονικών 1:17,17) Lydians: 1 Chronicles 1:17,"J
 Ishmael_fn,18) Ισμαηλίτες: Γένεση 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) Αμορραίοι: Κριτές 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) Χεβαίοι [Γαβαών]: Ιησούς του Ναυή 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,Κάιν,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,Άβελ,Abel,Genesis 4:2,bible,False
+Irad,Irad,Irad,Genesis 4:18,bible,False
+Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False
+Methushael,Μεθουσάελ,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,Τζαμπάλ,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,Naamah,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Επαναπροσδιορισμός,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,Asa,Asa,A6-A,A6-A,False

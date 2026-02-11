@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,5.5,6.01, ,float,True
-pdf_title,Picture di 6000 ay tawen ay history di ipogao,6000 years human history visualized,2026-01-16,text,True
+version,5.5,6.02, ,float,True
+pdf_title,Picture di 6000 ay tawen ay history di ipogao,6000 years human history visualized,2026-02-11,text,True
 pdf_subject,Timeline di sangatauan,Timeline of humankind,5.5,text,False
 BCE,K.K.P.,B.C.E.,appendix B9,B9,True
 CE,K.P.,C.E., ,B9,True
@@ -366,6 +366,16 @@ Lud_fn, ,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]
 Ishmael_fn, ,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn, ,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn, ,"20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,,Abel,Genesis 4:2,bible,False
+Irad,,Irad,Genesis 4:18,bible,False
+Mehujael,,Mehujael,Genesis 4:18,bible,False
+Methushael,,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,A6-A,True
 Abijah,Abias (Abiam),Abijah (Abijam),"3 years, also Abijam",A6-A,True
 Asa,Asa,Asa,A6-A,A6-A,True

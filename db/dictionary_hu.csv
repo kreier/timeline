@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.01,6.01, ,float,True
-pdf_title,6000 éves emberi történelem vizualizálva,6000 years human history visualized,2026-01-16,text,False
+version,6.01,6.02, ,float,True
+pdf_title,6000 éves emberi történelem vizualizálva,6000 years human history visualized,2026-02-11,text,False
 pdf_subject,Az emberiség idővonala,Timeline of humankind, ,text,False
 BCE,I. e.,B.C.E., ,B9,True
 CE,I. sz.,C.E., ,B9,True
@@ -366,6 +366,16 @@ Lud_fn,17) Lídiaiak: 1Krónika 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Anti
 Ishmael_fn,18) Izmaeliták: 1Mózes 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) Amoriták: Bírák 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) Hiviták [Gibeon]: Józsué 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,Káin,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,Ábel,Abel,Genesis 4:2,bible,False
+Irad,Irad,Irad,Genesis 4:18,bible,False
+Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False
+Methushael,Matushael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,Naamah,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Rehoboám,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,Asa,Asa, ,A6-A,False

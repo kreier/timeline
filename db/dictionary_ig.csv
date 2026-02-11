@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,5.2,6.01, ,float,True
-pdf_title,Afọ 6000 akụkọ ihe mere eme mmadụ na-ahụ anya,6000 years human history visualized,2026-01-16,text,True
+version,5.2,6.02, ,float,True
+pdf_title,Afọ 6000 akụkọ ihe mere eme mmadụ na-ahụ anya,6000 years human history visualized,2026-02-11,text,True
 pdf_subject,Oge nke ihe a kpọrọ mmadụ,Timeline of humankind,5.2,text,True
 BCE,B.C.E.,B.C.E.,appendix B9,B9,True
 CE,C.E.,C.E., ,B9,False
@@ -16,7 +16,7 @@ temple1,Nisan 1513 T.O.A. to Ziv 1034 T.O.A.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E
 year,afọ,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False
 years,afọ,years, ,text,False
 years_age,afọ,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
-age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
 wilderness,Israel nọ n'ọhịa 1513 ruo 1473 T.O.A. - afọ 40,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
 timespan_judges,1473 ruo 1117 T.O.A. - afọ 356,1473 to 1117 B.C.E. – 356 years, ,text,False
 timespan_judges2,Oge ndị ikpe,Time of the judges, ,text,False
@@ -366,6 +366,16 @@ Lud_fn,17) Ndị Lidia: 1 Ihe E Mere 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish
 Ishmael_fn,18) Ndị Ishmel: Jenesis 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) Ndị Amọraịt: Ndị Ikpe 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) Ndị Hivaị [Gibiọn]: Jọshụa 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,Ken,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,Ebel,Abel,Genesis 4:2,bible,False
+Irad,Irad,Irad,Genesis 4:18,bible,False
+Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False
+Methushael,Methushael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,Jebal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Tubal-ken,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,Neamah,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,Asa,Asa,A6-A,A6-A,False
@@ -547,9 +557,9 @@ Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Mibsam,Mibsam, ,deprecated,False
 Dumah,Dumah,Dumah, ,deprecated,False
 Massa,Massa,Massa, ,deprecated,False
-Babylon2,, ,no text left and right – empty!,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 terahfam,Ndị ezinụlọ Tira,members of Terah’s family, ,deprecated,False
-tang-dynasty1,, , ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
 xia-dynasty,Xia dynasty na China c. 2070 - c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) Midian: Ọnụ Ọgụgụ 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
 Moabites,"2) Ndị Moab: Diuterọnọmi 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
@@ -557,6 +567,6 @@ Ammonites,3) Ụmụ Amọn: Jọshụa 12:2,3) Ammonites: Joshua 12:2, ,depreca
 Edomites,4) Edomites: Ọnụ Ọgụgụ 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
 Temanites,5) Ndị Teman: Job 42:7,5) Temanites: Job 42:7, ,deprecated,False
 Amalekites,6) Amalek: 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
-king_south_light,, ,2025-02-05,deprecated,False
-king_north_light,, ,2025-02-05,deprecated,False
-daniel2_iron,, ,2025-02-05,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False
