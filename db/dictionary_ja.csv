@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,5.7,6.02,5.7,float,True
-pdf_title,人類史6000年の年表,6000 years human history visualized,2026-02-11,text,True
+pdf_title,人類史6000年の年表,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,人類の年表,Timeline of humankind,5.7,text,False
 BCE,西暦前,B.C.E.,appendix B9,B9,True
 CE,CE,C.E., ,B9,False
@@ -16,7 +16,7 @@ temple1,西暦前1513年ニサン~西暦前1034年ジウ,Nisan 1513 B.C.E. to Zi
 year,年,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False
 years,年,years, ,text,False
 years_age,歳,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
-age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
 wilderness,荒野のイスラエル 西暦前1513年から1473年 – 40年,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
 timespan_judges,西暦前1473年から1117年 – 356年,1473 to 1117 B.C.E. – 356 years, ,text,False
 timespan_judges2,裁き人の時代,Time of the judges, ,text,False
@@ -548,18 +548,18 @@ objects,つの物やアイテム,objects or items, ,deprecated,False
 event_destruction_samaria2,西暦前740年 アッシリアによって,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,「創造のフォトドラマ」は、1914 年 1 月 11 日にニューヨークで初上映されました。,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,「永遠の命につながる真実」という本が1968年に出版されました。,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,2011年に大都市での証言が開始される,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,2012 年 12 月に王国宣教の指示に従って JW.ORG を開始,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,2014年10月 JWブロードキャスティング,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,2016年1月 集会ワークブックによる新形式の平日の集会,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,テラの家族の人々,Members of Terah’s family, ,deprecated,False
+metropolitan,2011年に大都市での証言が開始される,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,2012 年 12 月に王国宣教の指示に従って JW.ORG を開始,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,ガタム,Gatam, ,deprecated,False
 Adbeel,アドベエル,Adbeel, ,deprecated,False
 Mibsam,ミブサム,Mibsam, ,deprecated,False
 Dumah,ドマ,Dumah, ,deprecated,False
 Massa,マサ,Massa, ,deprecated,False
-Babylon2,, ,no text left and right – empty!,deprecated,False
-terahfam,テラの家族の人々,Members of Terah’s family, ,deprecated,False
-tang-dynasty1,, , ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
 xia-dynasty,中国の夏王朝 c． 2070年 – 頃紀元前1600年,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,1）ミディアン人：数字31：2、3,"1) Midianites: Numbers 31:2, 3", ,deprecated,False
 Moabites,2）モアブ人：申命記23：3、4,"2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
@@ -567,6 +567,6 @@ Ammonites,3）アンモナイト：ジョシュア12：2,3) Ammonites: Joshua 12
 Edomites,4）エドマイト：数字20：14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
 Temanites,5）テマン人：ヨブ42：7,5) Temanites: Job 42:7, ,deprecated,False
 Amalekites,6）アマレカイト：1サミュエル15：2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
-king_south_light,, ,2025-02-05,deprecated,False
-king_north_light,, ,2025-02-05,deprecated,False
-daniel2_iron,, ,2025-02-05,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

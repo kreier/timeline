@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,5.9,6.02,5.9,float,True
-pdf_title,6000 ਸਾਲ ਦੇ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਕਲਪਨਾ ਕੀਤੀ,6000 years human history visualized,2026-02-11,text,True
+pdf_title,6000 ਸਾਲ ਦੇ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਕਲਪਨਾ ਕੀਤੀ,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,ਮਨੁੱਖਜਾਤੀ ਦੀ ਸਮਾਂ ਰੇਖਾ,Timeline of humankind,5.9,text,True
 BCE,ਬੀ.ਸੀ.ਈ.,B.C.E.,appendix B9,B9,True
 CE,ਸੀ.ਈ.,C.E., ,B9,False
@@ -548,17 +548,17 @@ objects,ਆਬਜੈਕਟ ਜਾਂ ਚੀਜ਼ਾਂ,objects or items, ,depre
 event_destruction_samaria2,740 ਬੀ.ਸੀ.. ਅੱਸ਼ੂਰ ਦੁਆਰਾ,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,"ਸ੍ਰਿਸ਼ਟੀ ਦਾ ਫੋਟੋ-ਡਰਾਮਾ ਪਹਿਲਾਂ ਨਿ New ਯਾਰਕ ਵਿੱਚ 11 ਜਨਵਰੀ, 1914 ਨੂੰ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,ਸੱਚ ਜੋ ਸਦੀਵੀ ਜੀਵਨ ਵੱਲ ਲੈ ਜਾਂਦਾ ਹੈ ਕਿਤਾਬ 1968 ਨੂੰ ਜਾਰੀ ਕੀਤੀ ਗਈ ਹੈ,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,ਸਾਲ 2011 ਵਿਚ ਮੈਟਰੋਪੋਲੀਟਨ ਦੀ ਸ਼ੁਰੂਆਤ,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,JW.ORG ਦੀ ਸ਼ੁਰੂਆਤ ਕਿੰਗਡਮ ਮਿਨਾਈ ਸਾਲ 2012 ਵਿੱਚ ਨਿਰਦੇਸ਼ਾਂ ਨਾਲ,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,ਅਕਤੂਬਰ 2014 ਵਿੱਚ ਜੇ ਡਬਲਯੂ ਬ੍ਰੌਡਕਾਸਟਿੰਗ ਦੀ ਸ਼ੁਰੂਆਤ,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,"ਮਿਡਵੀਕ ਦਾ ਨਵਾਂ ਫਾਰਮੈਟ ""ਮੀਟਿੰਗ ਵਰਕਬੁੱਕ"" ਜਨਵਰੀ 2016 ਤੋਂ ਸ਼ੁਰੂ ਹੋਇਆ",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,ਤੇਰਾਹ ਦੇ ਪਰਿਵਾਰ ਦੇ ਮੈਂਬਰ,Members of Terah’s family, ,deprecated,False
+metropolitan,ਸਾਲ 2011 ਵਿਚ ਮੈਟਰੋਪੋਲੀਟਨ ਦੀ ਸ਼ੁਰੂਆਤ,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,JW.ORG ਦੀ ਸ਼ੁਰੂਆਤ ਕਿੰਗਡਮ ਮਿਨਾਈ ਸਾਲ 2012 ਵਿੱਚ ਨਿਰਦੇਸ਼ਾਂ ਨਾਲ,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,ਗਤਾਮ,Gatam, ,deprecated,False
 Adbeel,ਐਡਰਬੇਲ,Adbeel, ,deprecated,False
 Mibsam,ਮੀਬਸਮ,Mibsam, ,deprecated,False
 Dumah,ਦੁਮਮਾਹ,Dumah, ,deprecated,False
 Massa,ਮੱਸਾ,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,ਤੇਰਾਹ ਦੇ ਪਰਿਵਾਰ ਦੇ ਮੈਂਬਰ,Members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,ਚੀਨ ਵਿਚ ਜ਼ੀਨਾ ਰਾਜਵੰਸ਼ ਸੀ. 2070 - ਸੀ. 1600 ਬੀ.ਸੀ.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) ਮਿਦਯਿਨਾਈਟਸ: ਨੰਬਰ 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False

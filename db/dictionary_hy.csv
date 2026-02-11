@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,5.5,6.02,5.5,float,True
-pdf_title,6000 տարի մարդկային պատմություն արտացոլվեց,6000 years human history visualized,2026-02-11,text,True
+pdf_title,6000 տարի մարդկային պատմություն արտացոլվեց,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Մարդկության ժամանակացույց,Timeline of humankind,5.5,text,False
 BCE,Ք.ա.,B.C.E.,appendix B9,B9,False
 CE,Ք.Ե.,C.E., ,B9,False
@@ -548,17 +548,17 @@ objects,Օբեկտներ կամ իրեր,objects or items, ,deprecated,False
 event_destruction_samaria2,740 B.C.E. Ասորեստանի կողմից,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,«Ստեղծման ֆոտո-դրաման» առաջին անգամ ցուցադրվում է Նյու Յորքում 1914 թվականի հունվարի 11-ին,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,"«The շմարտությունը, որը տանում է դեպի հավերժական կյանք» գիրքը թողարկվում է 1968 թ",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,2011-ին Մետրոպոլիտենի վթարի սկիզբը,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,Jw.org- ի մեկնարկը Թագավորության ծառայության ցուցումներով 2012 թ. Դեկտեմբեր,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,2014 թվականի հոկտեմբերին JW Broadcasting- ի մեկնարկը,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,Midweek- ի նոր ձեւաչափը `« Հանդիպումների աշխատանքային գրքույկ »2016 թվականի հունվարից,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,Թերայի ընտանիքի անդամները,Members of Terah’s family, ,deprecated,False
+metropolitan,2011-ին Մետրոպոլիտենի վթարի սկիզբը,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,Jw.org- ի մեկնարկը Թագավորության ծառայության ցուցումներով 2012 թ. Դեկտեմբեր,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,Գաթամ,Gatam, ,deprecated,False
 Adbeel,Ադբեել,Adbeel, ,deprecated,False
 Mibsam,Մաբսամ,Mibsam, ,deprecated,False
 Dumah,Դումա,Dumah, ,deprecated,False
 Massa,Մերկ,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,Թերայի ընտանիքի անդամները,Members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,Xia Dynasty- ը Չինաստանում գ. 2070 - գ. 1600 մ.թ.ա.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) Մադիանի. Թվեր 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False

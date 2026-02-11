@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,4.6,6.02, ,float,True
-pdf_title,6000 سال انسانی تاریخ کا تصور,6000 years human history visualized,2026-02-11,text,True
+pdf_title,6000 سال انسانی تاریخ کا تصور,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,انسانیت کی ٹائم لائن,Timeline of humankind, ,text,False
 BCE,بی سی ای,B.C.E., ,B9,True
 CE,سی۔ای۔,C.E., ,B9,True
@@ -547,17 +547,26 @@ events,تقریبات,events, ,deprecated,False
 objects,اشیاء یا اشیاء,objects or items,things or items,deprecated,False
 event_destruction_samaria2,740 قبل مسیح اسوری کی طرف سے,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,فوٹو ڈرامہ آف کریشن پہلی بار نیویارک میں 11 جنوری 1914 کو دکھایا گیا تھا۔,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
-truth_book,"کتاب ""سچائی جو ابدی زندگی کی طرف لے جاتی ہے"" 1968 میں شائع ہوئی۔",The book “The Truth That Leads to Eternal Life” released 1968, ,deprecated,False
+truth_book,"کتاب ""سچائی جو ابدی زندگی کی طرف لے جاتی ہے"" 1968 میں شائع ہوئی۔",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+jw_broadcasting,اکتوبر 2014 میں جے ڈبلیو کی نشریات کا آغاز,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,"جنوری 2016 سے شروع ہونے والی ""میٹنگ ورک بک"" کے ساتھ مڈ ویک میٹنگ کا نیا فارمیٹ",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,تیراہ کے خاندان کے افراد,Members of Terah’s family, ,deprecated,False
 metropolitan,2011 میں میٹروپولیٹن گواہی کا آغاز,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,دسمبر 2012 میں بادشاہی وزارت میں ہدایات کے ساتھ JW.ORG کا آغاز,Start of JW.ORG with instructions in kingdom ministry December 2012, ,deprecated,False
-jw_broadcasting,اکتوبر 2014 میں جے ڈبلیو کی نشریات کا آغاز,Start of jw.broadcasting in October 2014, ,deprecated,False
-meeting_workbook,"جنوری 2016 سے شروع ہونے والی ""میٹنگ ورک بک"" کے ساتھ مڈ ویک میٹنگ کا نیا فارمیٹ",New format of midweek meeting with “meeting workbook” starting January 2016, ,deprecated,False
+jw_org,دسمبر 2012 میں بادشاہی وزارت میں ہدایات کے ساتھ JW.ORG کا آغاز,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,گاتم,Gatam, ,deprecated,False
 Adbeel,ادبیل,Adbeel, ,deprecated,False
 Mibsam,مبسم,Mibsam, ,deprecated,False
 Dumah,دمہ,Dumah, ,deprecated,False
 Massa,مسا,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,تیراہ کے خاندان کے افراد,members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,چین میں زیا خاندان c. 2070 - c. 1600 قبل مسیح,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites,1) مڈیانیٹس: نمبر 31: 2 ، 3,"1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites,2) موآبائٹس: استثنا 23: 3 ، 4,"2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites,3) امونائٹس: جوشوا 12: 2,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites,4) ایڈومائٹس: نمبر 20: 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites,5) تیمانیٹس: نوکری 42: 7,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites,6) امالائکائٹس: 1 سموئیل 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

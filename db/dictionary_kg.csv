@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,5.8,6.02,5.8,float,True
-pdf_title,Bamvula 6000 ya disolo ya bantu kemonanaka,6000 years human history visualized,2026-02-11,text,True
+pdf_title,Bamvula 6000 ya disolo ya bantu kemonanaka,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Ntangu ya bantu,Timeline of humankind,5.8,text,False
 BCE,N.T.B.,B.C.E.,appendix B9,B9,True
 CE,T.B.,C.E., ,B9,True
@@ -366,16 +366,16 @@ Lud_fn, ,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]
 Ishmael_fn, ,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn, ,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn, ,"20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
-Cain,,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
-Abel,,Abel,Genesis 4:2,bible,False
-Irad,,Irad,Genesis 4:18,bible,False
-Mehujael,,Mehujael,Genesis 4:18,bible,False
-Methushael,,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
-Jabal,,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
-Jubal,,Jubal,Genesis 4:21 play harp and pipe,bible,False
-Zillah,,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
-Tubal-cain,,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
-Naamah,,Naamah,Genesis 4:22 his sister,bible,False
+Cain, ,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel, ,Abel,Genesis 4:2,bible,False
+Irad, ,Irad,Genesis 4:18,bible,False
+Mehujael, ,Mehujael,Genesis 4:18,bible,False
+Methushael, ,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal, ,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal, ,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah, ,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain, ,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah, ,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,ASA,Asa,A6-A,A6-A,False
@@ -548,17 +548,17 @@ objects,bima to bima,objects or items, ,deprecated,False
 event_destruction_samaria2,740 B.C.E. na Ashuru,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,"Mchezo wa kuigiza wa Uumbaji unaonyeshwa kwa mara ya kwanza huko New York mnamo Januari 11, 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,"Kitabu ""Ukweli unaoongoza kwa Uzima wa Milele"" umetolewa 1968",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,Kuanza kwa Ushuhuda wa Metropolitan mnamo 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,Kuanza kwa JW.org na maagizo katika Wizara ya Ufalme Desemba 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,Kuanza kwa JW Matangazo ® mnamo Oktoba 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,"Fomati mpya ya mkutano wa katikati ya wiki na ""kitabu cha mkutano"" kuanzia Januari 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,Washiriki wa familia ya Tera,Members of Terah’s family, ,deprecated,False
+metropolitan,Kuanza kwa Ushuhuda wa Metropolitan mnamo 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,Kuanza kwa JW.org na maagizo katika Wizara ya Ufalme Desemba 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,Gatam,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Mibsam,Mibsam, ,deprecated,False
 Dumah,Dumah,Dumah, ,deprecated,False
 Massa,Massa,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,Washiriki wa familia ya Tera,Members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,Nasaba ya Xia nchini China c. 2070 - c. 1600 KK,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) Midianites: Hesabu 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False

@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,6.01,6.02, ,float,False
-pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,2026-02-11,text,False
+pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,2026-02-12,text,False
 pdf_subject,인류의 타임라인,Timeline of humankind,6.01,text,False
 BCE,기원전,B.C.E.,appendix B9,B9,True
 CE,기원후,C.E., ,B9,False
@@ -548,18 +548,18 @@ objects,개의 물건 또는 항목,objects or items, ,deprecated,False
 event_destruction_samaria2,기원전 740년 아시리아에 의해,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,"1914년 1월 11일 뉴욕에서 첫 ""창조 사진극"" 상영","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,1968년 “영원한 생명으로 인도하는 진리”라는 책 발표,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,2011년 대도시 증거 시작,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,2012년 12월 왕국 봉사지의 지침과 함께 JW.ORG 시작,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,2014년 10월 JW 브로드캐스팅 시작,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,2016년 1월 '집회 교재'로 새로운 형식의 주중집회 시작,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,데라의 가족들,Members of Terah’s family, ,deprecated,False
+metropolitan,2011년 대도시 증거 시작,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,2012년 12월 왕국 봉사지의 지침과 함께 JW.ORG 시작,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,가탐,Gatam, ,deprecated,False
 Adbeel,아드벨,Adbeel, ,deprecated,False
 Mibsam,밉삼,Mibsam, ,deprecated,False
 Dumah,두마,Dumah, ,deprecated,False
 Massa,마사,Massa, ,deprecated,False
-Babylon2,, ,no text left and right – empty!,deprecated,False
-terahfam,데라의 가족들,Members of Terah’s family, ,deprecated,False
-tang-dynasty1,, , ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
 xia-dynasty,중국 하왕조 c. 2070 – c. 기원전 1600년,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) 미디안 사람들 : 민수기 31 : 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
 Moabites,"2) 모압 사람들: 신명기 23 : 3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
@@ -567,6 +567,6 @@ Ammonites,3) 암모 사람들 : 여호수아 12 : 2,3) Ammonites: Joshua 12:2, ,
 Edomites,4) 에돔 사람들 : 민수기 20 : 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
 Temanites,5) 데만 사람들 : 욥기 42 : 7,5) Temanites: Job 42:7, ,deprecated,False
 Amalekites,6) 아말렉 사람들 : 사무엘상 15 : 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
-king_south_light,, ,2025-02-05,deprecated,False
-king_north_light,, ,2025-02-05,deprecated,False
-daniel2_iron,, ,2025-02-05,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

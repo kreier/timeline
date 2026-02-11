@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,5.2,6.02, ,float,False
-pdf_title,6000 שנות היסטוריה אנושית דמיונית,6000 years human history visualized,2026-02-11,text,True
+pdf_title,6000 שנות היסטוריה אנושית דמיונית,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,ציר הזמן של המין האנושי,Timeline of humankind,5.2,text,True
 BCE,לפני הספירה,B.C.E.,appendix B9,B9,False
 CE,לִספִירַת הַנוֹצרִים,C.E., ,B9,False
@@ -547,17 +547,26 @@ events,אירועים,events, ,deprecated,False
 objects,חפצים או פריטים,objects or items, ,deprecated,False
 event_destruction_samaria2,"740 לפנה""ס על ידי אשור",740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,הצילום-דרמה של הבריאה מוצגת לראשונה בניו יורק ב-11 בינואר 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
-truth_book,"הספר ""האמת שמובילה לחיי נצח"" יצא לאור ב-1968",The book “The Truth That Leads to Eternal Life” released 1968, ,deprecated,False
+truth_book,"הספר ""האמת שמובילה לחיי נצח"" יצא לאור ב-1968",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+jw_broadcasting,תחילת שידור jw.broadcasting באוקטובר 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,"פורמט חדש של פגישה באמצע השבוע עם ""חוברת עבודה לפגישה"" החל מינואר 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,בני משפחתו של תרח,Members of Terah’s family, ,deprecated,False
 metropolitan,תחילת העדות במטרופולין בשנת 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,התחלת JW.ORG עם הנחיות במשרד הממלכה דצמבר 2012,Start of JW.ORG with instructions in kingdom ministry December 2012, ,deprecated,False
-jw_broadcasting,תחילת שידור jw.broadcasting באוקטובר 2014,Start of jw.broadcasting in October 2014, ,deprecated,False
-meeting_workbook,"פורמט חדש של פגישה באמצע השבוע עם ""חוברת עבודה לפגישה"" החל מינואר 2016",New format of midweek meeting with “meeting workbook” starting January 2016, ,deprecated,False
+jw_org,התחלת JW.ORG עם הנחיות במשרד הממלכה דצמבר 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,גאתם,Gatam, ,deprecated,False
 Adbeel,אדביל,Adbeel, ,deprecated,False
 Mibsam,מיבסם,Mibsam, ,deprecated,False
 Dumah,דומא,Dumah, ,deprecated,False
 Massa,מאסה,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,בני משפחתו של תרח,members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,שושלת שיה בסין ג. 2070 - ג. 1600 לפני הספירה,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites,"1) מדיינים: במדבר 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites,"2) מואבים: דברים כג, ג, ד","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites,"3) בני עמון: יהושע יב, ב",3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites,"4) אדומים: במדבר כ', י""ד-יז",4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites,"5) תמני: איוב ל""ב ז",5) Temanites: Job 42:7, ,deprecated,False
+Amalekites,"6) עמלקים: שמואל א' ט""ו, ב'",6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

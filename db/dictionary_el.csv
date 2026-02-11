@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,6.01,6.02, ,float,True
-pdf_title,6000 χρόνια ανθρώπινη ιστορία απεικόνισε,6000 years human history visualized,2026-02-11,text,True
+pdf_title,6000 χρόνια ανθρώπινη ιστορία απεικόνισε,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Χρονοδιάγραμμα της ανθρωπότητας,Timeline of humankind,6.01,text,False
 BCE,Π.Κ.Χ.,B.C.E.,appendix B9,B9,True
 CE,Κ.Χ.,C.E., ,B9,True
@@ -548,17 +548,17 @@ objects,αντικείμενα ή αντικείμενα,objects or items, ,depr
 event_destruction_samaria2,740 π.Χ. από την Ασσυρία,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,"Το ""Photo-Drama of Creation"" παρουσιάζεται για πρώτη φορά στη Νέα Υόρκη στις 11 Ιανουαρίου 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,"Το βιβλίο ""Η αλήθεια που οδηγεί στην αιώνια ζωή"" κυκλοφορεί το 1968",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,Έναρξη μητροπολιτικών μαρτύρων το 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,Έναρξη του jw.org με οδηγίες στο Υπουργείο Βασιλιάς Δεκέμβριος 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,Έναρξη του JW Broadcasting® τον Οκτώβριο του 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,"Νέα μορφή συνάντησης μεσαίας εβδομάδας με το ""Workbook Meeting"" από τον Ιανουάριο του 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,Μέλη της οικογένειας του Terah,Members of Terah’s family, ,deprecated,False
+metropolitan,Έναρξη μητροπολιτικών μαρτύρων το 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,Έναρξη του jw.org με οδηγίες στο Υπουργείο Βασιλιάς Δεκέμβριος 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,Γκάμ,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Μίμπσαμ,Mibsam, ,deprecated,False
 Dumah,Δούμα,Dumah, ,deprecated,False
 Massa,Μάζα,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,Μέλη της οικογένειας του Terah,Members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,XIA Δυναστεία στην Κίνα γ. 2070 - γ. 1600 π.Χ.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) Midianites: Αριθμοί 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False

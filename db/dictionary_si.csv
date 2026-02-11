@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,4.7,6.02, ,float,True
-pdf_title,වසර 6000ක මානව ඉතිහාසය දර්ශනය විය,6000 years human history visualized,2026-02-11,text,True
+pdf_title,වසර 6000ක මානව ඉතිහාසය දර්ශනය විය,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,මානව වර්ගයාගේ කාල සටහන,Timeline of humankind, ,text,False
 BCE,ක්රි.පූ.,B.C.E., ,B9,True
 CE,සී.ඊ.,C.E., ,B9,True
@@ -547,17 +547,26 @@ events,සිද්ධීන්,events, ,deprecated,False
 objects,වස්තූන් හෝ අයිතම,objects or items, ,deprecated,False
 event_destruction_samaria2,740 ක් රි.පූ. ඇසිරියාව විසිනි,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,“නිර්මාණයේ ඡායාරූප නාට්‍යය” මුලින්ම ප්‍රදර්ශනය කළේ 1914 ජනවාරි 11 වැනිදා නිව් යෝර්ක් නුවරදීයි,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
-truth_book,“සදාකාල ජීවනයට මඟ පෙන්වන සත්‍යය” පොත 1968 නිකුත් විය,The book “The Truth That Leads to Eternal Life” released 1968, ,deprecated,False
+truth_book,“සදාකාල ජීවනයට මඟ පෙන්වන සත්‍යය” පොත 1968 නිකුත් විය,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+jw_broadcasting,jw.broadcasting ආරම්භය 2014 ඔක්තෝම්බර් මාසයේදී,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,"2016 ජනවාරි සිට ""රැස්වීම් වැඩපොත"" සමඟින් මැද සති රැස්වීමේ නව ආකෘතිය",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,ටෙරාගේ පවුලේ සාමාජිකයන්,Members of Terah’s family, ,deprecated,False
 metropolitan,2011දී නාගරික සාක්ෂි දැරීමේ ආරම්භය,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,2012 දෙසැම්බර් රාජ්‍ය සේවයේ උපදෙස් සමඟ JW.ORG ආරම්භය,Start of JW.ORG with instructions in kingdom ministry December 2012, ,deprecated,False
-jw_broadcasting,jw.broadcasting ආරම්භය 2014 ඔක්තෝම්බර් මාසයේදී,Start of jw.broadcasting in October 2014, ,deprecated,False
-meeting_workbook,"2016 ජනවාරි සිට ""රැස්වීම් වැඩපොත"" සමඟින් මැද සති රැස්වීමේ නව ආකෘතිය",New format of midweek meeting with “meeting workbook” starting January 2016, ,deprecated,False
+jw_org,2012 දෙසැම්බර් රාජ්‍ය සේවයේ උපදෙස් සමඟ JW.ORG ආරම්භය,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,ගැටම්,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,මිබ්සම්,Mibsam, ,deprecated,False
 Dumah,ඩූමා,Dumah, ,deprecated,False
 Massa,මැස්සා,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,ටෙරාගේ පවුලේ සාමාජිකයන්,members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,චීනයේ Xia රාජවංශය c. 2070 - ඇ. 1600 ක්රි.පූ,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites,"1) මිදියන්වරුන්: ගණන් කථාව 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites,"2) මෝවබ්වරුන්: ද්විතීය කථාව 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites,3) අම්මොන්වරුන්: ජෝෂුවා 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites,4) ඒදොම්වරු: ​​ගණන් කථාව 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites,5) තේමානිවරුන්: යෝබ් 42:7,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites,6) අමලෙක්වරුන්: 1 සාමුවෙල් 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

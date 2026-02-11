@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,4.6,6.02, ,float,True
-pdf_title,6000 år menneskelig historie visualisert,6000 years human history visualized,2026-02-11,text,True
+pdf_title,6000 år menneskelig historie visualisert,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Tidslinje for menneskeheten,Timeline of humankind, ,text,False
 BCE,B.C.E.,B.C.E., ,B9,False
 CE,C.E.,C.E., ,B9,False
@@ -547,17 +547,26 @@ events,arrangementer,events, ,deprecated,False
 objects,gjenstander eller gjenstander,objects or items, ,deprecated,False
 event_destruction_samaria2,740 f.Kr. av Assyria,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,«Photo-Drama of Creation» vises første gang i New York 11. januar 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
-truth_book,"Boken ""Sannheten som fører til evig liv"" utgitt 1968",The book “The Truth That Leads to Eternal Life” released 1968, ,deprecated,False
+truth_book,"Boken ""Sannheten som fører til evig liv"" utgitt 1968",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+jw_broadcasting,Start av jw.broadcasting i oktober 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,"Nytt format for midtukemøte med ""møtearbeidsbok"" fra januar 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,medlemmer av Terahs familie,Members of Terah’s family, ,deprecated,False
 metropolitan,Start av storbyvitne i 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,Start av JW.ORG med instruksjoner i rikets tjeneste desember 2012,Start of JW.ORG with instructions in kingdom ministry December 2012, ,deprecated,False
-jw_broadcasting,Start av jw.broadcasting i oktober 2014,Start of jw.broadcasting in October 2014, ,deprecated,False
-meeting_workbook,"Nytt format for midtukemøte med ""møtearbeidsbok"" fra januar 2016",New format of midweek meeting with “meeting workbook” starting January 2016, ,deprecated,False
+jw_org,Start av JW.ORG med instruksjoner i rikets tjeneste desember 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,Gatam,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Mibsam,Mibsam, ,deprecated,False
 Dumah,Dumah,Dumah, ,deprecated,False
 Massa,Massa,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,medlemmer av Terahs familie,members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,Xia-dynastiet i Kina ca. 2070 – ca. 1600 f.Kr,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites,"1) Midjanittene: 4. Mosebok 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites,"2) Moabitter: 5. Mosebok 23: 3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites,3) Ammonitter: Josva 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites,4) Edomittene: 4. Mosebok 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites,5) Temanitter: Job 42:7,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites,6) Amalekittene: 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,4.6,6.02, ,float,True
-pdf_title,ប្រវត្តិសាស្រ្តមនុស្សជាតិ 6000 ឆ្នាំត្រូវបានមើលឃើញ,6000 years human history visualized,2026-02-11,text,True
+pdf_title,ប្រវត្តិសាស្រ្តមនុស្សជាតិ 6000 ឆ្នាំត្រូវបានមើលឃើញ,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,ការកំណត់ពេលវេលារបស់មនុស្ស,Timeline of humankind, ,text,False
 BCE,មុន​គ.ស.,B.C.E., ,B9,True
 CE,គ.ស.,C.E., ,B9,True
@@ -366,16 +366,16 @@ Lud_fn, ,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]
 Ishmael_fn, ,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn, ,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn, ,"20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
-Cain,,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
-Abel,,Abel,Genesis 4:2,bible,False
-Irad,,Irad,Genesis 4:18,bible,False
-Mehujael,,Mehujael,Genesis 4:18,bible,False
-Methushael,,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
-Jabal,,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
-Jubal,,Jubal,Genesis 4:21 play harp and pipe,bible,False
-Zillah,,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
-Tubal-cain,,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
-Naamah,,Naamah,Genesis 4:22 his sister,bible,False
+Cain, ,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel, ,Abel,Genesis 4:2,bible,False
+Irad, ,Irad,Genesis 4:18,bible,False
+Mehujael, ,Mehujael,Genesis 4:18,bible,False
+Methushael, ,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal, ,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal, ,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah, ,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain, ,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah, ,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,រេហូបោម,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,អាប៊ីយ៉ា (​អាប៊ីយ៉ាម​),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,អេសា,Asa, ,A6-A,False
@@ -547,17 +547,26 @@ events,ព្រឹត្តិការណ៍,events, ,deprecated,False
 objects,វត្ថុឬវត្ថុ,objects or items, ,deprecated,False
 event_destruction_samaria2,740 មុនគ.ស. ដោយ អាស្ស៊ីរី,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,ល្ខោនរូបថតនៃការបង្កើត ត្រូវបានបង្ហាញជាលើកដំបូងនៅញូវយ៉កនៅថ្ងៃទី 11 ខែមករាឆ្នាំ 1914 ។,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
-truth_book,"សៀវភៅ ""សេចក្តីពិតដែលនាំទៅរកជីវិតអស់កល្បជានិច្ច"" ចេញផ្សាយឆ្នាំ 1968",The book “The Truth That Leads to Eternal Life” released 1968, ,deprecated,False
+truth_book,"សៀវភៅ ""សេចក្តីពិតដែលនាំទៅរកជីវិតអស់កល្បជានិច្ច"" ចេញផ្សាយឆ្នាំ 1968",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+jw_broadcasting,ការផ្សាយ jw.broadcast នៅខែតុលា ឆ្នាំ 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,"ទម្រង់ថ្មីនៃកិច្ចប្រជុំពាក់កណ្តាលសប្តាហ៍ជាមួយ ""សៀវភៅការងារ"" ដែលចាប់ផ្តើមពីខែមករា ឆ្នាំ 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,សមាជិកនៃគ្រួសាររបស់ Terah,Members of Terah’s family, ,deprecated,False
 metropolitan,ការ​ចាប់​ផ្តើ​ម​នៃ​ការ​ធ្វើ​ជា​សាក្សី​ទី​ក្រុង​នៅ​ក្នុង 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,ការចាប់ផ្តើមនៃ JW.ORG ជាមួយនឹងការណែនាំក្នុងកិច្ចបម្រើផ្សាយរបស់ព្រះរាជាណាចក្រ ខែធ្នូ ឆ្នាំ 2012,Start of JW.ORG with instructions in kingdom ministry December 2012, ,deprecated,False
-jw_broadcasting,ការផ្សាយ jw.broadcast នៅខែតុលា ឆ្នាំ 2014,Start of jw.broadcasting in October 2014, ,deprecated,False
-meeting_workbook,"ទម្រង់ថ្មីនៃកិច្ចប្រជុំពាក់កណ្តាលសប្តាហ៍ជាមួយ ""សៀវភៅការងារ"" ដែលចាប់ផ្តើមពីខែមករា ឆ្នាំ 2016",New format of midweek meeting with “meeting workbook” starting January 2016, ,deprecated,False
+jw_org,ការចាប់ផ្តើមនៃ JW.ORG ជាមួយនឹងការណែនាំក្នុងកិច្ចបម្រើផ្សាយរបស់ព្រះរាជាណាចក្រ ខែធ្នូ ឆ្នាំ 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,កាថាម,Gatam, ,deprecated,False
 Adbeel,អាតបៀល,Adbeel, ,deprecated,False
 Mibsam,មីបសាម,Mibsam, ,deprecated,False
 Dumah,ឌូម៉ា,Dumah, ,deprecated,False
 Massa,ម៉ាសា,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,សមាជិកនៃគ្រួសាររបស់ Terah,members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,រាជវង្ស Xia នៅប្រទេសចិន គ. 2070 – គ. 1600 មុនគ,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites, ,"1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites, ,"2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites, ,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites, ,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites, ,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites, ,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,4.6,6.02, ,float,True
-pdf_title,6000 سال تاریخ بشر تجسم شده است,6000 years human history visualized,2026-02-11,text,True
+pdf_title,6000 سال تاریخ بشر تجسم شده است,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,جدول زمانی نوع بشر,Timeline of humankind, ,text,True
 BCE,ه.س.إ.,B.C.E., ,B9,True
 CE,س. إ.,C.E., ,B9,True
@@ -547,17 +547,26 @@ events,مناسبت ها,events, ,deprecated,False
 objects,اشیاء یا اقلام,objects or items, ,deprecated,False
 event_destruction_samaria2,740 پ.م. توسط آشور,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,عکس درام خلقت برای اولین بار در 11 ژانویه 1914 در نیویورک نمایش داده شد.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
-truth_book,"کتاب ""حقیقتی که به زندگی ابدی منجر می شود"" در سال 1968 منتشر شد",The book “The Truth That Leads to Eternal Life” released 1968, ,deprecated,False
+truth_book,"کتاب ""حقیقتی که به زندگی ابدی منجر می شود"" در سال 1968 منتشر شد",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+jw_broadcasting,شروع پخش jw. در اکتبر 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,قالب جدید جلسه میان هفته با «کتاب کار جلسه» از ژانویه 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,اعضای خانواده ترح,Members of Terah’s family, ,deprecated,False
 metropolitan,شروع شهادت شهری در سال 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,شروع JW.ORG با دستورالعمل‌ها در خدمت پادشاهی دسامبر ۲۰۱۲,Start of JW.ORG with instructions in kingdom ministry December 2012, ,deprecated,False
-jw_broadcasting,شروع پخش jw. در اکتبر 2014,Start of jw.broadcasting in October 2014, ,deprecated,False
-meeting_workbook,قالب جدید جلسه میان هفته با «کتاب کار جلسه» از ژانویه 2016,New format of midweek meeting with “meeting workbook” starting January 2016, ,deprecated,False
+jw_org,شروع JW.ORG با دستورالعمل‌ها در خدمت پادشاهی دسامبر ۲۰۱۲,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,گاتام,Gatam, ,deprecated,False
 Adbeel,أدبيل,Adbeel, ,deprecated,False
 Mibsam,میبسام,Mibsam, ,deprecated,False
 Dumah,دوما,Dumah, ,deprecated,False
 Massa,ماسا,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,اعضای خانواده ترح,members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,سلسله شیا در چین ج. 2070 - ج. 1600 قبل از میلاد,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites,1) مدیانیان: اعداد 31:2، 3,"1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites,2) موآبیان: تثنیه 23:3، 4,"2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites,3) عمونیان: یوشع 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites,4) ادومیان: اعداد 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites,5) تمانیان: ایوب 42:7,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites,6) عمالیقیان: اول سموئیل 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False
