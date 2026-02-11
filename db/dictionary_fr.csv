@@ -1,7 +1,7 @@
 key,text,english,notes,tag,checked
-version,6.01,6.02,6.01,float,True
+version,6.02,6.02, ,float,True
 pdf_title,6000 ans d'histoire humaine visualisés,6000 years human history visualized,2026-02-11,text,False
-pdf_subject,Chronologie de l'humanité,Timeline of humankind,6.01,text,False
+pdf_subject,Chronologie de l'humanité,Timeline of humankind, ,text,False
 BCE,av. n. è.,B.C.E.,appendix B9,B9,True
 CE,de n. è.,C.E., ,B9,True
 month,mois,month, ,text,False
@@ -139,7 +139,7 @@ annointed,Rassemblement des dirigeants du Royaume (Matthieu 24:31; 1 Corinthiens
 armageddon,"Bataille d'Harmaguédon (Apocalypse 16:14, 16; Ésaïe 13:9; 2 Pierre 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False
 millenium,"Le Royaume de Dieu commence son règne de 1000 ans (Apocalypse 5 :9, 10 ; 20 :4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False
 great_crowd,"Une grande foule survit à Harmaguédon (Apocalypse 7:9, 14; Psaume 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False
-world_population,Population mondiale en milliards au cours des 2000 dernières années,World population in billions in the last 2000 years,appendix B9,text,False
+world_population,Population mondiale en milliards au cours des 2000 dernières années,World population in billions in the last 2000 years, ,text,False
 khmer_empire_c,Empire khmer - Période d’Angkor,Khmer Empire - Angkor period, ,text,False
 holy_roman_empire_c,Saint Empire romain – après 1512 Saint Empire romain germanique,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False
 mongol_empire,Empire mongol 1206 – 1294 de notre ère,Mongol Empire 1206 – 1294, ,text,False
@@ -165,7 +165,7 @@ king_north_light_c,Roi du Nord (Daniel 11),King of the North from Daniel 11,2025
 daniel2_iron_c,Jambes de fer (Daniel 2),Iron legs from Daniel 2,2025-02-05,text,False
 argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,True
 nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,True
-edo_c,Époque d'Edo au Japon,Edo period in Japan, ,text,True
+edo_c,Époque d'Edo au Japon,Edo period in Japan,Edo period (Tokugawa shogunate),text,True
 meiji_c,Meiji,Meiji,2025-09-20,text,True
 american_civil_war,Guerre civile américaine 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
 aleppo_codex,Codex d'Alep v. 920,Aleppo Codex c. 920,2025-10-03,text,False
@@ -178,29 +178,29 @@ sui_dynasty,581-618 Dynastie Sui,581-618 Sui dynasty,2025-11-09,text,False
 sui_dynasty_c,Sui,Sui,2025-11-09,text,False
 tribulation,"La Grande Tribulation (Marc 13:19; Daniel 12:1; Matthieu 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
 Adam,Adam,Adam,Luke 3:38,bible,True
-Seth,Seth,Seth, ,bible,True
-Enosh,Énosh,Enosh, ,bible,True
-Kenan,Kénân,Kenan (Cainan),Genesis 5:12,bible,False
-Mahalalel,Maalaléel,Mahalalel (Mahalaleel),Ma·hala·lel,bible,False
-Jared,Jared,Jared, ,bible,True
-Enoch,Hénoch,Enoch, ,bible,True
+Seth,Seth,Seth,Luke 3:38,bible,True
+Enosh,Énosh,Enosh,Luke 3:38,bible,True
+Kenan,Kénân,Kenan (Cainan),"Genesis 5:12, Luke 3:37",bible,False
+Mahalalel,Maalaléel,Mahalalel (Mahalaleel),"Genesis 5:15, Luke 3:37",bible,False
+Jared,Jared,Jared,Luke 3:37,bible,True
+Enoch,Hénoch,Enoch,Luke 3:37,bible,True
 Methuselah,Mathusalem,Methuselah,Luke 3:37,bible,True
-Lamech,Lamek,Lamech, ,bible,True
-Noah,Noé,Noah, ,bible,True
-Shem,Sem,Shem, ,bible,True
+Lamech,Lamek,Lamech,Luke 3:36,bible,True
+Noah,Noé,Noah,Luke 3:36,bible,True
+Shem,Sem,Shem,Luke 3:36,bible,True
 Arpachshad,Arpakshad,Arpachshad,Luke 3:36,bible,True
-Shelah,Shéla,Shelah, ,bible,True
-Eber,Ébèr,Eber, ,bible,True
-Peleg,Pélèg,Peleg, ,bible,True
-Reu,Réou,Reu, ,bible,True
+Shelah,Shéla,Shelah,Luke 3:35,bible,True
+Eber,Ébèr,Eber,Luke 3:35,bible,True
+Peleg,Pélèg,Peleg,Luke 3:35,bible,True
+Reu,Réou,Reu,Luke 3:35,bible,True
 Serug,Seroug,Serug,Luke 3:35,bible,True
-Nahor,Naor,Nahor,Genesis 11:24,bible,True
-Terah,Téra,Terah, ,bible,True
-Abraham,Abraham,Abraham, ,bible,True
-Isaac,Isaac,Isaac, ,bible,True
+Nahor,Naor,Nahor,"Luke 3:34, Genesis 11:24",bible,True
+Terah,Téra,Terah,Luke 3:34,bible,True
+Abraham,Abraham,Abraham,Luke 3:34,bible,True
+Isaac,Isaac,Isaac,Luke 3:34,bible,True
 Jacob,Jacob,Jacob,Luke 3:34,bible,True
 Joseph,Joseph,Joseph,Genesis 37,bible,False
-Moses,Moïse,Moses, ,bible,False
+Moses,Moïse,Moses,Exodus 2:10,bible,False
 Othniel,Otniel,Othniel,Judges 3:9-11,bible,False
 Ehud,Éhoud,Ehud,Judges 3:15-18,bible,False
 Shamgar,Shamgar,Shamgar,Judges 3:31,bible,False
@@ -217,99 +217,99 @@ Samuel,Samuel,Samuel,1 Samuel 1:20,bible,False
 Saul,Saül,Saul,1 Samuel 9:2,bible,False
 David,David,David,1 Samuel 16:13,bible,False
 Solomon,Salomon,Solomon,1 Kings 2:1,bible,False
-Malachi,Malachie,Malachi, ,bible,False
-Ruth,Ruth,Ruth, ,bible,False
-Ezra,Esdras,Ezra, ,bible,False
-Nehemiah,Néhémie,Nehemiah, ,bible,False
-Esther,Esther,Esther, ,bible,False
-Job,Job,Job, ,bible,False
-moses3,Moïse,Moses, ,bible,False
-joshua2,Josué,Joshua, ,bible,False
-caleb2,Caleb,Caleb, ,bible,False
+Malachi,Malachie,Malachi,bible book,bible,False
+Ruth,Ruth,Ruth,bible book,bible,False
+Ezra,Esdras,Ezra,bible book,bible,False
+Nehemiah,Néhémie,Nehemiah,bible book,bible,False
+Esther,Esther,Esther,bible book,bible,False
+Job,Job,Job,bible book,bible,False
+moses3,Moïse,Moses,Exodus 2:10,bible,False
+joshua2,Josué,Joshua,Exodus 17:14,bible,False
+caleb2,Caleb,Caleb,Numbers 13:30,bible,False
 Augustus,Auguste,Augustus,Luke 2:1,bible,False
 Tiberius,Tibère,Tiberius,Luke 3:1,bible,False
 Claudius,Claude,Claudius,Acts 11:28,bible,False
-persia2,Perse,Persia, ,bible,False
+persia2,Perse,Persia,Esther 1:3,bible,False
 jehoiada,Joad,Jehoiada,2 Kings 11:4,bible,False
-Haggai,Aggée,Haggai, ,bible,False
+Haggai,Aggée,Haggai,bible book,bible,False
 Zerubbabel,Zorobabel (Luc 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False
 Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False
 Israel,Israël,Israel,Genesis 35:10,bible,False
 Sarah,Sarah,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False
 Hagar,Agar,Hagar,Genesis 21:14,bible,False
 Haran,Haran,Haran,Genesis 11:26,bible,False
-Reumah,Reumah,Reumah,Concubine – 4 sons 22:24,bible,False
-Milcah,Milca,Milcah,8 sons (Bethuel and 7 more),bible,False
+Reumah,Reumah,Reumah,Genesis 22:24 Concubine – 4 sons,bible,False
+Milcah,Milca,Milcah,Genesis 22:20 - 8 sons (Bethuel and 7 more),bible,False
 Lot,Lot,Lot,Genesis 11:27,bible,False
 Ammon,Ben Ammi (Ammon),Ben-ammi (Ammon),Genesis 19:38,bible,False
 Bethuel,Bethuel,Bethuel,Genesis 22:23,bible,False
-Rebekah,Rébecca,Rebekah, ,bible,False
+Rebekah,Rébecca,Rebekah,Genesis 22:23,bible,False
 Laban,Laban,Laban,Genesis 24:29,bible,False
 Leah,Léa,Leah,Genesis 35:23,bible,False
 Rachel,Rachel,Rachel,Genesis 35:24,bible,False
 Bilhah,Bila,Bilhah,Genesis 35:25,bible,False
 Zilpah,Zilpa,Zilpah,Genesis 35:26,bible,False
-Reuben,Ruben,Reuben, ,bible,False
-Simeon,Siméon,Simeon, ,bible,False
+Reuben,Ruben,Reuben,Genesis 35:23,bible,False
+Simeon,Siméon,Simeon,Genesis 35:23,bible,False
 Levi,Lévi,Levi,Genesis 35:23,bible,False
-Judah,Juda,Judah, ,bible,False
-Issachar,Issachar,Issachar, ,bible,False
-Zebulun,Zabulon,Zebulun, ,bible,False
-Dinah,Dina,Dinah,Genesis 34,bible,False
-Esau,Ésaü/,Esau/, ,bible,False
+Judah,Juda,Judah,Genesis 35:23,bible,False
+Issachar,Issachar,Issachar,Genesis 35:23,bible,False
+Zebulun,Zabulon,Zebulun,Genesis 35:23,bible,False
+Dinah,Dina,Dinah,Genesis 34:1,bible,False
+Esau,Ésaü/,Esau/,Genesis 36:1,bible,False
 Edom,Édom,Edom,Genesis 36:1,bible,False
 Ishmael,Ismaël,Ishmael,Genesis 16:16,bible,False
-Manasseh2,(Manassé,(Manasseh,Genesis 41:50-52,bible,False
-Ephraim,et Éphraïm),and Ephraim), ,bible,False
-Benjamin,Benjamin,Benjamin, ,bible,False
-Dan,Dan,Dan,Genesis 35:23,bible,False
-Naphtali,Nephtali,Naphtali, ,bible,False
-Gad,Gad,Gad, ,bible,False
-Asher,Aser,Asher, ,bible,False
+Manasseh2,(Manassé,(Manasseh,Genesis 41:51,bible,False
+Ephraim,et Éphraïm),and Ephraim),Genesis 41:52,bible,False
+Benjamin,Benjamin,Benjamin,Genesis 35:24,bible,False
+Dan,Dan,Dan,Genesis 35:25,bible,False
+Naphtali,Nephtali,Naphtali,Genesis 35:25,bible,False
+Gad,Gad,Gad,Genesis 35:26,bible,False
+Asher,Aser,Asher,Genesis 35:26,bible,False
 Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False
-Milcah2,"Chesed, Hazo,","Chesed, Hazo,", ,bible,False
-Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph", ,bible,False
+Milcah2,"Chesed, Hazo,","Chesed, Hazo,",Genesis 22:22,bible,False
+Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",Genesis 22:22,bible,False
 Tebah,Tebah,Tebah,Genesis 22:24,bible,False
-Gaham,Gaham,Gaham, ,bible,False
-Tahash,Tahash,Tahash, ,bible,False
-Maacah,Maaca,Maacah, ,bible,False
+Gaham,Gaham,Gaham,Genesis 22:24,bible,False
+Tahash,Tahash,Tahash,Genesis 22:24,bible,False
+Maacah,Maaca,Maacah,Genesis 22:24,bible,False
 Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False
-Basemath,Basmath,Basemath,"Genesis36:3, 4",bible,False
-Reuel,Réuel,Reuel,"36:13, 17",bible,False
-Nahath,Nahath,Nahath, ,bible,False
-Zerah,Zérah,Zerah, ,bible,False
-Schammah,Schammah,Schammah, ,bible,False
-Mizzah,Mizza,Mizzah, ,bible,False
-Adah,Ada,Adah,"36:11, 12, 15, 16",bible,True
-Eliphaz,Élifaz,Eliphaz, ,bible,True
-Teman,Témân,Teman, ,bible,True
-Omar,Omar,Omar, ,bible,True
-Zepho,Zefo,Zepho, ,bible,True
-Kenaz,Kenaz,Kenaz, ,bible,True
-Korah,Coré,Korah, ,bible,True
-Korah_Gatam,"Coré, Gatam","Korah, Gatam",303 and 304,bible,True
-Amalek,Amalec,Amalek, ,bible,True
-Oholibamah,Oholibama,Oholibamah,"36:14, 18",bible,True
-Jeush,Jéoush,Jeush, ,bible,True
-Jalam,Jalam,Jalam, ,bible,True
+Basemath,Basmath,Basemath,"Genesis 36:3, 4",bible,False
+Reuel,Réuel,Reuel,"Genesis 36:13, 17",bible,False
+Nahath,Nahath,Nahath,Genesis 36:13,bible,False
+Zerah,Zérah,Zerah,Genesis 36:13,bible,False
+Schammah,Schammah,Schammah,Genesis 36:13,bible,False
+Mizzah,Mizza,Mizzah,Genesis 36:13,bible,False
+Adah,Ada,Adah,"Genesis 36:11, 12, 15, 16",bible,True
+Eliphaz,Élifaz,Eliphaz,Genesis 36:11,bible,True
+Teman,Témân,Teman,Genesis 36:11,bible,True
+Omar,Omar,Omar,Genesis 36:11,bible,True
+Zepho,Zefo,Zepho,Genesis 36:11,bible,True
+Kenaz,Kenaz,Kenaz,Genesis 36:11,bible,True
+Korah,Coré,Korah,Genesis 36:16,bible,True
+Korah_Gatam,"Coré, Gatam","Korah, Gatam","Genesis 36:11, 16",bible,True
+Amalek,Amalec,Amalek,Genesis 36:12,bible,True
+Oholibamah,Oholibama,Oholibamah,"Genesis 36:14, 18",bible,True
+Jeush,Jéoush,Jeush,Genesis 36:14,bible,True
+Jalam,Jalam,Jalam,Genesis 36:14,bible,True
 Nebaioth,Nebayoth,Nebaioth,Genesis 25:13,bible,True
-Kedar,Kédar,Kedar, ,bible,True
-Mishma,Mishma,Mishma, ,bible,True
-Adbeel_Mibsam,"Adbéel, Mibsam","Adbeel, Mibsam",311 and 312,bible,True
-Dumah_Massa,"Douma, Massa","Dumah, Massa",314 and 315,bible,True
-Hadad,Hadad,Hadad, ,bible,True
-Tema,Téma,Tema, ,bible,True
-Jetur,Jetour,Jetur, ,bible,True
-Naphish,Nafish,Naphish, ,bible,True
-Kedemah,Kédma,Kedemah, ,bible,True
-Keturah,Ketura,Keturah,Genesis 25:1-4,bible,False
-Zimran,Zimran,Zimran, ,bible,False
-Jokshan,Jokshan,Jokshan, ,bible,False
-Medan,Médan,Medan, ,bible,False
-Midian,Madian,Midian, ,bible,False
-Ishbak,Ichbak,Ishbak, ,bible,False
-Shuah,Shuah,Shuah, ,bible,False
-Timna,Timna,Timna,"1 Chr 1:36, Ge 36:10-12",bible,False
+Kedar,Kédar,Kedar,Genesis 25:13,bible,True
+Mishma,Mishma,Mishma,Genesis 25:14,bible,True
+Adbeel_Mibsam,"Adbéel, Mibsam","Adbeel, Mibsam",Genesis 25:13,bible,True
+Dumah_Massa,"Douma, Massa","Dumah, Massa",Genesis 25:14,bible,True
+Hadad,Hadad,Hadad,Genesis 25:15,bible,True
+Tema,Téma,Tema,Genesis 25:15,bible,True
+Jetur,Jetour,Jetur,Genesis 25:15,bible,True
+Naphish,Nafish,Naphish,Genesis 25:15,bible,True
+Kedemah,Kédma,Kedemah,Genesis 25:15,bible,True
+Keturah,Ketura,Keturah,Genesis 25:1,bible,False
+Zimran,Zimran,Zimran,Genesis 25:1,bible,False
+Jokshan,Jokshan,Jokshan,Genesis 25:1,bible,False
+Medan,Médan,Medan,Genesis 25:1,bible,False
+Midian,Madian,Midian,Genesis 25:1,bible,False
+Ishbak,Ichbak,Ishbak,Genesis 25:1,bible,False
+Shuah,Shuah,Shuah,Genesis 25:1,bible,False
+Timna,Timna,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False
 life-expectancy2,(Psaume 90:10),(Psalm 90:10),2024-11-29,bible,False
 Ham,Cham,Ham,Gen 10:1,bible,True
 Canaan,Canaan,Canaan,Gen 10:6,bible,True
@@ -328,7 +328,7 @@ Cush,Koush,Cush,Gen 10:6,bible,True
 Nimrod,Nemrod,Nimrod,Gen 10:8,bible,True
 Mizraim,Mizraïm,Mizraim,Gen 10:14,bible,True
 Casluh,Kaslouhim,Casluh,1 Chronicles 1:12 (Philistines),bible,True
-Japheth,Japhet,Japheth,Gen 10:3,bible,True
+Japheth,Japhet,Japheth,Gen 10:1,bible,True
 Asshur,Assour,Asshur,Gen 10:22,bible,True
 Lud,Loud,Lud,Gen 10:22,bible,True
 Aram,Aram,Aram,Gen 10:22,bible,True
@@ -352,12 +352,12 @@ Elam_fn,4) Elamites: Ezra 4: 9,4) Elamites: Ezra 4:9,2025-09-22,bible,False
 Asshur_fn,5) Assyriens: Ézéchiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False
 Casluh_fn,6) Philistins: 1 Chroniques 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False
 Cush_fn,7) Ethiopien [Cushite]: 2 Rois 19: 9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False
-Edom_fn,8) Edomites: Nombres 20: 14-17,8) Edomites: Numbers 20:14-17,same as 459,bible,False
-Moab_fn,"9) Moabites: Deutéronome 23: 3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457,bible,False
-Ammon_fn,10) Ammonites: Joshua 12: 2,10) Ammonites: Joshua 12:2,same as 458,bible,False
-Midian_fn,"11) Midianites: Nombres 31: 2, 3","11) Midianites: Numbers 31:2, 3",same as 456,bible,False
-Amalek_fn,12) Amalekites: 1 Samuel 15: 2,12) Amalekites: 1 Samuel 15:2,same as 461,bible,False
-Teman_fn,13) Temanites: Job 42: 7,13) Temanites: Job 42:7,same as 460,bible,False
+Edom_fn,8) Edomites: Nombres 20: 14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False
+Moab_fn,"9) Moabites: Deutéronome 23: 3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False
+Ammon_fn,10) Ammonites: Joshua 12: 2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False
+Midian_fn,"11) Midianites: Nombres 31: 2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False
+Amalek_fn,12) Amalekites: 1 Samuel 15: 2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False
+Teman_fn,13) Temanites: Job 42: 7,13) Temanites: Job 42:7,2025-09-22,bible,False
 Sidon_fn,14) Sidoniens: Zachariah 9: 2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False
 Heth_fn,15) Hittites: Genèse 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False
 Jebusite_fn,16) Jébusites: Joshua 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False
@@ -431,16 +431,16 @@ Habakuk,Habacuc,Habakuk, ,A6-B,False
 Daniel,Daniel,Daniel, ,A6-B,False
 Ezekiel,Ézéchiel,Ezekiel, ,A6-B,False
 Obadiah,Abdias,Obadiah, ,A6-B,False
-Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,False
-Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,False
-Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,False
-Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,False
-Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,False
-Babylon_c,Babylone,Babylon, ,B9,False
-Medopersia_c,Empire médo-perse,Medo-Persia, ,B9,False
-Greece_c,Grèce,Greece, ,B9,False
-Rome_c,Rome,Rome, ,B9,False
-Angloamerica_c,Anglo-Amérique,Anglo-America, ,B9,False
+Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True
+Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True
+Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True
+Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True
+Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True
+Babylon_c,Babylone,Babylon, ,B9,True
+Medopersia_c,Empire médo-perse,Medo-Persia, ,B9,True
+Greece_c,Grèce,Greece, ,B9,True
+Rome_c,Rome,Rome, ,B9,True
+Angloamerica_c,Anglo-Amérique,Anglo-America, ,B9,True
 daniel2_1,Destruction de Jérusalem,King Nebuchadnezzar,607 BCE,B9,True
 daniel2_2,par le roi Nabuchodonosor,destroys Jerusalem,appendix B9,B9,True
 daniel2_3,Conquête de Babylone,Conquers Babylon,539 BCE,B9,True
@@ -460,14 +460,14 @@ daniel2_12,anglo-américaine,comes into being,End 4.2,B9,True
 63BCE,63 av. n. è.,63 B.C.E.,prior to the year,B9,True
 70CE,70 de n. è.,70 C.E.,and something,B9,True
 1914CE,1914-1918 n. è.,1914-1918 C.E.,after the year,B9,True
-daniel2_shift,5,5,Start 4.2,float,False
-7times,Apocalypse 12:9,Revelation 12:9, ,scripture,False
-infliction2,Actes 7:6,Acts 7:6, ,scripture,False
-eastern-zhou,770-256 av. n. è.,770-256 BC, ,span_bc,False
-430years,1943 – 1513 av. n. è.,1943 – 1513 B.C.E., ,span_bce,False
-eastern-han,25-220 de n. è.,25-220 CE, ,span_ce,False
-northern-dynasties,368-581 de n. è.,368-581 CE, ,span_ce,False
-southern-dynasties,420-589 de n. è.,420-589 CE, ,span_ce,False
+daniel2_shift,5,5,Start 4.2,float,True
+7times,Apocalypse 12:9,Revelation 12:9, ,scripture,True
+infliction2,Actes 7:6,Acts 7:6, ,scripture,True
+eastern-zhou,770-256 av. n. è.,770-256 BC, ,span_bc,True
+430years,1943 – 1513 av. n. è.,1943 – 1513 B.C.E., ,span_bce,True
+eastern-han,25-220 de n. è.,25-220 CE, ,span_ce,True
+northern-dynasties,368-581 de n. è.,368-581 CE, ,span_ce,True
+southern-dynasties,420-589 de n. è.,420-589 CE, ,span_ce,True
 khmer_empire,804 – 1431,804 – 1431, ,timespan,True
 byzantine_empire,330 – 1453,330 – 1453, ,timespan,True
 ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
@@ -534,7 +534,7 @@ Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False
 wulfila,Bible de Wulfila,Wulfila Bible,2025-09-20,wiki,True
 tran_dynasty_c,Dynastie Trần,Trần dynasty, ,wiki,True
 le_dynasty_c,Dynastie Lê,Lê dynasty, ,wiki,True
-revival_le_dynasty_c,Dynastie des Lê postérieurs,Trịnh lords and Nguyễn lords,Nhà Lê trung hưng,wiki,False
+revival_le_dynasty_c,Dynastie des Lê postérieurs,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False
 seljuk_empire_c,Empire seldjoukide,Seljuk empire, ,wiki,False
 vandals_c,Vandales,Vandals, ,wiki,False
 lombard_c,Royaume Lombard,Lombard Kingdom,2025-10-13,wiki,False
@@ -542,31 +542,31 @@ people,personnes,people, ,deprecated,False
 judges,juges,judges, ,deprecated,False
 prophets,prophètes,prophets, ,deprecated,False
 kings,rois,kings, ,deprecated,False
-periods,périodes,periods, ,deprecated,False
-events,événements,events, ,deprecated,False
-objects,objets ou choses,objects or items, ,deprecated,False
-event_destruction_samaria2,740 av. n. è. par Assyrie,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
-photodrama,Le « Photo-Drame de la Création » est présenté pour la première fois à New York le 11 janvier 1914.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
+periods,périodes,periods, ,deprecated,True
+events,événements,events, ,deprecated,True
+objects,objets ou choses,objects or items, ,deprecated,True
+event_destruction_samaria2,740 av. n. è. par Assyrie,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,True
+photodrama,Le « Photo-Drame de la Création » est présenté pour la première fois à New York le 11 janvier 1914.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,True
 truth_book,Le livre « La vérité qui mène à la vie éternelle » est sorti en 1968.,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,Début du témoignage métropolitain en 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,Début de JW.ORG avec des instructions pour le ministère du Royaume en décembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,Début de jw.broadcasting en octobre 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,Nouveau format de réunion en milieu de semaine avec « Cahier Vie et Ministère » à partir de janvier 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
-Gatam,Gatam,Gatam, ,deprecated,True
-Adbeel,Adbéel,Adbeel, ,deprecated,True
-Mibsam,Mibsam,Mibsam, ,deprecated,True
-Dumah,Douma,Dumah, ,deprecated,True
-Massa,Massa,Massa, ,deprecated,True
-Babylon2, , ,no text left and right – empty!,deprecated,False
 terahfam,membres de la famille de Terah,Members of Terah’s family, ,deprecated,False
-tang-dynasty1, , , ,deprecated,False
+metropolitan,Début du témoignage métropolitain en 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,Début de JW.ORG avec des instructions pour le ministère du Royaume en décembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,True
+Gatam,Gatam,Gatam,Genesis 36:11,deprecated,True
+Adbeel,Adbéel,Adbeel,Genesis 25:13,deprecated,True
+Mibsam,Mibsam,Mibsam,Genesis 25:13,deprecated,True
+Dumah,Douma,Dumah,Genesis 25:14,deprecated,True
+Massa,Massa,Massa,Genesis 25:14,deprecated,True
+tang-dynasty1, , , ,deprecated,True
 xia-dynasty,Dynastie Xia en Chine c. 2070 – vers 2070 1600 av. n. è.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
-Midianites,"1) Madianites : Nombres 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
-Moabites,"2) Moabites : Deutéronome 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
-Ammonites,3) Ammonites : Josué 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
-Edomites,4) Édomites : Nombres 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
-Temanites,5) Témanites : Job 42:7,5) Temanites: Job 42:7, ,deprecated,False
-Amalekites,6) Amalécites : 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
-king_south_light, , ,2025-02-05,deprecated,False
-king_north_light, , ,2025-02-05,deprecated,False
-daniel2_iron, , ,2025-02-05,deprecated,False
+Midianites,"1) Madianites : Nombres 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,True
+Moabites,"2) Moabites : Deutéronome 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,True
+Ammonites,3) Ammonites : Josué 12:2,3) Ammonites: Joshua 12:2, ,deprecated,True
+Edomites,4) Édomites : Nombres 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,True
+Temanites,5) Témanites : Job 42:7,5) Temanites: Job 42:7, ,deprecated,True
+Amalekites,6) Amalécites : 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,True
+king_south_light, , ,2025-02-05,deprecated,True
+king_north_light, , ,2025-02-05,deprecated,True
+daniel2_iron, , ,2025-02-05,deprecated,True

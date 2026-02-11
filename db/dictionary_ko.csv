@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.01,6.01, ,float,False
-pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,2026-01-16,text,False
+version,6.01,6.02, ,float,False
+pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,2026-02-11,text,False
 pdf_subject,인류의 타임라인,Timeline of humankind,6.01,text,False
 BCE,기원전,B.C.E.,appendix B9,B9,True
 CE,기원후,C.E., ,B9,False
@@ -366,6 +366,16 @@ Lud_fn,17) 리디아인: 역대상 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish A
 Ishmael_fn,18) 이스마엘 사람들: 창세기 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) 아모리 족속: 사사기 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) 히위족[기브온]: 여호수아 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,카인,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,아벨,Abel,Genesis 4:2,bible,False
+Irad,이라드,Irad,Genesis 4:18,bible,False
+Mehujael,메후야엘,Mehujael,Genesis 4:18,bible,False
+Methushael,므두사엘,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,야발,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,유발,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,질라,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,두발가인,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,나아마,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,르호보암,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,아비야(아비얌),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,아사,Asa,A6-A,A6-A,False
