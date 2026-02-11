@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.01,6.01,6.01,float,True
-pdf_title,6000 ans d'histoire humaine visualisés,6000 years human history visualized,2026-01-16,text,False
+version,6.01,6.02,6.01,float,True
+pdf_title,6000 ans d'histoire humaine visualisés,6000 years human history visualized,2026-02-11,text,False
 pdf_subject,Chronologie de l'humanité,Timeline of humankind,6.01,text,False
 BCE,av. n. è.,B.C.E.,appendix B9,B9,True
 CE,de n. è.,C.E., ,B9,True
@@ -366,6 +366,16 @@ Lud_fn,17) Lydiens: 1 Chroniques 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Ant
 Ishmael_fn,18) Ismaélites: Genèse 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) Amorites: juges 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) Hivites [Gibeon]: Joshua 9: 3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,Caïn,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,Abel,Abel,Genesis 4:2,bible,False
+Irad,Irad,Irad,Genesis 4:18,bible,False
+Mehujael,Mehujaël,Mehujael,Genesis 4:18,bible,False
+Methushael,Mathushaël,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Tubal-Caïn,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,Naama,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Roboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,Abia (Abiyam),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,Asa,Asa,A6-A,A6-A,False
