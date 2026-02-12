@@ -7,53 +7,63 @@ app = Flask(__name__)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../db"))
 SUPPORTED_LANG_FILE = os.path.join(BASE_DIR, "supported_languages.csv")
 
-# in‑memory cache
 DATA_CACHE = {}
 ORIGINAL_CACHE = {}
+HISTORY = {}
 
 # ---------- Helpers ----------
 
 def load_supported_languages():
     df = pd.read_csv(SUPPORTED_LANG_FILE)
     df = df[df["dict"] == True]
-    return df[["key", "language_str"]].to_dict(orient="records")
+    return df[["key","language_str"]].to_dict(orient="records")
 
 
 def dict_path(lang):
-    return os.path.join(BASE_DIR, f"dictionary_{lang}.csv")
+    return os.path.join(BASE_DIR,f"dictionary_{lang}.csv")
 
 
 def load_dict(lang):
-    path = dict_path(lang)
     if lang not in DATA_CACHE:
-        if not os.path.exists(path):
-            df = pd.DataFrame(columns=["key","text","english","tag","checked"])
+        path=dict_path(lang)
+        if os.path.exists(path):
+            df=pd.read_csv(path)
         else:
-            df = pd.read_csv(path)
+            df=pd.DataFrame(columns=["key","text","english","tag","checked"])
         if "checked" not in df.columns:
-            df["checked"] = False
-        DATA_CACHE[lang] = df.copy()
-        ORIGINAL_CACHE[lang] = df.copy()
+            df["checked"]=False
+        DATA_CACHE[lang]=df.copy()
+        ORIGINAL_CACHE[lang]=df.copy()
+        HISTORY[lang]=[]
     return DATA_CACHE[lang]
 
 
 def save_dict(lang):
-    DATA_CACHE[lang].to_csv(dict_path(lang), index=False)
-    ORIGINAL_CACHE[lang] = DATA_CACHE[lang].copy()
+    DATA_CACHE[lang].to_csv(dict_path(lang),index=False)
+    ORIGINAL_CACHE[lang]=DATA_CACHE[lang].copy()
+    HISTORY[lang]=[]
 
 
-def filter_df(df, tag):
-    tag = tag.lower()
-    if tag == "a6":
+def filter_df(df,tag):
+    tag=tag.lower()
+    if tag=="a6":
         return df[df["tag"].str.lower().isin(["a6-a","a6-b"])]
-    if tag == "b9":
+    if tag=="b9":
         return df[df["tag"].str.lower()=="b9"]
-    if tag == "wiki":
+    if tag=="wiki":
         return df[df["tag"].str.lower()=="wiki"]
-    if tag == "others":
+    if tag=="others":
         return df[df["tag"].str.lower().isin(["deprecated","scripture","span_bc","span_bce","span_ce"])]
     return df[df["tag"].str.lower()==tag]
 
+
+def record_history(lang,row_key,column,old,new):
+    HISTORY.setdefault(lang,[]).append({
+        "key":row_key,
+        "col":column,
+        "old":old,
+        "new":new
+    })
 
 # ---------- API ----------
 
@@ -64,26 +74,47 @@ def api_languages():
 
 @app.route("/api/data")
 def api_data():
-    lang = request.args.get("lang","de")
-    tag = request.args.get("tag","text")
-    df = load_dict(lang)
-    df = filter_df(df, tag)
-    return jsonify(df[["key","text","english","checked"]].to_dict(orient="records"))
+    lang=request.args.get("lang","de")
+    tag=request.args.get("tag","text")
+    df=filter_df(load_dict(lang),tag)
+    return jsonify(df[["key","text","english","checked"]].to_dict("records"))
 
 
-@app.route("/api/toggle", methods=["POST"])
+@app.route("/api/toggle",methods=["POST"])
 def api_toggle():
     d=request.json
     df=load_dict(d["lang"])
-    df.loc[df["key"]==d["key"],"checked"]=bool(d["checked"])
+    idx=df.index[df["key"]==d["key"]][0]
+    old=df.at[idx,"checked"]
+    new=bool(d["checked"])
+    if old!=new:
+        record_history(d["lang"],d["key"],"checked",old,new)
+        df.at[idx,"checked"]=new
     return jsonify({"ok":True})
 
 
-@app.route("/api/edit_text", methods=["POST"])
+@app.route("/api/edit_text",methods=["POST"])
 def api_edit_text():
     d=request.json
     df=load_dict(d["lang"])
-    df.loc[df["key"]==d["key"],"text"]=d["text"]
+    idx=df.index[df["key"]==d["key"]][0]
+    old=df.at[idx,"text"]
+    new=d["text"]
+    if str(old)!=str(new):
+        record_history(d["lang"],d["key"],"text",old,new)
+        df.at[idx,"text"]=new
+    return jsonify({"ok":True})
+
+
+@app.route("/api/undo",methods=["POST"])
+def api_undo():
+    lang=request.json["lang"]
+    hist=HISTORY.get(lang,[])
+    if not hist:
+        return jsonify({"ok":False})
+    last=hist.pop()
+    df=load_dict(lang)
+    df.loc[df["key"]==last["key"],last["col"]]=last["old"]
     return jsonify({"ok":True})
 
 
@@ -103,10 +134,7 @@ def api_stats():
     out={}
     for k,tags in groups.items():
         sub=df[df["tag"].isin(tags)]
-        if len(sub)==0:
-            out[k]=0
-        else:
-            out[k]=round(100*sub["checked"].fillna(False).astype(bool).sum()/len(sub),1)
+        out[k]=0 if len(sub)==0 else round(100*sub["checked"].astype(bool).sum()/len(sub),1)
     return jsonify(out)
 
 
@@ -115,25 +143,29 @@ def api_changes():
     lang=request.args.get("lang","de")
     cur=DATA_CACHE.get(lang)
     orig=ORIGINAL_CACHE.get(lang)
-    if cur is None or orig is None:
+    if cur is None:
         return jsonify([])
-
     merged=cur.merge(orig,on="key",suffixes=("_new","_old"))
     changed=merged[(merged["checked_new"]!=merged["checked_old"])|
                    (merged["text_new"]!=merged["text_old"])]
-
     return jsonify(changed[[
         "key",
         "checked_old","checked_new",
         "text_old","text_new"
-    ]].to_dict(orient="records"))
+    ]].to_dict("records"))
 
 
-@app.route("/api/export", methods=["POST"])
+@app.route("/api/export",methods=["POST"])
 def api_export():
     lang=request.json["lang"]
     save_dict(lang)
     return jsonify({"saved":True})
+
+
+@app.route("/api/unsaved")
+def api_unsaved():
+    lang=request.args.get("lang","de")
+    return jsonify({"count":len(HISTORY.get(lang,[]))})
 
 
 # ---------- UI ----------
@@ -143,7 +175,6 @@ HTML="""
 <html>
 <head>
 <meta charset='utf-8'>
-<title>Editor</title>
 <style>
 body{font-family:Arial;margin:20px}
 button{margin:3px;padding:6px 12px}
@@ -151,17 +182,20 @@ table{border-collapse:collapse;width:100%;margin-top:10px}
 th,td{border:1px solid #ccc;padding:6px}
 th{background:#eee}
 .tagbtn.active{background:#4CAF50;color:white}
+.badge{background:red;color:white;border-radius:12px;padding:2px 8px;margin-left:6px}
 </style>
 </head>
 <body>
-<h2>Dictionary Web Editor</h2>
+<h2>Dictionary Editor <span id='unsaved' class='badge'>0</span></h2>
 
 <select id='lang'></select>
 <span id='tags'></span>
 <br><br>
 <button onclick='showChanges()'>Check changes</button>
+<button onclick='undo()'>Undo</button>
 <button onclick='exportFile()'>Export dictionary</button>
-<pre id='changes'></pre>
+
+<div id='changes'></div>
 
 <table>
 <thead>
@@ -181,6 +215,12 @@ const tagList=[
  {label:"wiki",value:"wiki"},
  {label:"Other",value:"others"}
 ];
+
+async function updateBadge(){
+ let lang=document.getElementById("lang").value||"de";
+ let j=await fetch(`/api/unsaved?lang=${lang}`).then(r=>r.json());
+ document.getElementById("unsaved").innerText=j.count;
+}
 
 async function makeTagButtons(){
  let lang=document.getElementById("lang").value||"de";
@@ -231,30 +271,17 @@ async function reload(){
 
  rows.forEach(r=>{
   let tr=document.createElement("tr");
-
   let textCell=`<td contenteditable='true' data-key='${r.key}'>${r.text||""}</td>`;
-
-  tr.innerHTML=`
-   <td>${r.key}</td>
-   ${textCell}
-   <td>${r.english||""}</td>
-   <td><input type='checkbox' ${r.checked?"checked":""}></td>`;
+  tr.innerHTML=`<td>${r.key}</td>${textCell}<td>${r.english||""}</td><td><input type='checkbox' ${r.checked?"checked":""}></td>`;
 
   tr.querySelector("input").onchange=async e=>{
-   await fetch("/api/toggle",{
-    method:"POST",
-    headers:{"Content-Type":"application/json"},
-    body:JSON.stringify({lang,key:r.key,checked:e.target.checked})
-   });
-   makeTagButtons();
+   await fetch("/api/toggle",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({lang,key:r.key,checked:e.target.checked})});
+   makeTagButtons();updateBadge();
   };
 
   tr.querySelector("[contenteditable]").onblur=async e=>{
-   await fetch("/api/edit_text",{
-    method:"POST",
-    headers:{"Content-Type":"application/json"},
-    body:JSON.stringify({lang,key:r.key,text:e.target.innerText})
-   });
+   await fetch("/api/edit_text",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({lang,key:r.key,text:e.target.innerText})});
+   updateBadge();
   };
 
   tb.appendChild(tr);
@@ -264,35 +291,40 @@ async function reload(){
 async function showChanges(){
  let lang=document.getElementById("lang").value;
  let data=await fetch(`/api/changes?lang=${lang}`).then(r=>r.json());
- document.getElementById("changes").textContent=JSON.stringify(data,null,2);
+ let div=document.getElementById("changes");
+ if(!data.length){div.innerHTML="No changes";return}
+ let html="<table><tr><th>Key</th><th>Checked before</th><th>Checked after</th><th>Text before</th><th>Text after</th></tr>";
+ data.forEach(r=>{
+  html+=`<tr><td>${r.key}</td><td>${r.checked_old}</td><td>${r.checked_new}</td><td>${r.text_old||""}</td><td>${r.text_new||""}</td></tr>`;
+ });
+ html+="</table>";
+ div.innerHTML=html;
+}
+
+async function undo(){
+ let lang=document.getElementById("lang").value;
+ await fetch("/api/undo",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({lang})});
+ reload();makeTagButtons();updateBadge();
 }
 
 async function exportFile(){
  let lang=document.getElementById("lang").value;
- await fetch("/api/export",{
-  method:"POST",
-  headers:{"Content-Type":"application/json"},
-  body:JSON.stringify({lang})
- });
- alert("Dictionary saved to CSV.");
- makeTagButtons();
+ await fetch("/api/export",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({lang})});
+ updateBadge();alert("Saved.");
 }
 
-document.getElementById("lang").onchange=()=>{makeTagButtons();reload();};
+document.getElementById("lang").onchange=()=>{makeTagButtons();reload();updateBadge();};
 
-loadLanguages().then(()=>{makeTagButtons();reload();});
+loadLanguages().then(()=>{makeTagButtons();reload();updateBadge();});
 </script>
 </body>
 </html>
 """
 
-
 @app.route("/")
 def index():
     return render_template_string(HTML)
 
-
-# ---------- Run ----------
 
 if __name__=="__main__":
     app.run(debug=True,port=5000)

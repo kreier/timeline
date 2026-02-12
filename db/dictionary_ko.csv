@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,6.01,6.02, ,float,False
-pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,2026-02-12,text,False
+pdf_title,한눈에 보는 인류 6000년 역사,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,인류의 타임라인,Timeline of humankind,6.01,text,False
 BCE,기원전,B.C.E.,appendix B9,B9,True
 CE,기원후,C.E., ,B9,False
@@ -12,10 +12,10 @@ to,～,to, ,text,False
 Deluge,대홍수,Deluge, ,text,False
 moses2,기원전 1593년~1473년 – 120년,1593 to 1473 B.C.E. – 120 years, ,text,False
 temple1,기원전 1513년 니산월~1034년 시브월,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False
-69weeks,예수께서는 기원 29년 가을에 침례를 받음.,Jesus baptized autumn 29 C.E., ,text,False
-year,년,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False
+69weeks,예수께서는 기원 29년 가을에 침례를 받음.,Jesus baptized autumn 29 C.E., ,text,True
+year,년,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True
 years,년,years, ,text,False
-years_age,세,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
+years_age,세,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True
 age_kings,세에, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
 wilderness,이스라엘의 광야 생활 기원전 1513년~1473년 – 40년,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
 timespan_judges,기원전 1473년~1117년 – 356년,1473 to 1117 B.C.E. – 356 years, ,text,False
