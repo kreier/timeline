@@ -12,7 +12,7 @@ import datetime, sys, os, asyncio, qrcode
 version  = 6.02
 language = "en"
 language_str = "English"
-color_scheme = "normal"
+color_scheme = "rgb"
 mm           = 2.834645669                # document is in pt, 46 rows with 12pt height, text 10pt
 border_lr    = 10*mm                      # space left/right usually 10, for roll holders 60
 border_tb    = 7*mm                       # space for the years top and bottom
@@ -207,8 +207,8 @@ def create_canvas(edition):
     # Draw small lines into the corners for the print edition, since print shops import only the
     # content area and exclude the white space from the desired print area
     factor_width = page_width / 2
-    # if edition == "digital":
-    #     factor_width = 10 
+    if edition == "digital":
+        factor_width = 10 
     pdf.set_line_width(0.1)
     pdf.set_draw_color(r=0, g=0, b=0)
     cornerpoints = [[0.1, 0.1, 1, 1], [page_width - 0.2, 0.1, -1, 1], [0.1, page_height - 0.2, 1, -1], [page_width - 0.2, page_height - 0.2, -1, -1]]
@@ -326,7 +326,8 @@ def create_adam_moses():
     # one special for Job
     co = color['books']
     job_y = 40.83           # see books.csv for the text and second timebar at 41.9
-    pdf.set_fill_color(r=191 + 64 * co[0], g=191 + 64 * co[1], b=191 + 64 * co[2])
+    pdf.set_fill_color(r=191 + 0.25 * co[0], g=191 + 0.25 * co[1], b=191 + 0.25 * co[2])
+    # pdf.set_fill_color(r=191 + 64 * co[0], g=191 + 64 * co[1], b=191 + 64 * co[2])
     # c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
     y_start = y_position(job_y)
@@ -352,8 +353,9 @@ def create_adam_moses():
         x_boxwidth = x_position(born) - x_position(died)
         x_text = x_box + x_boxwidth * 0.5
         co = color[f"{row.key}"]
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
-        pdf.set_line_width(0.3)
+        pdf.set_fill_color(co[0], co[1], co[2])
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
         pdf.rect(x_box, y_box, x_boxwidth, 19, style="FD") # Boxes are 19 pt high, 21 pt seperated from one another - 20.5 since 5.1
         y_box += y_offset
@@ -433,13 +435,15 @@ def create_judges():
         pdf.set_line_width(0.2)
         pdf.set_draw_color(0)
         co = color['judges']
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
         pdf.rect(x_box, y_box, x_boxwidth, 2, style="FD")           # peaceful period afterwards
         oppression   = row.oppression
         x_oppression = x_position(start - oppression)
         x_opp_width  = x_box - x_oppression
         co = color['oppression']
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
         pdf.rect(x_oppression, y_box, x_opp_width, 2, style="FD")   # years of opression before
         judge = dict[row.key]
         drawString(judge, fontsize_regular, x_box + x_boxwidth * 0.5 , y_box + 4, "c", True)
@@ -492,7 +496,8 @@ def create_kings():
         pdf.line(x_born, y_box + 1, x_born, y_box + 11)           # -3-5 = -8 and -3+5 = +2
         # box to indicate time of reign
         co = color[row.key]
-        pdf.set_fill_color(255*co[0], 255*co[1], 255*co[2])
+        pdf.set_fill_color(co[0], co[1], co[2])
+        # pdf.set_fill_color(255*co[0], 255*co[1], 255*co[2])
         pdf.rect(x_box, y_box, x_boxwidth, 12, style="FD")       # offset y_box was -3 - now its zero
         y_box += 1
         if index < 23:
@@ -502,10 +507,12 @@ def create_kings():
         counter_kings += 1
 
 def faded_color(red, green, blue, percent):
-    return [1 - percent * (1 - red), 1 - percent * (1 - green), 1 - percent * (1 - blue)]
+    # return [1 - percent * (1 - red), 1 - percent * (1 - green), 1 - percent * (1 - blue)]
+    return [255 - percent * (255 - red), 255 - percent * (255 - green), 255 - percent * (255 - blue)]
 
 def timebar(x, y, width, R, G, B, exact):
-    pdf.set_fill_color(R*255, G*255, B*255)
+    # pdf.set_fill_color(R*255, G*255, B*255)
+    pdf.set_fill_color(R, G, B)
     if width < 0:
         x += width
         width = -width
@@ -515,7 +522,8 @@ def timebar(x, y, width, R, G, B, exact):
     fade_steps = 35
     for i in range(fade_steps):
         co = faded_color(R, G, B, (i+1)/fade_steps)
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
         pdf.rect(x + 3 * i/fade_steps - 0.1,   y, 1, 4, style="F")
         pdf.rect(x + width - 3 * i/fade_steps, y, 1, 4, style="F")
 
@@ -603,7 +611,8 @@ def create_periods():
         if row.key == "millenium" and render_type == "print":
             x_boxwidth = x_position(end + 230) - x_position(start) 
         co = color[f"{row.key}"]
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
         if row.end_fade > row.end or row.start_fade < row.start:
@@ -621,7 +630,8 @@ def create_periods():
             fade_steps = 50
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
-                pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
+                # pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
+                pdf.set_fill_color(cl[0], cl[1], cl[2])
                 pdf.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps - 0.2 * shift, y_box - 1, fade_width / 45, 12, style="F")
         # add fading if specified at the start of the time period
         if row.start_fade < row.start:                                          # fade start
@@ -631,7 +641,8 @@ def create_periods():
             fade_steps = 50
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
-                pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
+                # pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
+                pdf.set_fill_color(cl[0], cl[1], cl[2])
                 pdf.rect(x_box + fade_width * i/fade_steps + 0.2 * shift, y_box - 1, fade_width / 45, 12, style="F")
         # add text in the center of the time period
         if len(row.text_center) > 1:
@@ -681,7 +692,8 @@ def create_caesars():
         pdf.line(x_born, y_box + 6, x_box,  y_box + 6)           # offset with fpdf2 is -3, was +3 with reportlab
         pdf.line(x_born, y_box + 1, x_born, y_box + 11)          # -3-5 = -8 and -3+5 = +2
         co = color['caesars']
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
         pdf.rect(x_box, y_box, x_boxwidth, 12, style="FD")       # offset y_box was -3 - now its zero
         y_box += 1
         drawString(detail, fontsize_regular, x_box + x_boxwidth + 2 * direction_factor, y_box, direction, False)
@@ -692,7 +704,8 @@ def tribulation_graphics(row):
     reference_y = y_position(row)
     pdf.set_line_width(0)
     co = color["tribulation1"]
-    pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+    # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+    pdf.set_fill_color(co[0], co[1], co[2])
     pdf.rect(x_position(2030), reference_y, x_position(2035)-x_position(2030), 10, style="F") # box 2030-2035
     pdf.rect(x_position(2053), reference_y, x_position(2060)-x_position(2053), 10, style="F") # box 2053-2060
     for falter in range(3):
@@ -700,11 +713,13 @@ def tribulation_graphics(row):
         yf = reference_y - 1.64
         d=direction_factor
         co = color["tribulation2"]
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
         points = ((xf, yf+1.64), (xf + 1.64*d, yf+0), (xf + 1.64*d, yf+10), (xf, yf+11.64))
         pdf.polygon(points, style="F")
         co = color["tribulation3"]
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
         points = ((xf+3.30*d, yf+1.64), (xf + 1.64*d, yf+0), (xf + 1.64*d, yf+10), (xf+3.30*d, yf+11.64))
         pdf.polygon(points, style="F")
 
@@ -762,9 +777,11 @@ def create_terah_familytree():
         pdf.set_fill_color(255)
         pdf.set_draw_color(255)
         pdf.rect(x - 0.5 * text_width - 1, y, text_width + 2, 10, style = "FD")
-        pdf.set_text_color(blue[0]*255, blue[1]*255, blue[2]*255)
+        # pdf.set_text_color(blue[0]*255, blue[1]*255, blue[2]*255)
+        pdf.set_text_color(blue[0], blue[1], blue[2])
         if row.color == "red": # men in blue, women in red
-            pdf.set_text_color(red[0]*255, red[1]*255, red[2]*255)
+            # pdf.set_text_color(red[0]*255, red[1]*255, red[2]*255)
+            pdf.set_text_color(red[0], red[1], red[2])
         drawString(dict[row.key], fontsize_Terah, x, y, "c", False)
         # check if key is in footnotes to add a superscript number, footnotes itself rendered later
         if row.key in footnotes['key'].values:
@@ -837,7 +854,8 @@ def include_pictures_svg():
     drawString("source: https://www.worldometers.info/world-population/#table-historical", 4, population_x, y_position(population_y + 1), direction, False)
     population_color = color["world_population"]
     pdf.set_font(font_regular, "", 10)
-    pdf.set_text_color(population_color[0]*255, population_color[1]*255, population_color[2]*255)
+    # pdf.set_text_color(population_color[0]*255, population_color[1]*255, population_color[2]*255)
+    pdf.set_text_color(population_color[0], population_color[1], population_color[2])
     drawString(dict["world_population"], 10, population_x, y_position(population_y) , direction, False)
 
 def create_daniel2():                   # reference image has dimensions 748 x 240
@@ -866,10 +884,12 @@ def create_daniel2():                   # reference image has dimensions 748 x 2
     for index, kingdom in enumerate(kingdoms):
         pdf.set_line_width(0.4)
         co = color["daniel2"]
-        pdf.set_draw_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_draw_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_draw_color(co[0], co[1], co[2])
         y_line = y2 - shift_upward - d2_height * (0.91 - index * 0.212)
         pdf.line(x_position(left_x+226) + image_shift + kingdom_x[index], y_line, x_position(left_x), y_line)
-        pdf.set_text_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_text_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_text_color(co[0], co[1], co[2])
         pdf.set_font(font_bold, "", 12)
         drawString(dict[kingdom + "_c"], 12, x_position(left_x), y_line + 2, direction, False)
         pdf.set_text_color(50)
@@ -985,7 +1005,7 @@ def create_timeline(lang, edition):
     language = lang
     initiate_counters()
     import_dictionary()
-    import_colors("normal")
+    import_colors("rgb")
     create_canvas(edition)
     create_horizontal_axis()
     create_adam_moses()
