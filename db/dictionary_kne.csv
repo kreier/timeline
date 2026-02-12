@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,5.5,6.02, ,float,True
+version,6.02,6.02, ,float,True
 pdf_title,Picture di 6000 ay tawen ay history di ipogao,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Timeline di sangatauan,Timeline of humankind,5.5,text,False
 BCE,K.K.P.,B.C.E.,appendix B9,B9,True
@@ -460,7 +460,6 @@ daniel2_12,a Turay iti Lubong,comes into being,End 4.2,B9,False
 63BCE,63 K.K.P.,63 B.C.E.,prior to the year,B9,False
 70CE,70 K.P.,70 C.E.,and something,B9,False
 1914CE,1914-1918 K.P.,1914-1918 C.E.,after the year,B9,False
-daniel2_shift,-5,-5,Start 4.2,float,False
 7times,Apocalipsis 12:9,Revelation 12:9, ,scripture,False
 infliction2,Acts 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,770-256 K.K.P.,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,Membro ti pamilya ni Tera,Members of Terah’s family, ,deprecated,Fals
 metropolitan,Nanrugi nan panangasaba di metropolitan idi 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,Nangrugi ti JW.ORG nga addaan kadagiti instruksion iti ministerio iti pagarian Disiembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,-5,-5,Start 4.2,deprecated,False
 Gatam,Gatam,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Mibsam,Mibsam, ,deprecated,False

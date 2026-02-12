@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,5.8,6.02,5.8,float,True
+version,6.02,6.02,5.8,float,True
 pdf_title,Bamvula 6000 ya disolo ya bantu kemonanaka,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Ntangu ya bantu,Timeline of humankind,5.8,text,False
 BCE,N.T.B.,B.C.E.,appendix B9,B9,True
@@ -460,7 +460,6 @@ daniel2_12,huja kuwa,comes into being,End 4.2,B9,True
 63BCE,63 B.C.E.,63 B.C.E.,prior to the year,B9,True
 70CE,70 C.E.,70 C.E.,and something,B9,True
 1914CE,1914-1918 C.E.,1914-1918 C.E.,after the year,B9,True
-daniel2_shift,-10,-10,Start 4.2,float,False
 7times,Ufunuo 12: 9,Revelation 12:9, ,scripture,False
 infliction2,Matendo 7: 6,Acts 7:6, ,scripture,False
 eastern-zhou,770-256 KK,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,Washiriki wa familia ya Tera,Members of Terah’s family, ,deprecated,F
 metropolitan,Kuanza kwa Ushuhuda wa Metropolitan mnamo 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,Kuanza kwa JW.org na maagizo katika Wizara ya Ufalme Desemba 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,-10,-10,Start 4.2,deprecated,False
 Gatam,Gatam,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Mibsam,Mibsam, ,deprecated,False

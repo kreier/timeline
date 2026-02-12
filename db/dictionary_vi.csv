@@ -460,7 +460,6 @@ daniel2_12,được hình thành,comes into being,End 4.2,B9,True
 63BCE,63 TCN,63 B.C.E.,prior to the year,B9,True
 70CE,70 CN,70 C.E.,and something,B9,True
 1914CE,1914-1918 CN,1914-1918 C.E.,after the year,B9,True
-daniel2_shift,-10,-10,Start 4.2,float,True
 7times,Khải huyền 12:9,Revelation 12:9, ,scripture,True
 infliction2,Công vụ 7:6,Acts 7:6, ,scripture,True
 eastern-zhou,770-256 TCN,770-256 BC, ,span_bc,True
@@ -554,6 +553,7 @@ terahfam,Các thành viên trong gia đình Tha-rê,Members of Terah’s family,
 metropolitan,Bắt đầu làm chứng tại đô thị vào năm 2011,Start of metropolitan witnessing in 2011, ,deprecated,True
 jw_org,Bắt đầu JW.ORG với những hướng dẫn trong Thánh Chức Nước Trời tháng 12 năm 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,True
 Babylon2, , ,no text left and right – empty!,deprecated,True
+daniel2_shift,-10,-10,Start 4.2,deprecated,True
 Gatam,Ga-tham,Gatam,Genesis 36:11,deprecated,True
 Adbeel,Át-bê-ên,Adbeel,Genesis 25:13,deprecated,True
 Mibsam,Mi-bô-sam,Mibsam,Genesis 25:13,deprecated,True

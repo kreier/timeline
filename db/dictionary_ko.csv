@@ -1,21 +1,21 @@
 key,text,english,notes,tag,checked
-version,6.01,6.02, ,float,False
-pdf_title,시각화된 6000년 인류 역사,6000 years human history visualized,2026-02-12,text,False
+version,6.02,6.02, ,float,False
+pdf_title,한눈에 보는 인류 6000년 역사,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,인류의 타임라인,Timeline of humankind,6.01,text,False
 BCE,기원전,B.C.E.,appendix B9,B9,True
 CE,기원후,C.E., ,B9,False
 month,개월,month, ,text,False
-months,개월,months, ,text,False
+months,개월,months, ,text,True
 day,낮,day, ,text,False
 days,일,days, ,text,False
 to,～,to, ,text,False
-Deluge,대홍수,Deluge, ,text,False
+Deluge,노아의 대홍수,Deluge, ,text,False
 moses2,기원전 1593년~1473년 – 120년,1593 to 1473 B.C.E. – 120 years, ,text,False
 temple1,기원전 1513년 니산월~1034년 시브월,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False
-69weeks,예수께서는 기원 29년 가을에 침례를 받음.,Jesus baptized autumn 29 C.E., ,text,False
-year,년,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False
+69weeks,예수께서는 기원 29년 가을에 침례를 받음.,Jesus baptized autumn 29 C.E., ,text,True
+year,년,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True
 years,년,years, ,text,False
-years_age,세,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
+years_age,세,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True
 age_kings,세에, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
 wilderness,이스라엘의 광야 생활 기원전 1513년~1473년 – 40년,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
 timespan_judges,기원전 1473년~1117년 – 356년,1473 to 1117 B.C.E. – 356 years, ,text,False
@@ -177,11 +177,11 @@ black_death,흑사병 1346-1353,Black death 1346-1353,1346-1353,text,False
 sui_dynasty,581-618 수나라,581-618 Sui dynasty,2025-11-09,text,True
 sui_dynasty_c,수나라,Sui,2025-11-09,text,True
 tribulation,"큰 환난 (마가복음 13:19; 다니엘 12:1; 마 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
-Adam,아담,Adam,Luke 3:38,bible,False
-Seth,셋,Seth, ,bible,False
+Adam,아담,Adam,Luke 3:38,bible,True
+Seth,셋,Seth, ,bible,True
 Enosh,에노스,Enosh, ,bible,True
-Kenan,게난,Kenan (Cainan),Genesis 5:12,bible,False
-Mahalalel,마할랄레엘,Mahalalel (Mahalaleel), ,bible,False
+Kenan,게난(가이난),Kenan (Cainan),Genesis 5:12,bible,True
+Mahalalel,마할랄레엘(마할랄레엘),Mahalalel (Mahalaleel), ,bible,True
 Jared,야렛,Jared, ,bible,True
 Enoch,에녹,Enoch, ,bible,True
 Methuselah,므두셀라,Methuselah,Luke 3:37,bible,False
@@ -376,61 +376,61 @@ Jubal,유발,Jubal,Genesis 4:21 play harp and pipe,bible,False
 Zillah,질라,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
 Tubal-cain,두발가인,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
 Naamah,나아마,Naamah,Genesis 4:22 his sister,bible,False
-Rehoboam,르호보암,Rehoboam,first king of southern kingdom of Juda,A6-A,False
-Abijah,아비야(아비얌),Abijah (Abijam),"3 years, also Abijam",A6-A,False
-Asa,아사,Asa,A6-A,A6-A,False
-Jehoshaphat,여호사밧,Jehoshaphat, ,A6-A,False
-Jehoram2,여호람,Jehoram, ,A6-A,False
-Ahaziah,아하시야,Ahaziah, ,A6-A,False
-Athaliah,아달랴 여왕,Queen Athaliah,Queen Athaliah,A6-A,False
-Jehoash,여호아스,Jehoash, ,A6-A,False
-Amaziah,아마샤,Amaziah, ,A6-A,False
-Uzziah,웃시야(아사랴),Uzziah (Azariah),also Azariah,A6-A,False
-Jeroboam,여로보암,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False
-Nadab,나답,Nadab,less than 2,A6-A,False
-Baasha,바아사,Baasha, ,A6-A,False
-Elah,엘라,Elah, ,A6-A,False
-Zimri,지므리,Zimri,Only 7 days in ca. 751 BCE,A6-A,False
-OmriTibni,오므리와 디브니,Omri and Tibni together,4 years Omri and Tibni,A6-A,False
-Omri,오므리 (단독으로),Omri (alone),from 947 Omri alone,A6-A,False
-Ahab,아합,Ahab, ,A6-A,False
-Jehoram,여호람,Jehoram, ,A6-A,False
-Jehu,예후,Jehu, ,A6-A,False
-Jeoahaz,여호아하스,Jeoahaz, ,A6-A,False
-JeoahazJehoash,여호아하스와 여호아스,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False
-Jehoash2,여호아스 (단독으로),Jehoash (alone),Jehoash (alone),A6-A,False
-Jeroboam2,여로보암 2세,Jeroboam II, ,A6-A,False
-Elijah,엘리야,Elijah, ,A6-A,False
-Elisha,엘리사,Elisha, ,A6-A,False
-Jonah,요나,Jonah, ,A6-A,False
-Amos,아모스,Amos, ,A6-A,False
-Joel,요엘,Joel, ,A6-A,False
-Jotham,요담,Jotham,A6-B,A6-B,False
-Ahaz,아하스,Ahaz, ,A6-B,False
-Hezekiah,히스기야,Hezekiah, ,A6-B,False
-Manasseh,므낫세,Manasseh, ,A6-B,False
-Amon,아몬,Amon, ,A6-B,False
-Josiah,요시야,Josiah, ,A6-B,False
-Jehoahaz,여호아하스,Jehoahaz,Only 3 months,A6-B,False
-Jehoiakim,여호야김,Jehoiakim, ,A6-B,False
-Jehoiachin,여호야긴,Jehoiachin,Only 3 months 10 days,A6-B,False
-Zedekiah,시드기야,Zedekiah, ,A6-B,False
-Zechariah,스가랴,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False
-Schallum,살룸,Schallum,only one month,A6-B,False
-Menahem,므나헴,Menahem, ,A6-B,False
-Pekahiah,브가히야,Pekahiah, ,A6-B,False
-Pekah,베가,Pekah, ,A6-B,False
-Hoshea,호셰아,Hoshea,9 years from c. 748,A6-B,False
-Hosea,호세아,Hosea, ,A6-B,False
-Isaiah,이사야,Isaiah, ,A6-B,False
-Micah,미가,Micah, ,A6-B,False
-Zephaniah,스바냐,Zephaniah, ,A6-B,False
-Nahum,나훔,Nahum, ,A6-B,False
-Jeremiah,예레미야,Jeremiah, ,A6-B,False
-Habakuk,하박국,Habakuk, ,A6-B,False
-Daniel,다니엘,Daniel, ,A6-B,False
-Ezekiel,에스겔,Ezekiel, ,A6-B,False
-Obadiah,오바댜,Obadiah, ,A6-B,False
+Rehoboam,르호보암,Rehoboam,first king of southern kingdom of Juda,A6-A,True
+Abijah,아비야(아비얌),Abijah (Abijam),"3 years, also Abijam",A6-A,True
+Asa,아사,Asa,A6-A,A6-A,True
+Jehoshaphat,여호사밧,Jehoshaphat, ,A6-A,True
+Jehoram2,여호람,Jehoram, ,A6-A,True
+Ahaziah,아하시야,Ahaziah, ,A6-A,True
+Athaliah,아달랴 여왕,Queen Athaliah,Queen Athaliah,A6-A,True
+Jehoash,여호아스,Jehoash, ,A6-A,True
+Amaziah,아마샤,Amaziah, ,A6-A,True
+Uzziah,웃시야(아사랴),Uzziah (Azariah),also Azariah,A6-A,True
+Jeroboam,여로보암,Jeroboam,first king of northern 10-tribe kingdom,A6-A,True
+Nadab,나답,Nadab,less than 2,A6-A,True
+Baasha,바아사,Baasha, ,A6-A,True
+Elah,엘라,Elah, ,A6-A,True
+Zimri,지므리,Zimri,Only 7 days in ca. 751 BCE,A6-A,True
+OmriTibni,오므리와 디브니,Omri and Tibni together,4 years Omri and Tibni,A6-A,True
+Omri,오므리 (단독으로),Omri (alone),from 947 Omri alone,A6-A,True
+Ahab,아합,Ahab, ,A6-A,True
+Jehoram,여호람,Jehoram, ,A6-A,True
+Jehu,예후,Jehu, ,A6-A,True
+Jeoahaz,여호아하스,Jeoahaz, ,A6-A,True
+JeoahazJehoash,여호아하스와 여호아스,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,True
+Jehoash2,여호아스 (단독으로),Jehoash (alone),Jehoash (alone),A6-A,True
+Jeroboam2,여로보암 2세,Jeroboam II, ,A6-A,True
+Elijah,엘리야,Elijah, ,A6-A,True
+Elisha,엘리사,Elisha, ,A6-A,True
+Jonah,요나,Jonah, ,A6-A,True
+Amos,아모스,Amos, ,A6-A,True
+Joel,요엘,Joel, ,A6-A,True
+Jotham,요담,Jotham,A6-B,A6-B,True
+Ahaz,아하스,Ahaz, ,A6-B,True
+Hezekiah,히스기야,Hezekiah, ,A6-B,True
+Manasseh,므낫세,Manasseh, ,A6-B,True
+Amon,아몬,Amon, ,A6-B,True
+Josiah,요시야,Josiah, ,A6-B,True
+Jehoahaz,여호아하스,Jehoahaz,Only 3 months,A6-B,True
+Jehoiakim,여호야김,Jehoiakim, ,A6-B,True
+Jehoiachin,여호야긴,Jehoiachin,Only 3 months 10 days,A6-B,True
+Zedekiah,시드기야,Zedekiah, ,A6-B,True
+Zechariah,스가랴,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,True
+Schallum,살룸,Schallum,only one month,A6-B,True
+Menahem,므나헴,Menahem, ,A6-B,True
+Pekahiah,브가히야,Pekahiah, ,A6-B,True
+Pekah,베가,Pekah, ,A6-B,True
+Hoshea,호셰아,Hoshea,9 years from c. 748,A6-B,True
+Hosea,호세아,Hosea, ,A6-B,True
+Isaiah,이사야,Isaiah, ,A6-B,True
+Micah,미가,Micah, ,A6-B,True
+Zephaniah,스바냐,Zephaniah, ,A6-B,True
+Nahum,나훔,Nahum, ,A6-B,True
+Jeremiah,예레미야,Jeremiah, ,A6-B,True
+Habakuk,하박국,Habakuk, ,A6-B,True
+Daniel,다니엘,Daniel, ,A6-B,True
+Ezekiel,에스겔,Ezekiel, ,A6-B,True
+Obadiah,오바댜,Obadiah, ,A6-B,True
 Babylon,"다니엘 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True
 Medopersia,"다니엘 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True
 Greece,"다니엘 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True
@@ -443,7 +443,7 @@ Rome_c,로마,Rome, ,B9,True
 Angloamerica_c,영국-미국,Anglo-America, ,B9,True
 daniel2_1,느부갓네살 왕이,King Nebuchadnezzar,607 BCE,B9,False
 daniel2_2,예루살렘을 멸망시키다,destroys Jerusalem, ,B9,False
-daniel2_3,바빌론을 정복하다,Conquers Babylon,539 BCE,B9,False
+daniel2_3,바빌론을 정복하다,Conquers Babylon,539 BCE,B9,True
 daniel2_4,유대인들이 예루살렘으로,Cyrus decrees return,537 BCE,B9,False
 daniel2_5,돌아가도록 키루스가 포고령을 내리다,of Jews to Jerusalem, ,B9,False
 daniel2_6,알렉산더 대왕이,Alexander the Great,331 BCE,B9,False
@@ -453,14 +453,13 @@ daniel2_9,예루살렘을 멸망시키다,Destroys Jerusalem,70 CE,B9,False
 daniel2_10,제1차 세계 대전 중에,"During World War I,",1914-1918 CE,B9,False
 daniel2_11,영미 세계 강국이 등장하다 등장하다,Anglo-American World Power, ,B9,False
 daniel2_12,생기다,comes into being,End 4.2,B9,False
-607BCE,기원전 607년,607 B.C.E.,accommodate for language,B9,False
-539BCE,기원전 539년,539 B.C.E.,systems in style:,B9,False
-537BCE,기원전 537년,537 B.C.E.,>>year 537 before time<<,B9,False
-331BCE,기원전 331년,331 B.C.E.,so they need a word,B9,False
-63BCE,기원전 63년,63 B.C.E.,prior to the year,B9,False
-70CE,기원 70년,70 C.E.,and something,B9,False
-1914CE,기원 1914-1918년,1914-1918 C.E.,after the year,B9,False
-daniel2_shift,17,17,Start 4.2,float,False
+607BCE,기원전 607년,607 B.C.E.,accommodate for language,B9,True
+539BCE,기원전 539년,539 B.C.E.,systems in style:,B9,True
+537BCE,기원전 537년,537 B.C.E.,>>year 537 before time<<,B9,True
+331BCE,기원전 331년,331 B.C.E.,so they need a word,B9,True
+63BCE,기원전 63년,63 B.C.E.,prior to the year,B9,True
+70CE,기원 70년,70 C.E.,and something,B9,True
+1914CE,기원 1914-1918년,1914-1918 C.E.,after the year,B9,True
 7times,요한 계시록 12:9,Revelation 12:9, ,scripture,False
 infliction2,사도행전 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,기원전 770-256년,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,데라의 가족들,Members of Terah’s family, ,deprecated,False
 metropolitan,2011년 대도시 증거 시작,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,2012년 12월 왕국 봉사지의 지침과 함께 JW.ORG 시작,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,17,17,Start 4.2,deprecated,False
 Gatam,가탐,Gatam, ,deprecated,False
 Adbeel,아드벨,Adbeel, ,deprecated,False
 Mibsam,밉삼,Mibsam, ,deprecated,False

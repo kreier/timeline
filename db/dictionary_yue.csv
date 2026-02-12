@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,4.6,6.02, ,float,False
+version,6.02,6.02, ,float,False
 pdf_title,6000年嘅人類歷史可視化,6000 years human history visualized,2026-02-12,text,False
 pdf_subject,人類大事記,Timeline of humankind, ,text,False
 BCE,B.C.E.,B.C.E.,appendix B9,B9,False
@@ -460,7 +460,6 @@ daniel2_12,嚟到存在,comes into being,End 4.2,B9,False
 63BCE,公元前 63 年,63 B.C.E.,prior to the year,B9,False
 70CE,70 C.E.,70 C.E.,and something,B9,False
 1914CE,1914-1918 公元 1918 年。,1914-1918 C.E.,after the year,B9,False
-daniel2_shift,0,0,Start 4.2,float,False
 7times,啟示錄12：9,Revelation 12:9, ,scripture,False
 infliction2,使徒行傳7：6,Acts 7:6, ,scripture,False
 eastern-zhou,公元前770-256年,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,Terah家人,Members of Terah’s family, ,deprecated,False
 metropolitan,2011年開始大都會見證,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,2012年12月，在王國事工中開始 JW.ORG,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,0,0,Start 4.2,deprecated,False
 Gatam,加塔姆,Gatam, ,deprecated,False
 Adbeel,阿德比爾,Adbeel, ,deprecated,False
 Mibsam,米布薩姆,Mibsam, ,deprecated,False

@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,5.5,6.02,5.5,float,True
+version,6.02,6.02,5.5,float,True
 pdf_title,ប្រវត្តិសាស្ត្រមនុស្សជាតិ អំឡុងពេល ៦០០០ឆ្នាំ,6000 years human history visualized,2026-02-12,text,False
 pdf_subject,ការកំណត់ពេលវេលារបស់មនុស្ស,Timeline of humankind,Timeline of humankind,text,False
 BCE,B.C.E.,B.C.E.,B.C.E.,B9,False
@@ -460,7 +460,6 @@ daniel2_12,ចាប់ផ្តើមកាន់កាប់,comes into being,
 63BCE,ឆ្នាំ​៦៣ មុន​គ.ស.,63 B.C.E.,63 B.C.E.,B9,False
 70CE,ឆ្នាំ​៧០ គ.ស.,70 C.E.,70 C.E.,B9,False
 1914CE,ឆ្នាំ​១៩១៤​ដល់​ឆ្នាំ​១៩១៨ គ.ស.,1914-1918 C.E.,1914-1918 C.E.,B9,False
-daniel2_shift,10,Start 4.2,10,float,False
 7times,វិវរណៈ ១២:៩,Revelation 12:9,Revelation 12:9,scripture,False
 infliction2,កិច្ចការ ៧:៦,Acts 7:6,Acts 7:6,scripture,False
 eastern-zhou,៧៧០-២៥៦ មុនគ.ស,770-256 BC,770-256 BC,span_bc,False
@@ -554,6 +553,7 @@ terahfam,សមាជិកនៃគ្រួសាររបស់ ថេរ៉�
 metropolitan,ការ​ចាប់​ផ្តើ​ម​នៃ​ការ​ធ្វើ​ជា​សាក្សី​ទី​ក្រុង​នៅ​ក្នុង ២០១១,Start of metropolitan witnessing in 2011,Start of metropolitan witnessing in 2011,deprecated,False
 jw_org,ការចាប់ផ្តើមនៃ JW.ORG ជាមួយនឹងការណែនាំក្នុងកិច្ចបម្រើផ្សាយរបស់ព្រះរាជាណាចក្រ ខែធ្នូ ឆ្នាំ ២០១២,Start of JW.ORG with instructions in Kingdom Ministry December 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012,deprecated,False
 Babylon2,គ្មានអត្ថបទឆ្វេងនិងស្តាំ - ទទេ!, , ,deprecated,False
+daniel2_shift,10,Start 4.2,10,deprecated,False
 Gatam,កាថាម,Gatam,Gatam,deprecated,False
 Adbeel,អាតបៀល,Adbeel,Adbeel,deprecated,False
 Mibsam,មីបសាម,Mibsam,Mibsam,deprecated,False

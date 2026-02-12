@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,4.5,6.02, ,float,True
+version,6.02,6.02, ,float,True
 pdf_title,6000 жилийн хүн төрөлхтний түүхийг төсөөлсөн нь,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Хүн төрөлхтний цагийн хуваарь,Timeline of humankind, ,text,False
 BCE,Б.Энх-Эрдэнэ,B.C.E., ,B9,True
@@ -460,7 +460,6 @@ daniel2_12,бий болдог.,comes into being,End 4.2,B9,False
 63BCE,МЭӨ 63 он,63 B.C.E.,prior to the year,B9,False
 70CE,МЭ 70,70 C.E.,and something,B9,False
 1914CE,1914-1918 он.,1914-1918 C.E.,after the year,B9,False
-daniel2_shift,0,0,Start 4.2,float,False
 7times,Илчлэлт 12:9,Revelation 12:9, ,scripture,False
 infliction2,Үйлс 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,770-256 МЭӨ,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,Терагийн гэр бүлийн гишүүд,Members of Terah’s 
 metropolitan,2011 онд хот суурин газарт дэлгэрүүлж эхэлсэн,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,2012 оны 12-р сард хаанчлалын тухай сайн мэдээ дэлгэрүүлэх ажилд JW.ORG эхэлсэн,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,0,0,Start 4.2,deprecated,False
 Gatam,Гатам,Gatam, ,deprecated,False
 Adbeel,Адбил,Adbeel, ,deprecated,False
 Mibsam,Мибсам,Mibsam, ,deprecated,False

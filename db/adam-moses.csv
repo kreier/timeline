@@ -1,25 +1,25 @@
 key,born,died,notes
-Adam,-4025.25,-3095.25,from Genesis 5
-Seth,-3895.25,-2983.25,
-Enosh,-3790.25,-2885.25,year = int(date -1)
-Kenan,-3700.25,-2790.25,month = 13 + int((date - int(data)) * 12)
-Mahalalel,-3630.25,-2735.25,day = int((month - int(month))*30) + 1
-Jared,-3565.25,-2603.25,
-Enoch,-3403.25,-3038.25,
-Methuselah,-3338.25,-2369.25,
-Lamech,-3151.25,-2376.25,
-Noah,-2969.25,-2019.25,flood 2370 BCE
-Shem,-2467.25,-1867.25,from Genesis 11
-Arpachshad,-2367.25,-1929.25,
-Shelah,-2332.25,-1899.25,
-Eber,-2302.25,-1838.25,
-Peleg,-2268.25,-2029.25,
-Reu,-2238.25,-1999.25,
-Serug,-2206.25,-1976.25,
-Nahor,-2176.25,-2028.25,
-Terah,-2147.25,-1942.25,
-Abraham,-2017.25,-1842.25,
-Isaac,-1917.25,-1737.25,
-Jacob,-1857.25,-1710.25,
-Joseph,-1766.25,-1656.25,gap of 136 years in which Job seems to have lived
-Moses,-1592.25,-1472.25,
+Adam,BCE4026-10-01,BCE3096-10-01,from Genesis 5
+Seth,BCE3896-10-01,BCE2984-10-01,
+Enosh,BCE3791-10-01,BCE2886-10-01,year = int(date -1)
+Kenan,BCE3701-10-01,BCE2791-10-01,month = 13 + int((date - int(data)) * 12)
+Mahalalel,BCE3631-10-01,BCE2736-10-01,day = int((month - int(month))*30) + 1
+Jared,BCE3566-10-01,BCE2604-10-01,
+Enoch,BCE3404-10-01,BCE3039-10-01,
+Methuselah,BCE3339-10-01,BCE2370-10-01,
+Lamech,BCE3152-10-01,BCE2377-10-01,
+Noah,BCE2970-10-01,BCE2020-10-01,flood 2370 BCE
+Shem,BCE2468-10-01,BCE1868-10-01,from Genesis 11
+Arpachshad,BCE2368-10-01,BCE1930-10-01,
+Shelah,BCE2333-10-01,BCE1900-10-01,
+Eber,BCE2303-10-01,BCE1839-10-01,
+Peleg,BCE2269-10-01,BCE2030-10-01,
+Reu,BCE2239-10-01,BCE2000-10-01,
+Serug,BCE2207-10-01,BCE1977-10-01,
+Nahor,BCE2177-10-01,BCE2029-10-01,
+Terah,BCE2148-10-01,BCE1943-10-01,
+Abraham,BCE2018-10-01,BCE1843-10-01,
+Isaac,BCE1918-10-01,BCE1738-10-01,
+Jacob,BCE1858-10-01,BCE1711-10-01,
+Joseph,BCE1767-10-01,BCE1657-10-01,gap of 136 years in which Job seems to have lived
+Moses,BCE1593-10-01,BCE1473-10-01,

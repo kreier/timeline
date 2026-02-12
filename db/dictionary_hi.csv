@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,4.6,6.02, ,float,True
+version,6.02,6.02, ,float,True
 pdf_title,6000 वर्ष के मानव इतिहास की कल्पना की गई,6000 years human history visualized,2026-02-12,text,False
 pdf_subject,मानव जाति की समयरेखा,Timeline of humankind, ,text,False
 BCE,ईसा पूर्व,B.C.E., ,B9,False
@@ -460,7 +460,6 @@ daniel2_12,अस्तित्व में आता है,comes into being,
 63BCE,63 ई.पू.,63 B.C.E.,prior to the year,B9,False
 70CE,70 ई.पू.,70 C.E.,and something,B9,False
 1914CE,1914-1918 ई.,1914-1918 C.E.,after the year,B9,False
-daniel2_shift,0,0,Start 4.2,float,False
 7times,प्रकाशितवाक्य 12:9,Revelation 12:9, ,scripture,False
 infliction2,अधिनियम 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,770-256 ई.पू,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,तेरह के परिवार के सदस्य,Members o
 metropolitan,2011 में महानगरीय गवाही की शुरुआत,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,दिसंबर 2012 में राज्य मंत्रालय में निर्देशों के साथ JW.ORG की शुरुआत,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,0,0,Start 4.2,deprecated,False
 Gatam,गाताम,Gatam, ,deprecated,False
 Adbeel,अदबील,Adbeel, ,deprecated,False
 Mibsam,मिबसाम,Mibsam, ,deprecated,False

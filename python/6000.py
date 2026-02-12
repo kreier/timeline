@@ -6,13 +6,13 @@ from fpdf import FPDF
 from PIL import Image
 import pandas as pd
 import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix many problems
-import datetime, sys, os, asyncio, qrcode
+import datetime, sys, os, asyncio, math, qrcode
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
 version  = 6.02
 language = "en"
 language_str = "English"
-color_scheme = "normal"
+color_scheme = "rgb"
 mm           = 2.834645669                # document is in pt, 46 rows with 12pt height, text 10pt
 border_lr    = 10*mm                      # space left/right usually 10, for roll holders 60
 border_tb    = 7*mm                       # space for the years top and bottom
@@ -38,24 +38,67 @@ if os.getcwd()[-6:] != "python":
     print("This script must be executed inside the python folder.")
     exit()
 
-def year(date_float):             # convert the float dates to year, month and day
+def year_old_wrong(date_float):             # convert the float dates to year, month and day
     year = int(date_float)
     if year < 0:
         year -= 1
     return year
 
-def month(date_float):
+def year(date_float):
+    # 1. Find the astronomical year (the continuous coordinate)
+    # math.floor ensures -537.25 becomes -538
+    astron_year = math.floor(date_float)
+    
+    # 2. Convert to Historical Label
+    if astron_year >= 1:
+        return astron_year  # e.g., 2024
+    else:
+        # e.g., astron 0 -> 1 BCE
+        # e.g., astron -538 -> 539 BCE
+        return astron_year - 1
+
+def month(date_float):            # never used?
     month = int((date_float - int(date_float))*12)
     if date_float < 0:
         month = 13 + month
     return month
 
-def day(date_float):
+def day(date_float):              # never used either?
     month = (date_float - int(date_float))*12
     if date_float < 0:
         month = 13 + month
     day = int((month - int(month))*30) + 1
     return day
+
+def float_date(string):
+    # convert a date in the format "YYYY-MM-DD" to a float, as well as a "BCEYYYY-MM-DD" to a negative float
+# 1. Handle Sign and Label Year
+    is_bce = False
+    if string.startswith("BCE"):
+        is_bce = True
+        string = string[3:]
+    
+    parts = string.split("-")
+    label_year = int(parts[0])
+    month = int(parts[1])
+    day = int(parts[2])
+    
+    # 2. Convert Historical Label to Astronomical Year
+    # 1 CE -> 1, 1 BCE -> 0, 539 BCE -> -538
+    astron_year = label_year if not is_bce else 1 - label_year
+    
+    # 3. Calculate accurate Day-of-Year fraction
+    # We use a non-leap year (365) or leap year (366) based on astron_year
+    def is_leap(y):
+        return (y % 4 == 0 and y % 100 != 0) or (y % 400 == 0)
+    
+    days_in_year = 366 if is_leap(astron_year) else 365
+    
+    # Use a reference year to get the exact day count from Jan 1
+    ref_y = 2000 if is_leap(astron_year) else 2001
+    day_of_year = (datetime.datetime(ref_y, month, day) - datetime.datetime(ref_y, 1, 1)).days
+    
+    return float(astron_year) + (day_of_year / days_in_year)
 
 def x_position(date_float):      # area is 6150 years wide from 4075 BCE to 2075 CE
     global x1, left_to_right
@@ -173,9 +216,11 @@ def create_canvas(edition):
         render_type  = "print"
         border_lr    = 60*mm
         page_width   = 4*297*mm + 2 * border_lr
-        filename = "../timeline/timeline_v" + str(version) + "_"+ language + "_print.pdf"
+        # filename = "../timeline/timeline_v" + str(version) + "_" + language + "_print.pdf"
+        filename = "../timeline/timeline_" + language + "_print.pdf"
     else:
-        filename = "../timeline/timeline_v" + str(version) + "_"+ language + ".pdf"
+        # filename = "../timeline/timeline_v" + str(version) + "_" + language + ".pdf"
+        filename = "../timeline/timeline_" + language + ".pdf"
     pdf = FPDF(unit="pt", format=(page_width, page_height))       # no orientation ="landscape" since it only swaps width and height
     pdf.set_margin(0)
     pdf.c_margin = 0
@@ -207,8 +252,8 @@ def create_canvas(edition):
     # Draw small lines into the corners for the print edition, since print shops import only the
     # content area and exclude the white space from the desired print area
     factor_width = page_width / 2
-    # if edition == "digital":
-    #     factor_width = 10 
+    if edition == "digital":
+        factor_width = 10 
     pdf.set_line_width(0.1)
     pdf.set_draw_color(r=0, g=0, b=0)
     cornerpoints = [[0.1, 0.1, 1, 1], [page_width - 0.2, 0.1, -1, 1], [0.1, page_height - 0.2, 1, -1], [page_width - 0.2, page_height - 0.2, -1, -1]]
@@ -326,7 +371,8 @@ def create_adam_moses():
     # one special for Job
     co = color['books']
     job_y = 40.83           # see books.csv for the text and second timebar at 41.9
-    pdf.set_fill_color(r=191 + 64 * co[0], g=191 + 64 * co[1], b=191 + 64 * co[2])
+    pdf.set_fill_color(r=191 + 0.25 * co[0], g=191 + 0.25 * co[1], b=191 + 0.25 * co[2])
+    # pdf.set_fill_color(r=191 + 64 * co[0], g=191 + 64 * co[1], b=191 + 64 * co[2])
     # c.setFillColorRGB(0.75 + 0.25 * co[0], 0.75 + 0.25 * co[1], 0.75 + 0.25 * co[2])
     x_start = x_position(-1675)
     y_start = y_position(job_y)
@@ -337,23 +383,24 @@ def create_adam_moses():
     people = pd.read_csv("../db/adam-moses.csv", encoding='utf8')
     print("Imported data Adam to Moses:", len(people))
     for index, row in people.iterrows():
-        born = -year(row.born)
-        died = -year(row.died)
+        born = -year(float_date(row.born))
+        died = -year(float_date(row.died))
         person = dict[f"{row.key}"]
         details_r = f"{number_to_string(born, language)} {dict['to']} {number_to_string(died, language)} {dict['BCE']} - {number_to_string(born - died, language)} {dict['years_age']}"
         if language == "ilo":
             details_r = f"{born} {dict['to']} {died} {dict['BCE']} - {dict['years_age']} {born - died}"
-        x_box = x_position(row.born)
+        x_box = x_position(float_date(row.born))
         y_box = y1 + index * 20.5 + 2   # line height was 21 until 2024
         if index > 18:   # after Terah
             y_box += 12.5
         if index == 23:  # Moses
             y_box += 12
-        x_boxwidth = x_position(born) - x_position(died)
+        x_boxwidth = x_position(born) - x_position(died) # precision of integer year sufficient here
         x_text = x_box + x_boxwidth * 0.5
         co = color[f"{row.key}"]
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
-        pdf.set_line_width(0.3)
+        pdf.set_fill_color(co[0], co[1], co[2])
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
         pdf.rect(x_box, y_box, x_boxwidth, 19, style="FD") # Boxes are 19 pt high, 21 pt seperated from one another - 20.5 since 5.1
         y_box += y_offset
@@ -410,14 +457,14 @@ def create_reference_events():
     events = pd.read_csv(file_events, encoding='utf8')
     print("Imported data of reference events:", len(events))
     for index, row in events.iterrows():
-        draw_event(row.key, row.date, row.y_start, row.y_end, row.y_text, row.width, row.position)
+        draw_event(row.key, float_date(row.date), row.y_start, row.y_end, row.y_text, row.width, row.position)
         counter_events += 1
 
 def create_events_objects():
     global counter_objects
     items = pd.read_csv("../db/events_objects.csv", encoding='utf8')
     for index, row in items.iterrows():
-        draw_event(row.key, row.date, row.y_start, row.y_end, row.y_text, row.width, row.position)
+        draw_event(row.key, float_date(row.date), row.y_start, row.y_end, row.y_text, row.width, row.position)
         counter_objects += 1
 
 def create_judges():
@@ -425,21 +472,23 @@ def create_judges():
     judges = pd.read_csv("../db/judges.csv", encoding='utf8')
     print("Imported data of judges:", len(judges))
     for index, row in judges.iterrows():
-        start = row.start
-        end   = row.end
+        start = float_date(row.start)
+        end   = float_date(row.end)
         x_box = x_position(start)
         y_box = y_position(row.row_y) - 13
         x_boxwidth = x_position(end) - x_position(start)
         pdf.set_line_width(0.2)
         pdf.set_draw_color(0)
         co = color['judges']
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
         pdf.rect(x_box, y_box, x_boxwidth, 2, style="FD")           # peaceful period afterwards
         oppression   = row.oppression
         x_oppression = x_position(start - oppression)
         x_opp_width  = x_box - x_oppression
         co = color['oppression']
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
         pdf.rect(x_oppression, y_box, x_opp_width, 2, style="FD")   # years of opression before
         judge = dict[row.key]
         drawString(judge, fontsize_regular, x_box + x_boxwidth * 0.5 , y_box + 4, "c", True)
@@ -453,10 +502,10 @@ def create_kings():
     pdf.set_font(font_regular, size=10)
     pdf.set_line_width(0.3)
     for index, row in kings.iterrows():
-        start = row.start
-        end   = row.end
-        if row.born < 0:
-            born = row.born
+        start = float_date(row.start)
+        end   = float_date(row.end)
+        if float_date(row.born) < 0:
+            born = float_date(row.born)
             detail_born = ", " + dict["became_king"] + f" {number_to_string(int(start-born), language)} " + dict["age_kings"]
         else:
             born = start
@@ -492,7 +541,8 @@ def create_kings():
         pdf.line(x_born, y_box + 1, x_born, y_box + 11)           # -3-5 = -8 and -3+5 = +2
         # box to indicate time of reign
         co = color[row.key]
-        pdf.set_fill_color(255*co[0], 255*co[1], 255*co[2])
+        pdf.set_fill_color(co[0], co[1], co[2])
+        # pdf.set_fill_color(255*co[0], 255*co[1], 255*co[2])
         pdf.rect(x_box, y_box, x_boxwidth, 12, style="FD")       # offset y_box was -3 - now its zero
         y_box += 1
         if index < 23:
@@ -502,10 +552,12 @@ def create_kings():
         counter_kings += 1
 
 def faded_color(red, green, blue, percent):
-    return [1 - percent * (1 - red), 1 - percent * (1 - green), 1 - percent * (1 - blue)]
+    # return [1 - percent * (1 - red), 1 - percent * (1 - green), 1 - percent * (1 - blue)]
+    return [255 - percent * (255 - red), 255 - percent * (255 - green), 255 - percent * (255 - blue)]
 
 def timebar(x, y, width, R, G, B, exact):
-    pdf.set_fill_color(R*255, G*255, B*255)
+    # pdf.set_fill_color(R*255, G*255, B*255)
+    pdf.set_fill_color(R, G, B)
     if width < 0:
         x += width
         width = -width
@@ -515,7 +567,8 @@ def timebar(x, y, width, R, G, B, exact):
     fade_steps = 35
     for i in range(fade_steps):
         co = faded_color(R, G, B, (i+1)/fade_steps)
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
         pdf.rect(x + 3 * i/fade_steps - 0.1,   y, 1, 4, style="F")
         pdf.rect(x + width - 3 * i/fade_steps, y, 1, 4, style="F")
 
@@ -533,7 +586,7 @@ def create_prophets():
     print("Imported data of prophets:", len(prophets))
     co = color['prophets']
     for index, row in prophets.iterrows():
-        text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], False)
+        text_with_timebar(dict[row.key], row.row_y, float_date(row.start), float_date(row.end), co[0], co[1], co[2], False)
         counter_prophets += 1
 
 def create_books():
@@ -542,7 +595,7 @@ def create_books():
     print("Imported data of books:", len(books))
     co = color['books']
     for index, row in books.iterrows():
-        text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], False)
+        text_with_timebar(dict[row.key], row.row_y, float_date(row.start), float_date(row.end), co[0], co[1], co[2], False)
         counter_people += 1
 
 def create_people():
@@ -554,7 +607,7 @@ def create_people():
         exact = False
         if row.exact == "y":
             exact = True      
-        text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], exact)
+        text_with_timebar(dict[row.key], row.row_y, float_date(row.start), float_date(row.end), co[0], co[1], co[2], exact)
         counter_people += 1
 
 def create_objects():
@@ -565,18 +618,18 @@ def create_objects():
     co = color['objects']
     for index, row in objects.iterrows():
         if row.key in cunei:
-            x_boxwidth = x_position(row.end) - x_position(row.start)
-            timebar(x_position(row.start), y_position(row.row_y) - 15, x_boxwidth, co[0], co[1], co[2], False)
+            x_boxwidth = x_position(float_date(row.end)) - x_position(float_date(row.start))
+            timebar(x_position(float_date(row.start)), y_position(row.row_y) - 15, x_boxwidth, co[0], co[1], co[2], False)
             pdf.set_font("NotoCuneiform", "", 9)
             pdf.set_fill_color(0)
             shift = pdf.get_string_width(dict[row.key])
             if left_to_right:
                 shift = 0
-            pdf.set_xy(x_position(row.start) - shift , y_position(row.row_y) - 8)
+            pdf.set_xy(x_position(float_date(row.start)) - shift , y_position(row.row_y) - 8)
             pdf.cell(text=dict[row.key])
             pdf.set_font(font_regular, "", fontsize_regular)
         else:
-            text_with_timebar(dict[row.key], row.row_y, row.start, row.end, co[0], co[1], co[2], False)
+            text_with_timebar(dict[row.key], row.row_y, float_date(row.start), float_date(row.end), co[0], co[1], co[2], False)
             counter_objects += 1
 
 def create_periods():
@@ -588,8 +641,8 @@ def create_periods():
     pdf.set_font(font_regular, "", 10)
     for index, row in periods.iterrows():
         detail_c = detail = ""
-        start = row.start
-        end   = row.end
+        start = float_date(row.start)
+        end   = float_date(row.end)
         key   = row.key
         x_box = x_position(start)
         y_box = y_position(row.row_y) - 9
@@ -603,7 +656,8 @@ def create_periods():
         if row.key == "millenium" and render_type == "print":
             x_boxwidth = x_position(end + 230) - x_position(start) 
         co = color[f"{row.key}"]
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
         pdf.set_line_width(0.3)
         pdf.set_draw_color(0)
         if row.end_fade > row.end or row.start_fade < row.start:
@@ -616,22 +670,24 @@ def create_periods():
         pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style=stil)
         # add fading if specified at the end of the time period
         if row.end_fade > row.end:                                              # fade end
-            fade_width = x_position(row.end_fade) - x_position(row.end)
+            fade_width = x_position(float_date(row.end_fade)) - x_position(float_date(row.end))
             x_boxwidth += fade_width
             fade_steps = 50
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
-                pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
+                # pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
+                pdf.set_fill_color(cl[0], cl[1], cl[2])
                 pdf.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps - 0.2 * shift, y_box - 1, fade_width / 45, 12, style="F")
         # add fading if specified at the start of the time period
         if row.start_fade < row.start:                                          # fade start
-            fade_width = x_position(row.start) - x_position(row.start_fade)
+            fade_width = x_position(float_date(row.start)) - x_position(float_date(row.start_fade))
             x_boxwidth += fade_width
-            x_box = x_position(row.start_fade)
+            x_box = x_position(float_date(row.start_fade))
             fade_steps = 50
             for i in range(fade_steps):
                 cl = faded_color(co[0], co[1], co[2], (i+1)/fade_steps)
-                pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
+                # pdf.set_fill_color(cl[0]*255, cl[1]*255, cl[2]*255)
+                pdf.set_fill_color(cl[0], cl[1], cl[2])
                 pdf.rect(x_box + fade_width * i/fade_steps + 0.2 * shift, y_box - 1, fade_width / 45, 12, style="F")
         # add text in the center of the time period
         if len(row.text_center) > 1:
@@ -659,9 +715,9 @@ def create_caesars():
     caesars = pd.read_csv("../db/caesars.csv", encoding='utf8')
     print("Imported data of caesars:", len(caesars))
     for index, row in caesars.iterrows():
-        born  = row.born
-        start = row.start
-        end   = row.end
+        born  = float_date(row.born)
+        start = float_date(row.start)
+        end   = float_date(row.end)
         detail = dict[row.key] + " "
         if start < 0:
             detail += f"{int(-start+1)} {dict['BCE']} - "
@@ -681,7 +737,8 @@ def create_caesars():
         pdf.line(x_born, y_box + 6, x_box,  y_box + 6)           # offset with fpdf2 is -3, was +3 with reportlab
         pdf.line(x_born, y_box + 1, x_born, y_box + 11)          # -3-5 = -8 and -3+5 = +2
         co = color['caesars']
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
         pdf.rect(x_box, y_box, x_boxwidth, 12, style="FD")       # offset y_box was -3 - now its zero
         y_box += 1
         drawString(detail, fontsize_regular, x_box + x_boxwidth + 2 * direction_factor, y_box, direction, False)
@@ -692,7 +749,8 @@ def tribulation_graphics(row):
     reference_y = y_position(row)
     pdf.set_line_width(0)
     co = color["tribulation1"]
-    pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+    # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+    pdf.set_fill_color(co[0], co[1], co[2])
     pdf.rect(x_position(2030), reference_y, x_position(2035)-x_position(2030), 10, style="F") # box 2030-2035
     pdf.rect(x_position(2053), reference_y, x_position(2060)-x_position(2053), 10, style="F") # box 2053-2060
     for falter in range(3):
@@ -700,11 +758,13 @@ def tribulation_graphics(row):
         yf = reference_y - 1.64
         d=direction_factor
         co = color["tribulation2"]
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
         points = ((xf, yf+1.64), (xf + 1.64*d, yf+0), (xf + 1.64*d, yf+10), (xf, yf+11.64))
         pdf.polygon(points, style="F")
         co = color["tribulation3"]
-        pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_fill_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_fill_color(co[0], co[1], co[2])
         points = ((xf+3.30*d, yf+1.64), (xf + 1.64*d, yf+0), (xf + 1.64*d, yf+10), (xf+3.30*d, yf+11.64))
         pdf.polygon(points, style="F")
 
@@ -762,9 +822,11 @@ def create_terah_familytree():
         pdf.set_fill_color(255)
         pdf.set_draw_color(255)
         pdf.rect(x - 0.5 * text_width - 1, y, text_width + 2, 10, style = "FD")
-        pdf.set_text_color(blue[0]*255, blue[1]*255, blue[2]*255)
+        # pdf.set_text_color(blue[0]*255, blue[1]*255, blue[2]*255)
+        pdf.set_text_color(blue[0], blue[1], blue[2])
         if row.color == "red": # men in blue, women in red
-            pdf.set_text_color(red[0]*255, red[1]*255, red[2]*255)
+            # pdf.set_text_color(red[0]*255, red[1]*255, red[2]*255)
+            pdf.set_text_color(red[0], red[1], red[2])
         drawString(dict[row.key], fontsize_Terah, x, y, "c", False)
         # check if key is in footnotes to add a superscript number, footnotes itself rendered later
         if row.key in footnotes['key'].values:
@@ -837,7 +899,8 @@ def include_pictures_svg():
     drawString("source: https://www.worldometers.info/world-population/#table-historical", 4, population_x, y_position(population_y + 1), direction, False)
     population_color = color["world_population"]
     pdf.set_font(font_regular, "", 10)
-    pdf.set_text_color(population_color[0]*255, population_color[1]*255, population_color[2]*255)
+    # pdf.set_text_color(population_color[0]*255, population_color[1]*255, population_color[2]*255)
+    pdf.set_text_color(population_color[0], population_color[1], population_color[2])
     drawString(dict["world_population"], 10, population_x, y_position(population_y) , direction, False)
 
 def create_daniel2():                   # reference image has dimensions 748 x 240
@@ -866,10 +929,12 @@ def create_daniel2():                   # reference image has dimensions 748 x 2
     for index, kingdom in enumerate(kingdoms):
         pdf.set_line_width(0.4)
         co = color["daniel2"]
-        pdf.set_draw_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_draw_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_draw_color(co[0], co[1], co[2])
         y_line = y2 - shift_upward - d2_height * (0.91 - index * 0.212)
         pdf.line(x_position(left_x+226) + image_shift + kingdom_x[index], y_line, x_position(left_x), y_line)
-        pdf.set_text_color(co[0]*255, co[1]*255, co[2]*255)
+        # pdf.set_text_color(co[0]*255, co[1]*255, co[2]*255)
+        pdf.set_text_color(co[0], co[1], co[2])
         pdf.set_font(font_bold, "", 12)
         drawString(dict[kingdom + "_c"], 12, x_position(left_x), y_line + 2, direction, False)
         pdf.set_text_color(50)
@@ -985,7 +1050,7 @@ def create_timeline(lang, edition):
     language = lang
     initiate_counters()
     import_dictionary()
-    import_colors("normal")
+    import_colors("rgb")
     create_canvas(edition)
     create_horizontal_axis()
     create_adam_moses()
