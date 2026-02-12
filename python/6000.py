@@ -9,7 +9,7 @@ import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix
 import datetime, sys, os, asyncio, qrcode
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 6.01
+version  = 6.02
 language = "en"
 language_str = "English"
 color_scheme = "normal"
@@ -842,11 +842,8 @@ def include_pictures_svg():
 
 def create_daniel2():                   # reference image has dimensions 748 x 240
     global font_regular, font_bold
-    left_x = -4026
-    shift_upward = 30*mm    
-    if version > 4.8:
-        left_x = -4075
-        shift_upward = 70*mm
+    left_x = -4075
+    shift_upward = 70*mm    
     d2_height = 96*mm
     d2_width  = d2_height / 748 * 240
     kingdoms = ["Babylon", "Medopersia", "Greece", "Rome", "Angloamerica"]
@@ -854,7 +851,14 @@ def create_daniel2():                   # reference image has dimensions 748 x 2
     years = ["607BCE", "", "539BCE", "537BCE", "", "331BCE", "", "63BCE", "70CE", "1914CE", "", ""] 
     yearlines = [2, 3, 2, 2, 3]
     current_yearline = 0
-    image_shift = int(dict["daniel2_shift"])
+    # the image has to be shifted depending on the language, this is the old code:
+    # image_shift = int(dict["daniel2_shift"])
+    # new with values from the supported_languages.csv, which can be adjusted if needed
+    supported = pd.read_csv("../db/supported_languages.csv", encoding='utf8')
+    supported_indexed = supported.set_index("key")
+    shift_d2x = supported_indexed.at[language, "shift_d2x"]
+    scale_d2 = supported_indexed.at[language, "scale_d2"]
+    image_shift = shift_d2x
     if daniel2_image == "_fiverr1":
         kingdom_x = [0, 0, 0, 0, -15]
     if daniel2_image == "_fiverr2":
@@ -884,8 +888,10 @@ def create_daniel2():                   # reference image has dimensions 748 x 2
             drawString(dict[line_daniel2], 6, x_position(left_x) + indentation*direction_factor, y_line + 25.2 + 8 * yearline, direction, False)
             current_yearline += 1
     file_d2 = "../images/daniel2" + daniel2_image
-    # if daniel2_nwt:
-    #     file_d2 += "_nwt"
+    # adjust size and position with values from the languages_supported.csv
+    shift_upward += 96*mm * (1 - scale_d2)
+    d2_height = 96*mm * scale_d2
+    d2_width  = d2_height / 748 * 240
     d2_x = x_position(left_x+176) + image_shift * direction_factor
     if not left_to_right:
         file_d2 += "_rtl"

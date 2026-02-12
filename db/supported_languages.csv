@@ -1,5 +1,5 @@
 key,lang,dict,shaping_engine,script,language,direction,fontname,fontsize,fontsize_AM,y_offset,replace_numerals,shift_d2x,scale_d2,language_str,nr,test
-en,English,TRUE,,,,ltr,,10,15,0,FALSE,0,1,English,49,1
+en,English,TRUE,,,,ltr,,10,15,0,FALSE,-10,1,English,49,1
 ab,Abkhaz,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Abkhaz(*** no dictionary yet ***),1,2
 ace,Acehnese,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Acehnese(*** no dictionary yet ***),2,3
 ach,Acholi,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Acholi(*** no dictionary yet ***),3,4
@@ -7,8 +7,8 @@ af,Afrikaans,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Afrikaans(*** no dictionary yet ***
 sq,Albanian,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Albanian(*** no dictionary yet ***),5,6
 alz,Alur,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Alur(*** no dictionary yet ***),6,7
 am,Amharic,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Amharic(*** no dictionary yet ***),7,8
-ar,Arabic,TRUE,TRUE,arab,ara,RTL,NotoArabic,9.2,12,1,TRUE,0,1,Arabic (العربية) ,8,9
-hy,Armenian,TRUE,TRUE,armn,hye,ltr,NotoArmenian,10,15,0,FALSE,0,1,Armenian (Հայերեն),9,10
+ar,Arabic,TRUE,TRUE,arab,ara,RTL,NotoArabic,9.2,12,1,TRUE,-10,1,Arabic (العربية) ,8,9
+hy,Armenian,TRUE,TRUE,armn,hye,ltr,NotoArmenian,10,15,0,FALSE,30,1,Armenian (Հայերեն),9,10
 as,Assamese,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Assamese(*** no dictionary yet ***),10,11
 awa,Awadhi,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Awadhi(*** no dictionary yet ***),11,12
 ay,Aymara,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Aymara(*** no dictionary yet ***),12,13
@@ -52,9 +52,9 @@ eo,Esperanto,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Esperanto(*** no dictionary yet ***
 et,Estonian,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Estonian (eesti keel),51,51
 ee,Ewe,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Ewe(*** no dictionary yet ***),52,52
 fj,Fijian,TRUE,,,,ltr,,10,15,0,FALSE,0,1,Fijian (Vosa Vaka-Viti),53,53
-tl,Tagalog,TRUE,FALSE,tglg,,ltr,,10,15,0,FALSE,0,1,Tagalog (Filipino) ,54,54
-fi,Finnish,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Finnish (Suomi) ,55,55
-fr,French,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,French (Français) ,56,56
+tl,Tagalog,TRUE,FALSE,tglg,,ltr,,10,15,0,FALSE,-1,1,Tagalog (Filipino) ,54,54
+fi,Finnish,TRUE,FALSE,,,ltr,,10,15,0,FALSE,-5,0.967,Finnish (Suomi) ,55,55
+fr,French,TRUE,FALSE,,,ltr,,10,15,0,FALSE,5,1,French (Français) ,56,56
 fr-CA,French (Canadian),FALSE,,,,ltr,,10,15,0,FALSE,0,1,French (Canadian)(*** no dictionary yet ***),57,57
 fr-FR,French (French),FALSE,,,,ltr,,10,15,0,FALSE,0,1,French (French)(*** no dictionary yet ***),58,58
 fy,Frisian,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Frisian(*** no dictionary yet ***),59,59
@@ -63,7 +63,7 @@ gaa,Ga,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Ga(*** no dictionary yet ***),61,61
 gl,Galician,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Galician(*** no dictionary yet ***),62,62
 lg,Ganda (Luganda),FALSE,,,,ltr,,10,15,0,FALSE,0,1,Ganda (Luganda)(*** no dictionary yet ***),63,63
 ka,Georgian,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Georgian(*** no dictionary yet ***),64,64
-de,German,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,German (Deutsch) ,65,65
+de,German,TRUE,FALSE,,,ltr,,10,15,0,FALSE,1,1,German (Deutsch) ,65,65
 el,Greek,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Greek (Ελληνικά),66,66
 gn,Guarani,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Guarani(*** no dictionary yet ***),67,67
 gu,Gujarati,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Gujarati(*** no dictionary yet ***),68,68
@@ -79,24 +79,24 @@ hu,Hungarian,TRUE,,,,ltr,,10,15,0,FALSE,0,1,Hungarian (Magyar),77,77
 hrx,Hunsrik,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Hunsrik(*** no dictionary yet ***),78,78
 is,Icelandic,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Icelandic(*** no dictionary yet ***),79,79
 ig,Igbo,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Igbo (Ásụ̀sụ́ Ìgbò) ,80,80
-ilo,Iloko,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Iloko (Illocano) ,81,81
+ilo,Iloko,TRUE,FALSE,,,ltr,,10,15,0,FALSE,-5,1,Iloko (Illocano) ,81,81
 id,Indonesian,TRUE,,,,ltr,,10,15,0,FALSE,0,1,Indonesian (Indonesia),82,82
 ga,Irish,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Irish(*** no dictionary yet ***),83,83
 it,Italian,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Italian (Italiano),84,84
-ja,Japanese,TRUE,FALSE,,,ltr,NotoJapanese,10,15,0,FALSE,0,1,Japanese (日本語) ,85,85
+ja,Japanese,TRUE,FALSE,,,ltr,NotoJapanese,10,15,0,FALSE,-3,1,Japanese (日本語) ,85,85
 jv,Javanese,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Javanese(*** no dictionary yet ***),86,86
-kne,Kankana-ey ,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Kankana-ey ,,87
+kne,Kankana-ey ,TRUE,FALSE,,,ltr,,10,15,0,FALSE,-5,1,Kankana-ey ,,87
 kn,Kannada,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Kannada(*** no dictionary yet ***),87,88
 pam,Kapampangan,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Kapampangan(*** no dictionary yet ***),88,89
 kk,Kazakh,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Kazakh(*** no dictionary yet ***),89,90
-km,Khmer,TRUE,TRUE,khmr,khm,ltr,NotoKhmer,9,15,0,TRUE,0,1,Khmer (ខ្មែរ) ,90,91
+km,Khmer,TRUE,TRUE,khmr,khm,ltr,NotoKhmer,9,15,0,TRUE,-1,1,Khmer (ខ្មែរ) ,90,91
 kman,Khmer ar24,TRUE,TRUE,khmr,khm,ltr,NotoKhmer,10,15,0,FALSE,0,1,Khmer (ខ្មែរ) with arabic numerals,,92
 cgg,Kiga,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Kiga(*** no dictionary yet ***),91,93
-kg,Kikongo,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Kikongo,,94
+kg,Kikongo,TRUE,FALSE,,,ltr,,10,15,0,FALSE,3,1,Kikongo,,94
 rw,Kinyarwanda,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Kinyarwanda(*** no dictionary yet ***),92,95
 ktu,Kituba,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Kituba(*** no dictionary yet ***),93,96
 gom,Konkani,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Konkani(*** no dictionary yet ***),94,97
-ko,Korean,TRUE,FALSE,,,ltr,NotoKorean,10,15,0,FALSE,0,1,Korean (한국인) ,95,98
+ko,Korean,TRUE,FALSE,,,ltr,NotoKorean,10,15,0,FALSE,15,1,Korean (한국인) ,95,98
 kri,Krio,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Krio(*** no dictionary yet ***),96,99
 ku,Kurdish (Kurmanji) ,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Kurdish (Kurmanji) (*** no dictionary yet ***),97,100
 ckb,Kurdish (Sorani),FALSE,,,,RTL,,10,15,0,FALSE,0,1,Kurdish (Sorani)(*** no dictionary yet ***),98,101
@@ -153,7 +153,7 @@ qu,Quechua,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Quechua(*** no dictionary yet ***),14
 rom,Romani,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Romani(*** no dictionary yet ***),147,152
 ro,Romanian,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Romanian(*** no dictionary yet ***),148,153
 rn,Rundi,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Rundi(*** no dictionary yet ***),149,154
-ru,Russian,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Russian (Русский) ,150,155
+ru,Russian,TRUE,FALSE,,,ltr,,10,15,0,FALSE,-2,0.967,Russian (Русский) ,150,155
 sm,Samoan,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Samoan(*** no dictionary yet ***),151,156
 sg,Sango,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Sango(*** no dictionary yet ***),152,157
 sa,Sanskrit,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Sanskrit(*** no dictionary yet ***),153,158
@@ -171,9 +171,9 @@ si,Sinhala (Sinhalese),TRUE,TRUE,sinh,snh,ltr,NotoSinhala,9,14,1,TRUE,0,1,Sinhal
 sk,Slovak,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Slovak(*** no dictionary yet ***),164,170
 sl,Slovenian,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Slovenian(*** no dictionary yet ***),165,171
 so,Somali,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Somali(*** no dictionary yet ***),166,172
-es,Spanish,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Spanish (Español) ,167,173
+es,Spanish,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,0.967,Spanish (Español) ,167,173
 su,Sundanese,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Sundanese(*** no dictionary yet ***),168,174
-sw,Swahili,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Swahili (Kiswahili),169,175
+sw,Swahili,TRUE,FALSE,,,ltr,,10,15,0,FALSE,2,1,Swahili (Kiswahili),169,175
 ss,Swati,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Swati(*** no dictionary yet ***),170,176
 sv,Swedish,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Swedish(*** no dictionary yet ***),171,177
 tg,Tajik,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Tajik(*** no dictionary yet ***),172,178
@@ -181,18 +181,18 @@ ta,Tamil,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Tamil(*** no dictionary yet ***),173,17
 tt,Tatar,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Tatar(*** no dictionary yet ***),174,180
 te,Telugu,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Telugu(*** no dictionary yet ***),175,181
 tet,Tetum,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Tetum(*** no dictionary yet ***),176,182
-th,Thai,TRUE,TRUE,thai,tha,ltr,NotoThaiLooped,10,15,0,FALSE,0,1,Thai (ภาษาไทย) ,177,183
+th,Thai,TRUE,TRUE,thai,tha,ltr,NotoThaiLooped,10,15,0,FALSE,1,1,Thai (ภาษาไทย) ,177,183
 ti,Tigrinya,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Tigrinya(*** no dictionary yet ***),178,184
 ts,Tsonga,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Tsonga(*** no dictionary yet ***),179,185
 tn,Tswana,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Tswana(*** no dictionary yet ***),180,186
 tr,Turkish,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Turkish(*** no dictionary yet ***),181,187
 tk,Turkmen,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Turkmen(*** no dictionary yet ***),182,188
 ak,Twi (Akan),FALSE,,,,ltr,,10,15,0,FALSE,0,1,Twi (Akan)(*** no dictionary yet ***),183,189
-uk,Ukrainian,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Ukrainian (українська),184,190
+uk,Ukrainian,TRUE,FALSE,,,ltr,,10,15,0,FALSE,1,1,Ukrainian (українська),184,190
 ur,Urdu,TRUE,TRUE,,urd,RTL,NotoNastaliqUrdu,10,15,0,FALSE,0,1,Urdu (اُردُو),185,191
 ug,Uyghur,FALSE,,,,RTL,,10,15,0,FALSE,0,1,Uyghur (*** no dictionary yet ***),186,192
 uz,Uzbek,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Uzbek (*** no dictionary yet ***),187,193
-vi,Vietnamese,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Vietnamese (Tiếng Việt),188,194
+vi,Vietnamese,TRUE,FALSE,,,ltr,,10,15,0,FALSE,-10,1,Vietnamese (Tiếng Việt),188,194
 cy,Welsh,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Welsh (*** no dictionary yet ***),189,195
 xh,Xhosa,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Xhosa (*** no dictionary yet ***),190,196
 yi,Yiddish,FALSE,,,,RTL,,10,15,0,FALSE,0,1,Yiddish (*** no dictionary yet ***),191,197
