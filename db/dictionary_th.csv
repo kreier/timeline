@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,6.01,6.02, ,float,True
+version,6.02,6.02, ,float,True
 pdf_title,"ประวัติศาสตร์ของมนุษย์ 6,000 ปีถูกมองเห็น",6000 years human history visualized,2026-02-12,text,False
 pdf_subject,เส้นเวลาของมนุษยชาติ,Timeline of humankind,6.01,text,False
 BCE,ก่อน ค.ศ.,B.C.E.,appendix B9,B9,True
@@ -460,7 +460,6 @@ daniel2_12,​เริ่ม​มีอำนาจ,comes into being,End 4.2,B
 63BCE,ปี 63 ก่อน ค.ศ.,63 B.C.E.,prior to the year,B9,True
 70CE,ค.ศ. 70,70 C.E.,and something,B9,True
 1914CE,ค.ศ. 1914-1918,1914-1918 C.E.,after the year,B9,True
-daniel2_shift,10,10,Start 4.2,float,True
 7times,วิวรณ์ 12:9,Revelation 12:9, ,scripture,False
 infliction2,กิจการ 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,770-256 ปีก่อนคริสตกาล,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,สมาชิกในครอบครัวของเทรา�
 metropolitan,เริ่มประกาศในเมืองใหญ่ในปี 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,เริ่ม JW.ORG พร้อมคำแนะนำในพันธกิจเรื่องราชอาณาจักร ธันวาคม 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,10,10,Start 4.2,deprecated,True
 Gatam,กาตัม,Gatam, ,deprecated,False
 Adbeel,แอดบีล,Adbeel, ,deprecated,False
 Mibsam,มิบซัม,Mibsam, ,deprecated,False

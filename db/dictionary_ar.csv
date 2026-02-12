@@ -460,7 +460,6 @@ daniel2_12,يأتي إلى حيز الوجود,comes into being,End 4.2,B9,False
 63BCE,63 ق.م.,63 B.C.E.,prior to the year,B9,False
 70CE,70 م,70 C.E.,and something,B9,False
 1914CE,1914-1918 م,1914-1918 C.E.,after the year,B9,False
-daniel2_shift,0,0,Start 4.2,float,False
 7times,رؤيا 12: 9,Revelation 12:9, ,scripture,False
 infliction2,أعمال 7: 6,Acts 7:6, ,scripture,False
 eastern-zhou,770-256 قبل الميلاد,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,افراد عائلة تارح,Members of Terah’s family, ,deprecated
 metropolitan,بداية الشهادة الحضرية في عام 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,بداية JW.ORG بالتعليمات في خدمة الملكوت في ديسمبر ٢٠١٢,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,0,0,Start 4.2,deprecated,False
 Gatam,جاتام,Gatam, ,deprecated,False
 Adbeel,أدببيل,Adbeel, ,deprecated,False
 Mibsam,مبسام,Mibsam, ,deprecated,False

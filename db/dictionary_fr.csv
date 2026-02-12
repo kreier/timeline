@@ -460,7 +460,6 @@ daniel2_12,anglo-américaine,comes into being,End 4.2,B9,True
 63BCE,63 av. n. è.,63 B.C.E.,prior to the year,B9,True
 70CE,70 de n. è.,70 C.E.,and something,B9,True
 1914CE,1914-1918 n. è.,1914-1918 C.E.,after the year,B9,True
-daniel2_shift,5,5,Start 4.2,float,True
 7times,Apocalypse 12:9,Revelation 12:9, ,scripture,True
 infliction2,Actes 7:6,Acts 7:6, ,scripture,True
 eastern-zhou,770-256 av. n. è.,770-256 BC, ,span_bc,True
@@ -554,6 +553,7 @@ terahfam,membres de la famille de Terah,Members of Terah’s family, ,deprecated
 metropolitan,Début du témoignage métropolitain en 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,Début de JW.ORG avec des instructions pour le ministère du Royaume en décembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,True
+daniel2_shift,5,5,Start 4.2,deprecated,True
 Gatam,Gatam,Gatam,Genesis 36:11,deprecated,True
 Adbeel,Adbéel,Adbeel,Genesis 25:13,deprecated,True
 Mibsam,Mibsam,Mibsam,Genesis 25:13,deprecated,True

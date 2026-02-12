@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,5.4,6.02, ,float,True
+version,6.02,6.02, ,float,True
 pdf_title,6000 taon na paglalarawan na kasaysayan ng tao,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Timeline ng sangkatauhan,Timeline of humankind,5.5,text,True
 BCE,B.C.E.,B.C.E.,appendix B9,B9,False
@@ -460,7 +460,6 @@ daniel2_12,Pandaigdig na Anglo-Amerikano,comes into being,End 4.2,B9,False
 63BCE,63 B.C.E.,63 B.C.E.,prior to the year,B9,False
 70CE,70 C.E.,70 C.E.,and something,B9,False
 1914CE,1914-1918 C.E.,1914-1918 C.E.,after the year,B9,False
-daniel2_shift,-3,-3,Start 4.2,float,False
 7times,Apocalipsis 12:9,Revelation 12:9, ,scripture,False
 infliction2,Gawa 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,770-256 BC,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,miyembro ng pamilya ni Tera,Members of Terah’s family, ,deprecated,Fa
 metropolitan,Nagsimula ang metropolitan witnessing noong 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,Nagsimula ang JW.ORG - may mga tagubilin sa ministeryo - Disyembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,-3,-3,Start 4.2,deprecated,False
 Gatam,Gatam,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Mibsam,Mibsam, ,deprecated,False

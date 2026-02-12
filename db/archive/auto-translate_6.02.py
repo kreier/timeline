@@ -41,8 +41,8 @@ def check_existing(language, filename):
         print("A file with this name already exists.")
         print(f"Importing existing dictionary_{language}.csv file for comparison...")
         dict_translated = pd.read_csv(filename)
-        dict_translated.fillna(" ", inplace=True)     # fill empty cells with a space
-        dict_translated.to_csv(filename, index=False) # save back to ensure the file is cleaned and standardized for further processing
+        dict_translated.fillna(" ", inplace=True) # fill empty cells with a space
+        dict_translated.to_csv(filename, index=False)
 
         # Step 1: Compare the number of keys in both dictionaries and report differences
         if len(dict) != len(dict_translated):
@@ -173,11 +173,10 @@ def check_existing(language, filename):
         num_false = (dict_translated["checked"] == False).sum()
         num_empty = (dict_translated["checked"] == " ").sum()
         num_nan = (dict_translated["checked"].isna()).sum()
-        # Initially it was nice to be that verbose:
-        # print(f"TRUE values: {num_true}")
-        # print(f"FALSE values: {num_false}")
-        # print(f"Empty values: {num_empty}")
-        # print(f"NaN values: {num_nan}")
+        print(f"TRUE values: {num_true}")
+        print(f"FALSE values: {num_false}")
+        print(f"Empty values: {num_empty}")
+        print(f"NaN values: {num_nan}")
         if num_empty > 0 or num_nan > 0:
             print("Filling empty 'checked' values with FALSE...")
             dict_translated["checked"] = dict_translated["checked"].replace(
@@ -197,9 +196,8 @@ def check_existing(language, filename):
 
     else:
         print(f"Creating a new dictionary_{language}.csv file.")
-        dict_translated = dict[['key']].copy()              # create a new dictionary, copy columns key and text
-        dict_translated['text'] = " "                       # add a column 'text' and fill with empty string
-        dict_translated['english'] = dict['english'].copy() # add a column 'english' and fill with 'text' from english dictionary
+        dict_translated = dict[['key', 'english']].copy()   # create a new dictionary, copy columns key and text
+        dict_translated['text'] = dict['english'].copy()    # add a column 'english' and fill with 'text' from english dictionary
         dict_translated['notes'] = dict['notes'].copy()     # add a column 'notes' and fill with 'notes' from english dictionary
         dict_translated['tag'] = dict['tag'].copy()         # add a column 'tag' and fill with 'tag' from english dictionary
         dict_translated['checked'] = False                  # add a column 'checked' and fill with False
@@ -214,8 +212,6 @@ def check_existing(language, filename):
     dict_translated.loc[update_mask, "checked"] = True
     # Step 8.2: Match the version number and date
     dict_translated.loc[dict_translated['key'] == 'version', 'english'] = \
-        dict.loc[dict['key'] == 'version', 'english'].values
-    dict_translated.loc[dict_translated['key'] == 'version', 'text'] = \
         dict.loc[dict['key'] == 'version', 'english'].values
     dict_translated.loc[dict_translated['key'] == 'pdf_title', 'notes'] = \
         dict.loc[dict['key'] == 'pdf_title', 'notes'].values
@@ -238,9 +234,8 @@ def check_existing(language, filename):
     # Set checked = False for mismatches
     dict_translated.loc[dict_translated["key"].isin(keys_to_update), "checked"] = False
     # Print changed rows
-    if len(keys_to_update) > 0:
-        print(f"Updated {len(keys_to_update)} rows in dict_translated:")
-        print(dict_translated[dict_translated["key"].isin(keys_to_update)])
+    print(f"Updated {len(keys_to_update)} rows in dict_translated:")
+    print(dict_translated[dict_translated["key"].isin(keys_to_update)])
 
     dict_translated.to_csv(filename, index=False)
 
@@ -360,7 +355,7 @@ if __name__ == "__main__":
         "existing": [summary["existing"].sum()]
     })
     summary_table = pd.concat([summary, totals], ignore_index=True)
-    # print(summary_table)
+    print(summary_table)
 
 
     # if unchecked_BCE_CE(): # true if missing or checked is False

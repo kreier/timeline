@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,6.01,6.02, ,float,False
+version,6.02,6.02, ,float,False
 pdf_title,한눈에 보는 인류 6000년 역사,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,인류의 타임라인,Timeline of humankind,6.01,text,False
 BCE,기원전,B.C.E.,appendix B9,B9,True
@@ -460,7 +460,6 @@ daniel2_12,생기다,comes into being,End 4.2,B9,False
 63BCE,기원전 63년,63 B.C.E.,prior to the year,B9,True
 70CE,기원 70년,70 C.E.,and something,B9,True
 1914CE,기원 1914-1918년,1914-1918 C.E.,after the year,B9,True
-daniel2_shift,17,17,Start 4.2,float,False
 7times,요한 계시록 12:9,Revelation 12:9, ,scripture,False
 infliction2,사도행전 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,기원전 770-256년,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,데라의 가족들,Members of Terah’s family, ,deprecated,False
 metropolitan,2011년 대도시 증거 시작,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,2012년 12월 왕국 봉사지의 지침과 함께 JW.ORG 시작,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,17,17,Start 4.2,deprecated,False
 Gatam,가탐,Gatam, ,deprecated,False
 Adbeel,아드벨,Adbeel, ,deprecated,False
 Mibsam,밉삼,Mibsam, ,deprecated,False

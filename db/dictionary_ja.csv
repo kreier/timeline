@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,5.7,6.02,5.7,float,True
+version,6.02,6.02,5.7,float,True
 pdf_title,人類史6000年の年表,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,人類の年表,Timeline of humankind,5.7,text,False
 BCE,西暦前,B.C.E.,appendix B9,B9,True
@@ -460,7 +460,6 @@ daniel2_12,生まれる,comes into being,End 4.2,B9,False
 63BCE,前63年,63 B.C.E.,prior to the year,B9,False
 70CE,70年,70 C.E.,and something,B9,False
 1914CE,1914-1918年,1914-1918 C.E.,after the year,B9,False
-daniel2_shift,10,10,Start 4.2,float,False
 7times,啓示12∶9,Revelation 12:9, ,scripture,False
 infliction2,使徒 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,紀元前 770 ～ 256 年,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,テラの家族の人々,Members of Terah’s family, ,deprecated,False
 metropolitan,2011年に大都市での証言が開始される,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,2012 年 12 月に王国宣教の指示に従って JW.ORG を開始,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,10,10,Start 4.2,deprecated,False
 Gatam,ガタム,Gatam, ,deprecated,False
 Adbeel,アドベエル,Adbeel, ,deprecated,False
 Mibsam,ミブサム,Mibsam, ,deprecated,False

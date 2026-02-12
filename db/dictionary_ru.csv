@@ -460,7 +460,6 @@ daniel2_12,мировая держава,comes into being,End 4.2,B9,True
 63BCE,63 г. до н. э.,63 B.C.E.,prior to the year,B9,True
 70CE,70 г. н. э.,70 C.E.,and something,B9,True
 1914CE,1914—1918 гг. н. э.,1914-1918 C.E.,after the year,B9,True
-daniel2_shift,47,47,Start 4.2,float,False
 7times,Откровение 12:9,Revelation 12:9, ,scripture,False
 infliction2,Деяния 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,770-256 гг. до н.э.,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,Члены семьи Фарры,Members of Terah’s family, ,deprecat
 metropolitan,Начало столичного свидетельствования в 2011 году.,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,"Запуск JW.ORG с инструкциями по служению в Царстве, декабрь 2012 г.",Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,True
+daniel2_shift,47,47,Start 4.2,deprecated,False
 Gatam,Гата́м,Gatam,Genesis 36:11,deprecated,True
 Adbeel,Адбеэ́л,Adbeel,Genesis 25:13,deprecated,True
 Mibsam,Мивса́м,Mibsam,Genesis 25:13,deprecated,True

@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,4.6,6.02, ,float,True
+version,6.02,6.02, ,float,True
 pdf_title,6000 سال تاریخ بشر تجسم شده است,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,جدول زمانی نوع بشر,Timeline of humankind, ,text,True
 BCE,ه.س.إ.,B.C.E., ,B9,True
@@ -460,7 +460,6 @@ daniel2_12,به وجود می آید,comes into being,End 4.2,B9,False
 63BCE,63 پ.م.,63 B.C.E.,prior to the year,B9,False
 70CE,70 C.E.,70 C.E.,and something,B9,False
 1914CE,1914-1918 C.E.,1914-1918 C.E.,after the year,B9,False
-daniel2_shift,0,0,Start 4.2,float,False
 7times,مکاشفه 12:9,Revelation 12:9, ,scripture,False
 infliction2,اعمال رسولان 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,770-256 قبل از میلاد,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,اعضای خانواده ترح,Members of Terah’s family, ,deprecat
 metropolitan,شروع شهادت شهری در سال 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,شروع JW.ORG با دستورالعمل‌ها در خدمت پادشاهی دسامبر ۲۰۱۲,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,0,0,Start 4.2,deprecated,False
 Gatam,گاتام,Gatam, ,deprecated,False
 Adbeel,أدبيل,Adbeel, ,deprecated,False
 Mibsam,میبسام,Mibsam, ,deprecated,False

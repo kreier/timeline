@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,5.2,6.02, ,float,True
+version,6.02,6.02, ,float,True
 pdf_title,Afọ 6000 akụkọ ihe mere eme mmadụ na-ahụ anya,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Oge nke ihe a kpọrọ mmadụ,Timeline of humankind,5.2,text,True
 BCE,B.C.E.,B.C.E.,appendix B9,B9,True
@@ -460,7 +460,6 @@ daniel2_12,n’oge Agha Ụwa nke Mbụ,comes into being,End 4.2,B9,True
 63BCE,63 T.O.N.K.,63 B.C.E.,prior to the year,B9,True
 70CE,70 O.N.K.,70 C.E.,and something,B9,True
 1914CE,1914-1918 O.N.K.,1914-1918 C.E.,after the year,B9,True
-daniel2_shift,0,0,Start 4.2,float,False
 7times,Mkpughe 12:9,Revelation 12:9, ,scripture,False
 infliction2,Ọrụ Ndịozi 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,770-256 BC,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,Ndị ezinụlọ Tira,Members of Terah’s family, ,deprecated,False
 metropolitan,Mmalite nke ịgba àmà obodo ukwu na 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,Malite JW.ORG na ntụziaka n'ozi alaeze Disemba 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,0,0,Start 4.2,deprecated,False
 Gatam,Gatam,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Mibsam,Mibsam, ,deprecated,False

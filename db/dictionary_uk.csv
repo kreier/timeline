@@ -1,5 +1,5 @@
 key,text,english,notes,tag,checked
-version,5.9,6.02,5.9,float,True
+version,6.02,6.02,5.9,float,True
 pdf_title,6000 років людська історія візуалізована,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Графік людства,Timeline of humankind,5.9,text,True
 BCE,до н. е.,B.C.E.,appendix B9,B9,True
@@ -460,7 +460,6 @@ daniel2_12,світова держава,comes into being,End 4.2,B9,False
 63BCE,63 до н. е.,63 B.C.E.,prior to the year,B9,False
 70CE,70 н. е.,70 C.E.,and something,B9,False
 1914CE,1914—1918,1914-1918 C.E.,after the year,B9,False
-daniel2_shift,10,10,Start 4.2,float,False
 7times,Об'явлення 12: 9,Revelation 12:9, ,scripture,False
 infliction2,Дії 7:6,Acts 7:6, ,scripture,False
 eastern-zhou,770-256 р. до н. е.,770-256 BC, ,span_bc,False
@@ -554,6 +553,7 @@ terahfam,Члени родини Тера,Members of Terah’s family, ,deprecat
 metropolitan,Початок столичного свідчення в 2011 році,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,Початок jw.org з інструкціями в міністерстві королівства грудень 2012 року,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,10,10,Start 4.2,deprecated,False
 Gatam,Гата́м,Gatam, ,deprecated,False
 Adbeel,Адбеї́л,Adbeel, ,deprecated,False
 Mibsam,Мівса́м,Mibsam, ,deprecated,False
