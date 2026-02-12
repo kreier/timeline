@@ -1,45 +1,45 @@
 key,born,start,end,row_y,years,months,days,c_s,c_e,notes
-Saul,0,-1116.25,-1076.25,1,40,0,0,0,0,bce_float = -y+1 - (12-m)/12 – (31-d)/360
-David,0,-1076.25,-1036.25,2,40,0,0,0,0,
-Solomon,0,-1036.25,-996.25,3,40,0,0,0,0,
-Rehoboam,-1037.25,-996.25,-979.667,4,17,0,0,0,0,first king of southern kingdom of Juda; at age 41 (1Ki 14:21)
-Abijah,0,-979.667,-977.25,5,3,0,0,0,0,3 years; also Abijam
-Asa,0,-977.25,-936.25,6,41,0,0,0,0,
-Jehoshaphat,-971.25,-936.25,-912.25,7,25,0,0,0,0,1Ki 22:42 was 35 years old; reign started 936 BCE?
-Jehoram2,-943.25,-912.25,-905.25,8,8,0,0,0,0,2Chr 21:5 was 32 years old
-Ahaziah,-927.25,-905.25,-904.25,9,1,0,0,0,0,2Ki 8:26 was 22 years old
-Athaliah,0,-904.25,-897.25,10,6,0,0,0,0,Queen Athaliah; daughter of Ahab and Jezebel; granddaughter of Omri; mother of Ahaziah
-Jehoash,-904.25,-897.25,-857.25,11,40,0,0,0,0,2Ki 11:21 was 7 years old
-Amaziah,-882.25,-857.25,-828.25,12,29,0,0,0,0,2Ki 14:2 was 25 years old
-Uzziah,-844.25,-828.25,-776.25,13,52,0,0,0,0,also Azariah; 2Ki14:21 was 16 years old
-Jotham,-801.25,-776.25,-761.25,14,16,0,0,0,0,2Chr 27:8 was 25 years old
-Ahaz,-781.25,-761.25,-745.25,15,16,0,0,0,0,2Ki 16:2 was 20 years old
-Hezekiah,-770.25,-745.25,-715.25,16,29,0,0,0,0,2Chr 29:1 was 25 years old
-Manasseh,-727.25,-715.25,-660.25,17,55,0,0,0,0,2Ki 21:1 was 12 years old
-Amon,-682.25,-660.25,-658.25,18,2,0,0,0,0,2Ki 21:19 was 22 years old
-Josiah,-666.25,-658.25,-627.5,19,31,0,0,0,0,2Ki 22:1 was 8 years old
-Jehoahaz,-650.5,-627.5,-627.25,20,0,3,0,0,0,Only 3 months; 2Ki 23:31 was 23 years old
-Jehoiakim,-652.25,-627.25,-617.25,21,11,0,0,0,0,2Ki 23:36 was 25 years old
-Jehoiachin,-635.25,-617.25,-616.975,22,0,3,10,0,0,Only 3 months 10 days; 2Ki 24:8 was 18 years old
-Zedekiah,-637.98,-616.975,-606.25,23,11,0,0,0,0,2KChr 36:11 was 21 years old
-Jeroboam,0,-996.25,-975.25,9,22,0,0,0,0,first king of northern 10-tribe kingdom
-Nadab,0,-975.25,-974.25,10,2,0,0,0,0,less than 2
-Baasha,0,-974.25,-951.25,11,24,0,0,0,0,
-Elah,0,-951.25,-950.25,12,2,0,0,0,0,
-Zimri,0,-950.25,-950.231,13,0,0,7,0,0,Only 7 days in ca. 751 BCE
-OmriTibni,0,-950.231,-946.25,14,4,0,0,0,0,4 years Omri and Tibni
-Omri,0,-946.25,-939.25,15,8,0,0,0,0,from 947 Omri alone
-Ahab,0,-939.25,-919.25,16,22,0,0,0,0,
-Ahaziah,0,-919.25,-916.25,17,2,0,0,0,0,son of Ahab and Jezebel
-Jehoram,0,-916.25,-904.25,18,12,0,0,0,0,
-Jehu,0,-904.25,-875.25,19,28,0,0,0,0,
-Jeoahaz,0,-875.25,-861.25,20,14,0,0,0,0,
-JeoahazJehoash,0,-861.25,-858.25,21,3,0,0,0,0,For 3 years Jeoahaz and Jeoash reigned together
-Jehoash2,0,-858.25,-843.25,22,16,0,0,0,0,Jehoash (alone)
-Jeroboam2,0,-843.25,-802.25,23,41,0,0,0,0,
-Zechariah,0,-802.25,-790.25,24,0,6,0,0,0,"reign only recorded 6 months, probably only established 792 BCE"
-Schallum,0,-790.25,-790.167,25,0,1,0,0,0,only one month
-Menahem,0,-790.167,-779.25,26,10,0,0,0,0,
-Pekahiah,0,-779.25,-777.25,27,2,0,0,0,0,
-Pekah,0,-777.25,-757.25,28,20,0,0,0,0,
-Hoshea,0,-757.25,-739.25,29,9,0,0,0,0,9 years from c. 748
+Saul,0001-01-01,BCE1117-10-01,BCE1077-10-01,1,40,0,0,0,0,bce_float = -y+1 - (12-m)/12 – (31-d)/360
+David,0001-01-01,BCE1077-10-01,BCE1037-10-01,2,40,0,0,0,0,
+Solomon,0001-01-01,BCE1037-10-01,BCE0997-10-01,3,40,0,0,0,0,
+Rehoboam,BCE1038-10-01,BCE0997-10-01,BCE0980-05-02,4,17,0,0,0,0,first king of southern kingdom of Juda; at age 41 (1Ki 14:21)
+Abijah,0001-01-01,BCE0980-05-02,BCE0978-10-01,5,3,0,0,0,0,3 years; also Abijam
+Asa,0001-01-01,BCE0978-10-01,BCE0937-10-01,6,41,0,0,0,0,
+Jehoshaphat,BCE0972-10-01,BCE0937-10-01,BCE0913-10-01,7,25,0,0,0,0,1Ki 22:42 was 35 years old; reign started 936 BCE?
+Jehoram2,BCE0944-10-01,BCE0913-10-01,BCE0906-10-01,8,8,0,0,0,0,2Chr 21:5 was 32 years old
+Ahaziah,BCE0928-10-01,BCE0906-10-01,BCE0905-10-01,9,1,0,0,0,0,2Ki 8:26 was 22 years old
+Athaliah,0001-01-01,BCE0905-10-01,BCE0898-10-01,10,6,0,0,0,0,Queen Athaliah; daughter of Ahab and Jezebel; granddaughter of Omri; mother of Ahaziah
+Jehoash,BCE0905-10-01,BCE0898-10-01,BCE0858-10-01,11,40,0,0,0,0,2Ki 11:21 was 7 years old
+Amaziah,BCE0883-10-01,BCE0858-10-01,BCE0829-10-01,12,29,0,0,0,0,2Ki 14:2 was 25 years old
+Uzziah,BCE0845-10-01,BCE0829-10-01,BCE0777-10-01,13,52,0,0,0,0,also Azariah; 2Ki14:21 was 16 years old
+Jotham,BCE0802-10-01,BCE0777-10-01,BCE0762-10-01,14,16,0,0,0,0,2Chr 27:8 was 25 years old
+Ahaz,BCE0782-10-01,BCE0762-10-01,BCE0746-10-01,15,16,0,0,0,0,2Ki 16:2 was 20 years old
+Hezekiah,BCE0771-10-01,BCE0746-10-01,BCE0716-10-01,16,29,0,0,0,0,2Chr 29:1 was 25 years old
+Manasseh,BCE0728-10-01,BCE0716-10-01,BCE0661-10-01,17,55,0,0,0,0,2Ki 21:1 was 12 years old
+Amon,BCE0683-10-01,BCE0661-10-01,BCE0659-10-01,18,2,0,0,0,0,2Ki 21:19 was 22 years old
+Josiah,BCE0667-10-01,BCE0659-10-01,BCE0628-07-02,19,31,0,0,0,0,2Ki 22:1 was 8 years old
+Jehoahaz,BCE0651-07-02,BCE0628-07-02,BCE0628-10-01,20,0,3,0,0,0,Only 3 months; 2Ki 23:31 was 23 years old
+Jehoiakim,BCE0653-10-01,BCE0628-10-01,BCE0618-10-01,21,11,0,0,0,0,2Ki 23:36 was 25 years old
+Jehoiachin,BCE0636-10-01,BCE0618-10-01,BCE0617-01-10,22,0,3,10,0,0,Only 3 months 10 days; 2Ki 24:8 was 18 years old
+Zedekiah,BCE0638-01-08,BCE0617-01-10,BCE0607-10-01,23,11,0,0,0,0,2KChr 36:11 was 21 years old
+Jeroboam,0001-01-01,BCE0997-10-01,BCE0976-10-01,9,22,0,0,0,0,first king of northern 10-tribe kingdom
+Nadab,0001-01-01,BCE0976-10-01,BCE0975-10-01,10,2,0,0,0,0,less than 2
+Baasha,0001-01-01,BCE0975-10-01,BCE0952-10-01,11,24,0,0,0,0,
+Elah,0001-01-01,BCE0952-10-01,BCE0951-10-01,12,2,0,0,0,0,
+Zimri,0001-01-01,BCE0951-10-01,BCE0951-10-08,13,0,0,7,0,0,Only 7 days in ca. 751 BCE
+OmriTibni,0001-01-01,BCE0951-10-08,BCE0947-10-01,14,4,0,0,0,0,4 years Omri and Tibni
+Omri,0001-01-01,BCE0947-10-01,BCE0940-10-01,15,8,0,0,0,0,from 947 Omri alone
+Ahab,0001-01-01,BCE0940-10-01,BCE0920-10-01,16,22,0,0,0,0,
+Ahaziah,0001-01-01,BCE0920-10-01,BCE0917-10-01,17,2,0,0,0,0,son of Ahab and Jezebel
+Jehoram,0001-01-01,BCE0917-10-01,BCE0905-10-01,18,12,0,0,0,0,
+Jehu,0001-01-01,BCE0905-10-01,BCE0876-10-01,19,28,0,0,0,0,
+Jeoahaz,0001-01-01,BCE0876-10-01,BCE0862-10-01,20,14,0,0,0,0,
+JeoahazJehoash,0001-01-01,BCE0862-10-01,BCE0859-10-01,21,3,0,0,0,0,For 3 years Jeoahaz and Jeoash reigned together
+Jehoash2,0001-01-01,BCE0859-10-01,BCE0844-10-01,22,16,0,0,0,0,Jehoash (alone)
+Jeroboam2,0001-01-01,BCE0844-10-01,BCE0803-10-01,23,41,0,0,0,0,
+Zechariah,0001-01-01,BCE0803-10-01,BCE0791-10-01,24,0,6,0,0,0,"reign only recorded 6 months, probably only established 792 BCE"
+Schallum,0001-01-01,BCE0791-10-01,BCE0791-10-31,25,0,1,0,0,0,only one month
+Menahem,0001-01-01,BCE0791-10-31,BCE0780-10-01,26,10,0,0,0,0,
+Pekahiah,0001-01-01,BCE0780-10-01,BCE0778-10-01,27,2,0,0,0,0,
+Pekah,0001-01-01,BCE0778-10-01,BCE0758-10-01,28,20,0,0,0,0,
+Hoshea,0001-01-01,BCE0758-10-01,BCE0740-10-01,29,9,0,0,0,0,9 years from c. 748

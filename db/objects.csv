@@ -1,12 +1,12 @@
 key,start,end,row_y,notes
-septuagint,-280,-180,7.5,requested by Ptolemy II Philadelphus (285–247 BCE)
-dead_sea_scrolls,-250,-50,9,Discovered 1946 – 1956
-codex_sinaiticus,325,400,6.8,After 325 AD
-codex_vaticanus,300,400,16.8,
-babel,-2268,-2168,4,during the time of Peleg
-gilgamesh,-1900,-1600,7.7,Gilgamesh and Aga
-epic_gilgamesh,-1630,-1280,12.8,Epic of Gilgamesh
-oxyrhynchus,150,550,18.2,Oxyrhynchus Papyri
-p52,125,175,19.6,Rylands Library Papyrus P52
-ur3,-2112,-2004,2.7,Third Dynasty of Ur
-hammurabi,-1810,-1750,9.5,sixth Amorite king of the Old Babylonian Empire
+septuagint,BCE0280-07-02,BCE0180-07-02,7.5,requested by Ptolemy II Philadelphus (285–247 BCE)
+dead_sea_scrolls,BCE0250-07-02,BCE0050-07-02,9.0,Discovered 1946 – 1956
+codex_sinaiticus,0326-07-02,0401-07-02,6.8,After 325 AD
+codex_vaticanus,0301-07-02,0401-07-02,16.8,
+babel,BCE2268-07-02,BCE2168-07-02,4.0,during the time of Peleg
+gilgamesh,BCE1900-07-02,BCE1600-07-02,7.7,Gilgamesh and Aga
+epic_gilgamesh,BCE1630-07-02,BCE1280-07-02,12.8,Epic of Gilgamesh
+oxyrhynchus,0151-07-02,0551-07-02,18.2,Oxyrhynchus Papyri
+p52,0126-07-02,0176-07-01,19.6,Rylands Library Papyrus P52
+ur3,BCE2112-07-02,BCE2004-07-02,2.7,Third Dynasty of Ur
+hammurabi,BCE1810-07-02,BCE1750-07-02,9.5,sixth Amorite king of the Old Babylonian Empire
