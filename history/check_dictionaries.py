@@ -3,6 +3,8 @@
 # The entries in the dictionary_XX connect the key value with the text. 
 # The same row also has english as reference and for comparison. And notes for more details.
 #
+# 2026-01-07 v1.0 Initial version
+#
 # The dictonary files are used by the following files and will be checked if some of the keys are never used:
 
 import pandas as pd

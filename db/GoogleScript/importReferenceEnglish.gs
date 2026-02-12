@@ -1,13 +1,9 @@
-function copyDictionary2026() {
+function importReferenceEnglish() {
   const ui = SpreadsheetApp.getUi();
 
   const targetSS = SpreadsheetApp.getActive();
-  const targetSheet = targetSS.getSheetByName(TAB_NAME);
-
-  if (!targetSheet) {
-    ui.alert(`Target sheet "${TAB_NAME}" not found.`);
-    return;
-  }
+  const targetSheet = targetSS.getActiveSheet();
+  const sheetName = targetSheet.getName();
 
   const referenceSS = SpreadsheetApp.openById(REFERENCE_SPREADSHEET_ID);
   const referenceSheet = referenceSS.getSheetByName(TAB_NAME);
@@ -29,5 +25,5 @@ function copyDictionary2026() {
     .getRange(1, 3, colCtoE.length, colCtoE[0].length)
     .setValues(colCtoE);
 
-  SpreadsheetApp.getActive().toast('Dictionary copied from reference → 2026 ✅', 'Success', 3);
+  targetSS.toast(`Dictionary copied from reference → ${sheetName} ✅`, "Success", 3);
 }

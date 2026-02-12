@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,5.9,6.01,5.9,float,True
-pdf_title,6000 ਸਾਲ ਦੇ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਕਲਪਨਾ ਕੀਤੀ,6000 years human history visualized,2026-01-16,text,True
+version,5.9,6.02,5.9,float,True
+pdf_title,6000 ਸਾਲ ਦੇ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਕਲਪਨਾ ਕੀਤੀ,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,ਮਨੁੱਖਜਾਤੀ ਦੀ ਸਮਾਂ ਰੇਖਾ,Timeline of humankind,5.9,text,True
 BCE,ਬੀ.ਸੀ.ਈ.,B.C.E.,appendix B9,B9,True
 CE,ਸੀ.ਈ.,C.E., ,B9,False
@@ -16,7 +16,7 @@ temple1,NISAN 1513 B.c.e. ZIV 1034 B.c.e.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., 
 year,ਸਾਲ,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False
 years,ਸਾਲ,years, ,text,False
 years_age,ਸਾਲ,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
-age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
 wilderness,ਉਜਾੜ ਵਿੱਚ ਇਜ਼ਰਾਈਲ 1513 ਤੋਂ 1473 ਬੀ.ਸੀ.. - 40 ਸਾਲ,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
 timespan_judges,1473 ਤੋਂ 1117 ਬੀ.ਸੀ. - 356 ਸਾਲ,1473 to 1117 B.C.E. – 356 years, ,text,False
 timespan_judges2,ਜੱਜਾਂ ਦਾ ਸਮਾਂ,Time of the judges, ,text,False
@@ -366,6 +366,16 @@ Lud_fn,17) ਲਿੰਦੇ ਲੋਕ: 1 ਇਤਹਾਸ 1:17,17) Lydians: 1 Chro
 Ishmael_fn,18) ਇਸ਼ਮਾਇਟਸ: ਉਤਪਤ 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) ਅਮੋਰਾਈਟਸ: ਨਿਆਈਆਂ 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) ਹਿੱਵੀ [ਗਿਬਓਨ]: ਯਹੋਸ਼ੁਆ 9: 3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,ਕਾਇਨ,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,ਹਾਬਲ,Abel,Genesis 4:2,bible,False
+Irad,ਇਰਾਦ,Irad,Genesis 4:18,bible,False
+Mehujael,ਮੇਹੁਜੇਲ,Mehujael,Genesis 4:18,bible,False
+Methushael,ਮੇਥੁਸ਼ਾਏਲ,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,ਜੱਬਲ,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,ਜੁਬਲ,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,ਜ਼ਿਲ੍ਹਾ,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,ਟਿਊਬਲ-ਕੈਨ,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,ਨਾਮਾ,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,ਰਹਬੁਆਮ,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,ਅਬੀਯਾਹ (ਅਬੀਯਾਮ),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,ਆਸਾ,Asa,A6-A,A6-A,False
@@ -538,18 +548,18 @@ objects,ਆਬਜੈਕਟ ਜਾਂ ਚੀਜ਼ਾਂ,objects or items, ,depre
 event_destruction_samaria2,740 ਬੀ.ਸੀ.. ਅੱਸ਼ੂਰ ਦੁਆਰਾ,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,"ਸ੍ਰਿਸ਼ਟੀ ਦਾ ਫੋਟੋ-ਡਰਾਮਾ ਪਹਿਲਾਂ ਨਿ New ਯਾਰਕ ਵਿੱਚ 11 ਜਨਵਰੀ, 1914 ਨੂੰ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,ਸੱਚ ਜੋ ਸਦੀਵੀ ਜੀਵਨ ਵੱਲ ਲੈ ਜਾਂਦਾ ਹੈ ਕਿਤਾਬ 1968 ਨੂੰ ਜਾਰੀ ਕੀਤੀ ਗਈ ਹੈ,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,ਸਾਲ 2011 ਵਿਚ ਮੈਟਰੋਪੋਲੀਟਨ ਦੀ ਸ਼ੁਰੂਆਤ,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,JW.ORG ਦੀ ਸ਼ੁਰੂਆਤ ਕਿੰਗਡਮ ਮਿਨਾਈ ਸਾਲ 2012 ਵਿੱਚ ਨਿਰਦੇਸ਼ਾਂ ਨਾਲ,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,ਅਕਤੂਬਰ 2014 ਵਿੱਚ ਜੇ ਡਬਲਯੂ ਬ੍ਰੌਡਕਾਸਟਿੰਗ ਦੀ ਸ਼ੁਰੂਆਤ,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,"ਮਿਡਵੀਕ ਦਾ ਨਵਾਂ ਫਾਰਮੈਟ ""ਮੀਟਿੰਗ ਵਰਕਬੁੱਕ"" ਜਨਵਰੀ 2016 ਤੋਂ ਸ਼ੁਰੂ ਹੋਇਆ",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,ਤੇਰਾਹ ਦੇ ਪਰਿਵਾਰ ਦੇ ਮੈਂਬਰ,Members of Terah’s family, ,deprecated,False
+metropolitan,ਸਾਲ 2011 ਵਿਚ ਮੈਟਰੋਪੋਲੀਟਨ ਦੀ ਸ਼ੁਰੂਆਤ,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,JW.ORG ਦੀ ਸ਼ੁਰੂਆਤ ਕਿੰਗਡਮ ਮਿਨਾਈ ਸਾਲ 2012 ਵਿੱਚ ਨਿਰਦੇਸ਼ਾਂ ਨਾਲ,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,ਗਤਾਮ,Gatam, ,deprecated,False
 Adbeel,ਐਡਰਬੇਲ,Adbeel, ,deprecated,False
 Mibsam,ਮੀਬਸਮ,Mibsam, ,deprecated,False
 Dumah,ਦੁਮਮਾਹ,Dumah, ,deprecated,False
 Massa,ਮੱਸਾ,Massa, ,deprecated,False
-Babylon2,, ,no text left and right – empty!,deprecated,False
-terahfam,ਤੇਰਾਹ ਦੇ ਪਰਿਵਾਰ ਦੇ ਮੈਂਬਰ,Members of Terah’s family, ,deprecated,False
-tang-dynasty1,, , ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
 xia-dynasty,ਚੀਨ ਵਿਚ ਜ਼ੀਨਾ ਰਾਜਵੰਸ਼ ਸੀ. 2070 - ਸੀ. 1600 ਬੀ.ਸੀ.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) ਮਿਦਯਿਨਾਈਟਸ: ਨੰਬਰ 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
 Moabites,"2) ਮੋਆਬੀ: ਬਿਵਸਥਾ ਸਾਰ 23: 3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
@@ -557,6 +567,6 @@ Ammonites,3) ਅਮੋਨੀਟਸ: ਯਹੋਸ਼ੁਆ 12: 2,3) Ammonites: Jo
 Edomites,4) ਅਦੋਮਿਤੀਆਂ: ਗਿਣਤੀ 20: 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
 Temanites,5) ਤੇਮਾਨਤਾ: ਅੱਯੂਬ 42: 7,5) Temanites: Job 42:7, ,deprecated,False
 Amalekites,6) ਅਮਾਲੇਕੀ ਲੋਕ: 1 ਸਮੂਏਲ 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
-king_south_light,, ,2025-02-05,deprecated,False
-king_north_light,, ,2025-02-05,deprecated,False
-daniel2_iron,, ,2025-02-05,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

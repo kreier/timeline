@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,5.9,6.01,5.9,float,True
-pdf_title,6000 tahun Sejarah Manusia Divisualisasikan,6000 years human history visualized,2026-01-16,text,True
+version,5.9,6.02,5.9,float,True
+pdf_title,6000 tahun Sejarah Manusia Divisualisasikan,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Garis masa manusia,Timeline of humankind,5.9,text,True
 BCE,SM,B.C.E.,appendix B9,B9,True
 CE,M,C.E., ,B9,True
@@ -366,6 +366,16 @@ Lud_fn,17) Lydians: 1 Tawarikh 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiq
 Ishmael_fn,18) Ismael: Kejadian 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) Amorit: Hakim 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) Orang Hewi [Gibeon]: Yosua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,Kain,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,Abel,Abel,Genesis 4:2,bible,False
+Irad,Irad,Irad,Genesis 4:18,bible,False
+Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False
+Methushael,Methushael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,Naamah,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Rehabeam,Rehoboam,first king of southern kingdom of Juda,A6-A,True
 Abijah,Abia (Abiam),Abijah (Abijam),"3 years, also Abijam",A6-A,True
 Asa,Asa,Asa,A6-A,A6-A,True
@@ -538,17 +548,17 @@ objects,objek atau item,objects or items, ,deprecated,False
 event_destruction_samaria2,740 B.C.E. oleh Assyria,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,Foto-drama penciptaan pertama kali ditunjukkan di New York pada 11 Januari 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,"Buku ""Kebenaran yang membawa kepada kehidupan kekal"" dikeluarkan 1968",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,Permulaan Metropolitan menyaksikan pada tahun 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,Permulaan jw.org dengan arahan di Kementerian Kerajaan Disember 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,Permulaan JW Broadcasting® pada bulan Oktober 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,"Format baru pertemuan pertengahan minggu dengan ""Buku Kerja Mesyuarat"" mulai Januari 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,Ahli keluarga Terah,Members of Terah’s family, ,deprecated,False
+metropolitan,Permulaan Metropolitan menyaksikan pada tahun 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,Permulaan jw.org dengan arahan di Kementerian Kerajaan Disember 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,Gatam,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,MIBSAM,Mibsam, ,deprecated,False
 Dumah,Dumah,Dumah, ,deprecated,False
 Massa,Massa,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,Ahli keluarga Terah,Members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,Dinasti Xia di China c. 2070 - c. 1600 SM,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) Orang Midian: Bilangan 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False

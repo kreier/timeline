@@ -1,10 +1,13 @@
 function importCsvToHL() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   const sheet = ss.getActiveSheet();
-  const folderId = "folder_for_csv_files";
+  const folderId = "folder_for_csv_files"; // Replace with your folder ID
 
-  const spreadsheetName = SpreadsheetApp.getActiveSpreadsheet().getName();
-  const csvFileName = spreadsheetName + ".csv";
+  // Get language code from sheet name
+  const langCode = sheet.getName().trim().toLowerCase();
+
+  // Build filename like dictionary_en.csv
+  const csvFileName = `dictionary_${langCode}.csv`;
 
   const folder = DriveApp.getFolderById(folderId);
   const files = folder.getFilesByName(csvFileName);

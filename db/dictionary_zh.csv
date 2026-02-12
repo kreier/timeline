@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.01,6.01, ,float,True
-pdf_title,6000年的人类历史可视化,6000 years human history visualized,2026-01-16,text,True
+version,6.01,6.02, ,float,True
+pdf_title,6000年的人类历史可视化,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,人类时间轴,Timeline of humankind,6.01,text,True
 BCE,公元前,B.C.E.,appendix B9,B9,False
 CE,C.E.,C.E., ,B9,False
@@ -16,7 +16,7 @@ temple1,公元前 1513 年尼散月至公元前 1034 年齐夫,Nisan 1513 B.C.E.
 year,年,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False
 years,年,years, ,text,False
 years_age,岁,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
-age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
 wilderness,以色列人在旷野中，公元前 1513 年至 1473 年– 40 年,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
 timespan_judges,公元前 1473 年至 1117 年– 356 年,1473 to 1117 B.C.E. – 356 years, ,text,False
 timespan_judges2,评委时间,Time of the judges, ,text,False
@@ -366,6 +366,16 @@ Lud_fn,17) 吕底亚人：历代志上 1:17,17) Lydians: 1 Chronicles 1:17,"Jewi
 Ishmael_fn,18) 以实玛利派：创世记 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) 亚摩利人：士师记 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) 希未人 [基遍]: 约书亚记 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,该隐,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,亚伯,Abel,Genesis 4:2,bible,False
+Irad,伊拉德,Irad,Genesis 4:18,bible,False
+Mehujael,梅胡贾尔,Mehujael,Genesis 4:18,bible,False
+Methushael,玛土撒利,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,贾巴尔,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,朱巴尔,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,齐拉,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,土八该隐,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,纳玛,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,罗波安,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,亚比雅（亚比央）,Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,亚撒,Asa,A6-A,A6-A,False
@@ -538,18 +548,18 @@ objects,事物或物品,objects or items, ,deprecated,False
 event_destruction_samaria2,公元前 740 年亚述,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,1914年1月11日，《创世摄影剧》在纽约首演,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,1968年出版《通往永生的真理》一书,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,2011年开始大都会见证,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,JW.ORG 启动，并于 2012 年 12 月接受王国事工指示,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,2014年10月jw.broadcasting开始,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,2016 年 1 月开始采用“会议工作簿”的周中会议新形式,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,他拉的家庭成员,Members of Terah’s family, ,deprecated,False
+metropolitan,2011年开始大都会见证,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,JW.ORG 启动，并于 2012 年 12 月接受王国事工指示,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,加塔姆,Gatam, ,deprecated,False
 Adbeel,阿德贝尔,Adbeel, ,deprecated,False
 Mibsam,米布萨姆,Mibsam, ,deprecated,False
 Dumah,杜马,Dumah, ,deprecated,False
 Massa,马萨,Massa, ,deprecated,False
-Babylon2,, ,no text left and right – empty!,deprecated,False
-terahfam,他拉的家庭成员,Members of Terah’s family, ,deprecated,False
-tang-dynasty1,, , ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
 xia-dynasty,中国夏朝 C. 2070 – c.公元前1600年,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,1）米迪亚人：数字31：2，3,"1) Midianites: Numbers 31:2, 3", ,deprecated,False
 Moabites,2）Moabites：申命记23：3，4,"2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
@@ -557,6 +567,6 @@ Ammonites,3）铵：约书亚12：2,3) Ammonites: Joshua 12:2, ,deprecated,False
 Edomites,4）以东：数字20：14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
 Temanites,5）Temanites：工作42：7,5) Temanites: Job 42:7, ,deprecated,False
 Amalekites,6）阿马莱克人：1塞缪尔15：2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
-king_south_light,, ,2025-02-05,deprecated,False
-king_north_light,, ,2025-02-05,deprecated,False
-daniel2_iron,, ,2025-02-05,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

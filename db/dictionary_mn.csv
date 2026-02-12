@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,4.5,6.01, ,float,True
-pdf_title,6000 жилийн хүн төрөлхтний түүхийг төсөөлсөн нь,6000 years human history visualized,2026-01-16,text,True
+version,4.5,6.02, ,float,True
+pdf_title,6000 жилийн хүн төрөлхтний түүхийг төсөөлсөн нь,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Хүн төрөлхтний цагийн хуваарь,Timeline of humankind, ,text,False
 BCE,Б.Энх-Эрдэнэ,B.C.E., ,B9,True
 CE,Ц.Элбэгдорж:,C.E., ,B9,True
@@ -366,6 +366,16 @@ Lud_fn,17) Лидичууд: 1 Шастир 1:17,17) Lydians: 1 Chronicles 1:17,
 Ishmael_fn,18) Ишмаелчууд: Эхлэл 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) Аморичууд: Шүүгчид 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) Хивитүүд [Гибеон]: Иошуа 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,Каин,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,Абел,Abel,Genesis 4:2,bible,False
+Irad,Ирад,Irad,Genesis 4:18,bible,False
+Mehujael,Мехужаел,Mehujael,Genesis 4:18,bible,False
+Methushael,Метушаел,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,Жабал,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,Жубал,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,Зилла,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Тубал-кайн,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,Наама,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Рехобоам,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,Абыжа (Абыжам),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,Аса,Asa, ,A6-A,False
@@ -537,17 +547,26 @@ events,үйл явдал,events, ,deprecated,False
 objects,эд зүйлс эсвэл эд зүйлс,objects or items, ,deprecated,False
 event_destruction_samaria2,МЭӨ 740 он Ассирийн,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,«Бүтээлийн тухай фото драм»-ыг 1914 оны 1 дүгээр сарын 11-нд Нью-Йорк хотноо анх удаа үзүүлжээ.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
-truth_book,"""Мөнхийн амь руу хөтлөх үнэн"" ном 1968 онд гарсан",The book “The Truth That Leads to Eternal Life” released 1968, ,deprecated,False
+truth_book,"""Мөнхийн амь руу хөтлөх үнэн"" ном 1968 онд гарсан",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+jw_broadcasting,2014 оны 10-р сараас эхлэн jw.broadcasting,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,"2016 оны 1-р сараас эхлэн ""хурлын дасгалын ном""-той долоо хоногийн дундуур уулзах шинэ хэлбэр",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,Терагийн гэр бүлийн гишүүд,Members of Terah’s family, ,deprecated,False
 metropolitan,2011 онд хот суурин газарт дэлгэрүүлж эхэлсэн,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,2012 оны 12-р сард хаанчлалын тухай сайн мэдээ дэлгэрүүлэх ажилд JW.ORG эхэлсэн,Start of JW.ORG with instructions in kingdom ministry December 2012, ,deprecated,False
-jw_broadcasting,2014 оны 10-р сараас эхлэн jw.broadcasting,Start of jw.broadcasting in October 2014, ,deprecated,False
-meeting_workbook,"2016 оны 1-р сараас эхлэн ""хурлын дасгалын ном""-той долоо хоногийн дундуур уулзах шинэ хэлбэр",New format of midweek meeting with “meeting workbook” starting January 2016, ,deprecated,False
+jw_org,2012 оны 12-р сард хаанчлалын тухай сайн мэдээ дэлгэрүүлэх ажилд JW.ORG эхэлсэн,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,Гатам,Gatam, ,deprecated,False
 Adbeel,Адбил,Adbeel, ,deprecated,False
 Mibsam,Мибсам,Mibsam, ,deprecated,False
 Dumah,Думах,Dumah, ,deprecated,False
 Massa,Масса,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,Терагийн гэр бүлийн гишүүд,members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,Хятад дахь Шяны угсааны улс c. 2070 – c. МЭӨ 1600,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites,"1) Мидианчууд: Тооллого 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites,"2) Моабчууд: Дэд хууль 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites,3) Аммончууд: Иошуа 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites,4) Эдомитчууд: Тооллого 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites,5) Теманчууд: Иов 42:7,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites,6) Амалекчууд: 1 Самуел 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

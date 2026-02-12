@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,5.5,6.01,5.5,float,True
-pdf_title,6000 տարի մարդկային պատմություն արտացոլվեց,6000 years human history visualized,2026-01-16,text,True
+version,5.5,6.02,5.5,float,True
+pdf_title,6000 տարի մարդկային պատմություն արտացոլվեց,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Մարդկության ժամանակացույց,Timeline of humankind,5.5,text,False
 BCE,Ք.ա.,B.C.E.,appendix B9,B9,False
 CE,Ք.Ե.,C.E., ,B9,False
@@ -16,7 +16,7 @@ temple1,Nisan 1513 B.C.E. ZIV 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., 
 year,տարի,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False
 years,ամիս,years, ,text,False
 years_age,տարեկան,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
-age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
 wilderness,Իսրայելը անապատում 1513-ից 1473 B.C.E. - 40 տարի,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
 timespan_judges,1473-ից 1117 B.C.E. - 356 տարի,1473 to 1117 B.C.E. – 356 years, ,text,False
 timespan_judges2,Դատավորների ժամանակը,Time of the judges, ,text,False
@@ -366,6 +366,16 @@ Lud_fn,17) Լիդիացիներ՝ 1 Տարեգրություն 1։17,17) Lydians
 Ishmael_fn,18) Իսմայելացիներ՝ Ծննդոց 37։27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) Ամորհացիներ՝ Դատավորներ 6։10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) Խևացիներ [Գաբաոն]՝ Հեսու 9։3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,Կայեն,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,Աբել,Abel,Genesis 4:2,bible,False
+Irad,Իրադ,Irad,Genesis 4:18,bible,False
+Mehujael,Մեհուջաել,Mehujael,Genesis 4:18,bible,False
+Methushael,Մեթուշայել,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,Ջաբալ,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,Ջուբալ,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,Զիլլա,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,Նաամա,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Ռոբովամ,Rehoboam,first king of southern kingdom of Juda,A6-A,True
 Abijah,Աբիա (Աբիամ),Abijah (Abijam),"3 years, also Abijam",A6-A,True
 Asa,Ասա,Asa,A6-A,A6-A,True
@@ -538,18 +548,18 @@ objects,Օբեկտներ կամ իրեր,objects or items, ,deprecated,False
 event_destruction_samaria2,740 B.C.E. Ասորեստանի կողմից,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,«Ստեղծման ֆոտո-դրաման» առաջին անգամ ցուցադրվում է Նյու Յորքում 1914 թվականի հունվարի 11-ին,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,"«The շմարտությունը, որը տանում է դեպի հավերժական կյանք» գիրքը թողարկվում է 1968 թ",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,2011-ին Մետրոպոլիտենի վթարի սկիզբը,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,Jw.org- ի մեկնարկը Թագավորության ծառայության ցուցումներով 2012 թ. Դեկտեմբեր,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,2014 թվականի հոկտեմբերին JW Broadcasting- ի մեկնարկը,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,Midweek- ի նոր ձեւաչափը `« Հանդիպումների աշխատանքային գրքույկ »2016 թվականի հունվարից,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,Թերայի ընտանիքի անդամները,Members of Terah’s family, ,deprecated,False
+metropolitan,2011-ին Մետրոպոլիտենի վթարի սկիզբը,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,Jw.org- ի մեկնարկը Թագավորության ծառայության ցուցումներով 2012 թ. Դեկտեմբեր,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,Գաթամ,Gatam, ,deprecated,False
 Adbeel,Ադբեել,Adbeel, ,deprecated,False
 Mibsam,Մաբսամ,Mibsam, ,deprecated,False
 Dumah,Դումա,Dumah, ,deprecated,False
 Massa,Մերկ,Massa, ,deprecated,False
-Babylon2,, ,no text left and right – empty!,deprecated,False
-terahfam,Թերայի ընտանիքի անդամները,Members of Terah’s family, ,deprecated,False
-tang-dynasty1,, , ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
 xia-dynasty,Xia Dynasty- ը Չինաստանում գ. 2070 - գ. 1600 մ.թ.ա.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) Մադիանի. Թվեր 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
 Moabites,"2) Մովաբացիներ. Օրի. 23: 3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
@@ -557,6 +567,6 @@ Ammonites,3) Ամոնացիներ. Հեսու 12: 2,3) Ammonites: Joshua 12:2, ,
 Edomites,4) Եդոմացիներ. Թվեր 20: 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
 Temanites,5) թեմանացի. Գործ 42: 7,5) Temanites: Job 42:7, ,deprecated,False
 Amalekites,6) Ամաղեկացիներ. 1 Սամուել 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
-king_south_light,, ,2025-02-05,deprecated,False
-king_north_light,, ,2025-02-05,deprecated,False
-daniel2_iron,, ,2025-02-05,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

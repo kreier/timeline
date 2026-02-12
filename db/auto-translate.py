@@ -358,8 +358,8 @@ if __name__ == "__main__":
     print(summary_table)
 
 
-    if unchecked_BCE_CE(): # true if missing or checked is False
-        asyncio.run(translate_bce_ce(language)) # translate the missing 'BCE' and 'CE' entries for span_bce, span_bc and span_ce tags
+    # if unchecked_BCE_CE(): # true if missing or checked is False
+    #     asyncio.run(translate_bce_ce(language)) # translate the missing 'BCE' and 'CE' entries for span_bce, span_bc and span_ce tags
 
     # Step 9: Find empty entries in text and send them for translation
 

@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
 version,6.02,6.02, ,float,True
-pdf_title,6000 años de historia humana visualizados,6000 years human history visualized,2026-02-10,text,True
+pdf_title,6000 años de historia humana visualizados,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Cronología de la humanidad,Timeline of humankind, ,text,True
 BCE,a.e.c.,B.C.E.,appendix B9,B9,True
 CE,e.c.,C.E., ,B9,True
@@ -62,9 +62,9 @@ declaration_independence,Declaración de independencia en América 1776,Declarat
 tischendorf,Tischendorf descubre en 1844 el Códice Sinaítico del siglo IV,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,True
 dead_sea_scrolls,Se escriben los Rollos del Mar Muerto,Dead Sea Scrolls written, ,text,True
 septuagint,Septuaginta LXX traducida,Septuagint LXX translated, ,text,True
-watchtower,El primer número de “Zion’s Watch Tower and Herald of Christ’s Presence” se publica en 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,True
-jehovahs_witnesses,"Los Estudiantes de la Biblia adoptaron un nuevo nombre: Testigos de Jehová (Isaías 43:10, 12) en Columbus, Ohio, 1931.","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,True
-gilead_school,La Escuela Bíblica de Galaad de la Watchtower comenzó el lunes 1 de febrero de 1943,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,True
+watchtower,El primer número de “Zion’s Watch Tower and Herald of Christ’s Presence” se publica en 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False
+jehovahs_witnesses,"Los Estudiantes de la Biblia adoptaron un nuevo nombre: Testigos de Jehová (Isaías 43:10, 12) en Columbus, Ohio, 1931.","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False
+gilead_school,La Escuela Bíblica de Galaad de la Watchtower comenzó el lunes 1 de febrero de 1943,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False
 new_world_translation1,"La “Traducción del Nuevo Mundo de las Santas Escrituras”, publicada en Manchester, Inglaterra, el 18 de junio de 1960, reintroduce el nombre Jehová en muchas partes de la Biblia.","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,True
 new_world_translation2,"“Traducción del Nuevo Mundo de las Santas Escrituras” revisada y publicada en la reunión anual de 2013, optimizada para su uso digital y en línea","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,True
 cold_war,Situación geopolítica “Guerra Fría” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,True
@@ -166,11 +166,11 @@ daniel2_iron_c,Piernas de hierro de Daniel 2,Iron legs from Daniel 2,2025-02-05,
 argenteus,Códice Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,True
 nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,True
 edo_c,Período Edo en Japón,Edo period in Japan,Edo period (Tokugawa shogunate),text,True
-meiji_c,Meiji,Meiji,2025-09-20,text,True
+meiji_c,Meiji,Meiji,2025-09-20,text,False
 american_civil_war,Guerra civil americana 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,True
 aleppo_codex,Códice de Alepo c. 920,Aleppo Codex c. 920,2025-10-03,text,True
 vandals,Reino de los vándalos y los alanos 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,True
-francia,"do. 481/509 – 843, merovingio hasta 751, luego carolingio","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,True
+francia,"do. 481/509 – 843, merovingio hasta 751, luego carolingio","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
 francia_c,Reino de los francos,Kingdom of the Franks, ,text,True
 100_years_war,Guerra de los Cien Años 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,True
 black_death,Muerte negra 1346-1353,Black death 1346-1353,1346-1353,text,True
@@ -345,9 +345,9 @@ Abimael,abimael,Abimael,Gen 10:28,bible,True
 Sheba_Ophir,"Saba, Ofir","Sheba, Ophir","Gen 10:28, 29",bible,True
 Havilah,Havila,Havilah,Gen 10:29,bible,True
 Jobab,Jobab,Jobab,Gen 10:29,bible,True
-Ham_fn,1) Egipcios: Salmos 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,True
-Canaan_fn,2) Cananeos: Josué 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,True
-Aram_fn,3) Arameos: Oseas 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,True
+Ham_fn,1) Egipcios: Salmos 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False
+Canaan_fn,2) Cananeos: Josué 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False
+Aram_fn,3) Arameos: Oseas 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False
 Elam_fn,4) Elamitas: Esdras 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,True
 Asshur_fn,5) Asirios: Ezequiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,True
 Casluh_fn,6) Filisteos: 1 Crónicas 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,True

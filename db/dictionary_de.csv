@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.01,6.01, ,float,True
-pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2026-01-16,text,True
+version,6.02,6.02, ,float,True
+pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Zeitleiste der Menschheit,Timeline of humankind, ,text,True
 BCE,v.u.Z.,B.C.E.,appendix B9,B9,True
 CE,u.Z.,C.E., ,B9,True
@@ -548,17 +548,17 @@ objects,Objekte oder Gegenstände,objects or items, ,deprecated,True
 event_destruction_samaria2,740 v.u.Z. durch Assyrien,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,True
 photodrama,Erste Aufführung “Photo-Drama of Creation” in New York am 11 Januar 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,True
 truth_book,"Das Buch “Die Wahrheit, die zu ewigem Leben führt” wird 1968 herausgegeben",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,True
-metropolitan,Beginn des “metropolitan witnessing” in 2011,Start of metropolitan witnessing in 2011, ,deprecated,True
-jw_org,Start von JW.ORG mit Anweisungen im Königreichsdienst im Dezember 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,True
 jw_broadcasting,"Beginn von JW Broadcasting® im October 2014 auf Englisch, ab Mai 2015 auf Deutsch",Start of JW Broadcasting® in October 2014, ,deprecated,True
 meeting_workbook,Start der “Leben und Dienst” Zusammenkunft mit einem Arbeitsheft ab Januar 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,True
+terahfam,Mitglieder von Terach’s Familie,Members of Terah’s family, ,deprecated,True
+metropolitan,Beginn des “metropolitan witnessing” in 2011,Start of metropolitan witnessing in 2011, ,deprecated,True
+jw_org,Start von JW.ORG mit Anweisungen im Königreichsdienst im Dezember 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,True
+Babylon2, , ,no text left and right – empty!,deprecated,True
 Gatam,Gạtam,Gatam,Genesis 36:11,deprecated,True
 Adbeel,Ạdbeël,Adbeel,Genesis 25:13,deprecated,True
 Mibsam,Mịbsam,Mibsam,Genesis 25:13,deprecated,True
 Dumah,Dụma,Dumah,Genesis 25:14,deprecated,True
 Massa,Mạssa,Massa,Genesis 25:14,deprecated,True
-Babylon2, , ,no text left and right – empty!,deprecated,True
-terahfam,Mitglieder von Terach’s Familie,Members of Terah’s family, ,deprecated,True
 tang-dynasty1, , , ,deprecated,True
 xia-dynasty,Xia-Dynastie in China c. 2070 – ca. 1600 v.u.Z.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,True
 Midianites,"1) Midianịter: 4. Mose 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,True

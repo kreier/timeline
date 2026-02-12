@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,5.5,6.01, ,float,True
-pdf_title,Ti panaka-iladawan ti 6000 a tawen a pakasaritaan ti tao,6000 years human history visualized,2026-01-16,text,True
+version,5.5,6.02, ,float,True
+pdf_title,Ti panaka-iladawan ti 6000 a tawen a pakasaritaan ti tao,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Timeline ti sangatauan,Timeline of humankind,5.5,text,True
 BCE,K.K.P.,B.C.E.,appendix B9,B9,True
 CE,K.P.,C.E., ,B9,True
@@ -366,6 +366,16 @@ Lud_fn,17) Dagiti Lidiano: 1 Dagiti kronika 1:17 .,17) Lydians: 1 Chronicles 1:1
 Ishmael_fn,18) Dagiti Ismaelita: Genesis 37:27.,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) Dagiti Amorite: Dagiti Ukom 6:10.,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) Dagiti HIVITE [GIBEON]: Josue 9:3, 7 .","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,Cain .,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,Abel .,Abel,Genesis 4:2,bible,False
+Irad,Irad .,Irad,Genesis 4:18,bible,False
+Mehujael,Mehujael .,Mehujael,Genesis 4:18,bible,False
+Methushael,Methushael .,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,Jabal .,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,Jubal .,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,Zillah .,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Tubal-Cain .,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,Naamah .,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,A6-A,True
 Abijah,Abias (Abiam),Abijah (Abijam),"3 years, also Abijam",A6-A,True
 Asa,Asa,Asa,A6-A,A6-A,True
@@ -538,17 +548,17 @@ objects,a banag wenno banag,objects or items, ,deprecated,True
 event_destruction_samaria2,740 K.K.P. ti Asiria,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,"Damo a panaka ipabuya ti “Photo-Drama of Creation” idiay New York idi Enero 11, 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,True
 truth_book,Ti libro a “Ti Kinapudno a Mangiturong iti Biag nga Agnanayon” a nairuar idi 1968,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,True
-metropolitan,Nangrugi ti panangasaba iti metropolitan idi 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,Nangrugi ti JW.ORG nga addaan kadagiti instruksion iti ministerio iti pagarian Disiembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,Nangrugi ti jw.broadcasting idi Oktubre 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,Baro a pormat ti midweek meeting - naadaa ti “meeting workbook” nangrugi idi Enero 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,Membro ti pamilya ni Tera,Members of Terah’s family, ,deprecated,False
+metropolitan,Nangrugi ti panangasaba iti metropolitan idi 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,Nangrugi ti JW.ORG nga addaan kadagiti instruksion iti ministerio iti pagarian Disiembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,Gatam,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Mibsam,Mibsam, ,deprecated,False
 Dumah,Duma,Dumah, ,deprecated,False
 Massa,Massa,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,Membro ti pamilya ni Tera,Members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,Dinastia ti Xia- China c. 2070 – idi c. 1600 K.K.P,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) Midianita: Numeros 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False

@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.01,6.01, ,float,True
-pdf_title,"ประวัติศาสตร์ของมนุษย์ 6,000 ปีถูกมองเห็น",6000 years human history visualized,2026-01-16,text,False
+version,6.01,6.02, ,float,True
+pdf_title,"ประวัติศาสตร์ของมนุษย์ 6,000 ปีถูกมองเห็น",6000 years human history visualized,2026-02-12,text,False
 pdf_subject,เส้นเวลาของมนุษยชาติ,Timeline of humankind,6.01,text,False
 BCE,ก่อน ค.ศ.,B.C.E.,appendix B9,B9,True
 CE,ค.ศ.,C.E., ,B9,True
@@ -366,6 +366,16 @@ Lud_fn,17) ลิเดีย: 1 พงศาวดาร 1:17,17) Lydians: 1 Ch
 Ishmael_fn,18) ชาวอิชมาเอล: ปฐมกาล 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) ชาวอาโมไรต์: ผู้วินิจฉัย 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) ชาวฮีไวต์ [กิเบโอน]: โยชูวา 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,คาอิน,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,อาเบล,Abel,Genesis 4:2,bible,False
+Irad,อิราด,Irad,Genesis 4:18,bible,False
+Mehujael,เมฮูจาเอล,Mehujael,Genesis 4:18,bible,False
+Methushael,เมธูชาเอล,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,จาบาล,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,จูบาล,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,ซิลลาห์,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,นามาห์,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,เรโหโบอัม,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,อาบียาห์ (อาบีญาม),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,อาสา,Asa,A6-A,A6-A,False
@@ -538,17 +548,17 @@ objects,วัตถุหรือรายการ,objects or items, ,depreca
 event_destruction_samaria2,740 ก่อน ส.ศ. โดยอัสซีเรีย,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,“ละครภาพถ่ายแห่งการสร้างสรรค์” เริ่มฉายครั้งแรกในนิวยอร์กเมื่อวันที่ 11 มกราคม 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,หนังสือ “ความจริงที่นำไปสู่ชีวิตนิรันดร์” ออกเมื่อปี 1968,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,เริ่มประกาศในเมืองใหญ่ในปี 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,เริ่ม JW.ORG พร้อมคำแนะนำในพันธกิจเรื่องราชอาณาจักร ธันวาคม 2012,Start of JW.ORG with instructions in kingdom ministry December 2012, ,deprecated,False
 jw_broadcasting,เริ่มออกอากาศ jw. ในเดือนตุลาคม 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,การประชุมกลางสัปดาห์รูปแบบใหม่พร้อม “สมุดงานการประชุม” เริ่มตั้งแต่เดือนมกราคม 2559,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,สมาชิกในครอบครัวของเทราห์,Members of Terah’s family, ,deprecated,False
+metropolitan,เริ่มประกาศในเมืองใหญ่ในปี 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,เริ่ม JW.ORG พร้อมคำแนะนำในพันธกิจเรื่องราชอาณาจักร ธันวาคม 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,กาตัม,Gatam, ,deprecated,False
 Adbeel,แอดบีล,Adbeel, ,deprecated,False
 Mibsam,มิบซัม,Mibsam, ,deprecated,False
 Dumah,ดูมาห์,Dumah, ,deprecated,False
 Massa,มาสซ่า,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,สมาชิกในครอบครัวของเทราห์,members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,ราชวงศ์เซี่ยในประเทศจีนค. 2070 – ประมาณ 1600 ปีก่อนคริสตกาล,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) ชาวมีเดียน: กันดารวิถี 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False

@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,4.6,6.01, ,float,False
-pdf_title,تصور 6000 سنة من تاريخ البشرية,6000 years human history visualized,2026-01-16,text,False
+version,6.02,6.02, ,float,False
+pdf_title,تصور 6000 سنة من تاريخ البشرية,6000 years human history visualized,2026-02-12,text,False
 pdf_subject,الجدول الزمني للبشرية,Timeline of humankind,6.01,text,False
 BCE,ق.م.,B.C.E.,appendix B9,B9,False
 CE,م.,C.E., ,B9,False
@@ -16,7 +16,7 @@ temple1,نيسان 1513 ق.م. إلى زيف سنة 1034 ق.م.,Nisan 1513 B.C.E
 year,سنة,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False
 years,سنين,years, ,text,False
 years_age,سنين,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
-age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
 wilderness,إسرائيل في البرية 1513 إلى 1473 ق.م. - 40 سنة,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
 timespan_judges,من ١٤٧٣ إلى ١١١٧ ق.م. – 356 سنة,1473 to 1117 B.C.E. – 356 years, ,text,False
 timespan_judges2,زمن القضاة,Time of the judges, ,text,False
@@ -366,6 +366,16 @@ Lud_fn,17) الليديون: 1 أخبار الأيام 1: 17,17) Lydians: 1 Chro
 Ishmael_fn,18) الإسماعيليون: تكوين 37: 27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) الأموريون: قضاة 6: 10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,٢٠) الحويون [جبعون]: يشوع ٩: ٣، ٧,"20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,قايين,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,هابيل,Abel,Genesis 4:2,bible,False
+Irad,إراد,Irad,Genesis 4:18,bible,False
+Mehujael,محويائيل,Mehujael,Genesis 4:18,bible,False
+Methushael,متوشائيل,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,جبل,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,جبال,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,زلة,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,توبال قايين,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,نعمة,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,رحبعام,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,أبيا (أبيام),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,ك,Asa,A6-A,A6-A,False
@@ -528,7 +538,7 @@ revival_le_dynasty_c,أمراء ترانه وأباطرة نجوين,Trịnh lor
 seljuk_empire_c,الإمبراطورية السلجوقية,Seljuk empire, ,wiki,False
 vandals_c,المخربون,Vandals, ,wiki,False
 lombard_c,المملكة اللومباردية,Lombard Kingdom,2025-10-13,wiki,False
-people,الناس,people, ,deprecated,False
+people,الناس,people, ,deprecated,True
 judges,القضاة,judges, ,deprecated,False
 prophets,الأنبياء,prophets, ,deprecated,False
 kings,الملوك,kings, ,deprecated,False
@@ -538,16 +548,25 @@ objects,الأشياء أو العناصر,objects or items, ,deprecated,False
 event_destruction_samaria2,740 قبل الميلاد بواسطة آشور,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,"عُرضت ""دراما الخلق المصوَّرة"" لأول مرة في نيويورك في 11 يناير 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,صدر كتاب «الحق الذي يؤدي الى الحياة الابدية» سنة ١٩٦٨,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+jw_broadcasting,بدء البث jw.broadcast في تشرين الاول (اكتوبر) ٢٠١٤,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,"شكل جديد لاجتماع منتصف الأسبوع مع ""مصنف الاجتماع"" بدءًا من يناير 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,افراد عائلة تارح,Members of Terah’s family, ,deprecated,False
 metropolitan,بداية الشهادة الحضرية في عام 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
 jw_org,بداية JW.ORG بالتعليمات في خدمة الملكوت في ديسمبر ٢٠١٢,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
-jw_broadcasting,بدء البث jw.broadcast في تشرين الاول (اكتوبر) ٢٠١٤,Start of JW Broadcasting® in October 2014, ,deprecated,False
-meeting_workbook,"شكل جديد لاجتماع منتصف الأسبوع مع ""مصنف الاجتماع"" بدءًا من يناير 2016",New format of midweek meeting with “meeting workbook” starting January 2016, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,جاتام,Gatam, ,deprecated,False
 Adbeel,أدببيل,Adbeel, ,deprecated,False
 Mibsam,مبسام,Mibsam, ,deprecated,False
 Dumah,دوما,Dumah, ,deprecated,False
 Massa,ماسا,Massa, ,deprecated,False
-Babylon2,, ,no text left and right – empty!,deprecated,False
-terahfam,افراد عائلة تارح,members of Terah’s family, ,deprecated,False
-tang-dynasty1,, , ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
 xia-dynasty,أسرة شيا في الصين ج. 2070 – ج. 1600 قبل الميلاد,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites,1) المديانيون: عدد 31: 2، 3,"1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites,2) الموآبيون: تثنية 23: 3، 4,"2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites,3) بني عمون: يشوع 12: 2,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites,4) الأدوميون: عدد 20: 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites,5) التيمانيون: أيوب 42: 7,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites,6) العماليق: 1 صموئيل 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

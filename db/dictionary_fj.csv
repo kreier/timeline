@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,4.5,6.01, ,float,True
-pdf_title,6000 na yabaki ni itukutuku ni kawatamata e raitayaloyalotaki,6000 years human history visualized,2026-01-16,text,False
+version,4.5,6.02, ,float,True
+pdf_title,6000 na yabaki ni itukutuku ni kawatamata e raitayaloyalotaki,6000 years human history visualized,2026-02-12,text,False
 pdf_subject,iTuvatuva ni kawatamata,Timeline of humankind, ,text,False
 BCE,B.K.E.,B.C.E., ,B9,False
 CE,C.E.,C.E., ,B9,False
@@ -366,6 +366,16 @@ Lud_fn, ,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]
 Ishmael_fn, ,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn, ,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn, ,"20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain, ,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel, ,Abel,Genesis 4:2,bible,False
+Irad, ,Irad,Genesis 4:18,bible,False
+Mehujael, ,Mehujael,Genesis 4:18,bible,False
+Methushael, ,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal, ,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal, ,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah, ,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain, ,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah, ,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Riopoami,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,Epaia (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,Asa,Asa, ,A6-A,False
@@ -537,17 +547,26 @@ events,veika a yaco,events, ,deprecated,False
 objects,iyaya se iyaya,objects or items, ,deprecated,False
 event_destruction_samaria2,740 B.S.K. mai vei Assyria,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,"Na ""Photo-Drama of Creation"" e vakaraitaki taumada mai Ni'u Ioka ena ika 11 ni Janueri, 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
-truth_book,"Na ivola ""The Truth That Leads to Eternal Life"" ka vagalalataki ena 1968",The book “The Truth That Leads to Eternal Life” released 1968, ,deprecated,False
+truth_book,"Na ivola ""The Truth That Leads to Eternal Life"" ka vagalalataki ena 1968",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+jw_broadcasting,Tekivu ni jw.broadcasting ena Okotova 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,"Ituvatuva vou ni bose ena loma ni macawa kei na ""ivola ni cakacaka ni soqoni"" tekivu ena Janueri 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,lewe ni matavuvale nei Terah,Members of Terah’s family, ,deprecated,False
 metropolitan,Tekivu ni metropolitan witnessing ena 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,Tekivu ni JW.ORG kei na ivakasala ena cakacaka vakaitalatala ni matanitu Tiseba 2012,Start of JW.ORG with instructions in kingdom ministry December 2012, ,deprecated,False
-jw_broadcasting,Tekivu ni jw.broadcasting ena Okotova 2014,Start of jw.broadcasting in October 2014, ,deprecated,False
-meeting_workbook,"Ituvatuva vou ni bose ena loma ni macawa kei na ""ivola ni cakacaka ni soqoni"" tekivu ena Janueri 2016",New format of midweek meeting with “meeting workbook” starting January 2016, ,deprecated,False
+jw_org,Tekivu ni JW.ORG kei na ivakasala ena cakacaka vakaitalatala ni matanitu Tiseba 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,Gatam,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Mibsam,Mibsam, ,deprecated,False
 Dumah,Dumah,Dumah, ,deprecated,False
 Massa,Mase,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,lewe ni matavuvale nei Terah,members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,Xia vaka-Jaina c. 2070 – c. 1600 B.K.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites, ,"1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites, ,"2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites, ,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites, ,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites, ,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites, ,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

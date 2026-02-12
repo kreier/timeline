@@ -1,6 +1,8 @@
 # check if some values in the 'key' column of a CSV file are duplicated
 # v1.0 2025-09-22 initial version, reads a filename from command line
 # v1.1 2026-01-07 include a list of the files using the dictionary, run automatically
+# v1.2 2026-02-11 Now this is all done with the /db/auto-translate.py script, 
+# so this file is no longer needed. But I will keep it for reference and in case I want to run it separately.
 
 # Result January 2026:
 

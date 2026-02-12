@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,5.9,6.01,5.9,float,True
-pdf_title,6000 anni di storia umana visualizzata,6000 years human history visualized,2026-01-16,text,True
+version,5.9,6.02,5.9,float,True
+pdf_title,6000 anni di storia umana visualizzata,6000 years human history visualized,2026-02-12,text,True
 pdf_subject,Cronologia dell'umanità,Timeline of humankind,5.9,text,True
 BCE,a.E.V.,B.C.E.,appendix B9,B9,True
 CE,E.V.,C.E., ,B9,True
@@ -366,6 +366,16 @@ Lud_fn,17) Lydians: 1 Cronache 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiq
 Ishmael_fn,18) Ismaeliti: Genesi 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) Amoriti: Giudici 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) Hivites [Gibeon]: Joshua 9: 3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,Caino,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,Abele,Abel,Genesis 4:2,bible,False
+Irad,Irad,Irad,Genesis 4:18,bible,False
+Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False
+Methushael,Metushael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,Giubal,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Tubal-Caino,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,Naamah,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Roboamo,Rehoboam,first king of southern kingdom of Juda,A6-A,True
 Abijah,Abia (Abiam),Abijah (Abijam),"3 years, also Abijam",A6-A,True
 Asa,Asa,Asa,A6-A,A6-A,True
@@ -538,17 +548,17 @@ objects,oggetti o elementi,objects or items, ,deprecated,False
 event_destruction_samaria2,740 a.E.V. di Assiria,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
 photodrama,"Il ""dramma fotografico della creazione"" è mostrato per la prima volta a New York l'11 gennaio 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
 truth_book,"Il libro ""La verità che porta alla vita eterna"" è pubblicato nel 1968",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-metropolitan,Inizio della testimonianza metropolitana nel 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,Inizio di JW.org con istruzioni nel Ministero del Regno Dicembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
 jw_broadcasting,Inizio di JW Broadcasting® nell'ottobre 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
 meeting_workbook,"Nuovo formato dell'incontro infrasettimanale con ""Meeting Workbook"" a partire da gennaio 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,Membri della famiglia di Terah,Members of Terah’s family, ,deprecated,False
+metropolitan,Inizio della testimonianza metropolitana nel 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,Inizio di JW.org con istruzioni nel Ministero del Regno Dicembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
 Gatam,Gatam,Gatam, ,deprecated,False
 Adbeel,Adbeel,Adbeel, ,deprecated,False
 Mibsam,Mibsam,Mibsam, ,deprecated,False
 Dumah,Dumah,Dumah, ,deprecated,False
 Massa,Massa,Massa, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-terahfam,Membri della famiglia di Terah,Members of Terah’s family, ,deprecated,False
 tang-dynasty1, , , ,deprecated,False
 xia-dynasty,Dinastia Xia in Cina c. 2070 - c. 1600 a.C.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
 Midianites,"1) Madianiti: numeri 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False

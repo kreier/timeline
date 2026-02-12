@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.01,6.01, ,float,False
-pdf_title,6000 years human history visualized,6000 years human history visualized,2026-01-16,text,False
+version,6.01,6.02, ,float,False
+pdf_title,6000 years human history visualized,6000 years human history visualized,2026-02-12,text,False
 pdf_subject,Timeline of humankind,Timeline of humankind, ,text,False
 BCE,да н.э.,B.C.E.,appendix B9,B9,False
 CE,н.э.,C.E., ,B9,False
@@ -16,7 +16,7 @@ temple1,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E
 year,year,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False
 years,years,years, ,text,False
 years_age,years,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
-age_kings,, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
 wilderness,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
 timespan_judges,1473 to 1117 B.C.E. – 356 years,1473 to 1117 B.C.E. – 356 years, ,text,False
 timespan_judges2,Time of the judges,Time of the judges, ,text,False
@@ -366,6 +366,16 @@ Lud_fn,17) Lydians: 1 Chronicles 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Ant
 Ishmael_fn,18) Ishmaelites: Genesis 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
 Amorite_fn,19) Amorites: Judges 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False
 Hivite_fn,"20) Hivites [Gibeon]: Joshua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain,Каін,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,Авель,Abel,Genesis 4:2,bible,False
+Irad,Ірад,Irad,Genesis 4:18,bible,False
+Mehujael,Мехуджаэль,Mehujael,Genesis 4:18,bible,False
+Methushael,Мафушаіл,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,Джабал,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,Джубал,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,Зіла,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,Тубал-каін,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,Наама,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False
 Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False
 Asa,Asa,Asa,A6-A,A6-A,False
@@ -528,3 +538,35 @@ revival_le_dynasty_c,Trịnh lords and Nguyễn lords,Trịnh lords and Nguyễn
 seljuk_empire_c,Seljuk empire,Seljuk empire, ,wiki,False
 vandals_c,Vandals,Vandals, ,wiki,False
 lombard_c,Lombard Kingdom,Lombard Kingdom,2025-10-13,wiki,False
+people,людзей,people, ,deprecated,False
+judges,суддзі,judges, ,deprecated,False
+prophets,прарокаў,prophets, ,deprecated,False
+kings,каралі,kings, ,deprecated,False
+periods,перыяды,periods, ,deprecated,False
+events,падзеі,events, ,deprecated,False
+objects,прадметы або прадметы,objects or items, ,deprecated,False
+event_destruction_samaria2,740 год да н.э. па Асірыі,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
+photodrama,Упершыню «Фотадрама стварэння» была паказана ў Нью-Ёрку 11 студзеня 1914 года.,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
+truth_book,"У 1968 годзе выйшла кніга «Праўда, якая вядзе да жыцця вечнага».",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+jw_broadcasting,Пачатак JW Broadcasting® у кастрычніку 2014 г,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,Са студзеня 2016 г. новы фармат сустрэчы ў сярэдзіне тыдня з «Працоўным сшыткам сустрэч».,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,Члены сям'і Тэраха,Members of Terah’s family, ,deprecated,False
+metropolitan,Пачатак сталічнага сведчання ў 2011 годзе,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,"Пачатак JW.ORG з інструкцыямі ў Каралеўстве, снежань 2012 г",Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
+Gatam,Гатам,Gatam,Genesis 36:11,deprecated,False
+Adbeel,Адбеэль,Adbeel,Genesis 25:13,deprecated,False
+Mibsam,Мібсам,Mibsam,Genesis 25:13,deprecated,False
+Dumah,Дума,Dumah,Genesis 25:14,deprecated,False
+Massa,Маса,Massa,Genesis 25:14,deprecated,False
+tang-dynasty1, , , ,deprecated,False
+xia-dynasty,Дынастыя Ся ў Кітаі в. 2070 – в. 1600 год да нашай эры,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites,"1) Мадыяніцяне: Лікі 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites,"2) Маавіцяне: Другі закон 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites,3) Аманіцяне: Ісус Навін 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites,4) Эдомяне: Лікі 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites,5) Тэманіцяне: Ёў 42:7,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites,6) Амалікіцяне: 1 Самуіла 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False

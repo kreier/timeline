@@ -1,10 +1,10 @@
 key,text,english,notes,tag,checked
-version,5.5,6.01,5.5,float,True
-pdf_title,ប្រវត្តិសាស្ត្រមនុស្សជាតិ អំឡុងពេល ៦០០០ឆ្នាំ,6000 years human history visualized,2026-01-16,text,False
+version,5.5,6.02,5.5,float,True
+pdf_title,ប្រវត្តិសាស្ត្រមនុស្សជាតិ អំឡុងពេល ៦០០០ឆ្នាំ,6000 years human history visualized,2026-02-12,text,False
 pdf_subject,ការកំណត់ពេលវេលារបស់មនុស្ស,Timeline of humankind,Timeline of humankind,text,False
 BCE,B.C.E.,B.C.E.,B.C.E.,B9,False
 CE,C.E.,C.E.,C.E.,B9,False
-month,ខែ,month,month,text,False
+month,ខែ,month,month,text,True
 months,ខែ,months,months,text,False
 day,ថ្ងៃ,day,day,text,False
 days,ថ្ងៃ,days,days,text,False
@@ -16,7 +16,7 @@ temple1,ខែ​ណែសាន ឆ្នាំ ១៥១៣ មុន គ.ស.
 year,ឆ្នាំ,year,year,text,False
 years,ឆ្នាំ,years,years,text,False
 years_age,ឆ្នាំ,years,years,text,False
-age_kings,, , ,text,False
+age_kings, , , ,text,False
 wilderness,អ៊ីស្រាអែលនៅទីរហោស្ថានពីឆ្នាំ ១៥១៣ ដល់ ១៤៧៣ មុនគ. - ៤០ ឆ្នាំ។,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,text,False
 timespan_judges,១៤៧៣ ដល់ ១១១៧ មុនគ.ស -- ៣៥៦ឆ្នាំ,1473 to 1117 B.C.E. – 356 years,1473 to 1117 B.C.E. – 356 years,text,False
 timespan_judges2,ចន្លោះពេលវេលានៃចៅក្រម,Time of the judges,Time of the judges,text,False
@@ -366,6 +366,16 @@ Lud_fn,១៧) លីឌាន៖ ១ របាក្សត្រ ១:១៧,17)
 Ishmael_fn,១៨) អ៊ីសម៉ាអែល៖ លោកុប្បត្តិ ៣៧:២៧,18) Ishmaelites: Genesis 37:27,18) Ishmaelites: Genesis 37:27,bible,False
 Amorite_fn,១៩) អាម៉ូរី៖ ចៅហ្វាយ ៦:១០,19) Amorites: Judges 6:10,19) Amorites: Judges 6:10,bible,False
 Hivite_fn,"២០) សាសន៍​ហ៊ីវី [គីបៀន]៖ យ៉ូស្វេ ៩:៣, ៧","20) Hivites [Gibeon]: Joshua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",bible,False
+Cain,កាអ៊ីន,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel,អេបិល,Abel,Genesis 4:2,bible,False
+Irad,អ៊ីរ៉ាដ,Irad,Genesis 4:18,bible,False
+Mehujael,មហ៊ូចាអែល,Mehujael,Genesis 4:18,bible,False
+Methushael,មធូសាអែល,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal,ចាបាល។,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal,ជូបល។,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah,ហ្សីឡា,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain,ទូបាល-កាអ៊ីន,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah,ណាម៉ា,Naamah,Genesis 4:22 his sister,bible,False
 Rehoboam,រេហូបោម,Rehoboam,Rehoboam,A6-A,False
 Abijah,អាប៊ីយ៉ា (​អាប៊ីយ៉ាម​),Abijah (Abijam),Abijah (Abijam),A6-A,False
 Asa,អេសា,Asa,Asa,A6-A,False
@@ -528,35 +538,35 @@ revival_le_dynasty_c,ស្តេចត្រិញ និងស្តេចង�
 seljuk_empire_c,អាណាចក្រ Seljuk,Seljuk empire,Seljuk empire,wiki,False
 vandals_c,វ៉ាន់ដាល់,Vandals,Vandals,wiki,False
 lombard_c,ព្រះរាជាណាចក្រ Lombard,Lombard Kingdom,Lombard Kingdom,wiki,False
-people,មនុស្ស, ,people,deprecated,False
-judges,ចៅក្រម, ,judges,deprecated,False
-prophets,ហោរា, ,prophets,deprecated,False
-kings,ស្តេច, ,kings,deprecated,False
-periods,រយៈពេល, ,periods,deprecated,False
-events,ព្រឹត្តិការណ៍, ,events,deprecated,False
-objects,វត្ថុ, ,objects or items,deprecated,False
-event_destruction_samaria2,៧៤០ មុនគ.ស. ដោយ អាស្ស៊ីរី,was shortened here for 2 lines,740 B.C.E. by Assyria,deprecated,False
-photodrama,ល្ខោនរូបថតនៃការបង្កើត ត្រូវបានបង្ហាញជាលើកដំបូងនៅញូវយ៉កនៅថ្ងៃទី ១១ ខែមករាឆ្នាំ ១៩១៤ ។, ,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",deprecated,False
-truth_book,"សៀវភៅ ""សេចក្តីពិតដែលនាំទៅរកជីវិតអស់កល្បជានិច្ច"" ចេញផ្សាយឆ្នាំ ១៩៦៨", ,The book “The Truth That Leads to Eternal Life” is released 1968,deprecated,False
-metropolitan,ការ​ចាប់​ផ្តើ​ម​នៃ​ការ​ធ្វើ​ជា​សាក្សី​ទី​ក្រុង​នៅ​ក្នុង ២០១១, ,Start of metropolitan witnessing in 2011,deprecated,False
-jw_org,ការចាប់ផ្តើមនៃ JW.ORG ជាមួយនឹងការណែនាំក្នុងកិច្ចបម្រើផ្សាយរបស់ព្រះរាជាណាចក្រ ខែធ្នូ ឆ្នាំ ២០១២, ,Start of JW.ORG with instructions in Kingdom Ministry December 2012,deprecated,False
-jw_broadcasting,ការផ្សាយ jw.broadcast នៅខែតុលា ឆ្នាំ ២០១៤, ,Start of JW Broadcasting® in October 2014,deprecated,False
-meeting_workbook,"ទម្រង់ថ្មីនៃកិច្ចប្រជុំពាក់កណ្តាលសប្តាហ៍ជាមួយ ""សៀវភៅការងារ"" ដែលចាប់ផ្តើមពីខែមករា ឆ្នាំ ២០១៦", ,New format of midweek meeting with “Meeting Workbook” starting January 2016,deprecated,False
-Gatam,កាថាម, ,Gatam,deprecated,True
-Adbeel,អាតបៀល, ,Adbeel,deprecated,True
-Mibsam,មីបសាម, ,Mibsam,deprecated,True
-Dumah,ឌូម៉ា, ,Dumah,deprecated,True
-Massa,ម៉ាសា, ,Massa,deprecated,True
-Babylon2,គ្មានអត្ថបទឆ្វេងនិងស្តាំ - ទទេ!,no text left and right – empty!, ,deprecated,False
-terahfam,សមាជិកនៃគ្រួសាររបស់ ថេរ៉ា, ,Members of Terah’s family,deprecated,False
-tang-dynasty1,, , ,deprecated,False
-xia-dynasty,រាជវង្ស Xia នៅបករទេសចិនប្រហែល ឆ្នាំ២០៧០- ប្រហែល១៦០០ មុនគ.ស, ,Xia dynasty in China c. 2070 – c. 1600 BC,deprecated,False
-Midianites,"1) ជនជាតិម៉ាឌាន: ជនគណនា 31: 2, 3", ,"1) Midianites: Numbers 31:2, 3",deprecated,False
-Moabites,"2) ជនជាតិម៉ូអាប់: ចោទិយកថា 23: 3, 4", ,"2) Moabites: Deuteronomy 23:3, 4",deprecated,False
-Ammonites,3) អាំម៉ូន: យ៉ូស្វេ 12: 2, ,3) Ammonites: Joshua 12:2,deprecated,False
-Edomites,4) ជនជាតិអេដុមៈជនគណនា 20: 14-17, ,4) Edomites: Numbers 20:14-17,deprecated,False
-Temanites,5) ថេតានីនៈយ៉ូប 42: 7, ,5) Temanites: Job 42:7,deprecated,False
-Amalekites,6) ជនជាតិអាម៉ាលេកៈសាំយូអែលទី 1 15: 2,2024-09-29,6) Amalekites: 1 Samuel 15:2,deprecated,False
-king_south_light,2025-02-05,2025-02-05, ,deprecated,False
-king_north_light,2025-02-05,2025-02-05, ,deprecated,False
-daniel2_iron,2025-02-05,2025-02-05, ,deprecated,False
+people,មនុស្ស,people,people,deprecated,False
+judges,ចៅក្រម,judges,judges,deprecated,False
+prophets,ហោរា,prophets,prophets,deprecated,False
+kings,ស្តេច,kings,kings,deprecated,False
+periods,រយៈពេល,periods,periods,deprecated,False
+events,ព្រឹត្តិការណ៍,events,events,deprecated,False
+objects,វត្ថុ,objects or items,objects or items,deprecated,False
+event_destruction_samaria2,៧៤០ មុនគ.ស. ដោយ អាស្ស៊ីរី,740 B.C.E. by Assyria,740 B.C.E. by Assyria,deprecated,False
+photodrama,ល្ខោនរូបថតនៃការបង្កើត ត្រូវបានបង្ហាញជាលើកដំបូងនៅញូវយ៉កនៅថ្ងៃទី ១១ ខែមករាឆ្នាំ ១៩១៤ ។,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914","The “Photo-Drama of Creation” is first shown in New York on January 11, 1914",deprecated,False
+truth_book,"សៀវភៅ ""សេចក្តីពិតដែលនាំទៅរកជីវិតអស់កល្បជានិច្ច"" ចេញផ្សាយឆ្នាំ ១៩៦៨",The book “The Truth That Leads to Eternal Life” is released 1968,The book “The Truth That Leads to Eternal Life” is released 1968,deprecated,False
+jw_broadcasting,ការផ្សាយ jw.broadcast នៅខែតុលា ឆ្នាំ ២០១៤,Start of JW Broadcasting® in October 2014,Start of JW Broadcasting® in October 2014,deprecated,False
+meeting_workbook,"ទម្រង់ថ្មីនៃកិច្ចប្រជុំពាក់កណ្តាលសប្តាហ៍ជាមួយ ""សៀវភៅការងារ"" ដែលចាប់ផ្តើមពីខែមករា ឆ្នាំ ២០១៦",New format of midweek meeting with “Meeting Workbook” starting January 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016,deprecated,False
+terahfam,សមាជិកនៃគ្រួសាររបស់ ថេរ៉ា,Members of Terah’s family,Members of Terah’s family,deprecated,False
+metropolitan,ការ​ចាប់​ផ្តើ​ម​នៃ​ការ​ធ្វើ​ជា​សាក្សី​ទី​ក្រុង​នៅ​ក្នុង ២០១១,Start of metropolitan witnessing in 2011,Start of metropolitan witnessing in 2011,deprecated,False
+jw_org,ការចាប់ផ្តើមនៃ JW.ORG ជាមួយនឹងការណែនាំក្នុងកិច្ចបម្រើផ្សាយរបស់ព្រះរាជាណាចក្រ ខែធ្នូ ឆ្នាំ ២០១២,Start of JW.ORG with instructions in Kingdom Ministry December 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012,deprecated,False
+Babylon2,គ្មានអត្ថបទឆ្វេងនិងស្តាំ - ទទេ!, , ,deprecated,False
+Gatam,កាថាម,Gatam,Gatam,deprecated,False
+Adbeel,អាតបៀល,Adbeel,Adbeel,deprecated,False
+Mibsam,មីបសាម,Mibsam,Mibsam,deprecated,False
+Dumah,ឌូម៉ា,Dumah,Dumah,deprecated,False
+Massa,ម៉ាសា,Massa,Massa,deprecated,False
+tang-dynasty1, , , ,deprecated,False
+xia-dynasty,រាជវង្ស Xia នៅបករទេសចិនប្រហែល ឆ្នាំ២០៧០- ប្រហែល១៦០០ មុនគ.ស,Xia dynasty in China c. 2070 – c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC,deprecated,False
+Midianites,"1) ជនជាតិម៉ាឌាន: ជនគណនា 31: 2, 3","1) Midianites: Numbers 31:2, 3","1) Midianites: Numbers 31:2, 3",deprecated,False
+Moabites,"2) ជនជាតិម៉ូអាប់: ចោទិយកថា 23: 3, 4","2) Moabites: Deuteronomy 23:3, 4","2) Moabites: Deuteronomy 23:3, 4",deprecated,False
+Ammonites,3) អាំម៉ូន: យ៉ូស្វេ 12: 2,3) Ammonites: Joshua 12:2,3) Ammonites: Joshua 12:2,deprecated,False
+Edomites,4) ជនជាតិអេដុមៈជនគណនា 20: 14-17,4) Edomites: Numbers 20:14-17,4) Edomites: Numbers 20:14-17,deprecated,False
+Temanites,5) ថេតានីនៈយ៉ូប 42: 7,5) Temanites: Job 42:7,5) Temanites: Job 42:7,deprecated,False
+Amalekites,6) ជនជាតិអាម៉ាលេកៈសាំយូអែលទី 1 15: 2,6) Amalekites: 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,deprecated,False
+king_south_light,2025-02-05, , ,deprecated,False
+king_north_light,2025-02-05, , ,deprecated,False
+daniel2_iron,2025-02-05, , ,deprecated,False
