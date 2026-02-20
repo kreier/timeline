@@ -72,7 +72,7 @@ def day(date_float):              # never used either?
 
 def float_date(string):
     # convert a date in the format "YYYY-MM-DD" to a float, as well as a "BCEYYYY-MM-DD" to a negative float
-# 1. Handle Sign and Label Year
+    # 1. Handle Sign and Label Year
     is_bce = False
     if string.startswith("BCE"):
         is_bce = True
@@ -102,6 +102,8 @@ def float_date(string):
 
 def x_position(date_float):      # area is 6150 years wide from 4075 BCE to 2075 CE
     global x1, left_to_right
+    if date_float < 0:
+        date_float += 1   # since there is no year zero, we need to shift the BCE dates by one year to the left
     if left_to_right:
         return x1 + (4075 + date_float) * dots_year
     else:
@@ -312,7 +314,7 @@ def create_horizontal_axis():
     pdf.line(x1, y2, x1 + page_width - 2 * border_lr, y2)
     pdf.set_font(font_regular, "", 11)                       # tickmarks and years for 61 centuries
     for i in range(61):
-        tick_x = x_position(-4075) + (75 + 100 * i) * dots_year * direction_factor
+        tick_x = x_position(-4075) + (75 + 100 * i) * dots_year * direction_factor # fix 2026-02-20
         pdf.set_draw_color(0)
         pdf.line(tick_x, y1, tick_x, y1 - 2*mm)              # main tickmark
         pdf.line(tick_x, y2, tick_x, y2 + 2*mm)
