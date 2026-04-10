@@ -999,7 +999,7 @@ def create_timestamp():
     pdf.set_font("Aptos", "", 4)
     pdf.set_text_color(50)
     pdf.set_text_shaping(use_shaping_engine=True, language="eng")
-    info_width = pdf.get_string_width(f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – license: MIT – some images are CC BY-SA")
+    info_width = pdf.get_string_width(f"Timeline {version} – created {str(datetime.datetime.now())[0:16]} – {pdf_author} – license: Apache 2.0 – some images are CC BY-SA")
     if left_to_right:
         info_width = 0
     pdf.set_xy(x_position(-4075) - info_width, y2 - 6)
@@ -1007,7 +1007,7 @@ def create_timestamp():
     pdf.set_text_color(25, 25, 150)
     pdf.cell(text=f"{pdf_author}", link="https://kreier.github.io/timeline/")
     pdf.set_text_color(50)
-    pdf.cell(text=" – license: MIT – some ")
+    pdf.cell(text=" – license: Apache 2.0 – some ")
     pdf.set_text_color(25, 25, 150)
     pdf.cell(text="images", link="https://github.com/kreier/timeline/blob/main/images/images_source.csv")
     pdf.set_text_color(50)
