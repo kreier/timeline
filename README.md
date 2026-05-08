@@ -5,18 +5,18 @@
 [![MIT license](https://img.shields.io/github/license/kreier/timeline)](https://kreier.mit-license.org/)
 [![pages-build-deployment](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kreier/timeline/actions/workflows/pages/pages-build-deployment)
 
-This [project](https://github.com/kreier/timeline) creates a graph of Human history with python and ~~reportlab~~ fpdf2. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. After 15 (18) years of slow development some images make it into the timeline in early 2024 with v4.2.
+This [project](https://github.com/kreier/timeline) creates a graph of Human history with `python` and ~~reportlab~~ `fpdf2`. Version v3.5 replicates and expands the information of v1.1 from 2009 on one single page. Some images make it into the timeline in early 2024 with v4.2 after 15 (18) years of slow development.
 
 ![timeline 4.6](docs/timeline20240516_4.6.png)
 
-Compare this 4000 year timespan of **v5.10 from 2025** with the same time period in **v1.1 from 2009** (below):
+To visualize the progress please compare the first 4000 years in **v5.10 from 2025** with the same time period in **v1.1 from 2009** (below):
 
 ![timeline 5.10 first 4000 years](docs/timeline20251007_4k.png)
 
 ![timeline 1.1](docs/timeline20230630.png)
 
 
-You see that **many more details** were added. And something is off with the scale - explained later - since the **scale** (millimeter/year) in 2009 was not constant.
+You see that **many more details** were added. And something seems off with the scale. In 2009 the scale was not constant, as explained later in **scale** (millimeter/year).
 
 ### Translations
 
@@ -72,7 +72,7 @@ After 14 (17) years it was finally time to translate the project to English and 
 
 This project started on here on Github on June 10th, 2023. My last day of work.
 
-## Version history
+## Version history - see also [History](history)
 
 - [v0.1](https://github.com/kreier/timeline/releases/tag/v0.1) 2006/08/30 several large HTML files with [linked articles](https://kreier.github.io/timeline/history/2006/zeitleiste1.html) about the persons in this timeline. One version is [30,000 pixels](history/zeit2.html) wide!
 - [v1.0](https://github.com/kreier/timeline/releases/tag/v1.0) 2009/02/10 An [OpenOffice spreadsheet](https://github.com/kreier/timeline/blob/5ffa9bac5cb4ff3c2cdc362b63df161e0d909c9d/spreadsheet/Zeitleiste_3A4_20090210.ods) with 260, 340 and 218 columns to create the overview with a resolution of 5 or 10 years. See the [resulting pdf](https://github.com/kreier/timeline/blob/5ffa9bac5cb4ff3c2cdc362b63df161e0d909c9d/spreadsheet/Zeitleiste_3A4_20090211.pdf). It contains 63 persons, 8 time periods and 20 events.
