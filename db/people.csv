@@ -1,26 +1,26 @@
 key,start,end,row_y,exact,notes
-buddha,BCE0563-07-02,BCE0483-07-02,42.2,n,
-buddha2,BCE0480-07-02,BCE0400-07-02,41.3,n,
-confucius,BCE0551-07-02,BCE0479-07-02,44.7,n,
-jehoiada,BCE1008-07-02,BCE0878-07-02,31.0,n,"died during the reign of Jehoash at 130, begin during Jehoram"
-Zerubbabel,BCE0537-07-01,BCE0515-07-02,46.1,n,first governor of the repatriated Jews
-Herodotus,BCE0484-07-02,BCE0425-07-01,6.0,n,the father of history
-Plato,BCE0427-07-02,BCE0348-07-02,36.6,n,c. 427 – c. 348 BC
-Aristotle,BCE0384-07-02,BCE0322-07-02,38.0,y,384 – 322 BC
-Socrates,BCE0470-07-02,BCE0399-07-02,38.9,n,c. 470 – c. 399 BC
-Ptolemy,0101-07-02,0171-07-02,24.0,n, c 100 – c. 170 C.E.
-Pythagoras,BCE0570-07-02,BCE0495-07-02,39.7,n,c. 570 – c. 495 BC
-Josephus,0038-07-02,0101-07-02,21.0,n,c. 37 – c. 100 C.E.
-Cicero,BCE0106-07-02,BCE0043-07-02,43.6,y,106 – 43 B.C.E.
-Copernicus,1474-07-02,1544-07-01,10.0,y,Renaissance polymath
-Galileo,1565-07-02,1643-07-02,4.0,y,astronomer
-Newton,1643-07-02,1728-07-01,5.8,y,25 December 1642 – 20 March 1726/27 
-Ashoka,BCE0304-07-02,BCE0232-07-02,33.0,n,many informations about him rather propaganda
-Manetho,BCE0310-07-02,BCE0250-07-02,40.3,n,Ptolemy I Soter 323-283 or Ptolemy II 285-246
-Genghis,1163-07-02,1228-07-01,21.5,n,Genghis Khan c. 1162 – 25 August 1227 C.E.
-Dionysius_Exiguus,0471-07-02,0545-07-02,19.0,n,
-Al-Khwarizmi,0781-07-02,0851-07-02,10.0,n,"al-Khwarizmi writes Al-Jabr, Algebra – although known 2000y"
-Ibn-Sina,0981-07-02,1038-07-02,9.0,y,Ibn Sina or Avicenna ابن سینا
-Al-Ghazali,1059-07-02,1112-07-01,8.0,y,Writes Incoherence of the Philosophers
+buddha,BCE0563-07-01,BCE0483-07-01,42.2,n,Checked 2026-05-30
+buddha2,BCE0480-07-01,BCE0400-07-01,41.3,n,
+confucius,BCE0551-07-01,BCE0479-07-01,44.7,n,
+jehoiada,BCE1008-07-01,BCE0878-07-01,31,n,"died during the reign of Jehoash at 130, begin during Jehoram"
+Zerubbabel,BCE0537-07-01,BCE0515-07-01,46.1,n,first governor of the repatriated Jews
+Herodotus,BCE0484-07-01,BCE0425-07-01,6,n,the father of history
+Plato,BCE0427-07-01,BCE0348-07-01,36.6,n,c. 427 – c. 348 BC
+Aristotle,BCE0384-07-01,BCE0322-07-01,38,y,384 – 322 BC
+Socrates,BCE0470-07-01,BCE0399-07-01,38.9,n,c. 470 – c. 399 BC
+Ptolemy,0100-07-01,0170-07-01,24,n, c 100 – c. 170 C.E.
+Pythagoras,BCE0570-07-01,BCE0495-07-01,39.7,n,c. 570 – c. 495 BC
+Josephus,0037-07-01,0100-07-01,21,n,c. 37 – c. 100 C.E.
+Cicero,BCE0106-07-01,BCE0043-07-01,43.6,y,106 – 43 B.C.E.
+Copernicus,1473-07-01,1543-07-01,10,y,Renaissance polymath
+Galileo,1564-07-01,1642-07-01,4,y,astronomer
+Newton,1642-07-01,1727-07-01,5.8,y,25 December 1642 – 20 March 1726/27 
+Ashoka,BCE0304-07-01,BCE0232-07-01,33,n,many informations about him rather propaganda
+Manetho,BCE0310-07-01,BCE0250-07-01,40.3,n,Ptolemy I Soter 323-283 or Ptolemy II 285-246
+Genghis,1162-07-01,1227-08-25,21.5,n,Genghis Khan c. 1162 – 25 August 1227 C.E.
+Dionysius_Exiguus,0470-07-01,0544-07-01,19,n,
+Al-Khwarizmi,0780-07-01,0850-07-01,10,n,"al-Khwarizmi writes Al-Jabr, Algebra – although known 2000y"
+Ibn-Sina,0980-07-01,1037-07-01,9,y,Ibn Sina or Avicenna ابن سینا
+Al-Ghazali,1058-07-01,1111-07-01,8,y,Writes Incoherence of the Philosophers
 life-expectancy2,BCE1565-07-01,BCE1490-07-02,30.5,n,just the source: (Psalm 90:10)
 life-expectancy,BCE1565-07-01,BCE1490-07-02,29.5,n,life expectancy 75 years
