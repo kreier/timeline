@@ -9,11 +9,11 @@ import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix
 import datetime, sys, os, asyncio, math, qrcode
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 6.04
+version  = 6.05
 language = "en"
 language_str = "English"
 color_scheme = "rgb"
-scale        = 3.0
+scale        = 1.0
 mm           = 2.834645669                # document is in pt, 46 rows with 12pt height, text 10pt
 border_lr    = 10*mm * scale              # space left/right usually 10, for roll holders 60
 border_tb    = 7*mm  * scale              # space for the years top and bottom
@@ -749,8 +749,8 @@ def create_caesars():
         drawString(detail, fontsize_regular, x_box + x_boxwidth + 2 * direction_factor, y_box, direction, False)
         counter_kings += 1
 
-def tribulation_graphics(row):
-    global direction_factor
+def tribulation_graphics(row):  # this faltered box has a flat from 2030 to 2035, then a falter from 2035 to 2053 and then a flat from 2053 to 2060, see tribulation.csv for the text and second timebar at 24.1 and 36
+    global direction_factor     # 2035 to 2053 is 18 years, so the falter is 6 years and the flat parts are 5 years and 7 years, so the falter is exactly in the middle of the two flats, which makes it easier to draw with a simple loop
     reference_y = y_position(row)
     pdf.set_line_width(0)
     co = color["tribulation1"]
