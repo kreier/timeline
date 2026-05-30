@@ -9,11 +9,11 @@ import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix
 import datetime, sys, os, asyncio, math, qrcode
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 6.04
+version  = 6.05
 language = "en"
 language_str = "English"
 color_scheme = "rgb"
-scale        = 1.0                        # feature is intended for v6.05 in May 2026
+scale        = 1.0                        # feature is intended for v6.06 in June 2026
 mm           = 2.834645669                # document is in pt, 46 rows with 12pt height, text 10pt
 border_lr    = 10*mm * scale              # space left/right usually 10, for roll holders 60
 border_tb    = 7*mm  * scale              # space for the years top and bottom
@@ -316,7 +316,7 @@ def create_horizontal_axis():
     pdf.line(x1, y2, x1 + page_width - 2 * border_lr, y2)
     pdf.set_font(font_regular, "", fontsize_label)           # tickmarks and years for 61 centuries
     for i in range(61):
-        tick_x = x_position(-4075) + (75 + 100 * i) * dots_year * direction_factor # fix 2026-02-20
+        tick_x = x_position(-4075.5) + (75 + 100 * i) * dots_year * direction_factor # fix 2026-02-20
         pdf.set_line_width(0.8 * scale)
         pdf.set_draw_color(0)
         pdf.line(tick_x, y1, tick_x, y1 - 2*mm * scale)              # main tickmark
@@ -673,8 +673,9 @@ def create_periods():
         if row.border:
             stil = "DF"
         pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style=stil)
-        # add fading if specified at the end of the time period
-        if row.end_fade > row.end:                                              # fade end
+        # add fading if specified at the end of the time period - fixed BCE conversion 2026-05-30 for comparison
+        if float_date(row.end_fade) > float_date(row.end):                                              # fade end
+            # print(f"Adding fading for {row.key} at the end of the period from {row.end} to {row.end_fade}")
             fade_width = x_position(float_date(row.end_fade)) - x_position(float_date(row.end))
             x_boxwidth += fade_width
             fade_steps = 50
@@ -684,7 +685,7 @@ def create_periods():
                 pdf.set_fill_color(cl[0], cl[1], cl[2])
                 pdf.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps - 0.2 * shift, y_box - 1, fade_width / 45, 12, style="F")
         # add fading if specified at the start of the time period
-        if row.start_fade < row.start:                                          # fade start
+        if float_date(row.start_fade) < float_date(row.start):                                          # fade start
             fade_width = x_position(float_date(row.start)) - x_position(float_date(row.start_fade))
             x_boxwidth += fade_width
             x_box = x_position(float_date(row.start_fade))
@@ -749,8 +750,8 @@ def create_caesars():
         drawString(detail, fontsize_regular, x_box + x_boxwidth + 2 * direction_factor, y_box, direction, False)
         counter_kings += 1
 
-def tribulation_graphics(row):
-    global direction_factor
+def tribulation_graphics(row):  # this faltered box has a flat from 2030 to 2035, then a falter from 2035 to 2053 and then a flat from 2053 to 2060, see tribulation.csv for the text and second timebar at 24.1 and 36
+    global direction_factor     # 2035 to 2053 is 18 years, so the falter is 6 years and the flat parts are 5 years and 7 years, so the falter is exactly in the middle of the two flats, which makes it easier to draw with a simple loop
     reference_y = y_position(row)
     pdf.set_line_width(0)
     co = color["tribulation1"]

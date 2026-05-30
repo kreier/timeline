@@ -1,6 +1,6 @@
 key,born,died,notes
 Adam,BCE4026-10-01,BCE3096-10-01,from Genesis 5
-Seth,BCE3896-10-01,BCE2984-10-01,
+Seth,BCE3896-10-01,BCE2984-10-01,outdated way of calculating from float values:
 Enosh,BCE3791-10-01,BCE2886-10-01,year = int(date -1)
 Kenan,BCE3701-10-01,BCE2791-10-01,month = 13 + int((date - int(data)) * 12)
 Mahalalel,BCE3631-10-01,BCE2736-10-01,day = int((month - int(month))*30) + 1
@@ -22,4 +22,4 @@ Abraham,BCE2018-10-01,BCE1843-10-01,
 Isaac,BCE1918-10-01,BCE1738-10-01,
 Jacob,BCE1858-10-01,BCE1711-10-01,
 Joseph,BCE1767-10-01,BCE1657-10-01,gap of 136 years in which Job seems to have lived
-Moses,BCE1593-10-01,BCE1473-10-01,
+Moses,BCE1593-10-01,BCE1473-10-01,checked 2026-05-29
