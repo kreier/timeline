@@ -1,102 +1,102 @@
 key,start,end,row_y,text_left,text_center,text_right,notes,start_fade,end_fade,border
-wilderness,BCE1513-04-01,BCE1473-04-01,1.0,wilderness, ,,5.2,BCE1513-04-01,BCE1473-04-01,True
-timespan_judges,BCE1473-04-01,BCE1117-04-01,2.0,timespan_judges,timespan_judges2,,,BCE1473-04-01,BCE1117-04-01,True
-wilderness,BCE1513-04-01,BCE1473-04-01,34.4,, ,wilderness,,BCE1513-04-01,BCE1473-04-01,True
-timespan_judges,BCE1473-04-01,BCE1117-04-01,35.4,,timespan_judges2,timespan_judges,,BCE1473-04-01,BCE1117-04-01,True
-temple1,BCE1513-04-01,BCE1034-04-02,6.0,temple1,temple2,,1 Kings 6:1,BCE1513-04-01,BCE1034-04-02,True
-69weeks,BCE0455-10-01,0030-11-13,2.0,,69weeks2,69weeks,,BCE0455-10-01,0030-11-13,True
-jesus_service,0030-11-13,0034-04-02,4.0,, ,jesus_service,,0030-11-13,0034-04-02,True
-jesus_life,BCE0002-10-01,0034-04-02,3.0,jesus_life, ,,,BCE0002-10-01,0034-04-02,True
-exile,BCE0607-04-02,BCE0537-04-01,24.0,,exile2,exile,,BCE0607-04-02,BCE0537-04-01,True
-7times,BCE0607-04-02,1915-11-13,26.0,,7times2,7times,,BCE0607-04-02,1915-11-13,True
-ww1,1915-11-13,1919-11-13,43.0,ww1, ,,,1915-11-13,1919-11-13,True
-ww2,1940-11-12,1946-06-10,42.0,ww2, ,,,1940-11-12,1946-06-10,True
-30_year_war,1619-04-02,1649-04-02,45.0,30_year_war, ,,,1619-04-02,1649-04-02,True
-moses2,BCE1593-04-01,BCE1473-04-01,14.2,moses2,moses3,,14.7,BCE1593-04-01,BCE1473-04-01,True
-joshua,BCE1568-01-01,BCE1458-01-01,16.8,joshua,joshua2,,17.3,BCE1568-01-01,BCE1458-01-01,True
-caleb,BCE1552-01-01,BCE1467-01-01,15.5,caleb,caleb2,,16,BCE1552-01-01,BCE1457-01-01,True
-missionary1,0048-01-01,0049-01-01,8.0,, ,missionary1,,0048-01-01,0049-01-01,True
-circumcision,0049-07-02,0050-01-01,9.0,, ,circumcision,,0049-07-02,0050-01-01,True
-missionary2,0050-01-01,0053-01-01,10.0,, ,missionary2,,0050-01-01,0053-01-01,True
-missionary3,0053-01-01,0057-01-01,11.0,, ,missionary3,,0053-01-01,0057-01-01,True
-caesarea,0057-01-01,0059-01-01,12.0,, ,caesarea,,0057-01-01,0059-01-01,True
-rome1,0060-01-01,0062-01-01,13.0,, ,rome1,,0060-01-01,0062-01-01,True
-rome2,0066-01-01,0066-02-06,14.0,, ,rome2,,0066-01-01,0066-02-06,True
-30_year_war,1619-04-02,1649-04-02,7.0,30_year_war, ,,,1619-04-02,1649-04-02,True
-covid19,2021-01-01,2023-04-02,1.0,, ,covid19,,2021-01-01,2023-04-02,True
-ww1,1915-11-13,1919-11-13,9.0,ww1, ,,10,1915-11-13,1919-11-13,True
-ww2,1940-11-12,1946-06-10,10.0,ww2, ,,12,1940-11-12,1946-06-10,True
-cold_war,1946-01-01,1992-01-01,11.0,cold_war, ,,14,1946-01-01,1992-01-01,True
-john,0097-01-01,0099-01-01,15.0,, ,john,,0097-01-01,0099-01-01,True
-mohammed,0571-01-01,0633-06-09,38.6,mohammed, ,,570(?)-632 CE,0571-01-01,0633-06-09,True
-persia,BCE0522-01-01,BCE0336-01-01,29.0,,persia2,persia,,BCE0522-01-01,BCE0336-01-01,True
-king_north_light,1051-01-01,1501-01-01,28.0,,king_north_light_c,,,0981-01-01,1581-01-01,False
-king_north,BCE0320-01-01,0038-01-01,28.0,,king_north1,king_north,,BCE0320-01-01,0067-01-01,True
-king_north2,1872-01-01,1946-01-01,27.0,king_north2,king_north3,,,1872-01-01,1946-01-01,True
-king_north4,1946-01-01,1992-01-01,28.0,king_north4, ,,,1946-01-01,1992-01-01,True
-king_north5,2018-01-01,2061-01-01,29.0,king_north5, ,,,2018-01-01,2061-01-01,True
-king_south_light,0601-01-01,1301-01-01,31.0,,king_south_light_c,,,0501-01-01,1401-01-01,False
-king_south,BCE0320-01-01,BCE0031-01-01,31.0,,king_south1,king_south,,BCE0320-01-01,BCE0031-01-01,True
-king_south2,1871-01-01,2061-01-01,31.0,king_south2,king_south3,,,1871-01-01,2061-01-01,True
-time_of_end,1915-11-13,2061-01-01,25.0,time_of_end,time_of_end2,,,1915-11-13,2061-01-01,True
-suryavaman2,1114-01-01,1151-01-01,40.8,suryavaman2, ,,,1114-01-01,1151-01-01,True
-notre-dame,1164-01-01,1261-01-01,38.5,notre-dame, ,,,1164-01-01,1261-01-01,True
-daniel2_iron,0301-01-01,1051-01-01,36.5,,daniel2_iron_c,,,0251-01-01,1131-01-01,False
-Babylon2,BCE0607-01-01,BCE0539-01-01,33.5,,Babylon_c,,no explanation,BCE0607-01-01,BCE0539-01-01,True
-Medopersia,BCE0539-01-01,BCE0331-01-01,34.5,,Medopersia_c,Medopersia,,BCE0539-01-01,BCE0331-01-01,True
-Greece,BCE0331-01-01,BCE0063-01-01,35.5,,Greece_c,Greece,,BCE0331-01-01,BCE0063-01-01,True
-Rome,BCE0063-01-01,0071-01-01,36.5,,Rome_c,Rome,,BCE0063-01-01,0101-01-01,True
-Angloamerica2,1915-11-13,2061-01-01,36.5,Angloamerica2,Angloamerica_c,,,1915-11-13,2061-01-01,True
-infliction2,BCE1913-04-01,BCE1513-04-01,4.9,,infliction1,infliction2,,BCE1913-04-01,BCE1513-04-01,True
-qing-dynasty,1637-01-01,1913-01-01,41.0,qing-dynasty,qing-dynasty_c,,,1637-01-01,1913-01-01,True
-ming-dynasty,1369-01-01,1645-01-01,42.0,ming-dynasty,ming-dynasty_c,,,1369-01-01,1645-01-01,True
-yuan-dynasty,1272-01-01,1369-01-01,43.0,yuan-dynasty,yuan-dynasty_c,,,1272-01-01,1369-01-01,True
-southern-song,1128-01-01,1279-01-01,44.0,southern-song,southern-song_c,,,1128-01-01,1279-01-01,True
-northern-song,0961-01-01,1128-01-01,45.0,northern-song,northern-song_c,,,0961-01-01,1128-01-01,True
-western-xia,1039-01-01,1228-01-01,42.0,western-xia,western-xia_c,,,1039-01-01,1228-01-01,True
-shang-dynasty,BCE1513-01-01,BCE1046-01-01,45.0,shang-dynasty,shang-dynasty_c,,,BCE1600-01-01,BCE1046-01-01,False
-western-zhou,BCE1046-01-01,BCE0771-01-01,44.2,,western-zhou_c,western-zhou,,BCE1046-01-01,BCE0771-01-01,True
-eastern-zhou,BCE0770-01-01,BCE0256-01-01,43.2,,eastern-zhou_c,eastern-zhou,,BCE0770-01-01,BCE0256-01-01,True
-qin-dynasty,BCE0221-01-01,BCE0207-01-01,45.0,, ,qin-dynasty,,BCE0221-01-01,BCE0207-01-01,True
-western-han,BCE0207-01-01,0010-01-01,46.0,western-han,western-han_c,,,BCE0207-01-01,0010-01-01,True
-eastern-han,0026-01-01,0221-01-01,46.0,,eastern-han_c,eastern-han,,0026-01-01,0221-01-01,True
-three-kingdoms,0221-01-01,0281-01-01,40.55,,three-kingdoms_c,three-kingdoms,,0221-01-01,0281-01-01,True
-sixteen-kingdoms,0305-01-01,0440-01-01,41.55,,sixteen-kingdoms_c,sixteen-kingdoms,,0305-01-01,0440-01-01,True
-northern-dynasties,0369-01-01,0582-01-01,44.8,,northern-dynasties_c,northern-dynasties,,0369-01-01,0582-01-01,True
-southern-dynasties,0421-01-01,0590-01-01,46.0,,southern-dynasties_c,southern-dynasties,,0421-01-01,0590-01-01,True
-tang-dynasty1,0619-01-01,0691-01-01,43.0,,tang-dynasty1_c,,,0619-01-01,0691-01-01,True
-tang-dynasty2,0706-01-01,0908-01-01,43.0,,tang-dynasty2_c,tang-dynasty2,,0706-01-01,0908-01-01,True
-wu-zhou,0691-01-01,0706-01-01,44.0,, ,wu-zhou,,0691-01-01,0706-01-01,True
-gonghe,BCE0841-01-01,BCE0828-01-01,43.2,gonghe, ,,,BCE0841-01-01,BCE0828-01-01,True
-siloam-tunnel,BCE0740-01-01,BCE0732-01-01,36.5,siloam-tunnel, ,,,BCE0742-01-01,BCE0732-01-01,True
-millenium,2061-01-01,2121-01-01,30.0,millenium, ,,2120-2150_2320-2350,2061-01-01,2151-01-01,True
-khmer_empire,0803-01-01,1432-01-01,39.7,khmer_empire,khmer_empire_c,,,0803-01-01,1432-01-01,True
-byzantine_empire,0331-01-01,1454-01-01,35.4,byzantine_empire,byzantine_empire_c,,,0331-01-01,1454-01-01,True
-ottoman_empire,1300-01-01,1923-01-01,38.5,,ottoman_empire_c,ottoman_empire,,1300-01-01,1923-01-01,True
-holy_roman_empire,0801-01-01,0925-01-01,32.0,holy_roman_empire, ,,,0801-01-01,0925-01-01,True
-holy_roman_empire2,0963-01-01,1807-01-01,32.0,,holy_roman_empire_c,holy_roman_empire2,,0963-01-01,1807-01-01,True
-mongol_empire,1207-01-01,1295-01-01,19.0,mongol_empire, ,,,1207-01-01,1305-01-01,True
-maya_classic,0251-01-01,0953-01-01,21.95,maya_classic,maya_classic_c,,was: 22.1,0231-01-01,0971-01-01,True
-maya_postclassic,0949-01-01,1540-01-01,22.95,maya_postclassic,maya_postclassic_c,,was: 23.1,0931-01-01,1540-01-01,True
-inca_empire,1439-01-01,1534-01-01,34.3,inca_empire,inca_empire_c,,,1439-01-01,1573-01-01,True
-gupta_empire,0320-01-01,0551-01-01,20.7,,gupta_empire_c,gupta_empire,,0271-01-01,0551-01-01,True
-Teotihuacan,0201-01-01,0551-01-01,34.3,,Teotihuacan_c,Teotihuacan,,0101-01-01,0751-01-01,False
-Umayyad,0662-01-01,0751-01-01,13.0,Umayyad,Umayyad_c,,,0662-01-01,0751-01-01,True
-Abbasid,0751-01-01,1259-01-01,12.0,Abbasid,Abbasid_c,,,0751-01-01,1259-01-01,True
-Mamluk,1251-01-01,1518-01-01,11.0,Mamluk,Mamluk_c,,,1251-01-01,1518-01-01,True
-430years,BCE1943-10-01,BCE1513-01-01,33.417,,430years_c,430years,33.334,BCE1943-10-01,BCE1513-01-01,True
-xia-dynasty2,BCE1980-01-01,BCE1600-01-01,46.03,,xia-dynasty2_c,xia-dynasty2,,BCE2080-01-01,BCE1510-01-01,False
-tran_dynasty,1226-01-01,1401-01-01,40.9,,tran_dynasty_c,tran_dynasty,,1226-01-01,1401-01-01,True
-le_dynasty,1429-01-01,1528-01-01,43.1,,le_dynasty_c,le_dynasty,,1429-01-01,1528-01-01,True
-revival_le_dynasty,1534-01-01,1790-01-01,39.8,revival_le_dynasty,revival_le_dynasty_c,,Nhà Lê trung hưng,1534-01-01,1790-01-01,True
-nguyen_dynasty,1803-01-01,1884-01-01,39.8,,nguyen_dynasty_c,nguyen_dynasty,,1803-01-01,1884-01-01,True
-edo,1604-01-01,1869-01-01,35.4,edo,edo_c,,,1604-01-01,1869-01-01,True
-meiji,1869-01-01,1913-01-01,35.4,,meiji_c,meiji,,1869-01-01,1913-01-01,True
-american_civil_war,1862-05-14,1866-06-28,34.3,american_civil_war, ,,,1862-05-14,1866-06-28,True
-seljuk_empire,1038-01-01,1195-01-01,20.0,seljuk_empire,seljuk_empire_c,,,1038-01-01,1195-01-01,True
-vandals,0436-01-01,0535-01-01,23.9,,vandals_c,vandals,,0436-01-01,0535-01-01,True
-francia,0510-01-01,0844-01-01,33.15,,francia_c,francia,,0482-01-01,0844-01-01,False
-lombard,0569-01-01,0775-01-01,24.9,,lombard_c,lombard,,0569-01-01,0775-01-01,True
-100_years_war,1338-01-01,1454-01-01,24.0,100_years_war, ,,,1338-01-01,1454-01-01,True
-black_death,1347-01-01,1354-01-01,9.9,black_death, ,,,1347-01-01,1354-01-01,True
-sui_dynasty,0582-01-01,0619-01-01,42.55,sui_dynasty,sui_dynasty_c,,Line height like Nero,0582-01-01,0619-01-01,True
+wilderness,BCE1513-04-01,BCE1473-04-01,1,wilderness, ,,5.2,BCE1513-04-01,BCE1473-04-01,TRUE
+timespan_judges,BCE1473-04-01,BCE1117-04-01,2,timespan_judges,timespan_judges2,,,BCE1473-04-01,BCE1117-04-01,TRUE
+wilderness,BCE1513-04-01,BCE1473-04-01,34.4,, ,wilderness,,BCE1513-04-01,BCE1473-04-01,TRUE
+timespan_judges,BCE1473-04-01,BCE1117-04-01,35.4,,timespan_judges2,timespan_judges,,BCE1473-04-01,BCE1117-04-01,TRUE
+temple1,BCE1513-04-01,BCE1034-04-02,6,temple1,temple2,,1 Kings 6:1,BCE1513-04-01,BCE1034-04-02,TRUE
+69weeks,BCE0455-10-01,0029-11-13,2,,69weeks2,69weeks,,BCE0455-10-01,0029-11-13,TRUE
+jesus_service,0029-11-13,0033-04-02,4,, ,jesus_service,,0029-11-13,0033-04-02,TRUE
+jesus_life,BCE0002-10-01,0033-04-02,3,jesus_life, ,,,BCE0002-10-01,0033-04-02,TRUE
+exile,BCE0607-04-02,BCE0537-04-01,24,,exile2,exile,,BCE0607-04-02,BCE0537-04-01,TRUE
+7times,BCE0607-04-02,1914-07-28,26,,7times2,7times,,BCE0607-04-02,1914-07-28,TRUE
+ww1,1914-07-28,1918-11-11,43,ww1, ,,,1914-07-28,1918-11-11,TRUE
+ww2,1939-09-01,1945-06-10,42,ww2, ,,,1939-09-01,1945-06-10,TRUE
+30_year_war,1618-04-02,1648-04-02,45,30_year_war, ,,,1618-04-02,1648-04-02,TRUE
+moses2,BCE1593-04-01,BCE1473-04-01,14.2,moses2,moses3,,14.7,BCE1593-04-01,BCE1473-04-01,TRUE
+joshua,BCE1568-01-01,BCE1458-01-01,16.8,joshua,joshua2,,17.3,BCE1568-01-01,BCE1458-01-01,TRUE
+caleb,BCE1552-01-01,BCE1467-01-01,15.5,caleb,caleb2,,16,BCE1552-01-01,BCE1457-01-01,TRUE
+missionary1,0047-01-01,0048-01-01,8,, ,missionary1,,0047-01-01,0048-01-01,TRUE
+circumcision,0048-07-02,0049-01-01,9,, ,circumcision,,0048-07-02,0049-01-01,TRUE
+missionary2,0049-01-01,0052-01-01,10,, ,missionary2,,0049-01-01,0052-01-01,TRUE
+missionary3,0052-01-01,0056-01-01,11,, ,missionary3,,0052-01-01,0056-01-01,TRUE
+caesarea,0056-01-01,0058-01-01,12,, ,caesarea,,0056-01-01,0058-01-01,TRUE
+rome1,0059-01-01,0061-01-01,13,, ,rome1,,0059-01-01,0061-01-01,TRUE
+rome2,0065-01-01,0065-02-06,14,, ,rome2,,0065-01-01,0065-02-06,TRUE
+30_year_war,1618-04-02,1648-04-02,7,30_year_war, ,,,1618-04-02,1648-04-02,TRUE
+covid19,2020-01-01,2022-04-02,1,, ,covid19,,2020-01-01,2022-04-02,TRUE
+ww1,1914-07-28,1918-11-11,9,ww1, ,,10,1914-07-28,1918-11-11,TRUE
+ww2,1939-09-01,1945-06-10,10,ww2, ,,12,1939-09-01,1945-06-10,TRUE
+cold_war,1945-01-01,1991-01-01,11,cold_war, ,,14,1945-01-01,1991-01-01,TRUE
+john,0096-01-01,0098-01-01,15,, ,john,,0096-01-01,0098-01-01,TRUE
+mohammed,0570-01-01,0632-06-09,38.6,mohammed, ,,570(?)-632 CE,0570-01-01,0632-06-09,TRUE
+persia,BCE0522-01-01,BCE0336-01-01,29,,persia2,persia,,BCE0522-01-01,BCE0336-01-01,TRUE
+king_north_light,1050-01-01,1500-01-01,28,,king_north_light_c,,,0980-01-01,1580-01-01,FALSE
+king_north,BCE0320-01-01,0037-01-01,28,,king_north1,king_north,,BCE0320-01-01,0066-01-01,TRUE
+king_north2,1871-01-01,1945-01-01,27,king_north2,king_north3,,,1871-01-01,1945-01-01,TRUE
+king_north4,1945-01-01,1991-01-01,28,king_north4, ,,,1945-01-01,1991-01-01,TRUE
+king_north5,2017-01-01,2060-01-01,29,king_north5, ,,,2017-01-01,2060-01-01,TRUE
+king_south_light,0600-01-01,1300-01-01,31,,king_south_light_c,,,0500-01-01,1400-01-01,FALSE
+king_south,BCE0320-01-01,BCE0031-01-01,31,,king_south1,king_south,,BCE0320-01-01,BCE0031-01-01,TRUE
+king_south2,1870-01-01,2060-01-01,31,king_south2,king_south3,,,1870-01-01,2060-01-01,TRUE
+time_of_end,1914-11-13,2060-01-01,25,time_of_end,time_of_end2,,,1914-11-13,2060-01-01,TRUE
+suryavaman2,1113-01-01,1150-01-01,40.8,suryavaman2, ,,,1113-01-01,1150-01-01,TRUE
+notre-dame,1163-01-01,1260-01-01,38.5,notre-dame, ,,,1163-01-01,1260-01-01,TRUE
+daniel2_iron,0300-01-01,1050-01-01,36.5,,daniel2_iron_c,,,0250-01-01,1130-01-01,FALSE
+Babylon2,BCE0607-01-01,BCE0539-01-01,33.5,,Babylon_c,,no explanation,BCE0607-01-01,BCE0539-01-01,TRUE
+Medopersia,BCE0539-01-01,BCE0331-01-01,34.5,,Medopersia_c,Medopersia,,BCE0539-01-01,BCE0331-01-01,TRUE
+Greece,BCE0331-01-01,BCE0063-01-01,35.5,,Greece_c,Greece,,BCE0331-01-01,BCE0063-01-01,TRUE
+Rome,BCE0063-01-01,0070-01-01,36.5,,Rome_c,Rome,,BCE0063-01-01,0100-01-01,TRUE
+Angloamerica2,1914-11-13,2060-01-01,36.5,Angloamerica2,Angloamerica_c,,,1914-11-13,2060-01-01,TRUE
+infliction2,BCE1913-04-01,BCE1513-04-01,4.9,,infliction1,infliction2,,BCE1913-04-01,BCE1513-04-01,TRUE
+qing-dynasty,1636-01-01,1912-01-01,41,qing-dynasty,qing-dynasty_c,,,1636-01-01,1912-01-01,TRUE
+ming-dynasty,1368-01-01,1644-01-01,42,ming-dynasty,ming-dynasty_c,,,1368-01-01,1644-01-01,TRUE
+yuan-dynasty,1271-01-01,1368-01-01,43,yuan-dynasty,yuan-dynasty_c,,,1271-01-01,1368-01-01,TRUE
+southern-song,1127-01-01,1278-01-01,44,southern-song,southern-song_c,,,1127-01-01,1278-01-01,TRUE
+northern-song,0960-01-01,1127-01-01,45,northern-song,northern-song_c,,,0960-01-01,1127-01-01,TRUE
+western-xia,1038-01-01,1227-01-01,42,western-xia,western-xia_c,,,1038-01-01,1227-01-01,TRUE
+shang-dynasty,BCE1513-01-01,BCE1046-01-01,45,shang-dynasty,shang-dynasty_c,,,BCE1600-01-01,BCE1046-01-01,FALSE
+western-zhou,BCE1046-01-01,BCE0771-01-01,44.2,,western-zhou_c,western-zhou,,BCE1046-01-01,BCE0771-01-01,TRUE
+eastern-zhou,BCE0770-01-01,BCE0256-01-01,43.2,,eastern-zhou_c,eastern-zhou,,BCE0770-01-01,BCE0256-01-01,TRUE
+qin-dynasty,BCE0221-01-01,BCE0207-01-01,45,, ,qin-dynasty,,BCE0221-01-01,BCE0207-01-01,TRUE
+western-han,BCE0207-01-01,0009-01-01,46,western-han,western-han_c,,,BCE0207-01-01,0009-01-01,TRUE
+eastern-han,0025-01-01,0220-01-01,46,,eastern-han_c,eastern-han,,0025-01-01,0220-01-01,TRUE
+three-kingdoms,0220-01-01,0280-01-01,40.55,,three-kingdoms_c,three-kingdoms,,0220-01-01,0280-01-01,TRUE
+sixteen-kingdoms,0304-01-01,0439-01-01,41.55,,sixteen-kingdoms_c,sixteen-kingdoms,,0304-01-01,0439-01-01,TRUE
+northern-dynasties,0368-01-01,0581-01-01,44.8,,northern-dynasties_c,northern-dynasties,,0368-01-01,0581-01-01,TRUE
+southern-dynasties,0420-01-01,0589-01-01,46,,southern-dynasties_c,southern-dynasties,,0420-01-01,0589-01-01,TRUE
+tang-dynasty1,0618-01-01,0690-01-01,43,,tang-dynasty1_c,,,0618-01-01,0690-01-01,TRUE
+tang-dynasty2,0705-01-01,0907-01-01,43,,tang-dynasty2_c,tang-dynasty2,,0705-01-01,0907-01-01,TRUE
+wu-zhou,0690-01-01,0705-01-01,44,, ,wu-zhou,,0690-01-01,0705-01-01,TRUE
+gonghe,BCE0841-01-01,BCE0828-01-01,43.2,gonghe, ,,,BCE0841-01-01,BCE0828-01-01,TRUE
+siloam-tunnel,BCE0740-01-01,BCE0732-01-01,36.5,siloam-tunnel, ,,,BCE0742-01-01,BCE0732-01-01,TRUE
+millenium,2060-01-01,2120-01-01,30,millenium, ,,2120-2150_2320-2350,2060-01-01,2150-01-01,TRUE
+khmer_empire,0802-01-01,1431-01-01,39.7,khmer_empire,khmer_empire_c,,,0802-01-01,1431-01-01,TRUE
+byzantine_empire,0330-01-01,1453-01-01,35.4,byzantine_empire,byzantine_empire_c,,,0330-01-01,1453-01-01,TRUE
+ottoman_empire,1299-01-01,1922-01-01,38.5,,ottoman_empire_c,ottoman_empire,,1299-01-01,1922-01-01,TRUE
+holy_roman_empire,0800-01-01,0924-01-01,32,holy_roman_empire, ,,,0800-01-01,0924-01-01,TRUE
+holy_roman_empire2,0962-01-01,1806-01-01,32,,holy_roman_empire_c,holy_roman_empire2,,0962-01-01,1806-01-01,TRUE
+mongol_empire,1206-01-01,1294-01-01,19,mongol_empire, ,,,1206-01-01,1304-01-01,TRUE
+maya_classic,0250-01-01,0952-01-01,21.95,maya_classic,maya_classic_c,,was: 22.1,0230-01-01,0970-01-01,TRUE
+maya_postclassic,0948-01-01,1539-01-01,22.95,maya_postclassic,maya_postclassic_c,,was: 23.1,0930-01-01,1539-01-01,TRUE
+inca_empire,1438-01-01,1533-01-01,34.3,inca_empire,inca_empire_c,,,1438-01-01,1572-01-01,TRUE
+gupta_empire,0319-01-01,0550-01-01,20.7,,gupta_empire_c,gupta_empire,,0270-01-01,0550-01-01,TRUE
+Teotihuacan,0200-01-01,0550-01-01,34.3,,Teotihuacan_c,Teotihuacan,,0100-01-01,0750-01-01,FALSE
+Umayyad,0661-01-01,0750-01-01,13,Umayyad,Umayyad_c,,,0661-01-01,0750-01-01,TRUE
+Abbasid,0750-01-01,1258-01-01,12,Abbasid,Abbasid_c,,,0750-01-01,1258-01-01,TRUE
+Mamluk,1250-01-01,1517-01-01,11,Mamluk,Mamluk_c,,,1250-01-01,1517-01-01,TRUE
+430years,BCE1943-10-01,BCE1513-01-01,33.417,,430years_c,430years,33.334,BCE1943-10-01,BCE1513-01-01,TRUE
+xia-dynasty2,BCE1980-01-01,BCE1600-01-01,46.03,,xia-dynasty2_c,xia-dynasty2,,BCE2090-01-01,BCE1510-01-01,FALSE
+tran_dynasty,1225-01-01,1400-01-01,40.9,,tran_dynasty_c,tran_dynasty,,1225-01-01,1400-01-01,TRUE
+le_dynasty,1428-01-01,1527-01-01,43.1,,le_dynasty_c,le_dynasty,,1428-01-01,1527-01-01,TRUE
+revival_le_dynasty,1533-01-01,1789-01-01,39.8,revival_le_dynasty,revival_le_dynasty_c,,Nhà Lê trung hưng,1533-01-01,1789-01-01,TRUE
+nguyen_dynasty,1802-01-01,1883-01-01,39.8,,nguyen_dynasty_c,nguyen_dynasty,,1802-01-01,1883-01-01,TRUE
+edo,1603-01-01,1868-01-01,35.4,edo,edo_c,,,1603-01-01,1868-01-01,TRUE
+meiji,1868-01-01,1912-01-01,35.4,,meiji_c,meiji,,1868-01-01,1912-01-01,TRUE
+american_civil_war,1861-05-14,1865-06-28,34.3,american_civil_war, ,,,1861-05-14,1865-06-28,TRUE
+seljuk_empire,1037-01-01,1194-01-01,20,seljuk_empire,seljuk_empire_c,,,1037-01-01,1194-01-01,TRUE
+vandals,0435-01-01,0534-01-01,23.9,,vandals_c,vandals,,0435-01-01,0534-01-01,TRUE
+francia,0509-01-01,0843-01-01,33.15,,francia_c,francia,,0481-01-01,0843-01-01,FALSE
+lombard,0568-01-01,0774-01-01,24.9,,lombard_c,lombard,,0568-01-01,0774-01-01,TRUE
+100_years_war,1337-01-01,1453-01-01,24,100_years_war, ,,,1337-01-01,1453-01-01,TRUE
+black_death,1346-01-01,1353-01-01,9.9,black_death, ,,checked 2026-05-30,1346-01-01,1353-01-01,TRUE
+sui_dynasty,0581-01-01,0618-01-01,42.55,sui_dynasty,sui_dynasty_c,,Line height like Nero,0581-01-01,0618-01-01,TRUE
