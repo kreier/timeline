@@ -316,7 +316,7 @@ def create_horizontal_axis():
     pdf.line(x1, y2, x1 + page_width - 2 * border_lr, y2)
     pdf.set_font(font_regular, "", fontsize_label)           # tickmarks and years for 61 centuries
     for i in range(61):
-        tick_x = x_position(-4075) + (75 + 100 * i) * dots_year * direction_factor # fix 2026-02-20
+        tick_x = x_position(-4075.5) + (75 + 100 * i) * dots_year * direction_factor # fix 2026-02-20
         pdf.set_line_width(0.8 * scale)
         pdf.set_draw_color(0)
         pdf.line(tick_x, y1, tick_x, y1 - 2*mm * scale)              # main tickmark
@@ -673,8 +673,9 @@ def create_periods():
         if row.border:
             stil = "DF"
         pdf.rect(x_box, y_box - 1, x_boxwidth, 12, style=stil)
-        # add fading if specified at the end of the time period
-        if row.end_fade > row.end:                                              # fade end
+        # add fading if specified at the end of the time period - fixed BCE conversion 2026-05-30 for comparison
+        if float_date(row.end_fade) > float_date(row.end):                                              # fade end
+            # print(f"Adding fading for {row.key} at the end of the period from {row.end} to {row.end_fade}")
             fade_width = x_position(float_date(row.end_fade)) - x_position(float_date(row.end))
             x_boxwidth += fade_width
             fade_steps = 50
@@ -684,7 +685,7 @@ def create_periods():
                 pdf.set_fill_color(cl[0], cl[1], cl[2])
                 pdf.rect(x_box + x_boxwidth - fade_width * (i+1)/fade_steps - 0.2 * shift, y_box - 1, fade_width / 45, 12, style="F")
         # add fading if specified at the start of the time period
-        if row.start_fade < row.start:                                          # fade start
+        if float_date(row.start_fade) < float_date(row.start):                                          # fade start
             fade_width = x_position(float_date(row.start)) - x_position(float_date(row.start_fade))
             x_boxwidth += fade_width
             x_box = x_position(float_date(row.start_fade))
