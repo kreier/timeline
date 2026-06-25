@@ -916,7 +916,7 @@ def create_daniel2():                   # reference image has dimensions 748 x 2
     d2_height = 96*mm
     d2_width  = d2_height / 748 * 240
     kingdoms = ["Babylon", "Medopersia", "Greece", "Rome", "Angloamerica"]
-    kingdom_x = [0, 0, 0, 0, 0]
+    kingdom_x = [0, 0, 0, 0, 0] # where to end the line for each kingdom, can be adjusted for each image
     years = ["607BCE", "", "539BCE", "537BCE", "", "331BCE", "", "63BCE", "70CE", "1914CE", "", ""] 
     yearlines = [2, 3, 2, 2, 3]
     current_yearline = 0
@@ -963,7 +963,7 @@ def create_daniel2():                   # reference image has dimensions 748 x 2
     shift_upward += 96*mm * (1 - scale_d2) * scale
     d2_height = 96*mm * scale_d2 * scale
     d2_width  = d2_height / 748 * 240
-    d2_x = x_position(left_x+176) + image_shift * direction_factor
+    d2_x = x_position(left_x + 176) + image_shift * direction_factor
     if not left_to_right:
         file_d2 += "_rtl"
         d2_x -= d2_width
