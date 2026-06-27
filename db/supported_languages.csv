@@ -101,7 +101,7 @@ kri,Krio,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Krio(*** no dictionary yet ***),96,99
 ku,Kurdish (Kurmanji) ,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Kurdish (Kurmanji) (*** no dictionary yet ***),97,100
 ckb,Kurdish (Sorani),FALSE,,,,RTL,,10,15,0,FALSE,0,1,Kurdish (Sorani)(*** no dictionary yet ***),98,101
 ky,Kyrgyz,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Kyrgyz(*** no dictionary yet ***),99,102
-lo,Lao,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Lao(*** no dictionary yet ***),100,103
+lo,Lao,TRUE,TRUE,laoo,lao,ltr,NotoLao,10,15,0,FALSE,0,1,Laotian (ລາວ),100,103
 ltg,Latgalian,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Latgalian(*** no dictionary yet ***),101,104
 la,Latin,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Latin(*** no dictionary yet ***),102,105
 lv,Latvian,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Latvian(*** no dictionary yet ***),103,106
