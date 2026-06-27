@@ -9,7 +9,7 @@ import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix
 import datetime, sys, os, asyncio, math, qrcode
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 6.05
+version  = 6.06
 language = "en"
 language_str = "English"
 color_scheme = "rgb"
@@ -1123,9 +1123,9 @@ def create_dictionary(target_language):
     reference.fillna(" ", inplace=True) # fill empty cells with a space
     print(f"Imported reference english dictionary, found {len(reference)} entries.")
     print(reference)
-    dict = reference[['key', 'text']].copy()     # create a new dictionary, copy columns key and text
-    dict['english'] = reference['text'].copy()   # add a column 'english' and fill with 'text' from english dictionary
-    dict['notes'] = reference['notes'].copy()         # add a column 'notes' and fill with 'notes' from english dictionary
+    dict = reference[['key', 'english']].copy()     # create a new dictionary, copy columns key and english
+    dict['text'] = reference['english'].copy()      # add a column 'text' and fill with 'english' from english dictionary
+    dict['notes'] = reference['notes'].copy()       # add a column 'notes' and fill with 'notes' from english dictionary
     print("\nTranslating ...")
     # start with asyncio since googletrans 4.x is async
     number_characters = 0      # you can translate up to 500,000 characters per month for free
