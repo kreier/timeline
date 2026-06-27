@@ -9,7 +9,7 @@ import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix
 import datetime, sys, os, asyncio, math, qrcode
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 6.05
+version  = 6.06
 language = "en"
 language_str = "English"
 color_scheme = "rgb"
@@ -916,7 +916,7 @@ def create_daniel2():                   # reference image has dimensions 748 x 2
     d2_height = 96*mm
     d2_width  = d2_height / 748 * 240
     kingdoms = ["Babylon", "Medopersia", "Greece", "Rome", "Angloamerica"]
-    kingdom_x = [0, 0, 0, 0, 0]
+    kingdom_x = [0, 0, 0, 0, 0] # where to end the line for each kingdom, can be adjusted for each image
     years = ["607BCE", "", "539BCE", "537BCE", "", "331BCE", "", "63BCE", "70CE", "1914CE", "", ""] 
     yearlines = [2, 3, 2, 2, 3]
     current_yearline = 0
@@ -963,7 +963,7 @@ def create_daniel2():                   # reference image has dimensions 748 x 2
     shift_upward += 96*mm * (1 - scale_d2) * scale
     d2_height = 96*mm * scale_d2 * scale
     d2_width  = d2_height / 748 * 240
-    d2_x = x_position(left_x+176) + image_shift * direction_factor
+    d2_x = x_position(left_x + 176) + image_shift * direction_factor
     if not left_to_right:
         file_d2 += "_rtl"
         d2_x -= d2_width
@@ -1123,9 +1123,9 @@ def create_dictionary(target_language):
     reference.fillna(" ", inplace=True) # fill empty cells with a space
     print(f"Imported reference english dictionary, found {len(reference)} entries.")
     print(reference)
-    dict = reference[['key', 'text']].copy()     # create a new dictionary, copy columns key and text
-    dict['english'] = reference['text'].copy()   # add a column 'english' and fill with 'text' from english dictionary
-    dict['notes'] = reference['notes'].copy()         # add a column 'notes' and fill with 'notes' from english dictionary
+    dict = reference[['key', 'english']].copy()     # create a new dictionary, copy columns key and english
+    dict['text'] = reference['english'].copy()      # add a column 'text' and fill with 'english' from english dictionary
+    dict['notes'] = reference['notes'].copy()       # add a column 'notes' and fill with 'notes' from english dictionary
     print("\nTranslating ...")
     # start with asyncio since googletrans 4.x is async
     number_characters = 0      # you can translate up to 500,000 characters per month for free
