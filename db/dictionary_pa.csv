@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02,5.9,float,True
-pdf_title,6000 ਸਾਲ ਦੇ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਕਲਪਨਾ ਕੀਤੀ,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06,5.9,float,True
+pdf_title,6000 ਸਾਲ ਦੇ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਕਲਪਨਾ ਕੀਤੀ,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,ਮਨੁੱਖਜਾਤੀ ਦੀ ਸਮਾਂ ਰੇਖਾ,Timeline of humankind,5.9,text,True
 BCE,ਬੀ.ਸੀ.ਈ.,B.C.E.,appendix B9,B9,True
 CE,ਸੀ.ਈ.,C.E., ,B9,False
@@ -68,7 +68,6 @@ gilead_school,"ਵਾਚਟਾਵਰ ਬਾਈਬਲ ਸਕੂਲ ਆਫ਼ ਗ�
 new_world_translation1,"ਨਿ World ਵਰਲਡ ਟ੍ਰਾਂਸਲੇਸ਼ਨ ਆਫ਼ ਦਿ ਹੋਲੀ ਸਕ੍ਰਿਪਚਰਸ ਮੈਨਚੇਸਟਰ ਵਿਚ 1 ਜੂਨ, 1960 ਨੂੰ ਇੰਗਲੈਂਡ ਨੂੰ ਬਾਈਬਲ ਦੇ ਕਈ ਹਿੱਸਿਆਂ ਵਿਚ ਯਹੋਵਾਹ ਨਾਮ ਦੀ ਰਿਹਦਾ ਹੈ","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,"ਇਸ ਨੂੰ ਸਲੈਵਲ ਏਜੰਟ ਵਿਖੇ ਜਾਰੀ ""ਨਿ World ਵਰਲਡ ਟ੍ਰਾਂਸਲੇਸ਼ਨ"" ਨੂੰ ਸੋਧਿਆ ਗਿਆ, ਨੇ ਡਿਜੀਟਡ ਅਤੇ ਆਨਲਾਈਨ ਵਰਤਿਆ","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,"ਜਿਓਪੋਲਿਕ ਸਥਿਤੀ ਨੇ ""ਕੋਲਡ ਯੁੱਧ"" 1945-1991 ਦਾ ਲੇਬਲ ਕੀਤਾ",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"ਇਹ ਟਾਈਮਲਾਈਨ ਨੂੰ 2023 ਵਿੱਚ ਬਣਾਇਆ ਗਿਆ ਹੈ, ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦਾ ਸਭ ਤੋਂ ਗਰਮ ਸਾਲ ਅਤੇ ਪਿਛਲੇ 125,000 ਸਾਲ","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,ਕੋਡੈਕਸ ਸਾਈਨੇਟਿਕਸ ਲਿਖਿਆ,Codex Sinaiticus written, ,text,False
 codex_vaticanus,ਕੋਡੈਕਸ ਵੈਟੀਕਨਸ ਲਿਖਿਆ ਗਿਆ,Codex Vaticanus written, ,text,False
 leningrad_codex,ਲਾਈਨਰਾਡਡ ਕੋਡੈਕਸ ਕੈਰੋ ਐਡ 1008 ਵਿੱਚ ਲਿਖਿਆ ਗਿਆ,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,ਹਿਜ਼ਕੀਯਾਹ ਨੇ ਸਿਲੂਮ ਸੁਰੰਗ
 Angloamerica2,"ਐਂਗਲੋ-ਅਮੈਰੀਕਨ ਲੂਣ ਦੇ ਚਰਨਾਂ ਨਾਲ ਸਿੰਕ ਕੀਤਾ ਗਿਆ ਹੈ ਦਾਨੀਏਲ 2:33, 41-43 ਵਿਚ ਭਵਿੱਖਬਾਣੀ ਵਿਚ ਮਿਲਾਇਆ ਗਿਆ ਹੈ","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Menetho aygytica ਲਿਖਦਾ ਹੈ,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"ਵੱਡੀ ਬਾਬੁਲ ਦਾ ਵਿਨਾਸ਼ (ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"""ਸ਼ਾਂਤੀ ਅਤੇ ਸੁਰੱਖਿਆ!"" (1 ਥੱਸਲੁਨੀਕੀਆਂ 5:3, ਇਹ ਇੱਕ ਸੰਭਾਵਨਾ ਹੈ, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"ਗੋਗ ਦੇ ਗੋਗ ਦੇ ਹਮਲੇ (ਹਿਜ਼ਕੀ 38: 1, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,"ਧਰਤੀ ਦੇ ਵਸਨੀਕਾਂ ਦਾ ਨਿਆਂ, ਬੱਕਰੀਆਂ ਨੂੰ ਵੱਖ ਕਰਦਿਆਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ (ਮੱਤੀ 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,ਰਾਜ ਦੇ ਸ਼ਾਸਕਾਂ ਨੂੰ ਇਕੱਠਾ ਕਰਨਾ (ਮੱਤੀ 24:31; 1 ਕੁਰਿੰਥੀਆਂ 15: 50-53; 1 ਥੱਸਲੁਨੀਕੀਆਂ 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) ਅਮਾਲੇਕੀ ਲੋਕ: 1 ਸਮੂਏਲ 15: 2,6) Amalek
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"ਇਹ ਟਾਈਮਲਾਈਨ ਨੂੰ 2023 ਵਿੱਚ ਬਣਾਇਆ ਗਿਆ ਹੈ, ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦਾ ਸਭ ਤੋਂ ਗਰਮ ਸਾਲ ਅਤੇ ਪਿਛਲੇ 125,000 ਸਾਲ","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

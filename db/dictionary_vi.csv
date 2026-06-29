@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.04,6.02, ,float,True
-pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06, ,float,True
+pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,Dòng thời gian của loài người,Timeline of humankind, ,text,True
 BCE,TCN,B.C.E.,appendix B9,B9,True
 CE,CN,C.E., ,B9,True
@@ -68,7 +68,6 @@ gilead_school,Trường Kinh Thánh Ga-la-át của Tháp Canh bắt đầu vào
 new_world_translation1,"“Kinh Thánh—Bản dịch Thế Giới Mới” ra mắt tại Manchester, Anh quốc vào ngày 18. 6. 1960, khôi phục lại danh Giê-hô-va trong nhiều phần của Kinh Thánh","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,True
 new_world_translation2,"Kinh Thánh—Bản dịch Thế Giới Mới hiệu đính được ra mắt tại cuộc họp thường niên năm 2013 (bằng tiếng Việt ngày 02/04/2017), được tối ưu hóa để sử dụng kỹ thuật số và trực tuyến","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,True
 cold_war,Tình hình địa chính trị “Chiến tranh Lạnh” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,True
-timeline_created,"2023 là năm nóng nhất trong lịch sử loài người và trong 125.000 năm qua, dòng TG này đã tạo ra","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,True
 codex_sinaiticus,Codex Sinaiticus được viết,Codex Sinaiticus written, ,text,True
 codex_vaticanus,Codex Vaticanus được viết,Codex Vaticanus written, ,text,True
 leningrad_codex,Leningrad Codex được viết ở Cairo năm 1008 CN,Leningrad Codex written in Cairo AD 1008, ,text,True
@@ -133,6 +132,7 @@ siloam-tunnel,Ê-xê-chia mở rộng đường hầm Siloam,Hezekiah extends Si
 Angloamerica2,"Anh - Mỹ tượng trưng cho bàn chân bằng sắt trộn với đất sét theo lời tiên tri sách Đa-ni-ên 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,True
 Manetho,Manetho viết Aegyptiaca,Manetho writes Aegyptiaca, ,text,True
 destruction_babylon,"Sự hủy diệt Ba-by-lôn Lớn (Khải Huyền 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,True
+peace_security,"“Hòa bình và an ninh!” (1 Tê-sa-lô-ni-ca 5:3, đây là một khả năng, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"Cuộc tấn công của Gót ở xứ Ma-gót (Êxê 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,True
 sheep_goat,"Cư dân trên đất sẽ bị phán xét, phân biệt chiên và dê (Ma-thi-ơ 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,True
 annointed,Những tín đồ được xức dầu còn sót lại sẽ được thu nhóm về trời (Ma-thi-ơ 24:31; 1 Cô-rinh-tô 15:50-53; 1 Tê-sa-lô-ni-ca 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,True
@@ -570,3 +570,4 @@ Amalekites,6) Dân A-ma-léc: 1 Sa-mu-ên 15:2,6) Amalekites: 1 Samuel 15:2,2024
 king_south_light, , ,2025-02-05,deprecated,True
 king_north_light, , ,2025-02-05,deprecated,True
 daniel2_iron, , ,2025-02-05,deprecated,True
+timeline_created,"2023 là năm nóng nhất trong lịch sử loài người và trong 125.000 năm qua, dòng TG này đã tạo ra","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,True

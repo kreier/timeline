@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02,5.9,float,True
-pdf_title,6000-aastane inimajalugu visualiseeris,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06,5.9,float,True
+pdf_title,6000-aastane inimajalugu visualiseeris,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,Inimkonna ajaskaala,Timeline of humankind,6.01,text,False
 BCE,e.m.a,B.C.E.,appendix B9,B9,True
 CE,m.a.j,C.E., ,B9,True
@@ -68,7 +68,6 @@ gilead_school,"Gileadi vaatlejate piiblikool algab esmaspäeval, 1. veebruaril 1
 new_world_translation1,Inglismaal 18. juunil 1960 ilmus “Püha Pühakirja uus maailma tõlge”.,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,"Muudetud “Püha Pühakirja uus maailma tõlge”, mis ilmus 2013. aasta aastakoosolekul, optimeeritud kasutamiseks digitaalselt ja veebis","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,Geopoliitiline olukord nimetas “Külma sõda” 1945–1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"See ajaskaala on loodud 2023. aastal, mis on inimkonna ajaloo kuumim aasta ja viimased 125 000 aastat","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Codex Sinaiticus kirjutatud,Codex Sinaiticus written, ,text,False
 codex_vaticanus,Codex vaticanus kirjutatud,Codex Vaticanus written, ,text,False
 leningrad_codex,Leningrad Codex kirjutatud Kairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,Hiskija laiendab siloami tunnelit,Hezekiah extends Siloam tunnel,c
 Angloamerica2,"Angloameeriklast sümboliseerivad taanieli 2:33, 41-43 prohvetikuulutatud saviga segatud raua jalad.","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Manetho kirjutab Aegyptiaca,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"Babüloni suure hävitamine (Ilmutuse 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"""Rahu ja turvalisus!"" (1. Tessalooniklastele 5:3, see on üks võimalus, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"Magogi Gogi rünnak (Hesekiel 38: 1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,"Maa elanikke hinnatakse, eraldades lambad ja kitsed (Matteuse 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,Kuningriigi valitsejate kogunemine (Matteuse 24:31; 1. Korintlastele 15: 50-53; 1. Tessalooniklastele 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) Amalekiidid: 1 Samuel 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-2
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"See ajaskaala on loodud 2023. aastal, mis on inimkonna ajaloo kuumim aasta ja viimased 125 000 aastat","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

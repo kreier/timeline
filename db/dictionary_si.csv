@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,True
-pdf_title,වසර 6000ක මානව ඉතිහාසය දර්ශනය විය,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06, ,float,True
+pdf_title,වසර 6000ක මානව ඉතිහාසය දර්ශනය විය,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,මානව වර්ගයාගේ කාල සටහන,Timeline of humankind, ,text,False
 BCE,ක්රි.පූ.,B.C.E., ,B9,True
 CE,සී.ඊ.,C.E., ,B9,True
@@ -68,7 +68,6 @@ gilead_school,ගිලියද් මුරටැඹ බයිබල් පා
 new_world_translation1,1960 ජූනි 18 වැනිදා එංගලන්තයේ මැන්චෙස්ටර්හිදී නිකුත් කළ “ශුද්ධ ලියවිල්ලේ නව ලෝක පරිවර්තනය” බයිබලයේ බොහෝ කොටස්වල යෙහෝවා යන නාමය නැවත හඳුන්වා දෙයි,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,"සංශෝධිත “ශුද්ධ ශුද්ධ ලියවිල්ලේ නව ලෝක පරිවර්තනය” 2013 වාර්ෂික රැස්වීමේදී නිකුත් කරන ලද, ඩිජිටල් සහ මාර්ගගතව භාවිතා කිරීමට ප්‍රශස්ත කර ඇත","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,"1945-1991 ""සීතල යුද්ධය"" ලෙස නම් කරන ලද භූ දේශපාලනික තත්ත්වය",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"මෙම කාල සටහන 2023 දී නිර්මාණය කරන ලදී, මානව ඉතිහාසයේ උණුසුම්ම වසර සහ පසුගිය වසර 125,000","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,කෝඩෙක්ස් සයිනයිටිකස් ලියා ඇත,Codex Sinaiticus written, ,text,False
 codex_vaticanus,වතිකානුස් කෝඩෙක්ස් ලියා ඇත,Codex Vaticanus written, ,text,False
 leningrad_codex,1008 කයිරෝ හි ලියා ඇති ලෙනින්ග්‍රෑඩ් කෝඩෙක්ස්,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,හෙසකියා සිලෝම් උමග දිගු �
 Angloamerica2,"ඩැනියෙල් 2:33, 41-43 හි අනාවැකියේ ඇන්ග්ලෝ-ඇමරිකානුව සංකේතවත් කරන්නේ මැටි සමඟ යකඩ මිශ්‍ර පාදවලින්","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,මැනතෝ ඊජිප්ටියාකා ලියයි,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"මහා බබිලෝනියේ විනාශය (එළිදරව් 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"""සාමය සහ ආරක්ෂාව!"" (1 තෙසලෝනික 5:3, මෙය එක් හැකියාවකි, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"මාගොග්හි ගොග්ගේ ප්‍රහාරය (එසකියෙල් 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,"පෘථිවි වැසියන් විනිශ්චය කරනු ලැබේ, බැටළුවන් සහ එළුවන් වෙන් කරනු ලැබේ (මතෙව් 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,රාජ්‍ය පාලකයන් එක්රැස් කිරීම (මතෙව් 24:31; 1 කොරින්ති 15:50-53; 1 තෙසලෝනික 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) අමලෙක්වරුන්: 1 සාමුවෙල් 15:2
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"මෙම කාල සටහන 2023 දී නිර්මාණය කරන ලදී, මානව ඉතිහාසයේ උණුසුම්ම වසර සහ පසුගිය වසර 125,000","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

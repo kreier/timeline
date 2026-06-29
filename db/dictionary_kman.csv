@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,True
-pdf_title,ប្រវត្តិសាស្រ្តមនុស្សជាតិ 6000 ឆ្នាំត្រូវបានមើលឃើញ,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06, ,float,True
+pdf_title,ប្រវត្តិសាស្រ្តមនុស្សជាតិ 6000 ឆ្នាំត្រូវបានមើលឃើញ,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,ការកំណត់ពេលវេលារបស់មនុស្ស,Timeline of humankind, ,text,False
 BCE,មុន​គ.ស.,B.C.E., ,B9,True
 CE,គ.ស.,C.E., ,B9,True
@@ -68,7 +68,6 @@ gilead_school,សាលា​ព្រះគម្ពីរ​កាឡាដ​
 new_world_translation1,«ការ​បក​ប្រែ​ពិភព​លោក​ថ្មី​នៃ​បទ​គម្ពីរ​បរិសុទ្ធ» ដែល​បាន​ចេញ​ផ្សាយ​នៅ​ក្រុង Manchester ប្រទេស​អង់គ្លេស នៅ​ថ្ងៃ​ទី18 ខែ​មិថុនា ឆ្នាំ​1960 បង្ហាញ​ព្រះ​នាម​ព្រះ​យេហូវ៉ា​ឡើង​វិញ​ក្នុង​ផ្នែក​ជា​ច្រើន​នៃ​គម្ពីរ។,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,បានកែប្រែ «ការបកប្រែពិភពលោកថ្មីនៃបទគម្ពីរបរិសុទ្ធ» ដែលបានចេញផ្សាយនៅក្នុងកិច្ចប្រជុំប្រចាំឆ្នាំ 2013 ដែលត្រូវបានកែលម្អឱ្យប្រើជាឌីជីថល និងតាមអ៊ីនធឺណិត។,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,"ស្ថានភាពភូមិសាស្ត្រនយោបាយ បានដាក់ស្លាកថា ""សង្គ្រាមត្រជាក់"" ឆ្នាំ 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"ការកំណត់ពេលវេលានេះត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ 2023 ដែលជាឆ្នាំក្តៅបំផុតក្នុងប្រវត្តិសាស្ត្រមនុស្សជាតិ និង 125,000 ឆ្នាំចុងក្រោយ","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Codex Sinaiticus បានសរសេរ,Codex Sinaiticus written, ,text,False
 codex_vaticanus,Codex Vaticanus បានសរសេរ,Codex Vaticanus written, ,text,False
 leningrad_codex,Leningrad Codex បានសរសេរនៅក្នុង Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,ហេសេគាពង្រីកផ្លូវរូងក្
 Angloamerica2,"Anglo-American ត្រូវ​បាន​តំណាង​ដោយ​ជើង​ដែក​លាយ​នឹង​ដីឥដ្ឋ នៅ​ក្នុង​ទំនាយ​នៅ​ក្នុង ដានីយ៉ែល 2:33, 41-43។","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,ម៉ាណេតូ សរសេរ អេហ្ស៊ីប,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"ការ​បំផ្លាញ​បាប៊ីឡូន​ដ៏​អស្ចារ្យ (វិវរណៈ 17:3, 15​-​18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,,"“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"ការ​វាយ​ប្រហារ​របស់​កុក​នៃ​ស្រុក​ម៉ាកូក (អេសេគាល 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,អ្នក​នៅ​លើ​ផែនដី​នឹង​ត្រូវ​កាត់​ទោស ដោយ​ញែក​ចៀម និង​ពពែ (ម៉ាថាយ 25:31-33),"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,ការ​ប្រមូល​អ្នក​គ្រប់​គ្រង​រាជាណាចក្រ (ម៉ាថាយ 24:31; កូរិនថូសទី1 15:50-53; ថែស្សាឡូនីចទី1 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites, ,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"ការកំណត់ពេលវេលានេះត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ 2023 ដែលជាឆ្នាំក្តៅបំផុតក្នុងប្រវត្តិសាស្ត្រមនុស្សជាតិ និង 125,000 ឆ្នាំចុងក្រោយ","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

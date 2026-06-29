@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,True
-pdf_title,6000 años de historia humana visualizados,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06, ,float,True
+pdf_title,6000 años de historia humana visualizados,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,Cronología de la humanidad,Timeline of humankind, ,text,True
 BCE,a.e.c.,B.C.E.,appendix B9,B9,True
 CE,e.c.,C.E., ,B9,True
@@ -68,7 +68,6 @@ gilead_school,La Escuela Bíblica de Galaad de la Watchtower comenzó el lunes 1
 new_world_translation1,"La “Traducción del Nuevo Mundo de las Santas Escrituras”, publicada en Manchester, Inglaterra, el 18 de junio de 1960, reintroduce el nombre Jehová en muchas partes de la Biblia.","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,True
 new_world_translation2,"“Traducción del Nuevo Mundo de las Santas Escrituras” revisada y publicada en la reunión anual de 2013, optimizada para su uso digital y en línea","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,True
 cold_war,Situación geopolítica “Guerra Fría” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,True
-timeline_created,"Línea de tiempo creada en 2023, el año más caluroso de la historia y los últimos 125.000 años.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,True
 codex_sinaiticus,Códice Sinaítico escrito,Codex Sinaiticus written, ,text,True
 codex_vaticanus,Códice Vaticano escrito,Codex Vaticanus written, ,text,True
 leningrad_codex,Códice de Leningrado escrito en El Cairo en 1008 d.c.,Leningrad Codex written in Cairo AD 1008, ,text,True
@@ -133,6 +132,7 @@ siloam-tunnel,Ezequías prolonga el túnel de Siloé,Hezekiah extends Siloam tun
 Angloamerica2,"Anglo-americano está simbolizado por los pies de hierro mezclados con barro en la profecía de Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,True
 Manetho,Manetón escribe Aegyptiaca,Manetho writes Aegyptiaca, ,text,True
 destruction_babylon,"Destrucción de Babilonia la Grande (Ap 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,True
+peace_security,"“¡Paz y seguridad!” (1 Tesalonicenses 5:3, esta es una posibilidad, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"Ataque de Gog de Magog (Ezequiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,True
 sheep_goat,"Los habitantes de la Tierra son juzgados, separando ovejas y cabras (Mateo 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,True
 annointed,Reunión de los gobernantes del Reino (Mateo 24:31; 1 Corintios 15:50-53; 1 Tesalonicenses 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,True
@@ -570,3 +570,4 @@ Amalekites,6) Amalekitas: 1 Samuel 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29
 king_south_light, , ,2025-02-05,deprecated,True
 king_north_light, , ,2025-02-05,deprecated,True
 daniel2_iron, , ,2025-02-05,deprecated,True
+timeline_created,"Línea de tiempo creada en 2023, el año más caluroso de la historia y los últimos 125.000 años.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,True

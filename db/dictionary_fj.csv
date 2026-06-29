@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,True
-pdf_title,6000 na yabaki ni itukutuku ni kawatamata e raitayaloyalotaki,6000 years human history visualized,2026-02-12,text,False
+version,6.06,6.06, ,float,True
+pdf_title,6000 na yabaki ni itukutuku ni kawatamata e raitayaloyalotaki,6000 years human history visualized,2026-06-30,text,False
 pdf_subject,iTuvatuva ni kawatamata,Timeline of humankind, ,text,False
 BCE,B.K.E.,B.C.E., ,B9,False
 CE,C.E.,C.E., ,B9,False
@@ -68,7 +68,6 @@ gilead_school,"A tekivu ena Moniti, 1 Feperueri, 1943, a tekivu na Koronivuli ni
 new_world_translation1,"""New World Translation of the Holy Scriptures"" ka soli mai Manchester, Igiladi ena ika 18 ni June, 1960","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible", ,text,False
 new_world_translation2,"Vakavoui ni ""New World Translation of the Holy Scriptures"" ka soli ena soqoni vakayabaki ni 2013","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online", ,text,False
 cold_war,"Na ituvaki ni bula vakapolitiki e vakatokai me ""iValu Batabata"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"Na gauna oqo a tauyavutaki ena 2023, na yabaki katakata duadua ena itukutuku ni kawatamata kei na 125,000 na yabaki sa oti","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Vola o Codex Sinaiticus,Codex Sinaiticus written, ,text,False
 codex_vaticanus,Vola o Codex Vaticanus,Codex Vaticanus written, ,text,False
 leningrad_codex,Leningrad Codex volai e Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,Dodoka yani o Esekaia na qara e Sailoama,Hezekiah extends Siloam t
 Angloamerica2,"Na vosa vaka-Amerika e vakatakarakarataki ena yava ni kaukamea ka veicurumaki kei na tete ena parofisai ena Taniela 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Vola o Manetho na A hadaca,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon, ,"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,,"“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog, ,"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat, ,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed, ,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites, ,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"Na gauna oqo a tauyavutaki ena 2023, na yabaki katakata duadua ena itukutuku ni kawatamata kei na 125,000 na yabaki sa oti","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

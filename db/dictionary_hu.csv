@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,True
-pdf_title,6000 éves emberi történelem vizualizálva,6000 years human history visualized,2026-02-12,text,False
+version,6.06,6.06, ,float,True
+pdf_title,6000 éves emberi történelem vizualizálva,6000 years human history visualized,2026-06-30,text,False
 pdf_subject,Az emberiség idővonala,Timeline of humankind, ,text,False
 BCE,I. e.,B.C.E., ,B9,True
 CE,I. sz.,C.E., ,B9,True
@@ -68,7 +68,6 @@ gilead_school,"Az Őrtorony Gileád Bibliaiskola 1943. február 1-jén, hétfőn
 new_world_translation1,"""A Szentírás új világ fordítása"" megjelent Manchesterben, Angliában, 1960. június 18-án","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible", ,text,False
 new_world_translation2,"Átdolgozott ""A Szentírás új világ fordítása"", megjelent a 2013-as éves találkozón","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online", ,text,False
 cold_war,"A ""hidegháború"" címkével ellátott geopolitikai helyzet 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"Ezt az idővonalat 2023-ban hozták létre, az emberi történelem legforróbb évében és az elmúlt 125 000 évben","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Codex Sinaiticus írása,Codex Sinaiticus written, ,text,False
 codex_vaticanus,Codex Vaticanus írása,Codex Vaticanus written, ,text,False
 leningrad_codex,Kairóban írt Leningrádi kódex Kr. u. 1008,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,Ezékiás kiterjeszti a Siloám alagutat,Hezekiah extends Siloam t
 Angloamerica2,"Az angol-amerikait az agyaggal kevert vaslábak szimbolizálják a Dániel 2:33, 41-43-ban található próféciában","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Manethón írja az Aegyptiacát,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"Nagy Babilon elpusztítása (Jelenések 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"“Béke és biztonság!” (1Thesszalonika 5:3, ez az egyik lehetőség, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"Magógi Góg támadása (Ezékiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,"A föld lakói felett ítélkeznek, elválasztják a juhokat és a kecskéket (Máté 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,A Királyság uralkodóinak összegyűjtése (Máté 24:31; 1Korinthus 15:50-53; 1Thesszalonika 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) Amálekiták: 1Sámuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-2
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"Ezt az idővonalat 2023-ban hozták létre, az emberi történelem legforróbb évében és az elmúlt 125 000 évben","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

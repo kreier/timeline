@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02,5.5,float,True
-pdf_title,6000 տարի մարդկային պատմություն արտացոլվեց,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06,5.5,float,True
+pdf_title,6000 տարի մարդկային պատմություն արտացոլվեց,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,Մարդկության ժամանակացույց,Timeline of humankind,5.5,text,False
 BCE,Ք.ա.,B.C.E.,appendix B9,B9,False
 CE,Ք.Ե.,C.E., ,B9,False
@@ -68,7 +68,6 @@ gilead_school,«Դիտարանի» «Գաղաադ» աստվածաշնչյան �
 new_world_translation1,1960-ի հունիսի 18-ին Անգլիայի «Մանչեսթեր» -ի «Սուրբ Գրությունների» նոր աշխարհը թողարկվեց «Նոր աշխարհը,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,"2013-ի տարեկան ժողովում լույս տեսավ «Սուրբ Գրությունների նոր աշխարհ թարգմանությունը», որը օպտիմիզացված էր, օգտագործվելու թվայնորեն եւ առցանց","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,Աշխարհաքաղաքական իրավիճակը պիտակեց «Սառը պատերազմ» 1945-1991 թվականներին,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"Այս ժամանակացույցը ստեղծվում է 2023 թվականին, մարդկության պատմության ամենաթեժ տարին եւ վերջին 125,000 տարիները","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Codex Sinaiticus գրված է,Codex Sinaiticus written, ,text,False
 codex_vaticanus,Codex Vaticanus գրված է,Codex Vaticanus written, ,text,False
 leningrad_codex,Leningrad Codex գրված է Կահիրեում 1008-ում,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,Եզեկիան երկարացնում է Siloam թունելը,Hez
 Angloamerica2,"Անգլո-ամերիկացին խորհրդանշում է Դանիելում 2:33, 41-43-ում մարգարեության մեջ խառնած երկաթի ոտքերով","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Մանեթոն գրում է Agyptiaca- ն,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"Բաբելոնի մեծի ոչնչացում (Հայտնություն 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"«Խաղաղություն և անվտանգություն». (1 Թեսաղոնիկեցիս 5:3, սա մեկ հնարավորություն է, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"Մագոգի Գոգի հարձակումը (Եզեկի նահանգ 3, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,"Երկրի բնակիչները դատվում են, ոչխարներ եւ այծեր առանձնացնում են (Մատթեոս 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,Թագավորության տիրակալների հավաքում (Մատթեոս 24:31; 1 Կորնթացիներ 15: 50-53; 1 Թեսաղոնիկեցիներ 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) Ամաղեկացիներ. 1 Սամուել 15: 2,6) Amalekites: 1 
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"Այս ժամանակացույցը ստեղծվում է 2023 թվականին, մարդկության պատմության ամենաթեժ տարին եւ վերջին 125,000 տարիները","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False
