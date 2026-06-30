@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,False
-pdf_title,6000 שנות היסטוריה אנושית דמיונית,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06, ,float,False
+pdf_title,6000 שנות היסטוריה אנושית דמיונית,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,ציר הזמן של המין האנושי,Timeline of humankind,5.2,text,True
 BCE,לפני הספירה,B.C.E.,appendix B9,B9,False
 CE,לִספִירַת הַנוֹצרִים,C.E., ,B9,False
@@ -68,7 +68,6 @@ gilead_school,"בית הספר לתנ""ך מגדל השמירה בגלעד הח�
 new_world_translation1,"תרגום עולם חדש של כתבי הקודש שיצא במנצ'סטר, אנגליה ב-18 ביוני 1960, מציג מחדש את השם יהוה בחלקים רבים של התנ""ך","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,"תרגום עולם חדש של כתבי הקודש מתוקן שפורסם במפגש השנתי 2013, מותאם לשימוש דיגיטלי ומקוון","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,"מצב גיאופוליטי שכותרתו ""מלחמה קרה"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"ציר הזמן הזה נוצר בשנת 2023, השנה החמה ביותר בהיסטוריה האנושית ו-125,000 השנים האחרונות","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,קודקס סיניטיקוס נכתב,Codex Sinaiticus written, ,text,False
 codex_vaticanus,קודקס ותיקן נכתב,Codex Vaticanus written, ,text,False
 leningrad_codex,קודקס לנינגרד שנכתב בקהיר 1008 לספירה,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,חזקיהו מאריך את מנהרת סילועם,Hezekiah exte
 Angloamerica2,"אנגלו-אמריקאי מסומל על ידי רגלי ברזל מעורבות בחימר בנבואה בדניאל ב':33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,מנת'ו כותב אגיפדיאקה,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"חורבן בבל הגדולה (התגלות י""ז:3, 15-18; י""ח:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"""שלום וביטחון!"" (1 תסלוניקים ה':3, זו אפשרות אחת, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"התקפה של גוג ממגוג (יחזקאל ל""ח, א, ב, ט-יב, י""ח-כ""ג)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,"תושבי כדור הארץ ישפטו, ויפרידו בין כבשים ועיזים (מתי כ""ה:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,"כינוס שליטי המלכות (מתי כ""ד:31; א' לקורינתים ט""ו:50-53; א' לתסלוניקים ד':15-17)",Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,"6) עמלקים: שמואל א' ט""ו, ב'",6) Amalekites: 1 Samuel
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"ציר הזמן הזה נוצר בשנת 2023, השנה החמה ביותר בהיסטוריה האנושית ו-125,000 השנים האחרונות","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

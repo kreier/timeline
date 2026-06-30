@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,True
-pdf_title,6000 سال انسانی تاریخ کا تصور,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06, ,float,True
+pdf_title,6000 سال انسانی تاریخ کا تصور,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,انسانیت کی ٹائم لائن,Timeline of humankind, ,text,False
 BCE,بی سی ای,B.C.E., ,B9,True
 CE,سی۔ای۔,C.E., ,B9,True
@@ -68,7 +68,6 @@ gilead_school,واچ ٹاور بائبل سکول آف گیلاد پیر، فر�
 new_world_translation1,"18 جون، 1960 کو مانچسٹر، انگلستان میں جاری ہونے والی ""نیو ورلڈ ٹرانسلیشن آف دی ہولی سکرپچرز"" بائبل کے بہت سے حصوں میں یہوواہ نام کو دوبارہ متعارف کراتی ہے۔","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",4.6 extends scriptures,text,False
 new_world_translation2,"نظر ثانی شدہ ""نیو ورلڈ ٹرانسلیشن آف دی ہولی سکرپچرز"" سالانہ میٹنگ 2013 میں جاری کی گئی، جو ڈیجیٹل اور آن لائن استعمال کرنے کے لیے موزوں ہے۔","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",4.6 extends scriptures,text,False
 cold_war,"جغرافیائی سیاسی صورتحال جس کا لیبل ""سرد جنگ"" 1945-1991 ہے۔",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"یہ ٹائم لائن 2023 میں بنائی گئی تھی، جو انسانی تاریخ کا گرم ترین سال اور گزشتہ 125,000 سال تھا۔","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,کوڈیکس سینائیٹکس لکھا گیا ہے,Codex Sinaiticus written, ,text,False
 codex_vaticanus,کوڈیکس ویٹیکنس لکھا,Codex Vaticanus written, ,text,False
 leningrad_codex,لینن گراڈ کوڈیکس قاہرہ AD 1008 میں لکھا گیا۔,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,حزقیاہ نے سلوام سرنگ کو بڑھایا,Hezekiah e
 Angloamerica2,ڈینیئل 2:33، 41-43 میں پیشینگوئی میں اینگلو امریکن کو مٹی کے ساتھ ملے ہوئے لوہے کے پاؤں سے نشان زد کیا گیا ہے۔,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,منیتھو ایجپٹیاکا لکھتا ہے,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,عظیم بابل کی تباہی (مکاشفہ 17:3، 15-18؛ 18:9، 10),"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"""امن اور سلامتی!"" (1 تھسلنیکیوں 5:3، یہ ​​ایک امکان ہے، QfR 26/2، 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,یاجوج ماجوج کا حملہ (حزقی ایل 38:1، 2، 9-12، 18-23),"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,بھیڑوں اور بکریوں کو الگ کرتے ہوئے زمین کے باشندوں کا فیصلہ کیا جائے گا (متی 25:31-33),"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,بادشاہی حکمرانوں کا اجتماع (متی 24:31؛ 1 کرنتھیوں 15:50-53؛ 1 تھیسالونیکیوں 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) امالائکائٹس: 1 سموئیل 15: 2,6) Amalekites: 1 Samu
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"یہ ٹائم لائن 2023 میں بنائی گئی تھی، جو انسانی تاریخ کا گرم ترین سال اور گزشتہ 125,000 سال تھا۔","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

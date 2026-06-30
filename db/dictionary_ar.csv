@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,False
-pdf_title,تصور 6000 سنة من تاريخ البشرية,6000 years human history visualized,2026-02-12,text,False
+version,6.06,6.06, ,float,False
+pdf_title,تصور 6000 سنة من تاريخ البشرية,6000 years human history visualized,2026-06-30,text,False
 pdf_subject,الجدول الزمني للبشرية,Timeline of humankind,6.01,text,False
 BCE,ق.م.,B.C.E.,appendix B9,B9,False
 CE,م.,C.E., ,B9,False
@@ -68,7 +68,6 @@ gilead_school,بدأت مدرسة جلعاد برج المراقبة للكتا�
 new_world_translation1,«ترجمة العالم الجديد للاسفار المقدسة» الصادرة في مانشستر، انكلترا في ١٨ حزيران (يونيو) ١٩٦٠، تعيد تقديم الاسم يهوه في اجزاء كثيرة من الكتاب المقدس,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,"النسخة المنقحة من ""ترجمة العالم الجديد للكتاب المقدس"" الصادرة في الاجتماع السنوي لعام 2013، مُحسَّنة لاستخدامها رقميًا وعلى الإنترنت","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,"الوضع الجيوسياسي المسمى ""الحرب الباردة"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,تم إنشاء هذا الجدول الزمني في عام 2023، العام الأكثر سخونة في تاريخ البشرية وآخر 125000 سنة,"This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,المخطوطة السينائية مكتوبة,Codex Sinaiticus written, ,text,False
 codex_vaticanus,المخطوطة الفاتيكانية مكتوبة,Codex Vaticanus written, ,text,False
 leningrad_codex,مخطوطة لينينغراد المكتوبة في القاهرة عام 1008 م,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,وحزقيا يوسع نفق سلوام,Hezekiah extends Siloam tu
 Angloamerica2,ويُرمز إلى الأنجلو-أمريكيين بأقدام من حديد ممزوجة بخزف في النبوة في دانيال 2: 33، 41-43.,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,مانيتو يكتب Aegyptiaca,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,دمار بابل العظيمة (رؤيا ١٧: ٣، ١٥-١٨؛ ١٨: ٩، ١٠),"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"""السلام والأمن!"" (1 تسالونيكي 5: 3، هذا أحد الاحتمالات، QfR 26/2، 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,هجوم جوج ماجوج (حزقيال 38: 1، 2، 9-12، 18-23),"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,سيُدان سكان الأرض ويفصلون بين الخراف والماعز (متى 25: 31-33).,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,اجتماع حكام الملكوت (متى 24: 31؛ 1 كورنثوس 15: 50-53؛ 1 تسالونيكي 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) العماليق: 1 صموئيل 15: 2,6) Amalekites: 1 Samuel 15:
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,تم إنشاء هذا الجدول الزمني في عام 2023، العام الأكثر سخونة في تاريخ البشرية وآخر 125000 سنة,"This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

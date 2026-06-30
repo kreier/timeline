@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02,5.8,float,True
-pdf_title,Miaka 6000 Historia ya Binadamu ilionekana,6000 years human history visualized,2026-02-12,text,False
+version,6.06,6.06,5.8,float,True
+pdf_title,Miaka 6000 Historia ya Binadamu ilionekana,6000 years human history visualized,2026-06-30,text,False
 pdf_subject,Ratiba ya wanadamu,Timeline of humankind,5.8,text,False
 BCE,B.C.E.,B.C.E.,appendix B9,B9,True
 CE,C.E.,C.E., ,B9,False
@@ -68,7 +68,6 @@ gilead_school,"Shule ya Watchtower Bible ya Gileadi inaanza Jumatatu, Februari 1
 new_world_translation1,"Tafsiri ya Ulimwengu Mpya wa Maandiko Matakatifu iliyotolewa huko Manchester, England mnamo Juni 18, 1960, inachukua jina la Yehova katika sehemu nyingi za Bibilia","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,"Iliyorekebishwa ""Tafsiri ya Ulimwengu Mpya ya Maandiko Matakatifu"" iliyotolewa katika Mkutano wa Mwaka 2013, iliyoboreshwa kutumiwa kwa dijiti na mkondoni","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,"Hali ya jiografia inayoitwa ""Vita Baridi"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"Mda huu wa muda umeundwa mnamo 2023, mwaka wa moto zaidi katika historia ya wanadamu na miaka 125,000 iliyopita","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Codex sinaiticus imeandikwa,Codex Sinaiticus written, ,text,False
 codex_vaticanus,Codex Vaticanus imeandikwa,Codex Vaticanus written, ,text,False
 leningrad_codex,Leningrad Codex iliyoandikwa katika Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,Hezekia hupanua handaki ya Siloam,Hezekiah extends Siloam tunnel,c
 Angloamerica2,"Anglo-American inaonyeshwa na miguu ya chuma iliyochanganywa na udongo katika unabii katika Danieli 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Manetho anaandika aegyptiaca,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"Uharibifu wa Babeli Mkuu (Ufunuo 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"""Amani na usalama!"" (1 Wathesalonike 5:3, huu ni uwezekano mmoja, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"Shambulio la GOG ya Magog (Ezekieli 38: 1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,"Wakazi wa Dunia wanahukumiwa, wakitenganisha kondoo na mbuzi (Mathayo 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,Kukusanya kwa Watawala wa Ufalme (Mathayo 24:31; 1 Wakorintho 15: 50-53; 1 Wathesalonike 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) Amalekites: 1 Samweli 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-2
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"Mda huu wa muda umeundwa mnamo 2023, mwaka wa moto zaidi katika historia ya wanadamu na miaka 125,000 iliyopita","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

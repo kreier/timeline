@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,True
-pdf_title,6000 χρόνια ανθρώπινη ιστορία απεικόνισε,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06, ,float,True
+pdf_title,6000 χρόνια ανθρώπινη ιστορία απεικόνισε,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,Χρονοδιάγραμμα της ανθρωπότητας,Timeline of humankind,6.01,text,False
 BCE,Π.Κ.Χ.,B.C.E.,appendix B9,B9,True
 CE,Κ.Χ.,C.E., ,B9,True
@@ -68,7 +68,6 @@ gilead_school,Η Σχολή Γραφής της Γραφής της Γραφής
 new_world_translation1,"Η ""Νέο Κόσμος μετάφραση των Αγίων Γραφών"" που κυκλοφόρησε στο Μάντσεστερ της Αγγλίας στις 18 Ιουνίου 1960, επαναφέρει το όνομα Ιεχωβά σε πολλά μέρη της Βίβλου","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,"Αναθεωρημένη ""Μετάφραση του Νέου Κόσμου των Αγίων Γραφών"" που κυκλοφόρησε στην ετήσια συνάντηση του 2013, βελτιστοποιημένη για να χρησιμοποιηθεί ψηφιακά και σε απευθείας σύνδεση","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,"Γεωπολιτική κατάσταση με τίτλο ""Ψυχρός Πόλεμος"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"Αυτό το χρονοδιάγραμμα δημιουργείται το 2023, το πιο ζεστό έτος στην ανθρώπινη ιστορία και τα τελευταία 125.000 χρόνια","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Codex sinaiticus γραμμένο,Codex Sinaiticus written, ,text,False
 codex_vaticanus,Codex Vaticanus γραμμένο,Codex Vaticanus written, ,text,False
 leningrad_codex,Codex LeningRad γραμμένο στο Κάιρο μ.Χ. 1008,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,Ο Εζεκία επεκτείνει τη σήραγγα σιλό�
 Angloamerica2,"Ο Αγγλοαμερικανός συμβολίζεται από τα πόδια του σιδήρου αναμεμειγμένα με πηλό στην προφητεία στο Δανιήλ 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Ο Μανέθο γράφει Aegyptiaca,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"Καταστροφή του Μεγάλου Βαβυλώνα (Αποκάλυψη 17: 3, 15-18 · 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"“Ειρήνη και ασφάλεια!” (1 Θεσσαλονικείς 5:3, αυτή είναι μια πιθανότητα, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"Επίθεση του Gog του Magog (Ιεζεκιήλ 38: 1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,"Οι κάτοικοι της Γης κρίνονται, διαχωρίζοντας τα πρόβατα και τις κατσίκες (Ματθαίος 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,Συλλογή των ηγεμόνων του Βασιλείου (Ματθαίος 24:31 · 1 Κορινθίους 15: 50-53 · 1 Θεσσαλονικείς 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) Αμαλελίτες: 1 Σαμουήλ 15: 2,6) Amalekites: 1 Samu
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"Αυτό το χρονοδιάγραμμα δημιουργείται το 2023, το πιο ζεστό έτος στην ανθρώπινη ιστορία και τα τελευταία 125.000 χρόνια","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

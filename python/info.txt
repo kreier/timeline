@@ -1,0 +1,15 @@
+Compile new timeline in Spanish:
+
+python 6000.py en _nwt 2025
+
+
+Update database in the /db folder
+
+python auto-translate.py es
+
+
+
+For all supported languages:
+
+python auto-translate_all.py
+python batch.py

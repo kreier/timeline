@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02,5.7,float,True
-pdf_title,人類史6000年の年表,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06,5.7,float,True
+pdf_title,人類史6000年の年表,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,人類の年表,Timeline of humankind,5.7,text,False
 BCE,西暦前,B.C.E.,appendix B9,B9,True
 CE,CE,C.E., ,B9,False
@@ -68,7 +68,6 @@ gilead_school,1943年2月1日月曜日にギレアデ聖書学校が始まる,"W
 new_world_translation1,『新世界訳聖書』は1960年6月18日にイギリスのマンチェスターで出版された,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,改訂版『新世界訳聖書』が2013年の年次総会で発表,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,「冷戦」と名付けられた地政学的状況 1945 ～ 1991 年,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"このタイムラインは、人類史上、過去 125,000 年間で最も暑い年である 2023 年に作成されました。","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,シナイ写本が書かれた,Codex Sinaiticus written, ,text,False
 codex_vaticanus,バチカン写本が書かれた,Codex Vaticanus written, ,text,False
 leningrad_codex,西暦 1008 年にカイロで書かれたレニングラード写本,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,ヒゼキヤがシロアムのトンネルを延長,Hezekiah exten
 Angloamerica2,ダニエル書 2:33、41-43 の預言では、英米人は粘土と混ぜられた鉄の足によって象徴されています。,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,マネトーはアギプティカを書いています,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,大いなるバビロンの滅び（黙示録 17:3、15-18; 18:9、10）,"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,「平和と安全を！」 (テサロニケ第一 5:3、これは 1 つの可能性です、QfR 26/2、25/11),"“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,マゴグのゴグの攻撃(エゼキエル38:1、2、9-12、18-23),"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,地上の住民は裁かれ、羊と山羊が引き離されます(マタイ25:31-33),"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,御国の支配者たちの集い(マタイ24:31、1コリント15:50-53、1テサロニケ4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6）アマレカイト：1サミュエル15：2,6) Amalekites: 1 Samu
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"このタイムラインは、人類史上、過去 125,000 年間で最も暑い年である 2023 年に作成されました。","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,True
-pdf_title,Picture di 6000 ay tawen ay history di ipogao,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06, ,float,True
+pdf_title,Picture di 6000 ay tawen ay history di ipogao,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,Timeline di sangatauan,Timeline of humankind,5.5,text,False
 BCE,K.K.P.,B.C.E.,appendix B9,B9,True
 CE,K.P.,C.E., ,B9,True
@@ -68,7 +68,6 @@ gilead_school,"Nanrugi nan Watchtower Bible School of Gilead idi Lunes, Pebrero 
 new_world_translation1,"“Baro a Lubong a Patarus ti Nasantuan a Kasuratan” nairuar ed Manchester, England idi Hunio 18, 1960","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,Na-revise nan “Baro a Lubong a Patarus ti Nasantuan a Kasuratan” nairuar iti tinawen a miting 2013,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,Geopolitikal ay kasasaad - “Cold War” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"Na-amag nan timeline edi 2023, kappodutan a tawen isnan napalabas ay 125,000 a taw-tawen","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Naisurat nan Codex Sinaiticus,Codex Sinaiticus written, ,text,False
 codex_vaticanus,Naisurat nan Codex Vaticanus,Codex Vaticanus written, ,text,False
 leningrad_codex,Naisurat nan Leningrad Codex ed Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,Ezekias-pina-attiddog na ti Siloam tunel,Hezekiah extends Siloam t
 Angloamerica2,"Anglo-American et nailadawan babaen sin sakan di landok ay nalaokan si damili isnan padton Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Insurat Manetho nan Aegyptiaca,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"Pannakadadael ti Babilonia a Dakkel (Apocalipsis 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,,"“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"Panag raot ni Gog ti Magog (Ezequiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,"Maukomto dagiti agnanaed iti daga, a mangisina kadagiti karnero ken kalding (Mateo 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,Panagtitipon dagiti agtuturay ti Pagarian (Mateo 24:31; 1 Corinto 15:50-53; 1 Tesalonica 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) Amalekita: 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,d
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"Na-amag nan timeline edi 2023, kappodutan a tawen isnan napalabas ay 125,000 a taw-tawen","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,True
-pdf_title,Afọ 6000 akụkọ ihe mere eme mmadụ na-ahụ anya,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06, ,float,True
+pdf_title,Afọ 6000 akụkọ ihe mere eme mmadụ na-ahụ anya,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,Oge nke ihe a kpọrọ mmadụ,Timeline of humankind,5.2,text,True
 BCE,B.C.E.,B.C.E.,appendix B9,B9,True
 CE,C.E.,C.E., ,B9,False
@@ -68,7 +68,6 @@ gilead_school,"Ụlọ Akwụkwọ Gilied malitere na Mọnde, Febụwarị 1, 1
 new_world_translation1,"“Nsụgharị Ụwa Ọhụrụ nke Akwụkwọ Nsọ” e wepụtara na Manchester, England na June 18, 1960, eweghachighachiri aha Jehova n’ọtụtụ akụkụ nke Bible","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,"Revised ""New World Translation of the Holy Scriptures"" wepụtara na nzukọ kwa afọ 2013, kachasị mma iji mee ihe na dijitalụ na ntanetị","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,"Ọnọdụ geopolitical kpọrọ ""Agha Nzuzo"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"E kere usoro iheomume a na 2023, afọ kachasị ọkụ n'akụkọ ihe mere eme nke mmadụ na afọ 125,000 gara aga","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Codex Sinaiticus dere,Codex Sinaiticus written, ,text,False
 codex_vaticanus,Codex Vaticanus dere,Codex Vaticanus written, ,text,False
 leningrad_codex,Leningrad Codex e dere na Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,Hezekaya gbatịrị ọwara Siloam,Hezekiah extends Siloam tunnel
 Angloamerica2,"Anglo-American na-anọchi anya ụkwụ ígwè gwakọtara ụrọ na amụma dị na Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Manetho dere Aegyptiaca,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"Mbibi nke Babilọn Ukwu ahụ (Mkpughe 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"“Udo na obi iru ala!” (1 Ndị Tesalonaịka 5:3, nke a bụ otu ihe nwere ike ime, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"Mwakpo Gọg nke Maggọg (Ezikiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,"Ekpere ndị bi n’ụwa ikpe, na-ekewa atụrụ na ewu (Matiu 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,Ịchịkọta ndị ọchịchị Alaeze (Matiu 24:31; 1 Ndị Kọrịnt 15:50-53; 1 Ndị Tesalonaịka 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) Amalek: 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,depr
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"E kere usoro iheomume a na 2023, afọ kachasị ọkụ n'akụkọ ihe mere eme nke mmadụ na afọ 125,000 gara aga","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

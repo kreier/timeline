@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,True
-pdf_title,6000 سال تاریخ بشر تجسم شده است,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06, ,float,True
+pdf_title,6000 سال تاریخ بشر تجسم شده است,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,جدول زمانی نوع بشر,Timeline of humankind, ,text,True
 BCE,ه.س.إ.,B.C.E., ,B9,True
 CE,س. إ.,C.E., ,B9,True
@@ -68,7 +68,6 @@ gilead_school,مدرسه انجیل گیلعاد برج مراقبت در روز
 new_world_translation1,«ترجمه دنیای جدید کتاب مقدس» که در 18 ژوئن 1960 در منچستر، انگلستان منتشر شد، نام یَهُوَه را در بسیاری از بخش‌های کتاب مقدس دوباره معرفی می‌کند.,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,«ترجمه دنیای جدید کتاب مقدس» اصلاح شده در نشست سالانه 2013 منتشر شد، بهینه سازی شده برای استفاده دیجیتالی و آنلاین,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,"وضعیت ژئوپلیتیک با عنوان ""جنگ سرد"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,این جدول زمانی در سال 2023، گرم ترین سال تاریخ بشر و 125000 سال گذشته ایجاد شد.,"This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Codex Sinaiticus نوشته شده است,Codex Sinaiticus written, ,text,False
 codex_vaticanus,کدکس واتیکانوس نوشته شده است,Codex Vaticanus written, ,text,False
 leningrad_codex,کدکس لنینگراد که در سال 1008 پس از میلاد در قاهره نوشته شده است,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,حزقیا تونل سیلوام را گسترش داد,Hezekiah e
 Angloamerica2,در نبوت دانیال 2: 33، 41-43، پاهای آهن آمیخته با خاک رس نماد انگلیسی-آمریکایی است.,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Manetho Aegyptiaca می نویسد,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,نابودی بابل بزرگ (مکاشفه 17:3، 15-18؛ 18:9، 10),"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"""آرامش و امنیت!"" (اول تسالونیکیان 5:3، این یک احتمال است، QfR 26/2، 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,حمله یأجوج ماجوج (حزقیال 38:1، 2، 9-12، 18-23),"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,ساکنان زمین با جدا کردن گوسفندان و بزها مورد قضاوت قرار خواهند گرفت (متی 25:31-33),"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,گردهمایی حاکمان پادشاهی (متی 24:31؛ اول قرنتیان 15:50-53؛ اول تسالونیکیان 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) عمالیقیان: اول سموئیل 15:2,6) Amalekites: 1 Samu
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,این جدول زمانی در سال 2023، گرم ترین سال تاریخ بشر و 125000 سال گذشته ایجاد شد.,"This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

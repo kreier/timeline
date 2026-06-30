@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.02,6.02, ,float,False
-pdf_title,6000 лет история человечества визуализирована,6000 years human history visualized,2026-02-12,text,True
+version,6.06,6.06, ,float,False
+pdf_title,6000 лет история человечества визуализирована,6000 years human history visualized,2026-06-30,text,True
 pdf_subject,Хронология человечества,Timeline of humankind, ,text,True
 BCE,до н.э.,B.C.E.,appendix B9,B9,True
 CE,н.э.,C.E., ,B9,True
@@ -68,7 +68,6 @@ gilead_school,"Библейская школа Сторожевой Башни �
 new_world_translation1,"В «Переводе нового мира Священного Писания», выпущенном в Манчестере, Англия, 18 июня 1960 года, имя Иегова вновь появляется во многих частях Библии.","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,"Исправленное издание «Священное Писание — Перевод нового мира», на ежегодном собрании в 2013 году, оптимизированный для использования в цифровом формате","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,«Холодная война» 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"Эта временная шкала созд. 2023, самом жарком году в истории ч-ва за посл. 125 000 лет.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,Синайский кодекс написан,Codex Sinaiticus written, ,text,False
 codex_vaticanus,Кодекс Ватикана написан,Codex Vaticanus written, ,text,False
 leningrad_codex,"Ленинградский кодекс, написанный в Каире в 1008 году нашей эры.",Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,Езекия расширяет Силоамский туннел�
 Angloamerica2,"В пророчестве Даниила 2:33, 41-43 англо-американцы символизируются железными ногами, смешанными с глиной.","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Манефон пишет «Египтиаку».,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"Разрушение Вавилона Великого (Отк. 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,"«Мир и безопасность!» (1 Фессалоникийцам 5:3, это одна из возможностей, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"Нападение Гога на Магога (Иезекииль 38:1, 2, 9–12, 18–23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,"Жителей земли будут судить, разделяя овец и козлов (Матфея 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,Собирание правителей Царства (Матфея 24:31; 1 Коринфянам 15:50–53; 1 Фессалоникийцам 4:15–17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) Амалекиты: 1 Царств 15: 2,6) Amalekites: 1 Samuel 1
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"Эта временная шкала созд. 2023, самом жарком году в истории ч-ва за посл. 125 000 лет.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False

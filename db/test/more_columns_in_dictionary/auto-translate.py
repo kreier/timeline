@@ -1,0 +1,382 @@
+# Create a google translated dictionary as starting point for a new language
+# Updated to work with with https://pypi.org/project/googletrans/ 4.0.2 (latest version)
+# Usage: python auto-translate.py [language_code]
+# Update 2026: check the translation, expand if necessary
+
+# dictionary_reference.csv has 'key', 'version', 'english', 'notes', 'tag' and 'link'
+# dictionary_XX.csv has 'key', 'text', 'english', 'notes', 'tag', 'checked', 'checked_by', 'date', 'link', 'google', 'chatgpt', 'gemini', 'claude', 'deepl'
+
+# Step 1: Compare the number of keys in both dictionaries and report differences
+# Step 2: Find keys that are in dict_translated but not in dict
+# Step 3: Check if dict_translated has the required columns
+# Step 4: Find keys that are in dict but not in dict_translated
+# Step 5: Match the order of entries in dict_translated to match dict
+# Step 5.1: align dict_translated to dict's key order
+# Step 5.2: find extra rows (keys not in dict)
+# Step 5.3: mark them as deprecated
+# Step 5.4: concatenate aligned first, extras at the end
+# Step 6: Check entries in the tag column
+# Step 6.1 Count missing tag entries
+# Step 6.2 Find mismatches between dict and dict_translated
+# Step 6.3 Update dict_translated's tag values to match dict, checked to FALSE
+# Step 7: Check entries in the checked column
+# Step 8: Compare known entries and fix them
+# Step 8.1: match all entries with tag 'timespan' and set checked to True
+# Step 8.2: Match the version number and date
+# Step 8.3: Compare the values in "english" between dict and dict_translated, set checked to FALSE, update english
+# Step 9: Find empty entries in text and send them for translation
+
+
+import os, sys, asyncio
+import pandas as pd
+from googletrans import Translator
+
+def check_existing(language, filename):
+    global dict_translated, dict 
+    # Check execution location, exit if not in /timeline/db
+    if os.getcwd()[-27:].replace("\\", "/") != "/more_columns_in_dictionary":
+        print("This script must be executed inside the /more_columns_in_dictionary folder.")
+        exit()
+    if os.path.isfile(filename):
+        print("A file with this name already exists.")
+        print(f"Importing existing dictionary_{language}.csv file for comparison...")
+        dict_translated = pd.read_csv(filename)
+        dict_translated.fillna(" ", inplace=True)     # fill empty cells with a space
+        dict_translated.to_csv(filename, index=False) # save back to ensure the file is cleaned and standardized for further processing
+
+        # Step 1: Compare the number of keys in both dictionaries and report differences
+        if len(dict) != len(dict_translated):
+            print(f"⚠️ Warning: The number of entries in the reference dictionary ({len(dict)}) and the existing dictionary ({len(dict_translated)}) do not match.")
+        else:
+            print("✅ The number of entries in both dictionaries match. Both have", len(dict), "entries.")
+        # Multiple entries in the dict_translated with the same key?
+        duplicates = dict_translated[dict_translated.duplicated(subset=["key"], keep=False)]
+        if not duplicates.empty:
+            print("⚠️ Warning: There are duplicate keys in the existing dictionary:")
+            print(duplicates)
+            user_input = input("Do you want to remove duplicate entries? (yes/no): ")
+            if user_input.lower() == "yes" or user_input.lower() == "y":
+                dict_translated = dict_translated.drop_duplicates(subset=["key"], keep="first")
+                print("Updated dict_translated after removing duplicates:")
+                print(dict_translated)
+                dict_translated.to_csv(filename, index=False)
+        
+
+        # Step 2: Find keys that are in dict_translated but not in dict
+        extra_keys = set(dict_translated["key"]) - set(dict["key"])
+        # Filter dict_translated to show only extra entries
+        extra_entries = dict_translated[dict_translated["key"].isin(extra_keys)]
+        if not extra_entries.empty:
+            if "tag" in extra_entries.columns:
+                # Filter out rows where tag == "deprecated"
+                filtered_entries = extra_entries[extra_entries["tag"] != "deprecated"]
+            else:
+                # If no "tag" column, keep everything
+                filtered_entries = extra_entries
+
+            # Print only if there are entries left after filtering
+            if not filtered_entries.empty:
+                print(filtered_entries)
+            print(f"Found some {len(extra_entries)} extra entries, {len(filtered_entries)} will "
+                  f"be relabeled as deprecated:") # Step 5.3
+
+            # # Ask user if they want to remove these lines
+            # user_input = input("Do you want to remove these extra entries? (yes/no): ")
+
+            # if user_input.lower() == "yes" or user_input.lower() == "y":
+            #     dict_translated = dict_translated[~dict_translated["key"].isin(extra_keys)]
+            #     print("Updated dict_translated after removal:")
+            #     print(dict_translated)
+            #     dict_translated.to_csv(filename, index=False)
+            # else:
+            #     print("No changes made.")
+        else:
+            print("No extra entries found in the existing dictionary.")
+
+
+        # Step 3: Check if dict_translated has the required columns
+        required_cols = ["key", "text", "english", "notes", "tag", "checked"]
+        # Add missing columns to dict_translated
+        for col in required_cols:
+            if col not in dict_translated.columns:
+                dict_translated[col] = " "   # or use None / pd.NA if you prefer
+                print(f"Added missing column: {col}")
+        # Reorder columns in dict_translated
+        dict_translated = dict_translated[required_cols]
+
+
+        # Step 4: Find keys that are in dict but not in dict_translated
+        missing_keys = set(dict["key"]) - set(dict_translated["key"])
+        missing_entries = dict[dict["key"].isin(missing_keys)]
+        if not missing_entries.empty:
+            print("Entries missing in the existing dictionary:")
+            print(missing_entries)
+            # Ask user if they want to add these lines
+            user_input = input("Do you want to add these missing entries? (yes/no): ")
+            if user_input.lower() == "yes" or user_input.lower() == "y":
+                # Create a DataFrame for missing entries with required columns
+                missing_df = missing_entries[['key', 'english']].copy()
+                missing_df['english'] = missing_entries['english'].copy()
+                missing_df['notes'] = missing_entries['notes'].copy()
+                # Append missing entries to dict_translated
+                dict_translated = pd.concat([dict_translated, missing_df], ignore_index=True)
+                print("Updated dict_translated after adding missing entries:")
+                print(dict_translated)
+                dict_translated.to_csv(filename, index=False)
+
+
+        # Step 5: Match the order of entries in dict_translated to match dict
+        # Step 5.1: align dict_translated to dict's key order
+        aligned = dict_translated.set_index("key").reindex(dict["key"]).reset_index()
+        # Step 5.2: find extra rows (keys not in dict)
+        extra = dict_translated[~dict_translated["key"].isin(dict["key"])].copy()
+        # Step 5.3: mark them as deprecated
+        extra.loc[:, "tag"] = "deprecated"
+        # Step 5.4: concatenate aligned first, extras at the end
+        dict_translated = pd.concat([aligned, extra], ignore_index=True)
+
+
+        # Step 6: Check entries in the tag column
+        print("\nChecking 'tag' column entries in the existing dictionary...")
+        # 6.1 Count missing tag entries
+        missing_tags = dict_translated["tag"].isna().sum() + (dict_translated["tag"] == "").sum()
+        # 6.2 Find mismatches between dict and dict_translated
+        merged = dict_translated.merge(dict[["key", "tag"]], on="key", how="left", suffixes=("", "_dict"))
+        mismatches = (merged["tag"] != merged["tag_dict"]) & merged["tag_dict"].notna()
+        num_mismatches = mismatches.sum()
+        print(f"Number of missing tags in dict_translated: {missing_tags}")
+        print(f"Number of mismatched tags compared to dict: {num_mismatches}")
+        # 6.3 Update dict_translated's tag values to match dict
+        if missing_tags > 0 or num_mismatches > 0:
+            print("Updating 'tag' values in dict_translated to match the reference dictionary...")
+            # Create a mask for rows where the tag will change
+            tag_changed = merged["tag_dict"].notna() & (merged["tag_dict"] != dict_translated["tag"])
+            # Update tags
+            dict_translated["tag"] = merged["tag_dict"].fillna(dict_translated["tag"])
+            # Reset 'checked' to False where tag was changed
+            # dict_translated.loc[tag_changed, "checked"] = False
+            # Show only the rows that changed
+            changed_rows = dict_translated.loc[tag_changed]
+            print("Rows that were updated:")
+            print(changed_rows)
+            dict_translated.to_csv(filename, index=False)
+
+
+        # Step 7: Check entries in the checked column
+        print("\nChecking 'checked' column entries in the existing dictionary...")
+        # Normalize values: convert strings to booleans
+        dict_translated["checked"] = dict_translated["checked"].replace(
+            {"TRUE": True, "True": True, "FALSE": False, "False": False, "": False}
+        )
+        # Count values
+        num_true = (dict_translated["checked"] == True).sum()
+        num_false = (dict_translated["checked"] == False).sum()
+        num_empty = (dict_translated["checked"] == " ").sum()
+        num_nan = (dict_translated["checked"].isna()).sum()
+        # Initially it was nice to be that verbose:
+        # print(f"TRUE values: {num_true}")
+        # print(f"FALSE values: {num_false}")
+        # print(f"Empty values: {num_empty}")
+        # print(f"NaN values: {num_nan}")
+        if num_empty > 0 or num_nan > 0:
+            print("Filling empty 'checked' values with FALSE...")
+            dict_translated["checked"] = dict_translated["checked"].replace(
+                {"TRUE": True, "True": True,
+                "FALSE": False, "False": False,
+                " ": pd.NA, "": pd.NA}
+            )
+            # Step 2: convert to pandas nullable boolean dtype
+            dict_translated["checked"] = dict_translated["checked"].astype("boolean")
+            # Step 3: fill missing values with False
+            dict_translated["checked"] = dict_translated["checked"].fillna(False)
+            print("Updated dict_translated with cleaned 'checked' column:")
+            print(dict_translated.head())
+        # Ensure column is strictly boolean
+        dict_translated["checked"] = dict_translated["checked"].astype(bool)
+        dict_translated.to_csv(filename, index=False)
+
+    else:
+        print(f"Creating a new dictionary_{language}.csv file.")
+        dict_translated = dict[['key']].copy()              # create a new dictionary, copy columns key and text
+        dict_translated['text'] = " "                       # add a column 'text' and fill with empty string
+        dict_translated['english'] = dict['english'].copy() # add a column 'english' and fill with 'text' from english dictionary
+        dict_translated['notes'] = dict['notes'].copy()     # add a column 'notes' and fill with 'notes' from english dictionary
+        dict_translated['tag'] = dict['tag'].copy()         # add a column 'tag' and fill with 'tag' from english dictionary
+        dict_translated['checked'] = False                  # add a column 'checked' and fill with False
+
+    # Step 8: Compare known entries and fix them
+    # Step 8.1: match all entries with tag 'timespan' and set checked to True
+    mask = dict["tag"] == "timespan"                        # find all timespan entries in the reference dictionary
+    lookup = dict.loc[mask].set_index("key")["english"]     # create a lookup series with key and text for timespan entries
+    # Update dict_translated text for timespan entries
+    update_mask = dict_translated["key"].isin(lookup.index)
+    dict_translated.loc[update_mask, "text"] = dict_translated.loc[update_mask, "key"].map(lookup)
+    dict_translated.loc[update_mask, "checked"] = True
+    # Step 8.2: Match the version number and date
+    dict_translated.loc[dict_translated['key'] == 'version', 'english'] = \
+        dict.loc[dict['key'] == 'version', 'english'].values
+    dict_translated.loc[dict_translated['key'] == 'version', 'text'] = \
+        dict.loc[dict['key'] == 'version', 'english'].values
+    dict_translated.loc[dict_translated['key'] == 'pdf_title', 'notes'] = \
+        dict.loc[dict['key'] == 'pdf_title', 'notes'].values
+
+    # Step 8.3: Compare the values in "english" between dict and dict_translated
+    # Index both by 'key'
+    dict_indexed = dict.set_index("key")
+    trans_indexed = dict_translated.set_index("key")
+    # Restrict to common keys
+    common_keys = dict_indexed.index.intersection(trans_indexed.index)
+    # Align both DataFrames to common keys
+    dict_common = dict_indexed.loc[common_keys]
+    trans_common = trans_indexed.loc[common_keys]
+    # Build mismatch mask (skip daniel2_shift)
+    mask = (dict_common["english"] != trans_common["english"]) & (common_keys != "daniel2_shift")
+    # Keys to update
+    keys_to_update = common_keys[mask]
+    # Update english values in dict_translated
+    dict_translated.loc[dict_translated["key"].isin(keys_to_update), "english"] = dict_common.loc[keys_to_update, "english"].values
+    # Set checked = False for mismatches
+    dict_translated.loc[dict_translated["key"].isin(keys_to_update), "checked"] = False
+    # Print changed rows
+    if len(keys_to_update) > 0:
+        print(f"Updated {len(keys_to_update)} rows in dict_translated:")
+        print(dict_translated[dict_translated["key"].isin(keys_to_update)])
+
+    dict_translated.to_csv(filename, index=False)
+
+
+    # It remains:
+    # - scripture
+    # - A6-A
+    # - A6-B
+    # - B9
+    # - bible
+    # - text
+
+
+def import_reference():
+    global dict
+    # print("Import reference english dictionary: ", end="")
+    dict = pd.read_csv("./dictionary_reference.csv")
+    dict.fillna(" ", inplace=True) # fill empty cells with a space
+    # print(f"found {len(dict)} entries.")
+    # print(dict)
+
+def unchecked_BCE_CE():
+    global dict_translated
+    # Check if 'BCE' and 'CE' are checked as False
+    subset = dict_translated.loc[dict_translated["key"].isin(["BCE", "CE"]), "checked"]
+    if (subset == False).any():
+        print("At least one of BCE or CE is not checked.")
+        return True
+    else:
+        print("Both BCE and CE are checked.")
+        return False
+
+async def translate_bce_ce(language):
+    global dict_translated, number_characters
+    keywords = {
+        "BCE": "B.C.E.",
+        "CE": "C.E."
+    }
+    async with Translator() as translator:
+        translations = {}
+        for key, english_text in keywords.items():
+            result = await translator.translate(english_text, src="en", dest=language)
+            translations[key] = result.text
+            print(f"Translating {english_text} to {result.text}")
+    for key, translated_text in translations.items():
+            dict_translated.loc[dict_translated["key"] == key, "text"] = translated_text
+    dict_translated.to_csv(filename, index=False)
+
+
+async def translate_dictionary(dictionary, language):
+    global number_characters
+    async with Translator() as translator:
+        for index, row in dict_translated.iterrows(): # with 3 columns 'key' 'text' and 'english'
+            english_text = row.english
+            number_characters += len(str(english_text))
+            if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
+                # dict_translated.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
+                result = await translator.translate(english_text, src='en', dest=language)
+                dict_translated.at[index, 'text'] = result.text
+                # print('.', end='')
+                print(f'{index}: {english_text} - {result.text}')
+            # if (index + 1) % 40 == 0:
+            #     print(f" {index}")
+
+async def translate_missing_values_in_dictionary(dictionary, language):
+    global number_characters
+    async with Translator() as translator:
+        for index, row in dict_translated.iterrows(): # with columns 'key' 'text' 'english' and 'checked'
+            if row.checked:   # skip checked entries
+                continue 
+            english_text = row.english
+            if english_text == " ": # skip empty strings
+                continue
+            translated_text = row.text
+            if translated_text != " ": # skip already translated entries
+                continue
+            number_characters += len(str(english_text))
+            result = await translator.translate(english_text, src='en', dest=language)
+            dict_translated.at[index, 'text'] = result.text
+            # print('.', end='')
+            print(f'{index}: {english_text} - {result.text}')
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("You did not provide a language as argument. Put it as a parameter after the program name.")
+        exit()
+    language = sys.argv[1]
+    filename = "./dictionary_" + language + ".csv"
+    print(f"You want to translate to {language}.")
+
+    # Create dataframe and import reference dictionary
+    dict = pd.DataFrame() # columns 'key', 'text' for english reference and 'notes' to compare, plus 'alternative' (not used)
+    import_reference()
+    dict_translated = pd.DataFrame() # columns 'key', 'text' for translated, 'english' for reference, 'notes' to compare, 'tag' and 'checked'
+
+    check_existing(language, filename)
+
+    # Prompt possible translation effort
+    # Define the tag values we want to check
+    tags_to_check = ["text", "bible", "B9", "A6-A", "A6-B", "scripture", "wiki"]
+    # Normalize text column: treat NaN and " " as empty
+    dict_translated["text"] = dict_translated["text"].replace(" ", "").fillna("")
+    # Build counts per tag
+    summary = (
+        dict_translated[dict_translated["tag"].isin(tags_to_check)]
+        .groupby("tag")["text"]
+        .agg(
+            missing=lambda col: (col == "").sum(),
+            existing=lambda col: (col != "").sum()
+        )
+        .reset_index()
+    )
+    # Add totals row
+    totals = pd.DataFrame({
+        "tag": ["TOTAL"],
+        "missing": [summary["missing"].sum()],
+        "existing": [summary["existing"].sum()]
+    })
+    summary_table = pd.concat([summary, totals], ignore_index=True)
+    # print(summary_table)
+
+
+    # if unchecked_BCE_CE(): # true if missing or checked is False
+    #     asyncio.run(translate_bce_ce(language)) # translate the missing 'BCE' and 'CE' entries for span_bce, span_bc and span_ce tags
+
+    # Step 9: Find empty entries in text and send them for translation
+
+
+    print("\nTranslating ...")
+    dict_translated = dict_translated.replace("", " ")
+    number_characters = 0      # you can translate up to 500,000 characters per month for free
+    asyncio.run(translate_missing_values_in_dictionary(dict_translated, language)) # translate the dictionary
+    if number_characters == 0:
+        print("No characters to translate.")
+    else:
+        print(dict_translated)
+        print(f"You translated {number_characters} characters.")
+        print("Exporting ...")
+        dict_translated.to_csv(filename, index=False)

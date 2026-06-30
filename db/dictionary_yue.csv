@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked
-version,6.04,6.02, ,float,False
-pdf_title,6000年嘅人類歷史可視化,6000 years human history visualized,2026-02-12,text,False
+version,6.06,6.06, ,float,False
+pdf_title,6000年嘅人類歷史可視化,6000 years human history visualized,2026-06-30,text,False
 pdf_subject,人類大事記,Timeline of humankind, ,text,False
 BCE,B.C.E.,B.C.E.,appendix B9,B9,False
 CE,C.E.,C.E., ,B9,False
@@ -68,7 +68,6 @@ gilead_school,守望台基列聖經學校於1943年2月1日星期一開學,"Watc
 new_world_translation1,1960年6月18日，《聖經新世界譯本》在英國曼徹斯特出版,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
 new_world_translation2,2013年年會上修訂嘅《聖經新世界譯本》,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
 cold_war,1945-1991年被稱為“冷戰”嘅地緣政治局勢,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-timeline_created,"呢條時間綫創建于2023年，係人類歷史上最熱的一年，也是過去125,000年","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
 codex_sinaiticus,西奈抄本,Codex Sinaiticus written, ,text,False
 codex_vaticanus,梵蒂岡抄本,Codex Vaticanus written, ,text,False
 leningrad_codex,列宁格勒抄本，寫於開羅，公元1008年,Leningrad Codex written in Cairo AD 1008, ,text,False
@@ -133,6 +132,7 @@ siloam-tunnel,希西屋企擴建西罗亚隧道,Hezekiah extends Siloam tunnel,c
 Angloamerica2,但以理書2：33緊，41-43嘅預言中，英美人以鐵腳與粘土混合為象徵,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
 Manetho,Manetho寫道Aegyptiaca,Manetho writes Aegyptiaca, ,text,False
 destruction_babylon,"大巴比倫的毀滅（啟示錄17：3,15-18;18：9,10）","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+peace_security,「和平同安全！」 （帖撒羅尼迦前書5:3，呢個係其中一個可能性， QfR 26/2，25/11）,"“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
 gog_of_magog,"瑪各歌革的攻擊（以西結書38：1,2,9-12,18-23）","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
 sheep_goat,地上的居民將受到審判，將綿羊和山羊分開（馬太福音25：31-33）,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
 annointed,王國統治者聚會 ( 馬太福音 24 : 31 ; 哥林多前書 15 : 50-53 ; 塞薩洛尼亞 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
@@ -570,3 +570,4 @@ Amalekites,6) 阿馬基人 : 1 薩穆爾 15: 2,6) Amalekites: 1 Samuel 15:2,2024
 king_south_light, , ,2025-02-05,deprecated,False
 king_north_light, , ,2025-02-05,deprecated,False
 daniel2_iron, , ,2025-02-05,deprecated,False
+timeline_created,"呢條時間綫創建于2023年，係人類歷史上最熱的一年，也是過去125,000年","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False
