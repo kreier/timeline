@@ -1,573 +1,573 @@
-key,text,english,notes,tag,checked
-version,6.06,6.06,5.5,float,True
-pdf_title,6000 տարի մարդկային պատմություն արտացոլվեց,6000 years human history visualized,2026-06-30,text,True
-pdf_subject,Մարդկության ժամանակացույց,Timeline of humankind,5.5,text,False
-BCE,Ք.ա.,B.C.E.,appendix B9,B9,False
-CE,Ք.Ե.,C.E., ,B9,False
-month,ամիս,month, ,text,False
-months,ամիս,months, ,text,False
-day,օր,day, ,text,False
-days,օր,days, ,text,False
-to,դեպի,to, ,text,False
-Deluge,Ջրհեղեղ,Deluge, ,text,False
-moses2,1593-ից 1473 B.C.E. - 120 տարի,1593 to 1473 B.C.E. – 120 years, ,text,False
-temple1,Nisan 1513 B.C.E. ZIV 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False
-69weeks,Հիսուսը մկրտվեց Աշուն 29 C.E:,Jesus baptized autumn 29 C.E., ,text,False
-year,տարի,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False
-years,ամիս,years, ,text,False
-years_age,տարեկան,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
-wilderness,Իսրայելը անապատում 1513-ից 1473 B.C.E. - 40 տարի,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
-timespan_judges,1473-ից 1117 B.C.E. - 356 տարի,1473 to 1117 B.C.E. – 356 years, ,text,False
-timespan_judges2,Դատավորների ժամանակը,Time of the judges, ,text,False
-temple2,479 տարի մինչեւ տաճարի կառուցումը - 1 Թագավորներ 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False
-69weeks2,69 շաբաթ դեպի Մեսիան - Դանիել 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False
-jesus_service,"Հիսուսի ծառայության 3.5 տարի, մահապատժի ենթարկված Նիսան 14-րդ, 33 C.E:","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False
-jesus_life,Հիսուսը ծնվել է 2 B.C.E.,Jesus born 2 B.C.E., ,text,False
-exile,607-ից 537 B.C.E. - 70 տարի (Երեմիա 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False
-exile2,Աքսոր,Exile, ,text,False
-7times2,7 անգամ - 2520 տարի դեպի Մեսիական Թագավորություն 1914 C.E. (Դանիել 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False
-ww1,I - 1914-1918 C.E.,World War I – 1914–1918, ,text,False
-ww2,Երկրորդ աշխարհամարտ - 1939-1945 C.E.,World War II – 1939–1945, ,text,False
-30_year_war,Երեսուն տարվա պատերազմ Եվրոպայում 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False
-joshua,110 տարի,110 years, ,text,False
-caleb,Ավելի քան 85 տարի,more than 85 years, ,text,False
-missionary1,"Պողոսի առաջին միսիոներական ճանապարհորդությունը, գ. 47-48 C.E. Բառնաբասով եւ John ոն Մարկով","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False
-circumcision,"Թլփատության հարցը Անտիոքում քաղաքում, Երուսաղեմում կայացած գիտաժողով գ. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False
-missionary2,Երկրորդ միսիոներական ճանապարհորդություն գ. 49-52 C.E Silas- ի հետ (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False
-missionary3,Երրորդ միսիոներական ճանապարհորդություն գ. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False
-caesarea,Պողոսը կալանքի տակ է Կեսարիայում գ. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False
-rome1,Պողոսի առաջին ազատազրկումը Հռոմում գ. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False
-rome2,"Պողոսի երկրորդ բանտարկությունը Հռոմում գ. 65 մ.թ., 2 Տիմոթեոս գրված, Պողոսը մահապատժի է ենթարկել","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False
-event_exodus,"Եգիպտոսից Եգիպտոսից 14-րդ, 1513 B.C.e.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False
-event_division_kingdom,Իսրայելի բաժին 997 մ.թ.,Division of Israel 997 BCE, ,text,False
-event_destruction_samaria,Սամարիայի ոչնչացում 740 B.C.E. Ասորեստանի կողմից,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False
-event_destruction_jerusalem1,Երուսաղեմի ոչնչացում 607 B.C.E. Բաբելոնի կողմից Թագավորության բաժանումից 390 տարի անց (Եզեկիել 4: 5),"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False
-event_temple_rebuilt,Տաճարը Երուսաղեմում վերակառուցվել է 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False
-event_jerusalem_rebuilt,Երուսաղեմի պատը վերակառուցվել է 455 B.C.E.,Jerusalem wall rebuilt 455 B.C.E., ,text,False
-event_destruction_jerusalem2,Երուսաղեմի ոչնչացում 70 C.E. Հռոմի կողմից Տիտոսի տակ,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False
-event_1914,Ազգերի ժամանակի ավարտը (Ղուկաս 21:24) Աստծու Թագավորությունը սկսում է իշխել երկնքում 1914 թ. C.E:,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False
-became_king,դառնում է թագավոր տարիքում,becomes king at age,2025-04-14,text,False
-vulgate,Վուլգատն ավարտեց Jerome (Աստվածաշնչի լատինական թարգմանությունը) գ. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False
-gutenberg,Գութենբերգ Աստվածաշունչը տպագիր 1455,Gutenberg Bible printed 1455, ,text,False
-erasmus,Քրիստոնեական Հունական Գրությունների հունարեն տեքստը Հրապարակված է Desiderius Erasmus- ի Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False
-luther,"Լյութեր Աստվածաշնչի թարգմանություն, 1522-ի սեպտեմբերին",Luther Bible translation in September 1522, ,text,False
-tyndale,"Անգլերեն Աստվածաշնչի թարգմանություն, Tyndale 1536",English Bible translation by Tyndale 1536, ,text,False
-king_james,King եյմս Աստվածաշունչ 1611,King James Bible 1611, ,text,False
-69weeks3,"Հիսուսը սկսում է իր ծառայությունը ԵԽ 29-ին (Ղուկաս 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False
-ransom,Շաբաթվա կեսին «զոհաբերություն դադարեցնելու» Դանիելին 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False
-cornelius,Կոռնելիոսը մկրտվեց 70 շաբաթվա վերջում (Դանիել 9:24) 36 C.E- ում:,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False
-columbus,1492-ում գտնվող նախա-կոլումբիական շրջանի ավարտը,End of the pre-columbian period in the Americas 1492, ,text,False
-declaration_independence,Ամերիկայում 13 գաղութների անկախության հռչակագիր 1776,Declaration of independence of 13 colonies in America 1776, ,text,False
-tischendorf,Tischendorf- ը 1844-ին հայտնաբերում է Codex Sinaiticus- ը,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False
-dead_sea_scrolls,Dead Sea Scrolls գրված է,Dead Sea Scrolls written, ,text,False
-septuagint,Septuagint LXX Թարգմանեց,Septuagint LXX translated, ,text,False
-watchtower,«Սիոնի ժամացույցի աշտարակի եւ Քրիստոսի ներկայության հերոս» -ի առաջին համարը լույս է տեսել 1879 թվականին,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False
-jehovahs_witnesses,"Աստվածաշունչ ուսումնասիրողները նոր անուն են ընդունում. Եհովայի վկաներ (Եսայիա 43:10, 12) Օհայո, Օհայո, 1931 թ","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False
-gilead_school,«Դիտարանի» «Գաղաադ» աստվածաշնչյան դպրոցը սկսվում է 1943 թ. Փետրվարի 1-ից,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False
-new_world_translation1,1960-ի հունիսի 18-ին Անգլիայի «Մանչեսթեր» -ի «Սուրբ Գրությունների» նոր աշխարհը թողարկվեց «Նոր աշխարհը,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
-new_world_translation2,"2013-ի տարեկան ժողովում լույս տեսավ «Սուրբ Գրությունների նոր աշխարհ թարգմանությունը», որը օպտիմիզացված էր, օգտագործվելու թվայնորեն եւ առցանց","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
-cold_war,Աշխարհաքաղաքական իրավիճակը պիտակեց «Սառը պատերազմ» 1945-1991 թվականներին,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
-codex_sinaiticus,Codex Sinaiticus գրված է,Codex Sinaiticus written, ,text,False
-codex_vaticanus,Codex Vaticanus գրված է,Codex Vaticanus written, ,text,False
-leningrad_codex,Leningrad Codex գրված է Կահիրեում 1008-ում,Leningrad Codex written in Cairo AD 1008, ,text,False
-john,"John ոնը գրում է «Հայտնություն», իսկ աքսորվել է Patmos 96-98 C.E- ում:",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False
-buddha,Բուդդա - Սիդհարթա Գաուտամա C.563-C.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False
-buddha2,Բուդդա Այլընտրանքորեն գ. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False
-mohammed,Մոհամմեդ գ. 570-632 C.E.,Mohammed c. 570-632, ,text,False
-confucius,Confucius C.551-C.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False
-hijrah,Hijrah - Journey անապարհորդություն Մեքքա Մեդինա 16 հուլիսի 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False
-moses_escape,"1553 B.C.E. Մովսեսը պետք է փախչի Եգիպտոս - Ելից 2:15, Գործք 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False
-10plagues,1513 B.C.e Եգիպտոսը ստանում է 10 պատուհաս,1513 B.C.E Egypt receives 10 plagues, ,text,False
-joseph_sold,Հովսեփը ոզեֆը վաճառվել է որպես ստրուկ 17 տարեկան հասակում - Gen 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False
-infliction,400 տարվա բռնություն (Գործք 7: 6) - Իսմայել 1913 B.C.e,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False
-Alexander,Ալեքսանդր Մեծը (Դանիել 11: 3),Alexander the Great (Daniel 11:3), ,text,False
-persia,"Cyrus the Great, Cambyses II, Darius I 490 մ.թ.ա., Xerxes I 480 մ.թ.ա. (Եսթեր, Դանիել 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False
-king_north,"Seleucus i Nicator (v5) Սիրիա Անտիոքոս III (V10) եւ Seleucus IV (V18, 19) դեպի Օկտավյան (V20) եւ Tiberius (V21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False
-king_north1,Հյուսիսային թագավոր,King of the North, ,text,False
-king_south,"Ptolemy I, II, III, IV (V11, 12), v (v15, 16) մարտական ​​ակտուալ actium 31 b.c.e.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False
-king_south1,Հարավի թագավոր,King of the South, ,text,False
-king_south2,"British Empire 1870, անգլո-ամերիկյան աշխարհի իշխանությունը 1914 թվականից ի վեր","British Empire 1870, Anglo-American World Power since 1914", ,text,False
-king_south3,Հարավի թագավոր,King of the South, ,text,False
-king_north2,"Գերմանիան Emperor William I 1871 (V28), 1914 (V29), 1935 (V30B), 1939 (V31A)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False
-king_north3,Հյուսիս,North, ,text,False
-king_north4,"Խորհրդային Միություն 1945-1991 (Դանիել 11: 32-39, 40 բ, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False
-king_north5,Ռուսաստանը 2017 թվականից (մայիսի),Russia since 2017 (w20 May), ,text,False
-time_of_end,"Քրիստոսի առկայություն, իրերի համակարգի եզրակացություն (Մատթեոս 24: 3), վերջին օրերը (2 Տիմոթեոս 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False
-time_of_end2,Վերջին օրերը,Last days, ,text,False
-suryavaman2,King Suryavarman II- ը կառուցում է Angkor Wat 1113-1150- ը,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False
-notre-dame,Notre-Dame de Paris- ը կառուցեց 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False
-babel,Կառուցվել է Բաբելի աշտարակ,Tower of Babel built, ,text,False
-infliction1,400 տարվա բռնություն,400 year infliction,Acts 7:6,text,False
-Lots_wife,Ղովտի կինը,Lot’s wife, ,text,False
-Lots_daughters,Լոտի դուստրերը,Daughters of Lot, ,text,False
-Moab,Մովաբ (ավելի մեծ դուստր),Moab (older daughter),Genesis 19:37,text,False
-rosetta,Rosetta Stone 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False
-Herodotus,"Herodotus c. 484 - գ. 425 մ.թ.ա., գրում է պատմությունները","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False
-Aristotle,Aristotle 384 - 322 մ.թ.ա.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False
-Ptolemy,Ptoleme C 100 - C. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False
-Pythagoras,Pythagoras գ. 570 - գ. 495 մ.թ.ա.,Pythagoras c. 570 – c. 495 BC, ,text,False
-Plato,Պլատո գ. 427 - գ. 348 մ.թ.ա.,Plato c. 427 – c. 348 BC, ,text,False
-Socrates,Սոկրատես գ. 470 - գ. 399 մ.թ.ա.,Socrates c. 470 – c. 399 BC, ,text,False
-Josephus,Josephus c. 37 - գ. 100 C.E.,Josephus c. 37 – c. 100 C.E., ,text,False
-Cicero,Cicero 106-43 մ.թ.ա.,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False
-lachish_letters,Լաչիշ տառեր գ. 590 B.C.E.,Lachish letters c. 590 B.C.E., ,text,False
-lachish_reliefs,Lachish Reliefs c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E., ,text,False
-mesha_stele,Mesha stele (Moabite Stone) գ. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False
-gilgamesh,Գիլգամեշներ եւ Ագա,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False
-epic_gilgamesh,Gilgamesh (sîn-lēqi-unninni) Epic,Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False
-gregorian,Գրեգորյան օրացույց 1582,Gregorian calendar 1582, ,text,False
-shang-dynasty,գ. 1600-1046 մ.թ.ա.,c. 1600-1046 BC, ,text,False
-western-zhou,գ. 1046-771 մ.թ.ա.,c. 1046-771 BC, ,text,False
-qin-dynasty,Qin 221-207 մ.թ.ա.,Qin 221-207 BC, ,text,False
-western-han,207 մ.թ.ա. 9 մ.թ.,207 BC – 9 CE, ,text,False
-three-kingdoms,Երեք թագավորություն 220-280 մ.թ.,Three kingdoms 220-280 CE, ,text,False
-sixteen-kingdoms,Վաթսուն թագավորություններ 304-439 մ.թ.,Sixteen kingdoms 304-439 CE, ,text,False
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False
-wu-zhou,690-705 Ուու Ժո,690-705 Wu Zhou, ,text,False
-tang-dynasty1_c,Շիվ,Tang, ,text,False
-gonghe,Gonghe Regency 841-828 մ.թ.ա.,Gonghe Regency 841-828 BC, ,text,False
-Ashoka,Աշոկա (գ. 304-232 մ.թ.ա.) Խթանում է բուդդիզմը,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False
-siloam-tunnel,Եզեկիան երկարացնում է Siloam թունելը,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False
-Angloamerica2,"Անգլո-ամերիկացին խորհրդանշում է Դանիելում 2:33, 41-43-ում մարգարեության մեջ խառնած երկաթի ոտքերով","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
-Manetho,Մանեթոն գրում է Agyptiaca- ն,Manetho writes Aegyptiaca, ,text,False
-destruction_babylon,"Բաբելոնի մեծի ոչնչացում (Հայտնություն 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
-peace_security,"«Խաղաղություն և անվտանգություն». (1 Թեսաղոնիկեցիս 5:3, սա մեկ հնարավորություն է, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
-gog_of_magog,"Մագոգի Գոգի հարձակումը (Եզեկի նահանգ 3, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
-sheep_goat,"Երկրի բնակիչները դատվում են, ոչխարներ եւ այծեր առանձնացնում են (Մատթեոս 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
-annointed,Թագավորության տիրակալների հավաքում (Մատթեոս 24:31; 1 Կորնթացիներ 15: 50-53; 1 Թեսաղոնիկեցիներ 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
-armageddon,"Արմագեդոնի ճակատամարտը (Հայտնություն 16:14, 16; Եսայիա 13: 9; 2 Պետ. 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False
-millenium,"Աստծո Թագավորությունը սկսում է իր 1000-ամյա թագավորությունը (Հայտնություն 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False
-great_crowd,"Մեծ ամբոխը գոյատեւում է Արմագեդոնում (Հայտնություն 7: 9, 14; Սաղմոս 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False
-world_population,Բնակչությունը միլիարդներով վերջին 2000 տարիների ընթացքում,World population in billions in the last 2000 years, ,text,False
-khmer_empire_c,Խմեր կայսրություն - Angkor ժամանակաշրջան,Khmer Empire - Angkor period, ,text,False
-holy_roman_empire_c,Սուրբ Հռոմեական կայսրություն - 1512-ից հետո հայտնի է գերմանական ազգի Սուրբ Հռոմեական կայսրություն,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False
-mongol_empire,Mongol Empire 1206 - 1294 C.E.,Mongol Empire 1206 – 1294, ,text,False
-maya_classic_c,Մայա քաղաքակրթություն - դասական ժամանակաշրջան,Maya civilization – Classic period, ,text,False
-maya_postclassic_c,Մայա քաղաքակրթություն - Postclassic ժամանակաշրջան,Maya civilization – Postclassic period, ,text,False
-Teotihuacan,"Ամերիկայի ամենամեծ քաղաքը, բուրգերը կառուցում են գ. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False
-Dionysius_Exiguus,"Dionysius Exiguus, Anno Domini- ի գյուտարար","Dionysius Exiguus, inventor of Anno Domini", ,text,False
-Umayyad_c,Umayyad,Umayyad, ,text,False
-ur3,Ur III դինաստիա 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False
-Al-Khwarizmi,al-khwarizmi- ն ասում է «Ալ-Յաբր» -ը (հանրահաշիվ),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False
-al-azhar,Կահիրեում ստեղծվում է ալ-Ազարի համալսարան,Al-Azhar University is established in Cairo, ,text,False
-Ibn-Sina,Ibn Sina կամ Avicenna,Ibn Sina or Avicenna, ,text,False
-life-expectancy,Կյանքի տեւողությունը 75 տարի,Life expectancy 75 years, ,text,False
-430years_c,"430 տարի. Ելից 12:41, Գաղատացիս 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False
-maya_calendar,"Մայայի օրացույցի հաշվարկված սկիզբ Օգոստոսի 11, 3114 B.C.E.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False
-xia-dynasty2,գ. 2070 - գ. Մ.թ.ա. 1600; ERA- ն առաջին անգամ ակնարկեց արեւմտյան Ժոու շրջանում,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False
-xia-dynasty2_c,Xia Dynasty- ը Չինաստանում,Xia dynasty in China, ,text,False
-tres_zapotes,"Սեպտեմբերի 3-ին, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,text,False
-joseph_jacob_reunited,Հովսեփը ոզեֆը եւ Հակոբը վերամիավորվեցին Եգիպտոսում `1728 B.C.E. (Gen 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False
-king_south_light_c,Հարավային թագավոր Դանիել 11-ից,King of the South from Daniel 11,2025-02-05,text,False
-king_north_light_c,Հյուսիսային թագավոր Դանիել 11-ից,King of the North from Daniel 11,2025-02-05,text,False
-daniel2_iron_c,Երկաթե ոտքեր Դանիել 2-ից,Iron legs from Daniel 2,2025-02-05,text,False
-argenteus,Codex Argenteus գ. 505 թ,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False
-nguyen_dynasty_c,Նգույան,Nguyễn,2025-09-20,text,False
-edo_c,Էդո ժամանակաշրջանը Ճապոնիայում,Edo period in Japan,Edo period (Tokugawa shogunate),text,False
-meiji_c,Մեյջի,Meiji,2025-09-20,text,False
-american_civil_war,Ամերիկյան քաղաքացիական պատերազմ 1861-1865 թթ,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
-aleppo_codex,Հալեպի կանոնագիրք գ. 920 թ,Aleppo Codex c. 920,2025-10-03,text,False
-vandals,Վանդալների և Ալանների թագավորություն 435 – 534 թթ,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
-francia,"գ. 481/509 – 843, Մերովինգյան մինչև 751, ապա Կարոլինգյան","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
-francia_c,Ֆրանկների թագավորություն,Kingdom of the Franks, ,text,False
-100_years_war,Հարյուրամյա պատերազմ 1337 - 1453 թթ,Hundred Years’ War 1337 – 1453,1337–1453,text,False
-black_death,Սև մահ 1346-1353 թթ,Black death 1346-1353,1346-1353,text,False
-sui_dynasty,581-618 Սուի դինաստիա,581-618 Sui dynasty,2025-11-09,text,False
-sui_dynasty_c,Սուի,Sui,2025-11-09,text,False
-tribulation,Մեծ նեղությունը (Մարկոս ​​13:19; Դանիէլ 12.1; 22),"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
-Adam,Ադամ,Adam,Luke 3:38,bible,True
-Seth,Սեթ,Seth, ,bible,True
-Enosh,Ենոս,Enosh, ,bible,True
-Kenan,Կայնան,Kenan (Cainan),Genesis 5:12,bible,False
-Mahalalel,Մաղալալել,Mahalalel (Mahalaleel),Genesis 5:15,bible,False
-Jared,Հարեդ,Jared, ,bible,True
-Enoch,Ենոք,Enoch, ,bible,True
-Methuselah,Մաթուսաղայ,Methuselah,Luke 3:37,bible,True
-Lamech,Ղամեք,Lamech, ,bible,True
-Noah,Նոյ,Noah, ,bible,True
-Shem,Սեմ,Shem, ,bible,True
-Arpachshad,Արփաքսադ,Arpachshad,Luke 3:36,bible,True
-Shelah,Սաղայ,Shelah, ,bible,True
-Eber,Եբեր,Eber, ,bible,True
-Peleg,Փալեկ,Peleg, ,bible,True
-Reu,Ռագավ,Reu, ,bible,True
-Serug,Սերուգ,Serug,Luke 3:35,bible,True
-Nahor,Նաքոր,Nahor,Genesis 11:24,bible,True
-Terah,Թարայ,Terah, ,bible,True
-Abraham,Աբրահամ,Abraham, ,bible,True
-Isaac,Իսահակ,Isaac, ,bible,True
-Jacob,Հակոբ,Jacob,Luke 3:34,bible,True
-Joseph,Հովսեփը,Joseph,Genesis 37,bible,False
-Moses,Մովսես,Moses, ,bible,False
-Othniel,Օթնիել,Othniel,Judges 3:9-11,bible,False
-Ehud,Էհուդ,Ehud,Judges 3:15-18,bible,False
-Shamgar,Շամգար,Shamgar,Judges 3:31,bible,False
-Barak,Բարագ,"Barak, Deborah, Jael",Judges 4:6,bible,False
-Gideon,Գիդեոն,Gideon,Judges 7:1,bible,False
-Tola,Տոլա,Tola,Judges 10:1,bible,False
-Jair,Ձի,Jair,Judges 10:3,bible,False
-Jephthah,Շֆթա,Jephthah,Judges 11:1,bible,False
-Ibzan,Իբզան,Ibzan,Judges 12:8,bible,False
-Elon,Տերոն,Elon,Judges 12:11,bible,False
-Abdon,Աբդոն,Abdon,Judges 12:13,bible,False
-Samson,Սամսոն,Samson,Judges 13:24,bible,False
-Samuel,Սամուել,Samuel,1 Samuel 1:20,bible,False
-Saul,Սեր,Saul,1 Samuel 9:2,bible,False
-David,Դավիթ,David,1 Samuel 16:13,bible,False
-Solomon,Սողոմոն,Solomon,1 Kings 2:1,bible,False
-Malachi,Մաղաքիա,Malachi, ,bible,True
-Ruth,Հռութ,Ruth, ,bible,True
-Ezra,Էզրա,Ezra, ,bible,False
-Nehemiah,Նեեմիա,Nehemiah, ,bible,False
-Esther,Էսեր,Esther, ,bible,False
-Job,Հոբ,Job, ,bible,True
-moses3,Մովսես,Moses, ,bible,False
-joshua2,Joshua,Joshua, ,bible,False
-caleb2,Քեյլեբ,Caleb, ,bible,False
-Augustus,Օգոստոս,Augustus,Luke 2:1,bible,False
-Tiberius,Տիբերիոս,Tiberius,Luke 3:1,bible,False
-Claudius,Կլավդիոս,Claudius,Acts 11:28,bible,False
-persia2,Պարսկերեն,Persia, ,bible,False
-jehoiada,Էհովաադա,Jehoiada,2 Kings 11:4,bible,False
-Haggai,Հագ,Haggai, ,bible,False
-Zerubbabel,Զերուբաբել (Ղուկաս 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False
-Jacob2,Հակոբ /,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False
-Israel,Նսեմ,Israel,Genesis 35:10,bible,False
-Sarah,Սառա,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False
-Hagar,Տական,Hagar,Genesis 21:14,bible,False
-Haran,Խավ,Haran,Genesis 11:26,bible,False
-Reumah,Ռեվա,Reumah,Concubine – 4 sons 22:24,bible,False
-Milcah,Միլ,Milcah,8 sons (Bethuel and 7 more),bible,False
-Lot,Լերձում,Lot,Genesis 11:27,bible,False
-Ammon,Բեն-Ամմի (Ամոն),Ben-ammi (Ammon),Genesis 19:38,bible,False
-Bethuel,Բեթուել,Bethuel,Genesis 22:23,bible,False
-Rebekah,Ռեբեկան,Rebekah, ,bible,False
-Laban,Լաբանի,Laban,Genesis 24:29,bible,False
-Leah,Լիա,Leah,Genesis 35:23,bible,False
-Rachel,Ռեյչել,Rachel,Genesis 35:24,bible,False
-Bilhah,Բիլհա,Bilhah,Genesis 35:25,bible,False
-Zilpah,Զիլպա,Zilpah,Genesis 35:26,bible,False
-Reuben,Ռուբլի,Reuben, ,bible,False
-Simeon,Սիմեոն,Simeon, ,bible,False
-Levi,Լեւի,Levi,Genesis 35:23,bible,False
-Judah,Հուդա,Judah, ,bible,False
-Issachar,Իսթար,Issachar, ,bible,False
-Zebulun,Զաբուլուն,Zebulun, ,bible,False
-Dinah,Դինա,Dinah,Genesis 34,bible,False
-Esau,Եսավը,Esau/, ,bible,False
-Edom,Եռամիկոս,Edom,Genesis 36:1,bible,False
-Ishmael,Իսմայել,Ishmael,Genesis 16:16,bible,False
-Manasseh2,(Մանասե,(Manasseh,Genesis 41:50-52,bible,False
-Ephraim,եւ Եփրեմ),and Ephraim), ,bible,False
-Benjamin,Բենջամին,Benjamin, ,bible,False
-Dan,Դան,Dan,Genesis 35:23,bible,False
-Naphtali,Նեֆթալի,Naphtali, ,bible,False
-Gad,Գադ,Gad, ,bible,False
-Asher,Ասեր,Asher, ,bible,False
-Milcah1,"Ուզ, Բուզ, Քեմուել,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False
-Milcah2,"Քազադը, Ազավը,","Chesed, Hazo,", ,bible,False
-Milcah3,"Փալդասը, Հետլափն","Pildash, Jidlaph", ,bible,False
-Tebah,Արբան,Tebah,Genesis 22:24,bible,False
-Gaham,Հայհոա,Gaham, ,bible,False
-Tahash,Տահաշ,Tahash, ,bible,False
-Maacah,Մաակա,Maacah, ,bible,False
-Mahalath,Մայելեթին՝/,Mahalath/,"Genesis 28:8, 9",bible,False
-Basemath,Հիմծառկոտ,Basemath,"Genesis36:3, 4",bible,False
-Reuel,Ռեէլա,Reuel,"36:13, 17",bible,False
-Nahath,Նահաթ,Nahath, ,bible,False
-Zerah,Զայան,Zerah, ,bible,False
-Schammah,Շամմ,Schammah, ,bible,False
-Mizzah,Մածուցիկ,Mizzah, ,bible,False
-Adah,Ադդա,Adah,"36:11, 12, 15, 16",bible,False
-Eliphaz,Տոհմ,Eliphaz, ,bible,False
-Teman,Թեման,Teman, ,bible,False
-Omar,Օմար,Omar, ,bible,False
-Zepho,Զեֆո,Zepho, ,bible,False
-Kenaz,Քենազ,Kenaz, ,bible,False
-Korah,Կորեա,Korah, ,bible,False
-Korah_Gatam,"Կորահ, Գաթամ","Korah, Gatam","Genesis 36:11, 16",bible,False
-Amalek,Ամալեկ,Amalek, ,bible,False
-Oholibamah,Օլիբաման,Oholibamah,"36:14, 18",bible,False
-Jeush,Շիշ,Jeush, ,bible,False
-Jalam,Հեգլոմ,Jalam, ,bible,False
-Nebaioth,Նեբաոթ,Nebaioth,Genesis 25:13,bible,False
-Kedar,Կեդար,Kedar, ,bible,False
-Mishma,Ոչխար,Mishma, ,bible,False
-Adbeel_Mibsam,"Ադբել, Միբսամ","Adbeel, Mibsam",Genesis 25:13,bible,False
-Dumah_Massa,"Դումա, Մասսա","Dumah, Massa",Genesis 25:14,bible,False
-Hadad,Քոդադ,Hadad, ,bible,True
-Tema,Թեմա,Tema, ,bible,True
-Jetur,Հետուր,Jetur, ,bible,True
-Naphish,Նաֆես,Naphish, ,bible,True
-Kedemah,Կեդմա,Kedemah, ,bible,True
-Keturah,Կետուրա,Keturah,Genesis 25:1-4,bible,True
-Zimran,Զիմրան,Zimran, ,bible,True
-Jokshan,Նոքշան,Jokshan, ,bible,True
-Medan,Մեդայել,Medan, ,bible,True
-Midian,Մադիան,Midian, ,bible,True
-Ishbak,Իշբակ,Ishbak, ,bible,True
-Shuah,Շուհի,Shuah, ,bible,True
-Timna,Տիմնա,Timna,"1 Chr 1:36, Ge 36:10-12",bible,True
-life-expectancy2,(Սաղմոս 90:10),(Psalm 90:10),2024-11-29,bible,False
-Ham,Խոզապուխտ,Ham,Gen 10:1,bible,False
-Canaan,Քանան,Canaan,Gen 10:6,bible,False
-Sidon,Սիդոն,Sidon,Gen 10:15,bible,False
-Heth,Հեթ,Heth,Gen 10:15,bible,False
-Jebusite,Յեբուսացի,Jebusite,Gen 10:16,bible,False
-Amorite,Ամորացի,Amorite,Gen 10:16,bible,False
-Girgashite,Գիրգաշիտ,Girgashite,Gen 10:16,bible,False
-Hivite,Հիվիտ,Hivite,Gen 10:17,bible,False
-Arkite,Արկիտե,Arkite,Gen 10:17,bible,False
-Sinite,Սինիտ,Sinite,Gen 10:17,bible,False
-Arvadite,Արվադիտ,Arvadite,Gen 10:18,bible,False
-Zemarite,Զեմարիտ,Zemarite,Gen 10:18,bible,False
-Hamathite,Համաթիտ,Hamathite,Gen 10:18,bible,False
-Cush,Քուշ,Cush,Gen 10:6,bible,False
-Nimrod,Նեբրոդ,Nimrod,Gen 10:8,bible,False
-Mizraim,Միզրայմ,Mizraim,Gen 10:14,bible,False
-Casluh,Կասլուհ,Casluh,1 Chronicles 1:12 (Philistines),bible,False
-Japheth,Յաֆեթ,Japheth,Gen 10:1,bible,False
-Asshur,Աշուր,Asshur,Gen 10:22,bible,False
-Lud,Լյուդ,Lud,Gen 10:22,bible,False
-Aram,Արամ,Aram,Gen 10:22,bible,False
-Elam,Էլամ,Elam,Gen 10:22,bible,False
-Joktan,Ջոկտան,Joktan,Gen 10:26,bible,False
-Almodad,Ալմոդադ,Almodad,Gen 10:26,bible,False
-Sheleph,Շելեֆ,Sheleph,Gen 10:26,bible,False
-Hazarmareth,Հազարմարեթ,Hazarmareth,Gen 10:26,bible,False
-Jerah,Ջերա,Jerah,Gen 10:26,bible,False
-Hadoram,Հադորամ,Hadoram,Gen 10:27,bible,False
-Uzal,Ուզալ,Uzal,Gen 10:27,bible,False
-Diklah_Obal,"Դիկլահ, Օբալ","Diklah, Obal",Gen 10:27,bible,False
-Abimael,Աբիմայել,Abimael,Gen 10:28,bible,False
-Sheba_Ophir,"Շեբա, Օֆիր","Sheba, Ophir","Gen 10:28, 29",bible,False
-Havilah,Հավիլա,Havilah,Gen 10:29,bible,False
-Jobab,Ջոբաբ,Jobab,Gen 10:29,bible,False
-Ham_fn,1) Եգիպտացիներ՝ Սաղմոս 105։23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False
-Canaan_fn,2) Քանանացիներ՝ Հեսու 13։3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False
-Aram_fn,3) Արամեցիներ՝ Ովսեա 12։12,3) Arameans: Hosea 12:12,2025-09-22,bible,False
-Elam_fn,4) Էլամացիներ՝ Եզրաս 4։9,4) Elamites: Ezra 4:9,2025-09-22,bible,False
-Asshur_fn,5) Ասորեստանցիներ՝ Եզեկիել 27։23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False
-Casluh_fn,6) Փղշտացիներ՝ 1 Տարեգրություն 1։12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False
-Cush_fn,7) Եթովպացի [քուշի]՝ 2 Թագավորներ 19։9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False
-Edom_fn,8) Եդովմացիներ՝ Թվեր 20։14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False
-Moab_fn,"9) Մովաբացիներ. Բ Օրինաց 23։3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False
-Ammon_fn,10) Ամմոնացիներ՝ Հեսու 12։2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False
-Midian_fn,"11) մադիանացիներ՝ Թվեր 31։2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False
-Amalek_fn,12) Ամաղեկացիներ՝ 1 Սամուել 15։2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False
-Teman_fn,13) Թեմանացիներ՝ Հոբ 42։7,13) Temanites: Job 42:7,2025-09-22,bible,False
-Sidon_fn,14) Սիդոնացիներ՝ Զաքարիա 9։2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False
-Heth_fn,15) Խեթեր՝ Ծննդոց 15։20,15) Hittites: Genesis 15:20,2025-09-22,bible,False
-Jebusite_fn,16) Հեբուսացիներ՝ Հեսու 15։63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False
-Judith,Ջուդիթի՞ն։,Judith?,"Genesis 26:34, 35",bible,False
-Lud_fn,17) Լիդիացիներ՝ 1 Տարեգրություն 1։17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False
-Ishmael_fn,18) Իսմայելացիներ՝ Ծննդոց 37։27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
-Amorite_fn,19) Ամորհացիներ՝ Դատավորներ 6։10,19) Amorites: Judges 6:10,2025-09-22,bible,False
-Hivite_fn,"20) Խևացիներ [Գաբաոն]՝ Հեսու 9։3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
-Cain,Կայեն,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
-Abel,Աբել,Abel,Genesis 4:2,bible,False
-Irad,Իրադ,Irad,Genesis 4:18,bible,False
-Mehujael,Մեհուջաել,Mehujael,Genesis 4:18,bible,False
-Methushael,Մեթուշայել,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
-Jabal,Ջաբալ,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
-Jubal,Ջուբալ,Jubal,Genesis 4:21 play harp and pipe,bible,False
-Zillah,Զիլլա,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
-Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
-Naamah,Նաամա,Naamah,Genesis 4:22 his sister,bible,False
-Rehoboam,Ռոբովամ,Rehoboam,first king of southern kingdom of Juda,A6-A,True
-Abijah,Աբիա (Աբիամ),Abijah (Abijam),"3 years, also Abijam",A6-A,True
-Asa,Ասա,Asa,A6-A,A6-A,True
-Jehoshaphat,Հովսափատ,Jehoshaphat, ,A6-A,True
-Jehoram2,Հովրամ,Jehoram, ,A6-A,True
-Ahaziah,Օքոզիա,Ahaziah, ,A6-A,True
-Athaliah,Գոթողիա թագուհի,Queen Athaliah,Queen Athaliah,A6-A,True
-Jehoash,Հովաս,Jehoash, ,A6-A,True
-Amaziah,Ամասիա,Amaziah, ,A6-A,True
-Uzziah,Ուզիա (Ազարիա),Uzziah (Azariah),also Azariah,A6-A,False
-Jeroboam,Հերոբովամ,Jeroboam,first king of northern 10-tribe kingdom,A6-A,True
-Nadab,Նադաբ,Nadab,less than 2,A6-A,True
-Baasha,Բաասա,Baasha, ,A6-A,True
-Elah,Էլա,Elah, ,A6-A,True
-Zimri,Զամրի,Zimri,Only 7 days in ca. 751 BCE,A6-A,True
-OmriTibni,Ամրի և Թաբնի,Omri and Tibni together,4 years Omri and Tibni,A6-A,True
-Omri,Ամրի (միանձնյա),Omri (alone),from 947 Omri alone,A6-A,True
-Ahab,Աքաաբ,Ahab, ,A6-A,True
-Jehoram,Հովրամ,Jehoram, ,A6-A,True
-Jehu,Հեու,Jehu, ,A6-A,True
-Jeoahaz,Հովաքազ,Jeoahaz, ,A6-A,True
-JeoahazJehoash,Հովաքազ և Հովաս,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,True
-Jehoash2,Հովաս (միանձնյա),Jehoash (alone),Jehoash (alone),A6-A,True
-Jeroboam2,Հերոբովամ II,Jeroboam II, ,A6-A,True
-Elijah,Ալիխա,Elijah, ,A6-A,False
-Elisha,Ալիգա,Elisha, ,A6-A,False
-Jonah,Հովնան,Jonah, ,A6-A,True
-Amos,Ամոս,Amos, ,A6-A,True
-Joel,Հովել,Joel, ,A6-A,True
-Jotham,Հովաթամ,Jotham,A6-B,A6-B,True
-Ahaz,Աքազ,Ahaz, ,A6-B,True
-Hezekiah,Եզեկիա,Hezekiah, ,A6-B,True
-Manasseh,Մանասե,Manasseh, ,A6-B,True
-Amon,Ամոն,Amon, ,A6-B,True
-Josiah,Հովսիա,Josiah, ,A6-B,True
-Jehoahaz,Հովաքազ,Jehoahaz,Only 3 months,A6-B,True
-Jehoiakim,Հովակիմ,Jehoiakim, ,A6-B,True
-Jehoiachin,Հովաքին,Jehoiachin,Only 3 months 10 days,A6-B,True
-Zedekiah,Սեդեկիա,Zedekiah, ,A6-B,True
-Zechariah,Զաքարիա,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,True
-Schallum,Սեղում,Schallum,only one month,A6-B,True
-Menahem,Մանայեմ,Menahem, ,A6-B,True
-Pekahiah,Փակեիա,Pekahiah, ,A6-B,True
-Pekah,Փակեե,Pekah, ,A6-B,True
-Hoshea,Օսեա,Hoshea,9 years from c. 748,A6-B,True
-Hosea,Օսեե,Hosea, ,A6-B,True
-Isaiah,Եսայիա,Isaiah, ,A6-B,True
-Micah,Միքիա,Micah, ,A6-B,True
-Zephaniah,Սոփոնիա,Zephaniah, ,A6-B,True
-Nahum,Նաում,Nahum, ,A6-B,True
-Jeremiah,Երեմիա,Jeremiah, ,A6-B,True
-Habakuk,Ամբակում,Habakuk, ,A6-B,True
-Daniel,Դանիել,Daniel, ,A6-B,True
-Ezekiel,Եզեկիել,Ezekiel, ,A6-B,True
-Obadiah,Աբդիա,Obadiah, ,A6-B,True
-Babylon,"Դանիել 2:32, 36-38; 7: 4","Daniel 2:32, 36-38; 7:4", ,B9,True
-Medopersia,"Դանիել 2:32, 39; 7: 5","Daniel 2:32, 39; 7:5", ,B9,True
-Greece,"Դանիել 2:32, 39; 7: 6","Daniel 2:32, 39; 7:6", ,B9,True
-Rome,"Դանիել 2:33, 40; 7: 7","Daniel 2:33, 40; 7:7", ,B9,True
-Angloamerica,"Դանիել 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True
-Babylon_c,Բաբելոն,Babylon, ,B9,True
-Medopersia_c,Մարա-Պարսկաստան,Medo-Persia, ,B9,True
-Greece_c,Հունաստան,Greece, ,B9,True
-Rome_c,Հռոմ,Rome, ,B9,True
-Angloamerica_c,Անգլո-Ամերիկա,Anglo-America, ,B9,True
-daniel2_1,Նաբուգոդոնոսոր թագավորը,King Nebuchadnezzar,607 BCE,B9,True
-daniel2_2,ավերում է Երուսաղեմը,destroys Jerusalem, ,B9,True
-daniel2_3,նվաճում է Բաբելոնը,Conquers Babylon,539 BCE,B9,True
-daniel2_4,"Կյուրոսը հրաման է արձակում,",Cyrus decrees return,537 BCE,B9,True
-daniel2_5,որ հրեաները վերադառնան Երուսաղեմ,of Jews to Jerusalem, ,B9,True
-daniel2_6,Ալեքսանդր Մակեդոնացին,Alexander the Great,331 BCE,B9,True
-daniel2_7,նվաճում է Պարսկաստանը,conquers Persia, ,B9,True
-daniel2_8,սկսում է իշխել Իսրայելի վրա,Rules over Israel,63 BCE,B9,True
-daniel2_9,ավերում է Երուսաղեմը,Destroys Jerusalem,70 CE,B9,True
-daniel2_10,Առաջին համաշխարհային պատերազմի,"During World War I,",1914-1918 CE,B9,True
-daniel2_11,ընթացքում (մ. թ. 1914-1918) առաջ է գալիս,Anglo-American World Power, ,B9,True
-daniel2_12,անգլո-ամերիկյան աշխարհակալ ուժը,comes into being,End 4.2,B9,True
-607BCE,Մ. թ. ա. 607 թ.-ին,607 B.C.E.,accommodate for language,B9,True
-539BCE,Մ. թ. ա. 539 թ.-ին,539 B.C.E.,systems in style:,B9,True
-537BCE,Մ. թ. ա. 537 թ.-ին,537 B.C.E.,>>year 537 before time<<,B9,True
-331BCE,Մ. թ. ա. 331 թ.-ին,331 B.C.E.,so they need a word,B9,True
-63BCE,Մ. թ. ա. 63 թ.-ին,63 B.C.E.,prior to the year,B9,True
-70CE,Մ. թ. 70 թ.-ին,70 C.E.,and something,B9,True
-1914CE,մ. թ. 1914-1918,1914-1918 C.E.,after the year,B9,True
-7times,Հայտնություն 12: 9,Revelation 12:9, ,scripture,False
-infliction2,Գործեր 7: 6,Acts 7:6, ,scripture,False
-eastern-zhou,770-256 մ.թ.ա.,770-256 BC, ,span_bc,False
-430years,1943 - 1513 B.C.E.,1943 – 1513 B.C.E., ,span_bce,False
-eastern-han,25-220 մ,25-220 CE, ,span_ce,False
-northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False
-southern-dynasties,420-589 մ,420-589 CE, ,span_ce,False
-khmer_empire,804 – 1431,804 – 1431, ,timespan,True
-byzantine_empire,330 – 1453,330 – 1453, ,timespan,True
-ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
-holy_roman_empire,800 – 924,800 – 924, ,timespan,True
-holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True
-inca_empire,1438 – 1533,1438 – 1533, ,timespan,True
-gupta_empire,319 – 550,319 – 550, ,timespan,True
-Umayyad,661 – 750,661 – 750, ,timespan,True
-Abbasid,750 – 1258,750 – 1258, ,timespan,True
-Mamluk,1250 – 1517,1250 – 1517, ,timespan,True
-seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
-lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True
-qing-dynasty,1636-1912,1636-1912, ,timespan,True
-ming-dynasty,1368-1644,1368-1644, ,timespan,True
-yuan-dynasty,1271-1368,1271-1368, ,timespan,True
-southern-song,1127-1279,1127-1279, ,timespan,True
-northern-song,960-1127,960-1127, ,timespan,True
-western-xia,1038-1227,1038-1227, ,timespan,True
-maya_classic,250–950,250–950, ,timespan,True
-maya_postclassic,950-1539,950-1539, ,timespan,True
-tran_dynasty,1225–1400,1225–1400, ,timespan,True
-le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
-revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
-nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
-edo,1603 – 1868,1603 – 1868, ,timespan,True
-meiji,1868 – 1912,1868 – 1912, ,timespan,True
-Julius,Ուլուս,Julius, ,wiki,False
-Caligula,Կալիգա,Caligula, ,wiki,False
-Nero,Անոր,Nero, ,wiki,False
-Galba-Otho-Vitellius,"Գալբա, Օթո եւ Վիտելիուս (չորս կայսրերի տարի)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False
-Vespasian,Vespasian,Vespasian, ,wiki,False
-covid19,COVID-19,Covid-19, ,wiki,False
-nicaea1,Նիկայի առաջին խորհուրդը,First Council of Nicaea, ,wiki,False
-oxyrhynchus,Oxyrhynchus պապիրի,Oxyrhynchus Papyri, ,wiki,False
-p52,Papyrus P52,Papyrus P52, ,wiki,False
-qing-dynasty_c,Qing Dynasty,Qing dynasty,1636-1912,wiki,False
-ming-dynasty_c,Ming Dynasty- ը կայսերական Չինաստանում,Ming dynasty in imperial China,1368-1644,wiki,False
-yuan-dynasty_c,Յուան,Yuan,1271-1368,wiki,False
-southern-song_c,Հարավային երգ,Southern Song,1127-1279,wiki,False
-northern-song_c,Հյուսիսային երգ,Northern Song,960-1127,wiki,False
-western-xia_c,Արեւմտյան Xia,Western Xia,1038-1227,wiki,False
-Copernicus,Նիկոլաուս Կոպեռնիկոս,Nicolaus Copernicus, ,wiki,False
-Galileo,Գալիլեա Գալիլե,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False
-Newton,Իսահակ Նյուտոն,Isaac Newton, ,wiki,False
-shang-dynasty_c,Շանգ դինաստիա,Shang dynasty,c. 1600-1046 BC,wiki,False
-western-zhou_c,Արեւմտյան Ժո,Western Zhou,c. 1046-771 BC,wiki,False
-eastern-zhou_c,Արեւելյան Ժո,Eastern Zhou,770-256 BC,wiki,False
-western-han_c,Արեւմտյան Հան,Western Han,207 BC – 9 CE,wiki,False
-eastern-han_c,Արեւելյան Հան,Eastern Han,25-220 CE,wiki,False
-three-kingdoms_c,Շապիկ,China,Three kingdoms 220-280 CE,wiki,False
-sixteen-kingdoms_c,Շապիկ,China,Sixteen kingdoms 304-439 CE,wiki,False
-northern-dynasties_c,Հյուսիսային դինաստիաներ,Northern dynasties,368-581 CE,wiki,False
-southern-dynasties_c,Հարավային դինաստիաներ,Southern dynasties,420-589 CE,wiki,False
-tang-dynasty2_c,Թանգ դինաստիա,Tang dynasty,"618-690, 705-907",wiki,False
-byzantine_empire_c,Բյուզանդական կայսրություն,Byzantine Empire, ,wiki,False
-ottoman_empire_c,Օսմանյան կայսրություն,Ottoman Empire, ,wiki,False
-Genghis,Ողբալի,Genghis Khan, ,wiki,False
-inca_empire_c,Inca Empire,Inca empire, ,wiki,False
-gupta_empire_c,Գուպտայի կայսրություն,Gupta Empire, ,wiki,False
-Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False
-Abbasid_c,Abbasid Caliphate,Abbasid Caliphate, ,wiki,False
-Mamluk_c,Մամլուկ Սուլթանատ,Mamluk Sultanate, ,wiki,False
-Al-Ghazali,Ալ-Ղազալին,Al-Ghazali,2024-07-30,wiki,False
-wulfila,Վուլֆիլա Աստվածաշունչ,Wulfila Bible,2025-09-20,wiki,False
-tran_dynasty_c,Trần դինաստիա,Trần dynasty, ,wiki,False
-le_dynasty_c,Lê դինաստիա,Lê dynasty, ,wiki,False
-revival_le_dynasty_c,Trịnh տերերը և Nguyễn տերերը,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False
-seljuk_empire_c,Սելջուկյան կայսրություն,Seljuk empire, ,wiki,False
-vandals_c,Վանդալներ,Vandals, ,wiki,False
-lombard_c,Լոմբարդյան թագավորություն,Lombard Kingdom,2025-10-13,wiki,False
-people,ժողովուրդ,people, ,deprecated,False
-judges,դատավորներ,judges, ,deprecated,False
-prophets,Մարգարեներ,prophets, ,deprecated,False
-kings,թագավորներ,kings, ,deprecated,False
-periods,Ժամանակներ,periods, ,deprecated,False
-events,իրադարձություններ,events, ,deprecated,False
-objects,Օբեկտներ կամ իրեր,objects or items, ,deprecated,False
-event_destruction_samaria2,740 B.C.E. Ասորեստանի կողմից,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
-photodrama,«Ստեղծման ֆոտո-դրաման» առաջին անգամ ցուցադրվում է Նյու Յորքում 1914 թվականի հունվարի 11-ին,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
-truth_book,"«The շմարտությունը, որը տանում է դեպի հավերժական կյանք» գիրքը թողարկվում է 1968 թ",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
-jw_broadcasting,2014 թվականի հոկտեմբերին JW Broadcasting- ի մեկնարկը,Start of JW Broadcasting® in October 2014, ,deprecated,False
-meeting_workbook,Midweek- ի նոր ձեւաչափը `« Հանդիպումների աշխատանքային գրքույկ »2016 թվականի հունվարից,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
-terahfam,Թերայի ընտանիքի անդամները,Members of Terah’s family, ,deprecated,False
-metropolitan,2011-ին Մետրոպոլիտենի վթարի սկիզբը,Start of metropolitan witnessing in 2011, ,deprecated,False
-jw_org,Jw.org- ի մեկնարկը Թագավորության ծառայության ցուցումներով 2012 թ. Դեկտեմբեր,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
-Babylon2, , ,no text left and right – empty!,deprecated,False
-daniel2_shift,30,30,Start 4.2,deprecated,False
-Gatam,Գաթամ,Gatam, ,deprecated,False
-Adbeel,Ադբեել,Adbeel, ,deprecated,False
-Mibsam,Մաբսամ,Mibsam, ,deprecated,False
-Dumah,Դումա,Dumah, ,deprecated,False
-Massa,Մերկ,Massa, ,deprecated,False
-tang-dynasty1, , , ,deprecated,False
-xia-dynasty,Xia Dynasty- ը Չինաստանում գ. 2070 - գ. 1600 մ.թ.ա.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
-Midianites,"1) Մադիանի. Թվեր 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False
-Moabites,"2) Մովաբացիներ. Օրի. 23: 3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
-Ammonites,3) Ամոնացիներ. Հեսու 12: 2,3) Ammonites: Joshua 12:2, ,deprecated,False
-Edomites,4) Եդոմացիներ. Թվեր 20: 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False
-Temanites,5) թեմանացի. Գործ 42: 7,5) Temanites: Job 42:7, ,deprecated,False
-Amalekites,6) Ամաղեկացիներ. 1 Սամուել 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
-king_south_light, , ,2025-02-05,deprecated,False
-king_north_light, , ,2025-02-05,deprecated,False
-daniel2_iron, , ,2025-02-05,deprecated,False
-timeline_created,"Այս ժամանակացույցը ստեղծվում է 2023 թվականին, մարդկության պատմության ամենաթեժ տարին եւ վերջին 125,000 տարիները","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False
+key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
+version,6.08,6.08,5.5,float,True, , , , , , , , 
+pdf_title,6000 տարի մարդկային պատմություն արտացոլվեց,6000 years human history visualized,2026-07-01,text,True, , , , , , , , 
+pdf_subject,Մարդկության ժամանակացույց,Timeline of humankind,5.5,text,False, , , , , , , , 
+BCE,Ք.ա.,B.C.E.,appendix B9,B9,False, , , , , , , , 
+CE,Ք.Ե.,C.E., ,B9,False, , , , , , , , 
+month,ամիս,month, ,text,False, , , , , , , , 
+months,ամիս,months, ,text,False, , , , , , , , 
+day,օր,day, ,text,False, , , , , , , , 
+days,օր,days, ,text,False, , , , , , , , 
+to,դեպի,to, ,text,False, , , , , , , , 
+Deluge,Ջրհեղեղ,Deluge, ,text,False, , , , , , , , 
+moses2,1593-ից 1473 B.C.E. - 120 տարի,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , , , , 
+temple1,Nisan 1513 B.C.E. ZIV 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , , , , 
+69weeks,Հիսուսը մկրտվեց Աշուն 29 C.E:,Jesus baptized autumn 29 C.E., ,text,False, , , , , , , , 
+year,տարի,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , , , , , 
+years,ամիս,years, ,text,False, , , , , , , , 
+years_age,տարեկան,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , , , , , 
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
+wilderness,Իսրայելը անապատում 1513-ից 1473 B.C.E. - 40 տարի,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , , , , 
+timespan_judges,1473-ից 1117 B.C.E. - 356 տարի,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , , , , 
+timespan_judges2,Դատավորների ժամանակը,Time of the judges, ,text,False, , , , , , , , 
+temple2,479 տարի մինչեւ տաճարի կառուցումը - 1 Թագավորներ 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , , , , 
+69weeks2,69 շաբաթ դեպի Մեսիան - Դանիել 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , , , , 
+jesus_service,"Հիսուսի ծառայության 3.5 տարի, մահապատժի ենթարկված Նիսան 14-րդ, 33 C.E:","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , , , , 
+jesus_life,Հիսուսը ծնվել է 2 B.C.E.,Jesus born 2 B.C.E., ,text,False, , , , , , , , 
+exile,607-ից 537 B.C.E. - 70 տարի (Երեմիա 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , , , , 
+exile2,Աքսոր,Exile, ,text,False, , , , , , , , 
+7times2,7 անգամ - 2520 տարի դեպի Մեսիական Թագավորություն 1914 C.E. (Դանիել 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , , , , 
+ww1,I - 1914-1918 C.E.,World War I – 1914–1918, ,text,False, , , , , , , , 
+ww2,Երկրորդ աշխարհամարտ - 1939-1945 C.E.,World War II – 1939–1945, ,text,False, , , , , , , , 
+30_year_war,Երեսուն տարվա պատերազմ Եվրոպայում 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , , , , 
+joshua,110 տարի,110 years, ,text,False, , , , , , , , 
+caleb,Ավելի քան 85 տարի,more than 85 years, ,text,False, , , , , , , , 
+missionary1,"Պողոսի առաջին միսիոներական ճանապարհորդությունը, գ. 47-48 C.E. Բառնաբասով եւ John ոն Մարկով","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , , , , 
+circumcision,"Թլփատության հարցը Անտիոքում քաղաքում, Երուսաղեմում կայացած գիտաժողով գ. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , , , , 
+missionary2,Երկրորդ միսիոներական ճանապարհորդություն գ. 49-52 C.E Silas- ի հետ (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , , , , 
+missionary3,Երրորդ միսիոներական ճանապարհորդություն գ. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , , , , 
+caesarea,Պողոսը կալանքի տակ է Կեսարիայում գ. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , , , , 
+rome1,Պողոսի առաջին ազատազրկումը Հռոմում գ. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , , , , 
+rome2,"Պողոսի երկրորդ բանտարկությունը Հռոմում գ. 65 մ.թ., 2 Տիմոթեոս գրված, Պողոսը մահապատժի է ենթարկել","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , , , , 
+event_exodus,"Եգիպտոսից Եգիպտոսից 14-րդ, 1513 B.C.e.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , , , , 
+event_division_kingdom,Իսրայելի բաժին 997 մ.թ.,Division of Israel 997 BCE, ,text,False, , , , , , , , 
+event_destruction_samaria,Սամարիայի ոչնչացում 740 B.C.E. Ասորեստանի կողմից,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , , , , 
+event_destruction_jerusalem1,Երուսաղեմի ոչնչացում 607 B.C.E. Բաբելոնի կողմից Թագավորության բաժանումից 390 տարի անց (Եզեկիել 4: 5),"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , , , , 
+event_temple_rebuilt,Տաճարը Երուսաղեմում վերակառուցվել է 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , , , , 
+event_jerusalem_rebuilt,Երուսաղեմի պատը վերակառուցվել է 455 B.C.E.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , , , , 
+event_destruction_jerusalem2,Երուսաղեմի ոչնչացում 70 C.E. Հռոմի կողմից Տիտոսի տակ,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , , , , 
+event_1914,Ազգերի ժամանակի ավարտը (Ղուկաս 21:24) Աստծու Թագավորությունը սկսում է իշխել երկնքում 1914 թ. C.E:,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , , , , 
+became_king,դառնում է թագավոր տարիքում,becomes king at age,2025-04-14,text,False, , , , , , , , 
+vulgate,Վուլգատն ավարտեց Jerome (Աստվածաշնչի լատինական թարգմանությունը) գ. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , , , , 
+gutenberg,Գութենբերգ Աստվածաշունչը տպագիր 1455,Gutenberg Bible printed 1455, ,text,False, , , , , , , , 
+erasmus,Քրիստոնեական Հունական Գրությունների հունարեն տեքստը Հրապարակված է Desiderius Erasmus- ի Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , , , , 
+luther,"Լյութեր Աստվածաշնչի թարգմանություն, 1522-ի սեպտեմբերին",Luther Bible translation in September 1522, ,text,False, , , , , , , , 
+tyndale,"Անգլերեն Աստվածաշնչի թարգմանություն, Tyndale 1536",English Bible translation by Tyndale 1536, ,text,False, , , , , , , , 
+king_james,King եյմս Աստվածաշունչ 1611,King James Bible 1611, ,text,False, , , , , , , , 
+69weeks3,"Հիսուսը սկսում է իր ծառայությունը ԵԽ 29-ին (Ղուկաս 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , , , , , 
+ransom,Շաբաթվա կեսին «զոհաբերություն դադարեցնելու» Դանիելին 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , , , , , 
+cornelius,Կոռնելիոսը մկրտվեց 70 շաբաթվա վերջում (Դանիել 9:24) 36 C.E- ում:,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , , , , , 
+columbus,1492-ում գտնվող նախա-կոլումբիական շրջանի ավարտը,End of the pre-columbian period in the Americas 1492, ,text,False, , , , , , , , 
+declaration_independence,Ամերիկայում 13 գաղութների անկախության հռչակագիր 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , , , , , 
+tischendorf,Tischendorf- ը 1844-ին հայտնաբերում է Codex Sinaiticus- ը,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , , , , , 
+dead_sea_scrolls,Dead Sea Scrolls գրված է,Dead Sea Scrolls written, ,text,False, , , , , , , , 
+septuagint,Septuagint LXX Թարգմանեց,Septuagint LXX translated, ,text,False, , , , , , , , 
+watchtower,«Սիոնի ժամացույցի աշտարակի եւ Քրիստոսի ներկայության հերոս» -ի առաջին համարը լույս է տեսել 1879 թվականին,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , , , , , 
+jehovahs_witnesses,"Աստվածաշունչ ուսումնասիրողները նոր անուն են ընդունում. Եհովայի վկաներ (Եսայիա 43:10, 12) Օհայո, Օհայո, 1931 թ","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , , , , , 
+gilead_school,«Դիտարանի» «Գաղաադ» աստվածաշնչյան դպրոցը սկսվում է 1943 թ. Փետրվարի 1-ից,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , , , , , 
+new_world_translation1,1960-ի հունիսի 18-ին Անգլիայի «Մանչեսթեր» -ի «Սուրբ Գրությունների» նոր աշխարհը թողարկվեց «Նոր աշխարհը,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , , , , , 
+new_world_translation2,"2013-ի տարեկան ժողովում լույս տեսավ «Սուրբ Գրությունների նոր աշխարհ թարգմանությունը», որը օպտիմիզացված էր, օգտագործվելու թվայնորեն եւ առցանց","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , , , , , 
+cold_war,Աշխարհաքաղաքական իրավիճակը պիտակեց «Սառը պատերազմ» 1945-1991 թվականներին,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , , , , , 
+codex_sinaiticus,Codex Sinaiticus գրված է,Codex Sinaiticus written, ,text,False, , , , , , , , 
+codex_vaticanus,Codex Vaticanus գրված է,Codex Vaticanus written, ,text,False, , , , , , , , 
+leningrad_codex,Leningrad Codex գրված է Կահիրեում 1008-ում,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , , , , , 
+john,"John ոնը գրում է «Հայտնություն», իսկ աքսորվել է Patmos 96-98 C.E- ում:",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , , , , , 
+buddha,Բուդդա - Սիդհարթա Գաուտամա C.563-C.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , , , , , 
+buddha2,Բուդդա Այլընտրանքորեն գ. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , , , , , 
+mohammed,Մոհամմեդ գ. 570-632 C.E.,Mohammed c. 570-632, ,text,False, , , , , , , , 
+confucius,Confucius C.551-C.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False, , , , , , , , 
+hijrah,Hijrah - Journey անապարհորդություն Մեքքա Մեդինա 16 հուլիսի 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , , , , , 
+moses_escape,"1553 B.C.E. Մովսեսը պետք է փախչի Եգիպտոս - Ելից 2:15, Գործք 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , , , , , 
+10plagues,1513 B.C.e Եգիպտոսը ստանում է 10 պատուհաս,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , , , , , 
+joseph_sold,Հովսեփը ոզեֆը վաճառվել է որպես ստրուկ 17 տարեկան հասակում - Gen 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , , , , , 
+infliction,400 տարվա բռնություն (Գործք 7: 6) - Իսմայել 1913 B.C.e,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , , , , , 
+Alexander,Ալեքսանդր Մեծը (Դանիել 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , , , , , 
+persia,"Cyrus the Great, Cambyses II, Darius I 490 մ.թ.ա., Xerxes I 480 մ.թ.ա. (Եսթեր, Դանիել 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , , , , , 
+king_north,"Seleucus i Nicator (v5) Սիրիա Անտիոքոս III (V10) եւ Seleucus IV (V18, 19) դեպի Օկտավյան (V20) եւ Tiberius (V21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , , , , , 
+king_north1,Հյուսիսային թագավոր,King of the North, ,text,False, , , , , , , , 
+king_south,"Ptolemy I, II, III, IV (V11, 12), v (v15, 16) մարտական ​​ակտուալ actium 31 b.c.e.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , , , , , 
+king_south1,Հարավի թագավոր,King of the South, ,text,False, , , , , , , , 
+king_south2,"British Empire 1870, անգլո-ամերիկյան աշխարհի իշխանությունը 1914 թվականից ի վեր","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , , , , , 
+king_south3,Հարավի թագավոր,King of the South, ,text,False, , , , , , , , 
+king_north2,"Գերմանիան Emperor William I 1871 (V28), 1914 (V29), 1935 (V30B), 1939 (V31A)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , , , , , 
+king_north3,Հյուսիս,North, ,text,False, , , , , , , , 
+king_north4,"Խորհրդային Միություն 1945-1991 (Դանիել 11: 32-39, 40 բ, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , , , , 
+king_north5,Ռուսաստանը 2017 թվականից (մայիսի),Russia since 2017 (w20 May), ,text,False, , , , , , , , 
+time_of_end,"Քրիստոսի առկայություն, իրերի համակարգի եզրակացություն (Մատթեոս 24: 3), վերջին օրերը (2 Տիմոթեոս 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , , , , , 
+time_of_end2,Վերջին օրերը,Last days, ,text,False, , , , , , , , 
+suryavaman2,King Suryavarman II- ը կառուցում է Angkor Wat 1113-1150- ը,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , , , , , 
+notre-dame,Notre-Dame de Paris- ը կառուցեց 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , , , , , 
+babel,Կառուցվել է Բաբելի աշտարակ,Tower of Babel built, ,text,False, , , , , , , , 
+infliction1,400 տարվա բռնություն,400 year infliction,Acts 7:6,text,False, , , , , , , , 
+Lots_wife,Ղովտի կինը,Lot’s wife, ,text,False, , , , , , , , 
+Lots_daughters,Լոտի դուստրերը,Daughters of Lot, ,text,False, , , , , , , , 
+Moab,Մովաբ (ավելի մեծ դուստր),Moab (older daughter),Genesis 19:37,text,False, , , , , , , , 
+rosetta,Rosetta Stone 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False, , , , , , , , 
+Herodotus,"Herodotus c. 484 - գ. 425 մ.թ.ա., գրում է պատմությունները","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , , 
+Aristotle,Aristotle 384 - 322 մ.թ.ա.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , , 
+Ptolemy,Ptoleme C 100 - C. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , , 
+Pythagoras,Pythagoras գ. 570 - գ. 495 մ.թ.ա.,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , , 
+Plato,Պլատո գ. 427 - գ. 348 մ.թ.ա.,Plato c. 427 – c. 348 BC, ,text,False, , , , , , , , 
+Socrates,Սոկրատես գ. 470 - գ. 399 մ.թ.ա.,Socrates c. 470 – c. 399 BC, ,text,False, , , , , , , , 
+Josephus,Josephus c. 37 - գ. 100 C.E.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , , , , 
+Cicero,Cicero 106-43 մ.թ.ա.,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , , , , 
+lachish_letters,Լաչիշ տառեր գ. 590 B.C.E.,Lachish letters c. 590 B.C.E., ,text,False, , , , , , , , 
+lachish_reliefs,Lachish Reliefs c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , , , , , 
+mesha_stele,Mesha stele (Moabite Stone) գ. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , , , , , 
+gilgamesh,Գիլգամեշներ եւ Ագա,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , , , , 
+epic_gilgamesh,Gilgamesh (sîn-lēqi-unninni) Epic,Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , , , , 
+gregorian,Գրեգորյան օրացույց 1582,Gregorian calendar 1582, ,text,False, , , , , , , , 
+shang-dynasty,գ. 1600-1046 մ.թ.ա.,c. 1600-1046 BC, ,text,False, , , , , , , , 
+western-zhou,գ. 1046-771 մ.թ.ա.,c. 1046-771 BC, ,text,False, , , , , , , , 
+qin-dynasty,Qin 221-207 մ.թ.ա.,Qin 221-207 BC, ,text,False, , , , , , , , 
+western-han,207 մ.թ.ա. 9 մ.թ.,207 BC – 9 CE, ,text,False, , , , , , , , 
+three-kingdoms,Երեք թագավորություն 220-280 մ.թ.,Three kingdoms 220-280 CE, ,text,False, , , , , , , , 
+sixteen-kingdoms,Վաթսուն թագավորություններ 304-439 մ.թ.,Sixteen kingdoms 304-439 CE, ,text,False, , , , , , , , 
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , , , , 
+wu-zhou,690-705 Ուու Ժո,690-705 Wu Zhou, ,text,False, , , , , , , , 
+tang-dynasty1_c,Շիվ,Tang, ,text,False, , , , , , , , 
+gonghe,Gonghe Regency 841-828 մ.թ.ա.,Gonghe Regency 841-828 BC, ,text,False, , , , , , , , 
+Ashoka,Աշոկա (գ. 304-232 մ.թ.ա.) Խթանում է բուդդիզմը,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , , , , 
+siloam-tunnel,Եզեկիան երկարացնում է Siloam թունելը,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , , , , 
+Angloamerica2,"Անգլո-ամերիկացին խորհրդանշում է Դանիելում 2:33, 41-43-ում մարգարեության մեջ խառնած երկաթի ոտքերով","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , , , , 
+Manetho,Մանեթոն գրում է Agyptiaca- ն,Manetho writes Aegyptiaca, ,text,False, , , , , , , , 
+destruction_babylon,"Բաբելոնի մեծի ոչնչացում (Հայտնություն 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , , , , 
+peace_security,"«Խաղաղություն և անվտանգություն». (1 Թեսաղոնիկեցիս 5:3, սա մեկ հնարավորություն է, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , , , , 
+gog_of_magog,"Մագոգի Գոգի հարձակումը (Եզեկի նահանգ 3, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , , , , 
+sheep_goat,"Երկրի բնակիչները դատվում են, ոչխարներ եւ այծեր առանձնացնում են (Մատթեոս 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , , , , 
+annointed,Թագավորության տիրակալների հավաքում (Մատթեոս 24:31; 1 Կորնթացիներ 15: 50-53; 1 Թեսաղոնիկեցիներ 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , , , , 
+armageddon,"Արմագեդոնի ճակատամարտը (Հայտնություն 16:14, 16; Եսայիա 13: 9; 2 Պետ. 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , , , , 
+millenium,"Աստծո Թագավորությունը սկսում է իր 1000-ամյա թագավորությունը (Հայտնություն 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , , , , 
+great_crowd,"Մեծ ամբոխը գոյատեւում է Արմագեդոնում (Հայտնություն 7: 9, 14; Սաղմոս 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , , , , 
+world_population,Բնակչությունը միլիարդներով վերջին 2000 տարիների ընթացքում,World population in billions in the last 2000 years, ,text,False, , , , , , , , 
+khmer_empire_c,Խմեր կայսրություն - Angkor ժամանակաշրջան,Khmer Empire - Angkor period, ,text,False, , , , , , , , 
+holy_roman_empire_c,Սուրբ Հռոմեական կայսրություն - 1512-ից հետո հայտնի է գերմանական ազգի Սուրբ Հռոմեական կայսրություն,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , , , , 
+mongol_empire,Mongol Empire 1206 - 1294 C.E.,Mongol Empire 1206 – 1294, ,text,False, , , , , , , , 
+maya_classic_c,Մայա քաղաքակրթություն - դասական ժամանակաշրջան,Maya civilization – Classic period, ,text,False, , , , , , , , 
+maya_postclassic_c,Մայա քաղաքակրթություն - Postclassic ժամանակաշրջան,Maya civilization – Postclassic period, ,text,False, , , , , , , , 
+Teotihuacan,"Ամերիկայի ամենամեծ քաղաքը, բուրգերը կառուցում են գ. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , , , , 
+Dionysius_Exiguus,"Dionysius Exiguus, Anno Domini- ի գյուտարար","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , , , , 
+Umayyad_c,Umayyad,Umayyad, ,text,False, , , , , , , , 
+ur3,Ur III դինաստիա 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , , , , 
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , , , , 
+Al-Khwarizmi,al-khwarizmi- ն ասում է «Ալ-Յաբր» -ը (հանրահաշիվ),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , , 
+al-azhar,Կահիրեում ստեղծվում է ալ-Ազարի համալսարան,Al-Azhar University is established in Cairo, ,text,False, , , , , , , , 
+Ibn-Sina,Ibn Sina կամ Avicenna,Ibn Sina or Avicenna, ,text,False, , , , , , , , 
+life-expectancy,Կյանքի տեւողությունը 75 տարի,Life expectancy 75 years, ,text,False, , , , , , , , 
+430years_c,"430 տարի. Ելից 12:41, Գաղատացիս 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , , 
+maya_calendar,"Մայայի օրացույցի հաշվարկված սկիզբ Օգոստոսի 11, 3114 B.C.E.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , , 
+xia-dynasty2,գ. 2070 - գ. Մ.թ.ա. 1600; ERA- ն առաջին անգամ ակնարկեց արեւմտյան Ժոու շրջանում,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , , , , 
+xia-dynasty2_c,Xia Dynasty- ը Չինաստանում,Xia dynasty in China, ,text,False, , , , , , , , 
+tres_zapotes,"Սեպտեմբերի 3-ին, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , , , , 
+joseph_jacob_reunited,Հովսեփը ոզեֆը եւ Հակոբը վերամիավորվեցին Եգիպտոսում `1728 B.C.E. (Gen 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , , , , 
+king_south_light_c,Հարավային թագավոր Դանիել 11-ից,King of the South from Daniel 11,2025-02-05,text,False, , , , , , , , 
+king_north_light_c,Հյուսիսային թագավոր Դանիել 11-ից,King of the North from Daniel 11,2025-02-05,text,False, , , , , , , , 
+daniel2_iron_c,Երկաթե ոտքեր Դանիել 2-ից,Iron legs from Daniel 2,2025-02-05,text,False, , , , , , , , 
+argenteus,Codex Argenteus գ. 505 թ,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , , , , 
+nguyen_dynasty_c,Նգույան,Nguyễn,2025-09-20,text,False, , , , , , , , 
+edo_c,Էդո ժամանակաշրջանը Ճապոնիայում,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , , , , , 
+meiji_c,Մեյջի,Meiji,2025-09-20,text,False, , , , , , , , 
+american_civil_war,Ամերիկյան քաղաքացիական պատերազմ 1861-1865 թթ,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , , , , , 
+aleppo_codex,Հալեպի կանոնագիրք գ. 920 թ,Aleppo Codex c. 920,2025-10-03,text,False, , , , , , , , 
+vandals,Վանդալների և Ալանների թագավորություն 435 – 534 թթ,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , , , , , 
+francia,"գ. 481/509 – 843, Մերովինգյան մինչև 751, ապա Կարոլինգյան","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , , , , , 
+francia_c,Ֆրանկների թագավորություն,Kingdom of the Franks, ,text,False, , , , , , , , 
+100_years_war,Հարյուրամյա պատերազմ 1337 - 1453 թթ,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , , , , 
+black_death,Սև մահ 1346-1353 թթ,Black death 1346-1353,1346-1353,text,False, , , , , , , , 
+sui_dynasty,581-618 Սուի դինաստիա,581-618 Sui dynasty,2025-11-09,text,False, , , , , , , , 
+sui_dynasty_c,Սուի,Sui,2025-11-09,text,False, , , , , , , , 
+tribulation,Մեծ նեղությունը (Մարկոս ​​13:19; Դանիէլ 12.1; 22),"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , , , , , 
+Adam,Ադամ,Adam,Luke 3:38,bible,True, , , , , , , , 
+Seth,Սեթ,Seth, ,bible,True, , , , , , , , 
+Enosh,Ենոս,Enosh, ,bible,True, , , , , , , , 
+Kenan,Կայնան,Kenan (Cainan),Genesis 5:12,bible,False, , , , , , , , 
+Mahalalel,Մաղալալել,Mahalalel (Mahalaleel),Genesis 5:15,bible,False, , , , , , , , 
+Jared,Հարեդ,Jared, ,bible,True, , , , , , , , 
+Enoch,Ենոք,Enoch, ,bible,True, , , , , , , , 
+Methuselah,Մաթուսաղայ,Methuselah,Luke 3:37,bible,True, , , , , , , , 
+Lamech,Ղամեք,Lamech, ,bible,True, , , , , , , , 
+Noah,Նոյ,Noah, ,bible,True, , , , , , , , 
+Shem,Սեմ,Shem, ,bible,True, , , , , , , , 
+Arpachshad,Արփաքսադ,Arpachshad,Luke 3:36,bible,True, , , , , , , , 
+Shelah,Սաղայ,Shelah, ,bible,True, , , , , , , , 
+Eber,Եբեր,Eber, ,bible,True, , , , , , , , 
+Peleg,Փալեկ,Peleg, ,bible,True, , , , , , , , 
+Reu,Ռագավ,Reu, ,bible,True, , , , , , , , 
+Serug,Սերուգ,Serug,Luke 3:35,bible,True, , , , , , , , 
+Nahor,Նաքոր,Nahor,Genesis 11:24,bible,True, , , , , , , , 
+Terah,Թարայ,Terah, ,bible,True, , , , , , , , 
+Abraham,Աբրահամ,Abraham, ,bible,True, , , , , , , , 
+Isaac,Իսահակ,Isaac, ,bible,True, , , , , , , , 
+Jacob,Հակոբ,Jacob,Luke 3:34,bible,True, , , , , , , , 
+Joseph,Հովսեփը,Joseph,Genesis 37,bible,False, , , , , , , , 
+Moses,Մովսես,Moses, ,bible,False, , , , , , , , 
+Othniel,Օթնիել,Othniel,Judges 3:9-11,bible,False, , , , , , , , 
+Ehud,Էհուդ,Ehud,Judges 3:15-18,bible,False, , , , , , , , 
+Shamgar,Շամգար,Shamgar,Judges 3:31,bible,False, , , , , , , , 
+Barak,Բարագ,"Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , , , , 
+Gideon,Գիդեոն,Gideon,Judges 7:1,bible,False, , , , , , , , 
+Tola,Տոլա,Tola,Judges 10:1,bible,False, , , , , , , , 
+Jair,Ձի,Jair,Judges 10:3,bible,False, , , , , , , , 
+Jephthah,Շֆթա,Jephthah,Judges 11:1,bible,False, , , , , , , , 
+Ibzan,Իբզան,Ibzan,Judges 12:8,bible,False, , , , , , , , 
+Elon,Տերոն,Elon,Judges 12:11,bible,False, , , , , , , , 
+Abdon,Աբդոն,Abdon,Judges 12:13,bible,False, , , , , , , , 
+Samson,Սամսոն,Samson,Judges 13:24,bible,False, , , , , , , , 
+Samuel,Սամուել,Samuel,1 Samuel 1:20,bible,False, , , , , , , , 
+Saul,Սեր,Saul,1 Samuel 9:2,bible,False, , , , , , , , 
+David,Դավիթ,David,1 Samuel 16:13,bible,False, , , , , , , , 
+Solomon,Սողոմոն,Solomon,1 Kings 2:1,bible,False, , , , , , , , 
+Malachi,Մաղաքիա,Malachi, ,bible,True, , , , , , , , 
+Ruth,Հռութ,Ruth, ,bible,True, , , , , , , , 
+Ezra,Էզրա,Ezra, ,bible,False, , , , , , , , 
+Nehemiah,Նեեմիա,Nehemiah, ,bible,False, , , , , , , , 
+Esther,Էսեր,Esther, ,bible,False, , , , , , , , 
+Job,Հոբ,Job, ,bible,True, , , , , , , , 
+moses3,Մովսես,Moses, ,bible,False, , , , , , , , 
+joshua2,Joshua,Joshua, ,bible,False, , , , , , , , 
+caleb2,Քեյլեբ,Caleb, ,bible,False, , , , , , , , 
+Augustus,Օգոստոս,Augustus,Luke 2:1,bible,False, , , , , , , , 
+Tiberius,Տիբերիոս,Tiberius,Luke 3:1,bible,False, , , , , , , , 
+Claudius,Կլավդիոս,Claudius,Acts 11:28,bible,False, , , , , , , , 
+persia2,Պարսկերեն,Persia, ,bible,False, , , , , , , , 
+jehoiada,Էհովաադա,Jehoiada,2 Kings 11:4,bible,False, , , , , , , , 
+Haggai,Հագ,Haggai, ,bible,False, , , , , , , , 
+Zerubbabel,Զերուբաբել (Ղուկաս 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , , , , 
+Jacob2,Հակոբ /,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , , , , 
+Israel,Նսեմ,Israel,Genesis 35:10,bible,False, , , , , , , , 
+Sarah,Սառա,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , , , , 
+Hagar,Տական,Hagar,Genesis 21:14,bible,False, , , , , , , , 
+Haran,Խավ,Haran,Genesis 11:26,bible,False, , , , , , , , 
+Reumah,Ռեվա,Reumah,Concubine – 4 sons 22:24,bible,False, , , , , , , , 
+Milcah,Միլ,Milcah,8 sons (Bethuel and 7 more),bible,False, , , , , , , , 
+Lot,Լերձում,Lot,Genesis 11:27,bible,False, , , , , , , , 
+Ammon,Բեն-Ամմի (Ամոն),Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , , , , 
+Bethuel,Բեթուել,Bethuel,Genesis 22:23,bible,False, , , , , , , , 
+Rebekah,Ռեբեկան,Rebekah, ,bible,False, , , , , , , , 
+Laban,Լաբանի,Laban,Genesis 24:29,bible,False, , , , , , , , 
+Leah,Լիա,Leah,Genesis 35:23,bible,False, , , , , , , , 
+Rachel,Ռեյչել,Rachel,Genesis 35:24,bible,False, , , , , , , , 
+Bilhah,Բիլհա,Bilhah,Genesis 35:25,bible,False, , , , , , , , 
+Zilpah,Զիլպա,Zilpah,Genesis 35:26,bible,False, , , , , , , , 
+Reuben,Ռուբլի,Reuben, ,bible,False, , , , , , , , 
+Simeon,Սիմեոն,Simeon, ,bible,False, , , , , , , , 
+Levi,Լեւի,Levi,Genesis 35:23,bible,False, , , , , , , , 
+Judah,Հուդա,Judah, ,bible,False, , , , , , , , 
+Issachar,Իսթար,Issachar, ,bible,False, , , , , , , , 
+Zebulun,Զաբուլուն,Zebulun, ,bible,False, , , , , , , , 
+Dinah,Դինա,Dinah,Genesis 34,bible,False, , , , , , , , 
+Esau,Եսավը,Esau/, ,bible,False, , , , , , , , 
+Edom,Եռամիկոս,Edom,Genesis 36:1,bible,False, , , , , , , , 
+Ishmael,Իսմայել,Ishmael,Genesis 16:16,bible,False, , , , , , , , 
+Manasseh2,(Մանասե,(Manasseh,Genesis 41:50-52,bible,False, , , , , , , , 
+Ephraim,եւ Եփրեմ),and Ephraim), ,bible,False, , , , , , , , 
+Benjamin,Բենջամին,Benjamin, ,bible,False, , , , , , , , 
+Dan,Դան,Dan,Genesis 35:23,bible,False, , , , , , , , 
+Naphtali,Նեֆթալի,Naphtali, ,bible,False, , , , , , , , 
+Gad,Գադ,Gad, ,bible,False, , , , , , , , 
+Asher,Ասեր,Asher, ,bible,False, , , , , , , , 
+Milcah1,"Ուզ, Բուզ, Քեմուել,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , , , , 
+Milcah2,"Քազադը, Ազավը,","Chesed, Hazo,", ,bible,False, , , , , , , , 
+Milcah3,"Փալդասը, Հետլափն","Pildash, Jidlaph", ,bible,False, , , , , , , , 
+Tebah,Արբան,Tebah,Genesis 22:24,bible,False, , , , , , , , 
+Gaham,Հայհոա,Gaham, ,bible,False, , , , , , , , 
+Tahash,Տահաշ,Tahash, ,bible,False, , , , , , , , 
+Maacah,Մաակա,Maacah, ,bible,False, , , , , , , , 
+Mahalath,Մայելեթին՝/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , , , , 
+Basemath,Հիմծառկոտ,Basemath,"Genesis36:3, 4",bible,False, , , , , , , , 
+Reuel,Ռեէլա,Reuel,"36:13, 17",bible,False, , , , , , , , 
+Nahath,Նահաթ,Nahath, ,bible,False, , , , , , , , 
+Zerah,Զայան,Zerah, ,bible,False, , , , , , , , 
+Schammah,Շամմ,Schammah, ,bible,False, , , , , , , , 
+Mizzah,Մածուցիկ,Mizzah, ,bible,False, , , , , , , , 
+Adah,Ադդա,Adah,"36:11, 12, 15, 16",bible,False, , , , , , , , 
+Eliphaz,Տոհմ,Eliphaz, ,bible,False, , , , , , , , 
+Teman,Թեման,Teman, ,bible,False, , , , , , , , 
+Omar,Օմար,Omar, ,bible,False, , , , , , , , 
+Zepho,Զեֆո,Zepho, ,bible,False, , , , , , , , 
+Kenaz,Քենազ,Kenaz, ,bible,False, , , , , , , , 
+Korah,Կորեա,Korah, ,bible,False, , , , , , , , 
+Korah_Gatam,"Կորահ, Գաթամ","Korah, Gatam","Genesis 36:11, 16",bible,False, , , , , , , , 
+Amalek,Ամալեկ,Amalek, ,bible,False, , , , , , , , 
+Oholibamah,Օլիբաման,Oholibamah,"36:14, 18",bible,False, , , , , , , , 
+Jeush,Շիշ,Jeush, ,bible,False, , , , , , , , 
+Jalam,Հեգլոմ,Jalam, ,bible,False, , , , , , , , 
+Nebaioth,Նեբաոթ,Nebaioth,Genesis 25:13,bible,False, , , , , , , , 
+Kedar,Կեդար,Kedar, ,bible,False, , , , , , , , 
+Mishma,Ոչխար,Mishma, ,bible,False, , , , , , , , 
+Adbeel_Mibsam,"Ադբել, Միբսամ","Adbeel, Mibsam",Genesis 25:13,bible,False, , , , , , , , 
+Dumah_Massa,"Դումա, Մասսա","Dumah, Massa",Genesis 25:14,bible,False, , , , , , , , 
+Hadad,Քոդադ,Hadad, ,bible,True, , , , , , , , 
+Tema,Թեմա,Tema, ,bible,True, , , , , , , , 
+Jetur,Հետուր,Jetur, ,bible,True, , , , , , , , 
+Naphish,Նաֆես,Naphish, ,bible,True, , , , , , , , 
+Kedemah,Կեդմա,Kedemah, ,bible,True, , , , , , , , 
+Keturah,Կետուրա,Keturah,Genesis 25:1-4,bible,True, , , , , , , , 
+Zimran,Զիմրան,Zimran, ,bible,True, , , , , , , , 
+Jokshan,Նոքշան,Jokshan, ,bible,True, , , , , , , , 
+Medan,Մեդայել,Medan, ,bible,True, , , , , , , , 
+Midian,Մադիան,Midian, ,bible,True, , , , , , , , 
+Ishbak,Իշբակ,Ishbak, ,bible,True, , , , , , , , 
+Shuah,Շուհի,Shuah, ,bible,True, , , , , , , , 
+Timna,Տիմնա,Timna,"1 Chr 1:36, Ge 36:10-12",bible,True, , , , , , , , 
+life-expectancy2,(Սաղմոս 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , , , , 
+Ham,Խոզապուխտ,Ham,Gen 10:1,bible,False, , , , , , , , 
+Canaan,Քանան,Canaan,Gen 10:6,bible,False, , , , , , , , 
+Sidon,Սիդոն,Sidon,Gen 10:15,bible,False, , , , , , , , 
+Heth,Հեթ,Heth,Gen 10:15,bible,False, , , , , , , , 
+Jebusite,Յեբուսացի,Jebusite,Gen 10:16,bible,False, , , , , , , , 
+Amorite,Ամորացի,Amorite,Gen 10:16,bible,False, , , , , , , , 
+Girgashite,Գիրգաշիտ,Girgashite,Gen 10:16,bible,False, , , , , , , , 
+Hivite,Հիվիտ,Hivite,Gen 10:17,bible,False, , , , , , , , 
+Arkite,Արկիտե,Arkite,Gen 10:17,bible,False, , , , , , , , 
+Sinite,Սինիտ,Sinite,Gen 10:17,bible,False, , , , , , , , 
+Arvadite,Արվադիտ,Arvadite,Gen 10:18,bible,False, , , , , , , , 
+Zemarite,Զեմարիտ,Zemarite,Gen 10:18,bible,False, , , , , , , , 
+Hamathite,Համաթիտ,Hamathite,Gen 10:18,bible,False, , , , , , , , 
+Cush,Քուշ,Cush,Gen 10:6,bible,False, , , , , , , , 
+Nimrod,Նեբրոդ,Nimrod,Gen 10:8,bible,False, , , , , , , , 
+Mizraim,Միզրայմ,Mizraim,Gen 10:14,bible,False, , , , , , , , 
+Casluh,Կասլուհ,Casluh,1 Chronicles 1:12 (Philistines),bible,False, , , , , , , , 
+Japheth,Յաֆեթ,Japheth,Gen 10:1,bible,False, , , , , , , , 
+Asshur,Աշուր,Asshur,Gen 10:22,bible,False, , , , , , , , 
+Lud,Լյուդ,Lud,Gen 10:22,bible,False, , , , , , , , 
+Aram,Արամ,Aram,Gen 10:22,bible,False, , , , , , , , 
+Elam,Էլամ,Elam,Gen 10:22,bible,False, , , , , , , , 
+Joktan,Ջոկտան,Joktan,Gen 10:26,bible,False, , , , , , , , 
+Almodad,Ալմոդադ,Almodad,Gen 10:26,bible,False, , , , , , , , 
+Sheleph,Շելեֆ,Sheleph,Gen 10:26,bible,False, , , , , , , , 
+Hazarmareth,Հազարմարեթ,Hazarmareth,Gen 10:26,bible,False, , , , , , , , 
+Jerah,Ջերա,Jerah,Gen 10:26,bible,False, , , , , , , , 
+Hadoram,Հադորամ,Hadoram,Gen 10:27,bible,False, , , , , , , , 
+Uzal,Ուզալ,Uzal,Gen 10:27,bible,False, , , , , , , , 
+Diklah_Obal,"Դիկլահ, Օբալ","Diklah, Obal",Gen 10:27,bible,False, , , , , , , , 
+Abimael,Աբիմայել,Abimael,Gen 10:28,bible,False, , , , , , , , 
+Sheba_Ophir,"Շեբա, Օֆիր","Sheba, Ophir","Gen 10:28, 29",bible,False, , , , , , , , 
+Havilah,Հավիլա,Havilah,Gen 10:29,bible,False, , , , , , , , 
+Jobab,Ջոբաբ,Jobab,Gen 10:29,bible,False, , , , , , , , 
+Ham_fn,1) Եգիպտացիներ՝ Սաղմոս 105։23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , , , , 
+Canaan_fn,2) Քանանացիներ՝ Հեսու 13։3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , , , , 
+Aram_fn,3) Արամեցիներ՝ Ովսեա 12։12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , , , , 
+Elam_fn,4) Էլամացիներ՝ Եզրաս 4։9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , , , , 
+Asshur_fn,5) Ասորեստանցիներ՝ Եզեկիել 27։23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , , , , 
+Casluh_fn,6) Փղշտացիներ՝ 1 Տարեգրություն 1։12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , , , , 
+Cush_fn,7) Եթովպացի [քուշի]՝ 2 Թագավորներ 19։9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , , , , 
+Edom_fn,8) Եդովմացիներ՝ Թվեր 20։14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False, , , , , , , , 
+Moab_fn,"9) Մովաբացիներ. Բ Օրինաց 23։3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False, , , , , , , , 
+Ammon_fn,10) Ամմոնացիներ՝ Հեսու 12։2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False, , , , , , , , 
+Midian_fn,"11) մադիանացիներ՝ Թվեր 31։2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False, , , , , , , , 
+Amalek_fn,12) Ամաղեկացիներ՝ 1 Սամուել 15։2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False, , , , , , , , 
+Teman_fn,13) Թեմանացիներ՝ Հոբ 42։7,13) Temanites: Job 42:7,2025-09-22,bible,False, , , , , , , , 
+Sidon_fn,14) Սիդոնացիներ՝ Զաքարիա 9։2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , , , , 
+Heth_fn,15) Խեթեր՝ Ծննդոց 15։20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , , , , 
+Jebusite_fn,16) Հեբուսացիներ՝ Հեսու 15։63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , , , , 
+Judith,Ջուդիթի՞ն։,Judith?,"Genesis 26:34, 35",bible,False, , , , , , , , 
+Lud_fn,17) Լիդիացիներ՝ 1 Տարեգրություն 1։17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , , , , 
+Ishmael_fn,18) Իսմայելացիներ՝ Ծննդոց 37։27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , , , , 
+Amorite_fn,19) Ամորհացիներ՝ Դատավորներ 6։10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , , , , 
+Hivite_fn,"20) Խևացիներ [Գաբաոն]՝ Հեսու 9։3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , , , , 
+Cain,Կայեն,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , , , , 
+Abel,Աբել,Abel,Genesis 4:2,bible,False, , , , , , , , 
+Irad,Իրադ,Irad,Genesis 4:18,bible,False, , , , , , , , 
+Mehujael,Մեհուջաել,Mehujael,Genesis 4:18,bible,False, , , , , , , , 
+Methushael,Մեթուշայել,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , , , , 
+Jabal,Ջաբալ,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , , , , 
+Jubal,Ջուբալ,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , , , , 
+Zillah,Զիլլա,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , , , , 
+Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , , , , 
+Naamah,Նաամա,Naamah,Genesis 4:22 his sister,bible,False, , , , , , , , 
+Rehoboam,Ռոբովամ,Rehoboam,first king of southern kingdom of Juda,A6-A,True, , , , , , , , 
+Abijah,Աբիա (Աբիամ),Abijah (Abijam),"3 years, also Abijam",A6-A,True, , , , , , , , 
+Asa,Ասա,Asa,A6-A,A6-A,True, , , , , , , , 
+Jehoshaphat,Հովսափատ,Jehoshaphat, ,A6-A,True, , , , , , , , 
+Jehoram2,Հովրամ,Jehoram, ,A6-A,True, , , , , , , , 
+Ahaziah,Օքոզիա,Ahaziah, ,A6-A,True, , , , , , , , 
+Athaliah,Գոթողիա թագուհի,Queen Athaliah,Queen Athaliah,A6-A,True, , , , , , , , 
+Jehoash,Հովաս,Jehoash, ,A6-A,True, , , , , , , , 
+Amaziah,Ամասիա,Amaziah, ,A6-A,True, , , , , , , , 
+Uzziah,Ուզիա (Ազարիա),Uzziah (Azariah),also Azariah,A6-A,False, , , , , , , , 
+Jeroboam,Հերոբովամ,Jeroboam,first king of northern 10-tribe kingdom,A6-A,True, , , , , , , , 
+Nadab,Նադաբ,Nadab,less than 2,A6-A,True, , , , , , , , 
+Baasha,Բաասա,Baasha, ,A6-A,True, , , , , , , , 
+Elah,Էլա,Elah, ,A6-A,True, , , , , , , , 
+Zimri,Զամրի,Zimri,Only 7 days in ca. 751 BCE,A6-A,True, , , , , , , , 
+OmriTibni,Ամրի և Թաբնի,Omri and Tibni together,4 years Omri and Tibni,A6-A,True, , , , , , , , 
+Omri,Ամրի (միանձնյա),Omri (alone),from 947 Omri alone,A6-A,True, , , , , , , , 
+Ahab,Աքաաբ,Ahab, ,A6-A,True, , , , , , , , 
+Jehoram,Հովրամ,Jehoram, ,A6-A,True, , , , , , , , 
+Jehu,Հեու,Jehu, ,A6-A,True, , , , , , , , 
+Jeoahaz,Հովաքազ,Jeoahaz, ,A6-A,True, , , , , , , , 
+JeoahazJehoash,Հովաքազ և Հովաս,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,True, , , , , , , , 
+Jehoash2,Հովաս (միանձնյա),Jehoash (alone),Jehoash (alone),A6-A,True, , , , , , , , 
+Jeroboam2,Հերոբովամ II,Jeroboam II, ,A6-A,True, , , , , , , , 
+Elijah,Ալիխա,Elijah, ,A6-A,False, , , , , , , , 
+Elisha,Ալիգա,Elisha, ,A6-A,False, , , , , , , , 
+Jonah,Հովնան,Jonah, ,A6-A,True, , , , , , , , 
+Amos,Ամոս,Amos, ,A6-A,True, , , , , , , , 
+Joel,Հովել,Joel, ,A6-A,True, , , , , , , , 
+Jotham,Հովաթամ,Jotham,A6-B,A6-B,True, , , , , , , , 
+Ahaz,Աքազ,Ahaz, ,A6-B,True, , , , , , , , 
+Hezekiah,Եզեկիա,Hezekiah, ,A6-B,True, , , , , , , , 
+Manasseh,Մանասե,Manasseh, ,A6-B,True, , , , , , , , 
+Amon,Ամոն,Amon, ,A6-B,True, , , , , , , , 
+Josiah,Հովսիա,Josiah, ,A6-B,True, , , , , , , , 
+Jehoahaz,Հովաքազ,Jehoahaz,Only 3 months,A6-B,True, , , , , , , , 
+Jehoiakim,Հովակիմ,Jehoiakim, ,A6-B,True, , , , , , , , 
+Jehoiachin,Հովաքին,Jehoiachin,Only 3 months 10 days,A6-B,True, , , , , , , , 
+Zedekiah,Սեդեկիա,Zedekiah, ,A6-B,True, , , , , , , , 
+Zechariah,Զաքարիա,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,True, , , , , , , , 
+Schallum,Սեղում,Schallum,only one month,A6-B,True, , , , , , , , 
+Menahem,Մանայեմ,Menahem, ,A6-B,True, , , , , , , , 
+Pekahiah,Փակեիա,Pekahiah, ,A6-B,True, , , , , , , , 
+Pekah,Փակեե,Pekah, ,A6-B,True, , , , , , , , 
+Hoshea,Օսեա,Hoshea,9 years from c. 748,A6-B,True, , , , , , , , 
+Hosea,Օսեե,Hosea, ,A6-B,True, , , , , , , , 
+Isaiah,Եսայիա,Isaiah, ,A6-B,True, , , , , , , , 
+Micah,Միքիա,Micah, ,A6-B,True, , , , , , , , 
+Zephaniah,Սոփոնիա,Zephaniah, ,A6-B,True, , , , , , , , 
+Nahum,Նաում,Nahum, ,A6-B,True, , , , , , , , 
+Jeremiah,Երեմիա,Jeremiah, ,A6-B,True, , , , , , , , 
+Habakuk,Ամբակում,Habakuk, ,A6-B,True, , , , , , , , 
+Daniel,Դանիել,Daniel, ,A6-B,True, , , , , , , , 
+Ezekiel,Եզեկիել,Ezekiel, ,A6-B,True, , , , , , , , 
+Obadiah,Աբդիա,Obadiah, ,A6-B,True, , , , , , , , 
+Babylon,"Դանիել 2:32, 36-38; 7: 4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , , , , 
+Medopersia,"Դանիել 2:32, 39; 7: 5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , , , , 
+Greece,"Դանիել 2:32, 39; 7: 6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , , , , 
+Rome,"Դանիել 2:33, 40; 7: 7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , , , , 
+Angloamerica,"Դանիել 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True, , , , , , , , 
+Babylon_c,Բաբելոն,Babylon, ,B9,True, , , , , , , , 
+Medopersia_c,Մարա-Պարսկաստան,Medo-Persia, ,B9,True, , , , , , , , 
+Greece_c,Հունաստան,Greece, ,B9,True, , , , , , , , 
+Rome_c,Հռոմ,Rome, ,B9,True, , , , , , , , 
+Angloamerica_c,Անգլո-Ամերիկա,Anglo-America, ,B9,True, , , , , , , , 
+daniel2_1,Նաբուգոդոնոսոր թագավորը,King Nebuchadnezzar,607 BCE,B9,True, , , , , , , , 
+daniel2_2,ավերում է Երուսաղեմը,destroys Jerusalem, ,B9,True, , , , , , , , 
+daniel2_3,նվաճում է Բաբելոնը,Conquers Babylon,539 BCE,B9,True, , , , , , , , 
+daniel2_4,"Կյուրոսը հրաման է արձակում,",Cyrus decrees return,537 BCE,B9,True, , , , , , , , 
+daniel2_5,որ հրեաները վերադառնան Երուսաղեմ,of Jews to Jerusalem, ,B9,True, , , , , , , , 
+daniel2_6,Ալեքսանդր Մակեդոնացին,Alexander the Great,331 BCE,B9,True, , , , , , , , 
+daniel2_7,նվաճում է Պարսկաստանը,conquers Persia, ,B9,True, , , , , , , , 
+daniel2_8,սկսում է իշխել Իսրայելի վրա,Rules over Israel,63 BCE,B9,True, , , , , , , , 
+daniel2_9,ավերում է Երուսաղեմը,Destroys Jerusalem,70 CE,B9,True, , , , , , , , 
+daniel2_10,Առաջին համաշխարհային պատերազմի,"During World War I,",1914-1918 CE,B9,True, , , , , , , , 
+daniel2_11,ընթացքում (մ. թ. 1914-1918) առաջ է գալիս,Anglo-American World Power, ,B9,True, , , , , , , , 
+daniel2_12,անգլո-ամերիկյան աշխարհակալ ուժը,comes into being,End 4.2,B9,True, , , , , , , , 
+607BCE,Մ. թ. ա. 607 թ.-ին,607 B.C.E.,accommodate for language,B9,True, , , , , , , , 
+539BCE,Մ. թ. ա. 539 թ.-ին,539 B.C.E.,systems in style:,B9,True, , , , , , , , 
+537BCE,Մ. թ. ա. 537 թ.-ին,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , , , , 
+331BCE,Մ. թ. ա. 331 թ.-ին,331 B.C.E.,so they need a word,B9,True, , , , , , , , 
+63BCE,Մ. թ. ա. 63 թ.-ին,63 B.C.E.,prior to the year,B9,True, , , , , , , , 
+70CE,Մ. թ. 70 թ.-ին,70 C.E.,and something,B9,True, , , , , , , , 
+1914CE,մ. թ. 1914-1918,1914-1918 C.E.,after the year,B9,True, , , , , , , , 
+7times,Հայտնություն 12: 9,Revelation 12:9, ,scripture,False, , , , , , , , 
+infliction2,Գործեր 7: 6,Acts 7:6, ,scripture,False, , , , , , , , 
+eastern-zhou,770-256 մ.թ.ա.,770-256 BC, ,span_bc,False, , , , , , , , 
+430years,1943 - 1513 B.C.E.,1943 – 1513 B.C.E., ,span_bce,False, , , , , , , , 
+eastern-han,25-220 մ,25-220 CE, ,span_ce,False, , , , , , , , 
+northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False, , , , , , , , 
+southern-dynasties,420-589 մ,420-589 CE, ,span_ce,False, , , , , , , , 
+khmer_empire,804 – 1431,804 – 1431, ,timespan,True, , , , , , , , 
+byzantine_empire,330 – 1453,330 – 1453, ,timespan,True, , , , , , , , 
+ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True, , , , , , , , 
+holy_roman_empire,800 – 924,800 – 924, ,timespan,True, , , , , , , , 
+holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True, , , , , , , , 
+inca_empire,1438 – 1533,1438 – 1533, ,timespan,True, , , , , , , , 
+gupta_empire,319 – 550,319 – 550, ,timespan,True, , , , , , , , 
+Umayyad,661 – 750,661 – 750, ,timespan,True, , , , , , , , 
+Abbasid,750 – 1258,750 – 1258, ,timespan,True, , , , , , , , 
+Mamluk,1250 – 1517,1250 – 1517, ,timespan,True, , , , , , , , 
+seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True, , , , , , , , 
+lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True, , , , , , , , 
+qing-dynasty,1636-1912,1636-1912, ,timespan,True, , , , , , , , 
+ming-dynasty,1368-1644,1368-1644, ,timespan,True, , , , , , , , 
+yuan-dynasty,1271-1368,1271-1368, ,timespan,True, , , , , , , , 
+southern-song,1127-1279,1127-1279, ,timespan,True, , , , , , , , 
+northern-song,960-1127,960-1127, ,timespan,True, , , , , , , , 
+western-xia,1038-1227,1038-1227, ,timespan,True, , , , , , , , 
+maya_classic,250–950,250–950, ,timespan,True, , , , , , , , 
+maya_postclassic,950-1539,950-1539, ,timespan,True, , , , , , , , 
+tran_dynasty,1225–1400,1225–1400, ,timespan,True, , , , , , , , 
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True, , , , , , , , 
+revival_le_dynasty,1533-1789,1533-1789, ,timespan,True, , , , , , , , 
+nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True, , , , , , , , 
+edo,1603 – 1868,1603 – 1868, ,timespan,True, , , , , , , , 
+meiji,1868 – 1912,1868 – 1912, ,timespan,True, , , , , , , , 
+Julius,Ուլուս,Julius, ,wiki,False, , , , , , , , 
+Caligula,Կալիգա,Caligula, ,wiki,False, , , , , , , , 
+Nero,Անոր,Nero, ,wiki,False, , , , , , , , 
+Galba-Otho-Vitellius,"Գալբա, Օթո եւ Վիտելիուս (չորս կայսրերի տարի)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , , , , 
+Vespasian,Vespasian,Vespasian, ,wiki,False, , , , , , , , 
+covid19,COVID-19,Covid-19, ,wiki,False, , , , , , , , 
+nicaea1,Նիկայի առաջին խորհուրդը,First Council of Nicaea, ,wiki,False, , , , , , , , 
+oxyrhynchus,Oxyrhynchus պապիրի,Oxyrhynchus Papyri, ,wiki,False, , , , , , , , 
+p52,Papyrus P52,Papyrus P52, ,wiki,False, , , , , , , , 
+qing-dynasty_c,Qing Dynasty,Qing dynasty,1636-1912,wiki,False, , , , , , , , 
+ming-dynasty_c,Ming Dynasty- ը կայսերական Չինաստանում,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , , , , 
+yuan-dynasty_c,Յուան,Yuan,1271-1368,wiki,False, , , , , , , , 
+southern-song_c,Հարավային երգ,Southern Song,1127-1279,wiki,False, , , , , , , , 
+northern-song_c,Հյուսիսային երգ,Northern Song,960-1127,wiki,False, , , , , , , , 
+western-xia_c,Արեւմտյան Xia,Western Xia,1038-1227,wiki,False, , , , , , , , 
+Copernicus,Նիկոլաուս Կոպեռնիկոս,Nicolaus Copernicus, ,wiki,False, , , , , , , , 
+Galileo,Գալիլեա Գալիլե,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , , , , 
+Newton,Իսահակ Նյուտոն,Isaac Newton, ,wiki,False, , , , , , , , 
+shang-dynasty_c,Շանգ դինաստիա,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , , , , 
+western-zhou_c,Արեւմտյան Ժո,Western Zhou,c. 1046-771 BC,wiki,False, , , , , , , , 
+eastern-zhou_c,Արեւելյան Ժո,Eastern Zhou,770-256 BC,wiki,False, , , , , , , , 
+western-han_c,Արեւմտյան Հան,Western Han,207 BC – 9 CE,wiki,False, , , , , , , , 
+eastern-han_c,Արեւելյան Հան,Eastern Han,25-220 CE,wiki,False, , , , , , , , 
+three-kingdoms_c,Շապիկ,China,Three kingdoms 220-280 CE,wiki,False, , , , , , , , 
+sixteen-kingdoms_c,Շապիկ,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , , , , 
+northern-dynasties_c,Հյուսիսային դինաստիաներ,Northern dynasties,368-581 CE,wiki,False, , , , , , , , 
+southern-dynasties_c,Հարավային դինաստիաներ,Southern dynasties,420-589 CE,wiki,False, , , , , , , , 
+tang-dynasty2_c,Թանգ դինաստիա,Tang dynasty,"618-690, 705-907",wiki,False, , , , , , , , 
+byzantine_empire_c,Բյուզանդական կայսրություն,Byzantine Empire, ,wiki,False, , , , , , , , 
+ottoman_empire_c,Օսմանյան կայսրություն,Ottoman Empire, ,wiki,False, , , , , , , , 
+Genghis,Ողբալի,Genghis Khan, ,wiki,False, , , , , , , , 
+inca_empire_c,Inca Empire,Inca empire, ,wiki,False, , , , , , , , 
+gupta_empire_c,Գուպտայի կայսրություն,Gupta Empire, ,wiki,False, , , , , , , , 
+Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False, , , , , , , , 
+Abbasid_c,Abbasid Caliphate,Abbasid Caliphate, ,wiki,False, , , , , , , , 
+Mamluk_c,Մամլուկ Սուլթանատ,Mamluk Sultanate, ,wiki,False, , , , , , , , 
+Al-Ghazali,Ալ-Ղազալին,Al-Ghazali,2024-07-30,wiki,False, , , , , , , , 
+wulfila,Վուլֆիլա Աստվածաշունչ,Wulfila Bible,2025-09-20,wiki,False, , , , , , , , 
+tran_dynasty_c,Trần դինաստիա,Trần dynasty, ,wiki,False, , , , , , , , 
+le_dynasty_c,Lê դինաստիա,Lê dynasty, ,wiki,False, , , , , , , , 
+revival_le_dynasty_c,Trịnh տերերը և Nguyễn տերերը,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False, , , , , , , , 
+seljuk_empire_c,Սելջուկյան կայսրություն,Seljuk empire, ,wiki,False, , , , , , , , 
+vandals_c,Վանդալներ,Vandals, ,wiki,False, , , , , , , , 
+lombard_c,Լոմբարդյան թագավորություն,Lombard Kingdom,2025-10-13,wiki,False, , , , , , , , 
+people,ժողովուրդ,people, ,deprecated,False, , , , , , , , 
+judges,դատավորներ,judges, ,deprecated,False, , , , , , , , 
+prophets,Մարգարեներ,prophets, ,deprecated,False, , , , , , , , 
+kings,թագավորներ,kings, ,deprecated,False, , , , , , , , 
+periods,Ժամանակներ,periods, ,deprecated,False, , , , , , , , 
+events,իրադարձություններ,events, ,deprecated,False, , , , , , , , 
+objects,Օբեկտներ կամ իրեր,objects or items, ,deprecated,False, , , , , , , , 
+event_destruction_samaria2,740 B.C.E. Ասորեստանի կողմից,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False, , , , , , , , 
+photodrama,«Ստեղծման ֆոտո-դրաման» առաջին անգամ ցուցադրվում է Նյու Յորքում 1914 թվականի հունվարի 11-ին,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False, , , , , , , , 
+truth_book,"«The շմարտությունը, որը տանում է դեպի հավերժական կյանք» գիրքը թողարկվում է 1968 թ",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False, , , , , , , , 
+jw_broadcasting,2014 թվականի հոկտեմբերին JW Broadcasting- ի մեկնարկը,Start of JW Broadcasting® in October 2014, ,deprecated,False, , , , , , , , 
+meeting_workbook,Midweek- ի նոր ձեւաչափը `« Հանդիպումների աշխատանքային գրքույկ »2016 թվականի հունվարից,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False, , , , , , , , 
+terahfam,Թերայի ընտանիքի անդամները,Members of Terah’s family, ,deprecated,False, , , , , , , , 
+metropolitan,2011-ին Մետրոպոլիտենի վթարի սկիզբը,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
+jw_org,Jw.org- ի մեկնարկը Թագավորության ծառայության ցուցումներով 2012 թ. Դեկտեմբեր,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
+Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
+daniel2_shift,30,30,Start 4.2,deprecated,False, , , , , , , , 
+Gatam,Գաթամ,Gatam, ,deprecated,False, , , , , , , , 
+Adbeel,Ադբեել,Adbeel, ,deprecated,False, , , , , , , , 
+Mibsam,Մաբսամ,Mibsam, ,deprecated,False, , , , , , , , 
+Dumah,Դումա,Dumah, ,deprecated,False, , , , , , , , 
+Massa,Մերկ,Massa, ,deprecated,False, , , , , , , , 
+tang-dynasty1, , , ,deprecated,False, , , , , , , , 
+xia-dynasty,Xia Dynasty- ը Չինաստանում գ. 2070 - գ. 1600 մ.թ.ա.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
+Midianites,"1) Մադիանի. Թվեր 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
+Moabites,"2) Մովաբացիներ. Օրի. 23: 3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
+Ammonites,3) Ամոնացիներ. Հեսու 12: 2,3) Ammonites: Joshua 12:2, ,deprecated,False, , , , , , , , 
+Edomites,4) Եդոմացիներ. Թվեր 20: 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
+Temanites,5) թեմանացի. Գործ 42: 7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
+Amalekites,6) Ամաղեկացիներ. 1 Սամուել 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
+king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 
+timeline_created,"Այս ժամանակացույցը ստեղծվում է 2023 թվականին, մարդկության պատմության ամենաթեժ տարին եւ վերջին 125,000 տարիները","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,False, , , , , , , , 
