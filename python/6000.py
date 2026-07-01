@@ -654,8 +654,8 @@ def create_periods():
         special_language = {"ilo", "kne"}                 # move maya postclassic one lower
         if language in special_language and key == "maya_postclassic":
             y_box = y_position(row.row_y + 1) - 9
-        if edition_2025 and row.key == "millenium":       # change for edition_2025
-            y_box = y_position(row.row_y - 14) - 9
+        # if edition_2025 and row.key == "millenium":       # change for edition_2025
+        #     y_box = y_position(row.row_y - 14) - 9
         # x_boxwidth = (end - start) * dots_year
         x_boxwidth = x_position(end) - x_position(start)
         if row.key == "millenium" and render_type == "print":
