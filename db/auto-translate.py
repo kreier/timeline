@@ -244,10 +244,23 @@ def check_existing(language, filename):
 
     dict_translated.to_csv(filename, index=False)
 
-    # Step 8.4: Compare the values in "link" between dict and dict_translated
+    # Step 8.4: Compare the values in "link" between dict and dict_translated - this will be interactive with three windows
+    # to see both wikipedia pages (reference and translated) and the dictionary entry, and decide which link to keep
     # Index both by 'key'
     # If there is no link yet, put the one from the referenc dictionary in. If there is a link, keep it. If the link is different, keep the one in dict_translated.
-
+    # dict_indexed = dict.set_index("key")
+    # trans_indexed = dict_translated.set_index("key")
+    # # Check if key in dict_translated has a link, if not, copy from dict
+    # for key in dict_indexed.index:
+    #     if key in trans_indexed.index:
+    #         if dict_indexed.at[key, "link"] != " ":
+    #             print(f"Checking link for key: {key}, found link: {dict_indexed.at[key, 'link']}, existing link: {trans_indexed.at[key, 'link']}")
+    #             # check if trans_indexed.at[key, "link"] is empty or different from dict_indexed.at[key, "link"]
+    #             if trans_indexed.at[key, "link"] == " " or trans_indexed.at[key, "link"] != dict_indexed.at[key, "link"]:
+    #                 print(f"Updating link for key: {key} to {dict_indexed.at[key, 'link']}")
+    #                 dict_translated.loc[dict_translated["key"] == key, "link"] = dict_indexed.at[key, "link"]
+    #             # trans_indexed.at[key, "link"] = dict_indexed.at[key, "link"]
+    # dict_translated.to_csv(filename, index=False)
 
 
     # It remains:
