@@ -1,573 +1,573 @@
-key,text,english,notes,tag,checked
-version,6.06,6.06, ,float,True
-pdf_title,6000 năm lịch sử loài người được hình dung,6000 years human history visualized,2026-06-30,text,True
-pdf_subject,Dòng thời gian của loài người,Timeline of humankind, ,text,True
-BCE,TCN,B.C.E.,appendix B9,B9,True
-CE,CN,C.E., ,B9,True
-month,tháng,month, ,text,True
-months,tháng,months, ,text,True
-day,ngày,day, ,text,True
-days,ngày,days, ,text,True
-to,đến,to, ,text,True
-Deluge,Trận Đại Hồng Thủy,Deluge, ,text,True
-moses2,1593 đến 1473 TCN – 120 tuổi,1593 to 1473 B.C.E. – 120 years, ,text,True
-temple1,Ni-san 1513 TCN đến Xi-u 1034 TCN,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,True
-69weeks,Giê-su báp-têm mùa thu 29 CN,Jesus baptized autumn 29 C.E., ,text,True
-year,năm,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True
-years,năm,years, ,text,True
-years_age,tuổi,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True
-age_kings,tuổi, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,True
-wilderness,Y-sơ-ra-ên trong đồng vắng 1513 đến 1473 TCN - 40 năm,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,True
-timespan_judges,1473 đến 1117 TCN – 356 năm,1473 to 1117 B.C.E. – 356 years, ,text,True
-timespan_judges2,Thời gian của Quan xét,Time of the judges, ,text,True
-temple2,479 năm mới xây dựng đền – 1 Các vua 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,True
-69weeks2,69 tuần cho đến lúc Đấng Mê-si – Đa-ni-ên 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,True
-jesus_service,"3,5 năm phục vụ Giê-su, được thực hiện 14 Ni-san 33 CN","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,True
-jesus_life,Chúa Giê-su sinh năm 2 TCN,Jesus born 2 B.C.E., ,text,True
-exile,70 năm Dân Y-sơ-ra-ên bị lưu đày tại Ba-by-lon (607 - 537 TCN) (Giê-rê-mi 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,True
-exile2,lưu đày,Exile, ,text,True
-7times2,"Bảy kỳ , “các kỳ dân ngoại” (Đa-ni-ên 4:16) – 2520 năm đến khi Nước Trời cai trị (thành lập) năm 1914 CN (Đa-ni-ên 4:23)",7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,True
-ww1,Thế chiến thứ nhất – 1914–1918,World War I – 1914–1918, ,text,True
-ww2,Thế chiến thứ hai – 1939–1945,World War II – 1939–1945, ,text,True
-30_year_war,Chiến tranh 30 năm ở châu Âu 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,True
-joshua,110 tuổi,110 years, ,text,True
-caleb,hơn 85 tuổi,more than 85 years, ,text,True
-missionary1,"Chuyến hành trình truyền giáo đầu tiên của Phao-lô, c. 47-48 CN với Ba-na-ba và Giăng Mác","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,True
-circumcision,"Vấn đề cắt bao quy đầu tại Antioch, hội nghị ở Jerusalem c. 49 CN","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,True
-missionary2,Chuyến hành trình truyền giáo thứ hai của Phao-lô c. 49-52 CN với Si-la (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,True
-missionary3,Chuyến hành trình truyền giáo thứ ba của Phao-lô c. 52-56 CN,Third Missionary Journey c. 52-56 C.E., ,text,True
-caesarea,Phao-lô bị giam ở Sê-sa-rê c. 56-58 CN,Paul in custody in Caesarea c. 56-58 C.E., ,text,True
-rome1,Phao-lô bị tù lần đầu ở Rô-ma c. 59-61 CN,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,True
-rome2,"Phao-lô bị tù lần thứ hai ở Rô-ma c. 65 CN, 2 Ti-mô-thê được viết, Phao-lô bị xử tử","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,True
-event_exodus,Ra khỏi xứ Ai-Cập vào ngày 14 tháng Ni-san năm 1513 TCN,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,True
-event_division_kingdom,Y-sơ-ra-ên chia làm hai nước 997 TCN,Division of Israel 997 BCE, ,text,True
-event_destruction_samaria,Sự hủy diệt Sa-ma-ri 740 TCN bởi người Assyria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,True
-event_destruction_jerusalem1,"Giê-ru-sa-lem bị hủy phá, dân chúng bị lưu đày sang Ba-by-lôn 607 TCN, 390 năm sau khi Y-sơ-ra-ên chia làm hai nước (Ê-xê-chi-ên 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,True
-event_temple_rebuilt,Xây lại đền thờ 515 TCN,Temple in Jerusalem rebuilt 515 B.C.E., ,text,True
-event_jerusalem_rebuilt,Tường thành Giê-ru-sa-lem xây lại 455 TCN,Jerusalem wall rebuilt 455 B.C.E., ,text,True
-event_destruction_jerusalem2,Sự phá hủy thành Giê-ru-sa-lem vào năm 70 CN bởi La Mã dưới thời Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,True
-event_1914,"Cuối thời kỳ của các dân ngoại (Lu-ca 21:24), Vương quốc của Đức Chúa Trời bắt đầu cai trị trên trời 1914","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,True
-became_king,làm vua lúc,becomes king at age,2025-04-14,text,True
-vulgate,Vulgate được hoàn thành bởi Jerome (bản dịch kinh thánh bằng tiếng Latin) c. 405 CN,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,True
-gutenberg,Kinh thánh Gutenberg in năm 1455,Gutenberg Bible printed 1455, ,text,True
-erasmus,"Năm 1516, Desiderius Erasmus xuất bản phần tân ước của kinh thánh trong tiếng Hy lạp ở Rotterdam.",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,True
-luther,Bản dịch Kinh thánh Luther vào tháng 9 năm 1522,Luther Bible translation in September 1522, ,text,True
-tyndale,Bản dịch Kinh thánh tiếng Anh của Tyndale 1536,English Bible translation by Tyndale 1536, ,text,True
-king_james,Kinh thánh King James 1611,King James Bible 1611, ,text,True
-69weeks3,"Chúa Giê-su bắt đầu rao truyền 29 CN (Lu-ca 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,True
-ransom,Giữa tuần “hy sinh để chấm dứt” Đa-ni-ên 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,True
-cornelius,Cọt-nây làm báp-têm vào cuối 70 tuần lễ (Đa-ni-ên 9:24) vào năm 36 CN.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,True
-columbus,Kết thúc thời kỳ tiền Colombia ở châu Mỹ 1492,End of the pre-columbian period in the Americas 1492, ,text,True
-declaration_independence,Tuyên ngôn độc lập của 13 thuộc địa ở Mỹ 1776,Declaration of independence of 13 colonies in America 1776, ,text,True
-tischendorf,Tischendorf phát hiện ra Codex Sinaiticus năm 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,True
-dead_sea_scrolls,Cuộn giấy Biển Chết được viết,Dead Sea Scrolls written, ,text,True
-septuagint,Bản Bảy Mươi LXX được dịch,Septuagint LXX translated, ,text,True
-watchtower,Số đầu tiên của tạp chí “Tháp Canh Si-ôn và sứ giả loan báo sự hiện diện của Đấng Ki-tô” được xuất bản năm 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,True
-jehovahs_witnesses,"Các Học viên Kinh Thánh lấy tên mới – Nhân Chứng Giê-hô-va (Ê-sai 43:10, 12) ở Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,True
-gilead_school,Trường Kinh Thánh Ga-la-át của Tháp Canh bắt đầu vào thứ Hai 1. 2. 1943,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,True
-new_world_translation1,"“Kinh Thánh—Bản dịch Thế Giới Mới” ra mắt tại Manchester, Anh quốc vào ngày 18. 6. 1960, khôi phục lại danh Giê-hô-va trong nhiều phần của Kinh Thánh","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,True
-new_world_translation2,"Kinh Thánh—Bản dịch Thế Giới Mới hiệu đính được ra mắt tại cuộc họp thường niên năm 2013 (bằng tiếng Việt ngày 02/04/2017), được tối ưu hóa để sử dụng kỹ thuật số và trực tuyến","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,True
-cold_war,Tình hình địa chính trị “Chiến tranh Lạnh” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,True
-codex_sinaiticus,Codex Sinaiticus được viết,Codex Sinaiticus written, ,text,True
-codex_vaticanus,Codex Vaticanus được viết,Codex Vaticanus written, ,text,True
-leningrad_codex,Leningrad Codex được viết ở Cairo năm 1008 CN,Leningrad Codex written in Cairo AD 1008, ,text,True
-john,Giăng viết “Khải huyền” khi bị lưu đày ở Bát-mô vào năm 96-98 CN,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,True
-buddha,Đức Phật – Siddhartha Gautama c.563-c.483 TCN,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,True
-buddha2,Đức Phật thay thế c. 480-400 TCN,Buddha alternatively c. 480-400 B.C.E., ,text,True
-mohammed,Mohammed c. 570-632,Mohammed c. 570-632, ,text,False
-confucius,Khổng Tử c.551-c.479 TCN,Confucius c.551-c.479 B.C.E., ,text,False
-hijrah,Hijrah - Mecca đến Medina 16. 7. 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False
-moses_escape,"1553 TCN Môi-se phải trốn khỏi Ai Cập – Xuất Ai Cập 2:15, Công vụ 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False
-10plagues,1513 TCN Ai Cập hứng chịu 10 tai vạ,1513 B.C.E Egypt receives 10 plagues, ,text,False
-joseph_sold,Giô-sép bị bán làm nô lệ ở tuổi 17 – Sáng thế 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False
-infliction,400 năm bị hà hiếp (Công vụ 7:6) – Ích-ma-ên 1913 TCN,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False
-Alexander,Alexander Đại Đế (Đa-ni-ên 11:3),Alexander the Great (Daniel 11:3), ,text,False
-persia,"Cyrus Đại Đế, Cambyses II, Darius I 490 TCN, Xerxes I 480 TCN (chồng của Ê-xơ-tê, Đa-ni-ên 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False
-king_north,"Seleukos I Nicator (v5) Syria đến Antiochus III (v10) và Seleukos IV (v18, 19) xuống Octavian (v20) và Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False
-king_north1,Vua phương Bắc,King of the North, ,text,True
-king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) tới Trận Actium 31 TCN","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,True
-king_south1,Vua phương Nam,King of the South, ,text,True
-king_south2,"Đế quốc Anh 1870, Cường quốc Thế giới Anh-Mỹ từ 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,True
-king_south3,Vua phương Nam,King of the South, ,text,True
-king_north2,"Đức với Hoàng đế William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False
-king_north3,Bắc,North, ,text,True
-king_north4,"Liên Xô 1945-1991 (Đa-ni-ên 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False
-king_north5,Nga kể từ năm 2017 (w20 tháng 5),Russia since 2017 (w20 May), ,text,False
-time_of_end,"Sự hiện diện của Đấng Ki tô, Sự kết thúc của hệ thống mọi sự (Ma-thi-ơ 24:3), ngày sau cùng (2 Ti-mô-thê 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False
-time_of_end2,Ngày cuối cùng,Last days, ,text,True
-suryavaman2,Vua Suryavarman II xây dựng Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,True
-notre-dame,Nhà thờ Đức Bà Paris được xây dựng 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,True
-babel,Tháp Ba-bên được xây dựng,Tower of Babel built, ,text,True
-infliction1,400 năm bị hà hiếp,400 year infliction,Acts 7:6,text,False
-Lots_wife,Vợ của Lót,Lot’s wife, ,text,True
-Lots_daughters,Con gái của Lót,Daughters of Lot, ,text,True
-Moab,Mô-áp (con gái lớn),Moab (older daughter),Genesis 19:37,text,True
-rosetta,Phiến đá Rosetta 196 TCN,Rosetta stone 196 B.C.E., ,text,False
-Herodotus,"Herodotus c. 484 – c. 425 TCN, viết Lịch sử","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False
-Aristotle,Aristoteles 384 – 322 TCN,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,True
-Ptolemy,Ptolemaeus c 100 – c. 170 CN,Ptolemy c 100 – c. 170 C.E., ,text,True
-Pythagoras,Pythagoras c. 570 – c. 495 TCN,Pythagoras c. 570 – c. 495 BC, ,text,True
-Plato,Platon c. 427 – c. 348 TCN,Plato c. 427 – c. 348 BC, ,text,True
-Socrates,Socrates c. 470 – c. 399 TCN,Socrates c. 470 – c. 399 BC, ,text,True
-Josephus,Josephus c. 37 – c. 100 CN,Josephus c. 37 – c. 100 C.E., ,text,True
-Cicero,Cicero 106–43 TCN,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,True
-lachish_letters,Chữ Lachish c. 590 TCN,Lachish letters c. 590 B.C.E., ,text,False
-lachish_reliefs,Phù điêu Lachish c. 681 TCN,Lachish reliefs c. 681 B.C.E., ,text,False
-mesha_stele,Tấm bia Mê-sa (Bia đá Mô-áp) c. 840 TCN,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False
-gilgamesh,Gilgamesh và Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,True
-epic_gilgamesh,Sử thi Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False
-gregorian,Lịch Gregory 1582,Gregorian calendar 1582, ,text,True
-shang-dynasty,c. 1600-1046 TCN,c. 1600-1046 BC, ,text,True
-western-zhou,c. 1046-771 TCN,c. 1046-771 BC, ,text,True
-qin-dynasty,Nhà Tần 221-207 TCN,Qin 221-207 BC, ,text,True
-western-han,207 TCN – 9 CN,207 BC – 9 CE, ,text,True
-three-kingdoms,Tam Quốc 220-280 CN,Three kingdoms 220-280 CE, ,text,True
-sixteen-kingdoms,Ngũ Hồ thập lục quốc 304-439 CN,Sixteen kingdoms 304-439 CE, ,text,True
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,True
-wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False
-tang-dynasty1_c,N. Đ.,Tang, ,text,True
-gonghe,Chu Thiệu cộng hòa 841-828 TCN,Gonghe Regency 841-828 BC, ,text,True
-Ashoka,A-dục vương (khoảng 304-232 TCN) quảng bá Phật giáo,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,True
-siloam-tunnel,Ê-xê-chia mở rộng đường hầm Siloam,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,True
-Angloamerica2,"Anh - Mỹ tượng trưng cho bàn chân bằng sắt trộn với đất sét theo lời tiên tri sách Đa-ni-ên 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,True
-Manetho,Manetho viết Aegyptiaca,Manetho writes Aegyptiaca, ,text,True
-destruction_babylon,"Sự hủy diệt Ba-by-lôn Lớn (Khải Huyền 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,True
-peace_security,"“Hòa bình và an ninh!” (1 Tê-sa-lô-ni-ca 5:3, đây là một khả năng, CH-ĐG 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False
-gog_of_magog,"Cuộc tấn công của Gót ở xứ Ma-gót (Êxê 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,True
-sheep_goat,"Cư dân trên đất sẽ bị phán xét, phân biệt chiên và dê (Ma-thi-ơ 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,True
-annointed,Những tín đồ được xức dầu còn sót lại sẽ được thu nhóm về trời (Ma-thi-ơ 24:31; 1 Cô-rinh-tô 15:50-53; 1 Tê-sa-lô-ni-ca 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,True
-armageddon,"Trận chiến Ha-ma-ghê-đôn (Khải huyền 16:14, 16; Ê-sai 13:9; 2 Phi-e-rơ 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,True
-millenium,"Nước Đức Chúa Trời bắt đầu trị vì 1.000 năm (Khải Huyền 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,True
-great_crowd,"Một đám đông sống sót sau Ha-ma-ghê-đôn (Khải huyền 7:9, 14; Thi thiên 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,True
-world_population,Dân số thế giới tính theo tỷ người trong 2000 năm qua,World population in billions in the last 2000 years, ,text,True
-khmer_empire_c,Đế quốc Khmer - thời kỳ Angkor,Khmer Empire - Angkor period, ,text,True
-holy_roman_empire_c,Đế quốc La Mã Thần thánh - sau năm 1512 Đế quốc La Mã Thần thánh của Quốc gia Đức,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,True
-mongol_empire,Đế quốc Mông Cổ 1206 – 1294,Mongol Empire 1206 – 1294, ,text,True
-maya_classic_c,Nền văn minh Maya – thời kỳ cổ điển,Maya civilization – Classic period, ,text,True
-maya_postclassic_c,Nền văn minh Maya – thời kỳ hậu cổ điển,Maya civilization – Postclassic period,Văn minh Maya? Wikipedia,text,True
-Teotihuacan,"Thành phố lớn nhất châu Mỹ, xây dựng kim tự tháp c. 200 CN","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,True
-Dionysius_Exiguus,"Dionysius Exiguus, nhà phát minh của Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False
-Umayyad_c,Umayyad,Umayyad, ,text,False
-ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,True
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,True
-Al-Khwarizmi,Al-Khwarizmi viết Al-Jabr (Đại số),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False
-al-azhar,Đại học Al-Azhar được thành lập tại Cairo,Al-Azhar University is established in Cairo, ,text,False
-Ibn-Sina,Ibn Sina hoặc Avicenna,Ibn Sina or Avicenna, ,text,True
-life-expectancy,tuổi thọ trung bình 75 năm,Life expectancy 75 years, ,text,False
-430years_c,"430 năm: Xuất Ai Cập 12:41, Ga-la-ti 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False
-maya_calendar,tính ngày bắt đầu của lịch Maya là ngày 11 tháng 8 năm 3114 TCN.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False
-xia-dynasty2,"khoảng năm 2070 – khoảng năm 1600 trước Công nguyên, những đề cập sớm nhất trong thời kỳ Tây Chu",c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False
-xia-dynasty2_c,Nhà Hạ ở Trung Quốc,Xia dynasty in China, ,text,False
-tres_zapotes,Ngày 3 tháng 9 năm 32 TCN,"September 3rd, 32 B.C.E.",2024-12-31,text,False
-joseph_jacob_reunited,Giô-sép và Gia-cốp đoàn tụ tại Ai Cập – 1728 TCN (Sáng thế 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False
-king_south_light_c,Vua phương Nam từ Đa-ni-ên 11,King of the South from Daniel 11,2025-02-05,text,True
-king_north_light_c,Vua phương Bắc từ Đa-ni-ên 11,King of the North from Daniel 11,2025-02-05,text,True
-daniel2_iron_c,Chân sắt từ Daniel 2,Iron legs from Daniel 2,2025-02-05,text,True
-argenteus,Codex argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False
-nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False
-edo_c,Thời kỳ Edo (Mạc phủ Tokugawa),Edo period in Japan,Edo period (Tokugawa shogunate),text,False
-meiji_c,Meiji,Meiji,2025-09-20,text,False
-american_civil_war,Nội chiến Mỹ 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,True
-aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920,2025-10-03,text,False
-vandals,Vương quốc Vandal và Alan 435 – 534 CN,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,True
-francia,"c. 481/509 – 843, Vương triều Meroving đến 751, sau đó là Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,True
-francia_c,Vương quốc Frank,Kingdom of the Franks, ,text,True
-100_years_war,Chiến tranh Trăm Năm 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False
-black_death,Cái Chết Đen 1346-1353,Black death 1346-1353,1346-1353,text,True
-sui_dynasty,581-618 Nhà Tùy,581-618 Sui dynasty,2025-11-09,text,True
-sui_dynasty_c,Tùy,Sui,2025-11-09,text,True
-tribulation,"Cơn Đại Nạn (Mác 13:19; Đa-ni-ên 12:1; Ma-thi-ơ 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,True
-Adam,A-đam,Adam,Luke 3:38,bible,True
-Seth,Sết,Seth,Luke 3:38,bible,True
-Enosh,Ê-nót,Enosh,Luke 3:38,bible,True
-Kenan,Kê-nan (Cai-nan),Kenan (Cainan),"Genesis 5:12, Luke 3:37",bible,True
-Mahalalel,Ma-ha-la-ên (Ma-ha-la-lê-ên),Mahalalel (Mahalaleel),"Genesis 5:15, Luke 3:37",bible,True
-Jared,Gia-rết,Jared,Luke 3:37,bible,True
-Enoch,Hê-nóc,Enoch,Luke 3:37,bible,True
-Methuselah,Mê-tu-sê-la,Methuselah,Luke 3:37,bible,True
-Lamech,Lê-méc,Lamech,Luke 3:36,bible,True
-Noah,Nô-ê,Noah,Luke 3:36,bible,True
-Shem,Sem,Shem,Luke 3:36,bible,True
-Arpachshad,A-bác-sát,Arpachshad,Luke 3:36,bible,True
-Shelah,Sê-lách,Shelah,Luke 3:35,bible,True
-Eber,Ê-be,Eber,Luke 3:35,bible,True
-Peleg,Bê-léc,Peleg,Luke 3:35,bible,True
-Reu,Rê-hu,Reu,Luke 3:35,bible,True
-Serug,Sê-rúc,Serug,Luke 3:35,bible,True
-Nahor,Na-cô,Nahor,"Luke 3:34, Genesis 11:24",bible,True
-Terah,Tha-rê,Terah,Luke 3:34,bible,True
-Abraham,Áp-ra-ham,Abraham,Luke 3:34,bible,True
-Isaac,Y-sác,Isaac,Luke 3:34,bible,True
-Jacob,Gia-cốp,Jacob,Luke 3:34,bible,True
-Joseph,Giô-sép,Joseph,Genesis 37,bible,True
-Moses,Môi-se,Moses,Exodus 2:10,bible,True
-Othniel,Ốt-ni-ên,Othniel,Judges 3:9-11,bible,True
-Ehud,Ê-hút,Ehud,Judges 3:15-18,bible,True
-Shamgar,Sam-ga,Shamgar,Judges 3:31,bible,True
-Barak,"Ba-rác, Đê-bô-ra, Gia-ên","Barak, Deborah, Jael",Judges 4:6,bible,True
-Gideon,Ghi-đê-ôn,Gideon,Judges 7:1,bible,True
-Tola,Thô-la,Tola,Judges 10:1,bible,True
-Jair,Giai-rơ,Jair,Judges 10:3,bible,True
-Jephthah,Giép-thê,Jephthah,Judges 11:1,bible,True
-Ibzan,Díp-xan,Ibzan,Judges 12:8,bible,True
-Elon,Ê-lôn,Elon,Judges 12:11,bible,True
-Abdon,Áp-đôn,Abdon,Judges 12:13,bible,True
-Samson,Sam-sôn,Samson,Judges 13:24,bible,True
-Samuel,Sa-mu-ên,Samuel,1 Samuel 1:20,bible,True
-Saul,Sau-lơ,Saul,1 Samuel 9:2,bible,True
-David,Đa-vít,David,1 Samuel 16:13,bible,True
-Solomon,Sa-lô-môn,Solomon,1 Kings 2:1,bible,True
-Malachi,Ma-la-chi,Malachi,bible book,bible,True
-Ruth,Ru-tơ,Ruth,bible book,bible,True
-Ezra,Ê-xơ-ra,Ezra,bible book,bible,True
-Nehemiah,Nê-hê-mi,Nehemiah,bible book,bible,True
-Esther,Ê-xơ-tê,Esther,bible book,bible,True
-Job,Gióp,Job,bible book,bible,True
-moses3,Môi-se,Moses,Exodus 2:10,bible,True
-joshua2,Giô-suê,Joshua,Exodus 17:14,bible,True
-caleb2,Ca-lép,Caleb,Numbers 13:30,bible,True
-Augustus,Au-gút-tơ (Augustus),Augustus,Luke 2:1,bible,True
-Tiberius,Ti-be-rơ (Tiberius),Tiberius,Luke 3:1,bible,True
-Claudius,Cơ-lo-đi-ô (Claudius),Claudius,Acts 11:28,bible,True
-persia2,Ba Tư,Persia,Esther 1:3,bible,True
-jehoiada,Giê-hô-gia-đa,Jehoiada,2 Kings 11:4,bible,True
-Haggai,Ha-gai,Haggai,bible book,bible,True
-Zerubbabel,Xô-rô-ba-bên (Lu-ca 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,True
-Jacob2,Gia-cốp/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,True
-Israel,Y-sơ-ra-ên,Israel,Genesis 35:10,bible,True
-Sarah,Sa-ra,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,True
-Hagar,Ha-ga,Hagar,Genesis 21:14,bible,True
-Haran,Cha-ran,Haran,Genesis 11:26,bible,True
-Reumah,Rê-u-ma,Reumah,Genesis 22:24 Concubine – 4 sons,bible,True
-Milcah,Minh-ca,Milcah,Genesis 22:20 - 8 sons (Bethuel and 7 more),bible,True
-Lot,Lót,Lot,Genesis 11:27,bible,True
-Ammon,Bên-am-mi (Am-môn),Ben-ammi (Ammon),Genesis 19:38,bible,True
-Bethuel,Bê-tu-ên,Bethuel,Genesis 22:23,bible,True
-Rebekah,Rê-bê-ca,Rebekah,Genesis 22:23,bible,True
-Laban,La-ban,Laban,Genesis 24:29,bible,True
-Leah,Lê-a,Leah,Genesis 35:23,bible,True
-Rachel,Ra-chên,Rachel,Genesis 35:24,bible,True
-Bilhah,Bi-la,Bilhah,Genesis 35:25,bible,True
-Zilpah,Xinh-ba,Zilpah,Genesis 35:26,bible,True
-Reuben,Ru-bên,Reuben,Genesis 35:23,bible,True
-Simeon,Si-mê-ôn,Simeon,Genesis 35:23,bible,True
-Levi,Lê-vi,Levi,Genesis 35:23,bible,True
-Judah,Giu-đa,Judah,Genesis 35:23,bible,True
-Issachar,Y-sa-ca,Issachar,Genesis 35:23,bible,True
-Zebulun,Xê-bu-lôn,Zebulun,Genesis 35:23,bible,True
-Dinah,Đi-na,Dinah,Genesis 34:1,bible,True
-Esau,Ê-sau/,Esau/,Genesis 36:1,bible,True
-Edom,Ê-đôm,Edom,Genesis 36:1,bible,True
-Ishmael,Ích-ma-ên,Ishmael,Genesis 16:16,bible,True
-Manasseh2,(Ma-na-se,(Manasseh,Genesis 41:51,bible,True
-Ephraim,và Ép-ra-im),and Ephraim),Genesis 41:52,bible,True
-Benjamin,Bên-gia-min,Benjamin,Genesis 35:24,bible,True
-Dan,Đan,Dan,Genesis 35:25,bible,True
-Naphtali,Nép-ta-li,Naphtali,Genesis 35:25,bible,True
-Gad,Gát,Gad,Genesis 35:26,bible,True
-Asher,A-se,Asher,Genesis 35:26,bible,True
-Milcah1,"Út-xơ, Bu-xơ, Kê-mu-ên,","Uz, Buz, Kemuel,",Genesis 22:21,bible,True
-Milcah2,"Kê-sết, Ha-xô","Chesed, Hazo,",Genesis 22:22,bible,True
-Milcah3,"Phin-đát, Dít-láp","Pildash, Jidlaph",Genesis 22:22,bible,True
-Tebah,Tê-ba,Tebah,Genesis 22:24,bible,True
-Gaham,Ga-ham,Gaham,Genesis 22:24,bible,True
-Tahash,Ta-hách,Tahash,Genesis 22:24,bible,True
-Maacah,Ma-a-ca,Maacah,Genesis 22:24,bible,True
-Mahalath,Ma-ha-lát/,Mahalath/,"Genesis 28:8, 9",bible,True
-Basemath,Bách-mát,Basemath,"Genesis 36:3, 4",bible,True
-Reuel,Rê-u-ên,Reuel,"Genesis 36:13, 17",bible,True
-Nahath,Na-hát,Nahath,Genesis 36:13,bible,True
-Zerah,Xê-rách,Zerah,Genesis 36:13,bible,True
-Schammah,Sam-ma,Schammah,Genesis 36:13,bible,True
-Mizzah,Mích-xa,Mizzah,Genesis 36:13,bible,True
-Adah,A-đa,Adah,"Genesis 36:11, 12, 15, 16",bible,True
-Eliphaz,Ê-li-pha,Eliphaz,Genesis 36:11,bible,True
-Teman,Thê-man,Teman,Genesis 36:11,bible,True
-Omar,Ô-ma,Omar,Genesis 36:11,bible,True
-Zepho,Xê-phô,Zepho,Genesis 36:11,bible,True
-Kenaz,Kê-na,Kenaz,Genesis 36:11,bible,True
-Korah,Cô-rê,Korah,Genesis 36:16,bible,True
-Korah_Gatam,"Cô-rê, Ga-tham","Korah, Gatam","Genesis 36:11, 16",bible,True
-Amalek,A-ma-léc,Amalek,Genesis 36:12,bible,True
-Oholibamah,Ô-hô-li-ba-ma,Oholibamah,"Genesis 36:14, 18",bible,True
-Jeush,Giê-úc,Jeush,Genesis 36:14,bible,True
-Jalam,Gia-lam,Jalam,Genesis 36:14,bible,True
-Nebaioth,Nê-ba-giốt,Nebaioth,Genesis 25:13,bible,True
-Kedar,Kê-đa,Kedar,Genesis 25:13,bible,True
-Mishma,Mít-ma,Mishma,Genesis 25:14,bible,True
-Adbeel_Mibsam,"Át-bê-ên, Mi-bô-sam","Adbeel, Mibsam",Genesis 25:13,bible,True
-Dumah_Massa,"Đu-ma, Mác-sa","Dumah, Massa",Genesis 25:14,bible,True
-Hadad,Ha-đát,Hadad,Genesis 25:15,bible,True
-Tema,Thê-ma,Tema,Genesis 25:15,bible,True
-Jetur,Giê-thu,Jetur,Genesis 25:15,bible,True
-Naphish,Na-phích,Naphish,Genesis 25:15,bible,True
-Kedemah,Kết-ma,Kedemah,Genesis 25:15,bible,True
-Keturah,Kê-tu-ra,Keturah,Genesis 25:1,bible,True
-Zimran,Xim-ram,Zimran,Genesis 25:1,bible,True
-Jokshan,Giốc-san,Jokshan,Genesis 25:1,bible,True
-Medan,Mê-đan,Medan,Genesis 25:1,bible,True
-Midian,Ma-đi-an,Midian,Genesis 25:1,bible,True
-Ishbak,Dích-bác,Ishbak,Genesis 25:1,bible,True
-Shuah,Su-ách,Shuah,Genesis 25:1,bible,True
-Timna,Thim-na,Timna,"Genesis 36:12, 1 Chr 1:36",bible,True
-life-expectancy2,(Thi Thiên 90:10),(Psalm 90:10),2024-11-29,bible,True
-Ham,Cham,Ham,Gen 10:1,bible,True
-Canaan,Ca-na-an,Canaan,Gen 10:6,bible,True
-Sidon,Si-đôn,Sidon,Gen 10:15,bible,True
-Heth,Hếch,Heth,Gen 10:15,bible,True
-Jebusite,dân Giê-bu,Jebusite,Gen 10:16,bible,True
-Amorite,A-mô-rít,Amorite,Gen 10:16,bible,True
-Girgashite,Ghi-rê-ga-sít,Girgashite,Gen 10:16,bible,True
-Hivite,Hê-vít,Hivite,Gen 10:17,bible,True
-Arkite,A-rê-kít,Arkite,Gen 10:17,bible,True
-Sinite,Si-nít,Sinite,Gen 10:17,bible,True
-Arvadite,A-vát,Arvadite,Gen 10:18,bible,True
-Zemarite,Xê-ma-rít,Zemarite,Gen 10:18,bible,True
-Hamathite,Ha-mát,Hamathite,Gen 10:18,bible,True
-Cush,Cút-sơ,Cush,Gen 10:6,bible,True
-Nimrod,Nim-rốt,Nimrod,Gen 10:8,bible,True
-Mizraim,Mích-ra-im,Mizraim,Gen 10:14,bible,True
-Casluh,Cách-lu-him,Casluh,1 Chronicles 1:12 (Philistines),bible,True
-Japheth,Gia-phết,Japheth,Gen 10:1,bible,True
-Asshur,A-su-rơ,Asshur,Gen 10:22,bible,True
-Lud,Lút,Lud,Gen 10:22,bible,True
-Aram,A-ram,Aram,Gen 10:22,bible,True
-Elam,Ê-lam,Elam,Gen 10:22,bible,True
-Joktan,Giốc-tan,Joktan,Gen 10:26,bible,True
-Almodad,A-mô-đát,Almodad,Gen 10:26,bible,True
-Sheleph,Sê-lép,Sheleph,Gen 10:26,bible,True
-Hazarmareth,Ha-xa-ma-vết,Hazarmareth,Gen 10:26,bible,True
-Jerah,Giê-rách,Jerah,Gen 10:26,bible,True
-Hadoram,Ha-đô-ram,Hadoram,Gen 10:27,bible,True
-Uzal,U-xan,Uzal,Gen 10:27,bible,True
-Diklah_Obal,"Điệt-la, Ô-banh","Diklah, Obal",Gen 10:27,bible,True
-Abimael,A-bi-ma-ên,Abimael,Gen 10:28,bible,True
-Sheba_Ophir,"Sê-ba, Ô-phia","Sheba, Ophir","Gen 10:28, 29",bible,True
-Havilah,Ha-vi-la,Havilah,Gen 10:29,bible,True
-Jobab,Giô-báp,Jobab,Gen 10:29,bible,True
-Ham_fn,1) Người Ai Cập: Thi thiên 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,True
-Canaan_fn,2) Dân Ca-na-an: Giô-suê 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,True
-Aram_fn,3) Người A-ram: Ô-sê 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,True
-Elam_fn,4) Người Ê-lam: Ê-xơ-ra 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,True
-Asshur_fn,5) Người A-su-rơ: Ê-xê-chi-ên 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,True
-Casluh_fn,6) Người Phi-li-tia: 1 Sư Ký 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,True
-Cush_fn,7) Ê-thi-ô-bi [Cút-sơ]: 2 Các vua 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,True
-Edom_fn,8) Người Ê-đôm: Dân số ký 20:14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,True
-Moab_fn,"9) Dân Mô-áp: Phục 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,True
-Ammon_fn,10) Người Ê-đôm: Dân số ký 20:14-17,10) Ammonites: Joshua 12:2,2025-09-22,bible,True
-Midian_fn,"11) Dân Ma-đi-an: Dân số 31:2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,True
-Amalek_fn,12) Dân A-ma-léc: 1 Sa-mu-ên 15:2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,True
-Teman_fn,13) Người Thê-man: Gióp 42:7,13) Temanites: Job 42:7,2025-09-22,bible,True
-Sidon_fn,14) Người Si-đôn: Xa-cha-ri 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,True
-Heth_fn,15) Người Hếch: Sáng thế 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,True
-Jebusite_fn,16) Dân Giê-bu: Giô-suê 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,True
-Judith,Giu-đi-tha?,Judith?,"Genesis 26:34, 35",bible,True
-Lud_fn,17) Người Lút: 1 Sử ký 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,True
-Ishmael_fn,18) Người Ích-ma-ên: Sáng thế 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,True
-Amorite_fn,19) Dân A-mô-rít: Quan xét 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,True
-Hivite_fn,"20) Người Hê-vít [Ga-ba-ôn]: Giô-suê 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,True
-Cain,Ca-in,Cain,"Genesis 4:1, son Enoch same name as other",bible,True
-Abel,A-bên,Abel,Genesis 4:2,bible,True
-Irad,Y-rát,Irad,Genesis 4:18,bible,True
-Mehujael,Mê-hu-da-ên,Mehujael,Genesis 4:18,bible,True
-Methushael,Mê-tu-sa-ên,Methushael,"Genesis 4:18, son Lamech same as other",bible,True
-Jabal,Gia-banh,Jabal,"Genesis 4:20 living in tents, have livestock",bible,True
-Jubal,Giu-banh,Jubal,Genesis 4:21 play harp and pipe,bible,True
-Zillah,Xi-la,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,True
-Tubal-cain,Tu-banh-ca-in,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,True
-Naamah,Na-a-ma,Naamah,Genesis 4:22 his sister,bible,True
-Rehoboam,Rê-hô-bô-am,Rehoboam,first king of southern kingdom of Juda,A6-A,True
-Abijah,A-bi-gia (A-bi-giam),Abijah (Abijam),"3 years, also Abijam",A6-A,True
-Asa,A-sa,Asa,A6-A,A6-A,True
-Jehoshaphat,Giê-hô-sa-phát,Jehoshaphat, ,A6-A,True
-Jehoram2,Giê-hô-ram,Jehoram, ,A6-A,True
-Ahaziah,A-cha-xia,Ahaziah, ,A6-A,True
-Athaliah,Nữ hoàng A-tha-li,Queen Athaliah,Queen Athaliah,A6-A,True
-Jehoash,Giê-hô-ách,Jehoash, ,A6-A,True
-Amaziah,A-ma-xia,Amaziah, ,A6-A,True
-Uzziah,U-xi-a (A-xa-ria),Uzziah (Azariah),also Azariah,A6-A,True
-Jeroboam,Giê-rô-bô-am,Jeroboam,first king of northern 10-tribe kingdom,A6-A,True
-Nadab,Na-đáp,Nadab,less than 2,A6-A,True
-Baasha,Ba-ê-sa,Baasha, ,A6-A,True
-Elah,Ê-lát,Elah, ,A6-A,True
-Zimri,Xim-ri,Zimri,Only 7 days in ca. 751 BCE,A6-A,True
-OmriTibni,Ôm-ri và Típ-ni,Omri and Tibni together,4 years Omri and Tibni,A6-A,True
-Omri,Ôm-ri (một mình),Omri (alone),from 947 Omri alone,A6-A,True
-Ahab,A-háp,Ahab, ,A6-A,True
-Jehoram,Giê-hô-ram,Jehoram, ,A6-A,True
-Jehu,Giê-hu,Jehu, ,A6-A,True
-Jeoahaz,Giê-hô-a-cha,Jeoahaz, ,A6-A,True
-JeoahazJehoash,Giê-hô-a-cha và Giê-hô-ách,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,True
-Jehoash2,Giê-hô-ách (một mình),Jehoash (alone),Jehoash (alone),A6-A,True
-Jeroboam2,Giê-rô-bô-am II,Jeroboam II, ,A6-A,True
-Elijah,Ê-li-gia,Elijah, ,A6-A,True
-Elisha,Ê-li-sê,Elisha, ,A6-A,True
-Jonah,Giô-na,Jonah, ,A6-A,True
-Amos,A-mốt,Amos, ,A6-A,True
-Joel,Giô-ên,Joel, ,A6-A,True
-Jotham,Giô-tham,Jotham,A6-B,A6-B,True
-Ahaz,A-cha-xia,Ahaz, ,A6-B,True
-Hezekiah,Ê-xê-chia,Hezekiah, ,A6-B,True
-Manasseh,Ma-na-se,Manasseh, ,A6-B,True
-Amon,A-môn,Amon, ,A6-B,True
-Josiah,Giô-si-a,Josiah, ,A6-B,True
-Jehoahaz,Giê-hô-a-cha,Jehoahaz,Only 3 months,A6-B,True
-Jehoiakim,Giê-hô-gia-kim,Jehoiakim, ,A6-B,True
-Jehoiachin,Giê-hô-gia-kin,Jehoiachin,Only 3 months 10 days,A6-B,True
-Zedekiah,Xê-đê-kia,Zedekiah, ,A6-B,True
-Zechariah,Xa-cha-ri,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,True
-Schallum,Sa-lum,Schallum,only one month,A6-B,True
-Menahem,Mê-na-hem,Menahem, ,A6-B,True
-Pekahiah,Phê-ca-hia,Pekahiah, ,A6-B,True
-Pekah,Phê-ca,Pekah, ,A6-B,True
-Hoshea,Hô-sê,Hoshea,9 years from c. 748,A6-B,True
-Hosea,Ô-sê,Hosea, ,A6-B,True
-Isaiah,Ê-sai,Isaiah, ,A6-B,True
-Micah,Mi-chê,Micah, ,A6-B,True
-Zephaniah,Xô-phô-ni,Zephaniah, ,A6-B,True
-Nahum,Na-hum,Nahum, ,A6-B,True
-Jeremiah,Giê-rê-mi,Jeremiah, ,A6-B,True
-Habakuk,Ha-ba-cúc,Habakuk, ,A6-B,True
-Daniel,Đa-ni-ên,Daniel, ,A6-B,True
-Ezekiel,Ê-xê-chi-ên,Ezekiel, ,A6-B,True
-Obadiah,Áp-đia,Obadiah, ,A6-B,True
-Babylon,"Đa-ni-ên 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True
-Medopersia,"Đa-ni-ên 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True
-Greece,"Đa-ni-ên 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True
-Rome,"Đa-ni-ên 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True
-Angloamerica,"Đa-ni-ên 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True
-Babylon_c,Ba-by-lôn,Babylon, ,B9,True
-Medopersia_c,Mê-đi Ba Tư,Medo-Persia, ,B9,True
-Greece_c,Hy Lạp,Greece, ,B9,True
-Rome_c,La Mã,Rome, ,B9,True
-Angloamerica_c,Anh-Mỹ,Anglo-America, ,B9,True
-daniel2_1,Vua Nê-bu-cát-nết-xa,King Nebuchadnezzar,607 BCE,B9,True
-daniel2_2,hủy diệt Giê-ru-sa-lem,destroys Jerusalem,appendix B9,B9,True
-daniel2_3,Chinh phục Ba-by-lôn,Conquers Babylon,539 BCE,B9,True
-daniel2_4,Si-ru ban chiếu chỉ cho dân,Cyrus decrees return,537 BCE,B9,True
-daniel2_5,Do Thái trở về Giê-ru-sa-lem,of Jews to Jerusalem, ,B9,True
-daniel2_6,A-léc-xan-đơ Đại đế,Alexander the Great,331 BCE,B9,True
-daniel2_7,chinh phục Ba Tư,conquers Persia, ,B9,True
-daniel2_8,Cai trị Y-sơ-ra-ên,Rules over Israel,63 BCE,B9,True
-daniel2_9,Hủy diệt Giê-ru-sa-lem,Destroys Jerusalem,70 CE,B9,True
-daniel2_10,"Trong Thế Chiến I,","During World War I,",1914-1918 CE,B9,True
-daniel2_11,cường quốc Anh Mỹ,Anglo-American World Power, ,B9,True
-daniel2_12,được hình thành,comes into being,End 4.2,B9,True
-607BCE,607 TCN,607 B.C.E.,accommodate for language,B9,True
-539BCE,539 TCN,539 B.C.E.,systems in style:,B9,True
-537BCE,537 TCN,537 B.C.E.,>>year 537 before time<<,B9,True
-331BCE,331 TCN,331 B.C.E.,so they need a word,B9,True
-63BCE,63 TCN,63 B.C.E.,prior to the year,B9,True
-70CE,70 CN,70 C.E.,and something,B9,True
-1914CE,1914-1918 CN,1914-1918 C.E.,after the year,B9,True
-7times,Khải huyền 12:9,Revelation 12:9, ,scripture,True
-infliction2,Công vụ 7:6,Acts 7:6, ,scripture,True
-eastern-zhou,770-256 TCN,770-256 BC, ,span_bc,True
-430years,1943 – 1513 TCN,1943 – 1513 B.C.E., ,span_bce,True
-eastern-han,25-220 CN,25-220 CE, ,span_ce,True
-northern-dynasties,368-581 CN,368-581 CE, ,span_ce,True
-southern-dynasties,420-589 CN,420-589 CE, ,span_ce,True
-khmer_empire,804 – 1431,804 – 1431, ,timespan,True
-byzantine_empire,330 – 1453,330 – 1453, ,timespan,True
-ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
-holy_roman_empire,800 – 924,800 – 924, ,timespan,True
-holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True
-inca_empire,1438 – 1533,1438 – 1533, ,timespan,True
-gupta_empire,319 – 550,319 – 550, ,timespan,True
-Umayyad,661 – 750,661 – 750, ,timespan,True
-Abbasid,750 – 1258,750 – 1258, ,timespan,True
-Mamluk,1250 – 1517,1250 – 1517, ,timespan,True
-seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
-lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True
-qing-dynasty,1636-1912,1636-1912, ,timespan,True
-ming-dynasty,1368-1644,1368-1644, ,timespan,True
-yuan-dynasty,1271-1368,1271-1368, ,timespan,True
-southern-song,1127-1279,1127-1279, ,timespan,True
-northern-song,960-1127,960-1127, ,timespan,True
-western-xia,1038-1227,1038-1227, ,timespan,True
-maya_classic,250–950,250–950, ,timespan,True
-maya_postclassic,950-1539,950-1539, ,timespan,True
-tran_dynasty,1225–1400,1225–1400, ,timespan,True
-le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
-revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
-nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
-edo,1603 – 1868,1603 – 1868, ,timespan,True
-meiji,1868 – 1912,1868 – 1912, ,timespan,True
-Julius,Sê-sa Giu-lơ (Julius),Julius, ,wiki,True
-Caligula,Caligula,Caligula, ,wiki,True
-Nero,Nê-rô (Nero),Nero, ,wiki,True
-Galba-Otho-Vitellius,"Galba, Otho và Vitellius (Năm Tứ Hoàng)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,True
-Vespasian,Vespasian,Vespasian, ,wiki,True
-covid19,Covid-19,Covid-19, ,wiki,True
-nicaea1,Công đồng Nicaea đầu tiên,First Council of Nicaea, ,wiki,True
-oxyrhynchus,Giấy cói Oxyrhynchus,Oxyrhynchus Papyri, ,wiki,True
-p52,Giấy cói P52,Papyrus P52, ,wiki,True
-qing-dynasty_c,Nhà Thanh,Qing dynasty,1636-1912,wiki,True
-ming-dynasty_c,Nhà Minh ở Trung Quốc,Ming dynasty in imperial China,1368-1644,wiki,True
-yuan-dynasty_c,Nhà Nguyên,Yuan,1271-1368,wiki,True
-southern-song_c,Nam Tống,Southern Song,1127-1279,wiki,True
-northern-song_c,Bắc Tống,Northern Song,960-1127,wiki,True
-western-xia_c,Tây Hạ,Western Xia,1038-1227,wiki,True
-Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,True
-Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,True
-Newton,Isaac Newton,Isaac Newton, ,wiki,True
-shang-dynasty_c,Nhà Thương,Shang dynasty,c. 1600-1046 BC,wiki,True
-western-zhou_c,Tây Chu,Western Zhou,c. 1046-771 BC,wiki,True
-eastern-zhou_c,Đông Chu,Eastern Zhou,770-256 BC,wiki,True
-western-han_c,Tây Hán,Western Han,207 BC – 9 CE,wiki,True
-eastern-han_c,Đông Hán,Eastern Han,25-220 CE,wiki,True
-three-kingdoms_c,TQ,China,Three kingdoms 220-280 CE,wiki,True
-sixteen-kingdoms_c,Trung Quốc,China,Sixteen kingdoms 304-439 CE,wiki,True
-northern-dynasties_c,Bắc triều,Northern dynasties,368-581 CE,wiki,True
-southern-dynasties_c,Nam triều,Southern dynasties,420-589 CE,wiki,True
-tang-dynasty2_c,Nhà Đường (N. Đ.),Tang dynasty,"618-690, 705-907",wiki,True
-byzantine_empire_c,Đế quốc Đông La Mã,Byzantine Empire, ,wiki,True
-ottoman_empire_c,Đế quốc Ottoman,Ottoman Empire, ,wiki,True
-Genghis,Thành Cát Tư Hãn,Genghis Khan, ,wiki,True
-inca_empire_c,Đế quốc Inca,Inca empire, ,wiki,True
-gupta_empire_c,Đế quốc Gupta,Gupta Empire, ,wiki,True
-Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,True
-Abbasid_c,Nhà Abbas,Abbasid Caliphate, ,wiki,True
-Mamluk_c,Vương quốc Hồi giáo Mamluk,Mamluk Sultanate, ,wiki,True
-Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,True
-wulfila,Kinh thánh Wulfila,Wulfila Bible,2025-09-20,wiki,True
-tran_dynasty_c,Triều đại Nhà Trần,Trần dynasty, ,wiki,True
-le_dynasty_c,Nhà Hậu Lê,Lê dynasty, ,wiki,True
-revival_le_dynasty_c,Nhà Lê trung hưng,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,True
-seljuk_empire_c,Đế quốc Seljuk,Seljuk empire, ,wiki,True
-vandals_c,n. Vandal,Vandals, ,wiki,True
-lombard_c,Vương quốc Lombardia,Lombard Kingdom,2025-10-13,wiki,True
-people,Người,people, ,deprecated,True
-judges,Quan xét,judges, ,deprecated,True
-prophets,Tiên tri,prophets, ,deprecated,True
-kings,Các vị vua,kings, ,deprecated,True
-periods,Thời gian,periods, ,deprecated,True
-events,Sự kiện,events, ,deprecated,True
-objects,Đồ vật,objects or items, ,deprecated,True
-event_destruction_samaria2,740 TCN bởi người Assyria,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,True
-photodrama,“Kịch ảnh về sự sáng tạo” được trình chiếu lần đầu tiên tại New York vào ngày 11 tháng 1 năm 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,True
-truth_book,Sách “Sự Thật Dẫn Đến Sự Sống Đời Đời” xuất bản năm 1968,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,True
-jw_broadcasting,Bắt đầu phát sóng Kênh truyền thông JW vào tháng 10 năm 2014,Start of JW Broadcasting® in October 2014, ,deprecated,True
-meeting_workbook,Hình thức mới của cuộc họp giữa tuần với “sổ bài tập cuộc họp” bắt đầu từ tháng 1 năm 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,True
-terahfam,Các thành viên trong gia đình Tha-rê,Members of Terah’s family, ,deprecated,True
-metropolitan,Bắt đầu làm chứng tại đô thị vào năm 2011,Start of metropolitan witnessing in 2011, ,deprecated,True
-jw_org,Bắt đầu JW.ORG với những hướng dẫn trong Thánh Chức Nước Trời tháng 12 năm 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,True
-Babylon2, , ,no text left and right – empty!,deprecated,True
-daniel2_shift,-10,-10,Start 4.2,deprecated,True
-Gatam,Ga-tham,Gatam,Genesis 36:11,deprecated,True
-Adbeel,Át-bê-ên,Adbeel,Genesis 25:13,deprecated,True
-Mibsam,Mi-bô-sam,Mibsam,Genesis 25:13,deprecated,True
-Dumah,Đu-ma,Dumah,Genesis 25:14,deprecated,True
-Massa,Mác-sa,Massa,Genesis 25:14,deprecated,True
-tang-dynasty1, , , ,deprecated,True
-xia-dynasty,Nhà Hạ ở Trung Quốc c. 2070 – c. 1600 TCN,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,True
-Midianites,"1) Dân Ma-đi-an: Dân số 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,True
-Moabites,"2) Dân Mô-áp: Phục 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,True
-Ammonites,3) Dân Am-môn: Giô-suê 12:2,3) Ammonites: Joshua 12:2, ,deprecated,True
-Edomites,4) Người Ê-đôm: Dân số ký 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,True
-Temanites,5) Người Thê-man: Gióp 42:7,5) Temanites: Job 42:7, ,deprecated,True
-Amalekites,6) Dân A-ma-léc: 1 Sa-mu-ên 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,True
-king_south_light, , ,2025-02-05,deprecated,True
-king_north_light, , ,2025-02-05,deprecated,True
-daniel2_iron, , ,2025-02-05,deprecated,True
-timeline_created,"2023 là năm nóng nhất trong lịch sử loài người và trong 125.000 năm qua, dòng TG này đã tạo ra","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,True
+key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
+version,6.08,6.08, ,float,True, , , , , , , , 
+pdf_title,6.000 Năm Lịch Sử Nhân Loại — Dòng Thời Gian,"6,000 Years of Human History — A Timeline",2026-08-26,text,True,Matthias,2026-08-26, ,6000 năm lịch sử loài người được hình dung, 6.000 năm lịch sử loài người - Dòng thời gian,Dòng thời gian 6000 năm lịch sử loài người , 6.000 Năm Lịch Sử Nhân Loại — Dòng Thời Gian, 6.000 năm lịch sử loài người - Dòng thời gian
+pdf_subject,Dòng thời gian của loài người,Timeline of human history from 4000 BCE to present, ,text,True,Matthias,2026-08-26, , , , , , 
+BCE,TCN,B.C.E.,appendix B9,B9,True,Matthias,2026-08-26, , , , , , 
+CE,CN,C.E., ,B9,True,Matthias,2026-08-26, , , , , , 
+month,tháng,month, ,text,True,Matthias,2026-08-26, , , , , , 
+months,tháng,months, ,text,True,Matthias,2026-08-26, , , , , , 
+day,ngày,day, ,text,True,Matthias,2026-08-26, , , , , , 
+days,ngày,days, ,text,True,Matthias,2026-08-26, , , , , , 
+to,đến,to, ,text,True,Matthias,2026-08-26, , , , , , 
+Deluge,Trận Đại Hồng Thủy,Deluge, ,text,True, , , , , , , , 
+moses2,1593 đến 1473 TCN – 120 tuổi,1593 to 1473 B.C.E. – 120 years, ,text,True, , , , , , , , 
+temple1,Ni-san 1513 TCN đến Xi-u 1034 TCN,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,True, , , , , , , , 
+69weeks,Giê-su báp-têm mùa thu 29 CN,Jesus baptized autumn 29 C.E., ,text,True, , , , , , , , 
+year,năm,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True, , , , , , , , 
+years,năm,years, ,text,True, , , , , , , , 
+years_age,tuổi,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True, , , , , , , , 
+age_kings,tuổi, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,True, , , , , , , , 
+wilderness,Y-sơ-ra-ên trong đồng vắng 1513 đến 1473 TCN - 40 năm,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,True, , , , , , , , 
+timespan_judges,1473 đến 1117 TCN – 356 năm,1473 to 1117 B.C.E. – 356 years, ,text,True, , , , , , , , 
+timespan_judges2,Thời gian của Quan xét,Time of the judges, ,text,True, , , , , , , , 
+temple2,479 năm mới xây dựng đền – 1 Các vua 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,True, , , , , , , , 
+69weeks2,69 tuần cho đến lúc Đấng Mê-si – Đa-ni-ên 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,True, , , , , , , , 
+jesus_service,"3,5 năm phục vụ Giê-su, được thực hiện 14 Ni-san 33 CN","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,True, , , , , , , , 
+jesus_life,Chúa Giê-su sinh năm 2 TCN,Jesus born 2 B.C.E., ,text,True, , , , , , , , 
+exile,70 năm Dân Y-sơ-ra-ên bị lưu đày tại Ba-by-lon (607 - 537 TCN) (Giê-rê-mi 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,True, , , , , , , , 
+exile2,lưu đày,Exile, ,text,True, , , , , , , , 
+7times2,"Bảy kỳ , “các kỳ dân ngoại” (Đa-ni-ên 4:16) – 2520 năm đến khi Nước Trời cai trị (thành lập) năm 1914 CN (Đa-ni-ên 4:23)",7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,True, , , , , , , , 
+ww1,Thế chiến thứ nhất – 1914–1918,World War I – 1914–1918, ,text,True, , , , , , , , 
+ww2,Thế chiến thứ hai – 1939–1945,World War II – 1939–1945, ,text,True, , , , , , , , 
+30_year_war,Chiến tranh 30 năm ở châu Âu 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,True, , , , , , , , 
+joshua,110 tuổi,110 years, ,text,True, , , , , , , , 
+caleb,hơn 85 tuổi,more than 85 years, ,text,True, , , , , , , , 
+missionary1,"Chuyến hành trình truyền giáo đầu tiên của Phao-lô, c. 47-48 CN với Ba-na-ba và Giăng Mác","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,True, , , , , , , , 
+circumcision,"Vấn đề cắt bao quy đầu tại Antioch, hội nghị ở Jerusalem c. 49 CN","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,True, , , , , , , , 
+missionary2,Chuyến hành trình truyền giáo thứ hai của Phao-lô c. 49-52 CN với Si-la (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,True, , , , , , , , 
+missionary3,Chuyến hành trình truyền giáo thứ ba của Phao-lô c. 52-56 CN,Third Missionary Journey c. 52-56 C.E., ,text,True, , , , , , , , 
+caesarea,Phao-lô bị giam ở Sê-sa-rê c. 56-58 CN,Paul in custody in Caesarea c. 56-58 C.E., ,text,True, , , , , , , , 
+rome1,Phao-lô bị tù lần đầu ở Rô-ma c. 59-61 CN,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,True, , , , , , , , 
+rome2,"Phao-lô bị tù lần thứ hai ở Rô-ma c. 65 CN, 2 Ti-mô-thê được viết, Phao-lô bị xử tử","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,True, , , , , , , , 
+event_exodus,Ra khỏi xứ Ai-Cập vào ngày 14 tháng Ni-san năm 1513 TCN,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,True, , , , , , , , 
+event_division_kingdom,Y-sơ-ra-ên chia làm hai nước 997 TCN,Division of Israel 997 BCE, ,text,True, , , , , , , , 
+event_destruction_samaria,Sự hủy diệt Sa-ma-ri 740 TCN bởi người Assyria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,True, , , , , , , , 
+event_destruction_jerusalem1,"Giê-ru-sa-lem bị hủy phá, dân chúng bị lưu đày sang Ba-by-lôn 607 TCN, 390 năm sau khi Y-sơ-ra-ên chia làm hai nước (Ê-xê-chi-ên 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,True, , , , , , , , 
+event_temple_rebuilt,Xây lại đền thờ 515 TCN,Temple in Jerusalem rebuilt 515 B.C.E., ,text,True, , , , , , , , 
+event_jerusalem_rebuilt,Tường thành Giê-ru-sa-lem xây lại 455 TCN,Jerusalem wall rebuilt 455 B.C.E., ,text,True, , , , , , , , 
+event_destruction_jerusalem2,Sự phá hủy thành Giê-ru-sa-lem vào năm 70 CN bởi La Mã dưới thời Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,True, , , , , , , , 
+event_1914,"Cuối thời kỳ của các dân ngoại (Lu-ca 21:24), Vương quốc của Đức Chúa Trời bắt đầu cai trị trên trời 1914","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,True, , , , , , , , 
+became_king,làm vua lúc,becomes king at age,2025-04-14,text,True, , , , , , , , 
+vulgate,Vulgate được hoàn thành bởi Jerome (bản dịch kinh thánh bằng tiếng Latin) c. 405 CN,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,True, , , , , , , , 
+gutenberg,Kinh thánh Gutenberg in năm 1455,Gutenberg Bible printed 1455, ,text,True, , , , , , , , 
+erasmus,"Năm 1516, Desiderius Erasmus xuất bản phần tân ước của kinh thánh trong tiếng Hy lạp ở Rotterdam.",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,True, , , , , , , , 
+luther,Bản dịch Kinh thánh Luther vào tháng 9 năm 1522,Luther Bible translation in September 1522, ,text,True, , , , , , , , 
+tyndale,Bản dịch Kinh thánh tiếng Anh của Tyndale 1536,English Bible translation by Tyndale 1536, ,text,True, , , , , , , , 
+king_james,Kinh thánh King James 1611,King James Bible 1611, ,text,True, , , , , , , , 
+69weeks3,"Chúa Giê-su bắt đầu rao truyền 29 CN (Lu-ca 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,True, , , , , , , , 
+ransom,Giữa tuần “hy sinh để chấm dứt” Đa-ni-ên 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,True, , , , , , , , 
+cornelius,Cọt-nây làm báp-têm vào cuối 70 tuần lễ (Đa-ni-ên 9:24) vào năm 36 CN.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,True, , , , , , , , 
+columbus,Kết thúc thời kỳ tiền Colombia ở châu Mỹ 1492,End of the pre-columbian period in the Americas 1492, ,text,True, , , , , , , , 
+declaration_independence,Tuyên ngôn độc lập của 13 thuộc địa ở Mỹ 1776,Declaration of independence of 13 colonies in America 1776, ,text,True, , , , , , , , 
+tischendorf,Tischendorf phát hiện ra Codex Sinaiticus năm 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,True, , , , , , , , 
+dead_sea_scrolls,Cuộn giấy Biển Chết được viết,Dead Sea Scrolls written, ,text,True, , , , , , , , 
+septuagint,Bản Bảy Mươi LXX được dịch,Septuagint LXX translated, ,text,True, , , , , , , , 
+watchtower,Số đầu tiên của tạp chí “Tháp Canh Si-ôn và sứ giả loan báo sự hiện diện của Đấng Ki-tô” được xuất bản năm 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,True, , , , , , , , 
+jehovahs_witnesses,"Các Học viên Kinh Thánh lấy tên mới – Nhân Chứng Giê-hô-va (Ê-sai 43:10, 12) ở Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,True, , , , , , , , 
+gilead_school,Trường Kinh Thánh Ga-la-át của Tháp Canh bắt đầu vào thứ Hai 1. 2. 1943,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,True, , , , , , , , 
+new_world_translation1,"“Kinh Thánh—Bản dịch Thế Giới Mới” ra mắt tại Manchester, Anh quốc vào ngày 18. 6. 1960, khôi phục lại danh Giê-hô-va trong nhiều phần của Kinh Thánh","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,True, , , , , , , , 
+new_world_translation2,"Kinh Thánh—Bản dịch Thế Giới Mới hiệu đính được ra mắt tại cuộc họp thường niên năm 2013 (bằng tiếng Việt ngày 02/04/2017), được tối ưu hóa để sử dụng kỹ thuật số và trực tuyến","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,True, , , , , , , , 
+cold_war,Tình hình địa chính trị “Chiến tranh Lạnh” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,True, , , , , , , , 
+codex_sinaiticus,Codex Sinaiticus được viết,Codex Sinaiticus written, ,text,True, , , , , , , , 
+codex_vaticanus,Codex Vaticanus được viết,Codex Vaticanus written, ,text,True, , , , , , , , 
+leningrad_codex,Leningrad Codex được viết ở Cairo năm 1008 CN,Leningrad Codex written in Cairo AD 1008, ,text,True, , , , , , , , 
+john,Giăng viết “Khải huyền” khi bị lưu đày ở Bát-mô vào năm 96-98 CN,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,True, , , , , , , , 
+buddha,Đức Phật – Siddhartha Gautama c.563-c.483 TCN,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,True, , , , , , , , 
+buddha2,Đức Phật thay thế c. 480-400 TCN,Buddha alternatively c. 480-400 B.C.E., ,text,True, , , , , , , , 
+mohammed,Mohammed c. 570-632,Mohammed c. 570-632, ,text,False, , , , , , , , 
+confucius,Khổng Tử c.551-c.479 TCN,Confucius c.551-c.479 B.C.E., ,text,False, , , , , , , , 
+hijrah,Hijrah - Mecca đến Medina 16. 7. 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , , , , , 
+moses_escape,"1553 TCN Môi-se phải trốn khỏi Ai Cập – Xuất Ai Cập 2:15, Công vụ 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , , , , , 
+10plagues,1513 TCN Ai Cập hứng chịu 10 tai vạ,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , , , , , 
+joseph_sold,Giô-sép bị bán làm nô lệ ở tuổi 17 – Sáng thế 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , , , , , 
+infliction,400 năm bị hà hiếp (Công vụ 7:6) – Ích-ma-ên 1913 TCN,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , , , , , 
+Alexander,Alexander Đại Đế (Đa-ni-ên 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , , , , , 
+persia,"Cyrus Đại Đế, Cambyses II, Darius I 490 TCN, Xerxes I 480 TCN (chồng của Ê-xơ-tê, Đa-ni-ên 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , , , , , 
+king_north,"Seleukos I Nicator (v5) Syria đến Antiochus III (v10) và Seleukos IV (v18, 19) xuống Octavian (v20) và Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , , , , , 
+king_north1,Vua phương Bắc,King of the North, ,text,True, , , , , , , , 
+king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) tới Trận Actium 31 TCN","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,True, , , , , , , , 
+king_south1,Vua phương Nam,King of the South, ,text,True, , , , , , , , 
+king_south2,"Đế quốc Anh 1870, Cường quốc Thế giới Anh-Mỹ từ 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,True, , , , , , , , 
+king_south3,Vua phương Nam,King of the South, ,text,True, , , , , , , , 
+king_north2,"Đức với Hoàng đế William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , , , , , 
+king_north3,Bắc,North, ,text,True, , , , , , , , 
+king_north4,"Liên Xô 1945-1991 (Đa-ni-ên 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , , , , 
+king_north5,Nga kể từ năm 2017 (w20 tháng 5),Russia since 2017 (w20 May), ,text,False, , , , , , , , 
+time_of_end,"Sự hiện diện của Đấng Ki tô, Sự kết thúc của hệ thống mọi sự (Ma-thi-ơ 24:3), ngày sau cùng (2 Ti-mô-thê 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , , , , , 
+time_of_end2,Ngày cuối cùng,Last days, ,text,True, , , , , , , , 
+suryavaman2,Vua Suryavarman II xây dựng Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,True, , , , , , , , 
+notre-dame,Nhà thờ Đức Bà Paris được xây dựng 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,True, , , , , , , , 
+babel,Tháp Ba-bên được xây dựng,Tower of Babel built, ,text,True, , , , , , , , 
+infliction1,400 năm bị hà hiếp,400 year infliction,Acts 7:6,text,False, , , , , , , , 
+Lots_wife,Vợ của Lót,Lot’s wife, ,text,True, , , , , , , , 
+Lots_daughters,Con gái của Lót,Daughters of Lot, ,text,True, , , , , , , , 
+Moab,Mô-áp (con gái lớn),Moab (older daughter),Genesis 19:37,text,True, , , , , , , , 
+rosetta,Phiến đá Rosetta 196 TCN,Rosetta stone 196 B.C.E., ,text,False, , , , , , , , 
+Herodotus,"Herodotus c. 484 – c. 425 TCN, viết Lịch sử","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , , 
+Aristotle,Aristoteles 384 – 322 TCN,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,True, , , , , , , , 
+Ptolemy,Ptolemaeus c 100 – c. 170 CN,Ptolemy c 100 – c. 170 C.E., ,text,True, , , , , , , , 
+Pythagoras,Pythagoras c. 570 – c. 495 TCN,Pythagoras c. 570 – c. 495 BC, ,text,True, , , , , , , , 
+Plato,Platon c. 427 – c. 348 TCN,Plato c. 427 – c. 348 BC, ,text,True, , , , , , , , 
+Socrates,Socrates c. 470 – c. 399 TCN,Socrates c. 470 – c. 399 BC, ,text,True, , , , , , , , 
+Josephus,Josephus c. 37 – c. 100 CN,Josephus c. 37 – c. 100 C.E., ,text,True, , , , , , , , 
+Cicero,Cicero 106–43 TCN,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,True, , , , , , , , 
+lachish_letters,Chữ Lachish c. 590 TCN,Lachish letters c. 590 B.C.E., ,text,False, , , , , , , , 
+lachish_reliefs,Phù điêu Lachish c. 681 TCN,Lachish reliefs c. 681 B.C.E., ,text,False, , , , , , , , 
+mesha_stele,Tấm bia Mê-sa (Bia đá Mô-áp) c. 840 TCN,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , , , , , 
+gilgamesh,Gilgamesh và Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,True, , , , , , , , 
+epic_gilgamesh,Sử thi Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , , , , 
+gregorian,Lịch Gregory 1582,Gregorian calendar 1582, ,text,True, , , , , , , , 
+shang-dynasty,c. 1600-1046 TCN,c. 1600-1046 BC, ,text,True, , , , , , , , 
+western-zhou,c. 1046-771 TCN,c. 1046-771 BC, ,text,True, , , , , , , , 
+qin-dynasty,Nhà Tần 221-207 TCN,Qin 221-207 BC, ,text,True, , , , , , , , 
+western-han,207 TCN – 9 CN,207 BC – 9 CE, ,text,True, , , , , , , , 
+three-kingdoms,Tam Quốc 220-280 CN,Three kingdoms 220-280 CE, ,text,True, , , , , , , , 
+sixteen-kingdoms,Ngũ Hồ thập lục quốc 304-439 CN,Sixteen kingdoms 304-439 CE, ,text,True, , , , , , , , 
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,True, , , , , , , , 
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False, , , , , , , , 
+tang-dynasty1_c,N. Đ.,Tang, ,text,True, , , , , , , , 
+gonghe,Chu Thiệu cộng hòa 841-828 TCN,Gonghe Regency 841-828 BC, ,text,True, , , , , , , , 
+Ashoka,A-dục vương (khoảng 304-232 TCN) quảng bá Phật giáo,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,True, , , , , , , , 
+siloam-tunnel,Ê-xê-chia mở rộng đường hầm Siloam,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,True, , , , , , , , 
+Angloamerica2,"Anh - Mỹ tượng trưng cho bàn chân bằng sắt trộn với đất sét theo lời tiên tri sách Đa-ni-ên 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,True, , , , , , , , 
+Manetho,Manetho viết Aegyptiaca,Manetho writes Aegyptiaca, ,text,True, , , , , , , , 
+destruction_babylon,"Sự hủy diệt Ba-by-lôn Lớn (Khải Huyền 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,True, , , , , , , , 
+peace_security,"“Hòa bình và an ninh!” (1 Tê-sa-lô-ni-ca 5:3, đây là một khả năng, CH-ĐG 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , , , , 
+gog_of_magog,"Cuộc tấn công của Gót ở xứ Ma-gót (Êxê 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,True, , , , , , , , 
+sheep_goat,"Cư dân trên đất sẽ bị phán xét, phân biệt chiên và dê (Ma-thi-ơ 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,True, , , , , , , , 
+annointed,Những tín đồ được xức dầu còn sót lại sẽ được thu nhóm về trời (Ma-thi-ơ 24:31; 1 Cô-rinh-tô 15:50-53; 1 Tê-sa-lô-ni-ca 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,True, , , , , , , , 
+armageddon,"Trận chiến Ha-ma-ghê-đôn (Khải huyền 16:14, 16; Ê-sai 13:9; 2 Phi-e-rơ 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,True, , , , , , , , 
+millenium,"Nước Đức Chúa Trời bắt đầu trị vì 1.000 năm (Khải Huyền 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,True, , , , , , , , 
+great_crowd,"Một đám đông sống sót sau Ha-ma-ghê-đôn (Khải huyền 7:9, 14; Thi thiên 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,True, , , , , , , , 
+world_population,Dân số thế giới tính theo tỷ người trong 2000 năm qua,World population in billions in the last 2000 years, ,text,True, , , , , , , , 
+khmer_empire_c,Đế quốc Khmer - thời kỳ Angkor,Khmer Empire - Angkor period, ,text,True, , , , , , , , 
+holy_roman_empire_c,Đế quốc La Mã Thần thánh - sau năm 1512 Đế quốc La Mã Thần thánh của Quốc gia Đức,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,True, , , , , , , , 
+mongol_empire,Đế quốc Mông Cổ 1206 – 1294,Mongol Empire 1206 – 1294, ,text,True, , , , , , , , 
+maya_classic_c,Nền văn minh Maya – thời kỳ cổ điển,Maya civilization – Classic period, ,text,True, , , , , , , , 
+maya_postclassic_c,Nền văn minh Maya – thời kỳ hậu cổ điển,Maya civilization – Postclassic period,Văn minh Maya? Wikipedia,text,True, , , , , , , , 
+Teotihuacan,"Thành phố lớn nhất châu Mỹ, xây dựng kim tự tháp c. 200 CN","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,True, , , , , , , , 
+Dionysius_Exiguus,"Dionysius Exiguus, nhà phát minh của Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , , , , 
+Umayyad_c,Umayyad,Umayyad, ,text,False, , , , , , , , 
+ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,True, , , , , , , , 
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,True, , , , , , , , 
+Al-Khwarizmi,Al-Khwarizmi viết Al-Jabr (Đại số),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , , 
+al-azhar,Đại học Al-Azhar được thành lập tại Cairo,Al-Azhar University is established in Cairo, ,text,False, , , , , , , , 
+Ibn-Sina,Ibn Sina hoặc Avicenna,Ibn Sina or Avicenna, ,text,True, , , , , , , , 
+life-expectancy,tuổi thọ trung bình 75 năm,Life expectancy 75 years, ,text,False, , , , , , , , 
+430years_c,"430 năm: Xuất Ai Cập 12:41, Ga-la-ti 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , , 
+maya_calendar,tính ngày bắt đầu của lịch Maya là ngày 11 tháng 8 năm 3114 TCN.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , , 
+xia-dynasty2,"khoảng năm 2070 – khoảng năm 1600 trước Công nguyên, những đề cập sớm nhất trong thời kỳ Tây Chu",c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , , , , 
+xia-dynasty2_c,Nhà Hạ ở Trung Quốc,Xia dynasty in China, ,text,False, , , , , , , , 
+tres_zapotes,Ngày 3 tháng 9 năm 32 TCN,"September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , , , , 
+joseph_jacob_reunited,Giô-sép và Gia-cốp đoàn tụ tại Ai Cập – 1728 TCN (Sáng thế 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , , , , 
+king_south_light_c,Vua phương Nam từ Đa-ni-ên 11,King of the South from Daniel 11,2025-02-05,text,True, , , , , , , , 
+king_north_light_c,Vua phương Bắc từ Đa-ni-ên 11,King of the North from Daniel 11,2025-02-05,text,True, , , , , , , , 
+daniel2_iron_c,Chân sắt từ Daniel 2,Iron legs from Daniel 2,2025-02-05,text,True, , , , , , , , 
+argenteus,Codex argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , , , , 
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , , , , , 
+edo_c,Thời kỳ Edo (Mạc phủ Tokugawa),Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , , , , , 
+meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , , , , , 
+american_civil_war,Nội chiến Mỹ 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,True, , , , , , , , 
+aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , , , , , 
+vandals,Vương quốc Vandal và Alan 435 – 534 CN,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,True, , , , , , , , 
+francia,"c. 481/509 – 843, Vương triều Meroving đến 751, sau đó là Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,True, , , , , , , , 
+francia_c,Vương quốc Frank,Kingdom of the Franks, ,text,True, , , , , , , , 
+100_years_war,Chiến tranh Trăm Năm 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , , , , 
+black_death,Cái Chết Đen 1346-1353,Black death 1346-1353,1346-1353,text,True, , , , , , , , 
+sui_dynasty,581-618 Nhà Tùy,581-618 Sui dynasty,2025-11-09,text,True, , , , , , , , 
+sui_dynasty_c,Tùy,Sui,2025-11-09,text,True, , , , , , , , 
+tribulation,"Cơn Đại Nạn (Mác 13:19; Đa-ni-ên 12:1; Ma-thi-ơ 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,True, , , , , , , , 
+Adam,A-đam,Adam,Luke 3:38,bible,True, , , , , , , , 
+Seth,Sết,Seth,Luke 3:38,bible,True, , , , , , , , 
+Enosh,Ê-nót,Enosh,Luke 3:38,bible,True, , , , , , , , 
+Kenan,Kê-nan (Cai-nan),Kenan (Cainan),"Genesis 5:12, Luke 3:37",bible,True, , , , , , , , 
+Mahalalel,Ma-ha-la-ên (Ma-ha-la-lê-ên),Mahalalel (Mahalaleel),"Genesis 5:15, Luke 3:37",bible,True, , , , , , , , 
+Jared,Gia-rết,Jared,Luke 3:37,bible,True, , , , , , , , 
+Enoch,Hê-nóc,Enoch,Luke 3:37,bible,True, , , , , , , , 
+Methuselah,Mê-tu-sê-la,Methuselah,Luke 3:37,bible,True, , , , , , , , 
+Lamech,Lê-méc,Lamech,Luke 3:36,bible,True, , , , , , , , 
+Noah,Nô-ê,Noah,Luke 3:36,bible,True, , , , , , , , 
+Shem,Sem,Shem,Luke 3:36,bible,True, , , , , , , , 
+Arpachshad,A-bác-sát,Arpachshad,Luke 3:36,bible,True, , , , , , , , 
+Shelah,Sê-lách,Shelah,Luke 3:35,bible,True, , , , , , , , 
+Eber,Ê-be,Eber,Luke 3:35,bible,True, , , , , , , , 
+Peleg,Bê-léc,Peleg,Luke 3:35,bible,True, , , , , , , , 
+Reu,Rê-hu,Reu,Luke 3:35,bible,True, , , , , , , , 
+Serug,Sê-rúc,Serug,Luke 3:35,bible,True, , , , , , , , 
+Nahor,Na-cô,Nahor,"Luke 3:34, Genesis 11:24",bible,True, , , , , , , , 
+Terah,Tha-rê,Terah,Luke 3:34,bible,True, , , , , , , , 
+Abraham,Áp-ra-ham,Abraham,Luke 3:34,bible,True, , , , , , , , 
+Isaac,Y-sác,Isaac,Luke 3:34,bible,True, , , , , , , , 
+Jacob,Gia-cốp,Jacob,Luke 3:34,bible,True, , , , , , , , 
+Joseph,Giô-sép,Joseph,Genesis 37,bible,True, , , , , , , , 
+Moses,Môi-se,Moses,Exodus 2:10,bible,True, , , , , , , , 
+Othniel,Ốt-ni-ên,Othniel,Judges 3:9-11,bible,True, , , , , , , , 
+Ehud,Ê-hút,Ehud,Judges 3:15-18,bible,True, , , , , , , , 
+Shamgar,Sam-ga,Shamgar,Judges 3:31,bible,True, , , , , , , , 
+Barak,"Ba-rác, Đê-bô-ra, Gia-ên","Barak, Deborah, Jael",Judges 4:6,bible,True, , , , , , , , 
+Gideon,Ghi-đê-ôn,Gideon,Judges 7:1,bible,True, , , , , , , , 
+Tola,Thô-la,Tola,Judges 10:1,bible,True, , , , , , , , 
+Jair,Giai-rơ,Jair,Judges 10:3,bible,True, , , , , , , , 
+Jephthah,Giép-thê,Jephthah,Judges 11:1,bible,True, , , , , , , , 
+Ibzan,Díp-xan,Ibzan,Judges 12:8,bible,True, , , , , , , , 
+Elon,Ê-lôn,Elon,Judges 12:11,bible,True, , , , , , , , 
+Abdon,Áp-đôn,Abdon,Judges 12:13,bible,True, , , , , , , , 
+Samson,Sam-sôn,Samson,Judges 13:24,bible,True, , , , , , , , 
+Samuel,Sa-mu-ên,Samuel,1 Samuel 1:20,bible,True, , , , , , , , 
+Saul,Sau-lơ,Saul,1 Samuel 9:2,bible,True, , , , , , , , 
+David,Đa-vít,David,1 Samuel 16:13,bible,True, , , , , , , , 
+Solomon,Sa-lô-môn,Solomon,1 Kings 2:1,bible,True, , , , , , , , 
+Malachi,Ma-la-chi,Malachi,bible book,bible,True, , , , , , , , 
+Ruth,Ru-tơ,Ruth,bible book,bible,True, , , , , , , , 
+Ezra,Ê-xơ-ra,Ezra,bible book,bible,True, , , , , , , , 
+Nehemiah,Nê-hê-mi,Nehemiah,bible book,bible,True, , , , , , , , 
+Esther,Ê-xơ-tê,Esther,bible book,bible,True, , , , , , , , 
+Job,Gióp,Job,bible book,bible,True, , , , , , , , 
+moses3,Môi-se,Moses,Exodus 2:10,bible,True, , , , , , , , 
+joshua2,Giô-suê,Joshua,Exodus 17:14,bible,True, , , , , , , , 
+caleb2,Ca-lép,Caleb,Numbers 13:30,bible,True, , , , , , , , 
+Augustus,Au-gút-tơ (Augustus),Augustus,Luke 2:1,bible,True, , , , , , , , 
+Tiberius,Ti-be-rơ (Tiberius),Tiberius,Luke 3:1,bible,True, , , , , , , , 
+Claudius,Cơ-lo-đi-ô (Claudius),Claudius,Acts 11:28,bible,True, , , , , , , , 
+persia2,Ba Tư,Persia,Esther 1:3,bible,True, , , , , , , , 
+jehoiada,Giê-hô-gia-đa,Jehoiada,2 Kings 11:4,bible,True, , , , , , , , 
+Haggai,Ha-gai,Haggai,bible book,bible,True, , , , , , , , 
+Zerubbabel,Xô-rô-ba-bên (Lu-ca 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,True, , , , , , , , 
+Jacob2,Gia-cốp/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,True, , , , , , , , 
+Israel,Y-sơ-ra-ên,Israel,Genesis 35:10,bible,True, , , , , , , , 
+Sarah,Sa-ra,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,True, , , , , , , , 
+Hagar,Ha-ga,Hagar,Genesis 21:14,bible,True, , , , , , , , 
+Haran,Cha-ran,Haran,Genesis 11:26,bible,True, , , , , , , , 
+Reumah,Rê-u-ma,Reumah,Genesis 22:24 Concubine – 4 sons,bible,True, , , , , , , , 
+Milcah,Minh-ca,Milcah,Genesis 22:20 - 8 sons (Bethuel and 7 more),bible,True, , , , , , , , 
+Lot,Lót,Lot,Genesis 11:27,bible,True, , , , , , , , 
+Ammon,Bên-am-mi (Am-môn),Ben-ammi (Ammon),Genesis 19:38,bible,True, , , , , , , , 
+Bethuel,Bê-tu-ên,Bethuel,Genesis 22:23,bible,True, , , , , , , , 
+Rebekah,Rê-bê-ca,Rebekah,Genesis 22:23,bible,True, , , , , , , , 
+Laban,La-ban,Laban,Genesis 24:29,bible,True, , , , , , , , 
+Leah,Lê-a,Leah,Genesis 35:23,bible,True, , , , , , , , 
+Rachel,Ra-chên,Rachel,Genesis 35:24,bible,True, , , , , , , , 
+Bilhah,Bi-la,Bilhah,Genesis 35:25,bible,True, , , , , , , , 
+Zilpah,Xinh-ba,Zilpah,Genesis 35:26,bible,True, , , , , , , , 
+Reuben,Ru-bên,Reuben,Genesis 35:23,bible,True, , , , , , , , 
+Simeon,Si-mê-ôn,Simeon,Genesis 35:23,bible,True, , , , , , , , 
+Levi,Lê-vi,Levi,Genesis 35:23,bible,True, , , , , , , , 
+Judah,Giu-đa,Judah,Genesis 35:23,bible,True, , , , , , , , 
+Issachar,Y-sa-ca,Issachar,Genesis 35:23,bible,True, , , , , , , , 
+Zebulun,Xê-bu-lôn,Zebulun,Genesis 35:23,bible,True, , , , , , , , 
+Dinah,Đi-na,Dinah,Genesis 34:1,bible,True, , , , , , , , 
+Esau,Ê-sau/,Esau/,Genesis 36:1,bible,True, , , , , , , , 
+Edom,Ê-đôm,Edom,Genesis 36:1,bible,True, , , , , , , , 
+Ishmael,Ích-ma-ên,Ishmael,Genesis 16:16,bible,True, , , , , , , , 
+Manasseh2,(Ma-na-se,(Manasseh,Genesis 41:51,bible,True, , , , , , , , 
+Ephraim,và Ép-ra-im),and Ephraim),Genesis 41:52,bible,True, , , , , , , , 
+Benjamin,Bên-gia-min,Benjamin,Genesis 35:24,bible,True, , , , , , , , 
+Dan,Đan,Dan,Genesis 35:25,bible,True, , , , , , , , 
+Naphtali,Nép-ta-li,Naphtali,Genesis 35:25,bible,True, , , , , , , , 
+Gad,Gát,Gad,Genesis 35:26,bible,True, , , , , , , , 
+Asher,A-se,Asher,Genesis 35:26,bible,True, , , , , , , , 
+Milcah1,"Út-xơ, Bu-xơ, Kê-mu-ên,","Uz, Buz, Kemuel,",Genesis 22:21,bible,True, , , , , , , , 
+Milcah2,"Kê-sết, Ha-xô","Chesed, Hazo,",Genesis 22:22,bible,True, , , , , , , , 
+Milcah3,"Phin-đát, Dít-láp","Pildash, Jidlaph",Genesis 22:22,bible,True, , , , , , , , 
+Tebah,Tê-ba,Tebah,Genesis 22:24,bible,True, , , , , , , , 
+Gaham,Ga-ham,Gaham,Genesis 22:24,bible,True, , , , , , , , 
+Tahash,Ta-hách,Tahash,Genesis 22:24,bible,True, , , , , , , , 
+Maacah,Ma-a-ca,Maacah,Genesis 22:24,bible,True, , , , , , , , 
+Mahalath,Ma-ha-lát/,Mahalath/,"Genesis 28:8, 9",bible,True, , , , , , , , 
+Basemath,Bách-mát,Basemath,"Genesis 36:3, 4",bible,True, , , , , , , , 
+Reuel,Rê-u-ên,Reuel,"Genesis 36:13, 17",bible,True, , , , , , , , 
+Nahath,Na-hát,Nahath,Genesis 36:13,bible,True, , , , , , , , 
+Zerah,Xê-rách,Zerah,Genesis 36:13,bible,True, , , , , , , , 
+Schammah,Sam-ma,Schammah,Genesis 36:13,bible,True, , , , , , , , 
+Mizzah,Mích-xa,Mizzah,Genesis 36:13,bible,True, , , , , , , , 
+Adah,A-đa,Adah,"Genesis 36:11, 12, 15, 16",bible,True, , , , , , , , 
+Eliphaz,Ê-li-pha,Eliphaz,Genesis 36:11,bible,True, , , , , , , , 
+Teman,Thê-man,Teman,Genesis 36:11,bible,True, , , , , , , , 
+Omar,Ô-ma,Omar,Genesis 36:11,bible,True, , , , , , , , 
+Zepho,Xê-phô,Zepho,Genesis 36:11,bible,True, , , , , , , , 
+Kenaz,Kê-na,Kenaz,Genesis 36:11,bible,True, , , , , , , , 
+Korah,Cô-rê,Korah,Genesis 36:16,bible,True, , , , , , , , 
+Korah_Gatam,"Cô-rê, Ga-tham","Korah, Gatam","Genesis 36:11, 16",bible,True, , , , , , , , 
+Amalek,A-ma-léc,Amalek,Genesis 36:12,bible,True, , , , , , , , 
+Oholibamah,Ô-hô-li-ba-ma,Oholibamah,"Genesis 36:14, 18",bible,True, , , , , , , , 
+Jeush,Giê-úc,Jeush,Genesis 36:14,bible,True, , , , , , , , 
+Jalam,Gia-lam,Jalam,Genesis 36:14,bible,True, , , , , , , , 
+Nebaioth,Nê-ba-giốt,Nebaioth,Genesis 25:13,bible,True, , , , , , , , 
+Kedar,Kê-đa,Kedar,Genesis 25:13,bible,True, , , , , , , , 
+Mishma,Mít-ma,Mishma,Genesis 25:14,bible,True, , , , , , , , 
+Adbeel_Mibsam,"Át-bê-ên, Mi-bô-sam","Adbeel, Mibsam",Genesis 25:13,bible,True, , , , , , , , 
+Dumah_Massa,"Đu-ma, Mác-sa","Dumah, Massa",Genesis 25:14,bible,True, , , , , , , , 
+Hadad,Ha-đát,Hadad,Genesis 25:15,bible,True, , , , , , , , 
+Tema,Thê-ma,Tema,Genesis 25:15,bible,True, , , , , , , , 
+Jetur,Giê-thu,Jetur,Genesis 25:15,bible,True, , , , , , , , 
+Naphish,Na-phích,Naphish,Genesis 25:15,bible,True, , , , , , , , 
+Kedemah,Kết-ma,Kedemah,Genesis 25:15,bible,True, , , , , , , , 
+Keturah,Kê-tu-ra,Keturah,Genesis 25:1,bible,True, , , , , , , , 
+Zimran,Xim-ram,Zimran,Genesis 25:1,bible,True, , , , , , , , 
+Jokshan,Giốc-san,Jokshan,Genesis 25:1,bible,True, , , , , , , , 
+Medan,Mê-đan,Medan,Genesis 25:1,bible,True, , , , , , , , 
+Midian,Ma-đi-an,Midian,Genesis 25:1,bible,True, , , , , , , , 
+Ishbak,Dích-bác,Ishbak,Genesis 25:1,bible,True, , , , , , , , 
+Shuah,Su-ách,Shuah,Genesis 25:1,bible,True, , , , , , , , 
+Timna,Thim-na,Timna,"Genesis 36:12, 1 Chr 1:36",bible,True, , , , , , , , 
+life-expectancy2,(Thi Thiên 90:10),(Psalm 90:10),2024-11-29,bible,True, , , , , , , , 
+Ham,Cham,Ham,Gen 10:1,bible,True, , , , , , , , 
+Canaan,Ca-na-an,Canaan,Gen 10:6,bible,True, , , , , , , , 
+Sidon,Si-đôn,Sidon,Gen 10:15,bible,True, , , , , , , , 
+Heth,Hếch,Heth,Gen 10:15,bible,True, , , , , , , , 
+Jebusite,dân Giê-bu,Jebusite,Gen 10:16,bible,True, , , , , , , , 
+Amorite,A-mô-rít,Amorite,Gen 10:16,bible,True, , , , , , , , 
+Girgashite,Ghi-rê-ga-sít,Girgashite,Gen 10:16,bible,True, , , , , , , , 
+Hivite,Hê-vít,Hivite,Gen 10:17,bible,True, , , , , , , , 
+Arkite,A-rê-kít,Arkite,Gen 10:17,bible,True, , , , , , , , 
+Sinite,Si-nít,Sinite,Gen 10:17,bible,True, , , , , , , , 
+Arvadite,A-vát,Arvadite,Gen 10:18,bible,True, , , , , , , , 
+Zemarite,Xê-ma-rít,Zemarite,Gen 10:18,bible,True, , , , , , , , 
+Hamathite,Ha-mát,Hamathite,Gen 10:18,bible,True, , , , , , , , 
+Cush,Cút-sơ,Cush,Gen 10:6,bible,True, , , , , , , , 
+Nimrod,Nim-rốt,Nimrod,Gen 10:8,bible,True, , , , , , , , 
+Mizraim,Mích-ra-im,Mizraim,Gen 10:14,bible,True, , , , , , , , 
+Casluh,Cách-lu-him,Casluh,1 Chronicles 1:12 (Philistines),bible,True, , , , , , , , 
+Japheth,Gia-phết,Japheth,Gen 10:1,bible,True, , , , , , , , 
+Asshur,A-su-rơ,Asshur,Gen 10:22,bible,True, , , , , , , , 
+Lud,Lút,Lud,Gen 10:22,bible,True, , , , , , , , 
+Aram,A-ram,Aram,Gen 10:22,bible,True, , , , , , , , 
+Elam,Ê-lam,Elam,Gen 10:22,bible,True, , , , , , , , 
+Joktan,Giốc-tan,Joktan,Gen 10:26,bible,True, , , , , , , , 
+Almodad,A-mô-đát,Almodad,Gen 10:26,bible,True, , , , , , , , 
+Sheleph,Sê-lép,Sheleph,Gen 10:26,bible,True, , , , , , , , 
+Hazarmareth,Ha-xa-ma-vết,Hazarmareth,Gen 10:26,bible,True, , , , , , , , 
+Jerah,Giê-rách,Jerah,Gen 10:26,bible,True, , , , , , , , 
+Hadoram,Ha-đô-ram,Hadoram,Gen 10:27,bible,True, , , , , , , , 
+Uzal,U-xan,Uzal,Gen 10:27,bible,True, , , , , , , , 
+Diklah_Obal,"Điệt-la, Ô-banh","Diklah, Obal",Gen 10:27,bible,True, , , , , , , , 
+Abimael,A-bi-ma-ên,Abimael,Gen 10:28,bible,True, , , , , , , , 
+Sheba_Ophir,"Sê-ba, Ô-phia","Sheba, Ophir","Gen 10:28, 29",bible,True, , , , , , , , 
+Havilah,Ha-vi-la,Havilah,Gen 10:29,bible,True, , , , , , , , 
+Jobab,Giô-báp,Jobab,Gen 10:29,bible,True, , , , , , , , 
+Ham_fn,1) Người Ai Cập: Thi thiên 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,True, , , , , , , , 
+Canaan_fn,2) Dân Ca-na-an: Giô-suê 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,True, , , , , , , , 
+Aram_fn,3) Người A-ram: Ô-sê 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,True, , , , , , , , 
+Elam_fn,4) Người Ê-lam: Ê-xơ-ra 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,True, , , , , , , , 
+Asshur_fn,5) Người A-su-rơ: Ê-xê-chi-ên 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,True, , , , , , , , 
+Casluh_fn,6) Người Phi-li-tia: 1 Sư Ký 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,True, , , , , , , , 
+Cush_fn,7) Ê-thi-ô-bi [Cút-sơ]: 2 Các vua 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,True, , , , , , , , 
+Edom_fn,8) Người Ê-đôm: Dân số ký 20:14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,True, , , , , , , , 
+Moab_fn,"9) Dân Mô-áp: Phục 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,True, , , , , , , , 
+Ammon_fn,10) Người Ê-đôm: Dân số ký 20:14-17,10) Ammonites: Joshua 12:2,2025-09-22,bible,True, , , , , , , , 
+Midian_fn,"11) Dân Ma-đi-an: Dân số 31:2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,True, , , , , , , , 
+Amalek_fn,12) Dân A-ma-léc: 1 Sa-mu-ên 15:2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,True, , , , , , , , 
+Teman_fn,13) Người Thê-man: Gióp 42:7,13) Temanites: Job 42:7,2025-09-22,bible,True, , , , , , , , 
+Sidon_fn,14) Người Si-đôn: Xa-cha-ri 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,True, , , , , , , , 
+Heth_fn,15) Người Hếch: Sáng thế 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,True, , , , , , , , 
+Jebusite_fn,16) Dân Giê-bu: Giô-suê 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,True, , , , , , , , 
+Judith,Giu-đi-tha?,Judith?,"Genesis 26:34, 35",bible,True, , , , , , , , 
+Lud_fn,17) Người Lút: 1 Sử ký 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,True, , , , , , , , 
+Ishmael_fn,18) Người Ích-ma-ên: Sáng thế 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,True, , , , , , , , 
+Amorite_fn,19) Dân A-mô-rít: Quan xét 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,True, , , , , , , , 
+Hivite_fn,"20) Người Hê-vít [Ga-ba-ôn]: Giô-suê 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,True, , , , , , , , 
+Cain,Ca-in,Cain,"Genesis 4:1, son Enoch same name as other",bible,True, , , , , , , , 
+Abel,A-bên,Abel,Genesis 4:2,bible,True, , , , , , , , 
+Irad,Y-rát,Irad,Genesis 4:18,bible,True, , , , , , , , 
+Mehujael,Mê-hu-da-ên,Mehujael,Genesis 4:18,bible,True, , , , , , , , 
+Methushael,Mê-tu-sa-ên,Methushael,"Genesis 4:18, son Lamech same as other",bible,True, , , , , , , , 
+Jabal,Gia-banh,Jabal,"Genesis 4:20 living in tents, have livestock",bible,True, , , , , , , , 
+Jubal,Giu-banh,Jubal,Genesis 4:21 play harp and pipe,bible,True, , , , , , , , 
+Zillah,Xi-la,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,True, , , , , , , , 
+Tubal-cain,Tu-banh-ca-in,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,True, , , , , , , , 
+Naamah,Na-a-ma,Naamah,Genesis 4:22 his sister,bible,True, , , , , , , , 
+Rehoboam,Rê-hô-bô-am,Rehoboam,first king of southern kingdom of Juda,A6-A,True, , , , , , , , 
+Abijah,A-bi-gia (A-bi-giam),Abijah (Abijam),"3 years, also Abijam",A6-A,True, , , , , , , , 
+Asa,A-sa,Asa,A6-A,A6-A,True, , , , , , , , 
+Jehoshaphat,Giê-hô-sa-phát,Jehoshaphat, ,A6-A,True, , , , , , , , 
+Jehoram2,Giê-hô-ram,Jehoram, ,A6-A,True, , , , , , , , 
+Ahaziah,A-cha-xia,Ahaziah, ,A6-A,True, , , , , , , , 
+Athaliah,Nữ hoàng A-tha-li,Queen Athaliah,Queen Athaliah,A6-A,True, , , , , , , , 
+Jehoash,Giê-hô-ách,Jehoash, ,A6-A,True, , , , , , , , 
+Amaziah,A-ma-xia,Amaziah, ,A6-A,True, , , , , , , , 
+Uzziah,U-xi-a (A-xa-ria),Uzziah (Azariah),also Azariah,A6-A,True, , , , , , , , 
+Jeroboam,Giê-rô-bô-am,Jeroboam,first king of northern 10-tribe kingdom,A6-A,True, , , , , , , , 
+Nadab,Na-đáp,Nadab,less than 2,A6-A,True, , , , , , , , 
+Baasha,Ba-ê-sa,Baasha, ,A6-A,True, , , , , , , , 
+Elah,Ê-lát,Elah, ,A6-A,True, , , , , , , , 
+Zimri,Xim-ri,Zimri,Only 7 days in ca. 751 BCE,A6-A,True, , , , , , , , 
+OmriTibni,Ôm-ri và Típ-ni,Omri and Tibni together,4 years Omri and Tibni,A6-A,True, , , , , , , , 
+Omri,Ôm-ri (một mình),Omri (alone),from 947 Omri alone,A6-A,True, , , , , , , , 
+Ahab,A-háp,Ahab, ,A6-A,True, , , , , , , , 
+Jehoram,Giê-hô-ram,Jehoram, ,A6-A,True, , , , , , , , 
+Jehu,Giê-hu,Jehu, ,A6-A,True, , , , , , , , 
+Jeoahaz,Giê-hô-a-cha,Jeoahaz, ,A6-A,True, , , , , , , , 
+JeoahazJehoash,Giê-hô-a-cha và Giê-hô-ách,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,True, , , , , , , , 
+Jehoash2,Giê-hô-ách (một mình),Jehoash (alone),Jehoash (alone),A6-A,True, , , , , , , , 
+Jeroboam2,Giê-rô-bô-am II,Jeroboam II, ,A6-A,True, , , , , , , , 
+Elijah,Ê-li-gia,Elijah, ,A6-A,True, , , , , , , , 
+Elisha,Ê-li-sê,Elisha, ,A6-A,True, , , , , , , , 
+Jonah,Giô-na,Jonah, ,A6-A,True, , , , , , , , 
+Amos,A-mốt,Amos, ,A6-A,True, , , , , , , , 
+Joel,Giô-ên,Joel, ,A6-A,True, , , , , , , , 
+Jotham,Giô-tham,Jotham,A6-B,A6-B,True, , , , , , , , 
+Ahaz,A-cha-xia,Ahaz, ,A6-B,True, , , , , , , , 
+Hezekiah,Ê-xê-chia,Hezekiah, ,A6-B,True, , , , , , , , 
+Manasseh,Ma-na-se,Manasseh, ,A6-B,True, , , , , , , , 
+Amon,A-môn,Amon, ,A6-B,True, , , , , , , , 
+Josiah,Giô-si-a,Josiah, ,A6-B,True, , , , , , , , 
+Jehoahaz,Giê-hô-a-cha,Jehoahaz,Only 3 months,A6-B,True, , , , , , , , 
+Jehoiakim,Giê-hô-gia-kim,Jehoiakim, ,A6-B,True, , , , , , , , 
+Jehoiachin,Giê-hô-gia-kin,Jehoiachin,Only 3 months 10 days,A6-B,True, , , , , , , , 
+Zedekiah,Xê-đê-kia,Zedekiah, ,A6-B,True, , , , , , , , 
+Zechariah,Xa-cha-ri,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,True, , , , , , , , 
+Schallum,Sa-lum,Schallum,only one month,A6-B,True, , , , , , , , 
+Menahem,Mê-na-hem,Menahem, ,A6-B,True, , , , , , , , 
+Pekahiah,Phê-ca-hia,Pekahiah, ,A6-B,True, , , , , , , , 
+Pekah,Phê-ca,Pekah, ,A6-B,True, , , , , , , , 
+Hoshea,Hô-sê,Hoshea,9 years from c. 748,A6-B,True, , , , , , , , 
+Hosea,Ô-sê,Hosea, ,A6-B,True, , , , , , , , 
+Isaiah,Ê-sai,Isaiah, ,A6-B,True, , , , , , , , 
+Micah,Mi-chê,Micah, ,A6-B,True, , , , , , , , 
+Zephaniah,Xô-phô-ni,Zephaniah, ,A6-B,True, , , , , , , , 
+Nahum,Na-hum,Nahum, ,A6-B,True, , , , , , , , 
+Jeremiah,Giê-rê-mi,Jeremiah, ,A6-B,True, , , , , , , , 
+Habakuk,Ha-ba-cúc,Habakuk, ,A6-B,True, , , , , , , , 
+Daniel,Đa-ni-ên,Daniel, ,A6-B,True, , , , , , , , 
+Ezekiel,Ê-xê-chi-ên,Ezekiel, ,A6-B,True, , , , , , , , 
+Obadiah,Áp-đia,Obadiah, ,A6-B,True, , , , , , , , 
+Babylon,"Đa-ni-ên 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , , , , 
+Medopersia,"Đa-ni-ên 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , , , , 
+Greece,"Đa-ni-ên 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , , , , 
+Rome,"Đa-ni-ên 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , , , , 
+Angloamerica,"Đa-ni-ên 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True, , , , , , , , 
+Babylon_c,Ba-by-lôn,Babylon, ,B9,True, , , , , , , , 
+Medopersia_c,Mê-đi Ba Tư,Medo-Persia, ,B9,True, , , , , , , , 
+Greece_c,Hy Lạp,Greece, ,B9,True, , , , , , , , 
+Rome_c,La Mã,Rome, ,B9,True, , , , , , , , 
+Angloamerica_c,Anh-Mỹ,Anglo-America, ,B9,True, , , , , , , , 
+daniel2_1,Vua Nê-bu-cát-nết-xa,King Nebuchadnezzar,607 BCE,B9,True, , , , , , , , 
+daniel2_2,hủy diệt Giê-ru-sa-lem,destroys Jerusalem,appendix B9,B9,True, , , , , , , , 
+daniel2_3,Chinh phục Ba-by-lôn,Conquers Babylon,539 BCE,B9,True, , , , , , , , 
+daniel2_4,Si-ru ban chiếu chỉ cho dân,Cyrus decrees return,537 BCE,B9,True, , , , , , , , 
+daniel2_5,Do Thái trở về Giê-ru-sa-lem,of Jews to Jerusalem, ,B9,True, , , , , , , , 
+daniel2_6,A-léc-xan-đơ Đại đế,Alexander the Great,331 BCE,B9,True, , , , , , , , 
+daniel2_7,chinh phục Ba Tư,conquers Persia, ,B9,True, , , , , , , , 
+daniel2_8,Cai trị Y-sơ-ra-ên,Rules over Israel,63 BCE,B9,True, , , , , , , , 
+daniel2_9,Hủy diệt Giê-ru-sa-lem,Destroys Jerusalem,70 CE,B9,True, , , , , , , , 
+daniel2_10,"Trong Thế Chiến I,","During World War I,",1914-1918 CE,B9,True, , , , , , , , 
+daniel2_11,cường quốc Anh Mỹ,Anglo-American World Power, ,B9,True, , , , , , , , 
+daniel2_12,được hình thành,comes into being,End 4.2,B9,True, , , , , , , , 
+607BCE,607 TCN,607 B.C.E.,accommodate for language,B9,True, , , , , , , , 
+539BCE,539 TCN,539 B.C.E.,systems in style:,B9,True, , , , , , , , 
+537BCE,537 TCN,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , , , , 
+331BCE,331 TCN,331 B.C.E.,so they need a word,B9,True, , , , , , , , 
+63BCE,63 TCN,63 B.C.E.,prior to the year,B9,True, , , , , , , , 
+70CE,70 CN,70 C.E.,and something,B9,True, , , , , , , , 
+1914CE,1914-1918 CN,1914-1918 C.E.,after the year,B9,True, , , , , , , , 
+7times,Khải huyền 12:9,Revelation 12:9, ,scripture,True, , , , , , , , 
+infliction2,Công vụ 7:6,Acts 7:6, ,scripture,True, , , , , , , , 
+eastern-zhou,770-256 TCN,770-256 BC, ,span_bc,True, , , , , , , , 
+430years,1943 – 1513 TCN,1943 – 1513 B.C.E., ,span_bce,True, , , , , , , , 
+eastern-han,25-220 CN,25-220 CE, ,span_ce,True, , , , , , , , 
+northern-dynasties,368-581 CN,368-581 CE, ,span_ce,True, , , , , , , , 
+southern-dynasties,420-589 CN,420-589 CE, ,span_ce,True, , , , , , , , 
+khmer_empire,804 – 1431,804 – 1431, ,timespan,True, , , , , , , , 
+byzantine_empire,330 – 1453,330 – 1453, ,timespan,True, , , , , , , , 
+ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True, , , , , , , , 
+holy_roman_empire,800 – 924,800 – 924, ,timespan,True, , , , , , , , 
+holy_roman_empire2,962 – 1806,962 – 1806,fixed 2024-12-31,timespan,True, , , , , , , , 
+inca_empire,1438 – 1533,1438 – 1533, ,timespan,True, , , , , , , , 
+gupta_empire,319 – 550,319 – 550, ,timespan,True, , , , , , , , 
+Umayyad,661 – 750,661 – 750, ,timespan,True, , , , , , , , 
+Abbasid,750 – 1258,750 – 1258, ,timespan,True, , , , , , , , 
+Mamluk,1250 – 1517,1250 – 1517, ,timespan,True, , , , , , , , 
+seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True, , , , , , , , 
+lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True, , , , , , , , 
+qing-dynasty,1636-1912,1636-1912, ,timespan,True, , , , , , , , 
+ming-dynasty,1368-1644,1368-1644, ,timespan,True, , , , , , , , 
+yuan-dynasty,1271-1368,1271-1368, ,timespan,True, , , , , , , , 
+southern-song,1127-1279,1127-1279, ,timespan,True, , , , , , , , 
+northern-song,960-1127,960-1127, ,timespan,True, , , , , , , , 
+western-xia,1038-1227,1038-1227, ,timespan,True, , , , , , , , 
+maya_classic,250–950,250–950, ,timespan,True, , , , , , , , 
+maya_postclassic,950-1539,950-1539, ,timespan,True, , , , , , , , 
+tran_dynasty,1225–1400,1225–1400, ,timespan,True, , , , , , , , 
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True, , , , , , , , 
+revival_le_dynasty,1533-1789,1533-1789, ,timespan,True, , , , , , , , 
+nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True, , , , , , , , 
+edo,1603 – 1868,1603 – 1868, ,timespan,True, , , , , , , , 
+meiji,1868 – 1912,1868 – 1912, ,timespan,True, , , , , , , , 
+Julius,Sê-sa Giu-lơ (Julius),Julius, ,wiki,True, , , , , , , , 
+Caligula,Caligula,Caligula, ,wiki,True, , , , , , , , 
+Nero,Nê-rô (Nero),Nero, ,wiki,True, , , , , , , , 
+Galba-Otho-Vitellius,"Galba, Otho và Vitellius (Năm Tứ Hoàng)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,True, , , , , , , , 
+Vespasian,Vespasian,Vespasian, ,wiki,True, , , , , , , , 
+covid19,Covid-19,Covid-19, ,wiki,True, , , , , , , , 
+nicaea1,Công đồng Nicaea đầu tiên,First Council of Nicaea, ,wiki,True, , , , , , , , 
+oxyrhynchus,Giấy cói Oxyrhynchus,Oxyrhynchus Papyri, ,wiki,True, , , , , , , , 
+p52,Giấy cói P52,Papyrus P52, ,wiki,True, , , , , , , , 
+qing-dynasty_c,Nhà Thanh,Qing dynasty,1636-1912,wiki,True, , , , , , , , 
+ming-dynasty_c,Nhà Minh ở Trung Quốc,Ming dynasty in imperial China,1368-1644,wiki,True, , , , , , , , 
+yuan-dynasty_c,Nhà Nguyên,Yuan,1271-1368,wiki,True, , , , , , , , 
+southern-song_c,Nam Tống,Southern Song,1127-1279,wiki,True, , , , , , , , 
+northern-song_c,Bắc Tống,Northern Song,960-1127,wiki,True, , , , , , , , 
+western-xia_c,Tây Hạ,Western Xia,1038-1227,wiki,True, , , , , , , , 
+Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,True, , , , , , , , 
+Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,True, , , , , , , , 
+Newton,Isaac Newton,Isaac Newton, ,wiki,True, , , , , , , , 
+shang-dynasty_c,Nhà Thương,Shang dynasty,c. 1600-1046 BC,wiki,True, , , , , , , , 
+western-zhou_c,Tây Chu,Western Zhou,c. 1046-771 BC,wiki,True, , , , , , , , 
+eastern-zhou_c,Đông Chu,Eastern Zhou,770-256 BC,wiki,True, , , , , , , , 
+western-han_c,Tây Hán,Western Han,207 BC – 9 CE,wiki,True, , , , , , , , 
+eastern-han_c,Đông Hán,Eastern Han,25-220 CE,wiki,True, , , , , , , , 
+three-kingdoms_c,TQ,China,Three kingdoms 220-280 CE,wiki,True, , , , , , , , 
+sixteen-kingdoms_c,Trung Quốc,China,Sixteen kingdoms 304-439 CE,wiki,True, , , , , , , , 
+northern-dynasties_c,Bắc triều,Northern dynasties,368-581 CE,wiki,True, , , , , , , , 
+southern-dynasties_c,Nam triều,Southern dynasties,420-589 CE,wiki,True, , , , , , , , 
+tang-dynasty2_c,Nhà Đường (N. Đ.),Tang dynasty,"618-690, 705-907",wiki,True, , , , , , , , 
+byzantine_empire_c,Đế quốc Đông La Mã,Byzantine Empire, ,wiki,True, , , , , , , , 
+ottoman_empire_c,Đế quốc Ottoman,Ottoman Empire, ,wiki,True, , , , , , , , 
+Genghis,Thành Cát Tư Hãn,Genghis Khan, ,wiki,True, , , , , , , , 
+inca_empire_c,Đế quốc Inca,Inca empire, ,wiki,True, , , , , , , , 
+gupta_empire_c,Đế quốc Gupta,Gupta Empire, ,wiki,True, , , , , , , , 
+Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,True, , , , , , , , 
+Abbasid_c,Nhà Abbas,Abbasid Caliphate, ,wiki,True, , , , , , , , 
+Mamluk_c,Vương quốc Hồi giáo Mamluk,Mamluk Sultanate, ,wiki,True, , , , , , , , 
+Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,True, , , , , , , , 
+wulfila,Kinh thánh Wulfila,Wulfila Bible,2025-09-20,wiki,True, , , , , , , , 
+tran_dynasty_c,Triều đại Nhà Trần,Trần dynasty, ,wiki,True, , , , , , , , 
+le_dynasty_c,Nhà Hậu Lê,Lê dynasty, ,wiki,True, , , , , , , , 
+revival_le_dynasty_c,Nhà Lê trung hưng,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,True, , , , , , , , 
+seljuk_empire_c,Đế quốc Seljuk,Seljuk empire, ,wiki,True, , , , , , , , 
+vandals_c,n. Vandal,Vandals, ,wiki,True, , , , , , , , 
+lombard_c,Vương quốc Lombardia,Lombard Kingdom,2025-10-13,wiki,True, , , , , , , , 
+people,Người,people, ,deprecated,True, , , , , , , , 
+judges,Quan xét,judges, ,deprecated,True, , , , , , , , 
+prophets,Tiên tri,prophets, ,deprecated,True, , , , , , , , 
+kings,Các vị vua,kings, ,deprecated,True, , , , , , , , 
+periods,Thời gian,periods, ,deprecated,True, , , , , , , , 
+events,Sự kiện,events, ,deprecated,True, , , , , , , , 
+objects,Đồ vật,objects or items, ,deprecated,True, , , , , , , , 
+event_destruction_samaria2,740 TCN bởi người Assyria,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,True, , , , , , , , 
+photodrama,“Kịch ảnh về sự sáng tạo” được trình chiếu lần đầu tiên tại New York vào ngày 11 tháng 1 năm 1914,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,True, , , , , , , , 
+truth_book,Sách “Sự Thật Dẫn Đến Sự Sống Đời Đời” xuất bản năm 1968,The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,True, , , , , , , , 
+jw_broadcasting,Bắt đầu phát sóng Kênh truyền thông JW vào tháng 10 năm 2014,Start of JW Broadcasting® in October 2014, ,deprecated,True, , , , , , , , 
+meeting_workbook,Hình thức mới của cuộc họp giữa tuần với “sổ bài tập cuộc họp” bắt đầu từ tháng 1 năm 2016,New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,True, , , , , , , , 
+terahfam,Các thành viên trong gia đình Tha-rê,Members of Terah’s family, ,deprecated,True, , , , , , , , 
+metropolitan,Bắt đầu làm chứng tại đô thị vào năm 2011,Start of metropolitan witnessing in 2011, ,deprecated,True, , , , , , , , 
+jw_org,Bắt đầu JW.ORG với những hướng dẫn trong Thánh Chức Nước Trời tháng 12 năm 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,True, , , , , , , , 
+Babylon2, , ,no text left and right – empty!,deprecated,True, , , , , , , , 
+daniel2_shift,-10,-10,Start 4.2,deprecated,True, , , , , , , , 
+Gatam,Ga-tham,Gatam,Genesis 36:11,deprecated,True, , , , , , , , 
+Adbeel,Át-bê-ên,Adbeel,Genesis 25:13,deprecated,True, , , , , , , , 
+Mibsam,Mi-bô-sam,Mibsam,Genesis 25:13,deprecated,True, , , , , , , , 
+Dumah,Đu-ma,Dumah,Genesis 25:14,deprecated,True, , , , , , , , 
+Massa,Mác-sa,Massa,Genesis 25:14,deprecated,True, , , , , , , , 
+tang-dynasty1, , , ,deprecated,True, , , , , , , , 
+xia-dynasty,Nhà Hạ ở Trung Quốc c. 2070 – c. 1600 TCN,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,True, , , , , , , , 
+Midianites,"1) Dân Ma-đi-an: Dân số 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,True, , , , , , , , 
+Moabites,"2) Dân Mô-áp: Phục 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,True, , , , , , , , 
+Ammonites,3) Dân Am-môn: Giô-suê 12:2,3) Ammonites: Joshua 12:2, ,deprecated,True, , , , , , , , 
+Edomites,4) Người Ê-đôm: Dân số ký 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,True, , , , , , , , 
+Temanites,5) Người Thê-man: Gióp 42:7,5) Temanites: Job 42:7, ,deprecated,True, , , , , , , , 
+Amalekites,6) Dân A-ma-léc: 1 Sa-mu-ên 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,True, , , , , , , , 
+king_south_light, , ,2025-02-05,deprecated,True, , , , , , , , 
+king_north_light, , ,2025-02-05,deprecated,True, , , , , , , , 
+daniel2_iron, , ,2025-02-05,deprecated,True, , , , , , , , 
+timeline_created,"2023 là năm nóng nhất trong lịch sử loài người và trong 125.000 năm qua, dòng TG này đã tạo ra","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,deprecated,True, , , , , , , , 

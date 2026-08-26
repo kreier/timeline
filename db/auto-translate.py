@@ -3,8 +3,8 @@
 # Usage: python auto-translate.py [language_code]
 # Update 2026: check the translation, expand if necessary
 
-# dictionary_reference.csv has 'key', 'v', 'english', 'notes' and 'tag'
-# dictionary_XX.csv has 'key', 'text', 'english', 'notes', 'tag'and 'checked'
+# dictionary_reference.csv has 'key', 'version', 'english', 'notes', 'tag'                 and               'link' - 2026-06-30
+# dictionary_XX.csv        has 'key', 'text',    'english', 'notes', 'tag', 'checked', 'checked_by', 'date', 'link', 'google', 'chatgpt', 'gemini', 'claude', 'deepl'
 
 # Step 1: Compare the number of keys in both dictionaries and report differences
 # Step 2: Find keys that are in dict_translated but not in dict
@@ -95,7 +95,7 @@ def check_existing(language, filename):
 
 
         # Step 3: Check if dict_translated has the required columns
-        required_cols = ["key", "text", "english", "notes", "tag", "checked"]
+        required_cols = ["key", "text", "english", "notes", "tag", "checked", "checked_by", "date", "link", "google", "chatgpt", "gemini", "claude", "deepl"]
         # Add missing columns to dict_translated
         for col in required_cols:
             if col not in dict_translated.columns:
@@ -243,6 +243,24 @@ def check_existing(language, filename):
         print(dict_translated[dict_translated["key"].isin(keys_to_update)])
 
     dict_translated.to_csv(filename, index=False)
+
+    # Step 8.4: Compare the values in "link" between dict and dict_translated - this will be interactive with three windows
+    # to see both wikipedia pages (reference and translated) and the dictionary entry, and decide which link to keep
+    # Index both by 'key'
+    # If there is no link yet, put the one from the referenc dictionary in. If there is a link, keep it. If the link is different, keep the one in dict_translated.
+    # dict_indexed = dict.set_index("key")
+    # trans_indexed = dict_translated.set_index("key")
+    # # Check if key in dict_translated has a link, if not, copy from dict
+    # for key in dict_indexed.index:
+    #     if key in trans_indexed.index:
+    #         if dict_indexed.at[key, "link"] != " ":
+    #             print(f"Checking link for key: {key}, found link: {dict_indexed.at[key, 'link']}, existing link: {trans_indexed.at[key, 'link']}")
+    #             # check if trans_indexed.at[key, "link"] is empty or different from dict_indexed.at[key, "link"]
+    #             if trans_indexed.at[key, "link"] == " " or trans_indexed.at[key, "link"] != dict_indexed.at[key, "link"]:
+    #                 print(f"Updating link for key: {key} to {dict_indexed.at[key, 'link']}")
+    #                 dict_translated.loc[dict_translated["key"] == key, "link"] = dict_indexed.at[key, "link"]
+    #             # trans_indexed.at[key, "link"] = dict_indexed.at[key, "link"]
+    # dict_translated.to_csv(filename, index=False)
 
 
     # It remains:
