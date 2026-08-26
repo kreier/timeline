@@ -1,7 +1,7 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08,5.9,float,True, , , , , , , , 
-pdf_title,6000 років людська історія візуалізована,6000 years human history visualized,2026-07-01,text,True, , , , , , , , 
-pdf_subject,Графік людства,Timeline of humankind,5.9,text,True, , , , , , , , 
+pdf_title,6000 років людська історія візуалізована,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , , 
+pdf_subject,Графік людства,Timeline of human history from 4000 BCE to present,5.9,text,False, , , , , , , , 
 BCE,до н. е.,B.C.E.,appendix B9,B9,True, , , , , , , , 
 CE,н. е.,C.E., ,B9,True, , , , , , , , 
 month,місяць,month, ,text,True, , , , , , , , 

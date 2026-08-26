@@ -1,7 +1,7 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08, ,float,False, , , , , , , , 
-pdf_title,한눈에 보는 인류 6000년 역사,6000 years human history visualized,2026-07-01,text,True, , , , , , , , 
-pdf_subject,인류의 타임라인,Timeline of humankind,6.01,text,False, , , , , , , , 
+pdf_title,한눈에 보는 인류 6000년 역사,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , , 
+pdf_subject,인류의 타임라인,Timeline of human history from 4000 BCE to present,6.01,text,False, , , , , , , , 
 BCE,기원전,B.C.E.,appendix B9,B9,True, , , , , , , , 
 CE,기원후,C.E., ,B9,False, , , , , , , , 
 month,개월,month, ,text,False, , , , , , , , 

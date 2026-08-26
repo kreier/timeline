@@ -1,7 +1,7 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08, ,float,True, , , , , , , , 
-pdf_title,වසර 6000ක මානව ඉතිහාසය දර්ශනය විය,6000 years human history visualized,2026-07-01,text,True, , , , , , , , 
-pdf_subject,මානව වර්ගයාගේ කාල සටහන,Timeline of humankind, ,text,False, , , , , , , , 
+pdf_title,වසර 6000ක මානව ඉතිහාසය දර්ශනය විය,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , , 
+pdf_subject,මානව වර්ගයාගේ කාල සටහන,Timeline of human history from 4000 BCE to present, ,text,False, , , , , , , , 
 BCE,ක්රි.පූ.,B.C.E., ,B9,True, , , , , , , , 
 CE,සී.ඊ.,C.E., ,B9,True, , , , , , , , 
 month,මස,month, ,text,False, , , , , , , , 

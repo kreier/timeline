@@ -1,7 +1,7 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08, ,float,True, , , , , , , , 
-pdf_title,6000 years human history visualized,6000 years human history visualized,2026-07-01,text,True,Matthias,2026-04-20, , , , , , 
-pdf_subject,Timeline of humankind,Timeline of humankind, ,text,True,Matthias,2026-04-20, , , , , , 
+pdf_title,6000 years human history visualized,"6,000 Years of Human History — A Timeline",2026-08-26,text,False,Matthias,2026-04-20, ,"6,000 Years of Human History — A Timeline", , , , 
+pdf_subject,Timeline of humankind,Timeline of human history from 4000 BCE to present, ,text,False,Matthias,2026-04-20, ,Timeline of human history from 4000 BCE to present, , , , 
 BCE,B.C.E.,B.C.E.,appendix B9,B9,True,Matthias,2026-04-20, , , , , , 
 CE,C.E.,C.E., ,B9,True,Matthias,2026-04-20, , , , , , 
 month,month,month, ,text,True,Matthias,2026-04-20, , , , , , 

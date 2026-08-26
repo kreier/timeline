@@ -25,6 +25,8 @@
 # Step 8.2: Match the version number and date
 # Step 8.3: Compare the values in "english" between dict and dict_translated, set checked to FALSE, update english
 # Step 9: Find empty entries in text and send them for translation
+# Stage 10.1: Find empty entries in the 'google' column (tag == 'text') and fill them via googletrans,
+#             kept separate from 'text' so the reviewed/final translation isn't overwritten
 
 
 import os, sys, asyncio
@@ -341,6 +343,42 @@ async def translate_missing_values_in_dictionary(dictionary, language):
             # print('.', end='')
             print(f'{index}: {english_text} - {result.text}')
 
+async def translate_column(language, target_col, tag_filter=None, respect_checked=True):
+    """
+    Generic googletrans filler, shared by Step 9 and Stage 10.1.
+    Translates 'english' into `target_col` for rows where:
+      - tag matches tag_filter (if given)
+      - checked is False (if respect_checked)
+      - english is not empty
+      - target_col is currently empty
+    Does not touch 'checked' - that column tracks review status of 'text',
+    not whether a per-engine suggestion column has been filled.
+    """
+    global number_characters
+    if target_col not in dict_translated.columns:
+        dict_translated[target_col] = " "
+
+    mask = pd.Series(True, index=dict_translated.index)
+    if tag_filter is not None:
+        mask &= dict_translated["tag"] == tag_filter
+    if respect_checked:
+        mask &= ~dict_translated["checked"]
+    mask &= dict_translated["english"] != " "
+    mask &= dict_translated[target_col].isna() | (dict_translated[target_col].isin([" ", ""]))
+
+    rows_to_translate = dict_translated[mask].index
+    if len(rows_to_translate) == 0:
+        print(f"No empty '{target_col}' entries to translate.")
+        return
+
+    async with Translator() as translator:
+        for index in rows_to_translate:
+            english_text = dict_translated.at[index, "english"]
+            number_characters += len(str(english_text))
+            result = await translator.translate(english_text, src="en", dest=language)
+            dict_translated.at[index, target_col] = result.text
+            print(f'{index}: {english_text} - {result.text}')
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("You did not provide a language as argument. Put it as a parameter after the program name.")
@@ -396,5 +434,18 @@ if __name__ == "__main__":
     else:
         print(dict_translated)
         print(f"You translated {number_characters} characters.")
+        print("Exporting ...")
+        dict_translated.to_csv(filename, index=False)
+
+    # Stage 10.1: fill the 'google' column with a googletrans suggestion for rows tagged 'text'
+    # that don't have one yet. This is kept separate from 'text' itself, which holds the
+    # reviewed/final translation (possibly sourced from a different engine or a human).
+    print("\nStage 10.1: filling 'google' suggestions for tag == 'text' ...")
+    number_characters = 0
+    asyncio.run(translate_column(language, target_col="google", tag_filter="text"))
+    if number_characters == 0:
+        print("No characters to translate for the 'google' column.")
+    else:
+        print(f"You translated {number_characters} characters for the 'google' column.")
         print("Exporting ...")
         dict_translated.to_csv(filename, index=False)

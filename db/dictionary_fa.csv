@@ -1,7 +1,7 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08, ,float,True, , , , , , , , 
-pdf_title,6000 سال تاریخ بشر تجسم شده است,6000 years human history visualized,2026-07-01,text,True, , , , , , , , 
-pdf_subject,جدول زمانی نوع بشر,Timeline of humankind, ,text,True, , , , , , , , 
+pdf_title,6000 سال تاریخ بشر تجسم شده است,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , , 
+pdf_subject,جدول زمانی نوع بشر,Timeline of human history from 4000 BCE to present, ,text,False, , , , , , , , 
 BCE,ه.س.إ.,B.C.E., ,B9,True, , , , , , , , 
 CE,س. إ.,C.E., ,B9,True, , , , , , , , 
 month,ماه,month, ,text,False, , , , , , , , 
