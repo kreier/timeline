@@ -24,14 +24,22 @@
 # Step 8.1: match all entries with tag 'timespan' and set checked to True
 # Step 8.2: Match the version number and date
 # Step 8.3: Compare the values in "english" between dict and dict_translated, set checked to FALSE, update english
-# Step 9: Find empty entries in text and send them for translation
-# Stage 10.1: Find empty entries in the 'google' column (tag == 'text') and fill them via googletrans,
-#             kept separate from 'text' so the reviewed/final translation isn't overwritten
+# Step 9: Find empty entries in 'text' and send them for translation via googletrans (fill_missing_text)
+# Step 10: Find empty entries in the 'google' column (tag == 'text') and fill them via googletrans,
+#          kept separate from 'text' so the reviewed/final translation isn't overwritten (fill_missing_google)
 
 
+import random
 import os, sys, asyncio
+from time import time
 import pandas as pd
 from googletrans import Translator
+import deepl
+
+# Initialize the DeepL client
+# Best practice: Store key in environment variable DEEPL_API_KEY
+DEEPL_KEY = os.getenv("DEEPL_API_KEY", "your-deepl-api-key-here")
+translator = deepl.Translator(DEEPL_KEY)
 
 def check_existing(language, filename):
     global dict_translated, dict 
@@ -282,70 +290,12 @@ def import_reference():
     # print(f"found {len(dict)} entries.")
     # print(dict)
 
-def unchecked_BCE_CE():
-    global dict_translated
-    # Check if 'BCE' and 'CE' are checked as False
-    subset = dict_translated.loc[dict_translated["key"].isin(["BCE", "CE"]), "checked"]
-    if (subset == False).any():
-        print("At least one of BCE or CE is not checked.")
-        return True
-    else:
-        print("Both BCE and CE are checked.")
-        return False
-
-async def translate_bce_ce(language):
-    global dict_translated, number_characters
-    keywords = {
-        "BCE": "B.C.E.",
-        "CE": "C.E."
-    }
-    async with Translator() as translator:
-        translations = {}
-        for key, english_text in keywords.items():
-            result = await translator.translate(english_text, src="en", dest=language)
-            translations[key] = result.text
-            print(f"Translating {english_text} to {result.text}")
-    for key, translated_text in translations.items():
-            dict_translated.loc[dict_translated["key"] == key, "text"] = translated_text
-    dict_translated.to_csv(filename, index=False)
-
-
-async def translate_dictionary(dictionary, language):
-    global number_characters
-    async with Translator() as translator:
-        for index, row in dict_translated.iterrows(): # with 3 columns 'key' 'text' and 'english'
-            english_text = row.english
-            number_characters += len(str(english_text))
-            if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
-                # dict_translated.at[index, 'text'] = translator.translate(english_text, src='en', dest=language).text
-                result = await translator.translate(english_text, src='en', dest=language)
-                dict_translated.at[index, 'text'] = result.text
-                # print('.', end='')
-                print(f'{index}: {english_text} - {result.text}')
-            # if (index + 1) % 40 == 0:
-            #     print(f" {index}")
-
-async def translate_missing_values_in_dictionary(dictionary, language):
-    global number_characters
-    async with Translator() as translator:
-        for index, row in dict_translated.iterrows(): # with columns 'key' 'text' 'english' and 'checked'
-            if row.checked:   # skip checked entries
-                continue 
-            english_text = row.english
-            if english_text == " ": # skip empty strings
-                continue
-            translated_text = row.text
-            if translated_text != " ": # skip already translated entries
-                continue
-            number_characters += len(str(english_text))
-            result = await translator.translate(english_text, src='en', dest=language)
-            dict_translated.at[index, 'text'] = result.text
-            # print('.', end='')
-            print(f'{index}: {english_text} - {result.text}')
-
-async def translate_column(language, target_col, tag_filter=None, respect_checked=True):
+async def translate_with_googletrans(language, target_col, tag_filter=None, respect_checked=True):
     """
-    Generic googletrans filler, shared by Step 9 and Stage 10.1.
+    Shared googletrans worker, used by both fill_missing_text() (Step 9,
+    the 'text' column) and fill_missing_google() (Step 10, the 'google'
+    suggestion column).
+
     Translates 'english' into `target_col` for rows where:
       - tag matches tag_filter (if given)
       - checked is False (if respect_checked)
@@ -353,8 +303,11 @@ async def translate_column(language, target_col, tag_filter=None, respect_checke
       - target_col is currently empty
     Does not touch 'checked' - that column tracks review status of 'text',
     not whether a per-engine suggestion column has been filled.
+
+    Returns the number of characters submitted for translation.
     """
-    global number_characters
+    global dict_translated
+    number_characters = 0
     if target_col not in dict_translated.columns:
         dict_translated[target_col] = " "
 
@@ -369,15 +322,135 @@ async def translate_column(language, target_col, tag_filter=None, respect_checke
     rows_to_translate = dict_translated[mask].index
     if len(rows_to_translate) == 0:
         print(f"No empty '{target_col}' entries to translate.")
-        return
+        return number_characters
 
-    async with Translator() as translator:
-        for index in rows_to_translate:
-            english_text = dict_translated.at[index, "english"]
-            number_characters += len(str(english_text))
-            result = await translator.translate(english_text, src="en", dest=language)
-            dict_translated.at[index, target_col] = result.text
-            print(f'{index}: {english_text} - {result.text}')
+    # Define retry parameters
+    MAX_RETRIES = 3
+
+    for index in rows_to_translate:
+        english_text = dict_translated.at[index, "english"]
+        number_characters += len(str(english_text))
+        translated_success = False
+
+        for attempt in range(MAX_RETRIES):
+            try:
+                # Open a fresh session to clear rate-limited cookies/connection state if retrying
+                async with Translator() as translator:
+                    result = await translator.translate(english_text, src="en", dest=language)
+                    translated_text = result.text.strip() if result and result.text else ""
+
+                    # Check if we got a valid translation that isn't an unchanged echo
+                    if translated_text and translated_text.lower() != english_text.strip().lower():
+                        dict_translated.at[index, target_col] = result.text
+                        print(f"{index}: {english_text} -> {result.text}")
+                        translated_success = True
+                        break
+                    else:
+                        print(f"[{index}] Attempt {attempt + 1}: Received unchanged source text. Retrying...")
+
+            except Exception as e:
+                print(f"[{index}] Attempt {attempt + 1} Error: {e}")
+
+            # Exponential backoff with jitter: 3s, 9s, 27s
+            backoff_delay = (3 ** (attempt + 1)) + random.uniform(0.5, 1.5)
+            await asyncio.sleep(backoff_delay)
+
+        if not translated_success:
+            print(f"Skipping index {index}: Max retries reached without a valid translation.")
+
+        # Standard non-blocking delay between successful processing steps to prevent rate limits
+        await asyncio.sleep(random.uniform(1.0, 1.8))
+
+    return number_characters
+
+
+def fill_missing_text(language, filename):
+    """
+    Step 9: fill missing translations in the 'text' column - the main,
+    reviewed/final translation - for all unchecked entries, regardless of tag.
+    """
+    print("\nStep 9: translating missing 'text' entries ...")
+    dict_translated.replace("", " ", inplace=True)  # normalize before checking for empties
+    number_characters = asyncio.run(
+        translate_with_googletrans(language, target_col="text", tag_filter=None, respect_checked=True)
+    )
+    if number_characters == 0:
+        print("No characters to translate.")
+    else:
+        print(dict_translated)
+        print(f"You translated {number_characters} characters.")
+        print("Exporting ...")
+        dict_translated.to_csv(filename, index=False)
+
+
+def fill_missing_google(language, filename):
+    """
+    Step 10: fill missing 'google' suggestions for rows tagged 'text' that
+    don't have one yet. Kept separate from 'text' itself, which holds the
+    reviewed/final translation (possibly sourced from a different engine
+    or a human), so it isn't overwritten.
+    """
+    print("\nStep 10: filling 'google' suggestions for tag == 'text' ...")
+    number_characters = asyncio.run(
+        translate_with_googletrans(language, target_col="google", tag_filter="text", respect_checked=False)
+    )
+    if number_characters == 0:
+        print("No characters to translate for the 'google' column.")
+    else:
+        print(f"You translated {number_characters} characters for the 'google' column.")
+        print("Exporting ...")
+        dict_translated.to_csv(filename, index=False)
+
+# Stage 10.2 execution function
+def run_stage_10_2(df, target_col="deepl", target_lang="VI"):
+    """
+    Translates rows where tag == 'text' and target_col cell is missing/empty.
+    """
+    # 1. Map target language codes if necessary (e.g., 'en' -> 'EN-US')
+    lang_upper = target_lang.upper()
+    if lang_upper == "EN":
+        lang_upper = "EN-US"
+        
+    # 2. Filter rows that need translation
+    rows_to_translate = df[
+        (df["tag"] == "text") & 
+        (df[target_col].isna() | (df[target_col].astype(str).str.strip() == ""))
+    ].index
+
+    print(f"Found {len(rows_to_translate)} rows to translate using DeepL.")
+
+    for index in rows_to_translate:
+        english_text = str(df.at[index, "english"])
+        
+        if not english_text.strip():
+            continue
+
+        try:
+            # 3. Call DeepL API
+            result = translator.translate_text(
+                english_text,
+                source_lang="EN",
+                target_lang=lang_upper
+            )
+            
+            translated_text = result.text.strip()
+            
+            # Verify translation returned something different from the original text
+            if translated_text and translated_text.lower() != english_text.strip().lower():
+                df.at[index, target_col] = translated_text
+                print(f"[{index}] Success: {english_text} -> {translated_text}")
+            else:
+                print(f"[{index}] Skipped: Output identical to source text.")
+
+        except deepl.QuotaExceededException:
+            print("Error: DeepL character quota exceeded for this month.")
+            break
+        except deepl.DeepLException as e:
+            print(f"[{index}] DeepL API Error: {e}")
+        except Exception as e:
+            print(f"[{index}] Unexpected error: {e}")
+
+    return df
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
@@ -392,60 +465,20 @@ if __name__ == "__main__":
     import_reference()
     dict_translated = pd.DataFrame() # columns 'key', 'text' for translated, 'english' for reference, 'notes' to compare, 'tag' and 'checked'
 
+    # Step 1 to 8
     check_existing(language, filename)
 
-    # Prompt possible translation effort
-    # Define the tag values we want to check
-    tags_to_check = ["text", "bible", "B9", "A6-A", "A6-B", "scripture", "wiki"]
-    # Normalize text column: treat NaN and " " as empty
-    dict_translated["text"] = dict_translated["text"].replace(" ", "").fillna("")
-    # Build counts per tag
-    summary = (
-        dict_translated[dict_translated["tag"].isin(tags_to_check)]
-        .groupby("tag")["text"]
-        .agg(
-            missing=lambda col: (col == "").sum(),
-            existing=lambda col: (col != "").sum()
-        )
-        .reset_index()
-    )
-    # Add totals row
-    totals = pd.DataFrame({
-        "tag": ["TOTAL"],
-        "missing": [summary["missing"].sum()],
-        "existing": [summary["existing"].sum()]
-    })
-    summary_table = pd.concat([summary, totals], ignore_index=True)
-    # print(summary_table)
+    # Step 9: fill missing 'text' translations via googletrans
+    fill_missing_text(language, filename)
 
+    # Step 10: fill missing 'google' suggestions via googletrans
+    fill_missing_google(language, filename)
 
-    # if unchecked_BCE_CE(): # true if missing or checked is False
-    #     asyncio.run(translate_bce_ce(language)) # translate the missing 'BCE' and 'CE' entries for span_bce, span_bc and span_ce tags
-
-    # Step 9: Find empty entries in text and send them for translation
-
-
-    print("\nTranslating ...")
-    dict_translated = dict_translated.replace("", " ")
-    number_characters = 0      # you can translate up to 500,000 characters per month for free
-    asyncio.run(translate_missing_values_in_dictionary(dict_translated, language)) # translate the dictionary
-    if number_characters == 0:
-        print("No characters to translate.")
-    else:
-        print(dict_translated)
-        print(f"You translated {number_characters} characters.")
-        print("Exporting ...")
-        dict_translated.to_csv(filename, index=False)
-
-    # Stage 10.1: fill the 'google' column with a googletrans suggestion for rows tagged 'text'
-    # that don't have one yet. This is kept separate from 'text' itself, which holds the
-    # reviewed/final translation (possibly sourced from a different engine or a human).
-    print("\nStage 10.1: filling 'google' suggestions for tag == 'text' ...")
-    number_characters = 0
-    asyncio.run(translate_column(language, target_col="google", tag_filter="text"))
-    if number_characters == 0:
-        print("No characters to translate for the 'google' column.")
-    else:
-        print(f"You translated {number_characters} characters for the 'google' column.")
-        print("Exporting ...")
-        dict_translated.to_csv(filename, index=False)
+    # Stage 10.2: fill the 'deepl' column via DeepL.
+    # NOTE: this still needs to be wired up to run_stage_10_2() (the DeepL
+    # function defined above) rather than a googletrans call - left as-is
+    # for now since it's a separate translation engine, outside the scope
+    # of this googletrans clean-up.
+    print("\nStage 10.2: filling 'deepl' suggestions for tag == 'text' ...")
+    dict_translated = run_stage_10_2(dict_translated, target_col="deepl", target_lang=language)
+    dict_translated.to_csv(filename, index=False)
