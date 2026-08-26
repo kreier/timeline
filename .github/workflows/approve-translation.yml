@@ -1,0 +1,132 @@
+name: Approve Translation Submission
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  approve-and-apply:
+    if: |
+      github.event.issue.pull_request == null &&
+      (startsWith(github.event.comment.body, '/approve') || startsWith(github.event.comment.body, '/approved')) &&
+      (github.event.comment.author_association == 'OWNER' ||
+       github.event.comment.author_association == 'MEMBER' ||
+       github.event.comment.author_association == 'COLLABORATOR')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Apply translation updates to CSV
+        id: apply_changes
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python - << 'EOF'
+          import os
+          import csv
+          import json
+          import re
+          import sys
+
+          issue_body = os.environ.get("ISSUE_BODY", "")
+
+          # Extract JSON from issue body
+          match = re.search(r"<!-- SUBMISSION_JSON_START -->.*?```json\s*(.*?)\s*```.*?<!-- SUBMISSION_JSON_END -->", issue_body, re.DOTALL)
+          if not match:
+              # Fallback match for standard ```json
+              match = re.search(r"```json\s*(\{.*?\})\s*```", issue_body, re.DOTALL)
+
+          if not match:
+              print("❌ Could not find machine JSON payload in issue body.")
+              sys.exit(1)
+
+          payload = json.loads(match.group(1))
+          lang = payload.get("lang")
+          editor = payload.get("editor", "anonymous")
+          date_str = payload.get("date", "")
+          changes = payload.get("changes", [])
+
+          csv_path = os.path.join("db", f"dictionary_{lang}.csv")
+          if not os.path.exists(csv_path):
+              print(f"❌ Target CSV file not found: {csv_path}")
+              sys.exit(1)
+
+          # Read existing CSV
+          with open(csv_path, mode="r", encoding="utf-8-sig") as f:
+              reader = csv.DictReader(f)
+              fieldnames = reader.fieldnames
+              rows = list(reader)
+
+          # Create lookup for changes by key
+          change_map = {c["key"]: c for c in changes}
+          applied_keys = []
+
+          for row in rows:
+              key = row.get("key", "").strip()
+              if key in change_map:
+                  c = change_map[key]
+                  if "text" in c:
+                      row["text"] = c["text"]
+                  if "notes" in c:
+                      row["notes"] = c["notes"]
+                  if "checked" in c:
+                      row["checked"] = c["checked"]
+                      row["checked_by"] = editor
+                      if date_str:
+                          row["date"] = date_str
+                  applied_keys.append(key)
+
+          # Write back to CSV
+          with open(csv_path, mode="w", encoding="utf-8", newline="") as f:
+              writer = csv.DictWriter(f, fieldnames=fieldnames)
+              writer.writeheader()
+              writer.writerows(rows)
+
+          print(f"✅ Successfully updated {len(applied_keys)} keys in {csv_path}: {applied_keys}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as gh_out:
+              gh_out.write(f"lang={lang}\n")
+              gh_out.write(f"count={len(applied_keys)}\n")
+              gh_out.write(f"editor={editor}\n")
+          EOF
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add db/dictionary_${{ steps.apply_changes.outputs.lang }}.csv
+          git commit -m "Update dictionary_${{ steps.apply_changes.outputs.lang }}.csv (${{ steps.apply_changes.outputs.count }} entries approved by ${{ github.event.comment.user.login }})"
+          git push origin main
+
+      - name: Close Issue with Confirmation
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const comment = `✅ **Approved and Applied!**\n\nUpdated **${{ steps.apply_changes.outputs.count }}** entries in \`db/dictionary_${{ steps.apply_changes.outputs.lang }}.csv\` (contributed by *${{ steps.apply_changes.outputs.editor }}*).\n\nCommit pushed to \`main\`.`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: comment
+            });
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['approved']
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });
