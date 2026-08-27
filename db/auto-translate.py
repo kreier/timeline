@@ -469,7 +469,7 @@ if __name__ == "__main__":
     check_existing(language, filename)
 
     # Step 9: fill missing 'text' translations via googletrans
-    fill_missing_text(language, filename)
+    # fill_missing_text(language, filename)
 
     # Step 10: fill missing 'google' suggestions via googletrans
     fill_missing_google(language, filename)
