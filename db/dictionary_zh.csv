@@ -1,183 +1,183 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08, ,float,True,Matthias,2026-07-01, , , , , , 
-pdf_title,6000年的人类历史可视化,"6,000 Years of Human History — A Timeline",2026-08-26,text,False,Matthias,2026-07-01, ,"6,000 Years of Human History — A Timeline", , , , 
-pdf_subject,人类时间轴,Timeline of human history from 4000 BCE to present,6.01,text,False,Matthias,2026-07-01, ,Timeline of human history from 4000 BCE to present, , , , 
+pdf_title,6000年的人类历史可视化,"6,000 Years of Human History — A Timeline",2026-08-26,text,False,Matthias,2026-07-01, ,"6,000 Years of Human History — A Timeline", , , ,"6,000年人类历史——时间轴"
+pdf_subject,人类时间轴,Timeline of human history from 4000 BCE to present,6.01,text,False,Matthias,2026-07-01, ,Timeline of human history from 4000 BCE to present, , , ,从公元前4000年至现在的世界历史年表
 BCE,公元前,B.C.E.,appendix B9,B9,True,Matthias,2026-07-01, ,公元前,公元前, , , 
 CE,公元 ,C.E., ,B9,True,Matthias,2026-07-01, ,公元 ,公元 , , , 
-month,个月,month, ,text,True,Matthias,2026-07-01, ,个月, , , , 
-months,个月,months, ,text,False, , , ,个月, , , , 
-day,天,day, ,text,False, , , ,天, , , , 
-days,天,days, ,text,False, , , ,天, , , , 
-to,至,to, ,text,False, , , ,至, , , , 
-Deluge,洪水,Deluge, ,text,False, , , ,洪水, , , , 
-moses2,公元前 1593 年至 1473 年– 120 年,1593 to 1473 B.C.E. – 120 years, ,text,False, , , ,1593 to 1473 B.C.E. – 120 years, , , , 
-temple1,公元前 1513 年尼散月至公元前 1034 年齐夫,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , ,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., , , , 
-69weeks,耶稣于公元 29 年秋天受洗,Jesus baptized autumn 29 C.E., ,text,False, , , ,Jesus baptized autumn 29 C.E., , , , 
-year,年,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , ,year, , , , 
-years,年,years, ,text,False, , , ,years, , , , 
-years_age,岁,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , ,years, , , , 
+month,个月,month, ,text,True,Matthias,2026-07-01, ,个月, , , ,月
+months,个月,months, ,text,False, , , ,个月, , , ,几个月
+day,天,day, ,text,False, , , ,天, , , ,天
+days,天,days, ,text,False, , , ,天, , , ,天
+to,至,to, ,text,False, , , ,至, , , ,到
+Deluge,洪水,Deluge, ,text,False, , , ,洪水, , , ,大洪水
+moses2,公元前 1593 年至 1473 年– 120 年,1593 to 1473 B.C.E. – 120 years, ,text,False, , , ,1593 to 1473 B.C.E. – 120 years, , , ,公元前1593年至公元前1473年——120年
+temple1,公元前 1513 年尼散月至公元前 1034 年齐夫,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , ,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., , , ,公元前1513年尼桑月至公元前1034年西夫月
+69weeks,耶稣于公元 29 年秋天受洗,Jesus baptized autumn 29 C.E., ,text,False, , , ,Jesus baptized autumn 29 C.E., , , ,公元29年秋，耶稣受洗。
+year,年,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , ,year, , , ,年
+years,年,years, ,text,False, , , ,years, , , ,年
+years_age,岁,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , ,years, , , ,年
 age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,以色列人在旷野中，公元前 1513 年至 1473 年– 40 年,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , ,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, , , , 
-timespan_judges,公元前 1473 年至 1117 年– 356 年,1473 to 1117 B.C.E. – 356 years, ,text,False, , , ,1473 to 1117 B.C.E. – 356 years, , , , 
-timespan_judges2,评委时间,Time of the judges, ,text,False, , , ,Time of the judges, , , , 
-temple2,距离圣殿建造还有 479 年 – 列王记上 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , ,479 years until the temple construction – 1 Kings 6:1, , , , 
-69weeks2,弥赛亚到来还有 69 周 – 但以理书 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , ,69 weeks to the Messiah – Daniel 9:25, , , , 
-jesus_service,侍奉耶稣 3.5 年，公元 33 年尼散月 14 日被处决,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , ,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", , , , 
-jesus_life,耶稣诞生于公元前 2 年,Jesus born 2 B.C.E., ,text,False, , , ,Jesus born 2 B.C.E., , , , 
-exile,公元前 607 至 537 年– 70 年（耶利米书 25:11）,607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , ,607 to 537 B.C.E. – 70 years (Jeremiah 25:11), , , , 
-exile2,流亡,Exile, ,text,False, , , ,Exile, , , , 
-7times2,7 次 – 公元 1914 年弥赛亚王国 2520 年（但以理书 4:23）,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , ,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), , , , 
-ww1,第一次世界大战 – 公元 1914 年至 1918 年,World War I – 1914–1918, ,text,False, , , ,World War I – 1914–1918, , , , 
-ww2,第二次世界大战 – 公元 1939 年至 1945 年,World War II – 1939–1945, ,text,False, , , ,World War II – 1939–1945, , , , 
-30_year_war,欧洲三十年战争 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , ,Thirty Years' War in Europe 1618-1648, , , , 
-joshua,110年,110 years, ,text,False, , , ,110 years, , , , 
-caleb,超过85岁,more than 85 years, ,text,False, , , ,more than 85 years, , , , 
-missionary1,保罗的第一次传教之旅，c。公元 47-48 年与巴拿巴和约翰马可,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , ,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", , , , 
-circumcision,安提阿的割礼问题，耶路撒冷会议公元 49 年,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , ,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", , , , 
-missionary2,第二次传教之旅 c．公元 49-52 年与塞拉斯 (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , ,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), , , , 
-missionary3,第三次传教之旅 c．公元 52-56 年,Third Missionary Journey c. 52-56 C.E., ,text,False, , , ,Third Missionary Journey c. 52-56 C.E., , , , 
-caesarea,保罗在该撒利亚被监禁 c.公元 56-58 年,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , ,Paul in custody in Caesarea c. 56-58 C.E., , , , 
-rome1,保罗在罗马第一次被监禁 c.公元 59-61 年,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , ,Paul’s first imprisonment in Rome c. 59-61 C.E., , , , 
-rome2,保罗在罗马第二次被监禁 c.公元 65 年，《提摩太后书》写成，保罗被处决,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , ,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", , , , 
-event_exodus,公元前 1513 年尼散月 14 日，人们离开埃及,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , ,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", , , , 
-event_division_kingdom,公元前 997 年以色列分裂,Division of Israel 997 BCE, ,text,False, , , ,Division of Israel 997 BCE, , , , 
-event_destruction_samaria,公元前 740 年撒玛利亚被毁亚述,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , ,Destruction of Samaria 740 B.C.E. by Assyria, , , , 
-event_destruction_jerusalem1,公元前 607 年耶路撒冷被毁巴比伦王国分裂后 390 年（以西结书 4:5）,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , ,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", , , , 
-event_temple_rebuilt,耶路撒冷圣殿于公元前 515 年重建。,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , ,Temple in Jerusalem rebuilt 515 B.C.E., , , , 
-event_jerusalem_rebuilt,耶路撒冷城墙于公元前 455 年重建,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , ,Jerusalem wall rebuilt 455 B.C.E., , , , 
-event_destruction_jerusalem2,公元 70 年，提图斯领导下的罗马摧毁了耶路撒冷,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , ,Destruction of Jerusalem 70 C.E. by Rome under Titus, , , , 
-event_1914,列国时代结束时（路加福音 21:24），公元 1914 年，神的国度开始在天上统治。,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , ,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.", , , , 
-became_king,年长成为国王,becomes king at age,2025-04-14,text,False, , , ,becomes king at age, , , , 
-vulgate,杰罗姆完成的武加大译本（圣经的拉丁文译本） c．公元 405 年,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , ,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., , , , 
-gutenberg,古腾堡圣经印刷于 1455 年,Gutenberg Bible printed 1455, ,text,False, , , ,Gutenberg Bible printed 1455, , , , 
-erasmus,鹿特丹的德西德里乌斯·伊拉斯谟于 1516 年出版的《希腊语经卷》希腊语文本,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , ,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, , , , 
-luther,1522 年 9 月路德圣经翻译,Luther Bible translation in September 1522, ,text,False, , , ,Luther Bible translation in September 1522, , , , 
-tyndale,廷代尔 (Tyndale) 1536 年英文圣经翻译,English Bible translation by Tyndale 1536, ,text,False, , , ,English Bible translation by Tyndale 1536, , , , 
-king_james,英皇钦定版圣经 1611,King James Bible 1611, ,text,False, , , ,King James Bible 1611, , , , 
-69weeks3,"耶稣于公元 29 年开始侍奉（路加福音 3:1, 21）","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , ,"Jesus starts his service 29 CE (Luke 3:1, 21)", , , , 
-ransom,周中“牺牲以停止”但以理书 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , ,Middle of week “sacrifice to cease” Daniel 9:27, , , , 
-cornelius,公元 36 年，哥尼流在 70 周结束时施洗（但以理书 9:24）。,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , ,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., , , , 
-columbus,1492 年美洲前哥伦布时期结束,End of the pre-columbian period in the Americas 1492, ,text,False, , , ,End of the pre-columbian period in the Americas 1492, , , , 
-declaration_independence,1776年美洲13个殖民地宣布独立,Declaration of independence of 13 colonies in America 1776, ,text,False, , , ,Declaration of independence of 13 colonies in America 1776, , , , 
-tischendorf,蒂申多夫 (Tischendorf) 于 1844 年发现了 4 世纪的西奈抄本,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , ,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, , , , 
-dead_sea_scrolls,死海古卷书写,Dead Sea Scrolls written, ,text,False, , , ,Dead Sea Scrolls written, , , , 
-septuagint,七十士译本七十士译本,Septuagint LXX translated, ,text,False, , , ,Septuagint LXX translated, , , , 
-watchtower,第一期《锡安守望台和基督临在的先驱》于 1879 年出版,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , ,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, , , , 
-jehovahs_witnesses,"圣经研究者于 1931 年在俄亥俄州哥伦布市采用了一个新名称——耶和华见证人（以赛亚书 43:10, 12）","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , ,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931", , , , 
-gilead_school,守望台基列圣经学校于 1943 年 2 月 1 日星期一开始,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , ,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", , , , 
-new_world_translation1,1960年6月18日在英国曼彻斯特出版的《圣经新世界译本》在圣经的许多地方重新引入了耶和华这个名字,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , ,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible", , , , 
-new_world_translation2,2013年年会发布修订版《圣经新世界译本》，优化数字化和在线使用,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , ,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online", , , , 
-cold_war,1945-1991年被贴上“冷战”标签的地缘政治局势,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , ,Geopolitical situation labeled “Cold War” 1945-1991, , , , 
-codex_sinaiticus,西奈抄本成文,Codex Sinaiticus written, ,text,False, , , ,Codex Sinaiticus written, , , , 
-codex_vaticanus,梵蒂冈法典成文,Codex Vaticanus written, ,text,False, , , ,Codex Vaticanus written, , , , 
-leningrad_codex,列宁格勒抄本于公元 1008 年开罗编写,Leningrad Codex written in Cairo AD 1008, ,text,False, , , ,Leningrad Codex written in Cairo AD 1008, , , , 
-john,公元 96-98 年，约翰在被放逐到拔摩岛时写下了《启示录》。,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , ,John writes “revelation” while exiled on Patmos 96-98 C.E., , , , 
-buddha,佛陀 – 悉达多·乔达摩 c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , ,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, , , , 
-buddha2,佛陀或者c.公元前 480-400 年,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , ,Buddha alternatively c. 480-400 B.C.E., , , , 
-mohammed,穆罕默德 C.公元 570-632 年,Mohammed c. 570-632, ,text,False, , , ,Mohammed c. 570-632, , , , 
-confucius,孔子（公元前 551 年至公元前 479 年）,Confucius c.551-c.479 B.C.E., ,text,False, , , ,Confucius c.551-c.479 B.C.E., , , , 
-hijrah,迁徙 - 麦加到麦地那之旅 622 年 7 月 16 日,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , ,Hijrah - Journey Mecca to Medina 16 July 622, , , , 
-moses_escape,公元前 1553 年摩西必须逃离埃及 – 出埃及记 2:15，使徒行传 7:23,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , ,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", , , , 
-10plagues,公元前 1513 年，埃及遭遇 10 场瘟疫,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , ,1513 B.C.E Egypt receives 10 plagues, , , , 
-joseph_sold,约瑟 17 岁时被卖为奴隶 – 创 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , ,Joseph sold as slave at the age of 17 – Gen 37:2, , , , 
-infliction,400 年的折磨（使徒行传 7:6）——以实玛利 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , ,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, , , , 
-Alexander,亚历山大大帝（但以理书 11:3）,Alexander the Great (Daniel 11:3), ,text,False, , , ,Alexander the Great (Daniel 11:3), , , , 
-persia,居鲁士大帝、冈比西斯二世、大流士一世（公元前 490 年）、薛西斯一世（公元前 480 年）（以斯帖的丈夫，但以理书 11:2）,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , ,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", , , , 
-king_north,"塞琉古一世尼卡托 (v5) 叙利亚到安条克三世 (v10) 和塞琉古四世 (v18, 19) 到屋大维 (v20) 和提比略 (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , ,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", , , , 
-king_north1,北方之王,King of the North, ,text,False, , , ,King of the North, , , , 
-king_south,"托勒密一世、二世、三世、四世 (v11, 12)、五世 (v15, 16) 至公元前 31 年亚克兴战役","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , ,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", , , , 
-king_south1,南方之王,King of the South, ,text,False, , , ,King of the South, , , , 
-king_south2,1870 年大英帝国，1914 年以来英美世界强国,"British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , ,"British Empire 1870, Anglo-American World Power since 1914", , , , 
-king_south3,南方之王,King of the South, ,text,False, , , ,King of the South, , , , 
-king_north2,德国威廉一世皇帝 1871 年 (v28)、1914 年 (v29)、1935 年 (v30b)、1939 年 (v31a),"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , ,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", , , , 
-king_north3,北,North, ,text,False, , , ,North, , , , 
-king_north4,"苏联 1945-1991（但以理书 11:32-39, 40b, 41）","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , ,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", , , , 
-king_north5,2017 年起俄罗斯（5 月 20 日）,Russia since 2017 (w20 May), ,text,False, , , ,Russia since 2017 (w20 May), , , , 
-time_of_end,基督的临在、事物制度的终结（马太福音 24:3）、末后的日子（提摩太后书 3:1）,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , ,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)", , , , 
-time_of_end2,最后一天,Last days, ,text,False, , , ,Last days, , , , 
-suryavaman2,国王苏利耶跋摩二世 (Suryavarman II) 建造吴哥窟 1113-1150 年,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , ,King Suryavarman II builds Angkor Wat 1113-1150, , , , 
-notre-dame,巴黎圣母院建于 1163-1260 年,Notre-Dame de Paris built 1163-1260, ,text,False, , , ,Notre-Dame de Paris built 1163-1260, , , , 
-babel,巴别塔建成,Tower of Babel built, ,text,False, , , ,Tower of Babel built, , , , 
-infliction1,400年的折磨,400 year infliction,Acts 7:6,text,False, , , ,400 year infliction, , , , 
-Lots_wife,罗得的妻子,Lot’s wife, ,text,False, , , ,Lot’s wife, , , , 
-Lots_daughters,罗得的女儿们,Daughters of Lot, ,text,False, , , ,Daughters of Lot, , , , 
-Moab,摩押（大女儿）,Moab (older daughter),Genesis 19:37,text,False, , , ,Moab (older daughter), , , , 
-rosetta,罗塞塔石碑 公元前 196 年,Rosetta stone 196 B.C.E., ,text,False, , , ,Rosetta stone 196 B.C.E., , , , 
-Herodotus,希罗多德 C. 484 – c。 《历史》写道，公元前 425 年,"Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , ,"Herodotus c. 484 – c. 425 BC, writes The Histories", , , , 
-Aristotle,亚里士多德 384 – 322 公元前,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , ,Aristotle 384 – 322 BC, , , , 
-Ptolemy,托勒密 c 100 – c。公元 170 年,Ptolemy c 100 – c. 170 C.E., ,text,False, , , ,Ptolemy c 100 – c. 170 C.E., , , , 
-Pythagoras,毕达哥拉斯 C. 570 – c。公元前495年,Pythagoras c. 570 – c. 495 BC, ,text,False, , , ,Pythagoras c. 570 – c. 495 BC, , , , 
-Plato,柏拉图 C. 427 – c。公元前348年,Plato c. 427 – c. 348 BC, ,text,False, , , ,Plato c. 427 – c. 348 BC, , , , 
-Socrates,苏格拉底 C． 470 – c。公元前399年,Socrates c. 470 – c. 399 BC, ,text,False, , , ,Socrates c. 470 – c. 399 BC, , , , 
-Josephus,约瑟夫斯 C. 37 – c。公元100年,Josephus c. 37 – c. 100 C.E., ,text,False, , , ,Josephus c. 37 – c. 100 C.E., , , , 
-Cicero,西塞罗 106–43 公元前,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , ,Cicero 106–43 BC, , , , 
-lachish_letters,拉吉字母 C.公元前 590 年,Lachish letters c. 590 B.C.E., ,text,False, , , ,Lachish letters c. 590 B.C.E., , , , 
-lachish_reliefs,拉吉浮雕 C.公元前 681 年,Lachish reliefs c. 681 B.C.E., ,text,False, , , ,Lachish reliefs c. 681 B.C.E., , , , 
-mesha_stele,米沙石碑（摩押石） c．公元前 840 年,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , ,Mesha Stele (Moabite stone) c. 840 B.C.E., , , , 
-gilgamesh,吉尔伽美什和阿迦𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , ,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, , , , 
-epic_gilgamesh,吉尔伽美什史诗（Sîn-lēqi-unninni）,Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , ,Epic of Gilgamesh (Sîn-lēqi-unninni), , , , 
-gregorian,公历 1582,Gregorian calendar 1582, ,text,False, , , ,Gregorian calendar 1582, , , , 
-shang-dynasty,C。公元前 1600-1046 年,c. 1600-1046 BC, ,text,False, , , ,c. 1600-1046 BC, , , , 
-western-zhou,C。公元前 1046-771 年,c. 1046-771 BC, ,text,False, , , ,c. 1046-771 BC, , , , 
-qin-dynasty,秦 公元前 221-207 年,Qin 221-207 BC, ,text,False, , , ,Qin 221-207 BC, , , , 
-western-han,公元前 207 年 – 公元 9 年,207 BC – 9 CE, ,text,False, , , ,207 BC – 9 CE, , , , 
-three-kingdoms,三个王国 220-280 CE,Three kingdoms 220-280 CE, ,text,False, , , ,Three kingdoms 220-280 CE, , , , 
-sixteen-kingdoms,十六国 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , ,Sixteen kingdoms 304-439 CE, , , , 
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , ,"618-690, 705-907", , , , 
-wu-zhou,690-705 吴洲,690-705 Wu Zhou, ,text,False, , , ,690-705 Wu Zhou, , , , 
-tang-dynasty1_c,唐,Tang, ,text,False, , , ,Tang, , , , 
-gonghe,共和摄政 841-828 公元前,Gonghe Regency 841-828 BC, ,text,False, , , ,Gonghe Regency 841-828 BC, , , , 
-Ashoka,阿育王（约公元前 304-232 年）弘扬佛教,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , ,Ashoka (c. 304-232 BC) promotes Buddhism, , , , 
-siloam-tunnel,希西家扩建西罗亚隧道,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , ,Hezekiah extends Siloam tunnel, , , , 
-Angloamerica2,"在但以理书 2:33, 41-43 的预言中，铁与粘土混合的脚象征着英美","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , ,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", , , , 
-Manetho,曼内托写《埃及记》,Manetho writes Aegyptiaca, ,text,False, , , ,Manetho writes Aegyptiaca, , , , 
-destruction_babylon,"大巴比伦的毁灭（启示录 17:3, 15-18; 18:9, 10）","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , ,"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)", , , , 
-peace_security,"“和平与安全！” （帖撒罗尼迦前书 5:3，这是一种可能性，读者问 26/2, 25/11）","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , ,"“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)", , , , 
-gog_of_magog,"玛各歌革的攻击（以西结书 38:1, 2, 9-12, 18-23）","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , ,"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)", , , , 
-sheep_goat,地球上的居民将受到审判，绵羊和山羊将被分开（马太福音 25:31-33）,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , ,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)", , , , 
-annointed,王国统治者聚集（马太福音 24:31；哥林多前书 15:50-53；帖撒罗尼迦前书 4:15-17）,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , ,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17), , , , 
-armageddon,"哈米吉多顿之战（启示录 16:14, 16；以赛亚书 13:9；彼得后书 3:12）","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , ,"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)", , , , 
-millenium,"上帝的王国开始一千年的统治（启示录 5:9, 10；20:4, 6）","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , ,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", , , , 
-great_crowd,"一大群人在哈米吉多顿中幸存下来（启示录 7:9, 14；诗篇 37:9-11）","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , ,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", , , , 
-world_population,过去 2000 年世界人口（以十亿计）,World population in billions in the last 2000 years, ,text,False, , , ,World population in billions in the last 2000 years, , , , 
-khmer_empire_c,高棉帝国-吴哥时期,Khmer Empire - Angkor period, ,text,False, , , ,Khmer Empire - Angkor period, , , , 
-holy_roman_empire_c,神圣罗马帝国——1512年后德意志民族神圣罗马帝国,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , ,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, , , , 
-mongol_empire,蒙古帝国 公元 1206 年 – 1294 年,Mongol Empire 1206 – 1294, ,text,False, , , ,Mongol Empire 1206 – 1294, , , , 
-maya_classic_c,玛雅文明——经典时期,Maya civilization – Classic period, ,text,False, , , ,Maya civilization – Classic period, , , , 
-maya_postclassic_c,玛雅文明——后古典时期,Maya civilization – Postclassic period, ,text,False, , , ,Maya civilization – Postclassic period, , , , 
-Teotihuacan,美洲最大的城市，金字塔建造c。公元200年,"Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , ,"Largest city in the Americas, pyramids build c. 200 C.E.", , , , 
-Dionysius_Exiguus,狄奥尼修斯·埃克西古斯（Dionysius Exiguus），纪元多米尼（Anno Domini）的发明者,"Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , ,"Dionysius Exiguus, inventor of Anno Domini", , , , 
-Umayyad_c,倭马亚,Umayyad, ,text,False, , , ,Umayyad, , , , 
-ur3,乌尔三世王朝𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , ,Ur III Dynasty 𒋀𒀕𒆠, , , , 
-hammurabi,汉谟拉比𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , ,Hammurabi 𒄩𒄠𒈬𒊏𒁉, , , , 
-Al-Khwarizmi,花拉子米 (al-Khwarizmi) 撰写 Al-Jabr（代数）,al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , ,al-Khwarizmi writes Al-Jabr (Algebra), , , , 
-al-azhar,爱资哈尔大学在开罗成立,Al-Azhar University is established in Cairo, ,text,False, , , ,Al-Azhar University is established in Cairo, , , , 
-Ibn-Sina,伊本·西那或阿维森纳,Ibn Sina or Avicenna, ,text,False, , , ,Ibn Sina or Avicenna, , , , 
-life-expectancy,预期寿命75年,Life expectancy 75 years, ,text,False, , , ,Life expectancy 75 years, , , , 
-430years_c,430年：出埃及记12:41，加拉太书3:17,"430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , ,"430 years: Exodus 12:41, Galatians 3:17", , , , 
-maya_calendar,公元前3114年8月11日，Maya日历的开头,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , ,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.", , , , 
-xia-dynasty2,c。 2070 - c。公元前1600年;时代首先暗示了西部时期,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , ,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period, , , , 
-xia-dynasty2_c,中国夏王朝,Xia dynasty in China, ,text,False, , , ,Xia dynasty in China, , , , 
-tres_zapotes,9月3日，公元前32年,"September 3rd, 32 B.C.E.",2024-12-31,text,False, , , ,"September 3rd, 32 B.C.E.", , , , 
-joseph_jacob_reunited,约瑟夫和雅各布在埃及团聚 - 公元前1728年（创世45:11; 47：9）,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , ,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9), , , , 
-king_south_light_c,丹尼尔11的南方国王,King of the South from Daniel 11,2025-02-05,text,False, , , ,King of the South from Daniel 11, , , , 
-king_north_light_c,丹尼尔11的北方国王,King of the North from Daniel 11,2025-02-05,text,False, , , ,King of the North from Daniel 11, , , , 
-daniel2_iron_c,丹尼尔2的铁腿,Iron legs from Daniel 2,2025-02-05,text,False, , , ,Iron legs from Daniel 2, , , , 
-argenteus,银抄本 c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , ,Codex Argenteus c. 505, , , , 
-nguyen_dynasty_c,阮,Nguyễn,2025-09-20,text,False, , , ,Nguyễn, , , , 
-edo_c,日本江户时代,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , ,Edo period in Japan, , , , 
-meiji_c,明治,Meiji,2025-09-20,text,False, , , ,Meiji, , , , 
-american_civil_war,美国内战 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , ,American Civil War 1861-1865, , , , 
-aleppo_codex,阿勒颇抄本 c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , ,Aleppo Codex c. 920, , , , 
-vandals,汪达尔人和阿兰人王国 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , ,Kingdom of the Vandals and Alans 435 – 534, , , , 
-francia,c. 481/509 – 843，墨洛温王朝至751年，然后是加洛林王朝,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , ,"c. 481/509 – 843, Merovingian till 751, then Carolingian", , , , 
-francia_c,法兰克王国,Kingdom of the Franks, ,text,False, , , ,Kingdom of the Franks, , , , 
-100_years_war,百年战争 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , ,Hundred Years’ War 1337 – 1453, , , , 
-black_death,黑死病 1346-1353,Black death 1346-1353,1346-1353,text,False, , , ,Black death 1346-1353, , , , 
-sui_dynasty,581-618 隋,581-618 Sui dynasty,2025-11-09,text,False, , , ,581-618 Sui dynasty, , , , 
-sui_dynasty_c,隋,Sui,2025-11-09,text,False, , , ,Sui, , , , 
-tribulation,"大灾难（马可福音 13:19；但以理书 12:1；马太福音 24:21, 22）","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , ,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", , , , 
-timeline_created,"这条时间线创建于2023年，这是人类历史上最热的一年，也是过去125,000年","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , ,"这条时间线创建于2023年，这是人类历史上最热的一年，也是过去125,000年", , , , 
+wilderness,以色列人在旷野中，公元前 1513 年至 1473 年– 40 年,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , ,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, , , ,以色列人在旷野的岁月：公元前1513年至1473年——40年
+timespan_judges,公元前 1473 年至 1117 年– 356 年,1473 to 1117 B.C.E. – 356 years, ,text,False, , , ,1473 to 1117 B.C.E. – 356 years, , , ,公元前1473年至公元前1117年——356年
+timespan_judges2,评委时间,Time of the judges, ,text,False, , , ,Time of the judges, , , ,法官时代
+temple2,距离圣殿建造还有 479 年 – 列王记上 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , ,479 years until the temple construction – 1 Kings 6:1, , , ,距离圣殿建造还有479年——《列王纪上》6:1
+69weeks2,弥赛亚到来还有 69 周 – 但以理书 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , ,69 weeks to the Messiah – Daniel 9:25, , , ,距离弥赛亚还有69周——《但以理书》9:25
+jesus_service,侍奉耶稣 3.5 年，公元 33 年尼散月 14 日被处决,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , ,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", , , ,耶稣传道3.5年，于公元33年尼散月14日被处决。
+jesus_life,耶稣诞生于公元前 2 年,Jesus born 2 B.C.E., ,text,False, , , ,Jesus born 2 B.C.E., , , ,耶稣出生于公元前2年。
+exile,公元前 607 至 537 年– 70 年（耶利米书 25:11）,607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , ,607 to 537 B.C.E. – 70 years (Jeremiah 25:11), , , ,公元前607年至公元前537年——70年（耶利米书 25:11）
+exile2,流亡,Exile, ,text,False, , , ,Exile, , , ,流放
+7times2,7 次 – 公元 1914 年弥赛亚王国 2520 年（但以理书 4:23）,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , ,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), , , ,7倍——距公元1914年的弥赛亚王国还有2520年（但以理书 4:23）
+ww1,第一次世界大战 – 公元 1914 年至 1918 年,World War I – 1914–1918, ,text,False, , , ,World War I – 1914–1918, , , ,第一次世界大战——1914–1918
+ww2,第二次世界大战 – 公元 1939 年至 1945 年,World War II – 1939–1945, ,text,False, , , ,World War II – 1939–1945, , , ,第二次世界大战——1939–1945
+30_year_war,欧洲三十年战争 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , ,Thirty Years' War in Europe 1618-1648, , , ,1618-1648年欧洲三十年战争
+joshua,110年,110 years, ,text,False, , , ,110 years, , , ,110年
+caleb,超过85岁,more than 85 years, ,text,False, , , ,more than 85 years, , , ,超过85年
+missionary1,保罗的第一次传教之旅，c。公元 47-48 年与巴拿巴和约翰马可,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , ,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", , , ,保罗的第一次传教之旅，公元47-48年左右，与巴拿巴和约翰·马可同行
+circumcision,安提阿的割礼问题，耶路撒冷会议公元 49 年,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , ,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", , , ,安提阿的割礼问题，约公元49年在耶路撒冷举行的会议。
+missionary2,第二次传教之旅 c．公元 49-52 年与塞拉斯 (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , ,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), , , ,第二次传教之旅，约公元49-52年，与西拉（西尔瓦努斯）同行
+missionary3,第三次传教之旅 c．公元 52-56 年,Third Missionary Journey c. 52-56 C.E., ,text,False, , , ,Third Missionary Journey c. 52-56 C.E., , , ,第三次传教之旅，约公元52-56年
+caesarea,保罗在该撒利亚被监禁 c.公元 56-58 年,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , ,Paul in custody in Caesarea c. 56-58 C.E., , , ,公元56至58年左右，保罗在凯撒利亚被羁押。
+rome1,保罗在罗马第一次被监禁 c.公元 59-61 年,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , ,Paul’s first imprisonment in Rome c. 59-61 C.E., , , ,保罗在罗马的第一次被囚，约公元59-61年。
+rome2,保罗在罗马第二次被监禁 c.公元 65 年，《提摩太后书》写成，保罗被处决,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , ,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", , , ,公元65年左右，保罗第二次在罗马被囚，《提摩太后书》写成，保罗被处决
+event_exodus,公元前 1513 年尼散月 14 日，人们离开埃及,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , ,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", , , ,公元前1513年尼桑月14日，以色列人出埃及。
+event_division_kingdom,公元前 997 年以色列分裂,Division of Israel 997 BCE, ,text,False, , , ,Division of Israel 997 BCE, , , ,公元前997年以色列分裂
+event_destruction_samaria,公元前 740 年撒玛利亚被毁亚述,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , ,Destruction of Samaria 740 B.C.E. by Assyria, , , ,公元前740年，亚述摧毁撒玛利亚
+event_destruction_jerusalem1,公元前 607 年耶路撒冷被毁巴比伦王国分裂后 390 年（以西结书 4:5）,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , ,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", , , ,公元前607年，巴比伦摧毁耶路撒冷，此时距王国分裂已过去390年（《以西结书》4:5）
+event_temple_rebuilt,耶路撒冷圣殿于公元前 515 年重建。,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , ,Temple in Jerusalem rebuilt 515 B.C.E., , , ,耶路撒冷圣殿于公元前515年重建。
+event_jerusalem_rebuilt,耶路撒冷城墙于公元前 455 年重建,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , ,Jerusalem wall rebuilt 455 B.C.E., , , ,公元前455年，耶路撒冷城墙得以重建。
+event_destruction_jerusalem2,公元 70 年，提图斯领导下的罗马摧毁了耶路撒冷,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , ,Destruction of Jerusalem 70 C.E. by Rome under Titus, , , ,公元70年，提图斯率领的罗马军队摧毁了耶路撒冷
+event_1914,列国时代结束时（路加福音 21:24），公元 1914 年，神的国度开始在天上统治。,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , ,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.", , , ,列国时代结束（路加福音 21:24），公元 1914 年，上帝的王国开始在天上掌权。
+became_king,年长成为国王,becomes king at age,2025-04-14,text,False, , , ,becomes king at age, , , ,在……岁时登基
+vulgate,杰罗姆完成的武加大译本（圣经的拉丁文译本） c．公元 405 年,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , ,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., , , ,约尔根于公元405年左右完成了《武加大译本》（《圣经》的拉丁文译本）。
+gutenberg,古腾堡圣经印刷于 1455 年,Gutenberg Bible printed 1455, ,text,False, , , ,Gutenberg Bible printed 1455, , , ,1455年印制的《古腾堡圣经》
+erasmus,鹿特丹的德西德里乌斯·伊拉斯谟于 1516 年出版的《希腊语经卷》希腊语文本,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , ,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, , , ,1516年由鹿特丹的德西德里乌斯·伊拉斯谟出版的《基督教希腊文圣经》的希腊文文本
+luther,1522 年 9 月路德圣经翻译,Luther Bible translation in September 1522, ,text,False, , , ,Luther Bible translation in September 1522, , , ,1522年9月的路德版《圣经》译本
+tyndale,廷代尔 (Tyndale) 1536 年英文圣经翻译,English Bible translation by Tyndale 1536, ,text,False, , , ,English Bible translation by Tyndale 1536, , , ,廷代尔于1536年完成的英文圣经译本
+king_james,英皇钦定版圣经 1611,King James Bible 1611, ,text,False, , , ,King James Bible 1611, , , ,1611年版《詹姆士王版圣经》
+69weeks3,"耶稣于公元 29 年开始侍奉（路加福音 3:1, 21）","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , ,"Jesus starts his service 29 CE (Luke 3:1, 21)", , , ,公元29年，耶稣开始传道（路加福音3：1、21）
+ransom,周中“牺牲以停止”但以理书 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , ,Middle of week “sacrifice to cease” Daniel 9:27, , , ,“停祭”发生在周中 《但以理书》9:27
+cornelius,公元 36 年，哥尼流在 70 周结束时施洗（但以理书 9:24）。,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , ,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., , , ,科尼利厄斯在“七十个七”期满时（但以理书 9:24）——即公元36年——受了洗。
+columbus,1492 年美洲前哥伦布时期结束,End of the pre-columbian period in the Americas 1492, ,text,False, , , ,End of the pre-columbian period in the Americas 1492, , , ,美洲前哥伦布时期的结束 1492年
+declaration_independence,1776年美洲13个殖民地宣布独立,Declaration of independence of 13 colonies in America 1776, ,text,False, , , ,Declaration of independence of 13 colonies in America 1776, , , ,1776年美洲13个殖民地的《独立宣言》
+tischendorf,蒂申多夫 (Tischendorf) 于 1844 年发现了 4 世纪的西奈抄本,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , ,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, , , ,1844年，蒂申多夫发现了这部可追溯至4世纪的《西奈抄本》
+dead_sea_scrolls,死海古卷书写,Dead Sea Scrolls written, ,text,False, , , ,Dead Sea Scrolls written, , , ,《死海古卷》的书写
+septuagint,七十士译本七十士译本,Septuagint LXX translated, ,text,False, , , ,Septuagint LXX translated, , , ,《七十士译本》（LXX）译为
+watchtower,第一期《锡安守望台和基督临在的先驱》于 1879 年出版,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , ,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, , , ,1879年，《锡安的望塔与基督临在的先驱》第一期出版
+jehovahs_witnesses,"圣经研究者于 1931 年在俄亥俄州哥伦布市采用了一个新名称——耶和华见证人（以赛亚书 43:10, 12）","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , ,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931", , , ,1931年，俄亥俄州哥伦布市的“圣经研究者”改名为“耶和华见证人”（以赛亚书43:10、12）
+gilead_school,守望台基列圣经学校于 1943 年 2 月 1 日星期一开始,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , ,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", , , ,基列守望台圣经学校将于1943年2月1日星期一开学
+new_world_translation1,1960年6月18日在英国曼彻斯特出版的《圣经新世界译本》在圣经的许多地方重新引入了耶和华这个名字,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , ,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible", , , ,1960年6月18日在英国曼彻斯特出版的《新世界译本圣经》，在《圣经》的许多部分重新引入了“耶和华”这一名称
+new_world_translation2,2013年年会发布修订版《圣经新世界译本》，优化数字化和在线使用,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , ,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online", , , ,修订版《新世界译本圣经》于2013年年会发布，经过优化，更适合数字化和在线使用
+cold_war,1945-1991年被贴上“冷战”标签的地缘政治局势,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , ,Geopolitical situation labeled “Cold War” 1945-1991, , , ,1945年至1991年被称为“冷战”的地缘政治局势
+codex_sinaiticus,西奈抄本成文,Codex Sinaiticus written, ,text,False, , , ,Codex Sinaiticus written, , , ,《西奈抄本》的撰写
+codex_vaticanus,梵蒂冈法典成文,Codex Vaticanus written, ,text,False, , , ,Codex Vaticanus written, , , ,《梵蒂冈抄本》的成书
+leningrad_codex,列宁格勒抄本于公元 1008 年开罗编写,Leningrad Codex written in Cairo AD 1008, ,text,False, , , ,Leningrad Codex written in Cairo AD 1008, , , ,公元1008年于开罗撰写的《列宁格勒抄本》
+john,公元 96-98 年，约翰在被放逐到拔摩岛时写下了《启示录》。,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , ,John writes “revelation” while exiled on Patmos 96-98 C.E., , , ,约翰于公元96至98年流放帕特莫斯岛期间写下了《启示录》。
+buddha,佛陀 – 悉达多·乔达摩 c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , ,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, , , ,佛陀——悉达多·乔达摩，约公元前563年至约公元前483年
+buddha2,佛陀或者c.公元前 480-400 年,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , ,Buddha alternatively c. 480-400 B.C.E., , , ,佛陀，又作约公元前480—400年。
+mohammed,穆罕默德 C.公元 570-632 年,Mohammed c. 570-632, ,text,False, , , ,Mohammed c. 570-632, , , ,穆罕默德，约公元570—632年
+confucius,孔子（公元前 551 年至公元前 479 年）,Confucius c.551-c.479 B.C.E., ,text,False, , , ,Confucius c.551-c.479 B.C.E., , , ,孔子（约公元前551年—约公元前479年）
+hijrah,迁徙 - 麦加到麦地那之旅 622 年 7 月 16 日,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , ,Hijrah - Journey Mecca to Medina 16 July 622, , , ,希吉拉——从麦加迁徙至麦地那，公元622年7月16日
+moses_escape,公元前 1553 年摩西必须逃离埃及 – 出埃及记 2:15，使徒行传 7:23,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , ,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", , , ,公元前1553年，摩西不得不逃离埃及——《出埃及记》2:15，《使徒行传》7:23
+10plagues,公元前 1513 年，埃及遭遇 10 场瘟疫,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , ,1513 B.C.E Egypt receives 10 plagues, , , ,公元前1513年，埃及遭遇了十灾
+joseph_sold,约瑟 17 岁时被卖为奴隶 – 创 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , ,Joseph sold as slave at the age of 17 – Gen 37:2, , , ,约瑟17岁时被卖为奴——《创世记》37:2
+infliction,400 年的折磨（使徒行传 7:6）——以实玛利 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , ,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, , , ,400年的苦难（《使徒行传》7:6）——以实玛利，公元前1913年
+Alexander,亚历山大大帝（但以理书 11:3）,Alexander the Great (Daniel 11:3), ,text,False, , , ,Alexander the Great (Daniel 11:3), , , ,亚历山大大帝（但以理书 11:3）
+persia,居鲁士大帝、冈比西斯二世、大流士一世（公元前 490 年）、薛西斯一世（公元前 480 年）（以斯帖的丈夫，但以理书 11:2）,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , ,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", , , ,居鲁士大帝、坎比塞斯二世、大流士一世（公元前490年）、薛西斯一世（公元前480年）（以斯帖的丈夫，《但以理书》11:2）
+king_north,"塞琉古一世尼卡托 (v5) 叙利亚到安条克三世 (v10) 和塞琉古四世 (v18, 19) 到屋大维 (v20) 和提比略 (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , ,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", , , ,塞琉古一世·尼卡托尔（第5节）的叙利亚，到安条克三世（第10节）和塞琉古四世（第18、19节），再到屋大维（第20节）和提比略（第21-24节）
+king_north1,北方之王,King of the North, ,text,False, , , ,King of the North, , , ,北境之王
+king_south,"托勒密一世、二世、三世、四世 (v11, 12)、五世 (v15, 16) 至公元前 31 年亚克兴战役","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , ,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", , , ,托勒密一世、二世、三世、四世（第11、12卷）、五世（第15、16卷）至公元前31年的阿克提乌姆海战。
+king_south1,南方之王,King of the South, ,text,False, , , ,King of the South, , , ,南方之王
+king_south2,1870 年大英帝国，1914 年以来英美世界强国,"British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , ,"British Empire 1870, Anglo-American World Power since 1914", , , ,1870年的大英帝国，1914年以来英美世界霸权
+king_south3,南方之王,King of the South, ,text,False, , , ,King of the South, , , ,南方之王
+king_north2,德国威廉一世皇帝 1871 年 (v28)、1914 年 (v29)、1935 年 (v30b)、1939 年 (v31a),"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , ,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", , , ,德意志帝国：威廉一世皇帝时期 1871年（v28）、1914年（v29）、1935年（v30b）、1939年（v31a）
+king_north3,北,North, ,text,False, , , ,North, , , ,北
+king_north4,"苏联 1945-1991（但以理书 11:32-39, 40b, 41）","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , ,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", , , ,苏联 1945-1991（但以理书 11:32-39、40b、41）
+king_north5,2017 年起俄罗斯（5 月 20 日）,Russia since 2017 (w20 May), ,text,False, , , ,Russia since 2017 (w20 May), , , ,俄罗斯自2017年以来（截至5月20日）
+time_of_end,基督的临在、事物制度的终结（马太福音 24:3）、末后的日子（提摩太后书 3:1）,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , ,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)", , , ,基督的临在、现今时代的终结（马太福音 24:3）、末世（提摩太后书 3:1）
+time_of_end2,最后一天,Last days, ,text,False, , , ,Last days, , , ,最后几天
+suryavaman2,国王苏利耶跋摩二世 (Suryavarman II) 建造吴哥窟 1113-1150 年,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , ,King Suryavarman II builds Angkor Wat 1113-1150, , , ,苏利耶跋摩二世于1113年至1150年间建造了吴哥窟
+notre-dame,巴黎圣母院建于 1163-1260 年,Notre-Dame de Paris built 1163-1260, ,text,False, , , ,Notre-Dame de Paris built 1163-1260, , , ,巴黎圣母院建于1163年至1260年
+babel,巴别塔建成,Tower of Babel built, ,text,False, , , ,Tower of Babel built, , , ,巴别塔建成
+infliction1,400年的折磨,400 year infliction,Acts 7:6,text,False, , , ,400 year infliction, , , ,400年的苦难
+Lots_wife,罗得的妻子,Lot’s wife, ,text,False, , , ,Lot’s wife, , , ,罗得的妻子
+Lots_daughters,罗得的女儿们,Daughters of Lot, ,text,False, , , ,Daughters of Lot, , , ,罗得的女儿们
+Moab,摩押（大女儿）,Moab (older daughter),Genesis 19:37,text,False, , , ,Moab (older daughter), , , ,摩押（大女儿）
+rosetta,罗塞塔石碑 公元前 196 年,Rosetta stone 196 B.C.E., ,text,False, , , ,Rosetta stone 196 B.C.E., , , ,罗塞塔石碑，公元前196年。
+Herodotus,希罗多德 C. 484 – c。 《历史》写道，公元前 425 年,"Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , ,"Herodotus c. 484 – c. 425 BC, writes The Histories", , , ,希罗多德（约公元前484年—约公元前425年），著有《历史》
+Aristotle,亚里士多德 384 – 322 公元前,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , ,Aristotle 384 – 322 BC, , , ,亚里士多德 公元前384年 – 公元前322年
+Ptolemy,托勒密 c 100 – c。公元 170 年,Ptolemy c 100 – c. 170 C.E., ,text,False, , , ,Ptolemy c 100 – c. 170 C.E., , , ,托勒密 约公元100年 – 约公元170年
+Pythagoras,毕达哥拉斯 C. 570 – c。公元前495年,Pythagoras c. 570 – c. 495 BC, ,text,False, , , ,Pythagoras c. 570 – c. 495 BC, , , ,毕达哥拉斯 约公元前570年 – 约公元前495年
+Plato,柏拉图 C. 427 – c。公元前348年,Plato c. 427 – c. 348 BC, ,text,False, , , ,Plato c. 427 – c. 348 BC, , , ,柏拉图 约公元前427年 – 约公元前348年
+Socrates,苏格拉底 C． 470 – c。公元前399年,Socrates c. 470 – c. 399 BC, ,text,False, , , ,Socrates c. 470 – c. 399 BC, , , ,苏格拉底 约公元前470年 – 约公元前399年
+Josephus,约瑟夫斯 C. 37 – c。公元100年,Josephus c. 37 – c. 100 C.E., ,text,False, , , ,Josephus c. 37 – c. 100 C.E., , , ,约瑟夫斯，约公元37年—约公元100年
+Cicero,西塞罗 106–43 公元前,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , ,Cicero 106–43 BC, , , ,西塞罗 公元前106–43年
+lachish_letters,拉吉字母 C.公元前 590 年,Lachish letters c. 590 B.C.E., ,text,False, , , ,Lachish letters c. 590 B.C.E., , , ,拉基什书信，约公元前590年。
+lachish_reliefs,拉吉浮雕 C.公元前 681 年,Lachish reliefs c. 681 B.C.E., ,text,False, , , ,Lachish reliefs c. 681 B.C.E., , , ,拉基什浮雕，约公元前681年。
+mesha_stele,米沙石碑（摩押石） c．公元前 840 年,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , ,Mesha Stele (Moabite stone) c. 840 B.C.E., , , ,梅沙石碑（摩押石碑），约公元前840年。
+gilgamesh,吉尔伽美什和阿迦𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , ,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, , , ,吉尔伽美什与阿加 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,吉尔伽美什史诗（Sîn-lēqi-unninni）,Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , ,Epic of Gilgamesh (Sîn-lēqi-unninni), , , ,《吉尔伽美什史诗》（辛-莱基-乌宁尼）
+gregorian,公历 1582,Gregorian calendar 1582, ,text,False, , , ,Gregorian calendar 1582, , , ,公历1582年
+shang-dynasty,C。公元前 1600-1046 年,c. 1600-1046 BC, ,text,False, , , ,c. 1600-1046 BC, , , ,约公元前1600年至1046年
+western-zhou,C。公元前 1046-771 年,c. 1046-771 BC, ,text,False, , , ,c. 1046-771 BC, , , ,约公元前1046—771年
+qin-dynasty,秦 公元前 221-207 年,Qin 221-207 BC, ,text,False, , , ,Qin 221-207 BC, , , ,秦朝 公元前221-207年
+western-han,公元前 207 年 – 公元 9 年,207 BC – 9 CE, ,text,False, , , ,207 BC – 9 CE, , , ,公元前207年 – 公元9年
+three-kingdoms,三个王国 220-280 CE,Three kingdoms 220-280 CE, ,text,False, , , ,Three kingdoms 220-280 CE, , , ,三国时期（公元220年至280年）
+sixteen-kingdoms,十六国 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , ,Sixteen kingdoms 304-439 CE, , , ,十六国时期（公元304—439年）
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , ,"618-690, 705-907", , , ,618-690，705-907
+wu-zhou,690-705 吴洲,690-705 Wu Zhou, ,text,False, , , ,690-705 Wu Zhou, , , ,690-705 武周
+tang-dynasty1_c,唐,Tang, ,text,False, , , ,Tang, , , ,唐
+gonghe,共和摄政 841-828 公元前,Gonghe Regency 841-828 BC, ,text,False, , , ,Gonghe Regency 841-828 BC, , , ,共和摄政时期 公元前841—828年
+Ashoka,阿育王（约公元前 304-232 年）弘扬佛教,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , ,Ashoka (c. 304-232 BC) promotes Buddhism, , , ,阿育王（约公元前304—232年）推广佛教
+siloam-tunnel,希西家扩建西罗亚隧道,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , ,Hezekiah extends Siloam tunnel, , , ,希西家扩建了西罗亚隧道
+Angloamerica2,"在但以理书 2:33, 41-43 的预言中，铁与粘土混合的脚象征着英美","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , ,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", , , ,在《但以理书》第2章第33节、第41-43节的预言中，英美帝国被象征为铁与泥混合而成的双脚。
+Manetho,曼内托写《埃及记》,Manetho writes Aegyptiaca, ,text,False, , , ,Manetho writes Aegyptiaca, , , ,马涅托撰写了《埃及史》
+destruction_babylon,"大巴比伦的毁灭（启示录 17:3, 15-18; 18:9, 10）","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , ,"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)", , , ,大巴比伦的毁灭（《启示录》17：3、15-18；18：9、10）
+peace_security,"“和平与安全！” （帖撒罗尼迦前书 5:3，这是一种可能性，读者问 26/2, 25/11）","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , ,"“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)", , , ,"“平安与安全！”（《帖撒罗尼迦前书》5:3，这是一种可能的解释，QfR 26/2, 25/11）"
+gog_of_magog,"玛各歌革的攻击（以西结书 38:1, 2, 9-12, 18-23）","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , ,"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)", , , ,玛各的歌革之战（以西结书 38:1、2、9-12、18-23）
+sheep_goat,地球上的居民将受到审判，绵羊和山羊将被分开（马太福音 25:31-33）,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , ,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)", , , ,地球上的居民将接受审判，羊与山羊将被分开（马太福音 25:31-33）
+annointed,王国统治者聚集（马太福音 24:31；哥林多前书 15:50-53；帖撒罗尼迦前书 4:15-17）,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , ,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17), , , ,各王国的统治者大集结（马太福音 24:31；哥林多前书 15:50-53；帖撒罗尼迦前书 4:15-17）
+armageddon,"哈米吉多顿之战（启示录 16:14, 16；以赛亚书 13:9；彼得后书 3:12）","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , ,"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)", , , ,哈米吉多顿之战（《启示录》16:14、16；《以赛亚书》13:9；《彼得后书》3:12）
+millenium,"上帝的王国开始一千年的统治（启示录 5:9, 10；20:4, 6）","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , ,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", , , ,上帝的王国开始其一千年的统治（《启示录》5：9、10；20：4、6）
+great_crowd,"一大群人在哈米吉多顿中幸存下来（启示录 7:9, 14；诗篇 37:9-11）","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , ,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", , , ,一大群人从哈米吉多顿之战中幸存下来（《启示录》7:9、14；《诗篇》37:9-11）
+world_population,过去 2000 年世界人口（以十亿计）,World population in billions in the last 2000 years, ,text,False, , , ,World population in billions in the last 2000 years, , , ,过去2000年间世界人口（单位：十亿）
+khmer_empire_c,高棉帝国-吴哥时期,Khmer Empire - Angkor period, ,text,False, , , ,Khmer Empire - Angkor period, , , ,高棉帝国——吴哥时期
+holy_roman_empire_c,神圣罗马帝国——1512年后德意志民族神圣罗马帝国,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , ,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, , , ,神圣罗马帝国——1512年后被称为“德意志民族的神圣罗马帝国”
+mongol_empire,蒙古帝国 公元 1206 年 – 1294 年,Mongol Empire 1206 – 1294, ,text,False, , , ,Mongol Empire 1206 – 1294, , , ,蒙古帝国 1206 – 1294
+maya_classic_c,玛雅文明——经典时期,Maya civilization – Classic period, ,text,False, , , ,Maya civilization – Classic period, , , ,玛雅文明——古典时期
+maya_postclassic_c,玛雅文明——后古典时期,Maya civilization – Postclassic period, ,text,False, , , ,Maya civilization – Postclassic period, , , ,玛雅文明——后古典时期
+Teotihuacan,美洲最大的城市，金字塔建造c。公元200年,"Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , ,"Largest city in the Americas, pyramids build c. 200 C.E.", , , ,美洲最大的城市，金字塔建于公元200年左右。
+Dionysius_Exiguus,狄奥尼修斯·埃克西古斯（Dionysius Exiguus），纪元多米尼（Anno Domini）的发明者,"Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , ,"Dionysius Exiguus, inventor of Anno Domini", , , ,狄奥尼修斯·埃克西古斯，“公元”纪年的发明者
+Umayyad_c,倭马亚,Umayyad, ,text,False, , , ,Umayyad, , , ,倭马亚
+ur3,乌尔三世王朝𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , ,Ur III Dynasty 𒋀𒀕𒆠, , , ,乌尔第三王朝 𒋀𒀕𒆠
+hammurabi,汉谟拉比𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , ,Hammurabi 𒄩𒄠𒈬𒊏𒁉, , , ,汉穆拉比 𒄩𒄠𒈬𒊏𒁉
+Al-Khwarizmi,花拉子米 (al-Khwarizmi) 撰写 Al-Jabr（代数）,al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , ,al-Khwarizmi writes Al-Jabr (Algebra), , , ,阿尔-霍瓦里兹米撰写了《代数》（Al-Jabr）
+al-azhar,爱资哈尔大学在开罗成立,Al-Azhar University is established in Cairo, ,text,False, , , ,Al-Azhar University is established in Cairo, , , ,开罗大学在开罗成立
+Ibn-Sina,伊本·西那或阿维森纳,Ibn Sina or Avicenna, ,text,False, , , ,Ibn Sina or Avicenna, , , ,伊本·西纳或阿维森纳
+life-expectancy,预期寿命75年,Life expectancy 75 years, ,text,False, , , ,Life expectancy 75 years, , , ,预期寿命为75岁
+430years_c,430年：出埃及记12:41，加拉太书3:17,"430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , ,"430 years: Exodus 12:41, Galatians 3:17", , , ,430年：《出埃及记》12:41，《加拉太书》3:17
+maya_calendar,公元前3114年8月11日，Maya日历的开头,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , ,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.", , , ,据推算，玛雅历法始于公元前3114年8月11日。
+xia-dynasty2,c。 2070 - c。公元前1600年;时代首先暗示了西部时期,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , ,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period, , , ,约公元前2070年至约公元前1600年；该时代最早在西周时期被提及
+xia-dynasty2_c,中国夏王朝,Xia dynasty in China, ,text,False, , , ,Xia dynasty in China, , , ,中国的夏朝
+tres_zapotes,9月3日，公元前32年,"September 3rd, 32 B.C.E.",2024-12-31,text,False, , , ,"September 3rd, 32 B.C.E.", , , ,公元前32年9月3日
+joseph_jacob_reunited,约瑟夫和雅各布在埃及团聚 - 公元前1728年（创世45:11; 47：9）,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , ,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9), , , ,约瑟与雅各在埃及重逢——公元前1728年（创世记 45:11；47:9）
+king_south_light_c,丹尼尔11的南方国王,King of the South from Daniel 11,2025-02-05,text,False, , , ,King of the South from Daniel 11, , , ,《但以理书》第11章中的“南方王”
+king_north_light_c,丹尼尔11的北方国王,King of the North from Daniel 11,2025-02-05,text,False, , , ,King of the North from Daniel 11, , , ,《但以理书》第11章中的“北方王”
+daniel2_iron_c,丹尼尔2的铁腿,Iron legs from Daniel 2,2025-02-05,text,False, , , ,Iron legs from Daniel 2, , , ,《但以理书》第2章中的铁腿
+argenteus,银抄本 c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , ,Codex Argenteus c. 505, , , ,《银色法典》，约公元505年
+nguyen_dynasty_c,阮,Nguyễn,2025-09-20,text,False, , , ,Nguyễn, , , ,阮
+edo_c,日本江户时代,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , ,Edo period in Japan, , , ,日本江户时代
+meiji_c,明治,Meiji,2025-09-20,text,False, , , ,Meiji, , , ,明治
+american_civil_war,美国内战 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , ,American Civil War 1861-1865, , , ,美国内战 1861-1865
+aleppo_codex,阿勒颇抄本 c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , ,Aleppo Codex c. 920, , , ,《阿勒颇抄本》，约公元920年
+vandals,汪达尔人和阿兰人王国 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , ,Kingdom of the Vandals and Alans 435 – 534, , , ,汪达尔人和阿兰人王国 435 – 534
+francia,c. 481/509 – 843，墨洛温王朝至751年，然后是加洛林王朝,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , ,"c. 481/509 – 843, Merovingian till 751, then Carolingian", , , ,约481/509年—843年，751年前为墨洛温王朝时期，此后为加洛林王朝时期
+francia_c,法兰克王国,Kingdom of the Franks, ,text,False, , , ,Kingdom of the Franks, , , ,法兰克王国
+100_years_war,百年战争 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , ,Hundred Years’ War 1337 – 1453, , , ,百年战争 1337 – 1453
+black_death,黑死病 1346-1353,Black death 1346-1353,1346-1353,text,False, , , ,Black death 1346-1353, , , ,黑死病 1346-1353
+sui_dynasty,581-618 隋,581-618 Sui dynasty,2025-11-09,text,False, , , ,581-618 Sui dynasty, , , ,581-618 隋朝
+sui_dynasty_c,隋,Sui,2025-11-09,text,False, , , ,Sui, , , ,隋
+tribulation,"大灾难（马可福音 13:19；但以理书 12:1；马太福音 24:21, 22）","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , ,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", , , ,大灾难（马可福音 13:19；但以理书 12:1；马太福音 24:21、22）
+timeline_created,"这条时间线创建于2023年，这是人类历史上最热的一年，也是过去125,000年","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , ,"这条时间线创建于2023年，这是人类历史上最热的一年，也是过去125,000年", , , ,该时间轴制作于2023年，这一年是人类历史上以及过去12.5万年来最热的一年。
 Adam,亚当,Adam,Luke 3:38,bible,True,Matthias,2026-07-01, , , , , , 
 Seth,塞特,Seth, ,bible,True,Matthias,2026-07-01, , , , , , 
 Enosh,以挪士,Enosh, ,bible,True,Matthias,2026-07-01, , , , , , 
