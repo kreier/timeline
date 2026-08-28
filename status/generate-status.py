@@ -13,7 +13,10 @@ file for that language. For every language that has both, it computes:
 Two versions of the table are produced:
   - status/index.md   - the GitHub Pages status page. This is real HTML
     embedded in the Markdown, so the percentage cells get an actual
-    red -> yellow -> green background gradient.
+    red -> yellow -> green background gradient. The page also carries a
+    <style> block that widens the primer theme's content area to (almost)
+    full width and wraps the wide table in an overflow-x container so it
+    is readable without scrolling the whole page.
   - status/README.md  - shown on GitHub's own repo page. GitHub strips
     "style" attributes from HTML in rendered Markdown, so instead of a
     background color each cell gets a coloured square as a stand-in.
@@ -273,11 +276,13 @@ def build_html_table(matched, supported, results):
         rows_html.append(f"<tr>{''.join(cells)}</tr>")
 
     table = (
+        '<div class="status-table-wrap">\n'
         '<table>\n<thead><tr>'
         + header_html
         + '</tr></thead>\n<tbody>\n'
         + "\n".join(rows_html)
-        + "\n</tbody>\n</table>"
+        + "\n</tbody>\n</table>\n"
+        '</div>'
     )
 
     return table
@@ -391,7 +396,33 @@ def generate_content():
         results,
     )
 
-    html_content = f"""# Timeline status
+    html_content = f"""<style>
+/* Widen the GitHub Pages (primer theme) content area so the wide
+   status table is readable without scrolling the whole page. */
+@media (min-width: 768px) {{
+  .container-lg {{
+    max-width: 96vw !important;
+    width: 96vw !important;
+  }}
+  .markdown-body {{
+    max-width: none !important;
+  }}
+}}
+.status-table-wrap {{
+  overflow-x: auto;
+}}
+.status-table-wrap table {{
+  border-collapse: collapse;
+  white-space: nowrap;
+  margin: 0;
+}}
+.status-table-wrap th,
+.status-table-wrap td {{
+  font-size: 0.9rem;
+}}
+</style>
+
+# Timeline status
 
 This page is automatically generated.
 
