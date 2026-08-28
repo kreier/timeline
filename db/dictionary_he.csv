@@ -1,183 +1,183 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08, ,float,False, , , , , , , , 
-pdf_title,6000 שנות היסטוריה אנושית דמיונית,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , , 
-pdf_subject,ציר הזמן של המין האנושי,Timeline of human history from 4000 BCE to present,5.2,text,False, , , , , , , , 
+pdf_title,6000 שנות היסטוריה אנושית דמיונית,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , ,"6,000 שנות היסטוריה אנושית — ציר זמן"
+pdf_subject,ציר הזמן של המין האנושי,Timeline of human history from 4000 BCE to present,5.2,text,False, , , , , , , ,"ציר הזמן של ההיסטוריה האנושית משנת 4000 לפנה""ס ועד היום"
 BCE,לפני הספירה,B.C.E.,appendix B9,B9,False, , , , , , , , 
 CE,לִספִירַת הַנוֹצרִים,C.E., ,B9,False, , , , , , , , 
-month,חוֹדֶשׁ,month, ,text,False, , , , , , , , 
-months,חודשים,months, ,text,False, , , , , , , , 
-day,יְוֹם,day, ,text,False, , , , , , , , 
-days,ימים,days, ,text,False, , , , , , , , 
-to,ל,to, ,text,False, , , , , , , , 
-Deluge,מַבּוּל,Deluge, ,text,False, , , , , , , , 
-moses2,"1593 עד 1473 לפנה""ס – 120 שנה",1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , , , , 
-temple1,"ניסן 1513 לפנה""ס לזיו 1034 לפנה""ס.",Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , , , , 
-69weeks,ישוע הטביל את סתיו 29 לספירה.,Jesus baptized autumn 29 C.E., ,text,False, , , , , , , , 
-year,שָׁנָה,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , , , , , 
-years,שנים,years, ,text,False, , , , , , , , 
-years_age,שנים,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , , , , , 
+month,חוֹדֶשׁ,month, ,text,False, , , , , , , ,חודש
+months,חודשים,months, ,text,False, , , , , , , ,חודשים
+day,יְוֹם,day, ,text,False, , , , , , , ,יום
+days,ימים,days, ,text,False, , , , , , , ,ימים
+to,ל,to, ,text,False, , , , , , , ,אל
+Deluge,מַבּוּל,Deluge, ,text,False, , , , , , , ,מבול
+moses2,"1593 עד 1473 לפנה""ס – 120 שנה",1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , , , ,"1593 עד 1473 לפנה""ס – 120 שנים"
+temple1,"ניסן 1513 לפנה""ס לזיו 1034 לפנה""ס.",Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , , , ,"1513 בניסן לפנה""ס עד 1034 בזיו לפנה""ס"
+69weeks,ישוע הטביל את סתיו 29 לספירה.,Jesus baptized autumn 29 C.E., ,text,False, , , , , , , ,ישוע הוטבל בסתיו שנת 29 לספירה.
+year,שָׁנָה,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , , , , ,שנה
+years,שנים,years, ,text,False, , , , , , , ,שנים
+years_age,שנים,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , , , , ,שנים
 age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,"ישראל במדבר 1513 עד 1473 לפנה""ס. - 40 שנה",Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , , , , 
-timespan_judges,"1473 עד 1117 לפנה""ס – 356 שנים",1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , , , , 
-timespan_judges2,זמן השופטים,Time of the judges, ,text,False, , , , , , , , 
-temple2,"479 שנים עד בניית המקדש – מלכים א ו, א",479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , , , , 
-69weeks2,69 שבועות למשיח - דניאל ט':25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , , , , 
-jesus_service,"3.5 שנים של שירות ישוע, הוצא להורג ב-14 בניסן, 33 לספירה.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , , , , 
-jesus_life,"ישוע נולד ב-2 לפנה""ס",Jesus born 2 B.C.E., ,text,False, , , , , , , , 
-exile,"607 עד 537 לפנה""ס – 70 שנה (ירמיהו כ""ה:11)",607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , , , , 
-exile2,גלות,Exile, ,text,False, , , , , , , , 
-7times2,7 פעמים – 2520 שנה לממלכת המשיח 1914 לספירה (דניאל ד':23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , , , , 
-ww1,מלחמת העולם הראשונה - 1914–1918 לספירה,World War I – 1914–1918, ,text,False, , , , , , , , 
-ww2,מלחמת העולם השנייה - 1939–1945 לספירה,World War II – 1939–1945, ,text,False, , , , , , , , 
-30_year_war,מלחמת שלושים שנה באירופה 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , , , , 
-joshua,110 שנים,110 years, ,text,False, , , , , , , , 
-caleb,יותר מ-85 שנים,more than 85 years, ,text,False, , , , , , , , 
-missionary1,"מסע המיסיונרי הראשון של פול, כ. 47-48 לספירה עם ברנבאס וג'ון מארק","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , , , , 
-circumcision,"סוגיית ברית מילה באנטיוכיה, ועידה בירושלים כ. 49 לספירה","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , , , , 
-missionary2,מסע מיסיונר שני ג. 49-52 לספירה עם סילאס (סילוואנוס),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , , , , 
-missionary3,מסע מיסיונר שלישי ג. 52-56 לספירה,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , , , , 
-caesarea,פול במעצר בקיסריה כ. 56-58 לספירה,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , , , , 
-rome1,מאסרו הראשון של פאולוס ברומא כ. 59-61 לספירה,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , , , , 
-rome2,"מאסרו השני של פאולוס ברומא כ. 65 לספירה, טימותיוס ב' נכתב, פאולוס הוצא להורג","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , , , , 
-event_exodus,"יציאת מצרים ביום י""ד בניסן, 1513 לפנה""ס.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , , , , 
-event_division_kingdom,"חלוקת ישראל 997 לפנה""ס",Division of Israel 997 BCE, ,text,False, , , , , , , , 
-event_destruction_samaria,"חורבן השומרון 740 לפנה""ס. על ידי אשור",Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , , , , 
-event_destruction_jerusalem1,"חורבן ירושלים 607 לפנה""ס. על ידי בבל, 390 שנה לאחר חלוקת הממלכה (יחזקאל ד' ה')","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , , , , 
-event_temple_rebuilt,"מקדש בירושלים נבנה מחדש בשנת 515 לפנה""ס.",Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , , , , 
-event_jerusalem_rebuilt,"חומת ירושלים נבנתה מחדש בשנת 455 לפנה""ס.",Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , , , , 
-event_destruction_jerusalem2,חורבן ירושלים 70 לספירה על ידי רומא תחת טיטוס,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , , , , 
-event_1914,"סוף תקופת האומות (לוקס כ""א:24), מלכות אלוהים מתחילה לשלוט בשמים בשנת 1914 לספירה.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , , , , 
-became_king,הפך למלך בגיל,becomes king at age, ,text,False, , , , , , , , 
-vulgate,"וולגטה שהושלמה על ידי ג'רום (תרגום לטינית של התנ""ך) ג. 405 לספירה",Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , , , , 
-gutenberg,"תנ""ך גוטנברג נדפס בשנת 1455",Gutenberg Bible printed 1455, ,text,False, , , , , , , , 
-erasmus,טקסט יווני של כתבים יווניים נוצריים שפורסם על ידי Desiderius Erasmus מרוטרדם 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , , , , 
-luther,"תרגום תנ""ך לותר בספטמבר 1522",Luther Bible translation in September 1522, ,text,False, , , , , , , , 
-tyndale,"תרגום תנ""ך לאנגלית מאת Tyndale 1536",English Bible translation by Tyndale 1536, ,text,False, , , , , , , , 
-king_james,"קינג ג'יימס תנ""ך 1611",King James Bible 1611, ,text,False, , , , , , , , 
-69weeks3,"ישוע מתחיל את שירותו בשנת 29 לספירה (לוקס ג':1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , , , , , 
-ransom,"אמצע השבוע ""הקרבה להפסיק"" דניאל ט' 27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , , , , , 
-cornelius,קורנליוס הוטבל בתום 70 שבועות (דניאל ט:24) בשנת 36 לספירה.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , , , , , 
-columbus,סוף התקופה הפרה-קולומביאנית ביבשת אמריקה 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , , , , , 
-declaration_independence,הכרזת העצמאות של 13 מושבות באמריקה 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , , , , , 
-tischendorf,טישנדורף מגלה את הקודקס סיניטיקוס מהמאה הרביעית ב-1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , , , , , 
-dead_sea_scrolls,נכתבו מגילות ים המלח,Dead Sea Scrolls written, ,text,False, , , , , , , , 
-septuagint,תרגום השבעים LXX,Septuagint LXX translated, ,text,False, , , , , , , , 
-watchtower,"הגיליון הראשון של ""מגדל השמירה של ציון ומבשר נוכחות ישו"" יצא לאור בשנת 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , , , , , 
-jehovahs_witnesses,"תלמידי המקרא אימצו שם חדש - עדי יהוה (ישעיהו 43:10, 12) בקולומבוס, אוהיו, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , , , , , 
-gilead_school,"בית הספר לתנ""ך מגדל השמירה בגלעד החל ביום שני, 1 בפברואר 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , , , , , 
-new_world_translation1,"תרגום עולם חדש של כתבי הקודש שיצא במנצ'סטר, אנגליה ב-18 ביוני 1960, מציג מחדש את השם יהוה בחלקים רבים של התנ""ך","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , , , , , 
-new_world_translation2,"תרגום עולם חדש של כתבי הקודש מתוקן שפורסם במפגש השנתי 2013, מותאם לשימוש דיגיטלי ומקוון","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , , , , , 
-cold_war,"מצב גיאופוליטי שכותרתו ""מלחמה קרה"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , , , , , 
-codex_sinaiticus,קודקס סיניטיקוס נכתב,Codex Sinaiticus written, ,text,False, , , , , , , , 
-codex_vaticanus,קודקס ותיקן נכתב,Codex Vaticanus written, ,text,False, , , , , , , , 
-leningrad_codex,קודקס לנינגרד שנכתב בקהיר 1008 לספירה,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , , , , , 
-john,"יוחנן כותב ""התגלות"" בעודו גלות בפאטמוס 96-98 לספירה.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , , , , , 
-buddha,"הבודהה - סידהרתה גאוטמה בסביבות ה-563-483 לפנה""ס",The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , , , , , 
-buddha2,בודהה לחילופין ג. 480-400 לפני הספירה,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , , , , , 
-mohammed,מוחמד ג. 570-632 לספירה,Mohammed c. 570-632, ,text,False, , , , , , , , 
-confucius,"קונפוציוס בסביבות ה-551-479 לפנה""ס.",Confucius c.551-c.479 B.C.E., ,text,False, , , , , , , , 
-hijrah,היג'רה - מסע מכה למדינה 16 ביולי 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , , , , , 
-moses_escape,"1553 לפני הספירה משה צריך לברוח ממצרים - שמות ב' 15, מעשי השליחים ז' 23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , , , , , 
-10plagues,1513 לפני הספירה מצרים מקבלת 10 מכות,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , , , , , 
-joseph_sold,יוסף מכר כעבד בגיל 17 - בראשית 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , , , , , 
-infliction,"גרימת 400 שנה (מעשי השליחים ז':6) - ישמעאל 1913 לפנה""ס",400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , , , , , 
-Alexander,"אלכסנדר מוקדון (דניאל י""א:3)",Alexander the Great (Daniel 11:3), ,text,False, , , , , , , , 
-persia,"כורש הגדול, קמביסס השני, דריוש הראשון 490 לפנה""ס, קסרקסס הראשון 480 לפנה""ס (בעלה של אסתר, דניאל יא:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , , , , , 
-king_north,"סלאוקוס הראשון ניקטור (v5) סוריה לאנטיוכוס השלישי (v10) וסלאוקוס הרביעי (v18, 19) עד אוקטביאנוס (v20) וטיבריוס (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , , , , , 
-king_north1,מלך הצפון,King of the North, ,text,False, , , , , , , , 
-king_south,"תלמי I, II, III, IV (v11, 12), V (v15, 16) לקרב Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , , , , , 
-king_south1,מלך הדרום,King of the South, ,text,False, , , , , , , , 
-king_south2,"האימפריה הבריטית 1870, מעצמה אנגלו-אמריקאית מאז 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , , , , , 
-king_south3,מלך הדרום,King of the South, ,text,False, , , , , , , , 
-king_north2,"גרמניה עם הקיסר ויליאם הראשון 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , , , , , 
-king_north3,צָפוֹן,North, ,text,False, , , , , , , , 
-king_north4,"ברית המועצות 1945-1991 (דניאל 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , , , , 
-king_north5,רוסיה מאז 2017 (20 במאי),Russia since 2017 (w20 May), ,text,False, , , , , , , , 
-time_of_end,"נוכחות המשיח, סיום מערכת הדברים (מתי כ""ד:3), אחרית הימים (ב' טימותיאוס ג':1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , , , , , 
-time_of_end2,ימים אחרונים,Last days, ,text,False, , , , , , , , 
-suryavaman2,המלך Suryavarman השני בונה את Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , , , , , 
-notre-dame,נוטרדאם דה פריז נבנה בשנים 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , , , , , 
-babel,מגדל בבל בנוי,Tower of Babel built, ,text,False, , , , , , , , 
-infliction1,גרימת 400 שנה,400 year infliction,Acts 7:6,text,False, , , , , , , , 
-Lots_wife,אשתו של לוט,Lot’s wife, ,text,False, , , , , , , , 
-Lots_daughters,בנות לוט,Daughters of Lot, ,text,False, , , , , , , , 
-Moab,מואב (בת גדולה),Moab (older daughter),Genesis 19:37,text,False, , , , , , , , 
-rosetta,"אבן רוזטה 196 לפנה""ס",Rosetta stone 196 B.C.E., ,text,False, , , , , , , , 
-Herodotus,"הרודוטוס ג. 484 – ג. 425 לפני הספירה, כותב The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , , 
-Aristotle,"אריסטו 384 - 322 לפנה""ס",Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , , 
-Ptolemy,תלמי כ 100 – ג. 170 לספירה,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , , 
-Pythagoras,פיתגורס ג. 570 – ג. 495 לפני הספירה,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , , 
-Plato,אפלטון ג. 427 - ג. 348 לפני הספירה,Plato c. 427 – c. 348 BC, ,text,False, , , , , , , , 
-Socrates,סוקרטס ג. 470 - ג. 399 לפני הספירה,Socrates c. 470 – c. 399 BC, ,text,False, , , , , , , , 
-Josephus,יוספוס ג. 37 – ג. שנת 100 לספירה,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , , , , 
-Cicero,"קיקרו 106–43 לפנה""ס",Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , , , , 
-lachish_letters,"אותיות לכיש ג. 590 לפנה""ס",Lachish letters c. 590 B.C.E., ,text,False, , , , , , , , 
-lachish_reliefs,"תבליטי לכיש ג. 681 לפנה""ס",Lachish reliefs c. 681 B.C.E., ,text,False, , , , , , , , 
-mesha_stele,"משה סטלה (אבן מואבית) ג. 840 לפנה""ס",Mesha Stele (Moabite stone) c. 840 B.C.E., ,text,False, , , , , , , , 
-gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , , , , 
-epic_gilgamesh,אפוס גילגמש (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , , , , 
-gregorian,לוח שנה גרגוריאני 1582,Gregorian calendar 1582, ,text,False, , , , , , , , 
-shang-dynasty,ג. 1600-1046 לפני הספירה,c. 1600-1046 BC, ,text,False, , , , , , , , 
-western-zhou,"ג. 1046-771 לפנה""ס",c. 1046-771 BC, ,text,False, , , , , , , , 
-qin-dynasty,צ'ין 221-207 לפני הספירה,Qin 221-207 BC, ,text,False, , , , , , , , 
-western-han,"207 לפנה""ס - 9 לספירה",207 BC – 9 CE, ,text,False, , , , , , , , 
-three-kingdoms,שלוש ממלכות 220-280 לספירה,Three kingdoms 220-280 CE, ,text,False, , , , , , , , 
-sixteen-kingdoms,שש עשרה ממלכות 304-439 לספירה,Sixteen kingdoms 304-439 CE, ,text,False, , , , , , , , 
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , , , , 
-wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False, , , , , , , , 
-tang-dynasty1_c,רֵיחַ חָרִיף,Tang, ,text,False, , , , , , , , 
-gonghe,גונגה ריג'נסי 841-828 לפני הספירה,Gonghe Regency 841-828 BC, ,text,False, , , , , , , , 
-Ashoka,"אשוקה (בערך 304-232 לפנה""ס) מקדם את הבודהיזם",Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , , , , 
-siloam-tunnel,חזקיהו מאריך את מנהרת סילועם,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , , , , 
-Angloamerica2,"אנגלו-אמריקאי מסומל על ידי רגלי ברזל מעורבות בחימר בנבואה בדניאל ב':33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , , , , 
-Manetho,מנת'ו כותב אגיפדיאקה,Manetho writes Aegyptiaca, ,text,False, , , , , , , , 
-destruction_babylon,"חורבן בבל הגדולה (התגלות י""ז:3, 15-18; י""ח:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , , , , 
-peace_security,"""שלום וביטחון!"" (1 תסלוניקים ה':3, זו אפשרות אחת, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , , , , 
-gog_of_magog,"התקפה של גוג ממגוג (יחזקאל ל""ח, א, ב, ט-יב, י""ח-כ""ג)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , , , , 
-sheep_goat,"תושבי כדור הארץ ישפטו, ויפרידו בין כבשים ועיזים (מתי כ""ה:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , , , , 
-annointed,"כינוס שליטי המלכות (מתי כ""ד:31; א' לקורינתים ט""ו:50-53; א' לתסלוניקים ד':15-17)",Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , , , , 
-armageddon,"קרב ארמגדון (התגלות ט""ז:14, 16; ישעיהו י""ג:9; פיטר ב' ג':12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , , , , 
-millenium,"מלכות אלוהים מתחילה את מלכותה בת 1000 השנים (התגלות ה':9, 10; כ':4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , , , , 
-great_crowd,"קהל גדול שורד את ארמגדון (התגלות ז':9, 14; תהילים ל""ז:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , , , , 
-world_population,אוכלוסיית העולם במיליארדים ב-2000 השנים האחרונות,World population in billions in the last 2000 years, ,text,False, , , , , , , , 
-khmer_empire_c,אימפריית החמר - תקופת אנגקור,Khmer Empire - Angkor period, ,text,False, , , , , , , , 
-holy_roman_empire_c,האימפריה הרומית הקדושה - לאחר 1512 האימפריה הרומית הקדושה של האומה הגרמנית,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , , , , 
-mongol_empire,האימפריה המונגולית 1206 - 1294 לספירה,Mongol Empire 1206 – 1294, ,text,False, , , , , , , , 
-maya_classic_c,תרבות מאיה - תקופה קלאסית,Maya civilization – Classic period, ,text,False, , , , , , , , 
-maya_postclassic_c,תרבות מאיה - תקופה פוסט-קלאסית,Maya civilization – Postclassic period, ,text,False, , , , , , , , 
-Teotihuacan,"העיר הגדולה ביותר ביבשת אמריקה, פירמידות בונות כ. שנת 200 לספירה","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , , , , 
-Dionysius_Exiguus,"דיוניסיוס אקסיגוס, ממציא אנו דומיני","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , , , , 
-Umayyad_c,אומיה,Umayyad, ,text,False, , , , , , , , 
-ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , , , , 
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , , , , 
-Al-Khwarizmi,אל-ח'ואריזמי כותב את אל-ג'בר (אלגברה),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , , 
-al-azhar,אוניברסיטת אל-אזהר מוקמת בקהיר,Al-Azhar University is established in Cairo, ,text,False, , , , , , , , 
-Ibn-Sina,אבן סינא או אביסנה,Ibn Sina or Avicenna, ,text,False, , , , , , , , 
-life-expectancy,תוחלת חיים 75 שנים,Life expectancy 75 years, ,text,False, , , , , , , , 
-430years_c,"430 שנים: שמות יב:41, גלטים 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , , 
-maya_calendar,"מחושב תחילת לוח השנה של מאיה 11 באוגוסט 3114 לפנה""ס.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , , 
-xia-dynasty2,ג. 2070 - ג. 1600 לפני הספירה; עידן רמז לראשונה בתקופת ג'ואו המערבית,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , , , , 
-xia-dynasty2_c,שושלת שיה בסין,Xia dynasty in China, ,text,False, , , , , , , , 
-tres_zapotes,"3 בספטמבר, 32 לפנה""ס","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , , , , 
-joseph_jacob_reunited,"יוסף ויעקב התאחדו במצרים - 1728 לפנה""ס. (בראשית 45:11; 47:9)",Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , , , , 
-king_south_light_c,מלך הדרום מדניאל 11,King of the South from Daniel 11,2025-02-05,text,False, , , , , , , , 
-king_north_light_c,מלך הצפון מדניאל 11,King of the North from Daniel 11,2025-02-05,text,False, , , , , , , , 
-daniel2_iron_c,רגלי ברזל מדניאל 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , , , , , 
-argenteus,קודקס ארגנטאוס ג. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , , , , 
-nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , , , , , 
-edo_c,תקופת אדו ביפן,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , , , , , 
-meiji_c,מייג'י,Meiji,2025-09-20,text,False, , , , , , , , 
-american_civil_war,מלחמת האזרחים האמריקאית 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , , , , , 
-aleppo_codex,קודקס חאלב ג. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , , , , , 
-vandals,ממלכת הוונדלים והאלנס 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , , , , , 
-francia,"ג. 481/509 - 843, מרובינגי עד 751, אז קרולינגי","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , , , , , 
-francia_c,ממלכת הפרנקים,Kingdom of the Franks, ,text,False, , , , , , , , 
-100_years_war,מלחמת מאה השנים 1337 - 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , , , , 
-black_death,מוות שחור 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , , , , , 
-sui_dynasty,581-618 שושלת סוי,581-618 Sui dynasty,2025-11-09,text,False, , , , , , , , 
-sui_dynasty_c,סוי,Sui,2025-11-09,text,False, , , , , , , , 
-tribulation,"הצרה הגדולה (מרקוס י""ג:19; דניאל י""ב:1; מאט כ""ד:21,22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , , , , , 
-timeline_created,"ציר הזמן הזה נוצר בשנת 2023, השנה החמה ביותר בהיסטוריה האנושית ו-125,000 השנים האחרונות","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , , , , , 
+wilderness,"ישראל במדבר 1513 עד 1473 לפנה""ס. - 40 שנה",Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , , , ,"ישראל במדבר, 1513–1473 לפנה""ס – 40 שנים"
+timespan_judges,"1473 עד 1117 לפנה""ס – 356 שנים",1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , , , ,"1473 עד 1117 לפנה""ס – 356 שנים"
+timespan_judges2,זמן השופטים,Time of the judges, ,text,False, , , , , , , ,תקופת השופטים
+temple2,"479 שנים עד בניית המקדש – מלכים א ו, א",479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , , , ,"479 שנים עד לבניית המקדש – מלכים א' ו', 1"
+69weeks2,69 שבועות למשיח - דניאל ט':25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , , , ,69 שבועות עד לבוא המשיח – דניאל 9:25
+jesus_service,"3.5 שנים של שירות ישוע, הוצא להורג ב-14 בניסן, 33 לספירה.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , , , ,"3.5 שנות שירותו של ישו, שהוצא להורג ב-14 בניסן, שנת 33 לספירה."
+jesus_life,"ישוע נולד ב-2 לפנה""ס",Jesus born 2 B.C.E., ,text,False, , , , , , , ,"ישוע נולד בשנת 2 לפנה""ס."
+exile,"607 עד 537 לפנה""ס – 70 שנה (ירמיהו כ""ה:11)",607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , , , ,"607 עד 537 לפנה""ס – 70 שנים (ירמיהו 25:11)"
+exile2,גלות,Exile, ,text,False, , , , , , , ,גלות
+7times2,7 פעמים – 2520 שנה לממלכת המשיח 1914 לספירה (דניאל ד':23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , , , ,"7 פעמים – 2520 שנים עד למלכות המשיח, 1914 לספירה (דניאל 4:23)"
+ww1,מלחמת העולם הראשונה - 1914–1918 לספירה,World War I – 1914–1918, ,text,False, , , , , , , ,מלחמת העולם הראשונה – 1914–1918
+ww2,מלחמת העולם השנייה - 1939–1945 לספירה,World War II – 1939–1945, ,text,False, , , , , , , ,מלחמת העולם השנייה – 1939–1945
+30_year_war,מלחמת שלושים שנה באירופה 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , , , ,"מלחמת שלושים השנים באירופה, 1618–1648"
+joshua,110 שנים,110 years, ,text,False, , , , , , , ,110 שנים
+caleb,יותר מ-85 שנים,more than 85 years, ,text,False, , , , , , , ,יותר מ-85 שנים
+missionary1,"מסע המיסיונרי הראשון של פול, כ. 47-48 לספירה עם ברנבאס וג'ון מארק","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , , , ,"מסע המיסיונרי הראשון של פאולוס, בשנים 47–48 לספירה בערך, יחד עם ברנבא ויוחנן מרקוס"
+circumcision,"סוגיית ברית מילה באנטיוכיה, ועידה בירושלים כ. 49 לספירה","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , , , ,"סוגיית המילה באנטיוכיה, ועידה בירושלים בסביבות שנת 49 לספירה."
+missionary2,מסע מיסיונר שני ג. 49-52 לספירה עם סילאס (סילוואנוס),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , , , ,"מסע מיסיונרי שני, בערך בשנים 49–52 לספירה, יחד עם סילאס (סילבאנוס)"
+missionary3,מסע מיסיונר שלישי ג. 52-56 לספירה,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , , , ,"מסע המיסיונרי השלישי, כ-52–56 לספירה"
+caesarea,פול במעצר בקיסריה כ. 56-58 לספירה,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , , , ,"פאולוס במעצר בקיסריה, בשנים 56–58 לספירה בקירוב."
+rome1,מאסרו הראשון של פאולוס ברומא כ. 59-61 לספירה,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , , , ,"מאסרו הראשון של פאולוס ברומא, בסביבות השנים 59–61 לספירה."
+rome2,"מאסרו השני של פאולוס ברומא כ. 65 לספירה, טימותיוס ב' נכתב, פאולוס הוצא להורג","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , , , ,"מאסרו השני של פאולוס ברומא, בסביבות שנת 65 לספירה, כתיבת האיגרת השנייה לטימותיוס, הוצאתו להורג של פאולוס"
+event_exodus,"יציאת מצרים ביום י""ד בניסן, 1513 לפנה""ס.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , , , ,"יציאת מצרים ב-14 בניסן, 1513 לפנה""ס."
+event_division_kingdom,"חלוקת ישראל 997 לפנה""ס",Division of Israel 997 BCE, ,text,False, , , , , , , ,"חלוקת ישראל 997 לפנה""ס"
+event_destruction_samaria,"חורבן השומרון 740 לפנה""ס. על ידי אשור",Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , , , ,"החרבת שומרון בשנת 740 לפנה""ס בידי אשור"
+event_destruction_jerusalem1,"חורבן ירושלים 607 לפנה""ס. על ידי בבל, 390 שנה לאחר חלוקת הממלכה (יחזקאל ד' ה')","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , , , ,"חורבן ירושלים בשנת 607 לפנה""ס בידי בבל, 390 שנים לאחר פיצול הממלכה (יחזקאל 4:5)"
+event_temple_rebuilt,"מקדש בירושלים נבנה מחדש בשנת 515 לפנה""ס.",Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , , , ,"בית המקדש בירושלים נבנה מחדש בשנת 515 לפנה""ס."
+event_jerusalem_rebuilt,"חומת ירושלים נבנתה מחדש בשנת 455 לפנה""ס.",Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , , , ,"חומת ירושלים נבנתה מחדש בשנת 455 לפנה""ס."
+event_destruction_jerusalem2,חורבן ירושלים 70 לספירה על ידי רומא תחת טיטוס,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , , , ,חורבן ירושלים בשנת 70 לספירה בידי רומא תחת שלטונו של טיטוס
+event_1914,"סוף תקופת האומות (לוקס כ""א:24), מלכות אלוהים מתחילה לשלוט בשמים בשנת 1914 לספירה.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , , , ,"עם תום תקופת הגויים (לוקס 21:24), מלכות האל מתחילה לשלוט בשמים בשנת 1914 לספירה."
+became_king,הפך למלך בגיל,becomes king at age, ,text,False, , , , , , , ,נהיה מלך בגיל
+vulgate,"וולגטה שהושלמה על ידי ג'רום (תרגום לטינית של התנ""ך) ג. 405 לספירה",Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , , , ,"הוולגטה, שהושלמה בידי הירונימוס (תרגום לטיני של התנ""ך), בסביבות שנת 405 לספירה."
+gutenberg,"תנ""ך גוטנברג נדפס בשנת 1455",Gutenberg Bible printed 1455, ,text,False, , , , , , , ,"תנ""ך גוטנברג, הודפס בשנת 1455"
+erasmus,טקסט יווני של כתבים יווניים נוצריים שפורסם על ידי Desiderius Erasmus מרוטרדם 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , , , ,הטקסט היווני של כתבי הקודש הנוצריים שפורסם על ידי דזידריוס ארסמוס מרוטרדם בשנת 1516
+luther,"תרגום תנ""ך לותר בספטמבר 1522",Luther Bible translation in September 1522, ,text,False, , , , , , , ,"תרגום התנ""ך של לותר בספטמבר 1522"
+tyndale,"תרגום תנ""ך לאנגלית מאת Tyndale 1536",English Bible translation by Tyndale 1536, ,text,False, , , , , , , ,"תרגום התנ""ך לאנגלית מאת טינדל, 1536"
+king_james,"קינג ג'יימס תנ""ך 1611",King James Bible 1611, ,text,False, , , , , , , ,"תנ""ך המלך ג'יימס, 1611"
+69weeks3,"ישוע מתחיל את שירותו בשנת 29 לספירה (לוקס ג':1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , , , , ,"ישוע מתחיל את פעילותו בשנת 29 לספירה (לוקס 3:1, 21)"
+ransom,"אמצע השבוע ""הקרבה להפסיק"" דניאל ט' 27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , , , , ,"""הקרבן יפסק"" באמצע השבוע, דניאל 9:27"
+cornelius,קורנליוס הוטבל בתום 70 שבועות (דניאל ט:24) בשנת 36 לספירה.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , , , , ,קורנליוס הוטבל בסוף 70 השבועות (דניאל 9:24) בשנת 36 לספירה.
+columbus,סוף התקופה הפרה-קולומביאנית ביבשת אמריקה 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , , , , ,"סוף התקופה הקדם-קולומביאנית ביבשת אמריקה, 1492"
+declaration_independence,הכרזת העצמאות של 13 מושבות באמריקה 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , , , , ,"הכרזת העצמאות של 13 המושבות באמריקה, 1776"
+tischendorf,טישנדורף מגלה את הקודקס סיניטיקוס מהמאה הרביעית ב-1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , , , , ,בשנת 1844 גילה טישנדורף את קודקס סינאיטיקוס מהמאה ה-4
+dead_sea_scrolls,נכתבו מגילות ים המלח,Dead Sea Scrolls written, ,text,False, , , , , , , ,מגילות ים המלח שנכתבו
+septuagint,תרגום השבעים LXX,Septuagint LXX translated, ,text,False, , , , , , , ,תרגום השבעים (LXX) תרגם
+watchtower,"הגיליון הראשון של ""מגדל השמירה של ציון ומבשר נוכחות ישו"" יצא לאור בשנת 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , , , , ,"הגיליון הראשון של ""מגדל השמירה של ציון ומבשר נוכחותו של המשיח"" יצא לאור בשנת 1879"
+jehovahs_witnesses,"תלמידי המקרא אימצו שם חדש - עדי יהוה (ישעיהו 43:10, 12) בקולומבוס, אוהיו, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , , , , ,"""תלמידי התנ""ך"" מאמצים שם חדש – ""עדי יהוה"" (ישעיהו 43:10, 12) בקולומבוס, אוהיו, 1931"
+gilead_school,"בית הספר לתנ""ך מגדל השמירה בגלעד החל ביום שני, 1 בפברואר 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , , , , ,"בית הספר התנ""כי ""מגדל השמירה"" בגלעד נפתח ביום שני, 1 בפברואר 1943"
+new_world_translation1,"תרגום עולם חדש של כתבי הקודש שיצא במנצ'סטר, אנגליה ב-18 ביוני 1960, מציג מחדש את השם יהוה בחלקים רבים של התנ""ך","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , , , , ,"""תרגום העולם החדש של כתבי הקודש"", שיצא לאור במנצ'סטר, אנגליה, ב-18 ביוני 1960, מחזיר את השם יהוה למקומות רבים בתנ""ך"
+new_world_translation2,"תרגום עולם חדש של כתבי הקודש מתוקן שפורסם במפגש השנתי 2013, מותאם לשימוש דיגיטלי ומקוון","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , , , , ,"המהדורה המעודכנת של ""תרגום העולם החדש של כתבי הקודש"" הושקה בכנס השנתי של שנת 2013, והיא מותאמת לשימוש דיגיטלי ומקוון"
+cold_war,"מצב גיאופוליטי שכותרתו ""מלחמה קרה"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , , , , ,"המצב הגיאו-פוליטי שכונה ""המלחמה הקרה"" 1945–1991"
+codex_sinaiticus,קודקס סיניטיקוס נכתב,Codex Sinaiticus written, ,text,False, , , , , , , ,ה-Codex Sinaiticus נכתב
+codex_vaticanus,קודקס ותיקן נכתב,Codex Vaticanus written, ,text,False, , , , , , , ,ה-Codex Vaticanus נכתב
+leningrad_codex,קודקס לנינגרד שנכתב בקהיר 1008 לספירה,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , , , , ,"קודקס לנינגרד, שנכתב בקהיר בשנת 1008 לספירה"
+john,"יוחנן כותב ""התגלות"" בעודו גלות בפאטמוס 96-98 לספירה.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , , , , ,"יוחנן כתב את ""ההתגלות"" בעת שהותו בגלות בפטמוס בשנים 96–98 לספירה."
+buddha,"הבודהה - סידהרתה גאוטמה בסביבות ה-563-483 לפנה""ס",The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , , , , ,"הבודהה – סידהרתא גאוטמה, כ-563–כ-483 לפנה""ס"
+buddha2,בודהה לחילופין ג. 480-400 לפני הספירה,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , , , , ,"בודהה, לחלופין, בערך 480–400 לפנה""ס."
+mohammed,מוחמד ג. 570-632 לספירה,Mohammed c. 570-632, ,text,False, , , , , , , ,"מוחמד, בערך 570–632"
+confucius,"קונפוציוס בסביבות ה-551-479 לפנה""ס.",Confucius c.551-c.479 B.C.E., ,text,False, , , , , , , ,"קונפוציוס, בערך 551–בערך 479 לפנה""ס"
+hijrah,היג'רה - מסע מכה למדינה 16 ביולי 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , , , , ,"ההג'רה – המסע ממכה למדינה, 16 ביולי 622"
+moses_escape,"1553 לפני הספירה משה צריך לברוח ממצרים - שמות ב' 15, מעשי השליחים ז' 23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , , , , ,"1553 לפנה""ס. משה נאלץ לברוח ממצרים – שמות ב', 15; מעשי השליחים ז', 23"
+10plagues,1513 לפני הספירה מצרים מקבלת 10 מכות,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , , , , ,"1513 לפנה""ס: מצרים סובלת מעשר מכות"
+joseph_sold,יוסף מכר כעבד בגיל 17 - בראשית 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , , , , ,יוסף נמכר לעבדות בגיל 17 – בראשית 37:2
+infliction,"גרימת 400 שנה (מעשי השליחים ז':6) - ישמעאל 1913 לפנה""ס",400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , , , , ,"400 שנות עונש (מעשי השליחים 7:6) – ישמעאל, 1913 לפנה""ס"
+Alexander,"אלכסנדר מוקדון (דניאל י""א:3)",Alexander the Great (Daniel 11:3), ,text,False, , , , , , , ,אלכסנדר הגדול (דניאל 11:3)
+persia,"כורש הגדול, קמביסס השני, דריוש הראשון 490 לפנה""ס, קסרקסס הראשון 480 לפנה""ס (בעלה של אסתר, דניאל יא:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , , , , ,"כורש הגדול, קמביזס השני, דריווש הראשון 490 לפנה""ס, כורש הראשון 480 לפנה""ס (בעלה של אסתר, דניאל 11:2)"
+king_north,"סלאוקוס הראשון ניקטור (v5) סוריה לאנטיוכוס השלישי (v10) וסלאוקוס הרביעי (v18, 19) עד אוקטביאנוס (v20) וטיבריוס (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , , , , ,"סלווקוס הראשון ניקטור (פסוק 5) מסוריה ועד אנטיוכוס השלישי (פסוק 10) וסלווקוס הרביעי (פסוקים 18, 19) ועד אוקטביאן (פסוק 20) וטיבריוס (פסוקים 21–24)"
+king_north1,מלך הצפון,King of the North, ,text,False, , , , , , , ,מלך הצפון
+king_south,"תלמי I, II, III, IV (v11, 12), V (v15, 16) לקרב Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , , , , ,"פטולמיאוס הראשון, השני, השלישי, הרביעי (פרקים 11, 12), החמישי (פרקים 15, 16) עד לקרב אקטיום בשנת 31 לפנה""ס."
+king_south1,מלך הדרום,King of the South, ,text,False, , , , , , , ,מלך הדרום
+king_south2,"האימפריה הבריטית 1870, מעצמה אנגלו-אמריקאית מאז 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , , , , ,"האימפריה הבריטית 1870, המעצמה העולמית האנגלו-אמריקאית מאז 1914"
+king_south3,מלך הדרום,King of the South, ,text,False, , , , , , , ,מלך הדרום
+king_north2,"גרמניה עם הקיסר ויליאם הראשון 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , , , , ,"גרמניה תחת שלטונו של הקיסר וילהלם הראשון: 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,צָפוֹן,North, ,text,False, , , , , , , ,צפון
+king_north4,"ברית המועצות 1945-1991 (דניאל 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , , , ,"ברית המועצות 1945–1991 (דניאל 11:32–39, 40ב, 41)"
+king_north5,רוסיה מאז 2017 (20 במאי),Russia since 2017 (w20 May), ,text,False, , , , , , , ,רוסיה מאז 2017 (שבוע של ה-20 במאי)
+time_of_end,"נוכחות המשיח, סיום מערכת הדברים (מתי כ""ד:3), אחרית הימים (ב' טימותיאוס ג':1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , , , , ,"נוכחותו של המשיח, סיום עידן הדברים (מתי 24:3), הימים האחרונים (2 טימותיוס 3:1)"
+time_of_end2,ימים אחרונים,Last days, ,text,False, , , , , , , ,הימים האחרונים
+suryavaman2,המלך Suryavarman השני בונה את Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , , , , ,המלך סוריאוורמן השני בונה את אנגקור וואט בשנים 1113–1150
+notre-dame,נוטרדאם דה פריז נבנה בשנים 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , , , , ,"נוטרדאם דה פריז, נבנתה בשנים 1163–1260"
+babel,מגדל בבל בנוי,Tower of Babel built, ,text,False, , , , , , , ,נבנה מגדל בבל
+infliction1,גרימת 400 שנה,400 year infliction,Acts 7:6,text,False, , , , , , , ,400 שנות סבל
+Lots_wife,אשתו של לוט,Lot’s wife, ,text,False, , , , , , , ,אשתו של לוט
+Lots_daughters,בנות לוט,Daughters of Lot, ,text,False, , , , , , , ,בנות לוט
+Moab,מואב (בת גדולה),Moab (older daughter),Genesis 19:37,text,False, , , , , , , ,מואב (הבת הבכורה)
+rosetta,"אבן רוזטה 196 לפנה""ס",Rosetta stone 196 B.C.E., ,text,False, , , , , , , ,"אבן הרוזטה, 196 לפנה""ס"
+Herodotus,"הרודוטוס ג. 484 – ג. 425 לפני הספירה, כותב The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , ,"הרודוטוס, 484–425 לפנה""ס בקירוב, כותב את ""ההיסטוריות"""
+Aristotle,"אריסטו 384 - 322 לפנה""ס",Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , ,"אריסטו 384 – 322 לפנה""ס"
+Ptolemy,תלמי כ 100 – ג. 170 לספירה,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , ,"פטולמי, בערך 100 – בערך 170 לספירה"
+Pythagoras,פיתגורס ג. 570 – ג. 495 לפני הספירה,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , ,"פיתגורס, בערך 570 – בערך 495 לפנה""ס"
+Plato,אפלטון ג. 427 - ג. 348 לפני הספירה,Plato c. 427 – c. 348 BC, ,text,False, , , , , , , ,"אפלטון, בערך 427 – בערך 348 לפנה""ס"
+Socrates,סוקרטס ג. 470 - ג. 399 לפני הספירה,Socrates c. 470 – c. 399 BC, ,text,False, , , , , , , ,"סוקרטס, 470–399 לפנה""ס בקירוב"
+Josephus,יוספוס ג. 37 – ג. שנת 100 לספירה,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , , , ,"יוסף בן מתתיהו, כ-37 – כ-100 לספירה"
+Cicero,"קיקרו 106–43 לפנה""ס",Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , , , ,"קיקרו 106–43 לפנה""ס"
+lachish_letters,"אותיות לכיש ג. 590 לפנה""ס",Lachish letters c. 590 B.C.E., ,text,False, , , , , , , ,"מכתבי לכיש, כ-590 לפנה""ס"
+lachish_reliefs,"תבליטי לכיש ג. 681 לפנה""ס",Lachish reliefs c. 681 B.C.E., ,text,False, , , , , , , ,"תבליטי לכיש, כ-681 לפנה""ס."
+mesha_stele,"משה סטלה (אבן מואבית) ג. 840 לפנה""ס",Mesha Stele (Moabite stone) c. 840 B.C.E., ,text,False, , , , , , , ,"אבן משע (אבן מואבית) – כ-840 לפנה""ס"
+gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , , , ,גילגמש ואגה 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,אפוס גילגמש (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , , , ,אפוס גילגמש (סין-לקי-אוניני)
+gregorian,לוח שנה גרגוריאני 1582,Gregorian calendar 1582, ,text,False, , , , , , , ,"לוח השנה הגרגוריאני, 1582"
+shang-dynasty,ג. 1600-1046 לפני הספירה,c. 1600-1046 BC, ,text,False, , , , , , , ,"בערך 1600–1046 לפנה""ס"
+western-zhou,"ג. 1046-771 לפנה""ס",c. 1046-771 BC, ,text,False, , , , , , , ,"בערך 1046–771 לפנה""ס"
+qin-dynasty,צ'ין 221-207 לפני הספירה,Qin 221-207 BC, ,text,False, , , , , , , ,"צ'ין 221–207 לפנה""ס"
+western-han,"207 לפנה""ס - 9 לספירה",207 BC – 9 CE, ,text,False, , , , , , , ,"207 לפנה""ס – 9 לספירה"
+three-kingdoms,שלוש ממלכות 220-280 לספירה,Three kingdoms 220-280 CE, ,text,False, , , , , , , ,"שלוש הממלכות, 220–280 לספירה"
+sixteen-kingdoms,שש עשרה ממלכות 304-439 לספירה,Sixteen kingdoms 304-439 CE, ,text,False, , , , , , , ,"שש עשרה ממלכות, 304–439 לספירה"
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , , , ,"618–690, 705–907"
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False, , , , , , , ,690–705 וו-ג'ו
+tang-dynasty1_c,רֵיחַ חָרִיף,Tang, ,text,False, , , , , , , ,טאנג
+gonghe,גונגה ריג'נסי 841-828 לפני הספירה,Gonghe Regency 841-828 BC, ,text,False, , , , , , , ,"נפת גונגהה 841–828 לפנה""ס"
+Ashoka,"אשוקה (בערך 304-232 לפנה""ס) מקדם את הבודהיזם",Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , , , ,"אשוקה (בערך 304–232 לפנה""ס) מקדם את הבודהיזם"
+siloam-tunnel,חזקיהו מאריך את מנהרת סילועם,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , , , ,חזקיה מאריך את מנהרת סילואם
+Angloamerica2,"אנגלו-אמריקאי מסומל על ידי רגלי ברזל מעורבות בחימר בנבואה בדניאל ב':33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , , , ,"התרבות האנגלו-אמריקאית מסומלת על ידי רגלי הברזל המעורבות בחמר בנבואה שבדניאל 2:33, 41-43"
+Manetho,מנת'ו כותב אגיפדיאקה,Manetho writes Aegyptiaca, ,text,False, , , , , , , ,"מאנתו כותב את ""אגיפטיאקה"""
+destruction_babylon,"חורבן בבל הגדולה (התגלות י""ז:3, 15-18; י""ח:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , , , ,"חורבן בבל הגדולה (התגלות 17:3, 15-18; 18:9, 10)"
+peace_security,"""שלום וביטחון!"" (1 תסלוניקים ה':3, זו אפשרות אחת, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , , , ,"""שלום וביטחון!"" (הראשונה לתסלוניקים 5:3, זו אחת האפשרויות, QfR 26/2, 25/11)"
+gog_of_magog,"התקפה של גוג ממגוג (יחזקאל ל""ח, א, ב, ט-יב, י""ח-כ""ג)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , , , ,"מתקפת גוג ממגוג (יחזקאל 38:1, 2, 9-12, 18-23)"
+sheep_goat,"תושבי כדור הארץ ישפטו, ויפרידו בין כבשים ועיזים (מתי כ""ה:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , , , ,"תושבי כדור הארץ נשפטים, והכבשים מופרדים מהעזים (מתי 25:31-33)"
+annointed,"כינוס שליטי המלכות (מתי כ""ד:31; א' לקורינתים ט""ו:50-53; א' לתסלוניקים ד':15-17)",Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , , , ,כינוס שליטי הממלכה (מתי 24:31; הקורינתיים הראשונה 15:50-53; התסלוניקים הראשונה 4:15-17)
+armageddon,"קרב ארמגדון (התגלות ט""ז:14, 16; ישעיהו י""ג:9; פיטר ב' ג':12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , , , ,"קרב ארמגדון (התגלות 16:14, 16; ישעיהו 13:9; פטרוס השני 3:12)"
+millenium,"מלכות אלוהים מתחילה את מלכותה בת 1000 השנים (התגלות ה':9, 10; כ':4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , , , ,"ממלכת האלוהים מתחילה את שלטונה בן 1,000 השנים (התגלות 5:9, 10; 20:4, 6)"
+great_crowd,"קהל גדול שורד את ארמגדון (התגלות ז':9, 14; תהילים ל""ז:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , , , ,"קהל רב שורד את ארמגדון (התגלות 7:9, 14; תהילים 37:9-11)"
+world_population,אוכלוסיית העולם במיליארדים ב-2000 השנים האחרונות,World population in billions in the last 2000 years, ,text,False, , , , , , , ,אוכלוסיית העולם במיליארדים ב-2000 השנים האחרונות
+khmer_empire_c,אימפריית החמר - תקופת אנגקור,Khmer Empire - Angkor period, ,text,False, , , , , , , ,אימפריית הקמר – תקופת אנגקור
+holy_roman_empire_c,האימפריה הרומית הקדושה - לאחר 1512 האימפריה הרומית הקדושה של האומה הגרמנית,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , , , ,"האימפריה הרומית הקדושה – הידועה בשם ""האימפריה הרומית הקדושה של האומה הגרמנית"" לאחר שנת 1512"
+mongol_empire,האימפריה המונגולית 1206 - 1294 לספירה,Mongol Empire 1206 – 1294, ,text,False, , , , , , , ,האימפריה המונגולית 1206 – 1294
+maya_classic_c,תרבות מאיה - תקופה קלאסית,Maya civilization – Classic period, ,text,False, , , , , , , ,ציוויליזציית המאיה – התקופה הקלאסית
+maya_postclassic_c,תרבות מאיה - תקופה פוסט-קלאסית,Maya civilization – Postclassic period, ,text,False, , , , , , , ,ציוויליזציית המאיה – התקופה הפוסט-קלאסית
+Teotihuacan,"העיר הגדולה ביותר ביבשת אמריקה, פירמידות בונות כ. שנת 200 לספירה","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , , , ,"העיר הגדולה ביותר ביבשת אמריקה, הפירמידות נבנו בסביבות שנת 200 לספירה."
+Dionysius_Exiguus,"דיוניסיוס אקסיגוס, ממציא אנו דומיני","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , , , ,"דיוניסיוס אקסגיאוס, ממציא הספירה הנוצרית (Anno Domini)"
+Umayyad_c,אומיה,Umayyad, ,text,False, , , , , , , ,אומאייית
+ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , , , ,שושלת אור III 𒋀𒀕𒆠
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , , , ,חמורבי 𒄩𒄠𒈬𒊏𒁉
+Al-Khwarizmi,אל-ח'ואריזמי כותב את אל-ג'בר (אלגברה),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , ,"אל-ח'וואריזמי כותב את ""אל-ג'בר"" (אלגברה)"
+al-azhar,אוניברסיטת אל-אזהר מוקמת בקהיר,Al-Azhar University is established in Cairo, ,text,False, , , , , , , ,אוניברסיטת אל-אזהר הוקמה בקהיר
+Ibn-Sina,אבן סינא או אביסנה,Ibn Sina or Avicenna, ,text,False, , , , , , , ,אבן סינא או אביצנה
+life-expectancy,תוחלת חיים 75 שנים,Life expectancy 75 years, ,text,False, , , , , , , ,תוחלת החיים: 75 שנים
+430years_c,"430 שנים: שמות יב:41, גלטים 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , ,"430 שנים: שמות 12:41, הגלטים 3:17"
+maya_calendar,"מחושב תחילת לוח השנה של מאיה 11 באוגוסט 3114 לפנה""ס.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , ,"תחילתו המשוערת של לוח השנה של המאיה: 11 באוגוסט, 3114 לפנה""ס."
+xia-dynasty2,ג. 2070 - ג. 1600 לפני הספירה; עידן רמז לראשונה בתקופת ג'ואו המערבית,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , , , ,"בערך 2070 – בערך 1600 לפנה""ס; התייחסות ראשונה לתקופה זו בתקופת שושלת ג'ו המערבית"
+xia-dynasty2_c,שושלת שיה בסין,Xia dynasty in China, ,text,False, , , , , , , ,שושלת שיאה בסין
+tres_zapotes,"3 בספטמבר, 32 לפנה""ס","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , , , ,"3 בספטמבר, 32 לפנה""ס"
+joseph_jacob_reunited,"יוסף ויעקב התאחדו במצרים - 1728 לפנה""ס. (בראשית 45:11; 47:9)",Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , , , ,"יוסף ויעקב התאחדו במצרים – 1728 לפנה""ס (בראשית 45:11; 47:9)"
+king_south_light_c,מלך הדרום מדניאל 11,King of the South from Daniel 11,2025-02-05,text,False, , , , , , , ,מלך הדרום מתוך דניאל 11
+king_north_light_c,מלך הצפון מדניאל 11,King of the North from Daniel 11,2025-02-05,text,False, , , , , , , ,מלך הצפון מתוך דניאל 11
+daniel2_iron_c,רגלי ברזל מדניאל 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , , , , ,רגלי הברזל מדניאל 2
+argenteus,קודקס ארגנטאוס ג. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , , , ,"קודקס ארגנטאוס, בערך 505"
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , , , , ,נגויין
+edo_c,תקופת אדו ביפן,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , , , , ,תקופת אדו ביפן
+meiji_c,מייג'י,Meiji,2025-09-20,text,False, , , , , , , ,מייג'י
+american_civil_war,מלחמת האזרחים האמריקאית 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , , , , ,מלחמת האזרחים האמריקאית 1861–1865
+aleppo_codex,קודקס חאלב ג. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , , , , ,"קודקס חלב, כ-920"
+vandals,ממלכת הוונדלים והאלנס 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , , , , ,ממלכת הוונדלים והאלנים 435 – 534
+francia,"ג. 481/509 - 843, מרובינגי עד 751, אז קרולינגי","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , , , , ,"בערך 481/509 – 843, תקופת המרובינגים עד שנת 751, ולאחר מכן תקופת הקרולינגים"
+francia_c,ממלכת הפרנקים,Kingdom of the Franks, ,text,False, , , , , , , ,ממלכת הפרנקים
+100_years_war,מלחמת מאה השנים 1337 - 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , , , ,מלחמת מאה השנים 1337 – 1453
+black_death,מוות שחור 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , , , , ,המגפה השחורה 1346–1353
+sui_dynasty,581-618 שושלת סוי,581-618 Sui dynasty,2025-11-09,text,False, , , , , , , ,581–618 שושלת סוי
+sui_dynasty_c,סוי,Sui,2025-11-09,text,False, , , , , , , ,סוי
+tribulation,"הצרה הגדולה (מרקוס י""ג:19; דניאל י""ב:1; מאט כ""ד:21,22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , , , , ,"הצרה הגדולה (מרקוס 13:19; דניאל 12:1; מתי 24:21, 22)"
+timeline_created,"ציר הזמן הזה נוצר בשנת 2023, השנה החמה ביותר בהיסטוריה האנושית ו-125,000 השנים האחרונות","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , , , , ,"ציר הזמן הזה נוצר בשנת 2023, השנה החמה ביותר בתולדות האנושות וב-125,000 השנים האחרונות"
 Adam,אדם,Adam,Luke 3:38,bible,False, , , , , , , , 
 Seth,סת',Seth, ,bible,False, , , , , , , , 
 Enosh,אנוש,Enosh, ,bible,False, , , , , , , , 

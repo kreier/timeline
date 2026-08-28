@@ -37,9 +37,15 @@ from googletrans import Translator
 import deepl
 
 # Initialize the DeepL client
-# Best practice: Store key in environment variable DEEPL_API_KEY
-DEEPL_KEY = os.getenv("DEEPL_API_KEY", "your-deepl-api-key-here")
-translatorDL = deepl.DeepLClient(DEEPL_KEY)
+# Best practice: Store key in environment variable DEEPL_API_KEY, e.g. in
+# Windows set it once with:
+#   setx DEEPL_API_KEY "your-deepl-api-key-here"
+# (The client is only created when the key is actually present.)
+DEEPL_KEY = os.getenv("DEEPL_API_KEY", "").strip()
+translatorDL = deepl.DeepLClient(DEEPL_KEY) if DEEPL_KEY else None
+if translatorDL is None:
+    print("DeepL: no DEEPL_API_KEY environment variable found, "
+          "the 'deepl' translation column will be skipped.")
 
 def check_existing(language, filename):
     global dict_translated, dict 
@@ -615,14 +621,27 @@ def translate_claude_batch(sources, target_lang):
 # ------------------------- 10.5 deepl -------------------------
 # Depends on: pip install deepl
 # Set the key via environment variable DEEPL_API_KEY (client already defined
-# at the top as translatorDL). DeepL supports true batch translation natively.
+# at the top as translatorDL). DeepL supports true batch translation natively,
+# so we can hand the whole chunk to translate_text() in a single API call.
 def translate_deepl_batch(sources, target_lang):
-    # lang = target_lang.upper()
-    # lang = "EN-US" if lang == "EN" else lang
-    # results = translatorDL.translate_text(sources, source_lang="EN", target_lang=lang)
-    # return [r.text for r in results]
-    print("  [10.5] deepl placeholder - not implemented yet.")
-    return None
+    if translatorDL is None:
+        print("  [10.5] DeepL client not available (DEEPL_API_KEY not set).")
+        return None
+    lang = target_lang.upper()
+    if lang == "EN":
+        lang = "EN-US"
+    try:
+        results = translatorDL.translate_text(sources, source_lang="EN", target_lang=lang)
+        return [r.text for r in results]
+    except deepl.QuotaExceededException:
+        print("  [10.5] DeepL character quota exceeded for this month.")
+        return None
+    except deepl.DeepLException as e:
+        print(f"  [10.5] DeepL API Error: {e}")
+        return None
+    except Exception as e:
+        print(f"  [10.5] Unexpected error: {e}")
+        return None
 
 
 if __name__ == "__main__":
@@ -649,15 +668,15 @@ if __name__ == "__main__":
 
     # Step 10.1 - 10.5: automated per-provider translation suggestions.
     # Each writes into its own column, keeping the reviewed 'text' column
-    # untouched. The provider calls are commented out for now (placeholders).
-    # Each runs in batches of BATCH (20) strings.
+    # untouched. 10.5 (deepl) is active; the others remain commented out
+    # (placeholders). Each runs in batches of BATCH (20) strings.
     #
     # dict_translated = run_batched_provider(dict_translated, "google", language, translate_google_batch)
     # dict_translated = run_batched_provider(dict_translated, "chatgpt", language, translate_chatgpt_batch)
     # dict_translated = run_batched_provider(dict_translated, "gemini", language, translate_gemini_batch)
     # dict_translated = run_batched_provider(dict_translated, "claude", language, translate_claude_batch)
-    # dict_translated = run_batched_provider(dict_translated, "deepl", language, translate_deepl_batch)
-    # dict_translated.to_csv(filename, index=False)
+    dict_translated = run_batched_provider(dict_translated, "deepl", language, translate_deepl_batch)
+    dict_translated.to_csv(filename, index=False)
 
     # Legacy single-string DeepL helper (replaced by 10.5 batch version above):
     # dict_translated = run_stage_10_2(dict_translated, target_col="deepl", target_lang=language)

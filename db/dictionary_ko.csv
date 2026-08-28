@@ -1,183 +1,183 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08, ,float,False, , , , , , , , 
-pdf_title,한눈에 보는 인류 6000년 역사,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , , 
-pdf_subject,인류의 타임라인,Timeline of human history from 4000 BCE to present,6.01,text,False, , , , , , , , 
+pdf_title,한눈에 보는 인류 6000년 역사,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , ,"6,000년의 인류 역사 — 연표"
+pdf_subject,인류의 타임라인,Timeline of human history from 4000 BCE to present,6.01,text,False, , , , , , , ,기원전 4000년부터 현재까지의 인류 역사 연표
 BCE,기원전,B.C.E.,appendix B9,B9,True, , , , , , , , 
 CE,기원후,C.E., ,B9,False, , , , , , , , 
-month,개월,month, ,text,False, , , , , , , , 
-months,개월,months, ,text,True, , , , , , , , 
-day,낮,day, ,text,False, , , , , , , , 
-days,일,days, ,text,False, , , , , , , , 
-to,～,to, ,text,False, , , , , , , , 
-Deluge,노아의 대홍수,Deluge, ,text,False, , , , , , , , 
-moses2,기원전 1593년~1473년 – 120년,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , , , , 
-temple1,기원전 1513년 니산월~1034년 시브월,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , , , , 
-69weeks,예수께서는 기원 29년 가을에 침례를 받음.,Jesus baptized autumn 29 C.E., ,text,True, , , , , , , , 
-year,년,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True, , , , , , , , 
-years,년,years, ,text,False, , , , , , , , 
-years_age,세,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True, , , , , , , , 
+month,개월,month, ,text,False, , , , , , , ,월
+months,개월,months, ,text,True, , , , , , , ,개월
+day,낮,day, ,text,False, , , , , , , ,날
+days,일,days, ,text,False, , , , , , , ,일
+to,～,to, ,text,False, , , , , , , ,~에
+Deluge,노아의 대홍수,Deluge, ,text,False, , , , , , , ,대홍수
+moses2,기원전 1593년~1473년 – 120년,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , , , ,기원전 1593년 ~ 기원전 1473년 – 120년
+temple1,기원전 1513년 니산월~1034년 시브월,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , , , ,기원전 1513년 니산월부터 기원전 1034년 지브월까지
+69weeks,예수께서는 기원 29년 가을에 침례를 받음.,Jesus baptized autumn 29 C.E., ,text,True, , , , , , , ,예수께서는 서기 29년 가을에 세례를 받으셨습니다.
+year,년,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True, , , , , , , ,년
+years,년,years, ,text,False, , , , , , , ,년
+years_age,세,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True, , , , , , , ,년
 age_kings,세에, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,이스라엘의 광야 생활 기원전 1513년~1473년 – 40년,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , , , , 
-timespan_judges,기원전 1473년~1117년 – 356년,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , , , , 
-timespan_judges2,재판관 시대,Time of the judges, ,text,False, , , , , , , , 
-temple2,성전 건축까지 479년 – 열상 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , , , , 
-69weeks2,메시아가 올 때까지 69주 – 다니엘 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , , , , 
-jesus_service,"예수의 3년 반의 봉사 기간 후, 기원 33년 니산월 14일에 처형되심.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , , , , 
-jesus_life,예수께서는 기원전 2년에 태어나심.,Jesus born 2 B.C.E., ,text,False, , , , , , , , 
-exile,기원전 607년~537년 – 70년(예레미야 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , , , , 
-exile2,유배,Exile, ,text,False, , , , , , , , 
-7times2,"일곱 때 – 메시아 왕국까지 2520년, 기원 1914년(다니엘 4:23)",7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , , , , 
-ww1,제1차 세계 대전 – 1914년~1918년,World War I – 1914–1918, ,text,False, , , , , , , , 
-ww2,제2차 세계 대전 – 1939년~1945년,World War II – 1939–1945, ,text,False, , , , , , , , 
-30_year_war,유럽의 30년 전쟁 1618년~1648년,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , , , , 
-joshua,110년,110 years, ,text,False, , , , , , , , 
-caleb,85년 이상,more than 85 years, ,text,False, , , , , , , , 
-missionary1,"바울의 1차 선교 여행, c. 47년~48년 바나바와 요한 마가와 함께","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , , , , 
-circumcision,"안티오크에서의 할례 문제, 예루살렘 회의 c. 49년","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , , , , 
-missionary2,두 번째 선교 여행 c. 49년~52년 실라(실바누스),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , , , , 
-missionary3,세 번째 선교 여행 c. 52년~56년,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , , , , 
-caesarea,가이사랴에 감금된 바울 c. 56년-58년,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , , , , 
-rome1,바울이 로마에서 첫 번째 투옥됨 c. 59년-61년,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , , , , 
-rome2,"바울이 로마에서 두 번째 투옥됨 c. 65년, 디모데 후서가 기록되고 바울이 처형됨","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , , , , 
-event_exodus,기원전 1513년 니산월 14일 이집트 탈출,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , , , , 
-event_division_kingdom,기원전 997년 이스라엘 분열,Division of Israel 997 BCE, ,text,False, , , , , , , , 
-event_destruction_samaria,기원전 740년 아시리아에 의해 사마리아 멸망,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , , , , 
-event_destruction_jerusalem1,기원전 607년 왕국이 분열된 지 390년 후 바벨론에 의해 예루살렘 멸망(에스겔 4:5),"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , , , , 
-event_temple_rebuilt,기원전 515년 예루살렘 성전 재건,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , , , , 
-event_jerusalem_rebuilt,기원전 455년 예루살렘 성벽 재건,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , , , , 
-event_destruction_jerusalem2,70년 티투스 휘하의 로마에 의해 예루살렘을 멸망,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , , , , 
-event_1914,"1914년 나라들의 때의 끝 (누가 21:24), 하나님의 왕국이 하늘에서의 통치 시작","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , , , , 
-became_king,세에 왕이 됨,becomes king at age,2025-04-14,text,False, , , , , , , , 
-vulgate,제롬의 불가타 완성(성경의 라틴어 번역) c. 405년,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , , , , 
-gutenberg,1455년 구텐베르크 성경 인쇄,Gutenberg Bible printed 1455, ,text,False, , , , , , , , 
-erasmus,1516년 로테르담의 데시데리우스 에라스무스의 그리스도인 그리스어 성경의 그리스어 본문 발행,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , , , , 
-luther,1522년 9월 루터 성경 번역,Luther Bible translation in September 1522, ,text,False, , , , , , , , 
-tyndale,1536년 틴들의 영어 성경 번역,English Bible translation by Tyndale 1536, ,text,False, , , , , , , , 
-king_james,1611년 킹 제임스 성경,King James Bible 1611, ,text,False, , , , , , , , 
-69weeks3,"29년 예수의 봉사 시작 (누가 복음 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , , , , , 
-ransom,그 주의 절반에 “제사를 그침”(다니엘 9:27),Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , , , , , 
-cornelius,36년 고넬료 70주 끝에 침례(다니엘 9:24).,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , , , , , 
-columbus,1492년 아메리카 대륙의 콜럼버스 이전 시대의 끝,End of the pre-columbian period in the Americas 1492, ,text,False, , , , , , , , 
-declaration_independence,1776년 미국 13개 식민지의 독립 선언,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , , , , , 
-tischendorf,1844년 티셴도르프는 4세기의 시나이 책자본 발견,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , , , , , 
-dead_sea_scrolls,사해 두루마리가 기록,Dead Sea Scrolls written, ,text,False, , , , , , , , 
-septuagint,칠십인역 [LXX] 번역,Septuagint LXX translated, ,text,False, , , , , , , , 
-watchtower,1879년 “시온의 파수대와 그리스도의 임재의 전령” 창간호 발행,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , , , , , 
-jehovahs_witnesses,1931년 오하이오주 콜럼버스에서 성경 연구생들은 여호와의 증인이라는 새로운 이름 채택,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , , , , , 
-gilead_school,1943년 2월 1일 월요일 워치타워 길르앗 성서 학교 시작,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , , , , , 
-new_world_translation1,1960년 6월 18일 영국 맨체스터에서 “신세계역 성경” 발표,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , , , , , 
-new_world_translation2,2013년 연례 총회에서 개정판 “신세계역 성경”이 발표,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , , , , , 
-cold_war,1945년~1991년 “냉전”이라는 지정학적 상황,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , , , , , 
-codex_sinaiticus,시나이 책자본 기록,Codex Sinaiticus written, ,text,False, , , , , , , , 
-codex_vaticanus,바티칸 책자본 기록,Codex Vaticanus written, ,text,False, , , , , , , , 
-leningrad_codex,1008년 카이로에서 레닌그라드 책자본 기록,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , , , , , 
-john,기원 96년-98년 요한이 파트모스 섬에 유배되어 있는 동안 “계시록” 기록,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , , , , , 
-buddha,붓다 – 고타마 싯다르타 c. 기원전 563년~483년경,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , , , , , 
-buddha2,대안으로 부처님 c. 기원전 480년~400년,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , , , , , 
-mohammed,모하메드 c. 570년~632년,Mohammed c. 570-632, ,text,False, , , , , , , , 
-confucius,공자 c. 기원전 551년~479년,Confucius c.551-c.479 B.C.E., ,text,False, , , , , , , , 
-hijrah,히즈라 - 메카에서 메디나로의 여행 622년 7월 16일,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , , , , , 
-moses_escape,"기원전 1553년 모세는 애굽에서 탈출 – 출애굽기 2:15, 사도행전 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , , , , , 
-10plagues,기원전 1513년 이집트가 10가지 재앙을 받음,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , , , , , 
-joseph_sold,요셉은 17세에 노예로 팔림 – 창 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , , , , , 
-infliction,"400년 동안의 괴롭힘(행 7:6) – 이스마엘, 기원전 1913년",400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , , , , , 
-Alexander,알렉산더 대왕 (다니엘 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , , , , , 
-persia,"고레스 대왕, 캄비세스 2세, 다리우스 1세(기원전 490년), 크세르크세스 1세(기원전 480년)(에스더의 남편, 다니엘 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , , , , , 
-king_north,"셀레우코스 1세 니카토르(v5) 시리아에서 안티오코스 3세(10절) 및 셀레우코스 4세(18, 19절)에서 옥타비아누스(20절) 및 티베리우스(21-24절)까지","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , , , , , 
-king_north1,북방 왕,King of the North, ,text,False, , , , , , , , 
-king_south,"프톨레마이오스 1세, 2세, 3세, 4세(11, 12절), 5세(15, 16절) - 기원전 31년 악티움 전투","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , , , , , 
-king_south1,남방 왕,King of the South, ,text,False, , , , , , , , 
-king_south2,"1870년 대영 제국, 1914년 이후 영미 세계 강국","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , , , , , 
-king_south3,남방 왕,King of the South, ,text,False, , , , , , , , 
-king_north2,"독일과 빌헬름 1세 1871년(v28), 1914년(v29), 1935년(v30b), 1939년(v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , , , , , 
-king_north3,북,North, ,text,False, , , , , , , , 
-king_north4,"소련 1945-1991 (다니엘 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , , , , 
-king_north5,2017년 이후 러시아 (5월 20일),Russia since 2017 (w20 May), ,text,False, , , , , , , , 
-time_of_end,"그리스도의 임재, 사물의 제도의 종결(마 24:3), 마지막 날(딤후 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , , , , , 
-time_of_end2,마지막 때,Last days, ,text,False, , , , , , , , 
-suryavaman2,수르야바르만 2세 국왕이 앙코르와트 건설 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , , , , , 
-notre-dame,노트르담 드 파리 건축(1163~1260),Notre-Dame de Paris built 1163-1260, ,text,False, , , , , , , , 
-babel,바벨탑 건축,Tower of Babel built, ,text,False, , , , , , , , 
-infliction1,400년의 괴롭힘,400 year infliction,Acts 7:6,text,False, , , , , , , , 
-Lots_wife,롯의 아내,Lot’s wife, ,text,False, , , , , , , , 
-Lots_daughters,롯의 딸들,Daughters of Lot, ,text,False, , , , , , , , 
-Moab,모압(큰 딸),Moab (older daughter),Genesis 19:37,text,False, , , , , , , , 
-rosetta,로제타스톤 기원전 196년,Rosetta stone 196 B.C.E., ,text,False, , , , , , , , 
-Herodotus,"헤로도토스 ㄷ. 484 – 다. 기원전 425년, 『역사』 집필","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , , 
-Aristotle,아리스토텔레스 기원전 384년 – 기원전 322년,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , , 
-Ptolemy,프톨레마이오스 c 100 – c. 기원 170년,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , , 
-Pythagoras,피타고라스 ㄷ. 570 – c. 기원전 495년,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , , 
-Plato,플라톤 ㄷ. 427 – c. 기원전 348년,Plato c. 427 – c. 348 BC, ,text,False, , , , , , , , 
-Socrates,소크라테스 ㄷ. 470 – c. 기원전 399년,Socrates c. 470 – c. 399 BC, ,text,False, , , , , , , , 
-Josephus,요세푸스 ㄷ. 37 – 다. 기원 100년,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , , , , 
-Cicero,키케로 기원전 106-43년,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , , , , 
-lachish_letters,라기스 편지 ㄷ. 기원전 590년,Lachish letters c. 590 B.C.E., ,text,False, , , , , , , , 
-lachish_reliefs,라기스 부조 ㄷ. 기원전 681년,Lachish reliefs c. 681 B.C.E., ,text,False, , , , , , , , 
-mesha_stele,메사비석(모압석) 다. 기원전 840년,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , , , , , 
-gilgamesh,길가메시와 아가 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , , , , 
-epic_gilgamesh,길가메시 서사시(Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , , , , 
-gregorian,그레고리력 1582년,Gregorian calendar 1582, ,text,False, , , , , , , , 
-shang-dynasty,c. 기원전 1600-1046년,c. 1600-1046 BC, ,text,False, , , , , , , , 
-western-zhou,c. 기원전 1046-771년,c. 1046-771 BC, ,text,False, , , , , , , , 
-qin-dynasty,진 기원전 221-207,Qin 221-207 BC, ,text,False, , , , , , , , 
-western-han,기원전 207년 – 서기 9년,207 BC – 9 CE, ,text,False, , , , , , , , 
-three-kingdoms,삼국시대 220-280 CE,Three kingdoms 220-280 CE, ,text,False, , , , , , , , 
-sixteen-kingdoms,16개 왕국 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , , , , , 
+wilderness,이스라엘의 광야 생활 기원전 1513년~1473년 – 40년,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , , , ,"광야에 있던 이스라엘, 기원전 1513년~1473년 – 40년"
+timespan_judges,기원전 1473년~1117년 – 356년,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , , , ,기원전 1473년 ~ 기원전 1117년 – 356년
+timespan_judges2,재판관 시대,Time of the judges, ,text,False, , , , , , , ,판사들의 시대
+temple2,성전 건축까지 479년 – 열상 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , , , ,성전 건축까지 479년 – 열왕기상 6:1
+69weeks2,메시아가 올 때까지 69주 – 다니엘 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , , , ,메시아가 오기까지 69주 – 다니엘서 9:25
+jesus_service,"예수의 3년 반의 봉사 기간 후, 기원 33년 니산월 14일에 처형되심.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , , , ,"3.5년간의 예수 사역, 서기 33년 니산월 14일에 처형되심."
+jesus_life,예수께서는 기원전 2년에 태어나심.,Jesus born 2 B.C.E., ,text,False, , , , , , , ,기원전 2년에 태어난 예수
+exile,기원전 607년~537년 – 70년(예레미야 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , , , ,기원전 607년~537년 – 70년 (예레미야 25:11)
+exile2,유배,Exile, ,text,False, , , , , , , ,추방
+7times2,"일곱 때 – 메시아 왕국까지 2520년, 기원 1914년(다니엘 4:23)",7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , , , ,7배 – 서기 1914년 메시아 왕국까지 2520년 (다니엘 4:23)
+ww1,제1차 세계 대전 – 1914년~1918년,World War I – 1914–1918, ,text,False, , , , , , , ,제1차 세계 대전 – 1914–1918
+ww2,제2차 세계 대전 – 1939년~1945년,World War II – 1939–1945, ,text,False, , , , , , , ,제2차 세계 대전 – 1939–1945
+30_year_war,유럽의 30년 전쟁 1618년~1648년,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , , , ,유럽의 30년 전쟁 (1618–1648)
+joshua,110년,110 years, ,text,False, , , , , , , ,110년
+caleb,85년 이상,more than 85 years, ,text,False, , , , , , , ,85년 이상
+missionary1,"바울의 1차 선교 여행, c. 47년~48년 바나바와 요한 마가와 함께","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , , , ,"바나바와 요한 마가와 함께한 바울의 첫 번째 선교 여행, 서기 47~48년경"
+circumcision,"안티오크에서의 할례 문제, 예루살렘 회의 c. 49년","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , , , ,"안티오크의 할례 문제, 서기 49년경 예루살렘에서 열린 회의"
+missionary2,두 번째 선교 여행 c. 49년~52년 실라(실바누스),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , , , ,"서기 49~52년경, 실라(실바누스)와 함께한 두 번째 선교 여행"
+missionary3,세 번째 선교 여행 c. 52년~56년,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , , , ,제3차 선교 여행 (기원후 52~56년경)
+caesarea,가이사랴에 감금된 바울 c. 56년-58년,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , , , ,"기원후 56~58년경, 가이사랴에서 구금된 바울"
+rome1,바울이 로마에서 첫 번째 투옥됨 c. 59년-61년,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , , , ,"기원후 59~61년경, 로마에서 바울이 처음으로 투옥된 시기"
+rome2,"바울이 로마에서 두 번째 투옥됨 c. 65년, 디모데 후서가 기록되고 바울이 처형됨","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , , , ,"기원후 65년경, 바울이 로마에서 두 번째로 투옥됨, 『디모데후서』 집필, 바울 처형"
+event_exodus,기원전 1513년 니산월 14일 이집트 탈출,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , , , ,"기원전 1513년 니산월 14일, 이집트 탈출"
+event_division_kingdom,기원전 997년 이스라엘 분열,Division of Israel 997 BCE, ,text,False, , , , , , , ,기원전 997년 이스라엘의 분열
+event_destruction_samaria,기원전 740년 아시리아에 의해 사마리아 멸망,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , , , ,"기원전 740년, 아시리아에 의한 사마리아의 멸망"
+event_destruction_jerusalem1,기원전 607년 왕국이 분열된 지 390년 후 바벨론에 의해 예루살렘 멸망(에스겔 4:5),"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , , , ,"왕국이 분열된 지 390년 후인 기원전 607년, 바빌론에 의해 예루살렘이 파괴됨 (에스겔 4:5)"
+event_temple_rebuilt,기원전 515년 예루살렘 성전 재건,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , , , ,기원전 515년에 예루살렘 성전이 재건되었다.
+event_jerusalem_rebuilt,기원전 455년 예루살렘 성벽 재건,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , , , ,기원전 455년에 예루살렘 성벽이 재건되었다.
+event_destruction_jerusalem2,70년 티투스 휘하의 로마에 의해 예루살렘을 멸망,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , , , ,"서기 70년, 티투스가 이끄는 로마군에 의한 예루살렘의 파괴"
+event_1914,"1914년 나라들의 때의 끝 (누가 21:24), 하나님의 왕국이 하늘에서의 통치 시작","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , , , ,"이방인의 시대가 끝나고(누가복음 21:24), 서기 1914년에 하늘에서 하나님의 왕국이 통치하기 시작합니다."
+became_king,세에 왕이 됨,becomes king at age,2025-04-14,text,False, , , , , , , ,세 살에 왕이 된다
+vulgate,제롬의 불가타 완성(성경의 라틴어 번역) c. 405년,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , , , ,제롬이 서기 405년경에 완성한 불가타(성경의 라틴어 번역본).
+gutenberg,1455년 구텐베르크 성경 인쇄,Gutenberg Bible printed 1455, ,text,False, , , , , , , ,1455년에 인쇄된 구텐베르크 성경
+erasmus,1516년 로테르담의 데시데리우스 에라스무스의 그리스도인 그리스어 성경의 그리스어 본문 발행,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , , , ,1516년 로테르담의 데시데리우스 에라스무스가 출판한 『그리스도교 그리스어 성경』의 그리스어 본문
+luther,1522년 9월 루터 성경 번역,Luther Bible translation in September 1522, ,text,False, , , , , , , ,1522년 9월의 루터 성경 번역
+tyndale,1536년 틴들의 영어 성경 번역,English Bible translation by Tyndale 1536, ,text,False, , , , , , , ,1536년 틴데일이 번역한 영어 성경
+king_james,1611년 킹 제임스 성경,King James Bible 1611, ,text,False, , , , , , , ,1611년판 킹 제임스 성경
+69weeks3,"29년 예수의 봉사 시작 (누가 복음 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , , , , ,"예수께서는 서기 29년에 사역을 시작하셨습니다 (누가복음 3:1, 21)"
+ransom,그 주의 절반에 “제사를 그침”(다니엘 9:27),Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , , , , ,주중 “제사가 중단되리라” 다니엘서 9:27
+cornelius,36년 고넬료 70주 끝에 침례(다니엘 9:24).,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , , , , ,"코넬리우스는 서기 36년, 70주(다니엘 9:24)가 끝날 무렵 세례를 받았다."
+columbus,1492년 아메리카 대륙의 콜럼버스 이전 시대의 끝,End of the pre-columbian period in the Americas 1492, ,text,False, , , , , , , ,"아메리카 대륙의 콜럼버스 이전 시대의 종말, 1492년"
+declaration_independence,1776년 미국 13개 식민지의 독립 선언,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , , , , ,1776년 미국 13개 식민지의 독립 선언
+tischendorf,1844년 티셴도르프는 4세기의 시나이 책자본 발견,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , , , , ,티셴도르프는 1844년에 4세기에 작성된 시나이 사본을 발견했다.
+dead_sea_scrolls,사해 두루마리가 기록,Dead Sea Scrolls written, ,text,False, , , , , , , ,사해 두루마리 작성
+septuagint,칠십인역 [LXX] 번역,Septuagint LXX translated, ,text,False, , , , , , , ,70인역(LXX)에서 번역한
+watchtower,1879년 “시온의 파수대와 그리스도의 임재의 전령” 창간호 발행,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , , , , ,1879년에 『시온의 파수대 및 그리스도의 임재의 전령』 제1호가 발간되었다.
+jehovahs_witnesses,1931년 오하이오주 콜럼버스에서 성경 연구생들은 여호와의 증인이라는 새로운 이름 채택,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , , , , ,"1931년 오하이오주 콜럼버스에서 성경 연구자들이 ‘여호와의 증인’(이사야 43:10, 12)이라는 새로운 이름을 채택했다."
+gilead_school,1943년 2월 1일 월요일 워치타워 길르앗 성서 학교 시작,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , , , , ,길르앗 파수대 성경 학교가 1943년 2월 1일 월요일에 개강한다
+new_world_translation1,1960년 6월 18일 영국 맨체스터에서 “신세계역 성경” 발표,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , , , , ,1960년 6월 18일 영국 맨체스터에서 발간된 『성경의 신세계역』은 성경의 여러 부분에서 ‘여호와’라는 이름을 다시 도입하고 있다.
+new_world_translation2,2013년 연례 총회에서 개정판 “신세계역 성경”이 발표,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , , , , ,"2013년 연차 총회에서 개정판 『성경의 신세계역』이 발간되었으며, 디지털 및 온라인 사용에 최적화되어 있다."
+cold_war,1945년~1991년 “냉전”이라는 지정학적 상황,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , , , , ,1945년부터 1991년까지 ‘냉전’으로 불린 지정학적 상황
+codex_sinaiticus,시나이 책자본 기록,Codex Sinaiticus written, ,text,False, , , , , , , ,시나이 사본의 작성
+codex_vaticanus,바티칸 책자본 기록,Codex Vaticanus written, ,text,False, , , , , , , ,바티칸 사본의 작성
+leningrad_codex,1008년 카이로에서 레닌그라드 책자본 기록,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , , , , ,서기 1008년 카이로에서 쓰인 ‘레닌그라드 코덱스’
+john,기원 96년-98년 요한이 파트모스 섬에 유배되어 있는 동안 “계시록” 기록,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , , , , ,요한은 서기 96~98년경 파트모스 섬에 유배되어 있는 동안 『요한계시록』을 썼다.
+buddha,붓다 – 고타마 싯다르타 c. 기원전 563년~483년경,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , , , , ,부처님 – 싯다르타 고타마 (기원전 563년경~기원전 483년경)
+buddha2,대안으로 부처님 c. 기원전 480년~400년,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , , , , ,부처님: 기원전 480년경~400년경 (추정)
+mohammed,모하메드 c. 570년~632년,Mohammed c. 570-632, ,text,False, , , , , , , ,"무함마드, 약 570–632년"
+confucius,공자 c. 기원전 551년~479년,Confucius c.551-c.479 B.C.E., ,text,False, , , , , , , ,공자 (기원전 551년경~기원전 479년경)
+hijrah,히즈라 - 메카에서 메디나로의 여행 622년 7월 16일,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , , , , ,"히즈라 - 메카에서 메디나로의 여정, 622년 7월 16일"
+moses_escape,"기원전 1553년 모세는 애굽에서 탈출 – 출애굽기 2:15, 사도행전 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , , , , ,"기원전 1553년, 모세는 이집트를 탈출해야만 했다 – 출애굽기 2:15, 사도행전 7:23"
+10plagues,기원전 1513년 이집트가 10가지 재앙을 받음,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , , , , ,"기원전 1513년, 이집트에 10가지 재앙이 닥치다"
+joseph_sold,요셉은 17세에 노예로 팔림 – 창 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , , , , ,요셉은 17세에 노예로 팔렸다 – 창세기 37:2
+infliction,"400년 동안의 괴롭힘(행 7:6) – 이스마엘, 기원전 1913년",400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , , , , ,"400년간의 고난 (사도행전 7:6) – 이스마엘, 기원전 1913년"
+Alexander,알렉산더 대왕 (다니엘 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , , , , ,알렉산더 대왕 (다니엘서 11:3)
+persia,"고레스 대왕, 캄비세스 2세, 다리우스 1세(기원전 490년), 크세르크세스 1세(기원전 480년)(에스더의 남편, 다니엘 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , , , , ,"키루스 대왕, 캄비세스 2세, 다리우스 1세 (기원전 490년), 크세르크세스 1세 (기원전 480년, 에스더의 남편, 다니엘서 11:2)"
+king_north,"셀레우코스 1세 니카토르(v5) 시리아에서 안티오코스 3세(10절) 및 셀레우코스 4세(18, 19절)에서 옥타비아누스(20절) 및 티베리우스(21-24절)까지","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , , , , ,"셀레우코스 1세 니카토르(v5) 시리아에서 안티오코스 3세(v10)와 셀레우코스 4세(v18, 19)를 거쳐 옥타비아누스(v20)와 티베리우스(v21-24)에 이르기까지"
+king_north1,북방 왕,King of the North, ,text,False, , , , , , , ,북부의 왕
+king_south,"프톨레마이오스 1세, 2세, 3세, 4세(11, 12절), 5세(15, 16절) - 기원전 31년 악티움 전투","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , , , , ,"프톨레마이오스 1세, 2세, 3세, 4세(v11, 12), 5세(v15, 16)부터 기원전 31년 악티움 해전까지."
+king_south1,남방 왕,King of the South, ,text,False, , , , , , , ,남방의 왕
+king_south2,"1870년 대영 제국, 1914년 이후 영미 세계 강국","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , , , , ,"1870년 대영제국, 1914년 이후의 영미 세계 강대국"
+king_south3,남방 왕,King of the South, ,text,False, , , , , , , ,남방의 왕
+king_north2,"독일과 빌헬름 1세 1871년(v28), 1914년(v29), 1935년(v30b), 1939년(v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , , , , ,"빌헬름 1세 황제가 통치하던 독일: 1871년 (v28), 1914년 (v29), 1935년 (v30b), 1939년 (v31a)"
+king_north3,북,North, ,text,False, , , , , , , ,북쪽
+king_north4,"소련 1945-1991 (다니엘 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , , , ,"소련 1945-1991 (다니엘 11:32-39, 40b, 41)"
+king_north5,2017년 이후 러시아 (5월 20일),Russia since 2017 (w20 May), ,text,False, , , , , , , ,2017년 이후 러시아 (5월 20일 기준)
+time_of_end,"그리스도의 임재, 사물의 제도의 종결(마 24:3), 마지막 날(딤후 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , , , , ,"그리스도의 임재, 현 세상의 종말 (마태복음 24:3), 마지막 날들 (디모데후서 3:1)"
+time_of_end2,마지막 때,Last days, ,text,False, , , , , , , ,지난 며칠
+suryavaman2,수르야바르만 2세 국왕이 앙코르와트 건설 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , , , , ,수리야바르만 2세 왕이 1113년부터 1150년까지 앙코르 와트를 건설했다.
+notre-dame,노트르담 드 파리 건축(1163~1260),Notre-Dame de Paris built 1163-1260, ,text,False, , , , , , , ,1163년부터 1260년까지 지어진 파리 노트르담 대성당
+babel,바벨탑 건축,Tower of Babel built, ,text,False, , , , , , , ,바벨탑이 세워졌다
+infliction1,400년의 괴롭힘,400 year infliction,Acts 7:6,text,False, , , , , , , ,400년에 걸친 고통
+Lots_wife,롯의 아내,Lot’s wife, ,text,False, , , , , , , ,롯의 아내
+Lots_daughters,롯의 딸들,Daughters of Lot, ,text,False, , , , , , , ,롯의 딸들
+Moab,모압(큰 딸),Moab (older daughter),Genesis 19:37,text,False, , , , , , , ,모압 (큰딸)
+rosetta,로제타스톤 기원전 196년,Rosetta stone 196 B.C.E., ,text,False, , , , , , , ,"로제타 석, 기원전 196년"
+Herodotus,"헤로도토스 ㄷ. 484 – 다. 기원전 425년, 『역사』 집필","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , ,헤로도토스(기원전 484년경 ~ 기원전 425년경)는 『역사』를 저술했다.
+Aristotle,아리스토텔레스 기원전 384년 – 기원전 322년,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , ,아리스토텔레스 기원전 384년 – 322년
+Ptolemy,프톨레마이오스 c 100 – c. 기원 170년,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , ,"프톨레마이오스, 서기 100년경 – 170년경"
+Pythagoras,피타고라스 ㄷ. 570 – c. 기원전 495년,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , ,"피타고라스, 기원전 570년경 ~ 기원전 495년경"
+Plato,플라톤 ㄷ. 427 – c. 기원전 348년,Plato c. 427 – c. 348 BC, ,text,False, , , , , , , ,"플라톤, 기원전 427년경 ~ 기원전 348년경"
+Socrates,소크라테스 ㄷ. 470 – c. 기원전 399년,Socrates c. 470 – c. 399 BC, ,text,False, , , , , , , ,"소크라테스, 기원전 470년경 – 기원전 399년경"
+Josephus,요세푸스 ㄷ. 37 – 다. 기원 100년,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , , , ,"요세푸스, 서기 37년경 – 서기 100년경"
+Cicero,키케로 기원전 106-43년,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , , , ,키케로 기원전 106–43년
+lachish_letters,라기스 편지 ㄷ. 기원전 590년,Lachish letters c. 590 B.C.E., ,text,False, , , , , , , ,기원전 590년경의 라키시 서신
+lachish_reliefs,라기스 부조 ㄷ. 기원전 681년,Lachish reliefs c. 681 B.C.E., ,text,False, , , , , , , ,기원전 681년경의 라키쉬 부조
+mesha_stele,메사비석(모압석) 다. 기원전 840년,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , , , , ,"메샤 비석 (모압 비석), 기원전 840년경"
+gilgamesh,길가메시와 아가 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , , , ,길가메시와 아가 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,길가메시 서사시(Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , , , ,길가메시 서사시 (신-레키-운니니)
+gregorian,그레고리력 1582년,Gregorian calendar 1582, ,text,False, , , , , , , ,그레고리력 1582년
+shang-dynasty,c. 기원전 1600-1046년,c. 1600-1046 BC, ,text,False, , , , , , , ,기원전 1600년경–1046년
+western-zhou,c. 기원전 1046-771년,c. 1046-771 BC, ,text,False, , , , , , , ,기원전 1046년경–771년경
+qin-dynasty,진 기원전 221-207,Qin 221-207 BC, ,text,False, , , , , , , ,진나라 (기원전 221~207년)
+western-han,기원전 207년 – 서기 9년,207 BC – 9 CE, ,text,False, , , , , , , ,기원전 207년 – 기원후 9년
+three-kingdoms,삼국시대 220-280 CE,Three kingdoms 220-280 CE, ,text,False, , , , , , , ,삼국시대 (서기 220~280년)
+sixteen-kingdoms,16개 왕국 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , , , , ,"16개국, 서기 304–439년"
 tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , , , , 
-wu-zhou,690-705 우저우,690-705 Wu Zhou, ,text,False, , , , , , , , 
-tang-dynasty1_c,당나라,Tang, ,text,False, , , , , , , , 
-gonghe,공허섭정(기원전 841-828년),Gonghe Regency 841-828 BC, ,text,False, , , , , , , , 
-Ashoka,아쇼카(기원전 304-232년경)는 불교를 장려했습니다.,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , , , , 
-siloam-tunnel,히스기야가 실로암 터널을 확장하다,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , , , , 
-Angloamerica2,"영미권은 다니엘 2:33, 41-43의 예언에서 진흙과 철이 섞인 발로 상징됩니다.","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , , , , 
-Manetho,마네토는 아이귑티카 를 쓴다,Manetho writes Aegyptiaca, ,text,False, , , , , , , , 
-destruction_babylon,"큰 바빌론의 멸망 (계시 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , , , , 
-peace_security,"“평화와 안전!” (데살로니가전서 5:3, 이것이 하나의 가능성입니다, 독자 Q 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , , , , 
-gog_of_magog,"마곡의 곡의 공격 (에스겔 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , , , , 
-sheep_goat,땅의 주민들이 양과 염소를 분리하여 심판을 받을 것입니다(마태복음 25:31-33).,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , , , , 
-annointed,왕국 통치자들의 집합 (마태복음 24:31; 고린도전서 15:50-53; 데살로니가전서 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , , , , 
-armageddon,"아마겟돈 전쟁 (요한계시록 16:14, 16; 이사야 13:9; 베드로후서 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , , , , 
-millenium,"하느님의 왕국이 1000년 통치를 시작합니다 (계시 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , , , , 
-great_crowd,"큰 무리가 아마겟돈을 살아남습니다 (계시 7:9, 14; 시 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , , , , 
-world_population,지난 2000년간 수십억의 세계 인구,World population in billions in the last 2000 years, ,text,False, , , , , , , , 
-khmer_empire_c,크메르 제국 - 앙코르 시대,Khmer Empire - Angkor period, ,text,False, , , , , , , , 
-holy_roman_empire_c,신성 로마 제국 – 1512년 이후 독일 국가의 신성 로마 제국,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , , , , 
-mongol_empire,몽골 제국 1206년 – 1294년,Mongol Empire 1206 – 1294, ,text,False, , , , , , , , 
-maya_classic_c,마야 문명 – 고전 시대,Maya civilization – Classic period, ,text,False, , , , , , , , 
-maya_postclassic_c,마야 문명 - 고전 이후 시대,Maya civilization – Postclassic period, ,text,False, , , , , , , , 
-Teotihuacan,"아메리카 대륙에서 가장 큰 도시, 피라미드 건설 c. 기원 200년","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , , , , 
-Dionysius_Exiguus,Anno Domini의 발명가인 Dionysius Exiguus,"Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , , , , 
-Umayyad_c,우마이야,Umayyad, ,text,False, , , , , , , , 
-ur3,우르 3왕조 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , , , , 
-hammurabi,함무라비 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , , , , 
-Al-Khwarizmi,al-Khwarizmi는 Al-Jabr(대수학)을 씁니다.,al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , , 
-al-azhar,Al-Azhar University가 카이로에 설립됨,Al-Azhar University is established in Cairo, ,text,False, , , , , , , , 
-Ibn-Sina,이븐 시나 또는 아비센나,Ibn Sina or Avicenna, ,text,False, , , , , , , , 
-life-expectancy,기대 수명 75 년,Life expectancy 75 years, ,text,False, , , , , , , , 
-430years_c,"430 년 : 출애굽기 12:41, 갈라디아서 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , , 
-maya_calendar,Maya Calendar의 시작 계산 기원전 8 월 11 일 기원전.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , , 
-xia-dynasty2,"기음. 2070 - c. 기원전 1600 년, 서부 Zhou 기간 동안 가장 초기의 언급",c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , , , , 
-xia-dynasty2_c,중국의 Xia 왕조,Xia dynasty in China, ,text,False, , , , , , , , 
-tres_zapotes,"9 월 3 일, 기원전 32 년","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , , , , 
-joseph_jacob_reunited,조셉과 야곱은 이집트에서 재결합했다 - 1728 년 기원전. (창 45:11; 47 : 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , , , , 
-king_south_light_c,다니엘 11 장에서 남쪽 왕,King of the South from Daniel 11,2025-02-05,text,False, , , , , , , , 
-king_north_light_c,다니엘 11에서 북쪽 왕,King of the North from Daniel 11,2025-02-05,text,False, , , , , , , , 
-daniel2_iron_c,다니엘 2의 철 다리,Iron legs from Daniel 2,2025-02-05,text,False, , , , , , , , 
-argenteus,코덱스 아르겐테우스 c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , , , , 
-nguyen_dynasty_c,응우옌,Nguyễn,2025-09-20,text,False, , , , , , , , 
-edo_c,일본의 에도 시대,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , , , , , 
-meiji_c,메이지,Meiji,2025-09-20,text,False, , , , , , , , 
-american_civil_war,미국 남북전쟁 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , , , , , 
-aleppo_codex,알레포 코덱스 c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , , , , , 
-vandals,반달족과 알란족의 왕국(기원 435년 – 534년),Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , , , , , 
-francia,"기음. 481/509 – 843 C.E., 메로빙거 왕조는 751년까지, 이후 카롤링거 왕조","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , , , , , 
-francia_c,프랑크 왕국,Kingdom of the Franks, ,text,False, , , , , , , , 
-100_years_war,백년전쟁 1337년 – 1453년,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , , , , 
-black_death,흑사병 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , , , , , 
-sui_dynasty,581-618 수나라,581-618 Sui dynasty,2025-11-09,text,True, , , , , , , , 
-sui_dynasty_c,수나라,Sui,2025-11-09,text,True, , , , , , , , 
-tribulation,"큰 환난 (마가복음 13:19; 다니엘 12:1; 마 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , , , , , 
-timeline_created,"이 타임라인은 인류 역사상, 그리고 지난 12만 5천 년 중 가장 더운 해인 2023년에 작성되었습니다.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , , , , , 
+wu-zhou,690-705 우저우,690-705 Wu Zhou, ,text,False, , , , , , , ,690-705 우저우
+tang-dynasty1_c,당나라,Tang, ,text,False, , , , , , , ,탕
+gonghe,공허섭정(기원전 841-828년),Gonghe Regency 841-828 BC, ,text,False, , , , , , , ,"공허 현, 기원전 841~828년"
+Ashoka,아쇼카(기원전 304-232년경)는 불교를 장려했습니다.,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , , , ,아쇼카(기원전 304년경~232년경)는 불교를 장려했다
+siloam-tunnel,히스기야가 실로암 터널을 확장하다,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , , , ,히스기야가 실로암 터널을 확장하다
+Angloamerica2,"영미권은 다니엘 2:33, 41-43의 예언에서 진흙과 철이 섞인 발로 상징됩니다.","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , , , ,"앵글로-아메리칸은 다니엘서 2장 33절, 41-43절의 예언에 나오는 ‘진흙이 섞인 철 다리’로 상징됩니다."
+Manetho,마네토는 아이귑티카 를 쓴다,Manetho writes Aegyptiaca, ,text,False, , , , , , , ,마네토는 『에집티아카』를 집필했다
+destruction_babylon,"큰 바빌론의 멸망 (계시 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , , , ,"큰 바빌론의 멸망 (요한계시록 17:3, 15-18; 18:9, 10)"
+peace_security,"“평화와 안전!” (데살로니가전서 5:3, 이것이 하나의 가능성입니다, 독자 Q 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , , , ,"“평화와 안전!” (데살로니가전서 5:3, 이는 한 가지 가능성임, QfR 26/2, 25/11)"
+gog_of_magog,"마곡의 곡의 공격 (에스겔 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , , , ,"마곡의 고그의 침공 (에스겔 38:1, 2, 9-12, 18-23)"
+sheep_goat,땅의 주민들이 양과 염소를 분리하여 심판을 받을 것입니다(마태복음 25:31-33).,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , , , ,지상의 모든 사람이 심판을 받아 양과 염소가 가려진다 (마태복음 25:31-33)
+annointed,왕국 통치자들의 집합 (마태복음 24:31; 고린도전서 15:50-53; 데살로니가전서 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , , , ,왕국의 통치자들이 모이는 자리 (마태복음 24:31; 고린도전서 15:50-53; 데살로니가전서 4:15-17)
+armageddon,"아마겟돈 전쟁 (요한계시록 16:14, 16; 이사야 13:9; 베드로후서 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , , , ,"아마겟돈 전투 (요한계시록 16:14, 16; 이사야 13:9; 베드로후서 3:12)"
+millenium,"하느님의 왕국이 1000년 통치를 시작합니다 (계시 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , , , ,"하나님의 왕국이 1,000년 동안의 통치를 시작한다 (요한계시록 5:9, 10; 20:4, 6)"
+great_crowd,"큰 무리가 아마겟돈을 살아남습니다 (계시 7:9, 14; 시 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , , , ,"수많은 무리가 아마겟돈에서 살아남는다 (요한계시록 7:9, 14; 시편 37:9-11)"
+world_population,지난 2000년간 수십억의 세계 인구,World population in billions in the last 2000 years, ,text,False, , , , , , , ,지난 2000년 동안의 세계 인구(십억 단위)
+khmer_empire_c,크메르 제국 - 앙코르 시대,Khmer Empire - Angkor period, ,text,False, , , , , , , ,크메르 제국 - 앙코르 시대
+holy_roman_empire_c,신성 로마 제국 – 1512년 이후 독일 국가의 신성 로마 제국,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , , , ,신성 로마 제국 – 1512년 이후 ‘독일 민족의 신성 로마 제국’으로 불림
+mongol_empire,몽골 제국 1206년 – 1294년,Mongol Empire 1206 – 1294, ,text,False, , , , , , , ,몽골 제국 1206년 – 1294년
+maya_classic_c,마야 문명 – 고전 시대,Maya civilization – Classic period, ,text,False, , , , , , , ,마야 문명 – 고전기
+maya_postclassic_c,마야 문명 - 고전 이후 시대,Maya civilization – Postclassic period, ,text,False, , , , , , , ,마야 문명 – 후기 고전기
+Teotihuacan,"아메리카 대륙에서 가장 큰 도시, 피라미드 건설 c. 기원 200년","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , , , ,"아메리카 대륙에서 가장 큰 도시로, 피라미드는 서기 200년경에 지어졌다."
+Dionysius_Exiguus,Anno Domini의 발명가인 Dionysius Exiguus,"Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , , , ,"디오니시우스 엑시구스, 서기(Anno Domini) 연호 체계를 고안한 인물"
+Umayyad_c,우마이야,Umayyad, ,text,False, , , , , , , ,우마이야 왕조
+ur3,우르 3왕조 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , , , ,우르 3세 왕조 𒋀𒀕𒆠
+hammurabi,함무라비 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , , , ,함무라비 𒄩𒄠𒈬𒊏𒁉
+Al-Khwarizmi,al-Khwarizmi는 Al-Jabr(대수학)을 씁니다.,al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , ,알-크와리즈미는 『알-자브르』(대수학)를 저술했다.
+al-azhar,Al-Azhar University가 카이로에 설립됨,Al-Azhar University is established in Cairo, ,text,False, , , , , , , ,알-아즈하르 대학교가 카이로에 설립되었다
+Ibn-Sina,이븐 시나 또는 아비센나,Ibn Sina or Avicenna, ,text,False, , , , , , , ,이븐 시나 또는 아비센나
+life-expectancy,기대 수명 75 년,Life expectancy 75 years, ,text,False, , , , , , , ,평균 수명 75세
+430years_c,"430 년 : 출애굽기 12:41, 갈라디아서 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , ,"430년: 출애굽기 12:41, 갈라디아서 3:17"
+maya_calendar,Maya Calendar의 시작 계산 기원전 8 월 11 일 기원전.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , ,마야 달력의 시작일은 기원전 3114년 8월 11일로 추산됩니다.
+xia-dynasty2,"기음. 2070 - c. 기원전 1600 년, 서부 Zhou 기간 동안 가장 초기의 언급",c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , , , ,기원전 2070년경 – 기원전 1600년경; 서주 시대에 처음으로 언급된 시대
+xia-dynasty2_c,중국의 Xia 왕조,Xia dynasty in China, ,text,False, , , , , , , ,중국의 하 왕조
+tres_zapotes,"9 월 3 일, 기원전 32 년","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , , , ,기원전 32년 9월 3일
+joseph_jacob_reunited,조셉과 야곱은 이집트에서 재결합했다 - 1728 년 기원전. (창 45:11; 47 : 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , , , ,요셉과 야곱이 이집트에서 재회했다 – 기원전 1728년 (창세기 45:11; 47:9)
+king_south_light_c,다니엘 11 장에서 남쪽 왕,King of the South from Daniel 11,2025-02-05,text,False, , , , , , , ,다니엘서 11장에 나오는 ‘남방의 왕’
+king_north_light_c,다니엘 11에서 북쪽 왕,King of the North from Daniel 11,2025-02-05,text,False, , , , , , , ,다니엘서 11장에 나오는 ‘북방 왕’
+daniel2_iron_c,다니엘 2의 철 다리,Iron legs from Daniel 2,2025-02-05,text,False, , , , , , , ,다니엘서 2장에 나오는 철 다리
+argenteus,코덱스 아르겐테우스 c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , , , ,"『코덱스 아르겐테우스』, 약 505년"
+nguyen_dynasty_c,응우옌,Nguyễn,2025-09-20,text,False, , , , , , , ,응우옌
+edo_c,일본의 에도 시대,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , , , , ,일본의 에도 시대
+meiji_c,메이지,Meiji,2025-09-20,text,False, , , , , , , ,메이지
+american_civil_war,미국 남북전쟁 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , , , , ,미국 남북전쟁 1861-1865
+aleppo_codex,알레포 코덱스 c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , , , , ,"알레포 사본, 약 920년"
+vandals,반달족과 알란족의 왕국(기원 435년 – 534년),Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , , , , ,반달족과 알란족 왕국 435–534
+francia,"기음. 481/509 – 843 C.E., 메로빙거 왕조는 751년까지, 이후 카롤링거 왕조","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , , , , ,"기원전 481/509년경 – 843년, 751년까지는 메로빙거 왕조, 그 후 카롤링거 왕조"
+francia_c,프랑크 왕국,Kingdom of the Franks, ,text,False, , , , , , , ,프랑크 왕국
+100_years_war,백년전쟁 1337년 – 1453년,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , , , ,백년 전쟁 1337–1453
+black_death,흑사병 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , , , , ,흑사병 1346–1353
+sui_dynasty,581-618 수나라,581-618 Sui dynasty,2025-11-09,text,True, , , , , , , ,581–618 수나라
+sui_dynasty_c,수나라,Sui,2025-11-09,text,True, , , , , , , ,수이
+tribulation,"큰 환난 (마가복음 13:19; 다니엘 12:1; 마 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , , , , ,"대환난 (마가복음 13:19; 다니엘서 12:1; 마태복음 24:21, 22)"
+timeline_created,"이 타임라인은 인류 역사상, 그리고 지난 12만 5천 년 중 가장 더운 해인 2023년에 작성되었습니다.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , , , , ,"이 연표는 인류 역사상, 그리고 지난 12만 5천 년 동안 가장 더웠던 해인 2023년에 작성되었습니다."
 Adam,아담,Adam,Luke 3:38,bible,True, , , , , , , , 
 Seth,셋,Seth, ,bible,True, , , , , , , , 
 Enosh,에노스,Enosh, ,bible,True, , , , , , , , 
