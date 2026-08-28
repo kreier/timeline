@@ -1,183 +1,183 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08,5.9,float,True, , , , , , , , 
-pdf_title,6000 років людська історія візуалізована,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , ,6 000 років історії людства — хронологія
-pdf_subject,Графік людства,Timeline of human history from 4000 BCE to present,5.9,text,False, , , , , , , ,Хронологія історії людства від 4000 р. до н. е. до сьогодення
+pdf_title,6000 років людська історія візуалізована,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6 000 років людської історії — Хронологія, , ,6 000 років історії людства — хронологія
+pdf_subject,Графік людства,Timeline of human history from 4000 BCE to present,5.9,text,False, , , , ,Хронологія людської історії від 4000 р. до н. е. до сьогодення, , ,Хронологія історії людства від 4000 р. до н. е. до сьогодення
 BCE,до н. е.,B.C.E.,appendix B9,B9,True, , , , , , , , 
 CE,н. е.,C.E., ,B9,True, , , , , , , , 
-month,місяць,month, ,text,True, , , , , , , ,місяць
-months,місяці,months, ,text,True, , , , , , , ,місяці
-day,день,day, ,text,True, , , , , , , ,день
-days,дні,days, ,text,True, , , , , , , ,днів
-to,до,to, ,text,True, , , , , , , ,до
-Deluge,Зливати,Deluge, ,text,False, , , , , , , ,Потоп
-moses2,1593 по 1473 р. до н. е. - 120 років,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , , , ,1593–1473 рр. до н. е. — 120 років
-temple1,Nisan 1513 до н. е.. до ZIV 1034 до н. е.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , , , ,Від 1513 року до н. е. (місяць Нісан) до 1034 року до н. е. (місяць Зів)
-69weeks,Ісус охрестив осінь 29 н. е.,Jesus baptized autumn 29 C.E., ,text,False, , , , , , , ,Ісус прийняв хрещення восени 29 року н. е.
-year,рік,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True, , , , , , , ,рік
-years,роки,years, ,text,True, , , , , , , ,роки
-years_age,роки,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True, , , , , , , ,роки
+month,місяць,month, ,text,True, , , , ,місяць, , ,місяць
+months,місяці,months, ,text,True, , , , ,місяці, , ,місяці
+day,день,day, ,text,True, , , , ,день, , ,день
+days,дні,days, ,text,True, , , , ,дні, , ,днів
+to,до,to, ,text,True, , , , ,до, , ,до
+Deluge,Зливати,Deluge, ,text,False, , , , ,Всесвітній потоп, , ,Потоп
+moses2,1593 по 1473 р. до н. е. - 120 років,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,1593 по 1473 р. до н. е. – 120 років, , ,1593–1473 рр. до н. е. — 120 років
+temple1,Nisan 1513 до н. е.. до ZIV 1034 до н. е.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,Нісан 1513 р. до н. е. по Зів 1034 р. до н. е., , ,Від 1513 року до н. е. (місяць Нісан) до 1034 року до н. е. (місяць Зів)
+69weeks,Ісус охрестив осінь 29 н. е.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,Ісус хрещений восени 29 р. н. е., , ,Ісус прийняв хрещення восени 29 року н. е.
+year,рік,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True, , , , ,рік, , ,рік
+years,роки,years, ,text,True, , , , ,роки, , ,роки
+years_age,роки,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True, , , , ,роки, , ,роки
 age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,True, , , , , , , , 
-wilderness,Ізраїль у пустелі 1513 по 1473 рр. до н. е. - 40 років,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , , , ,Ізраїль у пустелі з 1513 до 1473 рр. до н. е. — 40 років
-timespan_judges,1473 по 1117 рр. до н. е. - 356 років,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , , , ,1473–1117 рр. до н. е. — 356 років
-timespan_judges2,Час суддів,Time of the judges, ,text,False, , , , , , , ,Часи суддів
-temple2,479 років до будівництва храму - 1 Царі 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , , , ,479 років до початку будівництва храму — 1 Царів 6:1
-69weeks2,69 тижнів до Месії - Даніель 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , , , ,69 тижнів до приходу Месії — Даниїл 9:25
-jesus_service,"3,5 роки служби Ісуса, виконував Нісан 14 -го, 33 р.е.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , , , ,"3,5 роки служіння Ісуса; страта відбулася 14 нісана 33 року н. е."
-jesus_life,Ісус народився 2 до н.е.,Jesus born 2 B.C.E., ,text,False, , , , , , , ,Ісус народився у 2 році до н. е.
-exile,607 до 537 до н.е. - 70 років (Єремія 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , , , ,607–537 рр. до н. е. — 70 років (Єремія 25:11)
-exile2,Заслання,Exile, ,text,False, , , , , , , ,Вигнання
-7times2,7 разів - 2520 років до Месіанського королівства 1914 р. Н. Е. (Даніель 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , , , ,7 разів — 2520 років до настання Месіанського Царства 1914 року н. е. (Даниїл 4:23)
-ww1,Перша світова війна - 1914–1918 рр.,World War I – 1914–1918, ,text,False, , , , , , , ,Перша світова війна — 1914–1918 рр.
-ww2,Друга світова війна - 1939–1945 рр.,World War II – 1939–1945, ,text,False, , , , , , , ,Друга світова війна — 1939–1945
-30_year_war,Тридцять років війни в Європі 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , , , ,Тридцятирічна війна в Європі 1618–1648 рр.
-joshua,110 років,110 years, ,text,False, , , , , , , ,110 років
-caleb,Більше 85 років,more than 85 years, ,text,False, , , , , , , ,понад 85 років
-missionary1,"Перша місіонерська подорож Павла, c. 47-48 C.E. з Барнаба та Джоном Марком","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , , , ,"Перша місіонерська подорож Павла, приблизно 47–48 рр. н. е., разом із Варнавою та Іоанном Марком"
-circumcision,"Випуск обрізання в Антіохії, конференція в Єрусалимі c. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , , , ,"Питання обрізання в Антіохії, собор у Єрусалимі близько 49 року н. е."
-missionary2,Друга місіонерська подорож c. 49-52 C.E з Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , , , ,"Друга місіонерська подорож, приблизно 49–52 рр. н. е., разом із Силасом (Сильваном)"
-missionary3,Третя місіонерська подорож c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , , , ,"Третя місіонерська подорож, приблизно 52–56 рр. н. е."
-caesarea,Павло під вартою в Кесарії c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , , , ,Павло перебував під вартою в Кесарії приблизно в 56–58 рр. н. е.
-rome1,Перше ув'язнення Павла в Римі С. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , , , ,"Перше ув’язнення Павла в Римі, приблизно 59–61 рр. н. е."
-rome2,"Друге ув'язнення Павла в Римі c. 65 CE, 2 Тімоті написано, Павло виконано","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , , , ,"Друге ув’язнення Павла в Римі (близько 65 р. н. е.), написання 2-го Послання до Тимофія, страта Павла"
-event_exodus,"Вихід з Єгипту 14 -го, 1513 р. до н. е.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , , , ,Вихід з Єгипту 14 нісана 1513 року до н. е.
-event_division_kingdom,Відділ Ізраїлю 997 р. до н. е.,Division of Israel 997 BCE, ,text,False, , , , , , , ,Розділ Ізраїлю 997 р. до н. е.
-event_destruction_samaria,Знищення Самарії 740 р. до н. е. від Ассирії,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , , , ,Зруйнування Самарії в 740 році до н. е. Ассирією
-event_destruction_jerusalem1,"Знищення Єрусалиму 607 до н.е. Вавилон, через 390 років після поділу Королівства (Єзекіїль 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , , , ,"Руйнування Єрусалима у 607 році до н. е. вавилонянами, через 390 років після розколу царства (Єзекіїль 4:5)"
-event_temple_rebuilt,Храм в Єрусалимі перебудований 515 до н.е.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , , , ,Храм у Єрусалимі було відбудовано у 515 році до н. е.
-event_jerusalem_rebuilt,Єрусалимська стіна відбудована 455 до н.е.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , , , ,Стіна Єрусалима була відбудована у 455 році до н. е.
-event_destruction_jerusalem2,Знищення Єрусалиму 70 C.,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , , , ,Руйнування Єрусалима в 70 році н. е. римлянами під командуванням Тита
-event_1914,Кінець часу Націй (Лука 21:24) Царство Боже починає правити на небі 1914 р.,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , , , ,З закінченням часу народів (Лука 21:24) Боже Царство починає панувати на небі у 1914 році н. е.
-became_king,стає королем у віці,becomes king at age,2025-04-14,text,False, , , , , , , ,стає королем у віці
-vulgate,Вулгейт завершений Джеромом (латинський переклад Біблії) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , , , ,"«Вульгата», завершена Єронімом (латинський переклад Біблії), бл. 405 р. н. е."
-gutenberg,Гутенберг Біблія надрукована 1455,Gutenberg Bible printed 1455, ,text,False, , , , , , , ,"Біблія Гутенберга, надрукована у 1455 році"
-erasmus,"Грецький текст християнських грецьких Писань, опублікований Десайдієм Еразмом Роттердама 1516",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , , , ,"Грецький текст «Християнських грецьких Писань», опублікований Дезидерієм Еразмом Роттердамським у 1516 році"
-luther,Переклад Біблії Лютера у вересні 1522 року,Luther Bible translation in September 1522, ,text,False, , , , , , , ,Переклад Біблії Лютера у вересні 1522 року
-tyndale,Англійський переклад Біблії від Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , , , , ,"Переклад Біблії англійською мовою, виконаний Тиндейлом у 1536 році"
-king_james,Король Джеймс Біблія 1611,King James Bible 1611, ,text,False, , , , , , , ,Біблія короля Якова 1611 року
-69weeks3,"Ісус починає свою службу 29 н.е. (Лука 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , , , , ,"Ісус розпочинає своє служіння у 29 році н. е. (Лука 3:1, 21)"
-ransom,"Середина тижня ""Жертва, щоб припинити"" Даніель 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , , , , ,"«Жертва, що припинить» у середині тижня — Даниїл 9:27"
-cornelius,Корнелій хрестився наприкінці 70 тижнів (Даниїл 9:24) у 36 р. Н. Е.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , , , , ,Корнеліус прийняв хрещення наприкінці 70 тижнів (Даниїл 9:24) у 36 році н. е.
-columbus,Кінець доколумбового періоду в Америці 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , , , , ,Завершення доколумбового періоду в Америці — 1492 рік
-declaration_independence,Декларація незалежності 13 колоній в Америці 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , , , , ,Декларація незалежності 13 американських колоній 1776 року
-tischendorf,Tischendorf виявляє кодекс Синайтік з 4 століття 1844 року,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , , , , ,У 1844 році Тішендорф відкрив «Синайський кодекс» IV століття
-dead_sea_scrolls,Супрониз мертвого моря,Dead Sea Scrolls written, ,text,False, , , , , , , ,"Свитки Мертвого моря, написані"
-septuagint,Septuagint lxx перекладений,Septuagint LXX translated, ,text,False, , , , , , , ,Переклад із Септуагінти (LXX)
-watchtower,"Перший випуск ""Сіонської вежі та Геральд Христового присутності"" опубліковано в 1879 році",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , , , , ,Перший номер видання «Сторожова вежа Сіону та Вісник Присутності Христа» вийшов у 1879 році
-jehovahs_witnesses,"Студенти Біблії приймають нове ім'я - свідки Єгови (Ісая 43:10, 12) у Колумбусі, штат Огайо, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , , , , ,"У 1931 році в Коламбусі, штат Огайо, «Дослідники Біблії» прийняли нову назву — «Свідки Єгови» (Ісая 43:10, 12)"
-gilead_school,"Біблійна школа Gilead Watchtower починається в понеділок, 1 лютого 1943 року","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , , , , ,"Біблійна школа «Вартова вежа» в Гілеаді розпочинає роботу в понеділок, 1 лютого 1943 року"
-new_world_translation1,"Переклад Нового Світу Святого Письма, випущений у Манчестері, Англія, 18 червня 1960 року, знову вводить ім'я Єгова у багатьох частинах Біблії","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , , , , ,"«Переклад Святого Письма у Новому Світі», опублікований у Манчестері, Англія, 18 червня 1960 року, повертає ім’я Єгова у багатьох частинах Біблії"
-new_world_translation2,"Переглянуто ""Переклад Нового Світу Святого Письма"", опублікований на щорічних зборах 2013 року, оптимізований для використання в цифровому вигляді та в Інтернеті","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , , , , ,"Перевидане видання «Переклад Святого Письма у Новому Світі», представлене на щорічних зборах 2013 року, оптимізоване для використання в цифровому форматі та в Інтернеті"
-cold_war,"Геополітична ситуація позначена ""Холодна війна"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , , , , ,"Геополітична ситуація, що отримала назву «Холодна війна», 1945–1991 рр."
-codex_sinaiticus,Codex sinaiticus написаний,Codex Sinaiticus written, ,text,False, , , , , , , ,Написано «Синайський кодекс»
-codex_vaticanus,Codex vaticanus написано,Codex Vaticanus written, ,text,False, , , , , , , ,«Кодекс Ватиканус» написаний
-leningrad_codex,"Leningrad Codex, написаний у Каїрі AD 1008",Leningrad Codex written in Cairo AD 1008, ,text,False, , , , , , , ,"«Ленінградський кодекс», написаний у Каїрі 1008 року н. е."
-john,"Джон пише ""Об'явлення"", засланий на Patmos 96-98 C.E.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , , , , ,Іоанн пише «Одкровення» під час вигнання на острові Патмос у 96–98 роках н. е.
-buddha,Будда-Siddhartha Gautama C.563-C.483 до н. е.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , , , , ,"Будда — Сіддхартха Гаутама, бл. 563 — бл. 483 рр. до н. е."
-buddha2,Будда альтернативно c. 480-400 до н.е.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , , , , ,"Будда, за іншою версією, приблизно 480–400 рр. до н. е."
-mohammed,Мохаммед c. 570-632 C.E.,Mohammed c. 570-632, ,text,False, , , , , , , ,"Мухаммед, бл. 570–632 рр."
-confucius,Confucius C.551-C.479 до н. е.,Confucius c.551-c.479 B.C.E., ,text,False, , , , , , , ,"Конфуцій, бл. 551 — бл. 479 р. до н. е."
-hijrah,Hijrah - Подорож Мекка до Медіни 16 липня 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , , , , ,Хіджра — подорож з Мекки до Медини 16 липня 622 року
-moses_escape,"1553 р. B.C.E. Мойсей повинен уникнути Єгипту - Вихід 2:15, Дії 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , , , , ,"1553 р. до н. е. Мойсей змушений втекти з Єгипту — Вихід 2:15, Дії 7:23"
-10plagues,1513 р. До н.е. Єгипет отримує 10 чум,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , , , , ,1513 р. до н. е. На Єгипет обрушилися 10 казнь
-joseph_sold,Йосиф продав як раба у віці 17 років - Ген 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , , , , ,"Йосипа продали в рабство, коли йому було 17 років — Бут. 37:2"
-infliction,400 років заподіяння (Дії 7: 6) - Ізмаїл 1913 р. До н.е.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , , , , ,"400-річне вигнання (Дії 7:6) — Ісмаїл, 1913 р. до н. е."
-Alexander,Олександр Великий (Даніель 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , , , , ,Олександр Великий (Даниїл 11:3)
-persia,"Cyrus The Great, Cambyses II, Darius I 490 до н. е., Xerxes I 480 до н. е. (чоловік Естер, Даніель 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , , , , ,"Кір Великий, Камбіз II, Дарій I — 490 р. до н. е., Ксеркс I — 480 р. до н. е. (чоловік Естер, Даниїл 11:2)"
-king_north,"Seleucus I Nicator (V5) Сирія до Антіоха III (V10) та Seleucus IV (V18, 19) аж до Октавіана (V20) та Тіберія (V21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , , , , ,"Селевк I Нікатор (в. 5) — від Сирії до Антіоха III (в. 10) та Селевка IV (в. 18, 19) аж до Октавіана (в. 20) і Тіберія (в. 21–24)"
-king_north1,Король Півночі,King of the North, ,text,False, , , , , , , ,Король Півночі
-king_south,"Птолемея I, II, III, IV (V11, 12), V (V15, 16) до бойового акту 31 до н. е.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , , , , ,"Птолемей I, II, III, IV (v11, 12), V (v15, 16) до битви при Актіумі 31 р. до н. е."
-king_south1,Король Півдня,King of the South, ,text,False, , , , , , , ,Король Півдня
-king_south2,"Британська імперія 1870, англо-американська світова влада з 1914 року","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , , , , ,"Британська імперія 1870 року, англо-американська світова потуга з 1914 року"
-king_south3,Король Півдня,King of the South, ,text,False, , , , , , , ,Король Півдня
-king_north2,"Німеччина з імператором Вільямом I 1871 (V28), 1914 (V29), 1935 (V30B), 1939 (V31A)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , , , , ,"Німеччина за часів імператора Вільгельма I: 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,Північ,North, ,text,False, , , , , , , ,Північ
-king_north4,"Радянський Союз 1945-1991 рр. (Даниїл 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , , , ,"Радянський Союз 1945–1991 (Даниїл 11:32–39, 40б, 41)"
-king_north5,Росія з 2017 року (W20 травня),Russia since 2017 (w20 May), ,text,False, , , , , , , ,Росія з 2017 року (станом на 20 травня)
-time_of_end,"Присутність Христа, Висновок системи речей (Матвія 24: 3), останні дні (2 Тимофія 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , , , , ,"Присутність Христа, завершення нинішнього світу (Матвія 24:3), останні дні (2 Тимофія 3:1)"
-time_of_end2,Останні дні,Last days, ,text,False, , , , , , , ,Останні дні
-suryavaman2,Король Сураварман II будує Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , , , , ,Король Суряварман II збудував Ангкор-Ват у 1113–1150 роках
-notre-dame,Нотр-Дам де Париж побудував 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , , , , ,"Собор Паризької Богоматері, збудований у 1163–1260 роках"
-babel,Бабельна вежа побудована,Tower of Babel built, ,text,False, , , , , , , ,Будівництво Вавилонської вежі
-infliction1,400 років заподіяння,400 year infliction,Acts 7:6,text,False, , , , , , , ,400-річне випробування
-Lots_wife,Дружина Лота,Lot’s wife, ,text,False, , , , , , , ,Дружина Лота
-Lots_daughters,Дочки лота,Daughters of Lot, ,text,False, , , , , , , ,Дочки Лота
-Moab,Моав (старша дочка),Moab (older daughter),Genesis 19:37,text,False, , , , , , , ,Моаб (старша дочка)
-rosetta,Розетський камінь 196 до н. е.,Rosetta stone 196 B.C.E., ,text,False, , , , , , , ,"Розетський камінь, 196 р. до н. е."
-Herodotus,"Геродот c. 484 - c. 425 р. до н. е., пише історії","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , ,Геродот (бл. 484 — бл. 425 рр. до н. е.) пише твір «Історія»
-Aristotle,Арістотель 384 - 322 р. до н. е.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , ,"Аристотель, 384–322 рр. до н. е."
-Ptolemy,Клавдій Птолемей c 100 - c. 170 н. е.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , ,"Птолемей, бл. 100 — бл. 170 р. н. е."
-Pythagoras,Pythagoras c. 570 - c. 495,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , ,"Піфагор, бл. 570 — бл. 495 р. до н. е."
-Plato,Платон c. 427 - c. 348 р. до н. е.,Plato c. 427 – c. 348 BC, ,text,False, , , , , , , ,"Платон, бл. 427 — бл. 348 р. до н. е."
-Socrates,Сократ c. 470 - c. 399 р. до н. е.,Socrates c. 470 – c. 399 BC, ,text,False, , , , , , , ,"Сократ, бл. 470 — бл. 399 р. до н. е."
-Josephus,Йосип Флавій бл. 37 - бл. 100 н. е.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , , , ,"Йосип Флавій, бл. 37 — бл. 100 р. н. е."
-Cicero,Цицерон 106–43,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , , , ,"Цицерон, 106–43 рр. до н. е."
-lachish_letters,Ліші листи бл. 590 до н. е.,Lachish letters c. 590 B.C.E., ,text,False, , , , , , , ,"Листи з Лахіша, приблизно 590 р. до н. е."
-lachish_reliefs,Лахіші рельєфи бл. 681 до н. е.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , , , , ,"Рельєфи з Лахіша, бл. 681 р. до н. е."
-mesha_stele,Стела Меша (моабітський камінь) бл. 840 до н. е.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , , , , ,"Стела Меші (Моавітський камінь), бл. 840 р. до н. е."
-gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , , , ,Гільгамеш і Ага 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,Епос про Гільгамеша,Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , , , ,Епос про Гільгамеша (Сін-лекі-уннінні)
-gregorian,Грегоріанський календар 1582,Gregorian calendar 1582, ,text,False, , , , , , , ,"Григоріанський календар, 1582 рік"
-shang-dynasty,c. 1600-1046 рр. до н. е.,c. 1600-1046 BC, ,text,False, , , , , , , ,бл. 1600–1046 рр. до н. е.
-western-zhou,c. 1046-771 рр. до н. е.,c. 1046-771 BC, ,text,False, , , , , , , ,приблизно 1046–771 рр. до н. е.
-qin-dynasty,QIN 221-207 р. до н. е.,Qin 221-207 BC, ,text,False, , , , , , , ,"Династія Цинь, 221–207 рр. до н. е."
-western-han,207 р. до н. е. - 9 н.е.,207 BC – 9 CE, ,text,False, , , , , , , ,207 р. до н. е. – 9 р. н. е.
-three-kingdoms,Три королівства 220-280 н.е.,Three kingdoms 220-280 CE, ,text,False, , , , , , , ,"Три царства, 220–280 рр. н. е."
-sixteen-kingdoms,Шістнадцять королівств 304-439 Cн.е.,Sixteen kingdoms 304-439 CE, ,text,False, , , , , , , ,"Шістнадцять королівств, 304–439 рр. н. е."
+wilderness,Ізраїль у пустелі 1513 по 1473 рр. до н. е. - 40 років,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,Ізраїль у пустелі 1513 по 1473 р. до н. е. – 40 років, , ,Ізраїль у пустелі з 1513 до 1473 рр. до н. е. — 40 років
+timespan_judges,1473 по 1117 рр. до н. е. - 356 років,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 по 1117 р. до н. е. – 356 років, , ,1473–1117 рр. до н. е. — 356 років
+timespan_judges2,Час суддів,Time of the judges, ,text,False, , , , ,Час суддів, , ,Часи суддів
+temple2,479 років до будівництва храму - 1 Царі 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,479 років до будівництва храму – 1 Царів 6:1, , ,479 років до початку будівництва храму — 1 Царів 6:1
+69weeks2,69 тижнів до Месії - Даніель 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,69 тижнів до Месії – Даниїл 9:25, , ,69 тижнів до приходу Месії — Даниїл 9:25
+jesus_service,"3,5 роки служби Ісуса, виконував Нісан 14 -го, 33 р.е.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"3,5 роки служіння Ісуса, страчений 14 Нісана 33 р. н. е.", , ,"3,5 роки служіння Ісуса; страта відбулася 14 нісана 33 року н. е."
+jesus_life,Ісус народився 2 до н.е.,Jesus born 2 B.C.E., ,text,False, , , , ,Ісус народився 2 р. до н. е., , ,Ісус народився у 2 році до н. е.
+exile,607 до 537 до н.е. - 70 років (Єремія 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,607 по 537 р. до н. е. – 70 років (Єремія 25:11), , ,607–537 рр. до н. е. — 70 років (Єремія 25:11)
+exile2,Заслання,Exile, ,text,False, , , , ,Вигнання, , ,Вигнання
+7times2,7 разів - 2520 років до Месіанського королівства 1914 р. Н. Е. (Даніель 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7 часів – 2520 років до Месіанського Царства 1914 р. н. е. (Даниїл 4:23), , ,7 разів — 2520 років до настання Месіанського Царства 1914 року н. е. (Даниїл 4:23)
+ww1,Перша світова війна - 1914–1918 рр.,World War I – 1914–1918, ,text,False, , , , ,Перша світова війна – 1914–1918, , ,Перша світова війна — 1914–1918 рр.
+ww2,Друга світова війна - 1939–1945 рр.,World War II – 1939–1945, ,text,False, , , , ,Друга світова війна – 1939–1945, , ,Друга світова війна — 1939–1945
+30_year_war,Тридцять років війни в Європі 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,Тридцятилітня війна в Європі 1618–1648, , ,Тридцятирічна війна в Європі 1618–1648 рр.
+joshua,110 років,110 years, ,text,False, , , , ,110 років, , ,110 років
+caleb,Більше 85 років,more than 85 years, ,text,False, , , , ,понад 85 років, , ,понад 85 років
+missionary1,"Перша місіонерська подорож Павла, c. 47-48 C.E. з Барнаба та Джоном Марком","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"Перша місіонерська подорож Павла, бл. 47–48 рр. н. е. з Варнавою та Іоанном Марком", , ,"Перша місіонерська подорож Павла, приблизно 47–48 рр. н. е., разом із Варнавою та Іоанном Марком"
+circumcision,"Випуск обрізання в Антіохії, конференція в Єрусалимі c. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"Питання обрізання в Антіохії, нарада в Єрусалимі бл. 49 р. н. е.", , ,"Питання обрізання в Антіохії, собор у Єрусалимі близько 49 року н. е."
+missionary2,Друга місіонерська подорож c. 49-52 C.E з Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,Друга місіонерська подорож бл. 49–52 рр. н. е. з Силою (Сильваном), , ,"Друга місіонерська подорож, приблизно 49–52 рр. н. е., разом із Силасом (Сильваном)"
+missionary3,Третя місіонерська подорож c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,Третя місіонерська подорож бл. 52–56 рр. н. е., , ,"Третя місіонерська подорож, приблизно 52–56 рр. н. е."
+caesarea,Павло під вартою в Кесарії c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,Павло під вартою в Кесарії бл. 56–58 рр. н. е., , ,Павло перебував під вартою в Кесарії приблизно в 56–58 рр. н. е.
+rome1,Перше ув'язнення Павла в Римі С. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,Перше ув'язнення Павла в Римі бл. 59–61 рр. н. е., , ,"Перше ув’язнення Павла в Римі, приблизно 59–61 рр. н. е."
+rome2,"Друге ув'язнення Павла в Римі c. 65 CE, 2 Тімоті написано, Павло виконано","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"Друге ув'язнення Павла в Римі бл. 65 р. н. е., написано 2 Тимофію, Павло страчений", , ,"Друге ув’язнення Павла в Римі (близько 65 р. н. е.), написання 2-го Послання до Тимофія, страта Павла"
+event_exodus,"Вихід з Єгипту 14 -го, 1513 р. до н. е.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,Вихід з Єгипту 14 Нісана 1513 р. до н. е., , ,Вихід з Єгипту 14 нісана 1513 року до н. е.
+event_division_kingdom,Відділ Ізраїлю 997 р. до н. е.,Division of Israel 997 BCE, ,text,False, , , , ,Поділ Ізраїлю 997 р. до н. е., , ,Розділ Ізраїлю 997 р. до н. е.
+event_destruction_samaria,Знищення Самарії 740 р. до н. е. від Ассирії,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,Зруйнування Самарії 740 р. до н. е. Ассирією, , ,Зруйнування Самарії в 740 році до н. е. Ассирією
+event_destruction_jerusalem1,"Знищення Єрусалиму 607 до н.е. Вавилон, через 390 років після поділу Королівства (Єзекіїль 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"Зруйнування Єрусалиму 607 р. до н. е. Вавилоном, 390 років після поділу царства (Єзекіїль 4:5)", , ,"Руйнування Єрусалима у 607 році до н. е. вавилонянами, через 390 років після розколу царства (Єзекіїль 4:5)"
+event_temple_rebuilt,Храм в Єрусалимі перебудований 515 до н.е.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,Храм у Єрусалимі відбудовано 515 р. до н. е., , ,Храм у Єрусалимі було відбудовано у 515 році до н. е.
+event_jerusalem_rebuilt,Єрусалимська стіна відбудована 455 до н.е.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,Єрусалимський мур відбудовано 455 р. до н. е., , ,Стіна Єрусалима була відбудована у 455 році до н. е.
+event_destruction_jerusalem2,Знищення Єрусалиму 70 C.,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,Зруйнування Єрусалиму 70 р. н. е. Римом під командуванням Тита, , ,Руйнування Єрусалима в 70 році н. е. римлянами під командуванням Тита
+event_1914,Кінець часу Націй (Лука 21:24) Царство Боже починає правити на небі 1914 р.,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"Кінець часу народів (Луки 21:24), Царство Боже починає правити на небі 1914 р. н. е.", , ,З закінченням часу народів (Лука 21:24) Боже Царство починає панувати на небі у 1914 році н. е.
+became_king,стає королем у віці,becomes king at age,2025-04-14,text,False, , , , ,стає царем у віці, , ,стає королем у віці
+vulgate,Вулгейт завершений Джеромом (латинський переклад Біблії) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,Вульгата завершена Єронімом (латинський переклад Біблії) бл. 405 р. н. е., , ,"«Вульгата», завершена Єронімом (латинський переклад Біблії), бл. 405 р. н. е."
+gutenberg,Гутенберг Біблія надрукована 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,Біблія Гутенберга надрукована 1455 р., , ,"Біблія Гутенберга, надрукована у 1455 році"
+erasmus,"Грецький текст християнських грецьких Писань, опублікований Десайдієм Еразмом Роттердама 1516",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,Грецький текст Християнських Грецьких Писань опублікований Еразмом Роттердамським 1516 р., , ,"Грецький текст «Християнських грецьких Писань», опублікований Дезидерієм Еразмом Роттердамським у 1516 році"
+luther,Переклад Біблії Лютера у вересні 1522 року,Luther Bible translation in September 1522, ,text,False, , , , ,Переклад Біблії Лютера у вересні 1522 р., , ,Переклад Біблії Лютера у вересні 1522 року
+tyndale,Англійський переклад Біблії від Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , ,Переклад Біблії англійською Тиндейлом 1536 р., , ,"Переклад Біблії англійською мовою, виконаний Тиндейлом у 1536 році"
+king_james,Король Джеймс Біблія 1611,King James Bible 1611, ,text,False, , , , ,Біблія короля Якова 1611, , ,Біблія короля Якова 1611 року
+69weeks3,"Ісус починає свою службу 29 н.е. (Лука 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Ісус починає своє служіння 29 н.е. (Луки 3:1, 21)", , ,"Ісус розпочинає своє служіння у 29 році н. е. (Лука 3:1, 21)"
+ransom,"Середина тижня ""Жертва, щоб припинити"" Даніель 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,Середина тижня «жертва припиниться» Даниїла 9:27, , ,"«Жертва, що припинить» у середині тижня — Даниїл 9:27"
+cornelius,Корнелій хрестився наприкінці 70 тижнів (Даниїл 9:24) у 36 р. Н. Е.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Корнелій охрещений наприкінці 70 тижнів (Даниїла 9:24) у 36 н.е., , ,Корнеліус прийняв хрещення наприкінці 70 тижнів (Даниїл 9:24) у 36 році н. е.
+columbus,Кінець доколумбового періоду в Америці 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,Кінець доколумбової епохи в Америці 1492, , ,Завершення доколумбового періоду в Америці — 1492 рік
+declaration_independence,Декларація незалежності 13 колоній в Америці 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,Декларація незалежності 13 колоній в Америці 1776, , ,Декларація незалежності 13 американських колоній 1776 року
+tischendorf,Tischendorf виявляє кодекс Синайтік з 4 століття 1844 року,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Тішендорф виявляє Синайський кодекс IV століття у 1844 році, , ,У 1844 році Тішендорф відкрив «Синайський кодекс» IV століття
+dead_sea_scrolls,Супрониз мертвого моря,Dead Sea Scrolls written, ,text,False, , , , ,Мертве морські сувої написані, , ,"Свитки Мертвого моря, написані"
+septuagint,Septuagint lxx перекладений,Septuagint LXX translated, ,text,False, , , , ,Септуагінта LXX перекладена, , ,Переклад із Септуагінти (LXX)
+watchtower,"Перший випуск ""Сіонської вежі та Геральд Христового присутності"" опубліковано в 1879 році",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,Перший випуск «Вартової вежі Сіону та Вісника Присутності Христа» опубліковано у 1879 році, , ,Перший номер видання «Сторожова вежа Сіону та Вісник Присутності Христа» вийшов у 1879 році
+jehovahs_witnesses,"Студенти Біблії приймають нове ім'я - свідки Єгови (Ісая 43:10, 12) у Колумбусі, штат Огайо, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"Дослідники Біблії приймають нову назву – Свідки Єгови (Ісая 43:10, 12) у Колумбусі, Огайо, 1931", , ,"У 1931 році в Коламбусі, штат Огайо, «Дослідники Біблії» прийняли нову назву — «Свідки Єгови» (Ісая 43:10, 12)"
+gilead_school,"Біблійна школа Gilead Watchtower починається в понеділок, 1 лютого 1943 року","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"Біблійна школа Вартової вежі Галаад починається в понеділок, 1 лютого 1943 року", , ,"Біблійна школа «Вартова вежа» в Гілеаді розпочинає роботу в понеділок, 1 лютого 1943 року"
+new_world_translation1,"Переклад Нового Світу Святого Письма, випущений у Манчестері, Англія, 18 червня 1960 року, знову вводить ім'я Єгова у багатьох частинах Біблії","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"«Переклад Нового Світу Священних Писань» випущено в Манчестері, Англія, 18 червня 1960 року, повертає ім'я Єгова в багатьох частинах Біблії", , ,"«Переклад Святого Письма у Новому Світі», опублікований у Манчестері, Англія, 18 червня 1960 року, повертає ім’я Єгова у багатьох частинах Біблії"
+new_world_translation2,"Переглянуто ""Переклад Нового Світу Святого Письма"", опублікований на щорічних зборах 2013 року, оптимізований для використання в цифровому вигляді та в Інтернеті","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"Оновлений «Переклад Нового Світу Священних Писань» випущено на щорічній зустрічі 2013 року, оптимізований для цифрового та онлайн використання", , ,"Перевидане видання «Переклад Святого Письма у Новому Світі», представлене на щорічних зборах 2013 року, оптимізоване для використання в цифровому форматі та в Інтернеті"
+cold_war,"Геополітична ситуація позначена ""Холодна війна"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,"Геополітична ситуація, названа «Холодна війна» 1945-1991", , ,"Геополітична ситуація, що отримала назву «Холодна війна», 1945–1991 рр."
+codex_sinaiticus,Codex sinaiticus написаний,Codex Sinaiticus written, ,text,False, , , , ,Синайський кодекс написаний, , ,Написано «Синайський кодекс»
+codex_vaticanus,Codex vaticanus написано,Codex Vaticanus written, ,text,False, , , , ,Ватиканський кодекс написаний, , ,«Кодекс Ватиканус» написаний
+leningrad_codex,"Leningrad Codex, написаний у Каїрі AD 1008",Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Ленінградський кодекс написаний у Каїрі 1008 н.е., , ,"«Ленінградський кодекс», написаний у Каїрі 1008 року н. е."
+john,"Джон пише ""Об'явлення"", засланий на Patmos 96-98 C.E.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,Іван пише «Об'явлення» під час заслання на Патмосі 96-98 н.е., , ,Іоанн пише «Одкровення» під час вигнання на острові Патмос у 96–98 роках н. е.
+buddha,Будда-Siddhartha Gautama C.563-C.483 до н. е.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,Будда – Сіддхартха Гаутама бл.563-бл.483 до н.е., , ,"Будда — Сіддхартха Гаутама, бл. 563 — бл. 483 рр. до н. е."
+buddha2,Будда альтернативно c. 480-400 до н.е.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Будда альтернативно бл. 480-400 до н.е., , ,"Будда, за іншою версією, приблизно 480–400 рр. до н. е."
+mohammed,Мохаммед c. 570-632 C.E.,Mohammed c. 570-632, ,text,False, , , , ,Мухаммед бл. 570-632, , ,"Мухаммед, бл. 570–632 рр."
+confucius,Confucius C.551-C.479 до н. е.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,Конфуцій бл.551-бл.479 до н.е., , ,"Конфуцій, бл. 551 — бл. 479 р. до н. е."
+hijrah,Hijrah - Подорож Мекка до Медіни 16 липня 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Хіджра - Подорож з Мекки до Медини 16 липня 622 року, , ,Хіджра — подорож з Мекки до Медини 16 липня 622 року
+moses_escape,"1553 р. B.C.E. Мойсей повинен уникнути Єгипту - Вихід 2:15, Дії 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 до н.е. Мойсей мусить тікати з Єгипту – Вихід 2:15, Дії 7:23", , ,"1553 р. до н. е. Мойсей змушений втекти з Єгипту — Вихід 2:15, Дії 7:23"
+10plagues,1513 р. До н.е. Єгипет отримує 10 чум,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 до н.е. Єгипет зазнає 10 кар, , ,1513 р. до н. е. На Єгипет обрушилися 10 казнь
+joseph_sold,Йосиф продав як раба у віці 17 років - Ген 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Йосип проданий як раб у віці 17 років – Буття 37:2, , ,"Йосипа продали в рабство, коли йому було 17 років — Бут. 37:2"
+infliction,400 років заподіяння (Дії 7: 6) - Ізмаїл 1913 р. До н.е.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400-річне страждання (Дії 7:6) – Ізмаїл 1913 до н.е., , ,"400-річне вигнання (Дії 7:6) — Ісмаїл, 1913 р. до н. е."
+Alexander,Олександр Великий (Даніель 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Олександр Македонський (Даниїла 11:3), , ,Олександр Великий (Даниїл 11:3)
+persia,"Cyrus The Great, Cambyses II, Darius I 490 до н. е., Xerxes I 480 до н. е. (чоловік Естер, Даніель 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Кір Великий, Камбіз II, Дарій I 490 до н.е., Ксеркс I 480 до н.е. (чоловік Естер, Даниїла 11:2)", , ,"Кір Великий, Камбіз II, Дарій I — 490 р. до н. е., Ксеркс I — 480 р. до н. е. (чоловік Естер, Даниїл 11:2)"
+king_north,"Seleucus I Nicator (V5) Сирія до Антіоха III (V10) та Seleucus IV (V18, 19) аж до Октавіана (V20) та Тіберія (V21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"Селевк I Нікатор (в.5) Сирія до Антіоха III (в.10) та Селевка IV (в.18, 19) аж до Октавіана (в.20) та Тиберія (в.21-24)", , ,"Селевк I Нікатор (в. 5) — від Сирії до Антіоха III (в. 10) та Селевка IV (в. 18, 19) аж до Октавіана (в. 20) і Тіберія (в. 21–24)"
+king_north1,Король Півночі,King of the North, ,text,False, , , , ,Цар Півночі, , ,Король Півночі
+king_south,"Птолемея I, II, III, IV (V11, 12), V (V15, 16) до бойового акту 31 до н. е.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"Птолемей I, II, III, IV (в.11, 12), V (в.15, 16) до битви при Акції 31 до н.е.", , ,"Птолемей I, II, III, IV (v11, 12), V (v15, 16) до битви при Актіумі 31 р. до н. е."
+king_south1,Король Півдня,King of the South, ,text,False, , , , ,Цар Півдня, , ,Король Півдня
+king_south2,"Британська імперія 1870, англо-американська світова влада з 1914 року","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"Британська імперія 1870, Англо-американська світова сила з 1914", , ,"Британська імперія 1870 року, англо-американська світова потуга з 1914 року"
+king_south3,Король Півдня,King of the South, ,text,False, , , , ,Цар Півдня, , ,Король Півдня
+king_north2,"Німеччина з імператором Вільямом I 1871 (V28), 1914 (V29), 1935 (V30B), 1939 (V31A)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Німеччина з імператором Вільгельмом I 1871 (в.28), 1914 (в.29), 1935 (в.30b), 1939 (в.31a)", , ,"Німеччина за часів імператора Вільгельма I: 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Північ,North, ,text,False, , , , ,Північ, , ,Північ
+king_north4,"Радянський Союз 1945-1991 рр. (Даниїл 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"Радянський Союз 1945-1991 (Даниїла 11:32-39, 40b, 41)", , ,"Радянський Союз 1945–1991 (Даниїл 11:32–39, 40б, 41)"
+king_north5,Росія з 2017 року (W20 травня),Russia since 2017 (w20 May), ,text,False, , , , ,Росія з 2017 (w20 травень), , ,Росія з 2017 року (станом на 20 травня)
+time_of_end,"Присутність Христа, Висновок системи речей (Матвія 24: 3), останні дні (2 Тимофія 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"Присутність Христа, Закінчення системи речей (Матвія 24:3), останні дні (2 Тимофія 3:1)", , ,"Присутність Христа, завершення нинішнього світу (Матвія 24:3), останні дні (2 Тимофія 3:1)"
+time_of_end2,Останні дні,Last days, ,text,False, , , , ,Останні дні, , ,Останні дні
+suryavaman2,Король Сураварман II будує Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,Король Сур'яварман II будує Ангкор-Ват 1113-1150, , ,Король Суряварман II збудував Ангкор-Ват у 1113–1150 роках
+notre-dame,Нотр-Дам де Париж побудував 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,Нотр-Дам де Парі побудовано 1163-1260, , ,"Собор Паризької Богоматері, збудований у 1163–1260 роках"
+babel,Бабельна вежа побудована,Tower of Babel built, ,text,False, , , , ,Вежа Вавилона побудована, , ,Будівництво Вавилонської вежі
+infliction1,400 років заподіяння,400 year infliction,Acts 7:6,text,False, , , , ,400-річне страждання, , ,400-річне випробування
+Lots_wife,Дружина Лота,Lot’s wife, ,text,False, , , , ,Дружина Лота, , ,Дружина Лота
+Lots_daughters,Дочки лота,Daughters of Lot, ,text,False, , , , ,Дочки Лота, , ,Дочки Лота
+Moab,Моав (старша дочка),Moab (older daughter),Genesis 19:37,text,False, , , , ,Моав (старша дочка), , ,Моаб (старша дочка)
+rosetta,Розетський камінь 196 до н. е.,Rosetta stone 196 B.C.E., ,text,False, , , , ,Розетський камінь 196 до н.е., , ,"Розетський камінь, 196 р. до н. е."
+Herodotus,"Геродот c. 484 - c. 425 р. до н. е., пише історії","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"Геродот бл. 484 – бл. 425 до н.е., пише «Історії»", , ,Геродот (бл. 484 — бл. 425 рр. до н. е.) пише твір «Історія»
+Aristotle,Арістотель 384 - 322 р. до н. е.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,Арістотель 384 – 322 до н.е., , ,"Аристотель, 384–322 рр. до н. е."
+Ptolemy,Клавдій Птолемей c 100 - c. 170 н. е.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,Птолемей бл. 100 – бл. 170 н.е., , ,"Птолемей, бл. 100 — бл. 170 р. н. е."
+Pythagoras,Pythagoras c. 570 - c. 495,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,Піфагор бл. 570 – бл. 495 до н.е., , ,"Піфагор, бл. 570 — бл. 495 р. до н. е."
+Plato,Платон c. 427 - c. 348 р. до н. е.,Plato c. 427 – c. 348 BC, ,text,False, , , , ,Платон бл. 427 – бл. 348 до н.е., , ,"Платон, бл. 427 — бл. 348 р. до н. е."
+Socrates,Сократ c. 470 - c. 399 р. до н. е.,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,Сократ бл. 470 – бл. 399 до н.е., , ,"Сократ, бл. 470 — бл. 399 р. до н. е."
+Josephus,Йосип Флавій бл. 37 - бл. 100 н. е.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,Йосиф Флавій бл. 37 – бл. 100 н.е., , ,"Йосип Флавій, бл. 37 — бл. 100 р. н. е."
+Cicero,Цицерон 106–43,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,Цицерон 106–43 до н.е., , ,"Цицерон, 106–43 рр. до н. е."
+lachish_letters,Ліші листи бл. 590 до н. е.,Lachish letters c. 590 B.C.E., ,text,False, , , , ,Листи з Лахіша бл. 590 до н.е., , ,"Листи з Лахіша, приблизно 590 р. до н. е."
+lachish_reliefs,Лахіші рельєфи бл. 681 до н. е.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,Лахішські рельєфи бл. 681 до н.е., , ,"Рельєфи з Лахіша, бл. 681 р. до н. е."
+mesha_stele,Стела Меша (моабітський камінь) бл. 840 до н. е.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,Стела Меші (Моавитський камінь) бл. 840 до н.е., , ,"Стела Меші (Моавітський камінь), бл. 840 р. до н. е."
+gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,Ґільґамеш і Аґа 𒇽𒆥𒄄𒀀𒀝𒂵, , ,Гільгамеш і Ага 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Епос про Гільгамеша,Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,Епос про Ґільґамеша (Сін-лекі-унінні), , ,Епос про Гільгамеша (Сін-лекі-уннінні)
+gregorian,Грегоріанський календар 1582,Gregorian calendar 1582, ,text,False, , , , ,Григоріанський календар 1582, , ,"Григоріанський календар, 1582 рік"
+shang-dynasty,c. 1600-1046 рр. до н. е.,c. 1600-1046 BC, ,text,False, , , , ,бл. 1600-1046 до н.е., , ,бл. 1600–1046 рр. до н. е.
+western-zhou,c. 1046-771 рр. до н. е.,c. 1046-771 BC, ,text,False, , , , ,бл. 1046-771 до н.е., , ,приблизно 1046–771 рр. до н. е.
+qin-dynasty,QIN 221-207 р. до н. е.,Qin 221-207 BC, ,text,False, , , , ,Цінь 221-207 до н.е., , ,"Династія Цинь, 221–207 рр. до н. е."
+western-han,207 р. до н. е. - 9 н.е.,207 BC – 9 CE, ,text,False, , , , ,207 до н.е. – 9 н.е., , ,207 р. до н. е. – 9 р. н. е.
+three-kingdoms,Три королівства 220-280 н.е.,Three kingdoms 220-280 CE, ,text,False, , , , ,Три царства 220-280 н.е., , ,"Три царства, 220–280 рр. н. е."
+sixteen-kingdoms,Шістнадцять королівств 304-439 Cн.е.,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,Шістнадцять царств 304-439 н.е., , ,"Шістнадцять королівств, 304–439 рр. н. е."
 tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , , , ,"618–690, 705–907"
-wu-zhou,690-705 Ву Чжоу,690-705 Wu Zhou, ,text,False, , , , , , , ,690–705 У Чжоу
-tang-dynasty1_c,Дерен,Tang, ,text,False, , , , , , , ,Тан
-gonghe,Gonghe Regency 841-828 до н. е.,Gonghe Regency 841-828 BC, ,text,False, , , , , , , ,"Округ Гонхе, 841–828 рр. до н. е."
-Ashoka,Ашока (бл. 304-232 р. До н.е.) сприяє буддизму,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , , , ,Ашока (бл. 304–232 рр. до н. е.) пропагує буддизм
-siloam-tunnel,Єзекія розширює силоам -тунель,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , , , ,Єзекія розширює тунель Сілоам
-Angloamerica2,"Англо-американець символізується ногами заліза, змішаним з глиною в пророцтві в Даниїлі 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , , , ,"Англо-американська імперія символізується ногами із заліза, змішаного з глиною, у пророцтві з книги Даниїла 2:33, 41–43"
-Manetho,Мането пише aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , , , , ,Мането пише «Аїгіптіака»
-destruction_babylon,"Знищення Вавилона Великого (Об'явлення 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , , , ,"Знищення Великого Вавилону (Об’явлення 17:3, 15–18; 18:9, 10)"
-peace_security,"«Мир і безпека!» (1 Фессалонікійців 5:3, це одна з можливостей, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , , , ,"«Мир і безпека!» (1 Солунян 5:3, це один із варіантів, QfR 26/2, 25/11)"
-gog_of_magog,"Атака Gog of Magog (Єзекіїль 38: 1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , , , ,"Напад Гога з Магога (Єзекіїль 38:1, 2, 9–12, 18–23)"
-sheep_goat,"Мешканці Землі судять, розділяючи овець та кіз (Матвія 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , , , ,"Мешканці Землі піддаються суду, під час якого відбудеться відокремлення овець від козлів (Матвія 25:31–33)"
-annointed,Збір правителів королівства (Матвія 24:31; 1 Коринтян 15: 50-53; 1 Салонійці 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , , , ,Зібрання правителів Царства (Матвія 24:31; 1 Коринтян 15:50–53; 1 Солунян 4:15–17)
-armageddon,"Битва при Армагеддоні (Об'явлення 16:14, 16; Ісая 13: 9; 2 Петро 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , , , ,"Битва при Армагеддоні (Об’явлення 16:14, 16; Ісая 13:9; 2 Петра 3:12)"
-millenium,"Боже Царство починає своє 1000-річне правління (Об'явлення 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , , , ,"Царство Боже розпочинає своє тисячолітнє правління (Об’явлення 5:9, 10; 20:4, 6)"
-great_crowd,"Велика юрба виживає Армагеддон (Об'явлення 7: 9, 14; Псалом 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , , , ,"Велика юрба людей переживає Армагеддон (Одкровення 7:9, 14; Псалом 37:9–11)"
-world_population,Всесвітнє населення в мільярдах за останні 2000 років,World population in billions in the last 2000 years,appendix B9,text,False, , , , , , , ,Чисельність населення світу у мільярдах за останні 2000 років
-khmer_empire_c,Кхмерська імперія - період Ангкор,Khmer Empire - Angkor period, ,text,False, , , , , , , ,Кхмерська імперія — період Ангкора
-holy_roman_empire_c,Свята Римська імперія - відома як Свята Римська імперія німецької нації після 1512 року,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , , , ,Священна Римська імперія — після 1512 року відома як Священна Римська імперія німецької нації
-mongol_empire,Монгольська імперія 1206 - 1294 н. е.,Mongol Empire 1206 – 1294, ,text,False, , , , , , , ,Монгольська імперія 1206 – 1294
-maya_classic_c,Майя Цивілізація - Класичний період,Maya civilization – Classic period, ,text,False, , , , , , , ,Цивілізація майя — Класичний період
-maya_postclassic_c,Цивілізація майя - посткласичний період,Maya civilization – Postclassic period, ,text,False, , , , , , , ,Цивілізація майя — посткласичний період
-Teotihuacan,"Найбільше місто в Америці, піраміди будують c. 200 н. е.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , , , ,"Найбільше місто в Америці, піраміди зведені приблизно у 200 році н. е."
-Dionysius_Exiguus,"Діонісій Енгуус, винахідник Анно Доміні","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , , , ,"Діонісій Ексігус, творець літочислення «Anno Domini»"
-Umayyad_c,Умейяд,Umayyad, ,text,False, , , , , , , ,Омейяди
-ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , , , ,Династія Ур III 𒋀𒀕𒆠
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , , , ,Хаммурапі 𒄩𒄠𒈬𒊏𒁉
-Al-Khwarizmi,Аль-Хваріцмі пише Аль-Джабр (Алгебра),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , ,Аль-Хорезмі пише працю «Аль-Джабр» («Алгебра»)
-al-azhar,У Каїрі університет Аль-Азхар створений у Каїрі,Al-Azhar University is established in Cairo, ,text,False, , , , , , , ,У Каїрі засновано університет Аль-Азхар
-Ibn-Sina,Ibn sina або avicenna,Ibn Sina or Avicenna, ,text,False, , , , , , , ,Ібн Сіна або Авіценна
-life-expectancy,Тривалість життя 75 років,Life expectancy 75 years, ,text,False, , , , , , , ,Очікувана тривалість життя — 75 років
-430years_c,"430 років: Вихід 12:41, Галатам 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , ,"430 років: Вихід 12:41, Галатів 3:17"
-maya_calendar,Розрахований початок календаря Майя 11 серпня 3114 р. До н.е.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , ,Розрахований початок календаря майя — 11 серпня 3114 року до н. е.
-xia-dynasty2,c. 2070 - c. 1600 р. До н.е.; Епоха спочатку згадується в західний період Чжоу,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , , , ,бл. 2070 — бл. 1600 р. до н. е.; вперше згадується в період Західної династії Чжоу
-xia-dynasty2_c,Династія Ся в Китаї,Xia dynasty in China, ,text,False, , , , , , , ,Династія Ся в Китаї
-tres_zapotes,"3 вересня, 32 до н.е.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , , , ,3 вересня 32 року до н. е.
-joseph_jacob_reunited,Йосиф та Яків возз’єдналися в Єгипті - 1728 р. До н.е. (Ген 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , , , ,Йосип і Яків зустрілися в Єгипті — 1728 р. до н. е. (Бут. 45:11; 47:9)
-king_south_light_c,Король Півдня від Даніеля 11,King of the South from Daniel 11,2025-02-05,text,False, , , , , , , ,"«Цар Півдня» з книги Даниїла, 11 розділ"
-king_north_light_c,Король Півночі від Даніеля 11,King of the North from Daniel 11,2025-02-05,text,False, , , , , , , ,"Цар Півночі з книги Даниїла, 11 розділ"
-daniel2_iron_c,Залізні ноги з Даніеля 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , , , , ,"Залізні ноги з книги Даниїла, розділ 2"
-argenteus,Срі́бний ко́декс (Codex argenteus) c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , , , ,"«Codex Argenteus», бл. 505 р."
-nguyen_dynasty_c,Нгуєн,Nguyễn,2025-09-20,text,False, , , , , , , ,Нгуєн
-edo_c,Період Едо (сьоґунату Токуґава),Edo period in Japan, ,text,False, , , , , , , ,Період Едо в Японії
-meiji_c,Мейдзі,Meiji,2025-09-20,text,False, , , , , , , ,Мейдзі
-american_civil_war,Громадянська війна США 1861-65,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , , , , ,Громадянська війна у США 1861–1865 рр.
-aleppo_codex,Кодекс Алеппо c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , , , , ,"Алеппський кодекс, бл. 920 р."
-vandals,Королівство вандалів і аланів 435 – 534 рр,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , , , , ,Королівство вандалів та аланів 435 – 534
-francia,"в. 481/509 – 843, Меровінги до 751, потім Каролінги","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , , , , ,"бл. 481/509 – 843, період правління Меровінгів до 751 року, потім — Каролінгів"
-francia_c,Королівство франків,Kingdom of the Franks, ,text,False, , , , , , , ,Королівство франків
-100_years_war,Столітня війна 1337-1453 рр,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , , , ,Столітня війна 1337–1453 рр.
-black_death,Чорна смерть 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , , , , ,Чорна смерть 1346–1353 рр.
-sui_dynasty,581-618 Династія Суй,581-618 Sui dynasty,2025-11-09,text,False, , , , , , , ,581–618 рр. Династія Суй
-sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , , , ,Суй
-tribulation,"Велика скорбота (Марк 13:19; Даниїл 12: 1; Мт 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , , , , ,"Велика Скорбота (Марка 13:19; Даниїла 12:1; Матвія 24:21, 22)"
-timeline_created,"Ця часова шкала створена 2023, найгарячіший рік в історії людства та останні 125 000 р.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , , , , ,Ця хронологія створена у 2023 році — найспекотнішому році в історії людства та за останні 125 000 років
+wu-zhou,690-705 Ву Чжоу,690-705 Wu Zhou, ,text,False, , , , ,690-705 У Чжоу, , ,690–705 У Чжоу
+tang-dynasty1_c,Дерен,Tang, ,text,False, , , , ,Тан, , ,Тан
+gonghe,Gonghe Regency 841-828 до н. е.,Gonghe Regency 841-828 BC, ,text,False, , , , ,Регентство Гунхе 841-828 до н.е., , ,"Округ Гонхе, 841–828 рр. до н. е."
+Ashoka,Ашока (бл. 304-232 р. До н.е.) сприяє буддизму,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,Ашока (бл. 304-232 до н.е.) сприяє поширенню буддизму, , ,Ашока (бл. 304–232 рр. до н. е.) пропагує буддизм
+siloam-tunnel,Єзекія розширює силоам -тунель,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,Єзекія розширює Сілоамський тунель, , ,Єзекія розширює тунель Сілоам
+Angloamerica2,"Англо-американець символізується ногами заліза, змішаним з глиною в пророцтві в Даниїлі 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"Англо-американський символізується ногами із заліза, змішаного з глиною, у пророцтві в Даниїла 2:33, 41-43", , ,"Англо-американська імперія символізується ногами із заліза, змішаного з глиною, у пророцтві з книги Даниїла 2:33, 41–43"
+Manetho,Мането пише aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , ,Манефон пише «Агіптіака», , ,Мането пише «Аїгіптіака»
+destruction_babylon,"Знищення Вавилона Великого (Об'явлення 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"Знищення Вавилона Великого (Об'явлення 17:3, 15-18; 18:9, 10)", , ,"Знищення Великого Вавилону (Об’явлення 17:3, 15–18; 18:9, 10)"
+peace_security,"«Мир і безпека!» (1 Фессалонікійців 5:3, це одна з можливостей, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"«Мир і безпека!» (1 Солунянам 5:3, це одна з можливостей, QfR 26/2, 25/11)", , ,"«Мир і безпека!» (1 Солунян 5:3, це один із варіантів, QfR 26/2, 25/11)"
+gog_of_magog,"Атака Gog of Magog (Єзекіїль 38: 1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"Напад Гога з Магога (Єзекіїль 38:1, 2, 9-12, 18-23)", , ,"Напад Гога з Магога (Єзекіїль 38:1, 2, 9–12, 18–23)"
+sheep_goat,"Мешканці Землі судять, розділяючи овець та кіз (Матвія 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"Жителі землі судяться, відокремлюючи овець від козлів (Матвія 25:31-33)", , ,"Мешканці Землі піддаються суду, під час якого відбудеться відокремлення овець від козлів (Матвія 25:31–33)"
+annointed,Збір правителів королівства (Матвія 24:31; 1 Коринтян 15: 50-53; 1 Салонійці 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,Зібрання правителів Царства (Матвія 24:31; 1 Коринтянам 15:50-53; 1 Солунянам 4:15-17), , ,Зібрання правителів Царства (Матвія 24:31; 1 Коринтян 15:50–53; 1 Солунян 4:15–17)
+armageddon,"Битва при Армагеддоні (Об'явлення 16:14, 16; Ісая 13: 9; 2 Петро 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"Битва Армаґеддону (Об'явлення 16:14, 16; Ісая 13:9; 2 Петра 3:12)", , ,"Битва при Армагеддоні (Об’явлення 16:14, 16; Ісая 13:9; 2 Петра 3:12)"
+millenium,"Боже Царство починає своє 1000-річне правління (Об'явлення 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"Боже Царство починає своє 1000-річне панування (Об'явлення 5:9, 10; 20:4, 6)", , ,"Царство Боже розпочинає своє тисячолітнє правління (Об’явлення 5:9, 10; 20:4, 6)"
+great_crowd,"Велика юрба виживає Армагеддон (Об'явлення 7: 9, 14; Псалом 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"Великий натовп виживає після Армаґеддону (Об'явлення 7:9, 14; Псалом 37:9-11)", , ,"Велика юрба людей переживає Армагеддон (Одкровення 7:9, 14; Псалом 37:9–11)"
+world_population,Всесвітнє населення в мільярдах за останні 2000 років,World population in billions in the last 2000 years,appendix B9,text,False, , , , ,Населення світу в мільярдах за останні 2000 років, , ,Чисельність населення світу у мільярдах за останні 2000 років
+khmer_empire_c,Кхмерська імперія - період Ангкор,Khmer Empire - Angkor period, ,text,False, , , , ,Кхмерська імперія – період Ангкор, , ,Кхмерська імперія — період Ангкора
+holy_roman_empire_c,Свята Римська імперія - відома як Свята Римська імперія німецької нації після 1512 року,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,Священна Римська імперія – відома як Священна Римська імперія німецької нації після 1512, , ,Священна Римська імперія — після 1512 року відома як Священна Римська імперія німецької нації
+mongol_empire,Монгольська імперія 1206 - 1294 н. е.,Mongol Empire 1206 – 1294, ,text,False, , , , ,Монгольська імперія 1206 – 1294, , ,Монгольська імперія 1206 – 1294
+maya_classic_c,Майя Цивілізація - Класичний період,Maya civilization – Classic period, ,text,False, , , , ,Цивілізація мая – Класичний період, , ,Цивілізація майя — Класичний період
+maya_postclassic_c,Цивілізація майя - посткласичний період,Maya civilization – Postclassic period, ,text,False, , , , ,Цивілізація мая – Посткласичний період, , ,Цивілізація майя — посткласичний період
+Teotihuacan,"Найбільше місто в Америці, піраміди будують c. 200 н. е.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"Найбільше місто в Америці, піраміди побудовано бл. 200 н.е.", , ,"Найбільше місто в Америці, піраміди зведені приблизно у 200 році н. е."
+Dionysius_Exiguus,"Діонісій Енгуус, винахідник Анно Доміні","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"Діонісій Малий, винахідник Anno Domini", , ,"Діонісій Ексігус, творець літочислення «Anno Domini»"
+Umayyad_c,Умейяд,Umayyad, ,text,False, , , , ,Омейяди, , ,Омейяди
+ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,Династія Ур ІІІ 𒋀𒀕𒆠, , ,Династія Ур III 𒋀𒀕𒆠
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , ,Хаммурапі 𒄩𒄠𒈬𒊏𒁉, , ,Хаммурапі 𒄩𒄠𒈬𒊏𒁉
+Al-Khwarizmi,Аль-Хваріцмі пише Аль-Джабр (Алгебра),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,аль-Хорезмі пише «Аль-Джабр» (Алгебра), , ,Аль-Хорезмі пише працю «Аль-Джабр» («Алгебра»)
+al-azhar,У Каїрі університет Аль-Азхар створений у Каїрі,Al-Azhar University is established in Cairo, ,text,False, , , , ,Університет аль-Азхар засновано в Каїрі, , ,У Каїрі засновано університет Аль-Азхар
+Ibn-Sina,Ibn sina або avicenna,Ibn Sina or Avicenna, ,text,False, , , , ,Ібн Сіна або Авіценна, , ,Ібн Сіна або Авіценна
+life-expectancy,Тривалість життя 75 років,Life expectancy 75 years, ,text,False, , , , ,Тривалість життя 75 років, , ,Очікувана тривалість життя — 75 років
+430years_c,"430 років: Вихід 12:41, Галатам 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"430 років: Вихід 12:41, Галатам 3:17", , ,"430 років: Вихід 12:41, Галатів 3:17"
+maya_calendar,Розрахований початок календаря Майя 11 серпня 3114 р. До н.е.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,Розрахований початок календаря майя 11 серпня 3114 р. до н.е., , ,Розрахований початок календаря майя — 11 серпня 3114 року до н. е.
+xia-dynasty2,c. 2070 - c. 1600 р. До н.е.; Епоха спочатку згадується в західний період Чжоу,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,близько 2070 – близько 1600 рр. до н.е.; Ера вперше згадана під час періоду Західної Чжоу, , ,бл. 2070 — бл. 1600 р. до н. е.; вперше згадується в період Західної династії Чжоу
+xia-dynasty2_c,Династія Ся в Китаї,Xia dynasty in China, ,text,False, , , , ,Династія Ся в Китаї, , ,Династія Ся в Китаї
+tres_zapotes,"3 вересня, 32 до н.е.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,3 вересня 32 р. до н.е., , ,3 вересня 32 року до н. е.
+joseph_jacob_reunited,Йосиф та Яків возз’єдналися в Єгипті - 1728 р. До н.е. (Ген 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,Йосип та Яків знову разом в Єгипті – 1728 р. до н.е. (Бут. 45:11; 47:9), , ,Йосип і Яків зустрілися в Єгипті — 1728 р. до н. е. (Бут. 45:11; 47:9)
+king_south_light_c,Король Півдня від Даніеля 11,King of the South from Daniel 11,2025-02-05,text,False, , , , ,Цар Півдня з Даниїла 11, , ,"«Цар Півдня» з книги Даниїла, 11 розділ"
+king_north_light_c,Король Півночі від Даніеля 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,Цар Півночі з Даниїла 11, , ,"Цар Півночі з книги Даниїла, 11 розділ"
+daniel2_iron_c,Залізні ноги з Даніеля 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Залізні ноги з Даниїла 2, , ,"Залізні ноги з книги Даниїла, розділ 2"
+argenteus,Срі́бний ко́декс (Codex argenteus) c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , ,Кодекс Аргентеус близько 505, , ,"«Codex Argenteus», бл. 505 р."
+nguyen_dynasty_c,Нгуєн,Nguyễn,2025-09-20,text,False, , , , ,Нгуєн, , ,Нгуєн
+edo_c,Період Едо (сьоґунату Токуґава),Edo period in Japan, ,text,False, , , , ,Період Едо в Японії, , ,Період Едо в Японії
+meiji_c,Мейдзі,Meiji,2025-09-20,text,False, , , , ,Мейдзі, , ,Мейдзі
+american_civil_war,Громадянська війна США 1861-65,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,Громадянська війна в Америці 1861-1865, , ,Громадянська війна у США 1861–1865 рр.
+aleppo_codex,Кодекс Алеппо c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,Алеппський кодекс близько 920, , ,"Алеппський кодекс, бл. 920 р."
+vandals,Королівство вандалів і аланів 435 – 534 рр,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Королівство вандалів та аланів 435 – 534, , ,Королівство вандалів та аланів 435 – 534
+francia,"в. 481/509 – 843, Меровінги до 751, потім Каролінги","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"близько 481/509 – 843, Меровінги до 751, потім Каролінги", , ,"бл. 481/509 – 843, період правління Меровінгів до 751 року, потім — Каролінгів"
+francia_c,Королівство франків,Kingdom of the Franks, ,text,False, , , , ,Королівство франків, , ,Королівство франків
+100_years_war,Столітня війна 1337-1453 рр,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Сторічна війна 1337 – 1453, , ,Столітня війна 1337–1453 рр.
+black_death,Чорна смерть 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Чорна смерть 1346-1353, , ,Чорна смерть 1346–1353 рр.
+sui_dynasty,581-618 Династія Суй,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 рр. династія Суй, , ,581–618 рр. Династія Суй
+sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , ,Суй, , ,Суй
+tribulation,"Велика скорбота (Марк 13:19; Даниїл 12: 1; Мт 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"Велика скорбота (Марка 13:19; Даниїла 12:1; Матвія 24:21, 22)", , ,"Велика Скорбота (Марка 13:19; Даниїла 12:1; Матвія 24:21, 22)"
+timeline_created,"Ця часова шкала створена 2023, найгарячіший рік в історії людства та останні 125 000 р.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"Ця хронологія створена у 2023 році, найспекотнішому році в історії людства та за останні 125 000 років", , ,Ця хронологія створена у 2023 році — найспекотнішому році в історії людства та за останні 125 000 років
 Adam,Адам,Adam,Luke 3:38,bible,False, , , , , , , , 
 Seth,Си́ф,Seth, ,bible,False, , , , , , , , 
 Enosh,Ено́ш,Enosh, ,bible,False, , , , , , , , 

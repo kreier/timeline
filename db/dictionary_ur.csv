@@ -1,58 +1,58 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08, ,float,True, , , , , , , , 
-pdf_title,6000 سال انسانی تاریخ کا تصور,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , ,"انسانیت کی تاریخ کے 6,000 سال — ایک زمانی خاکہ"
-pdf_subject,انسانیت کی ٹائم لائن,Timeline of human history from 4000 BCE to present, ,text,False, , , , , , , ,4000 قبل مسیح سے موجودہ وقت تک انسانی تاریخ کا زمانی خاکہ
+pdf_title,6000 سال انسانی تاریخ کا تصور,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,"6,000 سال کی انسانی تاریخ — ایک ٹائم لائن", , ,"انسانیت کی تاریخ کے 6,000 سال — ایک زمانی خاکہ"
+pdf_subject,انسانیت کی ٹائم لائن,Timeline of human history from 4000 BCE to present, ,text,False, , , , ,4000 قبل مسیح سے حال تک انسانی تاریخ کا ٹائم لائن, , ,4000 قبل مسیح سے موجودہ وقت تک انسانی تاریخ کا زمانی خاکہ
 BCE,بی سی ای,B.C.E., ,B9,True, , , , , , , , 
 CE,سی۔ای۔,C.E., ,B9,True, , , , , , , , 
-month,مہینہ,month, ,text,False, , , , , , , ,ماہ
-months,مہینے,months, ,text,False, , , , , , , ,مہینے
-day,دن,day, ,text,False, , , , , , , ,دن
-days,دن,days, ,text,False, , , , , , , ,دن
-to,کو,to, ,text,False, , , , , , , ,کی طرف
-Deluge,سیلاب,Deluge, ,text,False, , , , , , , ,سیلاب
-moses2,1593 سے 1473 قبل مسیح - 120 سال,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , , , ,1593 قبل مسیح سے 1473 قبل مسیح تک – 120 سال
-temple1,نیسان 1513 قبل مسیح زیو سے 1034 قبل مسیح,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , , , ,نسان 1513 قبل مسیح سے زِیو 1034 قبل مسیح تک
-69weeks,یسوع نے خزاں 29 عیسوی میں بپتسمہ دیا۔,Jesus baptized autumn 29 C.E., ,text,False, , , , , , , ,یسوع نے 29 عیسوی کے خزاں میں بپتسمہ دیا۔
-year,سال,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True, , , , , , , ,سال
-years,سال,years, ,text,False, , , , , , , ,سال
-years_age,سال,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , , , , ,سال
+month,مہینہ,month, ,text,False, , , , ,مہینہ, , ,ماہ
+months,مہینے,months, ,text,False, , , , ,مہینے, , ,مہینے
+day,دن,day, ,text,False, , , , ,دن, , ,دن
+days,دن,days, ,text,False, , , , ,دن, , ,دن
+to,کو,to, ,text,False, , , , ,سے, , ,کی طرف
+Deluge,سیلاب,Deluge, ,text,False, , , , ,طوفان نوح, , ,سیلاب
+moses2,1593 سے 1473 قبل مسیح - 120 سال,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,1593 سے 1473 قبل مسیح – 120 سال, , ,1593 قبل مسیح سے 1473 قبل مسیح تک – 120 سال
+temple1,نیسان 1513 قبل مسیح زیو سے 1034 قبل مسیح,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,نیسان 1513 قبل مسیح سے زیو 1034 قبل مسیح تک, , ,نسان 1513 قبل مسیح سے زِیو 1034 قبل مسیح تک
+69weeks,یسوع نے خزاں 29 عیسوی میں بپتسمہ دیا۔,Jesus baptized autumn 29 C.E., ,text,False, , , , ,عیسیٰ کا بپتسمہ خزاں 29 عیسوی میں, , ,یسوع نے 29 عیسوی کے خزاں میں بپتسمہ دیا۔
+year,سال,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True, , , , ,سال, , ,سال
+years,سال,years, ,text,False, , , , ,سال, , ,سال
+years_age,سال,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,سال, , ,سال
 age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,بیابان میں اسرائیل 1513 سے 1473 قبل مسیح - 40 سال,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , , , ,جنگل میں اسرائیل 1513 سے 1473 قبل مسیح – 40 سال
-timespan_judges,1473 سے 1117 قبل مسیح - 356 سال,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , , , ,1473 قبل مسیح سے 1117 قبل مسیح تک – ۳۵۶ سال
-timespan_judges2,ججوں کا وقت,Time of the judges, ,text,False, , , , , , , ,ججوں کا وقت
-temple2,ہیکل کی تعمیر تک 479 سال – 1 کنگز 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , , , ,مندر کی تعمیر تک ۴۷۹ سال باقی ہیں – ۱ بادشاہوں ۶:۱
-69weeks2,مسیحا کے لیے 69 ہفتے – ڈینیل 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , , , ,مسیح کے لیے 69 ہفتے – دانیال 9:25
-jesus_service,یسوع کی خدمت کے 3.5 سال، 14 نیسان، 33 عیسوی کو پھانسی دی گئی۔,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , , , ,یسوع کی خدمت کے ۳.۵ سال، ۳۳ عیسوی کے نسان کی چودہ تاریخ کو پھانسی دی گئی۔
-jesus_life,یسوع کی پیدائش 2 قبل مسیح,Jesus born 2 B.C.E., ,text,False, , , , , , , ,عیسیٰ دو قبل مسیح پیدا ہوئے۔
-exile,607 سے 537 قبل مسیح – 70 سال (یرمیاہ 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , , , ,۶۰۷ قبل از مسیح سے ۵۳۷ قبل از مسیح تک – ۷۰ سال (یرمیاہ ۲۵:۱۱)
-exile2,جلاوطنی,Exile, ,text,False, , , , , , , ,جلاوطن
-7times2,7 بار - مسیحی بادشاہت سے 2520 سال 1914 عیسوی (دانیال 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , , , ,سات مرتبہ – مسیحی بادشاہی تک 2520 سال 1914 عیسوی (دانیال 4:23)
-ww1,جنگ عظیم اول - 1914-1918 عیسوی,World War I – 1914–1918, ,text,False, , , , , , , ,پہلی جنگِ عظیم – 1914–1918
-ww2,دوسری جنگ عظیم - 1939-1945 عیسوی,World War II – 1939–1945, ,text,False, , , , , , , ,دوسری جنگ عظیم – 1939–1945
-30_year_war,یورپ میں تیس سالہ جنگ 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , , , ,یورپ میں تیس سالہ جنگ 1618-1648
-joshua,110 سال,110 years, ,text,False, , , , , , , ,ایک سو دس سال
-caleb,85 سال سے زیادہ,more than 85 years, ,text,False, , , , , , , ,پچھاسی سال سے زیادہ
-missionary1,پال کا پہلا مشنری سفر، سی۔ برناباس اور جان مارک کے ساتھ 47-48 عیسوی,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , , , ,پولس کا پہلا تبلیغی سفر، تقریباً ۴۷–۴۸ عیسوی، برناباس اور یوحنا مرقس کے ساتھ
-circumcision,انطاکیہ میں ختنہ کا مسئلہ، یروشلم میں کانفرنس c. 49 عیسوی,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , , , ,انطاکیہ میں ختنه کا مسئلہ، تقریباً 49 عیسوی میں یروشلم میں کانفرنس۔
-missionary2,دوسرا مشنری سفر ج. 49-52 عیسوی میں سیلاس (سلوانس) کے ساتھ,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , , , ,دوسرا مبلغانہ سفر تقریباً ۴۹–۵۲ عیسوی، سیلَس (سیلوانَس) کے ساتھ
-missionary3,تیسرا مشنری سفر 52-56 عیسوی,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , , , ,تیسری مبلغانہ مہم تقریباً ۵۲–۵۶ عیسوی
-caesarea,پولس قیصریہ میں زیر حراست c. 56-58 عیسوی,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , , , ,پولس تقریباً 56–58 عیسوی میں قیصریہ میں حراست میں۔
-rome1,روم میں پولس کی پہلی قید 59-61 عیسوی میں ہوئی۔,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , , , ,پولس کی روم میں پہلی قید تقریباً ۵۹–۶۱ عیسوی میں
-rome2,روم میں پولس کی دوسری قید c. 65 عیسوی، 2 تیمتھیس نے لکھا، پال کو پھانسی دی گئی۔,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , , , ,پولس کی روم میں دوسری قید تقریباً 65 عیسوی میں، دوم تیموتاؤس لکھا گیا، پولس کو پھانسی دی گئی۔
-event_exodus,14 نیسان 1513 قبل مسیح کو مصر سے خروج,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , , , ,مصر سے خروج، نسان کی چودہویں تاریخ، ۱۵۱۳ قبل مسیح
-event_division_kingdom,اسرائیل کی تقسیم 997 قبل مسیح,Division of Israel 997 BCE, ,text,False, , , , , , , ,اسرائیل کی تقسیم ۹۹۷ قبل مسیح
-event_destruction_samaria,سامریہ کی تباہی 740 قبل مسیح اسوری کی طرف سے,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , , , ,آشور کے ذریعے ۷۴۰ قبل مسیح میں سامریہ کی تباہی
-event_destruction_jerusalem1,یروشلم کی تباہی 607 قبل مسیح بابل کی طرف سے، سلطنت کی تقسیم کے 390 سال بعد (حزقی ایل 4:5),"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , , , ,607 قبل مسیح میں بابل کے ذریعے یروشلم کی تباہی، بادشاہی کے تقسیم کے 390 سال بعد (حزقی ایل 4:5)
-event_temple_rebuilt,یروشلم میں ہیکل کی تعمیر نو 515 قبل مسیح,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , , , ,یروشلم میں مندر کو ۵۱۵ قبل مسیح میں دوبارہ تعمیر کیا گیا۔
-event_jerusalem_rebuilt,یروشلم کی دیوار 455 قبل مسیح میں دوبارہ تعمیر کی گئی۔,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , , , ,یروشلم کی دیوار ۴۵۵ قبل مسیح میں دوبارہ تعمیر کی گئی۔
-event_destruction_jerusalem2,یروشلم کی تباہی 70 عیسوی میں روم کے ذریعے ٹائٹس کے تحت,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , , , ,70 عیسوی میں روم کے ٹائٹس کے زیرِ قیادت یروشلم کی تباہی
-event_1914,قوموں کے وقت کے اختتام پر (لوقا 21:24)، خدا کی بادشاہی 1914 عیسوی میں آسمان پر حکومت کرنا شروع کر دیتی ہے۔,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",4.6 extends scriptures,text,False, , , , , , , ,قوموں کے وقت کا اختتام (لوقا 21:24)، خدا کی بادشاہی آسمان میں 1914 عیسوی میں حکمرانی کرنا شروع کرتی ہے۔
-became_king,عمر میں بادشاہ بن گیا,becomes king at age, ,text,False, , , , , , , ,عمر میں بادشاہ بنتا ہے
-vulgate,ولگیٹ جیروم نے مکمل کیا (بائبل کا لاطینی ترجمہ) سی۔ 405 عیسوی,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , , , ,جیروم نے ولگیٹ (بائبل کا لاطینی ترجمہ) تقریباً ۴۰۵ عیسوی میں مکمل کیا۔
-gutenberg,گٹنبرگ بائبل 1455 میں چھپی,Gutenberg Bible printed 1455, ,text,False, , , , , , , ,گوٹنبرگ بائبل 1455 میں شائع ہوئی۔
-erasmus,عیسائی یونانی صحیفے کا یونانی متن 1516 کے روٹرڈیم کے ڈیسیڈیریئس ایراسمس کے ذریعہ شائع ہوا,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , , , ,1516 میں روتردام کے ڈیسڈییریس ایراسمس کی شائع کردہ مسیحی یونانی صحائف کا یونانی متن
-luther,ستمبر 1522 میں لوتھر بائبل کا ترجمہ,Luther Bible translation in September 1522, ,text,False, , , , , , , ,ستمبر 1522 میں لوثر کی بائبل کا ترجمہ
-tyndale,ٹنڈیل 1536 کا انگریزی بائبل ترجمہ,English Bible translation by Tyndale 1536, ,text,False, , , , , , , ,ٹنڈیل کا 1536 کا بائبل انگریزی ترجمہ
+wilderness,بیابان میں اسرائیل 1513 سے 1473 قبل مسیح - 40 سال,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,اسرائیل بیابان میں 1513 سے 1473 قبل مسیح – 40 سال, , ,جنگل میں اسرائیل 1513 سے 1473 قبل مسیح – 40 سال
+timespan_judges,1473 سے 1117 قبل مسیح - 356 سال,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 سے 1117 قبل مسیح – 356 سال, , ,1473 قبل مسیح سے 1117 قبل مسیح تک – ۳۵۶ سال
+timespan_judges2,ججوں کا وقت,Time of the judges, ,text,False, , , , ,قاضیوں کا زمانہ, , ,ججوں کا وقت
+temple2,ہیکل کی تعمیر تک 479 سال – 1 کنگز 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,ہیکل کی تعمیر تک 479 سال – 1 سلاطین 6:1, , ,مندر کی تعمیر تک ۴۷۹ سال باقی ہیں – ۱ بادشاہوں ۶:۱
+69weeks2,مسیحا کے لیے 69 ہفتے – ڈینیل 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,مسیح تک 69 ہفتے – دانیال 9:25, , ,مسیح کے لیے 69 ہفتے – دانیال 9:25
+jesus_service,یسوع کی خدمت کے 3.5 سال، 14 نیسان، 33 عیسوی کو پھانسی دی گئی۔,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,عیسیٰ کی خدمت کے 3.5 سال، نیسان 14، 33 عیسوی کو پھانسی, , ,یسوع کی خدمت کے ۳.۵ سال، ۳۳ عیسوی کے نسان کی چودہ تاریخ کو پھانسی دی گئی۔
+jesus_life,یسوع کی پیدائش 2 قبل مسیح,Jesus born 2 B.C.E., ,text,False, , , , ,عیسیٰ 2 قبل مسیح میں پیدا ہوئے, , ,عیسیٰ دو قبل مسیح پیدا ہوئے۔
+exile,607 سے 537 قبل مسیح – 70 سال (یرمیاہ 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,607 سے 537 قبل مسیح – 70 سال (یرمیاہ 25:11), , ,۶۰۷ قبل از مسیح سے ۵۳۷ قبل از مسیح تک – ۷۰ سال (یرمیاہ ۲۵:۱۱)
+exile2,جلاوطنی,Exile, ,text,False, , , , ,جلاوطنی, , ,جلاوطن
+7times2,7 بار - مسیحی بادشاہت سے 2520 سال 1914 عیسوی (دانیال 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,مسیائی بادشاہی 1914 عیسوی تک 7 وقت – 2520 سال (دانیال 4:23), , ,سات مرتبہ – مسیحی بادشاہی تک 2520 سال 1914 عیسوی (دانیال 4:23)
+ww1,جنگ عظیم اول - 1914-1918 عیسوی,World War I – 1914–1918, ,text,False, , , , ,پہلی جنگ عظیم – 1914–1918, , ,پہلی جنگِ عظیم – 1914–1918
+ww2,دوسری جنگ عظیم - 1939-1945 عیسوی,World War II – 1939–1945, ,text,False, , , , ,دوسری جنگ عظیم – 1939–1945, , ,دوسری جنگ عظیم – 1939–1945
+30_year_war,یورپ میں تیس سالہ جنگ 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,یورپ میں تیس سالہ جنگ 1618-1648, , ,یورپ میں تیس سالہ جنگ 1618-1648
+joshua,110 سال,110 years, ,text,False, , , , ,110 سال, , ,ایک سو دس سال
+caleb,85 سال سے زیادہ,more than 85 years, ,text,False, , , , ,85 سال سے زیادہ, , ,پچھاسی سال سے زیادہ
+missionary1,پال کا پہلا مشنری سفر، سی۔ برناباس اور جان مارک کے ساتھ 47-48 عیسوی,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,پولس کا پہلا مشنری سفر، تقریباً 47-48 عیسوی، برنباس اور یوحنا مرقس کے ساتھ, , ,پولس کا پہلا تبلیغی سفر، تقریباً ۴۷–۴۸ عیسوی، برناباس اور یوحنا مرقس کے ساتھ
+circumcision,انطاکیہ میں ختنہ کا مسئلہ، یروشلم میں کانفرنس c. 49 عیسوی,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,انطاکیہ میں ختنہ کا مسئلہ، یروشلیم میں کانفرنس تقریباً 49 عیسوی, , ,انطاکیہ میں ختنه کا مسئلہ، تقریباً 49 عیسوی میں یروشلم میں کانفرنس۔
+missionary2,دوسرا مشنری سفر ج. 49-52 عیسوی میں سیلاس (سلوانس) کے ساتھ,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,دوسرا مشنری سفر تقریباً 49-52 عیسوی، سیلاس (سلوانس) کے ساتھ, , ,دوسرا مبلغانہ سفر تقریباً ۴۹–۵۲ عیسوی، سیلَس (سیلوانَس) کے ساتھ
+missionary3,تیسرا مشنری سفر 52-56 عیسوی,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,تیسرا مشنری سفر تقریباً 52-56 عیسوی, , ,تیسری مبلغانہ مہم تقریباً ۵۲–۵۶ عیسوی
+caesarea,پولس قیصریہ میں زیر حراست c. 56-58 عیسوی,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,قیصریہ میں پولس کی حراست تقریباً 56-58 عیسوی, , ,پولس تقریباً 56–58 عیسوی میں قیصریہ میں حراست میں۔
+rome1,روم میں پولس کی پہلی قید 59-61 عیسوی میں ہوئی۔,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,روم میں پولس کی پہلی قید تقریباً 59-61 عیسوی, , ,پولس کی روم میں پہلی قید تقریباً ۵۹–۶۱ عیسوی میں
+rome2,روم میں پولس کی دوسری قید c. 65 عیسوی، 2 تیمتھیس نے لکھا، پال کو پھانسی دی گئی۔,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,روم میں پولس کی دوسری قید تقریباً 65 عیسوی، 2 تیمتھیس لکھی گئی، پولس کو پھانسی دی گئی, , ,پولس کی روم میں دوسری قید تقریباً 65 عیسوی میں، دوم تیموتاؤس لکھا گیا، پولس کو پھانسی دی گئی۔
+event_exodus,14 نیسان 1513 قبل مسیح کو مصر سے خروج,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,نیسان 14، 1513 قبل مسیح کو مصر سے خروج, , ,مصر سے خروج، نسان کی چودہویں تاریخ، ۱۵۱۳ قبل مسیح
+event_division_kingdom,اسرائیل کی تقسیم 997 قبل مسیح,Division of Israel 997 BCE, ,text,False, , , , ,997 قبل مسیح میں اسرائیل کی تقسیم, , ,اسرائیل کی تقسیم ۹۹۷ قبل مسیح
+event_destruction_samaria,سامریہ کی تباہی 740 قبل مسیح اسوری کی طرف سے,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,740 قبل مسیح میں اشور کے ہاتھوں سامریہ کی تباہی, , ,آشور کے ذریعے ۷۴۰ قبل مسیح میں سامریہ کی تباہی
+event_destruction_jerusalem1,یروشلم کی تباہی 607 قبل مسیح بابل کی طرف سے، سلطنت کی تقسیم کے 390 سال بعد (حزقی ایل 4:5),"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,607 قبل مسیح میں بابل کے ہاتھوں یروشلیم کی تباہی، بادشاہت کی تقسیم کے 390 سال بعد (حزقی ایل 4:5), , ,607 قبل مسیح میں بابل کے ذریعے یروشلم کی تباہی، بادشاہی کے تقسیم کے 390 سال بعد (حزقی ایل 4:5)
+event_temple_rebuilt,یروشلم میں ہیکل کی تعمیر نو 515 قبل مسیح,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,515 قبل مسیح میں یروشلیم میں ہیکل کی دوبارہ تعمیر, , ,یروشلم میں مندر کو ۵۱۵ قبل مسیح میں دوبارہ تعمیر کیا گیا۔
+event_jerusalem_rebuilt,یروشلم کی دیوار 455 قبل مسیح میں دوبارہ تعمیر کی گئی۔,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,455 قبل مسیح میں یروشلیم کی دیوار کی دوبارہ تعمیر, , ,یروشلم کی دیوار ۴۵۵ قبل مسیح میں دوبارہ تعمیر کی گئی۔
+event_destruction_jerusalem2,یروشلم کی تباہی 70 عیسوی میں روم کے ذریعے ٹائٹس کے تحت,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,70 عیسوی میں ٹائٹس کی قیادت میں روم کے ہاتھوں یروشلیم کی تباہی, , ,70 عیسوی میں روم کے ٹائٹس کے زیرِ قیادت یروشلم کی تباہی
+event_1914,قوموں کے وقت کے اختتام پر (لوقا 21:24)، خدا کی بادشاہی 1914 عیسوی میں آسمان پر حکومت کرنا شروع کر دیتی ہے۔,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",4.6 extends scriptures,text,False, , , , ,قوموں کے زمانے کا خاتمہ (لوقا 21:24)، خدا کی بادشاہی آسمان میں حکومت کرنا شروع کرتی ہے 1914 عیسوی, , ,قوموں کے وقت کا اختتام (لوقا 21:24)، خدا کی بادشاہی آسمان میں 1914 عیسوی میں حکمرانی کرنا شروع کرتی ہے۔
+became_king,عمر میں بادشاہ بن گیا,becomes king at age, ,text,False, , , , ,عمر میں بادشاہ بنتا ہے, , ,عمر میں بادشاہ بنتا ہے
+vulgate,ولگیٹ جیروم نے مکمل کیا (بائبل کا لاطینی ترجمہ) سی۔ 405 عیسوی,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,تقریباً 405 عیسوی میں جیروم کی طرف سے ولگیٹ مکمل (بائبل کا لاطینی ترجمہ), , ,جیروم نے ولگیٹ (بائبل کا لاطینی ترجمہ) تقریباً ۴۰۵ عیسوی میں مکمل کیا۔
+gutenberg,گٹنبرگ بائبل 1455 میں چھپی,Gutenberg Bible printed 1455, ,text,False, , , , ,1455 میں گوٹنبرگ بائبل کی چھپائی, , ,گوٹنبرگ بائبل 1455 میں شائع ہوئی۔
+erasmus,عیسائی یونانی صحیفے کا یونانی متن 1516 کے روٹرڈیم کے ڈیسیڈیریئس ایراسمس کے ذریعہ شائع ہوا,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,1516 میں روترdam کے ڈیسیڈیریس ایراسمس کی طرف سے مسیحی یونانی صحیفوں کا یونانی متن شائع, , ,1516 میں روتردام کے ڈیسڈییریس ایراسمس کی شائع کردہ مسیحی یونانی صحائف کا یونانی متن
+luther,ستمبر 1522 میں لوتھر بائبل کا ترجمہ,Luther Bible translation in September 1522, ,text,False, , , , ,ستمبر 1522 میں لوتھر بائبل کا ترجمہ, , ,ستمبر 1522 میں لوثر کی بائبل کا ترجمہ
+tyndale,ٹنڈیل 1536 کا انگریزی بائبل ترجمہ,English Bible translation by Tyndale 1536, ,text,False, , , , ,1536 میں ٹینڈیل کا انگریزی بائبل ترجمہ, , ,ٹنڈیل کا 1536 کا بائبل انگریزی ترجمہ
 king_james,کنگ جیمز بائبل 1611,King James Bible 1611, ,text,False, , , , , , , ,کنگ جیمز بائبل ۱۶۱۱
 69weeks3,یسوع 29 عیسوی میں اپنی خدمت شروع کرتا ہے (لوقا 3:1، 21),"Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , , , , ,یسوع نے اپنی خدمت 29 عیسوی میں شروع کی (لوقا 3:1، 21)
 ransom,"ہفتے کے وسط میں ""بند ہونے کے لیے قربانی"" ڈینیئل 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , , , , ,"ہفتے کے وسط میں ""وقف کو ختم کرنے کی قربانی"" دانئیل 9:27"
@@ -103,56 +103,56 @@ Lots_wife,لوط کی بیوی,Lot’s wife, ,text,False, , , , , , , ,لوط ک
 Lots_daughters,لوط کی بیٹیاں,Daughters of Lot, ,text,False, , , , , , , ,لوط کی بیٹیاں
 Moab,موآب (بڑی بیٹی),Moab (older daughter), ,text,False, , , , , , , ,موآب (بڑی بیٹی)
 rosetta,روزیٹا پتھر 196 قبل مسیح,Rosetta stone 196 B.C.E., ,text,False, , , , , , , ,روسیٹا اسٹون 196 قبل مسیح
-Herodotus,ہیروڈوٹس سی۔ 484 - ج. 425 قبل مسیح، تاریخ لکھتا ہے۔,"Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , ,ہیروڈوٹس (تقریباً ۴۸۴–۴۲۵ قبل مسیح) نے 'دی ہسٹریز' لکھی۔
-Aristotle,ارسطو 384-322 قبل مسیح,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , ,ارسطو ۳۸۴ – ۳۲۲ قبل مسیح
-Ptolemy,بطلیمی سی 100 – 170 عیسوی,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , ,بطلیم تقریباً ۱۰۰ سے تقریباً ۱۷۰ عیسوی
-Pythagoras,Pythagoras c. 570 - سی۔ 495 قبل مسیح,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , ,پتھاگورس تقریباً ۵۷۰ قبل مسیح – تقریباً ۴۹۵ قبل مسیح
-Plato,افلاطون ج. 427 - سی۔ 348 قبل مسیح,Plato c. 427 – c. 348 BC, ,text,False, , , , , , , ,افلاطون تقریباً ۴۲۷ – تقریباً ۳۴۸ قبل مسیح
-Socrates,سقراط ج. 470 - سی۔ 399 قبل مسیح,Socrates c. 470 – c. 399 BC, ,text,False, , , , , , , ,سقراط تقریباً ۴۷۰ قبل مسیح – تقریباً ۳۹۹ قبل مسیح
-Josephus,جوزفس سی. 37 - ج. 100 عیسوی,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , , , ,جوزیفس تقریباً ۳۷ – تقریباً ۱۰۰ عیسوی
-Cicero,سیسیرو 106–43 قبل مسیح,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , , , ,سیسرو ۱۰۶–۴۳ قبل مسیح
-lachish_letters,لکش حروف ج. 590 قبل مسیح,Lachish letters c. 590 B.C.E., ,text,False, , , , , , , ,لاخیش خطوط، تقریباً ۵۹۰ قبل مسیح
-lachish_reliefs,لچش ریلیفز c. 681 قبل مسیح,Lachish reliefs c. 681 B.C.E., ,text,False, , , , , , , ,لاخیش کے نقشِ برجستہ، تقریباً ۶۸۱ قبل مسیح
-mesha_stele,میشا سٹیل (موآبی پتھر) ج. 840 قبل مسیح,Mesha Stele (Moabite stone) c. 840 B.C.E., ,text,False, , , , , , , ,میشا ستون (موبائیٹ پتھر) تقریباً ۸۴۰ قبل مسیح
-gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , , , ,گلگمش اور آگا 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,گلگامیش کا مہاکاوی (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , , , ,گیلگامیش کا داستان (سین-لیقی-اُنینی)
-gregorian,گریگورین کیلنڈر 1582,Gregorian calendar 1582, ,text,False, , , , , , , ,گریگورین کیلنڈر ۱۵۸۲
-shang-dynasty,c 1600-1046 قبل مسیح,c. 1600-1046 BC, ,text,False, , , , , , , ,تقریباً ۱۶۰۰-۱۰۴۶ قبل مسیح
-western-zhou,c 1046-771 قبل مسیح,c. 1046-771 BC, ,text,False, , , , , , , ,تقریباً ۱۰۴۶-۷۷۱ قبل مسیح
-qin-dynasty,کن 221-207 قبل مسیح,Qin 221-207 BC, ,text,False, , , , , , , ,چن 221-207 قبل مسیح
-western-han,207 قبل مسیح - 9 عیسوی,207 BC – 9 CE, ,text,False, , , , , , , ,۲۰۷ قبل مسیح – ۹ عیسوی
-three-kingdoms,تین سلطنتیں 220-280 عیسوی,Three kingdoms 220-280 CE, ,text,False, , , , , , , ,تین سلطنتیں 220-280 عیسوی
-sixteen-kingdoms,سولہ سلطنتیں 304-439 عیسوی,Sixteen kingdoms 304-439 CE, ,text,False, , , , , , , ,سولہ سلطنتیں 304–439 عیسوی
-tang-dynasty2,618-690، 705-907,"618-690, 705-907", ,text,False, , , , , , , ,۶۱۸-۶۹۰، ۷۰۵-۹۰۷
-wu-zhou,690-705 وو زو,690-705 Wu Zhou, ,text,False, , , , , , , ,۶۹۰-۷۰۵ وو ژو
-tang-dynasty1_c,تانگ,Tang, ,text,False, , , , , , , ,تانگ
-gonghe,گونگے ریجنسی 841-828 قبل مسیح,Gonghe Regency 841-828 BC, ,text,False, , , , , , , ,گونگھے ریجنسی ۸۴۱–۸۲۸ قبل مسیح
-Ashoka,اشوک (c. 304-232 BC) بدھ مت کو فروغ دیتا ہے۔,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , , , ,اشوک (تقریباً 304–232 قبل مسیح) نے بدھ مت کو فروغ دیا۔
-siloam-tunnel,حزقیاہ نے سلوام سرنگ کو بڑھایا,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , , , ,حزقیاہ نے سلوام سرنگ کو طول دیا۔
-Angloamerica2,ڈینیئل 2:33، 41-43 میں پیشینگوئی میں اینگلو امریکن کو مٹی کے ساتھ ملے ہوئے لوہے کے پاؤں سے نشان زد کیا گیا ہے۔,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , , , ,اینگلو-امریکی کی علامت دانیل 2:33، 41-43 کی پیشگوئی میں مٹی میں ملے ہوئے لوہے کے پاؤں سے ظاہر ہوتی ہے۔
-Manetho,منیتھو ایجپٹیاکا لکھتا ہے,Manetho writes Aegyptiaca, ,text,False, , , , , , , ,مینیتھو نے ایجیپٹیاکا لکھا۔
-destruction_babylon,عظیم بابل کی تباہی (مکاشفہ 17:3، 15-18؛ 18:9، 10),"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , , , ,بابلِ عظیم کی تباہی (مکاشفہ 17:3، 15-18؛ 18:9، 10)
-peace_security,"""امن اور سلامتی!"" (1 تھسلنیکیوں 5:3، یہ ​​ایک امکان ہے، QfR 26/2، 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , , , ,"""امن اور سلامتی!"" (1 تھسلنیکیوں 5:3، یہ ایک امکان ہے، QfR 26/2، 25/11)"
-gog_of_magog,یاجوج ماجوج کا حملہ (حزقی ایل 38:1، 2، 9-12، 18-23),"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , , , ,یأجوج ماجوج کا حملہ (حزقی ایل ۳۸: ۱، ۲، ۹-۱۲، ۱۸-۲۳)
-sheep_goat,بھیڑوں اور بکریوں کو الگ کرتے ہوئے زمین کے باشندوں کا فیصلہ کیا جائے گا (متی 25:31-33),"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , , , ,زمین کے باشندوں کا فیصلہ کیا جاتا ہے، بھیڑوں اور بکرے الگ کیے جاتے ہیں (متی ۲۵:۳۱-۳۳)
-annointed,بادشاہی حکمرانوں کا اجتماع (متی 24:31؛ 1 کرنتھیوں 15:50-53؛ 1 تھیسالونیکیوں 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , , , ,بادشاہی حکمرانوں کا اجتماع (متی ۲۴:۳۱؛ ۱ کرنتھیوں ۱۵:۵۰-۵۳؛ ۱ تھسلنیکیوں ۴:۱۵-۱۷)
-armageddon,آرماجیڈون کی جنگ (مکاشفہ 16:14، 16؛ یسعیاہ 13:9؛ 2 پیٹر 3:12),"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , , , ,آرمگیدون کی جنگ (مکاشفہ 16:14،16؛ یسعیاہ 13:9؛ دوم پطرس 3:12)
-millenium,خدا کی بادشاہت اپنے 1000 سالہ دور حکومت کا آغاز کرتی ہے (مکاشفہ 5:9، 10؛ 20:4، 6),"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , , , ,خدا کی بادشاہی اپنا ہزار سالہ حکمرانی شروع کرتی ہے (مکاشفہ 5:9، 10؛ 20:4، 6)
-great_crowd,ایک بڑی بھیڑ آرماجیڈون سے بچ گئی (مکاشفہ 7:9، 14؛ زبور 37:9-11),"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , , , ,ایک عظیم ہجوم آرماغیڈون سے بچ جاتا ہے (مکاشفہ 7:9، 14؛ زبور 37:9-11)
-world_population,گزشتہ 2000 سالوں میں دنیا کی آبادی اربوں میں,World population in billions in the last 2000 years, ,text,False, , , , , , , ,گزشتہ 2000 سالوں میں عالمی آبادی اربوں میں
-khmer_empire_c,خمیر سلطنت - انگکور دور,Khmer Empire - Angkor period, ,text,False, , , , , , , ,کھمیر سلطنت - انگکور دور
-holy_roman_empire_c,مقدس رومن سلطنت - 1512 کے بعد جرمن قوم کی مقدس رومن سلطنت,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , , , ,مقدس رومن سلطنت – جسے 1512 کے بعد جرمن قوم کی مقدس رومن سلطنت کے نام سے جانا جاتا ہے
-mongol_empire,منگول سلطنت 1206 - 1294 عیسوی,Mongol Empire 1206 – 1294, ,text,False, , , , , , , ,مغولی سلطنت ۱۲۰۶ – ۱۲۹۴
-maya_classic_c,مایا تہذیب - کلاسک دور,Maya civilization – Classic period, ,text,False, , , , , , , ,مایا تہذیب – کلاسیکی دور
-maya_postclassic_c,مایا تہذیب - پوسٹ کلاسک دور,Maya civilization – Postclassic period, ,text,False, , , , , , , ,مایا تہذیب – پوسٹ کلاسک دور
-Teotihuacan,امریکہ کا سب سے بڑا شہر، اہرام کی تعمیر c. 200 عیسوی,"Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , , , ,امریکہ کے براعظموں کا سب سے بڑا شہر، تقریباً 200 عیسوی میں تعمیر کیے گئے پرامید۔
-Dionysius_Exiguus,Dionysius Exiguus، Anno Domini کا موجد,"Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , , , ,ڈائیونیسیس ایکزیگوس، انو ڈومینی کے موجد
-Umayyad_c,اموی,Umayyad, ,text,False, , , , , , , ,اموی
-ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , , , ,یور سوم کی سلطنت 𒋀𒀕𒆠
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , , , ,ہَمورابِی 𒄩𒄠𒈬𒊏𒁉
-Al-Khwarizmi,الخوارزمی الجبر (الجبرا) لکھتے ہیں۔,al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , ,الخوارزمی نے الجبر (الجبریات) لکھا۔
-al-azhar,جامعہ الازہر قاہرہ میں قائم ہے۔,Al-Azhar University is established in Cairo, ,text,False, , , , , , , ,جامعہ الازہر قاہرہ میں قائم کی گئی ہے۔
-Ibn-Sina,ابن سینا یا اویسینا,Ibn Sina or Avicenna, ,text,False, , , , , , , ,ابن سینا یا ابو سینا
+Herodotus,ہیروڈوٹس سی۔ 484 - ج. 425 قبل مسیح، تاریخ لکھتا ہے۔,"Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,ہیروڈوٹس c. 484 – c. 425 ق م، ہسٹریز لکھتا ہے, , ,ہیروڈوٹس (تقریباً ۴۸۴–۴۲۵ قبل مسیح) نے 'دی ہسٹریز' لکھی۔
+Aristotle,ارسطو 384-322 قبل مسیح,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,ارسطو 384 – 322 ق م, , ,ارسطو ۳۸۴ – ۳۲۲ قبل مسیح
+Ptolemy,بطلیمی سی 100 – 170 عیسوی,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,ٹولیمی c 100 – c 170 عیسوی, , ,بطلیم تقریباً ۱۰۰ سے تقریباً ۱۷۰ عیسوی
+Pythagoras,Pythagoras c. 570 - سی۔ 495 قبل مسیح,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,فیثاغورث c. 570 – c. 495 ق م, , ,پتھاگورس تقریباً ۵۷۰ قبل مسیح – تقریباً ۴۹۵ قبل مسیح
+Plato,افلاطون ج. 427 - سی۔ 348 قبل مسیح,Plato c. 427 – c. 348 BC, ,text,False, , , , ,افلاطون c. 427 – c. 348 ق م, , ,افلاطون تقریباً ۴۲۷ – تقریباً ۳۴۸ قبل مسیح
+Socrates,سقراط ج. 470 - سی۔ 399 قبل مسیح,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,سقراط c. 470 – c. 399 ق م, , ,سقراط تقریباً ۴۷۰ قبل مسیح – تقریباً ۳۹۹ قبل مسیح
+Josephus,جوزفس سی. 37 - ج. 100 عیسوی,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,یوسف بن متی ہوریو c. 37 – c. 100 عیسوی, , ,جوزیفس تقریباً ۳۷ – تقریباً ۱۰۰ عیسوی
+Cicero,سیسیرو 106–43 قبل مسیح,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,سیسرو 106–43 ق م, , ,سیسرو ۱۰۶–۴۳ قبل مسیح
+lachish_letters,لکش حروف ج. 590 قبل مسیح,Lachish letters c. 590 B.C.E., ,text,False, , , , ,لاخیش کے خطوط c. 590 ق م, , ,لاخیش خطوط، تقریباً ۵۹۰ قبل مسیح
+lachish_reliefs,لچش ریلیفز c. 681 قبل مسیح,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,لاخیش کی نقش نگاریاں c. 681 ق م, , ,لاخیش کے نقشِ برجستہ، تقریباً ۶۸۱ قبل مسیح
+mesha_stele,میشا سٹیل (موآبی پتھر) ج. 840 قبل مسیح,Mesha Stele (Moabite stone) c. 840 B.C.E., ,text,False, , , , ,میشع ستلہ (موآبی پتھر) c. 840 ق م, , ,میشا ستون (موبائیٹ پتھر) تقریباً ۸۴۰ قبل مسیح
+gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,گلگمش اور اَگا 𒇽𒆥𒄄𒀀𒀝𒂵, , ,گلگمش اور آگا 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,گلگامیش کا مہاکاوی (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,گلگمش کا مہاکاویہ (سِن-لیقی-اُنِنّی), , ,گیلگامیش کا داستان (سین-لیقی-اُنینی)
+gregorian,گریگورین کیلنڈر 1582,Gregorian calendar 1582, ,text,False, , , , ,گریگوری تقویم 1582, , ,گریگورین کیلنڈر ۱۵۸۲
+shang-dynasty,c 1600-1046 قبل مسیح,c. 1600-1046 BC, ,text,False, , , , ,c. 1600-1046 ق م, , ,تقریباً ۱۶۰۰-۱۰۴۶ قبل مسیح
+western-zhou,c 1046-771 قبل مسیح,c. 1046-771 BC, ,text,False, , , , ,c. 1046-771 ق م, , ,تقریباً ۱۰۴۶-۷۷۱ قبل مسیح
+qin-dynasty,کن 221-207 قبل مسیح,Qin 221-207 BC, ,text,False, , , , ,چن 221-207 ق م, , ,چن 221-207 قبل مسیح
+western-han,207 قبل مسیح - 9 عیسوی,207 BC – 9 CE, ,text,False, , , , ,207 ق م – 9 عیسوی, , ,۲۰۷ قبل مسیح – ۹ عیسوی
+three-kingdoms,تین سلطنتیں 220-280 عیسوی,Three kingdoms 220-280 CE, ,text,False, , , , ,تین بادشاہیاں 220-280 عیسوی, , ,تین سلطنتیں 220-280 عیسوی
+sixteen-kingdoms,سولہ سلطنتیں 304-439 عیسوی,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,سولہ بادشاہیاں 304-439 عیسوی, , ,سولہ سلطنتیں 304–439 عیسوی
+tang-dynasty2,618-690، 705-907,"618-690, 705-907", ,text,False, , , , ,618-690، 705-907, , ,۶۱۸-۶۹۰، ۷۰۵-۹۰۷
+wu-zhou,690-705 وو زو,690-705 Wu Zhou, ,text,False, , , , ,690-705 وو ژو, , ,۶۹۰-۷۰۵ وو ژو
+tang-dynasty1_c,تانگ,Tang, ,text,False, , , , ,تانگ, , ,تانگ
+gonghe,گونگے ریجنسی 841-828 قبل مسیح,Gonghe Regency 841-828 BC, ,text,False, , , , ,گونگہی ریجنیسی 841-828 ق م, , ,گونگھے ریجنسی ۸۴۱–۸۲۸ قبل مسیح
+Ashoka,اشوک (c. 304-232 BC) بدھ مت کو فروغ دیتا ہے۔,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,اشوک (c. 304-232 ق م) بدھ مت کو فروغ دیتا ہے, , ,اشوک (تقریباً 304–232 قبل مسیح) نے بدھ مت کو فروغ دیا۔
+siloam-tunnel,حزقیاہ نے سلوام سرنگ کو بڑھایا,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,حزقیاہ سیلوام سرنگ کو بڑھاتا ہے, , ,حزقیاہ نے سلوام سرنگ کو طول دیا۔
+Angloamerica2,ڈینیئل 2:33، 41-43 میں پیشینگوئی میں اینگلو امریکن کو مٹی کے ساتھ ملے ہوئے لوہے کے پاؤں سے نشان زد کیا گیا ہے۔,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,اینگلو-امریکن کو لوہے اور مٹی کے پاؤں سے ظاہر کیا گیا ہے، دانیال 2:33، 41-43 کی نبوت میں, , ,اینگلو-امریکی کی علامت دانیل 2:33، 41-43 کی پیشگوئی میں مٹی میں ملے ہوئے لوہے کے پاؤں سے ظاہر ہوتی ہے۔
+Manetho,منیتھو ایجپٹیاکا لکھتا ہے,Manetho writes Aegyptiaca, ,text,False, , , , ,مانیتھو مصریات (اے جپٹیاکا) لکھتا ہے, , ,مینیتھو نے ایجیپٹیاکا لکھا۔
+destruction_babylon,عظیم بابل کی تباہی (مکاشفہ 17:3، 15-18؛ 18:9، 10),"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,بابل عظیم کی تباہی (مکاشفہ 17:3، 15-18؛ 18:9، 10), , ,بابلِ عظیم کی تباہی (مکاشفہ 17:3، 15-18؛ 18:9، 10)
+peace_security,"""امن اور سلامتی!"" (1 تھسلنیکیوں 5:3، یہ ​​ایک امکان ہے، QfR 26/2، 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"""امن اور حفاظت!"" (1 تھسلنیکیوں 5:3، یہ ایک امکان ہے، QfR 26/2، 25/11)", , ,"""امن اور سلامتی!"" (1 تھسلنیکیوں 5:3، یہ ایک امکان ہے، QfR 26/2، 25/11)"
+gog_of_magog,یاجوج ماجوج کا حملہ (حزقی ایل 38:1، 2، 9-12، 18-23),"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,جوج ماجوج کا حملہ (حزقی ایل 38:1، 2، 9-12، 18-23), , ,یأجوج ماجوج کا حملہ (حزقی ایل ۳۸: ۱، ۲، ۹-۱۲، ۱۸-۲۳)
+sheep_goat,بھیڑوں اور بکریوں کو الگ کرتے ہوئے زمین کے باشندوں کا فیصلہ کیا جائے گا (متی 25:31-33),"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,زمین کے باشندوں کا فیصلہ، بھیڑوں اور بکریوں کو الگ کرنا (متی 25:31-33), , ,زمین کے باشندوں کا فیصلہ کیا جاتا ہے، بھیڑوں اور بکرے الگ کیے جاتے ہیں (متی ۲۵:۳۱-۳۳)
+annointed,بادشاہی حکمرانوں کا اجتماع (متی 24:31؛ 1 کرنتھیوں 15:50-53؛ 1 تھیسالونیکیوں 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,بادشاہت کے حاکموں کا اکٹھا ہونا (متی 24:31؛ 1 کرنتھیوں 15:50-53؛ 1 تھسلنیکیوں 4:15-17), , ,بادشاہی حکمرانوں کا اجتماع (متی ۲۴:۳۱؛ ۱ کرنتھیوں ۱۵:۵۰-۵۳؛ ۱ تھسلنیکیوں ۴:۱۵-۱۷)
+armageddon,آرماجیڈون کی جنگ (مکاشفہ 16:14، 16؛ یسعیاہ 13:9؛ 2 پیٹر 3:12),"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,ارمجدون کی جنگ (مکاشفہ 16:14، 16؛ یسعیاہ 13:9؛ 2 پطرس 3:12), , ,آرمگیدون کی جنگ (مکاشفہ 16:14،16؛ یسعیاہ 13:9؛ دوم پطرس 3:12)
+millenium,خدا کی بادشاہت اپنے 1000 سالہ دور حکومت کا آغاز کرتی ہے (مکاشفہ 5:9، 10؛ 20:4، 6),"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,خدا کی بادشاہت اپنی 1000 سالہ حکومت شروع کرتی ہے (مکاشفہ 5:9، 10؛ 20:4، 6), , ,خدا کی بادشاہی اپنا ہزار سالہ حکمرانی شروع کرتی ہے (مکاشفہ 5:9، 10؛ 20:4، 6)
+great_crowd,ایک بڑی بھیڑ آرماجیڈون سے بچ گئی (مکاشفہ 7:9، 14؛ زبور 37:9-11),"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,ایک بڑی بھیڑ ارمجدون سے بچ جاتی ہے (مکاشفہ 7:9، 14؛ زبور 37:9-11), , ,ایک عظیم ہجوم آرماغیڈون سے بچ جاتا ہے (مکاشفہ 7:9، 14؛ زبور 37:9-11)
+world_population,گزشتہ 2000 سالوں میں دنیا کی آبادی اربوں میں,World population in billions in the last 2000 years, ,text,False, , , , ,پچھلے 2000 سالوں میں دنیا کی آبادی اربوں میں, , ,گزشتہ 2000 سالوں میں عالمی آبادی اربوں میں
+khmer_empire_c,خمیر سلطنت - انگکور دور,Khmer Empire - Angkor period, ,text,False, , , , ,خمر سلطنت - انگکور دور, , ,کھمیر سلطنت - انگکور دور
+holy_roman_empire_c,مقدس رومن سلطنت - 1512 کے بعد جرمن قوم کی مقدس رومن سلطنت,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,مقدس رومی سلطنت – 1512 کے بعد جرمن قوم کی مقدس رومی سلطنت کے نام سے مشہور, , ,مقدس رومن سلطنت – جسے 1512 کے بعد جرمن قوم کی مقدس رومن سلطنت کے نام سے جانا جاتا ہے
+mongol_empire,منگول سلطنت 1206 - 1294 عیسوی,Mongol Empire 1206 – 1294, ,text,False, , , , ,منگول سلطنت 1206 – 1294, , ,مغولی سلطنت ۱۲۰۶ – ۱۲۹۴
+maya_classic_c,مایا تہذیب - کلاسک دور,Maya civilization – Classic period, ,text,False, , , , ,میا تہذیب – کلاسک دور, , ,مایا تہذیب – کلاسیکی دور
+maya_postclassic_c,مایا تہذیب - پوسٹ کلاسک دور,Maya civilization – Postclassic period, ,text,False, , , , ,میا تہذیب – پوسٹ کلاسک دور, , ,مایا تہذیب – پوسٹ کلاسک دور
+Teotihuacan,امریکہ کا سب سے بڑا شہر، اہرام کی تعمیر c. 200 عیسوی,"Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,امریکہ کا سب سے بڑا شہر، ہرم c. 200 عیسوی کے آس پاس بنائے گئے, , ,امریکہ کے براعظموں کا سب سے بڑا شہر، تقریباً 200 عیسوی میں تعمیر کیے گئے پرامید۔
+Dionysius_Exiguus,Dionysius Exiguus، Anno Domini کا موجد,"Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,ڈیونیسیس ایکزیگوئس، ایڈو ڈومینی کا موجد, , ,ڈائیونیسیس ایکزیگوس، انو ڈومینی کے موجد
+Umayyad_c,اموی,Umayyad, ,text,False, , , , ,اموی, , ,اموی
+ur3,Ur III dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,اور III خاندان 𒋀𒀕𒆠, , ,یور سوم کی سلطنت 𒋀𒀕𒆠
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , ,حمورابی 𒄩𒄠𒈬𒊏𒁉, , ,ہَمورابِی 𒄩𒄠𒈬𒊏𒁉
+Al-Khwarizmi,الخوارزمی الجبر (الجبرا) لکھتے ہیں۔,al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,الخوارزمی الجبر لکھتا ہے, , ,الخوارزمی نے الجبر (الجبریات) لکھا۔
+al-azhar,جامعہ الازہر قاہرہ میں قائم ہے۔,Al-Azhar University is established in Cairo, ,text,False, , , , ,قاہرہ میں الازہر یونیورسٹی قائم ہوتی ہے, , ,جامعہ الازہر قاہرہ میں قائم کی گئی ہے۔
+Ibn-Sina,ابن سینا یا اویسینا,Ibn Sina or Avicenna, ,text,False, , , , ,ابن سینا یا ایویسینا, , ,ابن سینا یا ابو سینا
 life-expectancy,زندگی کی توقع 75 سال,Life expectancy 75 years, ,text,False, , , , , , , ,متوقع عمر 75 سال
 430years_c,430 سال: خروج 12:41 ، گلتیوں 3: 17,"430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , ,۴۳۰ سال: خروج ۱۲:۴۱، گلتیوں ۳:۱۷
 maya_calendar,مایا کیلنڈر کا حساب کتاب 11 اگست ، 3114 B.C.E.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , ,مایا کیلنڈر کا آغاز 11 اگست 3114 قبل مسیح میں شمار کیا گیا۔

@@ -1,108 +1,108 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08,5.8,float,True, , , , , , , , 
-pdf_title,Miaka 6000 Historia ya Binadamu ilionekana,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , ,"Miaka 6,000 ya Historia ya Binadamu — Mfuatano wa Matukio"
-pdf_subject,Ratiba ya wanadamu,Timeline of human history from 4000 BCE to present,5.8,text,False, , , , , , , ,Mfululizo wa matukio ya historia ya binadamu kutoka mwaka 4000 KK hadi sasa
+pdf_title,Miaka 6000 Historia ya Binadamu ilionekana,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,"Miaka 6,000 ya Historia ya Binadamu — Ratiba ya Wakati", , ,"Miaka 6,000 ya Historia ya Binadamu — Mfuatano wa Matukio"
+pdf_subject,Ratiba ya wanadamu,Timeline of human history from 4000 BCE to present,5.8,text,False, , , , ,Ratiba ya wakati ya historia ya binadamu kutoka 4000 KK hadi sasa, , ,Mfululizo wa matukio ya historia ya binadamu kutoka mwaka 4000 KK hadi sasa
 BCE,B.C.E.,B.C.E.,appendix B9,B9,True, , , , , , , , 
 CE,C.E.,C.E., ,B9,False, , , , , , , , 
-month,mwezi,month, ,text,False, , , , , , , ,mwezi
-months,miezi,months, ,text,False, , , , , , , ,miezi
-day,siku,day, ,text,False, , , , , , , ,siku
-days,siku,days, ,text,False, , , , , , , ,siku
-to,kwa,to, ,text,False, , , , , , , ,kwa
-Deluge,Mafuriko,Deluge, ,text,False, , , , , , , ,Mafuriko
-moses2,1593 hadi 1473 B.C.E. - miaka 120,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , , , ,1593 hadi 1473 K.K. – miaka 120
-temple1,Nisan 1513 B.C.E. kwa ZIV 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , , , ,Nisani 1513 K.K. hadi Ziv 1034 K.K.
-69weeks,Yesu alibatiza vuli 29 C.E.,Jesus baptized autumn 29 C.E., ,text,False, , , , , , , ,Yesu alibatizwa katika vuli ya mwaka wa 29 BK.
-year,mwaka,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , , , , ,mwaka
-years,miaka,years, ,text,False, , , , , , , ,miaka
-years_age,miaka,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , , , , ,miaka
+month,mwezi,month, ,text,False, , , , ,mwezi, , ,mwezi
+months,miezi,months, ,text,False, , , , ,miezi, , ,miezi
+day,siku,day, ,text,False, , , , ,siku, , ,siku
+days,siku,days, ,text,False, , , , ,siku, , ,siku
+to,kwa,to, ,text,False, , , , ,hadi, , ,kwa
+Deluge,Mafuriko,Deluge, ,text,False, , , , ,Janga la Maji, , ,Mafuriko
+moses2,1593 hadi 1473 B.C.E. - miaka 120,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,1593 hadi 1473 K.K. – miaka 120, , ,1593 hadi 1473 K.K. – miaka 120
+temple1,Nisan 1513 B.C.E. kwa ZIV 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,Nisanu 1513 K.K. hadi Ziv 1034 K.K., , ,Nisani 1513 K.K. hadi Ziv 1034 K.K.
+69weeks,Yesu alibatiza vuli 29 C.E.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,Yesu alibatizwa vuli 29 W.K., , ,Yesu alibatizwa katika vuli ya mwaka wa 29 BK.
+year,mwaka,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,mwaka, , ,mwaka
+years,miaka,years, ,text,False, , , , ,miaka, , ,miaka
+years_age,miaka,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,miaka, , ,miaka
 age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,Israeli katika Jangwa 1513 hadi 1473 B.C.E. - miaka 40,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , , , ,Israeli jangwani 1513 hadi 1473 K.K. – miaka 40
-timespan_judges,1473 hadi 1117 B.C.E. - miaka 356,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , , , ,1473 hadi 1117 K.K. – miaka 356
-timespan_judges2,Wakati wa majaji,Time of the judges, ,text,False, , , , , , , ,Wakati wa majaji
-temple2,Miaka 479 hadi ujenzi wa hekalu - 1 Wafalme 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , , , ,Miaka 479 kabla ya ujenzi wa hekalu – 1 Wafalme 6:1
-69weeks2,Wiki 69 kwa Masihi - Danieli 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , , , ,Wiki 69 hadi kwa Masiya – Danieli 9:25
-jesus_service,"Miaka 3.5 ya huduma ya Yesu, aliuawa Nisan 14, 33 C.E.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , , , ,"Miaka 3.5 ya huduma ya Yesu, aliuawa mnamo 14 Nisan, mwaka wa 33 B.K."
-jesus_life,Yesu alizaliwa 2 B.C.E.,Jesus born 2 B.C.E., ,text,False, , , , , , , ,Yesu alizaliwa mwaka wa 2 KK.
-exile,607 hadi 537 B.C.E. - Miaka 70 (Jeremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , , , ,607 hadi 537 K.K. – miaka 70 (Yeremia 25:11)
-exile2,Uhamishaji,Exile, ,text,False, , , , , , , ,Uhamisho
-7times2,Mara 7 - miaka 2520 kwa Ufalme wa Masihi 1914 C.E. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , , , ,mara saba – miaka 2520 hadi Ufalme wa Kimasihi 1914 B.K. (Danieli 4:23)
-ww1,Vita vya Kwanza vya Ulimwengu - 1914-1918 C.E.,World War I – 1914–1918, ,text,False, , , , , , , ,Vita Kuu ya Kwanza ya Dunia – 1914–1918
-ww2,Vita vya Kidunia vya pili - 1939-1945 C.E.,World War II – 1939–1945, ,text,False, , , , , , , ,Vita Kuu ya Pili ya Dunia – 1939–1945
-30_year_war,Vita vya miaka thelathini huko Ulaya 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , , , ,Vita vya Miaka Thelathini barani Ulaya 1618-1648
-joshua,Miaka 110,110 years, ,text,False, , , , , , , ,Miaka mia moja na kumi
-caleb,zaidi ya miaka 85,more than 85 years, ,text,False, , , , , , , ,Zaidi ya miaka 85
-missionary1,"Safari ya kwanza ya umishonari ya Paul, c. 47-48 C.E. na Barnaba na John Mark","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , , , ,"Safari ya Kwanza ya Kimisionari ya Paulo, takriban 47-48 B.K. akiwa na Barnaba na Yohana Marko"
-circumcision,"Suala la kutahiriwa huko Antiokia, Mkutano huko Yerusalemu c. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , , , ,"Suala la kutahiriwa huko Antiokia, mkutano mjini Yerusalemu takriban mwaka 49 B.K."
-missionary2,Safari ya Pili ya Wamishonari c. 49-52 C.E na Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , , , ,Safari ya Pili ya Kimisionari takriban 49-52 B.K. pamoja na Silas (Silvanus)
-missionary3,Safari ya Tatu ya Wamishonari c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , , , ,Safari ya tatu ya kimisionari takriban 52-56 B.K.
-caesarea,Paulo aliyefungwa katika Kaisaria c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , , , ,Paulo akiwa chini ya ulinzi Caesarea takr. 56-58 B.K.
-rome1,Kufungwa kwa kwanza kwa Paul huko Roma c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , , , ,Kifungo cha kwanza cha Paulo mjini Roma takriban 59-61 B.K.
-rome2,"Kufungwa kwa pili kwa Paul huko Roma c. 65 CE, 2 Timothy Imeandikwa, Paul aliuawa","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , , , ,"Kifungo cha pili cha Paulo mjini Roma takriban mwaka 65 BK, barua ya 2 Timotheo imeandikwa, Paulo anauawa"
-event_exodus,"Kutoka kutoka Misri mnamo Nisan 14, 1513 B.C.E.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , , , ,"Utoka kutoka Misri mnamo 14 Nisan, 1513 K.K."
-event_division_kingdom,Idara ya Israeli 997 KWK,Division of Israel 997 BCE, ,text,False, , , , , , , ,Mgawanyiko wa Israeli 997 KK
-event_destruction_samaria,Uharibifu wa Samaria 740 B.C.E. na Ashuru,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , , , ,Uharibifu wa Samaria 740 KK na Ashuri
-event_destruction_jerusalem1,"Uharibifu wa Yerusalemu 607 B.C.E. na Babeli, miaka 390 baada ya Idara ya Ufalme (Ezekieli 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , , , ,"Uharibifu wa Yerusalemu mwaka 607 K.K. na Babeli, miaka 390 baada ya mgawanyo wa ufalme (Ezekieli 4:5)"
-event_temple_rebuilt,Hekalu huko Yerusalemu Kujengwa tena 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , , , ,Hekalu huko Yerusalemu lilijengwa upya mwaka 515 K.K.
-event_jerusalem_rebuilt,Jerusalem ukuta uliojengwa tena 455 b.c.e.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , , , ,Ukuta wa Yerusalemu ulijengwa upya mwaka 455 K.K.
-event_destruction_jerusalem2,Uharibifu wa Yerusalemu 70 C.E. na Roma chini ya Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , , , ,Uharibifu wa Yerusalemu mwaka 70 B.K. na Warumi chini ya Tito
-event_1914,"Mwisho wa wakati wa mataifa (Luka 21:24), Ufalme wa Mungu unaanza kutawala Mbingu 1914 C.E.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , , , ,"Mwisho wa enzi ya mataifa (Luka 21:24), Ufalme wa Mungu huanza kutawala mbinguni mwaka 1914 C.E."
-became_king,inakuwa mfalme akiwa na umri,becomes king at age,2025-04-14,text,False, , , , , , , ,anakuwa mfalme akiwa na umri wa
-vulgate,Vulgate iliyokamilishwa na Jerome (Tafsiri ya Kilatini ya Bibilia) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , , , ,Vulgate ilikamilishwa na Jerome (tafsiri ya Kilatini ya Biblia) karibu mwaka 405 BK.
-gutenberg,Gutenberg Bible iliyochapishwa 1455,Gutenberg Bible printed 1455, ,text,False, , , , , , , ,Biblia ya Gutenberg ilichapishwa mwaka 1455
-erasmus,Nakala ya Uigiriki ya Maandiko ya Uigiriki ya Kikristo iliyochapishwa na Desiderius Erasmus wa Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , , , ,Maandiko ya Kigiriki ya Biblia ya Kikristo yaliyochapishwa na Desiderius Erasmus wa Rotterdam mwaka 1516
-luther,Tafsiri ya Bibilia ya Luther mnamo Septemba 1522,Luther Bible translation in September 1522, ,text,False, , , , , , , ,Tafsiri ya Biblia ya Luther mnamo Septemba 1522
-tyndale,Tafsiri ya Bibilia ya Kiingereza na Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , , , , ,Tafsiri ya Biblia ya Kiingereza na Tyndale 1536
-king_james,King James Bible 1611,King James Bible 1611, ,text,False, , , , , , , ,Biblia ya King James 1611
-69weeks3,"Yesu anaanza huduma yake 29 CE (Luka 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , , , , ,"Yesu anaanza huduma yake mwaka wa 29 BK (Luka 3:1, 21)"
-ransom,"Katikati ya wiki ""dhabihu ya kukomesha"" Danieli 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , , , , ,"Katikati ya wiki ""sadaka ya kusitisha"" Danieli 9:27"
-cornelius,Cornelius alibatizwa mwishoni mwa wiki 70 (Danieli 9:24) mnamo 36 C.E.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , , , , ,Cornelius alibatizwa mwishoni mwa wiki sabini (Daniel 9:24) mwaka wa 36 C.E.
-columbus,Mwisho wa kipindi cha kabla ya Columbian katika Amerika 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , , , , ,Mwisho wa enzi ya kabla ya Kolombi katika Amerika 1492
-declaration_independence,Azimio la Uhuru wa koloni 13 huko Amerika 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , , , , ,Tangazo la uhuru la makoloni 13 ya Amerika 1776
-tischendorf,Tischendorf anagundua Codex Sinaiticus kutoka karne ya 4 mnamo 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , , , , ,Tischendorf anagundua Codex Sinaiticus ya karne ya 4 mwaka 1844
-dead_sea_scrolls,Kitabu cha Bahari ya Wafu Imeandikwa,Dead Sea Scrolls written, ,text,False, , , , , , , ,Maandiko ya Bahari ya Chumvi yaliyoandikwa
-septuagint,Septuagint LXX iliyotafsiriwa,Septuagint LXX translated, ,text,False, , , , , , , ,Septuaginta LXX ilitafsiriwa
-watchtower,"Toleo la kwanza la ""Mnara wa Watch wa Sayuni na Herald ya uwepo wa Kristo"" limechapishwa mnamo 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , , , , ,"Toleo la kwanza la ""Mnara wa Ulinzi wa Sayuni na Mtangazaji wa Uwepo wa Kristo"" lilichapishwa mwaka 1879."
-jehovahs_witnesses,"Wanafunzi wa Bibilia wanachukua jina jipya - Mashahidi wa Yehova (Isaya 43:10, 12) huko Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , , , , ,"Wanafunzi wa Biblia wanapokea jina jipya – Mashahidi wa Yehova (Isaya 43:10, 12) huko Columbus, Ohio, mwaka 1931"
-gilead_school,"Shule ya Watchtower Bible ya Gileadi inaanza Jumatatu, Februari 1, 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , , , , ,"Shule ya Biblia ya Mnara wa Mlinzi ya Gileadi inaanza Jumatatu, tarehe 1 Februari 1943"
-new_world_translation1,"Tafsiri ya Ulimwengu Mpya wa Maandiko Matakatifu iliyotolewa huko Manchester, England mnamo Juni 18, 1960, inachukua jina la Yehova katika sehemu nyingi za Bibilia","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , , , , ,"""Tafsiri Mpya ya Ulimwengu ya Maandiko Matakatifu"" iliyotolewa Manchester, Uingereza tarehe 18 Juni 1960, inarejesha tena jina Yehova katika sehemu nyingi za Biblia."
-new_world_translation2,"Iliyorekebishwa ""Tafsiri ya Ulimwengu Mpya ya Maandiko Matakatifu"" iliyotolewa katika Mkutano wa Mwaka 2013, iliyoboreshwa kutumiwa kwa dijiti na mkondoni","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , , , , ,"Tafsiri Mpya ya Ulimwengu ya Maandiko Matakatifu iliyorekebishwa iliyotolewa katika mkutano wa mwaka wa 2013, imeboreshwa ili itumike kidijitali na mtandaoni."
-cold_war,"Hali ya jiografia inayoitwa ""Vita Baridi"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , , , , ,"Hali ya kijiopolitiki iliyoitwa ""Vita Baridi"" 1945-1991"
-codex_sinaiticus,Codex sinaiticus imeandikwa,Codex Sinaiticus written, ,text,False, , , , , , , ,Codex Sinaiticus imeandikwa
-codex_vaticanus,Codex Vaticanus imeandikwa,Codex Vaticanus written, ,text,False, , , , , , , ,Codex Vaticanus imeandikwa
-leningrad_codex,Leningrad Codex iliyoandikwa katika Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , , , , ,Kode ya Leningrad iliyoandikwa Cairo mwaka 1008 BK
-john,"John anaandika ""Ufunuo"" wakati alihamishwa kwenye Patmos 96-98 C.E.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , , , , ,"Yohana anaandika ""Ufunuo"" akiwa uhamishoni Patmos kati ya mwaka 96 na 98 BK."
-buddha,Buddha-Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , , , , ,Buddha – Siddhartha Gautama takriban 563-takriban 483 K.K.
-buddha2,Buddha Vinginevyo c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , , , , ,"Buddha, mbadala, takriban 480-400 K.K."
+wilderness,Israeli katika Jangwa 1513 hadi 1473 B.C.E. - miaka 40,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,Israeli nyikani 1513 hadi 1473 K.K. – miaka 40, , ,Israeli jangwani 1513 hadi 1473 K.K. – miaka 40
+timespan_judges,1473 hadi 1117 B.C.E. - miaka 356,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 hadi 1117 K.K. – miaka 356, , ,1473 hadi 1117 K.K. – miaka 356
+timespan_judges2,Wakati wa majaji,Time of the judges, ,text,False, , , , ,Wakati wa waamuzi, , ,Wakati wa majaji
+temple2,Miaka 479 hadi ujenzi wa hekalu - 1 Wafalme 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,miaka 479 hadi ujenzi wa hekalu – 1 Wafalme 6:1, , ,Miaka 479 kabla ya ujenzi wa hekalu – 1 Wafalme 6:1
+69weeks2,Wiki 69 kwa Masihi - Danieli 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,majuma 69 hadi Masihi – Danieli 9:25, , ,Wiki 69 hadi kwa Masiya – Danieli 9:25
+jesus_service,"Miaka 3.5 ya huduma ya Yesu, aliuawa Nisan 14, 33 C.E.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"miaka 3.5 ya huduma ya Yesu, aliuawa Nisanu 14, 33 W.K.", , ,"Miaka 3.5 ya huduma ya Yesu, aliuawa mnamo 14 Nisan, mwaka wa 33 B.K."
+jesus_life,Yesu alizaliwa 2 B.C.E.,Jesus born 2 B.C.E., ,text,False, , , , ,Yesu alizaliwa 2 K.K., , ,Yesu alizaliwa mwaka wa 2 KK.
+exile,607 hadi 537 B.C.E. - Miaka 70 (Jeremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,607 hadi 537 K.K. – miaka 70 (Yeremia 25:11), , ,607 hadi 537 K.K. – miaka 70 (Yeremia 25:11)
+exile2,Uhamishaji,Exile, ,text,False, , , , ,Uhamisho, , ,Uhamisho
+7times2,Mara 7 - miaka 2520 kwa Ufalme wa Masihi 1914 C.E. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,majira 7 – miaka 2520 hadi Ufalme wa Mesia 1914 W.K. (Danieli 4:23), , ,mara saba – miaka 2520 hadi Ufalme wa Kimasihi 1914 B.K. (Danieli 4:23)
+ww1,Vita vya Kwanza vya Ulimwengu - 1914-1918 C.E.,World War I – 1914–1918, ,text,False, , , , ,Vita Kuu ya Kwanza ya Ulimwengu – 1914–1918, , ,Vita Kuu ya Kwanza ya Dunia – 1914–1918
+ww2,Vita vya Kidunia vya pili - 1939-1945 C.E.,World War II – 1939–1945, ,text,False, , , , ,Vita Kuu ya Pili ya Ulimwengu – 1939–1945, , ,Vita Kuu ya Pili ya Dunia – 1939–1945
+30_year_war,Vita vya miaka thelathini huko Ulaya 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,Vita ya Miaka Thelathini Ulaya 1618-1648, , ,Vita vya Miaka Thelathini barani Ulaya 1618-1648
+joshua,Miaka 110,110 years, ,text,False, , , , ,miaka 110, , ,Miaka mia moja na kumi
+caleb,zaidi ya miaka 85,more than 85 years, ,text,False, , , , ,zaidi ya miaka 85, , ,Zaidi ya miaka 85
+missionary1,"Safari ya kwanza ya umishonari ya Paul, c. 47-48 C.E. na Barnaba na John Mark","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"Safari ya Kwanza ya Kimisheni ya Paulo, takriban 47-48 W.K. pamoja na Barnaba na Yohana Marko", , ,"Safari ya Kwanza ya Kimisionari ya Paulo, takriban 47-48 B.K. akiwa na Barnaba na Yohana Marko"
+circumcision,"Suala la kutahiriwa huko Antiokia, Mkutano huko Yerusalemu c. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"Suala la tohara huko Antiokia, mkutano huko Yerusalemu takriban 49 W.K.", , ,"Suala la kutahiriwa huko Antiokia, mkutano mjini Yerusalemu takriban mwaka 49 B.K."
+missionary2,Safari ya Pili ya Wamishonari c. 49-52 C.E na Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,Safari ya Pili ya Kimisheni takriban 49-52 W.K. pamoja na Sila (Silvanusi), , ,Safari ya Pili ya Kimisionari takriban 49-52 B.K. pamoja na Silas (Silvanus)
+missionary3,Safari ya Tatu ya Wamishonari c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,Safari ya Tatu ya Kimisheni takriban 52-56 W.K., , ,Safari ya tatu ya kimisionari takriban 52-56 B.K.
+caesarea,Paulo aliyefungwa katika Kaisaria c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,Paulo alikuwa mfungwa Kaisarea takriban 56-58 W.K., , ,Paulo akiwa chini ya ulinzi Caesarea takr. 56-58 B.K.
+rome1,Kufungwa kwa kwanza kwa Paul huko Roma c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,Kifungo cha kwanza cha Paulo Roma takriban 59-61 W.K., , ,Kifungo cha kwanza cha Paulo mjini Roma takriban 59-61 B.K.
+rome2,"Kufungwa kwa pili kwa Paul huko Roma c. 65 CE, 2 Timothy Imeandikwa, Paul aliuawa","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"Kifungo cha pili cha Paulo Roma takriban 65 W.K., 2 Timotheo aliandikwa, Paulo aliuawa", , ,"Kifungo cha pili cha Paulo mjini Roma takriban mwaka 65 BK, barua ya 2 Timotheo imeandikwa, Paulo anauawa"
+event_exodus,"Kutoka kutoka Misri mnamo Nisan 14, 1513 B.C.E.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,"Kutoka Misri Nisanu 14, 1513 K.K.", , ,"Utoka kutoka Misri mnamo 14 Nisan, 1513 K.K."
+event_division_kingdom,Idara ya Israeli 997 KWK,Division of Israel 997 BCE, ,text,False, , , , ,Kugawanyika kwa Israeli 997 KK, , ,Mgawanyiko wa Israeli 997 KK
+event_destruction_samaria,Uharibifu wa Samaria 740 B.C.E. na Ashuru,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,Uharibifu wa Samaria 740 K.K. na Ashuru, , ,Uharibifu wa Samaria 740 KK na Ashuri
+event_destruction_jerusalem1,"Uharibifu wa Yerusalemu 607 B.C.E. na Babeli, miaka 390 baada ya Idara ya Ufalme (Ezekieli 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"Uharibifu wa Yerusalemu 607 K.K. na Babuloni, miaka 390 baada ya kugawanyika kwa ufalme (Ezekieli 4:5)", , ,"Uharibifu wa Yerusalemu mwaka 607 K.K. na Babeli, miaka 390 baada ya mgawanyo wa ufalme (Ezekieli 4:5)"
+event_temple_rebuilt,Hekalu huko Yerusalemu Kujengwa tena 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,Hekalu huko Yerusalemu lilibatizwa tena 515 K.K., , ,Hekalu huko Yerusalemu lilijengwa upya mwaka 515 K.K.
+event_jerusalem_rebuilt,Jerusalem ukuta uliojengwa tena 455 b.c.e.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,Ukuta wa Yerusalemu ulijengwa upya 455 K.K., , ,Ukuta wa Yerusalemu ulijengwa upya mwaka 455 K.K.
+event_destruction_jerusalem2,Uharibifu wa Yerusalemu 70 C.E. na Roma chini ya Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,Uharibifu wa Yerusalemu 70 W.K. na Roma chini ya Titusi, , ,Uharibifu wa Yerusalemu mwaka 70 B.K. na Warumi chini ya Tito
+event_1914,"Mwisho wa wakati wa mataifa (Luka 21:24), Ufalme wa Mungu unaanza kutawala Mbingu 1914 C.E.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"Mwisho wa wakati wa mataifa (Luka 21:24), Ufalme wa Mungu unaanza kutawala mbinguni 1914 W.K.", , ,"Mwisho wa enzi ya mataifa (Luka 21:24), Ufalme wa Mungu huanza kutawala mbinguni mwaka 1914 C.E."
+became_king,inakuwa mfalme akiwa na umri,becomes king at age,2025-04-14,text,False, , , , ,anakuwa mfalme akiwa na umri wa, , ,anakuwa mfalme akiwa na umri wa
+vulgate,Vulgate iliyokamilishwa na Jerome (Tafsiri ya Kilatini ya Bibilia) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,Vulgate ilikamilishwa na Jerome (tafsiri ya Kilatini ya biblia) takriban 405 W.K., , ,Vulgate ilikamilishwa na Jerome (tafsiri ya Kilatini ya Biblia) karibu mwaka 405 BK.
+gutenberg,Gutenberg Bible iliyochapishwa 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,Biblia ya Gutenberg kuchapishwa 1455, , ,Biblia ya Gutenberg ilichapishwa mwaka 1455
+erasmus,Nakala ya Uigiriki ya Maandiko ya Uigiriki ya Kikristo iliyochapishwa na Desiderius Erasmus wa Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,Maandishi ya Kiyunani ya Maandiko ya Kiyunani ya Kikristo yalichapishwa na Desiderius Erasmus wa Rotterdam 1516, , ,Maandiko ya Kigiriki ya Biblia ya Kikristo yaliyochapishwa na Desiderius Erasmus wa Rotterdam mwaka 1516
+luther,Tafsiri ya Bibilia ya Luther mnamo Septemba 1522,Luther Bible translation in September 1522, ,text,False, , , , ,Tafsiri ya Biblia ya Luther Septemba 1522, , ,Tafsiri ya Biblia ya Luther mnamo Septemba 1522
+tyndale,Tafsiri ya Bibilia ya Kiingereza na Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , ,Tafsiri ya Biblia ya Kiingereza na Tyndale 1536, , ,Tafsiri ya Biblia ya Kiingereza na Tyndale 1536
+king_james,King James Bible 1611,King James Bible 1611, ,text,False, , , , ,Biblia ya King James 1611, , ,Biblia ya King James 1611
+69weeks3,"Yesu anaanza huduma yake 29 CE (Luka 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Yesu anaanza huduma yake 29 CE (Luka 3:1, 21)", , ,"Yesu anaanza huduma yake mwaka wa 29 BK (Luka 3:1, 21)"
+ransom,"Katikati ya wiki ""dhabihu ya kukomesha"" Danieli 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,"Katikati ya juma ""dhabihu iishe"" Danieli 9:27", , ,"Katikati ya wiki ""sadaka ya kusitisha"" Danieli 9:27"
+cornelius,Cornelius alibatizwa mwishoni mwa wiki 70 (Danieli 9:24) mnamo 36 C.E.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Kornelio abatizwa mwishoni mwa wiki 70 (Danieli 9:24) mwaka 36 C.E., , ,Cornelius alibatizwa mwishoni mwa wiki sabini (Daniel 9:24) mwaka wa 36 C.E.
+columbus,Mwisho wa kipindi cha kabla ya Columbian katika Amerika 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,Mwisho wa kipindi kabla ya Kolumbus katika Amerika 1492, , ,Mwisho wa enzi ya kabla ya Kolombi katika Amerika 1492
+declaration_independence,Azimio la Uhuru wa koloni 13 huko Amerika 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,Tamko la uhuru wa makoloni 13 katika Amerika 1776, , ,Tangazo la uhuru la makoloni 13 ya Amerika 1776
+tischendorf,Tischendorf anagundua Codex Sinaiticus kutoka karne ya 4 mnamo 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf anagundua Codex Sinaiticus kutoka karne ya 4 mwaka 1844, , ,Tischendorf anagundua Codex Sinaiticus ya karne ya 4 mwaka 1844
+dead_sea_scrolls,Kitabu cha Bahari ya Wafu Imeandikwa,Dead Sea Scrolls written, ,text,False, , , , ,Magombo ya Bahari ya Chumvi yanaandikwa, , ,Maandiko ya Bahari ya Chumvi yaliyoandikwa
+septuagint,Septuagint LXX iliyotafsiriwa,Septuagint LXX translated, ,text,False, , , , ,Septuagint LXX inatafsiriwa, , ,Septuaginta LXX ilitafsiriwa
+watchtower,"Toleo la kwanza la ""Mnara wa Watch wa Sayuni na Herald ya uwepo wa Kristo"" limechapishwa mnamo 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,"Toleo la kwanza la ""Zion's Watch Tower and Herald of Christ's Presence"" linachapishwa 1879", , ,"Toleo la kwanza la ""Mnara wa Ulinzi wa Sayuni na Mtangazaji wa Uwepo wa Kristo"" lilichapishwa mwaka 1879."
+jehovahs_witnesses,"Wanafunzi wa Bibilia wanachukua jina jipya - Mashahidi wa Yehova (Isaya 43:10, 12) huko Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"Wanafunzi wa Biblia wanapokea jina jipya – Mashahidi wa Yehova (Isaya 43:10, 12) huko Columbus, Ohio, 1931", , ,"Wanafunzi wa Biblia wanapokea jina jipya – Mashahidi wa Yehova (Isaya 43:10, 12) huko Columbus, Ohio, mwaka 1931"
+gilead_school,"Shule ya Watchtower Bible ya Gileadi inaanza Jumatatu, Februari 1, 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"Shule ya Biblia ya Watchtower ya Gilead inaanza Jumatatu, Februari 1, 1943", , ,"Shule ya Biblia ya Mnara wa Mlinzi ya Gileadi inaanza Jumatatu, tarehe 1 Februari 1943"
+new_world_translation1,"Tafsiri ya Ulimwengu Mpya wa Maandiko Matakatifu iliyotolewa huko Manchester, England mnamo Juni 18, 1960, inachukua jina la Yehova katika sehemu nyingi za Bibilia","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"""Tafsiri ya Agano Jipya ya Ulimwengu wa Maandiko Matakatifu"" inatolewa Manchester, Uingereza Juni 18, 1960, kurejesha jina Yehova katika sehemu nyingi za Biblia", , ,"""Tafsiri Mpya ya Ulimwengu ya Maandiko Matakatifu"" iliyotolewa Manchester, Uingereza tarehe 18 Juni 1960, inarejesha tena jina Yehova katika sehemu nyingi za Biblia."
+new_world_translation2,"Iliyorekebishwa ""Tafsiri ya Ulimwengu Mpya ya Maandiko Matakatifu"" iliyotolewa katika Mkutano wa Mwaka 2013, iliyoboreshwa kutumiwa kwa dijiti na mkondoni","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"""Tafsiri ya Agano Jipya ya Ulimwengu wa Maandiko Matakatifu"" iliyorekebishwa inatolewa katika mkutano wa kila mwaka 2013, iliyoboreshwa kwa matumizi ya kidijitali na mtandaoni", , ,"Tafsiri Mpya ya Ulimwengu ya Maandiko Matakatifu iliyorekebishwa iliyotolewa katika mkutano wa mwaka wa 2013, imeboreshwa ili itumike kidijitali na mtandaoni."
+cold_war,"Hali ya jiografia inayoitwa ""Vita Baridi"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,"Hali ya jiografia ya kisiasa inayoitwa ""Vita Baridi"" 1945-1991", , ,"Hali ya kijiopolitiki iliyoitwa ""Vita Baridi"" 1945-1991"
+codex_sinaiticus,Codex sinaiticus imeandikwa,Codex Sinaiticus written, ,text,False, , , , ,Codex Sinaiticus inaandikwa, , ,Codex Sinaiticus imeandikwa
+codex_vaticanus,Codex Vaticanus imeandikwa,Codex Vaticanus written, ,text,False, , , , ,Codex Vaticanus inaandikwa, , ,Codex Vaticanus imeandikwa
+leningrad_codex,Leningrad Codex iliyoandikwa katika Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Leningrad Codex inaandikwa Cairo AD 1008, , ,Kode ya Leningrad iliyoandikwa Cairo mwaka 1008 BK
+john,"John anaandika ""Ufunuo"" wakati alihamishwa kwenye Patmos 96-98 C.E.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,"Yohane anaandika ""ufunuo"" akiwa uhamishoni Patmo 96-98 C.E.", , ,"Yohana anaandika ""Ufunuo"" akiwa uhamishoni Patmos kati ya mwaka 96 na 98 BK."
+buddha,Buddha-Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,Buddha – Siddhartha Gautama c.563-c.483 B.K, , ,Buddha – Siddhartha Gautama takriban 563-takriban 483 K.K.
+buddha2,Buddha Vinginevyo c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Buddha kwa njia mbadala c. 480-400 B.K., , ,"Buddha, mbadala, takriban 480-400 K.K."
 mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632, ,text,False, , , , , , , ,Mohammed takr. 570-632
-confucius,Confucius c.551-c.479 b.c.e.,Confucius c.551-c.479 B.C.E., ,text,False, , , , , , , ,Confucius takr. 551-takr. 479 K.K.
-hijrah,Hijrah - Safari ya Mecca kwenda Madina 16 Julai 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , , , , ,Hijrah - Safari kutoka Makka hadi Madina 16 Julai 622
-moses_escape,"1553 B.C.E. Musa lazima atoroke Misri - Kutoka 2:15, Matendo 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , , , , ,"1553 K.K. Musa analazimika kutoroka Misri – Kutoka 2:15, Matendo 7:23"
-10plagues,1513 b.c.e Misri inapokea mapigo 10,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , , , , ,1513 K.K. Misri inapokea maafa 10
-joseph_sold,Joseph aliuza kama mtumwa akiwa na umri wa miaka 17 - Mwa 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , , , , ,Yusufu aliuuzwa kama mtumwa akiwa na umri wa miaka 17 – Mwanzo 37:2
-infliction,Unyogovu wa miaka 400 (Matendo 7: 6) - Ishmaeli 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , , , , ,Adhabu ya miaka 400 (Matendo 7:6) – Ishmaeli 1913 K.K.
-Alexander,Alexander the Great (Daniel 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , , , , ,Alexander Mkuu (Danieli 11:3)
-persia,"Cyrus the Great, Cambyses II, Darius I 490 KWK, Xerxes I 480 KWK (mume wa Esther, Daniel 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , , , , ,"Koreshi Mkuu, Kambisesi wa Pili, Dariusi wa Kwanza 490 KK, Kserkesi wa Kwanza 480 KK (mume wa Esteri, Danieli 11:2)"
-king_north,"Seleucus I Nicator (V5) Syria hadi Antiochus III (V10) na Seleucus IV (V18, 19) hadi Octavian (V20) na Tiberius (V21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , , , , ,"Seleucus I Nicator (v5) Syria hadi Antiochus III (v10) na Seleucus IV (v18, 19) hadi Octavian (v20) na Tiberius (v21-24)"
-king_north1,Mfalme wa Kaskazini,King of the North, ,text,False, , , , , , , ,Mfalme wa Kaskazini
-king_south,"Ptolemy I, II, III, IV (V11, 12), V (V15, 16) kwa Actium ya Vita 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , , , , ,"Ptolomei I, II, III, IV (v11, 12), V (v15, 16) hadi vita vya Actium 31 KK"
-king_south1,Mfalme wa Kusini,King of the South, ,text,False, , , , , , , ,Mfalme wa Kusini
-king_south2,"Dola ya Uingereza 1870, Anglo-American Nguvu ya Ulimwenguni tangu 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , , , , ,"Dola la Uingereza 1870, Nguvu ya Dunia ya Waingereza na Waamerika tangu 1914"
-king_south3,Mfalme wa Kusini,King of the South, ,text,False, , , , , , , ,Mfalme wa Kusini
-king_north2,"Ujerumani na Mtawala William I 1871 (V28), 1914 (V29), 1935 (V30B), 1939 (V31A)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , , , , ,"Ujerumani na Kaisari William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,Kaskazini,North, ,text,False, , , , , , , ,Kaskazini
-king_north4,"Umoja wa Soviet 1945-1991 (Daniel 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , , , ,"Umoja wa Kisovieti 1945-1991 (Danieli 11:32-39, 40b, 41)"
-king_north5,Urusi tangu 2017 (W20 Mei),Russia since 2017 (w20 May), ,text,False, , , , , , , ,Urusi tangu 2017 (w20 Mei)
-time_of_end,"Uwepo wa Kristo, Hitimisho la Mfumo wa Vitu (Mathayo 24: 3), Siku za Mwisho (2 Timotheo 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , , , , ,"Uwepo wa Kristo, Hitimisho la mfumo wa mambo (Mathayo 24:3), siku za mwisho (2 Timotheo 3:1)"
-time_of_end2,Siku za mwisho,Last days, ,text,False, , , , , , , ,Siku za mwisho
-suryavaman2,Mfalme Suryavarman II huunda Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , , , , ,Mfalme Suryavarman II anajenga Angkor Wat 1113-1150
-notre-dame,Notre-Dame de Paris aliunda 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , , , , ,Notre-Dame de Paris ilijengwa 1163-1260
-babel,Mnara wa Babeli Kujengwa,Tower of Babel built, ,text,False, , , , , , , ,Mnara wa Babeli ulijengwa
-infliction1,Ugumu wa miaka 400,400 year infliction,Acts 7:6,text,False, , , , , , , ,Adhabu ya miaka 400
-Lots_wife,Mke wa Loti,Lot’s wife, ,text,False, , , , , , , ,Mke wa Loti
-Lots_daughters,Binti za kura,Daughters of Lot, ,text,False, , , , , , , ,Binti za Loti
-Moab,Moabu (binti mkubwa),Moab (older daughter),Genesis 19:37,text,False, , , , , , , ,Moab (binti mkubwa)
-rosetta,Jiwe la Rosetta 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False, , , , , , , ,Jiwe la Rosetta 196 K.K.
+confucius,Confucius c.551-c.479 b.c.e.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,Confucius c.551-c.479 B.K., , ,Confucius takr. 551-takr. 479 K.K.
+hijrah,Hijrah - Safari ya Mecca kwenda Madina 16 Julai 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Hijrah - Safari kutoka Mecca hadi Medina 16 Julai 622, , ,Hijrah - Safari kutoka Makka hadi Madina 16 Julai 622
+moses_escape,"1553 B.C.E. Musa lazima atoroke Misri - Kutoka 2:15, Matendo 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 B.K. Musa anapaswa kutoroka Misri – Kutoka 2:15, Matendo 7:23", , ,"1553 K.K. Musa analazimika kutoroka Misri – Kutoka 2:15, Matendo 7:23"
+10plagues,1513 b.c.e Misri inapokea mapigo 10,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 B.K. Misri inapokea mapigo 10, , ,1513 K.K. Misri inapokea maafa 10
+joseph_sold,Joseph aliuza kama mtumwa akiwa na umri wa miaka 17 - Mwa 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Yosefu anauzwa kama mtumwa akiwa na umri wa miaka 17 – Mwanzo 37:2, , ,Yusufu aliuuzwa kama mtumwa akiwa na umri wa miaka 17 – Mwanzo 37:2
+infliction,Unyogovu wa miaka 400 (Matendo 7: 6) - Ishmaeli 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,Adhabu ya miaka 400 (Matendo 7:6) – Ishmaeli 1913 B.K., , ,Adhabu ya miaka 400 (Matendo 7:6) – Ishmaeli 1913 K.K.
+Alexander,Alexander the Great (Daniel 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Alexander Mkuu (Danieli 11:3), , ,Alexander Mkuu (Danieli 11:3)
+persia,"Cyrus the Great, Cambyses II, Darius I 490 KWK, Xerxes I 480 KWK (mume wa Esther, Daniel 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Cyrus Mkuu, Cambyses II, Darius I 490 K.K., Xerxes I 480 K.K. (mume wa Esta, Danieli 11:2)", , ,"Koreshi Mkuu, Kambisesi wa Pili, Dariusi wa Kwanza 490 KK, Kserkesi wa Kwanza 480 KK (mume wa Esteri, Danieli 11:2)"
+king_north,"Seleucus I Nicator (V5) Syria hadi Antiochus III (V10) na Seleucus IV (V18, 19) hadi Octavian (V20) na Tiberius (V21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"Seleucus I Nicator (mstari wa 5) Syria hadi Antiochus III (mstari wa 10) na Seleucus IV (mstari wa 18, 19) chini hadi Octavian (mstari wa 20) na Tiberius (mstari wa 21-24)", , ,"Seleucus I Nicator (v5) Syria hadi Antiochus III (v10) na Seleucus IV (v18, 19) hadi Octavian (v20) na Tiberius (v21-24)"
+king_north1,Mfalme wa Kaskazini,King of the North, ,text,False, , , , ,Mfalme wa Kaskazini, , ,Mfalme wa Kaskazini
+king_south,"Ptolemy I, II, III, IV (V11, 12), V (V15, 16) kwa Actium ya Vita 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"Ptolemy I, II, III, IV (mstari wa 11, 12), V (mstari wa 15, 16) hadi vita vya Actium 31 K.K.", , ,"Ptolomei I, II, III, IV (v11, 12), V (v15, 16) hadi vita vya Actium 31 KK"
+king_south1,Mfalme wa Kusini,King of the South, ,text,False, , , , ,Mfalme wa Kusini, , ,Mfalme wa Kusini
+king_south2,"Dola ya Uingereza 1870, Anglo-American Nguvu ya Ulimwenguni tangu 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"Ufalme wa Waingereza 1870, Nguvu ya Ulimwengu ya Kiingereza-Kiamerika tangu 1914", , ,"Dola la Uingereza 1870, Nguvu ya Dunia ya Waingereza na Waamerika tangu 1914"
+king_south3,Mfalme wa Kusini,King of the South, ,text,False, , , , ,Mfalme wa Kusini, , ,Mfalme wa Kusini
+king_north2,"Ujerumani na Mtawala William I 1871 (V28), 1914 (V29), 1935 (V30B), 1939 (V31A)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Ujerumani na Mfalme William I 1871 (mstari wa 28), 1914 (mstari wa 29), 1935 (mstari wa 30b), 1939 (mstari wa 31a)", , ,"Ujerumani na Kaisari William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Kaskazini,North, ,text,False, , , , ,Kaskazini, , ,Kaskazini
+king_north4,"Umoja wa Soviet 1945-1991 (Daniel 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"Muungano wa Kisovyeti 1945-1991 (Danieli 11:32-39, 40b, 41)", , ,"Umoja wa Kisovieti 1945-1991 (Danieli 11:32-39, 40b, 41)"
+king_north5,Urusi tangu 2017 (W20 Mei),Russia since 2017 (w20 May), ,text,False, , , , ,Urusi tangu 2017 (w20 Mei), , ,Urusi tangu 2017 (w20 Mei)
+time_of_end,"Uwepo wa Kristo, Hitimisho la Mfumo wa Vitu (Mathayo 24: 3), Siku za Mwisho (2 Timotheo 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"Uwepo wa Kristo, Hitimisho la mfumo wa mambo (Mathayo 24:3), siku za mwisho (2 Timotheo 3:1)", , ,"Uwepo wa Kristo, Hitimisho la mfumo wa mambo (Mathayo 24:3), siku za mwisho (2 Timotheo 3:1)"
+time_of_end2,Siku za mwisho,Last days, ,text,False, , , , ,Siku za mwisho, , ,Siku za mwisho
+suryavaman2,Mfalme Suryavarman II huunda Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,Mfalme Suryavarman II anajenga Angkor Wat 1113-1150, , ,Mfalme Suryavarman II anajenga Angkor Wat 1113-1150
+notre-dame,Notre-Dame de Paris aliunda 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,Notre-Dame de Paris inajengwa 1163-1260, , ,Notre-Dame de Paris ilijengwa 1163-1260
+babel,Mnara wa Babeli Kujengwa,Tower of Babel built, ,text,False, , , , ,Mnara wa Babeli unajengwa, , ,Mnara wa Babeli ulijengwa
+infliction1,Ugumu wa miaka 400,400 year infliction,Acts 7:6,text,False, , , , ,Adhabu ya miaka 400, , ,Adhabu ya miaka 400
+Lots_wife,Mke wa Loti,Lot’s wife, ,text,False, , , , ,Mke wa Loti, , ,Mke wa Loti
+Lots_daughters,Binti za kura,Daughters of Lot, ,text,False, , , , ,Binti za Loti, , ,Binti za Loti
+Moab,Moabu (binti mkubwa),Moab (older daughter),Genesis 19:37,text,False, , , , ,Moabu (binti mkubwa), , ,Moab (binti mkubwa)
+rosetta,Jiwe la Rosetta 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False, , , , ,Jiwe la Rosetta 196 K.K., , ,Jiwe la Rosetta 196 K.K.
 Herodotus,"Herodotus c. 484 - c. 425 KK, anaandika historia","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , ,"Herodotus takriban 484 – takriban 425 KK, anaandika Historia"
 Aristotle,Aristotle 384 - 322 KK,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , ,Aristotle 384 – 322 KK
 Ptolemy,Ptolemy C 100 - c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , ,Ptolomeo takr. 100 – takr. 170 B.K.
@@ -153,31 +153,31 @@ hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,F
 Al-Khwarizmi,Al-Khwarizmi anaandika al-Jabr (algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , ,al-Khwarizmi anaandika Al-Jabr (Algebra)
 al-azhar,Chuo Kikuu cha Al-Azhar kimeanzishwa huko Cairo,Al-Azhar University is established in Cairo, ,text,False, , , , , , , ,Chuo Kikuu cha Al-Azhar kimeanzishwa mjini Cairo
 Ibn-Sina,Ibn Sina au Avicenna,Ibn Sina or Avicenna, ,text,False, , , , , , , ,Ibn Sina au Avicenna
-life-expectancy,Matarajio ya maisha miaka 75,Life expectancy 75 years, ,text,False, , , , , , , ,Matazamio ya maisha miaka 75
-430years_c,"Miaka 430: Kutoka 12:41, Wagalatia 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , ,"Miaka 430: Kutoka 12:41, Wagalatia 3:17"
-maya_calendar,"Mahesabu ya mwanzo wa kalenda ya Maya Agosti 11, 3114 B.C.E.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , ,"Mwanzo wa kalenda ya Maya ulikadiriwa kuwa Agosti 11, 3114 K.K."
-xia-dynasty2,c. 2070 - c. 1600 KK; ERA ilitaja kwanza wakati wa kipindi cha magharibi cha Zhou,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , , , ,c. 2070 – c. 1600 KK; Enzi iliyotajwa kwa mara ya kwanza wakati wa enzi ya Zhou ya Magharibi
-xia-dynasty2_c,Nasaba ya Xia nchini China,Xia dynasty in China, ,text,False, , , , , , , ,Dinasti ya Xia nchini Uchina
-tres_zapotes,"Septemba 3, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , , , ,"Tarehe 3 Septemba, 32 K.K."
-joseph_jacob_reunited,Joseph na Jacob waliungana tena huko Misri - 1728 B.C.E. (Mwa 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , , , ,Yosefu na Yakobo walikutana tena Misri – 1728 K.K. (Mwanzo 45:11; 47:9)
-king_south_light_c,Mfalme wa Kusini kutoka Daniel 11,King of the South from Daniel 11,2025-02-05,text,False, , , , , , , ,Mfalme wa Kusini kutoka Danieli 11
-king_north_light_c,Mfalme wa Kaskazini kutoka Daniel 11,King of the North from Daniel 11,2025-02-05,text,False, , , , , , , ,Mfalme wa Kaskazini kutoka Danieli 11
-daniel2_iron_c,Miguu ya chuma kutoka kwa Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , , , , ,Miguu ya chuma kutoka kwa Daniel 2
+life-expectancy,Matarajio ya maisha miaka 75,Life expectancy 75 years, ,text,False, , , , ,Maisha ya mtu miaka 75, , ,Matazamio ya maisha miaka 75
+430years_c,"Miaka 430: Kutoka 12:41, Wagalatia 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"Miaka 430: Kutoka 12:41, Wagalatia 3:17", , ,"Miaka 430: Kutoka 12:41, Wagalatia 3:17"
+maya_calendar,"Mahesabu ya mwanzo wa kalenda ya Maya Agosti 11, 3114 B.C.E.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,"Mwanzo wa kalenda ya Maya uliohesabiwa Agosti 11, 3114 B.K.", , ,"Mwanzo wa kalenda ya Maya ulikadiriwa kuwa Agosti 11, 3114 K.K."
+xia-dynasty2,c. 2070 - c. 1600 KK; ERA ilitaja kwanza wakati wa kipindi cha magharibi cha Zhou,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,c. 2070 – c. 1600 KK; Enzi iliyotajwa kwa mara ya kwanza wakati wa kipindi cha Zhou cha Magharibi, , ,c. 2070 – c. 1600 KK; Enzi iliyotajwa kwa mara ya kwanza wakati wa enzi ya Zhou ya Magharibi
+xia-dynasty2_c,Nasaba ya Xia nchini China,Xia dynasty in China, ,text,False, , , , ,Ufalme wa Xia nchini China, , ,Dinasti ya Xia nchini Uchina
+tres_zapotes,"Septemba 3, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,"Septemba 3, 32 B.K.", , ,"Tarehe 3 Septemba, 32 K.K."
+joseph_jacob_reunited,Joseph na Jacob waliungana tena huko Misri - 1728 B.C.E. (Mwa 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,Yusuf na Yakobo walikutana tena Misri – 1728 B.K. (Mwa 45:11; 47:9), , ,Yosefu na Yakobo walikutana tena Misri – 1728 K.K. (Mwanzo 45:11; 47:9)
+king_south_light_c,Mfalme wa Kusini kutoka Daniel 11,King of the South from Daniel 11,2025-02-05,text,False, , , , ,Mfalme wa Kusini kutoka Danieli 11, , ,Mfalme wa Kusini kutoka Danieli 11
+king_north_light_c,Mfalme wa Kaskazini kutoka Daniel 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,Mfalme wa Kaskazini kutoka Danieli 11, , ,Mfalme wa Kaskazini kutoka Danieli 11
+daniel2_iron_c,Miguu ya chuma kutoka kwa Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Miguu ya chuma kutoka Danieli 2, , ,Miguu ya chuma kutoka kwa Daniel 2
 argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , , , , 
 nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , , , , , 
-edo_c,Kipindi cha Edo huko Japan,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , , , , ,Zama za Edo nchini Japani
+edo_c,Kipindi cha Edo huko Japan,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , ,Kipindi cha Edo nchini Japani, , ,Zama za Edo nchini Japani
 meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , , , , , 
-american_civil_war,Vita vya wenyewe kwa wenyewe vya Amerika 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , , , , ,Vita vya wenyewe kwa wenyewe vya Marekani 1861-1865
+american_civil_war,Vita vya wenyewe kwa wenyewe vya Amerika 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,Vita vya wenyewe kwa wenyewe vya Marekani 1861-1865, , ,Vita vya wenyewe kwa wenyewe vya Marekani 1861-1865
 aleppo_codex,Kodeksi ya Aleppo c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , , , , ,Kodeksi ya Aleppo c. 920
-vandals,Ufalme wa Vandals na Alans 435 - 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , , , , ,Ufalme wa Wavandali na Waalani 435 – 534
-francia,"c. 481/509 - 843, Merovingian hadi 751, kisha Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , , , , ,"c. 481/509 – 843, Merovingi hadi 751, kisha Karolingia"
-francia_c,Ufalme wa Franks,Kingdom of the Franks, ,text,False, , , , , , , ,Ufalme wa Wafalanki
-100_years_war,Vita vya Miaka Mia 1337-1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , , , ,Vita vya Miaka Mia 1337 – 1453
-black_death,Kifo cheusi 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , , , , ,Maafa Meusi 1346-1353
-sui_dynasty,581-618 nasaba ya Sui,581-618 Sui dynasty,2025-11-09,text,False, , , , , , , ,Dinasti ya Sui 581-618
+vandals,Ufalme wa Vandals na Alans 435 - 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Ufalme wa Wavandali na Waalani 435 – 534, , ,Ufalme wa Wavandali na Waalani 435 – 534
+francia,"c. 481/509 - 843, Merovingian hadi 751, kisha Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"c. 481/509 – 843, Merovingian hadi 751, kisha Karolingia", , ,"c. 481/509 – 843, Merovingi hadi 751, kisha Karolingia"
+francia_c,Ufalme wa Franks,Kingdom of the Franks, ,text,False, , , , ,Ufalme wa Wafaransa, , ,Ufalme wa Wafalanki
+100_years_war,Vita vya Miaka Mia 1337-1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Vita vya Miaka Mia 1337 – 1453, , ,Vita vya Miaka Mia 1337 – 1453
+black_death,Kifo cheusi 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Kipindi cha Homa ya Mabonde 1346-1353, , ,Maafa Meusi 1346-1353
+sui_dynasty,581-618 nasaba ya Sui,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 Ufalme wa Sui, , ,Dinasti ya Sui 581-618
 sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , , , , 
-tribulation,"Dhiki Kuu (Marko 13:19; Danieli 12: 1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , , , , ,"Hofu Kuu (Marko 13:19; Danieli 12:1; Mathayo 24:21, 22)"
-timeline_created,"Mda huu wa muda umeundwa mnamo 2023, mwaka wa moto zaidi katika historia ya wanadamu na miaka 125,000 iliyopita","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , , , , ,"Mtiririko huu wa matukio umeundwa mwaka wa 2023, mwaka wenye joto zaidi katika historia ya binadamu na katika kipindi cha miaka 125,000 iliyopita."
+tribulation,"Dhiki Kuu (Marko 13:19; Danieli 12: 1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"Dhiki Kuu (Marko 13:19; Danieli 12:1; Mathayo 24:21, 22)", , ,"Hofu Kuu (Marko 13:19; Danieli 12:1; Mathayo 24:21, 22)"
+timeline_created,"Mda huu wa muda umeundwa mnamo 2023, mwaka wa moto zaidi katika historia ya wanadamu na miaka 125,000 iliyopita","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"Ratiba hii ilitengenezwa mwaka 2023, mwaka wenye joto zaidi katika historia ya binadamu na miaka 125,000 iliyopita", , ,"Mtiririko huu wa matukio umeundwa mwaka wa 2023, mwaka wenye joto zaidi katika historia ya binadamu na katika kipindi cha miaka 125,000 iliyopita."
 Adam,Adam,Adam,Luke 3:38,bible,False, , , , , , , , 
 Seth,Seth,Seth, ,bible,False, , , , , , , , 
 Enosh,Enosh,Enosh, ,bible,False, , , , , , , , 

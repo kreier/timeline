@@ -1,183 +1,183 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08,5.9,float,True, , , , , , , , 
-pdf_title,6000 tahun Sejarah Manusia Divisualisasikan,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , ,"6,000 Tahun Sejarah Manusia — Garis Masa"
-pdf_subject,Garis masa manusia,Timeline of human history from 4000 BCE to present,5.9,text,False, , , , , , , ,Garis masa sejarah manusia dari 4000 SM hingga kini
+pdf_title,6000 tahun Sejarah Manusia Divisualisasikan,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,"6,000 Tahun Sejarah Manusia — Garis Masa", , ,"6,000 Tahun Sejarah Manusia — Garis Masa"
+pdf_subject,Garis masa manusia,Timeline of human history from 4000 BCE to present,5.9,text,False, , , , ,Garis masa sejarah manusia dari 4000 BCE hingga sekarang, , ,Garis masa sejarah manusia dari 4000 SM hingga kini
 BCE,SM,B.C.E.,appendix B9,B9,True, , , , , , , , 
 CE,M,C.E., ,B9,True, , , , , , , , 
-month,bulan,month, ,text,False, , , , , , , ,bulan
-months,bulan,months, ,text,False, , , , , , , ,bulan
-day,hari,day, ,text,False, , , , , , , ,hari
-days,hari,days, ,text,False, , , , , , , ,hari
-to,ke,to, ,text,False, , , , , , , ,ke
-Deluge,Deluge,Deluge, ,text,False, , , , , , , ,Hujan lebat
-moses2,1593 hingga 1473 B.C.E. - 120 tahun,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , , , ,1593 hingga 1473 SM – 120 tahun
-temple1,Nisan 1513 B.C.E. kepada ZIV 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , , , ,Nisan 1513 SM hingga Ziv 1034 SM
-69weeks,Yesus dibaptiskan musim luruh 29 C.E.,Jesus baptized autumn 29 C.E., ,text,False, , , , , , , ,Yesus dibaptis pada musim luruh tahun 29 Masihi.
-year,tahun,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , , , , ,tahun
-years,tahun,years, ,text,False, , , , , , , ,tahun
-years_age,tahun,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , , , , ,tahun
+month,bulan,month, ,text,False, , , , ,bulan, , ,bulan
+months,bulan,months, ,text,False, , , , ,bulan, , ,bulan
+day,hari,day, ,text,False, , , , ,hari, , ,hari
+days,hari,days, ,text,False, , , , ,hari, , ,hari
+to,ke,to, ,text,False, , , , ,hingga, , ,ke
+Deluge,Deluge,Deluge, ,text,False, , , , ,Air Bah, , ,Hujan lebat
+moses2,1593 hingga 1473 B.C.E. - 120 tahun,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,1593 hingga 1473 S.M. – 120 tahun, , ,1593 hingga 1473 SM – 120 tahun
+temple1,Nisan 1513 B.C.E. kepada ZIV 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,Nisan 1513 S.M. hingga Ziv 1034 S.M., , ,Nisan 1513 SM hingga Ziv 1034 SM
+69weeks,Yesus dibaptiskan musim luruh 29 C.E.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,Jesus dibaptis musim luruh 29 M., , ,Yesus dibaptis pada musim luruh tahun 29 Masihi.
+year,tahun,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,tahun, , ,tahun
+years,tahun,years, ,text,False, , , , ,tahun, , ,tahun
+years_age,tahun,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,tahun, , ,tahun
 age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,Israel di Wilderness 1513 hingga 1473 B.C.E. - 40 tahun,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , , , ,Israel di padang gurun 1513 hingga 1473 SM – 40 tahun
-timespan_judges,1473 hingga 1117 B.C.E. - 356 tahun,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , , , ,1473 hingga 1117 SM – 356 tahun
-timespan_judges2,Masa hakim,Time of the judges, ,text,False, , , , , , , ,Masa para hakim
-temple2,479 tahun sehingga pembinaan kuil - 1 Raja 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , , , ,479 tahun sehingga pembinaan bait suci – 1 Raja-raja 6:1
-69weeks2,69 minggu ke Mesias - Daniel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , , , ,69 minggu kepada Mesias – Daniel 9:25
-jesus_service,"3.5 tahun perkhidmatan Yesus, yang dilaksanakan Nisan ke -14, 33 C.E.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , , , ,"3.5 tahun pelayanan Yesus, disalibkan pada 14 Nisan, 33 Masihi."
-jesus_life,Yesus lahir 2 B.C.E.,Jesus born 2 B.C.E., ,text,False, , , , , , , ,Yesus dilahirkan pada tahun 2 SM.
-exile,607 hingga 537 B.C.E. - 70 tahun (Yeremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , , , ,607 hingga 537 S.M. – 70 tahun (Yeremia 25:11)
-exile2,Buangan,Exile, ,text,False, , , , , , , ,Pengasingan
-7times2,7 kali - 2520 tahun ke Kerajaan Mesianik 1914 C.E. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , , , ,7 kali – 2520 tahun kepada Kerajaan Messianik 1914 Masihi (Daniel 4:23)
-ww1,Perang Dunia I - 1914-1918 C.E.,World War I – 1914–1918, ,text,False, , , , , , , ,Perang Dunia I – 1914–1918
-ww2,Perang Dunia II - 1939-1945 C.E.,World War II – 1939–1945, ,text,False, , , , , , , ,Perang Dunia II – 1939–1945
-30_year_war,Perang Tiga Puluh Tahun di Eropah 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , , , ,Perang Tiga Puluh Tahun di Eropah 1618-1648
-joshua,110 tahun,110 years, ,text,False, , , , , , , ,110 tahun
-caleb,Lebih dari 85 tahun,more than 85 years, ,text,False, , , , , , , ,lebih daripada 85 tahun
-missionary1,"Perjalanan Misi Pertama Paul, c. 47-48 C.E. dengan Barnabas dan John Mark","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , , , ,"Perjalanan Misi Pertama Paulus, sekitar 47–48 Masihi bersama Barnabas dan Yohanes Markus"
-circumcision,"Isu sunat di Antioch, persidangan di Yerusalem c. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , , , ,"Isu sunat di Antiohia, persidangan di Yerusalem sekitar tahun 49 Masihi."
-missionary2,Perjalanan misi kedua c. 49-52 C.E dengan Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , , , ,Perjalanan Misionari Kedua sekitar 49–52 Masihi bersama Silas (Silvanus)
-missionary3,Perjalanan misi ketiga c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , , , ,Perjalanan Misionari Ketiga sekitar 52–56 Masihi
-caesarea,Paul dalam tahanan di Caesarea c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , , , ,Paul dalam tahanan di Kaisarea sekitar 56–58 Masihi.
-rome1,Penjara pertama Paul di Rom c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , , , ,Penjara pertama Paulus di Rom sekitar 59–61 Masihi.
-rome2,"Penjara kedua Paul di Rom c. 65 CE, 2 Timothy Ditulis, Paul Dihidupkan","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , , , ,"Penjara kedua Paulus di Rom sekitar 65 Masihi, 2 Timoti ditulis, Paulus dihukum mati"
-event_exodus,"Keluaran dari Mesir pada Nisan 14, 1513 B.C.E.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , , , ,Pembebasan daripada Mesir pada 14 Nisan 1513 SM.
-event_division_kingdom,Bahagian Israel 997 BCE,Division of Israel 997 BCE, ,text,False, , , , , , , ,Pembahagian Israel 997 SM
-event_destruction_samaria,Pemusnahan Samaria 740 B.C.E. oleh Assyria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , , , ,Pemusnahan Samaria 740 SM oleh Asyur
-event_destruction_jerusalem1,"Pemusnahan Yerusalem 607 B.C.E. oleh Babylon, 390 tahun selepas Bahagian Kerajaan (Yehezkiel 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , , , ,"Pemusnahan Yerusalem 607 SM oleh Babilon, 390 tahun selepas pembahagian kerajaan (Yehezkiel 4:5)"
-event_temple_rebuilt,Kuil di Yerusalem dibina semula 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , , , ,Bait Suci di Yerusalem dibina semula pada tahun 515 SM.
-event_jerusalem_rebuilt,Wall Yerusalem dibina semula 455 B.C.E.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , , , ,Dinding Baitulmaqdis dibina semula pada tahun 455 SM.
-event_destruction_jerusalem2,Pemusnahan Yerusalem 70 C.E. oleh Rom di bawah Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , , , ,Pemusnahan Baitulmaqdis 70 Masihi oleh Rom di bawah Titus
-event_1914,"Akhir Masa Bangsa -bangsa (Lukas 21:24), kerajaan Tuhan mula memerintah di syurga 1914 C.E.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , , , ,"Akhir zaman bangsa-bangsa (Lukas 21:24), Kerajaan Tuhan mula memerintah di syurga pada tahun 1914 Masihi."
-became_king,menjadi raja pada usia,becomes king at age,2025-04-14,text,False, , , , , , , ,menjadi raja pada usia
-vulgate,Vulgate disiapkan oleh Jerome (Terjemahan Latin Alkitab) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , , , ,Vulgate disiapkan oleh Jerome (terjemahan Latin Alkitab) sekitar 405 Masihi.
-gutenberg,Bible Gutenberg dicetak 1455,Gutenberg Bible printed 1455, ,text,False, , , , , , , ,Alkitab Gutenberg dicetak pada tahun 1455
-erasmus,Teks Yunani Kitab Suci Yunani Kristian yang diterbitkan oleh Desiderius Erasmus dari Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , , , ,Teks Yunani Kitab Suci Yunani Kristian yang diterbitkan oleh Desiderius Erasmus dari Rotterdam pada tahun 1516
-luther,Terjemahan Alkitab Luther pada bulan September 1522,Luther Bible translation in September 1522, ,text,False, , , , , , , ,Terjemahan Alkitab Luther pada September 1522
-tyndale,Terjemahan Alkitab Inggeris oleh Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , , , , ,Terjemahan Alkitab Inggeris oleh Tyndale 1536
-king_james,King James Bible 1611,King James Bible 1611, ,text,False, , , , , , , ,Alkitab Raja James 1611
-69weeks3,"Yesus memulakan perkhidmatannya ke -29 CE (Lukas 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , , , , ,"Yesus memulakan pelayanan-Nya pada tahun 29 Masihi (Lukas 3:1, 21)"
-ransom,"Pertengahan minggu ""pengorbanan untuk berhenti"" Daniel 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , , , , ,"Tengah minggu ""korban untuk menghentikan"" Daniel 9:27"
-cornelius,Cornelius dibaptis pada akhir 70 minggu (Daniel 9:24) dalam 36 C.E.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , , , , ,Cornelius dibaptis pada akhir 70 minggu (Daniel 9:24) pada tahun 36 Masihi.
-columbus,Hujung Tempoh Pra-Kolumbus di Amerika 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , , , , ,Pengakhiran zaman prakolombus di Amerika 1492
-declaration_independence,Pengisytiharan Kemerdekaan 13 Koloni di Amerika 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , , , , ,Deklarasi kemerdekaan 13 koloni di Amerika 1776
-tischendorf,Tischendorf menemui Codex Sinaiticus dari abad ke -4 pada tahun 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , , , , ,Tischendorf menemui Codex Sinaiticus dari abad ke-4 pada tahun 1844
-dead_sea_scrolls,Skrol Laut Mati ditulis,Dead Sea Scrolls written, ,text,False, , , , , , , ,Ditulis oleh Naskhah Laut Mati
-septuagint,Septuagint LXX diterjemahkan,Septuagint LXX translated, ,text,False, , , , , , , ,Terjemahan LXX Septuaginta
-watchtower,"Isu pertama ""Menara Watch Zion dan Herald kehadiran Kristus"" diterbitkan pada tahun 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , , , , ,"Edisi pertama ""Menara Pengawal Zion dan Pengumum Kehadiran Kristus"" diterbitkan pada tahun 1879."
-jehovahs_witnesses,"Pelajar Alkitab mengamalkan nama baru - Saksi -Saksi Yehuwa (Yesaya 43:10, 12) di Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , , , , ,"Para Pelajar Alkitab menamakan diri semula sebagai Saksi-saksi Yehovah (Yesaya 43:10, 12) di Columbus, Ohio, pada tahun 1931."
-gilead_school,"Watchtower Bible School of Gilead bermula pada hari Isnin, 1 Februari 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , , , , ,"Sekolah Alkitab Menara Pengawal Gilead bermula pada hari Isnin, 1 Februari 1943."
-new_world_translation1,"Terjemahan Dunia Baru Kitab Suci yang dikeluarkan di Manchester, England pada 18 Jun 1960, memperkenalkan nama Yehuwa di banyak bahagian Alkitab","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , , , , ,"""Terjemahan Dunia Baru Kitab Suci"" yang diterbitkan di Manchester, England pada 18 Jun 1960, memperkenalkan semula nama Yehova dalam banyak bahagian Alkitab."
-new_world_translation2,"Disemak semula ""Terjemahan Dunia Baru Kitab Suci"" yang dikeluarkan pada Mesyuarat Tahunan 2013, dioptimumkan untuk digunakan secara digital dan dalam talian","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , , , , ,"Terjemahan Dunia Baru Kitab Suci yang disemak semula dikeluarkan pada mesyuarat tahunan 2013, dioptimumkan untuk digunakan secara digital dan dalam talian."
-cold_war,"Keadaan geopolitik yang dilabel ""Perang Dingin"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , , , , ,"Situasi geopolitik yang dilabel sebagai ""Perang Dingin"" 1945–1991"
-codex_sinaiticus,Codex Sinaiticus ditulis,Codex Sinaiticus written, ,text,False, , , , , , , ,Codex Sinaiticus ditulis
-codex_vaticanus,Codex vaticanus ditulis,Codex Vaticanus written, ,text,False, , , , , , , ,Codex Vaticanus ditulis
-leningrad_codex,Leningrad Codex Ditulis di Kaherah AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , , , , ,Kodeks Leningrad ditulis di Kaherah pada tahun 1008 Masihi
-john,"John menulis ""Wahyu"" semasa diasingkan pada Patmos 96-98 C.E.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , , , , ,"Yohanes menulis ""wahyu"" semasa diasingkan di Patmos pada tahun 96–98 Masihi."
-buddha,Buddha-Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , , , , ,Buddha – Siddhartha Gautama c.563–c.483 SM
-buddha2,Buddha secara alternatif c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , , , , ,Buddha secara alternatif sekitar 480–400 SM.
-mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632, ,text,False, , , , , , , ,Mohammed sekitar 570–632
-confucius,Confucius C.551-C.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False, , , , , , , ,Konfusius c.551-c.479 SM
-hijrah,Hijrah - Journey Mekah ke Medina 16 Julai 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , , , , ,Hijrah - Perjalanan dari Mekah ke Madinah 16 Julai 622
-moses_escape,"1553 B.C.E. Musa harus melarikan diri dari Mesir - Keluaran 2:15, Kisah 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , , , , ,"1553 S.M. Musa terpaksa melarikan diri dari Mesir – Keluaran 2:15, Kisah Rasul 7:23"
-10plagues,1513 B.C.E Mesir menerima 10 malapetaka,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , , , , ,1513 SM Mesir menerima 10 wabak
-joseph_sold,Yusuf dijual sebagai hamba pada usia 17 tahun - Gen 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , , , , ,Yusuf dijual sebagai hamba pada usia 17 tahun – Kejadian 37:2
-infliction,400 tahun penghapusan (Kisah 7: 6) - Ishmael 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , , , , ,Penderitaan 400 tahun (Kisah Para Rasul 7:6) – Ishak 1913 SM
-Alexander,Alexander the Great (Daniel 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , , , , ,Alexander Yang Agung (Daniel 11:3)
-persia,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 SM (suami Esther, Daniel 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , , , , ,"Sirus yang Agung, Kambises II, Darius I 490 SM, Xerxes I 480 SM (suami Esther, Daniel 11:2)"
-king_north,"Seleucus I Nicator (V5) Syria ke Antiochus III (V10) dan Seleucus IV (V18, 19) ke Octavian (V20) dan Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , , , , ,"Seleukus I Nikator (v5) Syria kepada Antiokus III (v10) dan Seleukus IV (v18, 19) sehingga Oktavianus (v20) dan Tiberius (v21-24)"
-king_north1,Raja Utara,King of the North, ,text,False, , , , , , , ,Raja Utara
-king_south,"Ptolemy I, II, III, IV (v11, 12), v (v15, 16) kepada Battle Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , , , , ,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) hingga Pertempuran Actium 31 SM."
-king_south1,Raja Selatan,King of the South, ,text,False, , , , , , , ,Raja Selatan
-king_south2,"Empayar British 1870, kuasa dunia Anglo-Amerika sejak tahun 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , , , , ,"Empayar British 1870, Kuasa Dunia Anglo-Amerika sejak 1914"
-king_south3,Raja Selatan,King of the South, ,text,False, , , , , , , ,Raja Selatan
-king_north2,"Jerman dengan Maharaja William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , , , , ,"Jerman dengan Maharaja Wilhelm I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,Utara,North, ,text,False, , , , , , , ,Utara
-king_north4,"Kesatuan Soviet 1945-1991 (Daniel 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , , , ,"Kesatuan Soviet 1945-1991 (Daniel 11:32-39, 40b, 41)"
-king_north5,Rusia sejak 2017 (W20 Mei),Russia since 2017 (w20 May), ,text,False, , , , , , , ,Rusia sejak 2017 (w20 Mei)
-time_of_end,"Kehadiran Kristus, Kesimpulan Sistem Perkara (Matius 24: 3), Hari -hari Terakhir (2 Timotius 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , , , , ,"Kehadiran Kristus, Kesimpulan sistem segala perkara (Matius 24:3), hari-hari terakhir (2 Timotius 3:1)"
-time_of_end2,Hari -hari terakhir,Last days, ,text,False, , , , , , , ,Hari-hari terakhir
-suryavaman2,Raja Suryavarman II Membina Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , , , , ,Raja Suryavarman II membina Angkor Wat 1113-1150
-notre-dame,Notre-Dame de Paris Dibina 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , , , , ,Notre-Dame de Paris dibina 1163–1260
-babel,Menara Babel Dibina,Tower of Babel built, ,text,False, , , , , , , ,Menara Babel dibina
-infliction1,400 tahun,400 year infliction,Acts 7:6,text,False, , , , , , , ,Penyiksaan 400 tahun
-Lots_wife,Isteri Lot,Lot’s wife, ,text,False, , , , , , , ,Isteri Lot
-Lots_daughters,Anak perempuan lot,Daughters of Lot, ,text,False, , , , , , , ,Anak-anak perempuan Lot
-Moab,Moab (anak perempuan yang lebih tua),Moab (older daughter),Genesis 19:37,text,False, , , , , , , ,Moab (anak perempuan sulung)
-rosetta,Rosetta Stone 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False, , , , , , , ,Batu Rosetta 196 SM
-Herodotus,"Herodotus c. 484 - c. 425 SM, menulis sejarah","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , ,"Herodotus sekitar 484 – sekitar 425 SM, menulis The Histories"
-Aristotle,Aristotle 384 - 322 SM,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , ,Aristotle 384 – 322 SM
-Ptolemy,Ptolemy C 100 - c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , ,Ptolemy c. 100 – c. 170 Masihi
-Pythagoras,Pythagoras c. 570 - c. 495 SM,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , ,Pythagoras c. 570 – c. 495 SM
-Plato,Plato c. 427 - c. 348 SM,Plato c. 427 – c. 348 BC, ,text,False, , , , , , , ,Plato c. 427 – c. 348 SM
-Socrates,Socrates c. 470 - c. 399 SM,Socrates c. 470 – c. 399 BC, ,text,False, , , , , , , ,Socrates c. 470 – c. 399 SM
-Josephus,Josephus c. 37 - c. 100 C.E.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , , , ,Josephus c. 37 – c. 100 Masihi
-Cicero,Cicero 106-43 SM,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , , , ,Cicero 106–43 SM
-lachish_letters,Surat Lachish c. 590 B.C.E.,Lachish letters c. 590 B.C.E., ,text,False, , , , , , , ,Surat-surat Lachish sekitar 590 SM
-lachish_reliefs,Relief Lachish c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , , , , ,Relief Lachish sekitar 681 SM
-mesha_stele,Mesha Stele (Moabite Stone) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , , , , ,Mesha Stele (batu Moab) sekitar 840 SM.
-gilgamesh,Gilgamesh dan Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , , , ,Gilgamesh dan Aga 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,Epic of Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , , , ,Epos Gilgamesh (Sîn-lēqi-unninni)
-gregorian,Kalendar Gregorian 1582,Gregorian calendar 1582, ,text,False, , , , , , , ,Kalendar Gregori 1582
-shang-dynasty,c. 1600-1046 SM,c. 1600-1046 BC, ,text,False, , , , , , , ,c. 1600-1046 SM
-western-zhou,c. 1046-771 SM,c. 1046-771 BC, ,text,False, , , , , , , ,c. 1046–771 SM
-qin-dynasty,Qin 221-207 SM,Qin 221-207 BC, ,text,False, , , , , , , ,Qin 221-207 SM
-western-han,207 SM - 9 CE,207 BC – 9 CE, ,text,False, , , , , , , ,207 SM – 9 Masihi
-three-kingdoms,Tiga Kerajaan 220-280 CE,Three kingdoms 220-280 CE, ,text,False, , , , , , , ,Tiga Kerajaan 220–280 Masihi
-sixteen-kingdoms,Enam belas Kerajaan 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , , , , ,Enam belas kerajaan 304–439 Masihi
+wilderness,Israel di Wilderness 1513 hingga 1473 B.C.E. - 40 tahun,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,Israel di padang belantara 1513 hingga 1473 S.M. – 40 tahun, , ,Israel di padang gurun 1513 hingga 1473 SM – 40 tahun
+timespan_judges,1473 hingga 1117 B.C.E. - 356 tahun,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 hingga 1117 S.M. – 356 tahun, , ,1473 hingga 1117 SM – 356 tahun
+timespan_judges2,Masa hakim,Time of the judges, ,text,False, , , , ,Zaman hakim-hakim, , ,Masa para hakim
+temple2,479 tahun sehingga pembinaan kuil - 1 Raja 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,479 tahun hingga pembinaan bait suci – 1 Raja-raja 6:1, , ,479 tahun sehingga pembinaan bait suci – 1 Raja-raja 6:1
+69weeks2,69 minggu ke Mesias - Daniel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,69 minggu hingga Mesias – Daniel 9:25, , ,69 minggu kepada Mesias – Daniel 9:25
+jesus_service,"3.5 tahun perkhidmatan Yesus, yang dilaksanakan Nisan ke -14, 33 C.E.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"3.5 tahun pelayanan Jesus, dihukum mati Nisan 14, 33 M.", , ,"3.5 tahun pelayanan Yesus, disalibkan pada 14 Nisan, 33 Masihi."
+jesus_life,Yesus lahir 2 B.C.E.,Jesus born 2 B.C.E., ,text,False, , , , ,Jesus lahir 2 S.M., , ,Yesus dilahirkan pada tahun 2 SM.
+exile,607 hingga 537 B.C.E. - 70 tahun (Yeremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,607 hingga 537 S.M. – 70 tahun (Yeremia 25:11), , ,607 hingga 537 S.M. – 70 tahun (Yeremia 25:11)
+exile2,Buangan,Exile, ,text,False, , , , ,Pembuangan, , ,Pengasingan
+7times2,7 kali - 2520 tahun ke Kerajaan Mesianik 1914 C.E. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7 kali – 2520 tahun hingga Kerajaan Mesianik 1914 M. (Daniel 4:23), , ,7 kali – 2520 tahun kepada Kerajaan Messianik 1914 Masihi (Daniel 4:23)
+ww1,Perang Dunia I - 1914-1918 C.E.,World War I – 1914–1918, ,text,False, , , , ,Perang Dunia I – 1914–1918, , ,Perang Dunia I – 1914–1918
+ww2,Perang Dunia II - 1939-1945 C.E.,World War II – 1939–1945, ,text,False, , , , ,Perang Dunia II – 1939–1945, , ,Perang Dunia II – 1939–1945
+30_year_war,Perang Tiga Puluh Tahun di Eropah 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,Perang Tiga Puluh Tahun di Eropah 1618-1648, , ,Perang Tiga Puluh Tahun di Eropah 1618-1648
+joshua,110 tahun,110 years, ,text,False, , , , ,110 tahun, , ,110 tahun
+caleb,Lebih dari 85 tahun,more than 85 years, ,text,False, , , , ,lebih daripada 85 tahun, , ,lebih daripada 85 tahun
+missionary1,"Perjalanan Misi Pertama Paul, c. 47-48 C.E. dengan Barnabas dan John Mark","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"Perjalanan Misi Pertama Paul, kira-kira 47-48 M. dengan Barnabas dan John Mark", , ,"Perjalanan Misi Pertama Paulus, sekitar 47–48 Masihi bersama Barnabas dan Yohanes Markus"
+circumcision,"Isu sunat di Antioch, persidangan di Yerusalem c. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"Isu khatan di Antioch, persidangan di Yerusalem kira-kira 49 M.", , ,"Isu sunat di Antiohia, persidangan di Yerusalem sekitar tahun 49 Masihi."
+missionary2,Perjalanan misi kedua c. 49-52 C.E dengan Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,Perjalanan Misi Kedua kira-kira 49-52 M. dengan Silas (Silvanus), , ,Perjalanan Misionari Kedua sekitar 49–52 Masihi bersama Silas (Silvanus)
+missionary3,Perjalanan misi ketiga c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,Perjalanan Misi Ketiga kira-kira 52-56 M., , ,Perjalanan Misionari Ketiga sekitar 52–56 Masihi
+caesarea,Paul dalam tahanan di Caesarea c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,Paul dalam tahanan di Caesarea kira-kira 56-58 M., , ,Paul dalam tahanan di Kaisarea sekitar 56–58 Masihi.
+rome1,Penjara pertama Paul di Rom c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,Pemenjaraan pertama Paul di Rom kira-kira 59-61 M., , ,Penjara pertama Paulus di Rom sekitar 59–61 Masihi.
+rome2,"Penjara kedua Paul di Rom c. 65 CE, 2 Timothy Ditulis, Paul Dihidupkan","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"Pemenjaraan kedua Paul di Rom kira-kira 65 M., 2 Timothy ditulis, Paul dihukum mati", , ,"Penjara kedua Paulus di Rom sekitar 65 Masihi, 2 Timoti ditulis, Paulus dihukum mati"
+event_exodus,"Keluaran dari Mesir pada Nisan 14, 1513 B.C.E.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,"Keluar dari Mesir pada Nisan 14, 1513 S.M.", , ,Pembebasan daripada Mesir pada 14 Nisan 1513 SM.
+event_division_kingdom,Bahagian Israel 997 BCE,Division of Israel 997 BCE, ,text,False, , , , ,Pembahagian Israel 997 S.M., , ,Pembahagian Israel 997 SM
+event_destruction_samaria,Pemusnahan Samaria 740 B.C.E. oleh Assyria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,Kemusnahan Samaria 740 S.M. oleh Assyria, , ,Pemusnahan Samaria 740 SM oleh Asyur
+event_destruction_jerusalem1,"Pemusnahan Yerusalem 607 B.C.E. oleh Babylon, 390 tahun selepas Bahagian Kerajaan (Yehezkiel 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"Kemusnahan Yerusalem 607 S.M. oleh Babylon, 390 tahun selepas pembahagian kerajaan (Yehezkiel 4:5)", , ,"Pemusnahan Yerusalem 607 SM oleh Babilon, 390 tahun selepas pembahagian kerajaan (Yehezkiel 4:5)"
+event_temple_rebuilt,Kuil di Yerusalem dibina semula 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,Bait suci di Yerusalem dibina semula 515 S.M., , ,Bait Suci di Yerusalem dibina semula pada tahun 515 SM.
+event_jerusalem_rebuilt,Wall Yerusalem dibina semula 455 B.C.E.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,Tembok Yerusalem dibina semula 455 S.M., , ,Dinding Baitulmaqdis dibina semula pada tahun 455 SM.
+event_destruction_jerusalem2,Pemusnahan Yerusalem 70 C.E. oleh Rom di bawah Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,Kemusnahan Yerusalem 70 M. oleh Rom di bawah Titus, , ,Pemusnahan Baitulmaqdis 70 Masihi oleh Rom di bawah Titus
+event_1914,"Akhir Masa Bangsa -bangsa (Lukas 21:24), kerajaan Tuhan mula memerintah di syurga 1914 C.E.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"Akhir zaman bangsa-bangsa (Lukas 21:24), Kerajaan Tuhan mula memerintah di syurga 1914 M.", , ,"Akhir zaman bangsa-bangsa (Lukas 21:24), Kerajaan Tuhan mula memerintah di syurga pada tahun 1914 Masihi."
+became_king,menjadi raja pada usia,becomes king at age,2025-04-14,text,False, , , , ,menjadi raja pada umur, , ,menjadi raja pada usia
+vulgate,Vulgate disiapkan oleh Jerome (Terjemahan Latin Alkitab) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,Vulgate disiapkan oleh Jerome (terjemahan Latin Alkitab) kira-kira 405 M., , ,Vulgate disiapkan oleh Jerome (terjemahan Latin Alkitab) sekitar 405 Masihi.
+gutenberg,Bible Gutenberg dicetak 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,Alkitab Gutenberg dicetak 1455, , ,Alkitab Gutenberg dicetak pada tahun 1455
+erasmus,Teks Yunani Kitab Suci Yunani Kristian yang diterbitkan oleh Desiderius Erasmus dari Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,Teks Greek bagi Scripture Greek Kristian diterbitkan oleh Desiderius Erasmus dari Rotterdam 1516, , ,Teks Yunani Kitab Suci Yunani Kristian yang diterbitkan oleh Desiderius Erasmus dari Rotterdam pada tahun 1516
+luther,Terjemahan Alkitab Luther pada bulan September 1522,Luther Bible translation in September 1522, ,text,False, , , , ,Terjemahan Alkitab Luther pada September 1522, , ,Terjemahan Alkitab Luther pada September 1522
+tyndale,Terjemahan Alkitab Inggeris oleh Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , ,Terjemahan Alkitab Inggeris oleh Tyndale 1536, , ,Terjemahan Alkitab Inggeris oleh Tyndale 1536
+king_james,King James Bible 1611,King James Bible 1611, ,text,False, , , , ,Kitab Bible Raja James 1611, , ,Alkitab Raja James 1611
+69weeks3,"Yesus memulakan perkhidmatannya ke -29 CE (Lukas 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Yesus memulakan perkhidmatan-Nya 29 M (Lukas 3:1, 21)", , ,"Yesus memulakan pelayanan-Nya pada tahun 29 Masihi (Lukas 3:1, 21)"
+ransom,"Pertengahan minggu ""pengorbanan untuk berhenti"" Daniel 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,Pertengahan minggu “korban akan dihentikan” Daniel 9:27, , ,"Tengah minggu ""korban untuk menghentikan"" Daniel 9:27"
+cornelius,Cornelius dibaptis pada akhir 70 minggu (Daniel 9:24) dalam 36 C.E.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Cornelius dibaptis pada akhir 70 minggu (Daniel 9:24) dalam 36 M, , ,Cornelius dibaptis pada akhir 70 minggu (Daniel 9:24) pada tahun 36 Masihi.
+columbus,Hujung Tempoh Pra-Kolumbus di Amerika 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,Akhir zaman pra-Columbus di Amerika 1492, , ,Pengakhiran zaman prakolombus di Amerika 1492
+declaration_independence,Pengisytiharan Kemerdekaan 13 Koloni di Amerika 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,Pengisytiharan kemerdekaan 13 jajahan di Amerika 1776, , ,Deklarasi kemerdekaan 13 koloni di Amerika 1776
+tischendorf,Tischendorf menemui Codex Sinaiticus dari abad ke -4 pada tahun 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf menemui Codex Sinaiticus dari abad ke-4 pada tahun 1844, , ,Tischendorf menemui Codex Sinaiticus dari abad ke-4 pada tahun 1844
+dead_sea_scrolls,Skrol Laut Mati ditulis,Dead Sea Scrolls written, ,text,False, , , , ,Gulungan Laut Mati ditulis, , ,Ditulis oleh Naskhah Laut Mati
+septuagint,Septuagint LXX diterjemahkan,Septuagint LXX translated, ,text,False, , , , ,Septuaginta LXX diterjemahkan, , ,Terjemahan LXX Septuaginta
+watchtower,"Isu pertama ""Menara Watch Zion dan Herald kehadiran Kristus"" diterbitkan pada tahun 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,Isi pertama “Zion’s Watch Tower and Herald of Christ’s Presence” diterbitkan pada tahun 1879, , ,"Edisi pertama ""Menara Pengawal Zion dan Pengumum Kehadiran Kristus"" diterbitkan pada tahun 1879."
+jehovahs_witnesses,"Pelajar Alkitab mengamalkan nama baru - Saksi -Saksi Yehuwa (Yesaya 43:10, 12) di Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"Pelajar Bible menerima nama baharu – Saksi-Saksi Yehuwa (Yesaya 43:10, 12) di Columbus, Ohio, 1931", , ,"Para Pelajar Alkitab menamakan diri semula sebagai Saksi-saksi Yehovah (Yesaya 43:10, 12) di Columbus, Ohio, pada tahun 1931."
+gilead_school,"Watchtower Bible School of Gilead bermula pada hari Isnin, 1 Februari 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"Watchtower Bible School of Gilead bermula pada hari Isnin, 1 Februari 1943", , ,"Sekolah Alkitab Menara Pengawal Gilead bermula pada hari Isnin, 1 Februari 1943."
+new_world_translation1,"Terjemahan Dunia Baru Kitab Suci yang dikeluarkan di Manchester, England pada 18 Jun 1960, memperkenalkan nama Yehuwa di banyak bahagian Alkitab","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"“New World Translation of the Holy Scriptures” dikeluarkan di Manchester, England pada 18 Jun 1960, memperkenalkan semula nama Yehuwa di banyak bahagian Bible", , ,"""Terjemahan Dunia Baru Kitab Suci"" yang diterbitkan di Manchester, England pada 18 Jun 1960, memperkenalkan semula nama Yehova dalam banyak bahagian Alkitab."
+new_world_translation2,"Disemak semula ""Terjemahan Dunia Baru Kitab Suci"" yang dikeluarkan pada Mesyuarat Tahunan 2013, dioptimumkan untuk digunakan secara digital dan dalam talian","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"“New World Translation of the Holy Scriptures” yang disemak semula dikeluarkan pada mesyuarat tahunan 2013, dioptimumkan untuk digunakan secara digital dan dalam talian", , ,"Terjemahan Dunia Baru Kitab Suci yang disemak semula dikeluarkan pada mesyuarat tahunan 2013, dioptimumkan untuk digunakan secara digital dan dalam talian."
+cold_war,"Keadaan geopolitik yang dilabel ""Perang Dingin"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,Situasi geopolitik yang dilabelkan “Perang Dingin” 1945-1991, , ,"Situasi geopolitik yang dilabel sebagai ""Perang Dingin"" 1945–1991"
+codex_sinaiticus,Codex Sinaiticus ditulis,Codex Sinaiticus written, ,text,False, , , , ,Codex Sinaiticus ditulis, , ,Codex Sinaiticus ditulis
+codex_vaticanus,Codex vaticanus ditulis,Codex Vaticanus written, ,text,False, , , , ,Codex Vaticanus ditulis, , ,Codex Vaticanus ditulis
+leningrad_codex,Leningrad Codex Ditulis di Kaherah AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Codex Leningrad ditulis di Kahirah 1008 M, , ,Kodeks Leningrad ditulis di Kaherah pada tahun 1008 Masihi
+john,"John menulis ""Wahyu"" semasa diasingkan pada Patmos 96-98 C.E.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,Yohanes menulis “wahyu” ketika dibuang di Patmos 96-98 M, , ,"Yohanes menulis ""wahyu"" semasa diasingkan di Patmos pada tahun 96–98 Masihi."
+buddha,Buddha-Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,Buddha – Siddhartha Gautama sekitar 563-483 S.M., , ,Buddha – Siddhartha Gautama c.563–c.483 SM
+buddha2,Buddha secara alternatif c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Buddha secara alternatif sekitar 480-400 S.M., , ,Buddha secara alternatif sekitar 480–400 SM.
+mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632, ,text,False, , , , ,Muhammad sekitar 570-632, , ,Mohammed sekitar 570–632
+confucius,Confucius C.551-C.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,Confucius sekitar 551-479 S.M., , ,Konfusius c.551-c.479 SM
+hijrah,Hijrah - Journey Mekah ke Medina 16 Julai 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Hijrah - Perjalanan Mekah ke Madinah 16 Julai 622, , ,Hijrah - Perjalanan dari Mekah ke Madinah 16 Julai 622
+moses_escape,"1553 B.C.E. Musa harus melarikan diri dari Mesir - Keluaran 2:15, Kisah 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 S.M. Musa terpaksa melarikan diri dari Mesir – Keluaran 2:15, Kisah 7:23", , ,"1553 S.M. Musa terpaksa melarikan diri dari Mesir – Keluaran 2:15, Kisah Rasul 7:23"
+10plagues,1513 B.C.E Mesir menerima 10 malapetaka,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 S.M. Mesir menerima 10 wabak, , ,1513 SM Mesir menerima 10 wabak
+joseph_sold,Yusuf dijual sebagai hamba pada usia 17 tahun - Gen 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Yusuf dijual sebagai hamba pada usia 17 – Kejadian 37:2, , ,Yusuf dijual sebagai hamba pada usia 17 tahun – Kejadian 37:2
+infliction,400 tahun penghapusan (Kisah 7: 6) - Ishmael 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,Penghukuman 400 tahun (Kisah 7:6) – Ismael 1913 S.M., , ,Penderitaan 400 tahun (Kisah Para Rasul 7:6) – Ishak 1913 SM
+Alexander,Alexander the Great (Daniel 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Alexander Yang Agung (Daniel 11:3), , ,Alexander Yang Agung (Daniel 11:3)
+persia,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 SM (suami Esther, Daniel 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Cyrus Yang Agung, Cambyses II, Darius I 490 S.M., Xerxes I 480 S.M. (suami Ester, Daniel 11:2)", , ,"Sirus yang Agung, Kambises II, Darius I 490 SM, Xerxes I 480 SM (suami Esther, Daniel 11:2)"
+king_north,"Seleucus I Nicator (V5) Syria ke Antiochus III (V10) dan Seleucus IV (V18, 19) ke Octavian (V20) dan Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"Seleucus I Nicator (v5) Syria kepada Antiochus III (v10) dan Seleucus IV (v18, 19) sehingga Octavian (v20) dan Tiberius (v21-24)", , ,"Seleukus I Nikator (v5) Syria kepada Antiokus III (v10) dan Seleukus IV (v18, 19) sehingga Oktavianus (v20) dan Tiberius (v21-24)"
+king_north1,Raja Utara,King of the North, ,text,False, , , , ,Raja di Utara, , ,Raja Utara
+king_south,"Ptolemy I, II, III, IV (v11, 12), v (v15, 16) kepada Battle Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"Ptolomeus I, II, III, IV (v11, 12), V (v15, 16) hingga pertempuran Actium 31 S.M.", , ,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) hingga Pertempuran Actium 31 SM."
+king_south1,Raja Selatan,King of the South, ,text,False, , , , ,Raja di Selatan, , ,Raja Selatan
+king_south2,"Empayar British 1870, kuasa dunia Anglo-Amerika sejak tahun 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"Empayar British 1870, Kuasa Dunia Anglo-Amerika sejak 1914", , ,"Empayar British 1870, Kuasa Dunia Anglo-Amerika sejak 1914"
+king_south3,Raja Selatan,King of the South, ,text,False, , , , ,Raja di Selatan, , ,Raja Selatan
+king_north2,"Jerman dengan Maharaja William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Jerman dengan Maharaja William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", , ,"Jerman dengan Maharaja Wilhelm I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Utara,North, ,text,False, , , , ,Utara, , ,Utara
+king_north4,"Kesatuan Soviet 1945-1991 (Daniel 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"Kesatuan Soviet 1945-1991 (Daniel 11:32-39, 40b, 41)", , ,"Kesatuan Soviet 1945-1991 (Daniel 11:32-39, 40b, 41)"
+king_north5,Rusia sejak 2017 (W20 Mei),Russia since 2017 (w20 May), ,text,False, , , , ,Rusia sejak 2017 (w20 Mei), , ,Rusia sejak 2017 (w20 Mei)
+time_of_end,"Kehadiran Kristus, Kesimpulan Sistem Perkara (Matius 24: 3), Hari -hari Terakhir (2 Timotius 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"Kehadiran Kristus, Kesudahan sistem perkara (Matius 24:3), hari-hari terakhir (2 Timotius 3:1)", , ,"Kehadiran Kristus, Kesimpulan sistem segala perkara (Matius 24:3), hari-hari terakhir (2 Timotius 3:1)"
+time_of_end2,Hari -hari terakhir,Last days, ,text,False, , , , ,Hari-hari terakhir, , ,Hari-hari terakhir
+suryavaman2,Raja Suryavarman II Membina Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,Raja Suryavarman II membina Angkor Wat 1113-1150, , ,Raja Suryavarman II membina Angkor Wat 1113-1150
+notre-dame,Notre-Dame de Paris Dibina 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,Notre-Dame de Paris dibina 1163-1260, , ,Notre-Dame de Paris dibina 1163–1260
+babel,Menara Babel Dibina,Tower of Babel built, ,text,False, , , , ,Menara Babel dibina, , ,Menara Babel dibina
+infliction1,400 tahun,400 year infliction,Acts 7:6,text,False, , , , ,Penghukuman 400 tahun, , ,Penyiksaan 400 tahun
+Lots_wife,Isteri Lot,Lot’s wife, ,text,False, , , , ,Isteri Lot, , ,Isteri Lot
+Lots_daughters,Anak perempuan lot,Daughters of Lot, ,text,False, , , , ,Anak-anak perempuan Lot, , ,Anak-anak perempuan Lot
+Moab,Moab (anak perempuan yang lebih tua),Moab (older daughter),Genesis 19:37,text,False, , , , ,Moab (anak perempuan yang lebih tua), , ,Moab (anak perempuan sulung)
+rosetta,Rosetta Stone 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False, , , , ,Batu Rosetta 196 S.M., , ,Batu Rosetta 196 SM
+Herodotus,"Herodotus c. 484 - c. 425 SM, menulis sejarah","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"Herodotus c. 484 – c. 425 SM, menulis The Histories", , ,"Herodotus sekitar 484 – sekitar 425 SM, menulis The Histories"
+Aristotle,Aristotle 384 - 322 SM,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,Aristotle 384 – 322 SM, , ,Aristotle 384 – 322 SM
+Ptolemy,Ptolemy C 100 - c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,Ptolemy c 100 – c. 170 M., , ,Ptolemy c. 100 – c. 170 Masihi
+Pythagoras,Pythagoras c. 570 - c. 495 SM,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,Pythagoras c. 570 – c. 495 SM, , ,Pythagoras c. 570 – c. 495 SM
+Plato,Plato c. 427 - c. 348 SM,Plato c. 427 – c. 348 BC, ,text,False, , , , ,Plato c. 427 – c. 348 SM, , ,Plato c. 427 – c. 348 SM
+Socrates,Socrates c. 470 - c. 399 SM,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,Socrates c. 470 – c. 399 SM, , ,Socrates c. 470 – c. 399 SM
+Josephus,Josephus c. 37 - c. 100 C.E.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,Josephus c. 37 – c. 100 M., , ,Josephus c. 37 – c. 100 Masihi
+Cicero,Cicero 106-43 SM,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,Cicero 106–43 SM, , ,Cicero 106–43 SM
+lachish_letters,Surat Lachish c. 590 B.C.E.,Lachish letters c. 590 B.C.E., ,text,False, , , , ,Surat Lachish c. 590 S.M., , ,Surat-surat Lachish sekitar 590 SM
+lachish_reliefs,Relief Lachish c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,Ukiran Lachish c. 681 S.M., , ,Relief Lachish sekitar 681 SM
+mesha_stele,Mesha Stele (Moabite Stone) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,Mesha Stele (batu Moab) c. 840 S.M., , ,Mesha Stele (batu Moab) sekitar 840 SM.
+gilgamesh,Gilgamesh dan Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,Gilgamesh dan Aga 𒇽𒆥𒄄𒀀𒀝𒂵, , ,Gilgamesh dan Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Epic of Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,Epik Gilgamesh (Sîn-lēqi-unninni), , ,Epos Gilgamesh (Sîn-lēqi-unninni)
+gregorian,Kalendar Gregorian 1582,Gregorian calendar 1582, ,text,False, , , , ,Kalendar Gregory 1582, , ,Kalendar Gregori 1582
+shang-dynasty,c. 1600-1046 SM,c. 1600-1046 BC, ,text,False, , , , ,c. 1600-1046 SM, , ,c. 1600-1046 SM
+western-zhou,c. 1046-771 SM,c. 1046-771 BC, ,text,False, , , , ,c. 1046-771 SM, , ,c. 1046–771 SM
+qin-dynasty,Qin 221-207 SM,Qin 221-207 BC, ,text,False, , , , ,Qin 221-207 SM, , ,Qin 221-207 SM
+western-han,207 SM - 9 CE,207 BC – 9 CE, ,text,False, , , , ,207 SM – 9 M, , ,207 SM – 9 Masihi
+three-kingdoms,Tiga Kerajaan 220-280 CE,Three kingdoms 220-280 CE, ,text,False, , , , ,Tiga Kerajaan 220-280 M, , ,Tiga Kerajaan 220–280 Masihi
+sixteen-kingdoms,Enam belas Kerajaan 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,Enam Belas Kerajaan 304-439 M, , ,Enam belas kerajaan 304–439 Masihi
 tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , , , , 
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False, , , , , , , , 
 tang-dynasty1_c,Tang,Tang, ,text,False, , , , , , , ,Tangkai
-gonghe,Gonghe Regency 841-828 SM,Gonghe Regency 841-828 BC, ,text,False, , , , , , , ,Gonghe Regency 841-828 SM
-Ashoka,Ashoka (ms 304-232 SM) menggalakkan Buddhisme,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , , , ,Ashoka (c. 304-232 SM) mempromosikan agama Buddha
-siloam-tunnel,Hezekiah memanjangkan terowong siloam,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , , , ,Hezekia memanjangkan terowong Siloam
-Angloamerica2,"Anglo-Amerika dilambangkan oleh kaki besi bercampur dengan tanah liat dalam nubuatan di Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , , , ,"Anglo-Amerika disimbolkan oleh kaki besi yang dicampur dengan tanah liat dalam nubuat dalam Daniel 2:33, 41-43"
-Manetho,Manetho menulis Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , , , , ,Manetho menulis Aegyptiaca
-destruction_babylon,"Pemusnahan Babylon the Great (Wahyu 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , , , ,"Pemusnahan Babilon yang Agong (Wahyu 17:3, 15-18; 18:9, 10)"
-peace_security,"“Keamanan dan keselamatan!” (1 Tesalonika 5:3, ini adalah satu kemungkinan, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , , , ,"""Damai dan keselamatan!"" (1 Tesalonika 5:3, ini satu kemungkinan, QfR 26/2, 25/11)"
-gog_of_magog,"Serangan Gog of Magog (Yehezkiel 38: 1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , , , ,"Serangan Gog dari Magog (Yehezkiel 38:1, 2, 9-12, 18-23)"
-sheep_goat,"Penduduk bumi dihakimi, memisahkan kambing dan kambing (Matius 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , , , ,"Penghuni bumi dihakimi, memisahkan biri-biri dan kambing (Matius 25:31-33)"
-annointed,Pengumpulan Penguasa Kerajaan (Matius 24:31; 1 Korintus 15: 50-53; 1 Tesalonika 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , , , ,Pengumpulan para pemerintah Kerajaan (Matius 24:31; 1 Korintus 15:50-53; 1 Tesalonika 4:15-17)
-armageddon,"Pertempuran Armageddon (Wahyu 16:14, 16; Yesaya 13: 9; 2 Petrus 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , , , ,"Pertempuran Armageddon (Wahyu 16:14, 16; Yesaya 13:9; 2 Petrus 3:12)"
-millenium,"Kerajaan Tuhan memulakan pemerintahannya selama 1000 tahun (Wahyu 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , , , ,"Kerajaan Tuhan memulakan pemerintahan seribu tahun-Nya (Wahyu 5:9, 10; 20:4, 6)"
-great_crowd,"Orang ramai yang bertahan Armageddon (Wahyu 7: 9, 14; Mazmur 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , , , ,"Kerumunan besar terselamat daripada Armageddon (Wahyu 7:9, 14; Mazmur 37:9-11)"
-world_population,Penduduk dunia dalam berbilion -bilion dalam 2000 tahun yang lalu,World population in billions in the last 2000 years,appendix B9,text,False, , , , , , , ,Populasi dunia dalam bilion sepanjang 2000 tahun terakhir
-khmer_empire_c,Khmer Empire - Tempoh Angkor,Khmer Empire - Angkor period, ,text,False, , , , , , , ,Empayar Khmer - tempoh Angkor
-holy_roman_empire_c,Empayar Rom Suci - yang dikenali sebagai Empayar Rom Suci Negara Jerman selepas 1512,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , , , ,Empayar Rom Suci – dikenali sebagai Empayar Rom Suci Bangsa Jerman selepas 1512
-mongol_empire,Mongol Empire 1206 - 1294 C.E.,Mongol Empire 1206 – 1294, ,text,False, , , , , , , ,Empayar Mongol 1206 – 1294
-maya_classic_c,Tamadun Maya - Tempoh Klasik,Maya civilization – Classic period, ,text,False, , , , , , , ,Tamadun Maya – Zaman Klasik
-maya_postclassic_c,Tamadun Maya - Tempoh Postclassic,Maya civilization – Postclassic period, ,text,False, , , , , , , ,Tamadun Maya – Zaman Pascaklasik
-Teotihuacan,"Bandar terbesar di Amerika, piramid membina c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , , , ,"Bandar terbesar di Amerika, piramid dibina sekitar tahun 200 Masihi."
-Dionysius_Exiguus,"Dionysius Exiguus, pencipta Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , , , ,"Dionysius Exiguus, pencipta Anno Domini"
+gonghe,Gonghe Regency 841-828 SM,Gonghe Regency 841-828 BC, ,text,False, , , , ,Pemangku Gonghe 841-828 SM, , ,Gonghe Regency 841-828 SM
+Ashoka,Ashoka (ms 304-232 SM) menggalakkan Buddhisme,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,Ashoka (c. 304-232 SM) menggalakkan Buddha, , ,Ashoka (c. 304-232 SM) mempromosikan agama Buddha
+siloam-tunnel,Hezekiah memanjangkan terowong siloam,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,Hizkia memanjangkan terowong Siloam, , ,Hezekia memanjangkan terowong Siloam
+Angloamerica2,"Anglo-Amerika dilambangkan oleh kaki besi bercampur dengan tanah liat dalam nubuatan di Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"Anglo-Amerika disimbolkan oleh kaki besi bercampur tanah liat dalam nubuat Daniel 2:33, 41-43", , ,"Anglo-Amerika disimbolkan oleh kaki besi yang dicampur dengan tanah liat dalam nubuat dalam Daniel 2:33, 41-43"
+Manetho,Manetho menulis Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , ,Manetho menulis Aegyptiaca, , ,Manetho menulis Aegyptiaca
+destruction_babylon,"Pemusnahan Babylon the Great (Wahyu 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"Kemusnahan Babilon Besar (Wahyu 17:3, 15-18; 18:9, 10)", , ,"Pemusnahan Babilon yang Agong (Wahyu 17:3, 15-18; 18:9, 10)"
+peace_security,"“Keamanan dan keselamatan!” (1 Tesalonika 5:3, ini adalah satu kemungkinan, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"“Damai dan selamat!” (1 Tesalonika 5:3, ini salah satu kemungkinan, QfR 26/2, 25/11)", , ,"""Damai dan keselamatan!"" (1 Tesalonika 5:3, ini satu kemungkinan, QfR 26/2, 25/11)"
+gog_of_magog,"Serangan Gog of Magog (Yehezkiel 38: 1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"Serangan Gog dari Magog (Yehezkiel 38:1, 2, 9-12, 18-23)", , ,"Serangan Gog dari Magog (Yehezkiel 38:1, 2, 9-12, 18-23)"
+sheep_goat,"Penduduk bumi dihakimi, memisahkan kambing dan kambing (Matius 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"Penduduk bumi dihakimi, memisahkan domba dan kambing (Matius 25:31-33)", , ,"Penghuni bumi dihakimi, memisahkan biri-biri dan kambing (Matius 25:31-33)"
+annointed,Pengumpulan Penguasa Kerajaan (Matius 24:31; 1 Korintus 15: 50-53; 1 Tesalonika 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,Pengumpulan pemerintah Kerajaan (Matius 24:31; 1 Korintus 15:50-53; 1 Tesalonika 4:15-17), , ,Pengumpulan para pemerintah Kerajaan (Matius 24:31; 1 Korintus 15:50-53; 1 Tesalonika 4:15-17)
+armageddon,"Pertempuran Armageddon (Wahyu 16:14, 16; Yesaya 13: 9; 2 Petrus 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"Pertempuran Armageddon (Wahyu 16:14, 16; Yesaya 13:9; 2 Petrus 3:12)", , ,"Pertempuran Armageddon (Wahyu 16:14, 16; Yesaya 13:9; 2 Petrus 3:12)"
+millenium,"Kerajaan Tuhan memulakan pemerintahannya selama 1000 tahun (Wahyu 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"Kerajaan Tuhan memulakan pemerintahan 1000 tahun (Wahyu 5:9, 10; 20:4, 6)", , ,"Kerajaan Tuhan memulakan pemerintahan seribu tahun-Nya (Wahyu 5:9, 10; 20:4, 6)"
+great_crowd,"Orang ramai yang bertahan Armageddon (Wahyu 7: 9, 14; Mazmur 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"Orang ramai yang besar terselamat dari Armageddon (Wahyu 7:9, 14; Mazmur 37:9-11)", , ,"Kerumunan besar terselamat daripada Armageddon (Wahyu 7:9, 14; Mazmur 37:9-11)"
+world_population,Penduduk dunia dalam berbilion -bilion dalam 2000 tahun yang lalu,World population in billions in the last 2000 years,appendix B9,text,False, , , , ,Populasi dunia dalam bilion dalam 2000 tahun terakhir, , ,Populasi dunia dalam bilion sepanjang 2000 tahun terakhir
+khmer_empire_c,Khmer Empire - Tempoh Angkor,Khmer Empire - Angkor period, ,text,False, , , , ,Empayar Khmer - tempoh Angkor, , ,Empayar Khmer - tempoh Angkor
+holy_roman_empire_c,Empayar Rom Suci - yang dikenali sebagai Empayar Rom Suci Negara Jerman selepas 1512,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,Empayar Rom Suci – dikenali sebagai Empayar Rom Suci Bangsa German selepas 1512, , ,Empayar Rom Suci – dikenali sebagai Empayar Rom Suci Bangsa Jerman selepas 1512
+mongol_empire,Mongol Empire 1206 - 1294 C.E.,Mongol Empire 1206 – 1294, ,text,False, , , , ,Empayar Mongol 1206 – 1294, , ,Empayar Mongol 1206 – 1294
+maya_classic_c,Tamadun Maya - Tempoh Klasik,Maya civilization – Classic period, ,text,False, , , , ,Tamadun Maya – tempoh Klasik, , ,Tamadun Maya – Zaman Klasik
+maya_postclassic_c,Tamadun Maya - Tempoh Postclassic,Maya civilization – Postclassic period, ,text,False, , , , ,Tamadun Maya – tempoh Pasca Klasik, , ,Tamadun Maya – Zaman Pascaklasik
+Teotihuacan,"Bandar terbesar di Amerika, piramid membina c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"Bandar terbesar di Amerika, piramid dibina c. 200 M", , ,"Bandar terbesar di Amerika, piramid dibina sekitar tahun 200 Masihi."
+Dionysius_Exiguus,"Dionysius Exiguus, pencipta Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"Dionysius Exiguus, pencipta Anno Domini", , ,"Dionysius Exiguus, pencipta Anno Domini"
 Umayyad_c,Umayyad,Umayyad, ,text,False, , , , , , , ,Umayyah
-ur3,Dinasti ur III 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , , , ,Dinasti Ur III 𒋀𒀕𒆠
+ur3,Dinasti ur III 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,Dinasti Ur III 𒋀𒀕𒆠, , ,Dinasti Ur III 𒋀𒀕𒆠
 hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , , , , 
-Al-Khwarizmi,al-khwarizmi menulis al-jabr (algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , ,al-Khwarizmi menulis Al-Jabr (Aljabar)
-al-azhar,Universiti Al-Azhar ditubuhkan di Kaherah,Al-Azhar University is established in Cairo, ,text,False, , , , , , , ,Universiti Al-Azhar ditubuhkan di Kaherah.
-Ibn-Sina,Ibn Sina atau Avicenna,Ibn Sina or Avicenna, ,text,False, , , , , , , ,Ibn Sina atau Avicenna
-life-expectancy,Jangka hayat 75 tahun,Life expectancy 75 years, ,text,False, , , , , , , ,Jangka hayat 75 tahun
-430years_c,"430 tahun: Keluaran 12:41, Galatia 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , ,"430 tahun: Keluaran 12:41, Galatia 3:17"
-maya_calendar,"Dikira permulaan kalendar Maya 11 Ogos, 3114 B.C.E.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , ,Permulaan kalendar Maya yang dikira ialah 11 Ogos 3114 SM.
-xia-dynasty2,c. 2070 - c. 1600 SM; Era pertama kali disebut dalam tempoh zhou barat,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , , , ,c. 2070 – c. 1600 SM; Era pertama kali disebut semasa Zaman Zhou Barat
-xia-dynasty2_c,Dinasti Xia di China,Xia dynasty in China, ,text,False, , , , , , , ,Dinasti Xia di China
-tres_zapotes,"September 3, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , , , ,"3 September, 32 S.M."
-joseph_jacob_reunited,Joseph dan Jacob bersatu semula di Mesir - 1728 B.C.E. (Kej 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , , , ,Yusuf dan Yakub bersatu semula di Mesir – 1728 SM (Kejadian 45:11; 47:9)
-king_south_light_c,Raja Selatan dari Daniel 11,King of the South from Daniel 11,2025-02-05,text,False, , , , , , , ,Raja Selatan dari Daniel 11
-king_north_light_c,Raja Utara dari Daniel 11,King of the North from Daniel 11,2025-02-05,text,False, , , , , , , ,Raja Utara daripada Daniel 11
-daniel2_iron_c,Kaki besi dari Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , , , , ,Kaki besi dari Daniel 2
-argenteus,Codex argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , , , , 
+Al-Khwarizmi,al-khwarizmi menulis al-jabr (algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,al-Khwarizmi menulis Al-Jabr (Algebra), , ,al-Khwarizmi menulis Al-Jabr (Aljabar)
+al-azhar,Universiti Al-Azhar ditubuhkan di Kaherah,Al-Azhar University is established in Cairo, ,text,False, , , , ,Universiti Al-Azhar ditubuhkan di Kaherah, , ,Universiti Al-Azhar ditubuhkan di Kaherah.
+Ibn-Sina,Ibn Sina atau Avicenna,Ibn Sina or Avicenna, ,text,False, , , , ,Ibn Sina atau Avicenna, , ,Ibn Sina atau Avicenna
+life-expectancy,Jangka hayat 75 tahun,Life expectancy 75 years, ,text,False, , , , ,Jangka hayat 75 tahun, , ,Jangka hayat 75 tahun
+430years_c,"430 tahun: Keluaran 12:41, Galatia 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"430 tahun: Keluaran 12:41, Galatia 3:17", , ,"430 tahun: Keluaran 12:41, Galatia 3:17"
+maya_calendar,"Dikira permulaan kalendar Maya 11 Ogos, 3114 B.C.E.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,Permulaan kalendar Maya yang dikira 11 Ogos 3114 S.M., , ,Permulaan kalendar Maya yang dikira ialah 11 Ogos 3114 SM.
+xia-dynasty2,c. 2070 - c. 1600 SM; Era pertama kali disebut dalam tempoh zhou barat,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,kira-kira 2070 – kira-kira 1600 SM; Era pertama kali disebut pada zaman Zhou Barat, , ,c. 2070 – c. 1600 SM; Era pertama kali disebut semasa Zaman Zhou Barat
+xia-dynasty2_c,Dinasti Xia di China,Xia dynasty in China, ,text,False, , , , ,Dinasti Xia di China, , ,Dinasti Xia di China
+tres_zapotes,"September 3, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,3 September 32 S.M., , ,"3 September, 32 S.M."
+joseph_jacob_reunited,Joseph dan Jacob bersatu semula di Mesir - 1728 B.C.E. (Kej 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,Yusuf dan Yakub bersatu semula di Mesir – 1728 S.M. (Kej 45:11; 47:9), , ,Yusuf dan Yakub bersatu semula di Mesir – 1728 SM (Kejadian 45:11; 47:9)
+king_south_light_c,Raja Selatan dari Daniel 11,King of the South from Daniel 11,2025-02-05,text,False, , , , ,Raja Selatan dari Daniel 11, , ,Raja Selatan dari Daniel 11
+king_north_light_c,Raja Utara dari Daniel 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,Raja Utara dari Daniel 11, , ,Raja Utara daripada Daniel 11
+daniel2_iron_c,Kaki besi dari Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Kaki besi dari Daniel 2, , ,Kaki besi dari Daniel 2
+argenteus,Codex argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , ,Codex Argenteus kira-kira 505, , , 
 nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , , , , , 
-edo_c,Tempoh Edo di Jepun,Edo period in Japan, ,text,False, , , , , , , ,Zaman Edo di Jepun
+edo_c,Tempoh Edo di Jepun,Edo period in Japan, ,text,False, , , , ,Zaman Edo di Jepun, , ,Zaman Edo di Jepun
 meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , , , , , 
-american_civil_war,Perang Saudara Amerika 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , , , , ,Perang Saudara Amerika 1861-1865
-aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , , , , ,Kodeks Aleppo c. 920
-vandals,Kerajaan Vandal dan Alan 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , , , , ,Kerajaan Vandal dan Alan 435 – 534
-francia,"c. 481/509 – 843, Merovingian hingga 751, kemudian Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , , , , ,"c. 481/509 – 843, Merovingian sehingga 751, kemudian Carolingian"
-francia_c,Kerajaan Frank,Kingdom of the Franks, ,text,False, , , , , , , ,Kerajaan Franka
-100_years_war,Perang Seratus Tahun 1337 - 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , , , ,Perang Seratus Tahun 1337 – 1453
-black_death,Black death 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , , , , ,Wabak Black Death 1346–1353
-sui_dynasty,581-618 Dinasti Sui,581-618 Sui dynasty,2025-11-09,text,False, , , , , , , ,Dinasti Sui 581–618
+american_civil_war,Perang Saudara Amerika 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,Perang Saudara Amerika 1861-1865, , ,Perang Saudara Amerika 1861-1865
+aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,Codex Aleppo kira-kira 920, , ,Kodeks Aleppo c. 920
+vandals,Kerajaan Vandal dan Alan 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Kerajaan Vandal dan Alan 435 – 534, , ,Kerajaan Vandal dan Alan 435 – 534
+francia,"c. 481/509 – 843, Merovingian hingga 751, kemudian Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"kira-kira 481/509 – 843, Merovingian hingga 751, kemudian Carolingian", , ,"c. 481/509 – 843, Merovingian sehingga 751, kemudian Carolingian"
+francia_c,Kerajaan Frank,Kingdom of the Franks, ,text,False, , , , ,Kerajaan Frank, , ,Kerajaan Franka
+100_years_war,Perang Seratus Tahun 1337 - 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Perang Seratus Tahun 1337 – 1453, , ,Perang Seratus Tahun 1337 – 1453
+black_death,Black death 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Maut Hitam 1346-1353, , ,Wabak Black Death 1346–1353
+sui_dynasty,581-618 Dinasti Sui,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 Dinasti Sui, , ,Dinasti Sui 581–618
 sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , , , , 
-tribulation,"Kesengsaraan Besar (Markus 13:19; Daniel 12: 1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , , , , ,"Kesengsaraan Besar (Markus 13:19; Daniel 12:1; Matius 24:21, 22)"
-timeline_created,"Garis masa ini dicipta pada tahun 2023, tahun terpanas dalam sejarah manusia dan 125,000 tahun yang lalu","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , , , , ,"Garis masa ini dibuat pada tahun 2023, tahun paling panas dalam sejarah manusia dan 125,000 tahun terakhir."
+tribulation,"Kesengsaraan Besar (Markus 13:19; Daniel 12: 1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"Kesengsaraan Besar (Markus 13:19; Daniel 12:1; Matius 24:21, 22)", , ,"Kesengsaraan Besar (Markus 13:19; Daniel 12:1; Matius 24:21, 22)"
+timeline_created,"Garis masa ini dicipta pada tahun 2023, tahun terpanas dalam sejarah manusia dan 125,000 tahun yang lalu","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"Garis masa ini dicipta pada 2023, tahun paling panas dalam sejarah manusia dan 125,000 tahun yang lalu", , ,"Garis masa ini dibuat pada tahun 2023, tahun paling panas dalam sejarah manusia dan 125,000 tahun terakhir."
 Adam,Adam,Adam,Luke 3:38,bible,True, , , , , , , , 
 Seth,Set,Seth, ,bible,True, , , , , , , , 
 Enosh,Enos,Enosh, ,bible,True, , , , , , , , 

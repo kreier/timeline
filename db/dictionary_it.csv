@@ -1,183 +1,183 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08,5.9,float,True, , , , , , , , 
-pdf_title,6000 anni di storia umana visualizzata,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , ,6.000 anni di storia dell'umanità — Una cronologia
-pdf_subject,Cronologia dell'umanità,Timeline of human history from 4000 BCE to present,5.9,text,False, , , , , , , ,Cronologia della storia dell'umanità dal 4000 a.C. ad oggi
+pdf_title,6000 anni di storia umana visualizzata,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6.000 anni di storia umana — Una cronologia, , ,6.000 anni di storia dell'umanità — Una cronologia
+pdf_subject,Cronologia dell'umanità,Timeline of human history from 4000 BCE to present,5.9,text,False, , , , ,Cronologia della storia umana dal 4000 a.E.V. a oggi, , ,Cronologia della storia dell'umanità dal 4000 a.C. ad oggi
 BCE,a.E.V.,B.C.E.,appendix B9,B9,True, , , , , , , , 
 CE,E.V.,C.E., ,B9,True, , , , , , , , 
-month,mese,month, ,text,False, , , , , , , ,mese
-months,mesi,months, ,text,False, , , , , , , ,mesi
-day,giorno,day, ,text,False, , , , , , , ,giorno
-days,giorni,days, ,text,False, , , , , , , ,giorni
-to,A,to, ,text,False, , , , , , , ,a
-Deluge,Diluvio,Deluge, ,text,False, , , , , , , ,Diluvio
-moses2,Dal 1593 al 1473 a.E.V. - 120 anni,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , , , ,Dal 1593 al 1473 a.e.v. – 120 anni
-temple1,NISAN 1513 a.E.V. a ZIV 1034 a.E.V.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , , , ,Dal 1513 a.e.v. (Nisan) al 1034 a.e.v. (Ziv)
-69weeks,Gesù battezzato l'autunno 29 E.V.,Jesus baptized autumn 29 C.E., ,text,False, , , , , , , ,Gesù fu battezzato nell'autunno del 29 d.C.
-year,anno,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , , , , ,anno
-years,anni,years, ,text,False, , , , , , , ,anni
-years_age,anni,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , , , , ,anni
+month,mese,month, ,text,False, , , , ,mese, , ,mese
+months,mesi,months, ,text,False, , , , ,mesi, , ,mesi
+day,giorno,day, ,text,False, , , , ,giorno, , ,giorno
+days,giorni,days, ,text,False, , , , ,giorni, , ,giorni
+to,A,to, ,text,False, , , , ,a, , ,a
+Deluge,Diluvio,Deluge, ,text,False, , , , ,Diluvio, , ,Diluvio
+moses2,Dal 1593 al 1473 a.E.V. - 120 anni,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,1593 a 1473 a.E.V. – 120 anni, , ,Dal 1593 al 1473 a.e.v. – 120 anni
+temple1,NISAN 1513 a.E.V. a ZIV 1034 a.E.V.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,Nisan 1513 a.E.V. a Ziv 1034 a.E.V., , ,Dal 1513 a.e.v. (Nisan) al 1034 a.e.v. (Ziv)
+69weeks,Gesù battezzato l'autunno 29 E.V.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,Gesù battezzato autunno 29 E.V., , ,Gesù fu battezzato nell'autunno del 29 d.C.
+year,anno,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,anno, , ,anno
+years,anni,years, ,text,False, , , , ,anni, , ,anni
+years_age,anni,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,anni, , ,anni
 age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,Israele nel deserto dal 1513 al 1473 a.E.V. - 40 anni,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , , , ,Israele nel deserto dal 1513 al 1473 a.C. – 40 anni
-timespan_judges,1473-1117 a.E.V. - 356 anni,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , , , ,Dal 1473 al 1117 a.C. – 356 anni
-timespan_judges2,Tempo dei giudici,Time of the judges, ,text,False, , , , , , , ,L'epoca dei giudici
-temple2,479 anni fino alla costruzione del tempio - 1 Re 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , , , ,479 anni prima della costruzione del tempio – 1 Re 6:1
-69weeks2,69 settimane al Messia - Daniel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , , , ,69 settimane fino al Messia – Daniele 9:25
-jesus_service,"3,5 anni di servizio di Gesù, eseguito Nisan 14, 33 E.V.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , , , ,"3,5 anni di ministero di Gesù, giustiziato il 14 Nisan del 33 d.C."
-jesus_life,Gesù nato il 2 a.E.V.,Jesus born 2 B.C.E., ,text,False, , , , , , , ,Gesù nacque nel 2 a.C.
-exile,607 a 537 a.E.V. - 70 anni (Geremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , , , ,dal 607 al 537 a.C. – 70 anni (Geremia 25:11)
-exile2,Esilio,Exile, ,text,False, , , , , , , ,Esilio
-7times2,7 volte - 2520 anni al Regno messianico 1914 E.V. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , , , ,"7 volte – 2520 anni fino al Regno messianico, 1914 d.C. (Daniele 4:23)"
-ww1,Prima guerra mondiale - 1914–1918 E.E.,World War I – 1914–1918, ,text,False, , , , , , , ,Prima guerra mondiale – 1914–1918
-ww2,Seconda Guerra Mondiale - 1939–1945 E.E.,World War II – 1939–1945, ,text,False, , , , , , , ,Seconda guerra mondiale – 1939–1945
-30_year_war,Trent'anni di guerra in Europa 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , , , ,"La Guerra dei Trent'anni in Europa, 1618-1648"
-joshua,110 anni,110 years, ,text,False, , , , , , , ,110 anni
-caleb,Più di 85 anni,more than 85 years, ,text,False, , , , , , , ,da oltre 85 anni
-missionary1,"Primo viaggio missionario di Paolo, c. 47-48 E.V. con Barnabas e John Mark","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , , , ,"Primo viaggio missionario di Paolo, 47-48 d.C. circa, con Barnaba e Giovanni Marco"
-circumcision,"Problema sulla circoncisione ad Antioch, conferenza a Gerusalemme c. 49 E.V.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , , , ,"La questione della circoncisione ad Antiochia, conferenza a Gerusalemme intorno al 49 d.C."
-missionary2,Secondo viaggio missionario c. 49-52 E.E con Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , , , ,"Secondo viaggio missionario, 49-52 d.C. circa, con Sila (Silvano)"
-missionary3,Terzo viaggio missionario c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , , , ,"Terzo viaggio missionario, 52-56 d.C. circa"
-caesarea,Paolo in custodia a Cesarea c. 56-58 E.V.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , , , ,"Paolo in carcere a Cesarea, intorno al 56-58 d.C."
-rome1,La prima prigionia di Paul a Roma c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , , , ,"La prima prigionia di Paolo a Roma, intorno al 59-61 d.C."
-rome2,"La seconda prigionia di Paul a Roma c. 65 E.E., 2 Timothy scritto, Paul ha eseguito","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , , , ,"Seconda prigionia di Paolo a Roma, intorno al 65 d.C.; stesura della Seconda Lettera a Timoteo; esecuzione di Paolo"
-event_exodus,"Esodo dall'Egitto il 14 °, 1513 a.E.V.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , , , ,Esodo dall'Egitto il 14 di Nisan del 1513 a.e.v.
-event_division_kingdom,Divisione di Israele 997 a.C.,Division of Israel 997 BCE, ,text,False, , , , , , , ,"Divisione di Israele, 997 a.C."
-event_destruction_samaria,Distruzione di Samaria 740 a.E.V. di Assiria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , , , ,Distruzione di Samaria nel 740 a.C. ad opera dell'Assiria
-event_destruction_jerusalem1,"Distruzione di Gerusalemme 607 a.E.V. Di Babylon, 390 anni dopo la divisione del regno (Ezechiele 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , , , ,"Distruzione di Gerusalemme nel 607 a.C. ad opera di Babilonia, 390 anni dopo la divisione del regno (Ezechiele 4:5)"
-event_temple_rebuilt,Tempio a Gerusalemme ricostruita 515 a.E.V.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , , , ,Il Tempio di Gerusalemme fu ricostruito nel 515 a.C.
-event_jerusalem_rebuilt,Gerusalemme muro ricostruito 455 a.E.V.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , , , ,Ricostruzione delle mura di Gerusalemme nel 455 a.C.
-event_destruction_jerusalem2,Distruzione di Gerusalemme 70 E.V. di Roma sotto Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , , , ,Distruzione di Gerusalemme nel 70 d.C. ad opera di Roma sotto Tito
-event_1914,"Fine del tempo delle nazioni (Luca 21:24), il regno di Dio inizia a governare in cielo 1914 E.V.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , , , ,Fine dei tempi delle nazioni (Luca 21:24): il Regno di Dio inizia a regnare in cielo nel 1914 d.C.
-became_king,diventa re all'età,becomes king at age,2025-04-14,text,False, , , , , , , ,diventa re all'età di
-vulgate,Vulgata completata da Jerome (traduzione latina della Bibbia) c. 405 E.V.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , , , ,"La Vulgata, completata da Girolamo (traduzione latina della Bibbia), intorno al 405 d.C."
-gutenberg,Gutenberg Bible stampata 1455,Gutenberg Bible printed 1455, ,text,False, , , , , , , ,"La Bibbia di Gutenberg, stampata nel 1455"
-erasmus,Testo greco di Scritture greche cristiane pubblicate da Desiderius Erasmus di Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , , , ,Testo greco delle Scritture Greche Cristiane pubblicato da Desiderio Erasmo da Rotterdam nel 1516
-luther,Traduzione della Bibbia di Lutero nel settembre 1522,Luther Bible translation in September 1522, ,text,False, , , , , , , ,La traduzione della Bibbia di Lutero nel settembre 1522
-tyndale,Traduzione della Bibbia inglese di Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , , , , ,"Traduzione della Bibbia in inglese di Tyndale, 1536"
-king_james,King James Bible 1611,King James Bible 1611, ,text,False, , , , , , , ,"Bibbia di Re Giacomo, 1611"
-69weeks3,"Gesù inizia il suo servizio 29 CE (Luca 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , , , , ,"Gesù inizia la sua missione nel 29 d.C. (Luca 3:1, 21)"
-ransom,"Sacrificio per cessare a metà settimana ""Daniel 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , , , , ,A metà settimana “il sacrificio cesserà” Daniele 9:27
-cornelius,Cornelius battezzato alla fine di 70 settimane (Daniele 9:24) nel 36 E.V.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , , , , ,"Cornelio fu battezzato alla fine delle 70 settimane (Daniele 9:24), nell'anno 36 d.C."
-columbus,Fine del periodo precolombiano nelle Americhe 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , , , , ,"Fine del periodo precolombiano nelle Americhe, 1492"
-declaration_independence,Dichiarazione di indipendenza di 13 colonie in America 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , , , , ,"Dichiarazione di indipendenza delle 13 colonie americane, 1776"
-tischendorf,Tischendorf scopre il Codice Sinaiticus dal IV secolo del 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , , , , ,"Nel 1844 Tischendorf scopre il Codice Sinaitico, risalente al IV secolo"
-dead_sea_scrolls,Scrotoli del Mar Morto scritto,Dead Sea Scrolls written, ,text,False, , , , , , , ,I Rotoli del Mar Morto scritti
-septuagint,Septuagint LXX tradotto,Septuagint LXX translated, ,text,False, , , , , , , ,Traduzione della Settanta (LXX)
-watchtower,"Il primo numero di ""Zion’s Watch Tower and Herald of Christ's Presence"" è pubblicato nel 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , , , , ,Il primo numero di “Zion’s Watch Tower and Herald of Christ’s Presence” viene pubblicato nel 1879
-jehovahs_witnesses,"Gli studenti biblici adottano un nuovo nome: i testimoni di Geova (Isaia 43:10, 12) a Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , , , , ,"Gli Studenti della Bibbia adottano un nuovo nome – Testimoni di Geova (Isaia 43:10, 12) – a Columbus, Ohio, nel 1931"
-gilead_school,La scuola biblica di orologeria di Gilead inizia lunedì 1 febbraio 1943,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , , , , ,La Scuola Biblica della Torre di Guardia di Gilead inizia lunedì 1° febbraio 1943
-new_world_translation1,"New World Translation of the Holy Scritture rilasciato a Manchester, in Inghilterra, il 18 giugno 1960, reintroduce il nome Geova in molte parti della Bibbia","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , , , , ,"La “Traduzione del Nuovo Mondo delle Sacre Scritture”, pubblicata a Manchester, in Inghilterra, il 18 giugno 1960, reintroduce il nome Geova in molte parti della Bibbia"
-new_world_translation2,"Reviso ""New World Translation of the Holy Scritture"" rilasciato durante la riunione annuale 2013, ottimizzata per essere utilizzata digitalmente e online","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , , , , ,"La versione riveduta della “Traduzione del Nuovo Mondo delle Sacre Scritture”, presentata all’assemblea annuale del 2013, è stata ottimizzata per l’uso digitale e online"
-cold_war,"Situazione geopolitica etichettata ""Guerra fredda"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , , , , ,Situazione geopolitica denominata “Guerra Fredda” 1945-1991
-codex_sinaiticus,Codex sinaiticus scritto,Codex Sinaiticus written, ,text,False, , , , , , , ,Il Codice Sinaitico scritto
-codex_vaticanus,Codice Vaticanus scritto,Codex Vaticanus written, ,text,False, , , , , , , ,Il Codice Vaticano scritto
-leningrad_codex,Codice Leningrad scritto nel Cairo d.C.,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , , , , ,"Codice di Leningrado, redatto al Cairo nel 1008 d.C."
-john,"John scrive ""Apocalisse"" mentre si esibì su Patmos 96-98 E.V.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , , , , ,"Giovanni scrive l’“Apocalisse” mentre si trova in esilio a Patmos, tra il 96 e il 98 d.C."
-buddha,The Buddha-Siddhartha Gautama C.563-C.483 a.C.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , , , , ,"Il Buddha – Siddhartha Gautama, 563-483 a.C. circa"
-buddha2,Buddha in alternativa c. 480-400 a.E.V.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , , , , ,"Buddha, in alternativa, 480-400 a.e.v. circa."
-mohammed,Mohammed c. 570-632 E.V.,Mohammed c. 570-632, ,text,False, , , , , , , ,"Maometto, 570 circa-632"
-confucius,Confucio C.551-C.479 a.E.V.,Confucius c.551-c.479 B.C.E., ,text,False, , , , , , , ,"Confucio, 551-479 a.C. circa"
-hijrah,Hijrah - Journey Mecca a Medina 16 luglio 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , , , , ,"Hijrah - Il viaggio da La Mecca a Medina, 16 luglio 622"
-moses_escape,"1553 a.E.V. Mosè deve sfuggire all'Egitto - Esodo 2:15, Atti 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , , , , ,"1553 a.C. Mosè è costretto a fuggire dall’Egitto – Esodo 2,15; Atti 7,23"
-10plagues,1513 a.C. Egitto riceve 10 piaghe,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , , , , ,1513 a.C. L'Egitto subisce le dieci piaghe
-joseph_sold,Joseph è stato venduto come schiavo all'età di 17 anni - Gen 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , , , , ,Giuseppe fu venduto come schiavo all’età di 17 anni – Genesi 37:2
-infliction,Inflizione di 400 anni (Atti 7: 6) - Ishmael 1913 a.C.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , , , , ,"400 anni di sofferenza (Atti 7:6) – Ismaele, 1913 a.C."
-Alexander,Alexander the Great (Daniel 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , , , , ,Alessandro Magno (Daniele 11:3)
-persia,"Cyrus the Great, Cambyses II, Darius I 490 a.C., Xerxes I 480 a.C. (marito di Esther, Daniele 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , , , , ,"Ciro il Grande, Cambise II, Dario I 490 a.C., Serse I 480 a.C. (marito di Ester, Daniele 11:2)"
-king_north,"Seleucus I Nicatore (V5) Siria ad Antioco III (V10) e Seleucus IV (V18, 19) fino a Octavian (V20) e Tiberio (V21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , , , , ,"Seleuco I Nicatore (v5) dalla Siria ad Antioco III (v10) e Seleuco IV (v18, 19) fino a Ottaviano (v20) e Tiberio (v21-24)"
-king_north1,Re del Nord,King of the North, ,text,False, , , , , , , ,Il Re del Nord
-king_south,"Tolomeo I, II, III, IV (V11, 12), V (V15, 16) al Battle Actium 31 a.E.V.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , , , , ,"Tolomeo I, II, III, IV (v11, 12), V (v15, 16) fino alla battaglia di Azio del 31 a.C."
-king_south1,Re del Sud,King of the South, ,text,False, , , , , , , ,Il re del Sud
-king_south2,"Impero britannico 1870, potere mondiale anglo-americano dal 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , , , , ,"Impero britannico 1870, potenza mondiale anglo-americana dal 1914"
-king_south3,Re del Sud,King of the South, ,text,False, , , , , , , ,Il re del Sud
-king_north2,"Germania con imperatore William I 1871 (V28), 1914 (V29), 1935 (V30b), 1939 (V31A)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , , , , ,"Germania con l'imperatore Guglielmo I: 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,Nord,North, ,text,False, , , , , , , ,Nord
-king_north4,"Unione Sovietica 1945-1991 (Daniel 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , , , ,"Unione Sovietica 1945-1991 (Daniele 11:32-39, 40b, 41)"
-king_north5,Russia dal 2017 (W20 maggio),Russia since 2017 (w20 May), ,text,False, , , , , , , ,Russia dal 2017 (20 maggio)
-time_of_end,"Presenza di Cristo, conclusione del sistema delle cose (Matteo 24: 3), negli ultimi giorni (2 Timoteo 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , , , , ,"La presenza di Cristo, la fine del sistema delle cose (Matteo 24:3), gli ultimi giorni (2 Timoteo 3:1)"
-time_of_end2,Ultimi giorni,Last days, ,text,False, , , , , , , ,Ultimi giorni
-suryavaman2,King Suryavarman II Costruisce Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , , , , ,Il re Suryavarman II fa costruire Angkor Wat tra il 1113 e il 1150
-notre-dame,Notre-Dame de Paris ha costruito 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , , , , ,"Notre-Dame de Paris, costruita tra il 1163 e il 1260"
-babel,Torre di Babele costruita,Tower of Babel built, ,text,False, , , , , , , ,Costruzione della Torre di Babele
-infliction1,Inflizione di 400 anni,400 year infliction,Acts 7:6,text,False, , , , , , , ,400 anni di sofferenza
-Lots_wife,La moglie di Lot,Lot’s wife, ,text,False, , , , , , , ,La moglie di Lot
-Lots_daughters,Figlie di lot,Daughters of Lot, ,text,False, , , , , , , ,Le figlie di Lot
-Moab,Moab (figlia maggiore),Moab (older daughter),Genesis 19:37,text,False, , , , , , , ,Moab (la figlia maggiore)
-rosetta,Rosetta Stone 196 a.E.V.,Rosetta stone 196 B.C.E., ,text,False, , , , , , , ,"Pietra di Rosetta, 196 a.C."
-Herodotus,"Erodoto c. 484 - c. 425 a.C., scrive le storie","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , ,"Erodoto, 484 ca. – 425 ca. a.C., scrive *Le Storie*"
-Aristotle,Aristotele 384 - 322 a.C.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , ,Aristotele 384 – 322 a.C.
-Ptolemy,Tolomeo C 100 - c. 170 E.V.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , ,"Tolomeo, 100 circa – 170 circa d.C."
-Pythagoras,Pitagora c. 570 - c. 495 a.C.,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , ,"Pitagora, 570 circa – 495 circa a.C."
-Plato,Platone c. 427 - c. 348 a.C.,Plato c. 427 – c. 348 BC, ,text,False, , , , , , , ,"Platone, 427 circa – 348 circa a.C."
-Socrates,Socrate c. 470 - c. 399 BC,Socrates c. 470 – c. 399 BC, ,text,False, , , , , , , ,"Socrate, 470 ca. – 399 ca. a.C."
-Josephus,Josephus c. 37 - c. 100 E.V.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , , , ,"Giuseppe Flavio, 37 ca. – 100 ca. d.C."
-Cicero,Cicerone 106–43 a.C.,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , , , ,Cicerone 106–43 a.C.
-lachish_letters,Lettere di lachish c. 590 a.E.V.,Lachish letters c. 590 B.C.E., ,text,False, , , , , , , ,"Lettere di Lachish, 590 a.C. circa"
-lachish_reliefs,Rilievi lachish c. 681 a.E.V.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , , , , ,"Rilievi di Lachish, 681 a.C. circa."
-mesha_stele,Mesha Stele (MOABITE STONE) c. 840 a.E.V.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , , , , ,"Stele di Mesha (pietra moabita), 840 a.e.v. circa"
-gilgamesh,Gilgamesh e Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , , , ,Gilgamesh e Aga 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,Epico di Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , , , ,L'epopea di Gilgamesh (Sîn-lēqi-unninni)
-gregorian,Calendario gregoriano 1582,Gregorian calendar 1582, ,text,False, , , , , , , ,Calendario gregoriano 1582
-shang-dynasty,C. 1600-1046 a.C.,c. 1600-1046 BC, ,text,False, , , , , , , ,circa 1600-1046 a.C.
-western-zhou,C. 1046-771 a.C.,c. 1046-771 BC, ,text,False, , , , , , , ,circa 1046-771 a.C.
-qin-dynasty,Qin 221-207 a.C.,Qin 221-207 BC, ,text,False, , , , , , , ,"Dinastia Qin, 221-207 a.C."
-western-han,207 a.C. - 9 CE,207 BC – 9 CE, ,text,False, , , , , , , ,207 a.C. – 9 d.C.
-three-kingdoms,Tre regni 220-280 d.C.,Three kingdoms 220-280 CE, ,text,False, , , , , , , ,"I Tre Regni, 220-280 d.C."
-sixteen-kingdoms,Sedici regni 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , , , , ,"I sedici regni, 304-439 d.C."
+wilderness,Israele nel deserto dal 1513 al 1473 a.E.V. - 40 anni,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,Israele nel deserto 1513 a 1473 a.E.V. – 40 anni, , ,Israele nel deserto dal 1513 al 1473 a.C. – 40 anni
+timespan_judges,1473-1117 a.E.V. - 356 anni,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 a 1117 a.E.V. – 356 anni, , ,Dal 1473 al 1117 a.C. – 356 anni
+timespan_judges2,Tempo dei giudici,Time of the judges, ,text,False, , , , ,Periodo dei giudici, , ,L'epoca dei giudici
+temple2,479 anni fino alla costruzione del tempio - 1 Re 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,479 anni fino alla costruzione del tempio – 1 Re 6:1, , ,479 anni prima della costruzione del tempio – 1 Re 6:1
+69weeks2,69 settimane al Messia - Daniel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,69 settimane fino al Messia – Daniele 9:25, , ,69 settimane fino al Messia – Daniele 9:25
+jesus_service,"3,5 anni di servizio di Gesù, eseguito Nisan 14, 33 E.V.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"3,5 anni di servizio di Gesù, giustiziato il 14 di Nisan, 33 E.V.", , ,"3,5 anni di ministero di Gesù, giustiziato il 14 Nisan del 33 d.C."
+jesus_life,Gesù nato il 2 a.E.V.,Jesus born 2 B.C.E., ,text,False, , , , ,Gesù nato 2 a.E.V., , ,Gesù nacque nel 2 a.C.
+exile,607 a 537 a.E.V. - 70 anni (Geremia 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,607 a 537 a.E.V. – 70 anni (Geremia 25:11), , ,dal 607 al 537 a.C. – 70 anni (Geremia 25:11)
+exile2,Esilio,Exile, ,text,False, , , , ,Esilio, , ,Esilio
+7times2,7 volte - 2520 anni al Regno messianico 1914 E.V. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7 tempi – 2520 anni fino al Regno Messianico 1914 E.V. (Daniele 4:23), , ,"7 volte – 2520 anni fino al Regno messianico, 1914 d.C. (Daniele 4:23)"
+ww1,Prima guerra mondiale - 1914–1918 E.E.,World War I – 1914–1918, ,text,False, , , , ,Prima guerra mondiale – 1914–1918, , ,Prima guerra mondiale – 1914–1918
+ww2,Seconda Guerra Mondiale - 1939–1945 E.E.,World War II – 1939–1945, ,text,False, , , , ,Seconda guerra mondiale – 1939–1945, , ,Seconda guerra mondiale – 1939–1945
+30_year_war,Trent'anni di guerra in Europa 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,Guerra dei trent'anni in Europa 1618-1648, , ,"La Guerra dei Trent'anni in Europa, 1618-1648"
+joshua,110 anni,110 years, ,text,False, , , , ,110 anni, , ,110 anni
+caleb,Più di 85 anni,more than 85 years, ,text,False, , , , ,più di 85 anni, , ,da oltre 85 anni
+missionary1,"Primo viaggio missionario di Paolo, c. 47-48 E.V. con Barnabas e John Mark","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"Primo viaggio missionario di Paolo, c. 47-48 E.V. con Barnaba e Giovanni Marco", , ,"Primo viaggio missionario di Paolo, 47-48 d.C. circa, con Barnaba e Giovanni Marco"
+circumcision,"Problema sulla circoncisione ad Antioch, conferenza a Gerusalemme c. 49 E.V.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"Questione della circoncisione ad Antiochia, conferenza a Gerusalemme c. 49 E.V.", , ,"La questione della circoncisione ad Antiochia, conferenza a Gerusalemme intorno al 49 d.C."
+missionary2,Secondo viaggio missionario c. 49-52 E.E con Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,Secondo viaggio missionario c. 49-52 E.V. con Sila (Silvano), , ,"Secondo viaggio missionario, 49-52 d.C. circa, con Sila (Silvano)"
+missionary3,Terzo viaggio missionario c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,Terzo viaggio missionario c. 52-56 E.V., , ,"Terzo viaggio missionario, 52-56 d.C. circa"
+caesarea,Paolo in custodia a Cesarea c. 56-58 E.V.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,Paolo in custodia a Cesarea c. 56-58 E.V., , ,"Paolo in carcere a Cesarea, intorno al 56-58 d.C."
+rome1,La prima prigionia di Paul a Roma c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,Prima prigionia di Paolo a Roma c. 59-61 E.V., , ,"La prima prigionia di Paolo a Roma, intorno al 59-61 d.C."
+rome2,"La seconda prigionia di Paul a Roma c. 65 E.E., 2 Timothy scritto, Paul ha eseguito","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"Seconda prigionia di Paolo a Roma c. 65 E.V., scritta 2 Timoteo, Paolo giustiziato", , ,"Seconda prigionia di Paolo a Roma, intorno al 65 d.C.; stesura della Seconda Lettera a Timoteo; esecuzione di Paolo"
+event_exodus,"Esodo dall'Egitto il 14 °, 1513 a.E.V.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,"Esodo dall'Egitto il 14 di Nisan, 1513 a.E.V.", , ,Esodo dall'Egitto il 14 di Nisan del 1513 a.e.v.
+event_division_kingdom,Divisione di Israele 997 a.C.,Division of Israel 997 BCE, ,text,False, , , , ,Divisione d'Israele 997 a.E.V., , ,"Divisione di Israele, 997 a.C."
+event_destruction_samaria,Distruzione di Samaria 740 a.E.V. di Assiria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,Distruzione di Samaria 740 a.E.V. per opera dell'Assiria, , ,Distruzione di Samaria nel 740 a.C. ad opera dell'Assiria
+event_destruction_jerusalem1,"Distruzione di Gerusalemme 607 a.E.V. Di Babylon, 390 anni dopo la divisione del regno (Ezechiele 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"Distruzione di Gerusalemme 607 a.E.V. per opera di Babilonia, 390 anni dopo la divisione del regno (Ezechiele 4:5)", , ,"Distruzione di Gerusalemme nel 607 a.C. ad opera di Babilonia, 390 anni dopo la divisione del regno (Ezechiele 4:5)"
+event_temple_rebuilt,Tempio a Gerusalemme ricostruita 515 a.E.V.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,Tempio di Gerusalemme ricostruito 515 a.E.V., , ,Il Tempio di Gerusalemme fu ricostruito nel 515 a.C.
+event_jerusalem_rebuilt,Gerusalemme muro ricostruito 455 a.E.V.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,Mura di Gerusalemme ricostruite 455 a.E.V., , ,Ricostruzione delle mura di Gerusalemme nel 455 a.C.
+event_destruction_jerusalem2,Distruzione di Gerusalemme 70 E.V. di Roma sotto Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,Distruzione di Gerusalemme 70 E.V. per opera di Roma sotto Tito, , ,Distruzione di Gerusalemme nel 70 d.C. ad opera di Roma sotto Tito
+event_1914,"Fine del tempo delle nazioni (Luca 21:24), il regno di Dio inizia a governare in cielo 1914 E.V.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"Fine dei tempi delle nazioni (Luca 21:24), il Regno di Dio inizia a governare in cielo 1914 E.V.", , ,Fine dei tempi delle nazioni (Luca 21:24): il Regno di Dio inizia a regnare in cielo nel 1914 d.C.
+became_king,diventa re all'età,becomes king at age,2025-04-14,text,False, , , , ,diventa re all'età di, , ,diventa re all'età di
+vulgate,Vulgata completata da Jerome (traduzione latina della Bibbia) c. 405 E.V.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,Vulgata completata da Girolamo (traduzione latina della Bibbia) c. 405 E.V., , ,"La Vulgata, completata da Girolamo (traduzione latina della Bibbia), intorno al 405 d.C."
+gutenberg,Gutenberg Bible stampata 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,Bibbia di Gutenberg stampata 1455, , ,"La Bibbia di Gutenberg, stampata nel 1455"
+erasmus,Testo greco di Scritture greche cristiane pubblicate da Desiderius Erasmus di Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,Testo greco delle Scritture Greche Cristiane pubblicato da Erasmo da Rotterdam 1516, , ,Testo greco delle Scritture Greche Cristiane pubblicato da Desiderio Erasmo da Rotterdam nel 1516
+luther,Traduzione della Bibbia di Lutero nel settembre 1522,Luther Bible translation in September 1522, ,text,False, , , , ,Traduzione della Bibbia di Lutero nel settembre 1522, , ,La traduzione della Bibbia di Lutero nel settembre 1522
+tyndale,Traduzione della Bibbia inglese di Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , ,Traduzione della Bibbia in inglese di Tyndale 1536, , ,"Traduzione della Bibbia in inglese di Tyndale, 1536"
+king_james,King James Bible 1611,King James Bible 1611, ,text,False, , , , ,Re di Giacomo 1611, , ,"Bibbia di Re Giacomo, 1611"
+69weeks3,"Gesù inizia il suo servizio 29 CE (Luca 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Gesù inizia il suo servizio 29 E.V. (Luca 3:1, 21)", , ,"Gesù inizia la sua missione nel 29 d.C. (Luca 3:1, 21)"
+ransom,"Sacrificio per cessare a metà settimana ""Daniel 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,"Metà della settimana ""il sacrificio cesserà"" Daniele 9:27", , ,A metà settimana “il sacrificio cesserà” Daniele 9:27
+cornelius,Cornelius battezzato alla fine di 70 settimane (Daniele 9:24) nel 36 E.V.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Cornelio battezzato alla fine delle 70 settimane (Daniele 9:24) nel 36 E.V., , ,"Cornelio fu battezzato alla fine delle 70 settimane (Daniele 9:24), nell'anno 36 d.C."
+columbus,Fine del periodo precolombiano nelle Americhe 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,Fine del periodo precolombiano nelle Americhe 1492, , ,"Fine del periodo precolombiano nelle Americhe, 1492"
+declaration_independence,Dichiarazione di indipendenza di 13 colonie in America 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,Dichiarazione di indipendenza delle 13 colonie in America 1776, , ,"Dichiarazione di indipendenza delle 13 colonie americane, 1776"
+tischendorf,Tischendorf scopre il Codice Sinaiticus dal IV secolo del 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf scopre il Codice Sinaitico del IV secolo nel 1844, , ,"Nel 1844 Tischendorf scopre il Codice Sinaitico, risalente al IV secolo"
+dead_sea_scrolls,Scrotoli del Mar Morto scritto,Dead Sea Scrolls written, ,text,False, , , , ,Rotoli del Mar Morto scritti, , ,I Rotoli del Mar Morto scritti
+septuagint,Septuagint LXX tradotto,Septuagint LXX translated, ,text,False, , , , ,Traduzione della Settanta LXX, , ,Traduzione della Settanta (LXX)
+watchtower,"Il primo numero di ""Zion’s Watch Tower and Herald of Christ's Presence"" è pubblicato nel 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,"Il primo numero di ""Torre di Guardia di Sion e Araldo della Presenza di Cristo"" viene pubblicato nel 1879", , ,Il primo numero di “Zion’s Watch Tower and Herald of Christ’s Presence” viene pubblicato nel 1879
+jehovahs_witnesses,"Gli studenti biblici adottano un nuovo nome: i testimoni di Geova (Isaia 43:10, 12) a Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"Gli Studenti Biblici adottano un nuovo nome – Testimoni di Geova (Isaia 43:10, 12) a Columbus, Ohio, 1931", , ,"Gli Studenti della Bibbia adottano un nuovo nome – Testimoni di Geova (Isaia 43:10, 12) – a Columbus, Ohio, nel 1931"
+gilead_school,La scuola biblica di orologeria di Gilead inizia lunedì 1 febbraio 1943,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,La Scuola Biblica di Gilead della Torre di Guardia inizia lunedì 1° febbraio 1943, , ,La Scuola Biblica della Torre di Guardia di Gilead inizia lunedì 1° febbraio 1943
+new_world_translation1,"New World Translation of the Holy Scritture rilasciato a Manchester, in Inghilterra, il 18 giugno 1960, reintroduce il nome Geova in molte parti della Bibbia","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"""Traduzione del Nuovo Mondo delle Sacre Scritture"" pubblicata a Manchester, Inghilterra il 18 giugno 1960, reintroduce il nome Geova in molte parti della Bibbia", , ,"La “Traduzione del Nuovo Mondo delle Sacre Scritture”, pubblicata a Manchester, in Inghilterra, il 18 giugno 1960, reintroduce il nome Geova in molte parti della Bibbia"
+new_world_translation2,"Reviso ""New World Translation of the Holy Scritture"" rilasciato durante la riunione annuale 2013, ottimizzata per essere utilizzata digitalmente e online","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"""Traduzione del Nuovo Mondo delle Sacre Scritture"" rivista pubblicata all'adunanza annuale 2013, ottimizzata per l'uso digitale e online", , ,"La versione riveduta della “Traduzione del Nuovo Mondo delle Sacre Scritture”, presentata all’assemblea annuale del 2013, è stata ottimizzata per l’uso digitale e online"
+cold_war,"Situazione geopolitica etichettata ""Guerra fredda"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,"Situazione geopolitica denominata ""Guerra Fredda"" 1945-1991", , ,Situazione geopolitica denominata “Guerra Fredda” 1945-1991
+codex_sinaiticus,Codex sinaiticus scritto,Codex Sinaiticus written, ,text,False, , , , ,Codice Sinaitico scritto, , ,Il Codice Sinaitico scritto
+codex_vaticanus,Codice Vaticanus scritto,Codex Vaticanus written, ,text,False, , , , ,Codice Vaticano scritto, , ,Il Codice Vaticano scritto
+leningrad_codex,Codice Leningrad scritto nel Cairo d.C.,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Codice di Leningrado scritto al Cairo 1008 E.V., , ,"Codice di Leningrado, redatto al Cairo nel 1008 d.C."
+john,"John scrive ""Apocalisse"" mentre si esibì su Patmos 96-98 E.V.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,"Giovanni scrive ""Rivelazione"" mentre è esiliato a Patmo 96-98 E.V.", , ,"Giovanni scrive l’“Apocalisse” mentre si trova in esilio a Patmos, tra il 96 e il 98 d.C."
+buddha,The Buddha-Siddhartha Gautama C.563-C.483 a.C.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,Il Buddha – Siddhartha Gautama c. 563 – c. 483 a.E.V., , ,"Il Buddha – Siddhartha Gautama, 563-483 a.C. circa"
+buddha2,Buddha in alternativa c. 480-400 a.E.V.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Buddha alternativamente c. 480-400 a.E.V., , ,"Buddha, in alternativa, 480-400 a.e.v. circa."
+mohammed,Mohammed c. 570-632 E.V.,Mohammed c. 570-632, ,text,False, , , , ,Maometto c. 570-632, , ,"Maometto, 570 circa-632"
+confucius,Confucio C.551-C.479 a.E.V.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,Confucio c. 551 – c. 479 a.E.V., , ,"Confucio, 551-479 a.C. circa"
+hijrah,Hijrah - Journey Mecca a Medina 16 luglio 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Egira - Viaggio dalla Mecca a Medina 16 luglio 622, , ,"Hijrah - Il viaggio da La Mecca a Medina, 16 luglio 622"
+moses_escape,"1553 a.E.V. Mosè deve sfuggire all'Egitto - Esodo 2:15, Atti 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 a.E.V. Mosè deve fuggire dall'Egitto – Esodo 2:15, Atti 7:23", , ,"1553 a.C. Mosè è costretto a fuggire dall’Egitto – Esodo 2,15; Atti 7,23"
+10plagues,1513 a.C. Egitto riceve 10 piaghe,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 a.E.V. L'Egitto riceve 10 piaghe, , ,1513 a.C. L'Egitto subisce le dieci piaghe
+joseph_sold,Joseph è stato venduto come schiavo all'età di 17 anni - Gen 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Giuseppe venduto come schiavo all'età di 17 anni – Genesi 37:2, , ,Giuseppe fu venduto come schiavo all’età di 17 anni – Genesi 37:2
+infliction,Inflizione di 400 anni (Atti 7: 6) - Ishmael 1913 a.C.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400 anni di afflizione (Atti 7:6) – Ismaele 1913 a.E.V., , ,"400 anni di sofferenza (Atti 7:6) – Ismaele, 1913 a.C."
+Alexander,Alexander the Great (Daniel 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Alessandro Magno (Daniele 11:3), , ,Alessandro Magno (Daniele 11:3)
+persia,"Cyrus the Great, Cambyses II, Darius I 490 a.C., Xerxes I 480 a.C. (marito di Esther, Daniele 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Ciro il Grande, Cambise II, Dario I 490 a.E.V., Serse I 480 a.E.V. (marito di Ester, Daniele 11:2)", , ,"Ciro il Grande, Cambise II, Dario I 490 a.C., Serse I 480 a.C. (marito di Ester, Daniele 11:2)"
+king_north,"Seleucus I Nicatore (V5) Siria ad Antioco III (V10) e Seleucus IV (V18, 19) fino a Octavian (V20) e Tiberio (V21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"Seleuco I Nicatore (v5) Siria fino ad Antioco III (v10) e Seleuco IV (v18, 19) fino a Ottaviano (v20) e Tiberio (v21-24)", , ,"Seleuco I Nicatore (v5) dalla Siria ad Antioco III (v10) e Seleuco IV (v18, 19) fino a Ottaviano (v20) e Tiberio (v21-24)"
+king_north1,Re del Nord,King of the North, ,text,False, , , , ,Re del Nord, , ,Il Re del Nord
+king_south,"Tolomeo I, II, III, IV (V11, 12), V (V15, 16) al Battle Actium 31 a.E.V.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"Tolomeo I, II, III, IV (v11, 12), V (v15, 16) fino alla battaglia di Azio 31 a.E.V.", , ,"Tolomeo I, II, III, IV (v11, 12), V (v15, 16) fino alla battaglia di Azio del 31 a.C."
+king_south1,Re del Sud,King of the South, ,text,False, , , , ,Re del Sud, , ,Il re del Sud
+king_south2,"Impero britannico 1870, potere mondiale anglo-americano dal 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"Impero Britannico 1870, Potenza Mondiale Anglo-Americana dal 1914", , ,"Impero britannico 1870, potenza mondiale anglo-americana dal 1914"
+king_south3,Re del Sud,King of the South, ,text,False, , , , ,Re del Sud, , ,Il re del Sud
+king_north2,"Germania con imperatore William I 1871 (V28), 1914 (V29), 1935 (V30b), 1939 (V31A)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Germania con l'Imperatore Guglielmo I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", , ,"Germania con l'imperatore Guglielmo I: 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Nord,North, ,text,False, , , , ,Nord, , ,Nord
+king_north4,"Unione Sovietica 1945-1991 (Daniel 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"Unione Sovietica 1945-1991 (Daniele 11:32-39, 40b, 41)", , ,"Unione Sovietica 1945-1991 (Daniele 11:32-39, 40b, 41)"
+king_north5,Russia dal 2017 (W20 maggio),Russia since 2017 (w20 May), ,text,False, , , , ,Russia dal 2017 (w20 maggio), , ,Russia dal 2017 (20 maggio)
+time_of_end,"Presenza di Cristo, conclusione del sistema delle cose (Matteo 24: 3), negli ultimi giorni (2 Timoteo 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"Presenza di Cristo, Conclusione del sistema di cose (Matteo 24:3), gli ultimi giorni (2 Timoteo 3:1)", , ,"La presenza di Cristo, la fine del sistema delle cose (Matteo 24:3), gli ultimi giorni (2 Timoteo 3:1)"
+time_of_end2,Ultimi giorni,Last days, ,text,False, , , , ,Ultimi giorni, , ,Ultimi giorni
+suryavaman2,King Suryavarman II Costruisce Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,Re Suryavarman II costruisce Angkor Wat 1113-1150, , ,Il re Suryavarman II fa costruire Angkor Wat tra il 1113 e il 1150
+notre-dame,Notre-Dame de Paris ha costruito 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,Notre-Dame de Parigi costruita 1163-1260, , ,"Notre-Dame de Paris, costruita tra il 1163 e il 1260"
+babel,Torre di Babele costruita,Tower of Babel built, ,text,False, , , , ,Torre di Babele costruita, , ,Costruzione della Torre di Babele
+infliction1,Inflizione di 400 anni,400 year infliction,Acts 7:6,text,False, , , , ,400 anni di afflizione, , ,400 anni di sofferenza
+Lots_wife,La moglie di Lot,Lot’s wife, ,text,False, , , , ,Moglie di Lot, , ,La moglie di Lot
+Lots_daughters,Figlie di lot,Daughters of Lot, ,text,False, , , , ,Figlie di Lot, , ,Le figlie di Lot
+Moab,Moab (figlia maggiore),Moab (older daughter),Genesis 19:37,text,False, , , , ,Moab (figlia maggiore), , ,Moab (la figlia maggiore)
+rosetta,Rosetta Stone 196 a.E.V.,Rosetta stone 196 B.C.E., ,text,False, , , , ,Stele di Rosetta 196 a.E.V., , ,"Pietra di Rosetta, 196 a.C."
+Herodotus,"Erodoto c. 484 - c. 425 a.C., scrive le storie","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"Erodoto c. 484 – c. 425 a.C., scrive Le Storie", , ,"Erodoto, 484 ca. – 425 ca. a.C., scrive *Le Storie*"
+Aristotle,Aristotele 384 - 322 a.C.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,Aristotele 384 – 322 a.C., , ,Aristotele 384 – 322 a.C.
+Ptolemy,Tolomeo C 100 - c. 170 E.V.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,Tolomeo c. 100 – c. 170 d.C., , ,"Tolomeo, 100 circa – 170 circa d.C."
+Pythagoras,Pitagora c. 570 - c. 495 a.C.,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,Pitagora c. 570 – c. 495 a.C., , ,"Pitagora, 570 circa – 495 circa a.C."
+Plato,Platone c. 427 - c. 348 a.C.,Plato c. 427 – c. 348 BC, ,text,False, , , , ,Platone c. 427 – c. 348 a.C., , ,"Platone, 427 circa – 348 circa a.C."
+Socrates,Socrate c. 470 - c. 399 BC,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,Socrate c. 470 – c. 399 a.C., , ,"Socrate, 470 ca. – 399 ca. a.C."
+Josephus,Josephus c. 37 - c. 100 E.V.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,Giuseppe Flavio c. 37 – c. 100 d.C., , ,"Giuseppe Flavio, 37 ca. – 100 ca. d.C."
+Cicero,Cicerone 106–43 a.C.,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,Cicerone 106–43 a.C., , ,Cicerone 106–43 a.C.
+lachish_letters,Lettere di lachish c. 590 a.E.V.,Lachish letters c. 590 B.C.E., ,text,False, , , , ,Lettere di Lachis c. 590 a.E.V., , ,"Lettere di Lachish, 590 a.C. circa"
+lachish_reliefs,Rilievi lachish c. 681 a.E.V.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,Rilievi di Lachis c. 681 a.E.V., , ,"Rilievi di Lachish, 681 a.C. circa."
+mesha_stele,Mesha Stele (MOABITE STONE) c. 840 a.E.V.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,Stele di Mesha (pietra moabita) c. 840 a.E.V., , ,"Stele di Mesha (pietra moabita), 840 a.e.v. circa"
+gilgamesh,Gilgamesh e Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,Gilgamesh e Aga 𒇽𒆥𒄄𒀀𒀝𒂵, , ,Gilgamesh e Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Epico di Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,Epopea di Gilgamesh (Sîn-lēqi-unninni), , ,L'epopea di Gilgamesh (Sîn-lēqi-unninni)
+gregorian,Calendario gregoriano 1582,Gregorian calendar 1582, ,text,False, , , , ,Calendario gregoriano 1582, , ,Calendario gregoriano 1582
+shang-dynasty,C. 1600-1046 a.C.,c. 1600-1046 BC, ,text,False, , , , ,c. 1600-1046 a.C., , ,circa 1600-1046 a.C.
+western-zhou,C. 1046-771 a.C.,c. 1046-771 BC, ,text,False, , , , ,c. 1046-771 a.C., , ,circa 1046-771 a.C.
+qin-dynasty,Qin 221-207 a.C.,Qin 221-207 BC, ,text,False, , , , ,Qin 221-207 a.C., , ,"Dinastia Qin, 221-207 a.C."
+western-han,207 a.C. - 9 CE,207 BC – 9 CE, ,text,False, , , , ,207 a.C. – 9 d.C., , ,207 a.C. – 9 d.C.
+three-kingdoms,Tre regni 220-280 d.C.,Three kingdoms 220-280 CE, ,text,False, , , , ,Tre regni 220-280 d.C., , ,"I Tre Regni, 220-280 d.C."
+sixteen-kingdoms,Sedici regni 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,Sedici regni 304-439 d.C., , ,"I sedici regni, 304-439 d.C."
 tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , , , , 
 wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False, , , , , , , , 
 tang-dynasty1_c,Codolo,Tang, ,text,False, , , , , , , , 
-gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC, ,text,False, , , , , , , ,"Reggenza di Gonghe, 841-828 a.C."
-Ashoka,Ashoka (c. 304-232 a.C.) promuove il buddismo,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , , , ,Ashoka (circa 304-232 a.C.) diffonde il buddismo
-siloam-tunnel,Hezekiah estende il tunnel siloam,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , , , ,Ezechia allunga il tunnel di Siloam
-Angloamerica2,"L'anglo-americano è simboleggiato dai piedi del ferro mescolati con argilla nella profezia in Daniele 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , , , ,"L'impero anglo-americano è simboleggiato dai piedi di ferro mescolati all'argilla nella profezia di Daniele 2:33, 41-43"
-Manetho,Manetho scrive Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , , , , ,Manetone scrive *Aegyptiaca*
-destruction_babylon,"Distruzione di Babylon the Great (Apocalisse 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , , , ,"La distruzione di Babilonia la Grande (Apocalisse 17:3, 15-18; 18:9, 10)"
-peace_security,"“Pace e sicurezza!” (1 Tessalonicesi 5:3, questa è una possibilità, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , , , ,"«Pace e sicurezza!» (1 Tessalonicesi 5:3, questa è una delle possibilità, QfR 26/2, 25/11)"
-gog_of_magog,"Attacco di Gog of Magog (Ezechiele 38: 1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , , , ,"L'attacco di Gog di Magog (Ezechiele 38:1, 2, 9-12, 18-23)"
-sheep_goat,"Gli abitanti della Terra sono giudicati, separando pecore e capre (Matteo 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , , , ,Gli abitanti della Terra vengono giudicati: si separano le pecore dalle capre (Matteo 25:31-33)
-annointed,Gathering of Kingdom Rulers (Matteo 24:31; 1 Corinzi 15: 50-53; 1 Tessalonicesi 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , , , ,Raduno dei sovrani del Regno (Matteo 24:31; 1 Corinzi 15:50-53; 1 Tessalonicesi 4:15-17)
-armageddon,"Battaglia di Armageddon (Apocalisse 16:14, 16; Isaia 13: 9; 2 Pietro 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , , , ,"Battaglia di Armageddon (Apocalisse 16:14, 16; Isaia 13:9; 2 Pietro 3:12)"
-millenium,"Il regno di Dio inizia il suo regno di 1000 anni (Apocalisse 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , , , ,"Il Regno di Dio dà inizio al suo regno millenario (Apocalisse 5:9, 10; 20:4, 6)"
-great_crowd,"Una grande folla sopravvive ad Armageddon (Apocalisse 7: 9, 14; Salmo 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , , , ,"Una grande moltitudine sopravvive all’Armageddon (Apocalisse 7:9, 14; Salmo 37:9-11)"
-world_population,Popolazione mondiale in miliardi negli ultimi 2000 anni,World population in billions in the last 2000 years,appendix B9,text,False, , , , , , , ,Popolazione mondiale in miliardi negli ultimi 2000 anni
-khmer_empire_c,Khmer Empire - periodo di Angkor,Khmer Empire - Angkor period, ,text,False, , , , , , , ,Impero Khmer - Periodo di Angkor
-holy_roman_empire_c,Sacro Romano Impero - noto come Sacro Romano Impero della nazione tedesca dopo il 1512,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , , , ,Sacro Romano Impero – noto come Sacro Romano Impero della Nazione Germanica dopo il 1512
-mongol_empire,Mongol Empire 1206 - 1294 E.V.,Mongol Empire 1206 – 1294, ,text,False, , , , , , , ,Impero mongolo 1206 – 1294
-maya_classic_c,Maya Civilization - periodo classico,Maya civilization – Classic period, ,text,False, , , , , , , ,Civiltà Maya – Periodo classico
-maya_postclassic_c,Maya Civilization - periodo postclassico,Maya civilization – Postclassic period, ,text,False, , , , , , , ,Civiltà Maya – Periodo postclassico
-Teotihuacan,"La più grande città delle Americhe, le piramidi costruiscono c. 200 E.V.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , , , ,"La città più grande delle Americhe, con piramidi costruite intorno al 200 d.C."
-Dionysius_Exiguus,"Dionysius exiguus, inventore di Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , , , ,"Dionigi l’Esiguo, ideatore dell’Anno Domini"
-Umayyad_c,Omayyad,Umayyad, ,text,False, , , , , , , ,Omayyadi
-ur3,Ur III Dinastia 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , , , ,Dinastia Ur III 𒋀𒀕𒆠
+gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC, ,text,False, , , , ,Reggenza di Gonghe 841-828 a.C., , ,"Reggenza di Gonghe, 841-828 a.C."
+Ashoka,Ashoka (c. 304-232 a.C.) promuove il buddismo,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,Ashoka (c. 304-232 a.C.) promuove il buddismo, , ,Ashoka (circa 304-232 a.C.) diffonde il buddismo
+siloam-tunnel,Hezekiah estende il tunnel siloam,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,Ezechia estende il tunnel di Siloam, , ,Ezechia allunga il tunnel di Siloam
+Angloamerica2,"L'anglo-americano è simboleggiato dai piedi del ferro mescolati con argilla nella profezia in Daniele 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"Anglo-americano è simboleggiato dai piedi di ferro mescolati con argilla nella profezia in Daniele 2:33, 41-43", , ,"L'impero anglo-americano è simboleggiato dai piedi di ferro mescolati all'argilla nella profezia di Daniele 2:33, 41-43"
+Manetho,Manetho scrive Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , ,Manetone scrive l'Aegyptiaca, , ,Manetone scrive *Aegyptiaca*
+destruction_babylon,"Distruzione di Babylon the Great (Apocalisse 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"Distruzione di Babilonia la Grande (Apocalisse 17:3, 15-18; 18:9, 10)", , ,"La distruzione di Babilonia la Grande (Apocalisse 17:3, 15-18; 18:9, 10)"
+peace_security,"“Pace e sicurezza!” (1 Tessalonicesi 5:3, questa è una possibilità, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"«Pace e sicurezza!» (1 Tessalonicesi 5:3, questa è una possibilità, QfR 26/2, 25/11)", , ,"«Pace e sicurezza!» (1 Tessalonicesi 5:3, questa è una delle possibilità, QfR 26/2, 25/11)"
+gog_of_magog,"Attacco di Gog of Magog (Ezechiele 38: 1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"Attacco di Gog di Magog (Ezechiele 38:1, 2, 9-12, 18-23)", , ,"L'attacco di Gog di Magog (Ezechiele 38:1, 2, 9-12, 18-23)"
+sheep_goat,"Gli abitanti della Terra sono giudicati, separando pecore e capre (Matteo 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"Gli abitanti della terra sono giudicati, separando pecore e capri (Matteo 25:31-33)", , ,Gli abitanti della Terra vengono giudicati: si separano le pecore dalle capre (Matteo 25:31-33)
+annointed,Gathering of Kingdom Rulers (Matteo 24:31; 1 Corinzi 15: 50-53; 1 Tessalonicesi 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,Raduno dei governanti del Regno (Matteo 24:31; 1 Corinzi 15:50-53; 1 Tessalonicesi 4:15-17), , ,Raduno dei sovrani del Regno (Matteo 24:31; 1 Corinzi 15:50-53; 1 Tessalonicesi 4:15-17)
+armageddon,"Battaglia di Armageddon (Apocalisse 16:14, 16; Isaia 13: 9; 2 Pietro 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"Battaglia di Armaghedon (Apocalisse 16:14, 16; Isaia 13:9; 2 Pietro 3:12)", , ,"Battaglia di Armageddon (Apocalisse 16:14, 16; Isaia 13:9; 2 Pietro 3:12)"
+millenium,"Il regno di Dio inizia il suo regno di 1000 anni (Apocalisse 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"Il Regno di Dio inizia il suo regno di 1000 anni (Apocalisse 5:9, 10; 20:4, 6)", , ,"Il Regno di Dio dà inizio al suo regno millenario (Apocalisse 5:9, 10; 20:4, 6)"
+great_crowd,"Una grande folla sopravvive ad Armageddon (Apocalisse 7: 9, 14; Salmo 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"Una grande folla sopravvive ad Armaghedon (Apocalisse 7:9, 14; Salmo 37:9-11)", , ,"Una grande moltitudine sopravvive all’Armageddon (Apocalisse 7:9, 14; Salmo 37:9-11)"
+world_population,Popolazione mondiale in miliardi negli ultimi 2000 anni,World population in billions in the last 2000 years,appendix B9,text,False, , , , ,Popolazione mondiale in miliardi negli ultimi 2000 anni, , ,Popolazione mondiale in miliardi negli ultimi 2000 anni
+khmer_empire_c,Khmer Empire - periodo di Angkor,Khmer Empire - Angkor period, ,text,False, , , , ,Impero Khmer - periodo di Angkor, , ,Impero Khmer - Periodo di Angkor
+holy_roman_empire_c,Sacro Romano Impero - noto come Sacro Romano Impero della nazione tedesca dopo il 1512,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,Sacro Romano Impero – conosciuto come Sacro Romano Impero della Nazione Germanica dopo il 1512, , ,Sacro Romano Impero – noto come Sacro Romano Impero della Nazione Germanica dopo il 1512
+mongol_empire,Mongol Empire 1206 - 1294 E.V.,Mongol Empire 1206 – 1294, ,text,False, , , , ,Impero Mongolo 1206 – 1294, , ,Impero mongolo 1206 – 1294
+maya_classic_c,Maya Civilization - periodo classico,Maya civilization – Classic period, ,text,False, , , , ,Civiltà Maya – periodo classico, , ,Civiltà Maya – Periodo classico
+maya_postclassic_c,Maya Civilization - periodo postclassico,Maya civilization – Postclassic period, ,text,False, , , , ,Civiltà Maya – periodo postclassico, , ,Civiltà Maya – Periodo postclassico
+Teotihuacan,"La più grande città delle Americhe, le piramidi costruiscono c. 200 E.V.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"Città più grande delle Americhe, piramidi costruite c. 200 d.C.", , ,"La città più grande delle Americhe, con piramidi costruite intorno al 200 d.C."
+Dionysius_Exiguus,"Dionysius exiguus, inventore di Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"Dionigi il Piccolo, inventore dell'Anno Domini", , ,"Dionigi l’Esiguo, ideatore dell’Anno Domini"
+Umayyad_c,Omayyad,Umayyad, ,text,False, , , , ,Omayyadi, , ,Omayyadi
+ur3,Ur III Dinastia 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,Dinastia di Ur III 𒋀𒀕𒆠, , ,Dinastia Ur III 𒋀𒀕𒆠
 hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , , , , 
-Al-Khwarizmi,Al-Khwarizmi scrive al-jabr (algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , ,al-Khwarizmi scrive *Al-Jabr* (Algebra)
-al-azhar,L'Università di Al-Azhar è fondata al Cairo,Al-Azhar University is established in Cairo, ,text,False, , , , , , , ,L'Università di Al-Azhar è stata fondata al Cairo
-Ibn-Sina,Ibn Sina o Avicenna,Ibn Sina or Avicenna, ,text,False, , , , , , , ,Ibn Sina o Avicenna
-life-expectancy,Aspettativa di vita 75 anni,Life expectancy 75 years, ,text,False, , , , , , , ,Aspettativa di vita: 75 anni
-430years_c,"430 anni: Esodo 12:41, Galati 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , ,"430 anni: Esodo 12:41, Galati 3:17"
-maya_calendar,Inizio calcolato del calendario Maya 11 agosto 3114 a.E.V.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , ,Inizio calcolato del calendario Maya: 11 agosto 3114 a.C.
-xia-dynasty2,C. 2070 - c. 1600 a.C.; Era alluso per la prima volta durante il periodo di Zhou occidentale,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , , , ,circa 2070 – circa 1600 a.C.; epoca menzionata per la prima volta durante il periodo Zhou occidentale
-xia-dynasty2_c,Dinastia Xia in Cina,Xia dynasty in China, ,text,False, , , , , , , ,La dinastia Xia in Cina
-tres_zapotes,"3 settembre, 32 a.E.V.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , , , ,3 settembre del 32 a.C.
-joseph_jacob_reunited,Joseph e Jacob si riunirono in Egitto - 1728 a.E.V. (Gen 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , , , ,Giuseppe e Giacobbe si ricongiunsero in Egitto – 1728 a.C. (Genesi 45:11; 47:9)
-king_south_light_c,Re del sud di Daniele 11,King of the South from Daniel 11,2025-02-05,text,False, , , , , , , ,"Il re del Sud, da Daniele 11"
-king_north_light_c,Re del Nord da Daniele 11,King of the North from Daniel 11,2025-02-05,text,False, , , , , , , ,Il re del Nord di Daniele 11
-daniel2_iron_c,Gambe di ferro da Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , , , , ,Gambe di ferro da Daniele 2
+Al-Khwarizmi,Al-Khwarizmi scrive al-jabr (algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,al-Khwarizmi scrive Al-Jabr (Algebra), , ,al-Khwarizmi scrive *Al-Jabr* (Algebra)
+al-azhar,L'Università di Al-Azhar è fondata al Cairo,Al-Azhar University is established in Cairo, ,text,False, , , , ,L'Università Al-Azhar viene fondata al Cairo, , ,L'Università di Al-Azhar è stata fondata al Cairo
+Ibn-Sina,Ibn Sina o Avicenna,Ibn Sina or Avicenna, ,text,False, , , , ,Ibn Sina o Avicenna, , ,Ibn Sina o Avicenna
+life-expectancy,Aspettativa di vita 75 anni,Life expectancy 75 years, ,text,False, , , , ,Aspettativa di vita 75 anni, , ,Aspettativa di vita: 75 anni
+430years_c,"430 anni: Esodo 12:41, Galati 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"430 anni: Esodo 12:41, Galati 3:17", , ,"430 anni: Esodo 12:41, Galati 3:17"
+maya_calendar,Inizio calcolato del calendario Maya 11 agosto 3114 a.E.V.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,Inizio calcolato del calendario maya 11 agosto 3114 a.C., , ,Inizio calcolato del calendario Maya: 11 agosto 3114 a.C.
+xia-dynasty2,C. 2070 - c. 1600 a.C.; Era alluso per la prima volta durante il periodo di Zhou occidentale,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,c. 2070 – c. 1600 a.C.; Era menzionata per la prima volta durante il periodo della dinastia Zhou occidentale, , ,circa 2070 – circa 1600 a.C.; epoca menzionata per la prima volta durante il periodo Zhou occidentale
+xia-dynasty2_c,Dinastia Xia in Cina,Xia dynasty in China, ,text,False, , , , ,Dinastia Xia in Cina, , ,La dinastia Xia in Cina
+tres_zapotes,"3 settembre, 32 a.E.V.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,3 settembre 32 a.C., , ,3 settembre del 32 a.C.
+joseph_jacob_reunited,Joseph e Jacob si riunirono in Egitto - 1728 a.E.V. (Gen 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,Giuseppe e Giacobbe riuniti in Egitto – 1728 a.C. (Gen 45:11; 47:9), , ,Giuseppe e Giacobbe si ricongiunsero in Egitto – 1728 a.C. (Genesi 45:11; 47:9)
+king_south_light_c,Re del sud di Daniele 11,King of the South from Daniel 11,2025-02-05,text,False, , , , ,Re del Sud da Daniele 11, , ,"Il re del Sud, da Daniele 11"
+king_north_light_c,Re del Nord da Daniele 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,Re del Nord da Daniele 11, , ,Il re del Nord di Daniele 11
+daniel2_iron_c,Gambe di ferro da Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Gambe di ferro da Daniele 2, , ,Gambe di ferro da Daniele 2
 argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , , , ,"Codex Argenteus, 505 circa"
 nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,True, , , , , , , , 
-edo_c,Periodo Edo in Giappone,Edo period in Japan, ,text,False, , , , , , , ,Il periodo Edo in Giappone
+edo_c,Periodo Edo in Giappone,Edo period in Japan, ,text,False, , , , ,Periodo Edo in Giappone, , ,Il periodo Edo in Giappone
 meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , , , , , 
-american_civil_war,Guerra civile americana 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,True, , , , , , , ,Guerra civile americana 1861-1865
-aleppo_codex,Codice di Aleppo c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , , , , ,"Codice di Aleppo, 920 circa"
-vandals,Regno dei Vandali e degli Alani 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , , , , ,Regno dei Vandali e degli Alani 435 – 534
-francia,"C. 481/509 – 843, merovingio fino al 751, poi carolingio","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , , , , ,"481/509 circa – 843, periodo merovingio fino al 751, poi carolingio"
-francia_c,Regno dei Franchi,Kingdom of the Franks, ,text,False, , , , , , , ,Regno dei Franchi
-100_years_war,Guerra dei Cent’anni 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , , , ,La Guerra dei Cent'anni 1337 – 1453
-black_death,Morte nera 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , , , , ,La peste nera 1346-1353
-sui_dynasty,581-618 Dinastia Sui,581-618 Sui dynasty,2025-11-09,text,False, , , , , , , ,581-618 Dinastia Sui
+american_civil_war,Guerra civile americana 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,True, , , , ,Guerra civile americana 1861-1865, , ,Guerra civile americana 1861-1865
+aleppo_codex,Codice di Aleppo c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,Codex di Aleppo c. 920, , ,"Codice di Aleppo, 920 circa"
+vandals,Regno dei Vandali e degli Alani 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Regno dei Vandali e degli Alani 435 – 534, , ,Regno dei Vandali e degli Alani 435 – 534
+francia,"C. 481/509 – 843, merovingio fino al 751, poi carolingio","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"c. 481/509 – 843, Merovingi fino al 751, poi Carolingi", , ,"481/509 circa – 843, periodo merovingio fino al 751, poi carolingio"
+francia_c,Regno dei Franchi,Kingdom of the Franks, ,text,False, , , , ,Regno dei Franchi, , ,Regno dei Franchi
+100_years_war,Guerra dei Cent’anni 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Guerra dei Cent'anni 1337 – 1453, , ,La Guerra dei Cent'anni 1337 – 1453
+black_death,Morte nera 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Peste nera 1346-1353, , ,La peste nera 1346-1353
+sui_dynasty,581-618 Dinastia Sui,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 dinastia Sui, , ,581-618 Dinastia Sui
 sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , , , , 
-tribulation,"The Great Tribolation (Marco 13:19; Daniele 12: 1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , , , , ,"La Grande Tribolazione (Marco 13:19; Daniele 12:1; Matteo 24:21, 22)"
-timeline_created,"Questa sequenza temporale è creata nel 2023, l'anno più caldo della storia umana e negli ultimi 125.000 anni","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , , , , ,"Questa cronologia è stata realizzata nel 2023, l'anno più caldo della storia dell'umanità e degli ultimi 125.000 anni"
+tribulation,"The Great Tribolation (Marco 13:19; Daniele 12: 1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"La Grande Tribolazione (Marco 13:19; Daniele 12:1; Matteo 24:21, 22)", , ,"La Grande Tribolazione (Marco 13:19; Daniele 12:1; Matteo 24:21, 22)"
+timeline_created,"Questa sequenza temporale è creata nel 2023, l'anno più caldo della storia umana e negli ultimi 125.000 anni","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"Questa cronologia è stata creata nel 2023, l'anno più caldo nella storia dell'umanità e negli ultimi 125.000 anni", , ,"Questa cronologia è stata realizzata nel 2023, l'anno più caldo della storia dell'umanità e degli ultimi 125.000 anni"
 Adam,Adamo,Adam,Luke 3:38,bible,True, , , , , , , , 
 Seth,Set,Seth, ,bible,True, , , , , , , , 
 Enosh,Ènos,Enosh, ,bible,True, , , , , , , , 

@@ -793,7 +793,7 @@ if __name__ == "__main__":
     # dict_translated = run_batched_provider(dict_translated, "gemini", language,
     #                                        translate_gemini_batch, batch_size=100,
     #                                        min_delay=15, max_retries=10)
-    # Step 10.4: claude (Anthropic Claude) - low RPM, pace to ~2/min.
+    # # Step 10.4: claude (Anthropic Claude) - low RPM, pace to ~2/min.
     # dict_translated = run_batched_provider(dict_translated, "claude", language,
     #                                        translate_claude_batch, batch_size=20,
     #                                        min_delay=30, max_retries=5)

@@ -1,158 +1,158 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08,5.9,float,True, , , , , , , , 
-pdf_title,6000 ਸਾਲ ਦੇ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਕਲਪਨਾ ਕੀਤੀ,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , , , , ,"ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੇ 6,000 ਸਾਲ — ਇੱਕ ਸਮਾਂ-ਰੇਖਾ"
-pdf_subject,ਮਨੁੱਖਜਾਤੀ ਦੀ ਸਮਾਂ ਰੇਖਾ,Timeline of human history from 4000 BCE to present,5.9,text,False, , , , , , , ,4000 ਈਸਾ ਪੂਰਵ ਤੋਂ ਵਰਤਮਾਨ ਤੱਕ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਸਮਾਂ-ਰੇਖਾ
+pdf_title,6000 ਸਾਲ ਦੇ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਕਲਪਨਾ ਕੀਤੀ,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,"6,000 ਸਾਲ ਦੀ ਮਨੁੱਖੀ ਇਤਿਹਾਸ — ਇੱਕ ਸਮਾਂ-ਰੇਖਾ", , ,"ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੇ 6,000 ਸਾਲ — ਇੱਕ ਸਮਾਂ-ਰੇਖਾ"
+pdf_subject,ਮਨੁੱਖਜਾਤੀ ਦੀ ਸਮਾਂ ਰੇਖਾ,Timeline of human history from 4000 BCE to present,5.9,text,False, , , , ,ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਸਮਾਂ-ਰੇਖਾ 4000 ਈ.ਪੂ. ਤੋਂ ਹੁਣ ਤੱਕ, , ,4000 ਈਸਾ ਪੂਰਵ ਤੋਂ ਵਰਤਮਾਨ ਤੱਕ ਮਨੁੱਖੀ ਇਤਿਹਾਸ ਦੀ ਸਮਾਂ-ਰੇਖਾ
 BCE,ਬੀ.ਸੀ.ਈ.,B.C.E.,appendix B9,B9,True, , , , , , , , 
 CE,ਸੀ.ਈ.,C.E., ,B9,False, , , , , , , , 
-month,ਮਹੀਨਾ,month, ,text,False, , , , , , , ,ਮਹੀਨਾ
-months,ਮਹੀਨੇ,months, ,text,False, , , , , , , ,ਮਹੀਨੇ
-day,ਦਿਨ,day, ,text,False, , , , , , , ,ਦਿਨ
-days,ਦਿਨ,days, ,text,False, , , , , , , ,ਦਿਨ
-to,ਨੂੰ,to, ,text,False, , , , , , , ,ਤੱਕ
-Deluge,ਜਲ-ਪਰਲੋ,Deluge, ,text,False, , , , , , , ,ਬਾਢ
-moses2,1593 ਤੋਂ 1473 ਬੀ.ਸੀ.. - 120 ਸਾਲ,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , , , ,ਈਸਾ ਤੋਂ ਪਹਿਲਾਂ 1593 ਤੋਂ 1473 ਤੱਕ – 120 ਸਾਲ
-temple1,NISAN 1513 B.c.e. ZIV 1034 B.c.e.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , , , ,ਨਿਸਾਨ 1513 ਈਸਾ ਪੂਰਵ ਤੋਂ ਜ਼ੀਵ 1034 ਈਸਾ ਪੂਰਵ ਤੱਕ
-69weeks,ਯਿਸੂ ਨੇ ਪਤਝੜ 29 ਸੀ.ਈ.,Jesus baptized autumn 29 C.E., ,text,False, , , , , , , ,ਯਿਸੂ ਨੇ 29 ਈਸਵੀ ਸਾਲ ਦੀ ਪਤਝੜ ਵਿੱਚ ਬਪਤਿਸਮਾ ਦਿੱਤਾ।
-year,ਸਾਲ,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , , , , ,ਸਾਲ
-years,ਸਾਲ,years, ,text,False, , , , , , , ,ਸਾਲ
-years_age,ਸਾਲ,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , , , , ,ਸਾਲ
+month,ਮਹੀਨਾ,month, ,text,False, , , , ,ਮਹੀਨਾ, , ,ਮਹੀਨਾ
+months,ਮਹੀਨੇ,months, ,text,False, , , , ,ਮਹੀਨੇ, , ,ਮਹੀਨੇ
+day,ਦਿਨ,day, ,text,False, , , , ,ਦਿਨ, , ,ਦਿਨ
+days,ਦਿਨ,days, ,text,False, , , , ,ਦਿਨ, , ,ਦਿਨ
+to,ਨੂੰ,to, ,text,False, , , , ,ਨੂੰ, , ,ਤੱਕ
+Deluge,ਜਲ-ਪਰਲੋ,Deluge, ,text,False, , , , ,ਹੜ੍ਹ, , ,ਬਾਢ
+moses2,1593 ਤੋਂ 1473 ਬੀ.ਸੀ.. - 120 ਸਾਲ,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,1593 ਤੋਂ 1473 ਈ.ਪੂ. – 120 ਸਾਲ, , ,ਈਸਾ ਤੋਂ ਪਹਿਲਾਂ 1593 ਤੋਂ 1473 ਤੱਕ – 120 ਸਾਲ
+temple1,NISAN 1513 B.c.e. ZIV 1034 B.c.e.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,ਨਿਸਾਨ 1513 ਈ.ਪੂ. ਤੋਂ ਜ਼ੀਵ 1034 ਈ.ਪੂ. ਤੱਕ, , ,ਨਿਸਾਨ 1513 ਈਸਾ ਪੂਰਵ ਤੋਂ ਜ਼ੀਵ 1034 ਈਸਾ ਪੂਰਵ ਤੱਕ
+69weeks,ਯਿਸੂ ਨੇ ਪਤਝੜ 29 ਸੀ.ਈ.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,ਯਿਸੂ ਦਾ ਬਪਤਿਸਮਾ ਪਤਝੜ 29 ਈ., , ,ਯਿਸੂ ਨੇ 29 ਈਸਵੀ ਸਾਲ ਦੀ ਪਤਝੜ ਵਿੱਚ ਬਪਤਿਸਮਾ ਦਿੱਤਾ।
+year,ਸਾਲ,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,ਸਾਲ, , ,ਸਾਲ
+years,ਸਾਲ,years, ,text,False, , , , ,ਸਾਲ, , ,ਸਾਲ
+years_age,ਸਾਲ,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,ਸਾਲ, , ,ਸਾਲ
 age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,ਉਜਾੜ ਵਿੱਚ ਇਜ਼ਰਾਈਲ 1513 ਤੋਂ 1473 ਬੀ.ਸੀ.. - 40 ਸਾਲ,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , , , ,ਜੰਗਲ ਵਿੱਚ ਇਜ਼ਰਾਈਲ 1513 ਤੋਂ 1473 ਈਸਾ ਪੂਰਵ – 40 ਸਾਲ
-timespan_judges,1473 ਤੋਂ 1117 ਬੀ.ਸੀ. - 356 ਸਾਲ,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , , , ,ਈਸਵੀ ਪੂਰਵ 1473 ਤੋਂ ਈਸਵੀ ਪੂਰਵ 1117 ਤੱਕ – 356 ਸਾਲ
-timespan_judges2,ਜੱਜਾਂ ਦਾ ਸਮਾਂ,Time of the judges, ,text,False, , , , , , , ,ਨਿਆਂਧੀਸ਼ਾਂ ਦਾ ਸਮਾਂ
-temple2,479 ਸਾਲ ਜਦ ਤਕ ਮੰਦਰ ਦੀ ਉਸਾਰੀ ਤਕ - 1 ਰਾਜਿਆਂ 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , , , ,ਮੰਦਰ ਦੇ ਨਿਰਮਾਣ ਤੱਕ 479 ਸਾਲ – 1 ਰਾਜਿਆਂ 6:1
-69weeks2,ਮਸੀਹਾ ਨੂੰ 69 ਹਫ਼ਤੇ ਵਿਚ 69 ਹਫ਼ਤੇ - ਦਾਨੀਏਲ 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , , , ,ਮਸੀਹ ਤੱਕ 69 ਹਫ਼ਤੇ – ਦਾਨੀਏਲ 9:25
-jesus_service,"3.5 ਸਾਲਾਂ ਦੀ ਯਿਸੂ ਸੇਵਾ, 14 ਸੀ.ਈ.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , , , ,"ਯਿਸੂ ਦੀ ਸੇਵਾ ਦੇ 3.5 ਸਾਲ, ਨਿਸਾਨ 14, 33 ਈਸਵੀ ਵਿੱਚ ਫਾਂਸੀ।"
-jesus_life,ਯਿਸੂ ਦਾ ਜਨਮ 2 ਬੀ.ਸੀ..,Jesus born 2 B.C.E., ,text,False, , , , , , , ,ਯਿਸੂ ਦਾ ਜਨਮ 2 ਈਸਵੀ ਪੂਰਵ ਵਿੱਚ ਹੋਇਆ।
-exile,607 ਤੋਂ 537 ਬੀ.ਸੀ.. - 70 ਸਾਲ (ਯਿਰਮਿਯਾਹ 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , , , ,607 ਤੋਂ 537 ਈਸਵੀ ਪੂਰਵ – 70 ਸਾਲ (ਯਿਰਮਿਯਾਹ 25:11)
-exile2,ਜਲਾਵਤਵੀ,Exile, ,text,False, , , , , , , ,ਨਿਕਾਲਾ
-7times2,1914 ਦੇ 1914 ਦੇ ਰਾਜ ਦੇ 2520 ਸਾਲ 2520 ਸਾਲ 2520 ਸਾਲ ਸੀ. (ਦਾਨੀਏਲ 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , , , ,7 ਵਾਰ – 2520 ਸਾਲ ਮਸੀਹੀ ਰਾਜ ਤੱਕ 1914 ਈ. (ਦਾਨੀਏਲ 4:23)
-ww1,ਵਿਸ਼ਵ ਯੁੱਧ I - 1914-1918 C.e.,World War I – 1914–1918, ,text,False, , , , , , , ,ਪਹਿਲੀ ਵਿਸ਼ਵ ਯੁੱਧ – 1914–1918
-ww2,ਦੂਸਰਾ ਵਿਸ਼ਵ ਯੁੱਧ - 1939-1945 ਸੀ.ਈ.,World War II – 1939–1945, ,text,False, , , , , , , ,ਦੂਜਾ ਵਿਸ਼ਵ ਯੁੱਧ – 1939–1945
-30_year_war,ਯੂਰਪ ਵਿਚ ਤੀਹ ਸਾਲਾਂ ਦੀ ਲੜਾਈ 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , , , ,ਯੂਰਪ ਵਿੱਚ ਤੀਹ ਸਾਲਾ ਜੰਗ 1618-1648
-joshua,110 ਸਾਲ,110 years, ,text,False, , , , , , , ,110 ਸਾਲ
-caleb,85 ਸਾਲ ਤੋਂ ਵੱਧ,more than 85 years, ,text,False, , , , , , , ,85 ਸਾਲ ਤੋਂ ਵੱਧ
-missionary1,ਪੌਲੁਸ ਦੀ ਪਹਿਲੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ ਸੀ. 47-48 C.e. ਬਰਨਬਾਸ ਅਤੇ ਜੌਨ ਮਾਰਕ ਦੇ ਨਾਲ,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , , , ,"ਪੌਲੁਸ ਦੀ ਪਹਿਲੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ, ਲਗਭਗ 47-48 ਈਸਵੀ, ਬਰਨਬਾਸ ਅਤੇ ਯੂਹੰਨਾ ਮਰਕੁਸ ਨਾਲ"
-circumcision,"ਐਂਟੀਆਕ, ਕਾਨਫਰੰਸ 'ਤੇ ਐਂਟੀਓਕ, ਕਾਨਫਰੰਸ ਦਾ ਮੁੱਦਾ ਸੀ. 49 ਸ.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , , , ,"ਐਂਟੀਓਕ ਵਿਖੇ ਸੁੰਨਤ ਦਾ ਮਸਲਾ, ਲਗਭਗ 49 ਈਸਵੀ ਵਿੱਚ ਯਰੂਸ਼ਲਮ ਵਿਖੇ ਕਾਨਫਰੰਸ।"
-missionary2,ਦੂਜੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ ਸੀ. ਸੀਲਾਸ (ਸਿਲਵਾਨਸ) ਨਾਲ 49-52 ਸੀ.,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , , , ,ਦੂਜਾ ਮਿਸ਼ਨਰੀ ਸਫ਼ਰ ਲਗਭਗ 49-52 ਈਸਵੀ ਸਾਲਾਂ ਵਿੱਚ ਸਿਲਾਸ (ਸਿਲਵਾਨਸ) ਨਾਲ
-missionary3,ਤੀਜੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ ਸੀ. 52-56 ਸੀ.ਈ.ਈ.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , , , ,ਤੀਜੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ ਲਗਭਗ 52-56 ਈਸਵੀ
-caesarea,ਪੌਲੁਸ ਕੈਸਰਿਯਾ ਸੀ ਵਿਚ ਹਿਰਾਸਤ ਵਿਚ ਸੀ. 56-58 ਸੀ.ਈ.ਈ.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , , , ,ਪੌਲੂਸ ਲਗਭਗ 56-58 ਈਸਵੀ ਵਿੱਚ ਕੈਸਰੀਆ ਵਿੱਚ ਹਿਰਾਸਤ ਵਿੱਚ।
-rome1,ਰੋਮ ਵਿਚ ਪੌਲੁਸ ਦੀ ਪਹਿਲੀ ਕੈਦ ਸੀ. 59-61 C.e.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , , , ,"ਰੋਮ ਵਿੱਚ ਪੌਲ ਦੀ ਪਹਿਲੀ ਕੈਦ, ਲਗਭਗ 59-61 ਈਸਵੀ"
-rome2,"ਰੋਮ ਵਿਚ ਪੌਲੁਸ ਦੀ ਦੂਜੀ ਕੈਦ ਸੀ. 65 ਸਾ.ਯੁ. 2 ਵੇਂ ਤਿਮੋਥਿਉਸ ਨੇ ਲਿਖਿਆ, ਪੌਲ ਨੂੰ ਫਾਂਸੀ ਦਿੱਤੀ ਗਈ","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , , , ,"ਰੋਮ ਵਿੱਚ ਪੌਲ ਦੀ ਦੂਜੀ ਕੈਦ (ਲਗਭਗ 65 ਈਸਵੀ), ਦੂਜਾ ਥਿਮੋਥਿਯੁਸ ਲਿਖਿਆ ਗਿਆ, ਪੌਲ ਦੀ ਫਾਂਸੀ"
-event_exodus,"ਨੀਸਾਨ 14 ਵੀਂ, 1513 ਬੀ.ਸੀ.. 'ਤੇ ਮਿਸਰ ਤੋਂ ਕੂਚ","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , , , ,"ਮਿਸਰ ਤੋਂ ਨਿਸਾਨ 14, 1513 ਈਸਾ ਪੂਰਵ ਨੂੰ ਨਿਕਾਸ।"
-event_division_kingdom,ਇਸਰਾਇਲ ਦੀ ਵੰਡ 997 ਸਾ.ਯੁ.ਪੂ.,Division of Israel 997 BCE, ,text,False, , , , , , , ,ਇਸਰਾਈਲ ਦਾ ਵਿਭਾਜਨ ੯੯੭ ਈਸਾ ਪੂਰਵ
-event_destruction_samaria,ਸਾਮਰਿਯਾ ਦਾ ਵਿਨਾਸ਼ 740 ਬੀ. ਸੀ. ਅੱਸ਼ੂਰ ਦੁਆਰਾ,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , , , ,ਅਸੀਰੀਆ ਵੱਲੋਂ 740 ਈਸਾ ਪੂਰਵ ਵਿੱਚ ਸਮਾਰੀਆ ਦਾ ਵਿਨਾਸ਼
-event_destruction_jerusalem1,"ਯਰੂਸ਼ਲਮ ਦੀ ਤਬਾਹੀ 607 b.c.e. ਬਾਬਲ ਦੁਆਰਾ, ਰਾਜ ਦੀ ਵੰਡ ਤੋਂ 390 ਸਾਲ ਬਾਅਦ (ਹਿਜ਼ਕੀਏਲ 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , , , ,"ਬਾਬਲ ਵੱਲੋਂ ਯਰੂਸ਼ਲਮ ਦਾ ਵਿਨਾਸ਼ 607 ਈਸਾ ਪੂਰਵ, ਰਾਜ ਦੇ ਵਿਭਾਜਨ ਤੋਂ 390 ਸਾਲ ਬਾਅਦ (ਹਿਜ਼ਕੀਏਲ 4:5)"
-event_temple_rebuilt,ਯਰੂਸ਼ਲਮ ਵਿੱਚ ਮੰਦਰ 515 ਬੀ.ਸੀ..,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , , , ,ਯਰੂਸ਼ਲਮ ਵਿੱਚ ਮੰਦਰ 515 ਈਸਾ ਪੂਰਵ ਵਿੱਚ ਦੁਬਾਰਾ ਬਣਾਇਆ ਗਿਆ।
-event_jerusalem_rebuilt,ਯਰੂਸ਼ਲਮ ਦੀ ਕੰਧ 455 ਬੀ.ਸੀ..,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , , , ,ਯਰੂਸ਼ਲਮ ਦੀ ਕੰਧ ਈਸਾ ਤੋਂ 455 ਸਾਲ ਪਹਿਲਾਂ ਦੁਬਾਰਾ ਬਣਾਈ ਗਈ।
-event_destruction_jerusalem2,ਟਾਈਟਸ ਅਧੀਨ ਰੋਮ ਦੁਆਰਾ ਰੋਮ ਦੁਆਰਾ 70 ਸੀ.ਈ.,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , , , ,70 ਈਸਵੀ ਵਿੱਚ ਟਾਈਟਸ ਦੀ ਅਗਵਾਈ ਹੇਠ ਰੋਮ ਦੁਆਰਾ ਯਰੂਸ਼ਲਮ ਦਾ ਵਿਨਾਸ਼
-event_1914,"ਕੌਮਾਂ ਦੇ ਸਮੇਂ (ਲੂਕਾ 21:24) ਦੇ ਸਮੇਂ, ਪਰਮੇਸ਼ੁਰ ਦਾ ਰਾਜ ਸਵਰਗ ਵਿਚ 1914 ਸੀ.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , , , ,"ਕੌਮਾਂ ਦੇ ਸਮੇਂ ਦਾ ਅੰਤ (ਲੂਕਾ 21:24), ਪਰਮੇਸ਼ੁਰ ਦੀ ਰਾਜ 1914 ਸਨਈ ਵਿੱਚ ਸਵਰਗ ਵਿੱਚ ਰਾਜ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰਦੀ ਹੈ।"
-became_king,ਉਮਰ ਵਿੱਚ ਰਾਜਾ ਬਣ ਜਾਂਦਾ ਹੈ,becomes king at age,2025-04-14,text,False, , , , , , , ,ਉਮਰ ਵਿੱਚ ਰਾਜਾ ਬਣਦਾ ਹੈ
-vulgate,ਵੁਲਗੇਟ Jerome (ਬਾਈਬਲ ਦਾ ਲਾਤੀਨੀ ਅਨੁਵਾਦ) C. 405 ਸੀ.ਈ.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , , , ,ਜੇਰੋਮ ਦੁਆਰਾ ਲਗਭਗ 405 ਈਸਵੀ ਵਿੱਚ ਪੂਰੀ ਕੀਤੀ ਗਈ ਵਲਗੇਟ (ਬਾਈਬਲ ਦਾ ਲੈਟਿਨ ਅਨੁਵਾਦ)
-gutenberg,ਗਟੇਬਰਗ ਬਾਈਬਲ ਛਾਪੀ ਗਈ 1455,Gutenberg Bible printed 1455, ,text,False, , , , , , , ,ਗੁਟੇਨਬਰਗ ਬਾਈਬਲ 1455 ਵਿੱਚ ਛਪੀ
-erasmus,ਗ੍ਰੀਕ ਟੈਕਸਟ ਕ੍ਰਿਸ਼ਚੀਨ ਯੂਨਾਨੀ ਸ਼ਾਸਤਰ ਦਾ ਡੇਨੀਅਰਡੈਮ ਦੇ ਡੀਸਡੀਰੀਅਸ ਐਰਸਮਸ ਦੁਆਰਾ ਪ੍ਰਕਾਸ਼ਤ ਕਰੋ 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , , , ,ਡੇਸਿਡੇਰੀਅਸ ਏਰਾਸਮਸ ਆਫ਼ ਰੌਟਰਡੈਮ ਵੱਲੋਂ 1516 ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤੀਆਂ ਗਈਆਂ ਕ੍ਰਿਸਚਨ ਗ੍ਰੀਕ ਧਰਮ-ਗ੍ਰੰਥਾਂ ਦਾ ਗ੍ਰੀਕ ਪਾਠ
-luther,ਸਤੰਬਰ 1522 ਵਿਚ ਲਥਲਰ ਬਾਈਬਲ ਦਾ ਅਨੁਵਾਦ,Luther Bible translation in September 1522, ,text,False, , , , , , , ,ਸਤੰਬਰ 1522 ਵਿੱਚ ਲੂਥਰ ਵੱਲੋਂ ਬਾਈਬਲ ਦਾ ਅਨੁਵਾਦ
-tyndale,ਟਿੰਡਲ 1536 ਦੁਆਰਾ ਇੰਗਲਿਸ਼ ਬਾਈਬਲ ਅਨੁਵਾਦ,English Bible translation by Tyndale 1536, ,text,False, , , , , , , ,ਟਿੰਡੇਲ ਦੁਆਰਾ 1536 ਦਾ ਬਾਈਬਲ ਅਨੁਵਾਦ
-king_james,ਕਿੰਗ ਜੇਮਜ਼ ਬਾਈਬਲ 1611,King James Bible 1611, ,text,False, , , , , , , ,ਰਾਜਾ ਜੇਮਸ ਬਾਈਬਲ 1611
-69weeks3,"ਯਿਸੂ ਨੇ ਆਪਣੀ ਸੇਵਾ ਸ਼ੁਰੂ ਕੀਤੀ 29 ਈਸਵੀ (ਲੂਕਾ 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , , , , ,"ਯਿਸੂ ਨੇ 29 ਈਸਵੀ ਸਾਲ ਵਿੱਚ ਆਪਣੀ ਸੇਵਾ ਸ਼ੁਰੂ ਕੀਤੀ (ਲੂਕਾ 3:1, 21)"
-ransom,"ਹਫ਼ਤੇ ਦੇ ਮੱਧ ""ਬਲੀਦਾਨ ਤੋਂ ਛੁਟਕਾਰਾ ਦੇਣਾ"" ਦਾਨੀਏਲ 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , , , , ,"ਹਫ਼ਤੇ ਦੇ ਵਿਚਕਾਰ ""ਰੋਕਣ ਲਈ ਕੁਰਬਾਨੀ"" ਦਾਨੀਏਲ 9:27"
-cornelius,ਕੁਰਨੇਲਿਯੁਸ ਨੇ 70 ਕਰੋੜਾਂ (ਦਾਨੀਏਲ 9:24) ਦੇ ਅਖੀਰ ਵਿਚ ਬਪਤਿਸਮਾ ਲਿਆ.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , , , , ,"ਕੌਰਨੇਲੀਅਸ ਨੇ 36 ਈਸਵੀ ਵਿੱਚ, 70 ਹਫ਼ਤਿਆਂ ਦੇ ਅੰਤ ਵਿੱਚ (ਦਾਨੀਏਲ 9:24) ਬਪਤਿਸਮਾ ਲਿਆ।"
-columbus,ਅਮਰੀਕਾ ਵਿਚ ਪ੍ਰੀ-ਕੋਲੰਬੀਅਨ ਦੀ ਮਿਆਦ 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , , , , ,ਅਮਰੀਕਾ ਵਿੱਚ ਪ੍ਰੀ-ਕੋਲੰਬੀਅਨ ਯੁੱਗ ਦਾ ਅੰਤ 1492
-declaration_independence,ਅਮਰੀਕਾ ਵਿੱਚ 13 ਕਲੋਨੀਜ਼ ਦੀ ਆਜ਼ਾਦੀ ਦਾ ਐਲਾਨ,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , , , , ,ਅਮਰੀਕਾ ਦੀਆਂ 13 ਬਸਤੀਆਂ ਦਾ 1776 ਦਾ ਆਜ਼ਾਦੀ ਦਾ ਐਲਾਨ
-tischendorf,ਟਿਸ਼ਚੇਂਦਰਫ ਨੇ 1844 ਵਿਚ ਕਲੋਕਸ ਸਿਨਾਈਟਿਕਸ ਤੋਂ ਕੋਡੈਕਸ ਸਾਈਨੇਟਿਕਸ ਨੂੰ ਖੋਜਿਆ,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , , , , ,ਟਿਸ਼ਨਡੋਰਫ ਨੇ 1844 ਵਿੱਚ ਚੌਥੀ ਸਦੀ ਦਾ ਕੋਡੈਕਸ ਸਿਨਾਈਟਿਕਸ ਖੋਜਿਆ।
-dead_sea_scrolls,ਮ੍ਰਿਤ ਸਾਗਰ ਸਕ੍ਰੌਲ ਲਿਖਤ,Dead Sea Scrolls written, ,text,False, , , , , , , ,ਲਿਖੇ ਹੋਏ ਮ੍ਰਿਤ ਸਾਗਰ ਦੇ ਹੱਥ-ਲਿਖਤ
-septuagint,ਸੇਪਟੁਗਿੰਟ ਐਲ ਐਕਸ ਐਕਸ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ,Septuagint LXX translated, ,text,False, , , , , , , ,ਸੈਪਟੂਆਜਿੰਟ LXX ਦਾ ਅਨੁਵਾਦ
-watchtower,ਸੀਯੋਨ ਦੇ ਵਾਚ ਵਾਚ ਟਾਵਰ ਅਤੇ ਮਸੀਹ ਦੀ ਮੌਜੂਦਗੀ ਦਾ ਆਖ਼ਰੀ ਅੰਕ 1879 ਵਿਚ ਪ੍ਰਕਾਸ਼ਤ ਹੋਇਆ ਹੈ,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , , , , ,"""ਜ਼ਿਓਨ ਦਾ ਵਾਚ ਟਾਵਰ ਅਤੇ ਮਸੀਹ ਦੀ ਮੌਜੂਦਗੀ ਦਾ ਹੇਰਲਡ"" ਦਾ ਪਹਿਲਾ ਅੰਕ 1879 ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਹੋਇਆ।"
-jehovahs_witnesses,"ਬਾਈਬਲ ਸਟੂਡੈਂਟਸ ਨੇ ਇਕ ਨਵਾਂ ਨਾਮ - ਯਹੋਵਾਹ ਦੇ ਗਵਾਹ (ਯਸਾਯਾਹ 43:10, 12) ਕੋਲੰਬਸ ਵਿਚ ਓਹੀਓ, 1931 ਵਿਚ","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , , , , ,"ਬਾਈਬਲ ਸਟੂਡੈਂਟਸ ਨੇ 1931 ਵਿੱਚ ਕੋਲੰਬਸ, ਓਹਾਇਓ ਵਿੱਚ ਨਵਾਂ ਨਾਮ ਅਪਣਾਇਆ – ਯਹੋਵਾਹ ਦੇ ਗਵਾਹ (ਯਸਾਯਾਹ 43:10, 12)"
-gilead_school,"ਵਾਚਟਾਵਰ ਬਾਈਬਲ ਸਕੂਲ ਆਫ਼ ਗਿਲਿਅਡ ਸੋਮਵਾਰ, 1 ਫਰਵਰੀ 1943 ਨੂੰ ਸ਼ੁਰੂ ਹੋਇਆ","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , , , , ,"ਗਿਲਿਆਦ ਦਾ ਵਾਚਟਾਵਰ ਬਾਈਬਲ ਸਕੂਲ ਸੋਮਵਾਰ, 1 ਫਰਵਰੀ, 1943 ਨੂੰ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।"
-new_world_translation1,"ਨਿ World ਵਰਲਡ ਟ੍ਰਾਂਸਲੇਸ਼ਨ ਆਫ਼ ਦਿ ਹੋਲੀ ਸਕ੍ਰਿਪਚਰਸ ਮੈਨਚੇਸਟਰ ਵਿਚ 1 ਜੂਨ, 1960 ਨੂੰ ਇੰਗਲੈਂਡ ਨੂੰ ਬਾਈਬਲ ਦੇ ਕਈ ਹਿੱਸਿਆਂ ਵਿਚ ਯਹੋਵਾਹ ਨਾਮ ਦੀ ਰਿਹਦਾ ਹੈ","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , , , , ,"""ਪਵਿੱਤਰ ਧਰਮਗ੍ਰੰਥਾਂ ਦਾ ਨਵਾਂ ਸੰਸਾਰ ਅਨੁਵਾਦ"" 18 ਜੂਨ 1960 ਨੂੰ ਮੈਨਚੈਸਟਰ, ਇੰਗਲੈਂਡ ਵਿੱਚ ਜਾਰੀ ਕੀਤਾ ਗਿਆ, ਜਿਸ ਨੇ ਬਾਈਬਲ ਦੇ ਕਈ ਹਿੱਸਿਆਂ ਵਿੱਚ ਯਹੋਵਾਹ ਨਾਮ ਨੂੰ ਮੁੜ ਪੇਸ਼ ਕੀਤਾ।"
-new_world_translation2,"ਇਸ ਨੂੰ ਸਲੈਵਲ ਏਜੰਟ ਵਿਖੇ ਜਾਰੀ ""ਨਿ World ਵਰਲਡ ਟ੍ਰਾਂਸਲੇਸ਼ਨ"" ਨੂੰ ਸੋਧਿਆ ਗਿਆ, ਨੇ ਡਿਜੀਟਡ ਅਤੇ ਆਨਲਾਈਨ ਵਰਤਿਆ","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , , , , ,"ਸਾਲਾਨਾ ਮੀਟਿੰਗ 2013 ਵਿੱਚ ਜਾਰੀ ਕੀਤਾ ਗਿਆ ਸੋਧਿਆ ਹੋਇਆ ""ਪਵਿੱਤਰ ਧਰਮ-ਗ੍ਰੰਥਾਂ ਦਾ ਨਵਾਂ ਸੰਸਾਰ ਅਨੁਵਾਦ"", ਜਿਸਨੂੰ ਡਿਜੀਟਲ ਅਤੇ ਆਨਲਾਈਨ ਵਰਤੋਂ ਲਈ ਅਨੁਕੂਲਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
-cold_war,"ਜਿਓਪੋਲਿਕ ਸਥਿਤੀ ਨੇ ""ਕੋਲਡ ਯੁੱਧ"" 1945-1991 ਦਾ ਲੇਬਲ ਕੀਤਾ",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , , , , ,"ਜਿਓਪੋਲੀਟੀਕਲ ਸਥਿਤੀ ਜਿਸਨੂੰ ""ਠੰਢੀ ਜੰਗ"" ਕਿਹਾ ਗਿਆ 1945-1991"
-codex_sinaiticus,ਕੋਡੈਕਸ ਸਾਈਨੇਟਿਕਸ ਲਿਖਿਆ,Codex Sinaiticus written, ,text,False, , , , , , , ,ਕੋਡੈਕਸ ਸਿਨਾਈਟਿਕਸ ਲਿਖਿਆ
-codex_vaticanus,ਕੋਡੈਕਸ ਵੈਟੀਕਨਸ ਲਿਖਿਆ ਗਿਆ,Codex Vaticanus written, ,text,False, , , , , , , ,ਕੋਡੈਕਸ ਵੈਟੀਕਾਨਸ ਲਿਖਿਆ
-leningrad_codex,ਲਾਈਨਰਾਡਡ ਕੋਡੈਕਸ ਕੈਰੋ ਐਡ 1008 ਵਿੱਚ ਲਿਖਿਆ ਗਿਆ,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , , , , ,"ਲੇਨਿਨਗ੍ਰਾਡ ਕੋਡੈਕਸ, ਕਾਇਰੋ ਵਿੱਚ 1008 ਈਸਵੀ ਵਿੱਚ ਲਿਖਿਆ ਗਿਆ"
-john,"ਜੌਹਨ ਨੇ ਪੈਟਮੋਸ 96-98 C.e 'ਤੇ ਕਾਮੇਡ ਕੀਤੇ ਸਮੇਂ ""ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ"" ਲਿਖਦਾ ਹੈ.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , , , , ,"ਯੂਹੰਨਾ ਨੇ 96-98 ਈਸਵੀ ਸਾਲਾਂ ਵਿੱਚ ਪੈਟਮੋਸ 'ਤੇ ਨਿਕਾਲੇ ਹੋਣ ਦੌਰਾਨ ""ਪ੍ਰਕਾਸ਼ਨ"" ਲਿਖਿਆ।"
-buddha,ਬੁੱਧ - ਸਿਧਾਰਾ ਗੌਤਮ ਸੀ .563-c.483 b.c.e,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , , , , ,ਬੁੱਧ – ਸਿੱਧਾਰਥ ਗੌਤਮ ਲਗਭਗ 563-ਲਗਭਗ 483 ਈ.ਪੂ.
-buddha2,ਬੁੱਧ ਵਿਕਲਪਿਕ ਤੌਰ ਤੇ ਸੀ. 480-400 ਬੀ.ਸੀ..,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , , , , ,"ਬੁੱਧ, ਵਿਕਲਪਕ ਤੌਰ 'ਤੇ ਲਗਭਗ ਈਸਾ ਪੂਰਵ 480–400"
-mohammed,ਮੁਹੰਮਦ ਸੀ. 570-632 ਸੀ.ਈ.ਈ.,Mohammed c. 570-632, ,text,False, , , , , , , ,ਮੁਹੰਮਦ ਲਗਭਗ 570-632
-confucius,ਕਨਫਿ ius ਸ਼ਿਕਸ C.551-C.479 B.c.e.,Confucius c.551-c.479 B.C.E., ,text,False, , , , , , , ,ਕਨਫਿਊਸ਼ਿਅਸ ਲਗਭਗ 551-ਲਗਭਗ 479 ਈ.ਪੂ.
-hijrah,ਹਾਈਜਰਾ - ਯਾਤਰਾ ਮੈਲਕਾ ਟੂ ਮਿਡਿਨਾ 16 ਜੁਲਾਈ 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , , , , ,ਹਿਜਰਤ - ਮੱਕਾ ਤੋਂ ਮਦੀਨਾ ਦਾ ਸਫ਼ਰ 16 ਜੁਲਾਈ 622
-moses_escape,"1553 b.c.e.e. ਮੂਸਾ ਨੂੰ ਮਿਸਰ ਤੋਂ ਬਚਣਾ ਪੈਂਦਾ ਹੈ - ਕੂਚ 2:15, ਕਰਤੱਬ 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , , , , ,"ਈ.ਪੂ. 1553 ਮੂਸੇ ਨੂੰ ਮਿਸਰ ਤੋਂ ਭੱਜਣਾ ਪੈਂਦਾ ਹੈ – ਨਿਕਾਸ 2:15, ਕਰਤੱਬ 7:23"
-10plagues,1513 B.c.e ਮਿਸ ਮਿਸਰ 10 ਬਿਪਤਾਵਾਂ ਪ੍ਰਾਪਤ ਕਰਦਾ ਹੈ,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , , , , ,ਈ.ਪੂ. 1513 ਮਿਸਰ ਨੂੰ 10 ਮਾਰਾਂ ਆਈਆਂ
-joseph_sold,ਯੂਸੁਫ਼ ਨੇ 17 ਸਾਲ ਦੀ ਉਮਰ ਵਿੱਚ ਗੁਲਾਮ ਵਜੋਂ ਵੇਚਿਆ - ਜੀਨ 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , , , , ,ਯੂਸੁਫ਼ 17 ਸਾਲ ਦੀ ਉਮਰ ਵਿੱਚ ਗੁਲਾਮ ਵਜੋਂ ਵੇਚਿਆ ਗਿਆ – ਉਤਪਤ 37:2
-infliction,400 ਸਾਲ ਦੇ ਟੂਰਿਸ਼ਟ (ਰਸੂ. 7: 6) - ਇਸ਼ਮਾਏਲ 1913 ਬੀ.ਸੀ..,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , , , , ,400 ਸਾਲਾਂ ਦੀ ਸਜ਼ਾ (ਅਪੋਸਤਲਾਂ ਦੇ ਕੰਮ 7:6) – ਇਸਮਾਇਲ 1913 ਈਸਾ ਪੂਰਵ
-Alexander,ਅਲੈਗਜ਼ੈਂਡਰ ਮਹਾਨ (ਦਾਨੀਏਲ 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , , , , ,ਸ੍ਰੇਸ਼ਠ ਅਲੈਗਜ਼ੈਂਡਰ (ਦਾਨੀਏਲ 11:3)
-persia,"ਸਾਇਰਸ ਮਹਾਨ, ਕਮਾਂਬਿਆਂ II, ਦਾਨੀਏਲ ਮੈਂ 480 ਸਾ.ਯੁ.ਪੂ. (ਦਾਨੀਏਲ 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , , , , ,"ਸਾਈਰਸ ਮਹਾਨ, ਕੈਂਬਿਸੇਸ ਦੂਜਾ, ਡੇਰੀਅਸ ਪਹਿਲਾ 490 ਈਸਾ ਪੂਰਵ, ਜਰਕਸਿਸ ਪਹਿਲਾ 480 ਈਸਾ ਪੂਰਵ (ਐਸਥਰ ਦਾ ਪਤੀ, ਦਾਨੀਏਲ 11:2)"
-king_north,ਚੋਣ ਕਰਨ ਵਾਲੇ (ਵੀ 5) ਸੀਰੀਆ ਤੋਂ ਐਂਟੀਓਚਸ III (v10) ਅਤੇ ਸੇਲੇਰੂਕਸ IV (V20) ਅਤੇ ਟਾਈਬੇਰੀਅਸ (V20)),"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , , , , ,"ਸੇਲੂਕਸ I ਨਿਕੈਟਰ (v5) ਤੋਂ ਅੰਟੀਓਕਸ III (v10) ਅਤੇ ਸੇਲੂਕਸ IV (v18, 19) ਤੱਕ, ਫਿਰ ਔਕਟੇਵੀਅਨ (v20) ਅਤੇ ਟਿਬੇਰੀਅਸ (v21-24) ਤੱਕ।"
-king_north1,ਉੱਤਰ ਦਾ ਰਾਜਾ,King of the North, ,text,False, , , , , , , ,ਉੱਤਰ ਦਾ ਰਾਜਾ
-king_south,"ਟੌਲਮੀ ਮੈਂ, II, III, IV (ਵੀ 11, 12), ਵੀ (ਵੀ 15, 16) ਬੈਟਲ ਐਕਟਿਅਮ 31 ਬੀ.ਸੀ..","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , , , , ,"ਪਟੋਲੇਮੀ I, II, III, IV (v11, 12), V (v15, 16) 31 ਈਸਵੀ ਪੂਰਵ ਦੀ ਐਕਟੀਅਮ ਦੀ ਲੜਾਈ ਤੱਕ।"
-king_south1,ਦੱਖਣ ਦਾ ਰਾਜਾ,King of the South, ,text,False, , , , , , , ,ਦੱਖਣ ਦਾ ਰਾਜਾ
-king_south2,"ਬ੍ਰਿਟਿਸ਼ ਸਾਮਰਾਜ 1870, 1914 ਤੋਂ ਐਂਗਲੋ-ਅਮਰੀਕੀ ਵਿਸ਼ਵ ਸ਼ਕਤੀ","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , , , , ,"ਬ੍ਰਿਟਿਸ਼ ਸਾਮਰਾਜ 1870, 1914 ਤੋਂ ਐਂਗਲੋ-ਅਮਰੀਕੀ ਵਿਸ਼ਵ ਸ਼ਕਤੀ"
-king_south3,ਦੱਖਣ ਦਾ ਰਾਜਾ,King of the South, ,text,False, , , , , , , ,ਦੱਖਣ ਦਾ ਰਾਜਾ
-king_north2,"ਸਮਰਾਟ ਵਿਲੀਅਮ I 1871 (V28), 1914 (V29), 1935 (V30B), 1939 (V31))","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , , , , ,"ਜਰਮਨੀ ਸਮਰਾਟ ਵਿਲੀਅਮ ਪਹਿਲਾ ਨਾਲ 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,ਉੱਤਰ,North, ,text,False, , , , , , , ,ਉੱਤਰੀ
-king_north4,"ਸੋਵੀਅਤ ਯੂਨੀਅਨ 1945-1991 (ਦਾਨੀਏਲ 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , , , ,"ਸੋਵੀਅਤ ਯੂਨੀਅਨ 1945-1991 (ਦਾਨੀਏਲ 11:32-39, 40ਬ, 41)"
-king_north5,2017 ਤੋਂ ਰੂਸ (ਡਬਲਯੂ 20 ਮਈ),Russia since 2017 (w20 May), ,text,False, , , , , , , ,ਰੂਸ 2017 ਤੋਂ (w20 ਮਈ)
-time_of_end,"ਮਸੀਹ ਦੀ ਮੌਜੂਦਗੀ, ਜੁਗ ਦੇ ਸੰਜੋਗ (ਮੱਤੀ 24: 3), ਆਖ਼ਰੀ ਦਿਨ (2 ਤਿਮੋਥਿਉਸ 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , , , , ,"ਮਸੀਹ ਦੀ ਮੌਜੂਦਗੀ, ਚੀਜ਼ਾਂ ਦੇ ਪ੍ਰਬੰਧ ਦਾ ਅੰਤ (ਮੱਤੀ 24:3), ਆਖਰੀ ਦਿਨ (2 ਤਿਮੋਥਿਉਸ 3:1)"
-time_of_end2,ਆਖਰੀ ਦਿਨ,Last days, ,text,False, , , , , , , ,ਆਖਰੀ ਦਿਨ
-suryavaman2,ਰਾਜਾ ਸਿਆਵੁਰਮਨ II 1113-1150 ਨੂੰ ਐਂਗਕੋਰ ਵਾਟ ਬਣਾਉਂਦਾ ਹੈ,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , , , , ,ਰਾਜਾ ਸੂਰਯਵਰਮਨ ਦੂਜਾ ਨੇ 1113-1150 ਵਿੱਚ ਅੰਗਕੋਰ ਵਾਟ ਦਾ ਨਿਰਮਾਣ ਕੀਤਾ।
-notre-dame,ਨੋਟਰੇ-ਡੈਮ ਡੀ ਪੈਰਿਸ ਨੇ 1163-1260 ਬਣਾਇਆ,Notre-Dame de Paris built 1163-1260, ,text,False, , , , , , , ,"ਨੋਤਰੇ-ਡੈਮ ਡੇ ਪੈਰਿਸ, 1163-1260 ਵਿੱਚ ਬਣਾਈ ਗਈ"
-babel,ਬਾਬਲ ਦਾ ਬੁਰਜ ਬਣਾਇਆ,Tower of Babel built, ,text,False, , , , , , , ,ਬਾਬਲ ਦੀ ਮੀਨਾਰ ਬਣਾਈ ਗਈ
-infliction1,400 ਸਾਲ ਦਾ ਭੋਗ,400 year infliction,Acts 7:6,text,False, , , , , , , ,400 ਸਾਲਾਂ ਦੀ ਸਜ਼ਾ
-Lots_wife,ਲੂਤ ਦੀ ਪਤਨੀ,Lot’s wife, ,text,False, , , , , , , ,ਲੂਤ ਦੀ ਪਤਨੀ
-Lots_daughters,ਬਹੁਤੀਆਂ ਦੀਆਂ ਧੀਆਂ,Daughters of Lot, ,text,False, , , , , , , ,ਲੋਤ ਦੀਆਂ ਧੀਆਂ
-Moab,ਮੋਆਬ (ਵੱਡੀ ਧੀ),Moab (older daughter),Genesis 19:37,text,False, , , , , , , ,ਮੋਆਬ (ਵੱਡੀ ਧੀ)
-rosetta,ਰੋਸੇਟਾ ਪੱਥਰ 196 b.c.e.,Rosetta stone 196 B.C.E., ,text,False, , , , , , , ,ਰੋਜ਼ੇਟਾ ਪੱਥਰ 196 ਈ.ਪੂ.
-Herodotus,"ਹੇਰੋਡੋਟਸ ਸੀ. 484 - ਸੀ. 425 ਬੀ.ਸੀ., ਇਤਿਹਾਸ ਲਿਖਦਾ ਹੈ","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , ,"ਹੇਰੋਡੋਟਸ ਲਗਭਗ 484 – ਲਗਭਗ 425 ਈਸਾ ਪੂਰਵ, 'ਦਿ ਹਿਸਟਰੀਜ਼' ਲਿਖਦਾ ਹੈ।"
-Aristotle,ਅਰਸਤੂ 384 - 322 ਬੀ.ਸੀ.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , ,ਅਰਸਤੂ 384 – 322 ਈਸਾ ਪੂਰਵ
-Ptolemy,ਟੌਲੇਮੀ ਸੀ 100 - ਸੀ. 170 ਸੀ.ਈ.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , ,ਪਟੋਲਮੀ ਲਗਭਗ 100 – ਲਗਭਗ 170 ਈਸਵੀ
-Pythagoras,ਪਾਇਥਾਗੋਰਸ ਸੀ. 570 - ਸੀ. 495 ਬੀ.ਸੀ.,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , ,ਪਾਈਥਾਗੋਰਸ ਲਗਭਗ 570 – ਲਗਭਗ 495 ਈਸਾ ਪੂਰਵ
-Plato,ਪਲਾਟੋ ਸੀ. 427 - ਸੀ. 348 ਬੀ.ਸੀ.,Plato c. 427 – c. 348 BC, ,text,False, , , , , , , ,ਪਲੈਟੋ ਲਗਭਗ 427 – ਲਗਭਗ 348 ਈਸਾ ਪੂਰਵ
-Socrates,ਸੁਕਰਾਤ ਸੀ. 470 - ਸੀ. 399 ਬੀ.ਸੀ.,Socrates c. 470 – c. 399 BC, ,text,False, , , , , , , ,ਸੁਕਰਾਤ ਲਗਭਗ 470 – ਲਗਭਗ 399 ਈਸਾ ਪੂਰਵ
-Josephus,ਜੋਸੀਫਸ ਸੀ. 37 - ਸੀ. 100 ਸੀ.ਈ.ਈ.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , , , ,ਯੋਸੇਫਸ ਲਗਭਗ 37 – ਲਗਭਗ 100 ਈਸਵੀ
-Cicero,ਸੀਆਈਸੀਰੋ 106-43 ਬੀ.ਸੀ.,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , , , ,ਸਿਸਰੋ 106–43 ਈਸਾ ਪੂਰਵ
-lachish_letters,ਲਕੀਸ਼ ਪੱਤਰ ਸੀ. 590 ਬੀ.ਸੀ..,Lachish letters c. 590 B.C.E., ,text,False, , , , , , , ,"ਲਾਕੀਸ਼ ਪੱਤਰ, ਲਗਭਗ 590 ਈਸਾ ਪੂਰਵ"
-lachish_reliefs,ਲਾਸ਼ਿਸ਼ ਰਾਹਤ ਸੀ. 681 b.c.e.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , , , , ,ਲਾਕੀਸ਼ ਦੇ ਉਤਕੀਰਣ ਲਗਭਗ 681 ਈਸਾ ਪੂਰਵ
-mesha_stele,ਮੇਸ਼ਾ ਸਟੇਲੇ (ਮੋਆਬੀ ਪੱਥਰ) ਸੀ. 840 ਬੀ.ਸੀ..,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , , , , ,ਮੇਸ਼ਾ ਸਤੰਭ (ਮੋਆਬੀ ਪੱਥਰ) ਲਗਭਗ 840 ਈਸਾ ਪੂਰਵ
-gilgamesh,ਗਿਲਗਮੇਸ਼ ਅਤੇ ਆਗਾ 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , , , ,ਗਿਲਗਾਮੇਸ਼ ਅਤੇ ਅਗਾ 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,ਗਿਲਗਮੇਸ਼ ਦਾ ਮੁੱਲ (Sîn-lēqi-unninnni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , , , ,ਗਿਲਗਾਮੇਸ਼ ਦਾ ਮਹਾਂਕਾਵਿ (ਸੀਨ-ਲੇਕੀ-ਉਨਨਿਨੀ)
-gregorian,ਗ੍ਰੇਗੋਰੀਅਨ ਕੈਲੰਡਰ 1582,Gregorian calendar 1582, ,text,False, , , , , , , ,ਗ੍ਰੈਗੋਰੀਅਨ ਕੈਲੰਡਰ 1582
-shang-dynasty,ਸੀ. 1600-1046 ਬੀ.ਸੀ.,c. 1600-1046 BC, ,text,False, , , , , , , ,ਲਗਭਗ 1600-1046 ਈਸਾ ਪੂਰਵ
-western-zhou,ਸੀ. 1046-771 ਬੀ.ਸੀ.,c. 1046-771 BC, ,text,False, , , , , , , ,ਲਗਭਗ 1046-771 ਈਸਾ ਪੂਰਵ
-qin-dynasty,ਕਿਨ 221-207 ਬੀ.ਸੀ.,Qin 221-207 BC, ,text,False, , , , , , , ,ਕਿਨ 221-207 ਈਸਾ ਪੂਰਵ
-western-han,207 ਬੀਸੀ - 9 ਸਾ.ਯੁ.,207 BC – 9 CE, ,text,False, , , , , , , ,207 ਈਸਾ ਪੂਰਵ – 9 ਈਸਵੀ
-three-kingdoms,ਤਿੰਨ ਰਾਜ 220-280 ਸਾ.ਯੁ.,Three kingdoms 220-280 CE, ,text,False, , , , , , , ,ਤਿੰਨ ਰਾਜ 220-280 ਸਾ.
-sixteen-kingdoms,ਸੋਲਾਂ ਰਾਜ 304-439 ਸਾ.ਯੁ.,Sixteen kingdoms 304-439 CE, ,text,False, , , , , , , ,ਸੋਲ੍ਹਾਂ ਰਾਜ 304-439 ਈਸਵੀ
+wilderness,ਉਜਾੜ ਵਿੱਚ ਇਜ਼ਰਾਈਲ 1513 ਤੋਂ 1473 ਬੀ.ਸੀ.. - 40 ਸਾਲ,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,ਇਸਰਾਈਲ ਜੰਗਲ ਵਿੱਚ 1513 ਤੋਂ 1473 ਈ.ਪੂ. – 40 ਸਾਲ, , ,ਜੰਗਲ ਵਿੱਚ ਇਜ਼ਰਾਈਲ 1513 ਤੋਂ 1473 ਈਸਾ ਪੂਰਵ – 40 ਸਾਲ
+timespan_judges,1473 ਤੋਂ 1117 ਬੀ.ਸੀ. - 356 ਸਾਲ,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 ਤੋਂ 1117 ਈ.ਪੂ. – 356 ਸਾਲ, , ,ਈਸਵੀ ਪੂਰਵ 1473 ਤੋਂ ਈਸਵੀ ਪੂਰਵ 1117 ਤੱਕ – 356 ਸਾਲ
+timespan_judges2,ਜੱਜਾਂ ਦਾ ਸਮਾਂ,Time of the judges, ,text,False, , , , ,ਨਿਆਂਇਕਾਂ ਦਾ ਸਮਾਂ, , ,ਨਿਆਂਧੀਸ਼ਾਂ ਦਾ ਸਮਾਂ
+temple2,479 ਸਾਲ ਜਦ ਤਕ ਮੰਦਰ ਦੀ ਉਸਾਰੀ ਤਕ - 1 ਰਾਜਿਆਂ 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,ਮੰਦਰ ਦੇ ਨਿਰਮਾਣ ਤੱਕ 479 ਸਾਲ – 1 ਰਾਜਿਆਂ 6:1, , ,ਮੰਦਰ ਦੇ ਨਿਰਮਾਣ ਤੱਕ 479 ਸਾਲ – 1 ਰਾਜਿਆਂ 6:1
+69weeks2,ਮਸੀਹਾ ਨੂੰ 69 ਹਫ਼ਤੇ ਵਿਚ 69 ਹਫ਼ਤੇ - ਦਾਨੀਏਲ 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,ਮਸੀਹ ਤੱਕ 69 ਹਫ਼ਤੇ – ਦਾਨੀਏਲ 9:25, , ,ਮਸੀਹ ਤੱਕ 69 ਹਫ਼ਤੇ – ਦਾਨੀਏਲ 9:25
+jesus_service,"3.5 ਸਾਲਾਂ ਦੀ ਯਿਸੂ ਸੇਵਾ, 14 ਸੀ.ਈ.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"ਯਿਸੂ ਦੀ 3.5 ਸਾਲ ਦੀ ਸੇਵਕਾਈ, ਨਿਸਾਨ 14, 33 ਈ. ਨੂੰ ਮੌਤ", , ,"ਯਿਸੂ ਦੀ ਸੇਵਾ ਦੇ 3.5 ਸਾਲ, ਨਿਸਾਨ 14, 33 ਈਸਵੀ ਵਿੱਚ ਫਾਂਸੀ।"
+jesus_life,ਯਿਸੂ ਦਾ ਜਨਮ 2 ਬੀ.ਸੀ..,Jesus born 2 B.C.E., ,text,False, , , , ,ਯਿਸੂ ਦਾ ਜਨਮ 2 ਈ.ਪੂ., , ,ਯਿਸੂ ਦਾ ਜਨਮ 2 ਈਸਵੀ ਪੂਰਵ ਵਿੱਚ ਹੋਇਆ।
+exile,607 ਤੋਂ 537 ਬੀ.ਸੀ.. - 70 ਸਾਲ (ਯਿਰਮਿਯਾਹ 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,607 ਤੋਂ 537 ਈ.ਪੂ. – 70 ਸਾਲ (ਯਿਰਮਿਆਹ 25:11), , ,607 ਤੋਂ 537 ਈਸਵੀ ਪੂਰਵ – 70 ਸਾਲ (ਯਿਰਮਿਯਾਹ 25:11)
+exile2,ਜਲਾਵਤਵੀ,Exile, ,text,False, , , , ,ਜਲਾਵਤਨੀ, , ,ਨਿਕਾਲਾ
+7times2,1914 ਦੇ 1914 ਦੇ ਰਾਜ ਦੇ 2520 ਸਾਲ 2520 ਸਾਲ 2520 ਸਾਲ ਸੀ. (ਦਾਨੀਏਲ 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,ਮਸੀਹਾ ਰਾਜ 1914 ਈ. ਤੱਕ 7 ਸਮੇਂ – 2520 ਸਾਲ (ਦਾਨੀਏਲ 4:23), , ,7 ਵਾਰ – 2520 ਸਾਲ ਮਸੀਹੀ ਰਾਜ ਤੱਕ 1914 ਈ. (ਦਾਨੀਏਲ 4:23)
+ww1,ਵਿਸ਼ਵ ਯੁੱਧ I - 1914-1918 C.e.,World War I – 1914–1918, ,text,False, , , , ,ਪਹਿਲੀ ਜੰਗ ਯੂਰਪ 1914–1918, , ,ਪਹਿਲੀ ਵਿਸ਼ਵ ਯੁੱਧ – 1914–1918
+ww2,ਦੂਸਰਾ ਵਿਸ਼ਵ ਯੁੱਧ - 1939-1945 ਸੀ.ਈ.,World War II – 1939–1945, ,text,False, , , , ,ਦੂਜੀ ਜੰਗ ਯੂਰਪ 1939–1945, , ,ਦੂਜਾ ਵਿਸ਼ਵ ਯੁੱਧ – 1939–1945
+30_year_war,ਯੂਰਪ ਵਿਚ ਤੀਹ ਸਾਲਾਂ ਦੀ ਲੜਾਈ 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,ਯੂਰਪ ਵਿੱਚ ਤੀਹ ਸਾਲਾਂ ਦੀ ਜੰਗ 1618-1648, , ,ਯੂਰਪ ਵਿੱਚ ਤੀਹ ਸਾਲਾ ਜੰਗ 1618-1648
+joshua,110 ਸਾਲ,110 years, ,text,False, , , , ,110 ਸਾਲ, , ,110 ਸਾਲ
+caleb,85 ਸਾਲ ਤੋਂ ਵੱਧ,more than 85 years, ,text,False, , , , ,85 ਸਾਲ ਤੋਂ ਵੱਧ, , ,85 ਸਾਲ ਤੋਂ ਵੱਧ
+missionary1,ਪੌਲੁਸ ਦੀ ਪਹਿਲੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ ਸੀ. 47-48 C.e. ਬਰਨਬਾਸ ਅਤੇ ਜੌਨ ਮਾਰਕ ਦੇ ਨਾਲ,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"ਪੌਲੁਸ ਦੀ ਪਹਿਲੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ, ਲਗਭਗ 47-48 ਈ., ਬਰਨਬਾਸ ਅਤੇ ਯੋਹੰਨ ਮੂਰਕ ਨਾਲ", , ,"ਪੌਲੁਸ ਦੀ ਪਹਿਲੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ, ਲਗਭਗ 47-48 ਈਸਵੀ, ਬਰਨਬਾਸ ਅਤੇ ਯੂਹੰਨਾ ਮਰਕੁਸ ਨਾਲ"
+circumcision,"ਐਂਟੀਆਕ, ਕਾਨਫਰੰਸ 'ਤੇ ਐਂਟੀਓਕ, ਕਾਨਫਰੰਸ ਦਾ ਮੁੱਦਾ ਸੀ. 49 ਸ.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"ਅੰਤੀਆਖੀਆ ਵਿੱਚ ਖਤਨੇ ਦਾ ਮੁੱਦਾ, ਯਰੂਸ਼ਲਮ ਵਿੱਚ ਕਾਨਫਰੰਸ ਲਗਭਗ 49 ਈ.", , ,"ਐਂਟੀਓਕ ਵਿਖੇ ਸੁੰਨਤ ਦਾ ਮਸਲਾ, ਲਗਭਗ 49 ਈਸਵੀ ਵਿੱਚ ਯਰੂਸ਼ਲਮ ਵਿਖੇ ਕਾਨਫਰੰਸ।"
+missionary2,ਦੂਜੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ ਸੀ. ਸੀਲਾਸ (ਸਿਲਵਾਨਸ) ਨਾਲ 49-52 ਸੀ.,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,ਦੂਜੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ ਲਗਭਗ 49-52 ਈ. ਸੀਲਾਸ (ਸਿਲਵਾਨੁਸ) ਨਾਲ, , ,ਦੂਜਾ ਮਿਸ਼ਨਰੀ ਸਫ਼ਰ ਲਗਭਗ 49-52 ਈਸਵੀ ਸਾਲਾਂ ਵਿੱਚ ਸਿਲਾਸ (ਸਿਲਵਾਨਸ) ਨਾਲ
+missionary3,ਤੀਜੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ ਸੀ. 52-56 ਸੀ.ਈ.ਈ.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,ਤੀਜੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ ਲਗਭਗ 52-56 ਈ., , ,ਤੀਜੀ ਮਿਸ਼ਨਰੀ ਯਾਤਰਾ ਲਗਭਗ 52-56 ਈਸਵੀ
+caesarea,ਪੌਲੁਸ ਕੈਸਰਿਯਾ ਸੀ ਵਿਚ ਹਿਰਾਸਤ ਵਿਚ ਸੀ. 56-58 ਸੀ.ਈ.ਈ.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,ਪੌਲੁਸ ਕੈਸਰੀਆ ਵਿੱਚ ਹਿਰਾਸਤ ਵਿੱਚ ਲਗਭਗ 56-58 ਈ., , ,ਪੌਲੂਸ ਲਗਭਗ 56-58 ਈਸਵੀ ਵਿੱਚ ਕੈਸਰੀਆ ਵਿੱਚ ਹਿਰਾਸਤ ਵਿੱਚ।
+rome1,ਰੋਮ ਵਿਚ ਪੌਲੁਸ ਦੀ ਪਹਿਲੀ ਕੈਦ ਸੀ. 59-61 C.e.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,ਪੌਲੁਸ ਦੀ ਰੋਮ ਵਿੱਚ ਪਹਿਲੀ ਹਿਰਾਸਤ ਲਗਭਗ 59-61 ਈ., , ,"ਰੋਮ ਵਿੱਚ ਪੌਲ ਦੀ ਪਹਿਲੀ ਕੈਦ, ਲਗਭਗ 59-61 ਈਸਵੀ"
+rome2,"ਰੋਮ ਵਿਚ ਪੌਲੁਸ ਦੀ ਦੂਜੀ ਕੈਦ ਸੀ. 65 ਸਾ.ਯੁ. 2 ਵੇਂ ਤਿਮੋਥਿਉਸ ਨੇ ਲਿਖਿਆ, ਪੌਲ ਨੂੰ ਫਾਂਸੀ ਦਿੱਤੀ ਗਈ","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"ਪੌਲੁਸ ਦੀ ਰੋਮ ਵਿੱਚ ਦੂਜੀ ਹਿਰਾਸਤ ਲਗਭਗ 65 ਈ., 2 ਤੀਮੁਥਿਊਸ ਲਿਖੀ ਗਈ, ਪੌਲੁਸ ਨੂੰ ਮੌਤ", , ,"ਰੋਮ ਵਿੱਚ ਪੌਲ ਦੀ ਦੂਜੀ ਕੈਦ (ਲਗਭਗ 65 ਈਸਵੀ), ਦੂਜਾ ਥਿਮੋਥਿਯੁਸ ਲਿਖਿਆ ਗਿਆ, ਪੌਲ ਦੀ ਫਾਂਸੀ"
+event_exodus,"ਨੀਸਾਨ 14 ਵੀਂ, 1513 ਬੀ.ਸੀ.. 'ਤੇ ਮਿਸਰ ਤੋਂ ਕੂਚ","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,"ਮਿਸਰ ਤੋਂ ਨਿਕਾਸ ਨਿਸਾਨ 14, 1513 ਈ.ਪੂ.", , ,"ਮਿਸਰ ਤੋਂ ਨਿਸਾਨ 14, 1513 ਈਸਾ ਪੂਰਵ ਨੂੰ ਨਿਕਾਸ।"
+event_division_kingdom,ਇਸਰਾਇਲ ਦੀ ਵੰਡ 997 ਸਾ.ਯੁ.ਪੂ.,Division of Israel 997 BCE, ,text,False, , , , ,ਇਸਰਾਈਲ ਦੀ ਵੰਡ 997 ਈ.ਪੂ., , ,ਇਸਰਾਈਲ ਦਾ ਵਿਭਾਜਨ ੯੯੭ ਈਸਾ ਪੂਰਵ
+event_destruction_samaria,ਸਾਮਰਿਯਾ ਦਾ ਵਿਨਾਸ਼ 740 ਬੀ. ਸੀ. ਅੱਸ਼ੂਰ ਦੁਆਰਾ,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,ਸਮਾਰੀਆ ਦਾ ਵਿਨਾਸ 740 ਈ.ਪੂ. ਅਸ਼ਸ਼ੂਰ ਦੁਆਰਾ, , ,ਅਸੀਰੀਆ ਵੱਲੋਂ 740 ਈਸਾ ਪੂਰਵ ਵਿੱਚ ਸਮਾਰੀਆ ਦਾ ਵਿਨਾਸ਼
+event_destruction_jerusalem1,"ਯਰੂਸ਼ਲਮ ਦੀ ਤਬਾਹੀ 607 b.c.e. ਬਾਬਲ ਦੁਆਰਾ, ਰਾਜ ਦੀ ਵੰਡ ਤੋਂ 390 ਸਾਲ ਬਾਅਦ (ਹਿਜ਼ਕੀਏਲ 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"ਯਰੂਸ਼ਲਮ ਦਾ ਵਿਨਾਸ 607 ਈ.ਪੂ. ਬਾਬਲ ਦੁਆਰਾ, ਰਾਜ ਦੀ ਵੰਡ ਤੋਂ 390 ਸਾਲ ਬਾਅਦ (ਹਿਜ਼ਕੀਏਲ 4:5)", , ,"ਬਾਬਲ ਵੱਲੋਂ ਯਰੂਸ਼ਲਮ ਦਾ ਵਿਨਾਸ਼ 607 ਈਸਾ ਪੂਰਵ, ਰਾਜ ਦੇ ਵਿਭਾਜਨ ਤੋਂ 390 ਸਾਲ ਬਾਅਦ (ਹਿਜ਼ਕੀਏਲ 4:5)"
+event_temple_rebuilt,ਯਰੂਸ਼ਲਮ ਵਿੱਚ ਮੰਦਰ 515 ਬੀ.ਸੀ..,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,ਯਰੂਸ਼ਲਮ ਵਿੱਚ ਮੰਦਰ ਦੁਬਾਰਾ ਬਣਿਆ 515 ਈ.ਪੂ., , ,ਯਰੂਸ਼ਲਮ ਵਿੱਚ ਮੰਦਰ 515 ਈਸਾ ਪੂਰਵ ਵਿੱਚ ਦੁਬਾਰਾ ਬਣਾਇਆ ਗਿਆ।
+event_jerusalem_rebuilt,ਯਰੂਸ਼ਲਮ ਦੀ ਕੰਧ 455 ਬੀ.ਸੀ..,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,ਯਰੂਸ਼ਲਮ ਦੀ ਕੰਧ ਦੁਬਾਰਾ ਬਣੀ 455 ਈ.ਪੂ., , ,ਯਰੂਸ਼ਲਮ ਦੀ ਕੰਧ ਈਸਾ ਤੋਂ 455 ਸਾਲ ਪਹਿਲਾਂ ਦੁਬਾਰਾ ਬਣਾਈ ਗਈ।
+event_destruction_jerusalem2,ਟਾਈਟਸ ਅਧੀਨ ਰੋਮ ਦੁਆਰਾ ਰੋਮ ਦੁਆਰਾ 70 ਸੀ.ਈ.,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,ਯਰੂਸ਼ਲਮ ਦਾ ਵਿਨਾਸ 70 ਈ. ਰੋਮ ਦੁਆਰਾ ਤੀਤੁਸ ਅਧੀਨ, , ,70 ਈਸਵੀ ਵਿੱਚ ਟਾਈਟਸ ਦੀ ਅਗਵਾਈ ਹੇਠ ਰੋਮ ਦੁਆਰਾ ਯਰੂਸ਼ਲਮ ਦਾ ਵਿਨਾਸ਼
+event_1914,"ਕੌਮਾਂ ਦੇ ਸਮੇਂ (ਲੂਕਾ 21:24) ਦੇ ਸਮੇਂ, ਪਰਮੇਸ਼ੁਰ ਦਾ ਰਾਜ ਸਵਰਗ ਵਿਚ 1914 ਸੀ.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"ਕੌਮਾਂ ਦੇ ਸਮੇਂ ਦਾ ਅੰਤ (ਲੂਕਾ 21:24), ਪਰਮੇਸ਼ੁਰ ਦਾ ਰਾਜ 1914 ਈ. ਵਿੱਚ ਸਵਰਗ ਵਿੱਚ ਰਾਜ ਕਰਨ ਲੱਗਾ", , ,"ਕੌਮਾਂ ਦੇ ਸਮੇਂ ਦਾ ਅੰਤ (ਲੂਕਾ 21:24), ਪਰਮੇਸ਼ੁਰ ਦੀ ਰਾਜ 1914 ਸਨਈ ਵਿੱਚ ਸਵਰਗ ਵਿੱਚ ਰਾਜ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰਦੀ ਹੈ।"
+became_king,ਉਮਰ ਵਿੱਚ ਰਾਜਾ ਬਣ ਜਾਂਦਾ ਹੈ,becomes king at age,2025-04-14,text,False, , , , ,ਉਮਰ ਵਿੱਚ ਰਾਜਾ ਬਣਦਾ ਹੈ, , ,ਉਮਰ ਵਿੱਚ ਰਾਜਾ ਬਣਦਾ ਹੈ
+vulgate,ਵੁਲਗੇਟ Jerome (ਬਾਈਬਲ ਦਾ ਲਾਤੀਨੀ ਅਨੁਵਾਦ) C. 405 ਸੀ.ਈ.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,ਜਰੋਮ ਦੁਆਰਾ ਵੁਲਗੇਟ ਪੂਰਾ ਹੋਇਆ (ਬਾਈਬਲ ਦਾ ਲਾਤੀਨੀ ਅਨੁਵਾਦ) ਲਗਭਗ 405 ਈ., , ,ਜੇਰੋਮ ਦੁਆਰਾ ਲਗਭਗ 405 ਈਸਵੀ ਵਿੱਚ ਪੂਰੀ ਕੀਤੀ ਗਈ ਵਲਗੇਟ (ਬਾਈਬਲ ਦਾ ਲੈਟਿਨ ਅਨੁਵਾਦ)
+gutenberg,ਗਟੇਬਰਗ ਬਾਈਬਲ ਛਾਪੀ ਗਈ 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,ਗੁਟੈਨਬਰਗ ਬਾਈਬਲ ਛਪੀ 1455, , ,ਗੁਟੇਨਬਰਗ ਬਾਈਬਲ 1455 ਵਿੱਚ ਛਪੀ
+erasmus,ਗ੍ਰੀਕ ਟੈਕਸਟ ਕ੍ਰਿਸ਼ਚੀਨ ਯੂਨਾਨੀ ਸ਼ਾਸਤਰ ਦਾ ਡੇਨੀਅਰਡੈਮ ਦੇ ਡੀਸਡੀਰੀਅਸ ਐਰਸਮਸ ਦੁਆਰਾ ਪ੍ਰਕਾਸ਼ਤ ਕਰੋ 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,ਦੇਸੀਡੇਰੀਅਸ ਏਰਾਸਮੁਸ ਆਫ਼ ਰੋਟਰਡਮ ਦੁਆਰਾ ਈਸਾਈ ਯੂਨਾਨੀ ਪਵਿੱਤਰ ਲਿਖਤਾਂ ਦਾ ਯੂਨਾਨੀ ਪਾਠ ਪ੍ਰਕਾਸ਼ਿਤ 1516, , ,ਡੇਸਿਡੇਰੀਅਸ ਏਰਾਸਮਸ ਆਫ਼ ਰੌਟਰਡੈਮ ਵੱਲੋਂ 1516 ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤੀਆਂ ਗਈਆਂ ਕ੍ਰਿਸਚਨ ਗ੍ਰੀਕ ਧਰਮ-ਗ੍ਰੰਥਾਂ ਦਾ ਗ੍ਰੀਕ ਪਾਠ
+luther,ਸਤੰਬਰ 1522 ਵਿਚ ਲਥਲਰ ਬਾਈਬਲ ਦਾ ਅਨੁਵਾਦ,Luther Bible translation in September 1522, ,text,False, , , , ,ਲੂਥਰ ਬਾਈਬਲ ਅਨੁਵਾਦ ਸਤੰਬਰ 1522, , ,ਸਤੰਬਰ 1522 ਵਿੱਚ ਲੂਥਰ ਵੱਲੋਂ ਬਾਈਬਲ ਦਾ ਅਨੁਵਾਦ
+tyndale,ਟਿੰਡਲ 1536 ਦੁਆਰਾ ਇੰਗਲਿਸ਼ ਬਾਈਬਲ ਅਨੁਵਾਦ,English Bible translation by Tyndale 1536, ,text,False, , , , ,ਟਿੰਡੇਲ ਦੁਆਰਾ ਅੰਗਰੇਜ਼ੀ ਬਾਈਬਲ ਅਨੁਵਾਦ 1536, , ,ਟਿੰਡੇਲ ਦੁਆਰਾ 1536 ਦਾ ਬਾਈਬਲ ਅਨੁਵਾਦ
+king_james,ਕਿੰਗ ਜੇਮਜ਼ ਬਾਈਬਲ 1611,King James Bible 1611, ,text,False, , , , ,ਕਿੰਗ ਜੇਮਜ਼ ਬਾਈਬਲ 1611, , ,ਰਾਜਾ ਜੇਮਸ ਬਾਈਬਲ 1611
+69weeks3,"ਯਿਸੂ ਨੇ ਆਪਣੀ ਸੇਵਾ ਸ਼ੁਰੂ ਕੀਤੀ 29 ਈਸਵੀ (ਲੂਕਾ 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"ਯਿਸੂ ਆਪਣੀ ਸੇਵਕਾਈ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ 29 ਈ (ਲੂਕਾ 3:1, 21)", , ,"ਯਿਸੂ ਨੇ 29 ਈਸਵੀ ਸਾਲ ਵਿੱਚ ਆਪਣੀ ਸੇਵਾ ਸ਼ੁਰੂ ਕੀਤੀ (ਲੂਕਾ 3:1, 21)"
+ransom,"ਹਫ਼ਤੇ ਦੇ ਮੱਧ ""ਬਲੀਦਾਨ ਤੋਂ ਛੁਟਕਾਰਾ ਦੇਣਾ"" ਦਾਨੀਏਲ 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,"ਹਫ਼ਤੇ ਦੇ ਵਿਚਕਾਰ ""ਬਲੀ ਬੰਦ ਹੋਵੇ"" ਦਾਨੀਏਲ 9:27", , ,"ਹਫ਼ਤੇ ਦੇ ਵਿਚਕਾਰ ""ਰੋਕਣ ਲਈ ਕੁਰਬਾਨੀ"" ਦਾਨੀਏਲ 9:27"
+cornelius,ਕੁਰਨੇਲਿਯੁਸ ਨੇ 70 ਕਰੋੜਾਂ (ਦਾਨੀਏਲ 9:24) ਦੇ ਅਖੀਰ ਵਿਚ ਬਪਤਿਸਮਾ ਲਿਆ.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,ਕੋਰਨੇਲੀਅਸ 70 ਹਫ਼ਤਿਆਂ ਦੇ ਅੰਤ ਵਿੱਚ ਬਪਤਿਸਮਾ ਲੈਂਦਾ ਹੈ (ਦਾਨੀਏਲ 9:24) 36 ਈ.ਸ. ਵਿੱਚ।, , ,"ਕੌਰਨੇਲੀਅਸ ਨੇ 36 ਈਸਵੀ ਵਿੱਚ, 70 ਹਫ਼ਤਿਆਂ ਦੇ ਅੰਤ ਵਿੱਚ (ਦਾਨੀਏਲ 9:24) ਬਪਤਿਸਮਾ ਲਿਆ।"
+columbus,ਅਮਰੀਕਾ ਵਿਚ ਪ੍ਰੀ-ਕੋਲੰਬੀਅਨ ਦੀ ਮਿਆਦ 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,ਅਮਰੀਕਾ ਵਿੱਚ ਪੂਰਵ-ਕੋਲੰਬੀਆ ਯੁੱਗ ਦੀ ਸਮਾਪਤੀ 1492, , ,ਅਮਰੀਕਾ ਵਿੱਚ ਪ੍ਰੀ-ਕੋਲੰਬੀਅਨ ਯੁੱਗ ਦਾ ਅੰਤ 1492
+declaration_independence,ਅਮਰੀਕਾ ਵਿੱਚ 13 ਕਲੋਨੀਜ਼ ਦੀ ਆਜ਼ਾਦੀ ਦਾ ਐਲਾਨ,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,ਅਮਰੀਕਾ ਵਿੱਚ 13 ਕਾਲੋਨੀਆਂ ਦੀ ਆਜ਼ਾਦੀ ਦਾ ਐਲਾਨ 1776, , ,ਅਮਰੀਕਾ ਦੀਆਂ 13 ਬਸਤੀਆਂ ਦਾ 1776 ਦਾ ਆਜ਼ਾਦੀ ਦਾ ਐਲਾਨ
+tischendorf,ਟਿਸ਼ਚੇਂਦਰਫ ਨੇ 1844 ਵਿਚ ਕਲੋਕਸ ਸਿਨਾਈਟਿਕਸ ਤੋਂ ਕੋਡੈਕਸ ਸਾਈਨੇਟਿਕਸ ਨੂੰ ਖੋਜਿਆ,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,ਟੀਸ਼ੇਂਡੋਰਫ 1844 ਵਿੱਚ 4ਵੀਂ ਸਦੀ ਦੇ ਕੋਡੈਕਸ ਸੀਨਾਈਟੀਕਸ ਦੀ ਖੋਜ ਕਰਦਾ ਹੈ, , ,ਟਿਸ਼ਨਡੋਰਫ ਨੇ 1844 ਵਿੱਚ ਚੌਥੀ ਸਦੀ ਦਾ ਕੋਡੈਕਸ ਸਿਨਾਈਟਿਕਸ ਖੋਜਿਆ।
+dead_sea_scrolls,ਮ੍ਰਿਤ ਸਾਗਰ ਸਕ੍ਰੌਲ ਲਿਖਤ,Dead Sea Scrolls written, ,text,False, , , , ,ਡੈੱਡ ਸੀ ਸਕ੍ਰੌਲਜ਼ ਲਿਖੇ ਗਏ, , ,ਲਿਖੇ ਹੋਏ ਮ੍ਰਿਤ ਸਾਗਰ ਦੇ ਹੱਥ-ਲਿਖਤ
+septuagint,ਸੇਪਟੁਗਿੰਟ ਐਲ ਐਕਸ ਐਕਸ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ,Septuagint LXX translated, ,text,False, , , , ,ਸੇਪਟੁਆਜਿੰਟ LXX ਦਾ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ, , ,ਸੈਪਟੂਆਜਿੰਟ LXX ਦਾ ਅਨੁਵਾਦ
+watchtower,ਸੀਯੋਨ ਦੇ ਵਾਚ ਵਾਚ ਟਾਵਰ ਅਤੇ ਮਸੀਹ ਦੀ ਮੌਜੂਦਗੀ ਦਾ ਆਖ਼ਰੀ ਅੰਕ 1879 ਵਿਚ ਪ੍ਰਕਾਸ਼ਤ ਹੋਇਆ ਹੈ,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,"""ਜ਼ਿਯੋਨ ਦੀ ਵਾਚ ਟਾਵਰ ਐਂਡ ਹੈਰਲਡ ਆਫ਼ ਕ੍ਰਾਈਸਟਸ ਪ੍ਰੈਜ਼ੈਂਸ"" ਦਾ ਪਹਿਲਾ ਅੰਕ 1879 ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਹੋਇਆ", , ,"""ਜ਼ਿਓਨ ਦਾ ਵਾਚ ਟਾਵਰ ਅਤੇ ਮਸੀਹ ਦੀ ਮੌਜੂਦਗੀ ਦਾ ਹੇਰਲਡ"" ਦਾ ਪਹਿਲਾ ਅੰਕ 1879 ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਹੋਇਆ।"
+jehovahs_witnesses,"ਬਾਈਬਲ ਸਟੂਡੈਂਟਸ ਨੇ ਇਕ ਨਵਾਂ ਨਾਮ - ਯਹੋਵਾਹ ਦੇ ਗਵਾਹ (ਯਸਾਯਾਹ 43:10, 12) ਕੋਲੰਬਸ ਵਿਚ ਓਹੀਓ, 1931 ਵਿਚ","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"ਬਾਈਬਲ ਵਿਦਿਆਰਥੀ ਕੋਲੰਬਸ, ਓਹੀਓ, 1931 ਵਿੱਚ ਇੱਕ ਨਵਾਂ ਨਾਮ ਅਪਣਾਉਂਦੇ ਹਨ – ਯਹੋਵਾਹ ਦੇ ਗਵਾਹ (ਯਸਾਯਾਹ 43:10, 12)", , ,"ਬਾਈਬਲ ਸਟੂਡੈਂਟਸ ਨੇ 1931 ਵਿੱਚ ਕੋਲੰਬਸ, ਓਹਾਇਓ ਵਿੱਚ ਨਵਾਂ ਨਾਮ ਅਪਣਾਇਆ – ਯਹੋਵਾਹ ਦੇ ਗਵਾਹ (ਯਸਾਯਾਹ 43:10, 12)"
+gilead_school,"ਵਾਚਟਾਵਰ ਬਾਈਬਲ ਸਕੂਲ ਆਫ਼ ਗਿਲਿਅਡ ਸੋਮਵਾਰ, 1 ਫਰਵਰੀ 1943 ਨੂੰ ਸ਼ੁਰੂ ਹੋਇਆ","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"ਵਾਚਟਾਵਰ ਬਾਈਬਲ ਸਕੂਲ ਆਫ਼ ਗਿਲੀਅਦ ਸੋਮਵਾਰ, 1 ਫ਼ਰਵਰੀ, 1943 ਨੂੰ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ", , ,"ਗਿਲਿਆਦ ਦਾ ਵਾਚਟਾਵਰ ਬਾਈਬਲ ਸਕੂਲ ਸੋਮਵਾਰ, 1 ਫਰਵਰੀ, 1943 ਨੂੰ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ।"
+new_world_translation1,"ਨਿ World ਵਰਲਡ ਟ੍ਰਾਂਸਲੇਸ਼ਨ ਆਫ਼ ਦਿ ਹੋਲੀ ਸਕ੍ਰਿਪਚਰਸ ਮੈਨਚੇਸਟਰ ਵਿਚ 1 ਜੂਨ, 1960 ਨੂੰ ਇੰਗਲੈਂਡ ਨੂੰ ਬਾਈਬਲ ਦੇ ਕਈ ਹਿੱਸਿਆਂ ਵਿਚ ਯਹੋਵਾਹ ਨਾਮ ਦੀ ਰਿਹਦਾ ਹੈ","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"""ਨਿਊ ਵਰਲਡ ਟ੍ਰਾਂਸਲੇਸ਼ਨ ਆਫ਼ ਦ ਹੋਲੀ ਸਕ੍ਰਿਪਚਰਜ਼"" 18 ਜੂਨ, 1960 ਨੂੰ ਮੈਨਚੈਸਟਰ, ਇੰਗਲੈਂਡ ਵਿੱਚ ਜਾਰੀ ਕੀਤੀ ਗਈ, ਬਾਈਬਲ ਦੇ ਕਈ ਹਿੱਸਿਆਂ ਵਿੱਚ ਯਹੋਵਾਹ ਨਾਮ ਨੂੰ ਮੁੜ ਪੇਸ਼ ਕਰਦੀ ਹੈ", , ,"""ਪਵਿੱਤਰ ਧਰਮਗ੍ਰੰਥਾਂ ਦਾ ਨਵਾਂ ਸੰਸਾਰ ਅਨੁਵਾਦ"" 18 ਜੂਨ 1960 ਨੂੰ ਮੈਨਚੈਸਟਰ, ਇੰਗਲੈਂਡ ਵਿੱਚ ਜਾਰੀ ਕੀਤਾ ਗਿਆ, ਜਿਸ ਨੇ ਬਾਈਬਲ ਦੇ ਕਈ ਹਿੱਸਿਆਂ ਵਿੱਚ ਯਹੋਵਾਹ ਨਾਮ ਨੂੰ ਮੁੜ ਪੇਸ਼ ਕੀਤਾ।"
+new_world_translation2,"ਇਸ ਨੂੰ ਸਲੈਵਲ ਏਜੰਟ ਵਿਖੇ ਜਾਰੀ ""ਨਿ World ਵਰਲਡ ਟ੍ਰਾਂਸਲੇਸ਼ਨ"" ਨੂੰ ਸੋਧਿਆ ਗਿਆ, ਨੇ ਡਿਜੀਟਡ ਅਤੇ ਆਨਲਾਈਨ ਵਰਤਿਆ","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"ਸੋਧੀ ਹੋਈ ""ਨਿਊ ਵਰਲਡ ਟ੍ਰਾਂਸਲੇਸ਼ਨ ਆਫ਼ ਦ ਹੋਲੀ ਸਕ੍ਰਿਪਚਰਜ਼"" 2013 ਦੀ ਸਾਲਾਨਾ ਮੀਟਿੰਗ ਵਿੱਚ ਜਾਰੀ ਕੀਤੀ ਗਈ, ਡਿਜੀਟਲ ਅਤੇ ਔਨਲਾਈਨ ਵਰਤੋਂ ਲਈ ਅਨੁਕੂਲਿਤ", , ,"ਸਾਲਾਨਾ ਮੀਟਿੰਗ 2013 ਵਿੱਚ ਜਾਰੀ ਕੀਤਾ ਗਿਆ ਸੋਧਿਆ ਹੋਇਆ ""ਪਵਿੱਤਰ ਧਰਮ-ਗ੍ਰੰਥਾਂ ਦਾ ਨਵਾਂ ਸੰਸਾਰ ਅਨੁਵਾਦ"", ਜਿਸਨੂੰ ਡਿਜੀਟਲ ਅਤੇ ਆਨਲਾਈਨ ਵਰਤੋਂ ਲਈ ਅਨੁਕੂਲਿਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
+cold_war,"ਜਿਓਪੋਲਿਕ ਸਥਿਤੀ ਨੇ ""ਕੋਲਡ ਯੁੱਧ"" 1945-1991 ਦਾ ਲੇਬਲ ਕੀਤਾ",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,"ਭੂ-ਰਾਜਨੀਤਿਕ ਸਥਿਤੀ ਨੂੰ ""ਠੰਡੀ ਜੰਗ"" ਕਿਹਾ ਜਾਂਦਾ ਹੈ 1945-1991", , ,"ਜਿਓਪੋਲੀਟੀਕਲ ਸਥਿਤੀ ਜਿਸਨੂੰ ""ਠੰਢੀ ਜੰਗ"" ਕਿਹਾ ਗਿਆ 1945-1991"
+codex_sinaiticus,ਕੋਡੈਕਸ ਸਾਈਨੇਟਿਕਸ ਲਿਖਿਆ,Codex Sinaiticus written, ,text,False, , , , ,ਕੋਡੈਕਸ ਸੀਨਾਈਟੀਕਸ ਲਿਖਿਆ ਗਿਆ, , ,ਕੋਡੈਕਸ ਸਿਨਾਈਟਿਕਸ ਲਿਖਿਆ
+codex_vaticanus,ਕੋਡੈਕਸ ਵੈਟੀਕਨਸ ਲਿਖਿਆ ਗਿਆ,Codex Vaticanus written, ,text,False, , , , ,ਕੋਡੈਕਸ ਵੈਟੀਕੇਨਸ ਲਿਖਿਆ ਗਿਆ, , ,ਕੋਡੈਕਸ ਵੈਟੀਕਾਨਸ ਲਿਖਿਆ
+leningrad_codex,ਲਾਈਨਰਾਡਡ ਕੋਡੈਕਸ ਕੈਰੋ ਐਡ 1008 ਵਿੱਚ ਲਿਖਿਆ ਗਿਆ,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,ਲੈਨਿਨਗ੍ਰਾਦ ਕੋਡੈਕਸ ਕਾਹਿਰਾ ਵਿੱਚ ਈਸਵੀ ਸਨ 1008 ਵਿੱਚ ਲਿਖਿਆ ਗਿਆ, , ,"ਲੇਨਿਨਗ੍ਰਾਡ ਕੋਡੈਕਸ, ਕਾਇਰੋ ਵਿੱਚ 1008 ਈਸਵੀ ਵਿੱਚ ਲਿਖਿਆ ਗਿਆ"
+john,"ਜੌਹਨ ਨੇ ਪੈਟਮੋਸ 96-98 C.e 'ਤੇ ਕਾਮੇਡ ਕੀਤੇ ਸਮੇਂ ""ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ"" ਲਿਖਦਾ ਹੈ.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,"ਯੋਹੰਨ ਪਾਤਮੋਸ ਤੋਂ ਜਲਾਵਤਨੀ ਦੌਰਾਨ ""ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ"" ਲਿਖਦਾ ਹੈ 96-98 ਈ.ਸ.", , ,"ਯੂਹੰਨਾ ਨੇ 96-98 ਈਸਵੀ ਸਾਲਾਂ ਵਿੱਚ ਪੈਟਮੋਸ 'ਤੇ ਨਿਕਾਲੇ ਹੋਣ ਦੌਰਾਨ ""ਪ੍ਰਕਾਸ਼ਨ"" ਲਿਖਿਆ।"
+buddha,ਬੁੱਧ - ਸਿਧਾਰਾ ਗੌਤਮ ਸੀ .563-c.483 b.c.e,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,ਬੁੱਧ – ਸਿੱਧਾਰਥ ਗੌਤਮ ਲਗਭਗ 563-ਲਗਭਗ 483 ਈ.ਪੂ., , ,ਬੁੱਧ – ਸਿੱਧਾਰਥ ਗੌਤਮ ਲਗਭਗ 563-ਲਗਭਗ 483 ਈ.ਪੂ.
+buddha2,ਬੁੱਧ ਵਿਕਲਪਿਕ ਤੌਰ ਤੇ ਸੀ. 480-400 ਬੀ.ਸੀ..,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,ਬੁੱਧ ਬਦਲਵੇਂ ਤੌਰ ਤੇ ਲਗਭਗ 480-400 ਈ.ਪੂ., , ,"ਬੁੱਧ, ਵਿਕਲਪਕ ਤੌਰ 'ਤੇ ਲਗਭਗ ਈਸਾ ਪੂਰਵ 480–400"
+mohammed,ਮੁਹੰਮਦ ਸੀ. 570-632 ਸੀ.ਈ.ਈ.,Mohammed c. 570-632, ,text,False, , , , ,ਮੁਹੰਮਦ ਲਗਭਗ 570-632, , ,ਮੁਹੰਮਦ ਲਗਭਗ 570-632
+confucius,ਕਨਫਿ ius ਸ਼ਿਕਸ C.551-C.479 B.c.e.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,ਕੰਫਿਊਸ਼ੀਅਸ ਲਗਭਗ 551-ਲਗਭਗ 479 ਈ.ਪੂ., , ,ਕਨਫਿਊਸ਼ਿਅਸ ਲਗਭਗ 551-ਲਗਭਗ 479 ਈ.ਪੂ.
+hijrah,ਹਾਈਜਰਾ - ਯਾਤਰਾ ਮੈਲਕਾ ਟੂ ਮਿਡਿਨਾ 16 ਜੁਲਾਈ 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,ਹਿਜਰਾ - ਮੱਕਾ ਤੋਂ ਮਦੀਨਾ ਦੀ ਯਾਤਰਾ 16 ਜੁਲਾਈ 622, , ,ਹਿਜਰਤ - ਮੱਕਾ ਤੋਂ ਮਦੀਨਾ ਦਾ ਸਫ਼ਰ 16 ਜੁਲਾਈ 622
+moses_escape,"1553 b.c.e.e. ਮੂਸਾ ਨੂੰ ਮਿਸਰ ਤੋਂ ਬਚਣਾ ਪੈਂਦਾ ਹੈ - ਕੂਚ 2:15, ਕਰਤੱਬ 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 ਈ.ਪੂ. ਮੂਸਾ ਨੂੰ ਮਿਸਰ ਤੋਂ ਭੱਜਣਾ ਪੈਂਦਾ ਹੈ – ਖ਼ਿਜ਼ਾਂ 2:15, ਰਸੂਲਾਂ ਦੇ ਕੰਮ 7:23", , ,"ਈ.ਪੂ. 1553 ਮੂਸੇ ਨੂੰ ਮਿਸਰ ਤੋਂ ਭੱਜਣਾ ਪੈਂਦਾ ਹੈ – ਨਿਕਾਸ 2:15, ਕਰਤੱਬ 7:23"
+10plagues,1513 B.c.e ਮਿਸ ਮਿਸਰ 10 ਬਿਪਤਾਵਾਂ ਪ੍ਰਾਪਤ ਕਰਦਾ ਹੈ,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 ਈ.ਪੂ. ਮਿਸਰ ਨੂੰ 10 ਮਹਾਂਮਾਰੀਆਂ ਆਉਂਦੀਆਂ ਹਨ, , ,ਈ.ਪੂ. 1513 ਮਿਸਰ ਨੂੰ 10 ਮਾਰਾਂ ਆਈਆਂ
+joseph_sold,ਯੂਸੁਫ਼ ਨੇ 17 ਸਾਲ ਦੀ ਉਮਰ ਵਿੱਚ ਗੁਲਾਮ ਵਜੋਂ ਵੇਚਿਆ - ਜੀਨ 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,ਯੂਸੁਫ਼ 17 ਸਾਲ ਦੀ ਉਮਰ ਵਿੱਚ ਗ਼ੁਲਾਮ ਵਜੋਂ ਵੇਚਿਆ ਗਿਆ – ਪੈਦਾਇਸ਼ 37:2, , ,ਯੂਸੁਫ਼ 17 ਸਾਲ ਦੀ ਉਮਰ ਵਿੱਚ ਗੁਲਾਮ ਵਜੋਂ ਵੇਚਿਆ ਗਿਆ – ਉਤਪਤ 37:2
+infliction,400 ਸਾਲ ਦੇ ਟੂਰਿਸ਼ਟ (ਰਸੂ. 7: 6) - ਇਸ਼ਮਾਏਲ 1913 ਬੀ.ਸੀ..,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400 ਸਾਲ ਦੀ ਯਾਤਨਾ (ਰਸੂਲਾਂ ਦੇ ਕੰਮ 7:6) – ਇਸਮਾਈਲ 1913 ਈ.ਪੂ., , ,400 ਸਾਲਾਂ ਦੀ ਸਜ਼ਾ (ਅਪੋਸਤਲਾਂ ਦੇ ਕੰਮ 7:6) – ਇਸਮਾਇਲ 1913 ਈਸਾ ਪੂਰਵ
+Alexander,ਅਲੈਗਜ਼ੈਂਡਰ ਮਹਾਨ (ਦਾਨੀਏਲ 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,ਸਿੱਕੰਦਰ ਮਹਾਨ (ਦਾਨੀਏਲ 11:3), , ,ਸ੍ਰੇਸ਼ਠ ਅਲੈਗਜ਼ੈਂਡਰ (ਦਾਨੀਏਲ 11:3)
+persia,"ਸਾਇਰਸ ਮਹਾਨ, ਕਮਾਂਬਿਆਂ II, ਦਾਨੀਏਲ ਮੈਂ 480 ਸਾ.ਯੁ.ਪੂ. (ਦਾਨੀਏਲ 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"ਸਾਇਰਸ ਮਹਾਨ, ਕੈਂਬਾਈਸਸ II, ਦਾਰਾ ਪਹਿਲਾ 490 ਈ.ਪੂ., ਜ਼ਰਕਸਿਸ ਪਹਿਲਾ 480 ਈ.ਪੂ. (ਏਸਟਰ ਦਾ ਪਤੀ, ਦਾਨੀਏਲ 11:2)", , ,"ਸਾਈਰਸ ਮਹਾਨ, ਕੈਂਬਿਸੇਸ ਦੂਜਾ, ਡੇਰੀਅਸ ਪਹਿਲਾ 490 ਈਸਾ ਪੂਰਵ, ਜਰਕਸਿਸ ਪਹਿਲਾ 480 ਈਸਾ ਪੂਰਵ (ਐਸਥਰ ਦਾ ਪਤੀ, ਦਾਨੀਏਲ 11:2)"
+king_north,ਚੋਣ ਕਰਨ ਵਾਲੇ (ਵੀ 5) ਸੀਰੀਆ ਤੋਂ ਐਂਟੀਓਚਸ III (v10) ਅਤੇ ਸੇਲੇਰੂਕਸ IV (V20) ਅਤੇ ਟਾਈਬੇਰੀਅਸ (V20)),"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"ਸੇਲੂਕਸ ਪਹਿਲਾ ਨਿਕੇਟਰ (v5) ਸੀਰੀਆ ਤੋਂ ਐਂਟੀਓਕਸ III (v10) ਅਤੇ ਸੇਲੂਕਸ IV (v18, 19) ਤੱਕ ਅਤੇ ਫ਼ਿਰ ਔਕਟੇਵੀਅਨ (v20) ਅਤੇ ਟਾਇਬੇਰੀਅਸ (v21-24) ਤੱਕ", , ,"ਸੇਲੂਕਸ I ਨਿਕੈਟਰ (v5) ਤੋਂ ਅੰਟੀਓਕਸ III (v10) ਅਤੇ ਸੇਲੂਕਸ IV (v18, 19) ਤੱਕ, ਫਿਰ ਔਕਟੇਵੀਅਨ (v20) ਅਤੇ ਟਿਬੇਰੀਅਸ (v21-24) ਤੱਕ।"
+king_north1,ਉੱਤਰ ਦਾ ਰਾਜਾ,King of the North, ,text,False, , , , ,ਉੱਤਰ ਦਾ ਰਾਜਾ, , ,ਉੱਤਰ ਦਾ ਰਾਜਾ
+king_south,"ਟੌਲਮੀ ਮੈਂ, II, III, IV (ਵੀ 11, 12), ਵੀ (ਵੀ 15, 16) ਬੈਟਲ ਐਕਟਿਅਮ 31 ਬੀ.ਸੀ..","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"ਪਟੋਲਮੀ I, II, III, IV (v11, 12), V (v15, 16) ਤੋਂ ਐਕਟਿਅਮ ਦੀ ਲੜਾਈ 31 ਈ.ਪੂ. ਤੱਕ", , ,"ਪਟੋਲੇਮੀ I, II, III, IV (v11, 12), V (v15, 16) 31 ਈਸਵੀ ਪੂਰਵ ਦੀ ਐਕਟੀਅਮ ਦੀ ਲੜਾਈ ਤੱਕ।"
+king_south1,ਦੱਖਣ ਦਾ ਰਾਜਾ,King of the South, ,text,False, , , , ,ਦੱਖਣ ਦਾ ਰਾਜਾ, , ,ਦੱਖਣ ਦਾ ਰਾਜਾ
+king_south2,"ਬ੍ਰਿਟਿਸ਼ ਸਾਮਰਾਜ 1870, 1914 ਤੋਂ ਐਂਗਲੋ-ਅਮਰੀਕੀ ਵਿਸ਼ਵ ਸ਼ਕਤੀ","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"ਬ੍ਰਿਟਿਸ਼ ਸਾਮਰਾਜ 1870, 1914 ਤੋਂ ਐਂਗਲੋ-ਅਮਰੀਕੀ ਵਿਸ਼ਵ ਸ਼ਕਤੀ", , ,"ਬ੍ਰਿਟਿਸ਼ ਸਾਮਰਾਜ 1870, 1914 ਤੋਂ ਐਂਗਲੋ-ਅਮਰੀਕੀ ਵਿਸ਼ਵ ਸ਼ਕਤੀ"
+king_south3,ਦੱਖਣ ਦਾ ਰਾਜਾ,King of the South, ,text,False, , , , ,ਦੱਖਣ ਦਾ ਰਾਜਾ, , ,ਦੱਖਣ ਦਾ ਰਾਜਾ
+king_north2,"ਸਮਰਾਟ ਵਿਲੀਅਮ I 1871 (V28), 1914 (V29), 1935 (V30B), 1939 (V31))","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"ਜਰਮਨੀ ਸਮਰਾਟ ਵਿਲੀਅਮ ਪਹਿਲੇ ਨਾਲ 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", , ,"ਜਰਮਨੀ ਸਮਰਾਟ ਵਿਲੀਅਮ ਪਹਿਲਾ ਨਾਲ 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,ਉੱਤਰ,North, ,text,False, , , , ,ਉੱਤਰ, , ,ਉੱਤਰੀ
+king_north4,"ਸੋਵੀਅਤ ਯੂਨੀਅਨ 1945-1991 (ਦਾਨੀਏਲ 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"ਸੋਵੀਅਤ ਯੂਨੀਅਨ 1945-1991 (ਦਾਨੀਏਲ 11:32-39, 40b, 41)", , ,"ਸੋਵੀਅਤ ਯੂਨੀਅਨ 1945-1991 (ਦਾਨੀਏਲ 11:32-39, 40ਬ, 41)"
+king_north5,2017 ਤੋਂ ਰੂਸ (ਡਬਲਯੂ 20 ਮਈ),Russia since 2017 (w20 May), ,text,False, , , , ,2017 ਤੋਂ ਰੂਸ (w20 ਮਈ), , ,ਰੂਸ 2017 ਤੋਂ (w20 ਮਈ)
+time_of_end,"ਮਸੀਹ ਦੀ ਮੌਜੂਦਗੀ, ਜੁਗ ਦੇ ਸੰਜੋਗ (ਮੱਤੀ 24: 3), ਆਖ਼ਰੀ ਦਿਨ (2 ਤਿਮੋਥਿਉਸ 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"ਮਸੀਹ ਦੀ ਹਾਜ਼ਰੀ, ਚੀਜ਼ਾਂ ਦੇ ਸਿਸਟਮ ਦਾ ਅੰਤ (ਮੱਤੀ 24:3), ਆਖ਼ਰੀ ਦਿਨ (2 ਤੀਮੁਥਿਊਸ 3:1)", , ,"ਮਸੀਹ ਦੀ ਮੌਜੂਦਗੀ, ਚੀਜ਼ਾਂ ਦੇ ਪ੍ਰਬੰਧ ਦਾ ਅੰਤ (ਮੱਤੀ 24:3), ਆਖਰੀ ਦਿਨ (2 ਤਿਮੋਥਿਉਸ 3:1)"
+time_of_end2,ਆਖਰੀ ਦਿਨ,Last days, ,text,False, , , , ,ਆਖ਼ਰੀ ਦਿਨ, , ,ਆਖਰੀ ਦਿਨ
+suryavaman2,ਰਾਜਾ ਸਿਆਵੁਰਮਨ II 1113-1150 ਨੂੰ ਐਂਗਕੋਰ ਵਾਟ ਬਣਾਉਂਦਾ ਹੈ,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,ਰਾਜਾ ਸੂਰਯਵਰਮਨ II ਐਂਗਕੋਰ ਵਾਟ ਬਣਾਉਂਦਾ ਹੈ 1113-1150, , ,ਰਾਜਾ ਸੂਰਯਵਰਮਨ ਦੂਜਾ ਨੇ 1113-1150 ਵਿੱਚ ਅੰਗਕੋਰ ਵਾਟ ਦਾ ਨਿਰਮਾਣ ਕੀਤਾ।
+notre-dame,ਨੋਟਰੇ-ਡੈਮ ਡੀ ਪੈਰਿਸ ਨੇ 1163-1260 ਬਣਾਇਆ,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,ਨੋਟਰ-ਡੈਮ ਡੀ ਪੈਰਿਸ ਬਣਿਆ 1163-1260, , ,"ਨੋਤਰੇ-ਡੈਮ ਡੇ ਪੈਰਿਸ, 1163-1260 ਵਿੱਚ ਬਣਾਈ ਗਈ"
+babel,ਬਾਬਲ ਦਾ ਬੁਰਜ ਬਣਾਇਆ,Tower of Babel built, ,text,False, , , , ,ਬਾਬਲ ਦਾ ਟਾਵਰ ਬਣਿਆ, , ,ਬਾਬਲ ਦੀ ਮੀਨਾਰ ਬਣਾਈ ਗਈ
+infliction1,400 ਸਾਲ ਦਾ ਭੋਗ,400 year infliction,Acts 7:6,text,False, , , , ,400 ਸਾਲ ਦੀ ਯਾਤਨਾ, , ,400 ਸਾਲਾਂ ਦੀ ਸਜ਼ਾ
+Lots_wife,ਲੂਤ ਦੀ ਪਤਨੀ,Lot’s wife, ,text,False, , , , ,ਲੂਟ ਦੀ ਪਤਨੀ, , ,ਲੂਤ ਦੀ ਪਤਨੀ
+Lots_daughters,ਬਹੁਤੀਆਂ ਦੀਆਂ ਧੀਆਂ,Daughters of Lot, ,text,False, , , , ,ਲੂਟ ਦੀਆਂ ਧੀਆਂ, , ,ਲੋਤ ਦੀਆਂ ਧੀਆਂ
+Moab,ਮੋਆਬ (ਵੱਡੀ ਧੀ),Moab (older daughter),Genesis 19:37,text,False, , , , ,ਮੋਆਬ (ਵੱਡੀ ਧੀ), , ,ਮੋਆਬ (ਵੱਡੀ ਧੀ)
+rosetta,ਰੋਸੇਟਾ ਪੱਥਰ 196 b.c.e.,Rosetta stone 196 B.C.E., ,text,False, , , , ,ਰੋਜ਼ੈੱਟਾ ਪੱਥਰ 196 ਈ.ਪੂ., , ,ਰੋਜ਼ੇਟਾ ਪੱਥਰ 196 ਈ.ਪੂ.
+Herodotus,"ਹੇਰੋਡੋਟਸ ਸੀ. 484 - ਸੀ. 425 ਬੀ.ਸੀ., ਇਤਿਹਾਸ ਲਿਖਦਾ ਹੈ","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"ਹੇਰੋਡੋਟਸ ਲਗਭਗ 484 – ਲਗਭਗ 425 ਈ.ਪੂ., ਲਿਖਦਾ ਹੈ ਹਿਸਟਰੀਜ਼", , ,"ਹੇਰੋਡੋਟਸ ਲਗਭਗ 484 – ਲਗਭਗ 425 ਈਸਾ ਪੂਰਵ, 'ਦਿ ਹਿਸਟਰੀਜ਼' ਲਿਖਦਾ ਹੈ।"
+Aristotle,ਅਰਸਤੂ 384 - 322 ਬੀ.ਸੀ.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,ਅਰਸਤੂ 384 – 322 ਈ.ਪੂ., , ,ਅਰਸਤੂ 384 – 322 ਈਸਾ ਪੂਰਵ
+Ptolemy,ਟੌਲੇਮੀ ਸੀ 100 - ਸੀ. 170 ਸੀ.ਈ.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,ਟੌਲਮੀ ਲਗਭਗ 100 – ਲਗਭਗ 170 ਸੰਨ ਈ., , ,ਪਟੋਲਮੀ ਲਗਭਗ 100 – ਲਗਭਗ 170 ਈਸਵੀ
+Pythagoras,ਪਾਇਥਾਗੋਰਸ ਸੀ. 570 - ਸੀ. 495 ਬੀ.ਸੀ.,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,ਪਾਈਥਾਗੋਰਸ ਲਗਭਗ 570 – ਲਗਭਗ 495 ਈ.ਪੂ., , ,ਪਾਈਥਾਗੋਰਸ ਲਗਭਗ 570 – ਲਗਭਗ 495 ਈਸਾ ਪੂਰਵ
+Plato,ਪਲਾਟੋ ਸੀ. 427 - ਸੀ. 348 ਬੀ.ਸੀ.,Plato c. 427 – c. 348 BC, ,text,False, , , , ,ਪਲੇਟੋ ਲਗਭਗ 427 – ਲਗਭਗ 348 ਈ.ਪੂ., , ,ਪਲੈਟੋ ਲਗਭਗ 427 – ਲਗਭਗ 348 ਈਸਾ ਪੂਰਵ
+Socrates,ਸੁਕਰਾਤ ਸੀ. 470 - ਸੀ. 399 ਬੀ.ਸੀ.,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,ਸੋਕਰੀਟੀਸ ਲਗਭਗ 470 – ਲਗਭਗ 399 ਈ.ਪੂ., , ,ਸੁਕਰਾਤ ਲਗਭਗ 470 – ਲਗਭਗ 399 ਈਸਾ ਪੂਰਵ
+Josephus,ਜੋਸੀਫਸ ਸੀ. 37 - ਸੀ. 100 ਸੀ.ਈ.ਈ.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,ਜੋਸੇਫਸ ਲਗਭਗ 37 – ਲਗਭਗ 100 ਸੰਨ ਈ., , ,ਯੋਸੇਫਸ ਲਗਭਗ 37 – ਲਗਭਗ 100 ਈਸਵੀ
+Cicero,ਸੀਆਈਸੀਰੋ 106-43 ਬੀ.ਸੀ.,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,ਸੀਸਰੋ 106–43 ਈ.ਪੂ., , ,ਸਿਸਰੋ 106–43 ਈਸਾ ਪੂਰਵ
+lachish_letters,ਲਕੀਸ਼ ਪੱਤਰ ਸੀ. 590 ਬੀ.ਸੀ..,Lachish letters c. 590 B.C.E., ,text,False, , , , ,ਲਾਕੀਸ਼ ਪੱਤਰ ਲਗਭਗ 590 ਈ.ਪੂ., , ,"ਲਾਕੀਸ਼ ਪੱਤਰ, ਲਗਭਗ 590 ਈਸਾ ਪੂਰਵ"
+lachish_reliefs,ਲਾਸ਼ਿਸ਼ ਰਾਹਤ ਸੀ. 681 b.c.e.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,ਲਾਕੀਸ਼ ਰਾਹਤ ਲਗਭਗ 681 ਈ.ਪੂ., , ,ਲਾਕੀਸ਼ ਦੇ ਉਤਕੀਰਣ ਲਗਭਗ 681 ਈਸਾ ਪੂਰਵ
+mesha_stele,ਮੇਸ਼ਾ ਸਟੇਲੇ (ਮੋਆਬੀ ਪੱਥਰ) ਸੀ. 840 ਬੀ.ਸੀ..,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,ਮੋਆਬੀ ਪੱਥਰ (ਮੇਸ਼ਾ ਸਤੇਲ) ਲਗਭਗ 840 ਈ.ਪੂ., , ,ਮੇਸ਼ਾ ਸਤੰਭ (ਮੋਆਬੀ ਪੱਥਰ) ਲਗਭਗ 840 ਈਸਾ ਪੂਰਵ
+gilgamesh,ਗਿਲਗਮੇਸ਼ ਅਤੇ ਆਗਾ 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,ਗਿਲਗਾਮੇਸ਼ ਅਤੇ ਅਗਾ 𒇽𒆥𒄄𒀀𒀝𒂵, , ,ਗਿਲਗਾਮੇਸ਼ ਅਤੇ ਅਗਾ 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,ਗਿਲਗਮੇਸ਼ ਦਾ ਮੁੱਲ (Sîn-lēqi-unninnni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,ਗਿਲਗਾਮੇਸ਼ ਦੀ ਮਹਾਂਕਾਵਿ (ਸੀਨ-ਲੇਕੀ-ਉਨੀਨੀ), , ,ਗਿਲਗਾਮੇਸ਼ ਦਾ ਮਹਾਂਕਾਵਿ (ਸੀਨ-ਲੇਕੀ-ਉਨਨਿਨੀ)
+gregorian,ਗ੍ਰੇਗੋਰੀਅਨ ਕੈਲੰਡਰ 1582,Gregorian calendar 1582, ,text,False, , , , ,ਗ੍ਰੈਗੋਰੀਅਨ ਕੈਲੰਡਰ 1582, , ,ਗ੍ਰੈਗੋਰੀਅਨ ਕੈਲੰਡਰ 1582
+shang-dynasty,ਸੀ. 1600-1046 ਬੀ.ਸੀ.,c. 1600-1046 BC, ,text,False, , , , ,ਲਗਭਗ 1600-1046 ਈ.ਪੂ., , ,ਲਗਭਗ 1600-1046 ਈਸਾ ਪੂਰਵ
+western-zhou,ਸੀ. 1046-771 ਬੀ.ਸੀ.,c. 1046-771 BC, ,text,False, , , , ,ਲਗਭਗ 1046-771 ਈ.ਪੂ., , ,ਲਗਭਗ 1046-771 ਈਸਾ ਪੂਰਵ
+qin-dynasty,ਕਿਨ 221-207 ਬੀ.ਸੀ.,Qin 221-207 BC, ,text,False, , , , ,ਕਿਨ 221-207 ਈ.ਪੂ., , ,ਕਿਨ 221-207 ਈਸਾ ਪੂਰਵ
+western-han,207 ਬੀਸੀ - 9 ਸਾ.ਯੁ.,207 BC – 9 CE, ,text,False, , , , ,207 ਈ.ਪੂ. – 9 ਸੰਨ ਈ., , ,207 ਈਸਾ ਪੂਰਵ – 9 ਈਸਵੀ
+three-kingdoms,ਤਿੰਨ ਰਾਜ 220-280 ਸਾ.ਯੁ.,Three kingdoms 220-280 CE, ,text,False, , , , ,ਤਿੰਨ ਰਾਜ 220-280 ਸੰਨ ਈ., , ,ਤਿੰਨ ਰਾਜ 220-280 ਸਾ.
+sixteen-kingdoms,ਸੋਲਾਂ ਰਾਜ 304-439 ਸਾ.ਯੁ.,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,ਸੋਲਾਂ ਰਾਜ 304-439 ਸੰਨ ਈ., , ,ਸੋਲ੍ਹਾਂ ਰਾਜ 304-439 ਈਸਵੀ
 tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , , , ,"੬੧੮-੬੯੦, ੭੦੫-੯੦੭"
-wu-zhou,690-705 wh zhou,690-705 Wu Zhou, ,text,False, , , , , , , ,੬੯੦-੭੦੫ ਵੂ ਝੋਊ
-tang-dynasty1_c,ਟਾਂਗ,Tang, ,text,False, , , , , , , ,ਟੈਂਗ
-gonghe,ਗੋਂਗਨੇ ਰੀਜੈਂਸੀ 841-828 ਬੀ.ਸੀ.,Gonghe Regency 841-828 BC, ,text,False, , , , , , , ,ਗੋਂਘੇ ਰੀਜੈਂਸੀ 841-828 ਈਸਾ ਪੂਰਵ
-Ashoka,ਅਸ਼ੋਕਾ (ਸੀ. 304-232 ਬੀ.ਸੀ.) ਬੁੱਧ ਨੂੰ ਉਤਸ਼ਾਹਤ ਕਰਦਾ ਹੈ,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , , , ,ਅਸ਼ੋਕ (ਲਗਭਗ 304-232 ਈਸਾ ਪੂਰਵ) ਨੇ ਬੁੱਧ ਧਰਮ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕੀਤਾ।
-siloam-tunnel,ਹਿਜ਼ਕੀਯਾਹ ਨੇ ਸਿਲੂਮ ਸੁਰੰਗ ਨੂੰ ਵਧਾ ਦਿੱਤਾ,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , , , ,ਹਿਜ਼ਕੀਆਹ ਨੇ ਸਿਲੋਆਮ ਸੁਰੰਗ ਦਾ ਵਿਸਥਾਰ ਕੀਤਾ
-Angloamerica2,"ਐਂਗਲੋ-ਅਮੈਰੀਕਨ ਲੂਣ ਦੇ ਚਰਨਾਂ ਨਾਲ ਸਿੰਕ ਕੀਤਾ ਗਿਆ ਹੈ ਦਾਨੀਏਲ 2:33, 41-43 ਵਿਚ ਭਵਿੱਖਬਾਣੀ ਵਿਚ ਮਿਲਾਇਆ ਗਿਆ ਹੈ","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , , , ,"ਡੈਨੀਅਲ 2:33, 41-43 ਦੀ ਭਵਿੱਖਬਾਣੀ ਵਿੱਚ, ਐਂਗਲੋ-ਅਮਰੀਕੀ ਨੂੰ ਮਿੱਟੀ ਨਾਲ ਮਿਲੇ ਲੋਹੇ ਦੇ ਪੈਰਾਂ ਦੁਆਰਾ ਪ੍ਰਤੀਕ ਰੂਪ ਵਿੱਚ ਦਰਸਾਇਆ ਗਿਆ ਹੈ।"
-Manetho,Menetho aygytica ਲਿਖਦਾ ਹੈ,Manetho writes Aegyptiaca, ,text,False, , , , , , , ,ਮੈਨੇਥੋ ਐਜਿਪਟੀਆਕਾ ਲਿਖਦਾ ਹੈ
-destruction_babylon,"ਵੱਡੀ ਬਾਬੁਲ ਦਾ ਵਿਨਾਸ਼ (ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , , , ,"ਮਹਾਨ ਬਾਬਲ ਦਾ ਨਾਸ਼ (ਪ੍ਰਕਾਸ਼ ਦੀ ਪੋਥੀ 17:3, 15-18; 18:9, 10)"
-peace_security,"""ਸ਼ਾਂਤੀ ਅਤੇ ਸੁਰੱਖਿਆ!"" (1 ਥੱਸਲੁਨੀਕੀਆਂ 5:3, ਇਹ ਇੱਕ ਸੰਭਾਵਨਾ ਹੈ, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , , , ,"""ਸ਼ਾਂਤੀ ਅਤੇ ਸੁਰੱਖਿਆ!"" (1 ਥੱਸਲੁਨੀਕੀਆਂ 5:3, ਇਹ ਇੱਕ ਸੰਭਾਵਨਾ ਹੈ, QfR 26/2, 25/11)"
-gog_of_magog,"ਗੋਗ ਦੇ ਗੋਗ ਦੇ ਹਮਲੇ (ਹਿਜ਼ਕੀ 38: 1, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , , , ,"ਮਾਗੋਗ ਦੇ ਗੋਗ ਦਾ ਹਮਲਾ (ਹਿਜ਼ਕੀਏਲ 38:1, 2, 9-12, 18-23)"
-sheep_goat,"ਧਰਤੀ ਦੇ ਵਸਨੀਕਾਂ ਦਾ ਨਿਆਂ, ਬੱਕਰੀਆਂ ਨੂੰ ਵੱਖ ਕਰਦਿਆਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ (ਮੱਤੀ 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , , , ,"ਧਰਤੀ ਦੇ ਵਾਸੀਆਂ ਦਾ ਨਿਆਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਭੇਡਾਂ ਅਤੇ ਬੱਕਰੀਆਂ ਨੂੰ ਵੱਖ ਕੀਤਾ ਜਾਂਦਾ ਹੈ (ਮੱਤੀ 25:31-33)"
-annointed,ਰਾਜ ਦੇ ਸ਼ਾਸਕਾਂ ਨੂੰ ਇਕੱਠਾ ਕਰਨਾ (ਮੱਤੀ 24:31; 1 ਕੁਰਿੰਥੀਆਂ 15: 50-53; 1 ਥੱਸਲੁਨੀਕੀਆਂ 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , , , ,ਰਾਜ ਦੇ ਹਕੂਮਤਦਾਰਾਂ ਦੀ ਇਕੱਠ (ਮੱਤੀ 24:31; 1 ਕੁਰਿੰਥੀਆਂ 15:50-53; 1 ਥੱਸਲੁਨੀਕੀਆਂ 4:15-17)
-armageddon,"ਆਰਮਾਗੇਡਨ ਦੀ ਲੜਾਈ (ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ 16:14, 16; ਯਸਾਯਾਹ 13: 9; 2 ਪਤਰਸ 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , , , ,"ਅਰਮਾਗੇਡਨ ਦੀ ਲੜਾਈ (ਪ੍ਰਕਾਸ਼ ਦੀ ਪੋਥੀ 16:14, 16; ਯਸਾਯਾਹ 13:9; 2 ਪਤਰਸ 3:12)"
-millenium,"ਪਰਮੇਸ਼ੁਰ ਦਾ ਰਾਜ ਇਸ ਦੇ 1000-ਸਾਲ ਦੇ ਰਾਜ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ (ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , , , ,"ਪਰਮੇਸ਼ੁਰ ਦੀ ਰਾਜਤੰਤਰ ਆਪਣਾ 1000 ਸਾਲਾਂ ਦਾ ਸ਼ਾਸਨ ਸ਼ੁਰੂ ਕਰਦੀ ਹੈ (ਪ੍ਰਕਾਸ਼ ਦੀ ਪੋਥੀ 5:9, 10; 20:4, 6)"
-great_crowd,"ਇਕ ਵੱਡੀ ਭੀੜ ਆਰਮਾਗੇਡਨ ਤੋਂ ਜੀਉਂਦੀ ਹੈ (ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ 7: 9, 14; ਜ਼ਬੂਰਾਂ ਦੀ ਪੋਥੀ 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , , , ,"ਇੱਕ ਵੱਡੀ ਭੀੜ ਅਰਮਾਗੇਡਨ ਤੋਂ ਬਚ ਜਾਂਦੀ ਹੈ (ਪ੍ਰਕਾਸ਼ ਦੀ ਪੋਥੀ 7:9, 14; ਜ਼ਬੂਰ 37:9-11)"
-world_population,ਪਿਛਲੇ 2000 ਸਾਲਾਂ ਵਿੱਚ ਅਰਬਾਂ ਦੀ ਵਿਸ਼ਵ ਆਬਾਦੀ,World population in billions in the last 2000 years,appendix B9,text,False, , , , , , , ,ਪਿਛਲੇ 2000 ਸਾਲਾਂ ਵਿੱਚ ਦੁਨੀਆ ਦੀ ਆਬਾਦੀ ਅਰਬਾਂ ਵਿੱਚ
-khmer_empire_c,ਖਮੇਰ ਸਾਮਰਾਜ - ਐਂਗਕੋਰ ਪੀਰੀਅਡ,Khmer Empire - Angkor period, ,text,False, , , , , , , ,ਖਮੇਰ ਸਾਮਰਾਜ - ਅੰਗਕੋਰ ਯੁੱਗ
-holy_roman_empire_c,ਪਵਿੱਤਰ ਰੋਮਨ ਸਾਮਰਾਜ - 1512 ਤੋਂ ਬਾਅਦ ਜਰਮਨ ਕੌਮ ਦੇ ਪਵਿੱਤਰ ਰੋਮਨ ਸਾਮਰਾਜ ਵਜੋਂ ਜਾਣਿਆ ਜਾਂਦਾ ਸੀ,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , , , ,ਪਵਿੱਤਰ ਰੋਮਨ ਸਾਮਰਾਜ – 1512 ਤੋਂ ਬਾਅਦ ਇਸਨੂੰ 'ਜਰਮਨ ਕੌਮ ਦਾ ਪਵਿੱਤਰ ਰੋਮਨ ਸਾਮਰਾਜ' ਵਜੋਂ ਜਾਣਿਆ ਜਾਂਦਾ ਸੀ।
-mongol_empire,ਮੋਂਗੋਲ ਐਂਪਾਇਰ 1206 - 1294 ਸੀ.ਈ.,Mongol Empire 1206 – 1294, ,text,False, , , , , , , ,ਮੰਗੋਲ ਸਾਮਰਾਜ 1206 – 1294
-maya_classic_c,ਮਾਇਆ ਸਭਿਅਤਾ - ਕਲਾਸਿਕ ਅਵਧੀ,Maya civilization – Classic period, ,text,False, , , , , , , ,ਮਾਇਆ ਸਭਿਅਤਾ – ਕਲਾਸਿਕ ਯੁੱਗ
-maya_postclassic_c,ਮਾਇਆ ਸਭਿਅਤਾ - ਪੋਸਟ ਕਲਾਸਿਕ ਅਵਧੀ,Maya civilization – Postclassic period, ,text,False, , , , , , , ,ਮਾਇਆ ਸਭਿਅਤਾ – ਪੋਸਟਕਲਾਸਿਕ ਯੁੱਗ
-Teotihuacan,"ਅਮਰੀਕਾ ਵਿਚ ਸਭ ਤੋਂ ਵੱਡਾ ਸ਼ਹਿਰ, ਪਿਰਾਮਿਡ ਸੀ. 200 ਸੀ.ਈ.ਈ.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , , , ,"ਅਮਰੀਕਾਵਾਂ ਦਾ ਸਭ ਤੋਂ ਵੱਡਾ ਸ਼ਹਿਰ, ਪਿਰਾਮਿਡ ਲਗਭਗ 200 ਈਸਵੀ ਵਿੱਚ ਬਣਾਏ ਗਏ।"
-Dionysius_Exiguus,"ਡਾਇਨੋਇਸਿਅਸ ਐਕਸਿਗੁਆਸ, ਐਨਨੋ ਡੋਮਿਮੀ ਦਾ ਖੋਜੀ","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , , , ,"ਡਾਇਓਨਾਈਸੀਅਸ ਐਕਸੀਗਿਊਸ, ਐਨੋ ਡੋਮਿਨੀ ਦੇ ਆਵਿਸਕਾਰਕ"
-Umayyad_c,ਉਮੈਦ,Umayyad, ,text,False, , , , , , , ,ਉਮਯਾਦ
-ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , , , ,ਉਰ ਤੀਜਾ ਰਾਜਵੰਸ਼ 𒋀𒀕𒆠
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , , , ,ਹਮੂਰਾਬੀ 𒄩𒄠𒈬𒊏𒁉
-Al-Khwarizmi,ਅਲ-ਜੇਵਰਮੀਜ਼ ਗਲਤ ਲਿਖਦਾ ਹੈ (ਅਲਜਬਰਾ),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , , , ,ਅਲ-ਖਵਾਰਿਜ਼ਮੀ ਨੇ ਅਲ-ਜਾਬਰ (ਜਾਬਰ) ਲਿਖਿਆ।
-al-azhar,ਅਲ-ਅਜ਼ਹਰ ਯੂਨੀਵਰਸਿਟੀ ਦੀ ਸਥਾਪਨਾ ਕਾਇਰੋ ਵਿੱਚ ਕੀਤੀ ਗਈ ਹੈ,Al-Azhar University is established in Cairo, ,text,False, , , , , , , ,ਅਲ-ਅਜ਼ਹਰ ਯੂਨੀਵਰਸਿਟੀ ਕਾਇਰੋ ਵਿੱਚ ਸਥਾਪਿਤ ਕੀਤੀ ਗਈ ਹੈ।
-Ibn-Sina,ਇਬਨ ਸਿਨਵਾ ਜਾਂ ਐਵੀਸਨਨਾ,Ibn Sina or Avicenna, ,text,False, , , , , , , ,ਇਬਨ ਸਿਨਾ ਜਾਂ ਅਵਿਸੇਨਾ
+wu-zhou,690-705 wh zhou,690-705 Wu Zhou, ,text,False, , , , ,690-705 ਵੂ ਜ਼ੋਊ, , ,੬੯੦-੭੦੫ ਵੂ ਝੋਊ
+tang-dynasty1_c,ਟਾਂਗ,Tang, ,text,False, , , , ,ਟੈਂਗ, , ,ਟੈਂਗ
+gonghe,ਗੋਂਗਨੇ ਰੀਜੈਂਸੀ 841-828 ਬੀ.ਸੀ.,Gonghe Regency 841-828 BC, ,text,False, , , , ,ਗੋਂਗਹੇ ਰੀਜੈਂਸੀ 841-828 ਈ.ਪੂ., , ,ਗੋਂਘੇ ਰੀਜੈਂਸੀ 841-828 ਈਸਾ ਪੂਰਵ
+Ashoka,ਅਸ਼ੋਕਾ (ਸੀ. 304-232 ਬੀ.ਸੀ.) ਬੁੱਧ ਨੂੰ ਉਤਸ਼ਾਹਤ ਕਰਦਾ ਹੈ,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,ਅਸ਼ੋਕ (ਲਗਭਗ 304-232 ਈ.ਪੂ.) ਬੁੱਧ ਧਰਮ ਦਾ ਪ੍ਰਚਾਰ ਕਰਦਾ ਹੈ, , ,ਅਸ਼ੋਕ (ਲਗਭਗ 304-232 ਈਸਾ ਪੂਰਵ) ਨੇ ਬੁੱਧ ਧਰਮ ਨੂੰ ਉਤਸ਼ਾਹਿਤ ਕੀਤਾ।
+siloam-tunnel,ਹਿਜ਼ਕੀਯਾਹ ਨੇ ਸਿਲੂਮ ਸੁਰੰਗ ਨੂੰ ਵਧਾ ਦਿੱਤਾ,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,ਹਿਜ਼ਕੀਆਹ ਸ਼ੀਲੋਆਹ ਸੁਰੰਗ ਦਾ ਵਿਸਤਾਰ ਕਰਦਾ ਹੈ, , ,ਹਿਜ਼ਕੀਆਹ ਨੇ ਸਿਲੋਆਮ ਸੁਰੰਗ ਦਾ ਵਿਸਥਾਰ ਕੀਤਾ
+Angloamerica2,"ਐਂਗਲੋ-ਅਮੈਰੀਕਨ ਲੂਣ ਦੇ ਚਰਨਾਂ ਨਾਲ ਸਿੰਕ ਕੀਤਾ ਗਿਆ ਹੈ ਦਾਨੀਏਲ 2:33, 41-43 ਵਿਚ ਭਵਿੱਖਬਾਣੀ ਵਿਚ ਮਿਲਾਇਆ ਗਿਆ ਹੈ","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"ਐਂਗਲੋ-ਅਮਰੀਕੀ ਨੂੰ ਦਾਨੀਏਲ 2:33, 41-43 ਦੀ ਭਵਿੱਖਬਾਣੀ ਵਿੱਚ ਮਿੱਟੀ ਨਾਲ ਮਿਲੇ ਲੋਹੇ ਦੇ ਪੈਰਾਂ ਦੁਆਰਾ ਪ੍ਰਤੀਕ ਬਣਾਇਆ ਗਿਆ ਹੈ", , ,"ਡੈਨੀਅਲ 2:33, 41-43 ਦੀ ਭਵਿੱਖਬਾਣੀ ਵਿੱਚ, ਐਂਗਲੋ-ਅਮਰੀਕੀ ਨੂੰ ਮਿੱਟੀ ਨਾਲ ਮਿਲੇ ਲੋਹੇ ਦੇ ਪੈਰਾਂ ਦੁਆਰਾ ਪ੍ਰਤੀਕ ਰੂਪ ਵਿੱਚ ਦਰਸਾਇਆ ਗਿਆ ਹੈ।"
+Manetho,Menetho aygytica ਲਿਖਦਾ ਹੈ,Manetho writes Aegyptiaca, ,text,False, , , , ,ਮੈਨੇਥੋ ਐਗਿਪਟਿਆਕਾ ਲਿਖਦਾ ਹੈ, , ,ਮੈਨੇਥੋ ਐਜਿਪਟੀਆਕਾ ਲਿਖਦਾ ਹੈ
+destruction_babylon,"ਵੱਡੀ ਬਾਬੁਲ ਦਾ ਵਿਨਾਸ਼ (ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"ਮਹਾਨ ਬਾਬਲ ਦੀ ਤਬਾਹੀ (ਪਰੋਕਸ਼ਨ 17:3, 15-18; 18:9, 10)", , ,"ਮਹਾਨ ਬਾਬਲ ਦਾ ਨਾਸ਼ (ਪ੍ਰਕਾਸ਼ ਦੀ ਪੋਥੀ 17:3, 15-18; 18:9, 10)"
+peace_security,"""ਸ਼ਾਂਤੀ ਅਤੇ ਸੁਰੱਖਿਆ!"" (1 ਥੱਸਲੁਨੀਕੀਆਂ 5:3, ਇਹ ਇੱਕ ਸੰਭਾਵਨਾ ਹੈ, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"""ਸ਼ਾਂਤੀ ਅਤੇ ਸੁਰੱਖਿਆ!"" (1 ਥੈਸਲੋਨੀਕੀ 5:3, ਇਹ ਇੱਕ ਸੰਭਾਵਨਾ ਹੈ, QfR 26/2, 25/11)", , ,"""ਸ਼ਾਂਤੀ ਅਤੇ ਸੁਰੱਖਿਆ!"" (1 ਥੱਸਲੁਨੀਕੀਆਂ 5:3, ਇਹ ਇੱਕ ਸੰਭਾਵਨਾ ਹੈ, QfR 26/2, 25/11)"
+gog_of_magog,"ਗੋਗ ਦੇ ਗੋਗ ਦੇ ਹਮਲੇ (ਹਿਜ਼ਕੀ 38: 1, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"ਮਾਗੋਗ ਦੇ ਗੋਗ ਦਾ ਹਮਲਾ (ਹਿਜ਼ਕੀਏਲ 38:1, 2, 9-12, 18-23)", , ,"ਮਾਗੋਗ ਦੇ ਗੋਗ ਦਾ ਹਮਲਾ (ਹਿਜ਼ਕੀਏਲ 38:1, 2, 9-12, 18-23)"
+sheep_goat,"ਧਰਤੀ ਦੇ ਵਸਨੀਕਾਂ ਦਾ ਨਿਆਂ, ਬੱਕਰੀਆਂ ਨੂੰ ਵੱਖ ਕਰਦਿਆਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ (ਮੱਤੀ 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"ਧਰਤੀ ਦੇ ਨਿਵਾਸੀਆਂ ਦਾ ਨਿਰਣਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਭੇਡਾਂ ਅਤੇ ਬੱਕਰੀਆਂ ਨੂੰ ਵੱਖ ਕੀਤਾ ਜਾਂਦਾ ਹੈ (ਮੱਤੀ 25:31-33)", , ,"ਧਰਤੀ ਦੇ ਵਾਸੀਆਂ ਦਾ ਨਿਆਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਭੇਡਾਂ ਅਤੇ ਬੱਕਰੀਆਂ ਨੂੰ ਵੱਖ ਕੀਤਾ ਜਾਂਦਾ ਹੈ (ਮੱਤੀ 25:31-33)"
+annointed,ਰਾਜ ਦੇ ਸ਼ਾਸਕਾਂ ਨੂੰ ਇਕੱਠਾ ਕਰਨਾ (ਮੱਤੀ 24:31; 1 ਕੁਰਿੰਥੀਆਂ 15: 50-53; 1 ਥੱਸਲੁਨੀਕੀਆਂ 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,ਰਾਜ ਦੇ ਸ਼ਾਸਕਾਂ ਦਾ ਇਕੱਠ (ਮੱਤੀ 24:31; 1 ਕੁਰਿੰਥੀ 15:50-53; 1 ਥੈਸਲੋਨੀਕੀ 4:15-17), , ,ਰਾਜ ਦੇ ਹਕੂਮਤਦਾਰਾਂ ਦੀ ਇਕੱਠ (ਮੱਤੀ 24:31; 1 ਕੁਰਿੰਥੀਆਂ 15:50-53; 1 ਥੱਸਲੁਨੀਕੀਆਂ 4:15-17)
+armageddon,"ਆਰਮਾਗੇਡਨ ਦੀ ਲੜਾਈ (ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ 16:14, 16; ਯਸਾਯਾਹ 13: 9; 2 ਪਤਰਸ 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"ਅਰਮਾਗੇਡੋਨ ਦੀ ਲੜਾਈ (ਪਰੋਕਸ਼ਨ 16:14, 16; ਯਸਾਯਾਹ 13:9; 2 ਪਤਰਸ 3:12)", , ,"ਅਰਮਾਗੇਡਨ ਦੀ ਲੜਾਈ (ਪ੍ਰਕਾਸ਼ ਦੀ ਪੋਥੀ 16:14, 16; ਯਸਾਯਾਹ 13:9; 2 ਪਤਰਸ 3:12)"
+millenium,"ਪਰਮੇਸ਼ੁਰ ਦਾ ਰਾਜ ਇਸ ਦੇ 1000-ਸਾਲ ਦੇ ਰਾਜ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ (ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"ਪਰਮੇਸ਼ਵਰ ਦਾ ਰਾਜ ਆਪਣੀ 1000-ਸਾਲਾ ਰਾਜ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ (ਪਰੋਕਸ਼ਨ 5:9, 10; 20:4, 6)", , ,"ਪਰਮੇਸ਼ੁਰ ਦੀ ਰਾਜਤੰਤਰ ਆਪਣਾ 1000 ਸਾਲਾਂ ਦਾ ਸ਼ਾਸਨ ਸ਼ੁਰੂ ਕਰਦੀ ਹੈ (ਪ੍ਰਕਾਸ਼ ਦੀ ਪੋਥੀ 5:9, 10; 20:4, 6)"
+great_crowd,"ਇਕ ਵੱਡੀ ਭੀੜ ਆਰਮਾਗੇਡਨ ਤੋਂ ਜੀਉਂਦੀ ਹੈ (ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ 7: 9, 14; ਜ਼ਬੂਰਾਂ ਦੀ ਪੋਥੀ 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"ਇੱਕ ਮਹਾਨ ਭੀੜ ਅਰਮਾਗੇਡੋਨ ਤੋਂ ਬਚ ਜਾਂਦੀ ਹੈ (ਪਰੋਕਸ਼ਨ 7:9, 14; ਜ਼ਬੂਰ 37:9-11)", , ,"ਇੱਕ ਵੱਡੀ ਭੀੜ ਅਰਮਾਗੇਡਨ ਤੋਂ ਬਚ ਜਾਂਦੀ ਹੈ (ਪ੍ਰਕਾਸ਼ ਦੀ ਪੋਥੀ 7:9, 14; ਜ਼ਬੂਰ 37:9-11)"
+world_population,ਪਿਛਲੇ 2000 ਸਾਲਾਂ ਵਿੱਚ ਅਰਬਾਂ ਦੀ ਵਿਸ਼ਵ ਆਬਾਦੀ,World population in billions in the last 2000 years,appendix B9,text,False, , , , ,ਪਿਛਲੇ 2000 ਸਾਲਾਂ ਵਿੱਚ ਅਰਬਾਂ ਵਿੱਚ ਵਿਸ਼ਵ ਆਬਾਦੀ, , ,ਪਿਛਲੇ 2000 ਸਾਲਾਂ ਵਿੱਚ ਦੁਨੀਆ ਦੀ ਆਬਾਦੀ ਅਰਬਾਂ ਵਿੱਚ
+khmer_empire_c,ਖਮੇਰ ਸਾਮਰਾਜ - ਐਂਗਕੋਰ ਪੀਰੀਅਡ,Khmer Empire - Angkor period, ,text,False, , , , ,ਖਮੇਰ ਸਾਮਰਾਜ - ਅੰਕੋਰ ਕਾਲ, , ,ਖਮੇਰ ਸਾਮਰਾਜ - ਅੰਗਕੋਰ ਯੁੱਗ
+holy_roman_empire_c,ਪਵਿੱਤਰ ਰੋਮਨ ਸਾਮਰਾਜ - 1512 ਤੋਂ ਬਾਅਦ ਜਰਮਨ ਕੌਮ ਦੇ ਪਵਿੱਤਰ ਰੋਮਨ ਸਾਮਰਾਜ ਵਜੋਂ ਜਾਣਿਆ ਜਾਂਦਾ ਸੀ,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,ਪਵਿੱਤਰ ਰੋਮਨ ਸਾਮਰਾਜ – 1512 ਤੋਂ ਬਾਅਦ ਜਰਮਨ ਕੌਮ ਦੇ ਪਵਿੱਤਰ ਰੋਮਨ ਸਾਮਰਾਜ ਵਜੋਂ ਜਾਣਿਆ ਜਾਂਦਾ ਹੈ, , ,ਪਵਿੱਤਰ ਰੋਮਨ ਸਾਮਰਾਜ – 1512 ਤੋਂ ਬਾਅਦ ਇਸਨੂੰ 'ਜਰਮਨ ਕੌਮ ਦਾ ਪਵਿੱਤਰ ਰੋਮਨ ਸਾਮਰਾਜ' ਵਜੋਂ ਜਾਣਿਆ ਜਾਂਦਾ ਸੀ।
+mongol_empire,ਮੋਂਗੋਲ ਐਂਪਾਇਰ 1206 - 1294 ਸੀ.ਈ.,Mongol Empire 1206 – 1294, ,text,False, , , , ,ਮੰਗੋਲ ਸਾਮਰਾਜ 1206 – 1294, , ,ਮੰਗੋਲ ਸਾਮਰਾਜ 1206 – 1294
+maya_classic_c,ਮਾਇਆ ਸਭਿਅਤਾ - ਕਲਾਸਿਕ ਅਵਧੀ,Maya civilization – Classic period, ,text,False, , , , ,ਮਾਇਆ ਸਭਿਅਤਾ – ਕਲਾਸਿਕ ਕਾਲ, , ,ਮਾਇਆ ਸਭਿਅਤਾ – ਕਲਾਸਿਕ ਯੁੱਗ
+maya_postclassic_c,ਮਾਇਆ ਸਭਿਅਤਾ - ਪੋਸਟ ਕਲਾਸਿਕ ਅਵਧੀ,Maya civilization – Postclassic period, ,text,False, , , , ,ਮਾਇਆ ਸਭਿਅਤਾ – ਪੋਸਟਕਲਾਸਿਕ ਕਾਲ, , ,ਮਾਇਆ ਸਭਿਅਤਾ – ਪੋਸਟਕਲਾਸਿਕ ਯੁੱਗ
+Teotihuacan,"ਅਮਰੀਕਾ ਵਿਚ ਸਭ ਤੋਂ ਵੱਡਾ ਸ਼ਹਿਰ, ਪਿਰਾਮਿਡ ਸੀ. 200 ਸੀ.ਈ.ਈ.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"ਅਮਰੀਕਾ ਦਾ ਸਭ ਤੋਂ ਵੱਡਾ ਸ਼ਹਿਰ, ਪਿਰਾਮਿਡ ਲਗਭਗ 200 ਸੰਨ ਈ. ਵਿੱਚ ਬਣੀਆਂ", , ,"ਅਮਰੀਕਾਵਾਂ ਦਾ ਸਭ ਤੋਂ ਵੱਡਾ ਸ਼ਹਿਰ, ਪਿਰਾਮਿਡ ਲਗਭਗ 200 ਈਸਵੀ ਵਿੱਚ ਬਣਾਏ ਗਏ।"
+Dionysius_Exiguus,"ਡਾਇਨੋਇਸਿਅਸ ਐਕਸਿਗੁਆਸ, ਐਨਨੋ ਡੋਮਿਮੀ ਦਾ ਖੋਜੀ","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"ਡਿਓਨੀਸੀਅਸ ਐਕਸੀਗੁਸ, ਐਨੋ ਡੋਮਿਨੀ ਦਾ ਖੋਜੀ", , ,"ਡਾਇਓਨਾਈਸੀਅਸ ਐਕਸੀਗਿਊਸ, ਐਨੋ ਡੋਮਿਨੀ ਦੇ ਆਵਿਸਕਾਰਕ"
+Umayyad_c,ਉਮੈਦ,Umayyad, ,text,False, , , , ,ਉਮੱਇਆ, , ,ਉਮਯਾਦ
+ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,ਉਰ III ਰਾਜਵੰਸ਼ 𒋀𒀕𒆠, , ,ਉਰ ਤੀਜਾ ਰਾਜਵੰਸ਼ 𒋀𒀕𒆠
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , ,ਹਮਨੁਰਾਬੀ 𒄩𒄠𒈬𒊏𒁉, , ,ਹਮੂਰਾਬੀ 𒄩𒄠𒈬𒊏𒁉
+Al-Khwarizmi,ਅਲ-ਜੇਵਰਮੀਜ਼ ਗਲਤ ਲਿਖਦਾ ਹੈ (ਅਲਜਬਰਾ),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,ਅਲ-ਖਵਾਰਿਜ਼ਮੀ ਅਲ-ਜਬਰ (ਅਲਜੈਬਰਾ) ਲਿਖਦਾ ਹੈ, , ,ਅਲ-ਖਵਾਰਿਜ਼ਮੀ ਨੇ ਅਲ-ਜਾਬਰ (ਜਾਬਰ) ਲਿਖਿਆ।
+al-azhar,ਅਲ-ਅਜ਼ਹਰ ਯੂਨੀਵਰਸਿਟੀ ਦੀ ਸਥਾਪਨਾ ਕਾਇਰੋ ਵਿੱਚ ਕੀਤੀ ਗਈ ਹੈ,Al-Azhar University is established in Cairo, ,text,False, , , , ,ਅਲ-ਅਜ਼ਹਰ ਯੂਨੀਵਰਸਿਟੀ ਕਾਹਿਰਾ ਵਿੱਚ ਸਥਾਪਿਤ ਕੀਤੀ ਗਈ, , ,ਅਲ-ਅਜ਼ਹਰ ਯੂਨੀਵਰਸਿਟੀ ਕਾਇਰੋ ਵਿੱਚ ਸਥਾਪਿਤ ਕੀਤੀ ਗਈ ਹੈ।
+Ibn-Sina,ਇਬਨ ਸਿਨਵਾ ਜਾਂ ਐਵੀਸਨਨਾ,Ibn Sina or Avicenna, ,text,False, , , , ,ਇਬਨ ਸੀਨਾ ਜਾਂ ਅਵੀਸੈਨਾ, , ,ਇਬਨ ਸਿਨਾ ਜਾਂ ਅਵਿਸੇਨਾ
 life-expectancy,75 ਸਾਲ ਦੀ ਉਮਰ,Life expectancy 75 years, ,text,False, , , , , , , ,ਉਮਰ 75 ਸਾਲ
 430years_c,"430 ਸਾਲ: ਕੂਚ 8:41, ਗਲਾਤੀਆਂ 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , ,"430 ਸਾਲ: ਨਿਕਾਸ 12:41, ਗਲਾਤੀਆਂ 3:17"
 maya_calendar,"11 ਅਗਸਤ, 3114 ਬੀ.ਸੀ. ਦੀ ਗਣਨਾ ਦੀ ਗਣਨਾ ਕੀਤੀ.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , ,"ਮਾਇਆ ਕੈਲੰਡਰ ਦੀ ਸ਼ੁਰੂਆਤ 11 ਅਗਸਤ, 3114 ਈਸਾ ਪੂਰਵ ਵਜੋਂ ਗਣਨਾ ਕੀਤੀ ਗਈ।"
