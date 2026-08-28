@@ -759,7 +759,7 @@ if __name__ == "__main__":
         exit()
     language = sys.argv[1]
     filename = "./dictionary_" + language + ".csv"
-    print(f"You want to translate to {language}.")
+    print(f"\n➡️  You want to translate to ➡️ {language}.")
 
     # Create dataframe and import reference dictionary
     dict = pd.DataFrame() # columns 'key', 'text' for english reference and 'notes' to compare, plus 'alternative' (not used)
@@ -780,9 +780,9 @@ if __name__ == "__main__":
     # automatic backoff+retry on 429 / rate-limit responses (RateLimitError).
     #
     # Step 10.1: google (googletrans, keyless) -> 'google' column
-    dict_translated = run_batched_provider(dict_translated, "google", language,
-                                           translate_google_batch, batch_size=20,
-                                           min_delay=0, max_retries=3)
+    # dict_translated = run_batched_provider(dict_translated, "google", language,
+    #                                        translate_google_batch, batch_size=20,
+    #                                        min_delay=0, max_retries=3)
     # Step 10.2: chatgpt via OpenRouter - ChatGPT/OpenAI models, free :free
     # model by default (no-credit account); modest pacing due to daily quota.
     dict_translated = run_batched_provider(dict_translated, "chatgpt", language,
@@ -790,16 +790,16 @@ if __name__ == "__main__":
                                            min_delay=3, max_retries=6)
     # Step 10.3: gemini (Google Gemini free tier) - ~5 req/min, hard daily
     # cap, so large batches (100 strings/request) + pacing + backoff.
-    dict_translated = run_batched_provider(dict_translated, "gemini", language,
-                                           translate_gemini_batch, batch_size=100,
-                                           min_delay=15, max_retries=10)
+    # dict_translated = run_batched_provider(dict_translated, "gemini", language,
+    #                                        translate_gemini_batch, batch_size=100,
+    #                                        min_delay=15, max_retries=10)
     # Step 10.4: claude (Anthropic Claude) - low RPM, pace to ~2/min.
-    dict_translated = run_batched_provider(dict_translated, "claude", language,
-                                           translate_claude_batch, batch_size=20,
-                                           min_delay=30, max_retries=5)
+    # dict_translated = run_batched_provider(dict_translated, "claude", language,
+    #                                        translate_claude_batch, batch_size=20,
+    #                                        min_delay=30, max_retries=5)
     # Step 10.5: deepl (DeepL, needs DEEPL_API_KEY) - native batch.
-    dict_translated = run_batched_provider(dict_translated, "deepl", language,
-                                           translate_deepl_batch)
+    # dict_translated = run_batched_provider(dict_translated, "deepl", language,
+    #                                        translate_deepl_batch)
     dict_translated.to_csv(filename, index=False)
 
     # Legacy single-string DeepL helper (replaced by 10.5 batch version above):
