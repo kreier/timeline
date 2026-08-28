@@ -549,73 +549,107 @@ def translate_google_batch(sources, target_lang):
         return None
 
 
+# Shared helper: builds the numbered list prompt used by the LLM providers
+# and parses their "one translation per line" replies back into a list.
+def _numbered_prompt(sources, target_lang):
+    return (f"You are a translator. Translate each of the following items "
+            f"to {target_lang}. Reply with the translations ONLY, one per "
+            f"line, in the SAME order and SAME count as given. Do not add "
+            f"any explanation, quotes, or numbering.\n"
+            + "\n".join(sources))
+
+
+def _parse_lines(reply):
+    lines = [ln.strip() for ln in str(reply).splitlines() if ln.strip()]
+    # Best effort: strip a leading "N. " numbering if the model added one.
+    out = []
+    for ln in lines:
+        if len(ln) > 3 and ln[0].isdigit() and ln[1:3] in (". ", ")"):
+            ln = ln[3:]
+        out.append(ln)
+    return out
+
+
 # ------------------------- 10.2 chatgpt (OpenAI) -------------------------
 # Depends on: pip install openai
 # Set the key via environment variable OPENAI_API_KEY.
 def translate_chatgpt_batch(sources, target_lang):
-    # import openai  # keep import local so the script runs without it installed
-    # client = openai.OpenAI()  # reads OPENAI_API_KEY from the environment
-    # resp = client.chat.completions.create(
-    #     model="gpt-4o-mini",
-    #     messages=[
-    #         {"role": "system",
-    #          "content": f"You are a translator. Translate each item to "
-    #                     f"{target_lang}. Reply with plain translations only, "
-    #                     f"one per line, same order, nothing else."},
-    #         {"role": "user",
-    #          "content": "\n".join(f"{i+1}. {s}" for i, s in enumerate(sources))},
-    #     ],
-    # )
-    # lines = [ln for ln in resp.choices[0].message.content.splitlines() if ln]
-    # # Strip the "1. " numbering prefixes if the model kept them.
-    # out = []
-    # for ln in lines:
-    #     out.append(ln.split(". ", 1)[1] if ". " in ln[:4] else ln)
-    # return out
-    print("  [10.2] chatgpt placeholder - not implemented yet.")
-    return None
+    if not os.getenv("OPENAI_API_KEY"):
+        print("  [10.2] OPENAI_API_KEY not set - skipping.")
+        return None
+    try:
+        import openai
+    except ImportError:
+        print("  [10.2] openai package not installed (pip install openai).")
+        return None
+    try:
+        client = openai.OpenAI()  # reads OPENAI_API_KEY from the environment
+        resp = client.chat.completions.create(
+            model="gpt-4o-mini",  # low-cost / free-tier friendly model
+            messages=[
+                {"role": "system",
+                 "content": f"You are a translator translating to {target_lang}."},
+                {"role": "user", "content": _numbered_prompt(sources, target_lang)},
+            ],
+            temperature=0.0,
+        )
+        return _parse_lines(resp.choices[0].message.content)
+    except Exception as e:
+        print(f"  [10.2] chatgpt batch error: {e}")
+        return None
 
 
 # ------------------------- 10.3 gemini (Google AI) -------------------------
-# Depends on: pip install google-generativeai
-# Set the key via environment variable GEMINI_API_KEY / GOOGLE_API_KEY.
+# Depends on: pip install google-genai
+# Set the key via environment variable GEMINI_API_KEY.
+# Uses the modern google.genai package (google-generativeai is deprecated).
 def translate_gemini_batch(sources, target_lang):
-    # import google.generativeai as genai
-    # genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-    # model = genai.GenerativeModel("gemini-1.5-flash")
-    # prompt = (f"Translate each item to {target_lang}. Reply with plain "
-    #           f"translations only, one per line, same order, nothing else.\n\n"
-    #           + "\n".join(f"{i+1}. {s}" for i, s in enumerate(sources)))
-    # resp = model.generate_content(prompt)
-    # lines = [ln for ln in resp.text.splitlines() if ln]
-    # out = [ln.split(". ", 1)[1] if ". " in ln[:4] else ln for ln in lines]
-    # return out
-    print("  [10.3] gemini placeholder - not implemented yet.")
-    return None
+    if not os.getenv("GEMINI_API_KEY"):
+        print("  [10.3] GEMINI_API_KEY not set - skipping.")
+        return None
+    try:
+        from google import genai
+    except ImportError:
+        print("  [10.3] google-genai package not installed (pip install google-genai).")
+        return None
+    try:
+        client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+        resp = client.models.generate_content(
+            model="gemini-3.6-flash",  # free-tier eligible model (2.0-flash retired)
+            contents=_numbered_prompt(sources, target_lang),
+        )
+        return _parse_lines(resp.text)
+    except Exception as e:
+        print(f"  [10.3] gemini batch error: {e}")
+        return None
 
 
 # ------------------------- 10.4 claude (Anthropic) -------------------------
 # Depends on: pip install anthropic
 # Set the key via environment variable ANTHROPIC_API_KEY.
 def translate_claude_batch(sources, target_lang):
-    # import anthropic
-    # client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from the env
-    # resp = client.messages.create(
-    #     model="claude-3-5-haiku-latest",
-    #     max_tokens=4000,
-    #     system=f"You are a translator. Translate each item to {target_lang}.",
-    #     messages=[
-    #         {"role": "user",
-    #          "content": "Reply with plain translations only, one per line, "
-    #                     "same order, nothing else.\n"
-    #                     + "\n".join(f"{i+1}. {s}" for i, s in enumerate(sources))}
-    #     ],
-    # )
-    # lines = [ln for ln in resp.content[0].text.splitlines() if ln]
-    # out = [ln.split(". ", 1)[1] if ". " in ln[:4] else ln for ln in lines]
-    # return out
-    print("  [10.4] claude placeholder - not implemented yet.")
-    return None
+    if not os.getenv("ANTHROPIC_API_KEY"):
+        print("  [10.4] ANTHROPIC_API_KEY not set - skipping.")
+        return None
+    try:
+        import anthropic
+    except ImportError:
+        print("  [10.4] anthropic package not installed (pip install anthropic).")
+        return None
+    try:
+        client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from the env
+        resp = client.messages.create(
+            model="claude-3-5-haiku-latest",  # fast, low-cost / free tier
+            max_tokens=4000,
+            system=f"You are a translator translating to {target_lang}.",
+            messages=[
+                {"role": "user", "content": _numbered_prompt(sources, target_lang)}
+            ],
+        )
+        return _parse_lines(resp.content[0].text)
+    except Exception as e:
+        print(f"  [10.4] claude batch error: {e}")
+        return None
 
 
 # ------------------------- 10.5 deepl -------------------------
@@ -668,13 +702,14 @@ if __name__ == "__main__":
 
     # Step 10.1 - 10.5: automated per-provider translation suggestions.
     # Each writes into its own column, keeping the reviewed 'text' column
-    # untouched. 10.5 (deepl) is active; the others remain commented out
-    # (placeholders). Each runs in batches of BATCH (20) strings.
+    # untouched. Each runs in batches of BATCH (20) strings. A provider whose
+    # API key is not set in the environment is skipped gracefully. 10.1
+    # (googletrans) is left commented out; the others are active.
     #
     # dict_translated = run_batched_provider(dict_translated, "google", language, translate_google_batch)
-    # dict_translated = run_batched_provider(dict_translated, "chatgpt", language, translate_chatgpt_batch)
-    # dict_translated = run_batched_provider(dict_translated, "gemini", language, translate_gemini_batch)
-    # dict_translated = run_batched_provider(dict_translated, "claude", language, translate_claude_batch)
+    dict_translated = run_batched_provider(dict_translated, "chatgpt", language, translate_chatgpt_batch)
+    dict_translated = run_batched_provider(dict_translated, "gemini", language, translate_gemini_batch)
+    dict_translated = run_batched_provider(dict_translated, "claude", language, translate_claude_batch)
     dict_translated = run_batched_provider(dict_translated, "deepl", language, translate_deepl_batch)
     dict_translated.to_csv(filename, index=False)
 
