@@ -39,7 +39,7 @@ import deepl
 # Initialize the DeepL client
 # Best practice: Store key in environment variable DEEPL_API_KEY
 DEEPL_KEY = os.getenv("DEEPL_API_KEY", "your-deepl-api-key-here")
-translator = deepl.Translator(DEEPL_KEY)
+translatorDL = deepl.DeepLClient(DEEPL_KEY)
 
 def check_existing(language, filename):
     global dict_translated, dict 
@@ -472,13 +472,13 @@ if __name__ == "__main__":
     # fill_missing_text(language, filename)
 
     # Step 10: fill missing 'google' suggestions via googletrans
-    fill_missing_google(language, filename)
+    # fill_missing_google(language, filename)
 
     # Stage 10.2: fill the 'deepl' column via DeepL.
     # NOTE: this still needs to be wired up to run_stage_10_2() (the DeepL
     # function defined above) rather than a googletrans call - left as-is
     # for now since it's a separate translation engine, outside the scope
     # of this googletrans clean-up.
-    print("\nStage 10.2: filling 'deepl' suggestions for tag == 'text' ...")
-    dict_translated = run_stage_10_2(dict_translated, target_col="deepl", target_lang=language)
-    dict_translated.to_csv(filename, index=False)
+    # print("\nStage 10.2: filling 'deepl' suggestions for tag == 'text' ...")
+    # dict_translated = run_stage_10_2(dict_translated, target_col="deepl", target_lang=language)
+    # dict_translated.to_csv(filename, index=False)
