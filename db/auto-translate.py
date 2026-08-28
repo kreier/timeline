@@ -227,8 +227,34 @@ def check_existing(language, filename):
         dict.loc[dict['key'] == 'version', 'english'].values
     dict_translated.loc[dict_translated['key'] == 'version', 'text'] = \
         dict.loc[dict['key'] == 'version', 'english'].values
-    dict_translated.loc[dict_translated['key'] == 'pdf_title', 'notes'] = \
-        dict.loc[dict['key'] == 'pdf_title', 'notes'].values
+    # Step 8.2a: pdf_title notes hold a YYYY-MM-DD date. Only overwrite the
+    # existing dictionary's value if the reference value is actually newer,
+    # so an already-updated/never dictionary is not regressed. The reference
+    # ('dict') value is always used when the translated dictionary has no date.
+    def _notes_date(value):
+        value = str(value).strip()
+        try:
+            return pd.Timestamp(value)
+        except (ValueError, TypeError):
+            return pd.NaT
+
+    ref_title_date = _notes_date(dict.loc[dict['key'] == 'pdf_title', 'notes'].iloc[0])
+    trans_title_key = dict_translated['key'] == 'pdf_title'
+    if not trans_title_key.any():
+        pass  # no pdf_title row in the translated dictionary, nothing to update
+    else:
+        trans_title_date = _notes_date(dict_translated.loc[trans_title_key, 'notes'].iloc[0])
+        if pd.isna(ref_title_date):
+            # Reference has no usable date: leave the existing value untouched.
+            pass
+        elif pd.isna(trans_title_date) or ref_title_date > trans_title_date:
+            # Translate dictionary has no date, or reference is strictly newer.
+            dict_translated.loc[trans_title_key, 'notes'] = \
+                dict.loc[dict['key'] == 'pdf_title', 'notes'].values
+        else:
+            print("Keeping the existing 'notes' date for 'pdf_title' "
+                  f"({dict_translated.loc[trans_title_key, 'notes'].iloc[0]}) "
+                  "as it is not older than the reference.")
 
     # Step 8.3: Compare the values in "english" between dict and dict_translated
     # Index both by 'key'
@@ -452,6 +478,153 @@ def run_stage_10_2(df, target_col="deepl", target_lang="VI"):
 
     return df
 
+
+# ---------------------------------------------------------------------------
+# Step 10: automated per-provider translation suggestions (10.1 - 10.5)
+# ---------------------------------------------------------------------------
+# Shared helper: collect the rows of 'df' that still need a translation for
+# `target_col`, then hand them to the provider functions in chunks of BATCH
+# strings. The providers in 10.1-10.5 are placeholders - fill in the real API
+# call and return a list of translated strings aligned with the input list,
+# or None for any chunk that the provider could not translate.
+BATCH = 20  # number of strings sent per API call
+
+def get_translation_batch(df, target_col, tag_filter="text"):
+    """
+    Return (indices, sources) for all rows of 'df' where tag matches
+    tag_filter, english is non-empty and target_col is missing/empty.
+    """
+    rows = df[
+        (df["tag"] == tag_filter) &
+        (df["english"].astype(str).str.strip().ne("")) &
+        (df[target_col].isna() | (df[target_col].astype(str).str.strip().eq("")))
+    ]
+    return list(rows.index), list(rows["english"].astype(str).str.strip())
+
+
+def run_batched_provider(df, target_col, target_lang, provider_callback):
+    """
+    Run provider_callback(sources_chunk, target_lang) for each chunk of up to
+    BATCH untranslated strings and write the results back into df[target_col].
+    provider_callback must return a list aligned with its input, or None.
+    """
+    indices, sources = get_translation_batch(df, target_col)
+    print(f"Found {len(indices)} rows to translate into '{target_col}'.")
+    total_chars = sum(len(s) for s in sources)
+    for start in range(0, len(sources), BATCH):
+        chunk_sources = sources[start:start + BATCH]
+        chunk_indices = indices[start:start + BATCH]
+        results = provider_callback(chunk_sources, target_lang)
+        if not results:
+            print(f"  chunk {start // BATCH}: provider returned nothing, skipping.")
+            continue
+        for idx, src, translated in zip(chunk_indices, chunk_sources, results):
+            text = str(translated).strip() if translated else ""
+            if text and text.lower() != src.lower():
+                df.at[idx, target_col] = text
+            else:
+                print(f"  [{idx}] unchanged/empty translation, skipping: '{src}'")
+    print(f"Processed {len(indices)} strings ({total_chars} characters) for '{target_col}'.")
+    return df
+
+
+# ------------------------- 10.1 google -------------------------
+# Placeholder: expects the (async) googletrans Translator; batch via
+# the async translate() over the chunk. Needs `asyncio` already imported.
+def translate_google_batch(sources, target_lang):
+    async def _run():
+        async with Translator() as translator:
+            results = await translator.translate(sources, src="en", dest=target_lang)
+            return [r.text for r in results] if results else None
+    try:
+        return asyncio.run(_run())
+    except Exception as e:
+        print(f"  google batch error: {e}")
+        return None
+
+
+# ------------------------- 10.2 chatgpt (OpenAI) -------------------------
+# Depends on: pip install openai
+# Set the key via environment variable OPENAI_API_KEY.
+def translate_chatgpt_batch(sources, target_lang):
+    # import openai  # keep import local so the script runs without it installed
+    # client = openai.OpenAI()  # reads OPENAI_API_KEY from the environment
+    # resp = client.chat.completions.create(
+    #     model="gpt-4o-mini",
+    #     messages=[
+    #         {"role": "system",
+    #          "content": f"You are a translator. Translate each item to "
+    #                     f"{target_lang}. Reply with plain translations only, "
+    #                     f"one per line, same order, nothing else."},
+    #         {"role": "user",
+    #          "content": "\n".join(f"{i+1}. {s}" for i, s in enumerate(sources))},
+    #     ],
+    # )
+    # lines = [ln for ln in resp.choices[0].message.content.splitlines() if ln]
+    # # Strip the "1. " numbering prefixes if the model kept them.
+    # out = []
+    # for ln in lines:
+    #     out.append(ln.split(". ", 1)[1] if ". " in ln[:4] else ln)
+    # return out
+    print("  [10.2] chatgpt placeholder - not implemented yet.")
+    return None
+
+
+# ------------------------- 10.3 gemini (Google AI) -------------------------
+# Depends on: pip install google-generativeai
+# Set the key via environment variable GEMINI_API_KEY / GOOGLE_API_KEY.
+def translate_gemini_batch(sources, target_lang):
+    # import google.generativeai as genai
+    # genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+    # model = genai.GenerativeModel("gemini-1.5-flash")
+    # prompt = (f"Translate each item to {target_lang}. Reply with plain "
+    #           f"translations only, one per line, same order, nothing else.\n\n"
+    #           + "\n".join(f"{i+1}. {s}" for i, s in enumerate(sources)))
+    # resp = model.generate_content(prompt)
+    # lines = [ln for ln in resp.text.splitlines() if ln]
+    # out = [ln.split(". ", 1)[1] if ". " in ln[:4] else ln for ln in lines]
+    # return out
+    print("  [10.3] gemini placeholder - not implemented yet.")
+    return None
+
+
+# ------------------------- 10.4 claude (Anthropic) -------------------------
+# Depends on: pip install anthropic
+# Set the key via environment variable ANTHROPIC_API_KEY.
+def translate_claude_batch(sources, target_lang):
+    # import anthropic
+    # client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from the env
+    # resp = client.messages.create(
+    #     model="claude-3-5-haiku-latest",
+    #     max_tokens=4000,
+    #     system=f"You are a translator. Translate each item to {target_lang}.",
+    #     messages=[
+    #         {"role": "user",
+    #          "content": "Reply with plain translations only, one per line, "
+    #                     "same order, nothing else.\n"
+    #                     + "\n".join(f"{i+1}. {s}" for i, s in enumerate(sources))}
+    #     ],
+    # )
+    # lines = [ln for ln in resp.content[0].text.splitlines() if ln]
+    # out = [ln.split(". ", 1)[1] if ". " in ln[:4] else ln for ln in lines]
+    # return out
+    print("  [10.4] claude placeholder - not implemented yet.")
+    return None
+
+
+# ------------------------- 10.5 deepl -------------------------
+# Depends on: pip install deepl
+# Set the key via environment variable DEEPL_API_KEY (client already defined
+# at the top as translatorDL). DeepL supports true batch translation natively.
+def translate_deepl_batch(sources, target_lang):
+    # lang = target_lang.upper()
+    # lang = "EN-US" if lang == "EN" else lang
+    # results = translatorDL.translate_text(sources, source_lang="EN", target_lang=lang)
+    # return [r.text for r in results]
+    print("  [10.5] deepl placeholder - not implemented yet.")
+    return None
+
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("You did not provide a language as argument. Put it as a parameter after the program name.")
@@ -474,11 +647,18 @@ if __name__ == "__main__":
     # Step 10: fill missing 'google' suggestions via googletrans
     # fill_missing_google(language, filename)
 
-    # Stage 10.2: fill the 'deepl' column via DeepL.
-    # NOTE: this still needs to be wired up to run_stage_10_2() (the DeepL
-    # function defined above) rather than a googletrans call - left as-is
-    # for now since it's a separate translation engine, outside the scope
-    # of this googletrans clean-up.
-    # print("\nStage 10.2: filling 'deepl' suggestions for tag == 'text' ...")
+    # Step 10.1 - 10.5: automated per-provider translation suggestions.
+    # Each writes into its own column, keeping the reviewed 'text' column
+    # untouched. The provider calls are commented out for now (placeholders).
+    # Each runs in batches of BATCH (20) strings.
+    #
+    # dict_translated = run_batched_provider(dict_translated, "google", language, translate_google_batch)
+    # dict_translated = run_batched_provider(dict_translated, "chatgpt", language, translate_chatgpt_batch)
+    # dict_translated = run_batched_provider(dict_translated, "gemini", language, translate_gemini_batch)
+    # dict_translated = run_batched_provider(dict_translated, "claude", language, translate_claude_batch)
+    # dict_translated = run_batched_provider(dict_translated, "deepl", language, translate_deepl_batch)
+    # dict_translated.to_csv(filename, index=False)
+
+    # Legacy single-string DeepL helper (replaced by 10.5 batch version above):
     # dict_translated = run_stage_10_2(dict_translated, target_col="deepl", target_lang=language)
     # dict_translated.to_csv(filename, index=False)
