@@ -3,6 +3,12 @@ name: Approve Translation Submission
 on:
   issue_comment:
     types: [created]
+  workflow_dispatch:
+    inputs:
+      lang:
+        description: 'Language code (e.g. nl, de)'
+        required: false
+        type: string
 
 # Guarantees jobs process one at a time sequentially instead of racing each other
 concurrency:
@@ -11,12 +17,16 @@ concurrency:
 
 jobs:
   approve-and-apply:
+    # Update 'if' to allow manual execution OR comment triggers
     if: |
-      github.event.issue.pull_request == null &&
-      (startsWith(github.event.comment.body, '/approve') || startsWith(github.event.comment.body, '/approved')) &&
-      (github.event.comment.author_association == 'OWNER' ||
-       github.event.comment.author_association == 'MEMBER' ||
-       github.event.comment.author_association == 'COLLABORATOR')
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event.issue.pull_request == null &&
+        (startsWith(github.event.comment.body, '/approve') || startsWith(github.event.comment.body, '/approved')) &&
+        (github.event.comment.author_association == 'OWNER' ||
+         github.event.comment.author_association == 'MEMBER' ||
+         github.event.comment.author_association == 'COLLABORATOR')
+       )
     runs-on: ubuntu-latest
     permissions:
       contents: write
