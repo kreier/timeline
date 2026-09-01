@@ -19,12 +19,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Apply translation updates to CSV
         id: apply_changes
@@ -108,7 +108,7 @@ jobs:
           git push origin main
 
       - name: Close Issue with Confirmation
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const comment = `✅ **Approved and Applied!**\n\nUpdated **${{ steps.apply_changes.outputs.count }}** entries in \`db/dictionary_${{ steps.apply_changes.outputs.lang }}.csv\` (contributed by *${{ steps.apply_changes.outputs.editor }}*).\n\nCommit pushed to \`main\`.`;
