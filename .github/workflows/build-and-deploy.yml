@@ -5,6 +5,10 @@ on:
     branches:
       - main
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Approve Translation Submission"]
+    types:
+      - completed
 
 permissions:
   contents: read
