@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # ───────────────────────────────────────────── 
+    # Generate token for kreier repositories 
+    # ─────────────────────────────────────────────    
+    
       - name: Generate update-timeline App token
         id: app-token
         uses: actions/create-github-app-token@v3
@@ -18,6 +22,38 @@ jobs:
           repositories: |
             dictionary
 
+    # ───────────────────────────────────────────── 
+    # Generate token for timeline24 repositories 
+    # ───────────────────────────────────────────── 
+    
+      - name: Generate update-timeline App token for timeline24 
+        id: app-token-timeline24 
+        uses: actions/create-github-app-token@v2 
+        with: 
+          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }} 
+          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }} 
+          owner: timeline24 
+          repositories: | 
+            timeline24.github.io 
+            
+    # ───────────────────────────────────────────── 
+    # Generate token for timeline25 repositories 
+    # ─────────────────────────────────────────────
+    
+      - name: Generate update-timeline App token for timeline25 
+        id: app-token-timeline25 
+        uses: actions/create-github-app-token@v2 
+        with: 
+          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }} 
+          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }} 
+          owner: timeline25 
+          repositories: | 
+            timeline25.github.io 
+            
+    # ───────────────────────────────────────────── 
+    # Trigger dictionary 
+    # ─────────────────────────────────────────────
+
       - name: Trigger dictionary update
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
@@ -26,6 +62,36 @@ jobs:
             -f event_type=timeline-updated \
             -f client_payload[repository]=kreier/timeline \
             -f client_payload[test]=true
+            
+      # ─────────────────────────────────────────────
+      # Trigger Timeline24
+      # ─────────────────────────────────────────────
+
+      - name: Trigger Timeline24 update
+        env:
+          GH_TOKEN: ${{ steps.app-token-timeline24.outputs.token }}
+        run: |
+          gh api repos/timeline24/timeline24.github.io/dispatches \
+            -f event_type=timeline-updated \
+            -f client_payload[repository]=kreier/timeline \
+            -f client_payload[test]=true
+
+      # ─────────────────────────────────────────────
+      # Trigger Timeline25
+      # ─────────────────────────────────────────────
+
+      - name: Trigger Timeline25 update
+        env:
+          GH_TOKEN: ${{ steps.app-token-timeline25.outputs.token }}
+        run: |
+          gh api repos/timeline25/timeline25.github.io/dispatches \
+            -f event_type=timeline-updated \
+            -f client_payload[repository]=kreier/timeline \
+            -f client_payload[test]=true
+
+      # ─────────────────────────────────────────────
+      # Final result
+      # ─────────────────────────────────────────────
 
       - name: Test successful
         run: |
