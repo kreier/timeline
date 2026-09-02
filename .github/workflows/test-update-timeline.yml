@@ -1,0 +1,32 @@
+name: Test update-timeline App
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-dispatch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate update-timeline App token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
+          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
+          owner: kreier
+          repositories: |
+            dictionary
+
+      - name: Trigger dictionary update
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          gh api repos/kreier/dictionary/dispatches \
+            -f event_type=timeline-updated \
+            -f client_payload[repository]=kreier/timeline \
+            -f client_payload[test]=true
+
+      - name: Test successful
+        run: |
+          echo "✅ repository_dispatch sent successfully to kreier/dictionary"
