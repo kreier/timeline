@@ -33,6 +33,10 @@ jobs:
       issues: write
 
     steps:
+      # ------------------------------------------------------------ 
+      # App 1: dictionary-update 
+      # Used for checkout and committing changes to kreier/timeline 
+      # ------------------------------------------------------------
       - name: Generate GitHub App token
         id: app-token
         uses: actions/create-github-app-token@v3
@@ -52,6 +56,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      # ------------------------------------------------------------ 
+      # Apply approved translations 
+      # ------------------------------------------------------------
       - name: Apply translation updates to CSV
         id: apply_changes
         env:
@@ -125,6 +132,9 @@ jobs:
               gh_out.write(f"editor={editor}\n")
           EOF
 
+      # ------------------------------------------------------------ 
+      # Commit and push to kreier/timeline 
+      # ------------------------------------------------------------
       - name: Commit and push changes
         run: |
           git config user.name "dictionary-update[bot]"
@@ -137,11 +147,86 @@ jobs:
           git push origin main
           
 
+      # ------------------------------------------------------------
+      # App 2: update-timeline
+      # Generate installation tokens for the three downstream owners
+      # ------------------------------------------------------------
+      - name: Generate update-timeline token for kreier
+        id: update-token-kreier
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
+          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
+          owner: kreier
+          repositories: |
+            dictionary
+
+      - name: Generate update-timeline token for timeline24
+        id: update-token-timeline24
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
+          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
+          owner: timeline24
+          repositories: |
+            timeline24.github.io
+
+      - name: Generate update-timeline token for timeline25
+        id: update-token-timeline25
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
+          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
+          owner: timeline25
+          repositories: |
+            timeline25.github.io
+
+      # ------------------------------------------------------------
+      # Trigger downstream updates
+      # These run only after the timeline commit succeeded.
+      # ------------------------------------------------------------
+      - name: Trigger dictionary update
+        env:
+          GH_TOKEN: ${{ steps.update-token-kreier.outputs.token }}
+        run: |
+          gh api repos/kreier/dictionary/dispatches \
+            -f event_type=timeline-updated \
+            -f client_payload[repository]=kreier/timeline
+
+      - name: Trigger Timeline24 update
+        env:
+          GH_TOKEN: ${{ steps.update-token-timeline24.outputs.token }}
+        run: |
+          gh api repos/timeline24/timeline24.github.io/dispatches \
+            -f event_type=timeline-updated \
+            -f client_payload[repository]=kreier/timeline
+
+      - name: Trigger Timeline25 update
+        env:
+          GH_TOKEN: ${{ steps.update-token-timeline25.outputs.token }}
+        run: |
+          gh api repos/timeline25/timeline25.github.io/dispatches \
+            -f event_type=timeline-updated \
+            -f client_payload[repository]=kreier/timeline
+
+      # ------------------------------------------------------------
+      # Close issue and report success
+      # ------------------------------------------------------------
       - name: Close Issue with Confirmation
         uses: actions/github-script@v9
         with:
           script: |
-            const comment = `✅ **Approved and Applied!**\n\nUpdated **${{ steps.apply_changes.outputs.count }}** entries in \`db/dictionary_${{ steps.apply_changes.outputs.lang }}.csv\` (contributed by *${{ steps.apply_changes.outputs.editor }}*).\n\nCommit pushed to \`main\`.`;
+            const comment = `✅ **Approved and Applied!** 
+            
+            Updated **${{ steps.apply_changes.outputs.count }}** entries in \`db/dictionary_${{ steps.apply_changes.outputs.lang }}.csv\` (contributed by *${{ steps.apply_changes.outputs.editor }}*). 
+            
+            Commit pushed to \`main\`. 
+            
+            Downstream updates triggered: 
+            - \`kreier/dictionary\` 
+            - \`timeline24/timeline24.github.io\` 
+            - \`timeline25/timeline25.github.io\``;
+            
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -165,33 +250,3 @@ jobs:
         id: timeline_commit
         run: |
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-
-      - name: Generate update-timeline token for timeline24
-        id: update-token-timeline24
-        uses: actions/create-github-app-token@v3
-        with:
-          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
-          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
-          owner: timeline24
-          repositories: |
-            timeline24.github.io
-
-      - name: Generate update-timeline token for timeline25
-        id: update-token-timeline25
-        uses: actions/create-github-app-token@v3
-        with:
-          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
-          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
-          owner: timeline25
-          repositories: |
-            timeline25.github.io
-
-      - name: Generate update-timeline token for kreier
-        id: update-token-kreier
-        uses: actions/create-github-app-token@v3
-        with:
-          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
-          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
-          owner: kreier
-          repositories: |
-            dictionary
