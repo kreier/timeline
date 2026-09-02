@@ -33,8 +33,19 @@ jobs:
       issues: write
 
     steps:
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.DICTIONARY_UPDATE_APP_ID }}
+          private-key: ${{ secrets.DICTIONARY_UPDATE_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: timeline
+
       - name: Checkout repository
         uses: actions/checkout@v7
+        with:
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v7
@@ -116,8 +127,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "dictionary-update[bot]"
+          git config user.email "4801970+dictionary-update[bot]@users.noreply.github.com"
           git add db/dictionary_${{ steps.apply_changes.outputs.lang }}.csv
           git commit -m "Update dictionary_${{ steps.apply_changes.outputs.lang }}.csv (${{ steps.apply_changes.outputs.count }} entries approved by ${{ github.event.comment.user.login }})"
           
