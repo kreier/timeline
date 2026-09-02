@@ -16,7 +16,7 @@ jobs:
         id: app-token
         uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
+          client-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
           private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
           owner: kreier
           repositories: |
@@ -28,9 +28,9 @@ jobs:
     
       - name: Generate update-timeline App token for timeline24 
         id: app-token-timeline24 
-        uses: actions/create-github-app-token@v2 
+        uses: actions/create-github-app-token@v3
         with: 
-          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }} 
+          client-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }} 
           private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }} 
           owner: timeline24 
           repositories: | 
@@ -42,9 +42,9 @@ jobs:
     
       - name: Generate update-timeline App token for timeline25 
         id: app-token-timeline25 
-        uses: actions/create-github-app-token@v2 
+        uses: actions/create-github-app-token@v3
         with: 
-          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }} 
+          client-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }} 
           private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }} 
           owner: timeline25 
           repositories: | 
