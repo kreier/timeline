@@ -160,3 +160,38 @@ jobs:
               issue_number: context.issue.number,
               state: 'closed'
             });
+            
+      - name: Get Timeline commit SHA
+        id: timeline_commit
+        run: |
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Generate update-timeline token for timeline24
+        id: update-token-timeline24
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
+          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
+          owner: timeline24
+          repositories: |
+            timeline24.github.io
+
+      - name: Generate update-timeline token for timeline25
+        id: update-token-timeline25
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
+          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
+          owner: timeline25
+          repositories: |
+            timeline25.github.io
+
+      - name: Generate update-timeline token for kreier
+        id: update-token-kreier
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
+          private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
+          owner: kreier
+          repositories: |
+            dictionary
