@@ -33,8 +33,19 @@ jobs:
       issues: write
 
     steps:
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.DICTIONARY_UPDATE_APP_ID }}
+          private-key: ${{ secrets.DICTIONARY_UPDATE_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: timeline
+
       - name: Checkout repository
         uses: actions/checkout@v7
+        with:
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v7
