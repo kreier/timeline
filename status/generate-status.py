@@ -67,6 +67,11 @@ TAG_GROUP_LABELS = {
 # excluded from every percentage.
 IGNORED_TAGS = {"float"}
 
+# Rows with these keys are excluded from every percentage.
+# "age_kings" is intentionally empty in most languages (it's a
+# conditional label: "years" vs "year" depending on the numeral).
+IGNORED_KEYS = {"age_kings"}
+
 # The machine-translation columns to report on.
 AI_COLUMNS = ["google", "chatgpt", "gemini", "claude", "deepl"]
 AI_COLUMN_LABELS = {
@@ -134,6 +139,7 @@ def analyze_dictionary(path):
         r
         for r in read_csv_rows(path)
         if (r.get("tag") or "").strip().lower() not in IGNORED_TAGS
+        and (r.get("key") or "").strip() not in IGNORED_KEYS
     ]
 
     group_stats = {}

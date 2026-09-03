@@ -37,6 +37,9 @@ Every dictionary row has a `tag` that falls into one of these groups:
 
 Rows with tag `float` (like the version row) are excluded from percentages.
 
+**Ignored keys:**
+- `age_kings` - Intentionally empty in most languages (conditional label: "years" vs "year" depending on the numeral)
+
 ## CSV Schema (dictionary_*.csv)
 
 ```csv
