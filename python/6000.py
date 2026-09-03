@@ -9,7 +9,7 @@ import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix
 import datetime, sys, os, asyncio, math, qrcode
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 6.06
+version  = 6.08
 language = "en"
 language_str = "English"
 color_scheme = "rgb"
@@ -1104,16 +1104,16 @@ def checkForValidLanguageCode(langCode):
 async def translate_dictionary(dictionary, language):
     global number_characters
     async with googletrans.Translator() as translator:
-        for index, row in dict.iterrows(): # with 3 columns 'key' 'text' and 'english'
-            english_text = row.english
+        for index, row in dictionary.iterrows(): # with 3 columns 'key' 'text' and 'english'
+            english_text = row["english"]
             number_characters += len(str(english_text))
             if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
                 result = await translator.translate(english_text, src='en', dest=language)
-                dict.at[index, 'text'] = result.text
+                dictionary.at[index, 'text'] = result.text
                 print(f'{index}: {english_text} - {result.text}')
 
 def create_dictionary(target_language):
-    global dict, language, number_characters
+    global dict, number_characters
     filename = "../db/dictionary_" + target_language + ".csv"
     if os.path.isfile(filename):
         print(f"A dictionary file {filename} already exists. Delete it if you want to create a new Google translated file.")
@@ -1129,7 +1129,12 @@ def create_dictionary(target_language):
     print("\nTranslating ...")
     # start with asyncio since googletrans 4.x is async
     number_characters = 0      # you can translate up to 500,000 characters per month for free
-    asyncio.run(translate_dictionary(dict, language)) # translate the dictionary
+    # The code below is currently not working, googletrans returns just the English text, not the translation. 
+    # It seems that Google Translate has changed its API and googletrans is not working properly anymore. 
+    # You might need to use a different library or API for translation.
+
+    # asyncio.run(translate_dictionary(dict, target_language)) # translate the dictionary
+
     print(dict)
     print("Exporting ...")
     dict.to_csv(filename, index=False)
