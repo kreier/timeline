@@ -197,6 +197,49 @@ def analyze_dictionary(path):
     }
 
 
+def analyze_contributions(matched, files):
+    """Aggregate checked_by statistics across all dictionaries.
+
+    Returns a dict keyed by reviewer name, each value containing:
+      - count: number of entries where checked=TRUE and checked_by matches
+      - dates: list of date strings (YYYY-MM-DD format)
+      - languages: sorted list of language keys contributed to
+      - date_range: formatted string "earliest to latest"
+    """
+    contributors = {}
+
+    for key in matched:
+        rows = read_csv_rows(files[key])
+        for row in rows:
+            if is_true(row.get("checked")):
+                name = (row.get("checked_by") or "").strip()
+                date = (row.get("date") or "").strip()
+                if name:  # Only count attributed reviews
+                    if name not in contributors:
+                        contributors[name] = {
+                            "count": 0,
+                            "dates": [],
+                            "languages": set(),
+                        }
+                    contributors[name]["count"] += 1
+                    if date:
+                        contributors[name]["dates"].append(date)
+                    contributors[name]["languages"].add(key)
+
+    # Convert sets to sorted lists and compute date ranges
+    for name in contributors:
+        dates = sorted(contributors[name]["dates"])
+        contributors[name]["languages"] = sorted(
+            contributors[name]["languages"]
+        )
+        if dates:
+            contributors[name]["date_range"] = f"{dates[0]} to {dates[-1]}"
+        else:
+            contributors[name]["date_range"] = "unknown"
+
+    return contributors
+
+
 def color_for_percent(pct):
     """Interpolate red (0%) -> yellow (50%) -> green (100%) as a hex color."""
     if pct is None:
@@ -316,6 +359,57 @@ def build_markdown_table(matched, supported, results):
     return "\n".join(lines)
 
 
+def build_contributions_html(contributors):
+    """HTML table for index.md with styled contributor stats."""
+    if not contributors:
+        return ""
+
+    rows = []
+    for name in sorted(contributors.keys(), key=lambda x: -contributors[x]["count"]):
+        c = contributors[name]
+        langs = ", ".join(c["languages"][:5])
+        if len(c["languages"]) > 5:
+            langs += f" (+{len(c['languages'])-5} more)"
+        rows.append(f"""<tr>
+<td>{name}</td>
+<td style="text-align:center;">{c['count']}</td>
+<td>{c['date_range']}</td>
+<td>{langs}</td>
+</tr>""")
+
+    return f"""
+### Translation Reviewers
+
+<table>
+<thead><tr><th>Reviewer</th><th>Contributions</th><th>Date Range</th><th>Languages</th></tr></thead>
+<tbody>
+{"".join(rows)}
+</tbody>
+</table>
+"""
+
+
+def build_contributions_markdown(contributors):
+    """Markdown table for README.md."""
+    if not contributors:
+        return ""
+
+    lines = [
+        "### Translation Reviewers\n",
+        "| Reviewer | Contributions | Date Range | Languages |",
+        "|----------|---------------|------------|-----------|",
+    ]
+
+    for name in sorted(contributors.keys(), key=lambda x: -contributors[x]["count"]):
+        c = contributors[name]
+        langs = ", ".join(c["languages"][:5])
+        if len(c["languages"]) > 5:
+            langs += f" (+{len(c['languages'])-5} more)"
+        lines.append(f"| {name} | {c['count']} | {c['date_range']} | {langs} |")
+
+    return "\n".join(lines) + "\n"
+
+
 def build_consistency_section(missing_files, orphaned_files):
     if not missing_files and not orphaned_files:
         return ""
@@ -368,6 +462,8 @@ def generate_content():
         for key in matched
     }
 
+    contributors = analyze_contributions(matched, files)
+
     consistency_section = build_consistency_section(
         missing_files,
         orphaned_files,
@@ -395,6 +491,9 @@ def generate_content():
         supported,
         results,
     )
+
+    contributions_html = build_contributions_html(contributors)
+    contributions_md = build_contributions_markdown(contributors)
 
     html_content = f"""<style>
 /* Widen the GitHub Pages (primer theme) content area so the wide
@@ -430,6 +529,7 @@ This page is automatically generated.
 {consistency_section}
 
 {html_table}
+{contributions_html}
 """
 
     md_content = f"""# Timeline status
@@ -440,6 +540,7 @@ This page is automatically generated.
 {consistency_section}
 
 {md_table}
+{contributions_md}
 """
 
     return html_content, md_content
@@ -481,9 +582,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-# Create status/index.md
-# Create status/timeline24.md
-# Create status/timeline25.md
