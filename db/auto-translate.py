@@ -798,8 +798,8 @@ if __name__ == "__main__":
     #                                        translate_claude_batch, batch_size=20,
     #                                        min_delay=30, max_retries=5)
     # Step 10.5: deepl (DeepL, needs DEEPL_API_KEY) - native batch.
-    # dict_translated = run_batched_provider(dict_translated, "deepl", language,
-    #                                        translate_deepl_batch)
+    dict_translated = run_batched_provider(dict_translated, "deepl", language,
+                                           translate_deepl_batch)
     dict_translated.to_csv(filename, index=False)
 
     # Legacy single-string DeepL helper (replaced by 10.5 batch version above):
