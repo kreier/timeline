@@ -1,7 +1,7 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08,6.01,float,True, , , , , , , , 
-pdf_title,6000 jaar menselijke geschiedenis in beeld,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , ,6000 jaar menselijke geschiedenis – een tijdlijn,6.000 jaar menselijke geschiedenis — Een tijdlijn, , ,6.000 jaar menselijke geschiedenis — Een tijdlijn
-pdf_subject,Tijdlijn van de mensheid,Timeline of human history from 4000 BCE to present,6.01,text,False, , , ,Chronologie van de menselijke geschiedenis van 4000 v.Chr. tot heden,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden, , ,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden
+pdf_title,6.000 jaar menselijke geschiedenis — Een tijdlijn,"6,000 Years of Human History — A Timeline",2026-08-26,text,True,Matthias,2026-09-04, ,6000 jaar menselijke geschiedenis – een tijdlijn,6.000 jaar menselijke geschiedenis — Een tijdlijn, , ,6.000 jaar menselijke geschiedenis — Een tijdlijn
+pdf_subject,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden,Timeline of human history from 4000 BCE to present,6.01,text,True,Matthias,2026-09-04, ,Chronologie van de menselijke geschiedenis van 4000 v.Chr. tot heden,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden, , ,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden
 BCE,v.Chr.,B.C.E.,appendix B9,B9,True, , , , , , , , 
 CE,n.Chr.,C.E., ,B9,True, , , , , , , , 
 month,maand,month, ,text,False, , , ,maand,maand, , ,maand
