@@ -24,7 +24,7 @@ jobs:
       # ------------------------------------------------------------
       - name: Generate update-timeline token for kreier
         id: update-token-kreier
-        uses: actions/create-github-app-token@v2
+        uses: actions/create-github-app-token@v3
         with:
           app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
           private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
@@ -34,7 +34,7 @@ jobs:
 
       - name: Generate update-timeline token for timeline24
         id: update-token-timeline24
-        uses: actions/create-github-app-token@v2
+        uses: actions/create-github-app-token@v3
         with:
           app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
           private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
@@ -44,7 +44,7 @@ jobs:
 
       - name: Generate update-timeline token for timeline25
         id: update-token-timeline25
-        uses: actions/create-github-app-token@v2
+        uses: actions/create-github-app-token@v3
         with:
           app-id: ${{ secrets.UPDATE_TIMELINE_APP_ID }}
           private-key: ${{ secrets.UPDATE_TIMELINE_PRIVATE_KEY }}
