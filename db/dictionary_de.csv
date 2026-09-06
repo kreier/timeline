@@ -1,15 +1,15 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
-version,6.08,6.08, ,float,True, , , , , , , , 
+version,6.08,6.08, ,float,True,Matthias,2026-08-30, , , , , , 
 pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,"6,000 Years of Human History — A Timeline",2026-08-30,text,True,Matthias,2026-08-30, ,"6,000 Years of Human History — A Timeline",6000 Jahre Menschheitsgeschichte – Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte – Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte — Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte – Eine Zeitleiste
 pdf_subject,Chronik der Menschheitsgeschichte von 4026 v. Chr. bis zur Gegenwart,Timeline of human history from 4000 BCE to present, ,text,True,Matthias,2026-08-30, ,Timeline of human history from 4000 BCE to present,Zeitleiste der Menschheitsgeschichte von 4000 v. Chr. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. u. Z. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. u. Z. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. Chr. bis heute
-BCE,v.u.Z.,B.C.E.,appendix B9,B9,True,Matthias,2026-05-01, ,v. u. Z., , ,v. u. Z., 
-CE,u.Z.,C.E., ,B9,True,Matthias,2026-05-01, ,u. Z., , ,u. Z., 
-month,Monat,month, ,text,True,Matthias,2026-05-01, ,Monat,Monat,Monat,Monat,Monat
-months,Monate,months, ,text,True,Matthias,2026-05-01, ,Monate,Monate,Monate,Monate,Monate
-day,Tag,day, ,text,True,Matthias,2026-05-01, ,Tag,Tag,Tag,Tag,Tag
-days,Tage,days, ,text,True,Matthias,2026-05-01, ,Tage,Tage,Tage,Tage,Tage
-to,bis,to, ,text,True,Matthias,2026-05-01, ,bis,bis,bis,bis,zu
-Deluge,Sintflut,Deluge, ,text,True,Matthias,2026-05-01, ,Sintflut,Sintflut,Sintflut,Sintflut,Sintflut
+BCE,v.u.Z.,B.C.E.,appendix B9,B9,True,Matthias,2023-10-10, ,v. u. Z., , ,v. u. Z., 
+CE,u.Z.,C.E., ,B9,True,Matthias,2023-10-10, ,u. Z., , ,u. Z., 
+month,Monat,month, ,text,True,Matthias,2023-10-10, ,Monat,Monat,Monat,Monat,Monat
+months,Monate,months, ,text,True,Matthias,2023-10-10, ,Monate,Monate,Monate,Monate,Monate
+day,Tag,day, ,text,True,Matthias,2023-10-10, ,Tag,Tag,Tag,Tag,Tag
+days,Tage,days, ,text,True,Matthias,2023-10-10, ,Tage,Tage,Tage,Tage,Tage
+to,bis,to, ,text,True,Matthias,2023-10-10, ,bis,bis,bis,bis,zu
+Deluge,Sintflut,Deluge, ,text,True,Matthias,2023-10-10, ,Sintflut,Sintflut,Sintflut,Sintflut,Sintflut
 moses2,1593 bis 1473 v.u.Z. – 120 Jahre,1593 to 1473 B.C.E. – 120 years, ,text,True,Matthias,2026-05-01, ,1593 bis 1473 v. u. Z. – 120 Jahre,1593 bis 1473 v. Chr. – 120 Jahre,1593 bis 1473 v. u. Z. – 120 Jahre,1593 bis 1473 v. u. Z. – 120 Jahre,1593 bis 1473 v. Chr. – 120 Jahre
 temple1,Nisan 1513 v.u.Z bis Ziv 1034 v.u.Z.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,True,Matthias,2026-05-01, ,Nisan 1513 v. u. Z. bis Siw 1034 v. u. Z.,Nisan 1513 v. Chr. bis Siw 1034 v. Chr.,Nisan 1513 v. u. Z. bis Siw 1034 v. u. Z.,Nisan 1513 v. u. Z. bis Siw 1034 v. u. Z.,1513 v. u. Z. (Nisan) bis 1034 v. u. Z. (Ziv)
 69weeks,Jesus getauft im Herbst 29 u.Z,Jesus baptized autumn 29 C.E., ,text,True,Matthias,2026-05-01, ,Taufe Jesu im Herbst 29 u. Z.,Jesus im Herbst 29 u. Z. getauft,Jesus getauft im Herbst 29 u. Z.,Jesus im Herbst 29 u. Z. getauft,Jesus taufte im Herbst des Jahres 29 n. Chr.
