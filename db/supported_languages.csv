@@ -21,9 +21,9 @@ eu,Basque,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Basque(*** no dictionary yet ***),18,1
 btx,Batak Karo,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Batak Karo(*** no dictionary yet ***),19,20
 bts,Batak Simalungun,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Batak Simalungun(*** no dictionary yet ***),20,21
 bbc,Batak Toba,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Batak Toba(*** no dictionary yet ***),21,22
-be,Belarusian,TRUE,,,,ltr,,10,15,0,FALSE,0,1,Belarusian (беларуская),22,23
+be,Belarusian,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Belarusian (беларуская),22,23
 bem,Bemba,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Bemba(*** no dictionary yet ***),23,24
-bn,Bengali,TRUE,,,,ltr,,10,15,0,FALSE,0,1,Bengali (বাংলা),24,25
+bn,Bengali,TRUE,TRUE,Beng,bn,ltr,NotoBengali,10,15,0,FALSE,0,1,Bengali (বাংলা),24,25
 bew,Betawi,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Betawi(*** no dictionary yet ***),25,26
 bho,Bhojpuri,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Bhojpuri(*** no dictionary yet ***),26,27
 bik,Bikol,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Bikol(*** no dictionary yet ***),27,28
