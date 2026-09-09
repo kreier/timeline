@@ -7,3 +7,6 @@
 # Do not sync environment variables and settings
 .env
 *.env
+
+# Automatically generated QR codes
+/images/qr*.png
