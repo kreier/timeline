@@ -6,6 +6,8 @@ from fpdf import FPDF
 from PIL import Image
 import pandas as pd
 import googletrans # it works again with v4.0.2 since 2024-11-20 that should fix many problems
+import httpx
+from httpx_curl_cffi import AsyncCurlTransport # for googletrans v4.0.2 to avoid the 429 error "Too many requests" from Google Translate
 import datetime, sys, os, asyncio, math, qrcode
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
@@ -1064,34 +1066,6 @@ def zoomhack(): # insert /UserUnit hack to increase max zoom by 10x
     with open(filename, "wb") as f:
         f.write(content)
 
-def create_timeline(lang, edition):
-    global language
-    language = lang
-    initiate_counters()
-    import_dictionary()
-    import_colors("rgb")
-    create_canvas(edition)
-    create_horizontal_axis()
-    create_adam_moses()
-    create_reference_events()
-    create_events_objects()
-    create_judges()
-    create_kings()
-    create_prophets()
-    create_books()
-    create_people()
-    create_objects()
-    create_periods()
-    create_caesars()
-    create_tribulation()
-    create_terah_familytree()
-    include_pictures()
-    include_pictures_svg()
-    create_daniel2()
-    create_timestamp()
-    render_to_file()
-    # zoomhack()
-
 def checkForValidLanguageCode(langCode):
     data=googletrans.LANGCODES
     for key, value in data.items():
@@ -1101,16 +1075,78 @@ def checkForValidLanguageCode(langCode):
             return True
     return False
 
+async def create_googletrans_translator():
+    """
+    Create googletrans 4.0.2 using curl-cffi with Chrome impersonation.
+
+    googletrans itself is not modified. We replace only the HTTP client
+    of this Translator instance at runtime because Google's unofficial
+    Translate endpoint currently returns HTTP 429 to normal HTTPX clients.
+    """
+    translator = googletrans.Translator(
+        service_urls=["translate.googleapis.com"],
+        raise_exception=True,
+    )
+
+    # Keep the client created by googletrans so it can be closed properly.
+    original_client = translator.client
+
+    translator.client = httpx.AsyncClient(
+        transport=AsyncCurlTransport(
+            impersonate="chrome",
+            default_headers=True,
+        ),
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/140.0.0.0 Safari/537.36"
+            ),
+        },
+    )
+
+    # TokenAcquirer keeps a reference to the HTTP client created by
+    # Translator, so it must use the replacement client too.
+    translator.token_acquirer.client = translator.client
+
+    # Return both so the caller can close both clients.
+    return translator, original_client
+
 async def translate_dictionary(dictionary, language):
     global number_characters
-    async with googletrans.Translator() as translator:
-        for index, row in dictionary.iterrows(): # with 3 columns 'key' 'text' and 'english'
+
+    translator, original_client = await create_googletrans_translator()
+
+    try:
+        for index, row in dictionary.iterrows():
             english_text = row["english"]
             number_characters += len(str(english_text))
-            if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
-                result = await translator.translate(english_text, src='en', dest=language)
-                dictionary.at[index, 'text'] = result.text
-                print(f'{index}: {english_text} - {result.text}')
+
+            try:
+                result = await translator.translate(
+                    english_text,
+                    src="en",
+                    dest=language,
+                )
+
+                print(f"{index}: {english_text} -> {result.text}")
+                dictionary.at[index, "text"] = result.text
+
+            except Exception as e:
+                print(f"{index}: Translation error: {e}")
+
+    finally:
+        await translator.client.aclose()
+        await original_client.aclose()
+
+    # async with googletrans.Translator() as translator:
+    #     for index, row in dictionary.iterrows(): # with 3 columns 'key' 'text' and 'english'
+    #         english_text = row["english"]
+    #         number_characters += len(str(english_text))
+    #         if not english_text == " ": # it only applies to row 9 where in english is an empty string (unline Vietnamese or Russian)
+    #             result = await translator.translate(english_text, src='en', dest=language)
+    #             dictionary.at[index, 'text'] = result.text
+    #             print(f'{index}: {english_text} - {result.text}')
 
 def create_dictionary(target_language):
     global dict, number_characters
@@ -1167,6 +1203,34 @@ def is_supported(language):
             print(f"But the dictionary file {filename} does not exist. Creating it now with Google Translate.")
             create_dictionary(language)
         return True
+
+def create_timeline(lang, edition):
+    global language
+    language = lang
+    initiate_counters()
+    import_dictionary()
+    import_colors("rgb")
+    create_canvas(edition)
+    create_horizontal_axis()
+    create_adam_moses()
+    create_reference_events()
+    create_events_objects()
+    create_judges()
+    create_kings()
+    create_prophets()
+    create_books()
+    create_people()
+    create_objects()
+    create_periods()
+    create_caesars()
+    create_tribulation()
+    create_terah_familytree()
+    include_pictures()
+    include_pictures_svg()
+    create_daniel2()
+    create_timestamp()
+    render_to_file()
+    # zoomhack()
 
 if __name__ == "__main__":
     print(f"Timeline v{version}") # parameters are language, image Daniel 2 and 2025 edition

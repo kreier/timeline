@@ -42,6 +42,8 @@ import random
 import os, sys, asyncio, time
 import pandas as pd
 from googletrans import Translator
+import httpx
+from httpx_curl_cffi import AsyncCurlTransport
 import deepl
 
 # Initialize the DeepL client
@@ -577,11 +579,55 @@ def run_batched_provider(df, target_col, target_lang, provider_callback,
 # ------------------------- 10.1 google -------------------------
 # Placeholder: expects the (async) googletrans Translator; batch via
 # the async translate() over the chunk. Needs `asyncio` already imported.
+async def create_googletrans_translator():
+    """
+    Create a googletrans 4.0.2 Translator using curl-cffi with
+    Chrome browser impersonation.
+
+    This does not modify the installed googletrans package.
+    """
+
+    translator = Translator(
+        service_urls=["translate.googleapis.com"],
+        raise_exception=True,
+    )
+
+    # Save the original HTTPX client so it can be closed later.
+    original_client = translator.client
+
+    translator.client = httpx.AsyncClient(
+        transport=AsyncCurlTransport(
+            impersonate="chrome",
+            default_headers=True,
+        ),
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/140.0.0.0 Safari/537.36"
+            ),
+        },
+    )
+
+    # TokenAcquirer normally points at the original HTTPX client.
+    translator.token_acquirer.client = translator.client
+
+    return translator, original_client
+
+# googletrans 4.0.2 using curl-cffi/Chrome impersonation.
 def translate_google_batch(sources, target_lang):
     async def _run():
-        async with Translator() as translator:
-            results = await translator.translate(sources, src="en", dest=target_lang)
+        translator, original_client = await create_googletrans_translator()
+        try:
+            results = await translator.translate(
+                sources,
+                src="en",
+                dest=target_lang,
+            )
             return [r.text for r in results] if results else None
+        finally:
+            await translator.client.aclose()
+            await original_client.aclose()
     try:
         return asyncio.run(_run())
     except Exception as e:
@@ -783,6 +829,16 @@ if __name__ == "__main__":
     # dict_translated = run_batched_provider(dict_translated, "google", language,
     #                                        translate_google_batch, batch_size=20,
     #                                        min_delay=0, max_retries=3)
+    # Step 10.1: googletrans 4.0.2 + curl-cffi Chrome impersonation
+    dict_translated = run_batched_provider(
+        dict_translated,
+        "google",
+        language,
+        translate_google_batch,
+        batch_size=20,
+        min_delay=1,
+        max_retries=3,
+    )    
     # Step 10.2: chatgpt via OpenRouter - ChatGPT/OpenAI models, free :free
     # model by default (no-credit account); modest pacing due to daily quota.
     dict_translated = run_batched_provider(dict_translated, "chatgpt", language,
