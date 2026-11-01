@@ -28,10 +28,6 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install Python dependencies
-        run: |
-          pip install pathlib
-
       - name: Generate status page
         run: |
           python status/generate-status.py

@@ -1,0 +1,40 @@
+name: Test Timeline Generation
+
+on:
+  push:
+    branches:
+      - main
+      - '6.*'
+  pull_request:
+    branches:
+      - main
+      - '6.*'
+  workflow_dispatch:
+
+jobs:
+  test-timeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Test Timeline generation (English)
+        working-directory: python
+        run: |
+          python 6000.py en
+
+      - name: Test generate-status script
+        run: |
+          python status/generate-status.py
