@@ -6,7 +6,7 @@
 
 import os, sys
 import pandas as pd
-from googletrans import Translator
+from googletrans import SyncTranslator as Translator
 
 def check_existing(language, filename):
     # Check execution location, exit if not in /timeline/db

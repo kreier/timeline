@@ -14,6 +14,7 @@ from reportlab.pdfbase.pdfmetrics import stringWidth
 from svglib.svglib import svg2rlg
 import pandas as pd
 import googletrans
+from googletrans import SyncTranslator as Translator
 import datetime
 import sys
 import os
@@ -86,7 +87,7 @@ def create_dictionary(target_language):
     dict = reference[['key', 'text', 'notes']].copy()  # create a new dictionary, copy columns key and text
     dict['english'] = reference['text'].copy()         # add a column 'english' and fill with 'text' from english dictionary
     print("\nTranslating ...")
-    translator = googletrans.Translator()
+    translator = Translator()
     number_characters = 0                  # you can translate up to 500,000 characters per month for free
     for index, row in dict.iterrows(): # with 3 columns 'key' 'text' and 'english'
         english_text = row.english

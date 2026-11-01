@@ -18,6 +18,7 @@ But there are more things to consider. I started a digital timeline already in 2
 - [v4.0 Increase of version number to reflect the year in January 2024](#v40-increase-of-version-number-to-reflect-the-year-in-january-2024)
 - [v4.7 Switch from reportlab to fpdf2 im May 2024](#v47-switch-from-reportlab-to-fpdf2-im-may-2024)
 - [v5.1 Include the period of 430 years](#v51-include-the-period-of-430-years)
+- [v5.5 Automated translation: googletrans v3.x to asyncio and googletrans-curl in May 2025](#v55-automated-translation-googletrans-v3x-to-asyncio-and-googletrans-curl-in-may-2025)
 - [v5.9 Extended family tree back to Noah and relate 20 nations in footnotes](#v59-extended-family-tree-back-to-noah-and-relate-20-nations-in-footnotes)
 - [v6.01 Updated numbering system, Kain's family](#v601-updated-numbering-system-kains-family)
 - [Inspirations](#inspirations)
@@ -158,6 +159,42 @@ Interestingly, fpdf2 itself is a fork from PyPDF from [reingart/pypdf](https://g
 The time period of 430 years was included as a graph. And some exaples from the Maya calender were included.
 
 ![timeline v5.1](../docs/timeline20250101_5.1.png)
+
+### v5.5 Automated translation: googletrans v3.x to asyncio and googletrans-curl in May 2025
+
+Starting with initial dictionary automation in v3.1/v3.4 through version **v5.3** (branch `5.3`), translation relied on the older synchronous `googletrans` v3.x library (`googletrans==3.1.0a0`). The synchronous call was straightforward and blocking:
+
+```python
+from googletrans import Translator
+
+translator = Translator()
+result = translator.translate(english_text, src='en', dest=language)
+dict_translated.at[index, 'text'] = result.text
+```
+
+On May 3, 2025, branch **5.5** (PR #64, commit `bc33eb4` / `e2c9dae`) upgraded to `googletrans` v4.0.0+. Upstream v4 introduced breaking API changes: `Translator.translate()` became an `async` coroutine, requiring `asyncio.run()`, async functions, and coroutine awaiting:
+
+```python
+import asyncio
+from googletrans import Translator
+
+async def translate_dictionary(dictionary, language):
+    async with Translator() as translator:
+        result = await translator.translate(english_text, src='en', dest=language)
+        dict_translated.at[index, 'text'] = result.text
+
+asyncio.run(translate_dictionary(dict_translated, language))
+```
+
+Subsequently, Google's web endpoints began aggressively rejecting automated Python HTTP clients with `HTTP 429 Too Many Requests` due to TLS/HTTP2 fingerprinting. To overcome rate-limiting and eliminate ad-hoc monkey patching of transport clients, the project transitioned to [`googletrans-curl`](https://github.com/kreier/googletrans-curl), which uses `curl-cffi` with Chrome impersonation.
+
+To make legacy synchronous code compatible with `googletrans-curl` again without rewriting it for `asyncio`, `googletrans-curl` provides `SyncTranslator`. Existing synchronous scripts can be made fully operational with just a single import line change:
+
+```python
+from googletrans import SyncTranslator as Translator
+```
+
+All existing downstream synchronous code (`translator = Translator()`, `translator.translate(...)`, and `.text`) continues to work without modification.
 
 ### v5.9 Extended family tree back to Noah and relate 20 nations in footnotes
 

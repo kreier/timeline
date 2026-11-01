@@ -11,7 +11,7 @@ from httpx_curl_cffi import AsyncCurlTransport # for googletrans v4.0.2 to avoid
 import datetime, sys, os, asyncio, math, qrcode
 
 # Some general settings - implied area from 4075 BCE to 2075 CE
-version  = 6.08
+version  = 6.11
 language = "en"
 language_str = "English"
 color_scheme = "rgb"

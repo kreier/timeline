@@ -1,0 +1,31 @@
+# Timeline PDF Generator & Core Data Processing (python/6000.py, python/batch.py)
+fpdf2>=2.8.0
+pandas>=2.0.0
+pillow>=10.0.0
+qrcode>=7.4
+openpyxl>=3.1.0
+
+# Web GUI Dictionary Editor (python/web_editor/web_editor.py)
+flask>=3.0.0
+
+# Legacy Timeline Generator & Vector Drawing (python/reportlab_6000.py, python/template.py)
+reportlab>=4.0.0
+svglib>=1.5.0
+
+# Translation Providers & Rate-Limit Helpers (db/auto-translate.py, python/6000.py)
+googletrans-curl>=4.1.0
+httpx>=0.27.0
+httpx-curl-cffi>=0.1.0
+requests>=2.31.0
+deepl>=1.18.0
+openai>=1.30.0
+google-genai>=1.0.0
+anthropic>=0.28.0
+
+# Font Shaping, Typography & PDF Tooling (python/test/...)
+fonttools>=4.40.0
+uharfbuzz>=0.39.0
+freetype-py>=2.4.0
+arabic-reshaper>=3.0.0
+python-bidi>=0.4.2
+pymupdf>=1.24.0
