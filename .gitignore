@@ -10,3 +10,16 @@
 
 # Automatically generated QR codes
 /images/qr*.png
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
