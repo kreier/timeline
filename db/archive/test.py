@@ -1,6 +1,6 @@
 
 '''
-from googletrans import Translator
+from googletrans import SyncTranslator as Translator
 
 # Create a translator object
 translator = Translator()
