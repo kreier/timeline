@@ -13,7 +13,7 @@ reportlab>=4.0.0
 svglib>=1.5.0
 
 # Translation Providers & Rate-Limit Helpers (db/auto-translate.py, python/6000.py)
-googletrans==4.0.2
+googletrans-curl>=4.1.0
 httpx>=0.27.0
 httpx-curl-cffi>=0.1.0
 requests>=2.31.0
