@@ -16,7 +16,7 @@ temple1,Nisan 1513 v.G.T. tot Ziv 1034 v.G.T.,Nisan 1513 B.C.E. to Ziv 1034 B.C.
 year,jaar,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True, , , ,jaar,jaar,jaar, ,jaar
 years,jaar,years, ,text,True, , , ,jaar,jaren,jaar, ,jaren
 years_age,jaar,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True, , , ,jaar,jaren,jaar, ,jaren
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,, , 
+age_kings,jaar,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,jaar, , 
 wilderness,Israël in de wildernis 1513 tot 1473 v.G.T. – 40 jaar,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , ,Israël in de wildernis 1513 tot 1473 v.G.T. – 40 jaar,Israël in de wildernis 1513 tot 1473 v.Chr. – 40 jaar,Israël in de woestijn 1513 tot 1473 v.G.T. – 40 jaar, ,"Israël in de woestijn, 1513 tot 1473 v.Chr. – 40 jaar"
 timespan_judges,1473 tot 1117 v.G.T. – 356 jaar,1473 to 1117 B.C.E. – 356 years, ,text,False, , , ,1473 tot 1117 v.G.T. – 356 jaar,1473 tot 1117 v.Chr. – 356 jaar,1473 tot 1117 v.G.T. – 356 jaar, ,1473 tot 1117 v.Chr. – 356 jaar
 timespan_judges2,Tijd van de juryleden,Time of the judges, ,text,False, , , ,Tijd van de juryleden,Tijd van de richters,Tijd van de rechters, ,De tijd van de rechters
@@ -47,7 +47,7 @@ event_temple_rebuilt,Tempel in Jeruzalem herbouwd 515 v.G.T.,Temple in Jerusalem
 event_jerusalem_rebuilt,De muur van Jeruzalem werd in 455 v.G.T. herbouwd.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , ,De muur van Jeruzalem werd in 455 v.G.T. herbouwd.,Muur van Jeruzalem herbouwd 455 v.Chr.,Muur van Jeruzalem herbouwd 455 v.G.T., ,De muur van Jeruzalem werd in 455 v.Chr. herbouwd.
 event_destruction_jerusalem2,Vernietiging van Jeruzalem 70 G.T. door Rome onder Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , ,Vernietiging van Jeruzalem 70 G.T. door Rome onder Titus,Verwoesting van Jeruzalem 70 n.Chr. door Rome onder Titus,Verwoesting van Jeruzalem 70 G.T. door Rome onder Titus, ,De verwoesting van Jeruzalem in 70 n.Chr. door Rome onder leiding van Titus
 event_1914,"Einde van de tijd der natiën (Lukas 21:24), Gods koninkrijk begint in de hemel te regeren 1914 G.T.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , ,"Einde van de tijd der natiën (Lukas 21:24), Gods koninkrijk begint in de hemel te regeren 1914 G.T.","Einde van de tijd van de natiën (Lukas 21:24), het Koninkrijk van God begint in de hemel te regeren 1914 n.Chr.","Einde van de tijden van de heidenen (Lukas 21:24), Gods Koninkrijk begint te regeren in de hemel 1914 G.T.", ,"Einde van de tijd van de volken (Lucas 21:24), Gods Koninkrijk begint in 1914 n.Chr. in de hemel te regeren."
-became_king,wordt koning op leeftijd,becomes king at age,2025-04-14,text,False, , , ,wordt koning op leeftijd,wordt koning op de leeftijd van,wordt koning op de leeftijd van, ,wordt koning op de leeftijd van
+became_king,wordt koning op de leeftijd van,becomes king at age,2025-04-14,text,False, , , ,wordt koning op leeftijd,wordt koning op de leeftijd van,wordt koning op de leeftijd van, ,wordt koning op de leeftijd van
 vulgate,Vulgaat aangevuld door Hiëronymus (Latijnse vertaling van de bijbel) c. 405 CE,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , ,Vulgaat aangevuld door Hiëronymus (Latijnse vertaling van de bijbel) c. 405 CE,Vulgaat voltooid door Hiëronymus (Latijnse vertaling van de bijbel) ca. 405 n.Chr.,Vulgaat voltooid door Hiëronymus (Latijnse vertaling van de Bijbel) ca. 405 G.T., ,"De Vulgaat, voltooid door Hiëronymus (Latijnse vertaling van de Bijbel), ca. 405 n.Chr."
 gutenberg,Gutenbergbijbel gedrukt in 1455,Gutenberg Bible printed 1455, ,text,False, , , ,Gutenbergbijbel gedrukt in 1455,Gutenbergbijbel gedrukt in 1455,Gutenbergbijbel gedrukt 1455, ,"De Gutenbergbijbel, gedrukt in 1455"
 erasmus,"Griekse tekst van de christelijke Griekse Geschriften, uitgegeven door Desiderius Erasmus uit Rotterdam, 1516",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , ,"Griekse tekst van de christelijke Griekse Geschriften, uitgegeven door Desiderius Erasmus uit Rotterdam, 1516",Griekse tekst van de Christelijke Griekse Geschriften gepubliceerd door Desiderius Erasmus van Rotterdam in 1516,Griekse tekst van de christelijke Griekse Geschriften gepubliceerd door Desiderius Erasmus van Rotterdam 1516, ,"Griekse tekst van de christelijke Griekse Geschriften, uitgegeven door Desiderius Erasmus van Rotterdam in 1516"
@@ -553,14 +553,14 @@ meeting_workbook,Nieuw format voor midweekvergaderingen met “Vergaderwerkboek�
 terahfam,Leden van Terahs familie,Members of Terah’s family, ,deprecated,False, , , , , , , , 
 metropolitan,Start van grootstedelijk getuigenis in 2011,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
 jw_org,Start van JW.ORG met instructies in Koninkrijksdienst december 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
-Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
+Babylon2, ,,no text left and right – empty!,deprecated,False, , , , , , , , 
 daniel2_shift,0,4,Start 4.2,deprecated,False, , , , , , , , 
 Gatam,Ga̱ëtam,Gatam, ,deprecated,True, , , , , , , , 
 Adbeel,Adbeël,Adbeel, ,deprecated,False, , , , , , , , 
 Mibsam,Mibsam,Mibsam, ,deprecated,False, , , , , , , , 
 Dumah,Doema,Dumah, ,deprecated,False, , , , , , , , 
 Massa,Massa,Massa, ,deprecated,False, , , , , , , , 
-tang-dynasty1, , , ,deprecated,False, , , , , , , , 
+tang-dynasty1, ,, ,deprecated,False, , , , , , , , 
 xia-dynasty,Xia-dynastie in China c. 2070 – ca. 1600 voor Christus,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
 Midianites,"1) Midianieten: Numeri 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
 Moabites,"2) Moabieten: Deuteronomium 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3) Ammonieten: Jozua 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
 Edomites,4) Edomieten: Numeri 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
 Temanites,5) Temanieten: Job 42:7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
 Amalekites,6) Amalekieten: 1 Samuël 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
-king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
-king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
-daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_south_light, ,,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, ,,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, ,,2025-02-05,deprecated,False, , , , , , , , 

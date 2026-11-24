@@ -1,473 +1,473 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
-version,6.08,6.08, ,float,True, , , , , , , , 
-pdf_title,6000 éves emberi történelem vizualizálva,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6 000 év emberi történelem — időrend, , ,Az emberiség 6000 éves története – Idővonal
-pdf_subject,Az emberiség idővonala,Timeline of human history from 4000 BCE to present, ,text,False, , , , ,Időrend az emberi történelemről i. e. 4000-től napjainkig, , ,Az emberi történelem idővonala i. e. 4000-től napjainkig
-BCE,I. e.,B.C.E., ,B9,True, , , , , , , , 
-CE,I. sz.,C.E., ,B9,True, , , , , , , , 
-month,hónap,month, ,text,False, , , , ,hónap, , ,hónap
-months,Hónapok,months, ,text,False, , , , ,hónapok, , ,hónapok
-day,nap,day, ,text,False, , , , ,nap, , ,nap
-days,Napok,days, ,text,False, , , , ,napok, , ,napok
-to,hoz,to, ,text,False, , , , ,–tól, , ,hogy
-Deluge,Áradat,Deluge, ,text,False, , , , ,Özönvíz, , ,Örvén
-moses2,1593-tól 1473-ig BCE - 120 év,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,i. e. 1593-tól 1473-ig – 120 év, , ,Kr. e. 1593–1473 – 120 év
-temple1,Niszán 1513-tól Zivig 1034 BCE-ig,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,i. e. 1513 niszántól i. e. 1034 zivig, , ,Kr. e. 1513. niszán – Kr. e. 1034. ziv.
-69weeks,Jézus i. sz. 29 őszén keresztelkedett meg.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,Jézus megkeresztelkedése i. sz. 29 őszén, , ,Jézus Kr. u. 29 őszén keresztelkedett meg.
-year,év,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,év, , ,év
-years,Év,years, ,text,False, , , , ,év, , ,évek
-years_age,Év,years,years when used as age for a person (different word than years in some languages),text,False, , , , ,év, , ,évek
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,Izrael a pusztában 1513-tól 1473-ig – 40 év,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,Izrael a pusztában i. e. 1513-tól 1473-ig – 40 év, , ,Izrael a pusztában Kr. e. 1513–1473 – 40 év
-timespan_judges,1473-tól 1117-ig - 356 év,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,i. e. 1473-tól 1117-ig – 356 év, , ,Kr. e. 1473–1117 – 356 év
-timespan_judges2,A bírák ideje,Time of the judges, ,text,False, , , , ,A bírák ideje, , ,A bírák kora
-temple2,479 év a templom építéséig – 1Királyok 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,479 év a templom építéséig – 1 Királyok 6:1, , ,479 év a templom építéséig – 1 Királyok 6:1
-69weeks2,69 hét a Messiásig – Dániel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,69 hét a Messiásig – Dániel 9:25, , ,69 hét a Messiásig – Dániel 9:25
-jesus_service,"3,5 év Jézus szolgálata, kivégezték Niszán 14-én, i. sz. 33","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"Jézus 3,5 éves szolgálata, kivégezve i. sz. 33. niszán 14-én", , ,"3,5 évnyi Jézus szolgálata, kivégzés: Kr. u. 33. év niszán hónapjának 14. napján."
-jesus_life,"Jézus, született Kr.e. 2-ben",Jesus born 2 B.C.E., ,text,False, , , , ,Jézus születése i. e. 2, , ,Jézus i. e. 2-ben született.
-exile,607–537 – 70 év (Jeremiás 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,i. e. 607-től 537-ig – 70 év (Jeremiás 25:11), , ,Kr. e. 607–537 – 70 év (Jeremiás 25:11)
-exile2,száműzetés,Exile, ,text,False, , , , ,Fogság, , ,Száműzetés
-7times2,7-szer – 2520 évvel a messiási királyságig 1914-ben (Dániel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7 idők – 2520 év a Messiási Királyságig i. sz. 1914 (Dániel 4:23), , ,"7-szer – 2520 év a Messiási Királyságig, 1914-ben (Dániel 4:23)"
-ww1,Első világháború – i. sz. 1914–1918,World War I – 1914–1918, ,text,False, , , , ,Első világháború – 1914–1918, , ,Az első világháború – 1914–1918
-ww2,II. világháború – 1939–1945,World War II – 1939–1945, ,text,False, , , , ,Második világháború – 1939–1945, , ,A második világháború – 1939–1945
-30_year_war,Harmincéves háború Európában 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,Harmincéves háború Európában 1618–1648, , ,"A harmincéves háború Európában, 1618–1648"
-joshua,110 év,110 years, ,text,False, , , , ,110 év, , ,110 év
-caleb,több mint 85 év,more than 85 years, ,text,False, , , , ,több mint 85 év, , ,több mint 85 éve
-missionary1,"Pál első missziós útja, kb. i. sz. 47-48 Barnabással és János Márkkal","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"Pál első misszionáriusi útja, kb. i. sz. 47–48, Barnabással és János Márkkal", , ,"Pál első missziós útja, Kr. u. 47–48 körül, Barnabással és János Márkkal"
-circumcision,"A körülmetélés kérdése Antiókhiában, konferencia Jeruzsálemben i. sz. 49 körül","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"A körülmetélés kérdése Antiókhiában, a jeruzsálemi gyűlés kb. i. sz. 49", , ,"A körülmetélés kérdése Antiochiában, konferencia Jeruzsálemben, Kr. u. 49 körül."
-missionary2,Második missziós út kb. i. sz. 49-52 Silasszal (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,"Pál második misszionáriusi útja kb. i. sz. 49–52, Szilásszal (Szilvánusz)", , ,"Második missziós út, Kr. u. 49–52 körül, Silással (Silvánusszal)"
-missionary3,Harmadik missziós utazás i. sz. 52-56 körül,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,Pál harmadik misszionáriusi útja kb. i. sz. 52–56, , ,"Harmadik missziós út, kb. 52–56-ban"
-caesarea,Pál őrizetben Cezáreában kb. i. sz. 56-58,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,Pál Cezáreában őrizetben kb. i. sz. 56–58, , ,"Pál őrizetben Cezáreában, i. sz. 56–58 körül"
-rome1,Pál első római bebörtönzése kb. i. sz. 59-61,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,Pál első római fogsága kb. i. sz. 59–61, , ,"Pál első római fogsága, kb. 59–61-ben"
-rome2,"Pál második római bebörtönzése i. sz. 65 körül, 2 Timóteus írása, Pál kivégzése","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"Pál második római fogsága kb. i. sz. 65, a 2 Timóteus megírása, Pál kivégzése", , ,"Pál második római fogsága (kb. 65-ben), a 2. Timóteus-levél megírása, Pál kivégzése"
-event_exodus,Kivonulás Egyiptomból 1513. niszán 14-én,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,Kivonulás Egyiptomból i. e. 1513. niszán 14-én, , ,Kivonulás Egyiptomból Kr. e. 1513. niszán 14-én.
-event_division_kingdom,Izrael felosztása i. e. 997,Division of Israel 997 BCE, ,text,False, , , , ,Izrael kettészakadása i. e. 997, , ,Izrael felosztása i. e. 997-ben
-event_destruction_samaria,Samária elpusztítása i.e. 740-ben Asszíria által,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,"Szamária elpusztítása i. e. 740, Asszíria által", , ,Samária elpusztítása Kr. e. 740-ben Asszíria által
-event_destruction_jerusalem1,"Jeruzsálem pusztulása 607-ben Babilon által, 390 évvel a királyság felosztása után (Ezékiel 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"Jeruzsálem elpusztítása i. e. 607, Babilon által, 390 évvel a királyság kettészakadása után (Ezékiel 4:5)", , ,"Jeruzsálem elpusztítása Kr. e. 607-ben Babilon által, 390 évvel a királyság felosztása után (Ezékiel 4:5)"
-event_temple_rebuilt,A jeruzsálemi templom újjáépítése Kr.e. 515-ben,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,A jeruzsálemi templom újjáépítése i. e. 515, , ,A jeruzsálemi templomot Kr. e. 515-ben újjáépítették.
-event_jerusalem_rebuilt,A jeruzsálemi falat Kr.e. 455-ben újjáépítették.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,Jeruzsálem falának újjáépítése i. e. 455, , ,Jeruzsálem falát i. e. 455-ben építették újjá.
-event_destruction_jerusalem2,Jeruzsálem lerombolása i. sz. 70 Róma által Titusz alatt,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,"Jeruzsálem elpusztítása i. sz. 70, Róma által Titusz vezetésével", , ,"Jeruzsálem elpusztítása Kr. u. 70-ben, amikor Róma Titus vezetésével meghódította a várost"
-event_1914,"A nemzetek idejének vége, Isten királysága uralkodni kezd a mennyben 1914 i. sz. ","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.", ,text,False, , , , ,"A nemzetek idejének vége (Lukács 21:24), Isten Királysága elkezd uralkodni a mennyben i. sz. 1914", , ,"A nemzetek korszakának vége (Lukács 21:24), Isten Királysága 1914-ben kezdi meg uralkodását a mennyben."
-became_king,korában király lett,becomes king at age, ,text,False, , , , ,évesen lesz királlyá, , ,[kor] évesen lesz király
-vulgate,A Vulgatát Jeromos fejezte be (a Biblia latin fordítása) kb. i. sz. 405,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,A Vulgata elkészítése Jeromos által (a Biblia latin fordítása) kb. i. sz. 405, , ,"A Vulgata, amelyet Jeromos állított össze (a Biblia latin fordítása), i. sz. 405 körül."
-gutenberg,Gutenberg Biblia nyomtatása 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,Gutenberg Biblia nyomtatása 1455, , ,"A Gutenberg-Biblia, 1455-ben nyomtatva"
-erasmus,"A Keresztény Görög Iratok görög szövege, kiadta Desiderius Erasmus rotterdami herceg, 1516;",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,A keresztény görög iratok görög szövegének kiadása Rotterdamí Desiderius Erasmus által 1516, , ,"A keresztény görög szentírások görög nyelvű szövege, amelyet Desiderius Erasmus rotterdami kiadott 1516-ban"
-luther,Luther bibliafordítása 1522 szeptemberében,Luther Bible translation in September 1522, ,text,False, , , , ,Luther Bibliafordítása 1522 szeptemberében, , ,A Luther-féle Bibliafordítás 1522 szeptemberében
-tyndale,"Angol bibliafordítás: Tyndale, 1536",English Bible translation by Tyndale 1536, ,text,False, , , , ,Tyndale angol Bibliafordítása 1536, , ,"Tyndale angol nyelvű Bibliafordítása, 1536"
-king_james,Jakab király Biblia 1611,King James Bible 1611, ,text,False, , , , ,Biblia Károli 1611, , ,"Jakab király Bibliája, 1611"
-69weeks3,"Jézus 29-ben kezdi meg szolgálatát (Lukács 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Jézus 29-ben kezdi szolgálatát (Lukács 3:1, 21)", , ,"Jézus Kr. u. 29-ben kezdi meg szolgálatát (Lukács 3:1, 21)"
-ransom,"a hét közepe ""áldozat, hogy megszűnjön"" Dániel 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,A hét közepén „megszűnik az áldozat” Dániel 9:27, , ,A hét közepén „az áldozat megszűnik” Dániel 9:27
-cornelius,Kornélius a 70. hét végén keresztelkedett meg (Dániel 9:24) i. sz. 36-ban.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Cornelius megkeresztelkedése a 70 hét végén (Dániel 9:24) 36-ban, , ,"Cornelius a 70 hét leteltével (Dániel 9:24) keresztelkedett meg, Kr. u. 36-ban."
-columbus,a Kolumbusz előtti időszak vége Amerikában 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,A prekolumbián korszak vége Amerikában 1492, , ,Az amerikai kontinensen a kolumbusz előtti korszak vége: 1492
-declaration_independence,13 amerikai gyarmat függetlenségének kikiáltása 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,13 amerikai gyarmat függetlenségi nyilatkozata 1776, , ,"Az amerikai 13 kolónia függetlenségi nyilatkozata, 1776"
-tischendorf,Tischendorf 1844-ben fedezi fel a Codex Sinaiticust a 4. századból,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf felfedezi a Codex Sinaiticust a 4. századból 1844-ben, , ,Tischendorf 1844-ben fedezi fel a 4. századból származó Codex Sinaiticus-t
-dead_sea_scrolls,Holt-tengeri tekercsek írva,Dead Sea Scrolls written, ,text,False, , , , ,Holt-tengeri tekercsek megírása, , ,A Holt-tengeri tekercsek megírása
-septuagint,Septuaginta LXX fordítás,Septuagint LXX translated, ,text,False, , , , ,Septuaginta LXX lefordítása, , ,A Septuaginta (LXX) fordítása
-watchtower,"A ""Sion Őrtornya és Krisztus jelenlétének hírnöke"" első száma 1879-ben jelenik meg",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,A „Zion’s Watch Tower and Herald of Christ’s Presence” első száma megjelenik 1879-ben, , ,A „Zion’s Watch Tower and Herald of Christ’s Presence” című lap első száma 1879-ben jelent meg
-jehovahs_witnesses,"A Bibliakutatók új nevet vettek fel: Jehova Tanúi. Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931", ,text,False, , , , ,"A Bibliakutatók új nevet vesznek fel – Jehova Tanúi (Ézsaiás 43:10, 12) Columbusban, Ohio-ban, 1931", , ,"A Biblia-tanulmányozók új nevet vesznek fel – Jehova Tanúi (Ézsaiás 43:10, 12) – Columbusban, Ohio államban, 1931-ben"
-gilead_school,"Az Őrtorony Gileád Bibliaiskola 1943. február 1-jén, hétfőn kezdődött","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"A Gilead Watchtower Bibliamisszió iskola február 1-jén, hétfőn indul, 1943", , ,"A Gileád-i Őrtorony Bibliaiskola 1943. február 1-jén, hétfőn kezdődik"
-new_world_translation1,"""A Szentírás új világ fordítása"" megjelent Manchesterben, Angliában, 1960. június 18-án","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible", ,text,False, , , , ,"„Az Új Világ Fordítása a Szentírásból” kiadása Manchesterben, Angliában, június 18-án, 1960-ban, visszahelyezi Jehova nevét a Biblia számos részébe", , ,Az 1960. június 18-án az angliai Manchesterben megjelent „A Szentírás Új Világ Fordítása” című kiadvány a Biblia számos részében újra bevezeti a Jehova nevet
-new_world_translation2,"Átdolgozott ""A Szentírás új világ fordítása"", megjelent a 2013-as éves találkozón","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online", ,text,False, , , , ,"A felülvizsgált „Új Világ Fordítása a Szentírásból” az éves összejövetelen jelenik meg 2013-ban, digitális és online használatra optimalizálva", , ,"A 2013-as éves közgyűlésen bemutatták a „Szentírás új világfordítását” című kiadvány átdolgozott változatát, amelyet digitális és online használatra optimalizáltak"
-cold_war,"A ""hidegháború"" címkével ellátott geopolitikai helyzet 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,A „hidegháború” néven ismert geopolitikai helyzet 1945–1991, , ,A „hidegháború” néven ismert geopolitikai helyzet 1945–1991
-codex_sinaiticus,Codex Sinaiticus írása,Codex Sinaiticus written, ,text,False, , , , ,Codex Sinaiticus megírása, , ,A Codex Sinaiticus megírása
-codex_vaticanus,Codex Vaticanus írása,Codex Vaticanus written, ,text,False, , , , ,Codex Vaticanus megírása, , ,A Codex Vaticanus megírása
-leningrad_codex,Kairóban írt Leningrádi kódex Kr. u. 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Leningrádi Kódex megírása Kairóban i. sz. 1008-ban, , ,"A Leningrádi kódex, amelyet Kr. u. 1008-ban Kairóban írtak"
-john,"János ""kinyilatkoztatást"" ír száműzetésében Pátmosz 96-98-ban.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,János a „jelenések könyvét” írja a száműzetésben Patmoszon 96–98-ban, , ,"János a „Jelenések” című művet a Patmosz-szigeten töltött száműzetése alatt írta, Kr. u. 96–98 között."
-buddha,Buddha – Gautama Sziddhártha Kr.e. 563-483 körül,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,A Buddha – Sziddhárta Gautama i. e. kb. 563–kb. 483, , ,"A Buddha – Siddhártha Gautama, i. e. kb. 563–kb. 483"
-buddha2,Buddha kb. Kr.e. 480-400,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Buddha másként i. e. kb. 480–400, , ,Buddha (más források szerint i. e. 480–400 körül)
-mohammed,Mohamed kb. i. sz. 570-632,Mohammed c. 570-632, ,text,False, , , , ,Mohamed kb. 570–632, , ,"Mohammed, kb. 570–632"
-confucius,Konfuciusz kb. Kr.e. 551-c.479,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,Konfuciusz i. e. kb. 551–kb. 479, , ,"Konfuciusz, i. e. 551 körül – i. e. 479 körül"
-hijrah,Hidzsra - utazás Mekkába Medinába 622. július 16.,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Hidzsra – út Mekkából Medinába 622. július 16., , ,"Hijra – Utazás Mekkából Medinába, 622. július 16."
-moses_escape,"1553 Mózesnek el kell menekülnie Egyiptomból – 2Mózes 2:15, ApCsel 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"i. e. 1553 Mózesnek el kell menekülnie Egyiptomból – 2 Mózes 2:15, ApCsel 7:23", , ,"Kr. e. 1553. Mózesnek el kell menekülnie Egyiptomból – II. Mózes 2:15, Apostolok cselekedetei 7:23"
-10plagues,1513 BCE Egyiptom 10 csapást kap,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,i. e. 1513 Egyiptomot sújtják a 10 csapás, , ,Kr. e. 1513-ban Egyiptomot 10 csapás éri
-joseph_sold,"Józsefet 17 éves korában eladták rabszolgának (1Móz 37,2",Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Józsefet 17 évesen adják el rabszolgának – 1 Mózes 37:2, , ,Józsefet 17 éves korában rabszolgának adták el – 1Móz 37:2
-infliction,400 éves szenvedés (ApCsel 7:6) – Izmael Kr.e. 1913,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400 éves szenvedés (ApCsel 7:6) – Ismáel i. e. 1913, , ,"400 éves szenvedés (ApCsel 7:6) – Izmael, i. e. 1913"
-Alexander,Nagy Sándor (Dániel 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Nagy Sándor (Dániel 11:3), , ,Nagy Sándor (Dániel 11:3)
-persia,"Nagy Kürosz, II. Kambüszész, I. Dárius i. e. 490, I. Xerxész i. e. 480 (Eszter férje, Dániel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Cyrus perzsa király, Cambyses II, Dareiosz I i. e. 490, Xerxes I i. e. 480 (Eszter férje, Dániel 11:2)", , ,"Cyrus Nagy, Kambüszész II., Dáriusz I. i. e. 490, Xerxész I. i. e. 480 (Eszter férje, Dániel 11:2)"
-king_north,"I. Szeleukosz Nicator (v5) Szíriától III. Antiokhoszig (10. vers) és IV. Szeleukoszig (18., 19. vers) egészen Octavianusig (20. vers) és Tiberiusig (21-24. vers)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"I. Seleukosz Nikátor (5. vers) Szíriától III. Antiokhoszig (10. vers) és IV. Seleukoszig (18., 19. vers) egészen Octavianusig (20. vers) és Tiberiusig (21–24. vers)", , ,"I. Szeleukosz Nikátor (5. vers) – Szíria – III. Antiokhosz (10. vers) és IV. Szeleukosz (18., 19. vers) – egészen Oktaviánusig (20. vers) és Tiberiusig (21–24. vers)"
-king_north1,Észak királya,King of the North, ,text,False, , , , ,Az északi király, , ,Az Észak Királya
-king_south,"Ptolemaiosz I., II., III., IV. (v11, 12), V (v15, 16) az Actium csatába i. e. 31.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"I. Ptolemaiosz, II, III, IV (11., 12. vers), V (15., 16. vers) az actiumi csatáig i. e. 31-ben", , ,"I., II., III., IV. (11., 12.) és V. (15., 16.) Ptolemaiosz az i. e. 31-es actiumi csatáig."
-king_south1,Dél királya,King of the South, ,text,False, , , , ,A déli király, , ,A Dél Királya
-king_south2,"Brit birodalom 1870, angol-amerikai világhatalom 1914 óta","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"Brit Birodalom 1870, Anglo-Amerikai Világhatalom 1914 óta", , ,"A Brit Birodalom 1870-ben, az angol–amerikai világhatalom 1914 óta"
-king_south3,Dél királya,King of the South, ,text,False, , , , ,A déli király, , ,A Dél Királya
-king_north2,"Németország I. Vilmos császárral 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Németország I. Vilmos császárral 1871 (28. vers), 1914 (29. vers), 1935 (30b. vers), 1939 (31a. vers)", , ,"Németország I. Vilmos császárral: 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,Észak,North, ,text,False, , , , ,Észak, , ,Észak
-king_north4,"Szovjetunió 1945-1991 (Dániel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"Szovjetunió 1945–1991 (Dániel 11:32–39, 40b, 41)", , ,"Szovjetunió 1945–1991 (Dániel 11:32–39, 40b, 41)"
-king_north5,Oroszország 2017 óta (w20 május),Russia since 2017 (w20 May), ,text,False, , , , ,Oroszország 2017 óta (w20. május), , ,Oroszország 2017 óta (2020. május)
-time_of_end,"Krisztus jelenléte, a dolgok rendszerének befejezése (Mt 24,3), az utolsó napok (2Ti 3,1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)", ,text,False, , , , ,"Krisztus jelenléte, a dolgozatok rendszerének vége (Máté 24:3), az utolsó napok (2 Timóteus 3:1)", , ,"Krisztus jelenléte, a dolgok rendjének vége (Máté 24:3), az utolsó napok (2. Timóteus 3:1)"
-time_of_end2,Utolsó napok,Last days, ,text,False, , , , ,Utolsó napok, , ,Az elmúlt napok
-suryavaman2,II. Suryavarman király megépíti Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,II. Szurjavarman király felépíti Angkorvatot 1113–1150, , ,II. Suryavarman király 1113 és 1150 között építtette az Angkor Watot
-notre-dame,Notre-Dame de Paris épült 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,A párizsi Notre-Dame megépítése 1163–1260, , ,"A párizsi Notre-Dame-székesegyház, építési ideje: 1163–1260"
-babel,Bábel tornya épült,Tower of Babel built, ,text,False, , , , ,Bábel tornyának építése, , ,A Bábel-torony felépítése
-infliction1,400 éves következmény,400 year infliction,Acts 7:6,text,False, , , , ,400 éves szenvedés, , ,400 éves szenvedés
-Lots_wife,Lót felesége,Lot’s wife, ,text,False, , , , ,Lót felesége, , ,Lót felesége
-Lots_daughters,Lót leányai,Daughters of Lot, ,text,False, , , , ,Lót lányai, , ,Lót leányai
-Moab,Moáb (idősebb lánya),Moab (older daughter), ,text,False, , , , ,Moáb (az idősebbik lány), , ,Moab (idősebb lánya)
-rosetta,Rosetta kő 196 BCE,Rosetta stone 196 B.C.E., ,text,False, , , , ,Rosetta-i kő i. e. 196, , ,"Rosetta-kő, Kr. e. 196."
-Herodotus,"Hérodotosz kb. Kr. e. 484 – kb. 425, írja a The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"Hérodotosz i. e. 484 – i. e. 425, megírja a Történelmeket", , ,Hérodotosz (kb. 484 – kb. 425 e.Kr.) megírja a „Történelem” című művet
-Aristotle,Arisztotelész Kr. e. 384 - 322,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,Arisztotelész i. e. 384 – 322, , ,"Arisztotelész, i. e. 384–322"
-Ptolemy,Ptolemaiosz kb. 100 – kb. 170,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,Ptolemaiosz i. sz. 100 – i. sz. 170 körül, , ,"Ptolemaiosz, kb. 100 – kb. 170 u. kr."
-Pythagoras,Püthagorasz kb. Kr. e. 570 – kb. Kr. e. 495,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,Püthagorasz i. e. 570 – i. e. 495 körül, , ,"Pitagorasz, i. e. 570 körül – i. e. 495 körül"
-Plato,Platón kb. Kr. e. 427 – kb. 348,Plato c. 427 – c. 348 BC, ,text,False, , , , ,Platón i. e. 427 – i. e. 348 körül, , ,"Platón, i. e. 427 körül – i. e. 348 körül"
-Socrates,Szókratész kb. Kr. e. 470 – kb. 399,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,Szókratész i. e. 470 – i. e. 399 körül, , ,"Szókratész, i. e. 470 körül – i. e. 399 körül"
-Josephus,Josephus kb. 37 – kb. 100,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,Josephus i. sz. 37 – i. sz. 100 körül, , ,"Josephus, kb. 37 – kb. 100 u. kr."
-Cicero,Cicero Kr. e. 106–43,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,Cicero i. e. 106–43, , ,"Cicero, Kr. e. 106–43"
-lachish_letters,Lachish levelek kb. Kr. e. 590,Lachish letters c. 590 B.C.E., ,text,False, , , , ,Lachis levelek i. e. 590 körül, , ,"Lakis-levelek, i. e. 590 körül"
-lachish_reliefs,Lachish domborművek kb. Kr.e. 681,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,Lachis domborművek i. e. 681 körül, , ,"Lakis domborművei, i. e. 681 körül."
-mesha_stele,Mesha sztélé (moábita kő) kb. Kr.e. 840,Mesha Stele (Moabite stone) c. 840 B.C.E., ,text,False, , , , ,Mésa sztélé (moábiti kő) i. e. 840 körül, , ,A Mesha-sztélé (moáb kő) i. e. 840 körül.
-gilgamesh,Gilgames és Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,Gilgames és Aga 𒇽𒆥𒄄𒀀𒀝𒂵, , ,Gilgames és Aga 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,Gilgames-eposz (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,Gilgames-eposz (Sîn-lēqi-unninni), , ,Gilgames-eposz (Sîn-lēqi-unninni)
-gregorian,Gergely-naptár 1582,Gregorian calendar 1582, ,text,False, , , , ,Gergely-naptár 1582, , ,"Gergely-naptár, 1582"
-shang-dynasty,kb. Kr. e. 1600-1046,c. 1600-1046 BC, ,text,False, , , , ,i. e. 1600-1046, , ,kb. i. e. 1600–1046
-western-zhou,kb. Kr. e. 1046-771,c. 1046-771 BC, ,text,False, , , , ,i. e. 1046-771, , ,kb. i. e. 1046–771
-qin-dynasty,Qin Kr. E. 221-207,Qin 221-207 BC, ,text,False, , , , ,Qin i. e. 221-207, , ,"Qin, i. e. 221–207"
-western-han,Kr. e. 207 – i. sz. 9,207 BC – 9 CE, ,text,False, , , , ,i. e. 207 – i. sz. 9, , ,Kr. e. 207 – Kr. u. 9
-three-kingdoms,Három királyság 220-280,Three kingdoms 220-280 CE, ,text,False, , , , ,Három királyság i. sz. 220-280, , ,"A három királyság, 220–280-ban"
-sixteen-kingdoms,Tizenhat királyság 304-439,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,Tizenhat királyság i. sz. 304-439, , ,"Tizenhat királyság, 304–439"
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , , , ,"618–690, 705–907"
-wu-zhou,690-705 Vu Csou,690-705 Wu Zhou, ,text,False, , , , , , , ,690–705 Wu Zhou
-tang-dynasty1_c,Csípős íz,Tang, ,text,False, , , , , , , , 
-gonghe,Gonghe Regency Kr. E. 841-828,Gonghe Regency 841-828 BC, ,text,False, , , , ,Gonghe régensség i. e. 841-828, , ,"Gonghe megye, i. e. 841–828"
-Ashoka,Asóka (kb. Kr. e. 304-232) támogatja a buddhizmust,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,Asóka (i. e. 304-232 körül) előmozdítja a buddhizmust, , ,Ashoka (kb. i. e. 304–232) népszerűsítette a buddhizmust
-siloam-tunnel,Ezékiás kiterjeszti a Siloám alagutat,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,Ezekiás kiterjeszti a Siloam-alagutat, , ,Hizkija meghosszabbítja a Siloám-alagutat
-Angloamerica2,"Az angol-amerikait az agyaggal kevert vaslábak szimbolizálják a Dániel 2:33, 41-43-ban található próféciában","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"Az angolszász-amerikai birodalmat a vas és cserép lábfejek jelképezik Dániel 2:33, 41-43 próféciájában", , ,"Az anglo-amerikai kultúrát a Dániel 2:33, 41–43-ban szereplő próféciában az agyaggal kevert vaslábak szimbolizálják."
-Manetho,Manethón írja az Aegyptiacát,Manetho writes Aegyptiaca, ,text,False, , , , ,Manethón megírja az Aegypticát, , ,Manetho megírja az *Aegyptiaca* című művet
-destruction_babylon,"Nagy Babilon elpusztítása (Jelenések 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"Nagy Babilon elpusztítása (Jelenések 17:3, 15-18; 18:9, 10)", , ,"Nagy Babilon pusztulása (Jelenések 17:3, 15–18; 18:9, 10)"
-peace_security,"“Béke és biztonság!” (1Thesszalonika 5:3, ez az egyik lehetőség, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"„Béke és biztonság!” (1 Thesszalonika 5:3, ez az egyik lehetőség, Őrtorony 26/2, 25/11)", , ,"„Béke és biztonság!” (1. Thesszalonikiak 5:3, ez egy lehetséges értelmezés, QfR 26/2, 25/11)"
-gog_of_magog,"Magógi Góg támadása (Ezékiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"Góg, Magóg támadása (Ezékiel 38:1, 2, 9-12, 18-23)", , ,"Magogból származó Góg támadása (Ezékiel 38:1, 2, 9–12, 18–23)"
-sheep_goat,"A föld lakói felett ítélkeznek, elválasztják a juhokat és a kecskéket (Máté 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"A föld lakóit megítélik, szétválasztva a juhokat és a kecskéket (Máté 25:31-33)", , ,"A Föld lakóit megítélik, és elkülönítik a juhokat a kecskéktől (Máté 25:31–33)"
-annointed,A Királyság uralkodóinak összegyűjtése (Máté 24:31; 1Korinthus 15:50-53; 1Thesszalonika 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,A Királyság uralkodóinak összegyűjtése (Máté 24:31; 1 Korinthus 15:50-53; 1 Thesszalonika 4:15-17), , ,A Királyság uralkodóinak összegyűlése (Máté 24:31; 1 Korinthus 15:50–53; 1 Thesszaloniki 4:15–17)
-armageddon,"Armageddon csata (Jelenések 16:14, 16; Ésaiás 13:9; 2 Péter 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"Harmageddon csatája (Jelenések 16:14, 16; Ézsaiás 13:9; 2 Péter 3:12)", , ,"Az Armageddon-i csata (Jelenések 16:14, 16; Ézsaiás 13:9; 2. Péter 3:12)"
-millenium,"Isten Királysága megkezdi 1000 éves uralmát (Jelenések 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"Isten Királysága megkezdi 1000 éves uralmát (Jelenések 5:9, 10; 20:4, 6)", , ,"Isten Királysága megkezdi ezeréves uralkodását (Jelenések 5:9, 10; 20:4, 6)"
-great_crowd,"Nagy tömeg éli túl Armageddont (Jelenések 7:9, 14; Zsoltárok 37:9–11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"Egy nagy sokaság túléli Harmageddont (Jelenések 7:9, 14; Zsoltár 37:9-11)", , ,"Hatalmas sokaság éli túl az Armageddont (Jelenések 7:9, 14; Zsoltárok 37:9–11)"
-world_population,A világ népessége milliárdokban az elmúlt 2000 évben,World population in billions in the last 2000 years, ,text,False, , , , ,A világ népessége milliárdokban az elmúlt 2000 évben, , ,A világ népessége milliárdokban az elmúlt 2000 évben
-khmer_empire_c,Khmer Birodalom – Angkor időszak,Khmer Empire - Angkor period, ,text,False, , , , ,Khmer Birodalom – Angkor korszak, , ,Khmer Birodalom – Angkor-korszak
-holy_roman_empire_c,Szent Római Birodalom – 1512 után a Német Nemzet Szent Római Birodalmaként ismert,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,Német-római Birodalom – 1512 után a Német Nemzet Szent Római Birodalmaként ismert, , ,A Német Nemzet Szent Római Birodalma – 1512 után a Német Nemzet Szent Római Birodalmának nevezték
-mongol_empire,Mongol Birodalom 1206-1294,Mongol Empire 1206 – 1294, ,text,False, , , , ,Mongol Birodalom 1206 – 1294, , ,Mongol Birodalom 1206–1294
-maya_classic_c,Maja civilizáció – klasszikus korszak,Maya civilization – Classic period, ,text,False, , , , ,Maja civilizáció – klasszikus időszak, , ,A maja civilizáció – Klasszikus korszak
-maya_postclassic_c,Maja civilizáció – posztklasszikus időszak,Maya civilization – Postclassic period, ,text,False, , , , ,Maja civilizáció – posztklasszikus időszak, , ,A maja civilizáció – posztklasszikus korszak
-Teotihuacan,"Amerika legnagyobb városa, piramisok épülnek kb. i. e. 200","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"Az Amerikák legnagyobb városa, piramisok épülnek i. sz. 200 körül", , ,"Amerika legnagyobb városa, a piramisokat i. sz. 200 körül építették."
-Dionysius_Exiguus,"Dionysius Exiguus, az Anno Domini feltalálója","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"Dionysius Exiguus, az Anno Domini feltalálója", , ,"Dionysius Exiguus, az Anno Domini kifejezés megalkotója"
-Umayyad_c,Omajjád,Umayyad, ,text,False, , , , ,Omajjád, , , 
-ur3,Ur III. dinasztia 💋💀💆,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,Ur III dinasztia 𒋀𒀕𒆠, , ,Ur III-dinasztia 𒋀𒀕𒆠
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , ,Hammurapi 𒄩𒄠𒈬𒊏𒁉, , , 
-Al-Khwarizmi,"al-Khwarizmi azt írja, hogy Al-Jabr (algebra)",al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,al-Hvárizmi megírja az Al-Jabr-t (algebrát), , ,al-Khwarizmi megírja az Al-Jabr (Algebra) című művet
-al-azhar,Az Al-Azhar Egyetemet Kairóban alapítják,Al-Azhar University is established in Cairo, ,text,False, , , , ,Al-Azhar Egyetem alapítása Kairóban, , ,Kairóban megalapítják az Al-Azhar Egyetemet
-Ibn-Sina,Ibn Sina vagy Avicenna,Ibn Sina or Avicenna, ,text,False, , , , ,Ibn Szína vagy Avicenna, , ,Ibn Sina vagy Avicenna
-life-expectancy,Várható élettartam 75 év,Life expectancy 75 years, ,text,False, , , , ,Várható élettartam 75 év, , ,Várható élettartam: 75 év
-430years_c,"430 év: 2Mózes 12:41, Galata 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"430 év: 2 Mózes 12:41, Galata 3:17", , ,"430 év: II. Mózes 12:41, Galaták 3:17"
-maya_calendar,A maja naptár számított kezdete i.e. 3114. augusztus 11.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,A maja naptár számított kezdete i. e. 3114. augusztus 11., , ,A maja naptár kezdete: Kr. e. 3114. augusztus 11.
-xia-dynasty2,c. 2070 – kb. Kr.e. 1600; A korszak először a nyugati Zhou időszakra utalt,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,i. e. kb. 2070 – i. e. kb. 1600; A korszakot először a nyugati Zhou-dinasztia idején említették, , ,kb. 2070 – kb. 1600 BC; erre a korszakra először a Nyugati Csou-korszakban utaltak
-xia-dynasty2_c,Xia dinasztia Kínában,Xia dynasty in China, ,text,False, , , , ,Hszia-dinasztia Kínában, , ,A Hsia-dinasztia Kínában
-tres_zapotes,i. e. 32. szeptember 3.,"September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,I. e. 32. szeptember 3., , ,Kr. e. 32. szeptember 3.
-joseph_jacob_reunited,József és Jákob újra egyesült Egyiptomban – ie 1728. (Ter 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,József és Jákob újra találkozik Egyiptomban – i. e. 1728 (1 Móz 45:11; 47:9), , ,József és Jákób újra találkoztak Egyiptomban – i. e. 1728 (1Móz 45:11; 47:9)
-king_south_light_c,Dél királya Dániel 11-ből,King of the South from Daniel 11,2025-02-05,text,False, , , , ,A déli király Dániel 11-ből, , ,A Dél királya a Dániel 11. fejezetéből
-king_north_light_c,Észak királya Dániel 11-ből,King of the North from Daniel 11,2025-02-05,text,False, , , , ,Az északi király Dániel 11-ből, , ,Az Észak Királya a Dániel 11. fejezetéből
-daniel2_iron_c,Vaslábak a Daniel 2-től,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Vaskarok Dániel 2-ből, , ,Vaslábak a Dániel 2. fejezetéből
-argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , ,Codex Argenteus kb. 505, , ,"Codex Argenteus, kb. 505"
-nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , , , , , 
-edo_c,Edo korszak Japánban,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , ,Edo-kor Japánban, , ,Az Edo-korszak Japánban
-meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , ,Meidzsi, , , 
-american_civil_war,Amerikai polgárháború 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,Amerikai polgárháború 1861-1865, , ,"Az amerikai polgárháború, 1861–1865"
-aleppo_codex,Aleppó kódex c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,Aleppói kódex kb. 920, , ,"Aleppói kódex, kb. 920"
-vandals,Vandálok és alánok királysága 435-534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Vandálok és alánok királysága 435 – 534, , ,A vandálok és az alánok királysága 435–534
-francia,"c. 481/509 – 843, Meroving 751-ig, majd Karoling","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"kb. 481/509 – 843, Meroving 751-ig, majd Karoling", , ,"kb. 481/509 – 843, 751-ig meroving, utána karoling"
-francia_c,A frank királyság,Kingdom of the Franks, ,text,False, , , , ,Frankok Királysága, , ,A frankok királysága
-100_years_war,Százéves háború 1337-1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Százéves háború 1337 – 1453, , ,"Százéves háború, 1337–1453"
-black_death,Fekete halál 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Fekete halál 1346-1353, , ,A fekete halál 1346–1353
-sui_dynasty,581-618 Sui dinasztia,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 Sui-dinasztia, , ,581–618: Sui-dinasztia
-sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , , , , 
-tribulation,"A nagy nyomorúság (Márk 13:19; Dániel 12:1; Máté 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"A nagy nyomorúság (Márk 13:19; Dániel 12:1; Máté 24:21, 22)", , ,"A nagy nyomorúság (Márk 13:19; Dániel 12:1; Máté 24:21, 22)"
-timeline_created,"Ezt az idővonalat 2023-ban hozták létre, az emberi történelem legforróbb évében és az elmúlt 125 000 évben","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"Ez az idővonal 2023-ban készült, az emberi történelem és az elmúlt 125 000 év legmelegebb évében", , ,"Ez az idővonal 2023-ban készült, amely az emberiség történelmének legmelegebb éve, és az elmúlt 125 000 év legmelegebb éve is."
-Adam,Adam,Adam, ,bible,False, , , , , , , , 
-Seth,Seth,Seth, ,bible,False, , , , , , , , 
-Enosh,Énosh,Enosh, ,bible,False, , , , , , , , 
-Kenan,Kenán,Kenan (Cainan), ,bible,False, , , , , , , , 
-Mahalalel,Mahalalel,Mahalalel (Mahalaleel), ,bible,False, , , , , , , , 
-Jared,Jared,Jared, ,bible,False, , , , , , , , 
-Enoch,Énók,Enoch, ,bible,False, , , , , , , , 
-Methuselah,Matuzsálem,Methuselah, ,bible,False, , , , , , , , 
-Lamech,Lámekh,Lamech, ,bible,False, , , , , , , , 
-Noah,Noé,Noah, ,bible,False, , , , , , , , 
-Shem,Sém,Shem, ,bible,False, , , , , , , , 
-Arpachshad,Arpachshad,Arpachshad, ,bible,False, , , , , , , , 
-Shelah,Sála,Shelah, ,bible,False, , , , , , , , 
-Eber,Erzséber,Eber, ,bible,False, , , , , , , , 
-Peleg,Peleg,Peleg, ,bible,False, , , , , , , , 
-Reu,Reu,Reu, ,bible,False, , , , , , , , 
-Serug,Szerug,Serug, ,bible,False, , , , , , , , 
-Nahor,Nahor,Nahor, ,bible,False, , , , , , , , 
-Terah,Terah,Terah, ,bible,False, , , , , , , , 
-Abraham,Ábrahám,Abraham, ,bible,False, , , , , , , , 
-Isaac,Isaac,Isaac, ,bible,False, , , , , , , , 
-Jacob,Jacob,Jacob, ,bible,False, , , , , , , , 
-Joseph,Joseph,Joseph, ,bible,False, , , , , , , , 
-Moses,Mózes,Moses, ,bible,False, , , , , , , , 
-Othniel,Othniel,Othniel, ,bible,False, , , , , , , , 
-Ehud,Ehud,Ehud, ,bible,False, , , , , , , , 
-Shamgar,Shamgar,Shamgar, ,bible,False, , , , , , , , 
-Barak,Barak,"Barak, Deborah, Jael", ,bible,False, , , , , , , , 
-Gideon,Gideon,Gideon, ,bible,False, , , , , , , , 
-Tola,Tola,Tola, ,bible,False, , , , , , , , 
-Jair,Jair,Jair, ,bible,False, , , , , , , , 
-Jephthah,Jefté,Jephthah, ,bible,False, , , , , , , , 
-Ibzan,Ibzan,Ibzan, ,bible,False, , , , , , , , 
-Elon,Elon,Elon, ,bible,False, , , , , , , , 
-Abdon,Abdon,Abdon, ,bible,False, , , , , , , , 
-Samson,Sámson,Samson, ,bible,False, , , , , , , , 
-Samuel,Sámuel,Samuel, ,bible,False, , , , , , , , 
-Saul,Saul,Saul, ,bible,False, , , , , , , , 
-David,David,David, ,bible,False, , , , , , , , 
-Solomon,Salamó,Solomon, ,bible,False, , , , , , , , 
-Malachi,Malakiás,Malachi, ,bible,False, , , , , , , , 
-Ruth,Ruth,Ruth, ,bible,False, , , , , , , , 
-Ezra,Ezra,Ezra, ,bible,False, , , , , , , , 
-Nehemiah,Nehémiás,Nehemiah, ,bible,False, , , , , , , , 
-Esther,Esther,Esther, ,bible,False, , , , , , , , 
-Job,Foglalkozás,Job, ,bible,False, , , , , , , , 
-moses3,Mózes,Moses, ,bible,False, , , , , , , , 
-joshua2,Józsué,Joshua, ,bible,False, , , , , , , , 
-caleb2,Caleb,Caleb, ,bible,False, , , , , , , , 
-Augustus,Augustus,Augustus, ,bible,False, , , , , , , , 
-Tiberius,Tiberius,Tiberius, ,bible,False, , , , , , , , 
-Claudius,Claudius,Claudius, ,bible,False, , , , , , , , 
-persia2,Perzsia,Persia, ,bible,False, , , , , , , , 
-jehoiada,Jojáda,Jehoiada, ,bible,False, , , , , , , , 
-Haggai,Haggeus,Haggai, ,bible,False, , , , , , , , 
-Zerubbabel,Zorobábel (Lukács 3:27),Zerubbabel (Luke 3:27), ,bible,False, , , , , , , , 
-Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , , , , 
-Israel,Izrael,Israel, ,bible,False, , , , , , , , 
-Sarah,Sarah,Sarah,2008-1881 BCE – 127 years,bible,False, , , , , , , , 
-Hagar,Hagar,Hagar,Genesis 21:14,bible,False, , , , , , , , 
-Haran,Hármán,Haran,Genesis 11:26,bible,False, , , , , , , , 
-Reumah,Reuma,Reumah,Concubine – 4 sons,bible,False, , , , , , , , 
-Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more),bible,False, , , , , , , , 
-Lot,Sors,Lot, ,bible,False, , , , , , , , 
-Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon), ,bible,False, , , , , , , , 
-Bethuel,Bethuel,Bethuel, ,bible,False, , , , , , , , 
-Rebekah,Rebeka,Rebekah, ,bible,False, , , , , , , , 
-Laban,Lábán,Laban, ,bible,False, , , , , , , , 
-Leah,Leah,Leah,Genesis 35:23,bible,False, , , , , , , , 
-Rachel,Rachel,Rachel,Genesis 35:24,bible,False, , , , , , , , 
-Bilhah,Bilha,Bilhah,Genesis 35:25,bible,False, , , , , , , , 
-Zilpah,Zilpah,Zilpah,Genesis 35:26,bible,False, , , , , , , , 
-Reuben,Reuben,Reuben, ,bible,False, , , , , , , , 
-Simeon,Simeon,Simeon, ,bible,False, , , , , , , , 
-Levi,Levi,Levi, ,bible,False, , , , , , , , 
-Judah,Júda,Judah, ,bible,False, , , , , , , , 
-Issachar,Issachar,Issachar, ,bible,False, , , , , , , , 
-Zebulun,Zebulun,Zebulun, ,bible,False, , , , , , , , 
-Dinah,Dinah,Dinah,Genesis 34,bible,False, , , , , , , , 
-Esau,Ézsau/,Esau/, ,bible,False, , , , , , , , 
-Edom,Edom,Edom,Genesis 36:1,bible,False, , , , , , , , 
-Ishmael,Ismáel,Ishmael, ,bible,False, , , , , , , , 
-Manasseh2,(Manassé,(Manasseh, ,bible,False, , , , , , , , 
-Ephraim,és Efraim),and Ephraim), ,bible,False, , , , , , , , 
-Benjamin,Benjamin,Benjamin, ,bible,False, , , , , , , , 
-Dan,Dan,Dan, ,bible,False, , , , , , , , 
-Naphtali,Naftali,Naphtali, ,bible,False, , , , , , , , 
-Gad,Gad,Gad, ,bible,False, , , , , , , , 
-Asher,Asher,Asher, ,bible,False, , , , , , , , 
-Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,", ,bible,False, , , , , , , , 
-Milcah2,"Chesed, Hazo,","Chesed, Hazo,", ,bible,False, , , , , , , , 
-Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph", ,bible,False, , , , , , , , 
-Tebah,Tebah,Tebah, ,bible,False, , , , , , , , 
-Gaham,Gáhám,Gaham, ,bible,False, , , , , , , , 
-Tahash,Tahash,Tahash, ,bible,False, , , , , , , , 
-Maacah,Maáka,Maacah, ,bible,False, , , , , , , , 
-Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , , , , 
-Basemath,Alap·matematika,Basemath,"Genesis36:3, 4",bible,False, , , , , , , , 
-Reuel,Reuel,Reuel,"36:13, 17",bible,False, , , , , , , , 
-Nahath,Nahát,Nahath, ,bible,False, , , , , , , , 
-Zerah,Zerah,Zerah, ,bible,False, , , , , , , , 
-Schammah,Schammah,Schammah, ,bible,False, , , , , , , , 
-Mizzah,Mizza,Mizzah, ,bible,False, , , , , , , , 
-Adah,Adah,Adah,"36:11, 12, 15, 16",bible,False, , , , , , , , 
-Eliphaz,Elifáz,Eliphaz, ,bible,False, , , , , , , , 
-Teman,Teman,Teman, ,bible,False, , , , , , , , 
-Omar,Omar,Omar, ,bible,False, , , , , , , , 
-Zepho,Zepho,Zepho, ,bible,False, , , , , , , , 
-Kenaz,Kenaz,Kenaz, ,bible,False, , , , , , , , 
-Korah,Kóré,Korah, ,bible,False, , , , , , , , 
-Korah_Gatam,"Korah, Gatam","Korah, Gatam","Genesis 36:11, 16",bible,False, , , , , , , , 
-Amalek,Amalek,Amalek, ,bible,False, , , , , , , , 
-Oholibamah,Oholibamah,Oholibamah,"36:14, 18",bible,False, , , , , , , , 
-Jeush,Jeush,Jeush, ,bible,False, , , , , , , , 
-Jalam,Dzsalám,Jalam, ,bible,False, , , , , , , , 
-Nebaioth,Nebaioth,Nebaioth,Genesis 25:13,bible,False, , , , , , , , 
-Kedar,Kedar,Kedar, ,bible,False, , , , , , , , 
-Mishma,Mishma,Mishma, ,bible,False, , , , , , , , 
-Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",Genesis 25:13,bible,False, , , , , , , , 
-Dumah_Massa,"Dumah, Massa","Dumah, Massa",Genesis 25:14,bible,False, , , , , , , , 
-Hadad,Hadad,Hadad, ,bible,False, , , , , , , , 
-Tema,Tárgy,Tema, ,bible,False, , , , , , , , 
-Jetur,Jetur,Jetur, ,bible,False, , , , , , , , 
-Naphish,Nafish,Naphish, ,bible,False, , , , , , , , 
-Kedemah,Kedemah,Kedemah, ,bible,False, , , , , , , , 
-Keturah,Keturah,Keturah,Genesis 25:1,bible,False, , , , , , , , 
-Zimran,Zimran,Zimran,Genesis 25:1,bible,False, , , , , , , , 
-Jokshan,Jokshan,Jokshan,Genesis 25:1,bible,False, , , , , , , , 
-Medan,Medan,Medan,Genesis 25:1,bible,False, , , , , , , , 
-Midian,Midian,Midian,Genesis 25:1,bible,False, , , , , , , , 
-Ishbak,Ishbak,Ishbak,Genesis 25:1,bible,False, , , , , , , , 
-Shuah,Shuah,Shuah,Genesis 25:1,bible,False, , , , , , , , 
-Timna,Timna,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False, , , , , , , , 
-life-expectancy2,(Zsoltárok 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , , , , 
-Ham,Sonka,Ham,Gen 10:1,bible,False, , , , , , , , 
-Canaan,Kánaán,Canaan,Gen 10:6,bible,False, , , , , , , , 
-Sidon,Sidon,Sidon,Gen 10:15,bible,False, , , , , , , , 
-Heth,Heth,Heth,Gen 10:15,bible,False, , , , , , , , 
-Jebusite,Jebuzita,Jebusite,Gen 10:16,bible,False, , , , , , , , 
-Amorite,Amorit,Amorite,Gen 10:16,bible,False, , , , , , , , 
-Girgashite,Girgashite,Girgashite,Gen 10:16,bible,False, , , , , , , , 
-Hivite,Hivite,Hivite,Gen 10:17,bible,False, , , , , , , , 
-Arkite,Arkite,Arkite,Gen 10:17,bible,False, , , , , , , , 
-Sinite,Sinit,Sinite,Gen 10:17,bible,False, , , , , , , , 
-Arvadite,Arvadite,Arvadite,Gen 10:18,bible,False, , , , , , , , 
-Zemarite,zemarit,Zemarite,Gen 10:18,bible,False, , , , , , , , 
-Hamathite,Hamatita,Hamathite,Gen 10:18,bible,False, , , , , , , , 
-Cush,Cush,Cush,Gen 10:6,bible,False, , , , , , , , 
-Nimrod,Nimród,Nimrod,Gen 10:8,bible,False, , , , , , , , 
-Mizraim,Mizraim,Mizraim,Gen 10:14,bible,False, , , , , , , , 
-Casluh,Casluh,Casluh,1 Chronicles 1:12 (Philistines),bible,False, , , , , , , , 
-Japheth,Japhet,Japheth,Gen 10:1,bible,False, , , , , , , , 
-Asshur,Asshur,Asshur,Gen 10:22,bible,False, , , , , , , , 
-Lud,Lud,Lud,Gen 10:22,bible,False, , , , , , , , 
-Aram,Aram,Aram,Gen 10:22,bible,False, , , , , , , , 
-Elam,Elam,Elam,Gen 10:22,bible,False, , , , , , , , 
-Joktan,Joktan,Joktan,Gen 10:26,bible,False, , , , , , , , 
-Almodad,Almodad,Almodad,Gen 10:26,bible,False, , , , , , , , 
-Sheleph,Sheleph,Sheleph,Gen 10:26,bible,False, , , , , , , , 
-Hazarmaveth,Hazarmaveth,Hazarmaveth,Gen 10:26,bible,False, , , , , , , , 
-Jerah,Jerah,Jerah,Gen 10:26,bible,False, , , , , , , , 
-Hadoram,Hadoram,Hadoram,Gen 10:27,bible,False, , , , , , , , 
-Uzal,Uzal,Uzal,Gen 10:27,bible,False, , , , , , , , 
-Diklah_Obal,"Diklah, Obal","Diklah, Obal",Gen 10:27,bible,False, , , , , , , , 
-Abimael,Abimael,Abimael,Gen 10:28,bible,False, , , , , , , , 
-Sheba_Ophir,"Sheba, Ophir","Sheba, Ophir","Gen 10:28, 29",bible,False, , , , , , , , 
-Havilah,Havilah,Havilah,Gen 10:29,bible,False, , , , , , , , 
-Jobab,Jobab,Jobab,Gen 10:29,bible,False, , , , , , , , 
-Ham_fn,1) Egyiptomiak: Zsoltárok 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , , , , 
-Canaan_fn,2) Kánaániták: Józsué 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , , , , 
-Aram_fn,3) Arámok: Hóseás 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , , , , 
-Elam_fn,4) Elamiták: Ezsdrás 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , , , , 
-Asshur_fn,5) Asszírok: Ezékiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , , , , 
-Casluh_fn,6) Filiszteusok: 1Krónika 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , , , , 
-Cush_fn,7) Etióp [kusita]: 2Királyok 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , , , , 
-Edom_fn,8) Edomiták: 4Móz 20:14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False, , , , , , , , 
-Moab_fn,"9) Moábiták: 5Móz 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False, , , , , , , , 
-Ammon_fn,10) Ammoniták: Józsué 12:2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False, , , , , , , , 
-Midian_fn,"11) Midiániták: 4Móz 31:2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False, , , , , , , , 
-Amalek_fn,12) Amálekiták: 1Sámuel 15:2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False, , , , , , , , 
-Teman_fn,13) Temaniták: Jób 42:7,13) Temanites: Job 42:7,2025-09-22,bible,False, , , , , , , , 
-Sidon_fn,14) Sidonians: Zakariás 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , , , , 
-Heth_fn,15) Hettiták: 1Móz 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , , , , 
-Jebusite_fn,16) Jebuzeusok: Józsué 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , , , , 
-Judith,Judit?,Judith?,"Genesis 26:34, 35",bible,False, , , , , , , , 
-Lud_fn,17) Lídiaiak: 1Krónika 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , , , , 
-Ishmael_fn,18) Izmaeliták: 1Mózes 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , , , , 
-Amorite_fn,19) Amoriták: Bírák 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , , , , 
-Hivite_fn,"20) Hiviták [Gibeon]: Józsué 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , , , , 
-Cain,Káin,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , , , , 
-Abel,Ábel,Abel,Genesis 4:2,bible,False, , , , , , , , 
-Irad,Irad,Irad,Genesis 4:18,bible,False, , , , , , , , 
-Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False, , , , , , , , 
-Methushael,Matushael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , , , , 
-Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , , , , 
-Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , , , , 
-Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , , , , 
-Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , , , , 
-Naamah,Naamah,Naamah,Genesis 4:22 his sister,bible,False, , , , , , , , 
-Rehoboam,Rehoboám,Rehoboam,first king of southern kingdom of Juda,A6-A,False, , , , , , , , 
-Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False, , , , , , , , 
-Asa,Asa,Asa, ,A6-A,False, , , , , , , , 
-Jehoshaphat,Josafát,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,A6-A,False, , , , , , , , 
-Jehoram2,Jehorám,Jehoram, ,A6-A,False, , , , , , , , 
-Ahaziah,Akházia,Ahaziah, ,A6-A,False, , , , , , , , 
-Athaliah,Athaliah királynő,Queen Athaliah,Queen Athaliah,A6-A,False, , , , , , , , 
-Jehoash,Jóás,Jehoash, ,A6-A,False, , , , , , , , 
-Amaziah,Amaziás,Amaziah, ,A6-A,False, , , , , , , , 
-Uzziah,Uzziás (Azariás),Uzziah (Azariah),also Azariah,A6-A,False, , , , , , , , 
-Jeroboam,Jeroboám,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False, , , , , , , , 
-Nadab,Nadab,Nadab,less than 2,A6-A,False, , , , , , , , 
-Baasha,Basha,Baasha, ,A6-A,False, , , , , , , , 
-Elah,Elah,Elah, ,A6-A,False, , , , , , , , 
-Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,A6-A,False, , , , , , , , 
-OmriTibni,Omri és Tibni együtt,Omri and Tibni together,4 years Omri and Tibni,A6-A,False, , , , , , , , 
-Omri,Omri (egyedül),Omri (alone),from 947 Omri alone,A6-A,False, , , , , , , , 
-Ahab,Ahab,Ahab, ,A6-A,False, , , , , , , , 
-Jehoram,Jehorám,Jehoram, ,A6-A,False, , , , , , , , 
-Jehu,Jehu,Jehu, ,A6-A,False, , , , , , , , 
-Jeoahaz,Jeoahaz,Jeoahaz, ,A6-A,False, , , , , , , , 
-JeoahazJehoash,Jeoahaz és Jehoash,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False, , , , , , , , 
-Jehoash2,Joás (egyedül),Jehoash (alone),Jehoash (alone),A6-A,False, , , , , , , , 
-Jeroboam2,II. Jeroboám,Jeroboam II, ,A6-A,False, , , , , , , , 
-Elijah,Illés,Elijah, ,A6-A,False, , , , , , , , 
-Elisha,Elisha,Elisha, ,A6-A,False, , , , , , , , 
-Jonah,Jónás,Jonah, ,A6-A,False, , , , , , , , 
-Amos,Amos,Amos, ,A6-A,False, , , , , , , , 
-Joel,Joel,Joel, ,A6-A,False, , , , , , , , 
-Jotham,Jotham,Jotham, ,A6-B,False, , , , , , , , 
-Ahaz,Áház,Ahaz, ,A6-B,False, , , , , , , , 
-Hezekiah,Ezékiás,Hezekiah, ,A6-B,False, , , , , , , , 
-Manasseh,Manassé,Manasseh, ,A6-B,False, , , , , , , , 
-Amon,Amon,Amon, ,A6-B,False, , , , , , , , 
-Josiah,Josiah,Josiah, ,A6-B,False, , , , , , , , 
-Jehoahaz,Joáház,Jehoahaz,Only 3 months,A6-B,False, , , , , , , , 
-Jehoiakim,Jojákim,Jehoiakim, ,A6-B,False, , , , , , , , 
-Jehoiachin,Jojachin,Jehoiachin,Only 3 months 10 days,A6-B,False, , , , , , , , 
-Zedekiah,Zedékiás,Zedekiah, ,A6-B,False, , , , , , , , 
-Zechariah,Zakariás,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False, , , , , , , , 
-Schallum,Schallum,Schallum,only one month,A6-B,False, , , , , , , , 
-Menahem,Menahem,Menahem, ,A6-B,False, , , , , , , , 
-Pekahiah,Pekahiah,Pekahiah, ,A6-B,False, , , , , , , , 
-Pekah,Pekah,Pekah, ,A6-B,False, , , , , , , , 
-Hoshea,Hoshea,Hoshea,9 years from c. 748,A6-B,False, , , , , , , , 
-Hosea,Hosea,Hosea, ,A6-B,False, , , , , , , , 
-Isaiah,Ézsaiás,Isaiah, ,A6-B,False, , , , , , , , 
-Micah,Mikeás,Micah, ,A6-B,False, , , , , , , , 
-Zephaniah,Zofóniás,Zephaniah, ,A6-B,False, , , , , , , , 
-Nahum,Náhum,Nahum, ,A6-B,False, , , , , , , , 
-Jeremiah,Jeremiás,Jeremiah, ,A6-B,False, , , , , , , , 
-Habakuk,Habakuk,Habakuk, ,A6-B,False, , , , , , , , 
-Daniel,Daniel,Daniel, ,A6-B,False, , , , , , , , 
-Ezekiel,Ezékiel,Ezekiel, ,A6-B,False, , , , , , , , 
-Obadiah,Abdiás,Obadiah, ,A6-B,False, , , , , , , , 
-Babylon,"Dániel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , , , , 
-Medopersia,"Dániel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , , , , 
-Greece,"Dániel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , , , , 
-Rome,"Dániel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , , , , 
-Angloamerica,"Dániel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True, , , , , , , , 
-Babylon_c,Babilónia,Babylon, ,B9,True, , , , , , , , 
-Medopersia_c,Méd–perzsa birodalom,Medo-Persia, ,B9,True, , , , , , , , 
-Greece_c,Görögország,Greece, ,B9,True, , , , , , , , 
-Rome_c,Római Birodalom,Rome, ,B9,True, , , , , , , , 
-Angloamerica_c,Angol–amerikai világhatalom,Anglo-America, ,B9,True, , , , , , , , 
-daniel2_1,Nabukodonozor király,King Nebuchadnezzar,607 BCE,B9,True, , , , , , , , 
-daniel2_2,elpusztítja Jeruzsálemet,destroys Jerusalem, ,B9,True, , , , , , , , 
-daniel2_3,meghódítja Babilont,Conquers Babylon,539 BCE,B9,True, , , , , , , , 
-daniel2_4,"Círusz rendeletet bocsát ki, miszerint",Cyrus decrees return,537 BCE,B9,True, , , , , , , , 
-daniel2_5,a zsidók visszatérhetnek Jeruzsálembe,of Jews to Jerusalem, ,B9,True, , , , , , , , 
-daniel2_6,Nagy Sándor,Alexander the Great,331 BCE,B9,True, , , , , , , , 
-daniel2_7,meghódítja Perzsiát,conquers Persia, ,B9,True, , , , , , , , 
-daniel2_8,uralkodni kezd Izrael fölött,Rules over Israel,63 BCE,B9,True, , , , , , , , 
-daniel2_9,elpusztítja Jeruzsálemet,Destroys Jerusalem,70 CE,B9,True, , , , , , , , 
-daniel2_10,az I. világháború idején létrejön,"During World War I,",1914-1918 CE,B9,True, , , , , , , , 
-daniel2_11,az angol–amerikai világhatalom,Anglo-American World Power, ,B9,True, , , , , , , , 
-daniel2_12, ,comes into being,End 4.2,B9,True, , , , , , , , 
-607BCE,I. e. 607-ben,607 B.C.E.,accommodate for language,B9,True, , , , , , , , 
-539BCE,I. e. 539-ben,539 B.C.E.,systems in style:,B9,True, , , , , , , , 
-537BCE,I. e. 537-ben,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , , , , 
-331BCE,I. e. 331-ben,331 B.C.E.,so they need a word,B9,True, , , , , , , , 
-63BCE,I. e. 63-ban,63 B.C.E.,prior to the year,B9,True, , , , , , , , 
-70CE,I. sz. 70-ben,70 C.E.,and something,B9,True, , , , , , , , 
-1914CE,1914–1918:,1914-1918 C.E.,after the year,B9,True, , , , , , , , 
-7times,Jelenések 12:9,Revelation 12:9, ,scripture,False, , , , , , , , 
-infliction2,ApCsel 7:6,Acts 7:6, ,scripture,False, , , , , , , , 
-eastern-zhou,Kr. e. 770-256,770-256 BC, ,span_bc,False, , , , , , , , 
-430years,1943 – ie 1513,1943 – 1513 B.C.E., ,span_bce,False, , , , , , , , 
-eastern-han,25-220 CE,25-220 CE, ,span_ce,False, , , , , , , , 
-northern-dynasties,368-581,368-581 CE, ,span_ce,False, , , , , , , , 
-southern-dynasties,420-589,420-589 CE, ,span_ce,False, , , , , , , , 
+version,6.11,6.11, ,float,False, , , , , , , , 
+pdf_title,6000 éves emberi történelem vizualizálva,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6 000 év emberi történelem — időrend,Az emberi történelem 6000 éve – Idővonal, ,Az emberiség 6000 éves története – Idővonal
+pdf_subject,Az emberiség idővonala,Timeline of human history from 4000 BCE to present, ,text,False, , , , ,Időrend az emberi történelemről i. e. 4000-től napjainkig,Az emberi történelem idővonala i. e. 4000-től napjainkig, ,Az emberi történelem idővonala i. e. 4000-től napjainkig
+BCE,I. e.,B.C.E., ,B9,True, , , , , ,i. e., , 
+CE,I. sz.,C.E., ,B9,True, , , , , ,i. sz., , 
+month,hónap,month, ,text,False, , , , ,hónap,hónap, ,hónap
+months,Hónapok,months, ,text,False, , , , ,hónapok,hónapok, ,hónapok
+day,nap,day, ,text,False, , , , ,nap,nap, ,nap
+days,Napok,days, ,text,False, , , , ,napok,napok, ,napok
+to,hoz,to, ,text,False, , , , ,–tól,–, ,hogy
+Deluge,Áradat,Deluge, ,text,False, , , , ,Özönvíz,Vízözön, ,Örvén
+moses2,1593-tól 1473-ig BCE - 120 év,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,i. e. 1593-tól 1473-ig – 120 év,i. e. 1593-tól i. e. 1473-ig – 120 év, ,Kr. e. 1593–1473 – 120 év
+temple1,Niszán 1513-tól Zivig 1034 BCE-ig,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,i. e. 1513 niszántól i. e. 1034 zivig,i. e. 1513 niszán havától i. e. 1034 ziv haváig, ,Kr. e. 1513. niszán – Kr. e. 1034. ziv.
+69weeks,Jézus i. sz. 29 őszén keresztelkedett meg.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,Jézus megkeresztelkedése i. sz. 29 őszén,Jézus megkeresztelkedése i. sz. 29 őszén, ,Jézus Kr. u. 29 őszén keresztelkedett meg.
+year,év,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,év,év, ,év
+years,Év,years, ,text,False, , , , ,év,év, ,évek
+years_age,Év,years,years when used as age for a person (different word than years in some languages),text,False, , , , ,év,év, ,évek
+age_kings,éves korában király lett,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,éves korában király lett, , 
+wilderness,Izrael a pusztában 1513-tól 1473-ig – 40 év,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,Izrael a pusztában i. e. 1513-tól 1473-ig – 40 év,Izrael a pusztában i. e. 1513-tól i. e. 1473-ig – 40 év, ,Izrael a pusztában Kr. e. 1513–1473 – 40 év
+timespan_judges,1473-tól 1117-ig - 356 év,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,i. e. 1473-tól 1117-ig – 356 év,i. e. 1473-tól i. e. 1117-ig – 356 év, ,Kr. e. 1473–1117 – 356 év
+timespan_judges2,A bírák ideje,Time of the judges, ,text,False, , , , ,A bírák ideje,A bírák kora, ,A bírák kora
+temple2,479 év a templom építéséig – 1Királyok 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,479 év a templom építéséig – 1 Királyok 6:1,479 év a templom építéséig – 1Királyok 6:1, ,479 év a templom építéséig – 1 Királyok 6:1
+69weeks2,69 hét a Messiásig – Dániel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,69 hét a Messiásig – Dániel 9:25,69 hét a Messiásig – Dániel 9:25, ,69 hét a Messiásig – Dániel 9:25
+jesus_service,"3,5 év Jézus szolgálata, kivégezték Niszán 14-én, i. sz. 33","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"Jézus 3,5 éves szolgálata, kivégezve i. sz. 33. niszán 14-én","Jézus 3,5 éves szolgálata, kivégezve i. sz. 33 niszán 14-én", ,"3,5 évnyi Jézus szolgálata, kivégzés: Kr. u. 33. év niszán hónapjának 14. napján."
+jesus_life,"Jézus, született Kr.e. 2-ben",Jesus born 2 B.C.E., ,text,False, , , , ,Jézus születése i. e. 2,Jézus születése i. e. 2-ben, ,Jézus i. e. 2-ben született.
+exile,607–537 – 70 év (Jeremiás 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,i. e. 607-től 537-ig – 70 év (Jeremiás 25:11),i. e. 607-től i. e. 537-ig – 70 év (Jeremiás 25:11), ,Kr. e. 607–537 – 70 év (Jeremiás 25:11)
+exile2,száműzetés,Exile, ,text,False, , , , ,Fogság,Száműzetés, ,Száműzetés
+7times2,7-szer – 2520 évvel a messiási királyságig 1914-ben (Dániel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7 idők – 2520 év a Messiási Királyságig i. sz. 1914 (Dániel 4:23),"7 idő – 2520 év a Messiási Királyságig, i. sz. 1914 (Dániel 4:23)", ,"7-szer – 2520 év a Messiási Királyságig, 1914-ben (Dániel 4:23)"
+ww1,Első világháború – i. sz. 1914–1918,World War I – 1914–1918, ,text,False, , , , ,Első világháború – 1914–1918,Első világháború – 1914–1918, ,Az első világháború – 1914–1918
+ww2,II. világháború – 1939–1945,World War II – 1939–1945, ,text,False, , , , ,Második világháború – 1939–1945,Második világháború – 1939–1945, ,A második világháború – 1939–1945
+30_year_war,Harmincéves háború Európában 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,Harmincéves háború Európában 1618–1648,Harmincéves háború Európában 1618–1648, ,"A harmincéves háború Európában, 1618–1648"
+joshua,110 év,110 years, ,text,False, , , , ,110 év,110 év, ,110 év
+caleb,több mint 85 év,more than 85 years, ,text,False, , , , ,több mint 85 év,több mint 85 év, ,több mint 85 éve
+missionary1,"Pál első missziós útja, kb. i. sz. 47-48 Barnabással és János Márkkal","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"Pál első misszionáriusi útja, kb. i. sz. 47–48, Barnabással és János Márkkal",Pál első misszionárius útja kb. i. sz. 47–48-ban Barnabással és János Márkkal, ,"Pál első missziós útja, Kr. u. 47–48 körül, Barnabással és János Márkkal"
+circumcision,"A körülmetélés kérdése Antiókhiában, konferencia Jeruzsálemben i. sz. 49 körül","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"A körülmetélés kérdése Antiókhiában, a jeruzsálemi gyűlés kb. i. sz. 49","A körülmetélkedés ügye Antióxiában, zsinat Jeruzsálemben kb. i. sz. 49-ben", ,"A körülmetélés kérdése Antiochiában, konferencia Jeruzsálemben, Kr. u. 49 körül."
+missionary2,Második missziós út kb. i. sz. 49-52 Silasszal (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,"Pál második misszionáriusi útja kb. i. sz. 49–52, Szilásszal (Szilvánusz)",Második misszionárius út kb. i. sz. 49–52-ben Silással (Silvánusszal), ,"Második missziós út, Kr. u. 49–52 körül, Silással (Silvánusszal)"
+missionary3,Harmadik missziós utazás i. sz. 52-56 körül,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,Pál harmadik misszionáriusi útja kb. i. sz. 52–56,Harmadik misszionárius út kb. i. sz. 52–56-ban, ,"Harmadik missziós út, kb. 52–56-ban"
+caesarea,Pál őrizetben Cezáreában kb. i. sz. 56-58,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,Pál Cezáreában őrizetben kb. i. sz. 56–58,Pál őrizetben Caesareában kb. i. sz. 56–58-ban, ,"Pál őrizetben Cezáreában, i. sz. 56–58 körül"
+rome1,Pál első római bebörtönzése kb. i. sz. 59-61,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,Pál első római fogsága kb. i. sz. 59–61,Pál első római fogsága kb. i. sz. 59–61-ben, ,"Pál első római fogsága, kb. 59–61-ben"
+rome2,"Pál második római bebörtönzése i. sz. 65 körül, 2 Timóteus írása, Pál kivégzése","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"Pál második római fogsága kb. i. sz. 65, a 2 Timóteus megírása, Pál kivégzése","Pál második római fogsága kb. i. sz. 65-ben, a 2. Timóteus megírása, Pál kivégzése", ,"Pál második római fogsága (kb. 65-ben), a 2. Timóteus-levél megírása, Pál kivégzése"
+event_exodus,Kivonulás Egyiptomból 1513. niszán 14-én,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,Kivonulás Egyiptomból i. e. 1513. niszán 14-én,Kivonulás Egyiptomból i. e. 1513 niszán 14-én, ,Kivonulás Egyiptomból Kr. e. 1513. niszán 14-én.
+event_division_kingdom,Izrael felosztása i. e. 997,Division of Israel 997 BCE, ,text,False, , , , ,Izrael kettészakadása i. e. 997,Izrael kettészakadása i. e. 997, ,Izrael felosztása i. e. 997-ben
+event_destruction_samaria,Samária elpusztítása i.e. 740-ben Asszíria által,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,"Szamária elpusztítása i. e. 740, Asszíria által",Szamária pusztulása i. e. 740-ben Asszíria által, ,Samária elpusztítása Kr. e. 740-ben Asszíria által
+event_destruction_jerusalem1,"Jeruzsálem pusztulása 607-ben Babilon által, 390 évvel a királyság felosztása után (Ezékiel 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"Jeruzsálem elpusztítása i. e. 607, Babilon által, 390 évvel a királyság kettészakadása után (Ezékiel 4:5)","Jeruzsálem pusztulása i. e. 607-ben Babilónia által, 390 évvel a királyság megosztása után (Ezékiel 4:5)", ,"Jeruzsálem elpusztítása Kr. e. 607-ben Babilon által, 390 évvel a királyság felosztása után (Ezékiel 4:5)"
+event_temple_rebuilt,A jeruzsálemi templom újjáépítése Kr.e. 515-ben,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,A jeruzsálemi templom újjáépítése i. e. 515,A jeruzsálemi templom újjáépítése i. e. 515-ben, ,A jeruzsálemi templomot Kr. e. 515-ben újjáépítették.
+event_jerusalem_rebuilt,A jeruzsálemi falat Kr.e. 455-ben újjáépítették.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,Jeruzsálem falának újjáépítése i. e. 455,Jeruzsálem falának újjáépítése i. e. 455-ben, ,Jeruzsálem falát i. e. 455-ben építették újjá.
+event_destruction_jerusalem2,Jeruzsálem lerombolása i. sz. 70 Róma által Titusz alatt,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,"Jeruzsálem elpusztítása i. sz. 70, Róma által Titusz vezetésével",Jeruzsálem pusztulása i. e. 70-ben Róma által Titus vezetésével, ,"Jeruzsálem elpusztítása Kr. u. 70-ben, amikor Róma Titus vezetésével meghódította a várost"
+event_1914,"A nemzetek idejének vége, Isten királysága uralkodni kezd a mennyben 1914 i. sz. ","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.", ,text,False, , , , ,"A nemzetek idejének vége (Lukács 21:24), Isten Királysága elkezd uralkodni a mennyben i. sz. 1914","A nemzetek idejének vége (Lukács 21:24), Isten Királyságának uralkodásának kezdete a mennyben i. sz. 1914", ,"A nemzetek korszakának vége (Lukács 21:24), Isten Királysága 1914-ben kezdi meg uralkodását a mennyben."
+became_king,,becomes king at age, ,text,False, , , , ,évesen lesz királlyá,, ,[kor] évesen lesz király
+vulgate,A Vulgatát Jeromos fejezte be (a Biblia latin fordítása) kb. i. sz. 405,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,A Vulgata elkészítése Jeromos által (a Biblia latin fordítása) kb. i. sz. 405,Jeromos befejezi a Vulgátát (a Biblia latin fordítását) i. sz. 405 körül, ,"A Vulgata, amelyet Jeromos állított össze (a Biblia latin fordítása), i. sz. 405 körül."
+gutenberg,Gutenberg Biblia nyomtatása 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,Gutenberg Biblia nyomtatása 1455,A Gutenberg-biblia nyomtatása 1455-ben, ,"A Gutenberg-Biblia, 1455-ben nyomtatva"
+erasmus,"A Keresztény Görög Iratok görög szövege, kiadta Desiderius Erasmus rotterdami herceg, 1516;",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,A keresztény görög iratok görög szövegének kiadása Rotterdamí Desiderius Erasmus által 1516,A Keresztény Görög Iratok görög szövegét kiadja rotterdami Desiderius Erasmus 1516-ban, ,"A keresztény görög szentírások görög nyelvű szövege, amelyet Desiderius Erasmus rotterdami kiadott 1516-ban"
+luther,Luther bibliafordítása 1522 szeptemberében,Luther Bible translation in September 1522, ,text,False, , , , ,Luther Bibliafordítása 1522 szeptemberében,Luther bibliafordítása 1522 szeptemberében, ,A Luther-féle Bibliafordítás 1522 szeptemberében
+tyndale,"Angol bibliafordítás: Tyndale, 1536",English Bible translation by Tyndale 1536, ,text,False, , , , ,Tyndale angol Bibliafordítása 1536,Tyndale angol bibliafordítása 1536-ban, ,"Tyndale angol nyelvű Bibliafordítása, 1536"
+king_james,Jakab király Biblia 1611,King James Bible 1611, ,text,False, , , , ,Biblia Károli 1611,Jakab király bibliafordítása 1611-ben, ,"Jakab király Bibliája, 1611"
+69weeks3,"Jézus 29-ben kezdi meg szolgálatát (Lukács 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Jézus 29-ben kezdi szolgálatát (Lukács 3:1, 21)","Jézus elkezdi szolgálatát i. sz. 29-ben (Lukács 3:1, 21)", ,"Jézus Kr. u. 29-ben kezdi meg szolgálatát (Lukács 3:1, 21)"
+ransom,"a hét közepe ""áldozat, hogy megszűnjön"" Dániel 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,A hét közepén „megszűnik az áldozat” Dániel 9:27,A hetedik hét közepe: „az áldozat megszűnik” (Dániel 9:27), ,A hét közepén „az áldozat megszűnik” Dániel 9:27
+cornelius,Kornélius a 70. hét végén keresztelkedett meg (Dániel 9:24) i. sz. 36-ban.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Cornelius megkeresztelkedése a 70 hét végén (Dániel 9:24) 36-ban,"Kornéliust megkeresztelik a 70 hét végén (Dániel 9:24), i. sz. 36-ban", ,"Cornelius a 70 hét leteltével (Dániel 9:24) keresztelkedett meg, Kr. u. 36-ban."
+columbus,a Kolumbusz előtti időszak vége Amerikában 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,A prekolumbián korszak vége Amerikában 1492,A Kolumbusz előtti korszak vége Amerikában 1492-ben, ,Az amerikai kontinensen a kolumbusz előtti korszak vége: 1492
+declaration_independence,13 amerikai gyarmat függetlenségének kikiáltása 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,13 amerikai gyarmat függetlenségi nyilatkozata 1776,Az amerikai 13 gyarmat függetlenségi nyilatkozata 1776-ban, ,"Az amerikai 13 kolónia függetlenségi nyilatkozata, 1776"
+tischendorf,Tischendorf 1844-ben fedezi fel a Codex Sinaiticust a 4. századból,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf felfedezi a Codex Sinaiticust a 4. századból 1844-ben,Tischendorf felfedezi a 4. századból származó Codex Sinaiticust 1844-ben, ,Tischendorf 1844-ben fedezi fel a 4. századból származó Codex Sinaiticus-t
+dead_sea_scrolls,Holt-tengeri tekercsek írva,Dead Sea Scrolls written, ,text,False, , , , ,Holt-tengeri tekercsek megírása,A Holt-tengeri tekercsek megírása, ,A Holt-tengeri tekercsek megírása
+septuagint,Septuaginta LXX fordítás,Septuagint LXX translated, ,text,False, , , , ,Septuaginta LXX lefordítása,A Szeptuaginta (LXX) lefordítása, ,A Septuaginta (LXX) fordítása
+watchtower,"A ""Sion Őrtornya és Krisztus jelenlétének hírnöke"" első száma 1879-ben jelenik meg",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,A „Zion’s Watch Tower and Herald of Christ’s Presence” első száma megjelenik 1879-ben,Megjelenik a „Zion’s Watch Tower and Herald of Christ’s Presence” (Sioni Őrtorony és Krisztus Jelenlétének Hírnöke) első száma 1879-ben, ,A „Zion’s Watch Tower and Herald of Christ’s Presence” című lap első száma 1879-ben jelent meg
+jehovahs_witnesses,"A Bibliakutatók új nevet vettek fel: Jehova Tanúi. Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931", ,text,False, , , , ,"A Bibliakutatók új nevet vesznek fel – Jehova Tanúi (Ézsaiás 43:10, 12) Columbusban, Ohio-ban, 1931","A Bibliakutatók felveszik az új nevet – Jehova Tanúi (Ézsaiás 43:10, 12) az ohiói Columbusban, 1931-ben", ,"A Biblia-tanulmányozók új nevet vesznek fel – Jehova Tanúi (Ézsaiás 43:10, 12) – Columbusban, Ohio államban, 1931-ben"
+gilead_school,"Az Őrtorony Gileád Bibliaiskola 1943. február 1-jén, hétfőn kezdődött","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"A Gilead Watchtower Bibliamisszió iskola február 1-jén, hétfőn indul, 1943","Az Őrtorony Gileád Bíbliaiskola kezdetének napja: 1943. február 1., hétfő", ,"A Gileád-i Őrtorony Bibliaiskola 1943. február 1-jén, hétfőn kezdődik"
+new_world_translation1,"""A Szentírás új világ fordítása"" megjelent Manchesterben, Angliában, 1960. június 18-án","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible", ,text,False, , , , ,"„Az Új Világ Fordítása a Szentírásból” kiadása Manchesterben, Angliában, június 18-án, 1960-ban, visszahelyezi Jehova nevét a Biblia számos részébe","A „Szent Írások Új világ fordítása” kiadása Manchesterben, Angliában 1960. június 18-án, amely a Biblia sok helyén visszaállítja Jehova nevét", ,Az 1960. június 18-án az angliai Manchesterben megjelent „A Szentírás Új Világ Fordítása” című kiadvány a Biblia számos részében újra bevezeti a Jehova nevet
+new_world_translation2,"Átdolgozott ""A Szentírás új világ fordítása"", megjelent a 2013-as éves találkozón","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online", ,text,False, , , , ,"A felülvizsgált „Új Világ Fordítása a Szentírásból” az éves összejövetelen jelenik meg 2013-ban, digitális és online használatra optimalizálva","A „Szent Írások Új világ fordítása” átdolgozott kiadása a 2013-as évi találkozón, digitális és online használatra optimalizálva", ,"A 2013-as éves közgyűlésen bemutatták a „Szentírás új világfordítását” című kiadvány átdolgozott változatát, amelyet digitális és online használatra optimalizáltak"
+cold_war,"A ""hidegháború"" címkével ellátott geopolitikai helyzet 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,A „hidegháború” néven ismert geopolitikai helyzet 1945–1991,"A geopolitikai helyzet elnevezése: „hidegháború”, 1945–1991", ,A „hidegháború” néven ismert geopolitikai helyzet 1945–1991
+codex_sinaiticus,Codex Sinaiticus írása,Codex Sinaiticus written, ,text,False, , , , ,Codex Sinaiticus megírása,A Codex Sinaiticus megírása, ,A Codex Sinaiticus megírása
+codex_vaticanus,Codex Vaticanus írása,Codex Vaticanus written, ,text,False, , , , ,Codex Vaticanus megírása,A Codex Vaticanus megírása, ,A Codex Vaticanus megírása
+leningrad_codex,Kairóban írt Leningrádi kódex Kr. u. 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Leningrádi Kódex megírása Kairóban i. sz. 1008-ban,"A Leningrádi kódex megírása Kairóban, i. sz. 1008-ban", ,"A Leningrádi kódex, amelyet Kr. u. 1008-ban Kairóban írtak"
+john,"János ""kinyilatkoztatást"" ír száműzetésében Pátmosz 96-98-ban.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,János a „jelenések könyvét” írja a száműzetésben Patmoszon 96–98-ban,"János megírja a „Jelenések könyvét” a Patmosz szigetén tolmácsolt száműzetése alatt, i. sz. 96–98-ban", ,"János a „Jelenések” című művet a Patmosz-szigeten töltött száműzetése alatt írta, Kr. u. 96–98 között."
+buddha,Buddha – Gautama Sziddhártha Kr.e. 563-483 körül,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,A Buddha – Sziddhárta Gautama i. e. kb. 563–kb. 483,Buddha – Sziddhárta Gautama i. e. 563 körül – i. e. 483 körül, ,"A Buddha – Siddhártha Gautama, i. e. kb. 563–kb. 483"
+buddha2,Buddha kb. Kr.e. 480-400,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Buddha másként i. e. kb. 480–400,Buddha alternatív korszaka i. e. 480–400 körül, ,Buddha (más források szerint i. e. 480–400 körül)
+mohammed,Mohamed kb. i. sz. 570-632,Mohammed c. 570-632, ,text,False, , , , ,Mohamed kb. 570–632,Mohamed i. sz. 570–632 körül, ,"Mohammed, kb. 570–632"
+confucius,Konfuciusz kb. Kr.e. 551-c.479,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,Konfuciusz i. e. kb. 551–kb. 479,Konfuciusz i. e. 551 körül – i. e. 479 körül, ,"Konfuciusz, i. e. 551 körül – i. e. 479 körül"
+hijrah,Hidzsra - utazás Mekkába Medinába 622. július 16.,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Hidzsra – út Mekkából Medinába 622. július 16.,"Hidzsra – Utazás Mekkából Medinába, i. sz. 622. július 16.", ,"Hijra – Utazás Mekkából Medinába, 622. július 16."
+moses_escape,"1553 Mózesnek el kell menekülnie Egyiptomból – 2Mózes 2:15, ApCsel 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"i. e. 1553 Mózesnek el kell menekülnie Egyiptomból – 2 Mózes 2:15, ApCsel 7:23","I. e. 1553 Mózesnek el kell menekülnie Egyiptomból – 2Mózes 2:15, Cselekedetek 7:23", ,"Kr. e. 1553. Mózesnek el kell menekülnie Egyiptomból – II. Mózes 2:15, Apostolok cselekedetei 7:23"
+10plagues,1513 BCE Egyiptom 10 csapást kap,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,i. e. 1513 Egyiptomot sújtják a 10 csapás,I. e. 1513 Egyiptomot sújtja a 10 csapás, ,Kr. e. 1513-ban Egyiptomot 10 csapás éri
+joseph_sold,"Józsefet 17 éves korában eladták rabszolgának (1Móz 37,2",Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Józsefet 17 évesen adják el rabszolgának – 1 Mózes 37:2,Józsefet 17 éves korában eladják rabszolgának – 1Mózes 37:2, ,Józsefet 17 éves korában rabszolgának adták el – 1Móz 37:2
+infliction,400 éves szenvedés (ApCsel 7:6) – Izmael Kr.e. 1913,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400 éves szenvedés (ApCsel 7:6) – Ismáel i. e. 1913,"400 éves sanyargatás (Cselekedetek 7:6) – Izmael, i. e. 1913", ,"400 éves szenvedés (ApCsel 7:6) – Izmael, i. e. 1913"
+Alexander,Nagy Sándor (Dániel 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Nagy Sándor (Dániel 11:3),Nagy Sándor (Dániel 11:3), ,Nagy Sándor (Dániel 11:3)
+persia,"Nagy Kürosz, II. Kambüszész, I. Dárius i. e. 490, I. Xerxész i. e. 480 (Eszter férje, Dániel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Cyrus perzsa király, Cambyses II, Dareiosz I i. e. 490, Xerxes I i. e. 480 (Eszter férje, Dániel 11:2)","Nagy Círus, Kambüszész II., I. Dáriusz i. e. 490, I. Xerxész i. e. 480 (Eszter férje, Dániel 11:2)", ,"Cyrus Nagy, Kambüszész II., Dáriusz I. i. e. 490, Xerxész I. i. e. 480 (Eszter férje, Dániel 11:2)"
+king_north,"I. Szeleukosz Nicator (v5) Szíriától III. Antiokhoszig (10. vers) és IV. Szeleukoszig (18., 19. vers) egészen Octavianusig (20. vers) és Tiberiusig (21-24. vers)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"I. Seleukosz Nikátor (5. vers) Szíriától III. Antiokhoszig (10. vers) és IV. Seleukoszig (18., 19. vers) egészen Octavianusig (20. vers) és Tiberiusig (21–24. vers)",I. Szeleukosz Nikatór (5. versek) Szíria III. Antiokhoszig (10. versek) és IV. Szeleukoszig (18–19. versek) egészen Oktávianusig (20. vers) és Tibériusig (21–24. versek), ,"I. Szeleukosz Nikátor (5. vers) – Szíria – III. Antiokhosz (10. vers) és IV. Szeleukosz (18., 19. vers) – egészen Oktaviánusig (20. vers) és Tiberiusig (21–24. vers)"
+king_north1,Észak királya,King of the North, ,text,False, , , , ,Az északi király,Az észak királya, ,Az Észak Királya
+king_south,"Ptolemaiosz I., II., III., IV. (v11, 12), V (v15, 16) az Actium csatába i. e. 31.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"I. Ptolemaiosz, II, III, IV (11., 12. vers), V (15., 16. vers) az actiumi csatáig i. e. 31-ben","I., II., III., IV. Ptolemaiosz (11–12. versek), V. Ptolemaiosz (15–16. versek) az i. e. 31-es actiumi csatáig", ,"I., II., III., IV. (11., 12.) és V. (15., 16.) Ptolemaiosz az i. e. 31-es actiumi csatáig."
+king_south1,Dél királya,King of the South, ,text,False, , , , ,A déli király,A dél királya, ,A Dél Királya
+king_south2,"Brit birodalom 1870, angol-amerikai világhatalom 1914 óta","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"Brit Birodalom 1870, Anglo-Amerikai Világhatalom 1914 óta","Brit Birodalom 1870, angol-amerikai világbirodalom 1914 óta", ,"A Brit Birodalom 1870-ben, az angol–amerikai világhatalom 1914 óta"
+king_south3,Dél királya,King of the South, ,text,False, , , , ,A déli király,A dél királya, ,A Dél Királya
+king_north2,"Németország I. Vilmos császárral 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Németország I. Vilmos császárral 1871 (28. vers), 1914 (29. vers), 1935 (30b. vers), 1939 (31a. vers)","Németország I. Vilmos császárral 1871 (28. vers), 1914 (29. vers), 1935 (30b. vers), 1939 (31a. vers)", ,"Németország I. Vilmos császárral: 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Észak,North, ,text,False, , , , ,Észak,Észak, ,Észak
+king_north4,"Szovjetunió 1945-1991 (Dániel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"Szovjetunió 1945–1991 (Dániel 11:32–39, 40b, 41)","Szovjetunió 1945–1991 (Dániel 11:32–39, 40b, 41)", ,"Szovjetunió 1945–1991 (Dániel 11:32–39, 40b, 41)"
+king_north5,Oroszország 2017 óta (w20 május),Russia since 2017 (w20 May), ,text,False, , , , ,Oroszország 2017 óta (w20. május),Oroszország 2017 óta (w20 május), ,Oroszország 2017 óta (2020. május)
+time_of_end,"Krisztus jelenléte, a dolgok rendszerének befejezése (Mt 24,3), az utolsó napok (2Ti 3,1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)", ,text,False, , , , ,"Krisztus jelenléte, a dolgozatok rendszerének vége (Máté 24:3), az utolsó napok (2 Timóteus 3:1)","Krisztus jelenléte, a világrendszer vége (Máté 24:3), az utolsó napok (2 Timóteusz 3:1)", ,"Krisztus jelenléte, a dolgok rendjének vége (Máté 24:3), az utolsó napok (2. Timóteus 3:1)"
+time_of_end2,Utolsó napok,Last days, ,text,False, , , , ,Utolsó napok,Utolsó napok, ,Az elmúlt napok
+suryavaman2,II. Suryavarman király megépíti Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,II. Szurjavarman király felépíti Angkorvatot 1113–1150,II. Szurjavarman király felépíti az Angkor Watot 1113–1150, ,II. Suryavarman király 1113 és 1150 között építtette az Angkor Watot
+notre-dame,Notre-Dame de Paris épült 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,A párizsi Notre-Dame megépítése 1163–1260,A párizsi Notre-Dame építése 1163–1260, ,"A párizsi Notre-Dame-székesegyház, építési ideje: 1163–1260"
+babel,Bábel tornya épült,Tower of Babel built, ,text,False, , , , ,Bábel tornyának építése,Bábel tornyának építése, ,A Bábel-torony felépítése
+infliction1,400 éves következmény,400 year infliction,Acts 7:6,text,False, , , , ,400 éves szenvedés,400 éves sanyargatás, ,400 éves szenvedés
+Lots_wife,Lót felesége,Lot’s wife, ,text,False, , , , ,Lót felesége,Lót felesége, ,Lót felesége
+Lots_daughters,Lót leányai,Daughters of Lot, ,text,False, , , , ,Lót lányai,Lót leányai, ,Lót leányai
+Moab,Moáb (idősebb lánya),Moab (older daughter), ,text,False, , , , ,Moáb (az idősebbik lány),Moáb (idősebb leány), ,Moab (idősebb lánya)
+rosetta,Rosetta kő 196 BCE,Rosetta stone 196 B.C.E., ,text,False, , , , ,Rosetta-i kő i. e. 196,Rosette-i kő i. e. 196, ,"Rosetta-kő, Kr. e. 196."
+Herodotus,"Hérodotosz kb. Kr. e. 484 – kb. 425, írja a The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"Hérodotosz i. e. 484 – i. e. 425, megírja a Történelmeket","Hérodotosz kb. i. e. 484 – kb. i. e. 425, megírja a Történelem című művét", ,Hérodotosz (kb. 484 – kb. 425 e.Kr.) megírja a „Történelem” című művet
+Aristotle,Arisztotelész Kr. e. 384 - 322,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,Arisztotelész i. e. 384 – 322,Arisztotelész i. e. 384 – i. e. 322, ,"Arisztotelész, i. e. 384–322"
+Ptolemy,Ptolemaiosz kb. 100 – kb. 170,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,Ptolemaiosz i. sz. 100 – i. sz. 170 körül,Ptolemaiosz kb. 100 – kb. 170 i. sz., ,"Ptolemaiosz, kb. 100 – kb. 170 u. kr."
+Pythagoras,Püthagorasz kb. Kr. e. 570 – kb. Kr. e. 495,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,Püthagorasz i. e. 570 – i. e. 495 körül,Püthagorasz kb. i. e. 570 – kb. i. e. 495, ,"Pitagorasz, i. e. 570 körül – i. e. 495 körül"
+Plato,Platón kb. Kr. e. 427 – kb. 348,Plato c. 427 – c. 348 BC, ,text,False, , , , ,Platón i. e. 427 – i. e. 348 körül,Platón kb. i. e. 427 – kb. i. e. 348, ,"Platón, i. e. 427 körül – i. e. 348 körül"
+Socrates,Szókratész kb. Kr. e. 470 – kb. 399,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,Szókratész i. e. 470 – i. e. 399 körül,Szókratész kb. i. e. 470 – kb. i. e. 399, ,"Szókratész, i. e. 470 körül – i. e. 399 körül"
+Josephus,Josephus kb. 37 – kb. 100,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,Josephus i. sz. 37 – i. sz. 100 körül,Josephus Flavius kb. 37 – kb. 100 i. sz., ,"Josephus, kb. 37 – kb. 100 u. kr."
+Cicero,Cicero Kr. e. 106–43,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,Cicero i. e. 106–43,Cicero i. e. 106–43, ,"Cicero, Kr. e. 106–43"
+lachish_letters,Lachish levelek kb. Kr. e. 590,Lachish letters c. 590 B.C.E., ,text,False, , , , ,Lachis levelek i. e. 590 körül,Lákisi levelek kb. i. e. 590, ,"Lakis-levelek, i. e. 590 körül"
+lachish_reliefs,Lachish domborművek kb. Kr.e. 681,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,Lachis domborművek i. e. 681 körül,Lákisi domborművek kb. i. e. 681, ,"Lakis domborművei, i. e. 681 körül."
+mesha_stele,Mesha sztélé (moábita kő) kb. Kr.e. 840,Mesha Stele (Moabite stone) c. 840 B.C.E., ,text,False, , , , ,Mésa sztélé (moábiti kő) i. e. 840 körül,Mésa-sztélé (moáb kő) kb. i. e. 840, ,A Mesha-sztélé (moáb kő) i. e. 840 körül.
+gilgamesh,Gilgames és Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,Gilgames és Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgames és Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,Gilgames és Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Gilgames-eposz (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,Gilgames-eposz (Sîn-lēqi-unninni),Gilgames-eposz (Szin-lék-unyinni), ,Gilgames-eposz (Sîn-lēqi-unninni)
+gregorian,Gergely-naptár 1582,Gregorian calendar 1582, ,text,False, , , , ,Gergely-naptár 1582,Gergely-naptár 1582, ,"Gergely-naptár, 1582"
+shang-dynasty,kb. Kr. e. 1600-1046,c. 1600-1046 BC, ,text,False, , , , ,i. e. 1600-1046,kb. i. e. 1600–1046, ,kb. i. e. 1600–1046
+western-zhou,kb. Kr. e. 1046-771,c. 1046-771 BC, ,text,False, , , , ,i. e. 1046-771,kb. i. e. 1046–771, ,kb. i. e. 1046–771
+qin-dynasty,Qin Kr. E. 221-207,Qin 221-207 BC, ,text,False, , , , ,Qin i. e. 221-207,Csin-dinasztia i. e. 221–207, ,"Qin, i. e. 221–207"
+western-han,Kr. e. 207 – i. sz. 9,207 BC – 9 CE, ,text,False, , , , ,i. e. 207 – i. sz. 9,i. e. 207 – i. sz. 9, ,Kr. e. 207 – Kr. u. 9
+three-kingdoms,Három királyság 220-280,Three kingdoms 220-280 CE, ,text,False, , , , ,Három királyság i. sz. 220-280,Három királyság i. sz. 220–280, ,"A három királyság, 220–280-ban"
+sixteen-kingdoms,Tizenhat királyság 304-439,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,Tizenhat királyság i. sz. 304-439,Tizenhat királyság i. sz. 304–439, ,"Tizenhat királyság, 304–439"
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , ,"618–690, 705–907", ,"618–690, 705–907"
+wu-zhou,690-705 Vu Csou,690-705 Wu Zhou, ,text,False, , , , , ,690–705 Vu Csou, ,690–705 Wu Zhou
+tang-dynasty1_c,Csípős íz,Tang, ,text,False, , , , , ,Tang-dinasztia, , 
+gonghe,Gonghe Regency Kr. E. 841-828,Gonghe Regency 841-828 BC, ,text,False, , , , ,Gonghe régensség i. e. 841-828,Gonghe régensség i. e. 841–828, ,"Gonghe megye, i. e. 841–828"
+Ashoka,Asóka (kb. Kr. e. 304-232) támogatja a buddhizmust,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,Asóka (i. e. 304-232 körül) előmozdítja a buddhizmust,Asóka (kb. i. e. 304–232) pártfogolja a buddhizmust, ,Ashoka (kb. i. e. 304–232) népszerűsítette a buddhizmust
+siloam-tunnel,Ezékiás kiterjeszti a Siloám alagutat,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,Ezekiás kiterjeszti a Siloam-alagutat,Ezékiás meghosszabbítja a Siloám-alagutat, ,Hizkija meghosszabbítja a Siloám-alagutat
+Angloamerica2,"Az angol-amerikait az agyaggal kevert vaslábak szimbolizálják a Dániel 2:33, 41-43-ban található próféciában","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"Az angolszász-amerikai birodalmat a vas és cserép lábfejek jelképezik Dániel 2:33, 41-43 próféciájában","Az angol-amerikai világbirodalmat a Dániel 2:33, 41–43-ban szereplő prófécia vasmal és cseréppel elegyített lábfeje jelképezi", ,"Az anglo-amerikai kultúrát a Dániel 2:33, 41–43-ban szereplő próféciában az agyaggal kevert vaslábak szimbolizálják."
+Manetho,Manethón írja az Aegyptiacát,Manetho writes Aegyptiaca, ,text,False, , , , ,Manethón megírja az Aegypticát,Manethón megírja az Aegyptiaca című művét, ,Manetho megírja az *Aegyptiaca* című művet
+destruction_babylon,"Nagy Babilon elpusztítása (Jelenések 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"Nagy Babilon elpusztítása (Jelenések 17:3, 15-18; 18:9, 10)","A nagy Babilon pusztulása (Jelenések 17:3, 15–18; 18:9, 10)", ,"Nagy Babilon pusztulása (Jelenések 17:3, 15–18; 18:9, 10)"
+peace_security,"“Béke és biztonság!” (1Thesszalonika 5:3, ez az egyik lehetőség, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"„Béke és biztonság!” (1 Thesszalonika 5:3, ez az egyik lehetőség, Őrtorony 26/2, 25/11)","„Béke és biztonság!” (1Thesszalonika 5:3, ez egy lehetséges időpont, QfR 26/2, 25/11)", ,"„Béke és biztonság!” (1. Thesszalonikiak 5:3, ez egy lehetséges értelmezés, QfR 26/2, 25/11)"
+gog_of_magog,"Magógi Góg támadása (Ezékiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"Góg, Magóg támadása (Ezékiel 38:1, 2, 9-12, 18-23)","Magóg fia Góg támadása (Ezékiel 38:1, 2, 9–12, 18–23)", ,"Magogból származó Góg támadása (Ezékiel 38:1, 2, 9–12, 18–23)"
+sheep_goat,"A föld lakói felett ítélkeznek, elválasztják a juhokat és a kecskéket (Máté 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"A föld lakóit megítélik, szétválasztva a juhokat és a kecskéket (Máté 25:31-33)","A föld lakosainak megítélése, a juhok és a kecskék elválasztása (Máté 25:31–33)", ,"A Föld lakóit megítélik, és elkülönítik a juhokat a kecskéktől (Máté 25:31–33)"
+annointed,A Királyság uralkodóinak összegyűjtése (Máté 24:31; 1Korinthus 15:50-53; 1Thesszalonika 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,A Királyság uralkodóinak összegyűjtése (Máté 24:31; 1 Korinthus 15:50-53; 1 Thesszalonika 4:15-17),A Királyság uralkodóinak egybegyűjtése (Máté 24:31; 1Korintusz 15:50–53; 1Thesszalonika 4:15–17), ,A Királyság uralkodóinak összegyűlése (Máté 24:31; 1 Korinthus 15:50–53; 1 Thesszaloniki 4:15–17)
+armageddon,"Armageddon csata (Jelenések 16:14, 16; Ésaiás 13:9; 2 Péter 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"Harmageddon csatája (Jelenések 16:14, 16; Ézsaiás 13:9; 2 Péter 3:12)","Armageddon csatája (Jelenések 16:14, 16; Ésaiás 13:9; 2Péter 3:12)", ,"Az Armageddon-i csata (Jelenések 16:14, 16; Ézsaiás 13:9; 2. Péter 3:12)"
+millenium,"Isten Királysága megkezdi 1000 éves uralmát (Jelenések 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"Isten Királysága megkezdi 1000 éves uralmát (Jelenések 5:9, 10; 20:4, 6)","Isten Királysága megkezdi 1000 éves uralmát (Jelenések 5:9, 10; 20:4, 6)", ,"Isten Királysága megkezdi ezeréves uralkodását (Jelenések 5:9, 10; 20:4, 6)"
+great_crowd,"Nagy tömeg éli túl Armageddont (Jelenések 7:9, 14; Zsoltárok 37:9–11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"Egy nagy sokaság túléli Harmageddont (Jelenések 7:9, 14; Zsoltár 37:9-11)","Nagy sokaság éli túl Armageddont (Jelenések 7:9, 14; Zsoltárok 37:9–11)", ,"Hatalmas sokaság éli túl az Armageddont (Jelenések 7:9, 14; Zsoltárok 37:9–11)"
+world_population,A világ népessége milliárdokban az elmúlt 2000 évben,World population in billions in the last 2000 years, ,text,False, , , , ,A világ népessége milliárdokban az elmúlt 2000 évben,A világ népessége milliárdban az elmúlt 2000 évben, ,A világ népessége milliárdokban az elmúlt 2000 évben
+khmer_empire_c,Khmer Birodalom – Angkor időszak,Khmer Empire - Angkor period, ,text,False, , , , ,Khmer Birodalom – Angkor korszak,Khmer Birodalom – Angkori korszak, ,Khmer Birodalom – Angkor-korszak
+holy_roman_empire_c,Szent Római Birodalom – 1512 után a Német Nemzet Szent Római Birodalmaként ismert,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,Német-római Birodalom – 1512 után a Német Nemzet Szent Római Birodalmaként ismert,Szent Római Birodalom – 1512 után Német Nemzet Szent Római Birodalma néven ismert, ,A Német Nemzet Szent Római Birodalma – 1512 után a Német Nemzet Szent Római Birodalmának nevezték
+mongol_empire,Mongol Birodalom 1206-1294,Mongol Empire 1206 – 1294, ,text,False, , , , ,Mongol Birodalom 1206 – 1294,Mongol Birodalom 1206 – 1294, ,Mongol Birodalom 1206–1294
+maya_classic_c,Maja civilizáció – klasszikus korszak,Maya civilization – Classic period, ,text,False, , , , ,Maja civilizáció – klasszikus időszak,Maja civilizáció – Klasszikus korszak, ,A maja civilizáció – Klasszikus korszak
+maya_postclassic_c,Maja civilizáció – posztklasszikus időszak,Maya civilization – Postclassic period, ,text,False, , , , ,Maja civilizáció – posztklasszikus időszak,Maja civilizáció – Posztklasszikus korszak, ,A maja civilizáció – posztklasszikus korszak
+Teotihuacan,"Amerika legnagyobb városa, piramisok épülnek kb. i. e. 200","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"Az Amerikák legnagyobb városa, piramisok épülnek i. sz. 200 körül","Amerika legnagyobb városa, piramisok építése kb. i. sz. 200-ban", ,"Amerika legnagyobb városa, a piramisokat i. sz. 200 körül építették."
+Dionysius_Exiguus,"Dionysius Exiguus, az Anno Domini feltalálója","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"Dionysius Exiguus, az Anno Domini feltalálója","Exiguus Dionüszosz, az időszámításunk szerinti (Krisztus utáni) rendszer feltalálója", ,"Dionysius Exiguus, az Anno Domini kifejezés megalkotója"
+Umayyad_c,Omajjád,Umayyad, ,text,False, , , , ,Omajjád,Omajjádok, , 
+ur3,Ur III. dinasztia 💋💀💆,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,Ur III dinasztia 𒋀𒀕𒆠,III. uri dinasztia 𒋀𒀕𒆠, ,Ur III-dinasztia 𒋀𒀕𒆠
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , ,Hammurapi 𒄩𒄠𒈬𒊏𒁉,Hammurapi 𒄩𒄠𒈬𒊏𒁉, , 
+Al-Khwarizmi,"al-Khwarizmi azt írja, hogy Al-Jabr (algebra)",al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,al-Hvárizmi megírja az Al-Jabr-t (algebrát),Al-Hvárizmí megírja az Al-Dzsabr (Algebra) című művét, ,al-Khwarizmi megírja az Al-Jabr (Algebra) című művet
+al-azhar,Az Al-Azhar Egyetemet Kairóban alapítják,Al-Azhar University is established in Cairo, ,text,False, , , , ,Al-Azhar Egyetem alapítása Kairóban,Az Al-Azhar Egyetem megalapítása Kairóban, ,Kairóban megalapítják az Al-Azhar Egyetemet
+Ibn-Sina,Ibn Sina vagy Avicenna,Ibn Sina or Avicenna, ,text,False, , , , ,Ibn Szína vagy Avicenna,Ibn Szína vagy Avicenna, ,Ibn Sina vagy Avicenna
+life-expectancy,Várható élettartam 75 év,Life expectancy 75 years, ,text,False, , , , ,Várható élettartam 75 év,Várható élettartam 75 év, ,Várható élettartam: 75 év
+430years_c,"430 év: 2Mózes 12:41, Galata 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"430 év: 2 Mózes 12:41, Galata 3:17","430 év: 2Mózes 12:41, Galátzia 3:17", ,"430 év: II. Mózes 12:41, Galaták 3:17"
+maya_calendar,A maja naptár számított kezdete i.e. 3114. augusztus 11.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,A maja naptár számított kezdete i. e. 3114. augusztus 11.,A maja naptár számított kezdete i. e. 3114. augusztus 11., ,A maja naptár kezdete: Kr. e. 3114. augusztus 11.
+xia-dynasty2,c. 2070 – kb. Kr.e. 1600; A korszak először a nyugati Zhou időszakra utalt,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,i. e. kb. 2070 – i. e. kb. 1600; A korszakot először a nyugati Zhou-dinasztia idején említették,kb. i. e. 2070 – kb. i. e. 1600; A korszakra először a Nyugati Csou-dinasztia idején utaltak, ,kb. 2070 – kb. 1600 BC; erre a korszakra először a Nyugati Csou-korszakban utaltak
+xia-dynasty2_c,Xia dinasztia Kínában,Xia dynasty in China, ,text,False, , , , ,Hszia-dinasztia Kínában,Hszia-dinasztia Kínában, ,A Hsia-dinasztia Kínában
+tres_zapotes,i. e. 32. szeptember 3.,"September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,I. e. 32. szeptember 3.,i. e. 32. szeptember 3., ,Kr. e. 32. szeptember 3.
+joseph_jacob_reunited,József és Jákob újra egyesült Egyiptomban – ie 1728. (Ter 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,József és Jákob újra találkozik Egyiptomban – i. e. 1728 (1 Móz 45:11; 47:9),József és Jákob újra találkozik Egyiptomban – i. e. 1728 (1Móz 45:11; 47:9), ,József és Jákób újra találkoztak Egyiptomban – i. e. 1728 (1Móz 45:11; 47:9)
+king_south_light_c,Dél királya Dániel 11-ből,King of the South from Daniel 11,2025-02-05,text,False, , , , ,A déli király Dániel 11-ből,A déli király Dániel 11. fejezetéből, ,A Dél királya a Dániel 11. fejezetéből
+king_north_light_c,Észak királya Dániel 11-ből,King of the North from Daniel 11,2025-02-05,text,False, , , , ,Az északi király Dániel 11-ből,Dániel 11 szerinti északi király, ,Az Észak Királya a Dániel 11. fejezetéből
+daniel2_iron_c,Vaslábak a Daniel 2-től,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Vaskarok Dániel 2-ből,Dániel 2 szerinti vaslábak, ,Vaslábak a Dániel 2. fejezetéből
+argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , ,Codex Argenteus kb. 505,"Ezüstkódex, kb. 505", ,"Codex Argenteus, kb. 505"
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , , ,Nguyễn, , 
+edo_c,Edo korszak Japánban,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , ,Edo-kor Japánban,Edo-kor Japánban, ,Az Edo-korszak Japánban
+meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , ,Meidzsi,Meidzsi, , 
+american_civil_war,Amerikai polgárháború 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,Amerikai polgárháború 1861-1865,Amerikai polgárháború 1861-1865, ,"Az amerikai polgárháború, 1861–1865"
+aleppo_codex,Aleppó kódex c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,Aleppói kódex kb. 920,"Aleppói kódex, kb. 920", ,"Aleppói kódex, kb. 920"
+vandals,Vandálok és alánok királysága 435-534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Vandálok és alánok királysága 435 – 534,Vandálok és alánok királysága 435 – 534, ,A vandálok és az alánok királysága 435–534
+francia,"c. 481/509 – 843, Meroving 751-ig, majd Karoling","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"kb. 481/509 – 843, Meroving 751-ig, majd Karoling","kb. 481/509 – 843, Merovingok 751-ig, utána a Karolingok", ,"kb. 481/509 – 843, 751-ig meroving, utána karoling"
+francia_c,A frank királyság,Kingdom of the Franks, ,text,False, , , , ,Frankok Királysága,Frank királyság, ,A frankok királysága
+100_years_war,Százéves háború 1337-1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Százéves háború 1337 – 1453,Százéves háború 1337 – 1453, ,"Százéves háború, 1337–1453"
+black_death,Fekete halál 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Fekete halál 1346-1353,Fekete halál 1346–1353, ,A fekete halál 1346–1353
+sui_dynasty,581-618 Sui dinasztia,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 Sui-dinasztia,581-618 Szuj-dinasztia, ,581–618: Sui-dinasztia
+sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , ,Szuj, , 
+tribulation,"A nagy nyomorúság (Márk 13:19; Dániel 12:1; Máté 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"A nagy nyomorúság (Márk 13:19; Dániel 12:1; Máté 24:21, 22)","A nagy nyomorúság (Márk 13:19; Dániel 12:1; Máté 24:21, 22)", ,"A nagy nyomorúság (Márk 13:19; Dániel 12:1; Máté 24:21, 22)"
+timeline_created,"Ezt az idővonalat 2023-ban hozták létre, az emberi történelem legforróbb évében és az elmúlt 125 000 évben","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"Ez az idővonal 2023-ban készült, az emberi történelem és az elmúlt 125 000 év legmelegebb évében","Ez az idővonal 2023-ban készült, amely az emberiség és az elmúlt 125 000 év legforróbb éve volt", ,"Ez az idővonal 2023-ban készült, amely az emberiség történelmének legmelegebb éve, és az elmúlt 125 000 év legmelegebb éve is."
+Adam,Adam,Adam, ,bible,False, , , , , ,Ádám, , 
+Seth,Seth,Seth, ,bible,False, , , , , ,Séth, , 
+Enosh,Énosh,Enosh, ,bible,False, , , , , ,Énos, , 
+Kenan,Kenán,Kenan (Cainan), ,bible,False, , , , , ,Kénán, , 
+Mahalalel,Mahalalel,Mahalalel (Mahalaleel), ,bible,False, , , , , ,Mahalalel, , 
+Jared,Jared,Jared, ,bible,False, , , , , ,Járed, , 
+Enoch,Énók,Enoch, ,bible,False, , , , , ,Énok, , 
+Methuselah,Matuzsálem,Methuselah, ,bible,False, , , , , ,Metusáleh, , 
+Lamech,Lámekh,Lamech, ,bible,False, , , , , ,Lámek, , 
+Noah,Noé,Noah, ,bible,False, , , , , ,Noé, , 
+Shem,Sém,Shem, ,bible,False, , , , , ,Sém, , 
+Arpachshad,Arpachshad,Arpachshad, ,bible,False, , , , , ,Arpaksád, , 
+Shelah,Sála,Shelah, ,bible,False, , , , , ,Sélah, , 
+Eber,Erzséber,Eber, ,bible,False, , , , , ,Éber, , 
+Peleg,Peleg,Peleg, ,bible,False, , , , , ,Peleg, , 
+Reu,Reu,Reu, ,bible,False, , , , , ,Reú, , 
+Serug,Szerug,Serug, ,bible,False, , , , , ,Szerug, , 
+Nahor,Nahor,Nahor, ,bible,False, , , , , ,Náhor, , 
+Terah,Terah,Terah, ,bible,False, , , , , ,Táré, , 
+Abraham,Ábrahám,Abraham, ,bible,False, , , , , ,Ábrahám, , 
+Isaac,Isaac,Isaac, ,bible,False, , , , , ,Izsák, , 
+Jacob,Jacob,Jacob, ,bible,False, , , , , ,Jákob, , 
+Joseph,Joseph,Joseph, ,bible,False, , , , , ,József, , 
+Moses,Mózes,Moses, ,bible,False, , , , , ,Mózes, , 
+Othniel,Othniel,Othniel, ,bible,False, , , , , ,Othniél, , 
+Ehud,Ehud,Ehud, ,bible,False, , , , , ,Ehud, , 
+Shamgar,Shamgar,Shamgar, ,bible,False, , , , , ,Samgar, , 
+Barak,Barak,"Barak, Deborah, Jael", ,bible,False, , , , , ,"Bárák, Débóra, Jáel", , 
+Gideon,Gideon,Gideon, ,bible,False, , , , , ,Gedeon, , 
+Tola,Tola,Tola, ,bible,False, , , , , ,Tóla, , 
+Jair,Jair,Jair, ,bible,False, , , , , ,Jaír, , 
+Jephthah,Jefté,Jephthah, ,bible,False, , , , , ,Jefta, , 
+Ibzan,Ibzan,Ibzan, ,bible,False, , , , , ,Ibczán, , 
+Elon,Elon,Elon, ,bible,False, , , , , ,Élón, , 
+Abdon,Abdon,Abdon, ,bible,False, , , , , ,Abdón, , 
+Samson,Sámson,Samson, ,bible,False, , , , , ,Sámson, , 
+Samuel,Sámuel,Samuel, ,bible,False, , , , , ,Sámuel, , 
+Saul,Saul,Saul, ,bible,False, , , , , ,Saul, , 
+David,David,David, ,bible,False, , , , , ,Dávid, , 
+Solomon,Salamó,Solomon, ,bible,False, , , , , ,Salamon, , 
+Malachi,Malakiás,Malachi, ,bible,False, , , , , ,Malakiás, , 
+Ruth,Ruth,Ruth, ,bible,False, , , , , ,Ruth, , 
+Ezra,Ezra,Ezra, ,bible,False, , , , , ,Ezsdrás, , 
+Nehemiah,Nehémiás,Nehemiah, ,bible,False, , , , , ,Nehémiás, , 
+Esther,Esther,Esther, ,bible,False, , , , , ,Eszter, , 
+Job,Foglalkozás,Job, ,bible,False, , , , , ,Jób, , 
+moses3,Mózes,Moses, ,bible,False, , , , , ,Mózes, , 
+joshua2,Józsué,Joshua, ,bible,False, , , , , ,Józsué, , 
+caleb2,Caleb,Caleb, ,bible,False, , , , , ,Káleb, , 
+Augustus,Augustus,Augustus, ,bible,False, , , , , ,Augustus, , 
+Tiberius,Tiberius,Tiberius, ,bible,False, , , , , ,Tiberius, , 
+Claudius,Claudius,Claudius, ,bible,False, , , , , ,Claudius, , 
+persia2,Perzsia,Persia, ,bible,False, , , , , ,Perzsia, , 
+jehoiada,Jojáda,Jehoiada, ,bible,False, , , , , ,Jójáda, , 
+Haggai,Haggeus,Haggai, ,bible,False, , , , , ,Aggeus, , 
+Zerubbabel,Zorobábel (Lukács 3:27),Zerubbabel (Luke 3:27), ,bible,False, , , , , ,Zorobábel (Lukács 3:27), , 
+Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , ,Jákob/, , 
+Israel,Izrael,Israel, ,bible,False, , , , , ,Izráel, , 
+Sarah,Sarah,Sarah,2008-1881 BCE – 127 years,bible,False, , , , , ,Sára, , 
+Hagar,Hagar,Hagar,Genesis 21:14,bible,False, , , , , ,Hágár, , 
+Haran,Hármán,Haran,Genesis 11:26,bible,False, , , , , ,Hárán, , 
+Reumah,Reuma,Reumah,Concubine – 4 sons,bible,False, , , , , ,Reuma, , 
+Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more),bible,False, , , , , ,Milka, , 
+Lot,Sors,Lot, ,bible,False, , , , , ,Lót, , 
+Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon), ,bible,False, , , , , ,Ben-Ammi (Ammon), , 
+Bethuel,Bethuel,Bethuel, ,bible,False, , , , , ,Betuel, , 
+Rebekah,Rebeka,Rebekah, ,bible,False, , , , , ,Rebeka, , 
+Laban,Lábán,Laban, ,bible,False, , , , , ,Lábán, , 
+Leah,Leah,Leah,Genesis 35:23,bible,False, , , , , ,Lea, , 
+Rachel,Rachel,Rachel,Genesis 35:24,bible,False, , , , , ,Ráhel, , 
+Bilhah,Bilha,Bilhah,Genesis 35:25,bible,False, , , , , ,Bilha, , 
+Zilpah,Zilpah,Zilpah,Genesis 35:26,bible,False, , , , , ,Zilpa, , 
+Reuben,Reuben,Reuben, ,bible,False, , , , , ,Rúben, , 
+Simeon,Simeon,Simeon, ,bible,False, , , , , ,Simeon, , 
+Levi,Levi,Levi, ,bible,False, , , , , ,Lévi, , 
+Judah,Júda,Judah, ,bible,False, , , , , ,Júda, , 
+Issachar,Issachar,Issachar, ,bible,False, , , , , ,Issakhár, , 
+Zebulun,Zebulun,Zebulun, ,bible,False, , , , , ,Zebulun, , 
+Dinah,Dinah,Dinah,Genesis 34,bible,False, , , , , ,Dina, , 
+Esau,Ézsau/,Esau/, ,bible,False, , , , , ,Ézsau/, , 
+Edom,Edom,Edom,Genesis 36:1,bible,False, , , , , ,Edom, , 
+Ishmael,Ismáel,Ishmael, ,bible,False, , , , , ,Ismáel, , 
+Manasseh2,(Manassé,(Manasseh, ,bible,False, , , , , ,(Manassé, , 
+Ephraim,és Efraim),and Ephraim), ,bible,False, , , , , ,és Efraim), , 
+Benjamin,Benjamin,Benjamin, ,bible,False, , , , , ,Benjámín, , 
+Dan,Dan,Dan, ,bible,False, , , , , ,Dán, , 
+Naphtali,Naftali,Naphtali, ,bible,False, , , , , ,Naftali, , 
+Gad,Gad,Gad, ,bible,False, , , , , ,Gád, , 
+Asher,Asher,Asher, ,bible,False, , , , , ,Áser, , 
+Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,", ,bible,False, , , , , ,"Úc, Búz, Kemuel,", , 
+Milcah2,"Chesed, Hazo,","Chesed, Hazo,", ,bible,False, , , , , ,"Kesed, Házó,", , 
+Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph", ,bible,False, , , , , ,"Pildás, Jidláf", , 
+Tebah,Tebah,Tebah, ,bible,False, , , , , ,Tebah, , 
+Gaham,Gáhám,Gaham, ,bible,False, , , , , ,Gaham, , 
+Tahash,Tahash,Tahash, ,bible,False, , , , , ,Tahas, , 
+Maacah,Maáka,Maacah, ,bible,False, , , , , ,Maaka, , 
+Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , ,Mahalat/, , 
+Basemath,Alap·matematika,Basemath,"Genesis36:3, 4",bible,False, , , , , ,Bászmat, , 
+Reuel,Reuel,Reuel,"36:13, 17",bible,False, , , , , ,Rehuel, , 
+Nahath,Nahát,Nahath, ,bible,False, , , , , ,Nahat, , 
+Zerah,Zerah,Zerah, ,bible,False, , , , , ,Zerah, , 
+Schammah,Schammah,Schammah, ,bible,False, , , , , ,Samma, , 
+Mizzah,Mizza,Mizzah, ,bible,False, , , , , ,Mizza, , 
+Adah,Adah,Adah,"36:11, 12, 15, 16",bible,False, , , , , ,Áda, , 
+Eliphaz,Elifáz,Eliphaz, ,bible,False, , , , , ,Elifáz, , 
+Teman,Teman,Teman, ,bible,False, , , , , ,Témán, , 
+Omar,Omar,Omar, ,bible,False, , , , , ,Omár, , 
+Zepho,Zepho,Zepho, ,bible,False, , , , , ,Cefó, , 
+Kenaz,Kenaz,Kenaz, ,bible,False, , , , , ,Kenaz, , 
+Korah,Kóré,Korah, ,bible,False, , , , , ,Kóra, , 
+Korah_Gatam,"Korah, Gatam","Korah, Gatam","Genesis 36:11, 16",bible,False, , , , , ,"Kóra, Gátám", , 
+Amalek,Amalek,Amalek, ,bible,False, , , , , ,Amálek, , 
+Oholibamah,Oholibamah,Oholibamah,"36:14, 18",bible,False, , , , , ,Oholibáma, , 
+Jeush,Jeush,Jeush, ,bible,False, , , , , ,Jeús, , 
+Jalam,Dzsalám,Jalam, ,bible,False, , , , , ,Jálám, , 
+Nebaioth,Nebaioth,Nebaioth,Genesis 25:13,bible,False, , , , , ,Nebajót, , 
+Kedar,Kedar,Kedar, ,bible,False, , , , , ,Kédár, , 
+Mishma,Mishma,Mishma, ,bible,False, , , , , ,Mismá, , 
+Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",Genesis 25:13,bible,False, , , , , ,"Adbeél, Mibsám", , 
+Dumah_Massa,"Dumah, Massa","Dumah, Massa",Genesis 25:14,bible,False, , , , , ,"Dúma, Massza", , 
+Hadad,Hadad,Hadad, ,bible,False, , , , , ,Hadad, , 
+Tema,Tárgy,Tema, ,bible,False, , , , , ,Téma, , 
+Jetur,Jetur,Jetur, ,bible,False, , , , , ,Jetúr, , 
+Naphish,Nafish,Naphish, ,bible,False, , , , , ,Náfis, , 
+Kedemah,Kedemah,Kedemah, ,bible,False, , , , , ,Kedéma, , 
+Keturah,Keturah,Keturah,Genesis 25:1,bible,False, , , , , ,Ketúra, , 
+Zimran,Zimran,Zimran,Genesis 25:1,bible,False, , , , , ,Zimrán, , 
+Jokshan,Jokshan,Jokshan,Genesis 25:1,bible,False, , , , , ,Joksán, , 
+Medan,Medan,Medan,Genesis 25:1,bible,False, , , , , ,Médán, , 
+Midian,Midian,Midian,Genesis 25:1,bible,False, , , , , ,Midián, , 
+Ishbak,Ishbak,Ishbak,Genesis 25:1,bible,False, , , , , ,Isbak, , 
+Shuah,Shuah,Shuah,Genesis 25:1,bible,False, , , , , ,Súa, , 
+Timna,Timna,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False, , , , , ,Timna, , 
+life-expectancy2,(Zsoltárok 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , ,(Zsoltár 90:10), , 
+Ham,Sonka,Ham,Gen 10:1,bible,False, , , , , ,Hám, , 
+Canaan,Kánaán,Canaan,Gen 10:6,bible,False, , , , , ,Kánaán, , 
+Sidon,Sidon,Sidon,Gen 10:15,bible,False, , , , , ,Szidón, , 
+Heth,Heth,Heth,Gen 10:15,bible,False, , , , , ,Hét, , 
+Jebusite,Jebuzita,Jebusite,Gen 10:16,bible,False, , , , , ,Jebuzeus, , 
+Amorite,Amorit,Amorite,Gen 10:16,bible,False, , , , , ,Emórius, , 
+Girgashite,Girgashite,Girgashite,Gen 10:16,bible,False, , , , , ,Girgaseus, , 
+Hivite,Hivite,Hivite,Gen 10:17,bible,False, , , , , ,Hivveus, , 
+Arkite,Arkite,Arkite,Gen 10:17,bible,False, , , , , ,Arkeus, , 
+Sinite,Sinit,Sinite,Gen 10:17,bible,False, , , , , ,szinitei, , 
+Arvadite,Arvadite,Arvadite,Gen 10:18,bible,False, , , , , ,arvádi, , 
+Zemarite,zemarit,Zemarite,Gen 10:18,bible,False, , , , , ,cemárai, , 
+Hamathite,Hamatita,Hamathite,Gen 10:18,bible,False, , , , , ,hamáti, , 
+Cush,Cush,Cush,Gen 10:6,bible,False, , , , , ,Kús, , 
+Nimrod,Nimród,Nimrod,Gen 10:8,bible,False, , , , , ,Nimród, , 
+Mizraim,Mizraim,Mizraim,Gen 10:14,bible,False, , , , , ,Micrajim, , 
+Casluh,Casluh,Casluh,1 Chronicles 1:12 (Philistines),bible,False, , , , , ,kaszlúhi, , 
+Japheth,Japhet,Japheth,Gen 10:1,bible,False, , , , , ,Jáfet, , 
+Asshur,Asshur,Asshur,Gen 10:22,bible,False, , , , , ,Assúr, , 
+Lud,Lud,Lud,Gen 10:22,bible,False, , , , , ,Lúd, , 
+Aram,Aram,Aram,Gen 10:22,bible,False, , , , , ,Arám, , 
+Elam,Elam,Elam,Gen 10:22,bible,False, , , , , ,Élám, , 
+Joktan,Joktan,Joktan,Gen 10:26,bible,False, , , , , ,Joktán, , 
+Almodad,Almodad,Almodad,Gen 10:26,bible,False, , , , , ,Almódád, , 
+Sheleph,Sheleph,Sheleph,Gen 10:26,bible,False, , , , , ,Selef, , 
+Hazarmaveth,Hazarmaveth,Hazarmaveth,Gen 10:26,bible,False, , , , , ,Hácarmávet, , 
+Jerah,Jerah,Jerah,Gen 10:26,bible,False, , , , , ,Jerah, , 
+Hadoram,Hadoram,Hadoram,Gen 10:27,bible,False, , , , , ,Hádorám, , 
+Uzal,Uzal,Uzal,Gen 10:27,bible,False, , , , , ,Úzál, , 
+Diklah_Obal,"Diklah, Obal","Diklah, Obal",Gen 10:27,bible,False, , , , , ,"Dikla, Obál", , 
+Abimael,Abimael,Abimael,Gen 10:28,bible,False, , , , , ,Abimáel, , 
+Sheba_Ophir,"Sheba, Ophir","Sheba, Ophir","Gen 10:28, 29",bible,False, , , , , ,"Sába, Ófír", , 
+Havilah,Havilah,Havilah,Gen 10:29,bible,False, , , , , ,Havila, , 
+Jobab,Jobab,Jobab,Gen 10:29,bible,False, , , , , ,Jóbáb, , 
+Ham_fn,1) Egyiptomiak: Zsoltárok 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , ,1) Egyiptomiak: Zsoltárok 105:23, , 
+Canaan_fn,2) Kánaániták: Józsué 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , ,2) Kánaániak: Józsua 13:3, , 
+Aram_fn,3) Arámok: Hóseás 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , ,3) Arámiek: Hóseás 12:12, , 
+Elam_fn,4) Elamiták: Ezsdrás 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , ,4) Elámiak: Ezsdrás 4:9, , 
+Asshur_fn,5) Asszírok: Ezékiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , ,5) Asszírok: Ezekiel 27:23, , 
+Casluh_fn,6) Filiszteusok: 1Krónika 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , ,6) Filiszteusok: 1 Krónika 1:12, , 
+Cush_fn,7) Etióp [kusita]: 2Királyok 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , ,7) Etióp [kúsi]: 2 Királyok 19:9, , 
+Edom_fn,8) Edomiták: 4Móz 20:14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False, , , , , ,8) Edomiták: Mózes IV. könyve 20:14-17, , 
+Moab_fn,"9) Moábiták: 5Móz 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False, , , , , ,"9) Móábiták: Mózes V. könyve 23:3, 4", , 
+Ammon_fn,10) Ammoniták: Józsué 12:2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False, , , , , ,10) Ammoniták: Józsua 12:2, , 
+Midian_fn,"11) Midiániták: 4Móz 31:2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False, , , , , ,"11) Midiániták: Mózes IV. könyve 31:2, 3", , 
+Amalek_fn,12) Amálekiták: 1Sámuel 15:2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False, , , , , ,12) Amálekiták: 1 Sámuel 15:2, , 
+Teman_fn,13) Temaniták: Jób 42:7,13) Temanites: Job 42:7,2025-09-22,bible,False, , , , , ,13) Témániták: Jób 42:7, , 
+Sidon_fn,14) Sidonians: Zakariás 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , ,14) Szidóniak: Zakariás 9:2, , 
+Heth_fn,15) Hettiták: 1Móz 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , ,15) Hettiták: Mózes I. könyve 15:20, , 
+Jebusite_fn,16) Jebuzeusok: Józsué 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , ,16) Jebuzeusok: Józsua 15:63, , 
+Judith,Judit?,Judith?,"Genesis 26:34, 35",bible,False, , , , , ,Judit?, , 
+Lud_fn,17) Lídiaiak: 1Krónika 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , ,17) Lüdiek: 1 Krónika 1:17, , 
+Ishmael_fn,18) Izmaeliták: 1Mózes 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , ,18) Izmaeliták: 1 Mózes 37:27, , 
+Amorite_fn,19) Amoriták: Bírák 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , ,19) Emoreusok: Bírák 6:10, , 
+Hivite_fn,"20) Hiviták [Gibeon]: Józsué 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , ,"20) Hitteusok [Gibeon]: Józsua 9:3, 7", , 
+Cain,Káin,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , ,Káin, , 
+Abel,Ábel,Abel,Genesis 4:2,bible,False, , , , , ,Ábel, , 
+Irad,Irad,Irad,Genesis 4:18,bible,False, , , , , ,Írád, , 
+Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False, , , , , ,Mehujaél, , 
+Methushael,Matushael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , ,Metusáél, , 
+Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , ,Jábál, , 
+Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , ,Jubál, , 
+Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , ,Cilla, , 
+Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , ,Tubál-Káin, , 
+Naamah,Naamah,Naamah,Genesis 4:22 his sister,bible,False, , , , , ,Naamá, , 
+Rehoboam,Rehoboám,Rehoboam,first king of southern kingdom of Juda,A6-A,False, , , , , ,Roboám, , 
+Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False, , , , , ,Abija (Abijám), , 
+Asa,Asa,Asa, ,A6-A,False, , , , , ,Áza, , 
+Jehoshaphat,Josafát,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,A6-A,False, , , , , ,Josafát, , 
+Jehoram2,Jehorám,Jehoram, ,A6-A,False, , , , , ,Jórám, , 
+Ahaziah,Akházia,Ahaziah, ,A6-A,False, , , , , ,Ahaziah, , 
+Athaliah,Athaliah királynő,Queen Athaliah,Queen Athaliah,A6-A,False, , , , , ,Athália királynő, , 
+Jehoash,Jóás,Jehoash, ,A6-A,False, , , , , ,Jóás, , 
+Amaziah,Amaziás,Amaziah, ,A6-A,False, , , , , ,Amásia, , 
+Uzziah,Uzziás (Azariás),Uzziah (Azariah),also Azariah,A6-A,False, , , , , ,Uzziás (Azáriás), , 
+Jeroboam,Jeroboám,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False, , , , , ,Jeroboám, , 
+Nadab,Nadab,Nadab,less than 2,A6-A,False, , , , , ,Nádáb, , 
+Baasha,Basha,Baasha, ,A6-A,False, , , , , ,Bása, , 
+Elah,Elah,Elah, ,A6-A,False, , , , , ,Éla, , 
+Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,A6-A,False, , , , , ,Zimri, , 
+OmriTibni,Omri és Tibni együtt,Omri and Tibni together,4 years Omri and Tibni,A6-A,False, , , , , ,Omri és Tibni együtt, , 
+Omri,Omri (egyedül),Omri (alone),from 947 Omri alone,A6-A,False, , , , , ,Omri (egyedül), , 
+Ahab,Ahab,Ahab, ,A6-A,False, , , , , ,Acháb, , 
+Jehoram,Jehorám,Jehoram, ,A6-A,False, , , , , ,Jórám, , 
+Jehu,Jehu,Jehu, ,A6-A,False, , , , , ,Jéhu, , 
+Jeoahaz,Jeoahaz,Jeoahaz, ,A6-A,False, , , , , ,Joáház, , 
+JeoahazJehoash,Jeoahaz és Jehoash,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False, , , , , ,Joáház és Jóás, , 
+Jehoash2,Joás (egyedül),Jehoash (alone),Jehoash (alone),A6-A,False, , , , , ,Jóás (egyedül), , 
+Jeroboam2,II. Jeroboám,Jeroboam II, ,A6-A,False, , , , , ,II. Jeroboám, , 
+Elijah,Illés,Elijah, ,A6-A,False, , , , , ,Illés, , 
+Elisha,Elisha,Elisha, ,A6-A,False, , , , , ,Elizeus, , 
+Jonah,Jónás,Jonah, ,A6-A,False, , , , , ,Jónás, , 
+Amos,Amos,Amos, ,A6-A,False, , , , , ,Ámósz, , 
+Joel,Joel,Joel, ,A6-A,False, , , , , ,Jóel, , 
+Jotham,Jotham,Jotham, ,A6-B,False, , , , , ,Jótám, , 
+Ahaz,Áház,Ahaz, ,A6-B,False, , , , , ,Ádáz, , 
+Hezekiah,Ezékiás,Hezekiah, ,A6-B,False, , , , , ,Ezékiás, , 
+Manasseh,Manassé,Manasseh, ,A6-B,False, , , , , ,Manassé, , 
+Amon,Amon,Amon, ,A6-B,False, , , , , ,Ámon, , 
+Josiah,Josiah,Josiah, ,A6-B,False, , , , , ,Jósiás, , 
+Jehoahaz,Joáház,Jehoahaz,Only 3 months,A6-B,False, , , , , ,Jehoáház, , 
+Jehoiakim,Jojákim,Jehoiakim, ,A6-B,False, , , , , ,Jehojákim, , 
+Jehoiachin,Jojachin,Jehoiachin,Only 3 months 10 days,A6-B,False, , , , , ,Jehoiachin, , 
+Zedekiah,Zedékiás,Zedekiah, ,A6-B,False, , , , , ,Sedékiás, , 
+Zechariah,Zakariás,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False, , , , , ,Zakariás, , 
+Schallum,Schallum,Schallum,only one month,A6-B,False, , , , , ,Sallum, , 
+Menahem,Menahem,Menahem, ,A6-B,False, , , , , ,Menahem, , 
+Pekahiah,Pekahiah,Pekahiah, ,A6-B,False, , , , , ,Pekahjáh, , 
+Pekah,Pekah,Pekah, ,A6-B,False, , , , , ,Pekah, , 
+Hoshea,Hoshea,Hoshea,9 years from c. 748,A6-B,False, , , , , ,Hósea, , 
+Hosea,Hosea,Hosea, ,A6-B,False, , , , , ,Hóseás, , 
+Isaiah,Ézsaiás,Isaiah, ,A6-B,False, , , , , ,Ésaiás, , 
+Micah,Mikeás,Micah, ,A6-B,False, , , , , ,Mikeás, , 
+Zephaniah,Zofóniás,Zephaniah, ,A6-B,False, , , , , ,Zofóniás, , 
+Nahum,Náhum,Nahum, ,A6-B,False, , , , , ,Náhum, , 
+Jeremiah,Jeremiás,Jeremiah, ,A6-B,False, , , , , ,Jeremiás, , 
+Habakuk,Habakuk,Habakuk, ,A6-B,False, , , , , ,Habakuk, , 
+Daniel,Daniel,Daniel, ,A6-B,False, , , , , ,Dániel, , 
+Ezekiel,Ezékiel,Ezekiel, ,A6-B,False, , , , , ,Ezekiel, , 
+Obadiah,Abdiás,Obadiah, ,A6-B,False, , , , , ,Abdiás, , 
+Babylon,"Dániel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , ,"Dániel 2:32, 36-38; 7:4", , 
+Medopersia,"Dániel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , ,"Dániel 2:32, 39; 7:5", , 
+Greece,"Dániel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , ,"Dániel 2:32, 39; 7:6", , 
+Rome,"Dániel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , ,"Dániel 2:33, 40; 7:7", , 
+Angloamerica,"Dániel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True, , , , , ,"Dániel 2:33, 41-43", , 
+Babylon_c,Babilónia,Babylon, ,B9,True, , , , , ,Babilon, , 
+Medopersia_c,Méd–perzsa birodalom,Medo-Persia, ,B9,True, , , , , ,Méd-Perzsia, , 
+Greece_c,Görögország,Greece, ,B9,True, , , , , ,Görögország, , 
+Rome_c,Római Birodalom,Rome, ,B9,True, , , , , ,Róma, , 
+Angloamerica_c,Angol–amerikai világhatalom,Anglo-America, ,B9,True, , , , , ,Anglo-Amerika, , 
+daniel2_1,Nabukodonozor király,King Nebuchadnezzar,607 BCE,B9,True, , , , , ,Nabukodonozor király, , 
+daniel2_2,elpusztítja Jeruzsálemet,destroys Jerusalem, ,B9,True, , , , , ,elpusztítja Jeruzsálemet, , 
+daniel2_3,meghódítja Babilont,Conquers Babylon,539 BCE,B9,True, , , , , ,Meghódítja Babilont, , 
+daniel2_4,"Círusz rendeletet bocsát ki, miszerint",Cyrus decrees return,537 BCE,B9,True, , , , , ,Círus rendeletet ad, , 
+daniel2_5,a zsidók visszatérhetnek Jeruzsálembe,of Jews to Jerusalem, ,B9,True, , , , , ,a zsidók Jeruzsálembe való visszatéréséről, , 
+daniel2_6,Nagy Sándor,Alexander the Great,331 BCE,B9,True, , , , , ,Nagy Sándor, , 
+daniel2_7,meghódítja Perzsiát,conquers Persia, ,B9,True, , , , , ,meghódítja Perzsiát, , 
+daniel2_8,uralkodni kezd Izrael fölött,Rules over Israel,63 BCE,B9,True, , , , , ,Uralkodik Izrael felett, , 
+daniel2_9,elpusztítja Jeruzsálemet,Destroys Jerusalem,70 CE,B9,True, , , , , ,Elpusztítja Jeruzsálemet, , 
+daniel2_10,az I. világháború idején létrejön,"During World War I,",1914-1918 CE,B9,True, , , , , ,Az első világháború alatt, , 
+daniel2_11,az angol–amerikai világhatalom,Anglo-American World Power, ,B9,True, , , , , ,az angol-amerikai világbirodalom, , 
+daniel2_12, ,comes into being,End 4.2,B9,True, , , , , ,létrejön, , 
+607BCE,I. e. 607-ben,607 B.C.E.,accommodate for language,B9,True, , , , , ,i. e. 607, , 
+539BCE,I. e. 539-ben,539 B.C.E.,systems in style:,B9,True, , , , , ,i. e. 539, , 
+537BCE,I. e. 537-ben,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , ,i. e. 537, , 
+331BCE,I. e. 331-ben,331 B.C.E.,so they need a word,B9,True, , , , , ,i. e. 331, , 
+63BCE,I. e. 63-ban,63 B.C.E.,prior to the year,B9,True, , , , , ,i. e. 63, , 
+70CE,I. sz. 70-ben,70 C.E.,and something,B9,True, , , , , ,i. sz. 70, , 
+1914CE,1914–1918:,1914-1918 C.E.,after the year,B9,True, , , , , ,i. sz. 1914–1918, , 
+7times,Jelenések 12:9,Revelation 12:9, ,scripture,False, , , , , ,Jelenések 12:9, , 
+infliction2,ApCsel 7:6,Acts 7:6, ,scripture,False, , , , , ,Cselekedetek 7:6, , 
+eastern-zhou,Kr. e. 770-256,770-256 BC, ,span_bc,False, , , , , ,i. e. 770–256, , 
+430years,1943 – ie 1513,1943 – 1513 B.C.E., ,span_bce,False, , , , , ,i. e. 1943–1513, , 
+eastern-han,25-220 CE,25-220 CE, ,span_ce,False, , , , , ,i. sz. 25–220, , 
+northern-dynasties,368-581,368-581 CE, ,span_ce,False, , , , , ,i. sz. 368–581, , 
+southern-dynasties,420-589,420-589 CE, ,span_ce,False, , , , , ,i. sz. 420–589, , 
 khmer_empire,804 – 1431,804 – 1431, ,timespan,True, , , , , , , , 
 byzantine_empire,330 – 1453,330 – 1453, ,timespan,True, , , , , , , , 
 ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True, , , , , , , , 
@@ -494,50 +494,50 @@ revival_le_dynasty,1533-1789,1533-1789, ,timespan,True, , , , , , , ,
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True, , , , , , , , 
 edo,1603 – 1868,1603 – 1868, ,timespan,True, , , , , , , , 
 meiji,1868 – 1912,1868 – 1912, ,timespan,True, , , , , , , , 
-Julius,Julius,Julius, ,wiki,False, , , , , , , , 
-Caligula,Caligula,Caligula, ,wiki,False, , , , , , , , 
-Nero,Nero,Nero, ,wiki,False, , , , , , , , 
-Galba-Otho-Vitellius,"Galba, Otho és Vitellius (a négy császár éve)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , , , , 
-Vespasian,Vespasianus,Vespasian, ,wiki,False, , , , , , , , 
-covid19,Covid-19,Covid-19, ,wiki,False, , , , , , , , 
-nicaea1,Első niceai zsinat,First Council of Nicaea, ,wiki,False, , , , , , , , 
-oxyrhynchus,Oxyrhynchus papiruszok,Oxyrhynchus Papyri, ,wiki,False, , , , , , , , 
-p52,Papirusz P52,Papyrus P52, ,wiki,False, , , , , , , , 
-qing-dynasty_c,Qing-dinasztia,Qing dynasty,1636-1912,wiki,False, , , , , , , , 
-ming-dynasty_c,Ming-dinasztia a császári Kínában,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , , , , 
-yuan-dynasty_c,Jüan,Yuan,1271-1368,wiki,False, , , , , , , , 
-southern-song_c,Déli dal,Southern Song,1127-1279,wiki,False, , , , , , , , 
-northern-song_c,Északi dal,Northern Song,960-1127,wiki,False, , , , , , , , 
-western-xia_c,Nyugat-Hszia,Western Xia,1038-1227,wiki,False, , , , , , , , 
-Copernicus,Nicolaus Kopernikusz,Nicolaus Copernicus, ,wiki,False, , , , , , , , 
-Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , , , , 
-Newton,Isaac Newton,Isaac Newton, ,wiki,False, , , , , , , , 
-shang-dynasty_c,Shang-dinasztia,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , , , , 
-western-zhou_c,Nyugat-Csou,Western Zhou,c. 1046-771 BC,wiki,False, , , , , , , , 
-eastern-zhou_c,Kelet-Csou,Eastern Zhou,770-256 BC,wiki,False, , , , , , , , 
-western-han_c,Nyugat-Han,Western Han,207 BC – 9 CE,wiki,False, , , , , , , , 
-eastern-han_c,Kelet-Han,Eastern Han,25-220 CE,wiki,False, , , , , , , , 
-three-kingdoms_c,Kína,China,Three kingdoms 220-280 CE,wiki,False, , , , , , , , 
-sixteen-kingdoms_c,Kína,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , , , , 
-northern-dynasties_c,Északi dinasztiák,Northern dynasties,368-581 CE,wiki,False, , , , , , , , 
-southern-dynasties_c,Déli dinasztiák,Southern dynasties,420-589 CE,wiki,False, , , , , , , , 
-tang-dynasty2_c,Tang-dinasztia,Tang dynasty,"618-690, 705-907",wiki,False, , , , , , , , 
-byzantine_empire_c,Bizánci Birodalom,Byzantine Empire, ,wiki,False, , , , , , , , 
-ottoman_empire_c,Oszmán Birodalom,Ottoman Empire, ,wiki,False, , , , , , , , 
-Genghis,Dzsingisz kán,Genghis Khan, ,wiki,False, , , , , , , , 
-inca_empire_c,Inka birodalom,Inca empire, ,wiki,False, , , , , , , , 
-gupta_empire_c,Gupta Birodalom,Gupta Empire, ,wiki,False, , , , , , , , 
-Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False, , , , , , , , 
-Abbasid_c,Abbászida kalifátus,Abbasid Caliphate, ,wiki,False, , , , , , , , 
-Mamluk_c,Mameluk Szultánság,Mamluk Sultanate, ,wiki,False, , , , , , , , 
-Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False, , , , , , , , 
-wulfila,Wulfila Biblia,Wulfila Bible,2025-09-20,wiki,False, , , , , , , , 
-tran_dynasty_c,Trần dinasztia,Trần dynasty, ,wiki,False, , , , , , , , 
-le_dynasty_c,Lê dinasztia,Lê dynasty, ,wiki,False, , , , , , , , 
-revival_le_dynasty_c,Trịnh urak és Nguyễn urak,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False, , , , , , , , 
-seljuk_empire_c,szeldzsuk birodalom,Seljuk empire, ,wiki,False, , , , , , , , 
-vandals_c,Vandálok,Vandals, ,wiki,False, , , , , , , , 
-lombard_c,Lombard Királyság,Lombard Kingdom,2025-10-13,wiki,False, , , , , , , , 
+Julius,Julius,Julius, ,wiki,False, , , , , ,Julius, , 
+Caligula,Caligula,Caligula, ,wiki,False, , , , , ,Caligula, , 
+Nero,Nero,Nero, ,wiki,False, , , , , ,Nero, , 
+Galba-Otho-Vitellius,"Galba, Otho és Vitellius (a négy császár éve)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , ,"Galba, Otho és Vitellius (a négy császár éve)", , 
+Vespasian,Vespasianus,Vespasian, ,wiki,False, , , , , ,Vespasianus, , 
+covid19,Covid-19,Covid-19, ,wiki,False, , , , , ,Covid-19, , 
+nicaea1,Első niceai zsinat,First Council of Nicaea, ,wiki,False, , , , , ,I. nikaiai zsinat, , 
+oxyrhynchus,Oxyrhynchus papiruszok,Oxyrhynchus Papyri, ,wiki,False, , , , , ,Oxirhünkhoszi papiruszok, , 
+p52,Papirusz P52,Papyrus P52, ,wiki,False, , , , , ,P52-es papirusz, , 
+qing-dynasty_c,Qing-dinasztia,Qing dynasty,1636-1912,wiki,False, , , , , ,Csing-dinasztia, , 
+ming-dynasty_c,Ming-dinasztia a császári Kínában,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , ,Ming-dinasztia a császári Kínában, , 
+yuan-dynasty_c,Jüan,Yuan,1271-1368,wiki,False, , , , , ,Jüan, , 
+southern-song_c,Déli dal,Southern Song,1127-1279,wiki,False, , , , , ,Déli Szung, , 
+northern-song_c,Északi dal,Northern Song,960-1127,wiki,False, , , , , ,Északi Szung-dinasztia, , 
+western-xia_c,Nyugat-Hszia,Western Xia,1038-1227,wiki,False, , , , , ,Nyugati Hszia, , 
+Copernicus,Nicolaus Kopernikusz,Nicolaus Copernicus, ,wiki,False, , , , , ,Miklós Kopernikusz, , 
+Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , ,Galileo Galilei, , 
+Newton,Isaac Newton,Isaac Newton, ,wiki,False, , , , , ,Isaac Newton, , 
+shang-dynasty_c,Shang-dinasztia,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , ,Sang-dinasztia, , 
+western-zhou_c,Nyugat-Csou,Western Zhou,c. 1046-771 BC,wiki,False, , , , , ,Nyugati Csou, , 
+eastern-zhou_c,Kelet-Csou,Eastern Zhou,770-256 BC,wiki,False, , , , , ,Keleti Csou, , 
+western-han_c,Nyugat-Han,Western Han,207 BC – 9 CE,wiki,False, , , , , ,Nyugati Han, , 
+eastern-han_c,Kelet-Han,Eastern Han,25-220 CE,wiki,False, , , , , ,Keleti Han, , 
+three-kingdoms_c,Kína,China,Three kingdoms 220-280 CE,wiki,False, , , , , ,Kína, , 
+sixteen-kingdoms_c,Kína,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , ,Kína, , 
+northern-dynasties_c,Északi dinasztiák,Northern dynasties,368-581 CE,wiki,False, , , , , ,Északi dinasztiák, , 
+southern-dynasties_c,Déli dinasztiák,Southern dynasties,420-589 CE,wiki,False, , , , , ,Déli dinasztiák, , 
+tang-dynasty2_c,Tang-dinasztia,Tang dynasty,"618-690, 705-907",wiki,False, , , , , ,Tang-dinasztia, , 
+byzantine_empire_c,Bizánci Birodalom,Byzantine Empire, ,wiki,False, , , , , ,Bizánci Birodalom, , 
+ottoman_empire_c,Oszmán Birodalom,Ottoman Empire, ,wiki,False, , , , , ,Oszmán Birodalom, , 
+Genghis,Dzsingisz kán,Genghis Khan, ,wiki,False, , , , , ,Dzsingisz kán, , 
+inca_empire_c,Inka birodalom,Inca empire, ,wiki,False, , , , , ,Inka birodalom, , 
+gupta_empire_c,Gupta Birodalom,Gupta Empire, ,wiki,False, , , , , ,Gupta Birodalom, , 
+Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False, , , , , ,Teotihuacan, , 
+Abbasid_c,Abbászida kalifátus,Abbasid Caliphate, ,wiki,False, , , , , ,Abbászida Kalifátus, , 
+Mamluk_c,Mameluk Szultánság,Mamluk Sultanate, ,wiki,False, , , , , ,Mamlúk Szultanátus, , 
+Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False, , , , , ,Al-Gazáli, , 
+wulfila,Wulfila Biblia,Wulfila Bible,2025-09-20,wiki,False, , , , , ,Wulfila-biblia, , 
+tran_dynasty_c,Trần dinasztia,Trần dynasty, ,wiki,False, , , , , ,Trần-dinasztia, , 
+le_dynasty_c,Lê dinasztia,Lê dynasty, ,wiki,False, , , , , ,Lê-dinasztia, , 
+revival_le_dynasty_c,Trịnh urak és Nguyễn urak,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False, , , , , ,Trịnh urak és Nguyễn urak, , 
+seljuk_empire_c,szeldzsuk birodalom,Seljuk empire, ,wiki,False, , , , , ,Szeldzsuk birodalom, , 
+vandals_c,Vandálok,Vandals, ,wiki,False, , , , , ,Vandálok, , 
+lombard_c,Lombard Királyság,Lombard Kingdom,2025-10-13,wiki,False, , , , , ,Longobárd Királyság, , 
 people,nép,people, ,deprecated,False, , , , , , , , 
 judges,Bírák,judges, ,deprecated,False, , , , , , , , 
 prophets,Próféták,prophets, ,deprecated,False, , , , , , , , 
@@ -553,14 +553,14 @@ meeting_workbook,"A hétközi értekezlet új formátuma az ""értekezlet-munkaf
 terahfam,Terah családjának tagjai,Members of Terah’s family, ,deprecated,False, , , , , , , , 
 metropolitan,A nagyvárosi tanúságtétel kezdete 2011-ben,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
 jw_org,A JW.ORG kezdete utasításokkal a királysági szolgálatban 2012. december,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
-Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
+Babylon2, ,,no text left and right – empty!,deprecated,False, , , , , , , , 
 daniel2_shift,0,0,Start 4.2,deprecated,False, , , , , , , , 
 Gatam,Gatam,Gatam, ,deprecated,False, , , , , , , , 
 Adbeel,Adbeel,Adbeel, ,deprecated,False, , , , , , , , 
 Mibsam,Mibsam,Mibsam, ,deprecated,False, , , , , , , , 
 Dumah,Dumah,Dumah, ,deprecated,False, , , , , , , , 
 Massa,Massa,Massa, ,deprecated,False, , , , , , , , 
-tang-dynasty1, , , ,deprecated,False, , , , , , , , 
+tang-dynasty1, ,, ,deprecated,False, , , , , , , , 
 xia-dynasty,Hszia-dinasztia Kínában kb. Kr. e. 2070 – kb. Kr. e. 1600,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
 Midianites,"1) Midiániták: 4Móz 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
 Moabites,"2) Moábiták: 5Móz 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3) Ammoniták: Józsué 12:2,3) Ammonites: Joshua 12:2, ,deprecated,Fa
 Edomites,4) Edomiták: 4Móz 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
 Temanites,5) Temaniták: Jób 42:7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
 Amalekites,6) Amálekiták: 1Sámuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
-king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
-king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
-daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_south_light, ,,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, ,,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, ,,2025-02-05,deprecated,False, , , , , , , , 
