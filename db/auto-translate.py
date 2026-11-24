@@ -42,8 +42,6 @@ import random
 import os, sys, asyncio, time
 import pandas as pd
 from googletrans import Translator
-import httpx
-from httpx_curl_cffi import AsyncCurlTransport
 import deepl
 
 # Initialize the DeepL client
@@ -577,59 +575,16 @@ def run_batched_provider(df, target_col, target_lang, provider_callback,
 
 
 # ------------------------- 10.1 google -------------------------
-# Placeholder: expects the (async) googletrans Translator; batch via
-# the async translate() over the chunk. Needs `asyncio` already imported.
-async def create_googletrans_translator():
-    """
-    Create a googletrans 4.0.2 Translator using curl-cffi with
-    Chrome browser impersonation.
-
-    This does not modify the installed googletrans package.
-    """
-
-    translator = Translator(
-        service_urls=["translate.googleapis.com"],
-        raise_exception=True,
-    )
-
-    # Save the original HTTPX client so it can be closed later.
-    original_client = translator.client
-
-    translator.client = httpx.AsyncClient(
-        transport=AsyncCurlTransport(
-            impersonate="chrome",
-            default_headers=True,
-        ),
-        headers={
-            "User-Agent": (
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/140.0.0.0 Safari/537.36"
-            ),
-        },
-    )
-
-    # TokenAcquirer normally points at the original HTTPX client.
-    translator.token_acquirer.client = translator.client
-
-    return translator, original_client
-
-# googletrans 4.0.2 using curl-cffi/Chrome impersonation.
+# googletrans-curl using curl-cffi with Chrome impersonation natively.
 def translate_google_batch(sources, target_lang):
-    async def _run():
-        translator, original_client = await create_googletrans_translator()
-        try:
-            results = await translator.translate(
-                sources,
-                src="en",
-                dest=target_lang,
-            )
-            return [r.text for r in results] if results else None
-        finally:
-            await translator.client.aclose()
-            await original_client.aclose()
     try:
-        return asyncio.run(_run())
+        translator = Translator()
+        results = translator.translate_sync(
+            sources,
+            src="en",
+            dest=target_lang,
+        )
+        return [r.text for r in results] if results else None
     except Exception as e:
         print(f"  google batch error: {e}")
         return None
@@ -829,7 +784,7 @@ if __name__ == "__main__":
     # dict_translated = run_batched_provider(dict_translated, "google", language,
     #                                        translate_google_batch, batch_size=20,
     #                                        min_delay=0, max_retries=3)
-    # Step 10.1: googletrans 4.0.2 + curl-cffi Chrome impersonation
+    # Step 10.1: googletrans-curl + curl-cffi Chrome impersonation
     dict_translated = run_batched_provider(
         dict_translated,
         "google",
@@ -839,23 +794,21 @@ if __name__ == "__main__":
         min_delay=1,
         max_retries=3,
     )    
-    # Step 10.2: chatgpt via OpenRouter - ChatGPT/OpenAI models, free :free
-    # model by default (no-credit account); modest pacing due to daily quota.
-    dict_translated = run_batched_provider(dict_translated, "chatgpt", language,
-                                           translate_chatgpt_batch, batch_size=50,
-                                           min_delay=3, max_retries=6)
-    # Step 10.3: gemini (Google Gemini free tier) - ~5 req/min, hard daily
-    # cap, so large batches (100 strings/request) + pacing + backoff.
+    # Step 10.2: chatgpt via OpenRouter (deactivated)
+    # dict_translated = run_batched_provider(dict_translated, "chatgpt", language,
+    #                                        translate_chatgpt_batch, batch_size=50,
+    #                                        min_delay=3, max_retries=6)
+    # Step 10.3: gemini (Google Gemini free tier) (deactivated)
     # dict_translated = run_batched_provider(dict_translated, "gemini", language,
     #                                        translate_gemini_batch, batch_size=100,
     #                                        min_delay=15, max_retries=10)
-    # # Step 10.4: claude (Anthropic Claude) - low RPM, pace to ~2/min.
+    # Step 10.4: claude (Anthropic Claude) (deactivated)
     # dict_translated = run_batched_provider(dict_translated, "claude", language,
     #                                        translate_claude_batch, batch_size=20,
     #                                        min_delay=30, max_retries=5)
-    # Step 10.5: deepl (DeepL, needs DEEPL_API_KEY) - native batch.
-    dict_translated = run_batched_provider(dict_translated, "deepl", language,
-                                           translate_deepl_batch)
+    # Step 10.5: deepl (DeepL, needs DEEPL_API_KEY) (deactivated)
+    # dict_translated = run_batched_provider(dict_translated, "deepl", language,
+    #                                        translate_deepl_batch)
     dict_translated.to_csv(filename, index=False)
 
     # Legacy single-string DeepL helper (replaced by 10.5 batch version above):
