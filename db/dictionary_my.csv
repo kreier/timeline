@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.08,6.08, ,float,False, , , , , , , , 
-pdf_title,"6,000 Years of Human History — A Timeline","6,000 Years of Human History — A Timeline",2026-09-04,text,False, , , , ,"(I'm sorry, I don't have a translation dictionary for that language yet. If you meant a specific human language, please tell me which one and I'll translate immediately.)", , ,"လူ့သမိုင်း ၆,၀၀၀ နှစ် — အချိန်ဇယား"
+pdf_title,"6,000 Years of Human History — A Timeline","6,000 Years of Human History — A Timeline",2026-09-04,text,False, , , , , , , ,"လူ့သမိုင်း ၆,၀၀၀ နှစ် — အချိန်ဇယား"
 pdf_subject,Timeline of human history from 4000 BCE to present,Timeline of human history from 4000 BCE to present,Timeline of humankind,text,False, , , , , , , ,ဘီစီ ၄၀၀၀ မှ ယနေ့ထိ လူ့သမိုင်း အချိန်ဇယား
 BCE,B.C.E.,B.C.E.,appendix B9,B9,False, , , , , , , , 
 CE,C.E.,C.E., ,B9,False, , , , , , , , 
@@ -103,9 +103,9 @@ Lots_wife,Lot’s wife,Lot’s wife, ,text,False, , , , ,လော့မ်၏ �
 Lots_daughters,Daughters of Lot,Daughters of Lot, ,text,False, , , , ,လော့မ်၏ သမီးများ, , ,လော့၏ သမီးများ
 Moab,Moab (older daughter),Moab (older daughter),Genesis 19:37,text,False, , , , ,မိုအဘ (အကြီးဆုံး သမီး), , ,မိုအပ် (ကြီးမားသော သမီး)
 rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False, , , , , , , ,ရိုဇက်တာကျောက် ၁၉၆ ဘီစီအီး
-Herodotus,"Herodotus c. 484 – c. 425 BC, writes The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"The user wants me to translate these items to ""my"" but there's no language specified. Looking at the system prompt again: ""You are a translator translating to my."" This appears to be incomplete or unclear - there's no target language specified after ""my"".", , ,"ခရစ်မတိုင်မီ ခန့်မှန်း၍ ၄၈၄–၄၂၅ ကြားတွင် ဟေရိုဒိုတပ်စ်သည် ""The Histories"" ကို ရေးသားခဲ့သည်။"
-Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,"Wait, let me re-read: ""You are a translator translating to my."" This seems like a malformed instruction. Without a specified target language, I cannot provide translations. I should ask for clarification on what target language is meant by ""my"".", , ,အာရီစတိုတယ် (ဘီစီ ၃၈၄–၃၂၂)
-Ptolemy,Ptolemy c 100 – c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,"Actually, looking more carefully - this appears to be a test or the instruction is incomplete. The user says ""Translate each of the following items to my"" - ""my"" isn't a language. I need to ask what language they want.</mm:think>Could you please specify which language you want these translated into? Your instruction says ""translate to my"" but doesn't indicate what language that refers to. Please clarify the target language so I can provide accurate translations.", , ,ပတိုလမီ ခန့်မှန်း ၁၀၀–၁၇၀ ခရစ်နှစ်
+Herodotus,"Herodotus c. 484 – c. 425 BC, writes The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , , , ,"ခရစ်မတိုင်မီ ခန့်မှန်း၍ ၄၈၄–၄၂၅ ကြားတွင် ဟေရိုဒိုတပ်စ်သည် ""The Histories"" ကို ရေးသားခဲ့သည်။"
+Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , ,အာရီစတိုတယ် (ဘီစီ ၃၈၄–၃၂၂)
+Ptolemy,Ptolemy c 100 – c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , , , ,ပတိုလမီ ခန့်မှန်း ၁၀၀–၁၇၀ ခရစ်နှစ်
 Pythagoras,Pythagoras c. 570 – c. 495 BC,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , ,ပီသာဂိုရပ်စ် ခရစ်မတိုင်မီ ၅၇၀ ခန့် – ၄၉၅ ခန့်
 Plato,Plato c. 427 – c. 348 BC,Plato c. 427 – c. 348 BC, ,text,False, , , , , , , ,ပလေတို ခန့်မှန်း ၄၂၇ – ၃၄၈ ဘီစီ
 Socrates,Socrates c. 470 – c. 399 BC,Socrates c. 470 – c. 399 BC, ,text,False, , , , , , , ,ဆိုကရေးတီးစ် ခရစ်မတိုင်မီ ၄၇၀ ခန့် – ၃၉၉ ခန့်

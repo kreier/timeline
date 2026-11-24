@@ -1,7 +1,7 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
-version,6.08,6.08, ,float,True,Matthias,2026-08-30, , , , , , 
-pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,"6,000 Years of Human History — A Timeline",2026-08-30,text,True,Matthias,2026-08-30, ,"6,000 Years of Human History — A Timeline",6000 Jahre Menschheitsgeschichte – Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte – Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte — Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte – Eine Zeitleiste
-pdf_subject,Chronik der Menschheitsgeschichte von 4026 v. Chr. bis zur Gegenwart,Timeline of human history from 4000 BCE to present, ,text,True,Matthias,2026-08-30, ,Timeline of human history from 4000 BCE to present,Zeitleiste der Menschheitsgeschichte von 4000 v. Chr. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. u. Z. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. u. Z. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. Chr. bis heute
+version,6.11,6.11, ,float,True,Matthias,2026-08-30, , , , , , 
+pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,"6,000 Years of Human History — A Timeline",2026-11-24,text,True,Matthias,2026-08-30, , ,6000 Jahre Menschheitsgeschichte – Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte – Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte — Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte – Eine Zeitleiste
+pdf_subject,Chronik der Menschheitsgeschichte von 4026 v. Chr. bis zur Gegenwart,Timeline of human history from 4000 BCE to present, ,text,True,Matthias,2026-08-30, , ,Zeitleiste der Menschheitsgeschichte von 4000 v. Chr. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. u. Z. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. u. Z. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. Chr. bis heute
 BCE,v.u.Z.,B.C.E.,appendix B9,B9,True,Matthias,2023-10-10, ,v. u. Z., , ,v. u. Z., 
 CE,u.Z.,C.E., ,B9,True,Matthias,2023-10-10, ,u. Z., , ,u. Z., 
 month,Monat,month, ,text,True,Matthias,2023-10-10, ,Monat,Monat,Monat,Monat,Monat
@@ -16,7 +16,7 @@ temple1,Nisan 1513 v.u.Z bis Ziv 1034 v.u.Z.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E
 year,Jahr,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True,Matthias,2026-05-01, ,Jahr,Jahr,Jahr,Jahr,Jahr
 years,Jahre,years, ,text,True,Matthias,2026-05-01, ,Jahre,Jahre,Jahre,Jahre,Jahre
 years_age,Jahre,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True,Matthias,2026-05-01, ,Jahre,Jahre,Jahre,Jahre,Jahre
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,True,Matthias,2026-05-01, , , , ,, 
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,True,Matthias,2026-05-01, , , , , , 
 wilderness,Israel in der Wildnis von 1513 bis 1473 v.u.Z. – 40 Jahre,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,True,Matthias,2026-05-01, ,Israel in der Wildnis 1513 bis 1473 v. u. Z. – 40 Jahre,Israel in der Wüste 1513 bis 1473 v. Chr. – 40 Jahre,Israel in der Wüste 1513 bis 1473 v. u. Z. – 40 Jahre,Israel in der Wüste 1513 bis 1473 v. u. Z. – 40 Jahre,Israel in der Wüste 1513 bis 1473 v. u. Z. – 40 Jahre
 timespan_judges,1473 bis 1117 v.u.Z. – 356 Jahre,1473 to 1117 B.C.E. – 356 years, ,text,True,Matthias,2026-05-01, ,1473 bis 1117 v. u. Z. – 356 Jahre,1473 bis 1117 v. Chr. – 356 Jahre,1473 bis 1117 v. u. Z. – 356 Jahre,1473 bis 1117 v. u. Z. – 356 Jahre,1473 bis 1117 v. Chr. – 356 Jahre
 timespan_judges2,Zeit der Richter,Time of the judges, ,text,True,Matthias,2026-05-01, ,Zeit der Richter,Zeit der Richter,Zeit der Richter,Zeit der Richter,Die Zeit der Richter
@@ -123,9 +123,9 @@ qin-dynasty,Qin 221-207 v.u.Z.,Qin 221-207 BC, ,text,True,Matthias,2026-05-01, ,
 western-han,207 v.u.Z.– 9 u.Z.,207 BC – 9 CE, ,text,True,Matthias,2026-05-01, ,207 v. Chr. – 9 n. Chr,207 v. Chr. – 9 n. Chr.,207 v. Chr. – 9 n. Chr., ,207 v. Chr. – 9 n. Chr.
 three-kingdoms,Zeit der drei Reiche 220-280 u.Z.,Three kingdoms 220-280 CE, ,text,True,Matthias,2026-05-01, ,Drei Königreiche 220–280 n. Chr,Drei Reiche 220-280 n. Chr.,Drei Reiche 220–280 n. Chr., ,Die Drei Reiche 220–280 n. Chr.
 sixteen-kingdoms,Sechzehn Königreiche 304-439 u.Z.,Sixteen kingdoms 304-439 CE, ,text,True,Matthias,2026-05-01, ,Sechzehn Königreiche 304–439 n. Chr,Sechzehn Reiche 304-439 n. Chr.,Sechzehn Reiche 304–439 n. Chr., ,Die sechzehn Königreiche 304–439 n. Chr.
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,True,Matthias,2026-05-01, ,"618-690, 705-907","618–690, 705–907", , ,"618–690, 705–907"
-wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,True,Matthias,2026-05-01, ,690-705 Wu Zhou,690–705 Wu Zhou, , ,690–705 Wu Zhou
-tang-dynasty1_c,Tang,Tang, ,text,True,Matthias,2026-05-01, ,Tang, , , , 
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,True,Matthias,2026-05-01, , ,"618–690, 705–907", , ,"618–690, 705–907"
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,True,Matthias,2026-05-01, , ,690–705 Wu Zhou, , ,690–705 Wu Zhou
+tang-dynasty1_c,Tang,Tang, ,text,True,Matthias,2026-05-01, , , , , , 
 gonghe,Gonghe 841–828 v.u.Z.,Gonghe Regency 841-828 BC, ,text,True,Matthias,2026-05-01, ,Regentschaft Gonghe 841–828 v. Chr,Regentschaft Gonghe 841-828 v. Chr.,Gonghe-Regentschaft 841–828 v. Chr., ,Gonghe-Regentschaft 841–828 v. Chr.
 Ashoka,Ashoka (ca. 304–232 v.u.Z.) fördert den Buddhismus,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,True,Matthias,2026-05-01, ,Ashoka (ca. 304–232 v. Chr.) fördert den Buddhismus,Ashoka (c. 304-232 v. Chr.) fördert den Buddhismus,Ashoka (ca. 304–232 v. Chr.) fördert den Buddhismus, ,Ashoka (ca. 304–232 v. Chr.) fördert den Buddhismus
 siloam-tunnel,Hiskia erweitert den Siloam-Tunnel,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,True,Matthias,2026-05-01, ,Hiskia erweitert den Siloam-Tunnel,Hiskija verlängert den Siloa-Tunnel,Hiskia erweitert den Schiloach-Tunnel, ,Hiskia lässt den Siloam-Tunnel verlängern
@@ -149,7 +149,7 @@ Teotihuacan,"größte Stadt Amerikas, Pyramiden erbaut ca. 200 u.Z.","Largest ci
 Dionysius_Exiguus,"Dionysius Exiguus, Erfinder von Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,True,Matthias,2026-05-01, ,"Dionysius Exiguus, Erfinder von Anno Domini","Dionysius Exiguus, Erfinder von Anno Domini","Dionysius Exiguus, Erfinder von Anno Domini", ,"Dionysius Exiguus, Erfinder der Zeitrechnung „Anno Domini“"
 Umayyad_c,Umayyaden,Umayyad, ,text,True,Matthias,2026-05-01, ,Umayyaden,Umajjaden,Umayyaden, ,Umayyaden
 ur3,Ur III-Dynastie 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,True,Matthias,2026-05-01, ,Ur III-Dynastie 𒋀𒀕𒆠,III. Dynastie von Ur 𒋀𒀕𒆠,Ur-III-Dynastie 𒋀𒀕𒆠, ,Ur-III-Dynastie 𒋀𒀕𒆠
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,True,Matthias,2026-05-01, ,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurapi 𒄩𒄠𒈬𒊏𒁉, , , 
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,True,Matthias,2026-05-01, , ,Hammurapi 𒄩𒄠𒈬𒊏𒁉, , , 
 Al-Khwarizmi,al-Khwarizmi schreibt Al-Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,True,Matthias,2026-05-01, ,al-Khwarizmi schreibt Al-Jabr (Algebra),al-Chwarizmi verfasst Al-Jabr (Algebra),al-Khwarizmi schreibt Al-Jabr (Algebra), ,al-Khwarizmi verfasst „Al-Jabr“ (Algebra)
 al-azhar,Gründung der Al-Azhar-Universität in Kairo,Al-Azhar University is established in Cairo, ,text,True,Matthias,2026-05-01, ,Die Al-Azhar-Universität wird in Kairo gegründet,Al-Azhar-Universität wird in Kairo gegründet,Al-Azhar-Universität wird in Kairo gegründet, ,Die Al-Azhar-Universität wurde in Kairo gegründet
 Ibn-Sina,Ibn Sina oder Avicenna,Ibn Sina or Avicenna, ,text,True,Matthias,2026-05-01, ,Ibn Sina oder Avicenna,Ibn Sina oder Avicenna,Ibn Sina oder Avicenna, ,Ibn Sina oder Avicenna
@@ -164,9 +164,9 @@ king_south_light_c,König des Südens aus Daniel 11,King of the South from Danie
 king_north_light_c,König des Nordens aus Daniel 11,King of the North from Daniel 11,2025-02-05,text,True,Matthias,2026-05-01, ,König des Nordens aus Daniel 11,König des Nordens aus Daniel 11,König des Nordens aus Daniel 11, ,Der König des Nordens aus Daniel 11
 daniel2_iron_c,Füße aus Eisen aus Daniel 2,Iron legs from Daniel 2,2025-02-05,text,True,Matthias,2026-05-01, ,Eiserne Beine aus Daniel 2,Eiserne Beine aus Daniel 2,Eiserne Beine aus Daniel 2, ,Eiserne Beine aus Daniel 2
 argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,True,Matthias,2026-05-01, ,"Codex Argenteus, ca. 505",Codex Argenteus ca. 505,Codex Argenteus ca. 505, ,"Codex Argenteus, um 505"
-nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,True,Matthias,2026-05-01, ,Nguyễn, , , , 
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,True,Matthias,2026-05-01, , , , , , 
 edo_c,Edo-Zeit (Tokugawa-Shōgunat),Edo period in Japan,Edo period (Tokugawa shogunate),text,True,Matthias,2026-05-01, ,Edo-Zeit in Japan,Edo-Zeit in Japan,Edo-Zeit in Japan, ,Edo-Zeit in Japan
-meiji_c,Meiji,Meiji,2025-09-20,text,True,Matthias,2026-05-01, ,Meiji, , , , 
+meiji_c,Meiji,Meiji,2025-09-20,text,True,Matthias,2026-05-01, , , , , , 
 american_civil_war,Sezessionskrieg 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,True,Matthias,2026-05-01, ,Amerikanischer Bürgerkrieg 1861–1865,Amerikanischer Bürgerkrieg 1861–1865,Amerikanischer Bürgerkrieg 1861-1865, ,Amerikanischer Bürgerkrieg 1861–1865
 aleppo_codex,Codex von Aleppo ca. 920,Aleppo Codex c. 920,2025-10-03,text,True,Matthias,2026-05-01, ,"Aleppo-Codex, ca. 920",Aleppo-Codex ca. 920,Aleppo-Codex ca. 920, ,"Aleppo-Kodex, um 920"
 vandals,Königreich der Vandalen und Alanen 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,True,Matthias,2026-05-01, ,Reich der Vandalen und Alanen 435–534,Königreich der Vandalen und Alanen 435 – 534,Königreich der Vandalen und Alanen 435 – 534, ,Königreich der Vandalen und Alanen 435–534
@@ -175,7 +175,7 @@ francia_c,Fränkisches Reich,Kingdom of the Franks, ,text,True,Matthias,2026-05-
 100_years_war,Hundertjähriger Krieg 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,True,Matthias,2026-05-01, ,Hundertjähriger Krieg 1337–1453,Hundertjähriger Krieg 1337 – 1453,Hundertjähriger Krieg 1337 – 1453, ,Hundertjähriger Krieg 1337–1453
 black_death,Schwarzer Tod 1346-1353,Black death 1346-1353,1346-1353,text,True,Matthias,2026-05-01, ,Schwarzer Tod 1346–1353,Schwarzer Tod 1346–1353,Schwarzer Tod 1346-1353, ,Der Schwarze Tod 1346–1353
 sui_dynasty,581-618 Sui-Dynastie,581-618 Sui dynasty,2025-11-09,text,True,Matthias,2026-05-01, ,581–618 Sui-Dynastie,581–618 Sui-Dynastie,581-618 Sui-Dynastie, ,581–618: Sui-Dynastie
-sui_dynasty_c,Sui,Sui,2025-11-09,text,True,Matthias,2026-05-01, ,Sui, , , , 
+sui_dynasty_c,Sui,Sui,2025-11-09,text,True,Matthias,2026-05-01, , , , , , 
 tribulation,"Die große Drangsal (Markus 13:19; Dan. 12:1; Matt. 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,True,Matthias,2026-05-01, ,"Die große Drangsal (Markus 13,19; Daniel 12,1; Matthäus 24,21.22)","Die große Drangsal (Markus 13:19; Daniel 12:1; Matthäus 24:21, 22)","Die große Trübsal (Markus 13:19; Daniel 12:1; Matthäus 24:21, 22)", ,"Die große Trübsal (Markus 13,19; Daniel 12,1; Matthäus 24,21–22)"
 timeline_created,"Jahr 2023: Zeitleiste erstellt, heißestes Jahr der Menschheit – und der letzten 125000 Jahre!","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",2026-06-30,text,True,Matthias,2026-05-01, ,Diese Zeitleiste wurde im Jahr 2023 erstellt – dem heißesten Jahr der Menschheitsgeschichte und der letzten 125.000 Jahre.,"Diese Zeitleiste wurde 2023 erstellt, dem heißesten Jahr der Menschheitsgeschichte und der letzten 125.000 Jahre","Diese Zeitleiste wurde 2023 erstellt, dem heißesten Jahr der Menschheitsgeschichte und der letzten 125.000 Jahre", ,"Diese Zeitleiste wurde im Jahr 2023 erstellt, dem heißesten Jahr in der Geschichte der Menschheit und der letzten 125.000 Jahre."
 Adam,Adam,Adam,Luke 3:38,bible,True,Matthias,2026-05-01, , , , , , 
