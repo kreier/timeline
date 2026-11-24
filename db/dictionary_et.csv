@@ -1,473 +1,473 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
-version,6.08,6.08,5.9,float,True, , , , , , , , 
-pdf_title,6000-aastane inimajalugu visualiseeris,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6 000 aastat inimkonna ajalugu — ajajoon, , ,6000 aastat inimkonna ajalugu — ajajoon
-pdf_subject,Inimkonna ajaskaala,Timeline of human history from 4000 BCE to present,6.01,text,False, , , , ,Inimkonna ajaloo ajajoon aastast 4000 eKr kuni tänapäevani, , ,Inimkonna ajaloo ajajoon 4000 eKr kuni tänapäevani
-BCE,e.m.a,B.C.E.,appendix B9,B9,True, , , , , , , , 
-CE,m.a.j,C.E., ,B9,True, , , , , , , , 
-month,kuu,month, ,text,False, , , , ,kuu, , ,kuu
-months,kuud,months, ,text,False, , , , ,kuud, , ,kuud
-day,päev,day, ,text,False, , , , ,päev, , ,päev
-days,päevad,days, ,text,False, , , , ,päevad, , ,päeva
-to,–,to, ,text,False, , , , ,kuni, , ,kuni
-Deluge,Udur,Deluge, ,text,False, , , , ,Veeuputus, , ,Veepuhang
-moses2,1593 kuni 1473 B.C.E. - 120 aastat,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,1593 kuni 1473 eKr – 120 aastat, , ,1593–1473 eKr – 120 aastat
-temple1,Nisan 1513 B.C.E. ZIV 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,Nisan 1513 eKr kuni Ziv 1034 eKr, , ,1513. aasta Nisanist eKr kuni 1034. aasta Zivini eKr
-69weeks,Jeesus ristis sügisel 29 C.E.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,Jeesuse ristimine sügisel 29 pKr, , ,Jeesus ristis sügisel 29. a. pKr.
-year,aasta,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,aasta, , ,aasta
-years,aastaid,years, ,text,False, , , , ,aastat, , ,aastad
-years_age,aastaid,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,aastat, , ,aastad
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,Iisrael kõrbes 1513 kuni 1473 B.C.E. - 40 aastat,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,Iisrael kõrbes 1513 kuni 1473 eKr – 40 aastat, , ,Iisrael kõrbes 1513–1473 eKr – 40 aastat
-timespan_judges,1473 kuni 1117 B.C.E. - 356 aastat,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 kuni 1117 eKr – 356 aastat, , ,1473–1117 eKr – 356 aastat
-timespan_judges2,Kohtunike aeg,Time of the judges, ,text,False, , , , ,Kohtunike ajajärk, , ,Kohtunike aeg
-temple2,479 aastat kuni templi ehitamiseni - 1 Kuningate 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,479 aastat kuni templi ehitamiseni – 1. Kuningate raamat 6:1, , ,479 aastat templi ehitamiseni – 1. Kuningate raamat 6:1
-69weeks2,69 nädalat Messias - Taanieli 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,69 nädalat Messiase tulekuni – Daniel 9:25, , ,69 nädalat Messia tulekuni – Taanieli raamat 9:25
-jesus_service,"3,5 aastat Jeesuse teenimist, hukati Nisan 14., 33 C.E.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"3,5 aastat Jeesuse teenistust, hukati 14. Nisani 33 pKr", , ,"3,5 aastat Jeesuse teenistust, hukati 14. nisanil 33. a. pKr."
-jesus_life,Jeesus sündinud 2 B.C.E.,Jesus born 2 B.C.E., ,text,False, , , , ,Jeesus sündis 2 eKr, , ,Jeesus sündis 2. aastal eKr.
-exile,607 kuni 537 B.C.E. - 70 aastat (Jeremija 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,607 kuni 537 eKr – 70 aastat (Jeremija 25:11), , ,607–537 eKr – 70 aastat (Jeremija 25:11)
-exile2,Pagulus,Exile, ,text,False, , , , ,Pagendus, , ,Eksiil
-7times2,7 korda - 2520 aastat Messianilise kuningriigi 1914 C.E. (Taaniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7 aega – 2520 aastat Messiase Kuningriigini 1914 pKr (Daniel 4:23), , ,7 korda – 2520 aastat Messia kuningriigini 1914. aastal pKr (Taanieli raamat 4:23)
-ww1,I maailmasõda - 1914–1918 C.E.,World War I – 1914–1918, ,text,False, , , , ,Esimene maailmasõda – 1914–1918, , ,Esimene maailmasõda – 1914–1918
-ww2,II maailmasõda - 1939–1945 C.E.,World War II – 1939–1945, ,text,False, , , , ,Teine maailmasõda – 1939–1945, , ,Teine maailmasõda – 1939–1945
-30_year_war,Kolmkümmend aastat sõda Euroopas 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,Kolmekümneaastane sõda Euroopas 1618–1648, , ,Kolmekümneaastane sõda Euroopas 1618–1648
-joshua,110 aastat,110 years, ,text,False, , , , ,110 aastat, , ,110 aastat
-caleb,rohkem kui 85 aastat,more than 85 years, ,text,False, , , , ,rohkem kui 85 aastat, , ,üle 85 aasta
-missionary1,"Pauluse esimene misjonärireis, c. 47-48 C. E. koos Barnabase ja John Markiga","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"Pauluse esimene misjonireis, u 47–48 pKr koos Barnabase ja Johannes Markusega", , ,"Paavli esimene misjonireis, umbes 47–48 pKr koos Barnabasega ja Johannes Markusega"
-circumcision,"Ümberlõikamise küsimus Antiookias, konverents Jeruusalemmas c. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"Ümberlõikamise küsimus Antiookias, konverents Jeruusalemmas u 49 pKr", , ,"Ümberlõikamise küsimus Antiookias, konverents Jeruusalemmas umbes 49. a. pKr."
-missionary2,Teine misjonärireis c. 49-52 C.E silaga (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,Pauluse teine misjonireis u 49–52 pKr koos Silasiga (Silvanus), , ,Teine misjonireis umbes 49–52 pKr koos Silasega (Silvanusega)
-missionary3,Kolmas misjonärireis c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,Pauluse kolmas misjonireis u 52–56 pKr, , ,"Kolmas misjonireis, umbes 52–56 pKr"
-caesarea,Paulus vahi all Caesarea c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,Paulus Caesareas vahi all u 56–58 pKr, , ,Paulus oli vahi all Kaisareas umbes aastatel 56–58 pKr.
-rome1,Pauluse esimene vangistus Roomas c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,Pauluse esimene vangistus Roomas u 59–61 pKr, , ,Paavli esimene vangistus Roomas umbes aastatel 59–61 pKr.
-rome2,"Pauluse teine ​​vangistus Roomas c. 65 CE, 2 Timothy kirjutatud, Paul hukati","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"Pauluse teine vangistus Roomas u 65 pKr, kirjutatud 2. Timoteosele, Paulus hukati", , ,"Paavli teine vangistus Roomas umbes 65. a. pKr, „2. Timoteose kiri“ kirjutati, Paavli hukkamist"
-event_exodus,"Exodus Egiptusest Nisanil 14., 1513 B.C.E.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,Eksodus Egiptusest 14. Nisani 1513 eKr, , ,Väljaränne Egiptusest 14. Nisanil 1513 eKr.
-event_division_kingdom,Iisraeli osakond 997 eKr,Division of Israel 997 BCE, ,text,False, , , , ,Iisraeli jagunemine 997 eKr, , ,Iisraeli jagunemine 997 eKr
-event_destruction_samaria,Samaaria hävitamine 740 B.C.E. Autor Assüüria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,Samaria hävitamine 740 eKr Assüüria poolt, , ,Assüüria poolt 740 eKr toimunud Samaaria hävitamine
-event_destruction_jerusalem1,"Jeruusalemma hävitamine 607 B.C.E. Autor Babylon, 390 aastat pärast kuningriigi jagunemist (Hesekieli 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"Jeruusalemma hävitamine 607 eKr Babüloni poolt, 390 aastat pärast kuningriigi jagunemist (Hesekiel 4:5)", , ,"Jeruusalemma hävitamine 607 eKr Babüloni poolt, 390 aastat pärast kuningriigi jagunemist (Hesekiel 4:5)"
-event_temple_rebuilt,Jeruusalemmas asuv tempel ehitati ümber 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,Jeruusalemma tempel taas ehitatud 515 eKr, , ,Jeruusalemma tempel ehitati uuesti üles 515 eKr.
-event_jerusalem_rebuilt,Jeruusalemma sein ehitas ümber 455 B.C.E.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,Jeruusalemma müür taas ehitatud 455 eKr, , ,Jeruusalemma müür ehitati uuesti üles 455 eKr.
-event_destruction_jerusalem2,Jeruusalemma 70 C. E. Rooma tituse all,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,Jeruusalemma hävitamine 70 pKr Rooma poolt Tituse juhtimisel, , ,Jeruusalemma hävitamine 70. aastal pKr Rooma vägede poolt Titus’e juhtimisel
-event_1914,Rahvaste aja lõpp (Luuka 21:24) hakkab Jumala kuningriik valitsema taevas 1914 C.E.,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"Rahvaste aja lõpp (Luuka 21:24), Jumala Kuningriik hakkab valitsema taevas 1914 pKr", , ,Rahvaste ajastu lõpp (Luuka 21:24) – Jumala Kuningriik hakkab taevas valitsema 1914. aastal pKr.
-became_king,saab vanuses kuningaks,becomes king at age,2025-04-14,text,False, , , , ,saab kuningaks vanuses, , ,saab kuningaks vanuses
-vulgate,Jerome'i poolt valminud vulgate (Piibli ladinakeelne tõlge) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,Vulgata valmis Jerroonimiuse poolt (piibli ladina tõlge) u 405 pKr, , ,Hieronymus valmistas umbes 405. aastal pKr valmis Vulgata (Piibli ladinakeelne tõlge).
-gutenberg,Gutenbergi piibel trükitud 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,Gutenbergi piibel trükitud 1455, , ,"Gutenbergi piibel, trükitud 1455. aastal"
-erasmus,"Kreeka kristlike Kreeka pühakirjade tekst, mille avaldas Rotterdami Desiderius Erasmus 1516",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,Kristlike Kreekakeelsete Kirjade kreekakeelne tekst avaldatud Rotterdam Erasmuse poolt 1516, , ,Rotterdami Desiderius Erasmuse poolt 1516. aastal avaldatud kristlike kreekakeelsete pühakirjade kreekakeelne tekst
-luther,Lutheri piiblitõlge septembris 1522,Luther Bible translation in September 1522, ,text,False, , , , ,Lutheri piibli tõlge septembris 1522, , ,Lutheri piiblitõlge 1522. aasta septembris
-tyndale,Inglise piiblitõlge Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , ,Ingliskeelne piibli tõlge Tyndale'ilt 1536, , ,"Tyndale’i ingliskeelne piiblitõlge, 1536"
-king_james,Kuningas James Piibel 1611,King James Bible 1611, ,text,False, , , , ,Piibel kuningas James 1611, , ,"Kuningas Jaakobi Piibel, 1611"
-69weeks3,"Jeesus alustab oma teenistust 29 CE (Luuka 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Jeesus alustab oma teenistust 29 CE (Luuka 3:1, 21)", , ,"Jeesus alustab oma teenistust 29. aastal pKr (Luuka 3:1, 21)"
-ransom,Nädala keskel “Ohverdus lõpetamiseks” Taanieli 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,"Nädala keskel ""ohver lakkab"" Daniel 9:27", , ,Nädala keskel „ohver lõpeb“ Taanieli raamat 9:27
-cornelius,Cornelius ristiti 70 nädala lõpus (Taaniel 9:24) 36 C.E.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Cornelius ristiti 70 nädala lõpus (Daniel 9:24) aastal 36 C.E., , ,Cornelius ristiti 70 nädala lõpus (Taanieli raamat 9:24) aastal 36 pKr.
-columbus,Kolumbia-eelse perioodi lõpp Ameerikas 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,Eel-kolumbiaanliku perioodi lõpp Ameerikas 1492, , ,Kolumbuse-eelse ajastu lõpp Ameerikas 1492
-declaration_independence,13 koloonia iseseisvusdeklaratsioon Ameerikas 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,13 koloonia iseseisvusdeklaratsioon Ameerikas 1776, , ,"Ameerika 13 koloonia iseseisvusdeklaratsioon, 1776"
-tischendorf,Tischendorf avastab Codex Sinaiticuse 4. sajandist 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf avastab Codex Sinaiticuse 4. sajandist aastal 1844, , ,Tischendorf avastab 1844. aastal 4. sajandist pärineva Codex Sinaiticus’e
-dead_sea_scrolls,Surnumere kerimised kirjutatud,Dead Sea Scrolls written, ,text,False, , , , ,Surnumere käsikirjad kirjutatud, , ,Surnumere käsikirjad
-septuagint,Septuagint lxx tõlgitud,Septuagint LXX translated, ,text,False, , , , ,Septuaginta LXX tõlgitud, , ,Septuaginta (LXX) tõlge
-watchtower,“Zioni valvetorn ja Kristuse kohaloleku Herald” esimene number on avaldatud 1879. aastal,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,"Esimene number ""Zion's Watch Tower and Herald of Christ's Presence"" avaldatakse 1879", , ,Ajakirja „Zion’s Watch Tower and Herald of Christ’s Presence“ esimene number ilmus 1879. aastal
-jehovahs_witnesses,"Piibliõpilased võtavad kasutusele uue nime - Jehoova tunnistajad (Jesaja 43:10, 12) Columbuses, Ohios, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"Piibliuurijad võtavad uue nime – Jehoova tunnistajad (Jesaja 43:10, 12) Columbus, Ohio, 1931", , ,"Piiblitundjad võtavad endale uue nime – Jehova tunnistajad (Jesaja 43:10, 12) – Columbusis, Ohio osariigis, 1931. aastal"
-gilead_school,"Gileadi vaatlejate piiblikool algab esmaspäeval, 1. veebruaril 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"Watchtoweri Gilead'i Piiblikool algab esmaspäeval, 1. veebruaril 1943", , ,"Gileadi Vahitorni Piiblikool algab esmaspäeval, 1. veebruaril 1943"
-new_world_translation1,Inglismaal 18. juunil 1960 ilmus “Püha Pühakirja uus maailma tõlge”.,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"""Püha Kirja Uue Maailma Tõlge"" avaldatakse Manchesteris, Inglismaal 18. juunil 1960, taastades nime Jehoova paljudes Piibli osades", , ,18. juunil 1960. aastal Inglismaal Manchesteris ilmunud „Püha Kirja uus maailma tõlge” toob nime Jehova tagasi paljudes Piibli osades
-new_world_translation2,"Muudetud “Püha Pühakirja uus maailma tõlge”, mis ilmus 2013. aasta aastakoosolekul, optimeeritud kasutamiseks digitaalselt ja veebis","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"Parandatud ""Püha Kirja Uue Maailma Tõlge"" avaldatakse aastakoosolekul 2013, optimeeritud digitaalseks ja veebikasutuseks", , ,"2013. aasta aastakoosolekul avaldati uuendatud „Püha Kirja uus maailma tõlge”, mis on optimeeritud digitaalseteks ja veebipõhisteks kasutamiseks"
-cold_war,Geopoliitiline olukord nimetas “Külma sõda” 1945–1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,"Geopoliitiline olukord nimetatud ""Külmaks sõjaks"" 1945-1991", , ,"Geopoliitiline olukord, mida nimetati „külmaks sõjaks“ (1945–1991)"
-codex_sinaiticus,Codex Sinaiticus kirjutatud,Codex Sinaiticus written, ,text,False, , , , ,Codex Sinaiticus kirjutatud, , ,„Codex Sinaiticus“ on kirjutatud
-codex_vaticanus,Codex vaticanus kirjutatud,Codex Vaticanus written, ,text,False, , , , ,Codex Vaticanus kirjutatud, , ,„Codex Vaticanus“ kirjutati
-leningrad_codex,Leningrad Codex kirjutatud Kairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Leningradi koodeks kirjutatud Kairos AD 1008, , ,Kairos 1008. aastal pKr kirjutatud Leningradi koodeks
-john,John kirjutab Patmos 96-98 C.E.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,"Johannes kirjutab ""Ilmutust"" Patmoselt pagenduses 96-98 C.E.", , ,Johannes kirjutas raamatu „Ilmutusraamat” Patmosel pagenduses aastatel 96–98 pKr.
-buddha,Buddha-Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,Buddha – Siddhartha Gautama u.563-u.483 B.C.E, , ,"Buddha – Siddhartha Gautama, umbes 563–umbes 483 eKr"
-buddha2,Buddha alternatiivina c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Buddha alternatiivselt u. 480-400 B.C.E., , ,"Buddha, teise versiooni järgi umbes 480–400 eKr."
-mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632, ,text,False, , , , ,Muhammed u. 570-632, , ,"Mohammed, umbes 570–632"
-confucius,Konfutsius c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,Konfutsius u.551-u.479 B.C.E., , ,Konfutsius u. 551–u. 479 e.Kr.
-hijrah,Hijrah - teekond Mekasse Medinasse 16. juuli 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Hidžra - teekond Mekast Mediinasse 16. juuli 622, , ,Hijrah – teekond Mekast Medinasse 16. juulil 622
-moses_escape,"1553 B.C.E. Mooses peab põgenema Egiptusest - 2. Moosese 2:15, Apostlite teod 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 B.C.E. Mooses peab Egiptusest põgenema – Exodus 2:15, Apostlite teod 7:23", , ,"1553 eKr. Mooses peab Egiptusest põgenema – 2. Moosese raamat 2:15, Apostlite teod 7:23"
-10plagues,1513 B.C.E Egiptus saab 10 katku,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 B.C.E Egiptus saab 10 nuhtlust, , ,1513 eKr tabavad Egiptust 10 nuhtlust
-joseph_sold,Joosep müüs orjana 17 -aastaselt - 1Ms 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Joosep müüakse orjaks 17-aastaselt – 1. Moosese 37:2, , ,Joosep müüdi orjaks 17-aastaselt – 1. Moosese raamat 37:2
-infliction,400 -aastane tekitamine (Apostlite teod 7: 6) - Ishmael 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400 aasta viletsus (Apostlite teod 7:6) – Iismael 1913 B.C.E, , ,400-aastane kannatus (Apostlite teod 7:6) – Ismael 1913 eKr
-Alexander,Aleksander Suur (Taanieli 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Aleksander Suur (Daniel 11:3), , ,Aleksander Suur (Taanieli raamat 11:3)
-persia,"Cyrus Suur, Cambyses II, Darius I 490 eKr, Xerxes I 480 eKr (abikaasa Estheri abikaasa, Danieli 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Küros Suur, Kambüses II, Darius I 490 BCE, Xerxes I 480 BCE (Eestri mees, Daniel 11:2)", , ,"Kyrus Suur, Kambyses II, Darius I 490 eKr, Kserkses I 480 eKr (Esteri abikaasa, Taanieli raamat 11:2)"
-king_north,"Seleucus I nicator (v5) Süüria kuni Antioochus III (V10) ja Seleucus IV (v18, 19) kuni Octavian (V20) ja Tiberius (V21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"Seleukos I Nikator (v5) Süüriast Antiochos III-ni (v10) ja Seleukos IV-ni (v18, 19) kuni Octavianuseni (v20) ja Tiberiuseni (v21-24)", , ,"Seleukos I Nikator (v5) Süüriast Antiochos III-ni (v10) ja Seleukos IV-ni (v18, 19) kuni Oktaavianini (v20) ja Tiberiuseni (v21–24)"
-king_north1,Põhja kuningas,King of the North, ,text,False, , , , ,Põhja kuningas, , ,Põhja kuningas
-king_south,"Ptolemaios I, II, III, IV (v11, 12), V (v15, 16) lahinguaktiumile 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"Ptolemaios I, II, III, IV (v11, 12), V (v15, 16) kuni Actiumi lahinguni 31 B.C.E.", , ,"Ptolemaios I, II, III, IV (v11, 12), V (v15, 16) kuni Actiumi lahinguni 31 eKr."
-king_south1,Lõuna kuningas,King of the South, ,text,False, , , , ,Lõuna kuningas, , ,Lõuna kuningas
-king_south2,"Briti impeerium 1870, angloameerika maailma võim alates 1914. aastast","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"Briti impeerium 1870, Anglo-Ameerika ülemaailmne võim alates 1914", , ,"Briti impeerium 1870, anglo-ameerika maailmavõim alates 1914. aastast"
-king_south3,Lõuna kuningas,King of the South, ,text,False, , , , ,Lõuna kuningas, , ,Lõuna kuningas
-king_north2,"Saksamaa koos keiser William I 1871 (V28), 1914 (V29), 1935 (V30B), 1939 (V31A)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Saksamaa keiser Wilhelm I-ga 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", , ,"Saksamaa keiser Wilhelm I ajal: 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,Põhjas,North, ,text,False, , , , ,Põhi, , ,Põhi
-king_north4,"Nõukogude Liit 1945-1991 (Taanieli 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"Nõukogude Liit 1945-1991 (Daniel 11:32-39, 40b, 41)", , ,"Nõukogude Liit 1945–1991 (Taanieli raamat 11:32–39, 40b, 41)"
-king_north5,Venemaa alates 2017. aastast (W20 mai),Russia since 2017 (w20 May), ,text,False, , , , ,Venemaa alates 2017 (w20 mai), , ,Venemaa alates 2017. aastast (20. mai)
-time_of_end,"Kristuse kohalolek, asjade süsteemi järeldus (Matteuse 24: 3), viimased päevad (2. Timoteosele 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"Kristuse kohalolek, asjade süsteemi lõpp (Matteuse 24:3), viimased päevad (2. Timoteosele 3:1)", , ,"Kristuse kohalolek, asjade korra lõpp (Matteuse 24:3), viimased päevad (2. Timoteose 3:1)"
-time_of_end2,Viimased päevad,Last days, ,text,False, , , , ,Viimased päevad, , ,Viimased päevad
-suryavaman2,Kuningas Suryavarman II ehitab Angkor wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,Kuningas Suryavarman II ehitab Angkor Wati 1113-1150, , ,Kuningas Suryavarman II ehitas Angkor Wati aastatel 1113–1150
-notre-dame,Notre-Dame de Paris ehitas 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,Notre-Dame de Paris ehitatud 1163-1260, , ,"Notre-Dame de Paris, ehitatud aastatel 1163–1260"
-babel,Babeli torn on ehitatud,Tower of Babel built, ,text,False, , , , ,Paabeli torn ehitatud, , ,Paabeli torn ehitati
-infliction1,400 -aastane põhjustamine,400 year infliction,Acts 7:6,text,False, , , , ,400 aasta viletsus, , ,400-aastane kannatus
-Lots_wife,Partii naine,Lot’s wife, ,text,False, , , , ,Looti naine, , ,Loti naine
-Lots_daughters,Lot tütred,Daughters of Lot, ,text,False, , , , ,Looti tütred, , ,Loti tütred
-Moab,Moab (vanem tütar),Moab (older daughter),Genesis 19:37,text,False, , , , ,Moab (vanem tütar), , ,Moab (vanem tütar)
-rosetta,Rosetta Stone 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False, , , , ,Rosetta kivi 196 B.C.E., , ,"Rosetta kivi, 196 eKr."
-Herodotus,"Herodotus c. 484 - c. 425 eKr, kirjutab ajalugu","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"Herodotus c. 484 – c. 425 BC, kirjutab ""Ajalood""", , ,Herodotos (u. 484 – u. 425 eKr) kirjutab teose „Ajalugu“
-Aristotle,Aristoteles 384 - 322 eKr,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , , , ,Aristoteles 384–322 eKr
-Ptolemy,Ptolemaios C 100 - c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,Ptolemaios c 100 – c. 170 C.E., , ,"Ptolemaios, umbes 100 – umbes 170 pKr"
-Pythagoras,Pythagoras c. 570 - c. 495 eKr,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , , , ,Püthagoras u. 570 – u. 495 eKr
-Plato,Platon c. 427 - c. 348 eKr,Plato c. 427 – c. 348 BC, ,text,False, , , , ,Platon c. 427 – c. 348 BC, , ,Platon u. 427 – u. 348 eKr
-Socrates,Sokrates c. 470 - c. 399 eKr,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,Sokrates c. 470 – c. 399 BC, , ,Sokrates u. 470 – u. 399 eKr
-Josephus,Josephus c. 37 - c. 100 C.E.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , , , ,Josephus u. 37 – u. 100 pKr
-Cicero,Cicero 106–43 eKr,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , , , ,Cicero 106–43 eKr
-lachish_letters,Lachish Letters c. 590 B.C.E.,Lachish letters c. 590 B.C.E., ,text,False, , , , ,Lachishi kirjad c. 590 B.C.E., , ,Lachishi kirjad umbes 590 eKr
-lachish_reliefs,Lachishi reljeefid c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,Lachishi reljeefid c. 681 B.C.E., , ,"Lachishi reljeefid, umbes 681 eKr."
-mesha_stele,Mesha Stele (Moabite Stone) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,Mesha stele (Moabi kivi) c. 840 B.C.E., , ,"Mesha stele (Moabi kivi), umbes 840 eKr."
-gilgamesh,Gilgamesh ja Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,Gilgamesh ja Aga 𒇽𒆥𒄄𒀀𒀝𒂵, , ,Gilgameš ja Aga 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,Gilgameshi eepos (sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,Gilgameshi eepos (Sîn-lēqi-unninni), , ,Gilgameši eepos (Sîn-lēqi-unninni)
-gregorian,Gregoriuse kalender 1582,Gregorian calendar 1582, ,text,False, , , , ,Gregoriuse kalender 1582, , ,Gregoriuse kalender 1582
-shang-dynasty,c. 1600-1046 BC,c. 1600-1046 BC, ,text,False, , , , , , , ,u. 1600–1046 eKr
-western-zhou,c. 1046-771 BC,c. 1046-771 BC, ,text,False, , , , , , , ,u. 1046–771 eKr
-qin-dynasty,Qin 221-207 BC,Qin 221-207 BC, ,text,False, , , , , , , ,Qin 221–207 eKr
-western-han,207 eKr - 9 CE,207 BC – 9 CE, ,text,False, , , , , , , ,207 eKr – 9 pKr
-three-kingdoms,Kolm kuningriiki 220–280 CE,Three kingdoms 220-280 CE, ,text,False, , , , ,Kolm riiki 220-280 CE, , ,Kolm kuningriiki 220–280 pKr
-sixteen-kingdoms,Kuusteist kuningriiki 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,Kuusteist riiki 304-439 CE, , ,Kuusteist kuningriiki 304–439 pKr
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , , , ,"618–690, 705–907"
-wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False, , , , , , , ,690–705 Wu Zhou
-tang-dynasty1_c,Kang,Tang, ,text,False, , , , , , , , 
-gonghe,Gonghe Regency 841-828 eKr,Gonghe Regency 841-828 BC, ,text,False, , , , ,Gonghe regentkond 841-828 BC, , ,Gonghe'i valitsuspiirkond 841–828 eKr
-Ashoka,Ashoka (umbes 304-232 eKr) propageerib budismi,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,Ašoka (c. 304-232 BC) edendab budismi, , ,Ashoka (u. 304–232 eKr) propageerib budismi
-siloam-tunnel,Hiskija laiendab siloami tunnelit,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,Hiskia pikendab Siiloami tunnelit, , ,Hiskija pikendab Siloami tunnelit
-Angloamerica2,"Angloameeriklast sümboliseerivad taanieli 2:33, 41-43 prohvetikuulutatud saviga segatud raua jalad.","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"Anglosaksi-ameerika sümboliseeritakse rauast ja savist segatud jalgadega Taanieli 2:33, 41-43 ennustuses", , ,"Anglo-Ameerikat sümboliseerivad Taanieli raamatu 2. peatüki salmides 33, 41–43 esitatud ennustuses saviga segatud raudjalad"
-Manetho,Manetho kirjutab Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , ,"Manetho kirjutab ""Aegiptiaca""", , ,Manetho kirjutab teose „Aegyptiaca“
-destruction_babylon,"Babüloni suure hävitamine (Ilmutuse 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"Suure Babüloni häving (Ilmutuse 17:3, 15-18; 18:9, 10)", , ,"Suure Babüloni hävitamine (Ilmutusraamat 17:3, 15–18; 18:9, 10)"
-peace_security,"""Rahu ja turvalisus!"" (1. Tessalooniklastele 5:3, see on üks võimalus, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"""Rahu ja turvalisus!"" (1. Tessalooniklastele 5:3, see on üks võimalus, QfR 26/2, 25/11)", , ,"„Rahu ja turvalisus!” (1. Tessalooniklastele 5:3, see on üks võimalus, QfR 26/2, 25/11)"
-gog_of_magog,"Magogi Gogi rünnak (Hesekiel 38: 1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"Gogi Magogi rünnak (Hesekieli 38:1, 2, 9-12, 18-23)", , ,"Magogi Gogi rünnak (Hesekiel 38:1, 2, 9–12, 18–23)"
-sheep_goat,"Maa elanikke hinnatakse, eraldades lambad ja kitsed (Matteuse 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"Maa elanikke kohutakse, eraldades lambad ja kitsed (Matteuse 25:31-33)", , ,"Maa elanikke mõistetakse kohut, eraldades lambad kitsedest (Matteuse 25:31–33)"
-annointed,Kuningriigi valitsejate kogunemine (Matteuse 24:31; 1. Korintlastele 15: 50-53; 1. Tessalooniklastele 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,Kuningriigi valitsejate kogumine (Matteuse 24:31; 1. Korintlastele 15:50-53; 1. Tessalooniklastele 4:15-17), , ,Kuningriigi valitsejate kogunemine (Matteuse 24:31; 1. Korintlastele 15:50–53; 1. Tessalooniklastele 4:15–17)
-armageddon,"Armageddoni lahing (Ilmutuse 16:14, 16; Jesaja 13: 9; 2. Peetruse 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"Armageddoni lahing (Ilmutuse 16:14, 16; Jesaja 13:9; 2. Peetruse 3:12)", , ,"Armageddoni lahing (Ilmutuse raamat 16:14, 16; Jesaja 13:9; 2. Peetruse kiri 3:12)"
-millenium,"Jumala kuningriik alustab oma 1000-aastast valitsusaega (Ilmutuse 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"Jumala Kuningriik alustab oma 1000-aastast valitsemist (Ilmutuse 5:9, 10; 20:4, 6)", , ,"Jumala Kuningriik alustab oma 1000-aastast valitsusaega (Ilmutuse raamat 5:9, 10; 20:4, 6)"
-great_crowd,"Suurepärane rahvahulk jääb ellu Armageddoni (Ilmutuse 7: 9, 14; Laul 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"Suur rahvas elab üle Armageddoni (Ilmutuse 7:9, 14; Psalm 37:9-11)", , ,"Suur rahvahulk jääb ellu Armageddonis (Ilmutuse raamat 7:9, 14; Psalm 37:9–11)"
-world_population,Maailma rahvastik viimase 2000 aasta jooksul miljarditega,World population in billions in the last 2000 years,appendix B9,text,False, , , , ,Maailma rahvastik miljardites viimase 2000 aasta jooksul, , ,Maailma rahvaarv miljardites viimase 2000 aasta jooksul
-khmer_empire_c,Khmeri impeerium - Angkori periood,Khmer Empire - Angkor period, ,text,False, , , , ,Khmeri impeerium - Angkori periood, , ,Khmeeri impeerium – Angkori periood
-holy_roman_empire_c,Püha Rooma impeerium - tuntud kui Saksa rahva Püha Rooma impeerium pärast 1512. aastat,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,Püha Rooma impeerium – tuntud kui Saksa Rahvuse Püha Rooma Impeerium alates 1512, , ,Püha Rooma impeerium – alates 1512. aastast tuntud kui Saksa rahva Püha Rooma impeerium
-mongol_empire,Mongoli impeerium 1206 - 1294 C.E.,Mongol Empire 1206 – 1294, ,text,False, , , , ,Mongoli impeerium 1206 – 1294, , ,Mongoli impeerium 1206–1294
-maya_classic_c,Maya tsivilisatsioon - klassikaline periood,Maya civilization – Classic period, ,text,False, , , , ,Maja tsivilisatsioon – klassikaline periood, , ,Maya tsivilisatsioon – klassikaline periood
-maya_postclassic_c,Maya tsivilisatsioon - postklassika periood,Maya civilization – Postclassic period, ,text,False, , , , ,Maja tsivilisatsioon – postklassikaline periood, , ,Maya tsivilisatsioon – postklassikaline periood
-Teotihuacan,"Ameerika suurim linn, püramiidid ehitavad c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"Suurim linn Ameerikas, püramiidid ehitatud c. 200 C.E.", , ,"Ameerika suurim linn, püramiidid ehitati umbes 200. aastal pKr."
-Dionysius_Exiguus,"Dionysius Exiguus, Anno Domini leiutaja","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"Dionysius Exiguus, Anno Domini leiutaja", , ,"Dionysius Exiguus, Anno Domini mõiste looja"
-Umayyad_c,Umayyad,Umayyad, ,text,False, , , , ,Umayjaadid, , ,Umayyadid
-ur3,Ur III dünastia 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,Ur III dünastia 𒋀𒀕𒆠, , ,Ur III dünastia 𒋀𒀕𒆠
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , , , , 
-Al-Khwarizmi,al-khwarizmi kirjutab al-jabr (algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,"al-Khwarizmi kirjutab ""Al-Jabr"" (Algebra)", , ,al-Khwarizmi kirjutab raamatu „Al-Jabr“ (Algebra)
-al-azhar,Al-Azhari ülikool on loodud Kairos,Al-Azhar University is established in Cairo, ,text,False, , , , ,Al-Azhari ülikool asutatakse Kairos, , ,Al-Azhari ülikool asutati Kairos
-Ibn-Sina,Ibn Sina või avicenna,Ibn Sina or Avicenna, ,text,False, , , , ,Ibn Sina ehk Avicenna, , ,Ibn Sina ehk Avicenna
-life-expectancy,Eluiga 75 aastat,Life expectancy 75 years, ,text,False, , , , ,Eeldatav eluiga 75 aastat, , ,Oodatav eluiga 75 aastat
-430years_c,"430 aastat: 2. Moosese 12:41, Galaatlastele 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"430 aastat: 2. Moosese 12:41, Galatlase 3:17", , ,"430 aastat: 2. Moosese raamat 12:41, Galaatlastele 3:17"
-maya_calendar,Maya kalendri arvutatud 11. august 3114 B.C.E.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,Maja kalendri arvutatud algus 11. august 3114 e.m.a, , ,Maya kalendri arvutatud alguskuupäev on 11. august 3114 eKr.
-xia-dynasty2,c. 2070 - c. 1600 eKr; ERA viskas kõigepealt lääne Zhou perioodil,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,umbes 2070 – umbes 1600 e.m.a; Ajastut mainiti esimest korda Lääne-Zhou perioodil, , ,u. 2070 – u. 1600 eKr; sellele ajastule viidati esmakordselt Lääne-Zhou ajastul
-xia-dynasty2_c,Xia dünastia Hiinas,Xia dynasty in China, ,text,False, , , , ,Xia dünastia Hiinas, , ,Xia dünastia Hiinas
-tres_zapotes,"3. September, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,september 32 e.m.a, , ,3. september 32 eKr
-joseph_jacob_reunited,Joseph ja Jacob taasühinesid Egiptuses - 1728 B.C.E. (1Ms 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,Joosep ja Jaakob kohtuvad uuesti Egiptuses – 1728 e.m.a (1. Moosese 45:11; 47:9), , ,Joosep ja Jaakob kohtusid taas Egiptuses – 1728 eKr (1Mo 45:11; 47:9)
-king_south_light_c,Lõuna kuningas Taanielist 11,King of the South from Daniel 11,2025-02-05,text,False, , , , ,Taani kuningas raamatust Taaniel 11, , ,Lõuna kuningas Taanieli raamatust 11
-king_north_light_c,Põhja kuningas Taanielist 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,Põhjakuningas raamatust Taaniel 11, , ,Põhja kuningas Taanieli raamatust 11
-daniel2_iron_c,Raud jalad Taaniel 2 -st,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Raudjalad raamatust Taaniel 2, , ,Raudjalad raamatust „Daniel 2”
-argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , ,Codex Argenteus umbes 505, , ,"Codex Argenteus, umbes 505"
-nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , , , , , 
-edo_c,Edo periood Jaapanis,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , ,Edo periood Jaapanis, , ,Edo periood Jaapanis
-meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , , , , , 
-american_civil_war,Ameerika kodusõda 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,Ameerika kodusõda 1861–1865, , ,Ameerika kodusõda 1861–1865
-aleppo_codex,Aleppo koodeks c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,Aleppo koodeks umbes 920, , ,"Aleppo käsikiri, umbes 920"
-vandals,Vandaalide ja alaanide kuningriik 435–534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Vandali ja alaanide kuningriik 435 – 534, , ,Vandaalide ja alaanide kuningriik 435–534
-francia,"c. 481/509 – 843, Merovingide kuni 751, seejärel Karolingide","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"umbes 481/509 – 843, merovingide dünastia kuni 751, seejärel karolingide dünastia", , ,"u. 481/509 – 843, Merovingide dünastia kuni 751. aastani, seejärel Karolingide dünastia"
-francia_c,Frankide kuningriik,Kingdom of the Franks, ,text,False, , , , ,Frangi kuningriik, , ,Frangide kuningriik
-100_years_war,Saja-aastane sõda 1337–1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Saja-aastane sõda 1337 – 1453, , ,Saja-aastane sõda 1337–1453
-black_death,Must surm 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Must surm 1346–1353, , ,Must surm 1346–1353
-sui_dynasty,581-618 Sui dünastia,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581–618 Sui dünastia, , ,581–618 Sui dünastia
-sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , , , , 
-tribulation,"Suur viletsus (Markuse 13:19; Taanieli 12: 1; Mt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"Suur viletsus (Markuse 13:19; Taaniel 12:1; Matteuse 24:21, 22)", , ,"Suur viletsus (Markuse 13:19; Taanieli 12:1; Matteuse 24:21, 22)"
-timeline_created,"See ajaskaala on loodud 2023. aastal, mis on inimkonna ajaloo kuumim aasta ja viimased 125 000 aastat","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"See ajajoon on loodud aastal 2023, mis on inimkonna ajaloo kuumim aasta ja viimased 125 000 aastat", , ,"See ajajoon on koostatud aastal 2023, mis on inimkonna ajaloo ja viimase 125 000 aasta kõige kuumem aasta"
-Adam,Aadama,Adam,Luke 3:38,bible,True, , , , , , , , 
-Seth,Set,Seth, ,bible,True, , , , , , , , 
-Enosh,Enose,Enosh, ,bible,True, , , , , , , , 
-Kenan,Kenan,Kenan (Cainan),Genesis 5:12,bible,False, , , , , , , , 
-Mahalalel,Mahalaleel,Mahalalel (Mahalaleel),Ma·hala·lel,bible,False, , , , , , , , 
-Jared,Jered,Jared, ,bible,True, , , , , , , , 
-Enoch,Eenok,Enoch, ,bible,True, , , , , , , , 
-Methuselah,Metuusala,Methuselah,Luke 3:37,bible,True, , , , , , , , 
-Lamech,Lemek,Lamech, ,bible,True, , , , , , , , 
-Noah,Noa,Noah, ,bible,True, , , , , , , , 
-Shem,Seem,Shem, ,bible,True, , , , , , , , 
-Arpachshad,Arpaksad,Arpachshad,Luke 3:36,bible,True, , , , , , , , 
-Shelah,Selah,Shelah, ,bible,True, , , , , , , , 
-Eber,Eeber,Eber, ,bible,True, , , , , , , , 
-Peleg,Peleg,Peleg, ,bible,True, , , , , , , , 
-Reu,Reu,Reu, ,bible,True, , , , , , , , 
-Serug,Serug,Serug,Luke 3:35,bible,True, , , , , , , , 
-Nahor,Naahor,Nahor,Genesis 11:24,bible,True, , , , , , , , 
-Terah,Terah,Terah, ,bible,True, , , , , , , , 
-Abraham,Aabraham,Abraham, ,bible,True, , , , , , , , 
-Isaac,Iisak,Isaac, ,bible,True, , , , , , , , 
-Jacob,Jaakob,Jacob,Luke 3:34,bible,True, , , , , , , , 
-Joseph,Joosep,Joseph,Genesis 37,bible,True, , , , , , , , 
-Moses,Mooses,Moses, ,bible,True, , , , , , , , 
-Othniel,Otniel,Othniel,Judges 3:9-11,bible,True, , , , , , , , 
-Ehud,Eehud,Ehud,Judges 3:15-18,bible,True, , , , , , , , 
-Shamgar,Samgar,Shamgar,Judges 3:31,bible,True, , , , , , , , 
-Barak,"Baarak, Deborah, Jael","Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , , , , 
-Gideon,Giideon,Gideon,Judges 7:1,bible,True, , , , , , , , 
-Tola,Toola,Tola,Judges 10:1,bible,True, , , , , , , , 
-Jair,Jair,Jair,Judges 10:3,bible,True, , , , , , , , 
-Jephthah,Jefta,Jephthah,Judges 11:1,bible,True, , , , , , , , 
-Ibzan,Ibsan,Ibzan,Judges 12:8,bible,True, , , , , , , , 
-Elon,Eelon,Elon,Judges 12:11,bible,True, , , , , , , , 
-Abdon,Abdon,Abdon,Judges 12:13,bible,True, , , , , , , , 
-Samson,Simson,Samson,Judges 13:24,bible,True, , , , , , , , 
-Samuel,Saamuel,Samuel,1 Samuel 1:20,bible,True, , , , , , , , 
-Saul,Saul,Saul,1 Samuel 9:2,bible,True, , , , , , , , 
-David,Taavet,David,1 Samuel 16:13,bible,True, , , , , , , , 
-Solomon,Saalomon,Solomon,1 Kings 2:1,bible,True, , , , , , , , 
-Malachi,Malaki,Malachi, ,bible,True, , , , , , , , 
-Ruth,Rutt,Ruth, ,bible,True, , , , , , , , 
-Ezra,Esra,Ezra, ,bible,True, , , , , , , , 
-Nehemiah,Nehemja,Nehemiah, ,bible,True, , , , , , , , 
-Esther,Ester,Esther, ,bible,True, , , , , , , , 
-Job,Iiob,Job, ,bible,True, , , , , , , , 
-moses3,Mooses,Moses, ,bible,True, , , , , , , , 
-joshua2,Joshua,Joshua, ,bible,False, , , , , , , , 
-caleb2,Kaleb,Caleb, ,bible,False, , , , , , , , 
-Augustus,Augustus,Augustus,Luke 2:1,bible,False, , , , , , , , 
-Tiberius,Tiberius,Tiberius,Luke 3:1,bible,False, , , , , , , , 
-Claudius,Claudius,Claudius,Acts 11:28,bible,False, , , , , , , , 
-persia2,Pärsia,Persia, ,bible,False, , , , , , , , 
-jehoiada,Jehoiada,Jehoiada,2 Kings 11:4,bible,False, , , , , , , , 
-Haggai,Haggai,Haggai, ,bible,False, , , , , , , , 
-Zerubbabel,Zerubbabel (Luuka 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , , , , 
-Jacob2,Jaakob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , , , , 
-Israel,Iisrael,Israel,Genesis 35:10,bible,False, , , , , , , , 
-Sarah,Saara,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , , , , 
-Hagar,Hagar,Hagar,Genesis 21:14,bible,False, , , , , , , , 
-Haran,Haran,Haran,Genesis 11:26,bible,False, , , , , , , , 
-Reumah,Reumah,Reumah,Concubine – 4 sons 22:24,bible,False, , , , , , , , 
-Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more),bible,False, , , , , , , , 
-Lot,Partii,Lot,Genesis 11:27,bible,False, , , , , , , , 
-Ammon,Ben-ammi (ammon),Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , , , , 
-Bethuel,Bethuel,Bethuel,Genesis 22:23,bible,False, , , , , , , , 
-Rebekah,Rebekah,Rebekah, ,bible,False, , , , , , , , 
-Laban,Laban,Laban,Genesis 24:29,bible,False, , , , , , , , 
-Leah,Leah,Leah,Genesis 35:23,bible,False, , , , , , , , 
-Rachel,Rachel,Rachel,Genesis 35:24,bible,False, , , , , , , , 
-Bilhah,Bilhah,Bilhah,Genesis 35:25,bible,False, , , , , , , , 
-Zilpah,Zilpah,Zilpah,Genesis 35:26,bible,False, , , , , , , , 
-Reuben,Rubiin,Reuben, ,bible,False, , , , , , , , 
-Simeon,Simeon,Simeon, ,bible,False, , , , , , , , 
-Levi,Levi,Levi,Genesis 35:23,bible,False, , , , , , , , 
-Judah,Juuda,Judah, ,bible,False, , , , , , , , 
-Issachar,Isand,Issachar, ,bible,False, , , , , , , , 
-Zebulun,Zebulun,Zebulun, ,bible,False, , , , , , , , 
-Dinah,Dinah,Dinah,Genesis 34,bible,False, , , , , , , , 
-Esau,Eesav/,Esau/, ,bible,False, , , , , , , , 
-Edom,Edom,Edom,Genesis 36:1,bible,False, , , , , , , , 
-Ishmael,Ismael,Ishmael,Genesis 16:16,bible,False, , , , , , , , 
-Manasseh2,(Manasseh,(Manasseh,Genesis 41:50-52,bible,False, , , , , , , , 
-Ephraim,ja ephraim),and Ephraim), ,bible,False, , , , , , , , 
-Benjamin,Benjamin,Benjamin, ,bible,False, , , , , , , , 
-Dan,Dan,Dan,Genesis 35:23,bible,False, , , , , , , , 
-Naphtali,Naftali,Naphtali, ,bible,False, , , , , , , , 
-Gad,Labane,Gad, ,bible,False, , , , , , , , 
-Asher,Asher,Asher, ,bible,False, , , , , , , , 
-Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , , , , 
-Milcah2,"Chesed, Hazo,","Chesed, Hazo,", ,bible,False, , , , , , , , 
-Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph", ,bible,False, , , , , , , , 
-Tebah,Tebah,Tebah,Genesis 22:24,bible,False, , , , , , , , 
-Gaham,Gaham,Gaham, ,bible,False, , , , , , , , 
-Tahash,Tahash,Tahash, ,bible,False, , , , , , , , 
-Maacah,Maacah,Maacah, ,bible,False, , , , , , , , 
-Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , , , , 
-Basemath,Basemaat,Basemath,"Genesis36:3, 4",bible,False, , , , , , , , 
-Reuel,Reuel,Reuel,"36:13, 17",bible,False, , , , , , , , 
-Nahath,Nahath,Nahath, ,bible,False, , , , , , , , 
-Zerah,Null,Zerah, ,bible,False, , , , , , , , 
-Schammah,Schammah,Schammah, ,bible,False, , , , , , , , 
-Mizzah,Mizzah,Mizzah, ,bible,False, , , , , , , , 
-Adah,Adah,Adah,"36:11, 12, 15, 16",bible,False, , , , , , , , 
-Eliphaz,Eliphaz,Eliphaz, ,bible,False, , , , , , , , 
-Teman,Teman,Teman, ,bible,False, , , , , , , , 
-Omar,Omaar,Omar, ,bible,False, , , , , , , , 
-Zepho,Zepho,Zepho, ,bible,False, , , , , , , , 
-Kenaz,Kenaz,Kenaz, ,bible,False, , , , , , , , 
-Korah,Korah,Korah, ,bible,False, , , , , , , , 
-Korah_Gatam,"Korah, Gatam","Korah, Gatam",303 and 304,bible,False, , , , , , , , 
-Amalek,Amalek,Amalek, ,bible,False, , , , , , , , 
-Oholibamah,Oholibamah,Oholibamah,"36:14, 18",bible,False, , , , , , , , 
-Jeush,Usin,Jeush, ,bible,False, , , , , , , , 
-Jalam,Jalaam,Jalam, ,bible,False, , , , , , , , 
-Nebaioth,Nebaioth,Nebaioth,Genesis 25:13,bible,False, , , , , , , , 
-Kedar,Kedar,Kedar, ,bible,False, , , , , , , , 
-Mishma,Mishma,Mishma, ,bible,False, , , , , , , , 
-Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",311 and 312,bible,False, , , , , , , , 
-Dumah_Massa,"Dumah, Massa","Dumah, Massa",314 and 315,bible,False, , , , , , , , 
-Hadad,Hadaad,Hadad, ,bible,False, , , , , , , , 
-Tema,Tema,Tema, ,bible,False, , , , , , , , 
-Jetur,Jetur,Jetur, ,bible,False, , , , , , , , 
-Naphish,Nafish,Naphish, ,bible,False, , , , , , , , 
-Kedemah,Kedemah,Kedemah, ,bible,False, , , , , , , , 
-Keturah,Keturah,Keturah,Genesis 25:1-4,bible,False, , , , , , , , 
-Zimran,Zimran,Zimran, ,bible,False, , , , , , , , 
-Jokshan,Nalju,Jokshan, ,bible,False, , , , , , , , 
-Medan,Medaan,Medan, ,bible,False, , , , , , , , 
-Midian,Kesk-,Midian, ,bible,False, , , , , , , , 
-Ishbak,Ishbak,Ishbak, ,bible,False, , , , , , , , 
-Shuah,Shuah,Shuah, ,bible,False, , , , , , , , 
-Timna,Timna,Timna,"1 Chr 1:36, Ge 36:10-12",bible,False, , , , , , , , 
-life-expectancy2,(Laul 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , , , , 
-Ham,Haami,Ham,Gen 10:1,bible,True, , , , , , , , 
-Canaan,Kaanan,Canaan,Gen 10:6,bible,True, , , , , , , , 
-Sidon,Siidon,Sidon,Gen 10:15,bible,True, , , , , , , , 
-Heth,Heet,Heth,Gen 10:15,bible,True, , , , , , , , 
-Jebusite,jebuuslased,Jebusite,Gen 10:16,bible,True, , , , , , , , 
-Amorite,emorlased,Amorite,Gen 10:16,bible,True, , , , , , , , 
-Girgashite,girgaaslased,Girgashite,Gen 10:16,bible,True, , , , , , , , 
-Hivite,hiivlased,Hivite,Gen 10:17,bible,True, , , , , , , , 
-Arkite,arkiilased,Arkite,Gen 10:17,bible,True, , , , , , , , 
-Sinite,siinlased,Sinite,Gen 10:17,bible,True, , , , , , , , 
-Arvadite,arvadlased,Arvadite,Gen 10:18,bible,True, , , , , , , , 
-Zemarite,semarlased,Zemarite,Gen 10:18,bible,True, , , , , , , , 
-Hamathite,hamatlased,Hamathite,Gen 10:18,bible,True, , , , , , , , 
-Cush,Kuus,Cush,Gen 10:6,bible,True, , , , , , , , 
-Nimrod,Nimrod,Nimrod,Gen 10:8,bible,True, , , , , , , , 
-Mizraim,Mitsraimile,Mizraim,Gen 10:14,bible,True, , , , , , , , 
-Casluh,Kasluhim,Casluh,1 Chronicles 1:12 (Philistines),bible,True, , , , , , , , 
-Japheth,Japheth,Japheth,Gen 10:3,bible,True, , , , , , , , 
-Asshur,Assur,Asshur,Gen 10:22,bible,True, , , , , , , , 
-Lud,Luud,Lud,Gen 10:22,bible,True, , , , , , , , 
-Aram,Aram,Aram,Gen 10:22,bible,True, , , , , , , , 
-Elam,Eelam,Elam,Gen 10:22,bible,True, , , , , , , , 
-Joktan,Joktanile,Joktan,Gen 10:26,bible,True, , , , , , , , 
-Almodad,Almodad,Almodad,Gen 10:26,bible,True, , , , , , , , 
-Sheleph,Selef,Sheleph,Gen 10:26,bible,True, , , , , , , , 
-Hazarmaveth,Hasarmavet,Hazarmaveth,Gen 10:26,bible,True, , , , , , , , 
-Jerah,Jerah,Jerah,Gen 10:26,bible,True, , , , , , , , 
-Hadoram,Hadoram,Hadoram,Gen 10:27,bible,True, , , , , , , , 
-Uzal,Uusal,Uzal,Gen 10:27,bible,True, , , , , , , , 
-Diklah_Obal,"Dikla, Oobal","Diklah, Obal",Gen 10:27,bible,True, , , , , , , , 
-Abimael,Abimael,Abimael,Gen 10:28,bible,True, , , , , , , , 
-Sheba_Ophir,"Seeba, Oofir","Sheba, Ophir","Gen 10:28, 29",bible,True, , , , , , , , 
-Havilah,Havila,Havilah,Gen 10:29,bible,True, , , , , , , , 
-Jobab,Joobab,Jobab,Gen 10:29,bible,True, , , , , , , , 
-Ham_fn,1) Egiptusse: Laulud 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , , , , 
-Canaan_fn,2) Kaananlased: Joshua 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , , , , 
-Aram_fn,3) Arameanlased: Hosea 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , , , , 
-Elam_fn,4) Elamiidid: Ezra 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , , , , 
-Asshur_fn,5) Assüürlased: Hesekieli 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , , , , 
-Casluh_fn,6) Vilistid: 1 Kroonikad 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , , , , 
-Cush_fn,7) Etioopia [Cusite]: 2 Kuningad 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , , , , 
-Edom_fn,8) Edomiidid: numbrid 20:14-17,8) Edomites: Numbers 20:14-17,same as 459,bible,False, , , , , , , , 
-Moab_fn,"9) Moabites: 5. Moosese 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457,bible,False, , , , , , , , 
-Ammon_fn,10) Ammoniidid: Joshua 12:2,10) Ammonites: Joshua 12:2,same as 458,bible,False, , , , , , , , 
-Midian_fn,"11) Midianiidid: numbrid 31:2, 3","11) Midianites: Numbers 31:2, 3",same as 456,bible,False, , , , , , , , 
-Amalek_fn,12) Amalekiidid: 1 Samuel 15:2,12) Amalekites: 1 Samuel 15:2,same as 461,bible,False, , , , , , , , 
-Teman_fn,13) Temaniidid: töö 42:7,13) Temanites: Job 42:7,same as 460,bible,False, , , , , , , , 
-Sidon_fn,14) Sidonians: Zechariah 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , , , , 
-Heth_fn,15) Hetiidid: 1. Moosese 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , , , , 
-Jebusite_fn,16) Jebusiidid: Joshua 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , , , , 
-Judith,Judith?,Judith?,"Genesis 26:34, 35",bible,False, , , , , , , , 
-Lud_fn,17) Lydians: 1 kroonikad 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , , , , 
-Ishmael_fn,18) Ishmaeliidid: 1. Moosese 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , , , , 
-Amorite_fn,19) Amoriidid: Kohtumõistjate 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , , , , 
-Hivite_fn,"20) Hivitid [Gibeon]: Joshua 9: 3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , , , , 
-Cain,Kain,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , , , , 
-Abel,Abel,Abel,Genesis 4:2,bible,False, , , , , , , , 
-Irad,Irad,Irad,Genesis 4:18,bible,False, , , , , , , , 
-Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False, , , , , , , , 
-Methushael,Metuusael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , , , , 
-Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , , , , 
-Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , , , , 
-Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , , , , 
-Tubal-cain,Tubal-kaiin,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , , , , 
-Naamah,Naamah,Naamah,Genesis 4:22 his sister,bible,False, , , , , , , , 
-Rehoboam,Rehabeam,Rehoboam,first king of southern kingdom of Juda,A6-A,True, , , , , , , , 
-Abijah,Abija (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,True, , , , , , , , 
-Asa,Aasa,Asa,A6-A,A6-A,True, , , , , , , , 
-Jehoshaphat,Joosafat,Jehoshaphat, ,A6-A,True, , , , , , , , 
-Jehoram2,Jooram,Jehoram, ,A6-A,True, , , , , , , , 
-Ahaziah,Ahasja,Ahaziah, ,A6-A,True, , , , , , , , 
-Athaliah,Kuninganna Atalja,Queen Athaliah,Queen Athaliah,A6-A,True, , , , , , , , 
-Jehoash,Joas,Jehoash, ,A6-A,True, , , , , , , , 
-Amaziah,Amasja,Amaziah, ,A6-A,True, , , , , , , , 
-Uzziah,Ussija (Asarja),Uzziah (Azariah),also Azariah,A6-A,True, , , , , , , , 
-Jeroboam,Jerobeam,Jeroboam,first king of northern 10-tribe kingdom,A6-A,True, , , , , , , , 
-Nadab,Naadab,Nadab,less than 2,A6-A,True, , , , , , , , 
-Baasha,Baesa,Baasha, ,A6-A,True, , , , , , , , 
-Elah,Eela,Elah, ,A6-A,True, , , , , , , , 
-Zimri,Simri,Zimri,Only 7 days in ca. 751 BCE,A6-A,True, , , , , , , , 
-OmriTibni,Omri ja Tibni,Omri and Tibni together,4 years Omri and Tibni,A6-A,True, , , , , , , , 
-Omri,Omri (üksi),Omri (alone),from 947 Omri alone,A6-A,True, , , , , , , , 
-Ahab,Ahab,Ahab, ,A6-A,True, , , , , , , , 
-Jehoram,Jooram,Jehoram, ,A6-A,True, , , , , , , , 
-Jehu,Jehu,Jehu, ,A6-A,True, , , , , , , , 
-Jeoahaz,Jooahas,Jeoahaz, ,A6-A,True, , , , , , , , 
-JeoahazJehoash,Jooahas ja Joas,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,True, , , , , , , , 
-Jehoash2,Joas (üksi),Jehoash (alone),Jehoash (alone),A6-A,True, , , , , , , , 
-Jeroboam2,Jerobeam II,Jeroboam II, ,A6-A,True, , , , , , , , 
-Elijah,Eelija,Elijah, ,A6-A,True, , , , , , , , 
-Elisha,Eliisa,Elisha, ,A6-A,True, , , , , , , , 
-Jonah,Joona,Jonah, ,A6-A,True, , , , , , , , 
-Amos,Aamos,Amos, ,A6-A,True, , , , , , , , 
-Joel,Joel,Joel, ,A6-A,True, , , , , , , , 
-Jotham,Jootam,Jotham,A6-B,A6-B,True, , , , , , , , 
-Ahaz,Aahas,Ahaz, ,A6-B,True, , , , , , , , 
-Hezekiah,Hiskija,Hezekiah, ,A6-B,True, , , , , , , , 
-Manasseh,Manasse,Manasseh, ,A6-B,True, , , , , , , , 
-Amon,Aamon,Amon, ,A6-B,True, , , , , , , , 
-Josiah,Joosija,Josiah, ,A6-B,True, , , , , , , , 
-Jehoahaz,Jooahas,Jehoahaz,Only 3 months,A6-B,True, , , , , , , , 
-Jehoiakim,Joojakim,Jehoiakim, ,A6-B,True, , , , , , , , 
-Jehoiachin,Joojakin,Jehoiachin,Only 3 months 10 days,A6-B,True, , , , , , , , 
-Zedekiah,Sidkija,Zedekiah, ,A6-B,True, , , , , , , , 
-Zechariah,Sakarja,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,True, , , , , , , , 
-Schallum,Sallum,Schallum,only one month,A6-B,True, , , , , , , , 
-Menahem,Menahem,Menahem, ,A6-B,True, , , , , , , , 
-Pekahiah,Pekahja,Pekahiah, ,A6-B,True, , , , , , , , 
-Pekah,Pekah,Pekah, ,A6-B,True, , , , , , , , 
-Hoshea,Hosea,Hoshea,9 years from c. 748,A6-B,True, , , , , , , , 
-Hosea,Hoosea,Hosea, ,A6-B,True, , , , , , , , 
-Isaiah,Jesaja,Isaiah, ,A6-B,True, , , , , , , , 
-Micah,Miika,Micah, ,A6-B,True, , , , , , , , 
-Zephaniah,Sefanja,Zephaniah, ,A6-B,True, , , , , , , , 
-Nahum,Nahum,Nahum, ,A6-B,True, , , , , , , , 
-Jeremiah,Jeremija,Jeremiah, ,A6-B,True, , , , , , , , 
-Habakuk,Habakuk,Habakuk, ,A6-B,True, , , , , , , , 
-Daniel,Taaniel,Daniel, ,A6-B,True, , , , , , , , 
-Ezekiel,Hesekiel,Ezekiel, ,A6-B,True, , , , , , , , 
-Obadiah,Obadja,Obadiah, ,A6-B,True, , , , , , , , 
-Babylon,"Taaniel 2:32, 36–38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , , , , 
-Medopersia,"Taaniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , , , , 
-Greece,"Taaniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , , , , 
-Rome,"Taaniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , , , , 
-Angloamerica,"Taaniel 2:33, 41–43","Daniel 2:33, 41-43", ,B9,True, , , , , , , , 
-Babylon_c,Babüloonia,Babylon, ,B9,True, , , , , , , , 
-Medopersia_c,Meedia-Pärsia,Medo-Persia, ,B9,True, , , , , , , , 
-Greece_c,Kreeka,Greece, ,B9,True, , , , , , , , 
-Rome_c,Rooma,Rome, ,B9,True, , , , , , , , 
-Angloamerica_c,Inglise-Ameerika,Anglo-America, ,B9,True, , , , , , , , 
-daniel2_1,kuningas Nebukadnetsar,King Nebuchadnezzar,607 BCE,B9,True, , , , , , , , 
-daniel2_2,hävitab Jeruusalemma,destroys Jerusalem,appendix B9,B9,True, , , , , , , , 
-daniel2_3,vallutab Babüloonia,Conquers Babylon,539 BCE,B9,True, , , , , , , , 
-daniel2_4,Kyros annab juutidele loa,Cyrus decrees return,537 BCE,B9,True, , , , , , , , 
-daniel2_5,Jeruusalemma naasta,of Jews to Jerusalem, ,B9,True, , , , , , , , 
-daniel2_6,Aleksander Suur,Alexander the Great,331 BCE,B9,True, , , , , , , , 
-daniel2_7,vallutab Pärsia,conquers Persia, ,B9,True, , , , , , , , 
-daniel2_8,hakkab valitsema Iisraeli üle,Rules over Israel,63 BCE,B9,True, , , , , , , , 
-daniel2_9,hävitab Jeruusalemma,Destroys Jerusalem,70 CE,B9,True, , , , , , , , 
-daniel2_10,esimese maailmasõja,"During World War I,",1914-1918 CE,B9,True, , , , , , , , 
-daniel2_11,ajal tekib,Anglo-American World Power, ,B9,True, , , , , , , , 
-daniel2_12,Inglise-Ameerika maailmavõim,comes into being,End 4.2,B9,True, , , , , , , , 
-607BCE,607 e.m.a:,607 B.C.E.,accommodate for language,B9,True, , , , , , , , 
-539BCE,539 e.m.a:,539 B.C.E.,systems in style:,B9,True, , , , , , , , 
-537BCE,537 e.m.a:,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , , , , 
-331BCE,331 e.m.a:,331 B.C.E.,so they need a word,B9,True, , , , , , , , 
-63BCE,63 e.m.a:,63 B.C.E.,prior to the year,B9,True, , , , , , , , 
-70CE,70 m.a.j:,70 C.E.,and something,B9,True, , , , , , , , 
-1914CE,1914–1918:,1914-1918 C.E.,after the year,B9,True, , , , , , , , 
-7times,Ilmutus 12: 9,Revelation 12:9, ,scripture,False, , , , , , , , 
-infliction2,Apostlite teod 7: 6,Acts 7:6, ,scripture,False, , , , , , , , 
-eastern-zhou,770-256 eKr,770-256 BC, ,span_bc,False, , , , , , , , 
-430years,1943 - 1513 B.C.E.,1943 – 1513 B.C.E., ,span_bce,False, , , , , , , , 
-eastern-han,25-220 CE,25-220 CE, ,span_ce,False, , , , , , , , 
-northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False, , , , , , , , 
-southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False, , , , , , , , 
+version,6.11,6.11,5.9,float,False, , , , , , , , 
+pdf_title,6000-aastane inimajalugu visualiseeris,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6 000 aastat inimkonna ajalugu — ajajoon,6000 aastat inimkonna ajalugu – ajatelg, ,6000 aastat inimkonna ajalugu — ajajoon
+pdf_subject,Inimkonna ajaskaala,Timeline of human history from 4000 BCE to present,6.01,text,False, , , , ,Inimkonna ajaloo ajajoon aastast 4000 eKr kuni tänapäevani,Inimkonna ajaloo ajatelg 4000. aastast e.m.a kuni tänapäevani, ,Inimkonna ajaloo ajajoon 4000 eKr kuni tänapäevani
+BCE,e.m.a,B.C.E.,appendix B9,B9,True, , , , , ,e.m.a, , 
+CE,m.a.j,C.E., ,B9,True, , , , , ,m.a.j, , 
+month,kuu,month, ,text,False, , , , ,kuu,kuu, ,kuu
+months,kuud,months, ,text,False, , , , ,kuud,kuud, ,kuud
+day,päev,day, ,text,False, , , , ,päev,päev, ,päev
+days,päevad,days, ,text,False, , , , ,päevad,päeva, ,päeva
+to,–,to, ,text,False, , , , ,kuni,kuni, ,kuni
+Deluge,Udur,Deluge, ,text,False, , , , ,Veeuputus,veeuputus, ,Veepuhang
+moses2,1593 kuni 1473 B.C.E. - 120 aastat,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,1593 kuni 1473 eKr – 120 aastat,1593 kuni 1473 e.m.a – 120 aastat, ,1593–1473 eKr – 120 aastat
+temple1,Nisan 1513 B.C.E. ZIV 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,Nisan 1513 eKr kuni Ziv 1034 eKr,Niisan 1513 e.m.a kuni Siiv 1034 e.m.a, ,1513. aasta Nisanist eKr kuni 1034. aasta Zivini eKr
+69weeks,Jeesus ristis sügisel 29 C.E.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,Jeesuse ristimine sügisel 29 pKr,Jeesus ristiti 29. aasta sügisel m.a.j, ,Jeesus ristis sügisel 29. a. pKr.
+year,aasta,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,aasta,aasta, ,aasta
+years,aastaid,years, ,text,False, , , , ,aastat,aastat, ,aastad
+years_age,aastaid,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,aastat,aastat, ,aastad
+age_kings,aasta vanuselt,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,aasta vanuselt, , 
+wilderness,Iisrael kõrbes 1513 kuni 1473 B.C.E. - 40 aastat,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,Iisrael kõrbes 1513 kuni 1473 eKr – 40 aastat,Iisrael kõrbes 1513 kuni 1473 e.m.a – 40 aastat, ,Iisrael kõrbes 1513–1473 eKr – 40 aastat
+timespan_judges,1473 kuni 1117 B.C.E. - 356 aastat,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 kuni 1117 eKr – 356 aastat,1473 kuni 1117 e.m.a – 356 aastat, ,1473–1117 eKr – 356 aastat
+timespan_judges2,Kohtunike aeg,Time of the judges, ,text,False, , , , ,Kohtunike ajajärk,Kohtumõistjate aeg, ,Kohtunike aeg
+temple2,479 aastat kuni templi ehitamiseni - 1 Kuningate 6: 1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,479 aastat kuni templi ehitamiseni – 1. Kuningate raamat 6:1,479 aastat templi ehitamiseni – 1. Kuningate 6:1, ,479 aastat templi ehitamiseni – 1. Kuningate raamat 6:1
+69weeks2,69 nädalat Messias - Taanieli 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,69 nädalat Messiase tulekuni – Daniel 9:25,69 nädalat Messiani – Taanieli 9:25, ,69 nädalat Messia tulekuni – Taanieli raamat 9:25
+jesus_service,"3,5 aastat Jeesuse teenimist, hukati Nisan 14., 33 C.E.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"3,5 aastat Jeesuse teenistust, hukati 14. Nisani 33 pKr","Jeesuse teenistus 3,5 aastat, hukati 14. niisanil 33 m.a.j", ,"3,5 aastat Jeesuse teenistust, hukati 14. nisanil 33. a. pKr."
+jesus_life,Jeesus sündinud 2 B.C.E.,Jesus born 2 B.C.E., ,text,False, , , , ,Jeesus sündis 2 eKr,Jeesus sündis 2 e.m.a, ,Jeesus sündis 2. aastal eKr.
+exile,607 kuni 537 B.C.E. - 70 aastat (Jeremija 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,607 kuni 537 eKr – 70 aastat (Jeremija 25:11),607 kuni 537 e.m.a – 70 aastat (Jeremija 25:11), ,607–537 eKr – 70 aastat (Jeremija 25:11)
+exile2,Pagulus,Exile, ,text,False, , , , ,Pagendus,Pagendus, ,Eksiil
+7times2,7 korda - 2520 aastat Messianilise kuningriigi 1914 C.E. (Taaniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7 aega – 2520 aastat Messiase Kuningriigini 1914 pKr (Daniel 4:23),7 aega – 2520 aastat Messia Kuningriigini 1914 m.a.j (Taanieli 4:23), ,7 korda – 2520 aastat Messia kuningriigini 1914. aastal pKr (Taanieli raamat 4:23)
+ww1,I maailmasõda - 1914–1918 C.E.,World War I – 1914–1918, ,text,False, , , , ,Esimene maailmasõda – 1914–1918,Esimene maailmasõda – 1914–1918, ,Esimene maailmasõda – 1914–1918
+ww2,II maailmasõda - 1939–1945 C.E.,World War II – 1939–1945, ,text,False, , , , ,Teine maailmasõda – 1939–1945,Teine maailmasõda – 1939–1945, ,Teine maailmasõda – 1939–1945
+30_year_war,Kolmkümmend aastat sõda Euroopas 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,Kolmekümneaastane sõda Euroopas 1618–1648,Kolmekümneaastane sõda Euroopas 1618–1648, ,Kolmekümneaastane sõda Euroopas 1618–1648
+joshua,110 aastat,110 years, ,text,False, , , , ,110 aastat,110 aastat, ,110 aastat
+caleb,rohkem kui 85 aastat,more than 85 years, ,text,False, , , , ,rohkem kui 85 aastat,rohkem kui 85 aastat, ,üle 85 aasta
+missionary1,"Pauluse esimene misjonärireis, c. 47-48 C. E. koos Barnabase ja John Markiga","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"Pauluse esimene misjonireis, u 47–48 pKr koos Barnabase ja Johannes Markusega",Pauluse esimene misjonireis u 47–48 m.a.j koos Barnabase ja Johannes Markusega, ,"Paavli esimene misjonireis, umbes 47–48 pKr koos Barnabasega ja Johannes Markusega"
+circumcision,"Ümberlõikamise küsimus Antiookias, konverents Jeruusalemmas c. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"Ümberlõikamise küsimus Antiookias, konverents Jeruusalemmas u 49 pKr","Ümberlõikamisküsimus Antiookias, koosolek Jeruusalemmas u 49 m.a.j", ,"Ümberlõikamise küsimus Antiookias, konverents Jeruusalemmas umbes 49. a. pKr."
+missionary2,Teine misjonärireis c. 49-52 C.E silaga (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,Pauluse teine misjonireis u 49–52 pKr koos Silasiga (Silvanus),Teine misjonireis u 49–52 m.a.j koos Siilasega (Silvanusega), ,Teine misjonireis umbes 49–52 pKr koos Silasega (Silvanusega)
+missionary3,Kolmas misjonärireis c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,Pauluse kolmas misjonireis u 52–56 pKr,Kolmas misjonireis u 52–56 m.a.j, ,"Kolmas misjonireis, umbes 52–56 pKr"
+caesarea,Paulus vahi all Caesarea c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,Paulus Caesareas vahi all u 56–58 pKr,Paulus vahi all Kaisareas u 56–58 m.a.j, ,Paulus oli vahi all Kaisareas umbes aastatel 56–58 pKr.
+rome1,Pauluse esimene vangistus Roomas c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,Pauluse esimene vangistus Roomas u 59–61 pKr,Pauluse esimene vangistus Roomas u 59–61 m.a.j, ,Paavli esimene vangistus Roomas umbes aastatel 59–61 pKr.
+rome2,"Pauluse teine ​​vangistus Roomas c. 65 CE, 2 Timothy kirjutatud, Paul hukati","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"Pauluse teine vangistus Roomas u 65 pKr, kirjutatud 2. Timoteosele, Paulus hukati","Pauluse teine vangistus Roomas u 65 m.a.j, kirjutati 2. Timoteosele, Paulus hukati", ,"Paavli teine vangistus Roomas umbes 65. a. pKr, „2. Timoteose kiri“ kirjutati, Paavli hukkamist"
+event_exodus,"Exodus Egiptusest Nisanil 14., 1513 B.C.E.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,Eksodus Egiptusest 14. Nisani 1513 eKr,Väljaränne Egiptusest 14. niisanil 1513 e.m.a, ,Väljaränne Egiptusest 14. Nisanil 1513 eKr.
+event_division_kingdom,Iisraeli osakond 997 eKr,Division of Israel 997 BCE, ,text,False, , , , ,Iisraeli jagunemine 997 eKr,Iisraeli jagunemine 997 e.m.a, ,Iisraeli jagunemine 997 eKr
+event_destruction_samaria,Samaaria hävitamine 740 B.C.E. Autor Assüüria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,Samaria hävitamine 740 eKr Assüüria poolt,Samaaria hävitamine Assüüria poolt 740 e.m.a., ,Assüüria poolt 740 eKr toimunud Samaaria hävitamine
+event_destruction_jerusalem1,"Jeruusalemma hävitamine 607 B.C.E. Autor Babylon, 390 aastat pärast kuningriigi jagunemist (Hesekieli 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"Jeruusalemma hävitamine 607 eKr Babüloni poolt, 390 aastat pärast kuningriigi jagunemist (Hesekiel 4:5)","Jeruusalemma hävitamine Paabeli poolt 607 e.m.a., 390 aastat pärast kuningriigi jagunemist (Hesekiel 4:5)", ,"Jeruusalemma hävitamine 607 eKr Babüloni poolt, 390 aastat pärast kuningriigi jagunemist (Hesekiel 4:5)"
+event_temple_rebuilt,Jeruusalemmas asuv tempel ehitati ümber 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,Jeruusalemma tempel taas ehitatud 515 eKr,Jeruusalemma tempel ehitati uuesti üles 515 e.m.a., ,Jeruusalemma tempel ehitati uuesti üles 515 eKr.
+event_jerusalem_rebuilt,Jeruusalemma sein ehitas ümber 455 B.C.E.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,Jeruusalemma müür taas ehitatud 455 eKr,Jeruusalemma müür ehitati uuesti üles 455 e.m.a., ,Jeruusalemma müür ehitati uuesti üles 455 eKr.
+event_destruction_jerusalem2,Jeruusalemma 70 C. E. Rooma tituse all,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,Jeruusalemma hävitamine 70 pKr Rooma poolt Tituse juhtimisel,Jeruusalemma hävitamine Rooma poolt Tituse juhtimisel 70 m.a.j., ,Jeruusalemma hävitamine 70. aastal pKr Rooma vägede poolt Titus’e juhtimisel
+event_1914,Rahvaste aja lõpp (Luuka 21:24) hakkab Jumala kuningriik valitsema taevas 1914 C.E.,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"Rahvaste aja lõpp (Luuka 21:24), Jumala Kuningriik hakkab valitsema taevas 1914 pKr","paganate aegade lõpp (Luuka 21:24), Jumala kuningriik hakkab taevas valitsema 1914 m.a.j.", ,Rahvaste ajastu lõpp (Luuka 21:24) – Jumala Kuningriik hakkab taevas valitsema 1914. aastal pKr.
+became_king,saab kuningaks,becomes king at age,2025-04-14,text,False, , , , ,saab kuningaks vanuses,saab kuningaks, ,saab kuningaks vanuses
+vulgate,Jerome'i poolt valminud vulgate (Piibli ladinakeelne tõlge) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,Vulgata valmis Jerroonimiuse poolt (piibli ladina tõlge) u 405 pKr,Hieronymus lõpetab Vulgata (piibli ladinakeelne tõlge) umbes 405 m.a.j., ,Hieronymus valmistas umbes 405. aastal pKr valmis Vulgata (Piibli ladinakeelne tõlge).
+gutenberg,Gutenbergi piibel trükitud 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,Gutenbergi piibel trükitud 1455,Guttenbergi piibel trügitakse 1455, ,"Gutenbergi piibel, trükitud 1455. aastal"
+erasmus,"Kreeka kristlike Kreeka pühakirjade tekst, mille avaldas Rotterdami Desiderius Erasmus 1516",Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,Kristlike Kreekakeelsete Kirjade kreekakeelne tekst avaldatud Rotterdam Erasmuse poolt 1516,Rotterdami Desideriuse poolt avaldatud Kristlike Kreeka Kirjade kreekakeelne tekst 1516, ,Rotterdami Desiderius Erasmuse poolt 1516. aastal avaldatud kristlike kreekakeelsete pühakirjade kreekakeelne tekst
+luther,Lutheri piiblitõlge septembris 1522,Luther Bible translation in September 1522, ,text,False, , , , ,Lutheri piibli tõlge septembris 1522,Lutheri piiblitõlge septembris 1522, ,Lutheri piiblitõlge 1522. aasta septembris
+tyndale,Inglise piiblitõlge Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , ,Ingliskeelne piibli tõlge Tyndale'ilt 1536,Tyndale'i ingliskeelne piiblitõlge 1536, ,"Tyndale’i ingliskeelne piiblitõlge, 1536"
+king_james,Kuningas James Piibel 1611,King James Bible 1611, ,text,False, , , , ,Piibel kuningas James 1611,Kuningas Jamesi piibel 1611, ,"Kuningas Jaakobi Piibel, 1611"
+69weeks3,"Jeesus alustab oma teenistust 29 CE (Luuka 3: 1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Jeesus alustab oma teenistust 29 CE (Luuka 3:1, 21)","Jeesus alustab oma teenistust 29 m.a.j. (Luuka 3:1, 21)", ,"Jeesus alustab oma teenistust 29. aastal pKr (Luuka 3:1, 21)"
+ransom,Nädala keskel “Ohverdus lõpetamiseks” Taanieli 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,"Nädala keskel ""ohver lakkab"" Daniel 9:27","nädala keskel ""ohver lakkab"" Taaniel 9:27", ,Nädala keskel „ohver lõpeb“ Taanieli raamat 9:27
+cornelius,Cornelius ristiti 70 nädala lõpus (Taaniel 9:24) 36 C.E.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Cornelius ristiti 70 nädala lõpus (Daniel 9:24) aastal 36 C.E.,Kornelius ristitakse 70 nädala lõpus (Taaniel 9:24) aastal 36 m.a.j., ,Cornelius ristiti 70 nädala lõpus (Taanieli raamat 9:24) aastal 36 pKr.
+columbus,Kolumbia-eelse perioodi lõpp Ameerikas 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,Eel-kolumbiaanliku perioodi lõpp Ameerikas 1492,Kolumbuse-eelse perioodi lõpp Ameerikas 1492, ,Kolumbuse-eelse ajastu lõpp Ameerikas 1492
+declaration_independence,13 koloonia iseseisvusdeklaratsioon Ameerikas 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,13 koloonia iseseisvusdeklaratsioon Ameerikas 1776,Ameerika 13 koloonia iseseisvusdeklaratsioon 1776, ,"Ameerika 13 koloonia iseseisvusdeklaratsioon, 1776"
+tischendorf,Tischendorf avastab Codex Sinaiticuse 4. sajandist 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf avastab Codex Sinaiticuse 4. sajandist aastal 1844,Tischendorf avastab 4. sajandist pärineva Codex Sinaiticuse 1844. aastal, ,Tischendorf avastab 1844. aastal 4. sajandist pärineva Codex Sinaiticus’e
+dead_sea_scrolls,Surnumere kerimised kirjutatud,Dead Sea Scrolls written, ,text,False, , , , ,Surnumere käsikirjad kirjutatud,Surnumere kirjarullid kirjutatud, ,Surnumere käsikirjad
+septuagint,Septuagint lxx tõlgitud,Septuagint LXX translated, ,text,False, , , , ,Septuaginta LXX tõlgitud,Septuaginta LXX tõlgitud, ,Septuaginta (LXX) tõlge
+watchtower,“Zioni valvetorn ja Kristuse kohaloleku Herald” esimene number on avaldatud 1879. aastal,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,"Esimene number ""Zion's Watch Tower and Herald of Christ's Presence"" avaldatakse 1879","Ajakirja ""Zion's Watch Tower and Herald of Christ's Presence"" esimene number avaldatakse 1879", ,Ajakirja „Zion’s Watch Tower and Herald of Christ’s Presence“ esimene number ilmus 1879. aastal
+jehovahs_witnesses,"Piibliõpilased võtavad kasutusele uue nime - Jehoova tunnistajad (Jesaja 43:10, 12) Columbuses, Ohios, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"Piibliuurijad võtavad uue nime – Jehoova tunnistajad (Jesaja 43:10, 12) Columbus, Ohio, 1931","Piibliuurijad võtavad vastu uue nime – Jehoova tunnistajad (Jesaja 43:10, 12) Columbusel Ohios 1931", ,"Piiblitundjad võtavad endale uue nime – Jehova tunnistajad (Jesaja 43:10, 12) – Columbusis, Ohio osariigis, 1931. aastal"
+gilead_school,"Gileadi vaatlejate piiblikool algab esmaspäeval, 1. veebruaril 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"Watchtoweri Gilead'i Piiblikool algab esmaspäeval, 1. veebruaril 1943","Vahitorni Piiblikool Gilead algab esmaspäeval, 1. veebruaril 1943", ,"Gileadi Vahitorni Piiblikool algab esmaspäeval, 1. veebruaril 1943"
+new_world_translation1,Inglismaal 18. juunil 1960 ilmus “Püha Pühakirja uus maailma tõlge”.,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"""Püha Kirja Uue Maailma Tõlge"" avaldatakse Manchesteris, Inglismaal 18. juunil 1960, taastades nime Jehoova paljudes Piibli osades","""Pühakirja Uue Maailma tõlge"" avaldatakse Inglismaal Manchesteris 18. juunil 1960, toob piibli paljudes kohtades taas tagasi nime Jehoova", ,18. juunil 1960. aastal Inglismaal Manchesteris ilmunud „Püha Kirja uus maailma tõlge” toob nime Jehova tagasi paljudes Piibli osades
+new_world_translation2,"Muudetud “Püha Pühakirja uus maailma tõlge”, mis ilmus 2013. aasta aastakoosolekul, optimeeritud kasutamiseks digitaalselt ja veebis","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"Parandatud ""Püha Kirja Uue Maailma Tõlge"" avaldatakse aastakoosolekul 2013, optimeeritud digitaalseks ja veebikasutuseks","Uuendatud ""Pühakirja Uue Maailma tõlge"" avaldatakse iga-aastasel koosolekul 2013, optimeeritud digitaalseks ja veebis kasutamiseks", ,"2013. aasta aastakoosolekul avaldati uuendatud „Püha Kirja uus maailma tõlge”, mis on optimeeritud digitaalseteks ja veebipõhisteks kasutamiseks"
+cold_war,Geopoliitiline olukord nimetas “Külma sõda” 1945–1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,"Geopoliitiline olukord nimetatud ""Külmaks sõjaks"" 1945-1991","Geopoliitiline olukord nimetatud ""Külmaks sõjaks"" 1945–1991", ,"Geopoliitiline olukord, mida nimetati „külmaks sõjaks“ (1945–1991)"
+codex_sinaiticus,Codex Sinaiticus kirjutatud,Codex Sinaiticus written, ,text,False, , , , ,Codex Sinaiticus kirjutatud,Codex Sinaiticus kirjutatud, ,„Codex Sinaiticus“ on kirjutatud
+codex_vaticanus,Codex vaticanus kirjutatud,Codex Vaticanus written, ,text,False, , , , ,Codex Vaticanus kirjutatud,Codex Vaticanus kirjutatud, ,„Codex Vaticanus“ kirjutati
+leningrad_codex,Leningrad Codex kirjutatud Kairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Leningradi koodeks kirjutatud Kairos AD 1008,Leningradi koodeks kirjutatud Kairos m.a.j. 1008, ,Kairos 1008. aastal pKr kirjutatud Leningradi koodeks
+john,John kirjutab Patmos 96-98 C.E.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,"Johannes kirjutab ""Ilmutust"" Patmoselt pagenduses 96-98 C.E.","Johannes kirjutab ""Ilmutusraamatu"" Patmose saarel paguses olles 96–98 m.a.j.", ,Johannes kirjutas raamatu „Ilmutusraamat” Patmosel pagenduses aastatel 96–98 pKr.
+buddha,Buddha-Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,Buddha – Siddhartha Gautama u.563-u.483 B.C.E,Buddha – Siddhartha Gautama umbes 563 – umbes 483 e.m.a., ,"Buddha – Siddhartha Gautama, umbes 563–umbes 483 eKr"
+buddha2,Buddha alternatiivina c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Buddha alternatiivselt u. 480-400 B.C.E.,Buddha alternatiivselt umbes 480–400 e.m.a., ,"Buddha, teise versiooni järgi umbes 480–400 eKr."
+mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632, ,text,False, , , , ,Muhammed u. 570-632,Muhhamed umbes 570–632, ,"Mohammed, umbes 570–632"
+confucius,Konfutsius c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,Konfutsius u.551-u.479 B.C.E.,Konfutsius umbes 551 – umbes 479 e.m.a., ,Konfutsius u. 551–u. 479 e.Kr.
+hijrah,Hijrah - teekond Mekasse Medinasse 16. juuli 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Hidžra - teekond Mekast Mediinasse 16. juuli 622,Hidžra – rännak Mekast Mediinasse 16. juuli 622, ,Hijrah – teekond Mekast Medinasse 16. juulil 622
+moses_escape,"1553 B.C.E. Mooses peab põgenema Egiptusest - 2. Moosese 2:15, Apostlite teod 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 B.C.E. Mooses peab Egiptusest põgenema – Exodus 2:15, Apostlite teod 7:23","1553 e.m.a. Mooses peab Egiptusest põgenema – 2. Moosese 2:15, Apostlite teod 7:23", ,"1553 eKr. Mooses peab Egiptusest põgenema – 2. Moosese raamat 2:15, Apostlite teod 7:23"
+10plagues,1513 B.C.E Egiptus saab 10 katku,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 B.C.E Egiptus saab 10 nuhtlust,1513 e.m.a. Egiptust tabab 10 nuhtlust, ,1513 eKr tabavad Egiptust 10 nuhtlust
+joseph_sold,Joosep müüs orjana 17 -aastaselt - 1Ms 37: 2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Joosep müüakse orjaks 17-aastaselt – 1. Moosese 37:2,Joosep müüakse ori 17-aastaselt – 1. Moosese 37:2, ,Joosep müüdi orjaks 17-aastaselt – 1. Moosese raamat 37:2
+infliction,400 -aastane tekitamine (Apostlite teod 7: 6) - Ishmael 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400 aasta viletsus (Apostlite teod 7:6) – Iismael 1913 B.C.E,400-aastane viletsus (Apostlite teod 7:6) – Ismael 1913 e.m.a., ,400-aastane kannatus (Apostlite teod 7:6) – Ismael 1913 eKr
+Alexander,Aleksander Suur (Taanieli 11: 3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Aleksander Suur (Daniel 11:3),Suur Aleksander (Taanieli 11:3), ,Aleksander Suur (Taanieli raamat 11:3)
+persia,"Cyrus Suur, Cambyses II, Darius I 490 eKr, Xerxes I 480 eKr (abikaasa Estheri abikaasa, Danieli 11: 2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Küros Suur, Kambüses II, Darius I 490 BCE, Xerxes I 480 BCE (Eestri mees, Daniel 11:2)","Cyrus Suur, Kambyses II, Darius I 490 e.m.a., Xerxes I 480 e.m.a. (Esteri abikaasa, Taanieli 11:2)", ,"Kyrus Suur, Kambyses II, Darius I 490 eKr, Kserkses I 480 eKr (Esteri abikaasa, Taanieli raamat 11:2)"
+king_north,"Seleucus I nicator (v5) Süüria kuni Antioochus III (V10) ja Seleucus IV (v18, 19) kuni Octavian (V20) ja Tiberius (V21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"Seleukos I Nikator (v5) Süüriast Antiochos III-ni (v10) ja Seleukos IV-ni (v18, 19) kuni Octavianuseni (v20) ja Tiberiuseni (v21-24)","Seleukos I Nikator (s 5) Süüria kuni Antiokhos III-ni (s 10) ja Seleukos IV-ni (s 18, 19) kuni Octavianuseni (s 20) ja Tiberiuseni (s 21–24)", ,"Seleukos I Nikator (v5) Süüriast Antiochos III-ni (v10) ja Seleukos IV-ni (v18, 19) kuni Oktaavianini (v20) ja Tiberiuseni (v21–24)"
+king_north1,Põhja kuningas,King of the North, ,text,False, , , , ,Põhja kuningas,Põhja kuningas, ,Põhja kuningas
+king_south,"Ptolemaios I, II, III, IV (v11, 12), V (v15, 16) lahinguaktiumile 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"Ptolemaios I, II, III, IV (v11, 12), V (v15, 16) kuni Actiumi lahinguni 31 B.C.E.","Ptolemaios I, II, III, IV (s 11, 12), V (s 15, 16) kuni Aktioni lahinguni 31. aastal e.m.a.", ,"Ptolemaios I, II, III, IV (v11, 12), V (v15, 16) kuni Actiumi lahinguni 31 eKr."
+king_south1,Lõuna kuningas,King of the South, ,text,False, , , , ,Lõuna kuningas,Lõuna kuningas, ,Lõuna kuningas
+king_south2,"Briti impeerium 1870, angloameerika maailma võim alates 1914. aastast","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"Briti impeerium 1870, Anglo-Ameerika ülemaailmne võim alates 1914","Briti impeerium 1870, Inglise-Ameerika maailmavõim alates 1914. aastast", ,"Briti impeerium 1870, anglo-ameerika maailmavõim alates 1914. aastast"
+king_south3,Lõuna kuningas,King of the South, ,text,False, , , , ,Lõuna kuningas,Lõuna kuningas, ,Lõuna kuningas
+king_north2,"Saksamaa koos keiser William I 1871 (V28), 1914 (V29), 1935 (V30B), 1939 (V31A)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Saksamaa keiser Wilhelm I-ga 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Saksamaa keiser Wilhelm I-ga 1871 (s 28), 1914 (s 29), 1935 (s 30b), 1939 (s 31a)", ,"Saksamaa keiser Wilhelm I ajal: 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Põhjas,North, ,text,False, , , , ,Põhi,Põhi, ,Põhi
+king_north4,"Nõukogude Liit 1945-1991 (Taanieli 11: 32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"Nõukogude Liit 1945-1991 (Daniel 11:32-39, 40b, 41)","Nõukogude Liit 1945–1991 (Taanieli 11:32–39, 40b, 41)", ,"Nõukogude Liit 1945–1991 (Taanieli raamat 11:32–39, 40b, 41)"
+king_north5,Venemaa alates 2017. aastast (W20 mai),Russia since 2017 (w20 May), ,text,False, , , , ,Venemaa alates 2017 (w20 mai),Venemaa alates 2017. aastast (w20 mai), ,Venemaa alates 2017. aastast (20. mai)
+time_of_end,"Kristuse kohalolek, asjade süsteemi järeldus (Matteuse 24: 3), viimased päevad (2. Timoteosele 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"Kristuse kohalolek, asjade süsteemi lõpp (Matteuse 24:3), viimased päevad (2. Timoteosele 3:1)","Kristuse kohalolek, ajastu lõpp (Matteuse 24:3), viimsed päevad (2. Timoteosele 3:1)", ,"Kristuse kohalolek, asjade korra lõpp (Matteuse 24:3), viimased päevad (2. Timoteose 3:1)"
+time_of_end2,Viimased päevad,Last days, ,text,False, , , , ,Viimased päevad,Viimsed päevad, ,Viimased päevad
+suryavaman2,Kuningas Suryavarman II ehitab Angkor wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,Kuningas Suryavarman II ehitab Angkor Wati 1113-1150,Kuningas Suryavarman II ehitab Angkor Wati 1113–1150, ,Kuningas Suryavarman II ehitas Angkor Wati aastatel 1113–1150
+notre-dame,Notre-Dame de Paris ehitas 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,Notre-Dame de Paris ehitatud 1163-1260,Pariisi Jumalaema kirik ehitatud 1163–1260, ,"Notre-Dame de Paris, ehitatud aastatel 1163–1260"
+babel,Babeli torn on ehitatud,Tower of Babel built, ,text,False, , , , ,Paabeli torn ehitatud,Paabeli torn ehitatud, ,Paabeli torn ehitati
+infliction1,400 -aastane põhjustamine,400 year infliction,Acts 7:6,text,False, , , , ,400 aasta viletsus,400-aastane rõhumine, ,400-aastane kannatus
+Lots_wife,Partii naine,Lot’s wife, ,text,False, , , , ,Looti naine,Loti naine, ,Loti naine
+Lots_daughters,Lot tütred,Daughters of Lot, ,text,False, , , , ,Looti tütred,Loti tütred, ,Loti tütred
+Moab,Moab (vanem tütar),Moab (older daughter),Genesis 19:37,text,False, , , , ,Moab (vanem tütar),Moab (vanem tütar), ,Moab (vanem tütar)
+rosetta,Rosetta Stone 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False, , , , ,Rosetta kivi 196 B.C.E.,Rosetta kivi 196 e.m.a., ,"Rosetta kivi, 196 eKr."
+Herodotus,"Herodotus c. 484 - c. 425 eKr, kirjutab ajalugu","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"Herodotus c. 484 – c. 425 BC, kirjutab ""Ajalood""","Herodotus u 484 – u 425 e.m.a., kirjutab „Bajad“", ,Herodotos (u. 484 – u. 425 eKr) kirjutab teose „Ajalugu“
+Aristotle,Aristoteles 384 - 322 eKr,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , ,Aristoteles 384–322 e.m.a., ,Aristoteles 384–322 eKr
+Ptolemy,Ptolemaios C 100 - c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,Ptolemaios c 100 – c. 170 C.E.,Ptolemaios u 100 – u 170 m.a.j., ,"Ptolemaios, umbes 100 – umbes 170 pKr"
+Pythagoras,Pythagoras c. 570 - c. 495 eKr,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , ,Pythagoras u 570 – u 495 e.m.a., ,Püthagoras u. 570 – u. 495 eKr
+Plato,Platon c. 427 - c. 348 eKr,Plato c. 427 – c. 348 BC, ,text,False, , , , ,Platon c. 427 – c. 348 BC,Platon u 427 – u 348 e.m.a., ,Platon u. 427 – u. 348 eKr
+Socrates,Sokrates c. 470 - c. 399 eKr,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,Sokrates c. 470 – c. 399 BC,Sokrates u 470 – u 399 e.m.a., ,Sokrates u. 470 – u. 399 eKr
+Josephus,Josephus c. 37 - c. 100 C.E.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , ,Josephus u 37 – u 100 m.a.j., ,Josephus u. 37 – u. 100 pKr
+Cicero,Cicero 106–43 eKr,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , ,Cicero 106–43 e.m.a., ,Cicero 106–43 eKr
+lachish_letters,Lachish Letters c. 590 B.C.E.,Lachish letters c. 590 B.C.E., ,text,False, , , , ,Lachishi kirjad c. 590 B.C.E.,Laajise kirjad u 590 e.m.a., ,Lachishi kirjad umbes 590 eKr
+lachish_reliefs,Lachishi reljeefid c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,Lachishi reljeefid c. 681 B.C.E.,Laajise reljeefid u 681 e.m.a., ,"Lachishi reljeefid, umbes 681 eKr."
+mesha_stele,Mesha Stele (Moabite Stone) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,Mesha stele (Moabi kivi) c. 840 B.C.E.,Mesa steela (Moabi kivi) u 840 e.m.a., ,"Mesha stele (Moabi kivi), umbes 840 eKr."
+gilgamesh,Gilgamesh ja Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,Gilgamesh ja Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgameš ja Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,Gilgameš ja Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Gilgameshi eepos (sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,Gilgameshi eepos (Sîn-lēqi-unninni),Gilgameši eepos (Sîn-lēqi-unninni), ,Gilgameši eepos (Sîn-lēqi-unninni)
+gregorian,Gregoriuse kalender 1582,Gregorian calendar 1582, ,text,False, , , , ,Gregoriuse kalender 1582,Gregoriuse kalender 1582, ,Gregoriuse kalender 1582
+shang-dynasty,c. 1600-1046 BC,c. 1600-1046 BC, ,text,False, , , , , ,u 1600–1046 e.m.a., ,u. 1600–1046 eKr
+western-zhou,c. 1046-771 BC,c. 1046-771 BC, ,text,False, , , , , ,u 1046–771 e.m.a., ,u. 1046–771 eKr
+qin-dynasty,Qin 221-207 BC,Qin 221-207 BC, ,text,False, , , , , ,Qin 221–207 e.m.a., ,Qin 221–207 eKr
+western-han,207 eKr - 9 CE,207 BC – 9 CE, ,text,False, , , , , ,207 e.m.a – 9 m.a.j., ,207 eKr – 9 pKr
+three-kingdoms,Kolm kuningriiki 220–280 CE,Three kingdoms 220-280 CE, ,text,False, , , , ,Kolm riiki 220-280 CE,Kolm kuningriiki 220–280 m.a.j., ,Kolm kuningriiki 220–280 pKr
+sixteen-kingdoms,Kuusteist kuningriiki 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,Kuusteist riiki 304-439 CE,Kuusteist kuningriiki 304–439 m.a.j., ,Kuusteist kuningriiki 304–439 pKr
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , ,"618–690, 705–907", ,"618–690, 705–907"
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False, , , , , ,690–705 Wu Zhou, ,690–705 Wu Zhou
+tang-dynasty1_c,Kang,Tang, ,text,False, , , , , ,Tang, , 
+gonghe,Gonghe Regency 841-828 eKr,Gonghe Regency 841-828 BC, ,text,False, , , , ,Gonghe regentkond 841-828 BC,Gonghe regentsaeg 841–828 e.m.a., ,Gonghe'i valitsuspiirkond 841–828 eKr
+Ashoka,Ashoka (umbes 304-232 eKr) propageerib budismi,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,Ašoka (c. 304-232 BC) edendab budismi,Ashoka (u 304–232 e.m.a.) edendab budismi, ,Ashoka (u. 304–232 eKr) propageerib budismi
+siloam-tunnel,Hiskija laiendab siloami tunnelit,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,Hiskia pikendab Siiloami tunnelit,Hiskija pikendab Siloami tunnelit, ,Hiskija pikendab Siloami tunnelit
+Angloamerica2,"Angloameeriklast sümboliseerivad taanieli 2:33, 41-43 prohvetikuulutatud saviga segatud raua jalad.","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"Anglosaksi-ameerika sümboliseeritakse rauast ja savist segatud jalgadega Taanieli 2:33, 41-43 ennustuses","Anglo-Ameerikat sümboliseerib raua ja savi segu Taanieli prohvetikuulutuses (Taaniel 2:33, 41–43)", ,"Anglo-Ameerikat sümboliseerivad Taanieli raamatu 2. peatüki salmides 33, 41–43 esitatud ennustuses saviga segatud raudjalad"
+Manetho,Manetho kirjutab Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , ,"Manetho kirjutab ""Aegiptiaca""",Manethon kirjutab teose „Aegyptiaca“, ,Manetho kirjutab teose „Aegyptiaca“
+destruction_babylon,"Babüloni suure hävitamine (Ilmutuse 17: 3, 15-18; 18: 9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"Suure Babüloni häving (Ilmutuse 17:3, 15-18; 18:9, 10)","Suure Babüloni häving (Ilmutus 17:3, 15–18; 18:9, 10)", ,"Suure Babüloni hävitamine (Ilmutusraamat 17:3, 15–18; 18:9, 10)"
+peace_security,"""Rahu ja turvalisus!"" (1. Tessalooniklastele 5:3, see on üks võimalus, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"""Rahu ja turvalisus!"" (1. Tessalooniklastele 5:3, see on üks võimalus, QfR 26/2, 25/11)","„Rahu ja julgeolek!“ (1. Tessaloniklastele 5:3, see on üks võimalus, QfR 26/2, 25/11)", ,"„Rahu ja turvalisus!” (1. Tessalooniklastele 5:3, see on üks võimalus, QfR 26/2, 25/11)"
+gog_of_magog,"Magogi Gogi rünnak (Hesekiel 38: 1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"Gogi Magogi rünnak (Hesekieli 38:1, 2, 9-12, 18-23)","Maagoogi Gogi rünnak (Hesekiel 38:1, 2, 9–12, 18–23)", ,"Magogi Gogi rünnak (Hesekiel 38:1, 2, 9–12, 18–23)"
+sheep_goat,"Maa elanikke hinnatakse, eraldades lambad ja kitsed (Matteuse 25: 31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"Maa elanikke kohutakse, eraldades lambad ja kitsed (Matteuse 25:31-33)","Maa elanike üle mõistetakse kohut, eraldatakse lambad kitsedest (Matteuse 25:31–33)", ,"Maa elanikke mõistetakse kohut, eraldades lambad kitsedest (Matteuse 25:31–33)"
+annointed,Kuningriigi valitsejate kogunemine (Matteuse 24:31; 1. Korintlastele 15: 50-53; 1. Tessalooniklastele 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,Kuningriigi valitsejate kogumine (Matteuse 24:31; 1. Korintlastele 15:50-53; 1. Tessalooniklastele 4:15-17),Kuningriigi valitsejate kogumine (Matteuse 24:31; 1. Korintlastele 15:50–53; 1. Tessaloniklastele 4:15–17), ,Kuningriigi valitsejate kogunemine (Matteuse 24:31; 1. Korintlastele 15:50–53; 1. Tessalooniklastele 4:15–17)
+armageddon,"Armageddoni lahing (Ilmutuse 16:14, 16; Jesaja 13: 9; 2. Peetruse 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"Armageddoni lahing (Ilmutuse 16:14, 16; Jesaja 13:9; 2. Peetruse 3:12)","Harmagedooni sõda (Ilmutus 16:14, 16; Jesaja 13:9; 2. Peetruse 3:12)", ,"Armageddoni lahing (Ilmutuse raamat 16:14, 16; Jesaja 13:9; 2. Peetruse kiri 3:12)"
+millenium,"Jumala kuningriik alustab oma 1000-aastast valitsusaega (Ilmutuse 5: 9, 10; 20: 4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"Jumala Kuningriik alustab oma 1000-aastast valitsemist (Ilmutuse 5:9, 10; 20:4, 6)","Jumala kuningriik alustab oma 1000-aastast valitsemist (Ilmutus 5:9, 10; 20:4, 6)", ,"Jumala Kuningriik alustab oma 1000-aastast valitsusaega (Ilmutuse raamat 5:9, 10; 20:4, 6)"
+great_crowd,"Suurepärane rahvahulk jääb ellu Armageddoni (Ilmutuse 7: 9, 14; Laul 37: 9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"Suur rahvas elab üle Armageddoni (Ilmutuse 7:9, 14; Psalm 37:9-11)","Suur rahvahulk elab Harmagedooni üle (Ilmutus 7:9, 14; Laul 37:9–11)", ,"Suur rahvahulk jääb ellu Armageddonis (Ilmutuse raamat 7:9, 14; Psalm 37:9–11)"
+world_population,Maailma rahvastik viimase 2000 aasta jooksul miljarditega,World population in billions in the last 2000 years,appendix B9,text,False, , , , ,Maailma rahvastik miljardites viimase 2000 aasta jooksul,Maailma rahvaarv miljardites viimase 2000 aasta jooksul, ,Maailma rahvaarv miljardites viimase 2000 aasta jooksul
+khmer_empire_c,Khmeri impeerium - Angkori periood,Khmer Empire - Angkor period, ,text,False, , , , ,Khmeri impeerium - Angkori periood,Khmeeri impeerium – Angkori periood, ,Khmeeri impeerium – Angkori periood
+holy_roman_empire_c,Püha Rooma impeerium - tuntud kui Saksa rahva Püha Rooma impeerium pärast 1512. aastat,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,Püha Rooma impeerium – tuntud kui Saksa Rahvuse Püha Rooma Impeerium alates 1512,Püha Rooma impeerium – alates 1512. aastast tuntud kui Saksa Rahvuse Püha Rooma Impeerium, ,Püha Rooma impeerium – alates 1512. aastast tuntud kui Saksa rahva Püha Rooma impeerium
+mongol_empire,Mongoli impeerium 1206 - 1294 C.E.,Mongol Empire 1206 – 1294, ,text,False, , , , ,Mongoli impeerium 1206 – 1294,Mongoli impeerium 1206–1294, ,Mongoli impeerium 1206–1294
+maya_classic_c,Maya tsivilisatsioon - klassikaline periood,Maya civilization – Classic period, ,text,False, , , , ,Maja tsivilisatsioon – klassikaline periood,Maiade tsivilisatsioon – klassikaline periood, ,Maya tsivilisatsioon – klassikaline periood
+maya_postclassic_c,Maya tsivilisatsioon - postklassika periood,Maya civilization – Postclassic period, ,text,False, , , , ,Maja tsivilisatsioon – postklassikaline periood,Maiade tsivilisatsioon – klassikajärgne periood, ,Maya tsivilisatsioon – postklassikaline periood
+Teotihuacan,"Ameerika suurim linn, püramiidid ehitavad c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"Suurim linn Ameerikas, püramiidid ehitatud c. 200 C.E.","Ameerika suurim linn, püramiidid ehitati umbes 200. aastal m.a.j.", ,"Ameerika suurim linn, püramiidid ehitati umbes 200. aastal pKr."
+Dionysius_Exiguus,"Dionysius Exiguus, Anno Domini leiutaja","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"Dionysius Exiguus, Anno Domini leiutaja","Dionysius Exiguus, ajaarvamise anno Domini leiutaja", ,"Dionysius Exiguus, Anno Domini mõiste looja"
+Umayyad_c,Umayyad,Umayyad, ,text,False, , , , ,Umayjaadid,Umaijaadide dünastia, ,Umayyadid
+ur3,Ur III dünastia 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,Ur III dünastia 𒋀𒀕𒆠,Ur III dünastia 𒋀𒀕𒆠, ,Ur III dünastia 𒋀𒀕𒆠
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , ,Hammurabi 𒄩𒄠𒈬𒊏𒁉, , 
+Al-Khwarizmi,al-khwarizmi kirjutab al-jabr (algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,"al-Khwarizmi kirjutab ""Al-Jabr"" (Algebra)",Al-Khwarizmi kirjutab teose „Al-Jabr“ (algebra), ,al-Khwarizmi kirjutab raamatu „Al-Jabr“ (Algebra)
+al-azhar,Al-Azhari ülikool on loodud Kairos,Al-Azhar University is established in Cairo, ,text,False, , , , ,Al-Azhari ülikool asutatakse Kairos,Kairos asutatakse Al-Azhari ülikool, ,Al-Azhari ülikool asutati Kairos
+Ibn-Sina,Ibn Sina või avicenna,Ibn Sina or Avicenna, ,text,False, , , , ,Ibn Sina ehk Avicenna,Ibn Sina ehk Avicenna, ,Ibn Sina ehk Avicenna
+life-expectancy,Eluiga 75 aastat,Life expectancy 75 years, ,text,False, , , , ,Eeldatav eluiga 75 aastat,Keskmine eluiga 75 aastat, ,Oodatav eluiga 75 aastat
+430years_c,"430 aastat: 2. Moosese 12:41, Galaatlastele 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"430 aastat: 2. Moosese 12:41, Galatlase 3:17","430 aastat: 2. Moosese 12:41, Galaatlastele 3:17", ,"430 aastat: 2. Moosese raamat 12:41, Galaatlastele 3:17"
+maya_calendar,Maya kalendri arvutatud 11. august 3114 B.C.E.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,Maja kalendri arvutatud algus 11. august 3114 e.m.a,Maiade kalendri arvutuslik algus 11. augustil 3114 e.m.a., ,Maya kalendri arvutatud alguskuupäev on 11. august 3114 eKr.
+xia-dynasty2,c. 2070 - c. 1600 eKr; ERA viskas kõigepealt lääne Zhou perioodil,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,umbes 2070 – umbes 1600 e.m.a; Ajastut mainiti esimest korda Lääne-Zhou perioodil,u 2070 – u 1600 e.m.a.; ajastut mainiti esmakordselt Lääne-Zhou perioodil, ,u. 2070 – u. 1600 eKr; sellele ajastule viidati esmakordselt Lääne-Zhou ajastul
+xia-dynasty2_c,Xia dünastia Hiinas,Xia dynasty in China, ,text,False, , , , ,Xia dünastia Hiinas,Xia dünastia Hiinas, ,Xia dünastia Hiinas
+tres_zapotes,"3. September, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,september 32 e.m.a,3. september 32 e.m.a., ,3. september 32 eKr
+joseph_jacob_reunited,Joseph ja Jacob taasühinesid Egiptuses - 1728 B.C.E. (1Ms 45:11; 47: 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,Joosep ja Jaakob kohtuvad uuesti Egiptuses – 1728 e.m.a (1. Moosese 45:11; 47:9),Joosep ja Jaakob kohtuvad taas Egüptuses – 1728 e.m.a. (1. Moosese 45:11; 47:9), ,Joosep ja Jaakob kohtusid taas Egiptuses – 1728 eKr (1Mo 45:11; 47:9)
+king_south_light_c,Lõuna kuningas Taanielist 11,King of the South from Daniel 11,2025-02-05,text,False, , , , ,Taani kuningas raamatust Taaniel 11,Lõuna kuningas Taanieli raamatu 11. peatükist, ,Lõuna kuningas Taanieli raamatust 11
+king_north_light_c,Põhja kuningas Taanielist 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,Põhjakuningas raamatust Taaniel 11,Taanieli 11. peatüki põhja kuningas, ,Põhja kuningas Taanieli raamatust 11
+daniel2_iron_c,Raud jalad Taaniel 2 -st,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Raudjalad raamatust Taaniel 2,Taanieli 2. peatüki raudsed sääred, ,Raudjalad raamatust „Daniel 2”
+argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , ,Codex Argenteus umbes 505,Codex Argenteus umbes 505, ,"Codex Argenteus, umbes 505"
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , , ,Nguyễn, , 
+edo_c,Edo periood Jaapanis,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , ,Edo periood Jaapanis,Edo ajastu Jaapanis, ,Edo periood Jaapanis
+meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , , ,Meiji, , 
+american_civil_war,Ameerika kodusõda 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,Ameerika kodusõda 1861–1865,Ameerika kodusõda 1861–1865, ,Ameerika kodusõda 1861–1865
+aleppo_codex,Aleppo koodeks c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,Aleppo koodeks umbes 920,Aleppo koodeks umbes 920, ,"Aleppo käsikiri, umbes 920"
+vandals,Vandaalide ja alaanide kuningriik 435–534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Vandali ja alaanide kuningriik 435 – 534,Vandaalide ja alaanide kuningriik 435–534, ,Vandaalide ja alaanide kuningriik 435–534
+francia,"c. 481/509 – 843, Merovingide kuni 751, seejärel Karolingide","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"umbes 481/509 – 843, merovingide dünastia kuni 751, seejärel karolingide dünastia","umbes 481/509–843, Merovingid kuni 751, seejärel Karolingid", ,"u. 481/509 – 843, Merovingide dünastia kuni 751. aastani, seejärel Karolingide dünastia"
+francia_c,Frankide kuningriik,Kingdom of the Franks, ,text,False, , , , ,Frangi kuningriik,Frankide kuningriik, ,Frangide kuningriik
+100_years_war,Saja-aastane sõda 1337–1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Saja-aastane sõda 1337 – 1453,Saja-aastane sõda 1337–1453, ,Saja-aastane sõda 1337–1453
+black_death,Must surm 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Must surm 1346–1353,Must surm 1346–1353, ,Must surm 1346–1353
+sui_dynasty,581-618 Sui dünastia,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581–618 Sui dünastia,581–618 Sui dünastia, ,581–618 Sui dünastia
+sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , ,Sui, , 
+tribulation,"Suur viletsus (Markuse 13:19; Taanieli 12: 1; Mt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"Suur viletsus (Markuse 13:19; Taaniel 12:1; Matteuse 24:21, 22)","Suur viletsus (Mk 13:19; Tn 12:1; Mt 24:21, 22)", ,"Suur viletsus (Markuse 13:19; Taanieli 12:1; Matteuse 24:21, 22)"
+timeline_created,"See ajaskaala on loodud 2023. aastal, mis on inimkonna ajaloo kuumim aasta ja viimased 125 000 aastat","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"See ajajoon on loodud aastal 2023, mis on inimkonna ajaloo kuumim aasta ja viimased 125 000 aastat","See ajajoon on loodud 2023. aastal, mis on inimkonna ja viimase 125 000 aasta kõige kuumem aasta", ,"See ajajoon on koostatud aastal 2023, mis on inimkonna ajaloo ja viimase 125 000 aasta kõige kuumem aasta"
+Adam,Aadama,Adam,Luke 3:38,bible,True, , , , , ,Aadam, , 
+Seth,Set,Seth, ,bible,True, , , , , ,Set, , 
+Enosh,Enose,Enosh, ,bible,True, , , , , ,Enos, , 
+Kenan,Kenan,Kenan (Cainan),Genesis 5:12,bible,False, , , , , ,Keenanan (Kaanan), , 
+Mahalalel,Mahalaleel,Mahalalel (Mahalaleel),Ma·hala·lel,bible,False, , , , , ,Mahalalel (Mahalaleel), , 
+Jared,Jered,Jared, ,bible,True, , , , , ,Jered, , 
+Enoch,Eenok,Enoch, ,bible,True, , , , , ,Eenok, , 
+Methuselah,Metuusala,Methuselah,Luke 3:37,bible,True, , , , , ,Metuusala, , 
+Lamech,Lemek,Lamech, ,bible,True, , , , , ,Lameek, , 
+Noah,Noa,Noah, ,bible,True, , , , , ,Noa, , 
+Shem,Seem,Shem, ,bible,True, , , , , ,Seem, , 
+Arpachshad,Arpaksad,Arpachshad,Luke 3:36,bible,True, , , , , ,Arpaksad, , 
+Shelah,Selah,Shelah, ,bible,True, , , , , ,Selah, , 
+Eber,Eeber,Eber, ,bible,True, , , , , ,Eeber, , 
+Peleg,Peleg,Peleg, ,bible,True, , , , , ,Peleg, , 
+Reu,Reu,Reu, ,bible,True, , , , , ,Reu, , 
+Serug,Serug,Serug,Luke 3:35,bible,True, , , , , ,Serug, , 
+Nahor,Naahor,Nahor,Genesis 11:24,bible,True, , , , , ,Naahor, , 
+Terah,Terah,Terah, ,bible,True, , , , , ,Terah, , 
+Abraham,Aabraham,Abraham, ,bible,True, , , , , ,Aabraham, , 
+Isaac,Iisak,Isaac, ,bible,True, , , , , ,Iisak, , 
+Jacob,Jaakob,Jacob,Luke 3:34,bible,True, , , , , ,Jaakob, , 
+Joseph,Joosep,Joseph,Genesis 37,bible,True, , , , , ,Joosep, , 
+Moses,Mooses,Moses, ,bible,True, , , , , ,Mooses, , 
+Othniel,Otniel,Othniel,Judges 3:9-11,bible,True, , , , , ,Otniel, , 
+Ehud,Eehud,Ehud,Judges 3:15-18,bible,True, , , , , ,Ehud, , 
+Shamgar,Samgar,Shamgar,Judges 3:31,bible,True, , , , , ,Samgar, , 
+Barak,"Baarak, Deborah, Jael","Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , ,"Baarak, Debora, Jaael", , 
+Gideon,Giideon,Gideon,Judges 7:1,bible,True, , , , , ,Gideon, , 
+Tola,Toola,Tola,Judges 10:1,bible,True, , , , , ,Tola, , 
+Jair,Jair,Jair,Judges 10:3,bible,True, , , , , ,Jair, , 
+Jephthah,Jefta,Jephthah,Judges 11:1,bible,True, , , , , ,Jefta, , 
+Ibzan,Ibsan,Ibzan,Judges 12:8,bible,True, , , , , ,Ibtsan, , 
+Elon,Eelon,Elon,Judges 12:11,bible,True, , , , , ,Elon, , 
+Abdon,Abdon,Abdon,Judges 12:13,bible,True, , , , , ,Abdon, , 
+Samson,Simson,Samson,Judges 13:24,bible,True, , , , , ,Simson, , 
+Samuel,Saamuel,Samuel,1 Samuel 1:20,bible,True, , , , , ,Samuel, , 
+Saul,Saul,Saul,1 Samuel 9:2,bible,True, , , , , ,Saul, , 
+David,Taavet,David,1 Samuel 16:13,bible,True, , , , , ,Taavet, , 
+Solomon,Saalomon,Solomon,1 Kings 2:1,bible,True, , , , , ,Saalomon, , 
+Malachi,Malaki,Malachi, ,bible,True, , , , , ,Malaki, , 
+Ruth,Rutt,Ruth, ,bible,True, , , , , ,Rutt, , 
+Ezra,Esra,Ezra, ,bible,True, , , , , ,Esra, , 
+Nehemiah,Nehemja,Nehemiah, ,bible,True, , , , , ,Nehemja, , 
+Esther,Ester,Esther, ,bible,True, , , , , ,Ester, , 
+Job,Iiob,Job, ,bible,True, , , , , ,Iiob, , 
+moses3,Mooses,Moses, ,bible,True, , , , , ,Mooses, , 
+joshua2,Joshua,Joshua, ,bible,False, , , , , ,Josua, , 
+caleb2,Kaleb,Caleb, ,bible,False, , , , , ,Kaaleb, , 
+Augustus,Augustus,Augustus,Luke 2:1,bible,False, , , , , ,Augustus, , 
+Tiberius,Tiberius,Tiberius,Luke 3:1,bible,False, , , , , ,Tiberius, , 
+Claudius,Claudius,Claudius,Acts 11:28,bible,False, , , , , ,Claudius, , 
+persia2,Pärsia,Persia, ,bible,False, , , , , ,Pärsia, , 
+jehoiada,Jehoiada,Jehoiada,2 Kings 11:4,bible,False, , , , , ,Jehojada, , 
+Haggai,Haggai,Haggai, ,bible,False, , , , , ,Haggai, , 
+Zerubbabel,Zerubbabel (Luuka 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , ,Serubabel (Lk 3:27), , 
+Jacob2,Jaakob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , ,Jaakob /, , 
+Israel,Iisrael,Israel,Genesis 35:10,bible,False, , , , , ,Iisrael, , 
+Sarah,Saara,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , ,Sara, , 
+Hagar,Hagar,Hagar,Genesis 21:14,bible,False, , , , , ,Hagar, , 
+Haran,Haran,Haran,Genesis 11:26,bible,False, , , , , ,Haan, , 
+Reumah,Reumah,Reumah,Concubine – 4 sons 22:24,bible,False, , , , , ,Reuma, , 
+Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more),bible,False, , , , , ,Milka, , 
+Lot,Partii,Lot,Genesis 11:27,bible,False, , , , , ,Lot, , 
+Ammon,Ben-ammi (ammon),Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , ,Ben-Ammi (Ammon), , 
+Bethuel,Bethuel,Bethuel,Genesis 22:23,bible,False, , , , , ,Betuel, , 
+Rebekah,Rebekah,Rebekah, ,bible,False, , , , , ,Rebeka, , 
+Laban,Laban,Laban,Genesis 24:29,bible,False, , , , , ,Laban, , 
+Leah,Leah,Leah,Genesis 35:23,bible,False, , , , , ,Lea, , 
+Rachel,Rachel,Rachel,Genesis 35:24,bible,False, , , , , ,Ragnel, , 
+Bilhah,Bilhah,Bilhah,Genesis 35:25,bible,False, , , , , ,Bilha, , 
+Zilpah,Zilpah,Zilpah,Genesis 35:26,bible,False, , , , , ,Silpa, , 
+Reuben,Rubiin,Reuben, ,bible,False, , , , , ,Ruuben, , 
+Simeon,Simeon,Simeon, ,bible,False, , , , , ,Simeon, , 
+Levi,Levi,Levi,Genesis 35:23,bible,False, , , , , ,Leevi, , 
+Judah,Juuda,Judah, ,bible,False, , , , , ,Juuda, , 
+Issachar,Isand,Issachar, ,bible,False, , , , , ,Issachar, , 
+Zebulun,Zebulun,Zebulun, ,bible,False, , , , , ,Sebulon, , 
+Dinah,Dinah,Dinah,Genesis 34,bible,False, , , , , ,Dina, , 
+Esau,Eesav/,Esau/, ,bible,False, , , , , ,Eesav/, , 
+Edom,Edom,Edom,Genesis 36:1,bible,False, , , , , ,Edom, , 
+Ishmael,Ismael,Ishmael,Genesis 16:16,bible,False, , , , , ,Ismael, , 
+Manasseh2,(Manasseh,(Manasseh,Genesis 41:50-52,bible,False, , , , , ,(Manasse, , 
+Ephraim,ja ephraim),and Ephraim), ,bible,False, , , , , ,ja Efraim), , 
+Benjamin,Benjamin,Benjamin, ,bible,False, , , , , ,Benjamin, , 
+Dan,Dan,Dan,Genesis 35:23,bible,False, , , , , ,Daan, , 
+Naphtali,Naftali,Naphtali, ,bible,False, , , , , ,Naftali, , 
+Gad,Labane,Gad, ,bible,False, , , , , ,Gad, , 
+Asher,Asher,Asher, ,bible,False, , , , , ,Aaser, , 
+Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , ,"Uus, Buus, Kemuel,", , 
+Milcah2,"Chesed, Hazo,","Chesed, Hazo,", ,bible,False, , , , , ,"Kesed, Haso,", , 
+Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph", ,bible,False, , , , , ,"Pildas, Jidlaf", , 
+Tebah,Tebah,Tebah,Genesis 22:24,bible,False, , , , , ,Tebah, , 
+Gaham,Gaham,Gaham, ,bible,False, , , , , ,Gaham, , 
+Tahash,Tahash,Tahash, ,bible,False, , , , , ,Tahas, , 
+Maacah,Maacah,Maacah, ,bible,False, , , , , ,Maaka, , 
+Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , ,Mahalat/, , 
+Basemath,Basemaat,Basemath,"Genesis36:3, 4",bible,False, , , , , ,Basemat, , 
+Reuel,Reuel,Reuel,"36:13, 17",bible,False, , , , , ,Reuel, , 
+Nahath,Nahath,Nahath, ,bible,False, , , , , ,Nahat, , 
+Zerah,Null,Zerah, ,bible,False, , , , , ,Serah, , 
+Schammah,Schammah,Schammah, ,bible,False, , , , , ,Samma, , 
+Mizzah,Mizzah,Mizzah, ,bible,False, , , , , ,Misa, , 
+Adah,Adah,Adah,"36:11, 12, 15, 16",bible,False, , , , , ,Ada, , 
+Eliphaz,Eliphaz,Eliphaz, ,bible,False, , , , , ,Elifas, , 
+Teman,Teman,Teman, ,bible,False, , , , , ,Teeman, , 
+Omar,Omaar,Omar, ,bible,False, , , , , ,Omar, , 
+Zepho,Zepho,Zepho, ,bible,False, , , , , ,Tsefo, , 
+Kenaz,Kenaz,Kenaz, ,bible,False, , , , , ,Kenas, , 
+Korah,Korah,Korah, ,bible,False, , , , , ,Kora, , 
+Korah_Gatam,"Korah, Gatam","Korah, Gatam",303 and 304,bible,False, , , , , ,"Kora, Gatam", , 
+Amalek,Amalek,Amalek, ,bible,False, , , , , ,Amalek, , 
+Oholibamah,Oholibamah,Oholibamah,"36:14, 18",bible,False, , , , , ,Oholibama, , 
+Jeush,Usin,Jeush, ,bible,False, , , , , ,Jeus, , 
+Jalam,Jalaam,Jalam, ,bible,False, , , , , ,Jalam, , 
+Nebaioth,Nebaioth,Nebaioth,Genesis 25:13,bible,False, , , , , ,Nebajot, , 
+Kedar,Kedar,Kedar, ,bible,False, , , , , ,Kedar, , 
+Mishma,Mishma,Mishma, ,bible,False, , , , , ,Misma, , 
+Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",311 and 312,bible,False, , , , , ,"Adbeel, Mibsam", , 
+Dumah_Massa,"Dumah, Massa","Dumah, Massa",314 and 315,bible,False, , , , , ,"Duma, Massa", , 
+Hadad,Hadaad,Hadad, ,bible,False, , , , , ,Hadad, , 
+Tema,Tema,Tema, ,bible,False, , , , , ,Teema, , 
+Jetur,Jetur,Jetur, ,bible,False, , , , , ,Jetur, , 
+Naphish,Nafish,Naphish, ,bible,False, , , , , ,Nafis, , 
+Kedemah,Kedemah,Kedemah, ,bible,False, , , , , ,Kedema, , 
+Keturah,Keturah,Keturah,Genesis 25:1-4,bible,False, , , , , ,Keturah, , 
+Zimran,Zimran,Zimran, ,bible,False, , , , , ,Simran, , 
+Jokshan,Nalju,Jokshan, ,bible,False, , , , , ,Joksan, , 
+Medan,Medaan,Medan, ,bible,False, , , , , ,Medan, , 
+Midian,Kesk-,Midian, ,bible,False, , , , , ,Midjan, , 
+Ishbak,Ishbak,Ishbak, ,bible,False, , , , , ,Isbak, , 
+Shuah,Shuah,Shuah, ,bible,False, , , , , ,Suah, , 
+Timna,Timna,Timna,"1 Chr 1:36, Ge 36:10-12",bible,False, , , , , ,Timna, , 
+life-expectancy2,(Laul 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , ,(Psalm 90:10), , 
+Ham,Haami,Ham,Gen 10:1,bible,True, , , , , ,Ham, , 
+Canaan,Kaanan,Canaan,Gen 10:6,bible,True, , , , , ,Kanaan, , 
+Sidon,Siidon,Sidon,Gen 10:15,bible,True, , , , , ,Siidon, , 
+Heth,Heet,Heth,Gen 10:15,bible,True, , , , , ,Het, , 
+Jebusite,jebuuslased,Jebusite,Gen 10:16,bible,True, , , , , ,jebuuslane, , 
+Amorite,emorlased,Amorite,Gen 10:16,bible,True, , , , , ,emorlane, , 
+Girgashite,girgaaslased,Girgashite,Gen 10:16,bible,True, , , , , ,girgaslane, , 
+Hivite,hiivlased,Hivite,Gen 10:17,bible,True, , , , , ,hiivlane, , 
+Arkite,arkiilased,Arkite,Gen 10:17,bible,True, , , , , ,arklane, , 
+Sinite,siinlased,Sinite,Gen 10:17,bible,True, , , , , ,Siiniitlane, , 
+Arvadite,arvadlased,Arvadite,Gen 10:18,bible,True, , , , , ,Arvadiitlane, , 
+Zemarite,semarlased,Zemarite,Gen 10:18,bible,True, , , , , ,Semariitlane, , 
+Hamathite,hamatlased,Hamathite,Gen 10:18,bible,True, , , , , ,Hamatiitlane, , 
+Cush,Kuus,Cush,Gen 10:6,bible,True, , , , , ,Kuus, , 
+Nimrod,Nimrod,Nimrod,Gen 10:8,bible,True, , , , , ,Nimrod, , 
+Mizraim,Mitsraimile,Mizraim,Gen 10:14,bible,True, , , , , ,Misraim, , 
+Casluh,Kasluhim,Casluh,1 Chronicles 1:12 (Philistines),bible,True, , , , , ,Kasluh, , 
+Japheth,Japheth,Japheth,Gen 10:3,bible,True, , , , , ,Jaafet, , 
+Asshur,Assur,Asshur,Gen 10:22,bible,True, , , , , ,Assur, , 
+Lud,Luud,Lud,Gen 10:22,bible,True, , , , , ,Luud, , 
+Aram,Aram,Aram,Gen 10:22,bible,True, , , , , ,Aram, , 
+Elam,Eelam,Elam,Gen 10:22,bible,True, , , , , ,Elam, , 
+Joktan,Joktanile,Joktan,Gen 10:26,bible,True, , , , , ,Joktan, , 
+Almodad,Almodad,Almodad,Gen 10:26,bible,True, , , , , ,Almodad, , 
+Sheleph,Selef,Sheleph,Gen 10:26,bible,True, , , , , ,Selef, , 
+Hazarmaveth,Hasarmavet,Hazarmaveth,Gen 10:26,bible,True, , , , , ,Hatsarmavet, , 
+Jerah,Jerah,Jerah,Gen 10:26,bible,True, , , , , ,Jerah, , 
+Hadoram,Hadoram,Hadoram,Gen 10:27,bible,True, , , , , ,Hadoram, , 
+Uzal,Uusal,Uzal,Gen 10:27,bible,True, , , , , ,Usal, , 
+Diklah_Obal,"Dikla, Oobal","Diklah, Obal",Gen 10:27,bible,True, , , , , ,"Dikla, Obal", , 
+Abimael,Abimael,Abimael,Gen 10:28,bible,True, , , , , ,Abimael, , 
+Sheba_Ophir,"Seeba, Oofir","Sheba, Ophir","Gen 10:28, 29",bible,True, , , , , ,"Seeba, Oofir", , 
+Havilah,Havila,Havilah,Gen 10:29,bible,True, , , , , ,Havila, , 
+Jobab,Joobab,Jobab,Gen 10:29,bible,True, , , , , ,Jobab, , 
+Ham_fn,1) Egiptusse: Laulud 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , ,1) egiptlased: Psalmid 105:23, , 
+Canaan_fn,2) Kaananlased: Joshua 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , ,2) kanaamlased: Josua 13:3, , 
+Aram_fn,3) Arameanlased: Hosea 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , ,3) arameadlased: Hoosea 12:12, , 
+Elam_fn,4) Elamiidid: Ezra 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , ,4) elamlased: Esra 4:9, , 
+Asshur_fn,5) Assüürlased: Hesekieli 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , ,5) assüürlased: Hesekiel 27:23, , 
+Casluh_fn,6) Vilistid: 1 Kroonikad 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , ,6) vilistid: 1. Ajaraamat 1:12, , 
+Cush_fn,7) Etioopia [Cusite]: 2 Kuningad 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , ,7) etiooplane [kuuslane]: 2. Kuningate 19:9, , 
+Edom_fn,8) Edomiidid: numbrid 20:14-17,8) Edomites: Numbers 20:14-17,same as 459,bible,False, , , , , ,8) edomlased: 4. Moosese 20:14-17, , 
+Moab_fn,"9) Moabites: 5. Moosese 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457,bible,False, , , , , ,"9) moabiidid: 5. Moosese 23:3, 4", , 
+Ammon_fn,10) Ammoniidid: Joshua 12:2,10) Ammonites: Joshua 12:2,same as 458,bible,False, , , , , ,10) ammonlased: Josua 12:2, , 
+Midian_fn,"11) Midianiidid: numbrid 31:2, 3","11) Midianites: Numbers 31:2, 3",same as 456,bible,False, , , , , ,"11) midjanlased: 4. Moosese 31:2, 3", , 
+Amalek_fn,12) Amalekiidid: 1 Samuel 15:2,12) Amalekites: 1 Samuel 15:2,same as 461,bible,False, , , , , ,12) amaleklased: 1. Saamueli 15:2, , 
+Teman_fn,13) Temaniidid: töö 42:7,13) Temanites: Job 42:7,same as 460,bible,False, , , , , ,13) temanlased: Iiob 42:7, , 
+Sidon_fn,14) Sidonians: Zechariah 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , ,14) siidonlased: Sakaria 9:2, , 
+Heth_fn,15) Hetiidid: 1. Moosese 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , ,15) hettid: 1. Moosese 15:20, , 
+Jebusite_fn,16) Jebusiidid: Joshua 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , ,16) Jebuslased: Josua 15:63, , 
+Judith,Judith?,Judith?,"Genesis 26:34, 35",bible,False, , , , , ,Juudit?, , 
+Lud_fn,17) Lydians: 1 kroonikad 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , ,17) Lüüdlased: 1. Ajaraamatu 1:17, , 
+Ishmael_fn,18) Ishmaeliidid: 1. Moosese 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , ,18) Ismaelid: 1. Moosese 37:27, , 
+Amorite_fn,19) Amoriidid: Kohtumõistjate 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , ,19) Emorlased: Kohtumõistjate 6:10, , 
+Hivite_fn,"20) Hivitid [Gibeon]: Joshua 9: 3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , ,"20) Hiivlased [Gibeon]: Josua 9:3, 7", , 
+Cain,Kain,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , ,Kain, , 
+Abel,Abel,Abel,Genesis 4:2,bible,False, , , , , ,Aabel, , 
+Irad,Irad,Irad,Genesis 4:18,bible,False, , , , , ,Iirad, , 
+Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False, , , , , ,Mehujael, , 
+Methushael,Metuusael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , ,Metusael, , 
+Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , ,Jaabal, , 
+Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , ,Juubal, , 
+Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , ,Silla, , 
+Tubal-cain,Tubal-kaiin,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , ,Tuubal-Kain, , 
+Naamah,Naamah,Naamah,Genesis 4:22 his sister,bible,False, , , , , ,Naama, , 
+Rehoboam,Rehabeam,Rehoboam,first king of southern kingdom of Juda,A6-A,True, , , , , ,Rehabeam, , 
+Abijah,Abija (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,True, , , , , ,Abija (Abijam), , 
+Asa,Aasa,Asa,A6-A,A6-A,True, , , , , ,Aasa, , 
+Jehoshaphat,Joosafat,Jehoshaphat, ,A6-A,True, , , , , ,Josafat, , 
+Jehoram2,Jooram,Jehoram, ,A6-A,True, , , , , ,Joram, , 
+Ahaziah,Ahasja,Ahaziah, ,A6-A,True, , , , , ,Ahasja, , 
+Athaliah,Kuninganna Atalja,Queen Athaliah,Queen Athaliah,A6-A,True, , , , , ,Kuninganna Atalja, , 
+Jehoash,Joas,Jehoash, ,A6-A,True, , , , , ,Joas, , 
+Amaziah,Amasja,Amaziah, ,A6-A,True, , , , , ,Amasja, , 
+Uzziah,Ussija (Asarja),Uzziah (Azariah),also Azariah,A6-A,True, , , , , ,Uusija (Asarja), , 
+Jeroboam,Jerobeam,Jeroboam,first king of northern 10-tribe kingdom,A6-A,True, , , , , ,Jerobeam, , 
+Nadab,Naadab,Nadab,less than 2,A6-A,True, , , , , ,Nadab, , 
+Baasha,Baesa,Baasha, ,A6-A,True, , , , , ,Baasa, , 
+Elah,Eela,Elah, ,A6-A,True, , , , , ,Eela, , 
+Zimri,Simri,Zimri,Only 7 days in ca. 751 BCE,A6-A,True, , , , , ,Simri, , 
+OmriTibni,Omri ja Tibni,Omri and Tibni together,4 years Omri and Tibni,A6-A,True, , , , , ,Omri ja Tibni koos, , 
+Omri,Omri (üksi),Omri (alone),from 947 Omri alone,A6-A,True, , , , , ,Omri (üksi), , 
+Ahab,Ahab,Ahab, ,A6-A,True, , , , , ,Ahab, , 
+Jehoram,Jooram,Jehoram, ,A6-A,True, , , , , ,Joram, , 
+Jehu,Jehu,Jehu, ,A6-A,True, , , , , ,Jehu, , 
+Jeoahaz,Jooahas,Jeoahaz, ,A6-A,True, , , , , ,Joahas, , 
+JeoahazJehoash,Jooahas ja Joas,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,True, , , , , ,Joahas ja Joas, , 
+Jehoash2,Joas (üksi),Jehoash (alone),Jehoash (alone),A6-A,True, , , , , ,Joas (üksi), , 
+Jeroboam2,Jerobeam II,Jeroboam II, ,A6-A,True, , , , , ,Jerobeam II, , 
+Elijah,Eelija,Elijah, ,A6-A,True, , , , , ,Eelija, , 
+Elisha,Eliisa,Elisha, ,A6-A,True, , , , , ,Elisa, , 
+Jonah,Joona,Jonah, ,A6-A,True, , , , , ,Joona, , 
+Amos,Aamos,Amos, ,A6-A,True, , , , , ,Aamos, , 
+Joel,Joel,Joel, ,A6-A,True, , , , , ,Joel, , 
+Jotham,Jootam,Jotham,A6-B,A6-B,True, , , , , ,Jootam, , 
+Ahaz,Aahas,Ahaz, ,A6-B,True, , , , , ,Ahas, , 
+Hezekiah,Hiskija,Hezekiah, ,A6-B,True, , , , , ,Hiskija, , 
+Manasseh,Manasse,Manasseh, ,A6-B,True, , , , , ,Manasse, , 
+Amon,Aamon,Amon, ,A6-B,True, , , , , ,Aamon, , 
+Josiah,Joosija,Josiah, ,A6-B,True, , , , , ,Josija, , 
+Jehoahaz,Jooahas,Jehoahaz,Only 3 months,A6-B,True, , , , , ,Joohahas, , 
+Jehoiakim,Joojakim,Jehoiakim, ,A6-B,True, , , , , ,Joojakim, , 
+Jehoiachin,Joojakin,Jehoiachin,Only 3 months 10 days,A6-B,True, , , , , ,Joojakin, , 
+Zedekiah,Sidkija,Zedekiah, ,A6-B,True, , , , , ,Sidkija, , 
+Zechariah,Sakarja,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,True, , , , , ,Sakarja, , 
+Schallum,Sallum,Schallum,only one month,A6-B,True, , , , , ,Sallum, , 
+Menahem,Menahem,Menahem, ,A6-B,True, , , , , ,Menahem, , 
+Pekahiah,Pekahja,Pekahiah, ,A6-B,True, , , , , ,Pekahja, , 
+Pekah,Pekah,Pekah, ,A6-B,True, , , , , ,Pekah, , 
+Hoshea,Hosea,Hoshea,9 years from c. 748,A6-B,True, , , , , ,Hoosea, , 
+Hosea,Hoosea,Hosea, ,A6-B,True, , , , , ,Hoosea, , 
+Isaiah,Jesaja,Isaiah, ,A6-B,True, , , , , ,Jesaja, , 
+Micah,Miika,Micah, ,A6-B,True, , , , , ,Miika, , 
+Zephaniah,Sefanja,Zephaniah, ,A6-B,True, , , , , ,Sefanja, , 
+Nahum,Nahum,Nahum, ,A6-B,True, , , , , ,Nahum, , 
+Jeremiah,Jeremija,Jeremiah, ,A6-B,True, , , , , ,Jeremija, , 
+Habakuk,Habakuk,Habakuk, ,A6-B,True, , , , , ,Habakuk, , 
+Daniel,Taaniel,Daniel, ,A6-B,True, , , , , ,Taaniel, , 
+Ezekiel,Hesekiel,Ezekiel, ,A6-B,True, , , , , ,Hesekiel, , 
+Obadiah,Obadja,Obadiah, ,A6-B,True, , , , , ,Obadja, , 
+Babylon,"Taaniel 2:32, 36–38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , ,"Taanieli 2:32, 36–38; 7:4", , 
+Medopersia,"Taaniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , ,"Taanieli 2:32, 39; 7:5", , 
+Greece,"Taaniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , ,"Taanieli 2:32, 39; 7:6", , 
+Rome,"Taaniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , ,"Taanieli 2:33, 40; 7:7", , 
+Angloamerica,"Taaniel 2:33, 41–43","Daniel 2:33, 41-43", ,B9,True, , , , , ,"Taanieli 2:33, 41–43", , 
+Babylon_c,Babüloonia,Babylon, ,B9,True, , , , , ,Paabel, , 
+Medopersia_c,Meedia-Pärsia,Medo-Persia, ,B9,True, , , , , ,Meedia-Pärsia, , 
+Greece_c,Kreeka,Greece, ,B9,True, , , , , ,Kreeka, , 
+Rome_c,Rooma,Rome, ,B9,True, , , , , ,Rooma, , 
+Angloamerica_c,Inglise-Ameerika,Anglo-America, ,B9,True, , , , , ,Anglo-Ameerika, , 
+daniel2_1,kuningas Nebukadnetsar,King Nebuchadnezzar,607 BCE,B9,True, , , , , ,Kuningas Nebukadnetsar, , 
+daniel2_2,hävitab Jeruusalemma,destroys Jerusalem,appendix B9,B9,True, , , , , ,hävitab Jeruusalemma, , 
+daniel2_3,vallutab Babüloonia,Conquers Babylon,539 BCE,B9,True, , , , , ,Vallutab Paabeli, , 
+daniel2_4,Kyros annab juutidele loa,Cyrus decrees return,537 BCE,B9,True, , , , , ,Kores annab välja dekreedi, , 
+daniel2_5,Jeruusalemma naasta,of Jews to Jerusalem, ,B9,True, , , , , ,juutide naasmiseks Jeruusalemma, , 
+daniel2_6,Aleksander Suur,Alexander the Great,331 BCE,B9,True, , , , , ,Suur Aleksander, , 
+daniel2_7,vallutab Pärsia,conquers Persia, ,B9,True, , , , , ,vallutab Pärsia, , 
+daniel2_8,hakkab valitsema Iisraeli üle,Rules over Israel,63 BCE,B9,True, , , , , ,Valitseb Iisraeli üle, , 
+daniel2_9,hävitab Jeruusalemma,Destroys Jerusalem,70 CE,B9,True, , , , , ,Hävitab Jeruusalemma, , 
+daniel2_10,esimese maailmasõja,"During World War I,",1914-1918 CE,B9,True, , , , , ,Esimese maailmasõja ajal, , 
+daniel2_11,ajal tekib,Anglo-American World Power, ,B9,True, , , , , ,Inglise-Ameerika maailmavõim, , 
+daniel2_12,Inglise-Ameerika maailmavõim,comes into being,End 4.2,B9,True, , , , , ,tuleb esile, , 
+607BCE,607 e.m.a:,607 B.C.E.,accommodate for language,B9,True, , , , , ,607 e.m.a., , 
+539BCE,539 e.m.a:,539 B.C.E.,systems in style:,B9,True, , , , , ,539 e.m.a., , 
+537BCE,537 e.m.a:,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , ,537 e.m.a., , 
+331BCE,331 e.m.a:,331 B.C.E.,so they need a word,B9,True, , , , , ,331 e.m.a., , 
+63BCE,63 e.m.a:,63 B.C.E.,prior to the year,B9,True, , , , , ,63 e.m.a., , 
+70CE,70 m.a.j:,70 C.E.,and something,B9,True, , , , , ,70 m.a.j., , 
+1914CE,1914–1918:,1914-1918 C.E.,after the year,B9,True, , , , , ,1914–1918 m.a.j., , 
+7times,Ilmutus 12: 9,Revelation 12:9, ,scripture,False, , , , , ,Ilmutuse 12:9, , 
+infliction2,Apostlite teod 7: 6,Acts 7:6, ,scripture,False, , , , , ,Apostlite teod 7:6, , 
+eastern-zhou,770-256 eKr,770-256 BC, ,span_bc,False, , , , , ,770–256 eKr, , 
+430years,1943 - 1513 B.C.E.,1943 – 1513 B.C.E., ,span_bce,False, , , , , ,1943 – 1513 e.m.a., , 
+eastern-han,25-220 CE,25-220 CE, ,span_ce,False, , , , , ,25–220 m.a.j., , 
+northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False, , , , , ,368–581 m.a.j., , 
+southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False, , , , , ,420–589 m.a.j., , 
 khmer_empire,804 – 1431,804 – 1431, ,timespan,True, , , , , , , , 
 byzantine_empire,330 – 1453,330 – 1453, ,timespan,True, , , , , , , , 
 ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True, , , , , , , , 
@@ -494,50 +494,50 @@ revival_le_dynasty,1533-1789,1533-1789, ,timespan,True, , , , , , , ,
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True, , , , , , , , 
 edo,1603 – 1868,1603 – 1868, ,timespan,True, , , , , , , , 
 meiji,1868 – 1912,1868 – 1912, ,timespan,True, , , , , , , , 
-Julius,Julius,Julius, ,wiki,False, , , , , , , , 
-Caligula,Kaligula,Caligula, ,wiki,False, , , , , , , , 
-Nero,Nero,Nero, ,wiki,False, , , , , , , , 
-Galba-Otho-Vitellius,"Galba, Otho ja Vitellius (nelja keisri aasta)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , , , , 
-Vespasian,Vespasialane,Vespasian, ,wiki,False, , , , , , , , 
-covid19,COVID-19,Covid-19, ,wiki,False, , , , , , , , 
-nicaea1,Nicaea esimene nõukogu,First Council of Nicaea, ,wiki,False, , , , , , , , 
-oxyrhynchus,Oxyrhynchus papüüri,Oxyrhynchus Papyri, ,wiki,False, , , , , , , , 
-p52,Papüürus p52,Papyrus P52, ,wiki,False, , , , , , , , 
-qing-dynasty_c,Qingi dünastia,Qing dynasty,1636-1912,wiki,False, , , , , , , , 
-ming-dynasty_c,Mingi dünastia keiserlikus Hiinas,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , , , , 
-yuan-dynasty_c,Jüaan,Yuan,1271-1368,wiki,False, , , , , , , , 
-southern-song_c,Lõuna laul,Southern Song,1127-1279,wiki,False, , , , , , , , 
-northern-song_c,Põhjalaul,Northern Song,960-1127,wiki,False, , , , , , , , 
-western-xia_c,Lääne -Xia,Western Xia,1038-1227,wiki,False, , , , , , , , 
-Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,False, , , , , , , , 
-Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , , , , 
-Newton,Isaac Newton,Isaac Newton, ,wiki,False, , , , , , , , 
-shang-dynasty_c,Shangi dünastia,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , , , , 
-western-zhou_c,Lääne -Zhou,Western Zhou,c. 1046-771 BC,wiki,False, , , , , , , , 
-eastern-zhou_c,Idaosa zhou,Eastern Zhou,770-256 BC,wiki,False, , , , , , , , 
-western-han_c,Lääne -Han,Western Han,207 BC – 9 CE,wiki,False, , , , , , , , 
-eastern-han_c,Ida -Han,Eastern Han,25-220 CE,wiki,False, , , , , , , , 
-three-kingdoms_c,Hiina,China,Three kingdoms 220-280 CE,wiki,False, , , , , , , , 
-sixteen-kingdoms_c,Hiina,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , , , , 
-northern-dynasties_c,Põhja -dünastiad,Northern dynasties,368-581 CE,wiki,False, , , , , , , , 
-southern-dynasties_c,Lõuna -dünastiad,Southern dynasties,420-589 CE,wiki,False, , , , , , , , 
-tang-dynasty2_c,Tangi dünastia,Tang dynasty,"618-690, 705-907",wiki,False, , , , , , , , 
-byzantine_empire_c,Bütsantsi impeerium,Byzantine Empire, ,wiki,False, , , , , , , , 
-ottoman_empire_c,Ottomani impeerium,Ottoman Empire, ,wiki,False, , , , , , , , 
-Genghis,Tšingis khan,Genghis Khan, ,wiki,False, , , , , , , , 
-inca_empire_c,Inkade impeerium,Inca empire, ,wiki,False, , , , , , , , 
-gupta_empire_c,Gupta impeerium,Gupta Empire, ,wiki,False, , , , , , , , 
-Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False, , , , , , , , 
-Abbasid_c,Abbasid kalifaat,Abbasid Caliphate, ,wiki,False, , , , , , , , 
-Mamluk_c,Mamluki sultanaat,Mamluk Sultanate, ,wiki,False, , , , , , , , 
-Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False, , , , , , , , 
-wulfila,Wulfila piibel,Wulfila Bible,2025-09-20,wiki,False, , , , , , , , 
-tran_dynasty_c,Trầni dünastia,Trần dynasty, ,wiki,False, , , , , , , , 
-le_dynasty_c,Lê dünastia,Lê dynasty, ,wiki,False, , , , , , , , 
-revival_le_dynasty_c,Taaselusta lê dünastia,Trịnh lords and Nguyễn lords,Nhà Lê trung hưng,wiki,False, , , , , , , , 
-seljuk_empire_c,Seldžukkide impeerium,Seljuk empire, ,wiki,False, , , , , , , , 
-vandals_c,Vandaalid,Vandals, ,wiki,False, , , , , , , , 
-lombard_c,Lombardi kuningriik,Lombard Kingdom,2025-10-13,wiki,False, , , , , , , , 
+Julius,Julius,Julius, ,wiki,False, , , , , ,Julius, , 
+Caligula,Kaligula,Caligula, ,wiki,False, , , , , ,Caligula, , 
+Nero,Nero,Nero, ,wiki,False, , , , , ,Nero, , 
+Galba-Otho-Vitellius,"Galba, Otho ja Vitellius (nelja keisri aasta)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , ,"Galba, Otho ja Vitellius (Nelja keisri aasta)", , 
+Vespasian,Vespasialane,Vespasian, ,wiki,False, , , , , ,Vespasianus, , 
+covid19,COVID-19,Covid-19, ,wiki,False, , , , , ,Covid-19, , 
+nicaea1,Nicaea esimene nõukogu,First Council of Nicaea, ,wiki,False, , , , , ,Esimene Nikaia kirikukogu, , 
+oxyrhynchus,Oxyrhynchus papüüri,Oxyrhynchus Papyri, ,wiki,False, , , , , ,Oxyrhynchuse papüürused, , 
+p52,Papüürus p52,Papyrus P52, ,wiki,False, , , , , ,Papüürus P52, , 
+qing-dynasty_c,Qingi dünastia,Qing dynasty,1636-1912,wiki,False, , , , , ,Qingi dünastia, , 
+ming-dynasty_c,Mingi dünastia keiserlikus Hiinas,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , ,Mingi dünastia keiserlikus Hiinas, , 
+yuan-dynasty_c,Jüaan,Yuan,1271-1368,wiki,False, , , , , ,Yuani dünastia, , 
+southern-song_c,Lõuna laul,Southern Song,1127-1279,wiki,False, , , , , ,Lõuna-Songi dünastia, , 
+northern-song_c,Põhjalaul,Northern Song,960-1127,wiki,False, , , , , ,Põhja-Songi dünastia, , 
+western-xia_c,Lääne -Xia,Western Xia,1038-1227,wiki,False, , , , , ,Lääne-Xia, , 
+Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,False, , , , , ,Nicolaus Copernicus, , 
+Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , ,Galileo Galilei, , 
+Newton,Isaac Newton,Isaac Newton, ,wiki,False, , , , , ,Isaac Newton, , 
+shang-dynasty_c,Shangi dünastia,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , ,Shangi dünastia, , 
+western-zhou_c,Lääne -Zhou,Western Zhou,c. 1046-771 BC,wiki,False, , , , , ,Lääne-Zhou dünastia, , 
+eastern-zhou_c,Idaosa zhou,Eastern Zhou,770-256 BC,wiki,False, , , , , ,Ida-Zhou dünastia, , 
+western-han_c,Lääne -Han,Western Han,207 BC – 9 CE,wiki,False, , , , , ,Lääne-Hani dünastia, , 
+eastern-han_c,Ida -Han,Eastern Han,25-220 CE,wiki,False, , , , , ,Ida-Hani dünastia, , 
+three-kingdoms_c,Hiina,China,Three kingdoms 220-280 CE,wiki,False, , , , , ,Hiina, , 
+sixteen-kingdoms_c,Hiina,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , ,Hiina, , 
+northern-dynasties_c,Põhja -dünastiad,Northern dynasties,368-581 CE,wiki,False, , , , , ,Põhjadünastiad, , 
+southern-dynasties_c,Lõuna -dünastiad,Southern dynasties,420-589 CE,wiki,False, , , , , ,Lõunadünastiad, , 
+tang-dynasty2_c,Tangi dünastia,Tang dynasty,"618-690, 705-907",wiki,False, , , , , ,Tangi dünastia, , 
+byzantine_empire_c,Bütsantsi impeerium,Byzantine Empire, ,wiki,False, , , , , ,Bütsants, , 
+ottoman_empire_c,Ottomani impeerium,Ottoman Empire, ,wiki,False, , , , , ,Osmanite riik, , 
+Genghis,Tšingis khan,Genghis Khan, ,wiki,False, , , , , ,Tšingis-khaan, , 
+inca_empire_c,Inkade impeerium,Inca empire, ,wiki,False, , , , , ,Inkade impeerium, , 
+gupta_empire_c,Gupta impeerium,Gupta Empire, ,wiki,False, , , , , ,Gupta riik, , 
+Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False, , , , , ,Teotihuacán, , 
+Abbasid_c,Abbasid kalifaat,Abbasid Caliphate, ,wiki,False, , , , , ,Abbassiidide kalifaat, , 
+Mamluk_c,Mamluki sultanaat,Mamluk Sultanate, ,wiki,False, , , , , ,Mamelukkide sultanaat, , 
+Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False, , , , , ,Al-Ghazālī, , 
+wulfila,Wulfila piibel,Wulfila Bible,2025-09-20,wiki,False, , , , , ,Wulfila piibel, , 
+tran_dynasty_c,Trầni dünastia,Trần dynasty, ,wiki,False, , , , , ,Trầni dünastia, , 
+le_dynasty_c,Lê dünastia,Lê dynasty, ,wiki,False, , , , , ,Lê dünastia, , 
+revival_le_dynasty_c,Taaselusta lê dünastia,Trịnh lords and Nguyễn lords,Nhà Lê trung hưng,wiki,False, , , , , ,Trịnhide ja Nguyễnide valitsejad, , 
+seljuk_empire_c,Seldžukkide impeerium,Seljuk empire, ,wiki,False, , , , , ,Seldžukkide impeerium, , 
+vandals_c,Vandaalid,Vandals, ,wiki,False, , , , , ,Vandaalid, , 
+lombard_c,Lombardi kuningriik,Lombard Kingdom,2025-10-13,wiki,False, , , , , ,Langobardide kuningriik, , 
 people,inimesed,people, ,deprecated,False, , , , , , , , 
 judges,kohtunikud,judges, ,deprecated,False, , , , , , , , 
 prophets,prohvetid,prophets, ,deprecated,False, , , , , , , , 
@@ -553,14 +553,14 @@ meeting_workbook,Kesknädala kohtumise uus vorming “koosolekuraamatuga” alat
 terahfam,Terahi pereliikmed,Members of Terah’s family, ,deprecated,False, , , , , , , , 
 metropolitan,Metropolitani tunnistajate algus 2011. aastal,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
 jw_org,JW.orgi algus koos juhistega Kuningriigi ministeeriumis detsember 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
-Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
+Babylon2, ,,no text left and right – empty!,deprecated,False, , , , , , , , 
 daniel2_shift,0,4,Start 4.2,deprecated,False, , , , , , , , 
 Gatam,Gataam,Gatam, ,deprecated,False, , , , , , , , 
 Adbeel,Adbees,Adbeel, ,deprecated,False, , , , , , , , 
 Mibsam,Mibsam,Mibsam, ,deprecated,False, , , , , , , , 
 Dumah,Dumah,Dumah, ,deprecated,False, , , , , , , , 
 Massa,Massaa,Massa, ,deprecated,False, , , , , , , , 
-tang-dynasty1, , , ,deprecated,False, , , , , , , , 
+tang-dynasty1, ,, ,deprecated,False, , , , , , , , 
 xia-dynasty,Xia dünastia Hiinas c. 2070 - c. 1600 eKr,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
 Midianites,"1) Midianiidid: numbrid 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
 Moabites,"2) Moabites: 5. Moosese 23: 3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3) Ammoniidid: Joshua 12: 2,3) Ammonites: Joshua 12:2, ,deprecated,Fal
 Edomites,4) Edomiidid: numbrid 20: 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
 Temanites,5) Temaniidid: töö 42: 7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
 Amalekites,6) Amalekiidid: 1 Samuel 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
-king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
-king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
-daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_south_light, ,,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, ,,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, ,,2025-02-05,deprecated,False, , , , , , , , 

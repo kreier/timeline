@@ -1,473 +1,473 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
-version,6.08,6.08, ,float,False, , , , , , , , 
-pdf_title,"6,000 Years of Human History — A Timeline","6,000 Years of Human History — A Timeline",2026-09-04,text,False, , , , ,"മനുഷ്യചരിത്രത്തിന്റെ 6,000 വർഷങ്ങൾ — ഒരു കാലഗണന", , ,"മനുഷ്യചരിത്രത്തിലെ 6,000 വർഷങ്ങൾ — ഒരു കാലരേഖ"
-pdf_subject,Timeline of human history from 4000 BCE to present,Timeline of human history from 4000 BCE to present,Timeline of humankind,text,False, , , , ,ബി.സി.ഇ. 4000 മുതൽ ഇന്ന് വരെയുള്ള മനുഷ്യചരിത്രത്തിന്റെ കാലഗണന, , ,ബി.സി. 4000 മുതൽ ഇന്നുവരെ മാനവചരിത്രത്തിന്റെ കാലരേഖ
-BCE,B.C.E.,B.C.E.,appendix B9,B9,False, , , , , , , , 
-CE,C.E.,C.E., ,B9,False, , , , , , , , 
-month,month,month, ,text,False, , , , ,മാസം, , ,മാസം
-months,months,months, ,text,False, , , , ,മാസങ്ങൾ, , ,മാസങ്ങൾ
-day,day,day, ,text,False, , , , ,ദിവസം, , ,ദിവസം
-days,days,days, ,text,False, , , , ,ദിവസങ്ങൾ, , ,ദിവസങ്ങൾ
-to,to,to, ,text,False, , , , ,മുതൽ, , ,നേരെ
-Deluge,Deluge,Deluge, ,text,False, , , , ,പ്രളയം, , ,പ്രളയം
-moses2,1593 to 1473 B.C.E. – 120 years,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,ബി.സി.ഇ. 1593 മുതൽ 1473 വരെ – 120 വർഷം, , ,ക്രി.മു. 1593 മുതൽ 1473 വരെ – 120 വർഷങ്ങൾ
-temple1,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,ബി.സി.ഇ. 1513 നിസാൻ മുതൽ ബി.സി.ഇ. 1034 സിവ് വരെ, , ,ബി.സി.ഇ.യിലെ നിസാൻ 1513 മുതൽ ബി.സി.ഇ.യിലെ സിവ 1034 വരെ
-69weeks,Jesus baptized autumn 29 C.E.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,യേശു സ്നാനം സ്വീകരിച്ചത് ക്രി.വ. 29 ശരത്കാലം, , ,യേശു ക്രി.വ. 29-ലെ ശരത്കാലത്ത് ജ്ഞാനസ്നാനം നൽകി.
-year,year,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,വർഷം, , ,വർഷം
-years,years,years, ,text,False, , , , ,വർഷങ്ങൾ, , ,വർഷങ്ങൾ
-years_age,years,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,വർഷങ്ങൾ, , ,വർഷങ്ങൾ
-age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,ബി.സി.ഇ. 1513 മുതൽ 1473 വരെ മരുഭൂമിയിലെ ഇസ്രായേൽ – 40 വർഷം, , ,പുൽമേടുകളിലെ ഇസ്രായേൽ 1513 മുതൽ 1473 ബി.സി.ഇ. – 40 വർഷം
-timespan_judges,1473 to 1117 B.C.E. – 356 years,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,ബി.സി.ഇ. 1473 മുതൽ 1117 വരെ – 356 വർഷം, , ,ക്രി.മു. 1473 മുതൽ ക്രി.മു. 1117 വരെ – 356 വർഷങ്ങൾ
-timespan_judges2,Time of the judges,Time of the judges, ,text,False, , , , ,ന്യായാധിപന്മാരുടെ കാലം, , ,ന്യായാധിപന്മാരുടെ കാലം
-temple2,479 years until the temple construction – 1 Kings 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,ക്ഷേത്രനിർമ്മാണം വരെ 479 വർഷം – 1 രാജാക്കന്മാർ 6:1, , ,ക്ഷേത്രനിർമ്മാണത്തിന് 479 വർഷങ്ങൾക്ക് മുമ്പ് – 1 രാജാക്കന്മാർ 6:1
-69weeks2,69 weeks to the Messiah – Daniel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,മെസ്സിയയ്ക്ക് 69 ആഴ്ചകൾ – ദാനീയേൽ 9:25, , ,മിശിഹായിലേക്ക് 69 ആഴ്ചകൾ – ദാനിയേൽ 9:25
-jesus_service,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"യേശുവിന്റെ സേവനത്തിന്റെ 3.5 വർഷം, ക്രി.വ. 33 നിസാൻ 14-ന് വധിക്കപ്പെട്ടു", , ,"യേശുവിൻ്റെ 3.5 വർഷത്തെ ശുശ്രൂഷ, 33 എ.ഡി. നിസാൻ 14-ന് വധിക്കപ്പെട്ടു."
-jesus_life,Jesus born 2 B.C.E.,Jesus born 2 B.C.E., ,text,False, , , , ,യേശു ജനിച്ചത് ബി.സി.ഇ. 2, , ,യേശു ജനനം കൃ.മു. 2-ൽ
-exile,607 to 537 B.C.E. – 70 years (Jeremiah 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,ബി.സി.ഇ. 607 മുതൽ 537 വരെ – 70 വർഷം (യിരമ്യാവ് 25:11), , ,ബി.സി.ഇ. 607 മുതൽ 537 വരെ – 70 വർഷം (യെഹെസ്കേൽ 25:11)
-exile2,Exile,Exile, ,text,False, , , , ,നാടുവാഴിത്തം, , ,നാടുകടത്തൽ
-7times2,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7 സമയങ്ങൾ – മെസ്സിയനിക രാജ്യത്തിലേക്ക് 2520 വർഷം ക്രി.വ. 1914 (ദാനീയേൽ 4:23), , ,"7 തവണ – മെസ്സിയാവിൻ്റെ രാജ്യത്തിലേക്ക് 2520 വർഷം, എ.ഡി. 1914 (ദാനിയേൽ 4:23)"
-ww1,World War I – 1914–1918,World War I – 1914–1918, ,text,False, , , , ,ഒന്നാം ലോകമഹായുദ്ധം – 1914–1918, , ,ഒന്നാം ലോകമഹായുദ്ധം – 1914–1918
-ww2,World War II – 1939–1945,World War II – 1939–1945, ,text,False, , , , ,രണ്ടാം ലോകമഹായുദ്ധം – 1939–1945, , ,രണ്ടാം ലോകമഹായുദ്ധം – 1939–1945
-30_year_war,Thirty Years' War in Europe 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,യൂറോപ്പിലെ മുപ്പതുവർഷ യുദ്ധം 1618-1648, , ,യൂറോപ്പിലെ മുപ്പത് വർഷത്തെ യുദ്ധം 1618-1648
-joshua,110 years,110 years, ,text,False, , , , ,110 വർഷം, , ,നൂറ്റമ്പത് വർഷങ്ങൾ
-caleb,more than 85 years,more than 85 years, ,text,False, , , , ,85 വർഷത്തിൽ കൂടുതൽ, , ,എൺപത്തിയഞ്ച് വർഷത്തിലേറെ
-missionary1,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"പൗലോസിന്റെ ഒന്നാം മിഷനറി യാത്ര, ഏകദേശം ക്രി.വ. 47-48, ബർണ്ണബാസിനും യോഹന്നാൻ മർക്കിനും ഒപ്പം", , ,"പൗലോസിൻ്റെ ആദ്യ മിഷനറി യാത്ര, ഏ.ഡി. 47-48-ൽ ബർണബാസിനും യോഹന്നാൻ മർക്കോസിനുമൊപ്പം"
-circumcision,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"ഏകദേശം ക്രി.വ. 49-ൽ അന്ത്യോക്യയിലെ ചേതനച്ഛേദപ്രശ്നം, ജറുസലേമിലെ സമ്മേളനം", , ,"അന്ത്യോക്കിയയിലെ പരിച്ഛേദന വിഷയം, ഏകദേശം 49-ൽ ജറുസലേമിൽ സമ്മേളനം."
-missionary2,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,ഏകദേശം ക്രി.വ. 49-52 രണ്ടാം മിഷനറി യാത്ര ശീലാസിനൊപ്പം (ശിൽവാനൂസ്), , ,"രണ്ടാമത്തെ മിഷനറി യാത്ര, ഏ.ഡി. 49-52-ൽ സിലാസിനൊപ്പം (സിൽവാനസ്)"
-missionary3,Third Missionary Journey c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,ഏകദേശം ക്രി.വ. 52-56 മൂന്നാം മിഷനറി യാത്ര, , ,"മൂന്നാം മിഷനറി യാത്ര, ഏകദേശം 52-56 എ.ഡി."
-caesarea,Paul in custody in Caesarea c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,ഏകദേശം ക്രി.വ. 56-58 കൈസരിയയിൽ പൗലോസ് കസ്റ്റഡിയിൽ, , ,ക്രി.വ. 56-58-ൽ കൈസരിയയിൽ പോൾ തടവിൽ
-rome1,Paul’s first imprisonment in Rome c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,ഏകദേശം ക്രി.വ. 59-61 റോമിൽ പൗലോസിന്റെ ഒന്നാം തടവ്, , ,"പൗലോസിന്റെ റോമിലെ ആദ്യത്തെ തടവുശിക്ഷ, ഏകദേശം 59-61 എ.ഡി."
-rome2,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"ഏകദേശം ക്രി.വ. 65-ൽ റോമിൽ പൗലോസിന്റെ രണ്ടാം തടവ്, 2 തിമൊത്തിയോസ് എഴുതി, പൗലോസ് വധിക്കപ്പെട്ടു", , ,"ക്രി.പോ. 65-ൽ റോമിൽ പൗലോസിൻ്റെ രണ്ടാമത്തെ തടവ്, 2 തിമോഥെയോസിന് എഴുതിയത്, പൗലോസിൻ്റെ വധം"
-event_exodus,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,ബി.സി.ഇ. 1513 നിസാൻ 14-ന് ഈജിപ്തിൽ നിന്നുള്ള പുറപ്പാട്, , ,ക്രി.മു. 1513-ലെ നിസാൻ 14-ന് ഈജിപ്തിൽ നിന്നുള്ള പലായനം.
-event_division_kingdom,Division of Israel 997 BCE,Division of Israel 997 BCE, ,text,False, , , , ,ബി.സി.ഇ. 997-ൽ ഇസ്രായേലിന്റെ വിഭജനം, , ,ബി.സി.ഇ 997-ലെ ഇസ്രായേലിന്റെ വിഭജനം
-event_destruction_samaria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,ബി.സി.ഇ. 740-ൽ അസ്സീരിയയാൽ ശമരിയയുടെ നാശം, , ,ഏ.സി. 740-ൽ അസ്സീരിയയാൽ ശമരിയയുടെ നാശം
-event_destruction_jerusalem1,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"ബി.സി.ഇ. 607-ൽ ബാബിലോൺ വഴി ജറുസലേമിന്റെ നാശം, രാജ്യത്തിന്റെ വിഭജനത്തിന് ശേഷം 390 വർഷം (യെശയ്യാവ് 4:5)", , ,"ബാബിലോൺ യെരുശലേമിനെ നശിപ്പിച്ചത്, രാജ്യം വിഭജിച്ചതിന് 390 വർഷങ്ങൾക്ക് ശേഷം, ഇ.മു. 607-ൽ (യെഹെസ്കേൽ 4:5)"
-event_temple_rebuilt,Temple in Jerusalem rebuilt 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,ബി.സി.ഇ. 515-ൽ ജറുസലേമിലെ ക്ഷേത്രം പുനർനിർമ്മിച്ചു, , ,ജറുസലേമിലെ ക്ഷേത്രം ബി.സി.ഇ. 515-ൽ പുനർനിർമ്മിച്ചു.
-event_jerusalem_rebuilt,Jerusalem wall rebuilt 455 B.C.E.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,ബി.സി.ഇ. 455-ൽ ജറുസലേമിന്റെ മതിൽ പുനർനിർമ്മിച്ചു, , ,ക്രി.മു. 455-ൽ ജറുസലേം മതിൽ പുനർനിർമ്മിച്ചു.
-event_destruction_jerusalem2,Destruction of Jerusalem 70 C.E. by Rome under Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,ക്രി.വ. 70-ൽ റോമാക്കാർ ടൈറ്റസിന്റെ കീഴിൽ ജറുസലേം നശിപ്പിച്ചു, , ,ക്രി.പി. 70-ൽ ടൈറ്റസിൻ്റെ നേതൃത്വത്തിലുള്ള റോം ജറുസലേം നശിപ്പിച്ചത്
-event_1914,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"ജനതകാലത്തിന്റെ അവസാനം (ലൂക്കോസ് 21:24), ദൈവത്തിന്റെ രാജ്യം സ്വർഗ്ഗത്തിൽ ഭരിച്ചു തുടങ്ങി ക്രി.വ. 1914", , ,"ജനതകളുടെ കാലത്തിന്റെ അന്ത്യത്തിൽ (ലൂക്കോസ് 21:24), ദൈവരാജ്യം 1914-ൽ സ്വർഗ്ഗത്തിൽ ഭരണം ആരംഭിച്ചു."
-became_king,becomes king at age,becomes king at age,2025-04-14,text,False, , , , ,പ്രായത്തിൽ രാജാവാകുന്നു, , ,വയസ്സിൽ രാജാവ് ആകുന്നു
-vulgate,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,ഏകദേശം ക്രി.വ. 405-ൽ ജെറോം പൂർത്തിയാക്കിയ വൾഗേറ്റ് (ബൈബിളിന്റെ ലാറ്റിൻ പരിഭാഷ), , ,"ജെറോം പൂർത്തിയാക്കിയ വൾഗേറ്റ് (ബൈബിളിന്റെ ലത്തീൻ പരിഭാഷ), ഏകദേശം 405 എ.സി."
-gutenberg,Gutenberg Bible printed 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,1455-ൽ ഗുട്ടൻബർഗ് ബൈബിൾ അച്ചടിച്ചു, , ,ഗുട്ടൻബെർഗ് ബൈബിൾ അച്ചടിച്ചത് 1455-ൽ
-erasmus,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,1516-ൽ റോട്ടർഡാമിലെ ഡെസിഡേറിയസ് ഇറാസ്മസ് പ്രസിദ്ധീകരിച്ച ക്രിസ്ത്യൻ ഗ്രീക്ക് തിരുവെഴുത്തുകളുടെ ഗ്രീക്ക് പാഠം, , ,റോട്ടർഡാമിലെ ഡെസിഡേറിയസ് എറാസ്മസ് 1516-ൽ പ്രസിദ്ധീകരിച്ച ക്രിസ്ത്യൻ ഗ്രീക്ക് തിരുവെഴുത്തുകളുടെ ഗ്രീക്ക് പാഠം
-luther,Luther Bible translation in September 1522,Luther Bible translation in September 1522, ,text,False, , , , ,1522 സെപ്റ്റംബറിൽ ലൂത്തർ ബൈബിൾ പരിഭാഷ, , ,1522 സെപ്റ്റംബറിലെ ലൂഥർ ബൈബിൾ വിവർത്തനം
-tyndale,English Bible translation by Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , ,1536-ൽ ടിൻഡേൽ ആംഗലേയ ബൈബിൾ പരിഭാഷ, , ,ടൈൻഡേൽ 1536-ലെ ബൈബിൾ വിവർത്തനം
-king_james,King James Bible 1611,King James Bible 1611, ,text,False, , , , ,രാജാവ് ജേയിംസ് ബൈബിൾ 1611, , ,കിംഗ് ജെയിംസ് ബൈബിൾ 1611
-69weeks3,"Jesus starts his service 29 CE (Luke 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"യേശു തന്റെ സേവനം ആരംഭിക്കുന്നു 29 സി.ഇ. (ലൂക്ക 3:1, 21)", , ,"യേശു തൻ്റെ ശുശ്രൂഷ 29-ൽ ആരംഭിക്കുന്നു (ലൂക്കോസ് 3:1, 21)"
-ransom,Middle of week “sacrifice to cease” Daniel 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,"ആഴ്ചയുടെ മധ്യത്തിൽ ""ബലി നിലയ്ക്കും"" ദാനീയേൽ 9:27", , ,"ആഴ്ചയുടെ മദ്ധ്യം ""നിർത്തലാക്കാനുള്ള ബലി"" ദാനിയേൽ 9:27"
-cornelius,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,70 ആഴ്ചകളുടെ അവസാനം കോർണേലിയോസ് സ്നാനം സ്വീകരിക്കുന്നു (ദാനീയേൽ 9:24) 36 സി.ഇ., , ,"ക്രി.വ. 36-ൽ, എഴുപത് ആഴ്ചകളുടെ അവസാനത്തിൽ കൊർണേലിയോസ് ജ്ഞാനസ്നാനം ചെയ്യപ്പെട്ടു (ദാനിയേൽ 9:24)."
-columbus,End of the pre-columbian period in the Americas 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,1492-ൽ അമേരിക്കയിലെ പ്രീ-കൊളംബിയൻ കാലഘട്ടത്തിന്റെ അന്ത്യം, , ,അമേരിക്കയിലെ കൊളംബസിന് മുമ്പുള്ള കാലഘട്ടത്തിന്റെ അവസാനം 1492
-declaration_independence,Declaration of independence of 13 colonies in America 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,1776-ൽ അമേരിക്കയിലെ 13 കോളനികളുടെ സ്വാതന്ത്ര്യ പ്രഖ്യാപനം, , ,അമേരിക്കയിലെ 13 കോളനികളുടെ 1776-ലെ സ്വാതന്ത്ര്യ പ്രഖ്യാപനം
-tischendorf,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,1844-ൽ ടിഷൻഡോർഫ് നാലാം നൂറ്റാണ്ടിലെ കോഡക്സ് സിനായ്റ്റിക്കസ് കണ്ടെത്തുന്നു, , ,1844-ൽ ടിഷൻഡോർഫ് നാലാം നൂറ്റാണ്ടിലെ കോഡെക്സ് സിനൈറ്റിക്കസ് കണ്ടെത്തുന്നു
-dead_sea_scrolls,Dead Sea Scrolls written,Dead Sea Scrolls written, ,text,False, , , , ,ഡെഡ് സീ സ്ക്രോളുകൾ എഴുതപ്പെട്ടു, , ,മരിച്ച കടൽ രേഖകൾ എഴുതിയ
-septuagint,Septuagint LXX translated,Septuagint LXX translated, ,text,False, , , , ,സെപ്ത്വജിന്റ് LXX വിവർത്തനം ചെയ്യപ്പെട്ടു, , ,സെപ്റ്റുവജിന്റ് എൽ.എക്സ്.എക്സ് വിവർത്തനം ചെയ്തു
-watchtower,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,"""സയോന്റെ വാച്ച് ടവറും ക്രിസ്തുവിന്റെ സാന്നിധ്യത്തിന്റെ ദൂതനും"" ആദ്യ ലക്കം 1879-ൽ പ്രസിദ്ധീകരിച്ചു", , ,"""സിയോന്റെ വാച്ച് ടവർ ആൻഡ് ഹെറാൾഡ് ഓഫ് ക്രിസ്റ്റിസ് പ്രസൻസ്""-ന്റെ ആദ്യ ലക്കം 1879-ൽ പ്രസിദ്ധീകരിച്ചു."
-jehovahs_witnesses,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"ബൈബിൾ വിദ്യാർത്ഥികൾ ഒരു പുതിയ പേര് സ്വീകരിക്കുന്നു – യഹോവയുടെ സാക്ഷികൾ (യെശയ്യാവ് 43:10, 12) കൊളംബസ്, ഒഹായോ, 1931-ൽ", , ,"1931-ൽ ഒഹായോയിലെ കൊളംബസിൽ ബൈബിൾ സ്റ്റുഡൻ്റ്സ് ഒരു പുതിയ പേര് സ്വീകരിച്ചു – യഹോവയുടെ സാക്ഷികൾ (ഏശയ്യ 43:10, 12)."
-gilead_school,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"വാച്ച്ടവർ ബൈബിൾ സ്കൂൾ ഓഫ് ഗിലേയാദ് 1943 ഫെബ്രുവരി 1, തിങ്കളാഴ്ച ആരംഭിക്കുന്നു", , ,"ഗിലെയാദിലെ വാച്ച്ടവർ ബൈബിൾ സ്കൂൾ 1943 ഫെബ്രുവരി 1, തിങ്കളാഴ്ച ആരംഭിച്ചു."
-new_world_translation1,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"""പുതിയ ലോക വിശുദ്ധ ഗ്രന്ഥങ്ങളുടെ വിവർത്തനം"" 1960 ജൂൺ 18-ന് മാഞ്ചസ്റ്റർ, ഇംഗ്ലണ്ടിൽ പുറത്തിറക്കി, ബൈബിളിന്റെ പല ഭാഗങ്ങളിലും യഹോവ എന്ന നാമം പുനരാവിഷ്ക്കരിച്ചു", , ,"1960 ജൂൺ 18-ന് ഇംഗ്ലണ്ടിലെ മാഞ്ചസ്റ്ററിൽ പുറത്തിറങ്ങിയ ""പുതിയ ലോക വിവർത്തനം"" ബൈബിളിലെ പല ഭാഗങ്ങളിലും യഹോവ എന്ന നാമം പുനരവതരിപ്പിക്കുന്നു."
-new_world_translation2,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"പുതുക്കിയ ""പുതിയ ലോക വിശുദ്ധ ഗ്രന്ഥങ്ങളുടെ വിവർത്തനം"" 2013-ലെ വാർഷിക സമ്മേളനത്തിൽ പുറത്തിറക്കി, ഡിജിറ്റലായിയും ഓൺലൈനിലും ഉപയോഗിക്കാൻ അനുയോജ്യമാക്കി", , ,"2013-ലെ വാർഷിക യോഗത്തിൽ പുറത്തിറങ്ങിയ, പരിഷ്കരിച്ച ""പരിശുദ്ധ തിരുവെഴുത്തുകളുടെ പുതിയ ലോക പരിഭാഷ"", ഡിജിറ്റലായും ഓൺലൈനായും ഉപയോഗിക്കുന്നതിനായി മെച്ചപ്പെടുത്തിയത്."
-cold_war,Geopolitical situation labeled “Cold War” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,"""ശീതയുദ്ധം"" എന്ന് ലേബൽ ചെയ്യപ്പെട്ട ഭൂമിശാസ്ത്ര സാഹചര്യം 1945-1991", , ,"""ശീതയുദ്ധം"" എന്ന് പേരിട്ടിരിക്കുന്ന ഭൗമരാഷ്ട്രീയ സാഹചര്യം 1945-1991"
-codex_sinaiticus,Codex Sinaiticus written,Codex Sinaiticus written, ,text,False, , , , ,കോഡക്സ് സിനായ്റ്റിക്കസ് എഴുതപ്പെട്ടു, , ,കോഡെക്സ് സിനൈറ്റിക്കസ് എഴുതിയ
-codex_vaticanus,Codex Vaticanus written,Codex Vaticanus written, ,text,False, , , , ,കോഡക്സ് വാറ്റിക്കാനസ് എഴുതപ്പെട്ടു, , ,കോഡെക്സ് വാട്ടിക്കാനസ് എഴുതിയ
-leningrad_codex,Leningrad Codex written in Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,ലെനിൻഗ്രാഡ് കോഡക്സ് കൈറോയിൽ എ.ഡി. 1008-ൽ എഴുതപ്പെട്ടു, , ,കെയ്‌റോയിൽ എ.ഡി. 1008-ൽ രചിച്ച ലെനിൻഗ്രാഡ് കോഡെക്സ്
-john,John writes “revelation” while exiled on Patmos 96-98 C.E.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,"യോഹന്നാൻ പാറ്റ്മോസിൽ നാടുകടത്തപ്പെട്ടപ്പോൾ ""വെളിപ്പാട്"" എഴുതുന്നു 96-98 സി.ഇ.", , ,"ജോൺ, ക്രി.വ. 96-98-ൽ പാറ്റമോസ് ദ്വീപിൽ വസതിയിൽ ആയിരിക്കുമ്പോൾ ""പ്രകാശനം"" എഴുതി."
-buddha,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,ബുദ്ധൻ – സിദ്ധാർത്ഥ ഗൗതമ c.563-c.483 ബി.സി.ഇ, , ,"ബുദ്ധൻ – സിദ്ധാർത്ഥ ഗൗതമ, ഏകദേശം 563-483 ബി.സി.ഇ."
-buddha2,Buddha alternatively c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,ബുദ്ധൻ ബദൽമാർഗ്ഗം c. 480-400 ബി.സി.ഇ., , ,ബുദ്ധൻ (ഏകദേശം) ക്രി.മു. 480-400
-mohammed,Mohammed c. 570-632,Mohammed c. 570-632, ,text,False, , , , ,മുഹമ്മദ് c. 570-632, , ,മുഹമ്മദ് ഏകദേശം 570-632
-confucius,Confucius c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,കൺഫ്യൂഷ്യസ് c.551-c.479 ബി.സി.ഇ., , ,കൺഫ്യൂഷ്യസ് ഏ. 551-ഏ. 479 ബി.സി.ഇ.
-hijrah,Hijrah - Journey Mecca to Medina 16 July 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,ഹിജ്റ - മക്കയിൽ നിന്ന് മദീനയിലേക്കുള്ള യാത്ര 16 ജൂലൈ 622, , ,"ഹിജ്റ - മക്കയിൽ നിന്ന് മദീനയിലേക്കുള്ള യാത്ര, 16 ജൂലൈ 622"
-moses_escape,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 ബി.സി.ഇ. മോശെ ഈജിപ്തിൽ നിന്ന് രക്ഷപ്പെടേണ്ടി വരുന്നു – പുറപ്പാടു 2:15, പ്രവൃത്തികൾ 7:23", , ,"ക്രി.മു. 1553-ൽ മോശയ്ക്ക് ഈജിപ്തിൽ നിന്ന് രക്ഷപ്പെടേണ്ടി വന്നു – പുറപ്പാട് 2:15, അപ്പൊസ്തലന്മാരുടെ പ്രവൃത്തികൾ 7:23"
-10plagues,1513 B.C.E Egypt receives 10 plagues,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 ബി.സി.ഇ. ഈജിപ്തിന് 10 പകർച്ചവ്യാധികൾ ലഭിക്കുന്നു, , ,ക്രി.മു. 1513-ൽ ഈജിപ്ത് പത്ത് പകർച്ചവ്യാധികൾ ഏറ്റുവാങ്ങി.
-joseph_sold,Joseph sold as slave at the age of 17 – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,ജോസെഫ് 17 വയസ്സിൽ അടിമയായി വിൽക്കപ്പെടുന്നു – ഉല്പത്തി 37:2, , ,യോസേഫ് 17 വയസ്സുള്ളപ്പോൾ അടിമയായി വിറ്റു – ഉല്പത്തി 37:2
-infliction,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400 വർഷത്തെ കഷ്ടപ്പാട് (പ്രവൃത്തികൾ 7:6) – ഇസ്മായേൽ 1913 ബി.സി.ഇ, , ,400 വർഷത്തെ ശിക്ഷ (അപ്പൊസ്തലന്മാരുടെ പ്രവൃത്തികൾ 7:6) – ഇസ്മായേൽ ഇ.ബി.സി.ഇ 1913
-Alexander,Alexander the Great (Daniel 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,സിക്കണ്ടർ ദി ഗ്രേറ്റ് (ദാനീയേൽ 11:3), , ,മഹാനായ അലക്സാണ്ടർ (ദാനിയേൽ 11:3)
-persia,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"സൈറസ് ദി ഗ്രേറ്റ്, കാംബിസസ് II, ദാരിയസ് I 490 ബി.സി.ഇ, സെർക്സെസ് I 480 ബി.സി.ഇ (എസ്ഥേറിന്റെ ഭർത്താവ്, ദാനീയേൽ 11:2)", , ,"മഹാനായ സൈറസ്, കാംബൈസസ് II, ദാരിയസ് I (ബി.സി. 490), സെർക്സസ് I (ബി.സി. 480) (എസ്തേരിന്റെ ഭർത്താവ്, ദാനിയേൽ 11:2)"
-king_north,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"സെല്യൂക്കസ് I നിക്കട്ടർ (v5) സിറിയ മുതൽ ആന്റിയോക്കസ് III (v10) സെല്യൂക്കസ് IV (v18, 19) മുതൽ ഒക്ടാവിയൻ (v20) ടൈബീരിയസ് (v21-24) വരെ", , ,"സെലൂക്കസ് ഒന്നാം നിക്കാറ്റർ (v5) മുതൽ അന്തിയോക്കസ് മൂന്നാമൻ (v10), സെലൂക്കസ് നാലാമൻ (v18, 19) വരെയും, ഒടുവിൽ ഒക്ടേവിയൻ (v20), ടിബീരിയസ് (v21-24) വരെയും."
-king_north1,King of the North,King of the North, ,text,False, , , , ,വടക്കിന്റെ രാജാവ്, , ,വടക്കൻ രാജാവ്
-king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"പ്റ്റോളമി I, II, III, IV (v11, 12), V (v15, 16) മുതൽ ആക്ടിയം യുദ്ധം 31 ബി.സി.ഇ. വരെ", , ,"പട്ടോളമി ഒന്ന്, രണ്ട്, മൂന്ന്, നാല് (v11, 12), അഞ്ച് (v15, 16), ബി.സി.ഇ. 31-ലെ ആക്റ്റിയം യുദ്ധം വരെ."
-king_south1,King of the South,King of the South, ,text,False, , , , ,തെക്കിന്റെ രാജാവ്, , ,ദക്ഷിണ രാജാവ്
-king_south2,"British Empire 1870, Anglo-American World Power since 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"ബ്രിട്ടീഷ് സാമ്രാജ്യം 1870, 1914 മുതൽ ആംഗ്ലോ-അമേരിക്കൻ ലോക ശക്തി", , ,"ബ്രിട്ടീഷ് സാമ്രാജ്യം 1870, 1914 മുതൽ ആംഗ്ലോ-അമേരിക്കൻ ലോകശക്തി"
-king_south3,King of the South,King of the South, ,text,False, , , , ,തെക്കിന്റെ രാജാവ്, , ,ദക്ഷിണ രാജാവ്
-king_north2,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"ജർമ്മനി ചക്രവർത്തി വില്യം I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", , ,"ജർമ്മനി, ചക്രവർത്തി വില്യം ഒന്നാമൻ, 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,North,North, ,text,False, , , , ,വടക്ക്, , ,വടക്ക്
-king_north4,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"സോവിയറ്റ് യൂണിയൻ 1945-1991 (ദാനീയേൽ 11:32-39, 40b, 41)", , ,"സോവിയറ്റ് യൂണിയൻ 1945-1991 (ദാനിയേൽ 11:32-39, 40ബി, 41)"
-king_north5,Russia since 2017 (w20 May),Russia since 2017 (w20 May), ,text,False, , , , ,2017 മുതൽ റഷ്യ (w20 May), , ,റഷ്യ 2017 മുതൽ (w20 മെയ്)
-time_of_end,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"ക്രിസ്തുവിന്റെ സാന്നിധ്യം, കാലഘട്ടത്തിന്റെ അന്ത്യം (മത്തായ 24:3), അവസാന ദിവസങ്ങൾ (2 തിമൊത്തയോസ് 3:1)", , ,"ക്രിസ്തുവിൻ്റെ സാന്നിധ്യം, കാര്യങ്ങളുടെ വ്യവസ്ഥയുടെ സമാപ്തി (മത്തായി 24:3), അവസാന ദിനങ്ങൾ (2 തിമോഥിയോസ് 3:1)"
-time_of_end2,Last days,Last days, ,text,False, , , , ,അവസാന ദിവസങ്ങൾ, , ,അവസാന ദിവസങ്ങൾ
-suryavaman2,King Suryavarman II builds Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,രാജാവ് സൂര്യവർമ്മൻ II അങ്കോർ വാട്ട് നിർമ്മിക്കുന്നു 1113-1150, , ,രാജാവ് സൂര്യവർമ്മൻ II അങ്കോർ വാട്ട് നിർമ്മിക്കുന്നു 1113-1150
-notre-dame,Notre-Dame de Paris built 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,നോട്രെ-ദാം ദെ പാരീസ് നിർമ്മിച്ചു 1163-1260, , ,"നോട്ടർ ഡാം ദി പാരീസ്, നിർമ്മിച്ചത് 1163-1260"
-babel,Tower of Babel built,Tower of Babel built, ,text,False, , , , ,ബാബേൽ ഗോപുരം നിർമ്മിച്ചു, , ,ബാബെൽ ഗോപുരം നിർമ്മിച്ചു
-infliction1,400 year infliction,400 year infliction,Acts 7:6,text,False, , , , ,400 വർഷത്തെ കഷ്ടപ്പാട്, , ,400 വർഷത്തെ പീഡനം
-Lots_wife,Lot’s wife,Lot’s wife, ,text,False, , , , ,ലോത്തിന്റെ ഭാര്യ, , ,ലോത്തിൻ്റെ ഭാര്യ
-Lots_daughters,Daughters of Lot,Daughters of Lot, ,text,False, , , , ,ലോത്തിന്റെ മകളുടെ മകൾ, , ,ലോത്തിൻ്റെ പെൺമക്കൾ
-Moab,Moab (older daughter),Moab (older daughter),Genesis 19:37,text,False, , , , ,മോവാബ് (മൂത്ത മകൾ), , ,മോബ് (മൂത്ത മകൾ)
-rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False, , , , ,റോസെറ്റ സ്റ്റോൺ 196 ബി.സി.ഇ., , ,റോസറ്റാ കല്ല് 196 ബി.സി.ഇ.
-Herodotus,"Herodotus c. 484 – c. 425 BC, writes The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"ഹെറോഡോട്ടസ് സ. 484 – c. 425 ബ. ക്രി., ദി ഹിസ്റ്ററീസ് രചിക്കുന്നു", , ,"ഹെറോഡോട്ടസ് (ഏ. 484 – ഏ. 425 ബി.സി.), 'ദി ഹിസ്റ്ററീസ്' എഴുതി."
-Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,അരിസ്റ്റോട്ടിൽ 384 – 322 ബ. ക്രി., , ,അരിസ്റ്റോട്ടിൽ 384 – 322 ബി.സി.
-Ptolemy,Ptolemy c 100 – c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,പ്രോളമി സ. 100 – c. 170 സ. വ., , ,പട്ടോളമി ഏകദേശം 100 – ഏകദേശം 170 ക്.എ.
-Pythagoras,Pythagoras c. 570 – c. 495 BC,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,പൈതഗറസ് c. 570 – c. 495 ബ. ക്രി., , ,പൈതഗോറസ് ഏകദേശം 570 – ഏകദേശം 495 ബി.സി.
-Plato,Plato c. 427 – c. 348 BC,Plato c. 427 – c. 348 BC, ,text,False, , , , ,പ്ലേറ്റോ c. 427 – c. 348 ബ. ക്രി., , ,പ്ലേറ്റോ ഏകദേശം 427 – ഏകദേശം 348 ബി.സി.
-Socrates,Socrates c. 470 – c. 399 BC,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,സോക്രട്ടീസ് c. 470 – c. 399 ബ. ക്രി., , ,"സോക്രട്ടീസ്, ഏകദേശം 470 – ഏകദേശം 399 ബി.സി."
-Josephus,Josephus c. 37 – c. 100 C.E.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,ജോസീഫസ് c. 37 – c. 100 സ. വ., , ,ജോസെഫസ് ഏകദേശം 37 – ഏകദേശം 100 ക്രി.പി.
-Cicero,Cicero 106–43 BC,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,സിസറോ 106–43 ബ. ക്രി., , ,സിസറോ 106–43 ബി.സി.
-lachish_letters,Lachish letters c. 590 B.C.E.,Lachish letters c. 590 B.C.E., ,text,False, , , , ,ലാക്കീഷ് ലക്ഷ്യങ്ങൾ c. 590 ബ. ക്. മ., , ,"ലഖീഷ് കത്തുകൾ, ഏകദേശം ബി.സി. 590"
-lachish_reliefs,Lachish reliefs c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,ലാക്കീഷ് ശാസ്ത്രീയരേഖകൾ c. 681 ബ. ക്. മ., , ,"ലഖീഷ് ശിലാചിത്രങ്ങൾ, ഏകദേശം ക്രി.മു. 681"
-mesha_stele,Mesha Stele (Moabite stone) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,മേഷ സ്തൂപം (മോവാബി ശില) c. 840 ബ. ക്. മ., , ,മേഷാ ശിലാഫലകം (മോവാബിയൻ ശില) ഏകദേശം ബി.സി. 840
-gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,ഗിൽഗമേഷും അഗയും 𒇽𒆥𒄄𒀀𒀝𒂵, , ,ഗിൽഗമേഷും അഗ 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,Epic of Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,ഗിൽഗമേഷ് ഇതിഹാസം (സിൻ-ലേഖി-ഉന്നിന്നി), , ,ഗിൽഗമേഷ് ഇതിഹാസം (സിൻ-ലെഖി-ഉന്നിന്നി)
-gregorian,Gregorian calendar 1582,Gregorian calendar 1582, ,text,False, , , , ,ഗ്രെഗോറിയൻ കലണ്ടർ 1582, , ,ഗ്രിഗോറിയൻ കലണ്ടർ 1582
-shang-dynasty,c. 1600-1046 BC,c. 1600-1046 BC, ,text,False, , , , ,c. 1600-1046 ബ. ക്രി., , ,ക്രി.മു. 1600-1046
-western-zhou,c. 1046-771 BC,c. 1046-771 BC, ,text,False, , , , ,c. 1046-771 ബ. ക്രി., , ,ക്രി.മു. 1046-771
-qin-dynasty,Qin 221-207 BC,Qin 221-207 BC, ,text,False, , , , ,ചിൻ 221-207 ബ. ക്രി., , ,ഖിൻ 221-207 ബി.സി.
-western-han,207 BC – 9 CE,207 BC – 9 CE, ,text,False, , , , ,207 ബ. ക്രി. – 9 സ. വ., , ,ക്രി.മു. 207 – ക്രി. 9
-three-kingdoms,Three kingdoms 220-280 CE,Three kingdoms 220-280 CE, ,text,False, , , , ,മൂന്ന് രാജ്യങ്ങൾ 220-280 സ. വ., , ,മൂന്ന് രാജ്യങ്ങൾ 220-280 CE
-sixteen-kingdoms,Sixteen kingdoms 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,പതിനാറ് രാജ്യങ്ങൾ 304-439 സ. വ., , ,പതിനാറ് രാജ്യങ്ങൾ 304-439 എ.ഡി.
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , , , , 
-wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False, , , , ,690-705 വൂ ഷൂ, , ,690-705 വു ഝൗ
-tang-dynasty1_c,Tang,Tang, ,text,False, , , , ,ടാങ്, , ,താങ്ങ്
-gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC, ,text,False, , , , ,ഗോങ്ഹേ റീജൻസി 841-828 ബ. ക്രി., , ,ഗോങ്ഹെ രാജ്യം 841-828 ബി.സി.
-Ashoka,Ashoka (c. 304-232 BC) promotes Buddhism,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,അശോക (c. 304-232 ബ. ക്രി.) ബുദ്ധമതം പ്രോത്സാഹിപ്പിക്കുന്നു, , ,അശോകൻ (ഏകദേശം 304-232 ബി.സി.) ബുദ്ധമതം പ്രോത്സാഹിപ്പിച്ചു.
-siloam-tunnel,Hezekiah extends Siloam tunnel,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,ഹെസേക്കിയാവ് ശിലോയാം തുരങ്കം നീട്ടുന്നു, , ,ഹെസെക്കിയാ സിലോവാം തുരങ്കം നീട്ടുന്നു
-Angloamerica2,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"ആംഗ്ലോ-അമേരിക്കൻ ദാനീയേൽ 2:33, 41-43 എന്ന പ്രവചനത്തിലെ ഇരുമ്പും കളിമണ്ണും കൂടിച്ചേർന്ന പാദങ്ങളാൽ സൂചിപ്പിക്കപ്പെട്ടിരിക്കുന്നു", , ,"ദാനിയേൽ 2:33, 41-43-ലെ പ്രവചനത്തിൽ, കളിമണ്ണുമായി ചേർത്ത ഇരുമ്പുപാദങ്ങളാൽ ആംഗ്ലോ-അമേരിക്കൻ പ്രതീകവൽക്കരിക്കപ്പെടുന്നു."
-Manetho,Manetho writes Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , ,മാനെതോ എജിപ്തിയാക രചിക്കുന്നു, , ,മാനെത്തോ എജ്പ്റ്റിയാക്ക എഴുതുന്നു
-destruction_babylon,"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"ബാബുലോൺ മഹാനായ നഗരത്തിന്റെ നാശം (വെളിപ്പാട് 17:3, 15-18; 18:9, 10)", , ,"മഹാ ബാബിലോണിന്റെ നാശം (പ്രകാശനം 17:3, 15-18; 18:9, 10)"
-peace_security,"“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"""സമാധാനവും സുരക്ഷയും!"" (1 തെസ്സലൊനീക്ക്യർ 5:3, ഇത് ഒരു സാധ്യതയാണ്, QfR 26/2, 25/11)", , ,"""സമാധാനവും സുരക്ഷിതത്വവും!"" (1 തെസ്സലൊനീക്യർ 5:3, ഇതൊരു സാധ്യതയാണ്, QfR 26/2, 25/11)"
-gog_of_magog,"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"ഗോഗ് ഓഫ് മഗോഗിന്റെ ആക്രമണം (യെശയ്യാവ് 38:1, 2, 9-12, 18-23)", , ,"മഗോഗിലെ ഗോഗിന്റെ ആക്രമണം (എസക്കിയേൽ 38:1, 2, 9-12, 18-23)"
-sheep_goat,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"ഭൂമിയിലെ നിവാസികൾ വിധിക്കപ്പെടുന്നു, ആടുകളെയും കോലാടുകളെയും വേർതിരിക്കുന്നു (മത്തായ 25:31-33)", , ,"ഭൂവാസികൾ വിധിക്കപ്പെടുന്നു, ആടുകളെ കുഞ്ഞാടുകളിൽ നിന്ന് വേർതിരിക്കുന്നു (മത്തായി 25:31-33)"
-annointed,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,രാജ്യത്തിന്റെ ഭരണാധികാരികളുടെ സമാഹാരം (മത്തായ 24:31; 1 കൊരിന്തോസ് 15:50-53; 1 തെസ്സലൊനീക്ക്യർ 4:15-17), , ,രാജ്യങ്ങളിലെ ഭരണാധികാരികളുടെ സമ്മേളനം (മത്തായി 24:31; 1 കൊരിന്ത്യർ 15:50-53; 1 തെസ്സലൊനീക്യർ 4:15-17)
-armageddon,"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"ഹർമഗെദോൻ യുദ്ധം (വെളിപ്പാട് 16:14, 16; യെശയ്യാവ് 13:9; 2 പത്രോസ് 3:12)", , ,"അർമാഗെഡോൺ യുദ്ധം (പ്രകാശനം 16:14, 16; യെശയ്യാവ് 13:9; 2 പത്രോസ് 3:12)"
-millenium,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"ദൈവത്തിന്റെ രാജ്യം തന്റെ 1000-വർഷത്തെ ഭരണം ആരംഭിക്കുന്നു (വെളിപ്പാട് 5:9, 10; 20:4, 6)", , ,"ദൈവരാജ്യം അതിൻ്റെ 1000 വർഷത്തെ ഭരണം ആരംഭിക്കുന്നു (പ്രകാശനം 5:9, 10; 20:4, 6)"
-great_crowd,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"ഒരു വലിയ ജനക്കൂട്ടം ഹർമഗെദോണിൽ നിന്ന് രക്ഷപ്പെടുന്നു (വെളിപ്പാട് 7:9, 14; സങ്കീർത്തനം 37:9-11)", , ,"ഒരു വലിയ കൂട്ടം അർമാഗെഡോണിൽ നിന്ന് രക്ഷപ്പെടുന്നു (പ്രകാശനം 7:9, 14; സങ്കീർത്തനം 37:9-11)"
-world_population,World population in billions in the last 2000 years,World population in billions in the last 2000 years, ,text,False, , , , ,കഴിഞ്ഞ 2000 വർഷത്തിനിടയിൽ ലോക ജനസംഖ്യ ബില്യൺ കണക്കിന്, , ,കഴിഞ്ഞ 2000 വർഷങ്ങളിലെ ലോക ജനസംഖ്യ (ബില്യൺ)
-khmer_empire_c,Khmer Empire - Angkor period,Khmer Empire - Angkor period, ,text,False, , , , ,ഖ്മേർ സാമ്രാജ്യം - അങ്കോർ കാലഘട്ടം, , ,ഖ്മേര സാമ്രാജ്യം - അങ്കോർ കാലഘട്ടം
-holy_roman_empire_c,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,ഹോളി റോമൻ സാമ്രാജ്യം – 1512 മുതൽ ജർമ്മൻ നാഷന്റെ ഹോളി റോമൻ സാമ്രാജ്യം എന്ന് അറിയപ്പെടുന്നു, , ,പവിത്ര റോമൻ സാമ്രാജ്യം – 1512-ന് ശേഷം ജർമ്മൻ രാഷ്ട്രത്തിന്റെ പവിത്ര റോമൻ സാമ്രാജ്യം എന്നറിയപ്പെട്ടു
-mongol_empire,Mongol Empire 1206 – 1294,Mongol Empire 1206 – 1294, ,text,False, , , , ,മംഗോൾ സാമ്രാജ്യം 1206 – 1294, , ,മംഗോൾ സാമ്രാജ്യം 1206 – 1294
-maya_classic_c,Maya civilization – Classic period,Maya civilization – Classic period, ,text,False, , , , ,മായ സംസ്കാരം – ക്ലാസിക് കാലഘട്ടം, , ,മായൻ നാഗരികത – ക്ലാസിക് കാലഘട്ടം
-maya_postclassic_c,Maya civilization – Postclassic period,Maya civilization – Postclassic period, ,text,False, , , , ,മായ സംസ്കാരം – പോസ്റ്റ്ക്ലാസിക് കാലഘട്ടം, , ,മായൻ നാഗരികത – പോസ്റ്റ്ക്ലാസിക് കാലഘട്ടം
-Teotihuacan,"Largest city in the Americas, pyramids build c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"അമേരിക്കകളിലെ ഏറ്റവും വലിയ നഗരം, പിരമിഡുകൾ c. 200 സ. വ.", , ,"അമേരിക്കയിലെ ഏറ്റവും വലിയ നഗരം, ഏകദേശം ക്രി.വ. 200-ൽ നിർമ്മിച്ച പിരമിഡുകൾ."
-Dionysius_Exiguus,"Dionysius Exiguus, inventor of Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"ഡയോനീഷ്യസ് എക്സിഗ്വസ്, അന്നോ ഡോമിനിയുടെ കണ്ടുപിടുത്തക്കാരൻ", , ,"ആനോ ഡോമിനിയുടെ ഉപജ്ഞാതാവ്, ഡയോണൈസിയസ് എക്സിഗ്യൂസ്"
-Umayyad_c,Umayyad,Umayyad, ,text,False, , , , ,ഉമയ്യദ്, , ,ഉമയ്യദ്
-ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,ഉർ III രാജവംശം 𒋀𒀕𒆠, , ,ഉർ III രാജവംശം 𒋀𒀕𒆠
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , ,ഹമ്മൂറാബി 𒄩𒄠𒈬𒊏𒁉, , ,ഹമ്മൂറാബി 𒄩𒄠𒈬𒊏𒁉
-Al-Khwarizmi,al-Khwarizmi writes Al-Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,അൽ-ഖ്വാരിസ്മി അൽ-ജബ്ർ (ബീജഗണിതം) രചിക്കുന്നു, , ,അൽ-ഖ്വാരസ്മി അൽ-ജാബർ (ബീജഗണിതം) എഴുതുന്നു
-al-azhar,Al-Azhar University is established in Cairo,Al-Azhar University is established in Cairo, ,text,False, , , , ,അൽ-അസ്ഹർ സർവ്വകലാശാല കെയ്‌റോയിൽ സ്ഥാപിതമാകുന്നു, , ,കെയ്‌റോയിൽ അൽ-അസ്ഹർ സർവകലാശാല സ്ഥാപിച്ചു.
-Ibn-Sina,Ibn Sina or Avicenna,Ibn Sina or Avicenna, ,text,False, , , , ,ഇബ്ൻ സിന  അല്ലെങ്കിൽ അവിസെന്ന, , ,ഇബ്നു സീന അഥവാ അവിസെന്ന
-life-expectancy,Life expectancy 75 years,Life expectancy 75 years, ,text,False, , , , ,ആയുസ്സ് 75 വർഷം, , ,ശരാശരി ആയുർദൈർഘ്യം 75 വർഷം
-430years_c,"430 years: Exodus 12:41, Galatians 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"430 വർഷം: പുറപ്പാട് 12:41, ഗലാത്തിയർ 3:17", , ,"430 വർഷങ്ങൾ: പുറപ്പാട് 12:41, ഗലാത്യർ 3:17"
-maya_calendar,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,മായ കലണ്ടറിന്റെ കണക്കാക്കിയ ആരംഭം ബി.സി.ഇ. 3114 ഓഗസ്റ്റ് 11, , ,മായൻ കലണ്ടറിന്റെ തുടക്കം ബി.സി.ഇ. 3114 ഓഗസ്റ്റ് 11 എന്ന് കണക്കാക്കപ്പെട്ടു.
-xia-dynasty2,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,ബി.സി. ഏകദേശം 2070 – ഏകദേശം 1600; പശ്ചിമ ചൗ കാലഘട്ടത്തിൽ ആദ്യമായി സൂചിപ്പിച്ച യുഗം, , ,ക്രി.മു. 2070 – ക്രി.മു. 1600; വെസ്റ്റേൺ ഷൗ കാലഘട്ടത്തിൽ ആദ്യമായി പരാമർശിക്കപ്പെട്ട കാലഘട്ടം
-xia-dynasty2_c,Xia dynasty in China,Xia dynasty in China, ,text,False, , , , ,ചൈനയിലെ ഷിയ രാജവംശം, , ,ചൈനയിലെ സിയ രാജവംശം
-tres_zapotes,"September 3rd, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,ബി.സി.ഇ. 32 സെപ്റ്റംബർ 3, , ,"ക്രി.മു. 32, സെപ്റ്റംബർ 3"
-joseph_jacob_reunited,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,ഈജിപ്തിൽ യോസേഫും യാക്കോബും വീണ്ടും ഒത്തുചേർന്നു – ബി.സി.ഇ. 1728 (ഉല്പ. 45:11; 47:9), , ,ജോസഫും യാക്കോബും ഈജിപ്തിൽ വീണ്ടും ഒന്നിച്ചു – ഇ.മു. 1728 (ഉല്പത്തി 45:11; 47:9)
-king_south_light_c,King of the South from Daniel 11,King of the South from Daniel 11,2025-02-05,text,False, , , , ,ദാനീയേൽ 11-ൽ നിന്നുള്ള ദക്ഷിണരാജാവ്, , ,ദാനിയേൽ 11-ൽ നിന്നുള്ള തെക്കൻ രാജാവ്
-king_north_light_c,King of the North from Daniel 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,ദാനീയേൽ 11-ൽ നിന്നുള്ള വടക്കൻ രാജാവ്, , ,ദാനിയേൽ 11-ൽ നിന്നുള്ള വടക്കൻ രാജാവ്
-daniel2_iron_c,Iron legs from Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,ദാനീയേൽ 2-ൽ നിന്നുള്ള ഇരുമ്പ് കാലുകൾ, , ,ദാനിയേൽ 2-ലെ ഇരുമ്പു കാലുകൾ
-argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , ,കോഡക്സ് ആർജന്റിയസ് ഏകദേശം 505, , ,കോഡെക്സ് അർജെൻ്റിയസ് ഏകദേശം 505
-nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , ,ന്ഗുയേൻ, , ,ഗ്യുൻ
-edo_c,Edo period in Japan,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , ,ജപ്പാനിലെ എഡോ കാലഘട്ടം, , ,ജപ്പാനിലെ എഡോ കാലഘട്ടം
-meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , ,മെയ്‌ജി, , ,മെയ്ജി
-american_civil_war,American Civil War 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,അമേരിക്കൻ ആഭ്യന്തര യുദ്ധം 1861-1865, , ,അമേരിക്കൻ ആഭ്യന്തരയുദ്ധം 1861-1865
-aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,അലെപ്പോ കോഡക്സ് ഏകദേശം 920, , ,അലപ്പോ കോഡെക്സ് ഏകദേശം 920
-vandals,Kingdom of the Vandals and Alans 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,വണ്ടലുകളുടെയും അലാനുകളുടെയും രാജ്യം 435 – 534, , ,വാൻഡലുകളുടെയും അലാനുകളുടെയും രാജ്യം 435 – 534
-francia,"c. 481/509 – 843, Merovingian till 751, then Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"ഏകദേശം 481/509 – 843, മെറോവിഞ്ചിയൻ 751 വരെ, തുടർന്ന് കരോലിഞ്ചിയൻ", , ,"ഏകദേശം 481/509 – 843, 751 വരെ മെറോവിംഗിയൻ, പിന്നീട് കരോലിംഗിയൻ"
-francia_c,Kingdom of the Franks,Kingdom of the Franks, ,text,False, , , , ,ഫ്രാങ്കുകളുടെ രാജ്യം, , ,ഫ്രാങ്കുകളുടെ രാജ്യം
-100_years_war,Hundred Years’ War 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,നൂറ്റാണ്ടു യുദ്ധം 1337 – 1453, , ,നൂറുവർഷ യുദ്ധം 1337 – 1453
-black_death,Black death 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,ബ്ലാക്ക് ഡെത്ത് 1346-1353, , ,കറുത്ത മരണം 1346-1353
-sui_dynasty,581-618 Sui dynasty,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 സുയി രാജവംശം, , ,581-618 സൂയി രാജവംശം
-sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , ,സുയി, , ,സുയി
-tribulation,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"മഹാ കഷ്ടകാലം (മർക്കോസ് 13:19; ദാനീയേൽ 12:1; മത്തായി 24:21, 22)", , ,"മഹാക്ലിഷ്ടകാലം (മർക്കോസ് 13:19; ദാനിയേൽ 12:1; മത്തായി 24:21, 22)"
-timeline_created,"This timeline is created in 2023, the hottest year in human history and the last 125,000 years","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",2026-06-07,text,False, , , , ,"ഈ കാലരേഖ 2023-ൽ സൃഷ്ടിച്ചതാണ്, മനുഷ്യചരിത്രത്തിലെയും കഴിഞ്ഞ 125,000 വർഷത്തിലെയും ഏറ്റവും ചൂടേറിയ വർഷം", , ,"മനുഷ്യചരിത്രത്തിലെ ഏറ്റവും ചൂടേറിയ വർഷവും കഴിഞ്ഞ 125,000 വർഷങ്ങളിലെ ഏറ്റവും ചൂടേറിയതുമായ 2023-ൽ ഈ സമയരേഖ തയ്യാറാക്കിയിരിക്കുന്നു."
-Adam,Adam,Adam,Luke 3:38,bible,False, , , , , , , , 
-Seth,Seth,Seth,Luke 3:38,bible,False, , , , , , , , 
-Enosh,Enosh,Enosh,Luke 3:38,bible,False, , , , , , , , 
-Kenan,Kenan (Cainan),Kenan (Cainan),"Genesis 5:12, Luke 3:37",bible,False, , , , , , , , 
-Mahalalel,Mahalalel (Mahalaleel),Mahalalel (Mahalaleel),"Genesis 5:15, Luke 3:37",bible,False, , , , , , , , 
-Jared,Jared,Jared,Luke 3:37,bible,False, , , , , , , , 
-Enoch,Enoch,Enoch,Luke 3:37,bible,False, , , , , , , , 
-Methuselah,Methuselah,Methuselah,Luke 3:37,bible,False, , , , , , , , 
-Lamech,Lamech,Lamech,Luke 3:36,bible,False, , , , , , , , 
-Noah,Noah,Noah,Luke 3:36,bible,False, , , , , , , , 
-Shem,Shem,Shem,Luke 3:36,bible,False, , , , , , , , 
-Arpachshad,Arpachshad,Arpachshad,Luke 3:36,bible,False, , , , , , , , 
-Shelah,Shelah,Shelah,Luke 3:35,bible,False, , , , , , , , 
-Eber,Eber,Eber,Luke 3:35,bible,False, , , , , , , , 
-Peleg,Peleg,Peleg,Luke 3:35,bible,False, , , , , , , , 
-Reu,Reu,Reu,Luke 3:35,bible,False, , , , , , , , 
-Serug,Serug,Serug,Luke 3:35,bible,False, , , , , , , , 
-Nahor,Nahor,Nahor,"Luke 3:34, Genesis 11:24",bible,False, , , , , , , , 
-Terah,Terah,Terah,Luke 3:34,bible,False, , , , , , , , 
-Abraham,Abraham,Abraham,Luke 3:34,bible,False, , , , , , , , 
-Isaac,Isaac,Isaac,Luke 3:34,bible,False, , , , , , , , 
-Jacob,Jacob,Jacob,Luke 3:34,bible,False, , , , , , , , 
-Joseph,Joseph,Joseph,Genesis 37,bible,False, , , , , , , , 
-Moses,Moses,Moses,Exodus 2:10,bible,False, , , , , , , , 
-Othniel,Othniel,Othniel,Judges 3:9-11,bible,False, , , , , , , , 
-Ehud,Ehud,Ehud,Judges 3:15-18,bible,False, , , , , , , , 
-Shamgar,Shamgar,Shamgar,Judges 3:31,bible,False, , , , , , , , 
-Barak,"Barak, Deborah, Jael","Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , , , , 
-Gideon,Gideon,Gideon,Judges 7:1,bible,False, , , , , , , , 
-Tola,Tola,Tola,Judges 10:1,bible,False, , , , , , , , 
-Jair,Jair,Jair,Judges 10:3,bible,False, , , , , , , , 
-Jephthah,Jephthah,Jephthah,Judges 11:1,bible,False, , , , , , , , 
-Ibzan,Ibzan,Ibzan,Judges 12:8,bible,False, , , , , , , , 
-Elon,Elon,Elon,Judges 12:11,bible,False, , , , , , , , 
-Abdon,Abdon,Abdon,Judges 12:13,bible,False, , , , , , , , 
-Samson,Samson,Samson,Judges 13:24,bible,False, , , , , , , , 
-Samuel,Samuel,Samuel,1 Samuel 1:20,bible,False, , , , , , , , 
-Saul,Saul,Saul,1 Samuel 9:2,bible,False, , , , , , , , 
-David,David,David,1 Samuel 16:13,bible,False, , , , , , , , 
-Solomon,Solomon,Solomon,1 Kings 2:1,bible,False, , , , , , , , 
-Malachi,Malachi,Malachi,bible book,bible,False, , , , , , , , 
-Ruth,Ruth,Ruth,bible book,bible,False, , , , , , , , 
-Ezra,Ezra,Ezra,bible book,bible,False, , , , , , , , 
-Nehemiah,Nehemiah,Nehemiah,bible book,bible,False, , , , , , , , 
-Esther,Esther,Esther,bible book,bible,False, , , , , , , , 
-Job,Job,Job,bible book,bible,False, , , , , , , , 
-moses3,Moses,Moses,Exodus 2:10,bible,False, , , , , , , , 
-joshua2,Joshua,Joshua,Exodus 17:14,bible,False, , , , , , , , 
-caleb2,Caleb,Caleb,Numbers 13:30,bible,False, , , , , , , , 
-Augustus,Augustus,Augustus,Luke 2:1,bible,False, , , , , , , , 
-Tiberius,Tiberius,Tiberius,Luke 3:1,bible,False, , , , , , , , 
-Claudius,Claudius,Claudius,Acts 11:28,bible,False, , , , , , , , 
-persia2,Persia,Persia,Esther 1:3,bible,False, , , , , , , , 
-jehoiada,Jehoiada,Jehoiada,2 Kings 11:4,bible,False, , , , , , , , 
-Haggai,Haggai,Haggai,bible book,bible,False, , , , , , , , 
-Zerubbabel,Zerubbabel (Luke 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , , , , 
-Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , , , , 
-Israel,Israel,Israel,Genesis 35:10,bible,False, , , , , , , , 
-Sarah,Sarah,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , , , , 
-Hagar,Hagar,Hagar,Genesis 21:14,bible,False, , , , , , , , 
-Haran,Haran,Haran,Genesis 11:26,bible,False, , , , , , , , 
-Reumah,Reumah,Reumah,Genesis 22:24 Concubine – 4 sons,bible,False, , , , , , , , 
-Milcah,Milcah,Milcah,Genesis 22:20 - 8 sons (Bethuel and 7 more),bible,False, , , , , , , , 
-Lot,Lot,Lot,Genesis 11:27,bible,False, , , , , , , , 
-Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , , , , 
-Bethuel,Bethuel,Bethuel,Genesis 22:23,bible,False, , , , , , , , 
-Rebekah,Rebekah,Rebekah,Genesis 22:23,bible,False, , , , , , , , 
-Laban,Laban,Laban,Genesis 24:29,bible,False, , , , , , , , 
-Leah,Leah,Leah,Genesis 35:23,bible,False, , , , , , , , 
-Rachel,Rachel,Rachel,Genesis 35:24,bible,False, , , , , , , , 
-Bilhah,Bilhah,Bilhah,Genesis 35:25,bible,False, , , , , , , , 
-Zilpah,Zilpah,Zilpah,Genesis 35:26,bible,False, , , , , , , , 
-Reuben,Reuben,Reuben,Genesis 35:23,bible,False, , , , , , , , 
-Simeon,Simeon,Simeon,Genesis 35:23,bible,False, , , , , , , , 
-Levi,Levi,Levi,Genesis 35:23,bible,False, , , , , , , , 
-Judah,Judah,Judah,Genesis 35:23,bible,False, , , , , , , , 
-Issachar,Issachar,Issachar,Genesis 35:23,bible,False, , , , , , , , 
-Zebulun,Zebulun,Zebulun,Genesis 35:23,bible,False, , , , , , , , 
-Dinah,Dinah,Dinah,Genesis 34:1,bible,False, , , , , , , , 
-Esau,Esau/,Esau/,Genesis 36:1,bible,False, , , , , , , , 
-Edom,Edom,Edom,Genesis 36:1,bible,False, , , , , , , , 
-Ishmael,Ishmael,Ishmael,Genesis 16:16,bible,False, , , , , , , , 
-Manasseh2,(Manasseh,(Manasseh,Genesis 41:51,bible,False, , , , , , , , 
-Ephraim,and Ephraim),and Ephraim),Genesis 41:52,bible,False, , , , , , , , 
-Benjamin,Benjamin,Benjamin,Genesis 35:24,bible,False, , , , , , , , 
-Dan,Dan,Dan,Genesis 35:25,bible,False, , , , , , , , 
-Naphtali,Naphtali,Naphtali,Genesis 35:25,bible,False, , , , , , , , 
-Gad,Gad,Gad,Genesis 35:26,bible,False, , , , , , , , 
-Asher,Asher,Asher,Genesis 35:26,bible,False, , , , , , , , 
-Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , , , , 
-Milcah2,"Chesed, Hazo,","Chesed, Hazo,",Genesis 22:22,bible,False, , , , , , , , 
-Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",Genesis 22:22,bible,False, , , , , , , , 
-Tebah,Tebah,Tebah,Genesis 22:24,bible,False, , , , , , , , 
-Gaham,Gaham,Gaham,Genesis 22:24,bible,False, , , , , , , , 
-Tahash,Tahash,Tahash,Genesis 22:24,bible,False, , , , , , , , 
-Maacah,Maacah,Maacah,Genesis 22:24,bible,False, , , , , , , , 
-Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , , , , 
-Basemath,Basemath,Basemath,"Genesis 36:3, 4",bible,False, , , , , , , , 
-Reuel,Reuel,Reuel,"Genesis 36:13, 17",bible,False, , , , , , , , 
-Nahath,Nahath,Nahath,Genesis 36:13,bible,False, , , , , , , , 
-Zerah,Zerah,Zerah,Genesis 36:13,bible,False, , , , , , , , 
-Schammah,Schammah,Schammah,Genesis 36:13,bible,False, , , , , , , , 
-Mizzah,Mizzah,Mizzah,Genesis 36:13,bible,False, , , , , , , , 
-Adah,Adah,Adah,"Genesis 36:11, 12, 15, 16",bible,False, , , , , , , , 
-Eliphaz,Eliphaz,Eliphaz,Genesis 36:11,bible,False, , , , , , , , 
-Teman,Teman,Teman,Genesis 36:11,bible,False, , , , , , , , 
-Omar,Omar,Omar,Genesis 36:11,bible,False, , , , , , , , 
-Zepho,Zepho,Zepho,Genesis 36:11,bible,False, , , , , , , , 
-Kenaz,Kenaz,Kenaz,Genesis 36:11,bible,False, , , , , , , , 
-Korah,Korah,Korah,Genesis 36:16,bible,False, , , , , , , , 
-Korah_Gatam,"Korah, Gatam","Korah, Gatam","Genesis 36:11, 16",bible,False, , , , , , , , 
-Amalek,Amalek,Amalek,Genesis 36:12,bible,False, , , , , , , , 
-Oholibamah,Oholibamah,Oholibamah,"Genesis 36:14, 18",bible,False, , , , , , , , 
-Jeush,Jeush,Jeush,Genesis 36:14,bible,False, , , , , , , , 
-Jalam,Jalam,Jalam,Genesis 36:14,bible,False, , , , , , , , 
-Nebaioth,Nebaioth,Nebaioth,Genesis 25:13,bible,False, , , , , , , , 
-Kedar,Kedar,Kedar,Genesis 25:13,bible,False, , , , , , , , 
-Mishma,Mishma,Mishma,Genesis 25:14,bible,False, , , , , , , , 
-Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",Genesis 25:13,bible,False, , , , , , , , 
-Dumah_Massa,"Dumah, Massa","Dumah, Massa",Genesis 25:14,bible,False, , , , , , , , 
-Hadad,Hadad,Hadad,Genesis 25:15,bible,False, , , , , , , , 
-Tema,Tema,Tema,Genesis 25:15,bible,False, , , , , , , , 
-Jetur,Jetur,Jetur,Genesis 25:15,bible,False, , , , , , , , 
-Naphish,Naphish,Naphish,Genesis 25:15,bible,False, , , , , , , , 
-Kedemah,Kedemah,Kedemah,Genesis 25:15,bible,False, , , , , , , , 
-Keturah,Keturah,Keturah,Genesis 25:1,bible,False, , , , , , , , 
-Zimran,Zimran,Zimran,Genesis 25:1,bible,False, , , , , , , , 
-Jokshan,Jokshan,Jokshan,Genesis 25:1,bible,False, , , , , , , , 
-Medan,Medan,Medan,Genesis 25:1,bible,False, , , , , , , , 
-Midian,Midian,Midian,Genesis 25:1,bible,False, , , , , , , , 
-Ishbak,Ishbak,Ishbak,Genesis 25:1,bible,False, , , , , , , , 
-Shuah,Shuah,Shuah,Genesis 25:1,bible,False, , , , , , , , 
-Timna,Timna,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False, , , , , , , , 
-life-expectancy2,(Psalm 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , , , , 
-Ham,Ham,Ham,Gen 10:1,bible,False, , , , , , , , 
-Canaan,Canaan,Canaan,Gen 10:6,bible,False, , , , , , , , 
-Sidon,Sidon,Sidon,Gen 10:15,bible,False, , , , , , , , 
-Heth,Heth,Heth,Gen 10:15,bible,False, , , , , , , , 
-Jebusite,Jebusite,Jebusite,Gen 10:16,bible,False, , , , , , , , 
-Amorite,Amorite,Amorite,Gen 10:16,bible,False, , , , , , , , 
-Girgashite,Girgashite,Girgashite,Gen 10:16,bible,False, , , , , , , , 
-Hivite,Hivite,Hivite,Gen 10:17,bible,False, , , , , , , , 
-Arkite,Arkite,Arkite,Gen 10:17,bible,False, , , , , , , , 
-Sinite,Sinite,Sinite,Gen 10:17,bible,False, , , , , , , , 
-Arvadite,Arvadite,Arvadite,Gen 10:18,bible,False, , , , , , , , 
-Zemarite,Zemarite,Zemarite,Gen 10:18,bible,False, , , , , , , , 
-Hamathite,Hamathite,Hamathite,Gen 10:18,bible,False, , , , , , , , 
-Cush,Cush,Cush,Gen 10:6,bible,False, , , , , , , , 
-Nimrod,Nimrod,Nimrod,Gen 10:8,bible,False, , , , , , , , 
-Mizraim,Mizraim,Mizraim,Gen 10:14,bible,False, , , , , , , , 
-Casluh,Casluh,Casluh,1 Chronicles 1:12 (Philistines),bible,False, , , , , , , , 
-Japheth,Japheth,Japheth,Gen 10:1,bible,False, , , , , , , , 
-Asshur,Asshur,Asshur,Gen 10:22,bible,False, , , , , , , , 
-Lud,Lud,Lud,Gen 10:22,bible,False, , , , , , , , 
-Aram,Aram,Aram,Gen 10:22,bible,False, , , , , , , , 
-Elam,Elam,Elam,Gen 10:22,bible,False, , , , , , , , 
-Joktan,Joktan,Joktan,Gen 10:26,bible,False, , , , , , , , 
-Almodad,Almodad,Almodad,Gen 10:26,bible,False, , , , , , , , 
-Sheleph,Sheleph,Sheleph,Gen 10:26,bible,False, , , , , , , , 
-Hazarmaveth,Hazarmaveth,Hazarmaveth,Gen 10:26,bible,False, , , , , , , , 
-Jerah,Jerah,Jerah,Gen 10:26,bible,False, , , , , , , , 
-Hadoram,Hadoram,Hadoram,Gen 10:27,bible,False, , , , , , , , 
-Uzal,Uzal,Uzal,Gen 10:27,bible,False, , , , , , , , 
-Diklah_Obal,"Diklah, Obal","Diklah, Obal",Gen 10:27,bible,False, , , , , , , , 
-Abimael,Abimael,Abimael,Gen 10:28,bible,False, , , , , , , , 
-Sheba_Ophir,"Sheba, Ophir","Sheba, Ophir","Gen 10:28, 29",bible,False, , , , , , , , 
-Havilah,Havilah,Havilah,Gen 10:29,bible,False, , , , , , , , 
-Jobab,Jobab,Jobab,Gen 10:29,bible,False, , , , , , , , 
-Ham_fn,1) Egyptians: Psalms 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , , , , 
-Canaan_fn,2) Canaanites: Joshua 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , , , , 
-Aram_fn,3) Arameans: Hosea 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , , , , 
-Elam_fn,4) Elamites: Ezra 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , , , , 
-Asshur_fn,5) Assyrians: Ezekiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , , , , 
-Casluh_fn,6) Philistines: 1 Chronicles 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , , , , 
-Cush_fn,7) Ethiopian [Cushite]: 2 Kings 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , , , , 
-Edom_fn,8) Edomites: Numbers 20:14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False, , , , , , , , 
-Moab_fn,"9) Moabites: Deuteronomy 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False, , , , , , , , 
-Ammon_fn,10) Ammonites: Joshua 12:2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False, , , , , , , , 
-Midian_fn,"11) Midianites: Numbers 31:2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False, , , , , , , , 
-Amalek_fn,12) Amalekites: 1 Samuel 15:2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False, , , , , , , , 
-Teman_fn,13) Temanites: Job 42:7,13) Temanites: Job 42:7,2025-09-22,bible,False, , , , , , , , 
-Sidon_fn,14) Sidonians: Zechariah 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , , , , 
-Heth_fn,15) Hittites: Genesis 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , , , , 
-Jebusite_fn,16) Jebusites: Joshua 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , , , , 
-Judith,Judith?,Judith?,"Genesis 26:34, 35",bible,False, , , , , , , , 
-Lud_fn,17) Lydians: 1 Chronicles 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , , , , 
-Ishmael_fn,18) Ishmaelites: Genesis 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , , , , 
-Amorite_fn,19) Amorites: Judges 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , , , , 
-Hivite_fn,"20) Hivites [Gibeon]: Joshua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , , , , 
-Cain,Cain,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , , , , 
-Abel,Abel,Abel,Genesis 4:2,bible,False, , , , , , , , 
-Irad,Irad,Irad,Genesis 4:18,bible,False, , , , , , , , 
-Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False, , , , , , , , 
-Methushael,Methushael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , , , , 
-Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , , , , 
-Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , , , , 
-Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , , , , 
-Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , , , , 
-Naamah,Naamah,Naamah,Genesis 4:22 his sister,bible,False, , , , , , , , 
-Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False, , , , , , , , 
-Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False, , , , , , , , 
-Asa,Asa,Asa,A6-A,A6-A,False, , , , , , , , 
-Jehoshaphat,Jehoshaphat,Jehoshaphat, ,A6-A,False, , , , , , , , 
-Jehoram2,Jehoram,Jehoram, ,A6-A,False, , , , , , , , 
-Ahaziah,Ahaziah,Ahaziah, ,A6-A,False, , , , , , , , 
-Athaliah,Queen Athaliah,Queen Athaliah,Queen Athaliah,A6-A,False, , , , , , , , 
-Jehoash,Jehoash,Jehoash, ,A6-A,False, , , , , , , , 
-Amaziah,Amaziah,Amaziah, ,A6-A,False, , , , , , , , 
-Uzziah,Uzziah (Azariah),Uzziah (Azariah),also Azariah,A6-A,False, , , , , , , , 
-Jeroboam,Jeroboam,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False, , , , , , , , 
-Nadab,Nadab,Nadab,less than 2,A6-A,False, , , , , , , , 
-Baasha,Baasha,Baasha, ,A6-A,False, , , , , , , , 
-Elah,Elah,Elah, ,A6-A,False, , , , , , , , 
-Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,A6-A,False, , , , , , , , 
-OmriTibni,Omri and Tibni together,Omri and Tibni together,4 years Omri and Tibni,A6-A,False, , , , , , , , 
-Omri,Omri (alone),Omri (alone),from 947 Omri alone,A6-A,False, , , , , , , , 
-Ahab,Ahab,Ahab, ,A6-A,False, , , , , , , , 
-Jehoram,Jehoram,Jehoram, ,A6-A,False, , , , , , , , 
-Jehu,Jehu,Jehu, ,A6-A,False, , , , , , , , 
-Jeoahaz,Jeoahaz,Jeoahaz, ,A6-A,False, , , , , , , , 
-JeoahazJehoash,Jeoahaz and Jehoash,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False, , , , , , , , 
-Jehoash2,Jehoash (alone),Jehoash (alone),Jehoash (alone),A6-A,False, , , , , , , , 
-Jeroboam2,Jeroboam II,Jeroboam II, ,A6-A,False, , , , , , , , 
-Elijah,Elijah,Elijah, ,A6-A,False, , , , , , , , 
-Elisha,Elisha,Elisha, ,A6-A,False, , , , , , , , 
-Jonah,Jonah,Jonah, ,A6-A,False, , , , , , , , 
-Amos,Amos,Amos, ,A6-A,False, , , , , , , , 
-Joel,Joel,Joel, ,A6-A,False, , , , , , , , 
-Jotham,Jotham,Jotham,A6-B,A6-B,False, , , , , , , , 
-Ahaz,Ahaz,Ahaz, ,A6-B,False, , , , , , , , 
-Hezekiah,Hezekiah,Hezekiah, ,A6-B,False, , , , , , , , 
-Manasseh,Manasseh,Manasseh, ,A6-B,False, , , , , , , , 
-Amon,Amon,Amon, ,A6-B,False, , , , , , , , 
-Josiah,Josiah,Josiah, ,A6-B,False, , , , , , , , 
-Jehoahaz,Jehoahaz,Jehoahaz,Only 3 months,A6-B,False, , , , , , , , 
-Jehoiakim,Jehoiakim,Jehoiakim, ,A6-B,False, , , , , , , , 
-Jehoiachin,Jehoiachin,Jehoiachin,Only 3 months 10 days,A6-B,False, , , , , , , , 
-Zedekiah,Zedekiah,Zedekiah, ,A6-B,False, , , , , , , , 
-Zechariah,Zechariah,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False, , , , , , , , 
-Schallum,Schallum,Schallum,only one month,A6-B,False, , , , , , , , 
-Menahem,Menahem,Menahem, ,A6-B,False, , , , , , , , 
-Pekahiah,Pekahiah,Pekahiah, ,A6-B,False, , , , , , , , 
-Pekah,Pekah,Pekah, ,A6-B,False, , , , , , , , 
-Hoshea,Hoshea,Hoshea,9 years from c. 748,A6-B,False, , , , , , , , 
-Hosea,Hosea,Hosea, ,A6-B,False, , , , , , , , 
-Isaiah,Isaiah,Isaiah, ,A6-B,False, , , , , , , , 
-Micah,Micah,Micah, ,A6-B,False, , , , , , , , 
-Zephaniah,Zephaniah,Zephaniah, ,A6-B,False, , , , , , , , 
-Nahum,Nahum,Nahum, ,A6-B,False, , , , , , , , 
-Jeremiah,Jeremiah,Jeremiah, ,A6-B,False, , , , , , , , 
-Habakuk,Habakuk,Habakuk, ,A6-B,False, , , , , , , , 
-Daniel,Daniel,Daniel, ,A6-B,False, , , , , , , , 
-Ezekiel,Ezekiel,Ezekiel, ,A6-B,False, , , , , , , , 
-Obadiah,Obadiah,Obadiah, ,A6-B,False, , , , , , , , 
-Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,False, , , , , , , , 
-Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,False, , , , , , , , 
-Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,False, , , , , , , , 
-Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,False, , , , , , , , 
-Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,False, , , , , , , , 
-Babylon_c,Babylon,Babylon, ,B9,False, , , , , , , , 
-Medopersia_c,Medo-Persia,Medo-Persia, ,B9,False, , , , , , , , 
-Greece_c,Greece,Greece, ,B9,False, , , , , , , , 
-Rome_c,Rome,Rome, ,B9,False, , , , , , , , 
-Angloamerica_c,Anglo-America,Anglo-America, ,B9,False, , , , , , , , 
-daniel2_1,King Nebuchadnezzar,King Nebuchadnezzar,607 BCE,B9,False, , , , , , , , 
-daniel2_2,destroys Jerusalem,destroys Jerusalem,appendix B9,B9,False, , , , , , , , 
-daniel2_3,Conquers Babylon,Conquers Babylon,539 BCE,B9,False, , , , , , , , 
-daniel2_4,Cyrus decrees return,Cyrus decrees return,537 BCE,B9,False, , , , , , , , 
-daniel2_5,of Jews to Jerusalem,of Jews to Jerusalem, ,B9,False, , , , , , , , 
-daniel2_6,Alexander the Great,Alexander the Great,331 BCE,B9,False, , , , , , , , 
-daniel2_7,conquers Persia,conquers Persia, ,B9,False, , , , , , , , 
-daniel2_8,Rules over Israel,Rules over Israel,63 BCE,B9,False, , , , , , , , 
-daniel2_9,Destroys Jerusalem,Destroys Jerusalem,70 CE,B9,False, , , , , , , , 
-daniel2_10,"During World War I,","During World War I,",1914-1918 CE,B9,False, , , , , , , , 
-daniel2_11,Anglo-American World Power,Anglo-American World Power, ,B9,False, , , , , , , , 
-daniel2_12,comes into being,comes into being,End 4.2,B9,False, , , , , , , , 
-607BCE,607 B.C.E.,607 B.C.E.,accommodate for language,B9,False, , , , , , , , 
-539BCE,539 B.C.E.,539 B.C.E.,systems in style:,B9,False, , , , , , , , 
-537BCE,537 B.C.E.,537 B.C.E.,>>year 537 before time<<,B9,False, , , , , , , , 
-331BCE,331 B.C.E.,331 B.C.E.,so they need a word,B9,False, , , , , , , , 
-63BCE,63 B.C.E.,63 B.C.E.,prior to the year,B9,False, , , , , , , , 
-70CE,70 C.E.,70 C.E.,and something,B9,False, , , , , , , , 
-1914CE,1914-1918 C.E.,1914-1918 C.E.,after the year,B9,False, , , , , , , , 
-7times,Revelation 12:9,Revelation 12:9, ,scripture,False, , , , , , , , 
-infliction2,Acts 7:6,Acts 7:6, ,scripture,False, , , , , , , , 
-eastern-zhou,770-256 BC,770-256 BC, ,span_bc,False, , , , , , , , 
-430years,1943 – 1513 B.C.E.,1943 – 1513 B.C.E., ,span_bce,False, , , , , , , , 
-eastern-han,25-220 CE,25-220 CE, ,span_ce,False, , , , , , , , 
-northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False, , , , , , , , 
-southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False, , , , , , , , 
+version,6.11,6.11, ,float,False, , , , , , , , 
+pdf_title,"6,000 Years of Human History — A Timeline","6,000 Years of Human History — A Timeline",2026-09-04,text,False, , , , ,"മനുഷ്യചരിത്രത്തിന്റെ 6,000 വർഷങ്ങൾ — ഒരു കാലഗണന","മനുഷ്യചരിത്രത്തിന്റെ 6,000 വർഷങ്ങൾ — ഒരു കാലക്രമം", ,"മനുഷ്യചരിത്രത്തിലെ 6,000 വർഷങ്ങൾ — ഒരു കാലരേഖ"
+pdf_subject,Timeline of human history from 4000 BCE to present,Timeline of human history from 4000 BCE to present,Timeline of humankind,text,False, , , , ,ബി.സി.ഇ. 4000 മുതൽ ഇന്ന് വരെയുള്ള മനുഷ്യചരിത്രത്തിന്റെ കാലഗണന,ക്രി.മു. 4000 മുതൽ ഇന്നുവരെയുള്ള മനുഷ്യചരിത്രത്തിന്റെ കാലക്രമം, ,ബി.സി. 4000 മുതൽ ഇന്നുവരെ മാനവചരിത്രത്തിന്റെ കാലരേഖ
+BCE,B.C.E.,B.C.E.,appendix B9,B9,False, , , , , ,ക്രിസ്തുവിന് മുമ്പ്, , 
+CE,C.E.,C.E., ,B9,False, , , , , ,പൊതുയുഗം, , 
+month,month,month, ,text,False, , , , ,മാസം,മാസം, ,മാസം
+months,months,months, ,text,False, , , , ,മാസങ്ങൾ,മാസങ്ങൾ, ,മാസങ്ങൾ
+day,day,day, ,text,False, , , , ,ദിവസം,ദിവസം, ,ദിവസം
+days,days,days, ,text,False, , , , ,ദിവസങ്ങൾ,ദിവസങ്ങൾ, ,ദിവസങ്ങൾ
+to,to,to, ,text,False, , , , ,മുതൽ,മുതൽ, ,നേരെ
+Deluge,Deluge,Deluge, ,text,False, , , , ,പ്രളയം,ജലപ്രളയം, ,പ്രളയം
+moses2,1593 to 1473 B.C.E. – 120 years,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,ബി.സി.ഇ. 1593 മുതൽ 1473 വരെ – 120 വർഷം,ക്രി.മു. 1593 മുതൽ 1473 വരെ – 120 വർഷം, ,ക്രി.മു. 1593 മുതൽ 1473 വരെ – 120 വർഷങ്ങൾ
+temple1,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,ബി.സി.ഇ. 1513 നിസാൻ മുതൽ ബി.സി.ഇ. 1034 സിവ് വരെ,ക്രി.മു. 1513 നിസാൻ മുതൽ ക്രി.മു. 1034 സിവ് വരെ, ,ബി.സി.ഇ.യിലെ നിസാൻ 1513 മുതൽ ബി.സി.ഇ.യിലെ സിവ 1034 വരെ
+69weeks,Jesus baptized autumn 29 C.E.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,യേശു സ്നാനം സ്വീകരിച്ചത് ക്രി.വ. 29 ശരത്കാലം,ക്രി.യു. 29 ശരത്കാലത്ത് യേശു മാമ്മോദീസ മുങ്ങി, ,യേശു ക്രി.വ. 29-ലെ ശരത്കാലത്ത് ജ്ഞാനസ്നാനം നൽകി.
+year,year,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,വർഷം,വർഷം, ,വർഷം
+years,years,years, ,text,False, , , , ,വർഷങ്ങൾ,വർഷങ്ങൾ, ,വർഷങ്ങൾ
+years_age,years,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,വർഷങ്ങൾ,വർഷങ്ങൾ, ,വർഷങ്ങൾ
+age_kings,വയസ്സിൽ രാജാവായി,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,വയസ്സിൽ രാജാവായി, , 
+wilderness,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,ബി.സി.ഇ. 1513 മുതൽ 1473 വരെ മരുഭൂമിയിലെ ഇസ്രായേൽ – 40 വർഷം,മരുഭൂമിയിലെ യിസ്രായേൽ ക്രി.മു. 1513 മുതൽ 1473 വരെ – 40 വർഷം, ,പുൽമേടുകളിലെ ഇസ്രായേൽ 1513 മുതൽ 1473 ബി.സി.ഇ. – 40 വർഷം
+timespan_judges,1473 to 1117 B.C.E. – 356 years,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,ബി.സി.ഇ. 1473 മുതൽ 1117 വരെ – 356 വർഷം,ക്രി.മു. 1473 മുതൽ 1117 വരെ – 356 വർഷം, ,ക്രി.മു. 1473 മുതൽ ക്രി.മു. 1117 വരെ – 356 വർഷങ്ങൾ
+timespan_judges2,Time of the judges,Time of the judges, ,text,False, , , , ,ന്യായാധിപന്മാരുടെ കാലം,ന്യായധിപന്മാരുടെ കാലം, ,ന്യായാധിപന്മാരുടെ കാലം
+temple2,479 years until the temple construction – 1 Kings 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,ക്ഷേത്രനിർമ്മാണം വരെ 479 വർഷം – 1 രാജാക്കന്മാർ 6:1,ദേവാലയ പണിതുടക്കം വരെ 479 വർഷം – 1 രാജാക്കന്മാർ 6:1, ,ക്ഷേത്രനിർമ്മാണത്തിന് 479 വർഷങ്ങൾക്ക് മുമ്പ് – 1 രാജാക്കന്മാർ 6:1
+69weeks2,69 weeks to the Messiah – Daniel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,മെസ്സിയയ്ക്ക് 69 ആഴ്ചകൾ – ദാനീയേൽ 9:25,മിശിഹായ്ക്കുവേണ്ടിയുള്ള 69 ആഴ്ചകൾ – ദാനಿಯೇൽ 9:25, ,മിശിഹായിലേക്ക് 69 ആഴ്ചകൾ – ദാനിയേൽ 9:25
+jesus_service,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"യേശുവിന്റെ സേവനത്തിന്റെ 3.5 വർഷം, ക്രി.വ. 33 നിസാൻ 14-ന് വധിക്കപ്പെട്ടു","യേശുവിന്റെ 3.5 വർഷത്തെ ശുശ്രൂഷ, ക്രി.യു. 33 നിസാൻ 14-ന് വധിക്കപ്പെട്ടു", ,"യേശുവിൻ്റെ 3.5 വർഷത്തെ ശുശ്രൂഷ, 33 എ.ഡി. നിസാൻ 14-ന് വധിക്കപ്പെട്ടു."
+jesus_life,Jesus born 2 B.C.E.,Jesus born 2 B.C.E., ,text,False, , , , ,യേശു ജനിച്ചത് ബി.സി.ഇ. 2,ക്രി.മു. 2-ൽ യേശു ജനിച്ചു, ,യേശു ജനനം കൃ.മു. 2-ൽ
+exile,607 to 537 B.C.E. – 70 years (Jeremiah 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,ബി.സി.ഇ. 607 മുതൽ 537 വരെ – 70 വർഷം (യിരമ്യാവ് 25:11),ക്രി.മു. 607 മുതൽ 537 വരെ – 70 വർഷം (യിരെമ്യാവ് 25:11), ,ബി.സി.ഇ. 607 മുതൽ 537 വരെ – 70 വർഷം (യെഹെസ്കേൽ 25:11)
+exile2,Exile,Exile, ,text,False, , , , ,നാടുവാഴിത്തം,പ്രവാസകാലം, ,നാടുകടത്തൽ
+7times2,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7 സമയങ്ങൾ – മെസ്സിയനിക രാജ്യത്തിലേക്ക് 2520 വർഷം ക്രി.വ. 1914 (ദാനീയേൽ 4:23),"7 കാലങ്ങൾ – മിശിഹായുടെ രാജ്യത്തിനായി 2520 വർഷം, ക്രി.യു. 1914 (ദാനಿಯೇൽ 4:23)", ,"7 തവണ – മെസ്സിയാവിൻ്റെ രാജ്യത്തിലേക്ക് 2520 വർഷം, എ.ഡി. 1914 (ദാനിയേൽ 4:23)"
+ww1,World War I – 1914–1918,World War I – 1914–1918, ,text,False, , , , ,ഒന്നാം ലോകമഹായുദ്ധം – 1914–1918,ഒന്നാം ലോകമഹായുദ്ധം – 1914–1918, ,ഒന്നാം ലോകമഹായുദ്ധം – 1914–1918
+ww2,World War II – 1939–1945,World War II – 1939–1945, ,text,False, , , , ,രണ്ടാം ലോകമഹായുദ്ധം – 1939–1945,രണ്ടാം ലോകമഹായുദ്ധം – 1939–1945, ,രണ്ടാം ലോകമഹായുദ്ധം – 1939–1945
+30_year_war,Thirty Years' War in Europe 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,യൂറോപ്പിലെ മുപ്പതുവർഷ യുദ്ധം 1618-1648,യൂറോപ്പിലെ മുപ്പതുവർഷ യുദ്ധം 1618-1648, ,യൂറോപ്പിലെ മുപ്പത് വർഷത്തെ യുദ്ധം 1618-1648
+joshua,110 years,110 years, ,text,False, , , , ,110 വർഷം,110 വർഷം, ,നൂറ്റമ്പത് വർഷങ്ങൾ
+caleb,more than 85 years,more than 85 years, ,text,False, , , , ,85 വർഷത്തിൽ കൂടുതൽ,85 വർഷത്തിലധികം, ,എൺപത്തിയഞ്ച് വർഷത്തിലേറെ
+missionary1,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"പൗലോസിന്റെ ഒന്നാം മിഷനറി യാത്ര, ഏകദേശം ക്രി.വ. 47-48, ബർണ്ണബാസിനും യോഹന്നാൻ മർക്കിനും ഒപ്പം","ബർന്നബാസിനോടും യോഹന്നാൻ മർക്കോസിനോടും ഒപ്പം പൗലോസിന്റെ ഒന്നാം മിഷനറി യാത്ര, സു. ക്രി.യു. 47-48", ,"പൗലോസിൻ്റെ ആദ്യ മിഷനറി യാത്ര, ഏ.ഡി. 47-48-ൽ ബർണബാസിനും യോഹന്നാൻ മർക്കോസിനുമൊപ്പം"
+circumcision,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"ഏകദേശം ക്രി.വ. 49-ൽ അന്ത്യോക്യയിലെ ചേതനച്ഛേദപ്രശ്നം, ജറുസലേമിലെ സമ്മേളനം","അന്ത്യോക്യയിലെ പരിച്ഛേദന പ്രശ്നം, യെരുശലേം സമ്മേളനം സു. ക്രി.യു. 49", ,"അന്ത്യോക്കിയയിലെ പരിച്ഛേദന വിഷയം, ഏകദേശം 49-ൽ ജറുസലേമിൽ സമ്മേളനം."
+missionary2,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,ഏകദേശം ക്രി.വ. 49-52 രണ്ടാം മിഷനറി യാത്ര ശീലാസിനൊപ്പം (ശിൽവാനൂസ്),സീലായിനോടൊപ്പമുള്ള (സിൽവാനൊസ്) രണ്ടാം മിഷനറി യാത്ര സു. ക്രി.യു. 49-52, ,"രണ്ടാമത്തെ മിഷനറി യാത്ര, ഏ.ഡി. 49-52-ൽ സിലാസിനൊപ്പം (സിൽവാനസ്)"
+missionary3,Third Missionary Journey c. 52-56 C.E.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,ഏകദേശം ക്രി.വ. 52-56 മൂന്നാം മിഷനറി യാത്ര,മൂന്നാം മിഷനറി യാത്ര സു. ക്രി.യു. 52-56, ,"മൂന്നാം മിഷനറി യാത്ര, ഏകദേശം 52-56 എ.ഡി."
+caesarea,Paul in custody in Caesarea c. 56-58 C.E.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,ഏകദേശം ക്രി.വ. 56-58 കൈസരിയയിൽ പൗലോസ് കസ്റ്റഡിയിൽ,കൈസര്യയിൽ പൗലോസ് കാവലിൽ സു. ക്രി.യു. 56-58, ,ക്രി.വ. 56-58-ൽ കൈസരിയയിൽ പോൾ തടവിൽ
+rome1,Paul’s first imprisonment in Rome c. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,ഏകദേശം ക്രി.വ. 59-61 റോമിൽ പൗലോസിന്റെ ഒന്നാം തടവ്,റോമിൽ പൗലോസിന്റെ ഒന്നാം തടവറ വാസം സു. ക്രി.യു. 59-61, ,"പൗലോസിന്റെ റോമിലെ ആദ്യത്തെ തടവുശിക്ഷ, ഏകദേശം 59-61 എ.ഡി."
+rome2,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"ഏകദേശം ക്രി.വ. 65-ൽ റോമിൽ പൗലോസിന്റെ രണ്ടാം തടവ്, 2 തിമൊത്തിയോസ് എഴുതി, പൗലോസ് വധിക്കപ്പെട്ടു","റോമിൽ പൗലോസിന്റെ രണ്ടാം തടവറ വാസം സു. ക്രി.യു. 65, 2 തിക്കൊദ്യൊസ് എഴുതപ്പെട്ടു, പൗലോസ് വധിക്കപ്പെട്ടു", ,"ക്രി.പോ. 65-ൽ റോമിൽ പൗലോസിൻ്റെ രണ്ടാമത്തെ തടവ്, 2 തിമോഥെയോസിന് എഴുതിയത്, പൗലോസിൻ്റെ വധം"
+event_exodus,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,ബി.സി.ഇ. 1513 നിസാൻ 14-ന് ഈജിപ്തിൽ നിന്നുള്ള പുറപ്പാട്,ക്രി.മു. 1513 നിസാൻ 14-ന് മിസ്രയീമിൽനിന്നുള്ള യാത്രപുറപ്പെടൽ, ,ക്രി.മു. 1513-ലെ നിസാൻ 14-ന് ഈജിപ്തിൽ നിന്നുള്ള പലായനം.
+event_division_kingdom,Division of Israel 997 BCE,Division of Israel 997 BCE, ,text,False, , , , ,ബി.സി.ഇ. 997-ൽ ഇസ്രായേലിന്റെ വിഭജനം,യിസ്രായേലിന്റെ വിഭജനം ക്രി.മു. 997, ,ബി.സി.ഇ 997-ലെ ഇസ്രായേലിന്റെ വിഭജനം
+event_destruction_samaria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,ബി.സി.ഇ. 740-ൽ അസ്സീരിയയാൽ ശമരിയയുടെ നാശം,"അസ്സീറിയ ശമര്യ നശിപ്പിച്ചു, ബി.സി.ഇ. 740", ,ഏ.സി. 740-ൽ അസ്സീരിയയാൽ ശമരിയയുടെ നാശം
+event_destruction_jerusalem1,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"ബി.സി.ഇ. 607-ൽ ബാബിലോൺ വഴി ജറുസലേമിന്റെ നാശം, രാജ്യത്തിന്റെ വിഭജനത്തിന് ശേഷം 390 വർഷം (യെശയ്യാവ് 4:5)","ബാബിലോൺ യെരൂശലേം നശിപ്പിച്ചു, ബി.സി.ഇ. 607, രാജ്യത്തിന്റെ വിഭജനത്തിനു ശേഷം 390 വർഷം കഴിഞ്ഞ് (യെഹെസ്കേൽ 4:5)", ,"ബാബിലോൺ യെരുശലേമിനെ നശിപ്പിച്ചത്, രാജ്യം വിഭജിച്ചതിന് 390 വർഷങ്ങൾക്ക് ശേഷം, ഇ.മു. 607-ൽ (യെഹെസ്കേൽ 4:5)"
+event_temple_rebuilt,Temple in Jerusalem rebuilt 515 B.C.E.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,ബി.സി.ഇ. 515-ൽ ജറുസലേമിലെ ക്ഷേത്രം പുനർനിർമ്മിച്ചു,"യെരൂശലേമിലെ ദേവാലയം പുനർനിർമ്മിച്ചു, ബി.സി.ഇ. 515", ,ജറുസലേമിലെ ക്ഷേത്രം ബി.സി.ഇ. 515-ൽ പുനർനിർമ്മിച്ചു.
+event_jerusalem_rebuilt,Jerusalem wall rebuilt 455 B.C.E.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,ബി.സി.ഇ. 455-ൽ ജറുസലേമിന്റെ മതിൽ പുനർനിർമ്മിച്ചു,"യെരൂശലേമിന്റെ മതിൽ പുനർനിർമ്മിച്ചു, ബി.സി.ഇ. 455", ,ക്രി.മു. 455-ൽ ജറുസലേം മതിൽ പുനർനിർമ്മിച്ചു.
+event_destruction_jerusalem2,Destruction of Jerusalem 70 C.E. by Rome under Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,ക്രി.വ. 70-ൽ റോമാക്കാർ ടൈറ്റസിന്റെ കീഴിൽ ജറുസലേം നശിപ്പിച്ചു,"ടൈറ്റസിന്റെ കീഴിലുള്ള റോമാക്കാർ യെരൂശലേം നശിപ്പിച്ചു, സി.ഇ. 70", ,ക്രി.പി. 70-ൽ ടൈറ്റസിൻ്റെ നേതൃത്വത്തിലുള്ള റോം ജറുസലേം നശിപ്പിച്ചത്
+event_1914,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"ജനതകാലത്തിന്റെ അവസാനം (ലൂക്കോസ് 21:24), ദൈവത്തിന്റെ രാജ്യം സ്വർഗ്ഗത്തിൽ ഭരിച്ചു തുടങ്ങി ക്രി.വ. 1914","ജനങ്ങളുടെ കാലഘട്ടം അവസാനിക്കുന്നു (ലൂക്കോസ് 21:24), ദൈവരാജ്യം സ്വർഗ്ഗത്തിൽ ഭരണം ആരംഭിക്കുന്നു, സി.ഇ. 1914", ,"ജനതകളുടെ കാലത്തിന്റെ അന്ത്യത്തിൽ (ലൂക്കോസ് 21:24), ദൈവരാജ്യം 1914-ൽ സ്വർഗ്ഗത്തിൽ ഭരണം ആരംഭിച്ചു."
+became_king,,becomes king at age,2025-04-14,text,False, , , , ,പ്രായത്തിൽ രാജാവാകുന്നു,, ,വയസ്സിൽ രാജാവ് ആകുന്നു
+vulgate,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,ഏകദേശം ക്രി.വ. 405-ൽ ജെറോം പൂർത്തിയാക്കിയ വൾഗേറ്റ് (ബൈബിളിന്റെ ലാറ്റിൻ പരിഭാഷ),"ജെറോം വുൽഗേറ്റ് പൂർത്തിയാക്കുന്നു (ബൈബിളിന്റെ ലത്തീൻ വിവർത്തനം), ഏകദേശം സി.ഇ. 405", ,"ജെറോം പൂർത്തിയാക്കിയ വൾഗേറ്റ് (ബൈബിളിന്റെ ലത്തീൻ പരിഭാഷ), ഏകദേശം 405 എ.സി."
+gutenberg,Gutenberg Bible printed 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,1455-ൽ ഗുട്ടൻബർഗ് ബൈബിൾ അച്ചടിച്ചു,"ഗുട്ടൻബർഗ് ബൈബിൾ അച്ചടിച്ചു, 1455", ,ഗുട്ടൻബെർഗ് ബൈബിൾ അച്ചടിച്ചത് 1455-ൽ
+erasmus,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,1516-ൽ റോട്ടർഡാമിലെ ഡെസിഡേറിയസ് ഇറാസ്മസ് പ്രസിദ്ധീകരിച്ച ക്രിസ്ത്യൻ ഗ്രീക്ക് തിരുവെഴുത്തുകളുടെ ഗ്രീക്ക് പാഠം,"റോട്ടർഡാമിലെ ഡെസിഡെറിയസ് ഇറാസ്മസ് ക്രിസ്തീയ ഗ്രീക്ക് തിരുവെഴുത്തുകളുടെ ഗ്രീക്ക് പാഠം പ്രസിദ്ധീകരിച്ചു, 1516", ,റോട്ടർഡാമിലെ ഡെസിഡേറിയസ് എറാസ്മസ് 1516-ൽ പ്രസിദ്ധീകരിച്ച ക്രിസ്ത്യൻ ഗ്രീക്ക് തിരുവെഴുത്തുകളുടെ ഗ്രീക്ക് പാഠം
+luther,Luther Bible translation in September 1522,Luther Bible translation in September 1522, ,text,False, , , , ,1522 സെപ്റ്റംബറിൽ ലൂത്തർ ബൈബിൾ പരിഭാഷ,ലൂഥർ ബൈബിൾ വിവർത്തനം സെപ്റ്റംബർ 1522-ൽ, ,1522 സെപ്റ്റംബറിലെ ലൂഥർ ബൈബിൾ വിവർത്തനം
+tyndale,English Bible translation by Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , ,1536-ൽ ടിൻഡേൽ ആംഗലേയ ബൈബിൾ പരിഭാഷ,"ടിൻഡേൽ നടത്തിയ ഇംഗ്ലീഷ് ബൈബിൾ വിവർത്തനം, 1536", ,ടൈൻഡേൽ 1536-ലെ ബൈബിൾ വിവർത്തനം
+king_james,King James Bible 1611,King James Bible 1611, ,text,False, , , , ,രാജാവ് ജേയിംസ് ബൈബിൾ 1611,"കിംഗ് ജെയിംസ് ബൈബിൾ, 1611", ,കിംഗ് ജെയിംസ് ബൈബിൾ 1611
+69weeks3,"Jesus starts his service 29 CE (Luke 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"യേശു തന്റെ സേവനം ആരംഭിക്കുന്നു 29 സി.ഇ. (ലൂക്ക 3:1, 21)","യേശു തന്റെ ശുശ്രൂഷ ആരംഭിക്കുന്നു, സി.ഇ. 29 (ലൂക്കോസ് 3:1, 21)", ,"യേശു തൻ്റെ ശുശ്രൂഷ 29-ൽ ആരംഭിക്കുന്നു (ലൂക്കോസ് 3:1, 21)"
+ransom,Middle of week “sacrifice to cease” Daniel 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,"ആഴ്ചയുടെ മധ്യത്തിൽ ""ബലി നിലയ്ക്കും"" ദാനീയേൽ 9:27",ആഴ്ചയുടെ മധ്യത്തിൽ “യാഗവും വഴിപാടും നിന്നുപോകും” ദാനിയേൽ 9:27, ,"ആഴ്ചയുടെ മദ്ധ്യം ""നിർത്തലാക്കാനുള്ള ബലി"" ദാനിയേൽ 9:27"
+cornelius,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,70 ആഴ്ചകളുടെ അവസാനം കോർണേലിയോസ് സ്നാനം സ്വീകരിക്കുന്നു (ദാനീയേൽ 9:24) 36 സി.ഇ.,"70 ആഴ്ചകളുടെ അവസാനം കൊർന്നേല്യോസ് സ്നാനമേൽക്കുന്നു (ദാനിയേൽ 9:24), സി.ഇ. 36-ൽ", ,"ക്രി.വ. 36-ൽ, എഴുപത് ആഴ്ചകളുടെ അവസാനത്തിൽ കൊർണേലിയോസ് ജ്ഞാനസ്നാനം ചെയ്യപ്പെട്ടു (ദാനിയേൽ 9:24)."
+columbus,End of the pre-columbian period in the Americas 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,1492-ൽ അമേരിക്കയിലെ പ്രീ-കൊളംബിയൻ കാലഘട്ടത്തിന്റെ അന്ത്യം,"അമേരിക്കയിലെ കൊളംബിയൻ പൂർവ്വ കാലഘട്ടത്തിന്റെ അവസാനം, 1492", ,അമേരിക്കയിലെ കൊളംബസിന് മുമ്പുള്ള കാലഘട്ടത്തിന്റെ അവസാനം 1492
+declaration_independence,Declaration of independence of 13 colonies in America 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,1776-ൽ അമേരിക്കയിലെ 13 കോളനികളുടെ സ്വാതന്ത്ര്യ പ്രഖ്യാപനം,"അമേരിക്കയിലെ 13 കോളനികളുടെ സ്വാതന്ത്ര്യ പ്രഖ്യാപനം, 1776", ,അമേരിക്കയിലെ 13 കോളനികളുടെ 1776-ലെ സ്വാതന്ത്ര്യ പ്രഖ്യാപനം
+tischendorf,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,1844-ൽ ടിഷൻഡോർഫ് നാലാം നൂറ്റാണ്ടിലെ കോഡക്സ് സിനായ്റ്റിക്കസ് കണ്ടെത്തുന്നു,"നാലാം നൂറ്റാണ്ടിലെ കൊഡെക്സ് സിനായിറ്റിക്കസ് ടിഷെൻഡോർഫ് കണ്ടെത്തുന്നു, 1844", ,1844-ൽ ടിഷൻഡോർഫ് നാലാം നൂറ്റാണ്ടിലെ കോഡെക്സ് സിനൈറ്റിക്കസ് കണ്ടെത്തുന്നു
+dead_sea_scrolls,Dead Sea Scrolls written,Dead Sea Scrolls written, ,text,False, , , , ,ഡെഡ് സീ സ്ക്രോളുകൾ എഴുതപ്പെട്ടു,ചാവടൽ ചുരുളുകൾ എഴുതപ്പെട്ടു, ,മരിച്ച കടൽ രേഖകൾ എഴുതിയ
+septuagint,Septuagint LXX translated,Septuagint LXX translated, ,text,False, , , , ,സെപ്ത്വജിന്റ് LXX വിവർത്തനം ചെയ്യപ്പെട്ടു,സെപ്ത്വജിന്റ് LXX വിവർത്തനം ചെയ്യപ്പെട്ടു, ,സെപ്റ്റുവജിന്റ് എൽ.എക്സ്.എക്സ് വിവർത്തനം ചെയ്തു
+watchtower,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,"""സയോന്റെ വാച്ച് ടവറും ക്രിസ്തുവിന്റെ സാന്നിധ്യത്തിന്റെ ദൂതനും"" ആദ്യ ലക്കം 1879-ൽ പ്രസിദ്ധീകരിച്ചു","“സീയോന്റെ കാവൽഗോപുരവും ക്രിസ്തുവിന്റെ സാന്നിധ്യത്തിന്റെ ઘોషകനും” എന്ന മാസികയുടെ ആദ്യ ലക്കം പ്രസിദ്ധീകരിച്ചു, 1879", ,"""സിയോന്റെ വാച്ച് ടവർ ആൻഡ് ഹെറാൾഡ് ഓഫ് ക്രിസ്റ്റിസ് പ്രസൻസ്""-ന്റെ ആദ്യ ലക്കം 1879-ൽ പ്രസിദ്ധീകരിച്ചു."
+jehovahs_witnesses,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"ബൈബിൾ വിദ്യാർത്ഥികൾ ഒരു പുതിയ പേര് സ്വീകരിക്കുന്നു – യഹോവയുടെ സാക്ഷികൾ (യെശയ്യാവ് 43:10, 12) കൊളംബസ്, ഒഹായോ, 1931-ൽ","ഒഹായോയിലെ കൊളംബസിൽ വെച്ച് ബൈബിൾ വിദ്യാർത്ഥികൾ ഒരു പുതിയ പേര് സ്വീകരിക്കുന്നു - യഹോവയുടെ സാക്ഷികൾ (യെശയ്യാവു 43:10, 12), 1931", ,"1931-ൽ ഒഹായോയിലെ കൊളംബസിൽ ബൈബിൾ സ്റ്റുഡൻ്റ്സ് ഒരു പുതിയ പേര് സ്വീകരിച്ചു – യഹോവയുടെ സാക്ഷികൾ (ഏശയ്യ 43:10, 12)."
+gilead_school,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"വാച്ച്ടവർ ബൈബിൾ സ്കൂൾ ഓഫ് ഗിലേയാദ് 1943 ഫെബ്രുവരി 1, തിങ്കളാഴ്ച ആരംഭിക്കുന്നു","ഗിലെയാദ് വാച്ച്ടവർ ബൈബിൾ സ്കൂൾ ആരംഭിക്കുന്നു, തിങ്കളാഴ്ച, ഫെബ്രുവരി 1, 1943", ,"ഗിലെയാദിലെ വാച്ച്ടവർ ബൈബിൾ സ്കൂൾ 1943 ഫെബ്രുവരി 1, തിങ്കളാഴ്ച ആരംഭിച്ചു."
+new_world_translation1,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"""പുതിയ ലോക വിശുദ്ധ ഗ്രന്ഥങ്ങളുടെ വിവർത്തനം"" 1960 ജൂൺ 18-ന് മാഞ്ചസ്റ്റർ, ഇംഗ്ലണ്ടിൽ പുറത്തിറക്കി, ബൈബിളിന്റെ പല ഭാഗങ്ങളിലും യഹോവ എന്ന നാമം പുനരാവിഷ്ക്കരിച്ചു","ബൈബിളിന്റെ പല ഭാഗങ്ങളിലും യഹോവ എന്ന നാമം പുനഃസ്ഥാപിച്ചുകൊണ്ട്, ഇംഗ്ലണ്ടിലെ മാഞ്ചസ്റ്ററിൽ വെച്ച് “വിശുദ്ധ തിരുവെഴുത്തുകളുടെ പുതിയ ലോക പരിഭാഷ” പുറത്തിറങ്ങി, ജൂൺ 18, 1960", ,"1960 ജൂൺ 18-ന് ഇംഗ്ലണ്ടിലെ മാഞ്ചസ്റ്ററിൽ പുറത്തിറങ്ങിയ ""പുതിയ ലോക വിവർത്തനം"" ബൈബിളിലെ പല ഭാഗങ്ങളിലും യഹോവ എന്ന നാമം പുനരവതരിപ്പിക്കുന്നു."
+new_world_translation2,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"പുതുക്കിയ ""പുതിയ ലോക വിശുദ്ധ ഗ്രന്ഥങ്ങളുടെ വിവർത്തനം"" 2013-ലെ വാർഷിക സമ്മേളനത്തിൽ പുറത്തിറക്കി, ഡിജിറ്റലായിയും ഓൺലൈനിലും ഉപയോഗിക്കാൻ അനുയോജ്യമാക്കി","ഡിജിറ്റലായും ഓൺലൈനായും ഉപയോഗിക്കാൻ അനുയോജ്യമായ രീതിയിൽ പരിഷ്കരിച്ച “വിശുദ്ധ തിരുവെഴുത്തുകളുടെ പുതിയ ലോക പരിഭാഷ” വാർഷിക യോഗത്തിൽ പുറത്തിറക്കി, 2013", ,"2013-ലെ വാർഷിക യോഗത്തിൽ പുറത്തിറങ്ങിയ, പരിഷ്കരിച്ച ""പരിശുദ്ധ തിരുവെഴുത്തുകളുടെ പുതിയ ലോക പരിഭാഷ"", ഡിജിറ്റലായും ഓൺലൈനായും ഉപയോഗിക്കുന്നതിനായി മെച്ചപ്പെടുത്തിയത്."
+cold_war,Geopolitical situation labeled “Cold War” 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,"""ശീതയുദ്ധം"" എന്ന് ലേബൽ ചെയ്യപ്പെട്ട ഭൂമിശാസ്ത്ര സാഹചര്യം 1945-1991","ഭൗമരാഷ്ട്രീയ സാഹചര്യം “ശീതയുദ്ധം” എന്ന് വിളിക്കപ്പെട്ടു, 1945-1991", ,"""ശീതയുദ്ധം"" എന്ന് പേരിട്ടിരിക്കുന്ന ഭൗമരാഷ്ട്രീയ സാഹചര്യം 1945-1991"
+codex_sinaiticus,Codex Sinaiticus written,Codex Sinaiticus written, ,text,False, , , , ,കോഡക്സ് സിനായ്റ്റിക്കസ് എഴുതപ്പെട്ടു,കൊഡെക്സ് സിനായിറ്റിക്കസ് എഴുതപ്പെട്ടു, ,കോഡെക്സ് സിനൈറ്റിക്കസ് എഴുതിയ
+codex_vaticanus,Codex Vaticanus written,Codex Vaticanus written, ,text,False, , , , ,കോഡക്സ് വാറ്റിക്കാനസ് എഴുതപ്പെട്ടു,കൊഡെക്സ് വടിക്കാൻ എഴുതപ്പെട്ടു, ,കോഡെക്സ് വാട്ടിക്കാനസ് എഴുതിയ
+leningrad_codex,Leningrad Codex written in Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,ലെനിൻഗ്രാഡ് കോഡക്സ് കൈറോയിൽ എ.ഡി. 1008-ൽ എഴുതപ്പെട്ടു,"കെയ്റോയിൽ വെച്ച് ലെനിൻഗ്രാഡ് കൊഡെക്സ് എഴുതപ്പെട്ടു, എ.ഡി. 1008", ,കെയ്‌റോയിൽ എ.ഡി. 1008-ൽ രചിച്ച ലെനിൻഗ്രാഡ് കോഡെക്സ്
+john,John writes “revelation” while exiled on Patmos 96-98 C.E.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,"യോഹന്നാൻ പാറ്റ്മോസിൽ നാടുകടത്തപ്പെട്ടപ്പോൾ ""വെളിപ്പാട്"" എഴുതുന്നു 96-98 സി.ഇ.","പത്മോസ് ദ്വീപിൽ പ്രവാസത്തിലിരിക്കെ യോഹന്നാൻ “വെളിപാട്” എഴുതുന്നു, സി.ഇ. 96-98", ,"ജോൺ, ക്രി.വ. 96-98-ൽ പാറ്റമോസ് ദ്വീപിൽ വസതിയിൽ ആയിരിക്കുമ്പോൾ ""പ്രകാശനം"" എഴുതി."
+buddha,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,ബുദ്ധൻ – സിദ്ധാർത്ഥ ഗൗതമ c.563-c.483 ബി.സി.ഇ,"ബുദ്ധൻ – സിദ്ധാർത്ഥ ഗൗതമൻ, ഏകദേശം ബി.സി.ഇ. 563-483", ,"ബുദ്ധൻ – സിദ്ധാർത്ഥ ഗൗതമ, ഏകദേശം 563-483 ബി.സി.ഇ."
+buddha2,Buddha alternatively c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,ബുദ്ധൻ ബദൽമാർഗ്ഗം c. 480-400 ബി.സി.ഇ.,"ബുദ്ധൻ മറ്റൊരു കാലഘട്ടത്തിൽ, ഏകദേശം ബി.സി.ഇ. 480-400", ,ബുദ്ധൻ (ഏകദേശം) ക്രി.മു. 480-400
+mohammed,Mohammed c. 570-632,Mohammed c. 570-632, ,text,False, , , , ,മുഹമ്മദ് c. 570-632,"മുഹമ്മദ് നബി, ഏകദേശം 570-632", ,മുഹമ്മദ് ഏകദേശം 570-632
+confucius,Confucius c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,കൺഫ്യൂഷ്യസ് c.551-c.479 ബി.സി.ഇ.,"കൺഫ്യൂഷ്യസ്, ഏകദേശം ബി.സി.ഇ. 551-479", ,കൺഫ്യൂഷ്യസ് ഏ. 551-ഏ. 479 ബി.സി.ഇ.
+hijrah,Hijrah - Journey Mecca to Medina 16 July 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,ഹിജ്റ - മക്കയിൽ നിന്ന് മദീനയിലേക്കുള്ള യാത്ര 16 ജൂലൈ 622,"ഹിജ്റ - മക്കയിൽ നിന്ന് മദീനയിലേക്കുള്ള യാത്ര, 16 ജൂലൈ 622", ,"ഹിജ്റ - മക്കയിൽ നിന്ന് മദീനയിലേക്കുള്ള യാത്ര, 16 ജൂലൈ 622"
+moses_escape,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 ബി.സി.ഇ. മോശെ ഈജിപ്തിൽ നിന്ന് രക്ഷപ്പെടേണ്ടി വരുന്നു – പുറപ്പാടു 2:15, പ്രവൃത്തികൾ 7:23","മോശ ഈജിപ്തിൽ നിന്ന് ഓടിപ്പോകേണ്ടി വരുന്നു, ബി.സി.ഇ. 1553 – പുറപ്പാട് 2:15, പ്രവൃത്തികൾ 7:23", ,"ക്രി.മു. 1553-ൽ മോശയ്ക്ക് ഈജിപ്തിൽ നിന്ന് രക്ഷപ്പെടേണ്ടി വന്നു – പുറപ്പാട് 2:15, അപ്പൊസ്തലന്മാരുടെ പ്രവൃത്തികൾ 7:23"
+10plagues,1513 B.C.E Egypt receives 10 plagues,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 ബി.സി.ഇ. ഈജിപ്തിന് 10 പകർച്ചവ്യാധികൾ ലഭിക്കുന്നു,"ഈജിപ്തിന് 10 ബാധകൾ ലഭിക്കുന്നു, ബി.സി.ഇ. 1513", ,ക്രി.മു. 1513-ൽ ഈജിപ്ത് പത്ത് പകർച്ചവ്യാധികൾ ഏറ്റുവാങ്ങി.
+joseph_sold,Joseph sold as slave at the age of 17 – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,ജോസെഫ് 17 വയസ്സിൽ അടിമയായി വിൽക്കപ്പെടുന്നു – ഉല്പത്തി 37:2,യോസേഫ് 17-ാം വയസ്സിൽ അടിമയായി വിൽക്കപ്പെടുന്നു – ഉല്പത്തി 37:2, ,യോസേഫ് 17 വയസ്സുള്ളപ്പോൾ അടിമയായി വിറ്റു – ഉല്പത്തി 37:2
+infliction,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400 വർഷത്തെ കഷ്ടപ്പാട് (പ്രവൃത്തികൾ 7:6) – ഇസ്മായേൽ 1913 ബി.സി.ഇ,"400 വർഷത്തെ പീഡനം (പ്രവൃത്തികൾ 7:6) – ഇസ്മായേൽ, ബി.സി.ഇ. 1913", ,400 വർഷത്തെ ശിക്ഷ (അപ്പൊസ്തലന്മാരുടെ പ്രവൃത്തികൾ 7:6) – ഇസ്മായേൽ ഇ.ബി.സി.ഇ 1913
+Alexander,Alexander the Great (Daniel 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,സിക്കണ്ടർ ദി ഗ്രേറ്റ് (ദാനീയേൽ 11:3),മഹാ അലക്സാണ്ടർ (ദാനിയേൽ 11:3), ,മഹാനായ അലക്സാണ്ടർ (ദാനിയേൽ 11:3)
+persia,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"സൈറസ് ദി ഗ്രേറ്റ്, കാംബിസസ് II, ദാരിയസ് I 490 ബി.സി.ഇ, സെർക്സെസ് I 480 ബി.സി.ഇ (എസ്ഥേറിന്റെ ഭർത്താവ്, ദാനീയേൽ 11:2)","കോരേഷ് മഹാരാജാവ്, കാംബിസെസ് രണ്ടാമൻ, ദാരിയസ് ആദ്യൻ ക്രി.മു. 490, ജെർക്സെസ് ആദ്യൻ ക്രി.മു. 480 (എസ്തറിന്റെ ഭർത്താവ്, ദാനിയേൽ 11:2)", ,"മഹാനായ സൈറസ്, കാംബൈസസ് II, ദാരിയസ് I (ബി.സി. 490), സെർക്സസ് I (ബി.സി. 480) (എസ്തേരിന്റെ ഭർത്താവ്, ദാനിയേൽ 11:2)"
+king_north,"Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"സെല്യൂക്കസ് I നിക്കട്ടർ (v5) സിറിയ മുതൽ ആന്റിയോക്കസ് III (v10) സെല്യൂക്കസ് IV (v18, 19) മുതൽ ഒക്ടാവിയൻ (v20) ടൈബീരിയസ് (v21-24) വരെ","സെലൂക്കസ് ആദ്യൻ നിക്കേറ്റർ (വാക്യം 5) സിറിയ മുതൽ അന്ത്യോക്യൂസ് മൂന്നാമൻ (വാക്യം 10) സെലൂക്കസ് നാലാമൻ (വാക്യം 18, 19) ഒക്ടാവിയൻ (വാക്യം 20) തിബെരിയോസ് (വാക്യം 21-24) വരെ", ,"സെലൂക്കസ് ഒന്നാം നിക്കാറ്റർ (v5) മുതൽ അന്തിയോക്കസ് മൂന്നാമൻ (v10), സെലൂക്കസ് നാലാമൻ (v18, 19) വരെയും, ഒടുവിൽ ഒക്ടേവിയൻ (v20), ടിബീരിയസ് (v21-24) വരെയും."
+king_north1,King of the North,King of the North, ,text,False, , , , ,വടക്കിന്റെ രാജാവ്,വടക്കുദിക്കിലെ രാജാവ്, ,വടക്കൻ രാജാവ്
+king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"പ്റ്റോളമി I, II, III, IV (v11, 12), V (v15, 16) മുതൽ ആക്ടിയം യുദ്ധം 31 ബി.സി.ഇ. വരെ","ടോളമി ഒന്ന്, രണ്ട്, മൂന്ന്, നാല് (വാക്യം 11, 12), അഞ്ച് (വാക്യം 15, 16) ക്രി.മു. 31-ലെ ആക്ടിയം യുദ്ധം വരെ", ,"പട്ടോളമി ഒന്ന്, രണ്ട്, മൂന്ന്, നാല് (v11, 12), അഞ്ച് (v15, 16), ബി.സി.ഇ. 31-ലെ ആക്റ്റിയം യുദ്ധം വരെ."
+king_south1,King of the South,King of the South, ,text,False, , , , ,തെക്കിന്റെ രാജാവ്,തെക്കുദിക്കിലെ രാജാവ്, ,ദക്ഷിണ രാജാവ്
+king_south2,"British Empire 1870, Anglo-American World Power since 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"ബ്രിട്ടീഷ് സാമ്രാജ്യം 1870, 1914 മുതൽ ആംഗ്ലോ-അമേരിക്കൻ ലോക ശക്തി","ബ്രിട്ടീഷ് സാമ്രാജ്യം 1870, 1914 മുതൽ ആംഗ്ലോ-അമേരിക്കൻ ലോകശക്തി", ,"ബ്രിട്ടീഷ് സാമ്രാജ്യം 1870, 1914 മുതൽ ആംഗ്ലോ-അമേരിക്കൻ ലോകശക്തി"
+king_south3,King of the South,King of the South, ,text,False, , , , ,തെക്കിന്റെ രാജാവ്,തെക്കുദിക്കിലെ രാജാവ്, ,ദക്ഷിണ രാജാവ്
+king_north2,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"ജർമ്മനി ചക്രവർത്തി വില്യം I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","ചക്രവർത്തി വില്യം ഒന്നാമനൊപ്പം ജർമ്മനി 1871 (വാക്യം 28), 1914 (വാക്യം 29), 1935 (വാക്യം 30ബി), 1939 (വാക്യം 31എ)", ,"ജർമ്മനി, ചക്രവർത്തി വില്യം ഒന്നാമൻ, 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,North,North, ,text,False, , , , ,വടക്ക്,വടക്ക്, ,വടക്ക്
+king_north4,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"സോവിയറ്റ് യൂണിയൻ 1945-1991 (ദാനീയേൽ 11:32-39, 40b, 41)","സോവിയറ്റ് യൂണിയൻ 1945-1991 (ദാനിയേൽ 11:32-39, 40ബി, 41)", ,"സോവിയറ്റ് യൂണിയൻ 1945-1991 (ദാനിയേൽ 11:32-39, 40ബി, 41)"
+king_north5,Russia since 2017 (w20 May),Russia since 2017 (w20 May), ,text,False, , , , ,2017 മുതൽ റഷ്യ (w20 May),2017 മുതൽ റഷ്യ (w20 മെയ്), ,റഷ്യ 2017 മുതൽ (w20 മെയ്)
+time_of_end,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"ക്രിസ്തുവിന്റെ സാന്നിധ്യം, കാലഘട്ടത്തിന്റെ അന്ത്യം (മത്തായ 24:3), അവസാന ദിവസങ്ങൾ (2 തിമൊത്തയോസ് 3:1)","ക്രിസ്തുവിന്റെ സാന്നിധ്യം, വ്യവസ്ഥിതിയുടെ അവസാനം (മത്തായി 24:3), അന്ത്യകാലം (2 തിമൊഥെയൊസ് 3:1)", ,"ക്രിസ്തുവിൻ്റെ സാന്നിധ്യം, കാര്യങ്ങളുടെ വ്യവസ്ഥയുടെ സമാപ്തി (മത്തായി 24:3), അവസാന ദിനങ്ങൾ (2 തിമോഥിയോസ് 3:1)"
+time_of_end2,Last days,Last days, ,text,False, , , , ,അവസാന ദിവസങ്ങൾ,അന്ത്യകാലം, ,അവസാന ദിവസങ്ങൾ
+suryavaman2,King Suryavarman II builds Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,രാജാവ് സൂര്യവർമ്മൻ II അങ്കോർ വാട്ട് നിർമ്മിക്കുന്നു 1113-1150,സൂര്യവർമ്മൻ രണ്ടാമൻ രാജാവ് അംഗോർ വാട്ട് നിർമ്മിക്കുന്നു 1113-1150, ,രാജാവ് സൂര്യവർമ്മൻ II അങ്കോർ വാട്ട് നിർമ്മിക്കുന്നു 1113-1150
+notre-dame,Notre-Dame de Paris built 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,നോട്രെ-ദാം ദെ പാരീസ് നിർമ്മിച്ചു 1163-1260,നോത്ര ദാം ഡി പാരിസ് നിർമ്മിച്ചത് 1163-1260, ,"നോട്ടർ ഡാം ദി പാരീസ്, നിർമ്മിച്ചത് 1163-1260"
+babel,Tower of Babel built,Tower of Babel built, ,text,False, , , , ,ബാബേൽ ഗോപുരം നിർമ്മിച്ചു,ബാബേൽ ഗോപുരം പണിതു, ,ബാബെൽ ഗോപുരം നിർമ്മിച്ചു
+infliction1,400 year infliction,400 year infliction,Acts 7:6,text,False, , , , ,400 വർഷത്തെ കഷ്ടപ്പാട്,400 വർഷത്തെ ഉപദ്രവം, ,400 വർഷത്തെ പീഡനം
+Lots_wife,Lot’s wife,Lot’s wife, ,text,False, , , , ,ലോത്തിന്റെ ഭാര്യ,ലോത്തിന്റെ ഭാര്യ, ,ലോത്തിൻ്റെ ഭാര്യ
+Lots_daughters,Daughters of Lot,Daughters of Lot, ,text,False, , , , ,ലോത്തിന്റെ മകളുടെ മകൾ,ലോത്തിന്റെ പുത്രിമാർ, ,ലോത്തിൻ്റെ പെൺമക്കൾ
+Moab,Moab (older daughter),Moab (older daughter),Genesis 19:37,text,False, , , , ,മോവാബ് (മൂത്ത മകൾ),മോവാബ് (മൂത്ത മകൾ), ,മോബ് (മൂത്ത മകൾ)
+rosetta,Rosetta stone 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False, , , , ,റോസെറ്റ സ്റ്റോൺ 196 ബി.സി.ഇ.,റൊസെറ്റ ശില ക്രി.മു. 196, ,റോസറ്റാ കല്ല് 196 ബി.സി.ഇ.
+Herodotus,"Herodotus c. 484 – c. 425 BC, writes The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"ഹെറോഡോട്ടസ് സ. 484 – c. 425 ബ. ക്രി., ദി ഹിസ്റ്ററീസ് രചിക്കുന്നു","ഹെറോഡോട്ടസ് ഏകദേശം ക്രി.മു. 484 – ഏകദേശം ക്രി.മു. 425, ദി ഹിസ്റ്ററീസ് എഴുതുന്നു", ,"ഹെറോഡോട്ടസ് (ഏ. 484 – ഏ. 425 ബി.സി.), 'ദി ഹിസ്റ്ററീസ്' എഴുതി."
+Aristotle,Aristotle 384 – 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,അരിസ്റ്റോട്ടിൽ 384 – 322 ബ. ക്രി.,അരിസ്റ്റോട്ടിൽ ക്രി.മു. 384 – 322, ,അരിസ്റ്റോട്ടിൽ 384 – 322 ബി.സി.
+Ptolemy,Ptolemy c 100 – c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,പ്രോളമി സ. 100 – c. 170 സ. വ.,ടോളമി ഏകദേശം 100 – ഏകദേശം 170 സി.ഇ., ,പട്ടോളമി ഏകദേശം 100 – ഏകദേശം 170 ക്.എ.
+Pythagoras,Pythagoras c. 570 – c. 495 BC,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,പൈതഗറസ് c. 570 – c. 495 ബ. ക്രി.,പൈതഗോറസ് ഏകദേശം ക്രി.മു. 570 – ഏകദേശം ക്രി.മു. 495, ,പൈതഗോറസ് ഏകദേശം 570 – ഏകദേശം 495 ബി.സി.
+Plato,Plato c. 427 – c. 348 BC,Plato c. 427 – c. 348 BC, ,text,False, , , , ,പ്ലേറ്റോ c. 427 – c. 348 ബ. ക്രി.,പ്ലേറ്റോ ഏകദേശം ക്രി.മു. 427 – ഏകദേശം ക്രി.മു. 348, ,പ്ലേറ്റോ ഏകദേശം 427 – ഏകദേശം 348 ബി.സി.
+Socrates,Socrates c. 470 – c. 399 BC,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,സോക്രട്ടീസ് c. 470 – c. 399 ബ. ക്രി.,സോക്രട്ടീസ് ഏകദേശം ക്രി.മു. 470 – ഏകദേശം ക്രി.മു. 399, ,"സോക്രട്ടീസ്, ഏകദേശം 470 – ഏകദേശം 399 ബി.സി."
+Josephus,Josephus c. 37 – c. 100 C.E.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,ജോസീഫസ് c. 37 – c. 100 സ. വ.,ജോസിഫസ് ഏകദേശം 37 – ഏകദേശം 100 സി.ഇ., ,ജോസെഫസ് ഏകദേശം 37 – ഏകദേശം 100 ക്രി.പി.
+Cicero,Cicero 106–43 BC,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,സിസറോ 106–43 ബ. ക്രി.,സിസറോ ക്രി.മു. 106–43, ,സിസറോ 106–43 ബി.സി.
+lachish_letters,Lachish letters c. 590 B.C.E.,Lachish letters c. 590 B.C.E., ,text,False, , , , ,ലാക്കീഷ് ലക്ഷ്യങ്ങൾ c. 590 ബ. ക്. മ.,ലക്കീഷ് ലേഖനങ്ങൾ ഏകദേശം ക്രി.മു. 590, ,"ലഖീഷ് കത്തുകൾ, ഏകദേശം ബി.സി. 590"
+lachish_reliefs,Lachish reliefs c. 681 B.C.E.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,ലാക്കീഷ് ശാസ്ത്രീയരേഖകൾ c. 681 ബ. ക്. മ.,ലക്കീഷ് ശിലാവ്യുഹങ്ങൾ ഏകദേശം ക്രി.മു. 681, ,"ലഖീഷ് ശിലാചിത്രങ്ങൾ, ഏകദേശം ക്രി.മു. 681"
+mesha_stele,Mesha Stele (Moabite stone) c. 840 B.C.E.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,മേഷ സ്തൂപം (മോവാബി ശില) c. 840 ബ. ക്. മ.,മേശാ ശില (മോവാബ്യ ശില) ഏകദേശം ക്രി.മു. 840, ,മേഷാ ശിലാഫലകം (മോവാബിയൻ ശില) ഏകദേശം ബി.സി. 840
+gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,ഗിൽഗമേഷും അഗയും 𒇽𒆥𒄄𒀀𒀝𒂵,ഗിൽഗമെഷും അഗയും 𒇽𒆥𒄄𒀀𒀝𒂵, ,ഗിൽഗമേഷും അഗ 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Epic of Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,ഗിൽഗമേഷ് ഇതിഹാസം (സിൻ-ലേഖി-ഉന്നിന്നി),ഗിൽഗമെഷിന്റെ ഇതിഹാസം (സീൻ-ലീഖി-ഉന്നിന്നി), ,ഗിൽഗമേഷ് ഇതിഹാസം (സിൻ-ലെഖി-ഉന്നിന്നി)
+gregorian,Gregorian calendar 1582,Gregorian calendar 1582, ,text,False, , , , ,ഗ്രെഗോറിയൻ കലണ്ടർ 1582,ഗ്രിഗോറിയൻ കലണ്ടർ 1582, ,ഗ്രിഗോറിയൻ കലണ്ടർ 1582
+shang-dynasty,c. 1600-1046 BC,c. 1600-1046 BC, ,text,False, , , , ,c. 1600-1046 ബ. ക്രി.,ഏകദേശം ക്രി.മു. 1600-1046, ,ക്രി.മു. 1600-1046
+western-zhou,c. 1046-771 BC,c. 1046-771 BC, ,text,False, , , , ,c. 1046-771 ബ. ക്രി.,ഏകദേശം ക്രി.മു. 1046-771, ,ക്രി.മു. 1046-771
+qin-dynasty,Qin 221-207 BC,Qin 221-207 BC, ,text,False, , , , ,ചിൻ 221-207 ബ. ക്രി.,ചിൻ ക്രി.മു. 221-207, ,ഖിൻ 221-207 ബി.സി.
+western-han,207 BC – 9 CE,207 BC – 9 CE, ,text,False, , , , ,207 ബ. ക്രി. – 9 സ. വ.,ക്രി.മു. 207 – സി.ഇ. 9, ,ക്രി.മു. 207 – ക്രി. 9
+three-kingdoms,Three kingdoms 220-280 CE,Three kingdoms 220-280 CE, ,text,False, , , , ,മൂന്ന് രാജ്യങ്ങൾ 220-280 സ. വ.,ത്രീ കിംഗ്ഡംസ് 220-280 CE, ,മൂന്ന് രാജ്യങ്ങൾ 220-280 CE
+sixteen-kingdoms,Sixteen kingdoms 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,പതിനാറ് രാജ്യങ്ങൾ 304-439 സ. വ.,സിക്സ്ടീൻ കിംഗ്ഡംസ് 304-439 CE, ,പതിനാറ് രാജ്യങ്ങൾ 304-439 എ.ഡി.
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , ,"618-690, 705-907", , 
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False, , , , ,690-705 വൂ ഷൂ,690-705 വു ഷൂ, ,690-705 വു ഝൗ
+tang-dynasty1_c,Tang,Tang, ,text,False, , , , ,ടാങ്,ടാങ്, ,താങ്ങ്
+gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC, ,text,False, , , , ,ഗോങ്ഹേ റീജൻസി 841-828 ബ. ക്രി.,ഗൊങ്ഹെ റീജൻസി 841-828 ബി.സി., ,ഗോങ്ഹെ രാജ്യം 841-828 ബി.സി.
+Ashoka,Ashoka (c. 304-232 BC) promotes Buddhism,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,അശോക (c. 304-232 ബ. ക്രി.) ബുദ്ധമതം പ്രോത്സാഹിപ്പിക്കുന്നു,അശോകൻ (c. 304-232 ബി.സി.) ബുദ്ധമതം പ്രോത്സാഹിപ്പിക്കുന്നു, ,അശോകൻ (ഏകദേശം 304-232 ബി.സി.) ബുദ്ധമതം പ്രോത്സാഹിപ്പിച്ചു.
+siloam-tunnel,Hezekiah extends Siloam tunnel,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,ഹെസേക്കിയാവ് ശിലോയാം തുരങ്കം നീട്ടുന്നു,ഹിസ്കിയ സിലൊഹാം തുരങ്കം നീട്ടിപ്പണിയുന്നു, ,ഹെസെക്കിയാ സിലോവാം തുരങ്കം നീട്ടുന്നു
+Angloamerica2,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"ആംഗ്ലോ-അമേരിക്കൻ ദാനീയേൽ 2:33, 41-43 എന്ന പ്രവചനത്തിലെ ഇരുമ്പും കളിമണ്ണും കൂടിച്ചേർന്ന പാദങ്ങളാൽ സൂചിപ്പിക്കപ്പെട്ടിരിക്കുന്നു","ദാനിയേൽ 2:33, 41-43 പ്രവചനത്തിലെ ഇരുമ്പും കളിമണ്ണും ചേർന്ന കാല்களுடன் ആംഗ്ലോ-അമേരിക്കൻ ശക്തിയെ ചിത്രീകരിച്ചിരിക്കുന്നു", ,"ദാനിയേൽ 2:33, 41-43-ലെ പ്രവചനത്തിൽ, കളിമണ്ണുമായി ചേർത്ത ഇരുമ്പുപാദങ്ങളാൽ ആംഗ്ലോ-അമേരിക്കൻ പ്രതീകവൽക്കരിക്കപ്പെടുന്നു."
+Manetho,Manetho writes Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , ,മാനെതോ എജിപ്തിയാക രചിക്കുന്നു,മനെത്തോ എജിപ്റ്റിയാക്ക എഴുതുന്നു, ,മാനെത്തോ എജ്പ്റ്റിയാക്ക എഴുതുന്നു
+destruction_babylon,"Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"ബാബുലോൺ മഹാനായ നഗരത്തിന്റെ നാശം (വെളിപ്പാട് 17:3, 15-18; 18:9, 10)","മഹാബബിലോണിന്റെ നാശം (വെളിപാട് 17:3, 15-18; 18:9, 10)", ,"മഹാ ബാബിലോണിന്റെ നാശം (പ്രകാശനം 17:3, 15-18; 18:9, 10)"
+peace_security,"“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"""സമാധാനവും സുരക്ഷയും!"" (1 തെസ്സലൊനീക്ക്യർ 5:3, ഇത് ഒരു സാധ്യതയാണ്, QfR 26/2, 25/11)","""സമാധാനവും സുരക്ഷിതത്വവും!"" (1 തെസ്സലൊനീക്യർ 5:3, ഇതൊരു സാധ്യതയാണ്, QfR 26/2, 25/11)", ,"""സമാധാനവും സുരക്ഷിതത്വവും!"" (1 തെസ്സലൊനീക്യർ 5:3, ഇതൊരു സാധ്യതയാണ്, QfR 26/2, 25/11)"
+gog_of_magog,"Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"ഗോഗ് ഓഫ് മഗോഗിന്റെ ആക്രമണം (യെശയ്യാവ് 38:1, 2, 9-12, 18-23)","മാഗോഗ് ദേശക്കാരനായ ഗോഗിന്റെ ആക്രമണം (യെഹെസ്കേൽ 38:1, 2, 9-12, 18-23)", ,"മഗോഗിലെ ഗോഗിന്റെ ആക്രമണം (എസക്കിയേൽ 38:1, 2, 9-12, 18-23)"
+sheep_goat,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"ഭൂമിയിലെ നിവാസികൾ വിധിക്കപ്പെടുന്നു, ആടുകളെയും കോലാടുകളെയും വേർതിരിക്കുന്നു (മത്തായ 25:31-33)","ഭൂമിയിലെ നിവാസികൾ വിധിക്കപ്പെടുന്നു, ചെമ്മ്രിയാടുകളെയും കോട്രാടുകളെയും വേർതിരിക്കുന്നു (മത്തായി 25:31-33)", ,"ഭൂവാസികൾ വിധിക്കപ്പെടുന്നു, ആടുകളെ കുഞ്ഞാടുകളിൽ നിന്ന് വേർതിരിക്കുന്നു (മത്തായി 25:31-33)"
+annointed,Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,രാജ്യത്തിന്റെ ഭരണാധികാരികളുടെ സമാഹാരം (മത്തായ 24:31; 1 കൊരിന്തോസ് 15:50-53; 1 തെസ്സലൊനീക്ക്യർ 4:15-17),രാജ്യത്തിന്റെ അവകാശികളുടെ ഒത്തുകൂടൽ (മത്തായി 24:31; 1 കൊരിന്ത്യർ 15:50-53; 1 തെസ്സലൊനീക്യർ 4:15-17), ,രാജ്യങ്ങളിലെ ഭരണാധികാരികളുടെ സമ്മേളനം (മത്തായി 24:31; 1 കൊരിന്ത്യർ 15:50-53; 1 തെസ്സലൊനീക്യർ 4:15-17)
+armageddon,"Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"ഹർമഗെദോൻ യുദ്ധം (വെളിപ്പാട് 16:14, 16; യെശയ്യാവ് 13:9; 2 പത്രോസ് 3:12)","അർമ്മഗെദോൻ യുദ്ധം (വെളിപാട് 16:14, 16; യെശയ്യാവ് 13:9; 2 പത്രോസ് 3:12)", ,"അർമാഗെഡോൺ യുദ്ധം (പ്രകാശനം 16:14, 16; യെശയ്യാവ് 13:9; 2 പത്രോസ് 3:12)"
+millenium,"God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"ദൈവത്തിന്റെ രാജ്യം തന്റെ 1000-വർഷത്തെ ഭരണം ആരംഭിക്കുന്നു (വെളിപ്പാട് 5:9, 10; 20:4, 6)","ദൈവരാജ്യത്തിന്റെ 1000 വർഷത്തെ വാഴ്ച ആരംഭിക്കുന്നു (വെളിപാട് 5:9, 10; 20:4, 6)", ,"ദൈവരാജ്യം അതിൻ്റെ 1000 വർഷത്തെ ഭരണം ആരംഭിക്കുന്നു (പ്രകാശനം 5:9, 10; 20:4, 6)"
+great_crowd,"A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"ഒരു വലിയ ജനക്കൂട്ടം ഹർമഗെദോണിൽ നിന്ന് രക്ഷപ്പെടുന്നു (വെളിപ്പാട് 7:9, 14; സങ്കീർത്തനം 37:9-11)","ഒരു വലിയ പുരുഷാരം അർമ്മഗെദോനെ അതിജീവിക്കുന്നു (വെളിപാട് 7:9, 14; സങ്കീർത്തനം 37:9-11)", ,"ഒരു വലിയ കൂട്ടം അർമാഗെഡോണിൽ നിന്ന് രക്ഷപ്പെടുന്നു (പ്രകാശനം 7:9, 14; സങ്കീർത്തനം 37:9-11)"
+world_population,World population in billions in the last 2000 years,World population in billions in the last 2000 years, ,text,False, , , , ,കഴിഞ്ഞ 2000 വർഷത്തിനിടയിൽ ലോക ജനസംഖ്യ ബില്യൺ കണക്കിന്,കഴിഞ്ഞ 2000 വർഷങ്ങളിലെ ലോക ജനസംഖ്യ (ബില്ല്യണിൽ), ,കഴിഞ്ഞ 2000 വർഷങ്ങളിലെ ലോക ജനസംഖ്യ (ബില്യൺ)
+khmer_empire_c,Khmer Empire - Angkor period,Khmer Empire - Angkor period, ,text,False, , , , ,ഖ്മേർ സാമ്രാജ്യം - അങ്കോർ കാലഘട്ടം,ഖെമർ സാമ്രാജ്യ - അങ്കോർ കാലഘട്ടം, ,ഖ്മേര സാമ്രാജ്യം - അങ്കോർ കാലഘട്ടം
+holy_roman_empire_c,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,ഹോളി റോമൻ സാമ്രാജ്യം – 1512 മുതൽ ജർമ്മൻ നാഷന്റെ ഹോളി റോമൻ സാമ്രാജ്യം എന്ന് അറിയപ്പെടുന്നു,വിശുദ്ധ റോമാ സാമ്രാജ്യം – 1512-നു ശേഷം ജർമ്മൻ നേഷന്റെ വിശുദ്ധ റോമാ സാമ്രാജ്യം എന്നറിയപ്പെട്ടു, ,പവിത്ര റോമൻ സാമ്രാജ്യം – 1512-ന് ശേഷം ജർമ്മൻ രാഷ്ട്രത്തിന്റെ പവിത്ര റോമൻ സാമ്രാജ്യം എന്നറിയപ്പെട്ടു
+mongol_empire,Mongol Empire 1206 – 1294,Mongol Empire 1206 – 1294, ,text,False, , , , ,മംഗോൾ സാമ്രാജ്യം 1206 – 1294,മംഗോളിയൻ സാമ്രാജ്യം 1206 – 1294, ,മംഗോൾ സാമ്രാജ്യം 1206 – 1294
+maya_classic_c,Maya civilization – Classic period,Maya civilization – Classic period, ,text,False, , , , ,മായ സംസ്കാരം – ക്ലാസിക് കാലഘട്ടം,മായാ സംസ്കാരം - ക്ലാസിക് കാലഘട്ടം, ,മായൻ നാഗരികത – ക്ലാസിക് കാലഘട്ടം
+maya_postclassic_c,Maya civilization – Postclassic period,Maya civilization – Postclassic period, ,text,False, , , , ,മായ സംസ്കാരം – പോസ്റ്റ്ക്ലാസിക് കാലഘട്ടം,മായാ സംസ്കാരം - പോസ്റ്റ്ക്ലാസിക് കാലഘട്ടം, ,മായൻ നാഗരികത – പോസ്റ്റ്ക്ലാസിക് കാലഘട്ടം
+Teotihuacan,"Largest city in the Americas, pyramids build c. 200 C.E.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"അമേരിക്കകളിലെ ഏറ്റവും വലിയ നഗരം, പിരമിഡുകൾ c. 200 സ. വ.","അമേരിക്കയിലെ ഏറ്റവും വലിയ നഗരം, പിരമിഡുകൾ നിർമ്മിച്ചത് c. 200 C.E.", ,"അമേരിക്കയിലെ ഏറ്റവും വലിയ നഗരം, ഏകദേശം ക്രി.വ. 200-ൽ നിർമ്മിച്ച പിരമിഡുകൾ."
+Dionysius_Exiguus,"Dionysius Exiguus, inventor of Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"ഡയോനീഷ്യസ് എക്സിഗ്വസ്, അന്നോ ഡോമിനിയുടെ കണ്ടുപിടുത്തക്കാരൻ",അച്ചോ ദോമിനി (Anno Domini) എന്ന ആശയത്തിന്റെ ഉപജ്ഞാതാവായ ഡയനീഷ്യസ് എക്സിഗസ്, ,"ആനോ ഡോമിനിയുടെ ഉപജ്ഞാതാവ്, ഡയോണൈസിയസ് എക്സിഗ്യൂസ്"
+Umayyad_c,Umayyad,Umayyad, ,text,False, , , , ,ഉമയ്യദ്,ഉമയ്യദ്, ,ഉമയ്യദ്
+ur3,Ur III Dynasty 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,ഉർ III രാജവംശം 𒋀𒀕𒆠,ഊർ III രാജവംശം 𒋀𒀕𒆠, ,ഉർ III രാജവംശം 𒋀𒀕𒆠
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , ,ഹമ്മൂറാബി 𒄩𒄠𒈬𒊏𒁉,ഹമ്മുറാബി 𒄩𒄠𒈬𒊏𒁉, ,ഹമ്മൂറാബി 𒄩𒄠𒈬𒊏𒁉
+Al-Khwarizmi,al-Khwarizmi writes Al-Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,അൽ-ഖ്വാരിസ്മി അൽ-ജബ്ർ (ബീജഗണിതം) രചിക്കുന്നു,അൽ-ഖ്വരിസ്മി അൽ-ജബ്ര് (ബീജഗണിതം) എഴുതുന്നു, ,അൽ-ഖ്വാരസ്മി അൽ-ജാബർ (ബീജഗണിതം) എഴുതുന്നു
+al-azhar,Al-Azhar University is established in Cairo,Al-Azhar University is established in Cairo, ,text,False, , , , ,അൽ-അസ്ഹർ സർവ്വകലാശാല കെയ്‌റോയിൽ സ്ഥാപിതമാകുന്നു,കെയ്റോയിൽ അൽ-അസ്ഹർ സർവ്വകലാശാല സ്ഥാപിക്കപ്പെടുന്നു, ,കെയ്‌റോയിൽ അൽ-അസ്ഹർ സർവകലാശാല സ്ഥാപിച്ചു.
+Ibn-Sina,Ibn Sina or Avicenna,Ibn Sina or Avicenna, ,text,False, , , , ,ഇബ്ൻ സിന  അല്ലെങ്കിൽ അവിസെന്ന,ഇബ്നു സിന അഥവാ അവീസെന്ന, ,ഇബ്നു സീന അഥവാ അവിസെന്ന
+life-expectancy,Life expectancy 75 years,Life expectancy 75 years, ,text,False, , , , ,ആയുസ്സ് 75 വർഷം,ആയുർദൈർഘ്യം 75 വർഷം, ,ശരാശരി ആയുർദൈർഘ്യം 75 വർഷം
+430years_c,"430 years: Exodus 12:41, Galatians 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"430 വർഷം: പുറപ്പാട് 12:41, ഗലാത്തിയർ 3:17","430 വർഷം: പുറപ്പാട് 12:41, ഗലാത്യർ 3:17", ,"430 വർഷങ്ങൾ: പുറപ്പാട് 12:41, ഗലാത്യർ 3:17"
+maya_calendar,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,മായ കലണ്ടറിന്റെ കണക്കാക്കിയ ആരംഭം ബി.സി.ഇ. 3114 ഓഗസ്റ്റ് 11,"മായാ കലണ്ടറിന്റെ കണക്കുകൂട്ടിയ തുടക്കം ആഗസ്റ്റ് 11, 3114 ബി.സി.ഇ.", ,മായൻ കലണ്ടറിന്റെ തുടക്കം ബി.സി.ഇ. 3114 ഓഗസ്റ്റ് 11 എന്ന് കണക്കാക്കപ്പെട്ടു.
+xia-dynasty2,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,ബി.സി. ഏകദേശം 2070 – ഏകദേശം 1600; പശ്ചിമ ചൗ കാലഘട്ടത്തിൽ ആദ്യമായി സൂചിപ്പിച്ച യുഗം,c. 2070 – c. 1600 ബി.സി.; പടിഞ്ഞാറൻ ഷൗ കാലഘട്ടത്തിൽ ആദ്യം സൂചിപ്പിക്കപ്പെട്ട കാലം, ,ക്രി.മു. 2070 – ക്രി.മു. 1600; വെസ്റ്റേൺ ഷൗ കാലഘട്ടത്തിൽ ആദ്യമായി പരാമർശിക്കപ്പെട്ട കാലഘട്ടം
+xia-dynasty2_c,Xia dynasty in China,Xia dynasty in China, ,text,False, , , , ,ചൈനയിലെ ഷിയ രാജവംശം,ചൈനയിലെ സിയ രാജവംശം, ,ചൈനയിലെ സിയ രാജവംശം
+tres_zapotes,"September 3rd, 32 B.C.E.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,ബി.സി.ഇ. 32 സെപ്റ്റംബർ 3,"സെപ്റ്റംബർ 3, 32 ബി.സി.ഇ.", ,"ക്രി.മു. 32, സെപ്റ്റംബർ 3"
+joseph_jacob_reunited,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,ഈജിപ്തിൽ യോസേഫും യാക്കോബും വീണ്ടും ഒത്തുചേർന്നു – ബി.സി.ഇ. 1728 (ഉല്പ. 45:11; 47:9),യോസേഫും യാക്കോബും ഈജിപ്തിൽ പുനഃസന്ധിക്കുന്നു – 1728 ബി.സി.ഇ. (ഉല്പത്തി 45:11; 47:9), ,ജോസഫും യാക്കോബും ഈജിപ്തിൽ വീണ്ടും ഒന്നിച്ചു – ഇ.മു. 1728 (ഉല്പത്തി 45:11; 47:9)
+king_south_light_c,King of the South from Daniel 11,King of the South from Daniel 11,2025-02-05,text,False, , , , ,ദാനീയേൽ 11-ൽ നിന്നുള്ള ദക്ഷിണരാജാവ്,ദാനിയേൽ 11-ാം അധ്യായത്തിലെ തെക്കിന്റെ രാജാവ്, ,ദാനിയേൽ 11-ൽ നിന്നുള്ള തെക്കൻ രാജാവ്
+king_north_light_c,King of the North from Daniel 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,ദാനീയേൽ 11-ൽ നിന്നുള്ള വടക്കൻ രാജാവ്,ദാനിയേൽ 11-ലെ വടക്കുഭാഗത്തെ രാജാവ്, ,ദാനിയേൽ 11-ൽ നിന്നുള്ള വടക്കൻ രാജാവ്
+daniel2_iron_c,Iron legs from Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,ദാനീയേൽ 2-ൽ നിന്നുള്ള ഇരുമ്പ് കാലുകൾ,ദാനിയേൽ 2-ലെ ഇരുമ്പു കാലുകൾ, ,ദാനിയേൽ 2-ലെ ഇരുമ്പു കാലുകൾ
+argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , ,കോഡക്സ് ആർജന്റിയസ് ഏകദേശം 505,കോഡെക്സ് അർജന്റീയസ് ക്രി.വ. 505, ,കോഡെക്സ് അർജെൻ്റിയസ് ഏകദേശം 505
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , ,ന്ഗുയേൻ,ന്യൂഗുയെൻ, ,ഗ്യുൻ
+edo_c,Edo period in Japan,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , ,ജപ്പാനിലെ എഡോ കാലഘട്ടം,ജപ്പാനിലെ എഡോ കാലഘട്ടം, ,ജപ്പാനിലെ എഡോ കാലഘട്ടം
+meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , ,മെയ്‌ജി,മെയ്ജി, ,മെയ്ജി
+american_civil_war,American Civil War 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,അമേരിക്കൻ ആഭ്യന്തര യുദ്ധം 1861-1865,അമേരിക്കൻ ആഭ്യന്തരയുദ്ധം 1861-1865, ,അമേരിക്കൻ ആഭ്യന്തരയുദ്ധം 1861-1865
+aleppo_codex,Aleppo Codex c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,അലെപ്പോ കോഡക്സ് ഏകദേശം 920,അലപ്പോ കോഡെക്സ് ക്രി.വ. 920, ,അലപ്പോ കോഡെക്സ് ഏകദേശം 920
+vandals,Kingdom of the Vandals and Alans 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,വണ്ടലുകളുടെയും അലാനുകളുടെയും രാജ്യം 435 – 534,വാൻഡലുകളുടെയും അലാനുകളുടെയും രാജ്യം 435 – 534, ,വാൻഡലുകളുടെയും അലാനുകളുടെയും രാജ്യം 435 – 534
+francia,"c. 481/509 – 843, Merovingian till 751, then Carolingian","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"ഏകദേശം 481/509 – 843, മെറോവിഞ്ചിയൻ 751 വരെ, തുടർന്ന് കരോലിഞ്ചിയൻ","ക്രി.വ. 481/509 – 843, 751 വരെ മെറോവിഞ്ചിയൻ, തുടർന്ന് കരോളിഞ്ചിയൻ", ,"ഏകദേശം 481/509 – 843, 751 വരെ മെറോവിംഗിയൻ, പിന്നീട് കരോലിംഗിയൻ"
+francia_c,Kingdom of the Franks,Kingdom of the Franks, ,text,False, , , , ,ഫ്രാങ്കുകളുടെ രാജ്യം,ഫ്രാങ്കുകളുടെ രാജ്യം, ,ഫ്രാങ്കുകളുടെ രാജ്യം
+100_years_war,Hundred Years’ War 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,നൂറ്റാണ്ടു യുദ്ധം 1337 – 1453,നൂറ്റാണ്ടു യുദ്ധം 1337 – 1453, ,നൂറുവർഷ യുദ്ധം 1337 – 1453
+black_death,Black death 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,ബ്ലാക്ക് ഡെത്ത് 1346-1353,കറുത്ത മരണം 1346-1353, ,കറുത്ത മരണം 1346-1353
+sui_dynasty,581-618 Sui dynasty,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 സുയി രാജവംശം,581-618 സുയി രാജവംശം, ,581-618 സൂയി രാജവംശം
+sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , ,സുയി,സുയി, ,സുയി
+tribulation,"The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"മഹാ കഷ്ടകാലം (മർക്കോസ് 13:19; ദാനീയേൽ 12:1; മത്തായി 24:21, 22)","വലിയ ഉപദ്രവം (മർക്കോസ് 13:19; ദാനിയേൽ 12:1; മത്തായി 24:21, 22)", ,"മഹാക്ലിഷ്ടകാലം (മർക്കോസ് 13:19; ദാനിയേൽ 12:1; മത്തായി 24:21, 22)"
+timeline_created,"This timeline is created in 2023, the hottest year in human history and the last 125,000 years","This timeline is created in 2023, the hottest year in human history and the last 125,000 years",2026-06-07,text,False, , , , ,"ഈ കാലരേഖ 2023-ൽ സൃഷ്ടിച്ചതാണ്, മനുഷ്യചരിത്രത്തിലെയും കഴിഞ്ഞ 125,000 വർഷത്തിലെയും ഏറ്റവും ചൂടേറിയ വർഷം","മനുഷ്യ ചരിത്രത്തിലും കഴിഞ്ഞ 125,000 വർഷങ്ങളിലെയും ഏറ്റവും ചൂടേറിയ വർഷമായ 2023-ൽ ഈ കാലഗണന നിർമ്മിച്ചിരിക്കുന്നു", ,"മനുഷ്യചരിത്രത്തിലെ ഏറ്റവും ചൂടേറിയ വർഷവും കഴിഞ്ഞ 125,000 വർഷങ്ങളിലെ ഏറ്റവും ചൂടേറിയതുമായ 2023-ൽ ഈ സമയരേഖ തയ്യാറാക്കിയിരിക്കുന്നു."
+Adam,Adam,Adam,Luke 3:38,bible,False, , , , , ,ആദാം, , 
+Seth,Seth,Seth,Luke 3:38,bible,False, , , , , ,സേത്ത്, , 
+Enosh,Enosh,Enosh,Luke 3:38,bible,False, , , , , ,ഏനോഷ്, , 
+Kenan,Kenan (Cainan),Kenan (Cainan),"Genesis 5:12, Luke 3:37",bible,False, , , , , ,കെയ്നാൻ, , 
+Mahalalel,Mahalalel (Mahalaleel),Mahalalel (Mahalaleel),"Genesis 5:15, Luke 3:37",bible,False, , , , , ,മഹലേൽ, , 
+Jared,Jared,Jared,Luke 3:37,bible,False, , , , , ,യാരെദ്, , 
+Enoch,Enoch,Enoch,Luke 3:37,bible,False, , , , , ,ഹാനോക്ക്, , 
+Methuselah,Methuselah,Methuselah,Luke 3:37,bible,False, , , , , ,മെഥൂശല, , 
+Lamech,Lamech,Lamech,Luke 3:36,bible,False, , , , , ,ലാമക്ക്, , 
+Noah,Noah,Noah,Luke 3:36,bible,False, , , , , ,നോഹ, , 
+Shem,Shem,Shem,Luke 3:36,bible,False, , , , , ,ശേം, , 
+Arpachshad,Arpachshad,Arpachshad,Luke 3:36,bible,False, , , , , ,അർപക്ശാദ്, , 
+Shelah,Shelah,Shelah,Luke 3:35,bible,False, , , , , ,ശേലഹ്, , 
+Eber,Eber,Eber,Luke 3:35,bible,False, , , , , ,ഏബെർ, , 
+Peleg,Peleg,Peleg,Luke 3:35,bible,False, , , , , ,പേലേഗ്, , 
+Reu,Reu,Reu,Luke 3:35,bible,False, , , , , ,രെഹൂ, , 
+Serug,Serug,Serug,Luke 3:35,bible,False, , , , , ,സെറൂഗ്, , 
+Nahor,Nahor,Nahor,"Luke 3:34, Genesis 11:24",bible,False, , , , , ,നാഹോർ, , 
+Terah,Terah,Terah,Luke 3:34,bible,False, , , , , ,തേരഹ്, , 
+Abraham,Abraham,Abraham,Luke 3:34,bible,False, , , , , ,അബ്രഹാം, , 
+Isaac,Isaac,Isaac,Luke 3:34,bible,False, , , , , ,ഇസ്ഹാക്ക്, , 
+Jacob,Jacob,Jacob,Luke 3:34,bible,False, , , , , ,യാക്കോബ്, , 
+Joseph,Joseph,Joseph,Genesis 37,bible,False, , , , , ,യോസേഫ്, , 
+Moses,Moses,Moses,Exodus 2:10,bible,False, , , , , ,മോശ, , 
+Othniel,Othniel,Othniel,Judges 3:9-11,bible,False, , , , , ,ഒത്നീയേൽ, , 
+Ehud,Ehud,Ehud,Judges 3:15-18,bible,False, , , , , ,ഏഹൂദ്, , 
+Shamgar,Shamgar,Shamgar,Judges 3:31,bible,False, , , , , ,ശംഗർ, , 
+Barak,"Barak, Deborah, Jael","Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , ,"ബാരക്ക്, ദെബോര, യായേൽ", , 
+Gideon,Gideon,Gideon,Judges 7:1,bible,False, , , , , ,ഗിദ്യോൻ, , 
+Tola,Tola,Tola,Judges 10:1,bible,False, , , , , ,തോലാ, , 
+Jair,Jair,Jair,Judges 10:3,bible,False, , , , , ,യായീർ, , 
+Jephthah,Jephthah,Jephthah,Judges 11:1,bible,False, , , , , ,യെഫ്താഹ്, , 
+Ibzan,Ibzan,Ibzan,Judges 12:8,bible,False, , , , , ,ഇബ്ചാൻ, , 
+Elon,Elon,Elon,Judges 12:11,bible,False, , , , , ,ഏലോൻ, , 
+Abdon,Abdon,Abdon,Judges 12:13,bible,False, , , , , ,അബ്ദോൻ, , 
+Samson,Samson,Samson,Judges 13:24,bible,False, , , , , ,ശിംശോൻ, , 
+Samuel,Samuel,Samuel,1 Samuel 1:20,bible,False, , , , , ,ശമുവേൽ, , 
+Saul,Saul,Saul,1 Samuel 9:2,bible,False, , , , , ,ശൗൽ, , 
+David,David,David,1 Samuel 16:13,bible,False, , , , , ,ദാവീദ്, , 
+Solomon,Solomon,Solomon,1 Kings 2:1,bible,False, , , , , ,ശലോമോൻ, , 
+Malachi,Malachi,Malachi,bible book,bible,False, , , , , ,മലാഖി, , 
+Ruth,Ruth,Ruth,bible book,bible,False, , , , , ,രൂത്ത്, , 
+Ezra,Ezra,Ezra,bible book,bible,False, , , , , ,എസ്രാ, , 
+Nehemiah,Nehemiah,Nehemiah,bible book,bible,False, , , , , ,നെഹെമ്യാവു, , 
+Esther,Esther,Esther,bible book,bible,False, , , , , ,എസ്ഥേർ, , 
+Job,Job,Job,bible book,bible,False, , , , , ,ഇയ്യോബ്, , 
+moses3,Moses,Moses,Exodus 2:10,bible,False, , , , , ,മോശ, , 
+joshua2,Joshua,Joshua,Exodus 17:14,bible,False, , , , , ,യോശുവ, , 
+caleb2,Caleb,Caleb,Numbers 13:30,bible,False, , , , , ,കാലേബ്, , 
+Augustus,Augustus,Augustus,Luke 2:1,bible,False, , , , , ,ഔഗസ്തൊസ്, , 
+Tiberius,Tiberius,Tiberius,Luke 3:1,bible,False, , , , , ,തിബെരിയോസ്, , 
+Claudius,Claudius,Claudius,Acts 11:28,bible,False, , , , , ,ക്ലൌദ്യൊസ്, , 
+persia2,Persia,Persia,Esther 1:3,bible,False, , , , , ,പേർഷ്യ, , 
+jehoiada,Jehoiada,Jehoiada,2 Kings 11:4,bible,False, , , , , ,യെഹോയാദ, , 
+Haggai,Haggai,Haggai,bible book,bible,False, , , , , ,ഹഗ്ഗായി, , 
+Zerubbabel,Zerubbabel (Luke 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , ,സെരുബਾਬേൽ (ലൂക്കോസ് 3:27), , 
+Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , ,യാക്കോബ്/, , 
+Israel,Israel,Israel,Genesis 35:10,bible,False, , , , , ,യിസ്രായേൽ, , 
+Sarah,Sarah,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , ,ശാറാ, , 
+Hagar,Hagar,Hagar,Genesis 21:14,bible,False, , , , , ,ഹാഗാർ, , 
+Haran,Haran,Haran,Genesis 11:26,bible,False, , , , , ,ഹാരാൻ, , 
+Reumah,Reumah,Reumah,Genesis 22:24 Concubine – 4 sons,bible,False, , , , , ,രൂമ, , 
+Milcah,Milcah,Milcah,Genesis 22:20 - 8 sons (Bethuel and 7 more),bible,False, , , , , ,മിൽഖാ, , 
+Lot,Lot,Lot,Genesis 11:27,bible,False, , , , , ,ലോത്ത്, , 
+Ammon,Ben-ammi (Ammon),Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , ,ബെൻ-അമ്മി (അമ്മോൻ), , 
+Bethuel,Bethuel,Bethuel,Genesis 22:23,bible,False, , , , , ,ബെഥൂവേൽ, , 
+Rebekah,Rebekah,Rebekah,Genesis 22:23,bible,False, , , , , ,റിബേക്ക, , 
+Laban,Laban,Laban,Genesis 24:29,bible,False, , , , , ,లాబాన్, , 
+Leah,Leah,Leah,Genesis 35:23,bible,False, , , , , ,ലേയാ, , 
+Rachel,Rachel,Rachel,Genesis 35:24,bible,False, , , , , ,രാഹേൽ, , 
+Bilhah,Bilhah,Bilhah,Genesis 35:25,bible,False, , , , , ,ബിൽഹാ, , 
+Zilpah,Zilpah,Zilpah,Genesis 35:26,bible,False, , , , , ,സിൽപാ, , 
+Reuben,Reuben,Reuben,Genesis 35:23,bible,False, , , , , ,രൂബേൻ, , 
+Simeon,Simeon,Simeon,Genesis 35:23,bible,False, , , , , ,ശിമയോൻ, , 
+Levi,Levi,Levi,Genesis 35:23,bible,False, , , , , ,ലേവി, , 
+Judah,Judah,Judah,Genesis 35:23,bible,False, , , , , ,യഹൂദാ, , 
+Issachar,Issachar,Issachar,Genesis 35:23,bible,False, , , , , ,ഇസ്സാഖാർ, , 
+Zebulun,Zebulun,Zebulun,Genesis 35:23,bible,False, , , , , ,സെബൂലൂൻ, , 
+Dinah,Dinah,Dinah,Genesis 34:1,bible,False, , , , , ,ദീനാ, , 
+Esau,Esau/,Esau/,Genesis 36:1,bible,False, , , , , ,ஏசாவ്/, , 
+Edom,Edom,Edom,Genesis 36:1,bible,False, , , , , ,ஏதோம், , 
+Ishmael,Ishmael,Ishmael,Genesis 16:16,bible,False, , , , , ,இஸ்மவேல், , 
+Manasseh2,(Manasseh,(Manasseh,Genesis 41:51,bible,False, , , , , ,(மனாசே, , 
+Ephraim,and Ephraim),and Ephraim),Genesis 41:52,bible,False, , , , , ,எப்பிராயீம்), , 
+Benjamin,Benjamin,Benjamin,Genesis 35:24,bible,False, , , , , ,பெஞ்சமின், , 
+Dan,Dan,Dan,Genesis 35:25,bible,False, , , , , ,தாண், , 
+Naphtali,Naphtali,Naphtali,Genesis 35:25,bible,False, , , , , ,நப்தலி, , 
+Gad,Gad,Gad,Genesis 35:26,bible,False, , , , , ,காத், , 
+Asher,Asher,Asher,Genesis 35:26,bible,False, , , , , ,ஆசேர், , 
+Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , ,"ஊஸ், பூஸ், கேமுவேல்,", , 
+Milcah2,"Chesed, Hazo,","Chesed, Hazo,",Genesis 22:22,bible,False, , , , , ,"கேசெத், ஹசோத்,", , 
+Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",Genesis 22:22,bible,False, , , , , ,"பில்தாஷ், ஜித்லாப்", , 
+Tebah,Tebah,Tebah,Genesis 22:24,bible,False, , , , , ,தெபா, , 
+Gaham,Gaham,Gaham,Genesis 22:24,bible,False, , , , , ,காகம், , 
+Tahash,Tahash,Tahash,Genesis 22:24,bible,False, , , , , ,தாகாஷ், , 
+Maacah,Maacah,Maacah,Genesis 22:24,bible,False, , , , , ,மாக்கா, , 
+Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , ,mahalath/, , 
+Basemath,Basemath,Basemath,"Genesis 36:3, 4",bible,False, , , , , ,basemath, , 
+Reuel,Reuel,Reuel,"Genesis 36:13, 17",bible,False, , , , , ,ரெகுவேல், , 
+Nahath,Nahath,Nahath,Genesis 36:13,bible,False, , , , , ,நாகாத், , 
+Zerah,Zerah,Zerah,Genesis 36:13,bible,False, , , , , ,சேராக், , 
+Schammah,Schammah,Schammah,Genesis 36:13,bible,False, , , , , ,ஷம்மா, , 
+Mizzah,Mizzah,Mizzah,Genesis 36:13,bible,False, , , , , ,மிசா, , 
+Adah,Adah,Adah,"Genesis 36:11, 12, 15, 16",bible,False, , , , , ,ആദാ, , 
+Eliphaz,Eliphaz,Eliphaz,Genesis 36:11,bible,False, , , , , ,എലീഫാസ്, , 
+Teman,Teman,Teman,Genesis 36:11,bible,False, , , , , ,തേമാൻ, , 
+Omar,Omar,Omar,Genesis 36:11,bible,False, , , , , ,ഒമാർ, , 
+Zepho,Zepho,Zepho,Genesis 36:11,bible,False, , , , , ,സെഫോ, , 
+Kenaz,Kenaz,Kenaz,Genesis 36:11,bible,False, , , , , ,കെനസ്, , 
+Korah,Korah,Korah,Genesis 36:16,bible,False, , , , , ,കോരഹ്, , 
+Korah_Gatam,"Korah, Gatam","Korah, Gatam","Genesis 36:11, 16",bible,False, , , , , ,"കോരഹ്, ഗാതം", , 
+Amalek,Amalek,Amalek,Genesis 36:12,bible,False, , , , , ,അമാലേക്, , 
+Oholibamah,Oholibamah,Oholibamah,"Genesis 36:14, 18",bible,False, , , , , ,ഒഹോലിബാമാ, , 
+Jeush,Jeush,Jeush,Genesis 36:14,bible,False, , , , , ,യെയൂശ്, , 
+Jalam,Jalam,Jalam,Genesis 36:14,bible,False, , , , , ,യാലാം, , 
+Nebaioth,Nebaioth,Nebaioth,Genesis 25:13,bible,False, , , , , ,നെബായോത്ത്, , 
+Kedar,Kedar,Kedar,Genesis 25:13,bible,False, , , , , ,കേദാർ, , 
+Mishma,Mishma,Mishma,Genesis 25:14,bible,False, , , , , ,മിശ്മാ, , 
+Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",Genesis 25:13,bible,False, , , , , ,"അദ്ബേൽ, മിബ്സാം", , 
+Dumah_Massa,"Dumah, Massa","Dumah, Massa",Genesis 25:14,bible,False, , , , , ,"ദൂമാ, മസ്സാ", , 
+Hadad,Hadad,Hadad,Genesis 25:15,bible,False, , , , , ,ഹദാദ്, , 
+Tema,Tema,Tema,Genesis 25:15,bible,False, , , , , ,തേമാ, , 
+Jetur,Jetur,Jetur,Genesis 25:15,bible,False, , , , , ,യെതൂർ, , 
+Naphish,Naphish,Naphish,Genesis 25:15,bible,False, , , , , ,നാഫീശ്, , 
+Kedemah,Kedemah,Kedemah,Genesis 25:15,bible,False, , , , , ,കേദേമാ, , 
+Keturah,Keturah,Keturah,Genesis 25:1,bible,False, , , , , ,കെതൂരാ, , 
+Zimran,Zimran,Zimran,Genesis 25:1,bible,False, , , , , ,സിംരാൻ, , 
+Jokshan,Jokshan,Jokshan,Genesis 25:1,bible,False, , , , , ,യൊക്ഷാൻ, , 
+Medan,Medan,Medan,Genesis 25:1,bible,False, , , , , ,മേദാൻ, , 
+Midian,Midian,Midian,Genesis 25:1,bible,False, , , , , ,മിദ്യാൻ, , 
+Ishbak,Ishbak,Ishbak,Genesis 25:1,bible,False, , , , , ,ഇശ്ബാക്, , 
+Shuah,Shuah,Shuah,Genesis 25:1,bible,False, , , , , ,ശൂഹാ, , 
+Timna,Timna,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False, , , , , ,തിംനാ, , 
+life-expectancy2,(Psalm 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , ,(സങ്കീർത്തനം 90:10), , 
+Ham,Ham,Ham,Gen 10:1,bible,False, , , , , ,ഹാം, , 
+Canaan,Canaan,Canaan,Gen 10:6,bible,False, , , , , ,കാനാൻ, , 
+Sidon,Sidon,Sidon,Gen 10:15,bible,False, , , , , ,സീദോൻ, , 
+Heth,Heth,Heth,Gen 10:15,bible,False, , , , , ,ഹേത്ത്, , 
+Jebusite,Jebusite,Jebusite,Gen 10:16,bible,False, , , , , ,യെബൂസ്യൻ, , 
+Amorite,Amorite,Amorite,Gen 10:16,bible,False, , , , , ,അമോര്യൻ, , 
+Girgashite,Girgashite,Girgashite,Gen 10:16,bible,False, , , , , ,ഗിർഗാസ്യൻ, , 
+Hivite,Hivite,Hivite,Gen 10:17,bible,False, , , , , ,ഹיו्यൻ (ഹיו്യൻ - ഹിവ്യൻ), , 
+Arkite,Arkite,Arkite,Gen 10:17,bible,False, , , , , ,അർക്കീയൻ, , 
+Sinite,Sinite,Sinite,Gen 10:17,bible,False, , , , , ,സീനീയർ, , 
+Arvadite,Arvadite,Arvadite,Gen 10:18,bible,False, , , , , ,അർവാദീയൻ, , 
+Zemarite,Zemarite,Zemarite,Gen 10:18,bible,False, , , , , ,സെമാരേയൻ, , 
+Hamathite,Hamathite,Hamathite,Gen 10:18,bible,False, , , , , ,ഹമാത്യൻ, , 
+Cush,Cush,Cush,Gen 10:6,bible,False, , , , , ,കൂശ്, , 
+Nimrod,Nimrod,Nimrod,Gen 10:8,bible,False, , , , , ,നിംരോദ്, , 
+Mizraim,Mizraim,Mizraim,Gen 10:14,bible,False, , , , , ,മിസ്രയീം, , 
+Casluh,Casluh,Casluh,1 Chronicles 1:12 (Philistines),bible,False, , , , , ,കസ്ലൂഹീയർ, , 
+Japheth,Japheth,Japheth,Gen 10:1,bible,False, , , , , ,യാഫേത്ത്, , 
+Asshur,Asshur,Asshur,Gen 10:22,bible,False, , , , , ,അശ്ശൂർ, , 
+Lud,Lud,Lud,Gen 10:22,bible,False, , , , , ,ലൂദ്, , 
+Aram,Aram,Aram,Gen 10:22,bible,False, , , , , ,അരാം, , 
+Elam,Elam,Elam,Gen 10:22,bible,False, , , , , ,ഏലാം, , 
+Joktan,Joktan,Joktan,Gen 10:26,bible,False, , , , , ,യൊക്താൻ, , 
+Almodad,Almodad,Almodad,Gen 10:26,bible,False, , , , , ,അൽമോദാദ്, , 
+Sheleph,Sheleph,Sheleph,Gen 10:26,bible,False, , , , , ,ശേലെഫ്, , 
+Hazarmaveth,Hazarmaveth,Hazarmaveth,Gen 10:26,bible,False, , , , , ,ഹാസർമാവെത്ത്, , 
+Jerah,Jerah,Jerah,Gen 10:26,bible,False, , , , , ,യെരഹ്, , 
+Hadoram,Hadoram,Hadoram,Gen 10:27,bible,False, , , , , ,ഹദോരാം, , 
+Uzal,Uzal,Uzal,Gen 10:27,bible,False, , , , , ,ഊസൽ, , 
+Diklah_Obal,"Diklah, Obal","Diklah, Obal",Gen 10:27,bible,False, , , , , ,"ദിക്ലാ, ഒബാൾ", , 
+Abimael,Abimael,Abimael,Gen 10:28,bible,False, , , , , ,അബിമാവേൽ, , 
+Sheba_Ophir,"Sheba, Ophir","Sheba, Ophir","Gen 10:28, 29",bible,False, , , , , ,"ശേബാ, ഓഫീർ", , 
+Havilah,Havilah,Havilah,Gen 10:29,bible,False, , , , , ,ഹവീലാ, , 
+Jobab,Jobab,Jobab,Gen 10:29,bible,False, , , , , ,യോബാബ്, , 
+Ham_fn,1) Egyptians: Psalms 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , ,1) ഐക്യപ്ത്യർ: സങ്കീർത്തനങ്ങൾ 105:23, , 
+Canaan_fn,2) Canaanites: Joshua 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , ,2) കാനാൻകാർ: യോശുവ 13:3, , 
+Aram_fn,3) Arameans: Hosea 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , ,3) അരാമ്യർ: ഹോശേയ 12:12, , 
+Elam_fn,4) Elamites: Ezra 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , ,4) ഏലാമ്യർ: എസ്രാ 4:9, , 
+Asshur_fn,5) Assyrians: Ezekiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , ,5) അസ്സൂര്യർ: യെഹെസ്കേൽ 27:23, , 
+Casluh_fn,6) Philistines: 1 Chronicles 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , ,6) ഫെലിസ്ത്യർ: 1 ദിനവൃത്താന്തം 1:12, , 
+Cush_fn,7) Ethiopian [Cushite]: 2 Kings 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , ,7) എത്യോപ്യൻ [കൂശ്യൻ]: 2 രാജാക്കന്മാർ 19:9, , 
+Edom_fn,8) Edomites: Numbers 20:14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False, , , , , ,8) ഏദോമ്യർ: സംഖ്യാപുസ്തകം 20:14-17, , 
+Moab_fn,"9) Moabites: Deuteronomy 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False, , , , , ,"9) മോവാബ്യർ: ആവർത്തനം 23:3, 4", , 
+Ammon_fn,10) Ammonites: Joshua 12:2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False, , , , , ,10) അമ്മോന്യർ: യോശുവ 12:2, , 
+Midian_fn,"11) Midianites: Numbers 31:2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False, , , , , ,"11) മിദ്യാന്യർ: സംഖ്യാപുസ്തകം 31:2, 3", , 
+Amalek_fn,12) Amalekites: 1 Samuel 15:2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False, , , , , ,12) അമാലേക്യർ: 1 ശമൂവേൽ 15:2, , 
+Teman_fn,13) Temanites: Job 42:7,13) Temanites: Job 42:7,2025-09-22,bible,False, , , , , ,13) തേമാന്യർ: ഇയ്യോബ് 42:7, , 
+Sidon_fn,14) Sidonians: Zechariah 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , ,14) സീദോന്യർ: സെഖറിയാവ് 9:2, , 
+Heth_fn,15) Hittites: Genesis 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , ,15) ഹിത്യർ: ഉല്പത്തി 15:20, , 
+Jebusite_fn,16) Jebusites: Joshua 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , ,16) യെബൂസ്യർ: യോശുവ 15:63, , 
+Judith,Judith?,Judith?,"Genesis 26:34, 35",bible,False, , , , , ,യൂധിത്ത്?, , 
+Lud_fn,17) Lydians: 1 Chronicles 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , ,17) ലിദ്യർ: 1 ദിനവൃത്താന്തം 1:17, , 
+Ishmael_fn,18) Ishmaelites: Genesis 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , ,18) ഇശ്മായേല്യർ: ഉല്പത്തി 37:27, , 
+Amorite_fn,19) Amorites: Judges 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , ,19) അമോര്യർ: ന്യായാധിപന്മാർ 6:10, , 
+Hivite_fn,"20) Hivites [Gibeon]: Joshua 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , ,"20) ഹിവ്യർ [ഗിൽബെയോൻ]: യോശുവ 9:3, 7", , 
+Cain,Cain,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , ,കായീൻ, , 
+Abel,Abel,Abel,Genesis 4:2,bible,False, , , , , ,ഹാബേൽ, , 
+Irad,Irad,Irad,Genesis 4:18,bible,False, , , , , ,ഈരാദ്, , 
+Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False, , , , , ,മെഹൂയാവേൽ, , 
+Methushael,Methushael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , ,മെഥൂഷായേൽ, , 
+Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , ,യാബാൽ, , 
+Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , ,യൂബാൽ, , 
+Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , ,സില്ല, , 
+Tubal-cain,Tubal-cain,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , ,തൂബാൽ-കായീൻ, , 
+Naamah,Naamah,Naamah,Genesis 4:22 his sister,bible,False, , , , , ,നയമ, , 
+Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False, , , , , ,റഹോബയാം, , 
+Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False, , , , , ,അബിയാവ് (അബിയാം), , 
+Asa,Asa,Asa,A6-A,A6-A,False, , , , , ,ആസാ, , 
+Jehoshaphat,Jehoshaphat,Jehoshaphat, ,A6-A,False, , , , , ,യെഹോശാഫാത്ത്, , 
+Jehoram2,Jehoram,Jehoram, ,A6-A,False, , , , , ,യെഹോറാമ്, , 
+Ahaziah,Ahaziah,Ahaziah, ,A6-A,False, , , , , ,അഹസ്യാവ്, , 
+Athaliah,Queen Athaliah,Queen Athaliah,Queen Athaliah,A6-A,False, , , , , ,അതല്യാവ് രാജ്ഞി, , 
+Jehoash,Jehoash,Jehoash, ,A6-A,False, , , , , ,യെഹോവാശ്, , 
+Amaziah,Amaziah,Amaziah, ,A6-A,False, , , , , ,אמצאיה (അമസ്യാവ്), , 
+Uzziah,Uzziah (Azariah),Uzziah (Azariah),also Azariah,A6-A,False, , , , , ,ഉസ്സ്യാവ് (അസര്യാവ്), , 
+Jeroboam,Jeroboam,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False, , , , , ,യൊരോബയാം, , 
+Nadab,Nadab,Nadab,less than 2,A6-A,False, , , , , ,നാദാബ്, , 
+Baasha,Baasha,Baasha, ,A6-A,False, , , , , ,ബയെശാ, , 
+Elah,Elah,Elah, ,A6-A,False, , , , , ,ഏലാ, , 
+Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,A6-A,False, , , , , ,സിംരി, , 
+OmriTibni,Omri and Tibni together,Omri and Tibni together,4 years Omri and Tibni,A6-A,False, , , , , ,ഒംറിയும் തിബ്നியும் ഒരുമിച്ച്, , 
+Omri,Omri (alone),Omri (alone),from 947 Omri alone,A6-A,False, , , , , ,ഒംരി (മാത്രം), , 
+Ahab,Ahab,Ahab, ,A6-A,False, , , , , ,ആഹാബ്, , 
+Jehoram,Jehoram,Jehoram, ,A6-A,False, , , , , ,യെഹോറാം, , 
+Jehu,Jehu,Jehu, ,A6-A,False, , , , , ,യേഹൂ, , 
+Jeoahaz,Jeoahaz,Jeoahaz, ,A6-A,False, , , , , ,യെഹോവാഹാസ്, , 
+JeoahazJehoash,Jeoahaz and Jehoash,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False, , , , , ,യെഹോവാഹാസും യെഹോവാഷും, , 
+Jehoash2,Jehoash (alone),Jehoash (alone),Jehoash (alone),A6-A,False, , , , , ,യെഹോവാശ് (മാത്രം), , 
+Jeroboam2,Jeroboam II,Jeroboam II, ,A6-A,False, , , , , ,യൊരോബയാം രണ്ടാമൻ, , 
+Elijah,Elijah,Elijah, ,A6-A,False, , , , , ,ഏലീയാവ്, , 
+Elisha,Elisha,Elisha, ,A6-A,False, , , , , ,എലീശാ, , 
+Jonah,Jonah,Jonah, ,A6-A,False, , , , , ,യോനാ, , 
+Amos,Amos,Amos, ,A6-A,False, , , , , ,ആമോസ്, , 
+Joel,Joel,Joel, ,A6-A,False, , , , , ,യോവേൽ, , 
+Jotham,Jotham,Jotham,A6-B,A6-B,False, , , , , ,യോത്ഥാം, , 
+Ahaz,Ahaz,Ahaz, ,A6-B,False, , , , , ,ആഹാസ്, , 
+Hezekiah,Hezekiah,Hezekiah, ,A6-B,False, , , , , ,ഹിസ്കേയാവ്, , 
+Manasseh,Manasseh,Manasseh, ,A6-B,False, , , , , ,മനശ്ശേ, , 
+Amon,Amon,Amon, ,A6-B,False, , , , , ,ആമോൻ, , 
+Josiah,Josiah,Josiah, ,A6-B,False, , , , , ,യോസിയാവ്, , 
+Jehoahaz,Jehoahaz,Jehoahaz,Only 3 months,A6-B,False, , , , , ,യോഹാവൂസ്, , 
+Jehoiakim,Jehoiakim,Jehoiakim, ,A6-B,False, , , , , ,യോഹ്യാക്കീം, , 
+Jehoiachin,Jehoiachin,Jehoiachin,Only 3 months 10 days,A6-B,False, , , , , ,യോഹ്യാഖീൻ, , 
+Zedekiah,Zedekiah,Zedekiah, ,A6-B,False, , , , , ,സിദ്കീയാവ്, , 
+Zechariah,Zechariah,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False, , , , , ,സെഖര്യാവ്, , 
+Schallum,Schallum,Schallum,only one month,A6-B,False, , , , , ,ശല്ലൂം, , 
+Menahem,Menahem,Menahem, ,A6-B,False, , , , , ,മെനഹേം, , 
+Pekahiah,Pekahiah,Pekahiah, ,A6-B,False, , , , , ,പെക്കഹ്യാവ്, , 
+Pekah,Pekah,Pekah, ,A6-B,False, , , , , ,പെക്കഹ്, , 
+Hoshea,Hoshea,Hoshea,9 years from c. 748,A6-B,False, , , , , ,ഹോശേയാ, , 
+Hosea,Hosea,Hosea, ,A6-B,False, , , , , ,ഹോശേയാ, , 
+Isaiah,Isaiah,Isaiah, ,A6-B,False, , , , , ,യെശയ്യാവ്, , 
+Micah,Micah,Micah, ,A6-B,False, , , , , ,മീഖാ, , 
+Zephaniah,Zephaniah,Zephaniah, ,A6-B,False, , , , , ,സെഫന്യാവ്, , 
+Nahum,Nahum,Nahum, ,A6-B,False, , , , , ,നഹൂം, , 
+Jeremiah,Jeremiah,Jeremiah, ,A6-B,False, , , , , ,യിരെമ്യാവ്, , 
+Habakuk,Habakuk,Habakuk, ,A6-B,False, , , , , ,ഹബക്കൂക്, , 
+Daniel,Daniel,Daniel, ,A6-B,False, , , , , ,ദാനಿಯೇൽ, , 
+Ezekiel,Ezekiel,Ezekiel, ,A6-B,False, , , , , ,യെഹെസ്കേൽ, , 
+Obadiah,Obadiah,Obadiah, ,A6-B,False, , , , , ,ഔബദ്യാവ്, , 
+Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,False, , , , , ,"ദാനಿಯೇൽ 2:32, 36-38; 7:4", , 
+Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,False, , , , , ,"ദാനಿಯೇൽ 2:32, 39; 7:5", , 
+Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,False, , , , , ,"ദാനಿಯೇൽ 2:32, 39; 7:6", , 
+Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,False, , , , , ,"ദാനಿಯೇൽ 2:33, 40; 7:7", , 
+Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,False, , , , , ,"ദാനಿಯೇൽ 2:33, 41-43", , 
+Babylon_c,Babylon,Babylon, ,B9,False, , , , , ,ബാബിലോൺ, , 
+Medopersia_c,Medo-Persia,Medo-Persia, ,B9,False, , , , , ,മാദ്യ-പേർഷ്യ, , 
+Greece_c,Greece,Greece, ,B9,False, , , , , ,ഗ്രീസ്, , 
+Rome_c,Rome,Rome, ,B9,False, , , , , ,റോം, , 
+Angloamerica_c,Anglo-America,Anglo-America, ,B9,False, , , , , ,ആംഗ്ലോ-അമേരിക്ക, , 
+daniel2_1,King Nebuchadnezzar,King Nebuchadnezzar,607 BCE,B9,False, , , , , ,നെബൂഖദ്‌നേസർ രാജാവ്, , 
+daniel2_2,destroys Jerusalem,destroys Jerusalem,appendix B9,B9,False, , , , , ,യെരൂശലേം നശിപ്പിക്കുന്നു, , 
+daniel2_3,Conquers Babylon,Conquers Babylon,539 BCE,B9,False, , , , , ,ബാബിലോൺ കീഴടക്കുന്നു, , 
+daniel2_4,Cyrus decrees return,Cyrus decrees return,537 BCE,B9,False, , , , , ,മടങ്ങിവരുമെന്ന് കോരേഷ് വിളംബരം ചെയ്യുന്നു, , 
+daniel2_5,of Jews to Jerusalem,of Jews to Jerusalem, ,B9,False, , , , , ,യെരൂശലേമിലേക്ക് യഹൂദന്മാർ, , 
+daniel2_6,Alexander the Great,Alexander the Great,331 BCE,B9,False, , , , , ,മഹാനായ അലക്സാണ്ടർ, , 
+daniel2_7,conquers Persia,conquers Persia, ,B9,False, , , , , ,പേർഷ്യ കീഴടക്കുന്നു, , 
+daniel2_8,Rules over Israel,Rules over Israel,63 BCE,B9,False, , , , , ,ഇസ്രായേലിനുമേൽ ഭരണം നടത്തുന്നു, , 
+daniel2_9,Destroys Jerusalem,Destroys Jerusalem,70 CE,B9,False, , , , , ,യെരൂശലേം നശിപ്പിക്കുന്നു, , 
+daniel2_10,"During World War I,","During World War I,",1914-1918 CE,B9,False, , , , , ,"ഒന്നാം ലോകമഹായുദ്ധകാലത്ത്,", , 
+daniel2_11,Anglo-American World Power,Anglo-American World Power, ,B9,False, , , , , ,ആംഗ്ലോ-അമേരിക്കൻ ലോകശക്തി, , 
+daniel2_12,comes into being,comes into being,End 4.2,B9,False, , , , , ,ഉത്ഭവിക്കുന്നു, , 
+607BCE,607 B.C.E.,607 B.C.E.,accommodate for language,B9,False, , , , , ,ക്രി.മു. 607, , 
+539BCE,539 B.C.E.,539 B.C.E.,systems in style:,B9,False, , , , , ,ക്രി.മു. 539, , 
+537BCE,537 B.C.E.,537 B.C.E.,>>year 537 before time<<,B9,False, , , , , ,ക്രി.മു. 537, , 
+331BCE,331 B.C.E.,331 B.C.E.,so they need a word,B9,False, , , , , ,ക്രി.മു. 331, , 
+63BCE,63 B.C.E.,63 B.C.E.,prior to the year,B9,False, , , , , ,ക്രി.മു. 63, , 
+70CE,70 C.E.,70 C.E.,and something,B9,False, , , , , ,ക്രി.വ. 70, , 
+1914CE,1914-1918 C.E.,1914-1918 C.E.,after the year,B9,False, , , , , ,ക്രി.വ. 1914-1918, , 
+7times,Revelation 12:9,Revelation 12:9, ,scripture,False, , , , , ,വെളിപാട് 12:9, , 
+infliction2,Acts 7:6,Acts 7:6, ,scripture,False, , , , , ,പ്രവൃത്തികൾ 7:6, , 
+eastern-zhou,770-256 BC,770-256 BC, ,span_bc,False, , , , , ,ബി.സി. 770-256, , 
+430years,1943 – 1513 B.C.E.,1943 – 1513 B.C.E., ,span_bce,False, , , , , ,ക്രി.മു. 1943 - 1513, , 
+eastern-han,25-220 CE,25-220 CE, ,span_ce,False, , , , , ,ക്രി.വ. 25-220, , 
+northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False, , , , , ,ക്രി.വ. 368-581, , 
+southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False, , , , , ,ക്രി.വ. 420-589, , 
 khmer_empire,804 – 1431,804 – 1431, ,timespan,True, , , , , , , , 
 byzantine_empire,330 – 1453,330 – 1453, ,timespan,True, , , , , , , , 
 ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True, , , , , , , , 
@@ -494,50 +494,50 @@ revival_le_dynasty,1533-1789,1533-1789, ,timespan,True, , , , , , , ,
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True, , , , , , , , 
 edo,1603 – 1868,1603 – 1868, ,timespan,True, , , , , , , , 
 meiji,1868 – 1912,1868 – 1912, ,timespan,True, , , , , , , , 
-Julius,Julius,Julius, ,wiki,False, , , , , , , , 
-Caligula,Caligula,Caligula, ,wiki,False, , , , , , , , 
-Nero,Nero,Nero, ,wiki,False, , , , , , , , 
-Galba-Otho-Vitellius,"Galba, Otho and Vitellius (Year of the Four Emperors)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , , , , 
-Vespasian,Vespasian,Vespasian, ,wiki,False, , , , , , , , 
-covid19,Covid-19,Covid-19, ,wiki,False, , , , , , , , 
-nicaea1,First Council of Nicaea,First Council of Nicaea, ,wiki,False, , , , , , , , 
-oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri, ,wiki,False, , , , , , , , 
-p52,Papyrus P52,Papyrus P52, ,wiki,False, , , , , , , , 
-qing-dynasty_c,Qing dynasty,Qing dynasty,1636-1912,wiki,False, , , , , , , , 
-ming-dynasty_c,Ming dynasty in imperial China,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , , , , 
-yuan-dynasty_c,Yuan,Yuan,1271-1368,wiki,False, , , , , , , , 
-southern-song_c,Southern Song,Southern Song,1127-1279,wiki,False, , , , , , , , 
-northern-song_c,Northern Song,Northern Song,960-1127,wiki,False, , , , , , , , 
-western-xia_c,Western Xia,Western Xia,1038-1227,wiki,False, , , , , , , , 
-Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,False, , , , , , , , 
-Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , , , , 
-Newton,Isaac Newton,Isaac Newton, ,wiki,False, , , , , , , , 
-shang-dynasty_c,Shang dynasty,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , , , , 
-western-zhou_c,Western Zhou,Western Zhou,c. 1046-771 BC,wiki,False, , , , , , , , 
-eastern-zhou_c,Eastern Zhou,Eastern Zhou,770-256 BC,wiki,False, , , , , , , , 
-western-han_c,Western Han,Western Han,207 BC – 9 CE,wiki,False, , , , , , , , 
-eastern-han_c,Eastern Han,Eastern Han,25-220 CE,wiki,False, , , , , , , , 
-three-kingdoms_c,China,China,Three kingdoms 220-280 CE,wiki,False, , , , , , , , 
-sixteen-kingdoms_c,China,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , , , , 
-northern-dynasties_c,Northern dynasties,Northern dynasties,368-581 CE,wiki,False, , , , , , , , 
-southern-dynasties_c,Southern dynasties,Southern dynasties,420-589 CE,wiki,False, , , , , , , , 
-tang-dynasty2_c,Tang dynasty,Tang dynasty,"618-690, 705-907",wiki,False, , , , , , , , 
-byzantine_empire_c,Byzantine Empire,Byzantine Empire,330–1453 ,wiki,False, , , , , , , , 
-ottoman_empire_c,Ottoman Empire,Ottoman Empire,1299–1922,wiki,False, , , , , , , , 
-Genghis,Genghis Khan,Genghis Khan,c. 1162 – August 1227,wiki,False, , , , , , , , 
-inca_empire_c,Inca empire,Inca empire, ,wiki,False, , , , , , , , 
-gupta_empire_c,Gupta Empire,Gupta Empire, ,wiki,False, , , , , , , , 
-Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False, , , , , , , , 
-Abbasid_c,Abbasid Caliphate,Abbasid Caliphate, ,wiki,False, , , , , , , , 
-Mamluk_c,Mamluk Sultanate,Mamluk Sultanate, ,wiki,False, , , , , , , , 
-Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False, , , , , , , , 
-wulfila,Wulfila Bible,Wulfila Bible,2025-09-20,wiki,False, , , , , , , , 
-tran_dynasty_c,Trần dynasty,Trần dynasty,1225–1400,wiki,False, , , , , , , , 
-le_dynasty_c,Lê dynasty,Lê dynasty,1428-1527,wiki,False, , , , , , , , 
-revival_le_dynasty_c,Trịnh lords and Nguyễn lords,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty 1533–1789 ",wiki,False, , , , , , , , 
-seljuk_empire_c,Seljuk empire,Seljuk empire, ,wiki,False, , , , , , , , 
-vandals_c,Vandals,Vandals, ,wiki,False, , , , , , , , 
-lombard_c,Lombard Kingdom,Lombard Kingdom,2025-10-13,wiki,False, , , , , , , , 
+Julius,Julius,Julius, ,wiki,False, , , , , ,ജൂലിയസ്, , 
+Caligula,Caligula,Caligula, ,wiki,False, , , , , ,കലിഗുള, , 
+Nero,Nero,Nero, ,wiki,False, , , , , ,നീറോ, , 
+Galba-Otho-Vitellius,"Galba, Otho and Vitellius (Year of the Four Emperors)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , ,"ഗാൽബ, ഒത്തോ, വിറ്റെല്ലിയസ് (നാല് ചക്രവർത്തിമാരുടെ വർഷം)", , 
+Vespasian,Vespasian,Vespasian, ,wiki,False, , , , , ,വെസ്പേഷ്യൻ, , 
+covid19,Covid-19,Covid-19, ,wiki,False, , , , , ,കൊവിഡ്-19, , 
+nicaea1,First Council of Nicaea,First Council of Nicaea, ,wiki,False, , , , , ,ഒട്ടോമൻ നൈസീഷ്യൻ സൂനഹദോസ്, , 
+oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri, ,wiki,False, , , , , ,ഓക്സിറിഞ്ചസ് പാപ്പിറസ്, , 
+p52,Papyrus P52,Papyrus P52, ,wiki,False, , , , , ,പാപ്പിറസ് പി52, , 
+qing-dynasty_c,Qing dynasty,Qing dynasty,1636-1912,wiki,False, , , , , ,ക്വിങ് രാജവംശം, , 
+ming-dynasty_c,Ming dynasty in imperial China,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , ,ചൈനീസ് സാമ്രാജ്യത്തിലെ മിങ് രാജവംശം, , 
+yuan-dynasty_c,Yuan,Yuan,1271-1368,wiki,False, , , , , ,യുവാൻ, , 
+southern-song_c,Southern Song,Southern Song,1127-1279,wiki,False, , , , , ,തെക്കൻ സോങ്, , 
+northern-song_c,Northern Song,Northern Song,960-1127,wiki,False, , , , , ,വടക്കൻ സോങ്, , 
+western-xia_c,Western Xia,Western Xia,1038-1227,wiki,False, , , , , ,പടിഞ്ഞാറൻ സിയാ, , 
+Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,False, , , , , ,നിക്കോളസ് കോപ്പർനിക്കസ്, , 
+Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , ,ഗലീലിയോ ഗലീലി, , 
+Newton,Isaac Newton,Isaac Newton, ,wiki,False, , , , , ,ഐസക് ന്യൂട്ടൺ, , 
+shang-dynasty_c,Shang dynasty,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , ,ഷാങ് രാജവംശം, , 
+western-zhou_c,Western Zhou,Western Zhou,c. 1046-771 BC,wiki,False, , , , , ,പടിഞ്ഞാറൻ ഷൗ, , 
+eastern-zhou_c,Eastern Zhou,Eastern Zhou,770-256 BC,wiki,False, , , , , ,കിഴക്കൻ ഷൗ, , 
+western-han_c,Western Han,Western Han,207 BC – 9 CE,wiki,False, , , , , ,പടിഞ്ഞാറൻ ഹാൻ, , 
+eastern-han_c,Eastern Han,Eastern Han,25-220 CE,wiki,False, , , , , ,കിഴക്കൻ ഹാൻ, , 
+three-kingdoms_c,China,China,Three kingdoms 220-280 CE,wiki,False, , , , , ,ചൈന, , 
+sixteen-kingdoms_c,China,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , ,ചൈന, , 
+northern-dynasties_c,Northern dynasties,Northern dynasties,368-581 CE,wiki,False, , , , , ,വടക്കൻ രാജവംശങ്ങൾ, , 
+southern-dynasties_c,Southern dynasties,Southern dynasties,420-589 CE,wiki,False, , , , , ,തെക്കൻ രാജവംശങ്ങൾ, , 
+tang-dynasty2_c,Tang dynasty,Tang dynasty,"618-690, 705-907",wiki,False, , , , , ,ടാങ് രാജവംശം, , 
+byzantine_empire_c,Byzantine Empire,Byzantine Empire,330–1453 ,wiki,False, , , , , ,ബൈസാന്റിയൻ സാമ്രാജ്യം, , 
+ottoman_empire_c,Ottoman Empire,Ottoman Empire,1299–1922,wiki,False, , , , , ,ഓട്ടോമൻ സാമ്രാജ്യം, , 
+Genghis,Genghis Khan,Genghis Khan,c. 1162 – August 1227,wiki,False, , , , , ,ജെങ്കിസ് ഖാൻ, , 
+inca_empire_c,Inca empire,Inca empire, ,wiki,False, , , , , ,ഇൻകാ സാമ്രാജ്യം, , 
+gupta_empire_c,Gupta Empire,Gupta Empire, ,wiki,False, , , , , ,ഗുപ്ത സാമ്രാജ്യം, , 
+Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False, , , , , ,തെയോതിഹുക്കാൻ, , 
+Abbasid_c,Abbasid Caliphate,Abbasid Caliphate, ,wiki,False, , , , , ,അബ്ബാസിദ് ഖിലാഫത്ത്, , 
+Mamluk_c,Mamluk Sultanate,Mamluk Sultanate, ,wiki,False, , , , , ,മamluk സുൽത്താനേറ്റ് (Mamluk Sultanate), , 
+Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False, , , , , ,അൽ-ഗസാലി, , 
+wulfila,Wulfila Bible,Wulfila Bible,2025-09-20,wiki,False, , , , , ,ഉൾഫില ബൈബിൾ, , 
+tran_dynasty_c,Trần dynasty,Trần dynasty,1225–1400,wiki,False, , , , , ,ട്രാൻ രാജവംശം, , 
+le_dynasty_c,Lê dynasty,Lê dynasty,1428-1527,wiki,False, , , , , ,ലെ രാജവംശം, , 
+revival_le_dynasty_c,Trịnh lords and Nguyễn lords,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty 1533–1789 ",wiki,False, , , , , ,ട്രിൻ പ്രഭുക്കന്മാരും ന്ഗുയെൻ പ്രഭുക്കന്മാരും, , 
+seljuk_empire_c,Seljuk empire,Seljuk empire, ,wiki,False, , , , , ,സെൽജുക് സാമ്രാജ്യം, , 
+vandals_c,Vandals,Vandals, ,wiki,False, , , , , ,വാണ്ടലുകൾ, , 
+lombard_c,Lombard Kingdom,Lombard Kingdom,2025-10-13,wiki,False, , , , , ,ലൊംബാർഡ് രാജ്യം, , 
 people,people,people, ,deprecated,False, , , , , , , , 
 judges,judges,judges, ,deprecated,False, , , , , , , , 
 prophets,prophets,prophets, ,deprecated,False, , , , , , , , 
@@ -553,14 +553,14 @@ meeting_workbook,New format of midweek meeting with “Meeting Workbook” start
 terahfam,Members of Terah’s family,Members of Terah’s family, ,deprecated,False, , , , , , , , 
 metropolitan,Start of metropolitan witnessing in 2011,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
 jw_org,Start of JW.ORG with instructions in Kingdom Ministry December 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
-Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
+Babylon2, ,,no text left and right – empty!,deprecated,False, , , , , , , , 
 daniel2_shift,0,0,Start 4.2,deprecated,False, , , , , , , , 
 Gatam,Gatam,Gatam,Genesis 36:11,deprecated,False, , , , , , , , 
 Adbeel,Adbeel,Adbeel,Genesis 25:13,deprecated,False, , , , , , , , 
 Mibsam,Mibsam,Mibsam,Genesis 25:13,deprecated,False, , , , , , , , 
 Dumah,Dumah,Dumah,Genesis 25:14,deprecated,False, , , , , , , , 
 Massa,Massa,Massa,Genesis 25:14,deprecated,False, , , , , , , , 
-tang-dynasty1, , , ,deprecated,False, , , , , , , , 
+tang-dynasty1, ,, ,deprecated,False, , , , , , , , 
 xia-dynasty,Xia dynasty in China c. 2070 – c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
 Midianites,"1) Midianites: Numbers 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
 Moabites,"2) Moabites: Deuteronomy 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3) Ammonites: Joshua 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
 Edomites,4) Edomites: Numbers 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
 Temanites,5) Temanites: Job 42:7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
 Amalekites,6) Amalekites: 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
-king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
-king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
-daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_south_light, ,,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, ,,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, ,,2025-02-05,deprecated,False, , , , , , , , 

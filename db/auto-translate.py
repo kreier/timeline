@@ -44,6 +44,18 @@ import pandas as pd
 from googletrans import Translator
 import deepl
 
+# Load environment variables from .env if present
+for _env_path in [os.path.join(os.path.dirname(__file__), "..", ".env"), os.path.join(os.path.dirname(__file__), ".env")]:
+    if os.path.isfile(_env_path):
+        with open(_env_path, "r", encoding="utf-8") as _f:
+            for _line in _f:
+                _line = _line.strip()
+                if _line and not _line.startswith("#") and "=" in _line:
+                    _k, _v = _line.split("=", 1)
+                    _k, _v = _k.strip(), _v.strip()
+                    if _k and not os.getenv(_k):
+                        os.environ[_k] = _v
+
 # Initialize the DeepL client
 # Best practice: Store key in environment variable DEEPL_API_KEY, e.g. in
 # Windows set it once with:
@@ -674,7 +686,7 @@ def translate_gemini_batch(sources, target_lang):
     try:
         client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
         resp = client.models.generate_content(
-            model="gemini-3.6-flash",  # free-tier eligible model (2.0-flash retired)
+            model="gemini-3.1-flash-lite",  # active free-tier model (gemini-3.5-flash-lite / gemini-3.1-flash-lite)
             contents=_numbered_prompt(sources, target_lang),
         )
         return _parse_lines(resp.text)

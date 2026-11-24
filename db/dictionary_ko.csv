@@ -1,473 +1,473 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
-version,6.08,6.08, ,float,False, , , , , , , , 
-pdf_title,한눈에 보는 인류 6000년 역사,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,"인류 역사 6,000년 — 연표", , ,"6,000년의 인류 역사 — 연표"
-pdf_subject,인류의 타임라인,Timeline of human history from 4000 BCE to present,6.01,text,False, , , , ,기원전 4000년부터 현재까지의 인류 역사 연표, , ,기원전 4000년부터 현재까지의 인류 역사 연표
-BCE,기원전,B.C.E.,appendix B9,B9,True, , , , , , , , 
-CE,기원후,C.E., ,B9,False, , , , , , , , 
-month,개월,month, ,text,False, , , , ,달, , ,월
-months,개월,months, ,text,True, , , , ,달, , ,개월
-day,낮,day, ,text,False, , , , ,일, , ,날
-days,일,days, ,text,False, , , , ,일, , ,일
-to,～,to, ,text,False, , , , ,부터, , ,~에
-Deluge,노아의 대홍수,Deluge, ,text,False, , , , ,대홍수, , ,대홍수
-moses2,기원전 1593년~1473년 – 120년,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,기원전 1593년–1473년 – 120년, , ,기원전 1593년 ~ 기원전 1473년 – 120년
-temple1,기원전 1513년 니산월~1034년 시브월,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,기원전 1513년 니산월부터 기원전 1034년 지브월까지, , ,기원전 1513년 니산월부터 기원전 1034년 지브월까지
-69weeks,예수께서는 기원 29년 가을에 침례를 받음.,Jesus baptized autumn 29 C.E., ,text,True, , , , ,"서기 29년 가을, 예수 세례", , ,예수께서는 서기 29년 가을에 세례를 받으셨습니다.
-year,년,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True, , , , ,년, , ,년
-years,년,years, ,text,False, , , , ,년, , ,년
-years_age,세,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True, , , , ,년, , ,년
-age_kings,세에, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
-wilderness,이스라엘의 광야 생활 기원전 1513년~1473년 – 40년,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,광야에서의 이스라엘 기원전 1513년–1473년 – 40년, , ,"광야에 있던 이스라엘, 기원전 1513년~1473년 – 40년"
-timespan_judges,기원전 1473년~1117년 – 356년,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,기원전 1473년–1117년 – 356년, , ,기원전 1473년 ~ 기원전 1117년 – 356년
-timespan_judges2,재판관 시대,Time of the judges, ,text,False, , , , ,사사 시대, , ,판사들의 시대
-temple2,성전 건축까지 479년 – 열상 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,성전 건축까지 479년 – 열왕기상 6:1, , ,성전 건축까지 479년 – 열왕기상 6:1
-69weeks2,메시아가 올 때까지 69주 – 다니엘 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,메시아까지 69주 – 다니엘 9:25, , ,메시아가 오기까지 69주 – 다니엘서 9:25
-jesus_service,"예수의 3년 반의 봉사 기간 후, 기원 33년 니산월 14일에 처형되심.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"예수의 사역 3.5년, 서기 33년 니산 14일에 처형됨", , ,"3.5년간의 예수 사역, 서기 33년 니산월 14일에 처형되심."
-jesus_life,예수께서는 기원전 2년에 태어나심.,Jesus born 2 B.C.E., ,text,False, , , , ,예수 기원전 2년 출생, , ,기원전 2년에 태어난 예수
-exile,기원전 607년~537년 – 70년(예레미야 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,기원전 607년–537년 – 70년 (예레미야 25:11), , ,기원전 607년~537년 – 70년 (예레미야 25:11)
-exile2,유배,Exile, ,text,False, , , , ,포로, , ,추방
-7times2,"일곱 때 – 메시아 왕국까지 2520년, 기원 1914년(다니엘 4:23)",7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,메시아 왕국 1914년까지 7때 – 2520년 (다니엘 4:23), , ,7배 – 서기 1914년 메시아 왕국까지 2520년 (다니엘 4:23)
-ww1,제1차 세계 대전 – 1914년~1918년,World War I – 1914–1918, ,text,False, , , , ,제1차 세계대전 – 1914–1918, , ,제1차 세계 대전 – 1914–1918
-ww2,제2차 세계 대전 – 1939년~1945년,World War II – 1939–1945, ,text,False, , , , ,제2차 세계대전 – 1939–1945, , ,제2차 세계 대전 – 1939–1945
-30_year_war,유럽의 30년 전쟁 1618년~1648년,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,유럽의 30년 전쟁 1618-1648, , ,유럽의 30년 전쟁 (1618–1648)
-joshua,110년,110 years, ,text,False, , , , ,110년, , ,110년
-caleb,85년 이상,more than 85 years, ,text,False, , , , ,85년 이상, , ,85년 이상
-missionary1,"바울의 1차 선교 여행, c. 47년~48년 바나바와 요한 마가와 함께","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"바울의 제1차 선교여행, 서기 47-48년경 바나바와 요한 마르도와 함께", , ,"바나바와 요한 마가와 함께한 바울의 첫 번째 선교 여행, 서기 47~48년경"
-circumcision,"안티오크에서의 할례 문제, 예루살렘 회의 c. 49년","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"안디옥에서의 할례 문제, 서기 49년경 예루살렘 회의", , ,"안티오크의 할례 문제, 서기 49년경 예루살렘에서 열린 회의"
-missionary2,두 번째 선교 여행 c. 49년~52년 실라(실바누스),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,제2차 선교여행 서기 49-52년경 실라(실바누)와 함께, , ,"서기 49~52년경, 실라(실바누스)와 함께한 두 번째 선교 여행"
-missionary3,세 번째 선교 여행 c. 52년~56년,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,제3차 선교여행 서기 52-56년경, , ,제3차 선교 여행 (기원후 52~56년경)
-caesarea,가이사랴에 감금된 바울 c. 56년-58년,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,가이사라에서의 바울 구금 서기 56-58년경, , ,"기원후 56~58년경, 가이사랴에서 구금된 바울"
-rome1,바울이 로마에서 첫 번째 투옥됨 c. 59년-61년,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,로마에서의 바울 제1차 투옥 서기 59-61년경, , ,"기원후 59~61년경, 로마에서 바울이 처음으로 투옥된 시기"
-rome2,"바울이 로마에서 두 번째 투옥됨 c. 65년, 디모데 후서가 기록되고 바울이 처형됨","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"로마에서의 바울 제2차 투옥 서기 65년경, 디모데후서 기록, 바울 처형", , ,"기원후 65년경, 바울이 로마에서 두 번째로 투옥됨, 『디모데후서』 집필, 바울 처형"
-event_exodus,기원전 1513년 니산월 14일 이집트 탈출,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,기원전 1513년 니산 14일 애굽 탈출, , ,"기원전 1513년 니산월 14일, 이집트 탈출"
-event_division_kingdom,기원전 997년 이스라엘 분열,Division of Israel 997 BCE, ,text,False, , , , ,기원전 997년 이스라엘 분열, , ,기원전 997년 이스라엘의 분열
-event_destruction_samaria,기원전 740년 아시리아에 의해 사마리아 멸망,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,기원전 740년 앗시리아에 의한 사마리아 멸망, , ,"기원전 740년, 아시리아에 의한 사마리아의 멸망"
-event_destruction_jerusalem1,기원전 607년 왕국이 분열된 지 390년 후 바벨론에 의해 예루살렘 멸망(에스겔 4:5),"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"기원전 607년 바빌론에 의한 예루살렘 멸망, 왕국 분열 후 390년 (에스겔 4:5)", , ,"왕국이 분열된 지 390년 후인 기원전 607년, 바빌론에 의해 예루살렘이 파괴됨 (에스겔 4:5)"
-event_temple_rebuilt,기원전 515년 예루살렘 성전 재건,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,기원전 515년 예루살렘 성전 재건, , ,기원전 515년에 예루살렘 성전이 재건되었다.
-event_jerusalem_rebuilt,기원전 455년 예루살렘 성벽 재건,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,기원전 455년 예루살렘 성벽 재건, , ,기원전 455년에 예루살렘 성벽이 재건되었다.
-event_destruction_jerusalem2,70년 티투스 휘하의 로마에 의해 예루살렘을 멸망,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,서기 70년 로마의 티투스에 의한 예루살렘 멸망, , ,"서기 70년, 티투스가 이끄는 로마군에 의한 예루살렘의 파괴"
-event_1914,"1914년 나라들의 때의 끝 (누가 21:24), 하나님의 왕국이 하늘에서의 통치 시작","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"민족의 시대의 끝 (누가복음 21:24), 하나님의 왕국이 하늘에서 통치하기 시작함 1914년", , ,"이방인의 시대가 끝나고(누가복음 21:24), 서기 1914년에 하늘에서 하나님의 왕국이 통치하기 시작합니다."
-became_king,세에 왕이 됨,becomes king at age,2025-04-14,text,False, , , , ,다음 나이에 왕이 되다, , ,세 살에 왕이 된다
-vulgate,제롬의 불가타 완성(성경의 라틴어 번역) c. 405년,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,서기 405년경 히에로니무스에 불가타(성서 라틴어 번역) 완성, , ,제롬이 서기 405년경에 완성한 불가타(성경의 라틴어 번역본).
-gutenberg,1455년 구텐베르크 성경 인쇄,Gutenberg Bible printed 1455, ,text,False, , , , ,1455년 구텐베르크 성서 인쇄, , ,1455년에 인쇄된 구텐베르크 성경
-erasmus,1516년 로테르담의 데시데리우스 에라스무스의 그리스도인 그리스어 성경의 그리스어 본문 발행,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,1516년 로테르담의 데시데리우스 에라스무스에 의해 기독교 그리스어 성서의 그리스어 본문 출판, , ,1516년 로테르담의 데시데리우스 에라스무스가 출판한 『그리스도교 그리스어 성경』의 그리스어 본문
-luther,1522년 9월 루터 성경 번역,Luther Bible translation in September 1522, ,text,False, , , , ,1522년 9월 루터 성서 번역, , ,1522년 9월의 루터 성경 번역
-tyndale,1536년 틴들의 영어 성경 번역,English Bible translation by Tyndale 1536, ,text,False, , , , ,1536년 틴들러에 의한 영어 성서 번역, , ,1536년 틴데일이 번역한 영어 성경
-king_james,1611년 킹 제임스 성경,King James Bible 1611, ,text,False, , , , ,킹 제임스 성경 1611, , ,1611년판 킹 제임스 성경
-69weeks3,"29년 예수의 봉사 시작 (누가 복음 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"예수님이 29년에 봉사를 시작하심 (누가복음 3:1, 21)", , ,"예수께서는 서기 29년에 사역을 시작하셨습니다 (누가복음 3:1, 21)"
-ransom,그 주의 절반에 “제사를 그침”(다니엘 9:27),Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,주의 중반에 “제물이 그치리라” 다니엘 9:27, , ,주중 “제사가 중단되리라” 다니엘서 9:27
-cornelius,36년 고넬료 70주 끝에 침례(다니엘 9:24).,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,고넬료가 70주의 끝(다니엘 9:24)에 36년에 세례를 받음, , ,"코넬리우스는 서기 36년, 70주(다니엘 9:24)가 끝날 무렵 세례를 받았다."
-columbus,1492년 아메리카 대륙의 콜럼버스 이전 시대의 끝,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,아메리카에서 콜럼버스 이전 시대의 끝 1492, , ,"아메리카 대륙의 콜럼버스 이전 시대의 종말, 1492년"
-declaration_independence,1776년 미국 13개 식민지의 독립 선언,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,미국 13개 식민지의 독립선언 1776, , ,1776년 미국 13개 식민지의 독립 선언
-tischendorf,1844년 티셴도르프는 4세기의 시나이 책자본 발견,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,티센도르프가 1844년에 4세기 사본인 시내 사본을 발견함, , ,티셴도르프는 1844년에 4세기에 작성된 시나이 사본을 발견했다.
-dead_sea_scrolls,사해 두루마리가 기록,Dead Sea Scrolls written, ,text,False, , , , ,사해 사본이 기록됨, , ,사해 두루마리 작성
-septuagint,칠십인역 [LXX] 번역,Septuagint LXX translated, ,text,False, , , , ,70인역(LXX)이 번역됨, , ,70인역(LXX)에서 번역한
-watchtower,1879년 “시온의 파수대와 그리스도의 임재의 전령” 창간호 발행,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,“시온의 파수대와 그리스도의 현존의 전령” 제1호가 1879년에 발행됨, , ,1879년에 『시온의 파수대 및 그리스도의 임재의 전령』 제1호가 발간되었다.
-jehovahs_witnesses,1931년 오하이오주 콜럼버스에서 성경 연구생들은 여호와의 증인이라는 새로운 이름 채택,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"성서 연구자들이 새로운 이름—여호와의 증인(이사야 43:10, 12)을 1931년 오하이오주 콜럼버스에서 채택함", , ,"1931년 오하이오주 콜럼버스에서 성경 연구자들이 ‘여호와의 증인’(이사야 43:10, 12)이라는 새로운 이름을 채택했다."
-gilead_school,1943년 2월 1일 월요일 워치타워 길르앗 성서 학교 시작,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,1943년 2월 1일 월요일에 갈릴래아 성서학교가 개강함, , ,길르앗 파수대 성경 학교가 1943년 2월 1일 월요일에 개강한다
-new_world_translation1,1960년 6월 18일 영국 맨체스터에서 “신세계역 성경” 발표,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,“신세계 역역 성경”이 1960년 6월 18일에 영국 맨체스터에서 출판되어 성경多处에서 여호와의 이름을 다시 소개함, , ,1960년 6월 18일 영국 맨체스터에서 발간된 『성경의 신세계역』은 성경의 여러 부분에서 ‘여호와’라는 이름을 다시 도입하고 있다.
-new_world_translation2,2013년 연례 총회에서 개정판 “신세계역 성경”이 발표,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,개정된 “신세계 역역 성경”이 2013년 연례 회의에서 출판되어 디지털과 온라인 사용에 최적화됨, , ,"2013년 연차 총회에서 개정판 『성경의 신세계역』이 발간되었으며, 디지털 및 온라인 사용에 최적화되어 있다."
-cold_war,1945년~1991년 “냉전”이라는 지정학적 상황,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,“냉전”으로 불리는 지정학적 상황 1945-1991, , ,1945년부터 1991년까지 ‘냉전’으로 불린 지정학적 상황
-codex_sinaiticus,시나이 책자본 기록,Codex Sinaiticus written, ,text,False, , , , ,시내 사본이 기록됨, , ,시나이 사본의 작성
-codex_vaticanus,바티칸 책자본 기록,Codex Vaticanus written, ,text,False, , , , ,바티칸 사본이 기록됨, , ,바티칸 사본의 작성
-leningrad_codex,1008년 카이로에서 레닌그라드 책자본 기록,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,레닌그라드 사본이 1008년 이집트 카이로에서 기록됨, , ,서기 1008년 카이로에서 쓰인 ‘레닌그라드 코덱스’
-john,기원 96년-98년 요한이 파트모스 섬에 유배되어 있는 동안 “계시록” 기록,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,요한이 96-98년에 파트모스 섬 유배 중 “요한계시록”을 기록함, , ,요한은 서기 96~98년경 파트모스 섬에 유배되어 있는 동안 『요한계시록』을 썼다.
-buddha,붓다 – 고타마 싯다르타 c. 기원전 563년~483년경,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,부처—싯다르타 고타마 기원전 563-483년경, , ,부처님 – 싯다르타 고타마 (기원전 563년경~기원전 483년경)
-buddha2,대안으로 부처님 c. 기원전 480년~400년,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,부처는 대체로 기원전 480-400년경, , ,부처님: 기원전 480년경~400년경 (추정)
-mohammed,모하메드 c. 570년~632년,Mohammed c. 570-632, ,text,False, , , , ,무함마드 570-632년경, , ,"무함마드, 약 570–632년"
-confucius,공자 c. 기원전 551년~479년,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,공자 기원전 551-479년경, , ,공자 (기원전 551년경~기원전 479년경)
-hijrah,히즈라 - 메카에서 메디나로의 여행 622년 7월 16일,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,히즈라—메카에서 메디나로의 이주 622년 7월 16일, , ,"히즈라 - 메카에서 메디나로의 여정, 622년 7월 16일"
-moses_escape,"기원전 1553년 모세는 애굽에서 탈출 – 출애굽기 2:15, 사도행전 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"기원전 1553년 모세가 이집트에서 도피해야 함—출애굽기 2:15, 사도행전 7:23", , ,"기원전 1553년, 모세는 이집트를 탈출해야만 했다 – 출애굽기 2:15, 사도행전 7:23"
-10plagues,기원전 1513년 이집트가 10가지 재앙을 받음,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,기원전 1513년 이집트에 10가지 재앙이 내림, , ,"기원전 1513년, 이집트에 10가지 재앙이 닥치다"
-joseph_sold,요셉은 17세에 노예로 팔림 – 창 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,17세에 종으로 팔려간 요셉—창세기 37:2, , ,요셉은 17세에 노예로 팔렸다 – 창세기 37:2
-infliction,"400년 동안의 괴롭힘(행 7:6) – 이스마엘, 기원전 1913년",400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400년의 괴로움(사도행전 7:6)—기원전 1913년 이스마엘, , ,"400년간의 고난 (사도행전 7:6) – 이스마엘, 기원전 1913년"
-Alexander,알렉산더 대왕 (다니엘 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,알렉산더 대왕 (다니엘 11:3), , ,알렉산더 대왕 (다니엘서 11:3)
-persia,"고레스 대왕, 캄비세스 2세, 다리우스 1세(기원전 490년), 크세르크세스 1세(기원전 480년)(에스더의 남편, 다니엘 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"키루스 대왕, 캄비세스 2세, 다리오 1세 기원전 490년, 크세르크세스 1세 기원전 480년 (에스더의 남편, 다니엘 11:2)", , ,"키루스 대왕, 캄비세스 2세, 다리우스 1세 (기원전 490년), 크세르크세스 1세 (기원전 480년, 에스더의 남편, 다니엘서 11:2)"
-king_north,"셀레우코스 1세 니카토르(v5) 시리아에서 안티오코스 3세(10절) 및 셀레우코스 4세(18, 19절)에서 옥타비아누스(20절) 및 티베리우스(21-24절)까지","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"셀레우코스 1세 니카토르 (5절) 안티오쿠스 3세(10절)와 셀레우코스 4세(18, 19절)를 거쳐 옥타비아누스(20절)와 티베리우스(21-24절)에 이르기까지", , ,"셀레우코스 1세 니카토르(v5) 시리아에서 안티오코스 3세(v10)와 셀레우코스 4세(v18, 19)를 거쳐 옥타비아누스(v20)와 티베리우스(v21-24)에 이르기까지"
-king_north1,북방 왕,King of the North, ,text,False, , , , ,북방의 왕, , ,북부의 왕
-king_south,"프톨레마이오스 1세, 2세, 3세, 4세(11, 12절), 5세(15, 16절) - 기원전 31년 악티움 전투","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"프톨레마이오스 1세, 2세, 3세, 4세(11, 12절), 5세(15, 16절)에서 기원전 31년 악티움 해전까지", , ,"프톨레마이오스 1세, 2세, 3세, 4세(v11, 12), 5세(v15, 16)부터 기원전 31년 악티움 해전까지."
-king_south1,남방 왕,King of the South, ,text,False, , , , ,남방의 왕, , ,남방의 왕
-king_south2,"1870년 대영 제국, 1914년 이후 영미 세계 강국","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"영국 제국 1870년, 1914년 이후 영미 세계 강대국", , ,"1870년 대영제국, 1914년 이후의 영미 세계 강대국"
-king_south3,남방 왕,King of the South, ,text,False, , , , ,남방의 왕, , ,남방의 왕
-king_north2,"독일과 빌헬름 1세 1871년(v28), 1914년(v29), 1935년(v30b), 1939년(v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"황제 빌헬름 1세 시대의 독일 1871년(28절), 1914년(29절), 1935년(30절 후반), 1939년(31절 전반)", , ,"빌헬름 1세 황제가 통치하던 독일: 1871년 (v28), 1914년 (v29), 1935년 (v30b), 1939년 (v31a)"
-king_north3,북,North, ,text,False, , , , ,북방, , ,북쪽
-king_north4,"소련 1945-1991 (다니엘 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"소련 1945-1991 (다니엘 11:32-39, 40절 후반, 41절)", , ,"소련 1945-1991 (다니엘 11:32-39, 40b, 41)"
-king_north5,2017년 이후 러시아 (5월 20일),Russia since 2017 (w20 May), ,text,False, , , , ,2017년 이후의 러시아 (w20 5월), , ,2017년 이후 러시아 (5월 20일 기준)
-time_of_end,"그리스도의 임재, 사물의 제도의 종결(마 24:3), 마지막 날(딤후 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"그리스도의 재림, 시대의 결말(마태복음 24:3), 마지막 날들(디모데후서 3:1)", , ,"그리스도의 임재, 현 세상의 종말 (마태복음 24:3), 마지막 날들 (디모데후서 3:1)"
-time_of_end2,마지막 때,Last days, ,text,False, , , , ,마지막 날들, , ,지난 며칠
-suryavaman2,수르야바르만 2세 국왕이 앙코르와트 건설 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,수리아바르만 2세가 1113-1150년에 앙코르와트를 건축함, , ,수리야바르만 2세 왕이 1113년부터 1150년까지 앙코르 와트를 건설했다.
-notre-dame,노트르담 드 파리 건축(1163~1260),Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,파리 노트르담 성당이 1163-1260년에 건축됨, , ,1163년부터 1260년까지 지어진 파리 노트르담 대성당
-babel,바벨탑 건축,Tower of Babel built, ,text,False, , , , ,바벨탑이 건축됨, , ,바벨탑이 세워졌다
-infliction1,400년의 괴롭힘,400 year infliction,Acts 7:6,text,False, , , , ,400년의 괴로움, , ,400년에 걸친 고통
-Lots_wife,롯의 아내,Lot’s wife, ,text,False, , , , ,롯의 아내, , ,롯의 아내
-Lots_daughters,롯의 딸들,Daughters of Lot, ,text,False, , , , ,롯의 딸들, , ,롯의 딸들
-Moab,모압(큰 딸),Moab (older daughter),Genesis 19:37,text,False, , , , ,모압 (맏딸), , ,모압 (큰딸)
-rosetta,로제타스톤 기원전 196년,Rosetta stone 196 B.C.E., ,text,False, , , , ,로제타석 기원전 196년, , ,"로제타 석, 기원전 196년"
-Herodotus,"헤로도토스 ㄷ. 484 – 다. 기원전 425년, 『역사』 집필","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"헤로도토스 기원전 약 484년 – 기원전 약 425년, 『역사(Historiai)』 집필", , ,헤로도토스(기원전 484년경 ~ 기원전 425년경)는 『역사』를 저술했다.
-Aristotle,아리스토텔레스 기원전 384년 – 기원전 322년,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,아리스토텔레스 기원전 384 – 322년, , ,아리스토텔레스 기원전 384년 – 322년
-Ptolemy,프톨레마이오스 c 100 – c. 기원 170년,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,프톨레마이오스 서기 약 100년 – 서기 약 170년, , ,"프톨레마이오스, 서기 100년경 – 170년경"
-Pythagoras,피타고라스 ㄷ. 570 – c. 기원전 495년,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,피타고라스 기원전 약 570년 – 기원전 약 495년, , ,"피타고라스, 기원전 570년경 ~ 기원전 495년경"
-Plato,플라톤 ㄷ. 427 – c. 기원전 348년,Plato c. 427 – c. 348 BC, ,text,False, , , , ,플라톤 기원전 약 427년 – 기원전 약 348년, , ,"플라톤, 기원전 427년경 ~ 기원전 348년경"
-Socrates,소크라테스 ㄷ. 470 – c. 기원전 399년,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,소크라테스 기원전 약 470년 – 기원전 약 399년, , ,"소크라테스, 기원전 470년경 – 기원전 399년경"
-Josephus,요세푸스 ㄷ. 37 – 다. 기원 100년,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,요세푸스 서기 약 37년 – 서기 약 100년, , ,"요세푸스, 서기 37년경 – 서기 100년경"
-Cicero,키케로 기원전 106-43년,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,키케로 기원전 106–43년, , ,키케로 기원전 106–43년
-lachish_letters,라기스 편지 ㄷ. 기원전 590년,Lachish letters c. 590 B.C.E., ,text,False, , , , ,라키스 서신들 기원전 약 590년, , ,기원전 590년경의 라키시 서신
-lachish_reliefs,라기스 부조 ㄷ. 기원전 681년,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,라키스 부조 기원전 약 681년, , ,기원전 681년경의 라키쉬 부조
-mesha_stele,메사비석(모압석) 다. 기원전 840년,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,메사 석비(모압석) 기원전 약 840년, , ,"메샤 비석 (모압 비석), 기원전 840년경"
-gilgamesh,길가메시와 아가 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,길가메시와 아가 𒇽𒆥𒄄𒀀𒀝𒂵, , ,길가메시와 아가 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,길가메시 서사시(Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,『길가메시 서사시』(신-레키-우닌니), , ,길가메시 서사시 (신-레키-운니니)
-gregorian,그레고리력 1582년,Gregorian calendar 1582, ,text,False, , , , ,그레고리력 1582년, , ,그레고리력 1582년
-shang-dynasty,c. 기원전 1600-1046년,c. 1600-1046 BC, ,text,False, , , , ,기원전 약 1600-1046년, , ,기원전 1600년경–1046년
-western-zhou,c. 기원전 1046-771년,c. 1046-771 BC, ,text,False, , , , ,기원전 약 1046-771년, , ,기원전 1046년경–771년경
-qin-dynasty,진 기원전 221-207,Qin 221-207 BC, ,text,False, , , , ,진(秦) 기원전 221-207년, , ,진나라 (기원전 221~207년)
-western-han,기원전 207년 – 서기 9년,207 BC – 9 CE, ,text,False, , , , ,기원전 207년 – 서기 9년, , ,기원전 207년 – 기원후 9년
-three-kingdoms,삼국시대 220-280 CE,Three kingdoms 220-280 CE, ,text,False, , , , ,삼국 시대 서기 220-280년, , ,삼국시대 (서기 220~280년)
-sixteen-kingdoms,16개 왕국 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,십육국 시대 서기 304-439년, , ,"16개국, 서기 304–439년"
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , ,"618-690년, 705-907년", , , 
-wu-zhou,690-705 우저우,690-705 Wu Zhou, ,text,False, , , , ,690-705년 무주(武周), , ,690-705 우저우
-tang-dynasty1_c,당나라,Tang, ,text,False, , , , ,당(唐), , ,탕
-gonghe,공허섭정(기원전 841-828년),Gonghe Regency 841-828 BC, ,text,False, , , , ,공화 정정(共和政) 기원전 841-828년, , ,"공허 현, 기원전 841~828년"
-Ashoka,아쇼카(기원전 304-232년경)는 불교를 장려했습니다.,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,아쇼카(기원전 약 304-232년)가 불교를 장려하다, , ,아쇼카(기원전 304년경~232년경)는 불교를 장려했다
-siloam-tunnel,히스기야가 실로암 터널을 확장하다,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,히스기야가 실로암 터널을 확장하다, , ,히스기야가 실로암 터널을 확장하다
-Angloamerica2,"영미권은 다니엘 2:33, 41-43의 예언에서 진흙과 철이 섞인 발로 상징됩니다.","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"앵글로-아메리카는 다니엘서 2장 33, 41-43절의 예언에서 진흙과 섞인 철로 된 발로 상징된다", , ,"앵글로-아메리칸은 다니엘서 2장 33절, 41-43절의 예언에 나오는 ‘진흙이 섞인 철 다리’로 상징됩니다."
-Manetho,마네토는 아이귑티카 를 쓴다,Manetho writes Aegyptiaca, ,text,False, , , , ,마네토가 『이집트사(Aegyptiaca)』를 집필하다, , ,마네토는 『에집티아카』를 집필했다
-destruction_babylon,"큰 바빌론의 멸망 (계시 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"대바빌론의 멸망(요한계시록 17:3, 15-18; 18:9, 10)", , ,"큰 바빌론의 멸망 (요한계시록 17:3, 15-18; 18:9, 10)"
-peace_security,"“평화와 안전!” (데살로니가전서 5:3, 이것이 하나의 가능성입니다, 독자 Q 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"""평화와 안전!""(데살로니가전서 5:3, 이는 한 가지 가능성이다, 왕국소식 26/2, 25/11)", , ,"“평화와 안전!” (데살로니가전서 5:3, 이는 한 가지 가능성임, QfR 26/2, 25/11)"
-gog_of_magog,"마곡의 곡의 공격 (에스겔 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"곡과 마곡의 공격(에스겔서 38:1, 2, 9-12, 18-23)", , ,"마곡의 고그의 침공 (에스겔 38:1, 2, 9-12, 18-23)"
-sheep_goat,땅의 주민들이 양과 염소를 분리하여 심판을 받을 것입니다(마태복음 25:31-33).,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,땅의 거민들이 심판받아 양과 염소로 나뉘다(마태복음 25:31-33), , ,지상의 모든 사람이 심판을 받아 양과 염소가 가려진다 (마태복음 25:31-33)
-annointed,왕국 통치자들의 집합 (마태복음 24:31; 고린도전서 15:50-53; 데살로니가전서 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,왕국 통치자들의 모임(마태복음 24:31; 고린도전서 15:50-53; 데살로니가전서 4:15-17), , ,왕국의 통치자들이 모이는 자리 (마태복음 24:31; 고린도전서 15:50-53; 데살로니가전서 4:15-17)
-armageddon,"아마겟돈 전쟁 (요한계시록 16:14, 16; 이사야 13:9; 베드로후서 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"아마겟돈 전투(요한계시록 16:14, 16; 이사야 13:9; 베드로후서 3:12)", , ,"아마겟돈 전투 (요한계시록 16:14, 16; 이사야 13:9; 베드로후서 3:12)"
-millenium,"하느님의 왕국이 1000년 통치를 시작합니다 (계시 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"하나님의 왕국이 1000년 통치를 시작하다(요한계시록 5:9, 10; 20:4, 6)", , ,"하나님의 왕국이 1,000년 동안의 통치를 시작한다 (요한계시록 5:9, 10; 20:4, 6)"
-great_crowd,"큰 무리가 아마겟돈을 살아남습니다 (계시 7:9, 14; 시 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"큰 무리가 아마겟돈을 살아남다(요한계시록 7:9, 14; 시편 37:9-11)", , ,"수많은 무리가 아마겟돈에서 살아남는다 (요한계시록 7:9, 14; 시편 37:9-11)"
-world_population,지난 2000년간 수십억의 세계 인구,World population in billions in the last 2000 years, ,text,False, , , , ,지난 2000년간 세계 인구(십억 단위), , ,지난 2000년 동안의 세계 인구(십억 단위)
-khmer_empire_c,크메르 제국 - 앙코르 시대,Khmer Empire - Angkor period, ,text,False, , , , ,크메르 제국 - 앙코르 시대, , ,크메르 제국 - 앙코르 시대
-holy_roman_empire_c,신성 로마 제국 – 1512년 이후 독일 국가의 신성 로마 제국,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,신성 로마 제국 – 1512년 이후 독일 민족의 신성 로마 제국으로 알려짐, , ,신성 로마 제국 – 1512년 이후 ‘독일 민족의 신성 로마 제국’으로 불림
-mongol_empire,몽골 제국 1206년 – 1294년,Mongol Empire 1206 – 1294, ,text,False, , , , ,몽골 제국 1206 – 1294년, , ,몽골 제국 1206년 – 1294년
-maya_classic_c,마야 문명 – 고전 시대,Maya civilization – Classic period, ,text,False, , , , ,마야 문명 - 고전기, , ,마야 문명 – 고전기
-maya_postclassic_c,마야 문명 - 고전 이후 시대,Maya civilization – Postclassic period, ,text,False, , , , ,마야 문명 - 후고전기, , ,마야 문명 – 후기 고전기
-Teotihuacan,"아메리카 대륙에서 가장 큰 도시, 피라미드 건설 c. 기원 200년","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"아메리카 최대 도시, 서기 약 200년경 피라미드 건축", , ,"아메리카 대륙에서 가장 큰 도시로, 피라미드는 서기 200년경에 지어졌다."
-Dionysius_Exiguus,Anno Domini의 발명가인 Dionysius Exiguus,"Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"디오니시우스 엑시구스, 서기(Anno Domini) 기发明자", , ,"디오니시우스 엑시구스, 서기(Anno Domini) 연호 체계를 고안한 인물"
-Umayyad_c,우마이야,Umayyad, ,text,False, , , , ,우마이야 왕조, , ,우마이야 왕조
-ur3,우르 3왕조 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,우르 제3왕조 𒋀𒀕𒆠, , ,우르 3세 왕조 𒋀𒀕𒆠
-hammurabi,함무라비 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , ,함무라비 𒄩𒄠𒈬𒊏𒁉, , ,함무라비 𒄩𒄠𒈬𒊏𒁉
-Al-Khwarizmi,al-Khwarizmi는 Al-Jabr(대수학)을 씁니다.,al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,알-콰리즈미가 『알-자브르(대수학)』를 집필하다, , ,알-크와리즈미는 『알-자브르』(대수학)를 저술했다.
-al-azhar,Al-Azhar University가 카이로에 설립됨,Al-Azhar University is established in Cairo, ,text,False, , , , ,카이로에 알-아즈하르 대학이 설립되다, , ,알-아즈하르 대학교가 카이로에 설립되었다
-Ibn-Sina,이븐 시나 또는 아비센나,Ibn Sina or Avicenna, ,text,False, , , , ,이븐 시나(아비센나), , ,이븐 시나 또는 아비센나
-life-expectancy,기대 수명 75 년,Life expectancy 75 years, ,text,False, , , , , , , ,평균 수명 75세
-430years_c,"430 년 : 출애굽기 12:41, 갈라디아서 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , , , ,"430년: 출애굽기 12:41, 갈라디아서 3:17"
-maya_calendar,Maya Calendar의 시작 계산 기원전 8 월 11 일 기원전.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , , , ,마야 달력의 시작일은 기원전 3114년 8월 11일로 추산됩니다.
-xia-dynasty2,"기음. 2070 - c. 기원전 1600 년, 서부 Zhou 기간 동안 가장 초기의 언급",c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , , , ,기원전 2070년경 – 기원전 1600년경; 서주 시대에 처음으로 언급된 시대
-xia-dynasty2_c,중국의 Xia 왕조,Xia dynasty in China, ,text,False, , , , , , , ,중국의 하 왕조
-tres_zapotes,"9 월 3 일, 기원전 32 년","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , , , ,기원전 32년 9월 3일
-joseph_jacob_reunited,조셉과 야곱은 이집트에서 재결합했다 - 1728 년 기원전. (창 45:11; 47 : 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , , , ,요셉과 야곱이 이집트에서 재회했다 – 기원전 1728년 (창세기 45:11; 47:9)
-king_south_light_c,다니엘 11 장에서 남쪽 왕,King of the South from Daniel 11,2025-02-05,text,False, , , , , , , ,다니엘서 11장에 나오는 ‘남방의 왕’
-king_north_light_c,다니엘 11에서 북쪽 왕,King of the North from Daniel 11,2025-02-05,text,False, , , , , , , ,다니엘서 11장에 나오는 ‘북방 왕’
-daniel2_iron_c,다니엘 2의 철 다리,Iron legs from Daniel 2,2025-02-05,text,False, , , , , , , ,다니엘서 2장에 나오는 철 다리
-argenteus,코덱스 아르겐테우스 c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , , , ,"『코덱스 아르겐테우스』, 약 505년"
-nguyen_dynasty_c,응우옌,Nguyễn,2025-09-20,text,False, , , , , , , ,응우옌
-edo_c,일본의 에도 시대,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , , , , ,일본의 에도 시대
-meiji_c,메이지,Meiji,2025-09-20,text,False, , , , , , , ,메이지
-american_civil_war,미국 남북전쟁 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , , , , ,미국 남북전쟁 1861-1865
-aleppo_codex,알레포 코덱스 c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , , , , ,"알레포 사본, 약 920년"
-vandals,반달족과 알란족의 왕국(기원 435년 – 534년),Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , , , , ,반달족과 알란족 왕국 435–534
-francia,"기음. 481/509 – 843 C.E., 메로빙거 왕조는 751년까지, 이후 카롤링거 왕조","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , , , , ,"기원전 481/509년경 – 843년, 751년까지는 메로빙거 왕조, 그 후 카롤링거 왕조"
-francia_c,프랑크 왕국,Kingdom of the Franks, ,text,False, , , , , , , ,프랑크 왕국
-100_years_war,백년전쟁 1337년 – 1453년,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , , , ,백년 전쟁 1337–1453
-black_death,흑사병 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , , , , ,흑사병 1346–1353
-sui_dynasty,581-618 수나라,581-618 Sui dynasty,2025-11-09,text,True, , , , , , , ,581–618 수나라
-sui_dynasty_c,수나라,Sui,2025-11-09,text,True, , , , , , , ,수이
-tribulation,"큰 환난 (마가복음 13:19; 다니엘 12:1; 마 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , , , , ,"대환난 (마가복음 13:19; 다니엘서 12:1; 마태복음 24:21, 22)"
-timeline_created,"이 타임라인은 인류 역사상, 그리고 지난 12만 5천 년 중 가장 더운 해인 2023년에 작성되었습니다.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , , , , ,"이 연표는 인류 역사상, 그리고 지난 12만 5천 년 동안 가장 더웠던 해인 2023년에 작성되었습니다."
-Adam,아담,Adam,Luke 3:38,bible,True, , , , , , , , 
-Seth,셋,Seth, ,bible,True, , , , , , , , 
-Enosh,에노스,Enosh, ,bible,True, , , , , , , , 
-Kenan,게난(가이난),Kenan (Cainan),Genesis 5:12,bible,True, , , , , , , , 
-Mahalalel,마할랄레엘(마할랄레엘),Mahalalel (Mahalaleel), ,bible,True, , , , , , , , 
-Jared,야렛,Jared, ,bible,True, , , , , , , , 
-Enoch,에녹,Enoch, ,bible,True, , , , , , , , 
-Methuselah,므두셀라,Methuselah,Luke 3:37,bible,False, , , , , , , , 
-Lamech,라멕,Lamech, ,bible,False, , , , , , , , 
-Noah,노아,Noah, ,bible,False, , , , , , , , 
-Shem,셈,Shem, ,bible,False, , , , , , , , 
-Arpachshad,아르박삿,Arpachshad,Luke 3:36,bible,False, , , , , , , , 
-Shelah,셸라,Shelah, ,bible,False, , , , , , , , 
-Eber,에벨,Eber, ,bible,False, , , , , , , , 
-Peleg,벨렉,Peleg, ,bible,False, , , , , , , , 
-Reu,르우,Reu, ,bible,False, , , , , , , , 
-Serug,스룩,Serug,Luke 3:35,bible,False, , , , , , , , 
-Nahor,나홀,Nahor,Genesis 11:24,bible,False, , , , , , , , 
-Terah,데라,Terah, ,bible,False, , , , , , , , 
-Abraham,아브라함,Abraham, ,bible,False, , , , , , , , 
-Isaac,이삭,Isaac, ,bible,False, , , , , , , , 
-Jacob,야곱,Jacob,Luke 3:34,bible,False, , , , , , , , 
-Joseph,요셉,Joseph,Genesis 37,bible,False, , , , , , , , 
-Moses,모세,Moses, ,bible,False, , , , , , , , 
-Othniel,옷니엘,Othniel,Judges 3:9-11,bible,False, , , , , , , , 
-Ehud,에훗,Ehud,Judges 3:15-18,bible,False, , , , , , , , 
-Shamgar,삼갈,Shamgar,Judges 3:31,bible,False, , , , , , , , 
-Barak,바락,"Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , , , , 
-Gideon,기드온,Gideon,Judges 7:1,bible,False, , , , , , , , 
-Tola,돌라와,Tola,Judges 10:1,bible,False, , , , , , , , 
-Jair,야일,Jair,Judges 10:3,bible,False, , , , , , , , 
-Jephthah,입다,Jephthah,Judges 11:1,bible,False, , , , , , , , 
-Ibzan,입산과,Ibzan,Judges 12:8,bible,False, , , , , , , , 
-Elon,엘론,Elon,Judges 12:11,bible,False, , , , , , , , 
-Abdon,압돈,Abdon,Judges 12:13,bible,False, , , , , , , , 
-Samson,삼손,Samson,Judges 13:24,bible,False, , , , , , , , 
-Samuel,사무엘,Samuel,1 Samuel 1:20,bible,False, , , , , , , , 
-Saul,사울,Saul,1 Samuel 9:2,bible,False, , , , , , , , 
-David,다윗,David,1 Samuel 16:13,bible,False, , , , , , , , 
-Solomon,솔로몬,Solomon,1 Kings 2:1,bible,False, , , , , , , , 
-Malachi,말라기서,Malachi, ,bible,False, , , , , , , , 
-Ruth,룻기,Ruth, ,bible,False, , , , , , , , 
-Ezra,에스라가,Ezra, ,bible,False, , , , , , , , 
-Nehemiah,느헤미야서,Nehemiah, ,bible,False, , , , , , , , 
-Esther,에스더가,Esther, ,bible,False, , , , , , , , 
-Job,욥기,Job, ,bible,False, , , , , , , , 
-moses3,모세,Moses, ,bible,False, , , , , , , , 
-joshua2,여호수아,Joshua, ,bible,False, , , , , , , , 
-caleb2,갈렙,Caleb, ,bible,False, , , , , , , , 
-Augustus,아우구스투스,Augustus,Luke 2:1,bible,False, , , , , , , , 
-Tiberius,티베리우스,Tiberius,Luke 3:1,bible,False, , , , , , , , 
-Claudius,클라우디우스,Claudius,Acts 11:28,bible,False, , , , , , , , 
-persia2,페르시아,Persia, ,bible,False, , , , , , , , 
-jehoiada,여호야다,Jehoiada,2 Kings 11:4,bible,False, , , , , , , , 
-Haggai,학개,Haggai, ,bible,False, , , , , , , , 
-Zerubbabel,스룹바벨(눅 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , , , , 
-Jacob2,야곱/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , , , , 
-Israel,이스라엘,Israel,Genesis 35:10,bible,False, , , , , , , , 
-Sarah,사라,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , , , , 
-Hagar,하갈,Hagar,Genesis 21:14,bible,False, , , , , , , , 
-Haran,하란,Haran,Genesis 11:26,bible,False, , , , , , , , 
-Reumah,르우마,Reumah,Concubine – 4 sons 22:24,bible,False, , , , , , , , 
-Milcah,밀가,Milcah,8 sons (Bethuel and 7 more),bible,False, , , , , , , , 
-Lot,롯,Lot,Genesis 11:27,bible,False, , , , , , , , 
-Ammon,벤암미(암몬),Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , , , , 
-Bethuel,브두엘,Bethuel,Genesis 22:23,bible,False, , , , , , , , 
-Rebekah,리브가,Rebekah, ,bible,False, , , , , , , , 
-Laban,라반,Laban,Genesis 24:29,bible,False, , , , , , , , 
-Leah,레아,Leah,Genesis 35:23,bible,False, , , , , , , , 
-Rachel,레이첼,Rachel,Genesis 35:24,bible,False, , , , , , , , 
-Bilhah,빌하,Bilhah,Genesis 35:25,bible,False, , , , , , , , 
-Zilpah,실바,Zilpah,Genesis 35:26,bible,False, , , , , , , , 
-Reuben,르우벤,Reuben, ,bible,False, , , , , , , , 
-Simeon,시므온,Simeon, ,bible,False, , , , , , , , 
-Levi,남자 이름,Levi,Genesis 35:23,bible,False, , , , , , , , 
-Judah,유다,Judah, ,bible,False, , , , , , , , 
-Issachar,잇사갈,Issachar, ,bible,False, , , , , , , , 
-Zebulun,스불론,Zebulun, ,bible,False, , , , , , , , 
-Dinah,디나,Dinah,Genesis 34,bible,False, , , , , , , , 
-Esau,에서/,Esau/, ,bible,False, , , , , , , , 
-Edom,에돔,Edom,Genesis 36:1,bible,False, , , , , , , , 
-Ishmael,이스마엘,Ishmael,Genesis 16:16,bible,False, , , , , , , , 
-Manasseh2,(므낫세,(Manasseh,Genesis 41:50-52,bible,False, , , , , , , , 
-Ephraim,그리고 에브라임),and Ephraim), ,bible,False, , , , , , , , 
-Benjamin,베냐민,Benjamin, ,bible,False, , , , , , , , 
-Dan,단,Dan,Genesis 35:23,bible,False, , , , , , , , 
-Naphtali,납달리,Naphtali, ,bible,False, , , , , , , , 
-Gad,갓,Gad, ,bible,False, , , , , , , , 
-Asher,애셔,Asher, ,bible,False, , , , , , , , 
-Milcah1,"우스, 부스, 케무엘,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , , , , 
-Milcah2,"헤세드, 하조,","Chesed, Hazo,", ,bible,False, , , , , , , , 
-Milcah3,"필다쉬, 지들라프","Pildash, Jidlaph", ,bible,False, , , , , , , , 
-Tebah,테바,Tebah,Genesis 22:24,bible,False, , , , , , , , 
-Gaham,가함,Gaham, ,bible,False, , , , , , , , 
-Tahash,타하쉬,Tahash, ,bible,False, , , , , , , , 
-Maacah,마아가,Maacah, ,bible,False, , , , , , , , 
-Mahalath,마할랏/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , , , , 
-Basemath,기초·수학,Basemath,"Genesis36:3, 4",bible,False, , , , , , , , 
-Reuel,르우엘,Reuel,"36:13, 17",bible,False, , , , , , , , 
-Nahath,나핫,Nahath, ,bible,False, , , , , , , , 
-Zerah,세라,Zerah, ,bible,False, , , , , , , , 
-Schammah,샤마,Schammah, ,bible,False, , , , , , , , 
-Mizzah,미자,Mizzah, ,bible,False, , , , , , , , 
-Adah,아다,Adah,"36:11, 12, 15, 16",bible,False, , , , , , , , 
-Eliphaz,엘리바스,Eliphaz, ,bible,False, , , , , , , , 
-Teman,데만,Teman, ,bible,False, , , , , , , , 
-Omar,오마르,Omar, ,bible,False, , , , , , , , 
-Zepho,제포,Zepho, ,bible,False, , , , , , , , 
-Kenaz,케나즈,Kenaz, ,bible,False, , , , , , , , 
-Korah,고라,Korah, ,bible,False, , , , , , , , 
-Korah_Gatam,"고라, 가탐","Korah, Gatam",303 and 304,bible,False, , , , , , , , 
-Amalek,아말렉,Amalek, ,bible,False, , , , , , , , 
-Oholibamah,오홀리바마,Oholibamah,"36:14, 18",bible,False, , , , , , , , 
-Jeush,여우스,Jeush, ,bible,False, , , , , , , , 
-Jalam,잘람,Jalam, ,bible,False, , , , , , , , 
-Nebaioth,느바욧,Nebaioth,Genesis 25:13,bible,False, , , , , , , , 
-Kedar,케달,Kedar, ,bible,False, , , , , , , , 
-Mishma,미슈마,Mishma, ,bible,False, , , , , , , , 
-Adbeel_Mibsam,"아드벨, 밉삼","Adbeel, Mibsam",311 and 312,bible,False, , , , , , , , 
-Dumah_Massa,"두마, 마사","Dumah, Massa",314 and 315,bible,False, , , , , , , , 
-Hadad,하다드,Hadad, ,bible,False, , , , , , , , 
-Tema,테마,Tema, ,bible,False, , , , , , , , 
-Jetur,제투르,Jetur, ,bible,False, , , , , , , , 
-Naphish,나피쉬,Naphish, ,bible,False, , , , , , , , 
-Kedemah,게데마,Kedemah, ,bible,False, , , , , , , , 
-Keturah,그두라,Keturah,Genesis 25:1-4,bible,True, , , , , , , , 
-Zimran,시므란,Zimran, ,bible,True, , , , , , , , 
-Jokshan,욕산,Jokshan, ,bible,True, , , , , , , , 
-Medan,므단,Medan, ,bible,True, , , , , , , , 
-Midian,미디안,Midian, ,bible,True, , , , , , , , 
-Ishbak,이스박,Ishbak, ,bible,True, , , , , , , , 
-Shuah,수아,Shuah, ,bible,True, , , , , , , , 
-Timna,팀 나,Timna,"1 Chr 1:36, Ge 36:10-12",bible,False, , , , , , , , 
-life-expectancy2,(시편 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , , , , 
-Ham,햄,Ham,Gen 10:1,bible,False, , , , , , , , 
-Canaan,가나안 땅,Canaan,Gen 10:6,bible,False, , , , , , , , 
-Sidon,시돈,Sidon,Gen 10:15,bible,False, , , , , , , , 
-Heth,헷,Heth,Gen 10:15,bible,False, , , , , , , , 
-Jebusite,여부스 사람,Jebusite,Gen 10:16,bible,False, , , , , , , , 
-Amorite,아모리 사람,Amorite,Gen 10:16,bible,False, , , , , , , , 
-Girgashite,기르가스테,Girgashite,Gen 10:16,bible,False, , , , , , , , 
-Hivite,히위 사람,Hivite,Gen 10:17,bible,False, , , , , , , , 
-Arkite,아르카이트,Arkite,Gen 10:17,bible,False, , , , , , , , 
-Sinite,신나이트,Sinite,Gen 10:17,bible,False, , , , , , , , 
-Arvadite,아르바디테,Arvadite,Gen 10:18,bible,False, , , , , , , , 
-Zemarite,제마라이트,Zemarite,Gen 10:18,bible,False, , , , , , , , 
-Hamathite,하맛 사람,Hamathite,Gen 10:18,bible,False, , , , , , , , 
-Cush,구스,Cush,Gen 10:6,bible,False, , , , , , , , 
-Nimrod,니므롯,Nimrod,Gen 10:8,bible,False, , , , , , , , 
-Mizraim,미스라임,Mizraim,Gen 10:14,bible,False, , , , , , , , 
-Casluh,카슬루,Casluh,1 Chronicles 1:12 (Philistines),bible,False, , , , , , , , 
-Japheth,야벳,Japheth,Gen 10:3,bible,False, , , , , , , , 
-Asshur,앗수르,Asshur,Gen 10:22,bible,False, , , , , , , , 
-Lud,루드,Lud,Gen 10:22,bible,False, , , , , , , , 
-Aram,아람,Aram,Gen 10:22,bible,False, , , , , , , , 
-Elam,엘람,Elam,Gen 10:22,bible,False, , , , , , , , 
-Joktan,욕탄,Joktan,Gen 10:26,bible,False, , , , , , , , 
-Almodad,알모다드,Almodad,Gen 10:26,bible,False, , , , , , , , 
-Sheleph,셀레프,Sheleph,Gen 10:26,bible,False, , , , , , , , 
-Hazarmaveth,하살마렛,Hazarmaveth,Gen 10:26,bible,False, , , , , , , , 
-Jerah,예라,Jerah,Gen 10:26,bible,False, , , , , , , , 
-Hadoram,하도람,Hadoram,Gen 10:27,bible,False, , , , , , , , 
-Uzal,우잘,Uzal,Gen 10:27,bible,False, , , , , , , , 
-Diklah_Obal,"디클라, 오발","Diklah, Obal",Gen 10:27,bible,False, , , , , , , , 
-Abimael,아비마엘,Abimael,Gen 10:28,bible,False, , , , , , , , 
-Sheba_Ophir,"스바, 오빌","Sheba, Ophir","Gen 10:28, 29",bible,False, , , , , , , , 
-Havilah,하윌라,Havilah,Gen 10:29,bible,False, , , , , , , , 
-Jobab,요밥,Jobab,Gen 10:29,bible,False, , , , , , , , 
-Ham_fn,1) 애굽인: 시편 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , , , , 
-Canaan_fn,2) 가나안 족속: 여호수아 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , , , , 
-Aram_fn,3) 아람어: 호세아 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , , , , 
-Elam_fn,4) 엘람 사람: 에스라 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , , , , 
-Asshur_fn,5) 아시리아인: 에스겔 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , , , , 
-Casluh_fn,6) 블레셋 사람들: 역대상 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , , , , 
-Cush_fn,7) 에티오피아인[구스인]: 왕하 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , , , , 
-Edom_fn,8) 에돔 사람들: 민수기 20:14-17,8) Edomites: Numbers 20:14-17,same as 459,bible,False, , , , , , , , 
-Moab_fn,"9) 모압: 신명기 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457,bible,False, , , , , , , , 
-Ammon_fn,10) 암몬 족속: 여호수아 12:2,10) Ammonites: Joshua 12:2,same as 458,bible,False, , , , , , , , 
-Midian_fn,"11) 미디안 사람: 민수기 31:2, 3","11) Midianites: Numbers 31:2, 3",same as 456,bible,False, , , , , , , , 
-Amalek_fn,12) 아말렉 족속: 사무엘상 15:2,12) Amalekites: 1 Samuel 15:2,same as 461,bible,False, , , , , , , , 
-Teman_fn,13) 데만 사람들: 욥기 42:7,13) Temanites: Job 42:7,same as 460,bible,False, , , , , , , , 
-Sidon_fn,14) 시돈 사람들: 스가랴 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , , , , 
-Heth_fn,15) 헷 족속: 창세기 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , , , , 
-Jebusite_fn,16) 여부스 사람: 여호수아 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , , , , 
-Judith,주디스?,Judith?,"Genesis 26:34, 35",bible,False, , , , , , , , 
-Lud_fn,17) 리디아인: 역대상 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , , , , 
-Ishmael_fn,18) 이스마엘 사람들: 창세기 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , , , , 
-Amorite_fn,19) 아모리 족속: 사사기 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , , , , 
-Hivite_fn,"20) 히위족[기브온]: 여호수아 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , , , , 
-Cain,카인,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , , , , 
-Abel,아벨,Abel,Genesis 4:2,bible,False, , , , , , , , 
-Irad,이라드,Irad,Genesis 4:18,bible,False, , , , , , , , 
-Mehujael,메후야엘,Mehujael,Genesis 4:18,bible,False, , , , , , , , 
-Methushael,므두사엘,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , , , , 
-Jabal,야발,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , , , , 
-Jubal,유발,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , , , , 
-Zillah,질라,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , , , , 
-Tubal-cain,두발가인,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , , , , 
-Naamah,나아마,Naamah,Genesis 4:22 his sister,bible,False, , , , , , , , 
-Rehoboam,르호보암,Rehoboam,first king of southern kingdom of Juda,A6-A,True, , , , , , , , 
-Abijah,아비야(아비얌),Abijah (Abijam),"3 years, also Abijam",A6-A,True, , , , , , , , 
-Asa,아사,Asa,A6-A,A6-A,True, , , , , , , , 
-Jehoshaphat,여호사밧,Jehoshaphat, ,A6-A,True, , , , , , , , 
-Jehoram2,여호람,Jehoram, ,A6-A,True, , , , , , , , 
-Ahaziah,아하시야,Ahaziah, ,A6-A,True, , , , , , , , 
-Athaliah,아달랴 여왕,Queen Athaliah,Queen Athaliah,A6-A,True, , , , , , , , 
-Jehoash,여호아스,Jehoash, ,A6-A,True, , , , , , , , 
-Amaziah,아마샤,Amaziah, ,A6-A,True, , , , , , , , 
-Uzziah,웃시야(아사랴),Uzziah (Azariah),also Azariah,A6-A,True, , , , , , , , 
-Jeroboam,여로보암,Jeroboam,first king of northern 10-tribe kingdom,A6-A,True, , , , , , , , 
-Nadab,나답,Nadab,less than 2,A6-A,True, , , , , , , , 
-Baasha,바아사,Baasha, ,A6-A,True, , , , , , , , 
-Elah,엘라,Elah, ,A6-A,True, , , , , , , , 
-Zimri,지므리,Zimri,Only 7 days in ca. 751 BCE,A6-A,True, , , , , , , , 
-OmriTibni,오므리와 디브니,Omri and Tibni together,4 years Omri and Tibni,A6-A,True, , , , , , , , 
-Omri,오므리 (단독으로),Omri (alone),from 947 Omri alone,A6-A,True, , , , , , , , 
-Ahab,아합,Ahab, ,A6-A,True, , , , , , , , 
-Jehoram,여호람,Jehoram, ,A6-A,True, , , , , , , , 
-Jehu,예후,Jehu, ,A6-A,True, , , , , , , , 
-Jeoahaz,여호아하스,Jeoahaz, ,A6-A,True, , , , , , , , 
-JeoahazJehoash,여호아하스와 여호아스,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,True, , , , , , , , 
-Jehoash2,여호아스 (단독으로),Jehoash (alone),Jehoash (alone),A6-A,True, , , , , , , , 
-Jeroboam2,여로보암 2세,Jeroboam II, ,A6-A,True, , , , , , , , 
-Elijah,엘리야,Elijah, ,A6-A,True, , , , , , , , 
-Elisha,엘리사,Elisha, ,A6-A,True, , , , , , , , 
-Jonah,요나,Jonah, ,A6-A,True, , , , , , , , 
-Amos,아모스,Amos, ,A6-A,True, , , , , , , , 
-Joel,요엘,Joel, ,A6-A,True, , , , , , , , 
-Jotham,요담,Jotham,A6-B,A6-B,True, , , , , , , , 
-Ahaz,아하스,Ahaz, ,A6-B,True, , , , , , , , 
-Hezekiah,히스기야,Hezekiah, ,A6-B,True, , , , , , , , 
-Manasseh,므낫세,Manasseh, ,A6-B,True, , , , , , , , 
-Amon,아몬,Amon, ,A6-B,True, , , , , , , , 
-Josiah,요시야,Josiah, ,A6-B,True, , , , , , , , 
-Jehoahaz,여호아하스,Jehoahaz,Only 3 months,A6-B,True, , , , , , , , 
-Jehoiakim,여호야김,Jehoiakim, ,A6-B,True, , , , , , , , 
-Jehoiachin,여호야긴,Jehoiachin,Only 3 months 10 days,A6-B,True, , , , , , , , 
-Zedekiah,시드기야,Zedekiah, ,A6-B,True, , , , , , , , 
-Zechariah,스가랴,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,True, , , , , , , , 
-Schallum,살룸,Schallum,only one month,A6-B,True, , , , , , , , 
-Menahem,므나헴,Menahem, ,A6-B,True, , , , , , , , 
-Pekahiah,브가히야,Pekahiah, ,A6-B,True, , , , , , , , 
-Pekah,베가,Pekah, ,A6-B,True, , , , , , , , 
-Hoshea,호셰아,Hoshea,9 years from c. 748,A6-B,True, , , , , , , , 
-Hosea,호세아,Hosea, ,A6-B,True, , , , , , , , 
-Isaiah,이사야,Isaiah, ,A6-B,True, , , , , , , , 
-Micah,미가,Micah, ,A6-B,True, , , , , , , , 
-Zephaniah,스바냐,Zephaniah, ,A6-B,True, , , , , , , , 
-Nahum,나훔,Nahum, ,A6-B,True, , , , , , , , 
-Jeremiah,예레미야,Jeremiah, ,A6-B,True, , , , , , , , 
-Habakuk,하박국,Habakuk, ,A6-B,True, , , , , , , , 
-Daniel,다니엘,Daniel, ,A6-B,True, , , , , , , , 
-Ezekiel,에스겔,Ezekiel, ,A6-B,True, , , , , , , , 
-Obadiah,오바댜,Obadiah, ,A6-B,True, , , , , , , , 
-Babylon,"다니엘 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , , , , 
-Medopersia,"다니엘 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , , , , 
-Greece,"다니엘 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , , , , 
-Rome,"다니엘 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , , , , 
-Angloamerica,"다니엘 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True, , , , , , , , 
-Babylon_c,바빌론,Babylon, ,B9,True, , , , , , , , 
-Medopersia_c,메디아-페르시아,Medo-Persia, ,B9,True, , , , , , , , 
-Greece_c,그리스,Greece, ,B9,True, , , , , , , , 
-Rome_c,로마,Rome, ,B9,True, , , , , , , , 
-Angloamerica_c,영국-미국,Anglo-America, ,B9,True, , , , , , , , 
-daniel2_1,느부갓네살 왕이,King Nebuchadnezzar,607 BCE,B9,False, , , , , , , , 
-daniel2_2,예루살렘을 멸망시키다,destroys Jerusalem, ,B9,False, , , , , , , , 
-daniel2_3,바빌론을 정복하다,Conquers Babylon,539 BCE,B9,True, , , , , , , , 
-daniel2_4,유대인들이 예루살렘으로,Cyrus decrees return,537 BCE,B9,False, , , , , , , , 
-daniel2_5,돌아가도록 키루스가 포고령을 내리다,of Jews to Jerusalem, ,B9,False, , , , , , , , 
-daniel2_6,알렉산더 대왕이,Alexander the Great,331 BCE,B9,False, , , , , , , , 
-daniel2_7,페르시아를 정복하다,conquers Persia, ,B9,False, , , , , , , , 
-daniel2_8,이스라엘을 통치하다,Rules over Israel,63 BCE,B9,False, , , , , , , , 
-daniel2_9,예루살렘을 멸망시키다,Destroys Jerusalem,70 CE,B9,False, , , , , , , , 
-daniel2_10,제1차 세계 대전 중에,"During World War I,",1914-1918 CE,B9,False, , , , , , , , 
-daniel2_11,영미 세계 강국이 등장하다 등장하다,Anglo-American World Power, ,B9,False, , , , , , , , 
-daniel2_12,생기다,comes into being,End 4.2,B9,False, , , , , , , , 
-607BCE,기원전 607년,607 B.C.E.,accommodate for language,B9,True, , , , , , , , 
-539BCE,기원전 539년,539 B.C.E.,systems in style:,B9,True, , , , , , , , 
-537BCE,기원전 537년,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , , , , 
-331BCE,기원전 331년,331 B.C.E.,so they need a word,B9,True, , , , , , , , 
-63BCE,기원전 63년,63 B.C.E.,prior to the year,B9,True, , , , , , , , 
-70CE,기원 70년,70 C.E.,and something,B9,True, , , , , , , , 
-1914CE,기원 1914-1918년,1914-1918 C.E.,after the year,B9,True, , , , , , , , 
-7times,요한 계시록 12:9,Revelation 12:9, ,scripture,False, , , , , , , , 
-infliction2,사도행전 7:6,Acts 7:6, ,scripture,False, , , , , , , , 
-eastern-zhou,기원전 770-256년,770-256 BC, ,span_bc,False, , , , , , , , 
-430years,1943 - 1513 B.C.E.,1943 – 1513 B.C.E., ,span_bce,False, , , , , , , , 
-eastern-han,서기 25-220년,25-220 CE, ,span_ce,False, , , , , , , , 
-northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False, , , , , , , , 
-southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False, , , , , , , , 
+version,6.11,6.11, ,float,False, , , , , , , , 
+pdf_title,한눈에 보는 인류 6000년 역사,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,"인류 역사 6,000년 — 연표","인류 역사 6,000년 — 연대표", ,"6,000년의 인류 역사 — 연표"
+pdf_subject,인류의 타임라인,Timeline of human history from 4000 BCE to present,6.01,text,False, , , , ,기원전 4000년부터 현재까지의 인류 역사 연표,기원전 4000년부터 현재까지의 인류 역사 연대표, ,기원전 4000년부터 현재까지의 인류 역사 연표
+BCE,기원전,B.C.E.,appendix B9,B9,True, , , , , ,기원전, , 
+CE,기원후,C.E., ,B9,False, , , , , ,서기, , 
+month,개월,month, ,text,False, , , , ,달,월, ,월
+months,개월,months, ,text,True, , , , ,달,개월, ,개월
+day,낮,day, ,text,False, , , , ,일,일, ,날
+days,일,days, ,text,False, , , , ,일,일, ,일
+to,～,to, ,text,False, , , , ,부터,~까지, ,~에
+Deluge,노아의 대홍수,Deluge, ,text,False, , , , ,대홍수,대홍수, ,대홍수
+moses2,기원전 1593년~1473년 – 120년,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,기원전 1593년–1473년 – 120년,기원전 1593년~기원전 1473년 – 120년, ,기원전 1593년 ~ 기원전 1473년 – 120년
+temple1,기원전 1513년 니산월~1034년 시브월,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,기원전 1513년 니산월부터 기원전 1034년 지브월까지,기원전 1513년 니산월부터 기원전 1034년 시브월까지, ,기원전 1513년 니산월부터 기원전 1034년 지브월까지
+69weeks,예수께서는 기원 29년 가을에 침례를 받음.,Jesus baptized autumn 29 C.E., ,text,True, , , , ,"서기 29년 가을, 예수 세례",예수께서 서기 29년 가을에 침례를 받으심, ,예수께서는 서기 29년 가을에 세례를 받으셨습니다.
+year,년,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True, , , , ,년,년, ,년
+years,년,years, ,text,False, , , , ,년,년, ,년
+years_age,세,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True, , , , ,년,년, ,년
+age_kings,세에 왕이 됨,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,세에 왕이 됨, , 
+wilderness,이스라엘의 광야 생활 기원전 1513년~1473년 – 40년,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,광야에서의 이스라엘 기원전 1513년–1473년 – 40년,이스라엘의 광야 생활 기원전 1513년~기원전 1473년 – 40년, ,"광야에 있던 이스라엘, 기원전 1513년~1473년 – 40년"
+timespan_judges,기원전 1473년~1117년 – 356년,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,기원전 1473년–1117년 – 356년,기원전 1473년~기원전 1117년 – 356년, ,기원전 1473년 ~ 기원전 1117년 – 356년
+timespan_judges2,재판관 시대,Time of the judges, ,text,False, , , , ,사사 시대,사사 시대, ,판사들의 시대
+temple2,성전 건축까지 479년 – 열상 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,성전 건축까지 479년 – 열왕기상 6:1,성전 건축까지 479년 – 열왕기상 6:1, ,성전 건축까지 479년 – 열왕기상 6:1
+69weeks2,메시아가 올 때까지 69주 – 다니엘 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,메시아까지 69주 – 다니엘 9:25,메시아까지 69이주 – 다니엘 9:25, ,메시아가 오기까지 69주 – 다니엘서 9:25
+jesus_service,"예수의 3년 반의 봉사 기간 후, 기원 33년 니산월 14일에 처형되심.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"예수의 사역 3.5년, 서기 33년 니산 14일에 처형됨","예수의 3.5년 동안의 봉사, 서기 33년 니산월 14일에 처형되심", ,"3.5년간의 예수 사역, 서기 33년 니산월 14일에 처형되심."
+jesus_life,예수께서는 기원전 2년에 태어나심.,Jesus born 2 B.C.E., ,text,False, , , , ,예수 기원전 2년 출생,예수 탄생 기원전 2년, ,기원전 2년에 태어난 예수
+exile,기원전 607년~537년 – 70년(예레미야 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,기원전 607년–537년 – 70년 (예레미야 25:11),기원전 607년~기원전 537년 – 70년 (예레미야 25:11), ,기원전 607년~537년 – 70년 (예레미야 25:11)
+exile2,유배,Exile, ,text,False, , , , ,포로,유배, ,추방
+7times2,"일곱 때 – 메시아 왕국까지 2520년, 기원 1914년(다니엘 4:23)",7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,메시아 왕국 1914년까지 7때 – 2520년 (다니엘 4:23),"7때 – 메시아 왕국까지 2520년, 서기 1914년 (다니엘 4:23)", ,7배 – 서기 1914년 메시아 왕국까지 2520년 (다니엘 4:23)
+ww1,제1차 세계 대전 – 1914년~1918년,World War I – 1914–1918, ,text,False, , , , ,제1차 세계대전 – 1914–1918,제1차 세계 대전 – 1914년~1918년, ,제1차 세계 대전 – 1914–1918
+ww2,제2차 세계 대전 – 1939년~1945년,World War II – 1939–1945, ,text,False, , , , ,제2차 세계대전 – 1939–1945,제2차 세계 대전 – 1939년~1945년, ,제2차 세계 대전 – 1939–1945
+30_year_war,유럽의 30년 전쟁 1618년~1648년,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,유럽의 30년 전쟁 1618-1648,유럽의 30년 전쟁 1618년~1648년, ,유럽의 30년 전쟁 (1618–1648)
+joshua,110년,110 years, ,text,False, , , , ,110년,110년, ,110년
+caleb,85년 이상,more than 85 years, ,text,False, , , , ,85년 이상,85년 이상, ,85년 이상
+missionary1,"바울의 1차 선교 여행, c. 47년~48년 바나바와 요한 마가와 함께","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"바울의 제1차 선교여행, 서기 47-48년경 바나바와 요한 마르도와 함께","바울의 제1차 선교 여행, 바나바 및 요한 마가와 함께 (경과 연도: 서기 47년~48년경)", ,"바나바와 요한 마가와 함께한 바울의 첫 번째 선교 여행, 서기 47~48년경"
+circumcision,"안티오크에서의 할례 문제, 예루살렘 회의 c. 49년","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"안디옥에서의 할례 문제, 서기 49년경 예루살렘 회의","안디옥의 할례 문제, 예루살렘 평의회 서기 49년경", ,"안티오크의 할례 문제, 서기 49년경 예루살렘에서 열린 회의"
+missionary2,두 번째 선교 여행 c. 49년~52년 실라(실바누스),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,제2차 선교여행 서기 49-52년경 실라(실바누)와 함께,제2차 선교 여행 실루아노(실라)와 함께 서기 49년~52년경, ,"서기 49~52년경, 실라(실바누스)와 함께한 두 번째 선교 여행"
+missionary3,세 번째 선교 여행 c. 52년~56년,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,제3차 선교여행 서기 52-56년경,제3차 선교 여행 서기 52년~56년경, ,제3차 선교 여행 (기원후 52~56년경)
+caesarea,가이사랴에 감금된 바울 c. 56년-58년,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,가이사라에서의 바울 구금 서기 56-58년경,가이사랴에 구금된 바울 서기 56년~58년경, ,"기원후 56~58년경, 가이사랴에서 구금된 바울"
+rome1,바울이 로마에서 첫 번째 투옥됨 c. 59년-61년,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,로마에서의 바울 제1차 투옥 서기 59-61년경,로마에서의 바울의 제1차 투옥 서기 59년~61년경, ,"기원후 59~61년경, 로마에서 바울이 처음으로 투옥된 시기"
+rome2,"바울이 로마에서 두 번째 투옥됨 c. 65년, 디모데 후서가 기록되고 바울이 처형됨","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"로마에서의 바울 제2차 투옥 서기 65년경, 디모데후서 기록, 바울 처형","로마에서의 바울의 제2차 투옥 서기 65년경, 디모데후서 집필, 바울 순교", ,"기원후 65년경, 바울이 로마에서 두 번째로 투옥됨, 『디모데후서』 집필, 바울 처형"
+event_exodus,기원전 1513년 니산월 14일 이집트 탈출,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,기원전 1513년 니산 14일 애굽 탈출,기원전 1513년 니산월 14일 이집트 탈출, ,"기원전 1513년 니산월 14일, 이집트 탈출"
+event_division_kingdom,기원전 997년 이스라엘 분열,Division of Israel 997 BCE, ,text,False, , , , ,기원전 997년 이스라엘 분열,이스라엘의 분열 기원전 997년, ,기원전 997년 이스라엘의 분열
+event_destruction_samaria,기원전 740년 아시리아에 의해 사마리아 멸망,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,기원전 740년 앗시리아에 의한 사마리아 멸망,기원전 740년 아시리아에 의한 사마리아의 멸망, ,"기원전 740년, 아시리아에 의한 사마리아의 멸망"
+event_destruction_jerusalem1,기원전 607년 왕국이 분열된 지 390년 후 바벨론에 의해 예루살렘 멸망(에스겔 4:5),"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"기원전 607년 바빌론에 의한 예루살렘 멸망, 왕국 분열 후 390년 (에스겔 4:5)",왕국 분열 390년 후인 기원전 607년 바빌론에 의한 예루살렘의 멸망 (에스겔 4:5), ,"왕국이 분열된 지 390년 후인 기원전 607년, 바빌론에 의해 예루살렘이 파괴됨 (에스겔 4:5)"
+event_temple_rebuilt,기원전 515년 예루살렘 성전 재건,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,기원전 515년 예루살렘 성전 재건,기원전 515년 예루살렘 성전 재건, ,기원전 515년에 예루살렘 성전이 재건되었다.
+event_jerusalem_rebuilt,기원전 455년 예루살렘 성벽 재건,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,기원전 455년 예루살렘 성벽 재건,기원전 455년 예루살렘 성벽 재건, ,기원전 455년에 예루살렘 성벽이 재건되었다.
+event_destruction_jerusalem2,70년 티투스 휘하의 로마에 의해 예루살렘을 멸망,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,서기 70년 로마의 티투스에 의한 예루살렘 멸망,디투스가 이끄는 로마에 의한 기원 C.E. 70년 예루살렘의 멸망, ,"서기 70년, 티투스가 이끄는 로마군에 의한 예루살렘의 파괴"
+event_1914,"1914년 나라들의 때의 끝 (누가 21:24), 하나님의 왕국이 하늘에서의 통치 시작","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"민족의 시대의 끝 (누가복음 21:24), 하나님의 왕국이 하늘에서 통치하기 시작함 1914년","이방인의 때의 끝 (누가복음 21:24), 하느님의 왕국이 하늘에서 통치하기 시작함 기원 C.E. 1914년", ,"이방인의 시대가 끝나고(누가복음 21:24), 서기 1914년에 하늘에서 하나님의 왕국이 통치하기 시작합니다."
+became_king,,becomes king at age,2025-04-14,text,False, , , , ,다음 나이에 왕이 되다,, ,세 살에 왕이 된다
+vulgate,제롬의 불가타 완성(성경의 라틴어 번역) c. 405년,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,서기 405년경 히에로니무스에 불가타(성서 라틴어 번역) 완성,제롬이 벌가타 완성 (성경의 라틴어 번역판) C.E. 405년경, ,제롬이 서기 405년경에 완성한 불가타(성경의 라틴어 번역본).
+gutenberg,1455년 구텐베르크 성경 인쇄,Gutenberg Bible printed 1455, ,text,False, , , , ,1455년 구텐베르크 성서 인쇄,1455년 구텐베르크 성경 인쇄, ,1455년에 인쇄된 구텐베르크 성경
+erasmus,1516년 로테르담의 데시데리우스 에라스무스의 그리스도인 그리스어 성경의 그리스어 본문 발행,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,1516년 로테르담의 데시데리우스 에라스무스에 의해 기독교 그리스어 성서의 그리스어 본문 출판,로테르담의 데시데리우스 에라스무스가 그리스어 성경의 그리스어 원문 출판 1516년, ,1516년 로테르담의 데시데리우스 에라스무스가 출판한 『그리스도교 그리스어 성경』의 그리스어 본문
+luther,1522년 9월 루터 성경 번역,Luther Bible translation in September 1522, ,text,False, , , , ,1522년 9월 루터 성서 번역,1522년 9월 루터 성경 번역본, ,1522년 9월의 루터 성경 번역
+tyndale,1536년 틴들의 영어 성경 번역,English Bible translation by Tyndale 1536, ,text,False, , , , ,1536년 틴들러에 의한 영어 성서 번역,틴들표 영어 성경 번역판 1536년, ,1536년 틴데일이 번역한 영어 성경
+king_james,1611년 킹 제임스 성경,King James Bible 1611, ,text,False, , , , ,킹 제임스 성경 1611,킹제임스 성경 1611년, ,1611년판 킹 제임스 성경
+69weeks3,"29년 예수의 봉사 시작 (누가 복음 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"예수님이 29년에 봉사를 시작하심 (누가복음 3:1, 21)","예수께서 봉사를 시작하심 기원 C.E. 29년 (누가복음 3:1, 21)", ,"예수께서는 서기 29년에 사역을 시작하셨습니다 (누가복음 3:1, 21)"
+ransom,그 주의 절반에 “제사를 그침”(다니엘 9:27),Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,주의 중반에 “제물이 그치리라” 다니엘 9:27,칠칠절의 중간에 “희생과 예물이 그치게 할” 것임 다니엘 9:27, ,주중 “제사가 중단되리라” 다니엘서 9:27
+cornelius,36년 고넬료 70주 끝에 침례(다니엘 9:24).,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,고넬료가 70주의 끝(다니엘 9:24)에 36년에 세례를 받음,기원 C.E. 36년 70이레의 끝에 고르넬리오가 침례를 받음 (다니엘 9:24), ,"코넬리우스는 서기 36년, 70주(다니엘 9:24)가 끝날 무렵 세례를 받았다."
+columbus,1492년 아메리카 대륙의 콜럼버스 이전 시대의 끝,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,아메리카에서 콜럼버스 이전 시대의 끝 1492,아메리카 대륙의 콜럼버스 이전 시대의 종말 1492년, ,"아메리카 대륙의 콜럼버스 이전 시대의 종말, 1492년"
+declaration_independence,1776년 미국 13개 식민지의 독립 선언,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,미국 13개 식민지의 독립선언 1776,아메리카 13개 식민지의 독립 선언 1776년, ,1776년 미국 13개 식민지의 독립 선언
+tischendorf,1844년 티셴도르프는 4세기의 시나이 책자본 발견,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,티센도르프가 1844년에 4세기 사본인 시내 사본을 발견함,티셴도르프가 4세기 시나이 사본을 발견함 1844년, ,티셴도르프는 1844년에 4세기에 작성된 시나이 사본을 발견했다.
+dead_sea_scrolls,사해 두루마리가 기록,Dead Sea Scrolls written, ,text,False, , , , ,사해 사본이 기록됨,사해 사본이 기록됨, ,사해 두루마리 작성
+septuagint,칠십인역 [LXX] 번역,Septuagint LXX translated, ,text,False, , , , ,70인역(LXX)이 번역됨,칠십인역(LXX)이 번역됨, ,70인역(LXX)에서 번역한
+watchtower,1879년 “시온의 파수대와 그리스도의 임재의 전령” 창간호 발행,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,“시온의 파수대와 그리스도의 현존의 전령” 제1호가 1879년에 발행됨,“시온의 파수대와 그리스도의 임재의 전령” 창간호 발행 1879년, ,1879년에 『시온의 파수대 및 그리스도의 임재의 전령』 제1호가 발간되었다.
+jehovahs_witnesses,1931년 오하이오주 콜럼버스에서 성경 연구생들은 여호와의 증인이라는 새로운 이름 채택,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"성서 연구자들이 새로운 이름—여호와의 증인(이사야 43:10, 12)을 1931년 오하이오주 콜럼버스에서 채택함","성경 연구생들이 오하이오주 콜럼버스에서 새로운 이름인 여호와의 증인을 채택함 (이사야 43:10, 12) 1931년", ,"1931년 오하이오주 콜럼버스에서 성경 연구자들이 ‘여호와의 증인’(이사야 43:10, 12)이라는 새로운 이름을 채택했다."
+gilead_school,1943년 2월 1일 월요일 워치타워 길르앗 성서 학교 시작,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,1943년 2월 1일 월요일에 갈릴래아 성서학교가 개강함,파수대 길르앗 성경 학교가 1943년 2월 1일 월요일에 시작됨, ,길르앗 파수대 성경 학교가 1943년 2월 1일 월요일에 개강한다
+new_world_translation1,1960년 6월 18일 영국 맨체스터에서 “신세계역 성경” 발표,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,“신세계 역역 성경”이 1960년 6월 18일에 영국 맨체스터에서 출판되어 성경多处에서 여호와의 이름을 다시 소개함,1960년 6월 18일 영국 맨체스터에서 “성경 신세계역”이 출시되어 성경 여러 곳에 여호와라는 이름을 다시 도입함, ,1960년 6월 18일 영국 맨체스터에서 발간된 『성경의 신세계역』은 성경의 여러 부분에서 ‘여호와’라는 이름을 다시 도입하고 있다.
+new_world_translation2,2013년 연례 총회에서 개정판 “신세계역 성경”이 발표,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,개정된 “신세계 역역 성경”이 2013년 연례 회의에서 출판되어 디지털과 온라인 사용에 최적화됨,디지털 및 온라인으로 사용하도록 최적화된 개정 “성경 신세계역”이 2013년 연례 총회에서 발표됨, ,"2013년 연차 총회에서 개정판 『성경의 신세계역』이 발간되었으며, 디지털 및 온라인 사용에 최적화되어 있다."
+cold_war,1945년~1991년 “냉전”이라는 지정학적 상황,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,“냉전”으로 불리는 지정학적 상황 1945-1991,“냉전”으로 불리는 지정학적 상황 1945-1991년, ,1945년부터 1991년까지 ‘냉전’으로 불린 지정학적 상황
+codex_sinaiticus,시나이 책자본 기록,Codex Sinaiticus written, ,text,False, , , , ,시내 사본이 기록됨,시나이 사본이 기록됨, ,시나이 사본의 작성
+codex_vaticanus,바티칸 책자본 기록,Codex Vaticanus written, ,text,False, , , , ,바티칸 사본이 기록됨,바티칸 사본이 기록됨, ,바티칸 사본의 작성
+leningrad_codex,1008년 카이로에서 레닌그라드 책자본 기록,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,레닌그라드 사본이 1008년 이집트 카이로에서 기록됨,주후(AD) 1008년 카이로에서 레닌그라드 사본이 기록됨, ,서기 1008년 카이로에서 쓰인 ‘레닌그라드 코덱스’
+john,기원 96년-98년 요한이 파트모스 섬에 유배되어 있는 동안 “계시록” 기록,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,요한이 96-98년에 파트모스 섬 유배 중 “요한계시록”을 기록함,요한이 파트모스섬에 유배되어 있는 동안 “계시록”을 기록함 기원 C.E. 96-98년, ,요한은 서기 96~98년경 파트모스 섬에 유배되어 있는 동안 『요한계시록』을 썼다.
+buddha,붓다 – 고타마 싯다르타 c. 기원전 563년~483년경,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,부처—싯다르타 고타마 기원전 563-483년경,부처 – 싯다르타 고타마 기원전 563년경-기원전 483년경, ,부처님 – 싯다르타 고타마 (기원전 563년경~기원전 483년경)
+buddha2,대안으로 부처님 c. 기원전 480년~400년,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,부처는 대체로 기원전 480-400년경,부처 생애의 다른 연대 기원전 480-400년경, ,부처님: 기원전 480년경~400년경 (추정)
+mohammed,모하메드 c. 570년~632년,Mohammed c. 570-632, ,text,False, , , , ,무함마드 570-632년경,무함마드 570년경-632년, ,"무함마드, 약 570–632년"
+confucius,공자 c. 기원전 551년~479년,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,공자 기원전 551-479년경,공자 기원전 551년경-기원전 479년경, ,공자 (기원전 551년경~기원전 479년경)
+hijrah,히즈라 - 메카에서 메디나로의 여행 622년 7월 16일,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,히즈라—메카에서 메디나로의 이주 622년 7월 16일,헤지라 – 메카에서 메디나로의 이주 622년 7월 16일, ,"히즈라 - 메카에서 메디나로의 여정, 622년 7월 16일"
+moses_escape,"기원전 1553년 모세는 애굽에서 탈출 – 출애굽기 2:15, 사도행전 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"기원전 1553년 모세가 이집트에서 도피해야 함—출애굽기 2:15, 사도행전 7:23","기원전 1553년 모세가 이집트에서 도망쳐야 함 – 출애굽기 2:15, 사도행전 7:23", ,"기원전 1553년, 모세는 이집트를 탈출해야만 했다 – 출애굽기 2:15, 사도행전 7:23"
+10plagues,기원전 1513년 이집트가 10가지 재앙을 받음,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,기원전 1513년 이집트에 10가지 재앙이 내림,기원전 1513년 이집트에 10가지 재앙이 임함, ,"기원전 1513년, 이집트에 10가지 재앙이 닥치다"
+joseph_sold,요셉은 17세에 노예로 팔림 – 창 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,17세에 종으로 팔려간 요셉—창세기 37:2,요셉이 17세의 나이에 노예로 팔림 – 창세기 37:2, ,요셉은 17세에 노예로 팔렸다 – 창세기 37:2
+infliction,"400년 동안의 괴롭힘(행 7:6) – 이스마엘, 기원전 1913년",400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400년의 괴로움(사도행전 7:6)—기원전 1913년 이스마엘,400년 동안의 학대 (사도행전 7:6) – 이스마엘 기원전 1913년, ,"400년간의 고난 (사도행전 7:6) – 이스마엘, 기원전 1913년"
+Alexander,알렉산더 대왕 (다니엘 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,알렉산더 대왕 (다니엘 11:3),대제국을 건설한 알렉산드로스 (다니엘 11:3), ,알렉산더 대왕 (다니엘서 11:3)
+persia,"고레스 대왕, 캄비세스 2세, 다리우스 1세(기원전 490년), 크세르크세스 1세(기원전 480년)(에스더의 남편, 다니엘 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"키루스 대왕, 캄비세스 2세, 다리오 1세 기원전 490년, 크세르크세스 1세 기원전 480년 (에스더의 남편, 다니엘 11:2)","키루스 대왕, 캄비세스 2세, 다리우스 1세 기원전 490년, 크세르크세스 1세 기원전 480년 (에스더의 남편, 다니엘 11:2)", ,"키루스 대왕, 캄비세스 2세, 다리우스 1세 (기원전 490년), 크세르크세스 1세 (기원전 480년, 에스더의 남편, 다니엘서 11:2)"
+king_north,"셀레우코스 1세 니카토르(v5) 시리아에서 안티오코스 3세(10절) 및 셀레우코스 4세(18, 19절)에서 옥타비아누스(20절) 및 티베리우스(21-24절)까지","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"셀레우코스 1세 니카토르 (5절) 안티오쿠스 3세(10절)와 셀레우코스 4세(18, 19절)를 거쳐 옥타비아누스(20절)와 티베리우스(21-24절)에 이르기까지","셀레우코스 1세 니카토르(5절), 안티오코스 3세(10절) 및 셀레우코스 4세(18, 19절)를 거쳐 옥타비아누스(20절)와 티베리우스(21-24절)까지", ,"셀레우코스 1세 니카토르(v5) 시리아에서 안티오코스 3세(v10)와 셀레우코스 4세(v18, 19)를 거쳐 옥타비아누스(v20)와 티베리우스(v21-24)에 이르기까지"
+king_north1,북방 왕,King of the North, ,text,False, , , , ,북방의 왕,북쪽 왕, ,북부의 왕
+king_south,"프톨레마이오스 1세, 2세, 3세, 4세(11, 12절), 5세(15, 16절) - 기원전 31년 악티움 전투","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"프톨레마이오스 1세, 2세, 3세, 4세(11, 12절), 5세(15, 16절)에서 기원전 31년 악티움 해전까지","프톨레마이오스 1세, 2세, 3세, 4세(11, 12절), 5세(15, 16절)부터 기원전 31년 악티움 해전까지", ,"프톨레마이오스 1세, 2세, 3세, 4세(v11, 12), 5세(v15, 16)부터 기원전 31년 악티움 해전까지."
+king_south1,남방 왕,King of the South, ,text,False, , , , ,남방의 왕,남쪽 왕, ,남방의 왕
+king_south2,"1870년 대영 제국, 1914년 이후 영미 세계 강국","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"영국 제국 1870년, 1914년 이후 영미 세계 강대국","1870년 대영 제국, 1914년 이후의 영미 세계 패권", ,"1870년 대영제국, 1914년 이후의 영미 세계 강대국"
+king_south3,남방 왕,King of the South, ,text,False, , , , ,남방의 왕,남쪽 왕, ,남방의 왕
+king_north2,"독일과 빌헬름 1세 1871년(v28), 1914년(v29), 1935년(v30b), 1939년(v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"황제 빌헬름 1세 시대의 독일 1871년(28절), 1914년(29절), 1935년(30절 후반), 1939년(31절 전반)","빌헬름 1세 황제의 독일 1871년(28절), 1914년(29절), 1935년(30절 하반절), 1939년(31절 상반절)", ,"빌헬름 1세 황제가 통치하던 독일: 1871년 (v28), 1914년 (v29), 1935년 (v30b), 1939년 (v31a)"
+king_north3,북,North, ,text,False, , , , ,북방,북쪽, ,북쪽
+king_north4,"소련 1945-1991 (다니엘 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"소련 1945-1991 (다니엘 11:32-39, 40절 후반, 41절)","소련 1945-1991년 (다니엘 11:32-39, 40절 하반절, 41절)", ,"소련 1945-1991 (다니엘 11:32-39, 40b, 41)"
+king_north5,2017년 이후 러시아 (5월 20일),Russia since 2017 (w20 May), ,text,False, , , , ,2017년 이후의 러시아 (w20 5월),2017년(5월 워치타워) 이후의 러시아, ,2017년 이후 러시아 (5월 20일 기준)
+time_of_end,"그리스도의 임재, 사물의 제도의 종결(마 24:3), 마지막 날(딤후 3:1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"그리스도의 재림, 시대의 결말(마태복음 24:3), 마지막 날들(디모데후서 3:1)","그리스도의 임재, 사물의 제도의 종결(마태복음 24:3), 마지막 날들(디모데 후서 3:1)", ,"그리스도의 임재, 현 세상의 종말 (마태복음 24:3), 마지막 날들 (디모데후서 3:1)"
+time_of_end2,마지막 때,Last days, ,text,False, , , , ,마지막 날들,마지막 날들, ,지난 며칠
+suryavaman2,수르야바르만 2세 국왕이 앙코르와트 건설 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,수리아바르만 2세가 1113-1150년에 앙코르와트를 건축함,수리아바르만 2세가 앙코르 와트를 건설함 1113-1150년, ,수리야바르만 2세 왕이 1113년부터 1150년까지 앙코르 와트를 건설했다.
+notre-dame,노트르담 드 파리 건축(1163~1260),Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,파리 노트르담 성당이 1163-1260년에 건축됨,노트르담 드 파리 대성당 건립 1163-1260년, ,1163년부터 1260년까지 지어진 파리 노트르담 대성당
+babel,바벨탑 건축,Tower of Babel built, ,text,False, , , , ,바벨탑이 건축됨,바벨탑 건설, ,바벨탑이 세워졌다
+infliction1,400년의 괴롭힘,400 year infliction,Acts 7:6,text,False, , , , ,400년의 괴로움,400년 동안의 학대, ,400년에 걸친 고통
+Lots_wife,롯의 아내,Lot’s wife, ,text,False, , , , ,롯의 아내,롯의 아내, ,롯의 아내
+Lots_daughters,롯의 딸들,Daughters of Lot, ,text,False, , , , ,롯의 딸들,롯의 딸들, ,롯의 딸들
+Moab,모압(큰 딸),Moab (older daughter),Genesis 19:37,text,False, , , , ,모압 (맏딸),모압 (큰딸), ,모압 (큰딸)
+rosetta,로제타스톤 기원전 196년,Rosetta stone 196 B.C.E., ,text,False, , , , ,로제타석 기원전 196년,로제타 스톤 기원전 196년, ,"로제타 석, 기원전 196년"
+Herodotus,"헤로도토스 ㄷ. 484 – 다. 기원전 425년, 『역사』 집필","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"헤로도토스 기원전 약 484년 – 기원전 약 425년, 『역사(Historiai)』 집필","헤로도토스 약 기원전 484년 – 약 기원전 425년, 역사 저술", ,헤로도토스(기원전 484년경 ~ 기원전 425년경)는 『역사』를 저술했다.
+Aristotle,아리스토텔레스 기원전 384년 – 기원전 322년,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,아리스토텔레스 기원전 384 – 322년,아리스토텔레스 기원전 384 – 322년, ,아리스토텔레스 기원전 384년 – 322년
+Ptolemy,프톨레마이오스 c 100 – c. 기원 170년,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,프톨레마이오스 서기 약 100년 – 서기 약 170년,프톨레마이오스 약 100 – 약 170년, ,"프톨레마이오스, 서기 100년경 – 170년경"
+Pythagoras,피타고라스 ㄷ. 570 – c. 기원전 495년,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,피타고라스 기원전 약 570년 – 기원전 약 495년,피타고라스 약 기원전 570 – 약 기원전 495년, ,"피타고라스, 기원전 570년경 ~ 기원전 495년경"
+Plato,플라톤 ㄷ. 427 – c. 기원전 348년,Plato c. 427 – c. 348 BC, ,text,False, , , , ,플라톤 기원전 약 427년 – 기원전 약 348년,플라톤 약 기원전 427 – 약 기원전 348년, ,"플라톤, 기원전 427년경 ~ 기원전 348년경"
+Socrates,소크라테스 ㄷ. 470 – c. 기원전 399년,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,소크라테스 기원전 약 470년 – 기원전 약 399년,소크라테스 약 기원전 470 – 약 기원전 399년, ,"소크라테스, 기원전 470년경 – 기원전 399년경"
+Josephus,요세푸스 ㄷ. 37 – 다. 기원 100년,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,요세푸스 서기 약 37년 – 서기 약 100년,요세푸스 약 37 – 약 100년, ,"요세푸스, 서기 37년경 – 서기 100년경"
+Cicero,키케로 기원전 106-43년,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,키케로 기원전 106–43년,키케로 기원전 106–43년, ,키케로 기원전 106–43년
+lachish_letters,라기스 편지 ㄷ. 기원전 590년,Lachish letters c. 590 B.C.E., ,text,False, , , , ,라키스 서신들 기원전 약 590년,라기스 서판 약 기원전 590년, ,기원전 590년경의 라키시 서신
+lachish_reliefs,라기스 부조 ㄷ. 기원전 681년,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,라키스 부조 기원전 약 681년,라기스 부조 약 기원전 681년, ,기원전 681년경의 라키쉬 부조
+mesha_stele,메사비석(모압석) 다. 기원전 840년,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,메사 석비(모압석) 기원전 약 840년,메사 비석(모압 석비) 약 기원전 840년, ,"메샤 비석 (모압 비석), 기원전 840년경"
+gilgamesh,길가메시와 아가 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,길가메시와 아가 𒇽𒆥𒄄𒀀𒀝𒂵,길가메시와 아가, ,길가메시와 아가 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,길가메시 서사시(Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,『길가메시 서사시』(신-레키-우닌니),길가메시 서사시 (신레기우닌닌니), ,길가메시 서사시 (신-레키-운니니)
+gregorian,그레고리력 1582년,Gregorian calendar 1582, ,text,False, , , , ,그레고리력 1582년,그레고리력 1582년, ,그레고리력 1582년
+shang-dynasty,c. 기원전 1600-1046년,c. 1600-1046 BC, ,text,False, , , , ,기원전 약 1600-1046년,약 기원전 1600-1046년, ,기원전 1600년경–1046년
+western-zhou,c. 기원전 1046-771년,c. 1046-771 BC, ,text,False, , , , ,기원전 약 1046-771년,약 기원전 1046-771년, ,기원전 1046년경–771년경
+qin-dynasty,진 기원전 221-207,Qin 221-207 BC, ,text,False, , , , ,진(秦) 기원전 221-207년,진나라 기원전 221-207년, ,진나라 (기원전 221~207년)
+western-han,기원전 207년 – 서기 9년,207 BC – 9 CE, ,text,False, , , , ,기원전 207년 – 서기 9년,기원전 207년 – 서기 9년, ,기원전 207년 – 기원후 9년
+three-kingdoms,삼국시대 220-280 CE,Three kingdoms 220-280 CE, ,text,False, , , , ,삼국 시대 서기 220-280년,삼국시대 서기 220-280년, ,삼국시대 (서기 220~280년)
+sixteen-kingdoms,16개 왕국 304-439 CE,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,십육국 시대 서기 304-439년,오호십육국 시대 서기 304-439년, ,"16개국, 서기 304–439년"
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , ,"618-690년, 705-907년","618-690, 705-907", , 
+wu-zhou,690-705 우저우,690-705 Wu Zhou, ,text,False, , , , ,690-705년 무주(武周),690-705 측천무후의 무주, ,690-705 우저우
+tang-dynasty1_c,당나라,Tang, ,text,False, , , , ,당(唐),당나라, ,탕
+gonghe,공허섭정(기원전 841-828년),Gonghe Regency 841-828 BC, ,text,False, , , , ,공화 정정(共和政) 기원전 841-828년,공화 섭정 기원전 841-828년, ,"공허 현, 기원전 841~828년"
+Ashoka,아쇼카(기원전 304-232년경)는 불교를 장려했습니다.,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,아쇼카(기원전 약 304-232년)가 불교를 장려하다,아소카왕(기원전 304-232년경)이 불교를 장려함, ,아쇼카(기원전 304년경~232년경)는 불교를 장려했다
+siloam-tunnel,히스기야가 실로암 터널을 확장하다,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,히스기야가 실로암 터널을 확장하다,히스기야가 실로암 터널을 확장함, ,히스기야가 실로암 터널을 확장하다
+Angloamerica2,"영미권은 다니엘 2:33, 41-43의 예언에서 진흙과 철이 섞인 발로 상징됩니다.","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"앵글로-아메리카는 다니엘서 2장 33, 41-43절의 예언에서 진흙과 섞인 철로 된 발로 상징된다","영미 세계 강국은 다니엘 2:33, 41-43의 예언에서 진흙과 섞인 철 발가락으로 상징되어 있음", ,"앵글로-아메리칸은 다니엘서 2장 33절, 41-43절의 예언에 나오는 ‘진흙이 섞인 철 다리’로 상징됩니다."
+Manetho,마네토는 아이귑티카 를 쓴다,Manetho writes Aegyptiaca, ,text,False, , , , ,마네토가 『이집트사(Aegyptiaca)』를 집필하다,마네톤이 아이깁티아카를 저술함, ,마네토는 『에집티아카』를 집필했다
+destruction_babylon,"큰 바빌론의 멸망 (계시 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"대바빌론의 멸망(요한계시록 17:3, 15-18; 18:9, 10)","큰 바빌론의 멸망(계시록 17:3, 15-18; 18:9, 10)", ,"큰 바빌론의 멸망 (요한계시록 17:3, 15-18; 18:9, 10)"
+peace_security,"“평화와 안전!” (데살로니가전서 5:3, 이것이 하나의 가능성입니다, 독자 Q 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"""평화와 안전!""(데살로니가전서 5:3, 이는 한 가지 가능성이다, 왕국소식 26/2, 25/11)","“평화와 안전!”(데살로니가 전서 5:3, 이는 한 가지 가능성임, 질문과 답변 26/2, 25/11)", ,"“평화와 안전!” (데살로니가전서 5:3, 이는 한 가지 가능성임, QfR 26/2, 25/11)"
+gog_of_magog,"마곡의 곡의 공격 (에스겔 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"곡과 마곡의 공격(에스겔서 38:1, 2, 9-12, 18-23)","마곡의 곡의 공격(에스겔 38:1, 2, 9-12, 18-23)", ,"마곡의 고그의 침공 (에스겔 38:1, 2, 9-12, 18-23)"
+sheep_goat,땅의 주민들이 양과 염소를 분리하여 심판을 받을 것입니다(마태복음 25:31-33).,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,땅의 거민들이 심판받아 양과 염소로 나뉘다(마태복음 25:31-33),땅의 거주자들이 심판을 받아 양과 염소로 나뉨(마태복음 25:31-33), ,지상의 모든 사람이 심판을 받아 양과 염소가 가려진다 (마태복음 25:31-33)
+annointed,왕국 통치자들의 집합 (마태복음 24:31; 고린도전서 15:50-53; 데살로니가전서 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,왕국 통치자들의 모임(마태복음 24:31; 고린도전서 15:50-53; 데살로니가전서 4:15-17),왕국 통치자들의 모임(마태복음 24:31; 고린도 전서 15:50-53; 데살로니가 전서 4:15-17), ,왕국의 통치자들이 모이는 자리 (마태복음 24:31; 고린도전서 15:50-53; 데살로니가전서 4:15-17)
+armageddon,"아마겟돈 전쟁 (요한계시록 16:14, 16; 이사야 13:9; 베드로후서 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"아마겟돈 전투(요한계시록 16:14, 16; 이사야 13:9; 베드로후서 3:12)","아마겟돈 전쟁(계시록 16:14, 16; 이사야 13:9; 베드로 후서 3:12)", ,"아마겟돈 전투 (요한계시록 16:14, 16; 이사야 13:9; 베드로후서 3:12)"
+millenium,"하느님의 왕국이 1000년 통치를 시작합니다 (계시 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"하나님의 왕국이 1000년 통치를 시작하다(요한계시록 5:9, 10; 20:4, 6)","하느님의 왕국이 1000년 통치를 시작함(계시록 5:9, 10; 20:4, 6)", ,"하나님의 왕국이 1,000년 동안의 통치를 시작한다 (요한계시록 5:9, 10; 20:4, 6)"
+great_crowd,"큰 무리가 아마겟돈을 살아남습니다 (계시 7:9, 14; 시 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"큰 무리가 아마겟돈을 살아남다(요한계시록 7:9, 14; 시편 37:9-11)","큰 무리가 아마겟돈에서 살아남음(계시록 7:9, 14; 시편 37:9-11)", ,"수많은 무리가 아마겟돈에서 살아남는다 (요한계시록 7:9, 14; 시편 37:9-11)"
+world_population,지난 2000년간 수십억의 세계 인구,World population in billions in the last 2000 years, ,text,False, , , , ,지난 2000년간 세계 인구(십억 단위),지난 2000년 동안의 세계 인구 (단위: 10억 명), ,지난 2000년 동안의 세계 인구(십억 단위)
+khmer_empire_c,크메르 제국 - 앙코르 시대,Khmer Empire - Angkor period, ,text,False, , , , ,크메르 제국 - 앙코르 시대,크메르 제국 - 앙코르 시대, ,크메르 제국 - 앙코르 시대
+holy_roman_empire_c,신성 로마 제국 – 1512년 이후 독일 국가의 신성 로마 제국,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,신성 로마 제국 – 1512년 이후 독일 민족의 신성 로마 제국으로 알려짐,신성 로마 제국 – 1512년 이후에는 독일 국민의 신성 로마 제국으로 알려짐, ,신성 로마 제국 – 1512년 이후 ‘독일 민족의 신성 로마 제국’으로 불림
+mongol_empire,몽골 제국 1206년 – 1294년,Mongol Empire 1206 – 1294, ,text,False, , , , ,몽골 제국 1206 – 1294년,몽골 제국 1206 – 1294년, ,몽골 제국 1206년 – 1294년
+maya_classic_c,마야 문명 – 고전 시대,Maya civilization – Classic period, ,text,False, , , , ,마야 문명 - 고전기,마야 문명 – 고전기, ,마야 문명 – 고전기
+maya_postclassic_c,마야 문명 - 고전 이후 시대,Maya civilization – Postclassic period, ,text,False, , , , ,마야 문명 - 후고전기,마야 문명 – 후기 고전기, ,마야 문명 – 후기 고전기
+Teotihuacan,"아메리카 대륙에서 가장 큰 도시, 피라미드 건설 c. 기원 200년","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"아메리카 최대 도시, 서기 약 200년경 피라미드 건축","아메리카 대륙에서 가장 큰 도시, 피라미드 건축 서기 200년경", ,"아메리카 대륙에서 가장 큰 도시로, 피라미드는 서기 200년경에 지어졌다."
+Dionysius_Exiguus,Anno Domini의 발명가인 Dionysius Exiguus,"Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"디오니시우스 엑시구스, 서기(Anno Domini) 기发明자","디오니시우스 엑시구스, 주전/주후(서기) 개념의 창시자", ,"디오니시우스 엑시구스, 서기(Anno Domini) 연호 체계를 고안한 인물"
+Umayyad_c,우마이야,Umayyad, ,text,False, , , , ,우마이야 왕조,우마이야 칼리프국, ,우마이야 왕조
+ur3,우르 3왕조 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,우르 제3왕조 𒋀𒀕𒆠,우르 제3왕조 𒋀𒀕𒆠, ,우르 3세 왕조 𒋀𒀕𒆠
+hammurabi,함무라비 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , ,함무라비 𒄩𒄠𒈬𒊏𒁉,함무라비 𒄩𒄠𒈬𒊏𒁉, ,함무라비 𒄩𒄠𒈬𒊏𒁉
+Al-Khwarizmi,al-Khwarizmi는 Al-Jabr(대수학)을 씁니다.,al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,알-콰리즈미가 『알-자브르(대수학)』를 집필하다,알콰리즈미가 알자브르(대수학)를 저술함, ,알-크와리즈미는 『알-자브르』(대수학)를 저술했다.
+al-azhar,Al-Azhar University가 카이로에 설립됨,Al-Azhar University is established in Cairo, ,text,False, , , , ,카이로에 알-아즈하르 대학이 설립되다,카이로에 알아즈하르 대학교가 설립됨, ,알-아즈하르 대학교가 카이로에 설립되었다
+Ibn-Sina,이븐 시나 또는 아비센나,Ibn Sina or Avicenna, ,text,False, , , , ,이븐 시나(아비센나),이븐 시나 또는 아비케나, ,이븐 시나 또는 아비센나
+life-expectancy,기대 수명 75 년,Life expectancy 75 years, ,text,False, , , , , ,기대 수명 75세, ,평균 수명 75세
+430years_c,"430 년 : 출애굽기 12:41, 갈라디아서 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , , ,"430년: 출애굽기 12:41, 갈라디아서 3:17", ,"430년: 출애굽기 12:41, 갈라디아서 3:17"
+maya_calendar,Maya Calendar의 시작 계산 기원전 8 월 11 일 기원전.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , , ,마야 달력의 계산된 시작일 기원전 3114년 8월 11일, ,마야 달력의 시작일은 기원전 3114년 8월 11일로 추산됩니다.
+xia-dynasty2,"기음. 2070 - c. 기원전 1600 년, 서부 Zhou 기간 동안 가장 초기의 언급",c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , , ,기원전 2070년경 – 기원전 1600년경; 서주 시대에 처음으로 언급된 시대, ,기원전 2070년경 – 기원전 1600년경; 서주 시대에 처음으로 언급된 시대
+xia-dynasty2_c,중국의 Xia 왕조,Xia dynasty in China, ,text,False, , , , , ,중국의 하나라, ,중국의 하 왕조
+tres_zapotes,"9 월 3 일, 기원전 32 년","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , , ,기원전 29년 9월 3일 (역사적/천문학적 계산 기준에 따름), ,기원전 32년 9월 3일
+joseph_jacob_reunited,조셉과 야곱은 이집트에서 재결합했다 - 1728 년 기원전. (창 45:11; 47 : 9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , , ,요셉과 야곱이 이집트에서 재회함 – 기원전 1728년(창세기 45:11; 47:9), ,요셉과 야곱이 이집트에서 재회했다 – 기원전 1728년 (창세기 45:11; 47:9)
+king_south_light_c,다니엘 11 장에서 남쪽 왕,King of the South from Daniel 11,2025-02-05,text,False, , , , , ,다니엘 11장에 나오는 남방 왕, ,다니엘서 11장에 나오는 ‘남방의 왕’
+king_north_light_c,다니엘 11에서 북쪽 왕,King of the North from Daniel 11,2025-02-05,text,False, , , , , ,다니엘 11장의 북방 왕, ,다니엘서 11장에 나오는 ‘북방 왕’
+daniel2_iron_c,다니엘 2의 철 다리,Iron legs from Daniel 2,2025-02-05,text,False, , , , , ,다니엘 2장의 쇠 다리, ,다니엘서 2장에 나오는 철 다리
+argenteus,코덱스 아르겐테우스 c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , ,은 사본 서기 505년경, ,"『코덱스 아르겐테우스』, 약 505년"
+nguyen_dynasty_c,응우옌,Nguyễn,2025-09-20,text,False, , , , , ,응우옌 왕조, ,응우옌
+edo_c,일본의 에도 시대,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , , ,일본의 에도 시대, ,일본의 에도 시대
+meiji_c,메이지,Meiji,2025-09-20,text,False, , , , , ,메이지, ,메이지
+american_civil_war,미국 남북전쟁 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , , ,미국 남북 전쟁 1861-1865년, ,미국 남북전쟁 1861-1865
+aleppo_codex,알레포 코덱스 c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , , ,알레포 사본 서기 920년경, ,"알레포 사본, 약 920년"
+vandals,반달족과 알란족의 왕국(기원 435년 – 534년),Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , , ,반달족과 알란족의 왕국 435년 – 534년, ,반달족과 알란족 왕국 435–534
+francia,"기음. 481/509 – 843 C.E., 메로빙거 왕조는 751년까지, 이후 카롤링거 왕조","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , , ,"서기 481/509년경 – 843년, 751년까지는 메로빙거 왕조, 그 이후는 카롤링거 왕조", ,"기원전 481/509년경 – 843년, 751년까지는 메로빙거 왕조, 그 후 카롤링거 왕조"
+francia_c,프랑크 왕국,Kingdom of the Franks, ,text,False, , , , , ,프랑크 왕국, ,프랑크 왕국
+100_years_war,백년전쟁 1337년 – 1453년,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , , ,백년 전쟁 1337년 – 1453년, ,백년 전쟁 1337–1453
+black_death,흑사병 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , , ,흑사병 1346-1353년, ,흑사병 1346–1353
+sui_dynasty,581-618 수나라,581-618 Sui dynasty,2025-11-09,text,True, , , , , ,581-618년 수나라, ,581–618 수나라
+sui_dynasty_c,수나라,Sui,2025-11-09,text,True, , , , , ,수, ,수이
+tribulation,"큰 환난 (마가복음 13:19; 다니엘 12:1; 마 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , , ,"환난 (막 13:19; 단 12:1; 마 24:21, 22)", ,"대환난 (마가복음 13:19; 다니엘서 12:1; 마태복음 24:21, 22)"
+timeline_created,"이 타임라인은 인류 역사상, 그리고 지난 12만 5천 년 중 가장 더운 해인 2023년에 작성되었습니다.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , , ,이 연대표는 인류 역사 및 지난 12만 5천 년 중 가장 더운 해인 2023년에 작성되었습니다., ,"이 연표는 인류 역사상, 그리고 지난 12만 5천 년 동안 가장 더웠던 해인 2023년에 작성되었습니다."
+Adam,아담,Adam,Luke 3:38,bible,True, , , , , ,아담, , 
+Seth,셋,Seth, ,bible,True, , , , , ,셋, , 
+Enosh,에노스,Enosh, ,bible,True, , , , , ,에노스, , 
+Kenan,게난(가이난),Kenan (Cainan),Genesis 5:12,bible,True, , , , , ,게난 (가이난), , 
+Mahalalel,마할랄레엘(마할랄레엘),Mahalalel (Mahalaleel), ,bible,True, , , , , ,마할랄렐, , 
+Jared,야렛,Jared, ,bible,True, , , , , ,야렛, , 
+Enoch,에녹,Enoch, ,bible,True, , , , , ,에녹, , 
+Methuselah,므두셀라,Methuselah,Luke 3:37,bible,False, , , , , ,므두셀라, , 
+Lamech,라멕,Lamech, ,bible,False, , , , , ,라멕, , 
+Noah,노아,Noah, ,bible,False, , , , , ,노아, , 
+Shem,셈,Shem, ,bible,False, , , , , ,셈, , 
+Arpachshad,아르박삿,Arpachshad,Luke 3:36,bible,False, , , , , ,아르박삿, , 
+Shelah,셸라,Shelah, ,bible,False, , , , , ,셀라, , 
+Eber,에벨,Eber, ,bible,False, , , , , ,에벨, , 
+Peleg,벨렉,Peleg, ,bible,False, , , , , ,벨렉, , 
+Reu,르우,Reu, ,bible,False, , , , , ,르우, , 
+Serug,스룩,Serug,Luke 3:35,bible,False, , , , , ,스룩, , 
+Nahor,나홀,Nahor,Genesis 11:24,bible,False, , , , , ,나홀, , 
+Terah,데라,Terah, ,bible,False, , , , , ,데라, , 
+Abraham,아브라함,Abraham, ,bible,False, , , , , ,아브라함, , 
+Isaac,이삭,Isaac, ,bible,False, , , , , ,이삭, , 
+Jacob,야곱,Jacob,Luke 3:34,bible,False, , , , , ,야곱, , 
+Joseph,요셉,Joseph,Genesis 37,bible,False, , , , , ,요셉, , 
+Moses,모세,Moses, ,bible,False, , , , , ,모세, , 
+Othniel,옷니엘,Othniel,Judges 3:9-11,bible,False, , , , , ,옷니엘, , 
+Ehud,에훗,Ehud,Judges 3:15-18,bible,False, , , , , ,에훗, , 
+Shamgar,삼갈,Shamgar,Judges 3:31,bible,False, , , , , ,삼갈, , 
+Barak,바락,"Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , ,"바락, 드보라, 야엘", , 
+Gideon,기드온,Gideon,Judges 7:1,bible,False, , , , , ,기드온, , 
+Tola,돌라와,Tola,Judges 10:1,bible,False, , , , , ,돌라, , 
+Jair,야일,Jair,Judges 10:3,bible,False, , , , , ,야일, , 
+Jephthah,입다,Jephthah,Judges 11:1,bible,False, , , , , ,입다, , 
+Ibzan,입산과,Ibzan,Judges 12:8,bible,False, , , , , ,입산, , 
+Elon,엘론,Elon,Judges 12:11,bible,False, , , , , ,엘론, , 
+Abdon,압돈,Abdon,Judges 12:13,bible,False, , , , , ,압돈, , 
+Samson,삼손,Samson,Judges 13:24,bible,False, , , , , ,삼손, , 
+Samuel,사무엘,Samuel,1 Samuel 1:20,bible,False, , , , , ,사무엘, , 
+Saul,사울,Saul,1 Samuel 9:2,bible,False, , , , , ,사울, , 
+David,다윗,David,1 Samuel 16:13,bible,False, , , , , ,다윗, , 
+Solomon,솔로몬,Solomon,1 Kings 2:1,bible,False, , , , , ,솔로몬, , 
+Malachi,말라기서,Malachi, ,bible,False, , , , , ,말라기, , 
+Ruth,룻기,Ruth, ,bible,False, , , , , ,룻, , 
+Ezra,에스라가,Ezra, ,bible,False, , , , , ,에스라, , 
+Nehemiah,느헤미야서,Nehemiah, ,bible,False, , , , , ,느헤미야, , 
+Esther,에스더가,Esther, ,bible,False, , , , , ,에스더, , 
+Job,욥기,Job, ,bible,False, , , , , ,욥, , 
+moses3,모세,Moses, ,bible,False, , , , , ,모세, , 
+joshua2,여호수아,Joshua, ,bible,False, , , , , ,여호수아, , 
+caleb2,갈렙,Caleb, ,bible,False, , , , , ,갈렙, , 
+Augustus,아우구스투스,Augustus,Luke 2:1,bible,False, , , , , ,아우구스투스, , 
+Tiberius,티베리우스,Tiberius,Luke 3:1,bible,False, , , , , ,디베료, , 
+Claudius,클라우디우스,Claudius,Acts 11:28,bible,False, , , , , ,글라우디오, , 
+persia2,페르시아,Persia, ,bible,False, , , , , ,바사, , 
+jehoiada,여호야다,Jehoiada,2 Kings 11:4,bible,False, , , , , ,여호야다, , 
+Haggai,학개,Haggai, ,bible,False, , , , , ,학개, , 
+Zerubbabel,스룹바벨(눅 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , ,스룹바벨 (누가복음 3:27), , 
+Jacob2,야곱/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , ,야곱/, , 
+Israel,이스라엘,Israel,Genesis 35:10,bible,False, , , , , ,이스라엘, , 
+Sarah,사라,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , ,사라, , 
+Hagar,하갈,Hagar,Genesis 21:14,bible,False, , , , , ,하갈, , 
+Haran,하란,Haran,Genesis 11:26,bible,False, , , , , ,하란, , 
+Reumah,르우마,Reumah,Concubine – 4 sons 22:24,bible,False, , , , , ,르우마, , 
+Milcah,밀가,Milcah,8 sons (Bethuel and 7 more),bible,False, , , , , ,밀가, , 
+Lot,롯,Lot,Genesis 11:27,bible,False, , , , , ,롯, , 
+Ammon,벤암미(암몬),Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , ,벤암미 (암몬), , 
+Bethuel,브두엘,Bethuel,Genesis 22:23,bible,False, , , , , ,브두엘, , 
+Rebekah,리브가,Rebekah, ,bible,False, , , , , ,리브가, , 
+Laban,라반,Laban,Genesis 24:29,bible,False, , , , , ,라반, , 
+Leah,레아,Leah,Genesis 35:23,bible,False, , , , , ,레아, , 
+Rachel,레이첼,Rachel,Genesis 35:24,bible,False, , , , , ,라헬, , 
+Bilhah,빌하,Bilhah,Genesis 35:25,bible,False, , , , , ,빌하, , 
+Zilpah,실바,Zilpah,Genesis 35:26,bible,False, , , , , ,실바, , 
+Reuben,르우벤,Reuben, ,bible,False, , , , , ,르우벤, , 
+Simeon,시므온,Simeon, ,bible,False, , , , , ,시므온, , 
+Levi,남자 이름,Levi,Genesis 35:23,bible,False, , , , , ,레위, , 
+Judah,유다,Judah, ,bible,False, , , , , ,유다, , 
+Issachar,잇사갈,Issachar, ,bible,False, , , , , ,잇사갈, , 
+Zebulun,스불론,Zebulun, ,bible,False, , , , , ,스불론, , 
+Dinah,디나,Dinah,Genesis 34,bible,False, , , , , ,디나, , 
+Esau,에서/,Esau/, ,bible,False, , , , , ,에서/, , 
+Edom,에돔,Edom,Genesis 36:1,bible,False, , , , , ,에돔, , 
+Ishmael,이스마엘,Ishmael,Genesis 16:16,bible,False, , , , , ,이스마엘, , 
+Manasseh2,(므낫세,(Manasseh,Genesis 41:50-52,bible,False, , , , , ,(므낫세와, , 
+Ephraim,그리고 에브라임),and Ephraim), ,bible,False, , , , , ,에브라임), , 
+Benjamin,베냐민,Benjamin, ,bible,False, , , , , ,베냐민, , 
+Dan,단,Dan,Genesis 35:23,bible,False, , , , , ,단, , 
+Naphtali,납달리,Naphtali, ,bible,False, , , , , ,납달리, , 
+Gad,갓,Gad, ,bible,False, , , , , ,갓, , 
+Asher,애셔,Asher, ,bible,False, , , , , ,아셀, , 
+Milcah1,"우스, 부스, 케무엘,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , ,"우스, 부스, 그무엘,", , 
+Milcah2,"헤세드, 하조,","Chesed, Hazo,", ,bible,False, , , , , ,"그셋, 하소,", , 
+Milcah3,"필다쉬, 지들라프","Pildash, Jidlaph", ,bible,False, , , , , ,"빌다스, 이들랍", , 
+Tebah,테바,Tebah,Genesis 22:24,bible,False, , , , , ,드바, , 
+Gaham,가함,Gaham, ,bible,False, , , , , ,가함, , 
+Tahash,타하쉬,Tahash, ,bible,False, , , , , ,다하스, , 
+Maacah,마아가,Maacah, ,bible,False, , , , , ,마아가, , 
+Mahalath,마할랏/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , ,마할랏/, , 
+Basemath,기초·수학,Basemath,"Genesis36:3, 4",bible,False, , , , , ,바스맛, , 
+Reuel,르우엘,Reuel,"36:13, 17",bible,False, , , , , ,르우엘, , 
+Nahath,나핫,Nahath, ,bible,False, , , , , ,나핫, , 
+Zerah,세라,Zerah, ,bible,False, , , , , ,세라, , 
+Schammah,샤마,Schammah, ,bible,False, , , , , ,삼마, , 
+Mizzah,미자,Mizzah, ,bible,False, , , , , ,미사, , 
+Adah,아다,Adah,"36:11, 12, 15, 16",bible,False, , , , , ,아다, , 
+Eliphaz,엘리바스,Eliphaz, ,bible,False, , , , , ,엘리바스, , 
+Teman,데만,Teman, ,bible,False, , , , , ,데만, , 
+Omar,오마르,Omar, ,bible,False, , , , , ,오말, , 
+Zepho,제포,Zepho, ,bible,False, , , , , ,스보, , 
+Kenaz,케나즈,Kenaz, ,bible,False, , , , , ,그나스, , 
+Korah,고라,Korah, ,bible,False, , , , , ,고라, , 
+Korah_Gatam,"고라, 가탐","Korah, Gatam",303 and 304,bible,False, , , , , ,"고라, 가담", , 
+Amalek,아말렉,Amalek, ,bible,False, , , , , ,아말렉, , 
+Oholibamah,오홀리바마,Oholibamah,"36:14, 18",bible,False, , , , , ,오홀리바마, , 
+Jeush,여우스,Jeush, ,bible,False, , , , , ,여우스, , 
+Jalam,잘람,Jalam, ,bible,False, , , , , ,얄람, , 
+Nebaioth,느바욧,Nebaioth,Genesis 25:13,bible,False, , , , , ,느바욧, , 
+Kedar,케달,Kedar, ,bible,False, , , , , ,게달, , 
+Mishma,미슈마,Mishma, ,bible,False, , , , , ,밉스마, , 
+Adbeel_Mibsam,"아드벨, 밉삼","Adbeel, Mibsam",311 and 312,bible,False, , , , , ,"압디엘, 밉삼", , 
+Dumah_Massa,"두마, 마사","Dumah, Massa",314 and 315,bible,False, , , , , ,"두마, 맛사", , 
+Hadad,하다드,Hadad, ,bible,False, , , , , ,하닷, , 
+Tema,테마,Tema, ,bible,False, , , , , ,데마, , 
+Jetur,제투르,Jetur, ,bible,False, , , , , ,여두르, , 
+Naphish,나피쉬,Naphish, ,bible,False, , , , , ,나비스, , 
+Kedemah,게데마,Kedemah, ,bible,False, , , , , ,게드마, , 
+Keturah,그두라,Keturah,Genesis 25:1-4,bible,True, , , , , ,그두라, , 
+Zimran,시므란,Zimran, ,bible,True, , , , , ,시므란, , 
+Jokshan,욕산,Jokshan, ,bible,True, , , , , ,욕산, , 
+Medan,므단,Medan, ,bible,True, , , , , ,미단, , 
+Midian,미디안,Midian, ,bible,True, , , , , ,미디안, , 
+Ishbak,이스박,Ishbak, ,bible,True, , , , , ,이스박, , 
+Shuah,수아,Shuah, ,bible,True, , , , , ,수아, , 
+Timna,팀 나,Timna,"1 Chr 1:36, Ge 36:10-12",bible,False, , , , , ,딤나, , 
+life-expectancy2,(시편 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , ,(시편 90:10), , 
+Ham,햄,Ham,Gen 10:1,bible,False, , , , , ,함, , 
+Canaan,가나안 땅,Canaan,Gen 10:6,bible,False, , , , , ,가나안, , 
+Sidon,시돈,Sidon,Gen 10:15,bible,False, , , , , ,시돈, , 
+Heth,헷,Heth,Gen 10:15,bible,False, , , , , ,헷, , 
+Jebusite,여부스 사람,Jebusite,Gen 10:16,bible,False, , , , , ,여부스 족속, , 
+Amorite,아모리 사람,Amorite,Gen 10:16,bible,False, , , , , ,아모리 족속, , 
+Girgashite,기르가스테,Girgashite,Gen 10:16,bible,False, , , , , ,기르가스 족속, , 
+Hivite,히위 사람,Hivite,Gen 10:17,bible,False, , , , , ,히위 족속, , 
+Arkite,아르카이트,Arkite,Gen 10:17,bible,False, , , , , ,알가 족속, , 
+Sinite,신나이트,Sinite,Gen 10:17,bible,False, , , , , ,신인, , 
+Arvadite,아르바디테,Arvadite,Gen 10:18,bible,False, , , , , ,아르왓인, , 
+Zemarite,제마라이트,Zemarite,Gen 10:18,bible,False, , , , , ,스마르인, , 
+Hamathite,하맛 사람,Hamathite,Gen 10:18,bible,False, , , , , ,하맛인, , 
+Cush,구스,Cush,Gen 10:6,bible,False, , , , , ,구스, , 
+Nimrod,니므롯,Nimrod,Gen 10:8,bible,False, , , , , ,니므롯, , 
+Mizraim,미스라임,Mizraim,Gen 10:14,bible,False, , , , , ,미스라임, , 
+Casluh,카슬루,Casluh,1 Chronicles 1:12 (Philistines),bible,False, , , , , ,가슬루힘, , 
+Japheth,야벳,Japheth,Gen 10:3,bible,False, , , , , ,야벳, , 
+Asshur,앗수르,Asshur,Gen 10:22,bible,False, , , , , ,앗수르, , 
+Lud,루드,Lud,Gen 10:22,bible,False, , , , , ,룻, , 
+Aram,아람,Aram,Gen 10:22,bible,False, , , , , ,아람, , 
+Elam,엘람,Elam,Gen 10:22,bible,False, , , , , ,엘람, , 
+Joktan,욕탄,Joktan,Gen 10:26,bible,False, , , , , ,욕단, , 
+Almodad,알모다드,Almodad,Gen 10:26,bible,False, , , , , ,알모다드, , 
+Sheleph,셀레프,Sheleph,Gen 10:26,bible,False, , , , , ,셀렙, , 
+Hazarmaveth,하살마렛,Hazarmaveth,Gen 10:26,bible,False, , , , , ,하살마웻, , 
+Jerah,예라,Jerah,Gen 10:26,bible,False, , , , , ,예라, , 
+Hadoram,하도람,Hadoram,Gen 10:27,bible,False, , , , , ,하도람, , 
+Uzal,우잘,Uzal,Gen 10:27,bible,False, , , , , ,우살, , 
+Diklah_Obal,"디클라, 오발","Diklah, Obal",Gen 10:27,bible,False, , , , , ,"디글라, 오발", , 
+Abimael,아비마엘,Abimael,Gen 10:28,bible,False, , , , , ,아비마엘, , 
+Sheba_Ophir,"스바, 오빌","Sheba, Ophir","Gen 10:28, 29",bible,False, , , , , ,"스바, 오빌", , 
+Havilah,하윌라,Havilah,Gen 10:29,bible,False, , , , , ,하윌라, , 
+Jobab,요밥,Jobab,Gen 10:29,bible,False, , , , , ,요밥, , 
+Ham_fn,1) 애굽인: 시편 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , ,1) 이집트인: 시편 105:23, , 
+Canaan_fn,2) 가나안 족속: 여호수아 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , ,2) 가나안인: 여호수아 13:3, , 
+Aram_fn,3) 아람어: 호세아 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , ,3) 아람인: 호세아 12:12, , 
+Elam_fn,4) 엘람 사람: 에스라 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , ,4) 엘람인: 에스라 4:9, , 
+Asshur_fn,5) 아시리아인: 에스겔 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , ,5) 앗시리아인: 에스겔 27:23, , 
+Casluh_fn,6) 블레셋 사람들: 역대상 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , ,6) 블레셋인: 역대상 1:12, , 
+Cush_fn,7) 에티오피아인[구스인]: 왕하 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , ,7) 에티오피아인 [구스인]: 열왕기하 19:9, , 
+Edom_fn,8) 에돔 사람들: 민수기 20:14-17,8) Edomites: Numbers 20:14-17,same as 459,bible,False, , , , , ,8) 에돔인: 민수기 20:14-17, , 
+Moab_fn,"9) 모압: 신명기 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",same as 457,bible,False, , , , , ,"9) 모압인: 신명기 23:3, 4", , 
+Ammon_fn,10) 암몬 족속: 여호수아 12:2,10) Ammonites: Joshua 12:2,same as 458,bible,False, , , , , ,10) 암몬인: 여호수아 12:2, , 
+Midian_fn,"11) 미디안 사람: 민수기 31:2, 3","11) Midianites: Numbers 31:2, 3",same as 456,bible,False, , , , , ,"11) 미디안인: 민수기 31:2, 3", , 
+Amalek_fn,12) 아말렉 족속: 사무엘상 15:2,12) Amalekites: 1 Samuel 15:2,same as 461,bible,False, , , , , ,12) 아말렉인: 사무엘상 15:2, , 
+Teman_fn,13) 데만 사람들: 욥기 42:7,13) Temanites: Job 42:7,same as 460,bible,False, , , , , ,13) 데만인: 욥기 42:7, , 
+Sidon_fn,14) 시돈 사람들: 스가랴 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , ,14) 시돈인: 스가랴 9:2, , 
+Heth_fn,15) 헷 족속: 창세기 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , ,15) 헷인: 창세기 15:20, , 
+Jebusite_fn,16) 여부스 사람: 여호수아 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , ,16) 여부스 족속: 여호수아 15:63, , 
+Judith,주디스?,Judith?,"Genesis 26:34, 35",bible,False, , , , , ,유디트?, , 
+Lud_fn,17) 리디아인: 역대상 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , ,17) 리디아 족속: 역대상 1:17, , 
+Ishmael_fn,18) 이스마엘 사람들: 창세기 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , ,18) 이스마엘 족속: 창세기 37:27, , 
+Amorite_fn,19) 아모리 족속: 사사기 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , ,19) 아모리 족속: 사사기 6:10, , 
+Hivite_fn,"20) 히위족[기브온]: 여호수아 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , ,"20) 히위 족속 [기브온]: 여호수아 9:3, 7", , 
+Cain,카인,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , ,가인, , 
+Abel,아벨,Abel,Genesis 4:2,bible,False, , , , , ,아벨, , 
+Irad,이라드,Irad,Genesis 4:18,bible,False, , , , , ,이랏, , 
+Mehujael,메후야엘,Mehujael,Genesis 4:18,bible,False, , , , , ,므후야엘, , 
+Methushael,므두사엘,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , ,므두사엘, , 
+Jabal,야발,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , ,야발, , 
+Jubal,유발,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , ,유발, , 
+Zillah,질라,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , ,씰라, , 
+Tubal-cain,두발가인,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , ,두발가인, , 
+Naamah,나아마,Naamah,Genesis 4:22 his sister,bible,False, , , , , ,나아마, , 
+Rehoboam,르호보암,Rehoboam,first king of southern kingdom of Juda,A6-A,True, , , , , ,르호보암, , 
+Abijah,아비야(아비얌),Abijah (Abijam),"3 years, also Abijam",A6-A,True, , , , , ,아비야 (아비얌), , 
+Asa,아사,Asa,A6-A,A6-A,True, , , , , ,아사, , 
+Jehoshaphat,여호사밧,Jehoshaphat, ,A6-A,True, , , , , ,여호사밧, , 
+Jehoram2,여호람,Jehoram, ,A6-A,True, , , , , ,여호람, , 
+Ahaziah,아하시야,Ahaziah, ,A6-A,True, , , , , ,아하시야, , 
+Athaliah,아달랴 여왕,Queen Athaliah,Queen Athaliah,A6-A,True, , , , , ,아달랴 여왕, , 
+Jehoash,여호아스,Jehoash, ,A6-A,True, , , , , ,요아스, , 
+Amaziah,아마샤,Amaziah, ,A6-A,True, , , , , ,아마샤, , 
+Uzziah,웃시야(아사랴),Uzziah (Azariah),also Azariah,A6-A,True, , , , , ,웃시야 (아사랴), , 
+Jeroboam,여로보암,Jeroboam,first king of northern 10-tribe kingdom,A6-A,True, , , , , ,여로보암, , 
+Nadab,나답,Nadab,less than 2,A6-A,True, , , , , ,나답, , 
+Baasha,바아사,Baasha, ,A6-A,True, , , , , ,바아사, , 
+Elah,엘라,Elah, ,A6-A,True, , , , , ,엘라, , 
+Zimri,지므리,Zimri,Only 7 days in ca. 751 BCE,A6-A,True, , , , , ,시므리, , 
+OmriTibni,오므리와 디브니,Omri and Tibni together,4 years Omri and Tibni,A6-A,True, , , , , ,오므리와 디브니 공동 통치, , 
+Omri,오므리 (단독으로),Omri (alone),from 947 Omri alone,A6-A,True, , , , , ,오므리 (단독), , 
+Ahab,아합,Ahab, ,A6-A,True, , , , , ,아합, , 
+Jehoram,여호람,Jehoram, ,A6-A,True, , , , , ,여호람, , 
+Jehu,예후,Jehu, ,A6-A,True, , , , , ,예후, , 
+Jeoahaz,여호아하스,Jeoahaz, ,A6-A,True, , , , , ,여호아하스, , 
+JeoahazJehoash,여호아하스와 여호아스,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,True, , , , , ,여호아하스와 요아스, , 
+Jehoash2,여호아스 (단독으로),Jehoash (alone),Jehoash (alone),A6-A,True, , , , , ,요아스 (단독), , 
+Jeroboam2,여로보암 2세,Jeroboam II, ,A6-A,True, , , , , ,여로보암 2세, , 
+Elijah,엘리야,Elijah, ,A6-A,True, , , , , ,엘리야, , 
+Elisha,엘리사,Elisha, ,A6-A,True, , , , , ,엘리사, , 
+Jonah,요나,Jonah, ,A6-A,True, , , , , ,요나, , 
+Amos,아모스,Amos, ,A6-A,True, , , , , ,아모스, , 
+Joel,요엘,Joel, ,A6-A,True, , , , , ,요엘, , 
+Jotham,요담,Jotham,A6-B,A6-B,True, , , , , ,요담, , 
+Ahaz,아하스,Ahaz, ,A6-B,True, , , , , ,아하스, , 
+Hezekiah,히스기야,Hezekiah, ,A6-B,True, , , , , ,히스기야, , 
+Manasseh,므낫세,Manasseh, ,A6-B,True, , , , , ,므낫세, , 
+Amon,아몬,Amon, ,A6-B,True, , , , , ,아몬, , 
+Josiah,요시야,Josiah, ,A6-B,True, , , , , ,요시야, , 
+Jehoahaz,여호아하스,Jehoahaz,Only 3 months,A6-B,True, , , , , ,여호아하스, , 
+Jehoiakim,여호야김,Jehoiakim, ,A6-B,True, , , , , ,여호야김, , 
+Jehoiachin,여호야긴,Jehoiachin,Only 3 months 10 days,A6-B,True, , , , , ,여호야긴, , 
+Zedekiah,시드기야,Zedekiah, ,A6-B,True, , , , , ,시드기야, , 
+Zechariah,스가랴,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,True, , , , , ,스가랴, , 
+Schallum,살룸,Schallum,only one month,A6-B,True, , , , , ,살룸, , 
+Menahem,므나헴,Menahem, ,A6-B,True, , , , , ,므나헴, , 
+Pekahiah,브가히야,Pekahiah, ,A6-B,True, , , , , ,브가히야, , 
+Pekah,베가,Pekah, ,A6-B,True, , , , , ,베가, , 
+Hoshea,호셰아,Hoshea,9 years from c. 748,A6-B,True, , , , , ,호세아, , 
+Hosea,호세아,Hosea, ,A6-B,True, , , , , ,호세아, , 
+Isaiah,이사야,Isaiah, ,A6-B,True, , , , , ,이사야, , 
+Micah,미가,Micah, ,A6-B,True, , , , , ,미가, , 
+Zephaniah,스바냐,Zephaniah, ,A6-B,True, , , , , ,스바냐, , 
+Nahum,나훔,Nahum, ,A6-B,True, , , , , ,나훔, , 
+Jeremiah,예레미야,Jeremiah, ,A6-B,True, , , , , ,예레미야, , 
+Habakuk,하박국,Habakuk, ,A6-B,True, , , , , ,하박국, , 
+Daniel,다니엘,Daniel, ,A6-B,True, , , , , ,다니엘, , 
+Ezekiel,에스겔,Ezekiel, ,A6-B,True, , , , , ,에스겔, , 
+Obadiah,오바댜,Obadiah, ,A6-B,True, , , , , ,오바댜, , 
+Babylon,"다니엘 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , ,"다니엘 2:32, 36-38; 7:4", , 
+Medopersia,"다니엘 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , ,"다니엘 2:32, 39; 7:5", , 
+Greece,"다니엘 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , ,"다니엘 2:32, 39; 7:6", , 
+Rome,"다니엘 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , ,"다니엘 2:33, 40; 7:7", , 
+Angloamerica,"다니엘 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True, , , , , ,"다니엘 2:33, 41-43", , 
+Babylon_c,바빌론,Babylon, ,B9,True, , , , , ,바벨론, , 
+Medopersia_c,메디아-페르시아,Medo-Persia, ,B9,True, , , , , ,메대-바사, , 
+Greece_c,그리스,Greece, ,B9,True, , , , , ,그리스, , 
+Rome_c,로마,Rome, ,B9,True, , , , , ,로마, , 
+Angloamerica_c,영국-미국,Anglo-America, ,B9,True, , , , , ,앵글로아메리카, , 
+daniel2_1,느부갓네살 왕이,King Nebuchadnezzar,607 BCE,B9,False, , , , , ,네부갓네살 왕, , 
+daniel2_2,예루살렘을 멸망시키다,destroys Jerusalem, ,B9,False, , , , , ,예루살렘을 파괴함, , 
+daniel2_3,바빌론을 정복하다,Conquers Babylon,539 BCE,B9,True, , , , , ,바빌론을 정복함, , 
+daniel2_4,유대인들이 예루살렘으로,Cyrus decrees return,537 BCE,B9,False, , , , , ,키루스가 귀환을 명령함, , 
+daniel2_5,돌아가도록 키루스가 포고령을 내리다,of Jews to Jerusalem, ,B9,False, , , , , ,유대인들이 예루살렘으로, , 
+daniel2_6,알렉산더 대왕이,Alexander the Great,331 BCE,B9,False, , , , , ,대왕 알렉산더, , 
+daniel2_7,페르시아를 정복하다,conquers Persia, ,B9,False, , , , , ,페르시아를 정복함, , 
+daniel2_8,이스라엘을 통치하다,Rules over Israel,63 BCE,B9,False, , , , , ,이스라엘을 통치함, , 
+daniel2_9,예루살렘을 멸망시키다,Destroys Jerusalem,70 CE,B9,False, , , , , ,예루살렘을 파괴함, , 
+daniel2_10,제1차 세계 대전 중에,"During World War I,",1914-1918 CE,B9,False, , , , , ,"제1차 세계 대전 동안,", , 
+daniel2_11,영미 세계 강국이 등장하다 등장하다,Anglo-American World Power, ,B9,False, , , , , ,앵글로아메리카 세계 강권, , 
+daniel2_12,생기다,comes into being,End 4.2,B9,False, , , , , ,등장하다, , 
+607BCE,기원전 607년,607 B.C.E.,accommodate for language,B9,True, , , , , ,기원전 607년, , 
+539BCE,기원전 539년,539 B.C.E.,systems in style:,B9,True, , , , , ,기원전 539년, , 
+537BCE,기원전 537년,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , ,기원전 537년, , 
+331BCE,기원전 331년,331 B.C.E.,so they need a word,B9,True, , , , , ,기원전 331년, , 
+63BCE,기원전 63년,63 B.C.E.,prior to the year,B9,True, , , , , ,기원전 63년, , 
+70CE,기원 70년,70 C.E.,and something,B9,True, , , , , ,기원후 70년, , 
+1914CE,기원 1914-1918년,1914-1918 C.E.,after the year,B9,True, , , , , ,기원후 1914-1918년, , 
+7times,요한 계시록 12:9,Revelation 12:9, ,scripture,False, , , , , ,계시록 12:9, , 
+infliction2,사도행전 7:6,Acts 7:6, ,scripture,False, , , , , ,사도행전 7:6, , 
+eastern-zhou,기원전 770-256년,770-256 BC, ,span_bc,False, , , , , ,기원전 770-256년, , 
+430years,1943 - 1513 B.C.E.,1943 – 1513 B.C.E., ,span_bce,False, , , , , ,기원전 1943 – 1513년, , 
+eastern-han,서기 25-220년,25-220 CE, ,span_ce,False, , , , , ,기원후 25-220년, , 
+northern-dynasties,368-581 CE,368-581 CE, ,span_ce,False, , , , , ,기원후 368-581년, , 
+southern-dynasties,420-589 CE,420-589 CE, ,span_ce,False, , , , , ,기원후 420-589년, , 
 khmer_empire,804 – 1431,804 – 1431, ,timespan,True, , , , , , , , 
 byzantine_empire,330 – 1453,330 – 1453, ,timespan,True, , , , , , , , 
 ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True, , , , , , , , 
@@ -494,50 +494,50 @@ revival_le_dynasty,1533-1789,1533-1789, ,timespan,True, , , , , , , ,
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True, , , , , , , , 
 edo,1603 – 1868,1603 – 1868, ,timespan,True, , , , , , , , 
 meiji,1868 – 1912,1868 – 1912, ,timespan,True, , , , , , , , 
-Julius,율리우스,Julius, ,wiki,False, , , , , , , , 
-Caligula,칼리굴라,Caligula, ,wiki,False, , , , , , , , 
-Nero,네로,Nero, ,wiki,False, , , , , , , , 
-Galba-Otho-Vitellius,"갈바(Galba), 오토(Otho), 비텔리우스(Vitellius)(네 황제의 해)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , , , , 
-Vespasian,베스파시아누스,Vespasian, ,wiki,False, , , , , , , , 
-covid19,코로나 19,Covid-19, ,wiki,False, , , , , , , , 
-nicaea1,제1차 니케아 공의회,First Council of Nicaea, ,wiki,False, , , , , , , , 
-oxyrhynchus,옥시린쿠스 파피루스,Oxyrhynchus Papyri, ,wiki,False, , , , , , , , 
-p52,파피루스 P52,Papyrus P52, ,wiki,False, , , , , , , , 
-qing-dynasty_c,청왕조,Qing dynasty,1636-1912,wiki,False, , , , , , , , 
-ming-dynasty_c,중국 제국의 명나라,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , , , , 
-yuan-dynasty_c,원나라,Yuan,1271-1368,wiki,False, , , , , , , , 
-southern-song_c,송나라 남쪽,Southern Song,1127-1279,wiki,False, , , , , , , , 
-northern-song_c,송나라 북쪽,Northern Song,960-1127,wiki,False, , , , , , , , 
-western-xia_c,하왕조 서쪽,Western Xia,1038-1227,wiki,False, , , , , , , , 
-Copernicus,니콜라우스 코페르니쿠스,Nicolaus Copernicus, ,wiki,False, , , , , , , , 
-Galileo,갈릴레오 갈릴레이,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , , , , 
-Newton,아이작 뉴턴,Isaac Newton, ,wiki,False, , , , , , , , 
-shang-dynasty_c,상나라,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , , , , 
-western-zhou_c,서부 저우,Western Zhou,c. 1046-771 BC,wiki,False, , , , , , , , 
-eastern-zhou_c,저우 동부,Eastern Zhou,770-256 BC,wiki,False, , , , , , , , 
-western-han_c,서부 한,Western Han,207 BC – 9 CE,wiki,False, , , , , , , , 
-eastern-han_c,한 동부,Eastern Han,25-220 CE,wiki,False, , , , , , , , 
-three-kingdoms_c,중국,China,Three kingdoms 220-280 CE,wiki,False, , , , , , , , 
-sixteen-kingdoms_c,중국,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , , , , 
-northern-dynasties_c,북부 왕조,Northern dynasties,368-581 CE,wiki,False, , , , , , , , 
-southern-dynasties_c,남부 왕조,Southern dynasties,420-589 CE,wiki,False, , , , , , , , 
-tang-dynasty2_c,당나라,Tang dynasty,"618-690, 705-907",wiki,False, , , , , , , , 
-byzantine_empire_c,비잔틴 제국,Byzantine Empire, ,wiki,False, , , , , , , , 
-ottoman_empire_c,오스만 제국,Ottoman Empire, ,wiki,False, , , , , , , , 
-Genghis,징기스칸,Genghis Khan, ,wiki,False, , , , , , , , 
-inca_empire_c,잉카 제국,Inca empire, ,wiki,False, , , , , , , , 
-gupta_empire_c,굽타 제국,Gupta Empire, ,wiki,False, , , , , , , , 
-Teotihuacan_c,테오티우아칸,Teotihuacan, ,wiki,False, , , , , , , , 
-Abbasid_c,아바스 칼리프 왕조,Abbasid Caliphate, ,wiki,False, , , , , , , , 
-Mamluk_c,맘루크 술탄국,Mamluk Sultanate, ,wiki,False, , , , , , , , 
-Al-Ghazali,알 가잘리,Al-Ghazali,2024-07-30,wiki,False, , , , , , , , 
-wulfila,울필라 성경,Wulfila Bible,2025-09-20,wiki,False, , , , , , , , 
-tran_dynasty_c,쩐(Trần) 왕조,Trần dynasty, ,wiki,False, , , , , , , , 
-le_dynasty_c,레 왕조,Lê dynasty, ,wiki,False, , , , , , , , 
-revival_le_dynasty_c,Trịnh 영주와 Nguyễn 영주,Trịnh lords and Nguyễn lords,Nhà Lê trung hưng,wiki,False, , , , , , , , 
-seljuk_empire_c,셀주크 제국,Seljuk empire, ,wiki,False, , , , , , , , 
-vandals_c,파괴자,Vandals, ,wiki,False, , , , , , , , 
-lombard_c,롬바드 왕국,Lombard Kingdom,2025-10-13,wiki,False, , , , , , , , 
+Julius,율리우스,Julius, ,wiki,False, , , , , ,율리우스, , 
+Caligula,칼리굴라,Caligula, ,wiki,False, , , , , ,칼리굴라, , 
+Nero,네로,Nero, ,wiki,False, , , , , ,네로, , 
+Galba-Otho-Vitellius,"갈바(Galba), 오토(Otho), 비텔리우스(Vitellius)(네 황제의 해)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , ,"갈바, 오토, 비텔리우스 (네 황제의 해)", , 
+Vespasian,베스파시아누스,Vespasian, ,wiki,False, , , , , ,베스파시아누스, , 
+covid19,코로나 19,Covid-19, ,wiki,False, , , , , ,코로나19, , 
+nicaea1,제1차 니케아 공의회,First Council of Nicaea, ,wiki,False, , , , , ,제1차 니케아 공의회, , 
+oxyrhynchus,옥시린쿠스 파피루스,Oxyrhynchus Papyri, ,wiki,False, , , , , ,옥시링쿠스 파피루스, , 
+p52,파피루스 P52,Papyrus P52, ,wiki,False, , , , , ,파피루스 P52, , 
+qing-dynasty_c,청왕조,Qing dynasty,1636-1912,wiki,False, , , , , ,청나라, , 
+ming-dynasty_c,중국 제국의 명나라,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , ,중국 제국의 명나라, , 
+yuan-dynasty_c,원나라,Yuan,1271-1368,wiki,False, , , , , ,원나라, , 
+southern-song_c,송나라 남쪽,Southern Song,1127-1279,wiki,False, , , , , ,남송, , 
+northern-song_c,송나라 북쪽,Northern Song,960-1127,wiki,False, , , , , ,북송, , 
+western-xia_c,하왕조 서쪽,Western Xia,1038-1227,wiki,False, , , , , ,서하, , 
+Copernicus,니콜라우스 코페르니쿠스,Nicolaus Copernicus, ,wiki,False, , , , , ,니콜라우스 코페르니쿠스, , 
+Galileo,갈릴레오 갈릴레이,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , ,갈릴레오 갈릴레이, , 
+Newton,아이작 뉴턴,Isaac Newton, ,wiki,False, , , , , ,아이작 뉴턴, , 
+shang-dynasty_c,상나라,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , ,상나라, , 
+western-zhou_c,서부 저우,Western Zhou,c. 1046-771 BC,wiki,False, , , , , ,서주, , 
+eastern-zhou_c,저우 동부,Eastern Zhou,770-256 BC,wiki,False, , , , , ,동주, , 
+western-han_c,서부 한,Western Han,207 BC – 9 CE,wiki,False, , , , , ,전한, , 
+eastern-han_c,한 동부,Eastern Han,25-220 CE,wiki,False, , , , , ,후한, , 
+three-kingdoms_c,중국,China,Three kingdoms 220-280 CE,wiki,False, , , , , ,중국, , 
+sixteen-kingdoms_c,중국,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , ,중국, , 
+northern-dynasties_c,북부 왕조,Northern dynasties,368-581 CE,wiki,False, , , , , ,북조, , 
+southern-dynasties_c,남부 왕조,Southern dynasties,420-589 CE,wiki,False, , , , , ,남조, , 
+tang-dynasty2_c,당나라,Tang dynasty,"618-690, 705-907",wiki,False, , , , , ,당나라, , 
+byzantine_empire_c,비잔틴 제국,Byzantine Empire, ,wiki,False, , , , , ,비잔틴 제국, , 
+ottoman_empire_c,오스만 제국,Ottoman Empire, ,wiki,False, , , , , ,오스만 제국, , 
+Genghis,징기스칸,Genghis Khan, ,wiki,False, , , , , ,징기스칸, , 
+inca_empire_c,잉카 제국,Inca empire, ,wiki,False, , , , , ,잉카 제국, , 
+gupta_empire_c,굽타 제국,Gupta Empire, ,wiki,False, , , , , ,굽타 제국, , 
+Teotihuacan_c,테오티우아칸,Teotihuacan, ,wiki,False, , , , , ,테오티우아칸, , 
+Abbasid_c,아바스 칼리프 왕조,Abbasid Caliphate, ,wiki,False, , , , , ,아바스 칼리파조, , 
+Mamluk_c,맘루크 술탄국,Mamluk Sultanate, ,wiki,False, , , , , ,맘루크 술탄국, , 
+Al-Ghazali,알 가잘리,Al-Ghazali,2024-07-30,wiki,False, , , , , ,알가잘리, , 
+wulfila,울필라 성경,Wulfila Bible,2025-09-20,wiki,False, , , , , ,울필라 성경, , 
+tran_dynasty_c,쩐(Trần) 왕조,Trần dynasty, ,wiki,False, , , , , ,쩐 왕조, , 
+le_dynasty_c,레 왕조,Lê dynasty, ,wiki,False, , , , , ,레 왕조, , 
+revival_le_dynasty_c,Trịnh 영주와 Nguyễn 영주,Trịnh lords and Nguyễn lords,Nhà Lê trung hưng,wiki,False, , , , , ,찐 가와 응우옌 가, , 
+seljuk_empire_c,셀주크 제국,Seljuk empire, ,wiki,False, , , , , ,셀주크 제국, , 
+vandals_c,파괴자,Vandals, ,wiki,False, , , , , ,반달족, , 
+lombard_c,롬바드 왕국,Lombard Kingdom,2025-10-13,wiki,False, , , , , ,롬바르드 왕국, , 
 people,명,people, ,deprecated,False, , , , , , , , 
 judges,재판관들,judges, ,deprecated,False, , , , , , , , 
 prophets,예언자들,prophets, ,deprecated,False, , , , , , , , 
@@ -553,14 +553,14 @@ meeting_workbook,2016년 1월 '집회 교재'로 새로운 형식의 주중집�
 terahfam,데라의 가족들,Members of Terah’s family, ,deprecated,False, , , , , , , , 
 metropolitan,2011년 대도시 증거 시작,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
 jw_org,2012년 12월 왕국 봉사지의 지침과 함께 JW.ORG 시작,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
-Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
+Babylon2, ,,no text left and right – empty!,deprecated,False, , , , , , , , 
 daniel2_shift,17,17,Start 4.2,deprecated,False, , , , , , , , 
 Gatam,가탐,Gatam, ,deprecated,False, , , , , , , , 
 Adbeel,아드벨,Adbeel, ,deprecated,False, , , , , , , , 
 Mibsam,밉삼,Mibsam, ,deprecated,False, , , , , , , , 
 Dumah,두마,Dumah, ,deprecated,False, , , , , , , , 
 Massa,마사,Massa, ,deprecated,False, , , , , , , , 
-tang-dynasty1, , , ,deprecated,False, , , , , , , , 
+tang-dynasty1, ,, ,deprecated,False, , , , , , , , 
 xia-dynasty,중국 하왕조 c. 2070 – c. 기원전 1600년,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
 Midianites,"1) 미디안 사람들 : 민수기 31 : 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
 Moabites,"2) 모압 사람들: 신명기 23 : 3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3) 암모 사람들 : 여호수아 12 : 2,3) Ammonites: Joshua 12:2, ,
 Edomites,4) 에돔 사람들 : 민수기 20 : 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
 Temanites,5) 데만 사람들 : 욥기 42 : 7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
 Amalekites,6) 아말렉 사람들 : 사무엘상 15 : 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
-king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
-king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
-daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_south_light, ,,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, ,,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, ,,2025-02-05,deprecated,False, , , , , , , , 
