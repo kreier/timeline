@@ -1,473 +1,473 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.11,6.11, ,float,True, , , , , , , , 
-pdf_title,Afọ 6000 akụkọ ihe mere eme mmadụ na-ahụ anya,"6,000 Years of Human History — A Timeline",2026-11-23,text,False, , , , , ,"6,000 Afọ nke Akụkọ Ihe Mere Eme nke Mmadụ — Usoro Oge", ,"Afọ 6,000 nke Akụkọ Ihe Mere Mmadụ — Oge"
-pdf_subject,Oge nke ihe a kpọrọ mmadụ,Timeline of human history from 4000 BCE to present, ,text,False, , , , , ,Usoro oge nke akụkọ ihe mere eme nke mmadụ site na 4000 T.O.A. ruo ugbu a, ,Akụkọ oge nke akụkọ ihe mere eme mmadụ site na afọ 4000 Tupu Kraịst ruo taa
-BCE,B.C.E.,B.C.E.,appendix B9,B9,True, , , , , ,T.O.A., , 
-CE,C.E.,C.E., ,B9,False, , , , , ,O.A., , 
-month,ọnwa,month, ,text,False, , , , , ,ọnwa, ,ọnwa
-months,ọnwa,months, ,text,False, , , , , ,ọnwa, ,ọnwa
-day,ụbọchị,day, ,text,False, , , , , ,ụbọchị, ,ụbọchị
-days,ụbọchị,days, ,text,False, , , , , ,ụbọchị, ,ụbọchị
-to,ruo,to, ,text,False, , , , , ,ruo, ,n'ihi
-Deluge,Iju Mmiri,Deluge, ,text,False, , , , , ,Iju Mmiri, ,Ọnụ mmiri
-moses2,1593 ruo 1473 T.O.A. - afọ 120,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , ,1593 ruo 1473 T.O.A. – afọ 120, ,1593 ruo 1473 Tupu Kraịst – afọ 120
-temple1,Nisan 1513 T.O.A. to Ziv 1034 T.O.A.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , ,Naịsan 1513 T.O.A. ruo Ziv 1034 T.O.A., ,Nisan 1513 Tupu Kraịst ruo Ziv 1034 Tupu Kraịst
-69weeks,Jizọs mere baptizim n'oge mgbụsị akwụkwọ 29 O.A.,Jesus baptized autumn 29 C.E., ,text,False, , , , , ,E mere Jizọs baptizim n'oge mgbụsị akwụkwọ nke 29 O.A., ,Jisọs kụrụ baptizim n'oge mgbụsị akwụkwọ afọ 29 AD.
-year,afọ,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , , ,afọ, ,afọ
-years,afọ,years, ,text,False, , , , , ,afọ, ,afọ
-years_age,afọ,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , , ,afọ, ,afọ
+pdf_title,Afọ 6000 akụkọ ihe mere eme mmadụ na-ahụ anya,"6,000 Years of Human History — A Timeline",2026-11-23,text,False, , , , , ,"6,000 Afọ nke Akụkọ Ihe Mere Eme nke Mmadụ — Usoro Oge","Afọ 6,000 nke Ihe Ndị Mmadụ Mere — Usoro Oge","Afọ 6,000 nke Akụkọ Ihe Mere Mmadụ — Oge"
+pdf_subject,Oge nke ihe a kpọrọ mmadụ,Timeline of human history from 4000 BCE to present, ,text,False, , , , , ,Usoro oge nke akụkọ ihe mere eme nke mmadụ site na 4000 T.O.A. ruo ugbu a,Usoro oge nke ihe ndị mmadụ mere site na 4000 T.O.A. ruo taa,Akụkọ oge nke akụkọ ihe mere eme mmadụ site na afọ 4000 Tupu Kraịst ruo taa
+BCE,B.C.E.,B.C.E.,appendix B9,B9,True, , , , , ,T.O.A.,T.O.A., 
+CE,C.E.,C.E., ,B9,False, , , , , ,O.A.,T.O., 
+month,ọnwa,month, ,text,False, , , , , ,ọnwa,ọnwa,ọnwa
+months,ọnwa,months, ,text,False, , , , , ,ọnwa,ọnwa,ọnwa
+day,ụbọchị,day, ,text,False, , , , , ,ụbọchị,ụbọchị,ụbọchị
+days,ụbọchị,days, ,text,False, , , , , ,ụbọchị,ụbọchị,ụbọchị
+to,ruo,to, ,text,False, , , , , ,ruo,ruo,n'ihi
+Deluge,Iju Mmiri,Deluge, ,text,False, , , , , ,Iju Mmiri,Ọdịda Mmiri,Ọnụ mmiri
+moses2,1593 ruo 1473 T.O.A. - afọ 120,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , , ,1593 ruo 1473 T.O.A. – afọ 120,1593 ruo 1473 T.O.A. – afọ 120,1593 ruo 1473 Tupu Kraịst – afọ 120
+temple1,Nisan 1513 T.O.A. to Ziv 1034 T.O.A.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , , ,Naịsan 1513 T.O.A. ruo Ziv 1034 T.O.A.,Nisan 1513 T.O.A. ruo Ziv 1034 T.O.A.,Nisan 1513 Tupu Kraịst ruo Ziv 1034 Tupu Kraịst
+69weeks,Jizọs mere baptizim n'oge mgbụsị akwụkwọ 29 O.A.,Jesus baptized autumn 29 C.E., ,text,False, , , , , ,E mere Jizọs baptizim n'oge mgbụsị akwụkwọ nke 29 O.A.,A baptịzịrị Jizọs n'oge okpomọkụ nke 29 T.O.,Jisọs kụrụ baptizim n'oge mgbụsị akwụkwọ afọ 29 AD.
+year,afọ,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , , ,afọ,afọ,afọ
+years,afọ,years, ,text,False, , , , , ,afọ,afọ,afọ
+years_age,afọ,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , , ,afọ,afọ,afọ
 age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,, , 
-wilderness,Israel nọ n'ọhịa 1513 ruo 1473 T.O.A. - afọ 40,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , ,Izrel n'ala ịkpa 1513 ruo 1473 T.O.A. – afọ 40, ,Izrel n'ọzara 1513 ruo 1473 Tupu Kraịst – afọ iri anọ
-timespan_judges,1473 ruo 1117 T.O.A. - afọ 356,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , ,1473 ruo 1117 T.O.A. – afọ 356, ,1473 ruo 1117 tupu Kraịst – afọ 356
-timespan_judges2,Oge ndị ikpe,Time of the judges, ,text,False, , , , , ,Oge ndị ikpe, ,Oge ndị ikpe
-temple2,479 afọ ruo mgbe ụlọ nsọ na-ewu - 1 Ndị Eze 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , ,Afọ 479 ruo mgbe e wuru ụlọ nsọ – 1 Ndị Eze 6:1, ,Afọ 479 ruo mgbe a ga-ewu ụlọ nsọ – 1 Ndị Eze 6:1
-69weeks2,Izu 69 nye Mesaya - Daniel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , ,Izu 69 ruo mgbe Mesaya bịara – Daniel 9:25, ,Izu iri isii na iteghete ruo Mesaya – Daniel 9:25
-jesus_service,"Afọ 3.5 nke ozi Jizọs, gburu Nisan 14th, 33 O.A.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , ,"Afọ 3.5 nke ozi Jizọs, e gburu ya na Naịsan 14, 33 O.A.", ,"Afọ atọ na ọkara nke ọrụ Jisọs, e gbuuru ya na Nisan 14, afọ 33 AD."
-jesus_life,A mụrụ Jizọs n'afọ 2 T.O.A.,Jesus born 2 B.C.E., ,text,False, , , , , ,A mụrụ Jizọs na 2 T.O.A., ,Jisọs mụrụ na afọ 2 tupu Kraịst.
-exile,607 ruo 537 T.O.A. - afọ 70 (Jeremaịa 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , ,607 ruo 537 T.O.A. – afọ 70 (Jeremaya 25:11), ,607 ruo 537 B.C.E. – afọ iri asaa (Jeremaya 25:11)
-exile2,a chụgara n'agha,Exile, ,text,False, , , , , ,Mkpọrọ n'ala ọzọ, ,Ịtụpụ
-7times2,Ugboro 7 - afọ 2520 ruo Alaeze Mesaya 1914 O.A. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , ,Oge 7 – afọ 2520 ruo n'Alaeze Mesaya 1914 O.A. (Daniel 4:23), ,Ugboro asaa – afọ 2520 ruo Alaeze Mesaya n'afọ 1914 C.E. (Daniel 4:23)
-ww1,Agha Ụwa Mbụ - 1914–1918 O.A.,World War I – 1914–1918, ,text,False, , , , , ,Agha Ụwa Mbụ – 1914–1918, ,Agha Ụwa Mbụ – 1914–1918
-ww2,Agha Ụwa nke Abụọ - 1939–1945 O.A.,World War II – 1939–1945, ,text,False, , , , , ,Agha Ụwa nke Abụọ – 1939–1945, ,Agha Ụwa nke Abụọ – 1939–1945
-30_year_war,Agha Afọ Iri Atọ na Europe 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , ,Agha Afọ Iri Atọ na Yurop 1618-1648, ,Agha Afọ Iri Atọ na Europe 1618-1648
-joshua,110 afọ,110 years, ,text,False, , , , , ,Afọ 110, ,otu narị na iri afọ
-caleb,Ihe karịrị afọ 85,more than 85 years, ,text,False, , , , , ,karịa afọ 85, ,karịrị afọ iri asatọ na ise
-missionary1,"Njem Ozi Ala Ọzọ mbụ nke Pọl, ihe dị ka 47-48 OA na Banabas na Jọn Mak","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , ,"Njem Oziọma Mbụ nke Pọl, ihe dị ka 47-48 O.A. ya na Banabas na Jọn Mak", ,"Njem ozi mbụ nke Pọl, ihe dị ka afọ 47–48 AD, ya na Barnabas na Jọn Mak"
-circumcision,"Okwu ibi úgwù n'Antiọk, nzukọ dị na Jeruselem ihe dị ka afọ 49 O.A.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , ,"Okwu ibi úgwù n'Antiọk, nzukọ na Jeruselem ihe dị ka 49 O.A.", ,"Nsogbu ịkpụ akpụkpọ n'Antioch, nzukọ na Jerusalem ihe dị ka afọ 49 AD."
-missionary2,Njem Ozi Ala Ọzọ nke Abụọ c. 49-52 OA na Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , ,Njem Oziọma nke Abụọ ihe dị ka 49-52 O.A. ya na Saịlas (Silvanọs), ,Njem ozi nke abụọ c. 49–52 C.E. na Silas (Silvanus)
-missionary3,Njem Ozi Ala Ọzọ nke Atọ c. 52-56 O.A.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , ,Njem Oziọma nke Atọ ihe dị ka 52-56 O.A., ,Njem ozi nke atọ c. 52–56 C.E.
-caesarea,Pọl nọ n'ụlọ mkpọrọ na Sesaria c. 56-58 O.A.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , ,Pọl n'ụlọ mkpọrọ na Sizaria ihe dị ka 56-58 O.A., ,Pọl nọ n'aka ndị uweojii na Caesarea ihe dị ka afọ 56 ruo 58 AD.
-rome1,A tụọ Pọl mkpọrọ mbụ na Rom 59-61 O.A.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , ,Mkpọrọ mbụ Pọl nọrọ na Rom ihe dị ka 59-61 O.A., ,Mkpọrọ mbụ Pọl n'Rome c. 59–61 C.E.
-rome2,"Mkpọrọ nke abụọ Pọl na Rom 65 OA, 2 Timoti dere, Pọl gburu","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , ,"Mkpọrọ nke abụọ Pọl nọrọ na Rom ihe dị ka 65 O.A., e dere 2 Timoti, e gburu Pọl", ,"Mkpọrọ nke abụọ Pọl n'Rọm gburugburu afọ 65 AD, e dere Akwụkwọ Timoti nke Abụọ, a gbuuru Pọl"
-event_exodus,"Ọpụpụ site n'Ijipt na Nisan 14th, 1513 T.O.A.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , ,"Ọpụpụ n'Ijipt na Naịsan 14, 1513 T.O.A.", ,"Ịpụ n'Ijipt na Nisan 14, 1513 B.C.E."
-event_division_kingdom,Nkewa nke Israel 997 BCE,Division of Israel 997 BCE, ,text,False, , , , , ,Nkewa nke Izrel 997 T.O.A., ,Nkewa nke Israel 997 Tupu Kraịst
-event_destruction_samaria,Mbibi nke Sameria 740 T.O.A. nke Asiria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , ,Mbibi nke Sameria na 740 T.O.A. site n'aka Asịrịa, ,Mbibi Samaria n'afọ 740 Tupu Kraịst site n'aka Asiria
-event_destruction_jerusalem1,"Mbibi nke Jerusalem 607 T.O.A. site na Babilọn, afọ 390 mgbe nkewa nke alaeze ahụ gasịrị (Ezikiel 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , ,"Mbibi nke Jeruselem na 607 T.O.A. site n'aka Babilọn, afọ 390 mgbe nkewa alaeze ahụ gasịrị (Ezikiel 4:5)", ,"Mbibi Jerusalem n'afọ 607 Tupu Kraịst site n'aka Babilọn, afọ 390 mgbe e kewara alaeze (Ezekiel 4:5)"
-event_temple_rebuilt,E wughachiri ụlọ nsọ dị na Jeruselem n'afọ 515 T.O.A.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , ,E wughachiri ụlọ nsọ dị na Jeruselem na 515 T.O.A., ,E wurughachiri ụlọ nsọ dị na Jerusalem n'afọ 515 Tupu Kraịst.
-event_jerusalem_rebuilt,E wughachiri mgbidi Jeruselem n'afọ 455 T.O.A.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , ,E wughachiri mgbidi Jeruselem na 455 T.O.A., ,A wughachiri mgbidi Jerusalem n'afọ 455 Tupu Kraịst.
-event_destruction_jerusalem2,Mbibi nke Jerusalem 70 O.A. site rome n'okpuru Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , ,Mbibi nke Jeruselem na 70 O.A. site n'aka Rom n'okpuru Taịtọs, ,Mbibi Jerusalem n'afọ iri asaa Kraịst site n'aka Rom n'okpuru Titus
-event_1914,"Ọgwụgwụ oge nke mba dị iche iche (Luk 21:24), alaeze Chineke malitere ịchị n'eluigwe n'afọ 1914 O.A.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , ,"Ọgwụgwụ nke oge a kara aka nke mba niile (Luk 21:24), Alaeze Chineke ebidola ịchị n'eluigwe 1914 O.A.", ,"N'ikpeazụ nke oge mba ụwa (Luka 21:24), Alaeze Chineke malitere ịchị n'eluigwe na 1914 AD."
-became_king,ghọrọ eze mgbe ọ dị afọ,becomes king at age, ,text,False, , , , , ,ghọrọ eze mgbe ọ dị afọ, ,ghọrọ eze n'afọ
-vulgate,Vulgate dechara site Jerome (Latin translation of the Bible) c. 405 O.A.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , ,Jerom dechara Vulgate (nsụgharị Baịbụl n'asụsụ Latịn) ihe dị ka 405 O.A., ,Vulgate e mezuru site n'aka Jerome (ntụgharị Latin nke Baịbụl) ihe dị ka afọ 405 AD.
-gutenberg,Gutenberg Bible e biri ebi 1455,Gutenberg Bible printed 1455, ,text,False, , , , , ,E biri Baịbụl Gutenberg na 1455, ,Baịbụl Gutenberg bipụtara na 1455
-erasmus,Ihe odide Grik nke Akwụkwọ Nsọ Grik nke Ndị Kraịst bipụtara Desiderius Erasmus nke Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , ,Desiderius Erasmus nke Rotterdam bipụtara ederede Grik nke Akwụkwọ Nsọ Grik nke Ndị Kraịst na 1516, ,Akwụkwọ Grik nke Akwụkwọ Nsọ Ndị Kraịst bipụtara site n'aka Desiderius Erasmus nke Rotterdam n'afọ 1516
-luther,Nsụgharị Baịbụl Luther na September 1522,Luther Bible translation in September 1522, ,text,False, , , , , ,Nsụgharị Baịbụl Luther na Septemba 1522, ,Ntụgharị Baịbụl Luther na Septemba 1522
-tyndale,Nsụgharị Baịbụl Bekee nke Tyndale 1536 sụgharịrị,English Bible translation by Tyndale 1536, ,text,False, , , , , ,Nsụgharị Baịbụl Bekee nke Tyndale 1536, ,"Ntụgharị Baịbụl Bekee nke Tyndale, 1536"
-king_james,King James Bible 1611,King James Bible 1611, ,text,False, , , , , ,Baịbụl King James 1611, ,Akwụkwọ Nsọ King James 1611
-69weeks3,"Jizọs malitere ọrụ ya 29 OA (Luk 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Jisosụ malite ọrụ ya 29 CE (Luk 3:1, 21)","Jizọs malitere ozi ya na 29 O.A. (Luk 3:1, 21)", ,"Jisọs malitere ọrụ ya na afọ iri abụọ na iteghete AD (Luka 3:1, 21)"
-ransom,"N'etiti izu ""àjà ịkwụsị"" Daniel 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,"Etiti izu ""aja nsọ kụrụ nkwụsị"" Daniel 9:27",N'etiti izu “àjà ga-akwụsị” Daniel 9:27, ,"N'etiti izu ""ọla iji kwụsị"" Daniel 9:27"
-cornelius,Kọnịliọs mere baptizim ná ngwụsị izu 70 (Daniel 9:24) na 36 O.A.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Cornelius batizrị na njedebe nke ụmụ iri asaa (Daniel 9:24) n'afọ 36 C.E.,E mere Kọniliọs baptizim na ngwụcha izu 70 (Daniel 9:24) na 36 O.A., ,Cornelius natara baptizim n'ikpeazụ izu iri asaa (Daniel 9:24) n'afọ 36 AD.
-columbus,Oge njedebe nke oge tupu Columbia na America 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,Njedebe oge tupu Columbian na Americas 1492,Ọgwụgwụ nke oge tupu Columbus abịa n'Amerịka 1492, ,Njedebe nke oge tupu Columbus n'Amerịka 1492
-declaration_independence,Nkwupụta nke nnwere onwe nke 13 colonies na America 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,Nkwupụta nke onwe ya nke mkpụrụ ndụ 13 na America 1776,Nkwupụta nnwere onwe nke mba 13 nọ n'okpuru ọchịchị n'Amerịka 1776, ,Nkwupụta nnwere onwe nke koloni iri na atọ dị na Amerịka n'afọ 1776
-tischendorf,Tischendorf na-achọpụta Codex Sinaiticus site na narị afọ nke 4 na 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf chọtara Codex Sinaiticus nke narị anọ n'afọ 1844,Tischendorf chọtara Codex Sinaiticus nke narị afọ nke 4 na 1844, ,Tischendorf chọpụtara Codex Sinaiticus nke narị afọ nke anọ na 1844
-dead_sea_scrolls,Akwụkwọ Mpịakọta Oké Osimiri Nwụrụ Anwụ e dere,Dead Sea Scrolls written, ,text,False, , , , ,Akwụkwọ ozu Dead Sea edere,E dere Akwụkwọ Mpịakọta Osimiri Nwụrụ Anwụ, ,Akwụkwọ Nkọwa Oké Osimiri Nwụrụ Anwụ edere
-septuagint,Septuagint LXX sụgharịrị,Septuagint LXX translated, ,text,False, , , , ,Septuagint LXX e dere ya,A sụgharịrị Septuagint LXX, ,Septuagint LXX tụgharịrị
-watchtower,"E bipụtara mbipụta mbụ nke ""Zion's Watch Tower and Herald of Christ's Presence"" na 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,"Mbipụta mbụ nke ""Zion's Watch Tower and Herald of Christ's Presence"" bipụtara n'afọ 1879",E bipụtara mbipụta mbụ nke “Ụlọ Nche Zayọn na Onye Na-ekwupụta Ọnụnọ Kraịst” na 1879, ,"Mbipụta mbụ nke ""Zion's Watch Tower and Herald of Christ's Presence"" bipụtara na 1879."
-jehovahs_witnesses,"Ndị Mmụta Bible nakweere aha ọhụrụ—Ndịàmà Jehova (Aịsaịa 43:10, 12) na Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"Ndị ọmụmụ Baibul nabatara aha ọhụrụ – Ndị akaebe Jehova (Isaiah 43:10, 12) na Columbus, Ohio, 1931","Ndị Mmụta Baịbụl nara aha ọhụrụ – Ndịàmà Jehova (Aịzaya 43:10, 12) na Columbus, Ohio, 1931", ,"Ndị na-amụ Baịbụl nabatara aha ọhụrụ – Ndị àmà Jihova (Aisaia 43:10, 12) na Columbus, Ohio, n'afọ 1931"
-gilead_school,"Ụlọ Akwụkwọ Gilied malitere na Mọnde, Febụwarị 1, 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"Watchtower Bible School of Gilead malite na Mọnde, Febụwarị 1, 1943","Ụlọ Akwụkwọ Baịbụl Watchtower nke Gilied malitere na Mọnde, Febụwarị 1, 1943", ,"Ụlọ Akwụkwọ Baịbụl Watchtower Gilead malitere na Mọnde, Febụwarị 1, 1943."
-new_world_translation1,"“Nsụgharị Ụwa Ọhụrụ nke Akwụkwọ Nsọ” e wepụtara na Manchester, England na June 18, 1960, eweghachighachiri aha Jehova n’ọtụtụ akụkụ nke Bible","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"""New World Translation of the Holy Scriptures"" tọhapụrụ na Manchester, England na June 18, 1960, na-eweghachi aha Jehova n'ọtụtụ akụkụ nke Baibul","E wepụtara “Baịbụl Nsọ—Nsụgharị Ụwa Ọhụrụ” na Manchester, England na Juun 18, 1960, ma weghachite aha ahụ bụ Jehova n'ọtụtụ akụkụ Baịbụl", ,"Ntụgharị Ụwa Ọhụrụ nke Akwụkwọ Nsọ kpụpụtara na Manchester, England na June 18, 1960, weghachitere aha Jehovah n'ọtụtụ akụkụ nke Akwụkwọ Nsọ."
-new_world_translation2,"Revised ""New World Translation of the Holy Scriptures"" wepụtara na nzukọ kwa afọ 2013, kachasị mma iji mee ihe na dijitalụ na ntanetị","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"""New World Translation of the Holy Scriptures"" emezigharịrị tọhapụrụ na nzukọ kwa afọ 2013, ka mma iji ya na ntanetị na ntanetị","E wepụtara “Baịbụl Nsọ—Nsụgharị Ụwa Ọhụrụ” e degharịrị edegharị na nzukọ kwa afọ 2013, nke e mere ka ọ dị mfe iji na kọmputa na n'ịntanetị", ,"Mgbanwe emelitere nke ""Ntụgharị Ụwa Ọhụrụ nke Akwụkwọ Nsọ"" wepụtara na nzukọ kwa afọ nke 2013, haziri ya ka eji ya na dijitalụ na n'ịntanetị."
-cold_war,"Ọnọdụ geopolitical kpọrọ ""Agha Nzuzo"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,"Ọnọdụ gburugburu ụwa akpọrọ ""Agha Ojii"" 1945-1991",Ọnọdụ ndọrọ ndọrọ ọchịchị mba ụwa a kpọrọ “Agha Nzuzo” 1945-1991, ,"Ọnọdụ ndọrọndọrọ ụwa akpọrọ ""Agha Oyi"" 1945–1991"
-codex_sinaiticus,Codex Sinaiticus dere,Codex Sinaiticus written, ,text,False, , , , ,Codex Sinaiticus edere,E dere Codex Sinaiticus, ,E dere Codex Sinaiticus
-codex_vaticanus,Codex Vaticanus dere,Codex Vaticanus written, ,text,False, , , , ,Codex Vaticanus edere,E dere Codex Vaticanus, ,Koodex Vaticanus edere
-leningrad_codex,Leningrad Codex e dere na Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Leningrad Codex edere na Cairo AD 1008,E dere Leningrad Codex na Cairo 1008 O.A., ,Koodex Leningrad e dere na Cairo n'afọ AD 1008
-john,"Jọn dere ""mkpughe"" mgbe a chụgara ya n'agha na Patmọs 96-98 O.A.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,"John dere ""mkpughe"" mgbe a chụpụrụ ya na Patmos 96-98 C.E.",Jọn dere “Mkpughe” mgbe a chụgara ya n'àgwàetiti Patmọs 96-98 O.A., ,"Jọn dere ""Mkpughe"" mgbe ọ nọ n'ọgbanje na Patmos n'afọ 96 ruo 98 A.K."
-buddha,Buddha - Siddhartha Gautama c.563-c.483 T.O.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,Onye amụma Buddha – Siddhartha Gautama c.563-c.483 B.C.E,Buddha – Siddhartha Gautama ihe dị ka 563-ihe dị ka 483 T.O.A., ,Buddha – Siddhartha Gautama c.563–c.483 B.C.E
-buddha2,Buddha alternatively c. 480-400 T.O.A.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Buddha n'ụzọ ọzọ c. 480-400 B.C.E.,Buddha n'ụzọ ọzọ ihe dị ka 480-400 T.O.A., ,Buddha n'aka nke ọzọ ihe dị ka afọ 480 ruo 400 Tupu Kraịst
-mohammed,Mohammed c. 570-632 O.A.,Mohammed c. 570-632, ,text,False, , , , , ,Mohammed ihe dị ka 570-632, , 
-confucius,Confucius c.551-c.479 T.O.A.,Confucius c.551-c.479 B.C.E., ,text,False, , , , , ,Confucius ihe dị ka 551-ihe dị ka 479 T.O.A., , 
-hijrah,Hijrah - Njem Mecca ka Medina 16 July 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Hijrah - Njem Mecca gaa Medina 16 Julaị 622,Hijrah - Njem site na Mecca gaa Medina 16 Julaị 622, ,Hijrah - njem si Mecca ruo Medina 16 Julaị 622
-moses_escape,"1553 T.O.A. Mozis aghaghị ịgbanahụ Ijipt - Ọpụpụ 2:15, Ọrụ 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 B.C.E. Moses ga-anọ mgbe ọ gbalaga Egypt – Exodọs 2:15, Ndị Ọrụ 7:23","1553 T.O.A. Mozis gbara ọsọ si n'Ijipt – Ọpụpụ 2:15, Ọrụ Ndịozi 7:23", ,"1553 B.C.E. Mose ga-agbapụ na Egypt – Exọdus 2:15, Ihe Ọrụ Ndịozi 7:23"
-10plagues,1513 T.O.E Ijipt na-enweta ihe otiti 10,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 B.C.E Egypt natara ọrịa iri,1513 T.O.A. Ijipt natara ihe otiti 10, ,"1513 Tupu Kraịst, Egypt natara ọrịa iri."
-joseph_sold,Josef rere dị ka ohu mgbe ọ dị afọ 17 - Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Joseph reere ya dịka ohu mgbe ọ dị afọ iri na asaa – Jen 37:2,E rere Josef dị ka ohu mgbe ọ dị afọ 17 – Jen 37:2, ,E rere Jọsif dị ka ohu mgbe ọ dị afọ iri na asaa – Jenesis 37:2
-infliction,400 afọ infliction (Ọrụ 7:6) - Ishmael 1913 T.O.A,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,Afọ 400 ihe mmerụ ahụ (Ndị Ọrụ 7:6) – Ishmael 1913 B.C.E,Mmegbu nke afọ 400 (Ọrụ Ndịozi 7:6) – Ishmel 1913 T.O.A., ,Mkpọchi afọ narị anọ (Acts 7:6) – Ishmael 1913 B.C.E
-Alexander,Alexander OnyeUkwu (Daniel 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Alexander Onye Uko (Daniel 11:3),Alezanda Onye Ukwu (Daniel 11:3), ,Alexander Onye Kasị Elu
-persia,"Saịrọs Onye Ukwu, Cambyses II, Darayọs Nke Mbụ 490 TOA, Xerxes I 480 TOA (di Esta, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Cyrus Onye Uko, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (di Esther, Daniel 11:2)","Saịrọs Onye Ukwu, Cambyses nke Abụọ, Darayọs Mbụ 490 T.O.A., Zọksis Mbụ 480 T.O.A. (di Esta, Daniel 11:2)", ,"Sairas Onye Ukwu, Kambisesi nke Abụọ, Darius nke Mbụ 490 tupu Kraịst, Xerxes nke Mbụ 480 tupu Kraịst (di Esther, Daniel 11:2)"
-king_north,"Seleucus I Nicator (v5) Siria ruo Antiọkus III (v10) na Seleucus IV (v18, 19) ruo Octavian (v20) na Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"Seleucus I Nicator (v5) Syria gaa Antiochus III (v10) na Seleucus IV (v18, 19) ruo Octavian (v20) na Tiberius (v21-24)","Seleucus Mbụ Nicator (amaokwu 5) Siria ruo Antiochus nke Atọ (amaokwu 10) na Seleucus nke Anọ (amaokwu 18, 19) ruo Octavian (amaokwu 20) na Taịbiriọs (amaokwu 21-24)", ,"Seleucus I Nicator (v5) Syria ruo Antiochus III (v10) na Seleucus IV (v18, 19) ruo Octavian (v20) na Tiberius (v21-24)"
-king_north1,Eze Ugwu,King of the North, ,text,False, , , , ,Eze nke Ugwu,Eze Ugwu, ,Eze nke Ugwu
-king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) ruo n'agha Actium 31 T.O.A.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) gaa n'agha Actium 31 B.C.E.","Ptolemy Mbụ, nke Abụọ, nke Atọ, nke Anọ (amaokwu 11, 12), nke Ise (amaokwu 15, 16) ruo n'agha Actium 31 T.O.A.", ,"Ptolomi I, II, III, IV (v11, 12), V (v15, 16) ruo Agha Actium nke afọ 31 Tupu Kraịst."
-king_south1,Eze Ndịda,King of the South, ,text,False, , , , ,Eze nke Ndịda,Eze Ndịda, ,Eze nke ndịda
-king_south2,"Alaeze Ukwu Britain 1870, Anglo-American World Power kemgbe 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"British Empire 1870, ike ụwa Anglo-American kemgbe 1914","Alaeze Ukwu Britain 1870, Ike Ọchịchị Ụwa nke Anglo-Amerịka kemgbe 1914", ,"Alaeze Britain 1870, Ike ụwa Anglo-Amerịka kemgbe 1914"
-king_south3,Eze Ndịda,King of the South, ,text,False, , , , ,Eze nke Ndịda,Eze Ndịda, ,Eze nke ndịda
-king_north2,"Germany na Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Germany na Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Jamanị ya na Eze Ukwu William Mbụ 1871 (amaokwu 28), 1914 (amaokwu 29), 1935 (amaokwu 30b), 1939 (amaokwu 31a)", ,"Germany na Eze William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,North,North, ,text,False, , , , ,Ugwu,Ugwu, ,Ugwu
-king_north4,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , ,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", , 
-king_north5,Russia kemgbe 2017 (w20 May),Russia since 2017 (w20 May), ,text,False, , , , ,Russia kemgbe 2017 (w20 May),Rọshịa kemgbe 2017 (w20 Mee), ,Russia kemgbe 2017 (w20 Mee)
-time_of_end,"Ọnụnọ nke Kraịst, Mmechi nke usoro ihe (Matiu 24: 3), ụbọchị ikpeazụ (2 Timoti 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"Ọnụnọ Kristi, Mkpokọta nke usoro ihe ndị a (Matiu 24:3), ụbọchị ikpeazụ (2 Timoti 3:1)","Ọnụnọ Kraịst, Ọgwụgwụ nke usoro ihe a (Matiu 24:3), mgbe ikpeazụ (2 Timoti 3:1)", ,"Inọchiteanya Kraịst, njedebe usoro ihe niile (Matiu 24:3), ụbọchị ikpeazụ (2 Timoti 3:1)"
-time_of_end2,Ụbọchị ikpeazụ,Last days, ,text,False, , , , ,Ụbọchị ikpeazụ,Mgbe ikpeazụ, ,Ụbọchị ikpeazụ
-suryavaman2,Eze Suryavarman II na-ewu Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,Eze Suryavarman II wuru Angkor Wat 1113-1150,Eze Suryavarman nke Abụọ wuru Angkor Wat 1113-1150, ,Eze Suryavarman II wuru Angkor Wat n'afọ 1113 ruo 1150
-notre-dame,Notre-Dame de Paris wuru 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,Notre-Dame de Paris wuchara 1163-1260,E wuru Notre-Dame de Paris 1163-1260, ,Notre-Dame de Paris wuru n'afọ 1163 ruo 1260
-babel,Ụlọ elu nke Babel wuru,Tower of Babel built, ,text,False, , , , ,Ụlọ elu Babel wuchara,E wuru Ụlọ Elu Bebel, ,E wuru ụlọ elu Babel.
-infliction1,400 afọ infliction,400 year infliction,Acts 7:6,text,False, , , , ,Afọ 400 ihe mmerụ ahụ,Mmegbu nke afọ 400, ,Mkpọrọ afọ narị anọ
-Lots_wife,Nwunye Lọt,Lot’s wife, ,text,False, , , , ,Nwa nwanyị Lọt,Nwunye Lọt, ,Nwunye Lot
-Lots_daughters,Ụmụ nwanyị Lot,Daughters of Lot, ,text,False, , , , ,Ụmụ nwanyị Lọt,Ụmụ nwaanyị Lọt, ,Ụmụ nwanyị Lot
-Moab,Moab (nwa nwanyị nke okenye),Moab (older daughter),Genesis 19:37,text,False, , , , ,Moab (nwa nwanyị nke okenye),Moab (ada nke tọrọ), ,Moab (nwaanyị okenye)
-rosetta,Rosetta nkume 196 T.O.A.,Rosetta stone 196 B.C.E., ,text,False, , , , , ,Nkume Rosetta 196 T.O.A., ,Nkume Rosetta 196 B.C.E.
-Herodotus,"Herodotus c. 484 - c. 425 BC, na-ede The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , ,"Herodotus ihe dị ka 484 – ihe dị ka 425 T.O.A., dere Akụkọ Ihe Mere Eme", ,"Herodotus, ihe dị ka afọ 484 ruo ihe dị ka afọ 425 Tupu Kraịst, dere Akụkọ Ihe Mere Eme"
-Aristotle,Aristotle 384 - 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , ,Aristotle 384 – 322 T.O.A., ,Aristotle 384 – 322 Tupu Kraịst
-Ptolemy,Ptolemy c 100 - ihe dị ka 170 O.A.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , ,Ptolemy ihe dị ka 100 – ihe dị ka 170 O.A., ,Ptolemy ihe dị ka 100 – ihe dị ka 170 AD
-Pythagoras,Pythagoras c. 570 - c. 495 BC,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , ,Pythagoras ihe dị ka 570 – ihe dị ka 495 T.O.A., ,Pythagoras c. 570 – c. 495 Tupu Kraịst
-Plato,Plato c. 427 - c. 348 BC,Plato c. 427 – c. 348 BC, ,text,False, , , , , ,Plato ihe dị ka 427 – ihe dị ka 348 T.O.A., ,Plato c. 427 – c. 348 Tupu Kraịst
-Socrates,Socrates c. 470 - c. 399 BC,Socrates c. 470 – c. 399 BC, ,text,False, , , , , ,Socrates ihe dị ka 470 – ihe dị ka 399 T.O.A., ,Sokrates c. 470 – c. 399 Tupu Kraịst
-Josephus,Josephus c. 37 - ihe dị ka 100 O.A.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , ,Josephus ihe dị ka 37 – ihe dị ka 100 O.A., ,Josephus ihe dị ka 37 ruo ihe dị ka 100 AD
-Cicero,Cicero 106–43 BC,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , ,Cicero 106–43 T.O.A., ,Cicero 106–43 Tupu Kraịst
-lachish_letters,Akwụkwọ ozi Lachish c. 590 T.O.A.,Lachish letters c. 590 B.C.E., ,text,False, , , , , ,Akwụkwọ ozi Lekish ihe dị ka 590 T.O.A., ,Akwụkwọ ozi Lachish ihe dị ka afọ 590 Tupu Kraịst
-lachish_reliefs,Lachish reliefs c. 681 T.O.A.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , , ,Ihe a tụrụ atụ nke Lekish ihe dị ka 681 T.O.A., ,Ihe osise mgbidi Lachish c. 681 B.C.E.
-mesha_stele,Mesha Stele (nkume Moab) ihe dị ka 840 T.O.A.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , , ,Nkume Mesha (nkume Moab) ihe dị ka 840 T.O.A., ,Nkume Mesha (nkume Moabite) ihe dị ka afọ 840 Tupu Kraịst
-gilgamesh,Gilgamesh na Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , ,Gilgamesh na Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,Gilgamesh na Aga 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,Epic nke Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , ,Akụkọ dike nke Gilgamesh (Sîn-lēqi-unninni), ,Akụkọ Ifo Gilgamesh (Sîn-lēqi-unninni)
-gregorian,Gregorian calender 1582,Gregorian calendar 1582, ,text,False, , , , , ,Kalenda Gregorian 1582, ,Kalenda Gregorian 1582
-shang-dynasty,c. 1600-1046 BC,c. 1600-1046 BC, ,text,False, , , , , ,ihe dị ka 1600-1046 T.O.A., ,ihe dị ka 1600–1046 Tupu Kraịst
-western-zhou,c. 1046-771 BC,c. 1046-771 BC, ,text,False, , , , , ,ihe dị ka 1046-771 T.O.A., ,ihe dị ka 1046–771 Tupu Kraịst
-qin-dynasty,Qin 221-207 BC,Qin 221-207 BC, ,text,False, , , , , ,Qin 221-207 T.O.A., ,Qin 221–207 Tupu Kraịst
-western-han,207 BC - 9 OA,207 BC – 9 CE, ,text,False, , , , , ,207 T.O.A. – 9 O.A., ,afọ 207 tupu Kraịst – afọ 9 n'afọ Kraịst
-three-kingdoms,Alaeze atọ 220-280 OA,Three kingdoms 220-280 CE, ,text,False, , , , , ,Alaeze atọ 220-280 O.A., ,Alaeze atọ 220–280 CE
-sixteen-kingdoms,Alaeze iri na isii 304-439 OA,Sixteen kingdoms 304-439 CE, ,text,False, , , , , ,Alaeze iri na isii 304-439 O.A., ,Alakụba iri na isii 304–439 CE
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , ,"618-690, 705-907", , 
-wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False, , , , , ,690-705 Wu Zhou, , 
-tang-dynasty1_c,Tang,Tang, ,text,False, , , , , ,Tang, ,Tee
-gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC, ,text,False, , , , , ,Ọchịchị Gonghe 841-828 T.O.A., ,Gonghe Regency 841–828 Tupu Kraịst
-Ashoka,Ashoka (c. 304-232 BC) na-akwalite okpukpe Buddha,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , ,Ashoka (ihe dị ka 304-232 T.O.A.) kwalitere okpukpe Buddha, ,Ashoka (ihe dị ka 304–232 Tupu Kraịst) kwalitere okwukwe Buddha.
-siloam-tunnel,Hezekaya gbatịrị ọwara Siloam,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , ,Hezekaya gbatịrị ọwa mmiri Saịloam, ,Hezekiah gbatịrị oghere Siloam.
-Angloamerica2,"Anglo-American na-anọchi anya ụkwụ ígwè gwakọtara ụrọ na amụma dị na Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , ,"E ji ụkwụ ígwè a gwakọtara ụrọ nọchite anya Anglo-Amerịka n'amụma dị na Daniel 2:33, 41-43", ,"Anglo-America na-anọchite anya ụkwụ ígwè jikọtara na aja n'amụma nke Daniel 2:33, 41-43."
-Manetho,Manetho dere Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , , ,Manetho dere Aegyptiaca, ,Manetho na-ede Aegyptiaca
-destruction_babylon,"Mbibi nke Babilọn Ukwu ahụ (Mkpughe 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , ,"Mbibi nke Babilọn Ukwu (Mkpughe 17:3, 15-18; 18:9, 10)", ,"Mbibi Babilọn Ukwu (Mkpughe 17:3, 15-18; 18:9, 10)"
-peace_security,"“Udo na obi iru ala!” (1 Ndị Tesalonaịka 5:3, nke a bụ otu ihe nwere ike ime, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , ,"“Udo na nchebe!” (1 Ndị Tesalonaịka 5:3, nke a bụ otu ihe nwere ike ime, QfR 26/2, 25/11)", ,"""Udo na nchebe!"" (1 Ndị Tesalọnika 5:3, nke a bụ otu ohere, QfR 26/2, 25/11)"
-gog_of_magog,"Mwakpo Gọg nke Maggọg (Ezikiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , ,"Mwakpo nke Gọg nke Megọg (Ezikiel 38:1, 2, 9-12, 18-23)", ,"Mwakpo Gog nke Magog (Ezekiel 38:1, 2, 9-12, 18-23)"
-sheep_goat,"Ekpere ndị bi n’ụwa ikpe, na-ekewa atụrụ na ewu (Matiu 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , ,"A ga-ekpe ndị bi n'ụwa ikpe, na-ekewa atụrụ na ewu (Matiu 25:31-33)", ,"A na-ekpe ndị bi n'ụwa ikpe, na-ekewa atụrụ na ewu (Matiu 25:31-33)"
-annointed,Ịchịkọta ndị ọchịchị Alaeze (Matiu 24:31; 1 Ndị Kọrịnt 15:50-53; 1 Ndị Tesalonaịka 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , ,Nchịkọta nke ndị ga-achị n'Alaeze ahụ (Matiu 24:31; 1 Ndị Kọrịnt 15:50-53; 1 Ndị Tesalonaịka 4:15-17), ,Nzukọ ndị ọchịchị alaeze (Matiu 24:31; 1 Kọrint 15:50-53; 1 Tesalọnika 4:15-17)
-armageddon,"Agha Amagedọn (Mkpughe 16:14, 16; Aịzaya 13:9; 2 Pita 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , ,"Agha Amagedọn (Mkpughe 16:14, 16; Aịzaya 13:9; 2 Pita 3:12)", ,"Agha Armageddon (Mkpughe 16:14, 16; Aisaya 13:9; 2 Pita 3:12)"
-millenium,"Alaeze Chineke malitere ịchị otu narị afọ ya (Mkpughe 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , ,"Alaeze Chineke malitere ọchịchị ya nke 1,000 afọ (Mkpughe 5:9, 10; 20:4, 6)", ,"Alaeze Chineke malitere ọchịchị ya nke puku afọ (Mkpughe 5:9, 10; 20:4, 6)"
-great_crowd,"Oké ìgwè mmadụ lanarịrị Amagedọn (Mkpughe 7:9, 14; Abụ Ọma 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , ,"Oké ìgwè mmadụ lanarịrị Amagedọn (Mkpughe 7:9, 14; Abụ Ọma 37:9-11)", ,"Ọtụtụ mmadụ nọrọ ndụ mgbe Armageddon gasịrị (Mkpughe 7:9, 14; Abụ Ọma 37:9-11)"
-world_population,Ọnụ ọgụgụ ndị bi n'ụwa na ọtụtụ ijeri n'ime afọ 2000 gara aga,World population in billions in the last 2000 years, ,text,False, , , , , ,Ọnụ ọgụgụ ndị bi n'ụwa na ijeri n'ime afọ 2000 gara aga, ,Ọnụ mmadụ ụwa n'bilionu n'ime afọ puku abụọ gara aga
-khmer_empire_c,Alaeze Khmer - Oge Angkor,Khmer Empire - Angkor period, ,text,False, , , , , ,Alaeze Ukwu Khmer - oge Angkor, ,Alaeze Khmer - Oge Angkor
-holy_roman_empire_c,Alaeze Ukwu Rom dị nsọ - mgbe Alaeze Ukwu Rom dị nsọ nke 1512 nke Mba Germany gasịrị,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , ,Alaeze Ukwu Rom Dị Nsọ – nke a maara dị ka Alaeze Ukwu Rom Dị Nsọ nke Mba Jamanị mgbe 1512 gasịrị, ,Alaeze Nsọ Rom – a makwaara ya dị ka Alaeze Nsọ Rom nke Mba Jamanị mgbe afọ 1512 gasịrị
-mongol_empire,Alaeze Ukwu Mongol 1206 - 1294 O.A.,Mongol Empire 1206 – 1294, ,text,False, , , , , ,Alaeze Ukwu Mongol 1206 – 1294, ,Alaeze Mongol 1206 – 1294
-maya_classic_c,Mmepeanya Maya - oge kpochapụwo,Maya civilization – Classic period, ,text,False, , , , , ,Mmepeanya Maya – oge ochie kachasị mma, ,Omenala Maya – Oge klasik
-maya_postclassic_c,Mmepeanya Maya - oge postclassic,Maya civilization – Postclassic period, ,text,False, , , , , ,Mmepeanya Maya – oge sochiri oge ochie kachasị mma, ,Omenala Maya – Oge Postclassic
-Teotihuacan,"Obodo kasị ukwuu n'Amerịka, pyramid na-ewu ihe dị ka afọ 200 O.A.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , ,"Obodo kachasị ukwuu n'Amerịka, e wuru pyramid ihe dị ka 200 O.A.", ,"Obodo kacha ibu na Amerịka, e wuru pyramids ihe dị ka afọ 200 AD."
-Dionysius_Exiguus,"Dionysius Exiguus, onye mepụtara Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , ,"Dionysius Exiguus, onye chepụtara Anno Domini", ,"Dionysius Exiguus, onye chepụtara Anno Domini"
-Umayyad_c,Umayyad,Umayyad, ,text,False, , , , , ,Umayyad, , 
-ur3,Ọchịchị Ur III 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , ,Ọchịchị eze Ur III 𒋀𒀕𒆠, ,Ụlọeze Ur nke atọ 𒋀𒀕𒆠
-hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , ,Hammurabi 𒄩𒄠𒈬𒊏𒁉, , 
-Al-Khwarizmi,Al-Khwarizmi dere Al-Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , ,al-Khwarizmi dere Al-Jabr (Algebra), ,al-Khwarizmi dere Al-Jabr (Algebra)
-al-azhar,E guzobere Mahadum Al-Azhar na Cairo,Al-Azhar University is established in Cairo, ,text,False, , , , , ,E hiwere Mahadum Al-Azhar na Cairo, ,Mahadum Al-Azhar guzobere na Cairo.
-Ibn-Sina,Ibn Sina ma ọ bụ Avicenna,Ibn Sina or Avicenna, ,text,False, , , , , ,Ibn Sina ma ọ bụ Avicenna, ,Ibn Sina ma ọ bụ Avicenna
-life-expectancy,Ogologo ndụ 75 afọ,Life expectancy 75 years, ,text,False, , , , ,Ndụ ndụ afọ 75,Ogologo ndụ a na-atụ anya ya afọ 75, ,Oge ndụ a na-atụ anya bụ afọ iri asaa na ise.
-430years_c,"430 afọ: Ọpụpụ 12:41, Ndị Galeshia 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"Afọ 430: Opụpụ 12:41, Ndị Galatia 3:17","Afọ 430: Ọpụpụ 12:41, Ndị Galeshia 3:17", ,"afọ 430: Mmepụta 12:41, Ndị Galatịa 3:17"
-maya_calendar,"Gbakọọ mmalite nke kalenda Maya August 11, 3114 T.O.A.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,"Mmalite kọmpụta nke kalenda Maya Ọgọst 11, 3114 B.C.E.","Mmalite kalenda Maya a gbakọrọ Ọgọst 11, 3114 T.O.A.", ,"E kpebiri na kalenda Maya malitere na Ọgọst 11, 3114 B.C.E."
-xia-dynasty2,"c. 2070 - c. 1600 BC, mbụ kwuru n'oge Western Zhou oge",c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,c. 2070 – c. 1600 BC; Oge a kpọtụrụ aka na mbụ n'oge Western Zhou,ihe dị ka 2070 – ihe dị ka 1600 T.O.A.; E bu ụzọ kwuo maka oge a n'oge Ọdịda Anyanwụ Zhou, ,ihe dị ka 2070 – ihe dị ka 1600 Tupu Kraịst; Oge a kọrọ ya nke mbụ n'oge Zhou Ọdịda Anyanwụ
-xia-dynasty2_c,Xia Dynasty na China,Xia dynasty in China, ,text,False, , , , ,Xia obodo n'China,Ọchịchị eze Xia na China, ,Ụlọeze Xia na China
-tres_zapotes,"Septemba 3rd, 32 T.O.A.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,"Septemba 3, 32 B.C.E.","Septemba 3, 32 T.O.A.", ,"Septemba 3, afọ 32 Tupu Kraịst"
-joseph_jacob_reunited,Josef na Jekọb jikọtara ọnụ n'Ijipt - 1728 T.O.A. (Jen 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,Joseph na Jacob zutere ọnụ na Egypt – 1728 B.C.E. (Jen 45:11; 47:9),Josef na Jekọb zukọtara ọzọ n'Ijipt – 1728 T.O.A. (Jen 45:11; 47:9), ,Jọsef na Jekọb zutere ọzọ na Ijipt – 1728 B.C.E. (Jenesis 45:11; 47:9)
-king_south_light_c,Southern Ngbandi - Daniel 11,King of the South from Daniel 11,2025-02-05,text,False, , , , ,Eze nke Ndịda si n'Aziza 11,Eze Ndịda sitere na Daniel 11, ,Eze nke ndịda si na Daniel 11
-king_north_light_c,Eze Ugwu Daniel 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,Eze nke Ugwu si n'Aziza 11,Eze Ugwu sitere na Daniel 11, ,Eze Ugwu si na Daniel 11
-daniel2_iron_c,Iron ụkwụ si Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Ọkpụkpụ ụkwụ ígwè si n'Aziza 2,Ụkwụ ígwè sitere na Daniel 2, ,Ụkwụ ígwè si na Daniel 2
-argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , ,Codex Argenteus ihe dị ka 505, ,Akwụkwọ Oluọcha c. 505
-nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , , ,Nguyễn, ,Ngoan
-edo_c,Oge Edo na Japan,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , ,Oge Edo na Japan,Oge Edo na Japan, ,Oge Edo na Japan
-meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , , ,Meiji, ,Meeji
-american_civil_war,Agha Obodo America 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,Ọgba aghara America 1861-1865,Agha Obodo Amerịka 1861-1865, ,Agha Obodo America 1861-1865
-aleppo_codex,Codex Aleppo c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,Codex Aleppo c. 920,Aleppo Codex ihe dị ka 920, ,Koodeks Aleppo c. 920
-vandals,Alaeze nke Vandals na Alans 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Alaeze nke Vandals na Alans 435 – 534,Alaeze nke ndị Vandal na ndị Alan 435 – 534, ,Alaeze Vandals na Alans 435 – 534
-francia,"c. 481/509 – 843, Merovingian rue 751, emesia Carolingian.","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"c. 481/509 – 843, Merovingian ruo 751, wee bụrụ Carolingian","ihe dị ka 481/509 – 843, Merovingian ruo 751, mgbe ahụ Carolingian", ,"ihe dị ka 481/509 – 843, ọchịchị Merovingian ruo 751, mgbe ahụ ọchịchị Carolingian"
-francia_c,Alaeze nke ndị Frank,Kingdom of the Franks, ,text,False, , , , ,Alaeze nke Ndị Franks,Alaeze nke ndị Frank, ,Alaeze nke ndị Frank
-100_years_war,Agha narị afọ 1337 - 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Agha Ọrịa Narị afọ 1337 – 1453,Agha Otu Narị Afọ 1337 – 1453, ,Agha narị afọ 1337 – 1453
-black_death,Ọnwụ ojii 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Ọrịa ojii 1346-1353,Ọnwụ Ojii 1346-1353, ,Ọnwụ Ojii 1346-1353
-sui_dynasty,581-618 ndị eze Sui,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 Sui obodo,581-618 Ọchịchị eze Sui, ,Ụlọeze Sui nke afọ 581 ruo 618
-sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , ,Sui, ,Mmiri
-tribulation,"Oké Mkpagbu ahụ (Mak 13:19; Daniel 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"Nnukwu Ahụhụ (Mak 13:19; Daniel 12:1; Mat 24:21, 22)","Oké Mkpàgwụ ahụ (Mak 13:19; Daniel 12:1; Mat 24:21, 22)", ,"Ọnwụnwa Ukwu (Maka 13:19; Danịel 12:1; Matiu 24:21, 22)"
-timeline_created,"E kere usoro iheomume a na 2023, afọ kachasị ọkụ n'akụkọ ihe mere eme nke mmadụ na afọ 125,000 gara aga","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"A na-emepụta oge a na 2023, afọ kachasị ọkụ n'akụkọ ihe mere eme mmadụ na afọ 125,000 ikpeazụ","E kere usoro oge a na 2023, afọ kachasị ekpo ọkụ n'akụkọ ihe mere eme nke mmadụ na n'ime afọ 125,000 gara aga", ,"E kere usoro oge a na 2023, afọ kacha ọkụ n'akụkọ ihe mere mmadụ na n'ime afọ 125,000 gara aga."
-Adam,Adam,Adam,Luke 3:38,bible,True, , , , , ,Adam, , 
-Seth,Seth,Seth, ,bible,True, , , , , ,Set, , 
-Enosh,Inọsh,Enosh, ,bible,True, , , , , ,Inọsh, , 
-Kenan,Kaịnan,Kenan (Cainan), ,bible,False, , , , , ,Kinan (Kenan), , 
-Mahalalel,Mahalalel,Mahalalel (Mahalaleel), ,bible,False, , , , , ,Mahalalel (Mahalaliel), , 
-Jared,Jered,Jared, ,bible,True, , , , , ,Jered, , 
-Enoch,Ịnọk,Enoch, ,bible,True, , , , , ,Inọk, , 
-Methuselah,Metusela,Methuselah,Luke 3:37,bible,True, , , , , ,Metusela, , 
-Lamech,Lemek,Lamech, ,bible,True, , , , , ,Lemek, , 
-Noah,Noa,Noah, ,bible,True, , , , , ,Noa, , 
-Shem,Shem,Shem, ,bible,True, , , , , ,Shem, , 
-Arpachshad,Apakshad,Arpachshad,Luke 3:36,bible,True, , , , , ,Apakshad, , 
-Shelah,Shila,Shelah, ,bible,True, , , , , ,Shila, , 
-Eber,Iba,Eber, ,bible,True, , , , , ,Iba, , 
-Peleg,Pileg,Peleg, ,bible,True, , , , , ,Peleg, , 
-Reu,Riu,Reu, ,bible,True, , , , , ,Riu, , 
-Serug,Sirọg,Serug,Luke 3:35,bible,True, , , , , ,Sirọg, , 
-Nahor,Nehọ,Nahor,Genesis 11:24,bible,True, , , , , ,Nehọ, , 
-Terah,Tira,Terah, ,bible,True, , , , , ,Tira, , 
-Abraham,Ebreham,Abraham, ,bible,True, , , , , ,Ebreham, , 
-Isaac,Aịzik,Isaac, ,bible,True, , , , , ,Aịzik, , 
-Jacob,Jekọb,Jacob,Luke 3:34,bible,True, , , , , ,Jekọb, , 
-Joseph,Josef,Joseph,Genesis 37,bible,True, , , , , ,Josef, , 
-Moses,Mozis,Moses, ,bible,False, , , , , ,Mozis, , 
-Othniel,Othniel,Othniel,Judges 3:9-11,bible,False, , , , , ,Ọtniel, , 
-Ehud,Ehud,Ehud,Judges 3:15-18,bible,False, , , , , ,Ihụd, , 
-Shamgar,Shamgar,Shamgar,Judges 3:31,bible,False, , , , , ,Shamga, , 
-Barak,Barak,"Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , ,"Berak, Debọra, Jel", , 
-Gideon,Gideon,Gideon,Judges 7:1,bible,False, , , , , ,Gidiọn, , 
-Tola,Tola,Tola,Judges 10:1,bible,False, , , , , ,Tola, , 
-Jair,Jair,Jair,Judges 10:3,bible,False, , , , , ,Jea, , 
-Jephthah,Jefta,Jephthah,Judges 11:1,bible,False, , , , , ,Jefta, , 
-Ibzan,Ibzan,Ibzan,Judges 12:8,bible,False, , , , , ,Ibzan, , 
-Elon,Elon,Elon,Judges 12:11,bible,False, , , , , ,Ilọn, , 
-Abdon,Abdon,Abdon,Judges 12:13,bible,False, , , , , ,Abdọn, , 
-Samson,Samson,Samson,Judges 13:24,bible,False, , , , , ,Samsịn, , 
-Samuel,Samuel,Samuel,1 Samuel 1:20,bible,False, , , , , ,Samuel, , 
-Saul,Sọl,Saul,1 Samuel 9:2,bible,False, , , , , ,Sọl, , 
-David,David,David,1 Samuel 16:13,bible,False, , , , , ,Devid, , 
-Solomon,Solomon,Solomon,1 Kings 2:1,bible,False, , , , , ,Sọlọmọn, , 
-Malachi,Malakaị,Malachi, ,bible,False, , , , , ,Malakaị, , 
-Ruth,Ruth,Ruth, ,bible,False, , , , , ,Rut, , 
-Ezra,Ezra,Ezra, ,bible,False, , , , , ,Ezra, , 
-Nehemiah,Nehemaịa,Nehemiah, ,bible,False, , , , , ,Nehemaya, , 
-Esther,Esther,Esther, ,bible,False, , , , , ,Esta, , 
-Job,Job,Job, ,bible,False, , , , , ,Job, , 
-moses3,Mozis,Moses, ,bible,False, , , , , ,Mozis, , 
-joshua2,Joshua,Joshua, ,bible,False, , , , , ,Jọshụa, , 
-caleb2,Caleb,Caleb, ,bible,False, , , , , ,Keleb, , 
-Augustus,Augustus,Augustus,Luke 2:1,bible,False, , , , , ,Ọgọstọs, , 
-Tiberius,Tiberius,Tiberius,Luke 3:1,bible,False, , , , , ,Taịbiriọs, , 
-Claudius,Claudius,Claudius,Acts 11:28,bible,False, , , , , ,Klọdiọs, , 
-persia2,Persia,Persia, ,bible,False, , , , , ,Peshịa, , 
-jehoiada,Jehoiada,Jehoiada,2 Kings 11:4,bible,False, , , , , ,Jehoyada, , 
-Haggai,Haggai,Haggai, ,bible,False, , , , , ,Hagaị, , 
-Zerubbabel,Zerubbabel (Luk 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , ,Zerụbabel (Luk 3:27), , 
-Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , ,Jekọb/, , 
-Israel,Israel,Israel,Genesis 35:10,bible,False, , , , , ,Izrel, , 
-Sarah,Sarah,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , ,Sera, , 
-Hagar,Hagar,Hagar,Genesis 21:14,bible,False, , , , , ,Hega, , 
-Haran,Haran,Haran,Genesis 11:26,bible,False, , , , , ,Heran, , 
-Reumah,Reumah,Reumah,Concubine – 4 sons 22:24,bible,False, , , , , ,Riuma, , 
-Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more),bible,False, , , , , ,Milka, , 
-Lot,Lot,Lot,Genesis 11:27,bible,False, , , , , ,Lọt, , 
-Ammon,Ben-ammi (Amọn),Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , ,Ben-amaị (Amọn), , 
-Bethuel,Bethuel,Bethuel,Genesis 22:23,bible,False, , , , , ,Betuel, , 
-Rebekah,Rebekah,Rebekah, ,bible,False, , , , , ,Rebeka, , 
-Laban,Laban,Laban,Genesis 24:29,bible,False, , , , , ,Leban, , 
-Leah,Leah,Leah,Genesis 35:23,bible,False, , , , , ,Lịa, , 
-Rachel,Rachel,Rachel,Genesis 35:24,bible,False, , , , , ,Rechel, , 
-Bilhah,Bilhah,Bilhah,Genesis 35:25,bible,False, , , , , ,Bilha, , 
-Zilpah,Zilpah,Zilpah,Genesis 35:26,bible,False, , , , , ,Zilpa, , 
-Reuben,Reuben,Reuben, ,bible,False, , , , , ,Ruben, , 
-Simeon,Simeon,Simeon, ,bible,False, , , , , ,Simiọn, , 
-Levi,Levi,Levi,Genesis 35:23,bible,False, , , , , ,Livaị, , 
-Judah,Juda,Judah, ,bible,False, , , , , ,Juda, , 
-Issachar,Issachar,Issachar, ,bible,False, , , , , ,Isaka, , 
-Zebulun,Zebulun,Zebulun, ,bible,False, , , , , ,Zebụlọn, , 
-Dinah,Dinah,Dinah,Genesis 34,bible,False, , , , , ,Daịna, , 
-Esau,Isọ /,Esau/, ,bible,False, , , , , ,Ịsọ/, , 
-Edom,Edom,Edom,Genesis 36:1,bible,False, , , , , ,Idọm, , 
-Ishmael,Ishmael,Ishmael,Genesis 16:16,bible,False, , , , , ,Ishmel, , 
-Manasseh2,(Manase,(Manasseh,Genesis 41:50-52,bible,False, , , , , , (Manase, , 
-Ephraim,na Ephraim),and Ephraim), ,bible,False, , , , , ,na Ifrem), , 
-Benjamin,Benjamin,Benjamin, ,bible,False, , , , , ,Benjamin, , 
-Dan,Dan,Dan,Genesis 35:23,bible,False, , , , , ,Dan, , 
-Naphtali,Naphtali,Naphtali, ,bible,False, , , , , ,Naftalaị, , 
-Gad,Gad,Gad, ,bible,False, , , , , ,Gad, , 
-Asher,Asher,Asher, ,bible,False, , , , , ,Asha, , 
-Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , ,"Ọz, Bọz, Kemuel,", , 
-Milcah2,"Chesed, Hazo,","Chesed, Hazo,", ,bible,False, , , , , ,"Kesed, Hezo,", , 
-Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph", ,bible,False, , , , , ,"Pildash, Jidlaf", , 
-Tebah,Tebah,Tebah,Genesis 22:24,bible,False, , , , , ,Tiba, , 
-Gaham,Gaham,Gaham, ,bible,False, , , , , ,Geham, , 
-Tahash,Tahash,Tahash, ,bible,False, , , , , ,Tehash, , 
-Maacah,Maacah,Maacah, ,bible,False, , , , , ,Meaka, , 
-Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , ,Mahalat/, , 
-Basemath,Basemath,Basemath,"Genesis36:3, 4",bible,False, , , , , ,Basemat, , 
-Reuel,Reuel,Reuel,"36:13, 17",bible,False, , , , , ,Riuel, , 
-Nahath,Nahath,Nahath, ,bible,False, , , , , ,Nehat, , 
-Zerah,Zerah,Zerah, ,bible,False, , , , , ,Zira, , 
-Schammah,Schammah,Schammah, ,bible,False, , , , , ,Shama, , 
-Mizzah,Mizzah,Mizzah, ,bible,False, , , , , ,Miza, , 
-Adah,Adah,Adah,"36:11, 12, 15, 16",bible,False, , , , , ,Eda, , 
-Eliphaz,Eliphaz,Eliphaz, ,bible,False, , , , , ,Elịfaz, , 
-Teman,Teman,Teman, ,bible,False, , , , , ,Timan, , 
-Omar,Omar,Omar, ,bible,False, , , , , ,Oma, , 
-Zepho,Zepho,Zepho, ,bible,False, , , , , ,Zifo, , 
-Kenaz,Kenaz,Kenaz, ,bible,False, , , , , ,Kinaz, , 
-Korah,Korah,Korah, ,bible,False, , , , , ,Kora, , 
-Korah_Gatam,"Kora, Gatam","Korah, Gatam","Genesis 36:11, 16",bible,False, , , , , ,"Kora, Getam", , 
-Amalek,Amalek,Amalek, ,bible,False, , , , , ,Amalek, , 
-Oholibamah,Oholibamah,Oholibamah,"36:14, 18",bible,False, , , , , ,Oholibama, , 
-Jeush,Jeush,Jeush, ,bible,False, , , , , ,Jiọsh, , 
-Jalam,Jalam,Jalam, ,bible,False, , , , , ,Jelam, , 
-Nebaioth,Nebaioth,Nebaioth,Genesis 25:13,bible,False, , , , , ,Nebeyọt, , 
-Kedar,Kedar,Kedar, ,bible,False, , , , , ,Kida, , 
-Mishma,Mishma,Mishma, ,bible,False, , , , , ,Mishma, , 
-Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",Genesis 25:13,bible,False, , , , , ,"Adbiel, Mibsam", , 
-Dumah_Massa,"Duma, Masa","Dumah, Massa",Genesis 25:14,bible,False, , , , , ,"Duma, Masa", , 
-Hadad,Hadad,Hadad, ,bible,False, , , , , ,Hedad, , 
-Tema,Tema,Tema, ,bible,False, , , , , ,Tima, , 
-Jetur,Jetur,Jetur, ,bible,False, , , , , ,Jitọ, , 
-Naphish,Naphish,Naphish, ,bible,False, , , , , ,Nefish, , 
-Kedemah,Kedemah,Kedemah, ,bible,False, , , , , ,Kidema, , 
-Keturah,Keturah,Keturah,Genesis 25:1-4,bible,False, , , , , ,Kitura, , 
-Zimran,Zimran,Zimran, ,bible,False, , , , , ,Zimran, , 
-Jokshan,Jokshan,Jokshan, ,bible,False, , , , , ,Jọkshan, , 
-Medan,Medan,Medan, ,bible,False, , , , , ,Midan, , 
-Midian,Midian,Midian, ,bible,False, , , , , ,Midian, , 
-Ishbak,Ishbak,Ishbak, ,bible,False, , , , , ,Ishbak, , 
-Shuah,Shuah,Shuah, ,bible,False, , , , , ,Shụa, , 
-Timna,Timna,Timna,"1 Chr 1:36, Ge 36:10-12",bible,False, , , , , ,Timna, , 
-life-expectancy2,(Abụ Ọma 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , ,(Abụ Ọma 90:10), , 
-Ham,apata ụkwụ ezi,Ham,Gen 10:1,bible,False, , , , , ,Ham, , 
-Canaan,Kenan,Canaan,Gen 10:6,bible,False, , , , , ,Kenan, , 
-Sidon,Saịdọn,Sidon,Gen 10:15,bible,False, , , , , ,Saịdọn, , 
-Heth,Heth,Heth,Gen 10:15,bible,False, , , , , ,Het, , 
-Jebusite,Jebusite,Jebusite,Gen 10:16,bible,False, , , , , ,Onye Jebus, , 
-Amorite,Amorite,Amorite,Gen 10:16,bible,False, , , , , ,Onye Amọraịt, , 
-Girgashite,Girgashite,Girgashite,Gen 10:16,bible,False, , , , , ,Onye Gịgash, , 
-Hivite,Hivite,Hivite,Gen 10:17,bible,False, , , , , ,Onye Haịv, , 
-Arkite,Arkite,Arkite,Gen 10:17,bible,False, , , , , ,Onye Ak, , 
-Sinite,Sinite,Sinite,Gen 10:17,bible,False, , , , , ,Onye Saịn, , 
-Arvadite,Arvadite,Arvadite,Gen 10:18,bible,False, , , , , ,Onye Avad, , 
-Zemarite,Zemarit,Zemarite,Gen 10:18,bible,False, , , , , ,Onye Zema, , 
-Hamathite,ndi Hamathite,Hamathite,Gen 10:18,bible,False, , , , , ,Onye Hemat, , 
-Cush,Kush,Cush,Gen 10:6,bible,False, , , , , ,Kọsh, , 
-Nimrod,Nimrod,Nimrod,Gen 10:8,bible,False, , , , , ,Nimrọd, , 
-Mizraim,Mizraim,Mizraim,Gen 10:14,bible,False, , , , , ,Mizrem, , 
-Casluh,Casluh,Casluh,1 Chronicles 1:12 (Philistines),bible,False, , , , , ,Kaslọ, , 
-Japheth,Jefet,Japheth,Gen 10:1,bible,False, , , , , ,Jefet, , 
-Asshur,Asụsụ,Asshur,Gen 10:22,bible,False, , , , , ,Ashọ, , 
-Lud,Lud,Lud,Gen 10:22,bible,False, , , , , ,Lọd, , 
-Aram,Aram,Aram,Gen 10:22,bible,False, , , , , ,Eram, , 
-Elam,Ilam,Elam,Gen 10:22,bible,False, , , , , ,Ilam, , 
-Joktan,Jọktan,Joktan,Gen 10:26,bible,False, , , , , ,Jọktan, , 
-Almodad,Almodad,Almodad,Gen 10:26,bible,False, , , , , ,Almodad, , 
-Sheleph,Sheleph,Sheleph,Gen 10:26,bible,False, , , , , ,Shilef, , 
-Hazarmaveth,Hazarmaret,Hazarmaveth,Gen 10:26,bible,False, , , , , ,Hazamevet, , 
-Jerah,Jerah,Jerah,Gen 10:26,bible,False, , , , , ,Jira, , 
-Hadoram,Hadoram,Hadoram,Gen 10:27,bible,False, , , , , ,Hadoram, , 
-Uzal,Uzal,Uzal,Gen 10:27,bible,False, , , , , ,Ọzal, , 
-Diklah_Obal,"Diklah, Obal","Diklah, Obal",Gen 10:27,bible,False, , , , , ,"Dikla, Obal", , 
-Abimael,Abimael,Abimael,Gen 10:28,bible,False, , , , , ,Abimel, , 
-Sheba_Ophir,"Sheba, Ofia","Sheba, Ophir","Gen 10:28, 29",bible,False, , , , , ,"Shiba, Ofa", , 
-Havilah,Havilah,Havilah,Gen 10:29,bible,False, , , , , ,Havila, , 
-Jobab,Jobab,Jobab,Gen 10:29,bible,False, , , , , ,Jobab, , 
-Ham_fn,1) Ndị Ijipt: Abụ Ọma 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , ,1) Ndị Ijipt: Abụ Ọma 105:23, , 
-Canaan_fn,2) Ndị Kenan: Jọshụa 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , ,2) Ndị Kenan: Jọshụa 13:3, , 
-Aram_fn,3) Ndị Ara: Hosea 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , ,3) Ndị Aram: Hosia 12:12, , 
-Elam_fn,4) Ndị Ilam: Ezra 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , ,4) Ndị Ilam: Ezra 4:9, , 
-Asshur_fn,5) Ndị Asiria: Ezikiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , ,5) Ndị Asịrịa: Ezikiel 27:23, , 
-Casluh_fn,6) Ndị Filistia: 1 Ihe E Mere 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , ,6) Ndị Filistia: 1 Ihe E Mere 1:12, , 
-Cush_fn,7) Etiopia [Ndị Kush]: 2 Ndị Eze 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , ,7) Onye Etiopia [Onye Kọsh]: 2 Ndị Eze 19:9, , 
-Edom_fn,8) Ndị Idọm: Ọnụ Ọgụgụ 20:14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False, , , , , ,8) Ndị Idọm: Ọnụ Ọgụgụ 20:14-17, , 
-Moab_fn,"9) Ndị Moab: Diuterọnọmi 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False, , , , , ,"9) Ndị Moab: Diuterọnọmi 23:3, 4", , 
-Ammon_fn,10) Ụmụ Amọn: Jọshụa 12:2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False, , , , , ,10) Ndị Amọn: Jọshụa 12:2, , 
-Midian_fn,"11) Ndị Midian: Ọnụ Ọgụgụ 31:2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False, , , , , ,"11) Ndị Midian: Ọnụ Ọgụgụ 31:2, 3", , 
-Amalek_fn,12) Ndị Amalek: 1 Samuel 15:2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False, , , , , ,12) Ndị Amalek: 1 Samuel 15:2, , 
-Teman_fn,13) Ndị Teman: Job 42:7,13) Temanites: Job 42:7,2025-09-22,bible,False, , , , , ,13) Ndị Timan: Job 42:7, , 
-Sidon_fn,14) Ndị Saịdọn: Zekaraya 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , ,14) Ndị Saịdọn: Zekaraya 9:2, , 
-Heth_fn,15) Ndị Het: Jenesis 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , ,15) Ndị Het: Jenesis 15:20, , 
-Jebusite_fn,16) Ndị Jebus: Jọshụa 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , ,16) Ndị Jebus: Jọshụa 15:63, , 
-Judith,Judith?,Judith?,"Genesis 26:34, 35",bible,False, , , , , ,Judit?, , 
-Lud_fn,17) Ndị Lidia: 1 Ihe E Mere 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , ,17) Ndị Lọd: 1 Ihe E Mere 1:17, , 
-Ishmael_fn,18) Ndị Ishmel: Jenesis 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , ,18) Ndị Ishmel: Jenesis 37:27, , 
-Amorite_fn,19) Ndị Amọraịt: Ndị Ikpe 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , ,19) Ndị Amọraịt: Ndị Ikpe 6:10, , 
-Hivite_fn,"20) Ndị Hivaị [Gibiọn]: Jọshụa 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , ,"20) Ndị Haịv [Gibịọn]: Jọshụa 9:3, 7", , 
-Cain,Ken,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , ,Ken, , 
-Abel,Ebel,Abel,Genesis 4:2,bible,False, , , , , ,Ebel, , 
-Irad,Irad,Irad,Genesis 4:18,bible,False, , , , , ,Aịrad, , 
-Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False, , , , , ,Mehujel, , 
-Methushael,Methushael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , ,Metushel, , 
-Jabal,Jebal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , ,Jebal, , 
-Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , ,Jubal, , 
-Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , ,Zila, , 
-Tubal-cain,Tubal-ken,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , ,Tubal-ken, , 
-Naamah,Neamah,Naamah,Genesis 4:22 his sister,bible,False, , , , , ,Neama, , 
-Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False, , , , , ,Rihoboam, , 
-Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False, , , , , ,Abịja (Abịjam), , 
-Asa,Asa,Asa,A6-A,A6-A,False, , , , , ,Esa, , 
-Jehoshaphat,Jehoshaphat,Jehoshaphat, ,A6-A,False, , , , , ,Jehọshafat, , 
-Jehoram2,Jehoram,Jehoram, ,A6-A,False, , , , , ,Jehoram, , 
-Ahaziah,Ahaziah,Ahaziah, ,A6-A,False, , , , , ,Ahazaya, , 
-Athaliah,Queen Athaliah,Queen Athaliah,Queen Athaliah,A6-A,False, , , , , ,Eze Nwaanyị Atalaya, , 
-Jehoash,Jehoash,Jehoash, ,A6-A,False, , , , , ,Jehoash, , 
-Amaziah,Amaziah,Amaziah, ,A6-A,False, , , , , ,Amazaya, , 
-Uzziah,Uzziah (Azaraia),Uzziah (Azariah),also Azariah,A6-A,False, , , , , ,Ụzaya (Azaraya), , 
-Jeroboam,Jeroboam,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False, , , , , ,Jeroboam, , 
-Nadab,Nadab,Nadab,less than 2,A6-A,False, , , , , ,Nedab, , 
-Baasha,Baasha,Baasha, ,A6-A,False, , , , , ,Basha, , 
-Elah,Elah,Elah, ,A6-A,False, , , , , ,Ila, , 
-Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,A6-A,False, , , , , ,Zimraị, , 
-OmriTibni,Omri na Tibni ọnụ,Omri and Tibni together,4 years Omri and Tibni,A6-A,False, , , , , ,Ọmraị na Tibnaị n'otu oge, , 
-Omri,Omri (naanị),Omri (alone),from 947 Omri alone,A6-A,False, , , , , ,Ọmraị (naanị ya), , 
-Ahab,Ehab,Ahab, ,A6-A,False, , , , , ,Ehab, , 
-Jehoram,Jehoram,Jehoram, ,A6-A,False, , , , , ,Jehoram, , 
-Jehu,Jihu,Jehu, ,A6-A,False, , , , , ,Jihu, , 
-Jeoahaz,Jeoahaz,Jeoahaz, ,A6-A,False, , , , , ,Jehoahaz, , 
-JeoahazJehoash,Jeoahaz na Jehoash,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False, , , , , ,Jehoahaz na Jehoash, , 
-Jehoash2,Jehoash (naanị),Jehoash (alone),Jehoash (alone),A6-A,False, , , , , ,Jehoash (naanị ya), , 
-Jeroboam2,Jeroboam nke Abụọ,Jeroboam II, ,A6-A,False, , , , , ,Jeroboam nke Abụọ, , 
-Elijah,Ịlaịja,Elijah, ,A6-A,False, , , , , ,Ịlaịja, , 
-Elisha,Elisha,Elisha, ,A6-A,False, , , , , ,Ịlaịsha, , 
-Jonah,Jona,Jonah, ,A6-A,False, , , , , ,Jona, , 
-Amos,Amos,Amos, ,A6-A,False, , , , , ,Emọs, , 
-Joel,Joel,Joel, ,A6-A,False, , , , , ,Jowel, , 
-Jotham,Jotham,Jotham,A6-B,A6-B,False, , , , , ,Jotam, , 
-Ahaz,Ahaz,Ahaz, ,A6-B,False, , , , , ,Ehaz, , 
-Hezekiah,Hezekiah,Hezekiah, ,A6-B,False, , , , , ,Hezekaya, , 
-Manasseh,Manase,Manasseh, ,A6-B,False, , , , , ,Manase, , 
-Amon,Amon,Amon, ,A6-B,False, , , , , ,Emọn, , 
-Josiah,Josaya,Josiah, ,A6-B,False, , , , , ,Josaya, , 
-Jehoahaz,Jehoahaz,Jehoahaz,Only 3 months,A6-B,False, , , , , ,Jehoahaz, , 
-Jehoiakim,Jehoiakim,Jehoiakim, ,A6-B,False, , , , , ,Jehoyakim, , 
-Jehoiachin,Jehoiachin,Jehoiachin,Only 3 months 10 days,A6-B,False, , , , , ,Jehoyakin, , 
-Zedekiah,Zedekaya,Zedekiah, ,A6-B,False, , , , , ,Zedekaya, , 
-Zechariah,Zekaraya,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False, , , , , ,Zekaraya, , 
-Schallum,Schallum,Schallum,only one month,A6-B,False, , , , , ,Shalọm, , 
-Menahem,Menahem,Menahem, ,A6-B,False, , , , , ,Menahem, , 
-Pekahiah,Pekahiah,Pekahiah, ,A6-B,False, , , , , ,Pekahaya, , 
-Pekah,Pekah,Pekah, ,A6-B,False, , , , , ,Pika, , 
-Hoshea,Hoshea,Hoshea,9 years from c. 748,A6-B,False, , , , , ,Hoshịa, , 
-Hosea,Hosea,Hosea, ,A6-B,False, , , , , ,Hosia, , 
-Isaiah,Aịzaya,Isaiah, ,A6-B,False, , , , , ,Aịzaya, , 
-Micah,Maịka,Micah, ,A6-B,False, , , , , ,Maịka, , 
-Zephaniah,Zefanaya,Zephaniah, ,A6-B,False, , , , , ,Zefanaya, , 
-Nahum,Nahum,Nahum, ,A6-B,False, , , , , ,Nehọm, , 
-Jeremiah,Jeremaya,Jeremiah, ,A6-B,False, , , , , ,Jeremaya, , 
-Habakuk,Habakuk,Habakuk, ,A6-B,False, , , , , ,Habakọk, , 
-Daniel,Daniel,Daniel, ,A6-B,False, , , , , ,Daniel, , 
-Ezekiel,Ezikiel,Ezekiel, ,A6-B,False, , , , , ,Ezikiel, , 
-Obadiah,Obadiah,Obadiah, ,A6-B,False, , , , , ,Obadaya, , 
-Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , ,"Daniel 2:32, 36-38; 7:4", , 
-Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , ,"Daniel 2:32, 39; 7:5", , 
-Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , ,"Daniel 2:32, 39; 7:6", , 
-Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , ,"Daniel 2:33, 40; 7:7", , 
-Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True, , , , , ,"Daniel 2:33, 41-43", , 
-Babylon_c,Babịlọn,Babylon, ,B9,True, , , , , ,Babilọn, , 
-Medopersia_c,Midia na Peshia,Medo-Persia, ,B9,True, , , , , ,Mido-Peshịa, , 
-Greece_c,Gris,Greece, ,B9,True, , , , , ,Gris, , 
-Rome_c,Rom,Rome, ,B9,True, , , , , ,Rom, , 
-Angloamerica_c,Briten na Amerịka,Anglo-America, ,B9,True, , , , , ,Anglo-Amerịka, , 
-daniel2_1,Eze Nebukadneza,King Nebuchadnezzar,607 BCE,B9,True, , , , , ,Eze Nebukadneza, , 
-daniel2_2,bibiri Jeruselem,destroys Jerusalem, ,B9,True, , , , , ,ebibie Jeruselem, , 
-daniel2_3,Ha meriri Babịlọn,Conquers Babylon,539 BCE,B9,True, , , , , ,Emerie Babilọn, , 
-daniel2_4,Saịrọs nyere iwu ka ndị,Cyrus decrees return,537 BCE,B9,True, , , , , ,Saịrọs enye iwu ka e weghachite, , 
-daniel2_5,Juu laghachi Jeruselem,of Jews to Jerusalem, ,B9,True, , , , , ,ndị Juu na Jeruselem, , 
-daniel2_6,Alegzanda Onye Ukwu,Alexander the Great,331 BCE,B9,True, , , , , ,Alezanda Onye Ukwu, , 
-daniel2_7,meriri Peshia,conquers Persia, ,B9,True, , , , , ,emerie Peshịa, , 
-daniel2_8,Ndi Rom chịwara Izrel,Rules over Israel,63 BCE,B9,True, , , , , ,Chịwa Izrel, , 
-daniel2_9,Ha bibiri Jeruselem,Destroys Jerusalem,70 CE,B9,True, , , , , ,Ebibie Jeruselem, , 
-daniel2_10,Briten na Amerịka,"During World War I,",1914-1918 CE,B9,True, , , , , ,"N'oge Agha Ụwa Mbụ,", , 
-daniel2_11,chịwara ụwa malite,Anglo-American World Power, ,B9,True, , , , , ,Ike Ọchịchị Ụwa nke Anglo-Amerịka, , 
-daniel2_12,n’oge Agha Ụwa nke Mbụ,comes into being,End 4.2,B9,True, , , , , ,ebido ịdị, , 
-607BCE,607 T.O.N.K.,607 B.C.E.,accommodate for language,B9,True, , , , , ,607 T.O.A., , 
-539BCE,539 T.O.N.K.,539 B.C.E.,systems in style:,B9,True, , , , , ,539 T.O.A., , 
-537BCE,537 T.O.N.K.,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , ,537 T.O.A., , 
-331BCE,331 T.O.N.K.,331 B.C.E.,so they need a word,B9,True, , , , , ,331 T.O.A., , 
-63BCE,63 T.O.N.K.,63 B.C.E.,prior to the year,B9,True, , , , , ,63 T.O.A., , 
-70CE,70 O.N.K.,70 C.E.,and something,B9,True, , , , , ,70 O.A., , 
-1914CE,1914-1918 O.N.K.,1914-1918 C.E.,after the year,B9,True, , , , , ,1914-1918 O.A., , 
-7times,Mkpughe 12:9,Revelation 12:9, ,scripture,False, , , , , ,Mkpughe 12:9, , 
-infliction2,Ọrụ Ndịozi 7:6,Acts 7:6, ,scripture,False, , , , , ,Ọrụ Ndịozi 7:6, , 
-eastern-zhou,770-256 BC,770-256 BC, ,span_bc,False, , , , , ,770-256 T.O.A., , 
-430years,1943 - 1513 T.O.A.,1943 – 1513 B.C.E., ,span_bce,False, , , , , ,1943 – 1513 T.O.A., , 
-eastern-han,25-220 OA,25-220 CE, ,span_ce,False, , , , , ,25-220 O.A., , 
-northern-dynasties,368-581 OA,368-581 CE, ,span_ce,False, , , , , ,368-581 O.A., , 
-southern-dynasties,420-589 OA,420-589 CE, ,span_ce,False, , , , , ,420-589 O.A., , 
+wilderness,Israel nọ n'ọhịa 1513 ruo 1473 T.O.A. - afọ 40,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , ,Izrel n'ala ịkpa 1513 ruo 1473 T.O.A. – afọ 40,Izrel n'ọhịa site na 1513 ruo 1473 T.O.A. – afọ 40,Izrel n'ọzara 1513 ruo 1473 Tupu Kraịst – afọ iri anọ
+timespan_judges,1473 ruo 1117 T.O.A. - afọ 356,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , ,1473 ruo 1117 T.O.A. – afọ 356,1473 ruo 1117 T.O.A. – afọ 356,1473 ruo 1117 tupu Kraịst – afọ 356
+timespan_judges2,Oge ndị ikpe,Time of the judges, ,text,False, , , , , ,Oge ndị ikpe,Oge ndị ikpe,Oge ndị ikpe
+temple2,479 afọ ruo mgbe ụlọ nsọ na-ewu - 1 Ndị Eze 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , , ,Afọ 479 ruo mgbe e wuru ụlọ nsọ – 1 Ndị Eze 6:1,Afọ 479 ruo oge iwu ụlọ nsọ – 1 Eze 6:1,Afọ 479 ruo mgbe a ga-ewu ụlọ nsọ – 1 Ndị Eze 6:1
+69weeks2,Izu 69 nye Mesaya - Daniel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , , ,Izu 69 ruo mgbe Mesaya bịara – Daniel 9:25,Izu 69 ruo Mesaia – Daniẹl 9:25,Izu iri isii na iteghete ruo Mesaya – Daniel 9:25
+jesus_service,"Afọ 3.5 nke ozi Jizọs, gburu Nisan 14th, 33 O.A.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , , ,"Afọ 3.5 nke ozi Jizọs, e gburu ya na Naịsan 14, 33 O.A.","Afọ 3.5 nke ọrụ Jizọs, a gbụrụ ya n'ụbọchị Nisan nke 14, 33 T.O.","Afọ atọ na ọkara nke ọrụ Jisọs, e gbuuru ya na Nisan 14, afọ 33 AD."
+jesus_life,A mụrụ Jizọs n'afọ 2 T.O.A.,Jesus born 2 B.C.E., ,text,False, , , , , ,A mụrụ Jizọs na 2 T.O.A.,A mụrụ Jizọs na 2 T.O.A.,Jisọs mụrụ na afọ 2 tupu Kraịst.
+exile,607 ruo 537 T.O.A. - afọ 70 (Jeremaịa 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , , ,607 ruo 537 T.O.A. – afọ 70 (Jeremaya 25:11),607 ruo 537 T.O.A. – afọ 70 (Jeremaya 25:11),607 ruo 537 B.C.E. – afọ iri asaa (Jeremaya 25:11)
+exile2,a chụgara n'agha,Exile, ,text,False, , , , , ,Mkpọrọ n'ala ọzọ,Nkwekọrịta,Ịtụpụ
+7times2,Ugboro 7 - afọ 2520 ruo Alaeze Mesaya 1914 O.A. (Daniel 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , , ,Oge 7 – afọ 2520 ruo n'Alaeze Mesaya 1914 O.A. (Daniel 4:23),Oge 7 – afọ 2520 ruo Alaeze Mesaia 1914 T.O. (Daniẹl 4:23),Ugboro asaa – afọ 2520 ruo Alaeze Mesaya n'afọ 1914 C.E. (Daniel 4:23)
+ww1,Agha Ụwa Mbụ - 1914–1918 O.A.,World War I – 1914–1918, ,text,False, , , , , ,Agha Ụwa Mbụ – 1914–1918,Agha Ụwa Mbu – 1914–1918,Agha Ụwa Mbụ – 1914–1918
+ww2,Agha Ụwa nke Abụọ - 1939–1945 O.A.,World War II – 1939–1945, ,text,False, , , , , ,Agha Ụwa nke Abụọ – 1939–1945,Agha Ụwa Nke Abụọ – 1939–1945,Agha Ụwa nke Abụọ – 1939–1945
+30_year_war,Agha Afọ Iri Atọ na Europe 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , , ,Agha Afọ Iri Atọ na Yurop 1618-1648,Agha Afọ Ọchekwu n'Europe 1618-1648,Agha Afọ Iri Atọ na Europe 1618-1648
+joshua,110 afọ,110 years, ,text,False, , , , , ,Afọ 110,Afọ 110,otu narị na iri afọ
+caleb,Ihe karịrị afọ 85,more than 85 years, ,text,False, , , , , ,karịa afọ 85,ihe karịrị afọ 85,karịrị afọ iri asatọ na ise
+missionary1,"Njem Ozi Ala Ọzọ mbụ nke Pọl, ihe dị ka 47-48 OA na Banabas na Jọn Mak","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , , ,"Njem Oziọma Mbụ nke Pọl, ihe dị ka 47-48 O.A. ya na Banabas na Jọn Mak","Njem Ozi Mbu nke Pọl, ihe dị ka 47-48 T.O. ya na Banabas na Jọn Mak","Njem ozi mbụ nke Pọl, ihe dị ka afọ 47–48 AD, ya na Barnabas na Jọn Mak"
+circumcision,"Okwu ibi úgwù n'Antiọk, nzukọ dị na Jeruselem ihe dị ka afọ 49 O.A.","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , , ,"Okwu ibi úgwù n'Antiọk, nzukọ na Jeruselem ihe dị ka 49 O.A.","Okwu gbasara ikwa mgbachi n'Antiọk, nzukọ na Jeruselem ihe dị ka 49 T.O.","Nsogbu ịkpụ akpụkpọ n'Antioch, nzukọ na Jerusalem ihe dị ka afọ 49 AD."
+missionary2,Njem Ozi Ala Ọzọ nke Abụọ c. 49-52 OA na Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , , ,Njem Oziọma nke Abụọ ihe dị ka 49-52 O.A. ya na Saịlas (Silvanọs),Njem Ozi Nke Abụọ ihe dị ka 49-52 T.O. ya na Sailas (Silivanas),Njem ozi nke abụọ c. 49–52 C.E. na Silas (Silvanus)
+missionary3,Njem Ozi Ala Ọzọ nke Atọ c. 52-56 O.A.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , , ,Njem Oziọma nke Atọ ihe dị ka 52-56 O.A.,Njem Ozi Nke Atọ ihe dị ka 52-56 T.O.,Njem ozi nke atọ c. 52–56 C.E.
+caesarea,Pọl nọ n'ụlọ mkpọrọ na Sesaria c. 56-58 O.A.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , , ,Pọl n'ụlọ mkpọrọ na Sizaria ihe dị ka 56-58 O.A.,Pọl n'mkpọrọ na Sizeria ihe dị ka 56-58 T.O.,Pọl nọ n'aka ndị uweojii na Caesarea ihe dị ka afọ 56 ruo 58 AD.
+rome1,A tụọ Pọl mkpọrọ mbụ na Rom 59-61 O.A.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , , ,Mkpọrọ mbụ Pọl nọrọ na Rom ihe dị ka 59-61 O.A.,Mkpọrọ Pọl nke mbu na Rom ihe dị ka 59-61 T.O.,Mkpọrọ mbụ Pọl n'Rome c. 59–61 C.E.
+rome2,"Mkpọrọ nke abụọ Pọl na Rom 65 OA, 2 Timoti dere, Pọl gburu","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , , ,"Mkpọrọ nke abụọ Pọl nọrọ na Rom ihe dị ka 65 O.A., e dere 2 Timoti, e gburu Pọl","Mkpọrọ Pọl nke abụọ na Rom ihe dị ka 65 T.O., a dere 2 Timoti, a gbụrụ Pọl","Mkpọrọ nke abụọ Pọl n'Rọm gburugburu afọ 65 AD, e dere Akwụkwọ Timoti nke Abụọ, a gbuuru Pọl"
+event_exodus,"Ọpụpụ site n'Ijipt na Nisan 14th, 1513 T.O.A.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , , ,"Ọpụpụ n'Ijipt na Naịsan 14, 1513 T.O.A.","Ọpụpụ n'Ijipt n'ụbọchị Nisan nke 14, 1513 T.O.A.","Ịpụ n'Ijipt na Nisan 14, 1513 B.C.E."
+event_division_kingdom,Nkewa nke Israel 997 BCE,Division of Israel 997 BCE, ,text,False, , , , , ,Nkewa nke Izrel 997 T.O.A.,Ịkewapụ Izrel 997 T.O.A.,Nkewa nke Israel 997 Tupu Kraịst
+event_destruction_samaria,Mbibi nke Sameria 740 T.O.A. nke Asiria,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , , ,Mbibi nke Sameria na 740 T.O.A. site n'aka Asịrịa,Ọchịchọ Samariya 740 T.O.A. site n'aka Asiria,Mbibi Samaria n'afọ 740 Tupu Kraịst site n'aka Asiria
+event_destruction_jerusalem1,"Mbibi nke Jerusalem 607 T.O.A. site na Babilọn, afọ 390 mgbe nkewa nke alaeze ahụ gasịrị (Ezikiel 4: 5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , , ,"Mbibi nke Jeruselem na 607 T.O.A. site n'aka Babilọn, afọ 390 mgbe nkewa alaeze ahụ gasịrị (Ezikiel 4:5)","Ọchịchọ Jeruselem 607 T.O.A. site n'aka Babilọn, afọ 390 ka e kewara alaeze ahụ (Ezekiel 4:5)","Mbibi Jerusalem n'afọ 607 Tupu Kraịst site n'aka Babilọn, afọ 390 mgbe e kewara alaeze (Ezekiel 4:5)"
+event_temple_rebuilt,E wughachiri ụlọ nsọ dị na Jeruselem n'afọ 515 T.O.A.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , , ,E wughachiri ụlọ nsọ dị na Jeruselem na 515 T.O.A.,A wughachiri ụlọ nsọ na Jeruselem 515 T.O.A.,E wurughachiri ụlọ nsọ dị na Jerusalem n'afọ 515 Tupu Kraịst.
+event_jerusalem_rebuilt,E wughachiri mgbidi Jeruselem n'afọ 455 T.O.A.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , , ,E wughachiri mgbidi Jeruselem na 455 T.O.A.,A wughachiri mgbidi Jeruselem 455 T.O.A.,A wughachiri mgbidi Jerusalem n'afọ 455 Tupu Kraịst.
+event_destruction_jerusalem2,Mbibi nke Jerusalem 70 O.A. site rome n'okpuru Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , , ,Mbibi nke Jeruselem na 70 O.A. site n'aka Rom n'okpuru Taịtọs,Ọchịchọ Jeruselem 70 T.O. site n'aka Rom n'okpuru Taịtas,Mbibi Jerusalem n'afọ iri asaa Kraịst site n'aka Rom n'okpuru Titus
+event_1914,"Ọgwụgwụ oge nke mba dị iche iche (Luk 21:24), alaeze Chineke malitere ịchị n'eluigwe n'afọ 1914 O.A.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , , ,"Ọgwụgwụ nke oge a kara aka nke mba niile (Luk 21:24), Alaeze Chineke ebidola ịchị n'eluigwe 1914 O.A.","Njedebe oge ndị mba (Luk 21:24), Alaeze Chineke malitere ịchị n'igwe 1914 T.O.","N'ikpeazụ nke oge mba ụwa (Luka 21:24), Alaeze Chineke malitere ịchị n'eluigwe na 1914 AD."
+became_king,ghọrọ eze mgbe ọ dị afọ,becomes king at age, ,text,False, , , , , ,ghọrọ eze mgbe ọ dị afọ,bụ eze n'afọ,ghọrọ eze n'afọ
+vulgate,Vulgate dechara site Jerome (Latin translation of the Bible) c. 405 O.A.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , , ,Jerom dechara Vulgate (nsụgharị Baịbụl n'asụsụ Latịn) ihe dị ka 405 O.A.,A mezụrụ Vulgat site n'aka Jerom (ntụgharị Latin nke Baịbụl) ihe dị ka 405 T.O.,Vulgate e mezuru site n'aka Jerome (ntụgharị Latin nke Baịbụl) ihe dị ka afọ 405 AD.
+gutenberg,Gutenberg Bible e biri ebi 1455,Gutenberg Bible printed 1455, ,text,False, , , , , ,E biri Baịbụl Gutenberg na 1455,E bipụtara Baịbụl Gutenberg na 1455,Baịbụl Gutenberg bipụtara na 1455
+erasmus,Ihe odide Grik nke Akwụkwọ Nsọ Grik nke Ndị Kraịst bipụtara Desiderius Erasmus nke Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , , ,Desiderius Erasmus nke Rotterdam bipụtara ederede Grik nke Akwụkwọ Nsọ Grik nke Ndị Kraịst na 1516,E bipụtara ederede Grik nke Akwụkwọ Nsọ Grik nke Ndị Kraịst site n'aka Desiderius Erasmus nke Rotterdam na 1516,Akwụkwọ Grik nke Akwụkwọ Nsọ Ndị Kraịst bipụtara site n'aka Desiderius Erasmus nke Rotterdam n'afọ 1516
+luther,Nsụgharị Baịbụl Luther na September 1522,Luther Bible translation in September 1522, ,text,False, , , , , ,Nsụgharị Baịbụl Luther na Septemba 1522,Ntụgharị Baịbụl Luther n'ọnwa Septemba 1522,Ntụgharị Baịbụl Luther na Septemba 1522
+tyndale,Nsụgharị Baịbụl Bekee nke Tyndale 1536 sụgharịrị,English Bible translation by Tyndale 1536, ,text,False, , , , , ,Nsụgharị Baịbụl Bekee nke Tyndale 1536,Ntụgharị Baịbụl n'asụsụ Inglish site n'aka Tyndale 1536,"Ntụgharị Baịbụl Bekee nke Tyndale, 1536"
+king_james,King James Bible 1611,King James Bible 1611, ,text,False, , , , , ,Baịbụl King James 1611,Baịbụl King James 1611,Akwụkwọ Nsọ King James 1611
+69weeks3,"Jizọs malitere ọrụ ya 29 OA (Luk 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Jisosụ malite ọrụ ya 29 CE (Luk 3:1, 21)","Jizọs malitere ozi ya na 29 O.A. (Luk 3:1, 21)","Jizọs malitere ọrụ ya 29 T.O. (Luk 3:1, 21)","Jisọs malitere ọrụ ya na afọ iri abụọ na iteghete AD (Luka 3:1, 21)"
+ransom,"N'etiti izu ""àjà ịkwụsị"" Daniel 9:27",Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,"Etiti izu ""aja nsọ kụrụ nkwụsị"" Daniel 9:27",N'etiti izu “àjà ga-akwụsị” Daniel 9:27,"Etiti izu ""ọ ga-akwụsị aja"" Daniẹl 9:27","N'etiti izu ""ọla iji kwụsị"" Daniel 9:27"
+cornelius,Kọnịliọs mere baptizim ná ngwụsị izu 70 (Daniel 9:24) na 36 O.A.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Cornelius batizrị na njedebe nke ụmụ iri asaa (Daniel 9:24) n'afọ 36 C.E.,E mere Kọniliọs baptizim na ngwụcha izu 70 (Daniel 9:24) na 36 O.A.,A baptịzịrị Kọneliọs na njedebe izu 70 (Daniẹl 9:24) na 36 T.O.,Cornelius natara baptizim n'ikpeazụ izu iri asaa (Daniel 9:24) n'afọ 36 AD.
+columbus,Oge njedebe nke oge tupu Columbia na America 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,Njedebe oge tupu Columbian na Americas 1492,Ọgwụgwụ nke oge tupu Columbus abịa n'Amerịka 1492,Njedebe oge tupu Kolombas na Amerika 1492,Njedebe nke oge tupu Columbus n'Amerịka 1492
+declaration_independence,Nkwupụta nke nnwere onwe nke 13 colonies na America 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,Nkwupụta nke onwe ya nke mkpụrụ ndụ 13 na America 1776,Nkwupụta nnwere onwe nke mba 13 nọ n'okpuru ọchịchị n'Amerịka 1776,Nkwupụta nnwere onwe nke obodo 13 na Amerika 1776,Nkwupụta nnwere onwe nke koloni iri na atọ dị na Amerịka n'afọ 1776
+tischendorf,Tischendorf na-achọpụta Codex Sinaiticus site na narị afọ nke 4 na 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf chọtara Codex Sinaiticus nke narị anọ n'afọ 1844,Tischendorf chọtara Codex Sinaiticus nke narị afọ nke 4 na 1844,Tischendorf chọtara Codex Sinaiticus nke narị afọ nke 4 na 1844,Tischendorf chọpụtara Codex Sinaiticus nke narị afọ nke anọ na 1844
+dead_sea_scrolls,Akwụkwọ Mpịakọta Oké Osimiri Nwụrụ Anwụ e dere,Dead Sea Scrolls written, ,text,False, , , , ,Akwụkwọ ozu Dead Sea edere,E dere Akwụkwọ Mpịakọta Osimiri Nwụrụ Anwụ,E dere Scroll nke Oyi Mmiri Ọku,Akwụkwọ Nkọwa Oké Osimiri Nwụrụ Anwụ edere
+septuagint,Septuagint LXX sụgharịrị,Septuagint LXX translated, ,text,False, , , , ,Septuagint LXX e dere ya,A sụgharịrị Septuagint LXX,E tụgharịa Septuagint LXX,Septuagint LXX tụgharịrị
+watchtower,"E bipụtara mbipụta mbụ nke ""Zion's Watch Tower and Herald of Christ's Presence"" na 1879",The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,"Mbipụta mbụ nke ""Zion's Watch Tower and Herald of Christ's Presence"" bipụtara n'afọ 1879",E bipụtara mbipụta mbụ nke “Ụlọ Nche Zayọn na Onye Na-ekwupụta Ọnụnọ Kraịst” na 1879,"E bipụtara mbipụta mbu nke ""Zion's Watch Tower and Herald of Christ's Presence"" na 1879","Mbipụta mbụ nke ""Zion's Watch Tower and Herald of Christ's Presence"" bipụtara na 1879."
+jehovahs_witnesses,"Ndị Mmụta Bible nakweere aha ọhụrụ—Ndịàmà Jehova (Aịsaịa 43:10, 12) na Columbus, Ohio, 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"Ndị ọmụmụ Baibul nabatara aha ọhụrụ – Ndị akaebe Jehova (Isaiah 43:10, 12) na Columbus, Ohio, 1931","Ndị Mmụta Baịbụl nara aha ọhụrụ – Ndịàmà Jehova (Aịzaya 43:10, 12) na Columbus, Ohio, 1931","Ndị Nọmba Baịbụl nabatara aha ọhụrụ – Ndị Ọchịchọ Jehova (Aịzaya 43:10, 12) na Columbus, Ohio, 1931","Ndị na-amụ Baịbụl nabatara aha ọhụrụ – Ndị àmà Jihova (Aisaia 43:10, 12) na Columbus, Ohio, n'afọ 1931"
+gilead_school,"Ụlọ Akwụkwọ Gilied malitere na Mọnde, Febụwarị 1, 1943","Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,"Watchtower Bible School of Gilead malite na Mọnde, Febụwarị 1, 1943","Ụlọ Akwụkwọ Baịbụl Watchtower nke Gilied malitere na Mọnde, Febụwarị 1, 1943","Watchtower Bible School nke Gilead malitere n'ụbọchị Mọnde, Febrụwarị 1, 1943","Ụlọ Akwụkwọ Baịbụl Watchtower Gilead malitere na Mọnde, Febụwarị 1, 1943."
+new_world_translation1,"“Nsụgharị Ụwa Ọhụrụ nke Akwụkwọ Nsọ” e wepụtara na Manchester, England na June 18, 1960, eweghachighachiri aha Jehova n’ọtụtụ akụkụ nke Bible","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"""New World Translation of the Holy Scriptures"" tọhapụrụ na Manchester, England na June 18, 1960, na-eweghachi aha Jehova n'ọtụtụ akụkụ nke Baibul","E wepụtara “Baịbụl Nsọ—Nsụgharị Ụwa Ọhụrụ” na Manchester, England na Juun 18, 1960, ma weghachite aha ahụ bụ Jehova n'ọtụtụ akụkụ Baịbụl","E wepụtara ""New World Translation of the Holy Scriptures"" na Manchester, England n'ụbọchị Juun 18, 1960, wetara aha Jehova n'ọtụtụ akụkụ nke Baịbụl","Ntụgharị Ụwa Ọhụrụ nke Akwụkwọ Nsọ kpụpụtara na Manchester, England na June 18, 1960, weghachitere aha Jehovah n'ọtụtụ akụkụ nke Akwụkwọ Nsọ."
+new_world_translation2,"Revised ""New World Translation of the Holy Scriptures"" wepụtara na nzukọ kwa afọ 2013, kachasị mma iji mee ihe na dijitalụ na ntanetị","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"""New World Translation of the Holy Scriptures"" emezigharịrị tọhapụrụ na nzukọ kwa afọ 2013, ka mma iji ya na ntanetị na ntanetị","E wepụtara “Baịbụl Nsọ—Nsụgharị Ụwa Ọhụrụ” e degharịrị edegharị na nzukọ kwa afọ 2013, nke e mere ka ọ dị mfe iji na kọmputa na n'ịntanetị","E wepụtara ""New World Translation of the Holy Scriptures"" nke e duzịrị ọzọ n'nzukọ kwa afọ 2013, e duzịrị ya ka a nwee ike iji ya na dijitalụ na n'ịntanetị","Mgbanwe emelitere nke ""Ntụgharị Ụwa Ọhụrụ nke Akwụkwọ Nsọ"" wepụtara na nzukọ kwa afọ nke 2013, haziri ya ka eji ya na dijitalụ na n'ịntanetị."
+cold_war,"Ọnọdụ geopolitical kpọrọ ""Agha Nzuzo"" 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,"Ọnọdụ gburugburu ụwa akpọrọ ""Agha Ojii"" 1945-1991",Ọnọdụ ndọrọ ndọrọ ọchịchị mba ụwa a kpọrọ “Agha Nzuzo” 1945-1991,"Ọnọdụ geopọlitikọl a kpọrọ ""Agha Oyi"" 1945-1991","Ọnọdụ ndọrọndọrọ ụwa akpọrọ ""Agha Oyi"" 1945–1991"
+codex_sinaiticus,Codex Sinaiticus dere,Codex Sinaiticus written, ,text,False, , , , ,Codex Sinaiticus edere,E dere Codex Sinaiticus,E dere Codex Sinaiticus,E dere Codex Sinaiticus
+codex_vaticanus,Codex Vaticanus dere,Codex Vaticanus written, ,text,False, , , , ,Codex Vaticanus edere,E dere Codex Vaticanus,E dere Codex Vaticanus,Koodex Vaticanus edere
+leningrad_codex,Leningrad Codex e dere na Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Leningrad Codex edere na Cairo AD 1008,E dere Leningrad Codex na Cairo 1008 O.A.,E dere Codex Leningrad na Kairọ na 1008 T.O.,Koodex Leningrad e dere na Cairo n'afọ AD 1008
+john,"Jọn dere ""mkpughe"" mgbe a chụgara ya n'agha na Patmọs 96-98 O.A.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,"John dere ""mkpughe"" mgbe a chụpụrụ ya na Patmos 96-98 C.E.",Jọn dere “Mkpughe” mgbe a chụgara ya n'àgwàetiti Patmọs 96-98 O.A.,"Jọn dere ""Nkọchapụta"" ka a wepụrụ ya n'ọnụ n'Patmos 96-98 T.O.","Jọn dere ""Mkpughe"" mgbe ọ nọ n'ọgbanje na Patmos n'afọ 96 ruo 98 A.K."
+buddha,Buddha - Siddhartha Gautama c.563-c.483 T.O.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,Onye amụma Buddha – Siddhartha Gautama c.563-c.483 B.C.E,Buddha – Siddhartha Gautama ihe dị ka 563-ihe dị ka 483 T.O.A.,Buda – Siddhartha Gautama ihe dị ka 563 – ihe dị ka 483 T.O.A.,Buddha – Siddhartha Gautama c.563–c.483 B.C.E
+buddha2,Buddha alternatively c. 480-400 T.O.A.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Buddha n'ụzọ ọzọ c. 480-400 B.C.E.,Buddha n'ụzọ ọzọ ihe dị ka 480-400 T.O.A.,"Ọzọ, Buda ihe dị ka 480-400 T.O.A.",Buddha n'aka nke ọzọ ihe dị ka afọ 480 ruo 400 Tupu Kraịst
+mohammed,Mohammed c. 570-632 O.A.,Mohammed c. 570-632, ,text,False, , , , , ,Mohammed ihe dị ka 570-632,Mohammed ihe dị ka 570-632, 
+confucius,Confucius c.551-c.479 T.O.A.,Confucius c.551-c.479 B.C.E., ,text,False, , , , , ,Confucius ihe dị ka 551-ihe dị ka 479 T.O.A.,Konfushias ihe dị ka 551 – ihe dị ka 479 T.O.A., 
+hijrah,Hijrah - Njem Mecca ka Medina 16 July 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Hijrah - Njem Mecca gaa Medina 16 Julaị 622,Hijrah - Njem site na Mecca gaa Medina 16 Julaị 622,Hijrah - Njem site na Meka gaa Medina 16 Julaị 622,Hijrah - njem si Mecca ruo Medina 16 Julaị 622
+moses_escape,"1553 T.O.A. Mozis aghaghị ịgbanahụ Ijipt - Ọpụpụ 2:15, Ọrụ 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 B.C.E. Moses ga-anọ mgbe ọ gbalaga Egypt – Exodọs 2:15, Ndị Ọrụ 7:23","1553 T.O.A. Mozis gbara ọsọ si n'Ijipt – Ọpụpụ 2:15, Ọrụ Ndịozi 7:23","1553 T.O.A. Mosis garịrị ọsọ n'Ijipt – Ọpụpụ 2:15, Ọrụ 7:23","1553 B.C.E. Mose ga-agbapụ na Egypt – Exọdus 2:15, Ihe Ọrụ Ndịozi 7:23"
+10plagues,1513 T.O.E Ijipt na-enweta ihe otiti 10,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 B.C.E Egypt natara ọrịa iri,1513 T.O.A. Ijipt natara ihe otiti 10,1513 T.O.A. Ijipt natara ọrịa iri,"1513 Tupu Kraịst, Egypt natara ọrịa iri."
+joseph_sold,Josef rere dị ka ohu mgbe ọ dị afọ 17 - Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Joseph reere ya dịka ohu mgbe ọ dị afọ iri na asaa – Jen 37:2,E rere Josef dị ka ohu mgbe ọ dị afọ 17 – Jen 37:2,E rere Jozef dị ka ohu n'afọ 17 – Mak 37:2,E rere Jọsif dị ka ohu mgbe ọ dị afọ iri na asaa – Jenesis 37:2
+infliction,400 afọ infliction (Ọrụ 7:6) - Ishmael 1913 T.O.A,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,Afọ 400 ihe mmerụ ahụ (Ndị Ọrụ 7:6) – Ishmael 1913 B.C.E,Mmegbu nke afọ 400 (Ọrụ Ndịozi 7:6) – Ishmel 1913 T.O.A.,Mmekpachi afọ 400 (Ọrụ 7:6) – Izimael 1913 T.O.A.,Mkpọchi afọ narị anọ (Acts 7:6) – Ishmael 1913 B.C.E
+Alexander,Alexander OnyeUkwu (Daniel 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Alexander Onye Uko (Daniel 11:3),Alezanda Onye Ukwu (Daniel 11:3),Aleksanda Onye Ọchịchọ (Daniẹl 11:3),Alexander Onye Kasị Elu
+persia,"Saịrọs Onye Ukwu, Cambyses II, Darayọs Nke Mbụ 490 TOA, Xerxes I 480 TOA (di Esta, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Cyrus Onye Uko, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (di Esther, Daniel 11:2)","Saịrọs Onye Ukwu, Cambyses nke Abụọ, Darayọs Mbụ 490 T.O.A., Zọksis Mbụ 480 T.O.A. (di Esta, Daniel 11:2)","Saịras Onye Ọchịchọ, Kambaysis II, Dariọs I 490 T.O.A., Zeksịs I 480 T.O.A. (di Esta, Daniẹl 11:2)","Sairas Onye Ukwu, Kambisesi nke Abụọ, Darius nke Mbụ 490 tupu Kraịst, Xerxes nke Mbụ 480 tupu Kraịst (di Esther, Daniel 11:2)"
+king_north,"Seleucus I Nicator (v5) Siria ruo Antiọkus III (v10) na Seleucus IV (v18, 19) ruo Octavian (v20) na Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"Seleucus I Nicator (v5) Syria gaa Antiochus III (v10) na Seleucus IV (v18, 19) ruo Octavian (v20) na Tiberius (v21-24)","Seleucus Mbụ Nicator (amaokwu 5) Siria ruo Antiochus nke Atọ (amaokwu 10) na Seleucus nke Anọ (amaokwu 18, 19) ruo Octavian (amaokwu 20) na Taịbiriọs (amaokwu 21-24)","Selukọs I Nikatọ (nd5) Siria ruo Antiọkọs III (nd10) na Selukọs IV (nd18, 19) ruo Ọktavian (nd20) na Tibiriọs (nd21-24)","Seleucus I Nicator (v5) Syria ruo Antiochus III (v10) na Seleucus IV (v18, 19) ruo Octavian (v20) na Tiberius (v21-24)"
+king_north1,Eze Ugwu,King of the North, ,text,False, , , , ,Eze nke Ugwu,Eze Ugwu,Eze Ugwu Ugwu,Eze nke Ugwu
+king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) ruo n'agha Actium 31 T.O.A.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) gaa n'agha Actium 31 B.C.E.","Ptolemy Mbụ, nke Abụọ, nke Atọ, nke Anọ (amaokwu 11, 12), nke Ise (amaokwu 15, 16) ruo n'agha Actium 31 T.O.A.","Ptolemi I, II, III, IV (nd11, 12), V (nd15, 16) ruo agha Aktium 31 T.O.A.","Ptolomi I, II, III, IV (v11, 12), V (v15, 16) ruo Agha Actium nke afọ 31 Tupu Kraịst."
+king_south1,Eze Ndịda,King of the South, ,text,False, , , , ,Eze nke Ndịda,Eze Ndịda,Eze Ndịda,Eze nke ndịda
+king_south2,"Alaeze Ukwu Britain 1870, Anglo-American World Power kemgbe 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"British Empire 1870, ike ụwa Anglo-American kemgbe 1914","Alaeze Ukwu Britain 1870, Ike Ọchịchị Ụwa nke Anglo-Amerịka kemgbe 1914","Alaeze Britain 1870, Ike Ụwa Anglo-Amerika kemgbe 1914","Alaeze Britain 1870, Ike ụwa Anglo-Amerịka kemgbe 1914"
+king_south3,Eze Ndịda,King of the South, ,text,False, , , , ,Eze nke Ndịda,Eze Ndịda,Eze Ndịda,Eze nke ndịda
+king_north2,"Germany na Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Germany na Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Jamanị ya na Eze Ukwu William Mbụ 1871 (amaokwu 28), 1914 (amaokwu 29), 1935 (amaokwu 30b), 1939 (amaokwu 31a)","Jaman ya na Emepara Wilhelm I 1871 (nd28), 1914 (nd29), 1935 (nd30b), 1939 (nd31a)","Germany na Eze William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,North,North, ,text,False, , , , ,Ugwu,Ugwu,Ugwu Ugwu,Ugwu
+king_north4,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , , ,"Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)","Ózonye Soviet 1945-1991 (Daniẹl 11:32-39, 40b, 41)", 
+king_north5,Russia kemgbe 2017 (w20 May),Russia since 2017 (w20 May), ,text,False, , , , ,Russia kemgbe 2017 (w20 May),Rọshịa kemgbe 2017 (w20 Mee),Rọshia kemgbe 2017 (w20 Mee),Russia kemgbe 2017 (w20 Mee)
+time_of_end,"Ọnụnọ nke Kraịst, Mmechi nke usoro ihe (Matiu 24: 3), ụbọchị ikpeazụ (2 Timoti 3: 1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"Ọnụnọ Kristi, Mkpokọta nke usoro ihe ndị a (Matiu 24:3), ụbọchị ikpeazụ (2 Timoti 3:1)","Ọnụnọ Kraịst, Ọgwụgwụ nke usoro ihe a (Matiu 24:3), mgbe ikpeazụ (2 Timoti 3:1)","Ọnọdụ Kraịst, Njedebe nke usoro ihe ndị dị ugbu a (Matiu 24:3), ụbọchị ndị ikpeazụ (2 Timoti 3:1)","Inọchiteanya Kraịst, njedebe usoro ihe niile (Matiu 24:3), ụbọchị ikpeazụ (2 Timoti 3:1)"
+time_of_end2,Ụbọchị ikpeazụ,Last days, ,text,False, , , , ,Ụbọchị ikpeazụ,Mgbe ikpeazụ,Ụbọchị ndị ikpeazụ,Ụbọchị ikpeazụ
+suryavaman2,Eze Suryavarman II na-ewu Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,Eze Suryavarman II wuru Angkor Wat 1113-1150,Eze Suryavarman nke Abụọ wuru Angkor Wat 1113-1150,Eze Suryavarman II wuru Angkor Wat 1113-1150,Eze Suryavarman II wuru Angkor Wat n'afọ 1113 ruo 1150
+notre-dame,Notre-Dame de Paris wuru 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,Notre-Dame de Paris wuchara 1163-1260,E wuru Notre-Dame de Paris 1163-1260,E wurụ Notre-Dame de Paris 1163-1260,Notre-Dame de Paris wuru n'afọ 1163 ruo 1260
+babel,Ụlọ elu nke Babel wuru,Tower of Babel built, ,text,False, , , , ,Ụlọ elu Babel wuchara,E wuru Ụlọ Elu Bebel,E wurụ Ụlọ Elu Babel,E wuru ụlọ elu Babel.
+infliction1,400 afọ infliction,400 year infliction,Acts 7:6,text,False, , , , ,Afọ 400 ihe mmerụ ahụ,Mmegbu nke afọ 400,Mmekpachi afọ 400,Mkpọrọ afọ narị anọ
+Lots_wife,Nwunye Lọt,Lot’s wife, ,text,False, , , , ,Nwa nwanyị Lọt,Nwunye Lọt,Nwunye Lot,Nwunye Lot
+Lots_daughters,Ụmụ nwanyị Lot,Daughters of Lot, ,text,False, , , , ,Ụmụ nwanyị Lọt,Ụmụ nwaanyị Lọt,Ụmụ nwanyị Lot,Ụmụ nwanyị Lot
+Moab,Moab (nwa nwanyị nke okenye),Moab (older daughter),Genesis 19:37,text,False, , , , ,Moab (nwa nwanyị nke okenye),Moab (ada nke tọrọ),Moab (ọkpara nwanyị),Moab (nwaanyị okenye)
+rosetta,Rosetta nkume 196 T.O.A.,Rosetta stone 196 B.C.E., ,text,False, , , , , ,Nkume Rosetta 196 T.O.A.,Nkume Roseta 196 T.O.A.,Nkume Rosetta 196 B.C.E.
+Herodotus,"Herodotus c. 484 - c. 425 BC, na-ede The Histories","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , , ,"Herodotus ihe dị ka 484 – ihe dị ka 425 T.O.A., dere Akụkọ Ihe Mere Eme","Herodotọs ihe dị ka 484 – ihe dị ka 425 T.O.A., dere The Histories","Herodotus, ihe dị ka afọ 484 ruo ihe dị ka afọ 425 Tupu Kraịst, dere Akụkọ Ihe Mere Eme"
+Aristotle,Aristotle 384 - 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , , ,Aristotle 384 – 322 T.O.A.,Aristitọl 384 – 322 T.O.A.,Aristotle 384 – 322 Tupu Kraịst
+Ptolemy,Ptolemy c 100 - ihe dị ka 170 O.A.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , , ,Ptolemy ihe dị ka 100 – ihe dị ka 170 O.A.,Ptolemi ihe dị ka 100 – ihe dị ka 170 T.O.,Ptolemy ihe dị ka 100 – ihe dị ka 170 AD
+Pythagoras,Pythagoras c. 570 - c. 495 BC,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , , ,Pythagoras ihe dị ka 570 – ihe dị ka 495 T.O.A.,Pịthagorọs ihe dị ka 570 – ihe dị ka 495 T.O.A.,Pythagoras c. 570 – c. 495 Tupu Kraịst
+Plato,Plato c. 427 - c. 348 BC,Plato c. 427 – c. 348 BC, ,text,False, , , , , ,Plato ihe dị ka 427 – ihe dị ka 348 T.O.A.,Pleto ihe dị ka 427 – ihe dị ka 348 T.O.A.,Plato c. 427 – c. 348 Tupu Kraịst
+Socrates,Socrates c. 470 - c. 399 BC,Socrates c. 470 – c. 399 BC, ,text,False, , , , , ,Socrates ihe dị ka 470 – ihe dị ka 399 T.O.A.,Sokrates ihe dị ka 470 – ihe dị ka 399 T.O.A.,Sokrates c. 470 – c. 399 Tupu Kraịst
+Josephus,Josephus c. 37 - ihe dị ka 100 O.A.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , , ,Josephus ihe dị ka 37 – ihe dị ka 100 O.A.,Jozefọs ihe dị ka 37 – ihe dị ka 100 T.O.,Josephus ihe dị ka 37 ruo ihe dị ka 100 AD
+Cicero,Cicero 106–43 BC,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , , ,Cicero 106–43 T.O.A.,Sisero 106–43 T.O.A.,Cicero 106–43 Tupu Kraịst
+lachish_letters,Akwụkwọ ozi Lachish c. 590 T.O.A.,Lachish letters c. 590 B.C.E., ,text,False, , , , , ,Akwụkwọ ozi Lekish ihe dị ka 590 T.O.A.,Akwụkwọ ozi Lakish ihe dị ka 590 T.O.A.,Akwụkwọ ozi Lachish ihe dị ka afọ 590 Tupu Kraịst
+lachish_reliefs,Lachish reliefs c. 681 T.O.A.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , , ,Ihe a tụrụ atụ nke Lekish ihe dị ka 681 T.O.A.,Ihe osise Lakish ihe dị ka 681 T.O.A.,Ihe osise mgbidi Lachish c. 681 B.C.E.
+mesha_stele,Mesha Stele (nkume Moab) ihe dị ka 840 T.O.A.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , , ,Nkume Mesha (nkume Moab) ihe dị ka 840 T.O.A.,Stele Mesha (nkume Moab) ihe dị ka 840 T.O.A.,Nkume Mesha (nkume Moabite) ihe dị ka afọ 840 Tupu Kraịst
+gilgamesh,Gilgamesh na Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , , ,Gilgamesh na Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh na Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh na Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Epic nke Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , , ,Akụkọ dike nke Gilgamesh (Sîn-lēqi-unninni),Akụkọ Ifo Gilgamesh (Sîn-lēqi-unninni),Akụkọ Ifo Gilgamesh (Sîn-lēqi-unninni)
+gregorian,Gregorian calender 1582,Gregorian calendar 1582, ,text,False, , , , , ,Kalenda Gregorian 1582,Kalịnda Gregorian 1582,Kalenda Gregorian 1582
+shang-dynasty,c. 1600-1046 BC,c. 1600-1046 BC, ,text,False, , , , , ,ihe dị ka 1600-1046 T.O.A.,ihe dị ka 1600-1046 T.O.A.,ihe dị ka 1600–1046 Tupu Kraịst
+western-zhou,c. 1046-771 BC,c. 1046-771 BC, ,text,False, , , , , ,ihe dị ka 1046-771 T.O.A.,ihe dị ka 1046-771 T.O.A.,ihe dị ka 1046–771 Tupu Kraịst
+qin-dynasty,Qin 221-207 BC,Qin 221-207 BC, ,text,False, , , , , ,Qin 221-207 T.O.A.,Qin 221-207 T.O.A.,Qin 221–207 Tupu Kraịst
+western-han,207 BC - 9 OA,207 BC – 9 CE, ,text,False, , , , , ,207 T.O.A. – 9 O.A.,207 T.O.A. – 9 T.O.,afọ 207 tupu Kraịst – afọ 9 n'afọ Kraịst
+three-kingdoms,Alaeze atọ 220-280 OA,Three kingdoms 220-280 CE, ,text,False, , , , , ,Alaeze atọ 220-280 O.A.,Alaeze Atọ 220-280 T.O.,Alaeze atọ 220–280 CE
+sixteen-kingdoms,Alaeze iri na isii 304-439 OA,Sixteen kingdoms 304-439 CE, ,text,False, , , , , ,Alaeze iri na isii 304-439 O.A.,Alaeze Iri na Isii 304-439 T.O.,Alakụba iri na isii 304–439 CE
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , ,"618-690, 705-907","618-690, 705-907", 
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False, , , , , ,690-705 Wu Zhou,690-705 Wu Zhou, 
+tang-dynasty1_c,Tang,Tang, ,text,False, , , , , ,Tang,Tang,Tee
+gonghe,Gonghe Regency 841-828 BC,Gonghe Regency 841-828 BC, ,text,False, , , , , ,Ọchịchị Gonghe 841-828 T.O.A.,Nọchianye Gonghe 841-828 T.O.A.,Gonghe Regency 841–828 Tupu Kraịst
+Ashoka,Ashoka (c. 304-232 BC) na-akwalite okpukpe Buddha,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , , ,Ashoka (ihe dị ka 304-232 T.O.A.) kwalitere okpukpe Buddha,Ashoka (ihe dị ka 304-232 T.O.A.) na-akwalite Bụdizm,Ashoka (ihe dị ka 304–232 Tupu Kraịst) kwalitere okwukwe Buddha.
+siloam-tunnel,Hezekaya gbatịrị ọwara Siloam,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , , ,Hezekaya gbatịrị ọwa mmiri Saịloam,Hezekaya gbawanye olulu mmiri Siloam,Hezekiah gbatịrị oghere Siloam.
+Angloamerica2,"Anglo-American na-anọchi anya ụkwụ ígwè gwakọtara ụrọ na amụma dị na Daniel 2:33, 41-43","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , , ,"E ji ụkwụ ígwè a gwakọtara ụrọ nọchite anya Anglo-Amerịka n'amụma dị na Daniel 2:33, 41-43","Anglo-Amerika na-anọchite anya ụkwụ igwe agwakọtara na ebe nkịtị n'amụma na Daniẹl 2:33, 41-43","Anglo-America na-anọchite anya ụkwụ ígwè jikọtara na aja n'amụma nke Daniel 2:33, 41-43."
+Manetho,Manetho dere Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , , ,Manetho dere Aegyptiaca,Manetho dere Aegyptiaca,Manetho na-ede Aegyptiaca
+destruction_babylon,"Mbibi nke Babilọn Ukwu ahụ (Mkpughe 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , , ,"Mbibi nke Babilọn Ukwu (Mkpughe 17:3, 15-18; 18:9, 10)","Ọchịchọ Babilọn Nnukwu (Nkọchapụta 17:3, 15-18; 18:9, 10)","Mbibi Babilọn Ukwu (Mkpughe 17:3, 15-18; 18:9, 10)"
+peace_security,"“Udo na obi iru ala!” (1 Ndị Tesalonaịka 5:3, nke a bụ otu ihe nwere ike ime, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , , ,"“Udo na nchebe!” (1 Ndị Tesalonaịka 5:3, nke a bụ otu ihe nwere ike ime, QfR 26/2, 25/11)","""Udo na nchekwa!"" (1 Tesalonaịka 5:3, nke a bụ otu ihe o nwere ike ịbụ, QfR 26/2, 25/11)","""Udo na nchebe!"" (1 Ndị Tesalọnika 5:3, nke a bụ otu ohere, QfR 26/2, 25/11)"
+gog_of_magog,"Mwakpo Gọg nke Maggọg (Ezikiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , , ,"Mwakpo nke Gọg nke Megọg (Ezikiel 38:1, 2, 9-12, 18-23)","Mmegide Gog nke Magog (Ezekiel 38:1, 2, 9-12, 18-23)","Mwakpo Gog nke Magog (Ezekiel 38:1, 2, 9-12, 18-23)"
+sheep_goat,"Ekpere ndị bi n’ụwa ikpe, na-ekewa atụrụ na ewu (Matiu 25:31-33)","Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , , ,"A ga-ekpe ndị bi n'ụwa ikpe, na-ekewa atụrụ na ewu (Matiu 25:31-33)","A na-ikpe ndị bi n'ụwa, a na-ekewa atụrụ na ewu (Matiu 25:31-33)","A na-ekpe ndị bi n'ụwa ikpe, na-ekewa atụrụ na ewu (Matiu 25:31-33)"
+annointed,Ịchịkọta ndị ọchịchị Alaeze (Matiu 24:31; 1 Ndị Kọrịnt 15:50-53; 1 Ndị Tesalonaịka 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , , ,Nchịkọta nke ndị ga-achị n'Alaeze ahụ (Matiu 24:31; 1 Ndị Kọrịnt 15:50-53; 1 Ndị Tesalonaịka 4:15-17),Ịzọkọta ndị ọchịchọ Alaeze (Matiu 24:31; 1 Kọrint 15:50-53; 1 Tesalonaịka 4:15-17),Nzukọ ndị ọchịchị alaeze (Matiu 24:31; 1 Kọrint 15:50-53; 1 Tesalọnika 4:15-17)
+armageddon,"Agha Amagedọn (Mkpughe 16:14, 16; Aịzaya 13:9; 2 Pita 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , , ,"Agha Amagedọn (Mkpughe 16:14, 16; Aịzaya 13:9; 2 Pita 3:12)","Agha Armagedọn (Nkọchapụta 16:14, 16; Aịzaya 13:9; 2 Pita 3:12)","Agha Armageddon (Mkpughe 16:14, 16; Aisaya 13:9; 2 Pita 3:12)"
+millenium,"Alaeze Chineke malitere ịchị otu narị afọ ya (Mkpughe 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , , ,"Alaeze Chineke malitere ọchịchị ya nke 1,000 afọ (Mkpughe 5:9, 10; 20:4, 6)","Alaeze Chineke malitere ọchịchọ ya nke afọ 1000 (Nkọchapụta 5:9, 10; 20:4, 6)","Alaeze Chineke malitere ọchịchị ya nke puku afọ (Mkpughe 5:9, 10; 20:4, 6)"
+great_crowd,"Oké ìgwè mmadụ lanarịrị Amagedọn (Mkpughe 7:9, 14; Abụ Ọma 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , , ,"Oké ìgwè mmadụ lanarịrị Amagedọn (Mkpughe 7:9, 14; Abụ Ọma 37:9-11)","Nnukwu ụyọkọ ndị mmadụ lanarị Armagedọn (Nkọchapụta 7:9, 14; Abụ Ọma 37:9-11)","Ọtụtụ mmadụ nọrọ ndụ mgbe Armageddon gasịrị (Mkpughe 7:9, 14; Abụ Ọma 37:9-11)"
+world_population,Ọnụ ọgụgụ ndị bi n'ụwa na ọtụtụ ijeri n'ime afọ 2000 gara aga,World population in billions in the last 2000 years, ,text,False, , , , , ,Ọnụ ọgụgụ ndị bi n'ụwa na ijeri n'ime afọ 2000 gara aga,Ọnụ ọgụgụ ndị bi n'ụwa n'ijeri n'afọ 2000 gara aga,Ọnụ mmadụ ụwa n'bilionu n'ime afọ puku abụọ gara aga
+khmer_empire_c,Alaeze Khmer - Oge Angkor,Khmer Empire - Angkor period, ,text,False, , , , , ,Alaeze Ukwu Khmer - oge Angkor,Alaeze Khmer - oge Angkor,Alaeze Khmer - Oge Angkor
+holy_roman_empire_c,Alaeze Ukwu Rom dị nsọ - mgbe Alaeze Ukwu Rom dị nsọ nke 1512 nke Mba Germany gasịrị,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , , ,Alaeze Ukwu Rom Dị Nsọ – nke a maara dị ka Alaeze Ukwu Rom Dị Nsọ nke Mba Jamanị mgbe 1512 gasịrị,Alaeze Rom Nsọ – a maara ya dị ka Alaeze Rom Nsọ nke Mba Jaman mgbe 1512 gasịrị,Alaeze Nsọ Rom – a makwaara ya dị ka Alaeze Nsọ Rom nke Mba Jamanị mgbe afọ 1512 gasịrị
+mongol_empire,Alaeze Ukwu Mongol 1206 - 1294 O.A.,Mongol Empire 1206 – 1294, ,text,False, , , , , ,Alaeze Ukwu Mongol 1206 – 1294,Alaeze Mongol 1206 – 1294,Alaeze Mongol 1206 – 1294
+maya_classic_c,Mmepeanya Maya - oge kpochapụwo,Maya civilization – Classic period, ,text,False, , , , , ,Mmepeanya Maya – oge ochie kachasị mma,Ọchịchọ ndị Maya – oge Klasik,Omenala Maya – Oge klasik
+maya_postclassic_c,Mmepeanya Maya - oge postclassic,Maya civilization – Postclassic period, ,text,False, , , , , ,Mmepeanya Maya – oge sochiri oge ochie kachasị mma,Ọchịchọ ndị Maya – oge Pasklasik,Omenala Maya – Oge Postclassic
+Teotihuacan,"Obodo kasị ukwuu n'Amerịka, pyramid na-ewu ihe dị ka afọ 200 O.A.","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , , ,"Obodo kachasị ukwuu n'Amerịka, e wuru pyramid ihe dị ka 200 O.A.","Obodo kachasị nnukwu n'Amerika, e wurụ pyramid ihe dị ka 200 T.O.","Obodo kacha ibu na Amerịka, e wuru pyramids ihe dị ka afọ 200 AD."
+Dionysius_Exiguus,"Dionysius Exiguus, onye mepụtara Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , , ,"Dionysius Exiguus, onye chepụtara Anno Domini","Dionysius Exiguus, onye mepụtara Anno Domini","Dionysius Exiguus, onye chepụtara Anno Domini"
+Umayyad_c,Umayyad,Umayyad, ,text,False, , , , , ,Umayyad,Umayyad, 
+ur3,Ọchịchị Ur III 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , , ,Ọchịchị eze Ur III 𒋀𒀕𒆠,Alaeze Ur III 𒋀𒀕𒆠,Ụlọeze Ur nke atọ 𒋀𒀕𒆠
+hammurabi,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , ,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, 
+Al-Khwarizmi,Al-Khwarizmi dere Al-Jabr (Algebra),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , , ,al-Khwarizmi dere Al-Jabr (Algebra),al-Khwarizmi dere Al-Jabr (Algebra),al-Khwarizmi dere Al-Jabr (Algebra)
+al-azhar,E guzobere Mahadum Al-Azhar na Cairo,Al-Azhar University is established in Cairo, ,text,False, , , , , ,E hiwere Mahadum Al-Azhar na Cairo,E guzobere Mahadum Al-Azhar na Kairọ,Mahadum Al-Azhar guzobere na Cairo.
+Ibn-Sina,Ibn Sina ma ọ bụ Avicenna,Ibn Sina or Avicenna, ,text,False, , , , , ,Ibn Sina ma ọ bụ Avicenna,Ibn Sina ma ọ bụ Avicenna,Ibn Sina ma ọ bụ Avicenna
+life-expectancy,Ogologo ndụ 75 afọ,Life expectancy 75 years, ,text,False, , , , ,Ndụ ndụ afọ 75,Ogologo ndụ a na-atụ anya ya afọ 75,Oge ndụ afọ 75,Oge ndụ a na-atụ anya bụ afọ iri asaa na ise.
+430years_c,"430 afọ: Ọpụpụ 12:41, Ndị Galeshia 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"Afọ 430: Opụpụ 12:41, Ndị Galatia 3:17","Afọ 430: Ọpụpụ 12:41, Ndị Galeshia 3:17","Afọ 430: Ọpụpụ 12:41, Galatia 3:17","afọ 430: Mmepụta 12:41, Ndị Galatịa 3:17"
+maya_calendar,"Gbakọọ mmalite nke kalenda Maya August 11, 3114 T.O.A.","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,"Mmalite kọmpụta nke kalenda Maya Ọgọst 11, 3114 B.C.E.","Mmalite kalenda Maya a gbakọrọ Ọgọst 11, 3114 T.O.A.","Mmalite kalịnda ndị Maya ndị a gbara ọchụ Ọgọst 11, 3114 T.O.A.","E kpebiri na kalenda Maya malitere na Ọgọst 11, 3114 B.C.E."
+xia-dynasty2,"c. 2070 - c. 1600 BC, mbụ kwuru n'oge Western Zhou oge",c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,c. 2070 – c. 1600 BC; Oge a kpọtụrụ aka na mbụ n'oge Western Zhou,ihe dị ka 2070 – ihe dị ka 1600 T.O.A.; E bu ụzọ kwuo maka oge a n'oge Ọdịda Anyanwụ Zhou,ihe dị ka 2070 – ihe dị ka 1600 T.O.A.; E kọwara mmalite oge ahụ n'oge Zhou Ọdịda Anyanwụ,ihe dị ka 2070 – ihe dị ka 1600 Tupu Kraịst; Oge a kọrọ ya nke mbụ n'oge Zhou Ọdịda Anyanwụ
+xia-dynasty2_c,Xia Dynasty na China,Xia dynasty in China, ,text,False, , , , ,Xia obodo n'China,Ọchịchị eze Xia na China,Alaeze Xia na Chaina,Ụlọeze Xia na China
+tres_zapotes,"Septemba 3rd, 32 T.O.A.","September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,"Septemba 3, 32 B.C.E.","Septemba 3, 32 T.O.A.","Septemba nke 3, 32 T.O.A.","Septemba 3, afọ 32 Tupu Kraịst"
+joseph_jacob_reunited,Josef na Jekọb jikọtara ọnụ n'Ijipt - 1728 T.O.A. (Jen 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,Joseph na Jacob zutere ọnụ na Egypt – 1728 B.C.E. (Jen 45:11; 47:9),Josef na Jekọb zukọtara ọzọ n'Ijipt – 1728 T.O.A. (Jen 45:11; 47:9),E jikọtara Jozef na Jekọb ọzọ na Ijipt – 1728 T.O.A. (Mak 45:11; 47:9),Jọsef na Jekọb zutere ọzọ na Ijipt – 1728 B.C.E. (Jenesis 45:11; 47:9)
+king_south_light_c,Southern Ngbandi - Daniel 11,King of the South from Daniel 11,2025-02-05,text,False, , , , ,Eze nke Ndịda si n'Aziza 11,Eze Ndịda sitere na Daniel 11,Eze Ndịda site na Daniẹl 11,Eze nke ndịda si na Daniel 11
+king_north_light_c,Eze Ugwu Daniel 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,Eze nke Ugwu si n'Aziza 11,Eze Ugwu sitere na Daniel 11,Eze Ugwu Ugwu site na Daniẹl 11,Eze Ugwu si na Daniel 11
+daniel2_iron_c,Iron ụkwụ si Daniel 2,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Ọkpụkpụ ụkwụ ígwè si n'Aziza 2,Ụkwụ ígwè sitere na Daniel 2,Ụkwụ igwe site na Daniẹl 2,Ụkwụ ígwè si na Daniel 2
+argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , , ,Codex Argenteus ihe dị ka 505,Codex Argenteus ihe dị ka 505,Akwụkwọ Oluọcha c. 505
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,False, , , , , ,Nguyễn,Nguyễn,Ngoan
+edo_c,Oge Edo na Japan,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , ,Oge Edo na Japan,Oge Edo na Japan,Oge Edo na Japan,Oge Edo na Japan
+meiji_c,Meiji,Meiji,2025-09-20,text,False, , , , , ,Meiji,Meiji,Meeji
+american_civil_war,Agha Obodo America 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,Ọgba aghara America 1861-1865,Agha Obodo Amerịka 1861-1865,Agha Obodo Amerika 1861-1865,Agha Obodo America 1861-1865
+aleppo_codex,Codex Aleppo c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,Codex Aleppo c. 920,Aleppo Codex ihe dị ka 920,Codex Aleppo ihe dị ka 920,Koodeks Aleppo c. 920
+vandals,Alaeze nke Vandals na Alans 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Alaeze nke Vandals na Alans 435 – 534,Alaeze nke ndị Vandal na ndị Alan 435 – 534,Alaeze Vandal na Alan 435 – 534,Alaeze Vandals na Alans 435 – 534
+francia,"c. 481/509 – 843, Merovingian rue 751, emesia Carolingian.","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"c. 481/509 – 843, Merovingian ruo 751, wee bụrụ Carolingian","ihe dị ka 481/509 – 843, Merovingian ruo 751, mgbe ahụ Carolingian","ihe dị ka 481/509 – 843, Merovingian ruo 751, wee bụrụ Carolingian","ihe dị ka 481/509 – 843, ọchịchị Merovingian ruo 751, mgbe ahụ ọchịchị Carolingian"
+francia_c,Alaeze nke ndị Frank,Kingdom of the Franks, ,text,False, , , , ,Alaeze nke Ndị Franks,Alaeze nke ndị Frank,Alaeze Franka,Alaeze nke ndị Frank
+100_years_war,Agha narị afọ 1337 - 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Agha Ọrịa Narị afọ 1337 – 1453,Agha Otu Narị Afọ 1337 – 1453,Agha Afọ Ọtụtụ 1337 – 1453,Agha narị afọ 1337 – 1453
+black_death,Ọnwụ ojii 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Ọrịa ojii 1346-1353,Ọnwụ Ojii 1346-1353,Ọrịa Oji 1346-1353,Ọnwụ Ojii 1346-1353
+sui_dynasty,581-618 ndị eze Sui,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 Sui obodo,581-618 Ọchịchị eze Sui,581-618 Alaeze Sui,Ụlọeze Sui nke afọ 581 ruo 618
+sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , ,Sui,Sui,Mmiri
+tribulation,"Oké Mkpagbu ahụ (Mak 13:19; Daniel 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"Nnukwu Ahụhụ (Mak 13:19; Daniel 12:1; Mat 24:21, 22)","Oké Mkpàgwụ ahụ (Mak 13:19; Daniel 12:1; Mat 24:21, 22)","Nnukwu Oke Nsogbu (Mak 13:19; Daniẹl 12:1; Mat 24:21, 22)","Ọnwụnwa Ukwu (Maka 13:19; Danịel 12:1; Matiu 24:21, 22)"
+timeline_created,"E kere usoro iheomume a na 2023, afọ kachasị ọkụ n'akụkọ ihe mere eme nke mmadụ na afọ 125,000 gara aga","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"A na-emepụta oge a na 2023, afọ kachasị ọkụ n'akụkọ ihe mere eme mmadụ na afọ 125,000 ikpeazụ","E kere usoro oge a na 2023, afọ kachasị ekpo ọkụ n'akụkọ ihe mere eme nke mmadụ na n'ime afọ 125,000 gara aga","E mepụtara usoro oge a na 2023, afọ kachasị ọkụ n'ihe ndị mmadụ mere na afọ 125,000 gara aga","E kere usoro oge a na 2023, afọ kacha ọkụ n'akụkọ ihe mere mmadụ na n'ime afọ 125,000 gara aga."
+Adam,Adam,Adam,Luke 3:38,bible,True, , , , , ,Adam,Adam, 
+Seth,Seth,Seth, ,bible,True, , , , , ,Set,Set, 
+Enosh,Inọsh,Enosh, ,bible,True, , , , , ,Inọsh,Enos, 
+Kenan,Kaịnan,Kenan (Cainan), ,bible,False, , , , , ,Kinan (Kenan),Kenan (Kainan), 
+Mahalalel,Mahalalel,Mahalalel (Mahalaleel), ,bible,False, , , , , ,Mahalalel (Mahalaliel),Mahalalel (Mahalaleel), 
+Jared,Jered,Jared, ,bible,True, , , , , ,Jered,Jared, 
+Enoch,Ịnọk,Enoch, ,bible,True, , , , , ,Inọk,Enọk, 
+Methuselah,Metusela,Methuselah,Luke 3:37,bible,True, , , , , ,Metusela,Metusela, 
+Lamech,Lemek,Lamech, ,bible,True, , , , , ,Lemek,Lamek, 
+Noah,Noa,Noah, ,bible,True, , , , , ,Noa,Noa, 
+Shem,Shem,Shem, ,bible,True, , , , , ,Shem,Sem, 
+Arpachshad,Apakshad,Arpachshad,Luke 3:36,bible,True, , , , , ,Apakshad,Apakshad, 
+Shelah,Shila,Shelah, ,bible,True, , , , , ,Shila,Shela, 
+Eber,Iba,Eber, ,bible,True, , , , , ,Iba,Eber, 
+Peleg,Pileg,Peleg, ,bible,True, , , , , ,Peleg,Peleg, 
+Reu,Riu,Reu, ,bible,True, , , , , ,Riu,Reu, 
+Serug,Sirọg,Serug,Luke 3:35,bible,True, , , , , ,Sirọg,Serug, 
+Nahor,Nehọ,Nahor,Genesis 11:24,bible,True, , , , , ,Nehọ,Naho, 
+Terah,Tira,Terah, ,bible,True, , , , , ,Tira,Tera, 
+Abraham,Ebreham,Abraham, ,bible,True, , , , , ,Ebreham,Ebrahim, 
+Isaac,Aịzik,Isaac, ,bible,True, , , , , ,Aịzik,Aịzak, 
+Jacob,Jekọb,Jacob,Luke 3:34,bible,True, , , , , ,Jekọb,Jekọb, 
+Joseph,Josef,Joseph,Genesis 37,bible,True, , , , , ,Josef,Jozef, 
+Moses,Mozis,Moses, ,bible,False, , , , , ,Mozis,Mozis, 
+Othniel,Othniel,Othniel,Judges 3:9-11,bible,False, , , , , ,Ọtniel,Otniel, 
+Ehud,Ehud,Ehud,Judges 3:15-18,bible,False, , , , , ,Ihụd,Ehud, 
+Shamgar,Shamgar,Shamgar,Judges 3:31,bible,False, , , , , ,Shamga,Shamga, 
+Barak,Barak,"Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , ,"Berak, Debọra, Jel","Barak, Debora, Jael", 
+Gideon,Gideon,Gideon,Judges 7:1,bible,False, , , , , ,Gidiọn,Gideon, 
+Tola,Tola,Tola,Judges 10:1,bible,False, , , , , ,Tola,Tola, 
+Jair,Jair,Jair,Judges 10:3,bible,False, , , , , ,Jea,Jair, 
+Jephthah,Jefta,Jephthah,Judges 11:1,bible,False, , , , , ,Jefta,Jefta, 
+Ibzan,Ibzan,Ibzan,Judges 12:8,bible,False, , , , , ,Ibzan,Ibzan, 
+Elon,Elon,Elon,Judges 12:11,bible,False, , , , , ,Ilọn,Elon, 
+Abdon,Abdon,Abdon,Judges 12:13,bible,False, , , , , ,Abdọn,Abdon, 
+Samson,Samson,Samson,Judges 13:24,bible,False, , , , , ,Samsịn,Samson, 
+Samuel,Samuel,Samuel,1 Samuel 1:20,bible,False, , , , , ,Samuel,Samuel, 
+Saul,Sọl,Saul,1 Samuel 9:2,bible,False, , , , , ,Sọl,Sol, 
+David,David,David,1 Samuel 16:13,bible,False, , , , , ,Devid,Devid, 
+Solomon,Solomon,Solomon,1 Kings 2:1,bible,False, , , , , ,Sọlọmọn,Solomon, 
+Malachi,Malakaị,Malachi, ,bible,False, , , , , ,Malakaị,Malaki, 
+Ruth,Ruth,Ruth, ,bible,False, , , , , ,Rut,Rut, 
+Ezra,Ezra,Ezra, ,bible,False, , , , , ,Ezra,Ezra, 
+Nehemiah,Nehemaịa,Nehemiah, ,bible,False, , , , , ,Nehemaya,Nehemaya, 
+Esther,Esther,Esther, ,bible,False, , , , , ,Esta,Esta, 
+Job,Job,Job, ,bible,False, , , , , ,Job,Job, 
+moses3,Mozis,Moses, ,bible,False, , , , , ,Mozis,Mozis, 
+joshua2,Joshua,Joshua, ,bible,False, , , , , ,Jọshụa,Joshuwa, 
+caleb2,Caleb,Caleb, ,bible,False, , , , , ,Keleb,Kaleb, 
+Augustus,Augustus,Augustus,Luke 2:1,bible,False, , , , , ,Ọgọstọs,Augustus, 
+Tiberius,Tiberius,Tiberius,Luke 3:1,bible,False, , , , , ,Taịbiriọs,Tibiriọs, 
+Claudius,Claudius,Claudius,Acts 11:28,bible,False, , , , , ,Klọdiọs,Klodiọs, 
+persia2,Persia,Persia, ,bible,False, , , , , ,Peshịa,Pashia, 
+jehoiada,Jehoiada,Jehoiada,2 Kings 11:4,bible,False, , , , , ,Jehoyada,Jehoyada, 
+Haggai,Haggai,Haggai, ,bible,False, , , , , ,Hagaị,Hagai, 
+Zerubbabel,Zerubbabel (Luk 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , ,Zerụbabel (Luk 3:27),Zerubabel (Luk 3:27), 
+Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , ,Jekọb/,Jekọb/, 
+Israel,Israel,Israel,Genesis 35:10,bible,False, , , , , ,Izrel,Izrel, 
+Sarah,Sarah,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , ,Sera,Sara, 
+Hagar,Hagar,Hagar,Genesis 21:14,bible,False, , , , , ,Hega,Haga, 
+Haran,Haran,Haran,Genesis 11:26,bible,False, , , , , ,Heran,Haran, 
+Reumah,Reumah,Reumah,Concubine – 4 sons 22:24,bible,False, , , , , ,Riuma,Reuma, 
+Milcah,Milcah,Milcah,8 sons (Bethuel and 7 more),bible,False, , , , , ,Milka,Milka, 
+Lot,Lot,Lot,Genesis 11:27,bible,False, , , , , ,Lọt,Lot, 
+Ammon,Ben-ammi (Amọn),Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , ,Ben-amaị (Amọn),Ben-ami (Amọn), 
+Bethuel,Bethuel,Bethuel,Genesis 22:23,bible,False, , , , , ,Betuel,Betuel, 
+Rebekah,Rebekah,Rebekah, ,bible,False, , , , , ,Rebeka,Ribeka, 
+Laban,Laban,Laban,Genesis 24:29,bible,False, , , , , ,Leban,Laban, 
+Leah,Leah,Leah,Genesis 35:23,bible,False, , , , , ,Lịa,Lea, 
+Rachel,Rachel,Rachel,Genesis 35:24,bible,False, , , , , ,Rechel,Rahel, 
+Bilhah,Bilhah,Bilhah,Genesis 35:25,bible,False, , , , , ,Bilha,Bila, 
+Zilpah,Zilpah,Zilpah,Genesis 35:26,bible,False, , , , , ,Zilpa,Zilpa, 
+Reuben,Reuben,Reuben, ,bible,False, , , , , ,Ruben,Ruben, 
+Simeon,Simeon,Simeon, ,bible,False, , , , , ,Simiọn,Simeon, 
+Levi,Levi,Levi,Genesis 35:23,bible,False, , , , , ,Livaị,Levi, 
+Judah,Juda,Judah, ,bible,False, , , , , ,Juda,Juda, 
+Issachar,Issachar,Issachar, ,bible,False, , , , , ,Isaka,Isakha, 
+Zebulun,Zebulun,Zebulun, ,bible,False, , , , , ,Zebụlọn,Zebulun, 
+Dinah,Dinah,Dinah,Genesis 34,bible,False, , , , , ,Daịna,Daina, 
+Esau,Isọ /,Esau/, ,bible,False, , , , , ,Ịsọ/,Esọ/, 
+Edom,Edom,Edom,Genesis 36:1,bible,False, , , , , ,Idọm,Edom, 
+Ishmael,Ishmael,Ishmael,Genesis 16:16,bible,False, , , , , ,Ishmel,Izimael, 
+Manasseh2,(Manase,(Manasseh,Genesis 41:50-52,bible,False, , , , , , (Manase,(Manase, 
+Ephraim,na Ephraim),and Ephraim), ,bible,False, , , , , ,na Ifrem),na Efraim), 
+Benjamin,Benjamin,Benjamin, ,bible,False, , , , , ,Benjamin,Benjamịn, 
+Dan,Dan,Dan,Genesis 35:23,bible,False, , , , , ,Dan,Dan, 
+Naphtali,Naphtali,Naphtali, ,bible,False, , , , , ,Naftalaị,Naftali, 
+Gad,Gad,Gad, ,bible,False, , , , , ,Gad,Gad, 
+Asher,Asher,Asher, ,bible,False, , , , , ,Asha,Asha, 
+Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , ,"Ọz, Bọz, Kemuel,","Uz, Buz, Kemuel,", 
+Milcah2,"Chesed, Hazo,","Chesed, Hazo,", ,bible,False, , , , , ,"Kesed, Hezo,","Kesed, Hazo,", 
+Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph", ,bible,False, , , , , ,"Pildash, Jidlaf","Pildash, Jidlaf", 
+Tebah,Tebah,Tebah,Genesis 22:24,bible,False, , , , , ,Tiba,Teba, 
+Gaham,Gaham,Gaham, ,bible,False, , , , , ,Geham,Gaham, 
+Tahash,Tahash,Tahash, ,bible,False, , , , , ,Tehash,Tahash, 
+Maacah,Maacah,Maacah, ,bible,False, , , , , ,Meaka,Maaka, 
+Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , ,Mahalat/,Mahalat/, 
+Basemath,Basemath,Basemath,"Genesis36:3, 4",bible,False, , , , , ,Basemat,Basemat, 
+Reuel,Reuel,Reuel,"36:13, 17",bible,False, , , , , ,Riuel,Reuel, 
+Nahath,Nahath,Nahath, ,bible,False, , , , , ,Nehat,Nahat, 
+Zerah,Zerah,Zerah, ,bible,False, , , , , ,Zira,Zera, 
+Schammah,Schammah,Schammah, ,bible,False, , , , , ,Shama,Shama, 
+Mizzah,Mizzah,Mizzah, ,bible,False, , , , , ,Miza,Miza, 
+Adah,Adah,Adah,"36:11, 12, 15, 16",bible,False, , , , , ,Eda,Ada, 
+Eliphaz,Eliphaz,Eliphaz, ,bible,False, , , , , ,Elịfaz,Elifaz, 
+Teman,Teman,Teman, ,bible,False, , , , , ,Timan,Teman, 
+Omar,Omar,Omar, ,bible,False, , , , , ,Oma,Oma, 
+Zepho,Zepho,Zepho, ,bible,False, , , , , ,Zifo,Zefo, 
+Kenaz,Kenaz,Kenaz, ,bible,False, , , , , ,Kinaz,Kenaz, 
+Korah,Korah,Korah, ,bible,False, , , , , ,Kora,Kora, 
+Korah_Gatam,"Kora, Gatam","Korah, Gatam","Genesis 36:11, 16",bible,False, , , , , ,"Kora, Getam","Kora, Gatam", 
+Amalek,Amalek,Amalek, ,bible,False, , , , , ,Amalek,Amalek, 
+Oholibamah,Oholibamah,Oholibamah,"36:14, 18",bible,False, , , , , ,Oholibama,Oholibama, 
+Jeush,Jeush,Jeush, ,bible,False, , , , , ,Jiọsh,Jeus, 
+Jalam,Jalam,Jalam, ,bible,False, , , , , ,Jelam,Jalam, 
+Nebaioth,Nebaioth,Nebaioth,Genesis 25:13,bible,False, , , , , ,Nebeyọt,Nebayot, 
+Kedar,Kedar,Kedar, ,bible,False, , , , , ,Kida,Keda, 
+Mishma,Mishma,Mishma, ,bible,False, , , , , ,Mishma,Mishma, 
+Adbeel_Mibsam,"Adbeel, Mibsam","Adbeel, Mibsam",Genesis 25:13,bible,False, , , , , ,"Adbiel, Mibsam","Adbeel, Mibsam", 
+Dumah_Massa,"Duma, Masa","Dumah, Massa",Genesis 25:14,bible,False, , , , , ,"Duma, Masa","Duma, Masa", 
+Hadad,Hadad,Hadad, ,bible,False, , , , , ,Hedad,Hadad, 
+Tema,Tema,Tema, ,bible,False, , , , , ,Tima,Tema, 
+Jetur,Jetur,Jetur, ,bible,False, , , , , ,Jitọ,Jetu, 
+Naphish,Naphish,Naphish, ,bible,False, , , , , ,Nefish,Nafis, 
+Kedemah,Kedemah,Kedemah, ,bible,False, , , , , ,Kidema,Kedemah, 
+Keturah,Keturah,Keturah,Genesis 25:1-4,bible,False, , , , , ,Kitura,Ketura, 
+Zimran,Zimran,Zimran, ,bible,False, , , , , ,Zimran,Zimran, 
+Jokshan,Jokshan,Jokshan, ,bible,False, , , , , ,Jọkshan,Jọkshan, 
+Medan,Medan,Medan, ,bible,False, , , , , ,Midan,Medan, 
+Midian,Midian,Midian, ,bible,False, , , , , ,Midian,Midian, 
+Ishbak,Ishbak,Ishbak, ,bible,False, , , , , ,Ishbak,Ishbak, 
+Shuah,Shuah,Shuah, ,bible,False, , , , , ,Shụa,Shuah, 
+Timna,Timna,Timna,"1 Chr 1:36, Ge 36:10-12",bible,False, , , , , ,Timna,Timna, 
+life-expectancy2,(Abụ Ọma 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , ,(Abụ Ọma 90:10),(Abụ Ọma 90:10), 
+Ham,apata ụkwụ ezi,Ham,Gen 10:1,bible,False, , , , , ,Ham,Ham, 
+Canaan,Kenan,Canaan,Gen 10:6,bible,False, , , , , ,Kenan,Kenaan, 
+Sidon,Saịdọn,Sidon,Gen 10:15,bible,False, , , , , ,Saịdọn,Sidon, 
+Heth,Heth,Heth,Gen 10:15,bible,False, , , , , ,Het,Het, 
+Jebusite,Jebusite,Jebusite,Gen 10:16,bible,False, , , , , ,Onye Jebus,Ndị Jebusit, 
+Amorite,Amorite,Amorite,Gen 10:16,bible,False, , , , , ,Onye Amọraịt,Ndị Amorit, 
+Girgashite,Girgashite,Girgashite,Gen 10:16,bible,False, , , , , ,Onye Gịgash,Ndị Girgashit, 
+Hivite,Hivite,Hivite,Gen 10:17,bible,False, , , , , ,Onye Haịv,Ndị Hivit, 
+Arkite,Arkite,Arkite,Gen 10:17,bible,False, , , , , ,Onye Ak,Ndị Arkit, 
+Sinite,Sinite,Sinite,Gen 10:17,bible,False, , , , , ,Onye Saịn,Ndị Sinit, 
+Arvadite,Arvadite,Arvadite,Gen 10:18,bible,False, , , , , ,Onye Avad,Ndị Arvad, 
+Zemarite,Zemarit,Zemarite,Gen 10:18,bible,False, , , , , ,Onye Zema,Ndị Zemar, 
+Hamathite,ndi Hamathite,Hamathite,Gen 10:18,bible,False, , , , , ,Onye Hemat,Ndị Hamat, 
+Cush,Kush,Cush,Gen 10:6,bible,False, , , , , ,Kọsh,Kush, 
+Nimrod,Nimrod,Nimrod,Gen 10:8,bible,False, , , , , ,Nimrọd,Nimrod, 
+Mizraim,Mizraim,Mizraim,Gen 10:14,bible,False, , , , , ,Mizrem,Mizraim, 
+Casluh,Casluh,Casluh,1 Chronicles 1:12 (Philistines),bible,False, , , , , ,Kaslọ,Kaslu, 
+Japheth,Jefet,Japheth,Gen 10:1,bible,False, , , , , ,Jefet,Jafet, 
+Asshur,Asụsụ,Asshur,Gen 10:22,bible,False, , , , , ,Ashọ,Ashur, 
+Lud,Lud,Lud,Gen 10:22,bible,False, , , , , ,Lọd,Lud, 
+Aram,Aram,Aram,Gen 10:22,bible,False, , , , , ,Eram,Aram, 
+Elam,Ilam,Elam,Gen 10:22,bible,False, , , , , ,Ilam,Elam, 
+Joktan,Jọktan,Joktan,Gen 10:26,bible,False, , , , , ,Jọktan,Jọktan, 
+Almodad,Almodad,Almodad,Gen 10:26,bible,False, , , , , ,Almodad,Almodad, 
+Sheleph,Sheleph,Sheleph,Gen 10:26,bible,False, , , , , ,Shilef,Shelef, 
+Hazarmaveth,Hazarmaret,Hazarmaveth,Gen 10:26,bible,False, , , , , ,Hazamevet,Hazarmaveth, 
+Jerah,Jerah,Jerah,Gen 10:26,bible,False, , , , , ,Jira,Jera, 
+Hadoram,Hadoram,Hadoram,Gen 10:27,bible,False, , , , , ,Hadoram,Hadoram, 
+Uzal,Uzal,Uzal,Gen 10:27,bible,False, , , , , ,Ọzal,Uzal, 
+Diklah_Obal,"Diklah, Obal","Diklah, Obal",Gen 10:27,bible,False, , , , , ,"Dikla, Obal","Dikla, Obal", 
+Abimael,Abimael,Abimael,Gen 10:28,bible,False, , , , , ,Abimel,Abimael, 
+Sheba_Ophir,"Sheba, Ofia","Sheba, Ophir","Gen 10:28, 29",bible,False, , , , , ,"Shiba, Ofa","Sheba, Ofi", 
+Havilah,Havilah,Havilah,Gen 10:29,bible,False, , , , , ,Havila,Havila, 
+Jobab,Jobab,Jobab,Gen 10:29,bible,False, , , , , ,Jobab,Jobab, 
+Ham_fn,1) Ndị Ijipt: Abụ Ọma 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , ,1) Ndị Ijipt: Abụ Ọma 105:23,1) Ndị Ijipt: Abụ Ọma 105:23, 
+Canaan_fn,2) Ndị Kenan: Jọshụa 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , ,2) Ndị Kenan: Jọshụa 13:3,2) Ndị Kenaan: Joshuwa 13:3, 
+Aram_fn,3) Ndị Ara: Hosea 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , ,3) Ndị Aram: Hosia 12:12,3) Ndị Aram: Hozea 12:12, 
+Elam_fn,4) Ndị Ilam: Ezra 4:9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , ,4) Ndị Ilam: Ezra 4:9,4) Ndị Elam: Ezra 4:9, 
+Asshur_fn,5) Ndị Asiria: Ezikiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , ,5) Ndị Asịrịa: Ezikiel 27:23,5) Ndị Asiria: Ezekiel 27:23, 
+Casluh_fn,6) Ndị Filistia: 1 Ihe E Mere 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , ,6) Ndị Filistia: 1 Ihe E Mere 1:12,6) Ndị Filistia: 1 Ikpere-oge 1:12, 
+Cush_fn,7) Etiopia [Ndị Kush]: 2 Ndị Eze 19:9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , ,7) Onye Etiopia [Onye Kọsh]: 2 Ndị Eze 19:9,7) Ndị Etiopia [Ndị Kush]: 2 Eze 19:9, 
+Edom_fn,8) Ndị Idọm: Ọnụ Ọgụgụ 20:14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False, , , , , ,8) Ndị Idọm: Ọnụ Ọgụgụ 20:14-17,8) Ndị Edom: Nọmba 20:14-17, 
+Moab_fn,"9) Ndị Moab: Diuterọnọmi 23:3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False, , , , , ,"9) Ndị Moab: Diuterọnọmi 23:3, 4","9) Ndị Moab: Nchikota Iwu 23:3, 4", 
+Ammon_fn,10) Ụmụ Amọn: Jọshụa 12:2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False, , , , , ,10) Ndị Amọn: Jọshụa 12:2,10) Ndị Amọn: Joshuwa 12:2, 
+Midian_fn,"11) Ndị Midian: Ọnụ Ọgụgụ 31:2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False, , , , , ,"11) Ndị Midian: Ọnụ Ọgụgụ 31:2, 3","11) Ndị Midian: Nọmba 31:2, 3", 
+Amalek_fn,12) Ndị Amalek: 1 Samuel 15:2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False, , , , , ,12) Ndị Amalek: 1 Samuel 15:2,12) Ndị Amalek: 1 Samuel 15:2, 
+Teman_fn,13) Ndị Teman: Job 42:7,13) Temanites: Job 42:7,2025-09-22,bible,False, , , , , ,13) Ndị Timan: Job 42:7,13) Ndị Teman: Job 42:7, 
+Sidon_fn,14) Ndị Saịdọn: Zekaraya 9:2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , ,14) Ndị Saịdọn: Zekaraya 9:2,14) Ndị Sidon: Zekaraya 9:2, 
+Heth_fn,15) Ndị Het: Jenesis 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , ,15) Ndị Het: Jenesis 15:20,15) Ndị Het: Jenesis 15:20, 
+Jebusite_fn,16) Ndị Jebus: Jọshụa 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , ,16) Ndị Jebus: Jọshụa 15:63,16) Ndị Jebusit: Joshuwa 15:63, 
+Judith,Judith?,Judith?,"Genesis 26:34, 35",bible,False, , , , , ,Judit?,Judit?, 
+Lud_fn,17) Ndị Lidia: 1 Ihe E Mere 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , ,17) Ndị Lọd: 1 Ihe E Mere 1:17,17) Ndị Lidia: 1 Ikpere-oge 1:17, 
+Ishmael_fn,18) Ndị Ishmel: Jenesis 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , ,18) Ndị Ishmel: Jenesis 37:27,18) Ndị Izimael: Jenesis 37:27, 
+Amorite_fn,19) Ndị Amọraịt: Ndị Ikpe 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , ,19) Ndị Amọraịt: Ndị Ikpe 6:10,19) Ndị Amorit: Ikpe Ọ Ikpe 6:10, 
+Hivite_fn,"20) Ndị Hivaị [Gibiọn]: Jọshụa 9:3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , ,"20) Ndị Haịv [Gibịọn]: Jọshụa 9:3, 7","20) Ndị Hivit [Gibeon]: Joshuwa 9:3, 7", 
+Cain,Ken,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , ,Ken,Kein, 
+Abel,Ebel,Abel,Genesis 4:2,bible,False, , , , , ,Ebel,Abel, 
+Irad,Irad,Irad,Genesis 4:18,bible,False, , , , , ,Aịrad,Irad, 
+Mehujael,Mehujael,Mehujael,Genesis 4:18,bible,False, , , , , ,Mehujel,Mehujael, 
+Methushael,Methushael,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , ,Metushel,Methushael, 
+Jabal,Jebal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , ,Jebal,Jabal, 
+Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , ,Jubal,Jubal, 
+Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , ,Zila,Zila, 
+Tubal-cain,Tubal-ken,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , ,Tubal-ken,Tubal-kain, 
+Naamah,Neamah,Naamah,Genesis 4:22 his sister,bible,False, , , , , ,Neama,Naama, 
+Rehoboam,Rehoboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False, , , , , ,Rihoboam,Rehoboam, 
+Abijah,Abijah (Abijam),Abijah (Abijam),"3 years, also Abijam",A6-A,False, , , , , ,Abịja (Abịjam),Abaya (Abiyam), 
+Asa,Asa,Asa,A6-A,A6-A,False, , , , , ,Esa,Asa, 
+Jehoshaphat,Jehoshaphat,Jehoshaphat, ,A6-A,False, , , , , ,Jehọshafat,Jehoshafat, 
+Jehoram2,Jehoram,Jehoram, ,A6-A,False, , , , , ,Jehoram,Jehoram, 
+Ahaziah,Ahaziah,Ahaziah, ,A6-A,False, , , , , ,Ahazaya,Ahazaya, 
+Athaliah,Queen Athaliah,Queen Athaliah,Queen Athaliah,A6-A,False, , , , , ,Eze Nwaanyị Atalaya,Eze Nwanyị Atalia, 
+Jehoash,Jehoash,Jehoash, ,A6-A,False, , , , , ,Jehoash,Jehoash, 
+Amaziah,Amaziah,Amaziah, ,A6-A,False, , , , , ,Amazaya,Amazaya, 
+Uzziah,Uzziah (Azaraia),Uzziah (Azariah),also Azariah,A6-A,False, , , , , ,Ụzaya (Azaraya),Uzaya (Azaraya), 
+Jeroboam,Jeroboam,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False, , , , , ,Jeroboam,Jeroboam, 
+Nadab,Nadab,Nadab,less than 2,A6-A,False, , , , , ,Nedab,Nadab, 
+Baasha,Baasha,Baasha, ,A6-A,False, , , , , ,Basha,Baasha, 
+Elah,Elah,Elah, ,A6-A,False, , , , , ,Ila,Ela, 
+Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,A6-A,False, , , , , ,Zimraị,Zimri, 
+OmriTibni,Omri na Tibni ọnụ,Omri and Tibni together,4 years Omri and Tibni,A6-A,False, , , , , ,Ọmraị na Tibnaị n'otu oge,Omri na Tibni ọnụ, 
+Omri,Omri (naanị),Omri (alone),from 947 Omri alone,A6-A,False, , , , , ,Ọmraị (naanị ya),Omri (naanị ya), 
+Ahab,Ehab,Ahab, ,A6-A,False, , , , , ,Ehab,Ahab, 
+Jehoram,Jehoram,Jehoram, ,A6-A,False, , , , , ,Jehoram,Jehoram, 
+Jehu,Jihu,Jehu, ,A6-A,False, , , , , ,Jihu,Jehu, 
+Jeoahaz,Jeoahaz,Jeoahaz, ,A6-A,False, , , , , ,Jehoahaz,Jeoahaz, 
+JeoahazJehoash,Jeoahaz na Jehoash,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False, , , , , ,Jehoahaz na Jehoash,Jeoahaz na Jehoash, 
+Jehoash2,Jehoash (naanị),Jehoash (alone),Jehoash (alone),A6-A,False, , , , , ,Jehoash (naanị ya),Jehoash (naanị ya), 
+Jeroboam2,Jeroboam nke Abụọ,Jeroboam II, ,A6-A,False, , , , , ,Jeroboam nke Abụọ,Jeroboam nke Abụọ, 
+Elijah,Ịlaịja,Elijah, ,A6-A,False, , , , , ,Ịlaịja,Ilaịja, 
+Elisha,Elisha,Elisha, ,A6-A,False, , , , , ,Ịlaịsha,Elisha, 
+Jonah,Jona,Jonah, ,A6-A,False, , , , , ,Jona,Jona, 
+Amos,Amos,Amos, ,A6-A,False, , , , , ,Emọs,Amos, 
+Joel,Joel,Joel, ,A6-A,False, , , , , ,Jowel,Joel, 
+Jotham,Jotham,Jotham,A6-B,A6-B,False, , , , , ,Jotam,Jotham, 
+Ahaz,Ahaz,Ahaz, ,A6-B,False, , , , , ,Ehaz,Ahaz, 
+Hezekiah,Hezekiah,Hezekiah, ,A6-B,False, , , , , ,Hezekaya,Hezekaya, 
+Manasseh,Manase,Manasseh, ,A6-B,False, , , , , ,Manase,Manase, 
+Amon,Amon,Amon, ,A6-B,False, , , , , ,Emọn,Amọn, 
+Josiah,Josaya,Josiah, ,A6-B,False, , , , , ,Josaya,Josaya, 
+Jehoahaz,Jehoahaz,Jehoahaz,Only 3 months,A6-B,False, , , , , ,Jehoahaz,Jehoahaz, 
+Jehoiakim,Jehoiakim,Jehoiakim, ,A6-B,False, , , , , ,Jehoyakim,Jehoakim, 
+Jehoiachin,Jehoiachin,Jehoiachin,Only 3 months 10 days,A6-B,False, , , , , ,Jehoyakin,Jehoakin, 
+Zedekiah,Zedekaya,Zedekiah, ,A6-B,False, , , , , ,Zedekaya,Zedekaya, 
+Zechariah,Zekaraya,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False, , , , , ,Zekaraya,Zekaraya, 
+Schallum,Schallum,Schallum,only one month,A6-B,False, , , , , ,Shalọm,Shalum, 
+Menahem,Menahem,Menahem, ,A6-B,False, , , , , ,Menahem,Menahem, 
+Pekahiah,Pekahiah,Pekahiah, ,A6-B,False, , , , , ,Pekahaya,Pekahaya, 
+Pekah,Pekah,Pekah, ,A6-B,False, , , , , ,Pika,Peka, 
+Hoshea,Hoshea,Hoshea,9 years from c. 748,A6-B,False, , , , , ,Hoshịa,Hozea, 
+Hosea,Hosea,Hosea, ,A6-B,False, , , , , ,Hosia,Hozea, 
+Isaiah,Aịzaya,Isaiah, ,A6-B,False, , , , , ,Aịzaya,Aịzaya, 
+Micah,Maịka,Micah, ,A6-B,False, , , , , ,Maịka,Maikah, 
+Zephaniah,Zefanaya,Zephaniah, ,A6-B,False, , , , , ,Zefanaya,Zefanaya, 
+Nahum,Nahum,Nahum, ,A6-B,False, , , , , ,Nehọm,Nahum, 
+Jeremiah,Jeremaya,Jeremiah, ,A6-B,False, , , , , ,Jeremaya,Jeremaya, 
+Habakuk,Habakuk,Habakuk, ,A6-B,False, , , , , ,Habakọk,Habakuk, 
+Daniel,Daniel,Daniel, ,A6-B,False, , , , , ,Daniel,Daniẹl, 
+Ezekiel,Ezikiel,Ezekiel, ,A6-B,False, , , , , ,Ezikiel,Ezekiel, 
+Obadiah,Obadiah,Obadiah, ,A6-B,False, , , , , ,Obadaya,Obadaya, 
+Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , ,"Daniel 2:32, 36-38; 7:4","Daniẹl 2:32, 36-38; 7:4", 
+Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , ,"Daniel 2:32, 39; 7:5","Daniẹl 2:32, 39; 7:5", 
+Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , ,"Daniel 2:32, 39; 7:6","Daniẹl 2:32, 39; 7:6", 
+Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , ,"Daniel 2:33, 40; 7:7","Daniẹl 2:33, 40; 7:7", 
+Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True, , , , , ,"Daniel 2:33, 41-43","Daniẹl 2:33, 41-43", 
+Babylon_c,Babịlọn,Babylon, ,B9,True, , , , , ,Babilọn,Babilọn, 
+Medopersia_c,Midia na Peshia,Medo-Persia, ,B9,True, , , , , ,Mido-Peshịa,Mido-Pashia, 
+Greece_c,Gris,Greece, ,B9,True, , , , , ,Gris,Gris, 
+Rome_c,Rom,Rome, ,B9,True, , , , , ,Rom,Rom, 
+Angloamerica_c,Briten na Amerịka,Anglo-America, ,B9,True, , , , , ,Anglo-Amerịka,Anglo-Amerika, 
+daniel2_1,Eze Nebukadneza,King Nebuchadnezzar,607 BCE,B9,True, , , , , ,Eze Nebukadneza,Eze Nebukadneza, 
+daniel2_2,bibiri Jeruselem,destroys Jerusalem, ,B9,True, , , , , ,ebibie Jeruselem,na-achịchọ Jeruselem, 
+daniel2_3,Ha meriri Babịlọn,Conquers Babylon,539 BCE,B9,True, , , , , ,Emerie Babilọn,Na-achịchọ Babilọn, 
+daniel2_4,Saịrọs nyere iwu ka ndị,Cyrus decrees return,537 BCE,B9,True, , , , , ,Saịrọs enye iwu ka e weghachite,Saịras na-achịkwa nlọghachi, 
+daniel2_5,Juu laghachi Jeruselem,of Jews to Jerusalem, ,B9,True, , , , , ,ndị Juu na Jeruselem,nke ndị Juu gaa Jeruselem, 
+daniel2_6,Alegzanda Onye Ukwu,Alexander the Great,331 BCE,B9,True, , , , , ,Alezanda Onye Ukwu,Aleksanda Onye Ọchịchọ, 
+daniel2_7,meriri Peshia,conquers Persia, ,B9,True, , , , , ,emerie Peshịa,na-achịchọ Pashia, 
+daniel2_8,Ndi Rom chịwara Izrel,Rules over Israel,63 BCE,B9,True, , , , , ,Chịwa Izrel,Na-achị n'elu Izrel, 
+daniel2_9,Ha bibiri Jeruselem,Destroys Jerusalem,70 CE,B9,True, , , , , ,Ebibie Jeruselem,Na-achịchọ Jeruselem, 
+daniel2_10,Briten na Amerịka,"During World War I,",1914-1918 CE,B9,True, , , , , ,"N'oge Agha Ụwa Mbụ,","N'oge Agha Ụwa Mbu,", 
+daniel2_11,chịwara ụwa malite,Anglo-American World Power, ,B9,True, , , , , ,Ike Ọchịchị Ụwa nke Anglo-Amerịka,Ike Ụwa Anglo-Amerika, 
+daniel2_12,n’oge Agha Ụwa nke Mbụ,comes into being,End 4.2,B9,True, , , , , ,ebido ịdị,na-amalite ịdị, 
+607BCE,607 T.O.N.K.,607 B.C.E.,accommodate for language,B9,True, , , , , ,607 T.O.A.,607 T.O.A., 
+539BCE,539 T.O.N.K.,539 B.C.E.,systems in style:,B9,True, , , , , ,539 T.O.A.,539 T.O.A., 
+537BCE,537 T.O.N.K.,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , ,537 T.O.A.,537 T.O.A., 
+331BCE,331 T.O.N.K.,331 B.C.E.,so they need a word,B9,True, , , , , ,331 T.O.A.,331 T.O.A., 
+63BCE,63 T.O.N.K.,63 B.C.E.,prior to the year,B9,True, , , , , ,63 T.O.A.,63 T.O.A., 
+70CE,70 O.N.K.,70 C.E.,and something,B9,True, , , , , ,70 O.A.,70 T.O., 
+1914CE,1914-1918 O.N.K.,1914-1918 C.E.,after the year,B9,True, , , , , ,1914-1918 O.A.,1914-1918 T.O., 
+7times,Mkpughe 12:9,Revelation 12:9, ,scripture,False, , , , , ,Mkpughe 12:9,Nkọchapụta 12:9, 
+infliction2,Ọrụ Ndịozi 7:6,Acts 7:6, ,scripture,False, , , , , ,Ọrụ Ndịozi 7:6,Ọrụ 7:6, 
+eastern-zhou,770-256 BC,770-256 BC, ,span_bc,False, , , , , ,770-256 T.O.A.,770-256 T.O.A., 
+430years,1943 - 1513 T.O.A.,1943 – 1513 B.C.E., ,span_bce,False, , , , , ,1943 – 1513 T.O.A.,1943 – 1513 T.O.A., 
+eastern-han,25-220 OA,25-220 CE, ,span_ce,False, , , , , ,25-220 O.A.,25-220 T.O., 
+northern-dynasties,368-581 OA,368-581 CE, ,span_ce,False, , , , , ,368-581 O.A.,368-581 T.O., 
+southern-dynasties,420-589 OA,420-589 CE, ,span_ce,False, , , , , ,420-589 O.A.,420-589 T.O., 
 khmer_empire,804 – 1431,804 – 1431, ,timespan,True, , , , , , , , 
 byzantine_empire,330 – 1453,330 – 1453, ,timespan,True, , , , , , , , 
 ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True, , , , , , , , 
@@ -494,50 +494,50 @@ revival_le_dynasty,1533-1789,1533-1789, ,timespan,True, , , , , , , ,
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True, , , , , , , , 
 edo,1603 – 1868,1603 – 1868, ,timespan,True, , , , , , , , 
 meiji,1868 – 1912,1868 – 1912, ,timespan,True, , , , , , , , 
-Julius,Julius,Julius, ,wiki,False, , , , , ,Julius, , 
-Caligula,Caligula,Caligula, ,wiki,False, , , , , ,Caligula, , 
-Nero,Nero,Nero, ,wiki,False, , , , , ,Nero, , 
-Galba-Otho-Vitellius,"Galba, Otho na Vitellius (Afọ nke Eze Ukwu Anọ)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , ,"Galba, Otho na Vitellius (Afọ nke Ndị Eze Ukwu Anọ)", , 
-Vespasian,Vespasian,Vespasian, ,wiki,False, , , , , ,Vespasian, , 
-covid19,Covid-19,Covid-19, ,wiki,False, , , , , ,Covid-19, , 
-nicaea1,Mbụ Council nke Nicaea,First Council of Nicaea, ,wiki,False, , , , , ,Nzukọ Mbụ nke Nicaea, , 
-oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri, ,wiki,False, , , , , ,Akwụkwọ Papyrus Oxyrhynchus, , 
-p52,Papyrus P52,Papyrus P52, ,wiki,False, , , , , ,Papyrus P52, , 
-qing-dynasty_c,Qing dynasty,Qing dynasty,1636-1912,wiki,False, , , , , ,Ọchịchị eze Qing, , 
-ming-dynasty_c,Ming dynasty na alaeze ukwu China,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , ,Ọchịchị eze Ming na China oge ochie, , 
-yuan-dynasty_c,Yuan,Yuan,1271-1368,wiki,False, , , , , ,Yuan, , 
-southern-song_c,Southern Song,Southern Song,1127-1279,wiki,False, , , , , ,Ndịda Song, , 
-northern-song_c,Northern Song,Northern Song,960-1127,wiki,False, , , , , ,Ugwu Song, , 
-western-xia_c,Western Xia,Western Xia,1038-1227,wiki,False, , , , , ,Ọdịda Anyanwụ Xia, , 
-Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,False, , , , , ,Nicolaus Copernicus, , 
-Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , ,Galileo Galilei, , 
-Newton,Isaac Newton,Isaac Newton, ,wiki,False, , , , , ,Isaac Newton, , 
-shang-dynasty_c,Shang Dynasty,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , ,Ọchịchị eze Shang, , 
-western-zhou_c,Western Zhou,Western Zhou,c. 1046-771 BC,wiki,False, , , , , ,Ọdịda Anyanwụ Zhou, , 
-eastern-zhou_c,Eastern Zhou,Eastern Zhou,770-256 BC,wiki,False, , , , , ,Ọwụwa Anyanwụ Zhou, , 
-western-han_c,Western Han,Western Han,207 BC – 9 CE,wiki,False, , , , , ,Ọdịda Anyanwụ Han, , 
-eastern-han_c,Eastern Han,Eastern Han,25-220 CE,wiki,False, , , , , ,Ọwụwa Anyanwụ Han, , 
-three-kingdoms_c,China,China,Three kingdoms 220-280 CE,wiki,False, , , , , ,China, , 
-sixteen-kingdoms_c,China,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , ,China, , 
-northern-dynasties_c,Northern Dynasties,Northern dynasties,368-581 CE,wiki,False, , , , , ,Ọchịchị eze ndị dị n'Ugwu, , 
-southern-dynasties_c,Southern Dynasties,Southern dynasties,420-589 CE,wiki,False, , , , , ,Ọchịchị eze ndị dị na Ndịda, , 
-tang-dynasty2_c,Tang Dynasty,Tang dynasty,"618-690, 705-907",wiki,False, , , , , ,Ọchịchị eze Tang, , 
-byzantine_empire_c,Alaeze Ukwu Byzantine,Byzantine Empire, ,wiki,False, , , , , ,Alaeze Ukwu Byzantine, , 
-ottoman_empire_c,Alaeze Ukwu Ottoman,Ottoman Empire, ,wiki,False, , , , , ,Alaeze Ukwu Ottoman, , 
-Genghis,Genghis Khan,Genghis Khan, ,wiki,False, , , , , ,Genghis Khan, , 
-inca_empire_c,Inca alaeze ukwu,Inca empire, ,wiki,False, , , , , ,Alaeze ukwu Inca, , 
-gupta_empire_c,Alaeze Gupta,Gupta Empire, ,wiki,False, , , , , ,Alaeze Ukwu Gupta, , 
-Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False, , , , , ,Teotihuacan, , 
-Abbasid_c,Abbasid Caliphate,Abbasid Caliphate, ,wiki,False, , , , , ,Ọchịchị Caliphate Abbasid, , 
-Mamluk_c,Mamluk Sultanate,Mamluk Sultanate, ,wiki,False, , , , , ,Ọchịchị Sultanate Mamluk, , 
-Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False, , , , , ,Al-Ghazali, , 
-wulfila,Akwụkwọ Nsọ,Wulfila Bible,2025-09-20,wiki,False, , , , , ,Baịbụl Wulfila, , 
-tran_dynasty_c,Ọchịchị ndị eze,Trần dynasty, ,wiki,False, , , , , ,Ọchịchị eze Trần, , 
-le_dynasty_c,Lê usoro eze,Lê dynasty, ,wiki,False, , , , , ,Ọchịchị eze Lê, , 
-revival_le_dynasty_c,Trinh lords na Nguyễn nwe,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False, , , , , ,Ndị ọchịchị Trịnh na ndị ọchịchị Nguyễn, , 
-seljuk_empire_c,Seljuk alaeze,Seljuk empire, ,wiki,False, , , , , ,Alaeze ukwu Seljuk, , 
-vandals_c,Ndị na-emebi ihe,Vandals, ,wiki,False, , , , , ,Ndị Vandal, , 
-lombard_c,Obodo Lombard,Lombard Kingdom,2025-10-13,wiki,False, , , , , ,Alaeze Lombard, , 
+Julius,Julius,Julius, ,wiki,False, , , , , ,Julius,Julius, 
+Caligula,Caligula,Caligula, ,wiki,False, , , , , ,Caligula,Kaligula, 
+Nero,Nero,Nero, ,wiki,False, , , , , ,Nero,Nero, 
+Galba-Otho-Vitellius,"Galba, Otho na Vitellius (Afọ nke Eze Ukwu Anọ)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , ,"Galba, Otho na Vitellius (Afọ nke Ndị Eze Ukwu Anọ)","Galba, Otho na Vitellius (Afọ nke Emepara Anọ)", 
+Vespasian,Vespasian,Vespasian, ,wiki,False, , , , , ,Vespasian,Vespasian, 
+covid19,Covid-19,Covid-19, ,wiki,False, , , , , ,Covid-19,Covid-19, 
+nicaea1,Mbụ Council nke Nicaea,First Council of Nicaea, ,wiki,False, , , , , ,Nzukọ Mbụ nke Nicaea,Nzukọ Mbu nke Nisia, 
+oxyrhynchus,Oxyrhynchus Papyri,Oxyrhynchus Papyri, ,wiki,False, , , , , ,Akwụkwọ Papyrus Oxyrhynchus,Papirọs Oxyrhynchus, 
+p52,Papyrus P52,Papyrus P52, ,wiki,False, , , , , ,Papyrus P52,Papirọs P52, 
+qing-dynasty_c,Qing dynasty,Qing dynasty,1636-1912,wiki,False, , , , , ,Ọchịchị eze Qing,Alaeze Qing, 
+ming-dynasty_c,Ming dynasty na alaeze ukwu China,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , ,Ọchịchị eze Ming na China oge ochie,Alaeze Ming na Chaina nke emepara, 
+yuan-dynasty_c,Yuan,Yuan,1271-1368,wiki,False, , , , , ,Yuan,Yuan, 
+southern-song_c,Southern Song,Southern Song,1127-1279,wiki,False, , , , , ,Ndịda Song,Saụtụn Song, 
+northern-song_c,Northern Song,Northern Song,960-1127,wiki,False, , , , , ,Ugwu Song,Nọtụn Song, 
+western-xia_c,Western Xia,Western Xia,1038-1227,wiki,False, , , , , ,Ọdịda Anyanwụ Xia,Westa Xia, 
+Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,False, , , , , ,Nicolaus Copernicus,Nicolaus Copernicus, 
+Galileo,Galileo Galilei,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , ,Galileo Galilei,Galileo Galilei, 
+Newton,Isaac Newton,Isaac Newton, ,wiki,False, , , , , ,Isaac Newton,Isaac Newton, 
+shang-dynasty_c,Shang Dynasty,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , ,Ọchịchị eze Shang,Alaeze Shang, 
+western-zhou_c,Western Zhou,Western Zhou,c. 1046-771 BC,wiki,False, , , , , ,Ọdịda Anyanwụ Zhou,Westa Zhou, 
+eastern-zhou_c,Eastern Zhou,Eastern Zhou,770-256 BC,wiki,False, , , , , ,Ọwụwa Anyanwụ Zhou,Ista Zhou, 
+western-han_c,Western Han,Western Han,207 BC – 9 CE,wiki,False, , , , , ,Ọdịda Anyanwụ Han,Westa Han, 
+eastern-han_c,Eastern Han,Eastern Han,25-220 CE,wiki,False, , , , , ,Ọwụwa Anyanwụ Han,Ista Han, 
+three-kingdoms_c,China,China,Three kingdoms 220-280 CE,wiki,False, , , , , ,China,Chaina, 
+sixteen-kingdoms_c,China,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , ,China,Chaina, 
+northern-dynasties_c,Northern Dynasties,Northern dynasties,368-581 CE,wiki,False, , , , , ,Ọchịchị eze ndị dị n'Ugwu,Alaeze Ugwu Ugwu, 
+southern-dynasties_c,Southern Dynasties,Southern dynasties,420-589 CE,wiki,False, , , , , ,Ọchịchị eze ndị dị na Ndịda,Alaeze Ndịda, 
+tang-dynasty2_c,Tang Dynasty,Tang dynasty,"618-690, 705-907",wiki,False, , , , , ,Ọchịchị eze Tang,Alaeze Tang, 
+byzantine_empire_c,Alaeze Ukwu Byzantine,Byzantine Empire, ,wiki,False, , , , , ,Alaeze Ukwu Byzantine,Alaeze Bizantine, 
+ottoman_empire_c,Alaeze Ukwu Ottoman,Ottoman Empire, ,wiki,False, , , , , ,Alaeze Ukwu Ottoman,Alaeze Ottoman, 
+Genghis,Genghis Khan,Genghis Khan, ,wiki,False, , , , , ,Genghis Khan,Jenghis Khan, 
+inca_empire_c,Inca alaeze ukwu,Inca empire, ,wiki,False, , , , , ,Alaeze ukwu Inca,Alaeze Inka, 
+gupta_empire_c,Alaeze Gupta,Gupta Empire, ,wiki,False, , , , , ,Alaeze Ukwu Gupta,Alaeze Gupta, 
+Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False, , , , , ,Teotihuacan,Teotihuacan, 
+Abbasid_c,Abbasid Caliphate,Abbasid Caliphate, ,wiki,False, , , , , ,Ọchịchị Caliphate Abbasid,Khalifat Abbasid, 
+Mamluk_c,Mamluk Sultanate,Mamluk Sultanate, ,wiki,False, , , , , ,Ọchịchị Sultanate Mamluk,Sultanat Mamluk, 
+Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False, , , , , ,Al-Ghazali,Al-Ghazali, 
+wulfila,Akwụkwọ Nsọ,Wulfila Bible,2025-09-20,wiki,False, , , , , ,Baịbụl Wulfila,Baịbụl Wulfila, 
+tran_dynasty_c,Ọchịchị ndị eze,Trần dynasty, ,wiki,False, , , , , ,Ọchịchị eze Trần,Alaeze Trần, 
+le_dynasty_c,Lê usoro eze,Lê dynasty, ,wiki,False, , , , , ,Ọchịchị eze Lê,Alaeze Lê, 
+revival_le_dynasty_c,Trinh lords na Nguyễn nwe,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False, , , , , ,Ndị ọchịchị Trịnh na ndị ọchịchị Nguyễn,Ndị Isi Trịnh na Ndị Isi Nguyễn, 
+seljuk_empire_c,Seljuk alaeze,Seljuk empire, ,wiki,False, , , , , ,Alaeze ukwu Seljuk,Alaeze Seljuk, 
+vandals_c,Ndị na-emebi ihe,Vandals, ,wiki,False, , , , , ,Ndị Vandal,Ndị Vandal, 
+lombard_c,Obodo Lombard,Lombard Kingdom,2025-10-13,wiki,False, , , , , ,Alaeze Lombard,Alaeze Lombard, 
 people,ndị mmadụ,people, ,deprecated,False, , , , , , , , 
 judges,ndị ikpe,judges, ,deprecated,False, , , , , , , , 
 prophets,ndị amụma,prophets, ,deprecated,False, , , , , , , , 
