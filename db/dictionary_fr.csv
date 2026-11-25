@@ -1,473 +1,473 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.11,6.11, ,float,False, , , , , , , , 
-pdf_title,6000 ans d'histoire humaine visualisés,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6 000 ans d'histoire humaine — Une chronologie,6000 ans d'histoire humaine — Une chronologie, ,6 000 ans d'histoire de l'humanité — Une chronologie
-pdf_subject,Chronologie de l'humanité,Timeline of human history from 4000 BCE to present, ,text,False, , , , ,Chronologie de l'histoire humaine de 4000 av. J.-C. à nos jours,Chronologie de l'histoire humaine de 4000 avant notre ère à aujourd'hui, ,Chronologie de l'histoire de l'humanité de 4 000 av. J.-C. à nos jours
-BCE,av. n. è.,B.C.E.,appendix B9,B9,True, , , , , ,avant notre ère, , 
-CE,de n. è.,C.E., ,B9,True, , , , , ,de notre ère, , 
-month,mois,month, ,text,False, , , , ,mois,mois, ,mois
-months,mois,months, ,text,False, , , , ,mois,mois, ,mois
-day,jour,day, ,text,False, , , , ,jour,jour, ,jour
-days,jours,days, ,text,False, , , , ,jours,jours, ,jours
-to,à,to, ,text,False, , , , ,à,à, ,à
-Deluge,Déluge,Deluge, ,text,False, , , , ,Déluge,Déluge, ,Déluge
-moses2,1593 à 1473 avant notre ère – 120 ans,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,1593 à 1473 av. J.-C. – 120 ans,1593 à 1473 avant notre ère – 120 ans, ,De 1593 à 1473 avant notre ère – 120 ans
-temple1,Nisan 1513 avant notre ère. à Ziv 1034 avant notre ère.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,Nisan 1513 av. J.-C. à Ziv 1034 av. J.-C.,Nisan 1513 avant notre ère à Ziv 1034 avant notre ère, ,Du 15 Nisan 1513 avant notre ère au Ziv 1034 avant notre ère
-69weeks,Jésus baptisa à l’automne 29 de notre ère.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,Jésus baptisé à l'automne 29 de notre ère,Jésus baptisé en automne de l'an 29 de notre ère, ,Jésus a été baptisé à l'automne de l'an 29 de notre ère.
-year,année,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,an,an, ,année
-years,années,years, ,text,False, , , , ,ans,ans, ,années
-years_age,ans,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,ans,ans, ,années
+pdf_title,6000 ans d'histoire humaine visualisés,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6 000 ans d'histoire humaine — Une chronologie,6000 ans d'histoire humaine — Une chronologie,6 000 ans d'histoire humaine — Une chronologie,6 000 ans d'histoire de l'humanité — Une chronologie
+pdf_subject,Chronologie de l'humanité,Timeline of human history from 4000 BCE to present, ,text,False, , , , ,Chronologie de l'histoire humaine de 4000 av. J.-C. à nos jours,Chronologie de l'histoire humaine de 4000 avant notre ère à aujourd'hui,Chronologie de l'histoire humaine de 4000 av. n. è. à nos jours,Chronologie de l'histoire de l'humanité de 4 000 av. J.-C. à nos jours
+BCE,av. n. è.,B.C.E.,appendix B9,B9,True, , , , , ,avant notre ère,av. n. è., 
+CE,de n. è.,C.E., ,B9,True, , , , , ,de notre ère,n. è., 
+month,mois,month, ,text,False, , , , ,mois,mois,mois,mois
+months,mois,months, ,text,False, , , , ,mois,mois,mois,mois
+day,jour,day, ,text,False, , , , ,jour,jour,jour,jour
+days,jours,days, ,text,False, , , , ,jours,jours,jours,jours
+to,à,to, ,text,False, , , , ,à,à,à,à
+Deluge,Déluge,Deluge, ,text,False, , , , ,Déluge,Déluge,Déluge,Déluge
+moses2,1593 à 1473 avant notre ère – 120 ans,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,1593 à 1473 av. J.-C. – 120 ans,1593 à 1473 avant notre ère – 120 ans,1593 à 1473 av. n. è. – 120 ans,De 1593 à 1473 avant notre ère – 120 ans
+temple1,Nisan 1513 avant notre ère. à Ziv 1034 avant notre ère.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,Nisan 1513 av. J.-C. à Ziv 1034 av. J.-C.,Nisan 1513 avant notre ère à Ziv 1034 avant notre ère,Nisan 1513 av. n. è. à Ziou 1034 av. n. è.,Du 15 Nisan 1513 avant notre ère au Ziv 1034 avant notre ère
+69weeks,Jésus baptisa à l’automne 29 de notre ère.,Jesus baptized autumn 29 C.E., ,text,False, , , , ,Jésus baptisé à l'automne 29 de notre ère,Jésus baptisé en automne de l'an 29 de notre ère,Jésus baptisé à l'automne 29 n. è.,Jésus a été baptisé à l'automne de l'an 29 de notre ère.
+year,année,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,an,an,an,année
+years,années,years, ,text,False, , , , ,ans,ans,ans,années
+years_age,ans,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,ans,ans,ans,années
 age_kings,ans,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,True, , , , , ,ans, , 
-wilderness,"Israël dans le désert, 1513 à 1473 avant notre ère. - 40 ans",Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,Israël dans le désert 1513 à 1473 av. J.-C. – 40 ans,Israël dans le désert 1513 à 1473 avant notre ère – 40 ans, ,"Israël dans le désert, de 1513 à 1473 avant notre ère – 40 ans"
-timespan_judges,1473 à 1117 avant notre ère – 356 ans,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 à 1117 av. J.-C. – 356 ans,1473 à 1117 avant notre ère – 356 ans, ,De 1473 à 1117 avant notre ère – 356 ans
-timespan_judges2,L'heure des juges,Time of the judges, ,text,False, , , , ,Époque des juges,Époque des juges, ,L'époque des juges
-temple2,479 ans jusqu'à la construction du temple – 1 Rois 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,479 ans jusqu'à la construction du temple – 1 Rois 6:1,479 ans jusqu'à la construction du temple – 1 Rois 6:1, ,"479 ans avant la construction du temple – 1 Rois 6, 1"
-69weeks2,69 semaines jusqu’au Messie – Daniel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,69 semaines jusqu'au Messie – Daniel 9:25,69 semaines jusqu'au Messie – Daniel 9:25, ,69 semaines jusqu'au Messie – Daniel 9:25
-jesus_service,"3,5 années de service auprès de Jésus, exécutées le 14 Nisan 33 de notre ère.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"3,5 ans de service de Jésus, exécuté le 14 Nisan 33 de notre ère","3,5 ans de ministère de Jésus, exécuté le 14 nisan de l'an 33 de notre ère", ,"3,5 ans de ministère de Jésus, exécuté le 14 Nisan de l'an 33 de notre ère."
-jesus_life,Jésus né en 2 avant notre ère.,Jesus born 2 B.C.E., ,text,False, , , , ,Jésus né en 2 av. J.-C.,Jésus né en 2 avant notre ère, ,Jésus est né en 2 avant notre ère.
-exile,607 à 537 avant notre ère – 70 ans (Jérémie 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,607 à 537 av. J.-C. – 70 ans (Jérémie 25:11),607 à 537 avant notre ère – 70 ans (Jérémie 25:11), ,"De 607 à 537 avant notre ère – 70 ans (Jérémie 25, 11)"
-exile2,Exile,Exile, ,text,False, , , , ,Exil,Exil, ,Exil
-7times2,7 temps– 2 520 ans jusqu’au Royaume messianique 1914 de notre ère (Daniel 4 :23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7 temps – 2520 ans jusqu'au Royaume messianique 1914 de notre ère (Daniel 4:23),7 temps – 2520 ans jusqu'au Royaume messianique en 1914 de notre ère (Daniel 4:23), ,"7 fois – 2 520 ans jusqu’au Royaume messianique, en 1914 de notre ère (Daniel 4:23)"
-ww1,Première Guerre mondiale: 1914-1918,World War I – 1914–1918, ,text,False, , , , ,Première Guerre mondiale – 1914–1918,Première Guerre mondiale – 1914-1918, ,Première Guerre mondiale – 1914-1918
-ww2,Seconde Guerre mondiale: 1939-45,World War II – 1939–1945, ,text,False, , , , ,Seconde Guerre mondiale – 1939–1945,Seconde Guerre mondiale – 1939-1945, ,Seconde Guerre mondiale – 1939-1945
-30_year_war,Guerre de Trente Ans en Europe 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,Guerre de Trente Ans en Europe 1618-1648,Guerre de Trente Ans en Europe 1618-1648, ,La Guerre de Trente Ans en Europe (1618-1648)
-joshua,110 ans,110 years, ,text,False, , , , ,110 ans,110 ans, ,110 ans
-caleb,plus de 85 ans,more than 85 years, ,text,False, , , , ,plus de 85 ans,plus de 85 ans, ,plus de 85 ans
-missionary1,"Premier voyage missionnaire de Paul, v. 47-48 de notre ère avec Barnabas et Jean Marc","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"Premier voyage missionnaire de Paul, v. 47-48 de notre ère avec Barnabas et Jean Marc","Premier voyage missionnaire de Paul, env. 47-48 de notre ère avec Barnabas et Jean-Marc", ,"Premier voyage missionnaire de Paul, vers 47-48 de notre ère, en compagnie de Barnabas et de Jean Marc"
-circumcision,"Problème de circoncision à Antioche, conférence à Jérusalem v. 49 de notre ère","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"Question de la circoncision à Antioche, conférence à Jérusalem v. 49 de notre ère","Question de la circoncision à Antioche, assemblée à Jérusalem env. 49 de notre ère", ,"La question de la circoncision à Antioche, concile de Jérusalem vers 49 de notre ère."
-missionary2,Deuxième voyage missionnaire v. 49-52 de notre ère avec Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,Deuxième voyage missionnaire v. 49-52 de notre ère avec Silas (Silvain),Deuxième voyage missionnaire env. 49-52 de notre ère avec Silas (Silvain), ,"Deuxième voyage missionnaire, vers 49-52 de notre ère, avec Silas (Silvanus)"
-missionary3,Troisième voyage missionnaire v. 52-56 de n. è.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,Troisième voyage missionnaire v. 52-56 de notre ère,Troisième voyage missionnaire env. 52-56 de notre ère, ,"Troisième voyage missionnaire, vers 52-56 de notre ère."
-caesarea,Paul en détention à Césarée v. 56-58 de notre ère,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,Paul en détention à Césarée v. 56-58 de notre ère,Paul détenu à Césarée env. 56-58 de notre ère, ,"Paul en détention à Césarée, vers 56-58 de notre ère."
-rome1,Le premier emprisonnement de Paul à Rome v. 59-61 de notre ère,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,Première emprisonnement de Paul à Rome v. 59-61 de notre ère,Première incarcération de Paul à Rome env. 59-61 de notre ère, ,"Première incarcération de Paul à Rome, vers 59-61 de notre ère."
-rome2,"Deuxième emprisonnement de Paul à Rome v. 65 CE, 2 Timothée écrit, Paul exécuté","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"Second emprisonnement de Paul à Rome v. 65 de notre ère, 2 Timothée écrite, Paul exécuté","Seconde incarcération de Paul à Rome env. 65 de notre ère, rédaction de 2 Timothée, exécution de Paul", ,"Deuxième emprisonnement de Paul à Rome vers 65 de notre ère, rédaction de la deuxième épître à Timothée, exécution de Paul"
-event_exodus,Exode d’Égypte le 14 Nisan 1513 av. n. è.,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,Exode d'Égypte le 14 Nisan 1513 av. J.-C.,Exode d'Égypte le 14 nisan 1513 avant notre ère, ,Exode d'Égypte le 14 Nisan 1513 avant notre ère.
-event_division_kingdom,Division d'Israël 997 av. n. è.,Division of Israel 997 BCE, ,text,False, , , , ,Division d'Israël 997 av. J.-C.,Division d'Israël en 997 avant notre ère, ,"Division d'Israël, 997 av. J.-C."
-event_destruction_samaria,Destruction de Samarie 740 av. n. è. par Assyrie,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,Destruction de Samarie 740 av. J.-C. par l'Assyrie,Destruction de la Samarie en 740 avant notre ère par l'Assyrie, ,Destruction de Samarie en 740 avant notre ère par l'Assyrie
-event_destruction_jerusalem1,"Destruction de Jérusalem 607 av. n. è. par Babylone, 390 ans après la division du royaume (Ézéchiel 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"Destruction de Jérusalem 607 av. J.-C. par Babylone, 390 ans après la division du royaume (Ézéchiel 4:5)","Destruction de Jérusalem en 607 avant notre ère par Babylone, 390 ans après la division du royaume (Ézéchiel 4:5)", ,"Destruction de Jérusalem en 607 avant notre ère par Babylone, 390 ans après la division du royaume (Ézéchiel 4:5)"
-event_temple_rebuilt,Temple de Jérusalem reconstruit en 515,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,Temple de Jérusalem reconstruit 515 av. J.-C.,Reconstruction du temple de Jérusalem en 515 avant notre ère, ,Le Temple de Jérusalem a été reconstruit en 515 avant notre ère.
-event_jerusalem_rebuilt,Mur de Jérusalem reconstruit en 455,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,Mur de Jérusalem reconstruit 455 av. J.-C.,Reconstruction de la muraille de Jérusalem en 455 avant notre ère, ,Reconstruction des remparts de Jérusalem en 455 avant notre ère.
-event_destruction_jerusalem2,Destruction de Jérusalem en 70 de n. è. par Rome sous Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,Destruction de Jérusalem 70 de notre ère par Rome sous Titus,Destruction de Jérusalem en 70 de notre ère par Rome sous Titus, ,Destruction de Jérusalem en 70 de notre ère par Rome sous le commandement de Titus
-event_1914,"Fin du temps accordé aux nations (Luc 21 :24), le royaume de Dieu commence à régner dans les cieux en 1914 de notre ère.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"Fin des temps des nations (Luc 21:24), le Royaume de Dieu commence à gouverner dans les cieux 1914 de notre ère","Fin des temps des nations (Luc 21:24), le Royaume de Dieu commence à régner dans les cieux en 1914 de notre ère", ,"À la fin des temps des nations (Luc 21:24), le Royaume de Dieu commence à régner dans les cieux en 1914 de notre ère."
-became_king,devient roi à l'âge de,becomes king at age,2025-04-14,text,True, , , , ,devient roi à l'âge de,devient roi à l'âge de, ,devient roi à l'âge de
-vulgate,Vulgate complétée par Jérôme (traduction latine de la Bible) c. 405 de notre ère,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,Vulgate achevée par Jérôme (traduction latine de la Bible) v. 405 de notre ère,Vulgate achevée par Jérôme (traduction latine de la Bible) vers 405 de notre ère, ,"La Vulgate, achevée par Jérôme (traduction latine de la Bible), vers 405 de notre ère."
-gutenberg,Bible de Gutenberg imprimée en 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,Bible de Gutenberg imprimée 1455,Bible de Gutenberg imprimée en 1455, ,"La Bible de Gutenberg, imprimée en 1455"
-erasmus,Texte grec des Écritures grecques chrétiennes publié par Desiderius Erasmus de Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,Texte grec des Écrits grecs chrétiens publié par Érasme de Rotterdam 1516,Texte grec des Écritures grecques chrétiennes publié par Didier Érasme de Rotterdam en 1516, ,Texte grec des Écritures grecques chrétiennes publié par Desiderius Érasme de Rotterdam en 1516
-luther,Traduction de la Bible de Luther en septembre 1522,Luther Bible translation in September 1522, ,text,False, , , , ,Traduction de la Bible de Luther en septembre 1522,Traduction de la Bible de Luther en septembre 1522, ,Traduction de la Bible par Luther en septembre 1522
-tyndale,Traduction de la Bible en anglais par Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , ,Traduction de la Bible en anglais par Tyndale 1536,Traduction de la Bible en anglais par Tyndale en 1536, ,"Traduction de la Bible en anglais par Tyndale, 1536"
-king_james,Bible du roi Jacques 1611,King James Bible 1611, ,text,False, , , , ,Bible King James 1611,Bible du roi Jacques en 1611, ,"La Bible du roi Jacques, 1611"
-69weeks3,"Jésus commence son service en 29 de n. è. (Luc 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Jésus commence son service en 29 de notre ère (Luc 3:1, 21)","Jésus commence son ministère en 29 de notre ère (Luc 3:1, 21)", ,"Jésus commence son ministère en l'an 29 de notre ère (Luc 3:1, 21)"
-ransom,milieu de la semaine « le sacrifice doit cesser » Daniel 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,Milieu de la semaine « le sacrifice cessera » Daniel 9:27,Milieu de la semaine « le sacrifice et l'offrande cesseront » Daniel 9:27, ,« La fin du sacrifice » au milieu de la semaine – Daniel 9:27
-cornelius,Corneille s'est baptisé au bout de 70 semaines (Daniel 9:24) en 36 de notre ère.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Cornelius est baptisé à la fin des 70 semaines (Daniel 9:24) en 36 de notre ère,Corneille baptisé à la fin des 70 semaines (Daniel 9:24) en 36 de notre ère, ,"Cornelius a été baptisé à la fin des 70 semaines (Daniel 9:24), en l'an 36 de notre ère."
-columbus,fin de la période précolombienne dans les Amériques 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,Fin de la période précolombienne dans les Amériques 1492,Fin de la période précolombienne dans les Amériques en 1492, ,Fin de la période précolombienne dans les Amériques : 1492
-declaration_independence,déclaration d'indépendance de 13 colonies en Amérique 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,Déclaration d'indépendance des 13 colonies d'Amérique 1776,Déclaration d'indépendance des 13 colonies en Amérique en 1776, ,"Déclaration d'indépendance des 13 colonies d'Amérique, 1776"
-tischendorf,Tischendorf découvre le Codex Sinaiticus du IVe siècle en 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf découvre le Codex Sinaiticus du 4ème siècle en 1844,Tischendorf découvre le Codex Sinaiticus datant du IVe siècle en 1844, ,"En 1844, Tischendorf découvre le Codex Sinaiticus, datant du IVe siècle."
-dead_sea_scrolls,Manuscrits de la Mer Morte écrits,Dead Sea Scrolls written, ,text,False, , , , ,Manuscrits de la mer Morte rédigés,Manuscrits de la mer Morte écrits, ,Les Manuscrits de la mer Morte ont été rédigés
-septuagint,Septante LXX traduite,Septuagint LXX translated, ,text,False, , , , ,Septante LXX traduite,Septante (LXX) traduite, ,Traduction de la Septante (LXX)
-watchtower,Le premier numéro de « La Tour de Garde de Sion et héraut de la présence du Christ » est publié en 1879.,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,Le premier numéro de « Zion's Watch Tower and Herald of Christ’s Presence » est publié en 1879,Le premier numéro de « La Tour de Garde de Sion et Héraut de la présence de Christ » est publié en 1879, ,Le premier numéro de « Zion’s Watch Tower and Herald of Christ’s Presence » paraît en 1879
-jehovahs_witnesses,"Les Étudiants de la Bible ont adopté un nouveau nom : Témoins de Jéhovah (Ésaïe 43:10, 12) à Columbus, Ohio, 1931.","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"Les Étudiants de la Bible adoptent un nouveau nom – les Témoins de Jéhovah (Ésaïe 43:10, 12) à Columbus, Ohio, 1931","Les Étudiants de la Bible adoptent un nouveau nom : Témoins de Jéhovah (Isaïe 43:10, 12) à Columbus, dans l'Ohio, en 1931", ,"Les Étudiants de la Bible adoptent un nouveau nom – les Témoins de Jéhovah (Ésaïe 43:10, 12) – à Columbus, dans l’Ohio, en 1931"
-gilead_school,L’École biblique Watchtower de Galaad a commencé le lundi 1er février 1943.,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,L'École biblique de Guiléad de la Tour de Garde commence le lundi 1er février 1943,L'École biblique de Galaad de la Watchtower commence le lundi 1er février 1943, ,L'École biblique de la Tour de Garde de Gilead ouvre ses portes le lundi 1er février 1943
-new_world_translation1,"La « Traduction du monde nouveau des Saintes Écritures », publiée à Manchester, en Angleterre, le 18 juin 1960, réintroduit le nom Jéhovah dans de nombreuses parties de la Bible.","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"La « Traduction du monde nouveau des Écritures saintes » publiée à Manchester, Angleterre, le 18 juin 1960, réintroduit le nom Jéhovah dans de nombreuses parties de la Bible","La « Traduction du monde nouveau des Saintes Écritures » est publiée à Manchester, en Angleterre, le 18 juin 1960, réintroduisant le nom Jéhovah dans de nombreuses parties de la Bible", ,"La « Traduction du monde nouveau des Saintes Écritures », publiée à Manchester, en Angleterre, le 18 juin 1960, réintroduit le nom de Jéhovah dans de nombreux passages de la Bible."
-new_world_translation2,"La version révisée de la « Traduction du monde nouveau des Saintes Écritures » publiée lors de la réunion annuelle 2013, optimisée pour être utilisée sous forme numérique et en ligne.","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"La « Traduction du monde nouveau des Écritures saintes » révisée publiée lors de l'assemblée annuelle de 2013, optimisée pour une utilisation numérique et en ligne","La « Traduction du monde nouveau des Saintes Écritures » révisée est publiée lors de l'assemblée annuelle de 2013, optimisée pour une utilisation numérique et en ligne", ,"La version révisée de la « Traduction du Nouveau Monde des Saintes Écritures », présentée lors de l'assemblée annuelle de 2013, a été optimisée pour une utilisation numérique et en ligne."
-cold_war,Situation géopolitique qualifiée de « Guerre froide » 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,Situation géopolitique appelée « Guerre froide » 1945-1991,Situation géopolitique qualifiée de « Guerre froide » de 1945 à 1991, ,Situation géopolitique qualifiée de « guerre froide » : 1945-1991
-codex_sinaiticus,Codex Sinaiticus écrit,Codex Sinaiticus written, ,text,False, , , , ,Codex Sinaiticus rédigé,Codex Sinaiticus écrit, ,Le Codex Sinaiticus a été rédigé
-codex_vaticanus,Codex Vaticanus écrit,Codex Vaticanus written, ,text,False, , , , ,Codex Vaticanus rédigé,Codex Vaticanus écrit, ,Le Codex Vaticanus a été rédigé
-leningrad_codex,Codex de Leningrad écrit au Caire en 1008 après JC,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Codex de Léningrad rédigé au Caire en 1008 de notre ère,Codex de Léningrad écrit au Caire en 1008 de notre ère, ,"Le Codex de Leningrad, rédigé au Caire en l'an 1008 après J.-C."
-john,Jean écrit « révélation » alors qu’il était en exil à Patmos (96-98 de notre ère).,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,Jean écrit l'« Apocalypse » lors de son exil à Patmos en 96-98 de notre ère,Jean écrit la « Révélation » alors qu'il est en exil à Patmos entre 96 et 98 de notre ère, ,"Jean rédige l'« Apocalypse » alors qu'il est en exil à Patmos, entre 96 et 98 de notre ère."
-buddha,Le Bouddha – Siddhartha Gautama vers 563-c.483 av. n. è.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,Le Bouddha – Siddhartha Gautama env. 563-env. 483 av. notre ère,Le Bouddha – Siddhartha Gautama vers 563 - vers 483 avant notre ère, ,"Le Bouddha – Siddhartha Gautama, vers 563 – vers 483 avant notre ère"
-buddha2,Bouddha alternativement c. 480-400 av. n. è.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Bouddha alternativement env. 480-400 av. notre ère,Bouddha alternativement vers 480-400 avant notre ère, ,"Bouddha, vers 480-400 avant notre ère."
-mohammed,Mohammed c. 570-632 de notre ère,Mohammed c. 570-632, ,text,False, , , , ,Mahomet env. 570-632,Mahomet vers 570-632, ,"Mahomet, vers 570-632"
-confucius,Confucius v. 551-v. 479 av. n. è.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,Confucius env. 551-env. 479 av. notre ère,Confucius vers 551 - vers 479 avant notre ère, ,"Confucius, vers 551 - vers 479 avant notre ère"
-hijrah,Hijrah - Voyage de La Mecque à Médine 16 juillet 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Hégire - Voyage de La Mecque à Médine le 16 juillet 622,Hégire - Voyage de la Mecque à Médine le 16 juillet 622, ,"L'Hégire – Le voyage de La Mecque à Médine, le 16 juillet 622"
-moses_escape,"1553 avant notre ère Moïse doit fuir l’Égypte – Exode 2:15, Actes 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 av. notre ère Moïse doit fuir l'Égypte – Exode 2:15, Actes 7:23","1553 avant notre ère : Moïse doit s'enfuir d'Égypte – Exode 2:15, Actes 7:23", ,"1553 av. J.-C. Moïse doit fuir l'Égypte – Exode 2, 15 ; Actes 7, 23"
-10plagues,1513 avant notre ère L’Égypte reçoit 10 fléaux,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 av. notre ère l'Égypte reçoit les 10 plaies,1513 avant notre ère : L'Égypte subit 10 plaies, ,1513 av. J.-C. : l'Égypte subit les dix plaies
-joseph_sold,Joseph vendu comme esclave à l’âge de 17 ans – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Joseph vendu comme esclave à l'âge de 17 ans – Genèse 37:2,Joseph vendu comme esclave à l'âge de 17 ans – Genèse 37:2, ,"Joseph a été vendu comme esclave à l'âge de 17 ans – Genèse 37, 2"
-infliction,400 ans d'infliction (Actes 7:6) – Ismaël 1913 av. n. è.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400 ans d'affliction (Actes 7:6) – Ismaël 1913 av. notre ère,Affliction de 400 ans (Actes 7:6) – Ismaël en 1913 avant notre ère, ,"400 ans d’affliction (Actes 7:6) – Ismaël, 1913 avant notre ère"
-Alexander,Alexandre le Grand (Daniel 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Alexandre le Grand (Daniel 11:3),Alexandre le Grand (Daniel 11:3), ,Alexandre le Grand (Daniel 11:3)
-persia,"Cyrus le Grand, Cambyse II, Darius Ier 490 avant notre ère, Xerxès Ier 480 avant notre ère (époux d'Esther, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Cyrus le Grand, Cambyse II, Darius Ier 490 av. notre ère, Xerxès Ier 480 av. notre ère (mari d'Esther, Daniel 11:2)","Cyrus le Grand, Cambyse II, Darius Ier 490 av. n. è., Xerxès Ier 480 av. n. è. (mari d'Esther, Daniel 11:2)", ,"Cyrus le Grand, Cambyse II, Darius Ier en 490 av. J.-C., Xerxès Ier en 480 av. J.-C. (époux d'Esther, Daniel 11:2)"
-king_north,"Séleucus I Nicator (v5) de la Syrie à Antiochus III (v10) et Séleucus IV (v18, 19) jusqu'à Octavien (v20) et Tibère (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"Séleucos Ier Nicator (v5) Syrie à Antiochos III (v10) et Séleucos IV (v18, 19) jusqu'à Octavien (v20) et Tibère (v21-24)","Séleucos Ier Nicator (v. 5) Syrie jusqu'à Antiochus III (v. 10) et Séleucos IV (v. 18, 19) jusqu'à Octave (v. 20) et Tibère (v. 21-24)", ,"Seleucos Ier Nicator (v. 5) : de la Syrie à Antiochos III (v. 10) et Seleucos IV (v. 18, 19), jusqu’à Octave (v. 20) et Tibère (v. 21-24)"
-king_north1,Roi du Nord,King of the North, ,text,False, , , , ,Roi du Nord,Roi du Nord, ,Le Roi du Nord
-king_south,"Ptolémée I, II, III, IV (v11, 12), V (v15, 16) à la bataille d'Actium 31 avant notre ère.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"Ptolémée Ier, II, III, IV (v11, 12), V (v15, 16) jusqu'à la bataille d'Actium en 31 av. notre ère","Ptolémée Ier, II, III, IV (v. 11, 12), V (v. 15, 16) jusqu'à la bataille d'Actium 31 av. n. è.", ,"Ptolémée Ier, II, III, IV (v. 11, 12), V (v. 15, 16) jusqu'à la bataille d'Actium en 31 av. J.-C."
-king_south1,Roi du Sud,King of the South, ,text,False, , , , ,Roi du Sud,Roi du Sud, ,Le roi du Sud
-king_south2,"Empire britannique 1870, puissance mondiale anglo-américaine depuis 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"Empire britannique 1870, puissance mondiale anglo-américaine depuis 1914","Empire britannique 1870, Puissance mondiale anglo-américaine depuis 1914", ,"L'Empire britannique en 1870, la puissance mondiale anglo-américaine depuis 1914"
-king_south3,Roi du Sud,King of the South, ,text,False, , , , ,Roi du Sud,Roi du Sud, ,Le roi du Sud
-king_north2,"Allemagne avec l'empereur Guillaume Ier 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Allemagne avec l'empereur Guillaume Ier 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Allemagne avec l'empereur Guillaume Ier 1871 (v. 28), 1914 (v. 29), 1935 (v. 30b), 1939 (v. 31a)", ,"L'Allemagne sous l'empereur Guillaume Ier : 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
-king_north3,Nord,North, ,text,False, , , , ,Nord,Nord, ,Nord
-king_north4,"Union soviétique 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"Union soviétique 1945-1991 (Daniel 11:32-39, 40b, 41)","Union soviétique 1945-1991 (Daniel 11:32-39, 40b, 41)", ,"Union soviétique 1945-1991 (Daniel 11:32-39, 40b, 41)"
-king_north5,Russie depuis 2017 (w20 mai),Russia since 2017 (w20 May), ,text,False, , , , ,Russie depuis 2017 (w20 mai),Russie depuis 2017 (w20 mai), ,Russie depuis 2017 (semaine du 20 mai)
-time_of_end,"Présence du Christ, Conclusion du système de choses (Matthieu 24 :3), les derniers jours (2 Timothée 3 :1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"Présence du Christ, Fin du système de choses (Matthieu 24:3), les derniers jours (2 Timothée 3:1)","Présence du Christ, Conclusion du système de choses (Matthieu 24:3), les derniers jours (2 Timothée 3:1)", ,"La présence du Christ, la fin du système de choses (Matthieu 24:3), les derniers jours (2 Timothée 3:1)"
-time_of_end2,derniers jours,Last days, ,text,False, , , , ,Derniers jours,Derniers jours, ,Derniers jours
-suryavaman2,Le roi Suryavarman II construit Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,Le roi Suryavarman II construit Angkor Vat 1113-1150,Le roi Suryavarman II construit Angkor Vat 1113-1150, ,Le roi Suryavarman II fait construire Angkor Wat entre 1113 et 1150
-notre-dame,Notre-Dame de Paris construite entre 1163 et 1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,Notre-Dame de Paris construite 1163-1260,Notre-Dame de Paris construite 1163-1260, ,"Notre-Dame de Paris, construite entre 1163 et 1260"
-babel,tour de Babel construite,Tower of Babel built, ,text,False, , , , ,Tour de Babel construite,Tour de Babel construite, ,Construction de la tour de Babel
-infliction1,400 ans d'infliction,400 year infliction,Acts 7:6,text,False, , , , ,400 ans d'affliction,Affliction de 400 ans, ,400 ans de souffrance
-Lots_wife,La femme de Lot,Lot’s wife, ,text,False, , , , ,Femme de Lot,Femme de Lot, ,La femme de Lot
-Lots_daughters,Filles de Lot,Daughters of Lot, ,text,False, , , , ,Filles de Lot,Filles de Lot, ,Les filles de Lot
-Moab,Moab (fille aînée),Moab (older daughter),Genesis 19:37,text,False, , , , ,Moab (fille aînée),Moab (fille aînée), ,Moab (ma fille aînée)
-rosetta,Pierre de Rosette 196 av. n. è.,Rosetta stone 196 B.C.E., ,text,False, , , , ,Pierre de Rosette 196 av. notre ère,Pierre de Rosette 196 av. n. è., ,"Pierre de Rosette, 196 avant notre ère"
-Herodotus,"Hérodote c. 484 – ch. 425 avant JC, écrit Les Histoires","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"Hérodote c. 484 – c. 425 av. J.-C., écrit Les Histoires","Hérodote env. 484 – env. 425 av. n. è., écrit Histoires", ,Hérodote (vers 484 – vers 425 av. J.-C.) est l'auteur des « Histoires ».
-Aristotle,Aristote 384 – 322 av. n. è.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,Aristote 384 – 322 av. J.-C.,Aristote 384 – 322 av. n. è., ,"Aristote, 384 – 322 av. J.-C."
-Ptolemy,Ptolémée c 100 – c. 170 de n. è.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,Ptolémée c. 100 – c. 170 de notre ère,Ptolémée env. 100 – env. 170 de n. è., ,"Ptolémée, vers 100 – vers 170 de notre ère"
-Pythagoras,Pythagore v. 570 – vers. 495 av. n. è.,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,Pythagore c. 570 – c. 495 av. J.-C.,Pythagore env. 570 – env. 495 av. n. è., ,"Pythagore, vers 570 – vers 495 av. J.-C."
-Plato,Platon c. 427 – ch. 348 av. n. è.,Plato c. 427 – c. 348 BC, ,text,False, , , , ,Platon c. 427 – c. 348 av. J.-C.,Platon env. 427 – env. 348 av. n. è., ,"Platon, vers 427 – vers 348 av. J.-C."
-Socrates,Socrate c. 470 – vers. 399 av. n. è.,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,Socrate c. 470 – c. 399 av. J.-C.,Socrate env. 470 – env. 399 av. n. è., ,"Socrate, vers 470 – vers 399 av. J.-C."
-Josephus,Josèphe c. 37 – ch. 100 de n. è.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,Josèphe c. 37 – c. 100 de notre ère,Josèphe env. 37 – env. 100 de n. è., ,"Josèphe, vers 37 – vers 100 de notre ère"
-Cicero,Cicéron 106-43 av.n.è,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,Cicéron 106–43 av. J.-C.,Cicéron 106-43 av. n. è., ,"Cicéron, 106-43 av. J.-C."
-lachish_letters,Lettres de Lachish c. 590 av. n. è.,Lachish letters c. 590 B.C.E., ,text,False, , , , ,Lettres de Lakish c. 590 av. n. è.,Lettres de Lakish env. 590 av. n. è., ,"Lettres de Lakish, vers 590 avant notre ère"
-lachish_reliefs,Reliefs de Lachish c. 681 av. n. è.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,Reliefs de Lakish c. 681 av. n. è.,Bas-reliefs de Lakish env. 681 av. n. è., ,"Reliefs de Lakish, vers 681 avant notre ère."
-mesha_stele,Stèle de Mesha (pierre moabite) v. 840 av. n. è.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,Stèle de Mesha (pierre moabite) c. 840 av. n. è.,Stèle de Mesha (pierre moabite) env. 840 av. n. è., ,"Stèle de Mesha (pierre de Moab), vers 840 avant notre ère."
-gilgamesh,Gilgamesh et Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,Gilgamesh et Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh et Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,Gilgamesh et Aga 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,Épopée de Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,Épopée de Gilgamesh (Sîn-lēqi-unninni),Épopée de Gilgamesh (Sîn-lēqi-unninni), ,L'Épopée de Gilgamesh (Sîn-lēqi-unninni)
-gregorian,Calendrier grégorien 1582,Gregorian calendar 1582, ,text,False, , , , ,Calendrier grégorien 1582,Calendrier grégorien 1582, ,Calendrier grégorien 1582
-shang-dynasty,c. 1600-1046 av. n. è.,c. 1600-1046 BC, ,text,False, , , , ,c. 1600-1046 av. J.-C.,env. 1600-1046 av. n. è., ,vers 1600-1046 av. J.-C.
-western-zhou,c. 1046-771 av. n. è.,c. 1046-771 BC, ,text,False, , , , ,c. 1046-771 av. J.-C.,env. 1046-771 av. n. è., ,vers 1046-771 av. J.-C.
-qin-dynasty,Qin 221-207 av. n. è.,Qin 221-207 BC, ,text,False, , , , ,Qin 221-207 av. J.-C.,Qin 221-207 av. n. è., ,"Dynastie Qin, 221-207 av. J.-C."
-western-han,207 av. n. è. – 9 de n. è.,207 BC – 9 CE, ,text,False, , , , ,207 av. J.-C. – 9 de notre ère,207 av. n. è. – 9 de n. è., ,207 av. J.-C. – 9 apr. J.-C.
-three-kingdoms,Trois royaumes 220-280 de n. è.,Three kingdoms 220-280 CE, ,text,False, , , , ,Trois royaumes 220-280 de notre ère,Les Trois Royaumes de 220 à 280 de notre ère, ,"Les Trois Royaumes, 220-280 de notre ère"
-sixteen-kingdoms,Seize Royaumes 304-439 de n. è.,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,Seize royaumes 304-439 de notre ère,Les Seize Royaumes de 304 à 439 de notre ère, ,Les seize royaumes (304-439 de notre ère)
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , ,"618-690, 705-907", , 
-wu-zhou,690-705 Wu Zetian,690-705 Wu Zhou, ,text,False, , , , , ,690-705 Wu Zhou, , 
-tang-dynasty1_c,Tang,Tang, ,text,False, , , , , ,Tang, , 
-gonghe,Régence de Gonghe 841-828 av. n. è.,Gonghe Regency 841-828 BC, ,text,False, , , , ,Régence de Gonghe 841-828 av. J.-C.,Régence de Gonghe de 841 à 828 avant notre ère, ,"Régence de Gonghe, 841-828 av. J.-C."
-Ashoka,Ashoka (vers 304-232 av. n. è.) promeut le bouddhisme,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,Ashoka (c. 304-232 av. J.-C.) promeut le bouddhisme,Asoka (c. 304-232 avant notre ère) promeut le bouddhisme, ,Ashoka (vers 304-232 av. J.-C.) promeut le bouddhisme
-siloam-tunnel,Ézéchias prolonge le tunnel de Siloé,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,Ézéchias prolonge le tunnel de Siloé,Ézéchias prolonge le tunnel de Siloé, ,Ézéchias prolonge le tunnel de Siloé
-Angloamerica2,"L'Anglo-Américain est symbolisé par des pieds de fer mélangés à de l'argile dans la prophétie de Daniel 2:33, 41-43.","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"Anglo-américain est symbolisé par les pieds de fer mêlés d'argile dans la prophétie de Daniel 2:33, 41-43","La puissance anglo-américaine est symbolisée par les pieds de fer mélangé d'argile dans la prophétie de Daniel 2:33, 41-43", ,"L'empire anglo-américain est symbolisé par les pieds de fer mêlés d'argile dans la prophétie de Daniel 2, 33, 41-43."
-Manetho,Manéthon écrit Ægyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , ,Manéthon écrit Aegyptiaca,Manéthon écrit les Aegyptiaca, ,Manéthon écrit les *Aegyptiaca*
-destruction_babylon,"Destruction de Babylone la Grande (Apocalypse 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"Destruction de Babylone la Grande (Apocalypse 17:3, 15-18 ; 18:9, 10)","Destruction de Babylone la Grande (Révélation 17:3, 15-18; 18:9, 10)", ,"La destruction de Babylone la Grande (Apocalypse 17:3, 15-18 ; 18:9, 10)"
-peace_security,"« Paix et sécurité ! » (1 Thessaloniciens 5 : 3, c'est une possibilité, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"« Paix et sécurité ! » (1 Thessaloniciens 5:3, ceci est une possibilité, QfR 26/2, 25/11)","« Paix et sécurité ! » (1 Thessaloniciens 5:3, ceci est une possibilité, QfR 26/2, 25/11)", ,"« Paix et sécurité ! » (1 Thessaloniciens 5:3, c'est une possibilité, QfR 26/2, 25/11)"
-gog_of_magog,"Attaque de Gog de Magog (Ézéchiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"Attaque de Gog de Magog (Ézéchiel 38:1, 2, 9-12, 18-23)","Attaque de Gog de Magog (Ézéchiel 38:1, 2, 9-12, 18-23)", ,"L'attaque de Gog de Magog (Ézéchiel 38, 1, 2, 9-12, 18-23)"
-sheep_goat,Les habitants de la Terre seront jugés en séparant les moutons des chèvres (Matthieu 25:31-33),"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"Les habitants de la terre sont jugés, séparant les brebis et les boucs (Matthieu 25:31-33)","Les habitants de la terre sont jugés, séparation des brebis et des chèvres (Matthieu 25:31-33)", ,"Les habitants de la Terre sont jugés : on sépare les brebis des chèvres (Matthieu 25, 31-33)"
-annointed,Rassemblement des dirigeants du Royaume (Matthieu 24:31; 1 Corinthiens 15:50-53; 1 Thessaloniciens 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,Rassemblement des dirigeants du Royaume (Matthieu 24:31 ; 1 Corinthiens 15:50-53 ; 1 Thessaloniciens 4:15-17),Rassemblement des dirigeants du Royaume (Matthieu 24:31; 1 Corinthiens 15:50-53; 1 Thessaloniciens 4:15-17), ,Rassemblement des souverains du Royaume (Matthieu 24:31 ; 1 Corinthiens 15:50-53 ; 1 Thessaloniciens 4:15-17)
-armageddon,"Bataille d'Harmaguédon (Apocalypse 16:14, 16; Ésaïe 13:9; 2 Pierre 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"Bataille d'Armageddon (Apocalypse 16:14, 16 ; Ésaïe 13:9 ; 2 Pierre 3:12)","Bataille d'Harmaguédon (Révélation 16:14, 16; Isaïe 13:9; 2 Pierre 3:12)", ,"La bataille d'Armageddon (Apocalypse 16:14, 16 ; Ésaïe 13:9 ; 2 Pierre 3:12)"
-millenium,"Le Royaume de Dieu commence son règne de 1000 ans (Apocalypse 5 :9, 10 ; 20 :4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"Le Royaume de Dieu commence son règne de 1000 ans (Apocalypse 5:9, 10 ; 20:4, 6)","Le Royaume de Dieu commence son règne de 1 000 ans (Révélation 5:9, 10; 20:4, 6)", ,"Le Royaume de Dieu entame son règne de 1 000 ans (Apocalypse 5:9, 10 ; 20:4, 6)"
-great_crowd,"Une grande foule survit à Harmaguédon (Apocalypse 7:9, 14; Psaume 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"Une grande foule survit à Armageddon (Apocalypse 7:9, 14 ; Psaume 37:9-11)","Une grande foule survit à Harmaguédon (Révélation 7:9, 14; Psaume 37:9-11)", ,"Une grande foule survit à l'Armageddon (Apocalypse 7:9, 14 ; Psaume 37:9-11)"
-world_population,Population mondiale en milliards au cours des 2000 dernières années,World population in billions in the last 2000 years, ,text,False, , , , ,Population mondiale en milliards au cours des 2000 dernières années,Population mondiale en milliards au cours des 2 000 dernières années, ,Population mondiale en milliards au cours des 2 000 dernières années
-khmer_empire_c,Empire khmer - Période d’Angkor,Khmer Empire - Angkor period, ,text,False, , , , ,Empire khmer - période d'Angkor,Empire khmer - période d'Angkor, ,Empire khmer - Période d'Angkor
-holy_roman_empire_c,Saint Empire romain – après 1512 Saint Empire romain germanique,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,Saint-Empire romain – connu sous le nom de Saint-Empire romain de la nation germanique après 1512,Saint-Empire romain germanique – connu sous le nom de Saint-Empire romain de la nation germanique après 1512, ,Saint-Empire romain germanique – connu sous le nom de « Saint-Empire romain germanique de la nation allemande » à partir de 1512
-mongol_empire,Empire mongol 1206 – 1294 de notre ère,Mongol Empire 1206 – 1294, ,text,False, , , , ,Empire mongol 1206 – 1294,Empire mongol de 1206 à 1294, ,"Empire mongol, 1206 – 1294"
-maya_classic_c,Civilisation Maya – période classique,Maya civilization – Classic period, ,text,False, , , , ,Civilisation maya – période classique,Civilisation maya – Période classique, ,La civilisation maya – Période classique
-maya_postclassic_c,Civilisation Maya – période postclassique,Maya civilization – Postclassic period, ,text,False, , , , ,Civilisation maya – période postclassique,Civilisation maya – Période postclassique, ,Civilisation maya – Période postclassique
-Teotihuacan,"plus grande ville des Amériques, les pyramides sont construites c. 200 de notre ère","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"Plus grande ville des Amériques, pyramides construites c. 200 de notre ère","Plus grande ville des Amériques, construction de pyramides vers 200 de notre ère", ,"La plus grande ville des Amériques, dont les pyramides ont été construites vers l'an 200 de notre ère."
-Dionysius_Exiguus,"Dionysius Exiguus, inventeur d'Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"Denys le Petit, inventeur d'Anno Domini","Denys le Petit, inventeur de l'ère chrétienne (Anno Domini)", ,"Dionysius Exiguus, inventeur de l'Anno Domini"
-Umayyad_c,Omeyyade,Umayyad, ,text,False, , , , ,Omeyyade,Omeyyade, ,Omeyyade
-ur3,Dynastie Ur III 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,IIIe dynastie d'Ur 𒋀𒀕𒆠,Troisième dynastie d'Ur 𒋀𒀕𒆠, ,Dynastie d'Ur III 𒋀𒀕𒆠
-hammurabi,Hammourabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , ,Hammurabi 𒄩𒄠𒈬𒊏𒁉, , 
-Al-Khwarizmi,al-Khwarizmi écrit Al-Jabr (Algèbre),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,Al-Khwarizmi écrit Al-Jabr (Algèbre),Al-Khwarizmi écrit Al-Jabr (L'Algèbre), ,Al-Khwarizmi est l'auteur de l'ouvrage *Al-Jabr* (Algèbre)
-al-azhar,L'Université Al-Azhar est créée au Caire,Al-Azhar University is established in Cairo, ,text,False, , , , ,L'Université Al-Azhar est établie au Caire,L'université Al-Azhar est fondée au Caire, ,L'université Al-Azhar a été fondée au Caire
-Ibn-Sina,Ibn Sina ou Avicenne,Ibn Sina or Avicenna, ,text,False, , , , ,Ibn Sina ou Avicenne,Ibn Sina ou Avicenne, ,Ibn Sina ou Avicenne
-life-expectancy,Espérance de vie : 75 ans,Life expectancy 75 years, ,text,False, , , , ,Espérance de vie 75 ans,Espérance de vie de 75 ans, ,Espérance de vie : 75 ans
-430years_c,"430 ans : Exode 12:41, Galates 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"430 ans : Exode 12:41, Galates 3:17","430 ans : Exode 12:41, Galates 3:17", ,"430 ans : Exode 12,41 ; Galates 3,17"
-maya_calendar,Début du calendrier maya : 11 août 3114 av. n. è.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,Début calculé du calendrier maya 11 août 3114 av. J.-C.,Début calculé du calendrier maya : 11 août 3114 avant notre ère, ,Début calculé du calendrier maya : le 11 août 3114 avant notre ère.
-xia-dynasty2,Vers 2070 – vers 1600 av. n. è.; ère mentionnée pour la première fois pendant la période des Zhou occidentaux,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,v. 2070 – v. 1600 av. J.-C. ; Ère mentionnée pour la première fois sous la dynastie des Zhou occidentaux,c. 2070 – c. 1600 avant notre ère ; Époque mentionnée pour la première fois sous la période des Zhou occidentaux, ,vers 2070 – vers 1600 av. J.-C. ; époque mentionnée pour la première fois sous la dynastie des Zhou de l’Ouest
-xia-dynasty2_c,Dynastie Xia en Chine,Xia dynasty in China, ,text,False, , , , ,Dynastie Xia en Chine,Dynastie Xia en Chine, ,La dynastie Xia en Chine
-tres_zapotes,3 septembre 32 av. n. è.,"September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,3 septembre 32 av. J.-C.,3 septembre 32 avant notre ère, ,3 septembre 32 av. J.-C.
-joseph_jacob_reunited,Joseph et Jacob réunis en Égypte – 1728 av. J.-C. (Gen 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,Joseph et Jacob réunis en Égypte – 1728 av. J.-C. (Gen 45:11 ; 47:9),Joseph et Jacob réunis en Égypte – 1728 avant notre ère (Gen 45:11; 47:9), ,"Les retrouvailles de Joseph et de Jacob en Égypte – 1728 avant notre ère (Genèse 45, 11 ; 47, 9)"
-king_south_light_c,Roi du Sud (Daniel 11),King of the South from Daniel 11,2025-02-05,text,False, , , , ,Roi du Sud d'après Daniel 11,Le roi du Sud d'après Daniel 11, ,"Le roi du Sud, d'après Daniel 11"
-king_north_light_c,Roi du Nord (Daniel 11),King of the North from Daniel 11,2025-02-05,text,False, , , , ,Roi du Nord d'après Daniel 11,Roi du Nord selon Daniel 11, ,"Le roi du Nord, d'après Daniel 11"
-daniel2_iron_c,Jambes de fer (Daniel 2),Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Jambes de fer d'après Daniel 2,Jambes de fer selon Daniel 2, ,Les jambes de fer de Daniel 2
-argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,True, , , , ,Codex Argenteus v. 505,Codex Argenteus v. 505, ,"Codex Argenteus, vers 505"
-nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,True, , , , , ,Nguyễn, , 
-edo_c,Époque d'Edo au Japon,Edo period in Japan,Edo period (Tokugawa shogunate),text,True, , , , ,Période d'Edo au Japon,Époque d'Edo au Japon, ,Période d'Edo au Japon
-meiji_c,Meiji,Meiji,2025-09-20,text,True, , , , , ,Meiji, , 
-american_civil_war,Guerre civile américaine 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,Guerre de Sécession 1861-1865,Guerre de Sécession 1861-1865, ,Guerre de Sécession 1861-1865
-aleppo_codex,Codex d'Alep v. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,Codex d'Alep v. 920,Codex d'Alep v. 920, ,"Codex d'Alep, vers 920"
-vandals,Royaume des Vandales et des Alains 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Royaume des Vandales et des Alains 435 – 534,Royaume des Vandales et des Alains 435 – 534, ,"Royaume des Vandales et des Alains, 435 – 534"
-francia,"c. 481/509 – 843, mérovingien jusqu'en 751, puis carolingien","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"v. 481/509 – 843, Mérovingien jusqu'en 751, puis Carolingien","v. 481/509 – 843, Mérovingiens jusqu'en 751, puis Carolingiens", ,"vers 481/509 – 843, période mérovingienne jusqu’en 751, puis carolingienne"
-francia_c,Royaume des Francs,Kingdom of the Franks, ,text,False, , , , ,Royaume des Francs,Royaume des Francs, ,Royaume des Francs
-100_years_war,Guerre de Cent Ans 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Guerre de Cent Ans 1337 – 1453,Guerre de Cent Ans 1337 – 1453, ,"La Guerre de Cent Ans, 1337 – 1453"
-black_death,Peste noire 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Peste noire 1346-1353,Peste noire 1346-1353, ,"La peste noire, 1346-1353"
-sui_dynasty,581-618 Dynastie Sui,581-618 Sui dynasty,2025-11-09,text,False, , , , ,Dynastie Sui 581-618,581-618 Dynastie Sui, ,581-618 : dynastie des Sui
-sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , ,Sui, , 
-tribulation,"La Grande Tribulation (Marc 13:19; Daniel 12:1; Matthieu 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"La Grande Tribulation (Marc 13:19 ; Daniel 12:1 ; Matt 24:21, 22)","La grande tribulation (Marc 13:19 ; Daniel 12:1 ; Matthieu 24:21, 22)", ,"La Grande Tribulation (Marc 13:19 ; Daniel 12:1 ; Matthieu 24:21, 22)"
-timeline_created,"Cette chronologie a été créée en 2023, l'année la plus chaude de l'histoire de l'humanité et des 125 000 dernières années.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"Cette chronologie est créée en 2023, l'année la plus chaude de l'histoire humaine et des 125 000 dernières années","Cette chronologie est créée en 2023, l'année la plus chaude de l'histoire humaine et des 125 000 dernières années", ,"Cette chronologie a été établie en 2023, année la plus chaude de l'histoire de l'humanité et des 125 000 dernières années."
-Adam,Adam,Adam,Luke 3:38,bible,True, , , , , ,Adam, , 
-Seth,Seth,Seth,Luke 3:38,bible,True, , , , , ,Seth, , 
-Enosh,Énosh,Enosh,Luke 3:38,bible,True, , , , , ,Énos, , 
-Kenan,Kénân,Kenan (Cainan),"Genesis 5:12, Luke 3:37",bible,False, , , , , ,Kénan (Cainan), , 
-Mahalalel,Maalaléel,Mahalalel (Mahalaleel),"Genesis 5:15, Luke 3:37",bible,False, , , , , ,Mahalalel, , 
-Jared,Jared,Jared,Luke 3:37,bible,True, , , , , ,Jared, , 
-Enoch,Hénoch,Enoch,Luke 3:37,bible,True, , , , , ,Hénoch, , 
-Methuselah,Mathusalem,Methuselah,Luke 3:37,bible,True, , , , , ,Mathusalem, , 
-Lamech,Lamek,Lamech,Luke 3:36,bible,True, , , , , ,Lamech, , 
-Noah,Noé,Noah,Luke 3:36,bible,True, , , , , ,Noé, , 
-Shem,Sem,Shem,Luke 3:36,bible,True, , , , , ,Sem, , 
-Arpachshad,Arpakshad,Arpachshad,Luke 3:36,bible,True, , , , , ,Arpacshad, , 
-Shelah,Shéla,Shelah,Luke 3:35,bible,True, , , , , ,Schélach, , 
-Eber,Ébèr,Eber,Luke 3:35,bible,True, , , , , ,Éber, , 
-Peleg,Pélèg,Peleg,Luke 3:35,bible,True, , , , , ,Pélèg, , 
-Reu,Réou,Reu,Luke 3:35,bible,True, , , , , ,Réou, , 
-Serug,Seroug,Serug,Luke 3:35,bible,True, , , , , ,Seroug, , 
-Nahor,Naor,Nahor,"Luke 3:34, Genesis 11:24",bible,True, , , , , ,Nachor, , 
-Terah,Téra,Terah,Luke 3:34,bible,True, , , , , ,Térach, , 
-Abraham,Abraham,Abraham,Luke 3:34,bible,True, , , , , ,Abraham, , 
-Isaac,Isaac,Isaac,Luke 3:34,bible,True, , , , , ,Isaac, , 
-Jacob,Jacob,Jacob,Luke 3:34,bible,True, , , , , ,Jacob, , 
-Joseph,Joseph,Joseph,Genesis 37,bible,False, , , , , ,Joseph, , 
-Moses,Moïse,Moses,Exodus 2:10,bible,False, , , , , ,Moïse, , 
-Othniel,Otniel,Othniel,Judges 3:9-11,bible,False, , , , , ,Othniel, , 
-Ehud,Éhoud,Ehud,Judges 3:15-18,bible,False, , , , , ,Éhud, , 
-Shamgar,Shamgar,Shamgar,Judges 3:31,bible,False, , , , , ,Schamgar, , 
-Barak,Barak,"Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , ,"Barak, Débora, Jael", , 
-Gideon,Gédéon,Gideon,Judges 7:1,bible,False, , , , , ,Gédéon, , 
-Tola,Tola,Tola,Judges 10:1,bible,False, , , , , ,Tola, , 
-Jair,Jaïr,Jair,Judges 10:3,bible,False, , , , , ,Jaïr, , 
-Jephthah,Jephté,Jephthah,Judges 11:1,bible,False, , , , , ,Jephté, , 
-Ibzan,Ibzân,Ibzan,Judges 12:8,bible,False, , , , , ,Ibtsan, , 
-Elon,Élôn,Elon,Judges 12:11,bible,False, , , , , ,Élon, , 
-Abdon,Abdôn,Abdon,Judges 12:13,bible,False, , , , , ,Abdon, , 
-Samson,Samson,Samson,Judges 13:24,bible,False, , , , , ,Samson, , 
-Samuel,Samuel,Samuel,1 Samuel 1:20,bible,False, , , , , ,Samuel, , 
-Saul,Saül,Saul,1 Samuel 9:2,bible,False, , , , , ,Saül, , 
-David,David,David,1 Samuel 16:13,bible,False, , , , , ,David, , 
-Solomon,Salomon,Solomon,1 Kings 2:1,bible,False, , , , , ,Salomon, , 
-Malachi,Malachie,Malachi,bible book,bible,False, , , , , ,Malachie, , 
-Ruth,Ruth,Ruth,bible book,bible,False, , , , , ,Ruth, , 
-Ezra,Esdras,Ezra,bible book,bible,False, , , , , ,Esdras, , 
-Nehemiah,Néhémie,Nehemiah,bible book,bible,False, , , , , ,Néhémie, , 
-Esther,Esther,Esther,bible book,bible,False, , , , , ,Esther, , 
-Job,Job,Job,bible book,bible,False, , , , , ,Job, , 
-moses3,Moïse,Moses,Exodus 2:10,bible,False, , , , , ,Moïse, , 
-joshua2,Josué,Joshua,Exodus 17:14,bible,False, , , , , ,Josué, , 
-caleb2,Caleb,Caleb,Numbers 13:30,bible,False, , , , , ,Caleb, , 
-Augustus,Auguste,Augustus,Luke 2:1,bible,False, , , , , ,Auguste, , 
-Tiberius,Tibère,Tiberius,Luke 3:1,bible,False, , , , , ,Tibère, , 
-Claudius,Claude,Claudius,Acts 11:28,bible,False, , , , , ,Claude, , 
-persia2,Perse,Persia,Esther 1:3,bible,False, , , , , ,Perse, , 
-jehoiada,Joad,Jehoiada,2 Kings 11:4,bible,False, , , , , ,Jehojada, , 
-Haggai,Aggée,Haggai,bible book,bible,False, , , , , ,Aggée, , 
-Zerubbabel,Zorobabel (Luc 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , ,Zorobabel (Luc 3:27), , 
-Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , ,Jacob/, , 
-Israel,Israël,Israel,Genesis 35:10,bible,False, , , , , ,Israël, , 
-Sarah,Sarah,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , ,Sara, , 
-Hagar,Agar,Hagar,Genesis 21:14,bible,False, , , , , ,Agar, , 
-Haran,Haran,Haran,Genesis 11:26,bible,False, , , , , ,Haran, , 
-Reumah,Reumah,Reumah,Genesis 22:24 Concubine – 4 sons,bible,False, , , , , ,Reuma, , 
-Milcah,Milca,Milcah,Genesis 22:20 - 8 sons (Bethuel and 7 more),bible,False, , , , , ,Milca, , 
-Lot,Lot,Lot,Genesis 11:27,bible,False, , , , , ,Lot, , 
-Ammon,Ben Ammi (Ammon),Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , ,Ben-Ammi (Ammon), , 
-Bethuel,Bethuel,Bethuel,Genesis 22:23,bible,False, , , , , ,Bethuel, , 
-Rebekah,Rébecca,Rebekah,Genesis 22:23,bible,False, , , , , ,Rébecca, , 
-Laban,Laban,Laban,Genesis 24:29,bible,False, , , , , ,Laban, , 
-Leah,Léa,Leah,Genesis 35:23,bible,False, , , , , ,Léa, , 
-Rachel,Rachel,Rachel,Genesis 35:24,bible,False, , , , , ,Rachel, , 
-Bilhah,Bila,Bilhah,Genesis 35:25,bible,False, , , , , ,Bilha, , 
-Zilpah,Zilpa,Zilpah,Genesis 35:26,bible,False, , , , , ,Zilpa, , 
-Reuben,Ruben,Reuben,Genesis 35:23,bible,False, , , , , ,Ruben, , 
-Simeon,Siméon,Simeon,Genesis 35:23,bible,False, , , , , ,Siméon, , 
-Levi,Lévi,Levi,Genesis 35:23,bible,False, , , , , ,Lévi, , 
-Judah,Juda,Judah,Genesis 35:23,bible,False, , , , , ,Juda, , 
-Issachar,Issachar,Issachar,Genesis 35:23,bible,False, , , , , ,Issachar, , 
-Zebulun,Zabulon,Zebulun,Genesis 35:23,bible,False, , , , , ,Zabulon, , 
-Dinah,Dina,Dinah,Genesis 34:1,bible,False, , , , , ,Dina, , 
-Esau,Ésaü/,Esau/,Genesis 36:1,bible,False, , , , , ,Ésaü /, , 
-Edom,Édom,Edom,Genesis 36:1,bible,False, , , , , ,Édom, , 
-Ishmael,Ismaël,Ishmael,Genesis 16:16,bible,False, , , , , ,Ismaël, , 
-Manasseh2,(Manassé,(Manasseh,Genesis 41:51,bible,False, , , , , ,(Manassé, , 
-Ephraim,et Éphraïm),and Ephraim),Genesis 41:52,bible,False, , , , , ,et Éphraïm), , 
-Benjamin,Benjamin,Benjamin,Genesis 35:24,bible,False, , , , , ,Benjamin, , 
-Dan,Dan,Dan,Genesis 35:25,bible,False, , , , , ,Dan, , 
-Naphtali,Nephtali,Naphtali,Genesis 35:25,bible,False, , , , , ,Nephthali, , 
-Gad,Gad,Gad,Genesis 35:26,bible,False, , , , , ,Gad, , 
-Asher,Aser,Asher,Genesis 35:26,bible,False, , , , , ,Aser, , 
-Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , ,"Uts, Buz, Kemuel,", , 
-Milcah2,"Chesed, Hazo,","Chesed, Hazo,",Genesis 22:22,bible,False, , , , , ,"Késed, Hazo,", , 
-Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",Genesis 22:22,bible,False, , , , , ,"Pildash, Jidlaph", , 
-Tebah,Tebah,Tebah,Genesis 22:24,bible,False, , , , , ,Tébach, , 
-Gaham,Gaham,Gaham,Genesis 22:24,bible,False, , , , , ,Gaham, , 
-Tahash,Tahash,Tahash,Genesis 22:24,bible,False, , , , , ,Tachasch, , 
-Maacah,Maaca,Maacah,Genesis 22:24,bible,False, , , , , ,Maaca, , 
-Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , ,Mahalath /, , 
-Basemath,Basmath,Basemath,"Genesis 36:3, 4",bible,False, , , , , ,Basmath, , 
-Reuel,Réuel,Reuel,"Genesis 36:13, 17",bible,False, , , , , ,Raguël, , 
-Nahath,Nahath,Nahath,Genesis 36:13,bible,False, , , , , ,Nachath, , 
-Zerah,Zérah,Zerah,Genesis 36:13,bible,False, , , , , ,Zérach, , 
-Schammah,Schammah,Schammah,Genesis 36:13,bible,False, , , , , ,Schamma, , 
-Mizzah,Mizza,Mizzah,Genesis 36:13,bible,False, , , , , ,Mizza, , 
-Adah,Ada,Adah,"Genesis 36:11, 12, 15, 16",bible,True, , , , , ,Ada, , 
-Eliphaz,Élifaz,Eliphaz,Genesis 36:11,bible,True, , , , , ,Éliphas, , 
-Teman,Témân,Teman,Genesis 36:11,bible,True, , , , , ,Téman, , 
-Omar,Omar,Omar,Genesis 36:11,bible,True, , , , , ,Omar, , 
-Zepho,Zefo,Zepho,Genesis 36:11,bible,True, , , , , ,Tsepho, , 
-Kenaz,Kenaz,Kenaz,Genesis 36:11,bible,True, , , , , ,Kenaz, , 
-Korah,Coré,Korah,Genesis 36:16,bible,True, , , , , ,Coré, , 
-Korah_Gatam,"Coré, Gatam","Korah, Gatam","Genesis 36:11, 16",bible,True, , , , , ,"Coré, Gatam", , 
-Amalek,Amalec,Amalek,Genesis 36:12,bible,True, , , , , ,Amalek, , 
-Oholibamah,Oholibama,Oholibamah,"Genesis 36:14, 18",bible,True, , , , , ,Oholibama, , 
-Jeush,Jéoush,Jeush,Genesis 36:14,bible,True, , , , , ,Jéhusch, , 
-Jalam,Jalam,Jalam,Genesis 36:14,bible,True, , , , , ,Jalam, , 
-Nebaioth,Nebayoth,Nebaioth,Genesis 25:13,bible,True, , , , , ,Nébajoth, , 
-Kedar,Kédar,Kedar,Genesis 25:13,bible,True, , , , , ,Kédar, , 
-Mishma,Mishma,Mishma,Genesis 25:14,bible,True, , , , , ,Mischena, , 
-Adbeel_Mibsam,"Adbéel, Mibsam","Adbeel, Mibsam",Genesis 25:13,bible,True, , , , , ,"Adbeel, Mibsam", , 
-Dumah_Massa,"Douma, Massa","Dumah, Massa",Genesis 25:14,bible,True, , , , , ,"Douma, Massa", , 
-Hadad,Hadad,Hadad,Genesis 25:15,bible,True, , , , , ,Hadad, , 
-Tema,Téma,Tema,Genesis 25:15,bible,True, , , , , ,Téma, , 
-Jetur,Jetour,Jetur,Genesis 25:15,bible,True, , , , , ,Jethur, , 
-Naphish,Nafish,Naphish,Genesis 25:15,bible,True, , , , , ,Naphisch, , 
-Kedemah,Kédma,Kedemah,Genesis 25:15,bible,True, , , , , ,Kédéma, , 
-Keturah,Ketura,Keturah,Genesis 25:1,bible,False, , , , , ,Ketura, , 
-Zimran,Zimran,Zimran,Genesis 25:1,bible,False, , , , , ,Zimran, , 
-Jokshan,Jokshan,Jokshan,Genesis 25:1,bible,False, , , , , ,Jokchan, , 
-Medan,Médan,Medan,Genesis 25:1,bible,False, , , , , ,Médan, , 
-Midian,Madian,Midian,Genesis 25:1,bible,False, , , , , ,Madian, , 
-Ishbak,Ichbak,Ishbak,Genesis 25:1,bible,False, , , , , ,Jischbak, , 
-Shuah,Shuah,Shuah,Genesis 25:1,bible,False, , , , , ,Schuach, , 
-Timna,Timna,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False, , , , , ,Timna, , 
-life-expectancy2,(Psaume 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , ,(Psaume 90:10), , 
-Ham,Cham,Ham,Gen 10:1,bible,True, , , , , ,Cham, , 
-Canaan,Canaan,Canaan,Gen 10:6,bible,True, , , , , ,Canaan, , 
-Sidon,Sidon,Sidon,Gen 10:15,bible,True, , , , , ,Sidon, , 
-Heth,Heth,Heth,Gen 10:15,bible,True, , , , , ,Heth, , 
-Jebusite,Jébuséen,Jebusite,Gen 10:16,bible,True, , , , , ,Jébusiens, , 
-Amorite,Amorite,Amorite,Gen 10:16,bible,True, , , , , ,Amoréens, , 
-Girgashite,Guirgashite,Girgashite,Gen 10:16,bible,True, , , , , ,Guirgasiens, , 
-Hivite,Hivite,Hivite,Gen 10:17,bible,True, , , , , ,Héviens, , 
-Arkite,Arkite,Arkite,Gen 10:17,bible,True, , , , , ,Arkiens, , 
-Sinite,Sinite,Sinite,Gen 10:17,bible,True, , , , , ,Sinites, , 
-Arvadite,Arvadite,Arvadite,Gen 10:18,bible,True, , , , , ,Arvadiens, , 
-Zemarite,Zemarite,Zemarite,Gen 10:18,bible,True, , , , , ,Tsemarites, , 
-Hamathite,Hamathien,Hamathite,Gen 10:18,bible,True, , , , , ,Hamathiens, , 
-Cush,Koush,Cush,Gen 10:6,bible,True, , , , , ,Cush, , 
-Nimrod,Nemrod,Nimrod,Gen 10:8,bible,True, , , , , ,Nimrod, , 
-Mizraim,Mizraïm,Mizraim,Gen 10:14,bible,True, , , , , ,Mitseraïm, , 
-Casluh,Kaslouhim,Casluh,1 Chronicles 1:12 (Philistines),bible,True, , , , , ,Casluhim, , 
-Japheth,Japhet,Japheth,Gen 10:1,bible,True, , , , , ,Japhet, , 
-Asshur,Assour,Asshur,Gen 10:22,bible,True, , , , , ,Assur, , 
-Lud,Loud,Lud,Gen 10:22,bible,True, , , , , ,Lud, , 
-Aram,Aram,Aram,Gen 10:22,bible,True, , , , , ,Aram, , 
-Elam,Élam,Elam,Gen 10:22,bible,True, , , , , ,Élam, , 
-Joktan,Joktân,Joktan,Gen 10:26,bible,True, , , , , ,Joktan, , 
-Almodad,Almodad,Almodad,Gen 10:26,bible,True, , , , , ,Almodad, , 
-Sheleph,Shélèf,Sheleph,Gen 10:26,bible,True, , , , , ,Schèleph, , 
-Hazarmaveth,Hazarmaveth,Hazarmaveth,Gen 10:26,bible,True, , , , , ,Hatsarmaveth, , 
-Jerah,Jéra,Jerah,Gen 10:26,bible,True, , , , , ,Jéra, , 
-Hadoram,Hadoram,Hadoram,Gen 10:27,bible,True, , , , , ,Hadoram, , 
-Uzal,Ouzal,Uzal,Gen 10:27,bible,True, , , , , ,Uzal, , 
-Diklah_Obal,"Dikla, Obal","Diklah, Obal",Gen 10:27,bible,True, , , , , ,"Dikla, Obal", , 
-Abimael,Abimael,Abimael,Gen 10:28,bible,True, , , , , ,Abimaël, , 
-Sheba_Ophir,"Saba, Ophir","Sheba, Ophir","Gen 10:28, 29",bible,True, , , , , ,"Saba, Ophir", , 
-Havilah,Havila,Havilah,Gen 10:29,bible,True, , , , , ,Havila, , 
-Jobab,Jobab,Jobab,Gen 10:29,bible,True, , , , , ,Jobab, , 
-Ham_fn,1) Égyptiens: Psaumes 105: 23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , ,1) Égyptiens : Psaumes 105:23, , 
-Canaan_fn,2) Canaanites: Joshua 13: 3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , ,2) Cananéens : Josué 13:3, , 
-Aram_fn,3) Arameans: Osée 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , ,3) Araméens : Osée 12:12, , 
-Elam_fn,4) Elamites: Ezra 4: 9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , ,4) Élamites : Esdras 4:9, , 
-Asshur_fn,5) Assyriens: Ézéchiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , ,5) Assyriens : Ézéchiel 27:23, , 
-Casluh_fn,6) Philistins: 1 Chroniques 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , ,6) Philistins : 1 Chroniques 1:12, , 
-Cush_fn,7) Ethiopien [Cushite]: 2 Rois 19: 9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , ,7) Éthiopien [Cushite] : 2 Rois 19:9, , 
-Edom_fn,8) Edomites: Nombres 20: 14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False, , , , , ,8) Édomites : Nombres 20:14-17, , 
-Moab_fn,"9) Moabites: Deutéronome 23: 3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False, , , , , ,"9) Moabites : Deutéronome 23:3, 4", , 
-Ammon_fn,10) Ammonites: Joshua 12: 2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False, , , , , ,10) Ammonites : Josué 12:2, , 
-Midian_fn,"11) Midianites: Nombres 31: 2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False, , , , , ,"11) Madianites : Nombres 31:2, 3", , 
-Amalek_fn,12) Amalekites: 1 Samuel 15: 2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False, , , , , ,12) Amalécites : 1 Samuel 15:2, , 
-Teman_fn,13) Temanites: Job 42: 7,13) Temanites: Job 42:7,2025-09-22,bible,False, , , , , ,13) Témanites : Job 42:7, , 
-Sidon_fn,14) Sidoniens: Zachariah 9: 2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , ,14) Sidoniens : Zacharie 9:2, , 
-Heth_fn,15) Hittites: Genèse 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , ,15) Hittites : Genèse 15:20, , 
-Jebusite_fn,16) Jébusites: Joshua 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , ,16) Jébusiens : Josué 15:63, , 
-Judith,Judith?,Judith?,"Genesis 26:34, 35",bible,False, , , , , ,Judith ?, , 
-Lud_fn,17) Lydiens: 1 Chroniques 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , ,17) Lydiens : 1 Chroniques 1:17, , 
-Ishmael_fn,18) Ismaélites: Genèse 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , ,18) Ismaélites : Genèse 37:27, , 
-Amorite_fn,19) Amorites: juges 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , ,19) Amoréens : Juges 6:10, , 
-Hivite_fn,"20) Hivites [Gibeon]: Joshua 9: 3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , ,"20) Hiviens [Gabaon] : Josué 9:3, 7", , 
-Cain,Caïn,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , ,Caïn, , 
-Abel,Abel,Abel,Genesis 4:2,bible,False, , , , , ,Abel, , 
-Irad,Irad,Irad,Genesis 4:18,bible,False, , , , , ,Irad, , 
-Mehujael,Mehujaël,Mehujael,Genesis 4:18,bible,False, , , , , ,Mehujaël, , 
-Methushael,Mathushaël,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , ,Methuschaël, , 
-Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , ,Jabal, , 
-Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , ,Jubal, , 
-Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , ,Tsilla, , 
-Tubal-cain,Tubal-Caïn,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , ,Tubal-Caïn, , 
-Naamah,Naama,Naamah,Genesis 4:22 his sister,bible,False, , , , , ,Naama, , 
-Rehoboam,Roboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False, , , , , ,Roboam, , 
-Abijah,Abia (Abiyam),Abijah (Abijam),"3 years, also Abijam",A6-A,False, , , , , ,Abija (Abijam), , 
-Asa,Asa,Asa,A6-A,A6-A,False, , , , , ,Asa, , 
-Jehoshaphat,Josaphat,Jehoshaphat, ,A6-A,False, , , , , ,Josaphat, , 
-Jehoram2,Joram,Jehoram, ,A6-A,False, , , , , ,Joram, , 
-Ahaziah,Ochozias,Ahaziah, ,A6-A,False, , , , , ,Achazia, , 
-Athaliah,Athalie (reine),Queen Athaliah,Queen Athaliah,A6-A,False, , , , , ,Reine Athalie, , 
-Jehoash,Joas,Jehoash, ,A6-A,False, , , , , ,Joas, , 
-Amaziah,Amazia,Amaziah, ,A6-A,False, , , , , ,Amasias, , 
-Uzziah,Ozias (Azarias),Uzziah (Azariah),also Azariah,A6-A,False, , , , , ,Ozias (Azaria), , 
-Jeroboam,Jéroboam,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False, , , , , ,Jéroboam, , 
-Nadab,Nadab,Nadab,less than 2,A6-A,False, , , , , ,Nadab, , 
-Baasha,Baasa,Baasha, ,A6-A,False, , , , , ,Bascha, , 
-Elah,Ela,Elah, ,A6-A,False, , , , , ,Éla, , 
-Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,A6-A,False, , , , , ,Zimri, , 
-OmriTibni,Omri et Tibni,Omri and Tibni together,4 years Omri and Tibni,A6-A,False, , , , , ,Omri et Tibni ensemble, , 
-Omri,Omri (seul),Omri (alone),from 947 Omri alone,A6-A,False, , , , , ,Omri (seul), , 
-Ahab,Achab,Ahab, ,A6-A,False, , , , , ,Achab, , 
-Jehoram,Joram,Jehoram, ,A6-A,False, , , , , ,Joram, , 
-Jehu,Jéhu,Jehu, ,A6-A,False, , , , , ,Jéhu, , 
-Jeoahaz,Joachaz,Jeoahaz, ,A6-A,False, , , , , ,Joachaz, , 
-JeoahazJehoash,Joachaz et Joas,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False, , , , , ,Joachaz et Joas, , 
-Jehoash2,Joas (seul),Jehoash (alone),Jehoash (alone),A6-A,False, , , , , ,Joas (seul), , 
-Jeroboam2,Jéroboam II,Jeroboam II, ,A6-A,False, , , , , ,Jéroboam II, , 
-Elijah,Élie,Elijah, ,A6-A,False, , , , , ,Élie, , 
-Elisha,Élisée,Elisha, ,A6-A,False, , , , , ,Élisée, , 
-Jonah,Jonas,Jonah, ,A6-A,False, , , , , ,Jonas, , 
-Amos,Amos,Amos, ,A6-A,False, , , , , ,Amos, , 
-Joel,Joël,Joel, ,A6-A,False, , , , , ,Joël, , 
-Jotham,Jotam,Jotham,A6-B,A6-B,False, , , , , ,Jotham, , 
-Ahaz,Achaz,Ahaz, ,A6-B,False, , , , , ,Achaz, , 
-Hezekiah,Ézéchias,Hezekiah, ,A6-B,False, , , , , ,Ézéchias, , 
-Manasseh,Manassé,Manasseh, ,A6-B,False, , , , , ,Manassé, , 
-Amon,Amon,Amon, ,A6-B,False, , , , , ,Amon, , 
-Josiah,Josias,Josiah, ,A6-B,False, , , , , ,Josias, , 
-Jehoahaz,Joachaz,Jehoahaz,Only 3 months,A6-B,False, , , , , ,Joachaz, , 
-Jehoiakim,Joachim,Jehoiakim, ,A6-B,False, , , , , ,Jojakim, , 
-Jehoiachin,Joachin,Jehoiachin,Only 3 months 10 days,A6-B,False, , , , , ,Jojakin, , 
-Zedekiah,Sédécias,Zedekiah, ,A6-B,False, , , , , ,Sédécias, , 
-Zechariah,Zacharie,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False, , , , , ,Zacharie, , 
-Schallum,Shaloum,Schallum,only one month,A6-B,False, , , , , ,Schallum, , 
-Menahem,Menahem,Menahem, ,A6-B,False, , , , , ,Menahem, , 
-Pekahiah,Pekaya,Pekahiah, ,A6-B,False, , , , , ,Pékachia, , 
-Pekah,Péka,Pekah, ,A6-B,False, , , , , ,Pékach, , 
-Hoshea,Osée,Hoshea,9 years from c. 748,A6-B,False, , , , , ,Osée, , 
-Hosea,Osée,Hosea, ,A6-B,False, , , , , ,Osée, , 
-Isaiah,Isaïe,Isaiah, ,A6-B,False, , , , , ,Ésaïe, , 
-Micah,Michée,Micah, ,A6-B,False, , , , , ,Michée, , 
-Zephaniah,Sophonie,Zephaniah, ,A6-B,False, , , , , ,Sophonie, , 
-Nahum,Nahum,Nahum, ,A6-B,False, , , , , ,Nahum, , 
-Jeremiah,Jérémie,Jeremiah, ,A6-B,False, , , , , ,Jérémie, , 
-Habakuk,Habacuc,Habakuk, ,A6-B,False, , , , , ,Habacuc, , 
-Daniel,Daniel,Daniel, ,A6-B,False, , , , , ,Daniel, , 
-Ezekiel,Ézéchiel,Ezekiel, ,A6-B,False, , , , , ,Ézéchiel, , 
-Obadiah,Abdias,Obadiah, ,A6-B,False, , , , , ,Abdias, , 
-Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , ,"Daniel 2:32, 36-38; 7:4", , 
-Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , ,"Daniel 2:32, 39; 7:5", , 
-Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , ,"Daniel 2:32, 39; 7:6", , 
-Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , ,"Daniel 2:33, 40; 7:7", , 
-Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True, , , , , ,"Daniel 2:33, 41-43", , 
-Babylon_c,Babylone,Babylon, ,B9,True, , , , , ,Babylone, , 
-Medopersia_c,Empire médo-perse,Medo-Persia, ,B9,True, , , , , ,Médéo-Perse, , 
-Greece_c,Grèce,Greece, ,B9,True, , , , , ,Grèce, , 
-Rome_c,Rome,Rome, ,B9,True, , , , , ,Rome, , 
-Angloamerica_c,Anglo-Amérique,Anglo-America, ,B9,True, , , , , ,Anglo-Amérique, , 
-daniel2_1,Destruction de Jérusalem,King Nebuchadnezzar,607 BCE,B9,True, , , , , ,Le roi Nebucadnetsar, , 
-daniel2_2,par le roi Nabuchodonosor,destroys Jerusalem,appendix B9,B9,True, , , , , ,détruit Jérusalem, , 
-daniel2_3,Conquête de Babylone,Conquers Babylon,539 BCE,B9,True, , , , , ,Conquiert Babylone, , 
-daniel2_4,Décret de Cyrus autorisant le,Cyrus decrees return,537 BCE,B9,True, , , , , ,Cyrus décrète le retour, , 
-daniel2_5,retour des Juifs à Jérusalem,of Jews to Jerusalem, ,B9,True, , , , , ,des Juifs à Jérusalem, , 
-daniel2_6,Conquête de la Perse par,Alexander the Great,331 BCE,B9,True, , , , , ,Alexandre le Grand, , 
-daniel2_7,Alexandre le Grand,conquers Persia, ,B9,True, , , , , ,conquiert la Perse, , 
-daniel2_8,Début de la domination sur Israël,Rules over Israel,63 BCE,B9,True, , , , , ,Domine sur Israël, , 
-daniel2_9,Destruction de Jérusalem,Destroys Jerusalem,70 CE,B9,True, , , , , ,Détruit Jérusalem, , 
-daniel2_10,"Durant la Première Guerre mondiale,","During World War I,",1914-1918 CE,B9,True, , , , , ,"Pendant la Première Guerre mondiale,", , 
-daniel2_11,naissance de la Puissance,Anglo-American World Power, ,B9,True, , , , , ,la puissance mondiale anglo-américaine, , 
-daniel2_12,anglo-américaine,comes into being,End 4.2,B9,True, , , , , ,voit le jour, , 
-607BCE,607 av. n. è.,607 B.C.E.,accommodate for language,B9,True, , , , , ,607 avant notre ère, , 
-539BCE,539 av. n. è.,539 B.C.E.,systems in style:,B9,True, , , , , ,539 avant notre ère, , 
-537BCE,537 av. n. è.,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , ,537 avant notre ère, , 
-331BCE,331 av. n. è.,331 B.C.E.,so they need a word,B9,True, , , , , ,331 avant notre ère, , 
-63BCE,63 av. n. è.,63 B.C.E.,prior to the year,B9,True, , , , , ,63 avant notre ère, , 
-70CE,70 de n. è.,70 C.E.,and something,B9,True, , , , , ,70 de notre ère, , 
-1914CE,1914-1918 n. è.,1914-1918 C.E.,after the year,B9,True, , , , , ,1914-1918 de notre ère, , 
-7times,Apocalypse 12:9,Revelation 12:9, ,scripture,True, , , , , ,Révélation 12:9, , 
-infliction2,Actes 7:6,Acts 7:6, ,scripture,True, , , , , ,Actes 7:6, , 
-eastern-zhou,770-256 av. n. è.,770-256 BC, ,span_bc,True, , , , , ,770-256 av. J.-C., , 
-430years,1943 – 1513 av. n. è.,1943 – 1513 B.C.E., ,span_bce,True, , , , , ,1943 – 1513 avant notre ère, , 
-eastern-han,25-220 de n. è.,25-220 CE, ,span_ce,True, , , , , ,25-220 de notre ère, , 
-northern-dynasties,368-581 de n. è.,368-581 CE, ,span_ce,True, , , , , ,368-581 de notre ère, , 
-southern-dynasties,420-589 de n. è.,420-589 CE, ,span_ce,True, , , , , ,420-589 de notre ère, , 
+wilderness,"Israël dans le désert, 1513 à 1473 avant notre ère. - 40 ans",Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,Israël dans le désert 1513 à 1473 av. J.-C. – 40 ans,Israël dans le désert 1513 à 1473 avant notre ère – 40 ans,Israël dans le désert 1513 à 1473 av. n. è. – 40 ans,"Israël dans le désert, de 1513 à 1473 avant notre ère – 40 ans"
+timespan_judges,1473 à 1117 avant notre ère – 356 ans,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 à 1117 av. J.-C. – 356 ans,1473 à 1117 avant notre ère – 356 ans,1473 à 1117 av. n. è. – 356 ans,De 1473 à 1117 avant notre ère – 356 ans
+timespan_judges2,L'heure des juges,Time of the judges, ,text,False, , , , ,Époque des juges,Époque des juges,L'époque des juges,L'époque des juges
+temple2,479 ans jusqu'à la construction du temple – 1 Rois 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,479 ans jusqu'à la construction du temple – 1 Rois 6:1,479 ans jusqu'à la construction du temple – 1 Rois 6:1,479 ans jusqu'à la construction du temple – 1 Rois 6:1,"479 ans avant la construction du temple – 1 Rois 6, 1"
+69weeks2,69 semaines jusqu’au Messie – Daniel 9:25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,69 semaines jusqu'au Messie – Daniel 9:25,69 semaines jusqu'au Messie – Daniel 9:25,69 semaines jusqu'au Messie – Daniel 9:25,69 semaines jusqu'au Messie – Daniel 9:25
+jesus_service,"3,5 années de service auprès de Jésus, exécutées le 14 Nisan 33 de notre ère.","3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,"3,5 ans de service de Jésus, exécuté le 14 Nisan 33 de notre ère","3,5 ans de ministère de Jésus, exécuté le 14 nisan de l'an 33 de notre ère","3,5 ans de ministère de Jésus, exécuté le 14 Nisan 33 n. è.","3,5 ans de ministère de Jésus, exécuté le 14 Nisan de l'an 33 de notre ère."
+jesus_life,Jésus né en 2 avant notre ère.,Jesus born 2 B.C.E., ,text,False, , , , ,Jésus né en 2 av. J.-C.,Jésus né en 2 avant notre ère,Jésus né en 2 av. n. è.,Jésus est né en 2 avant notre ère.
+exile,607 à 537 avant notre ère – 70 ans (Jérémie 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,607 à 537 av. J.-C. – 70 ans (Jérémie 25:11),607 à 537 avant notre ère – 70 ans (Jérémie 25:11),607 à 537 av. n. è. – 70 ans (Jérémie 25:11),"De 607 à 537 avant notre ère – 70 ans (Jérémie 25, 11)"
+exile2,Exile,Exile, ,text,False, , , , ,Exil,Exil,Exil,Exil
+7times2,7 temps– 2 520 ans jusqu’au Royaume messianique 1914 de notre ère (Daniel 4 :23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7 temps – 2520 ans jusqu'au Royaume messianique 1914 de notre ère (Daniel 4:23),7 temps – 2520 ans jusqu'au Royaume messianique en 1914 de notre ère (Daniel 4:23),7 temps – 2 520 ans jusqu'au Royaume messianique 1914 n. è. (Daniel 4:23),"7 fois – 2 520 ans jusqu’au Royaume messianique, en 1914 de notre ère (Daniel 4:23)"
+ww1,Première Guerre mondiale: 1914-1918,World War I – 1914–1918, ,text,False, , , , ,Première Guerre mondiale – 1914–1918,Première Guerre mondiale – 1914-1918,Première Guerre mondiale – 1914–1918,Première Guerre mondiale – 1914-1918
+ww2,Seconde Guerre mondiale: 1939-45,World War II – 1939–1945, ,text,False, , , , ,Seconde Guerre mondiale – 1939–1945,Seconde Guerre mondiale – 1939-1945,Deuxième Guerre mondiale – 1939–1945,Seconde Guerre mondiale – 1939-1945
+30_year_war,Guerre de Trente Ans en Europe 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,Guerre de Trente Ans en Europe 1618-1648,Guerre de Trente Ans en Europe 1618-1648,Guerre de Trente Ans en Europe 1618-1648,La Guerre de Trente Ans en Europe (1618-1648)
+joshua,110 ans,110 years, ,text,False, , , , ,110 ans,110 ans,110 ans,110 ans
+caleb,plus de 85 ans,more than 85 years, ,text,False, , , , ,plus de 85 ans,plus de 85 ans,plus de 85 ans,plus de 85 ans
+missionary1,"Premier voyage missionnaire de Paul, v. 47-48 de notre ère avec Barnabas et Jean Marc","First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,"Premier voyage missionnaire de Paul, v. 47-48 de notre ère avec Barnabas et Jean Marc","Premier voyage missionnaire de Paul, env. 47-48 de notre ère avec Barnabas et Jean-Marc","Premier voyage missionnaire de Paul, v. 47-48 n. è. avec Barnabas et Jean-Marc","Premier voyage missionnaire de Paul, vers 47-48 de notre ère, en compagnie de Barnabas et de Jean Marc"
+circumcision,"Problème de circoncision à Antioche, conférence à Jérusalem v. 49 de notre ère","Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,"Question de la circoncision à Antioche, conférence à Jérusalem v. 49 de notre ère","Question de la circoncision à Antioche, assemblée à Jérusalem env. 49 de notre ère","Question de la circoncision à Antioche, conférence à Jérusalem v. 49 n. è.","La question de la circoncision à Antioche, concile de Jérusalem vers 49 de notre ère."
+missionary2,Deuxième voyage missionnaire v. 49-52 de notre ère avec Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,Deuxième voyage missionnaire v. 49-52 de notre ère avec Silas (Silvain),Deuxième voyage missionnaire env. 49-52 de notre ère avec Silas (Silvain),Deuxième voyage missionnaire v. 49-52 n. è. avec Silas (Silvanus),"Deuxième voyage missionnaire, vers 49-52 de notre ère, avec Silas (Silvanus)"
+missionary3,Troisième voyage missionnaire v. 52-56 de n. è.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,Troisième voyage missionnaire v. 52-56 de notre ère,Troisième voyage missionnaire env. 52-56 de notre ère,Troisième voyage missionnaire v. 52-56 n. è.,"Troisième voyage missionnaire, vers 52-56 de notre ère."
+caesarea,Paul en détention à Césarée v. 56-58 de notre ère,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,Paul en détention à Césarée v. 56-58 de notre ère,Paul détenu à Césarée env. 56-58 de notre ère,Paul en détention à Césarée v. 56-58 n. è.,"Paul en détention à Césarée, vers 56-58 de notre ère."
+rome1,Le premier emprisonnement de Paul à Rome v. 59-61 de notre ère,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,Première emprisonnement de Paul à Rome v. 59-61 de notre ère,Première incarcération de Paul à Rome env. 59-61 de notre ère,Premier emprisonnement de Paul à Rome v. 59-61 n. è.,"Première incarcération de Paul à Rome, vers 59-61 de notre ère."
+rome2,"Deuxième emprisonnement de Paul à Rome v. 65 CE, 2 Timothée écrit, Paul exécuté","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,"Second emprisonnement de Paul à Rome v. 65 de notre ère, 2 Timothée écrite, Paul exécuté","Seconde incarcération de Paul à Rome env. 65 de notre ère, rédaction de 2 Timothée, exécution de Paul","Deuxième emprisonnement de Paul à Rome v. 65 n. è., 2 Timothée rédigé, Paul exécuté","Deuxième emprisonnement de Paul à Rome vers 65 de notre ère, rédaction de la deuxième épître à Timothée, exécution de Paul"
+event_exodus,Exode d’Égypte le 14 Nisan 1513 av. n. è.,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,Exode d'Égypte le 14 Nisan 1513 av. J.-C.,Exode d'Égypte le 14 nisan 1513 avant notre ère,Exode d'Égypte le 14 Nisan 1513 av. n. è.,Exode d'Égypte le 14 Nisan 1513 avant notre ère.
+event_division_kingdom,Division d'Israël 997 av. n. è.,Division of Israel 997 BCE, ,text,False, , , , ,Division d'Israël 997 av. J.-C.,Division d'Israël en 997 avant notre ère,Division d'Israël en 997 av. n. è.,"Division d'Israël, 997 av. J.-C."
+event_destruction_samaria,Destruction de Samarie 740 av. n. è. par Assyrie,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,Destruction de Samarie 740 av. J.-C. par l'Assyrie,Destruction de la Samarie en 740 avant notre ère par l'Assyrie,Destruction de Samarie en 740 av. n. è. par l'Assyrie,Destruction de Samarie en 740 avant notre ère par l'Assyrie
+event_destruction_jerusalem1,"Destruction de Jérusalem 607 av. n. è. par Babylone, 390 ans après la division du royaume (Ézéchiel 4:5)","Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,"Destruction de Jérusalem 607 av. J.-C. par Babylone, 390 ans après la division du royaume (Ézéchiel 4:5)","Destruction de Jérusalem en 607 avant notre ère par Babylone, 390 ans après la division du royaume (Ézéchiel 4:5)","Destruction de Jérusalem en 607 av. n. è. par Babylone, 390 ans après la division du royaume (Ézéchiel 4:5)","Destruction de Jérusalem en 607 avant notre ère par Babylone, 390 ans après la division du royaume (Ézéchiel 4:5)"
+event_temple_rebuilt,Temple de Jérusalem reconstruit en 515,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,Temple de Jérusalem reconstruit 515 av. J.-C.,Reconstruction du temple de Jérusalem en 515 avant notre ère,Temple de Jérusalem reconstruit en 515 av. n. è.,Le Temple de Jérusalem a été reconstruit en 515 avant notre ère.
+event_jerusalem_rebuilt,Mur de Jérusalem reconstruit en 455,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,Mur de Jérusalem reconstruit 455 av. J.-C.,Reconstruction de la muraille de Jérusalem en 455 avant notre ère,Mur de Jérusalem reconstruit en 455 av. n. è.,Reconstruction des remparts de Jérusalem en 455 avant notre ère.
+event_destruction_jerusalem2,Destruction de Jérusalem en 70 de n. è. par Rome sous Titus,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,Destruction de Jérusalem 70 de notre ère par Rome sous Titus,Destruction de Jérusalem en 70 de notre ère par Rome sous Titus,Destruction de Jérusalem en 70 n. è. par Rome sous Titus,Destruction de Jérusalem en 70 de notre ère par Rome sous le commandement de Titus
+event_1914,"Fin du temps accordé aux nations (Luc 21 :24), le royaume de Dieu commence à régner dans les cieux en 1914 de notre ère.","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"Fin des temps des nations (Luc 21:24), le Royaume de Dieu commence à gouverner dans les cieux 1914 de notre ère","Fin des temps des nations (Luc 21:24), le Royaume de Dieu commence à régner dans les cieux en 1914 de notre ère","Fin du temps des nations (Luc 21:24), le Royaume de Dieu commence à régner dans les cieux en 1914 n. è.","À la fin des temps des nations (Luc 21:24), le Royaume de Dieu commence à régner dans les cieux en 1914 de notre ère."
+became_king,devient roi à l'âge de,becomes king at age,2025-04-14,text,True, , , , ,devient roi à l'âge de,devient roi à l'âge de,devient roi à l'âge de,devient roi à l'âge de
+vulgate,Vulgate complétée par Jérôme (traduction latine de la Bible) c. 405 de notre ère,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,Vulgate achevée par Jérôme (traduction latine de la Bible) v. 405 de notre ère,Vulgate achevée par Jérôme (traduction latine de la Bible) vers 405 de notre ère,La Vulgate achevée par Jérôme (traduction latine de la Bible) v. 405 n. è.,"La Vulgate, achevée par Jérôme (traduction latine de la Bible), vers 405 de notre ère."
+gutenberg,Bible de Gutenberg imprimée en 1455,Gutenberg Bible printed 1455, ,text,False, , , , ,Bible de Gutenberg imprimée 1455,Bible de Gutenberg imprimée en 1455,Bible de Gutenberg imprimée en 1455,"La Bible de Gutenberg, imprimée en 1455"
+erasmus,Texte grec des Écritures grecques chrétiennes publié par Desiderius Erasmus de Rotterdam 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,Texte grec des Écrits grecs chrétiens publié par Érasme de Rotterdam 1516,Texte grec des Écritures grecques chrétiennes publié par Didier Érasme de Rotterdam en 1516,Texte grec des Écritures grecques chrétiennes publié par Desiderius Erasmus de Rotterdam en 1516,Texte grec des Écritures grecques chrétiennes publié par Desiderius Érasme de Rotterdam en 1516
+luther,Traduction de la Bible de Luther en septembre 1522,Luther Bible translation in September 1522, ,text,False, , , , ,Traduction de la Bible de Luther en septembre 1522,Traduction de la Bible de Luther en septembre 1522,Traduction de la Bible par Luther en septembre 1522,Traduction de la Bible par Luther en septembre 1522
+tyndale,Traduction de la Bible en anglais par Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False, , , , ,Traduction de la Bible en anglais par Tyndale 1536,Traduction de la Bible en anglais par Tyndale en 1536,Traduction de la Bible en anglais par Tyndale en 1536,"Traduction de la Bible en anglais par Tyndale, 1536"
+king_james,Bible du roi Jacques 1611,King James Bible 1611, ,text,False, , , , ,Bible King James 1611,Bible du roi Jacques en 1611,Bible du roi Jacques en 1611,"La Bible du roi Jacques, 1611"
+69weeks3,"Jésus commence son service en 29 de n. è. (Luc 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"Jésus commence son service en 29 de notre ère (Luc 3:1, 21)","Jésus commence son ministère en 29 de notre ère (Luc 3:1, 21)","Jésus commence son ministère en 29 n. è. (Luc 3:1, 21)","Jésus commence son ministère en l'an 29 de notre ère (Luc 3:1, 21)"
+ransom,milieu de la semaine « le sacrifice doit cesser » Daniel 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,Milieu de la semaine « le sacrifice cessera » Daniel 9:27,Milieu de la semaine « le sacrifice et l'offrande cesseront » Daniel 9:27,Milieu de la semaine « sacrifice mis fin » Daniel 9:27,« La fin du sacrifice » au milieu de la semaine – Daniel 9:27
+cornelius,Corneille s'est baptisé au bout de 70 semaines (Daniel 9:24) en 36 de notre ère.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,Cornelius est baptisé à la fin des 70 semaines (Daniel 9:24) en 36 de notre ère,Corneille baptisé à la fin des 70 semaines (Daniel 9:24) en 36 de notre ère,Corneille baptisé à la fin des 70 semaines (Daniel 9:24) en 36 n. è.,"Cornelius a été baptisé à la fin des 70 semaines (Daniel 9:24), en l'an 36 de notre ère."
+columbus,fin de la période précolombienne dans les Amériques 1492,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,Fin de la période précolombienne dans les Amériques 1492,Fin de la période précolombienne dans les Amériques en 1492,Fin de la période précolombienne dans les Amériques en 1492,Fin de la période précolombienne dans les Amériques : 1492
+declaration_independence,déclaration d'indépendance de 13 colonies en Amérique 1776,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,Déclaration d'indépendance des 13 colonies d'Amérique 1776,Déclaration d'indépendance des 13 colonies en Amérique en 1776,Déclaration d'indépendance des 13 colonies en Amérique en 1776,"Déclaration d'indépendance des 13 colonies d'Amérique, 1776"
+tischendorf,Tischendorf découvre le Codex Sinaiticus du IVe siècle en 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf découvre le Codex Sinaiticus du 4ème siècle en 1844,Tischendorf découvre le Codex Sinaiticus datant du IVe siècle en 1844,Tischendorf découvre le Codex Sinaiticus du IVe siècle en 1844,"En 1844, Tischendorf découvre le Codex Sinaiticus, datant du IVe siècle."
+dead_sea_scrolls,Manuscrits de la Mer Morte écrits,Dead Sea Scrolls written, ,text,False, , , , ,Manuscrits de la mer Morte rédigés,Manuscrits de la mer Morte écrits,Manuscrits de la mer Morte rédigés,Les Manuscrits de la mer Morte ont été rédigés
+septuagint,Septante LXX traduite,Septuagint LXX translated, ,text,False, , , , ,Septante LXX traduite,Septante (LXX) traduite,Septante LXX traduite,Traduction de la Septante (LXX)
+watchtower,Le premier numéro de « La Tour de Garde de Sion et héraut de la présence du Christ » est publié en 1879.,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,Le premier numéro de « Zion's Watch Tower and Herald of Christ’s Presence » est publié en 1879,Le premier numéro de « La Tour de Garde de Sion et Héraut de la présence de Christ » est publié en 1879,Le premier numéro de « La Tour de Sion et Héraut de la présence du Christ » est publié en 1879,Le premier numéro de « Zion’s Watch Tower and Herald of Christ’s Presence » paraît en 1879
+jehovahs_witnesses,"Les Étudiants de la Bible ont adopté un nouveau nom : Témoins de Jéhovah (Ésaïe 43:10, 12) à Columbus, Ohio, 1931.","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"Les Étudiants de la Bible adoptent un nouveau nom – les Témoins de Jéhovah (Ésaïe 43:10, 12) à Columbus, Ohio, 1931","Les Étudiants de la Bible adoptent un nouveau nom : Témoins de Jéhovah (Isaïe 43:10, 12) à Columbus, dans l'Ohio, en 1931","Les Étudiants de la Bible adoptent un nouveau nom – Témoins de Jéhovah (Ésaïe 43:10, 12) à Columbus, Ohio, en 1931","Les Étudiants de la Bible adoptent un nouveau nom – les Témoins de Jéhovah (Ésaïe 43:10, 12) – à Columbus, dans l’Ohio, en 1931"
+gilead_school,L’École biblique Watchtower de Galaad a commencé le lundi 1er février 1943.,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,L'École biblique de Guiléad de la Tour de Garde commence le lundi 1er février 1943,L'École biblique de Galaad de la Watchtower commence le lundi 1er février 1943,L'École biblique de Galaad de la Tour de Garde débute le lundi 1er février 1943,L'École biblique de la Tour de Garde de Gilead ouvre ses portes le lundi 1er février 1943
+new_world_translation1,"La « Traduction du monde nouveau des Saintes Écritures », publiée à Manchester, en Angleterre, le 18 juin 1960, réintroduit le nom Jéhovah dans de nombreuses parties de la Bible.","“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,"La « Traduction du monde nouveau des Écritures saintes » publiée à Manchester, Angleterre, le 18 juin 1960, réintroduit le nom Jéhovah dans de nombreuses parties de la Bible","La « Traduction du monde nouveau des Saintes Écritures » est publiée à Manchester, en Angleterre, le 18 juin 1960, réintroduisant le nom Jéhovah dans de nombreuses parties de la Bible","La « Traduction du monde nouveau des Saintes Écritures » est publiée à Manchester, en Angleterre, le 18 juin 1960, réintroduisant le nom Jéhovah en de nombreux endroits de la Bible","La « Traduction du monde nouveau des Saintes Écritures », publiée à Manchester, en Angleterre, le 18 juin 1960, réintroduit le nom de Jéhovah dans de nombreux passages de la Bible."
+new_world_translation2,"La version révisée de la « Traduction du monde nouveau des Saintes Écritures » publiée lors de la réunion annuelle 2013, optimisée pour être utilisée sous forme numérique et en ligne.","Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,"La « Traduction du monde nouveau des Écritures saintes » révisée publiée lors de l'assemblée annuelle de 2013, optimisée pour une utilisation numérique et en ligne","La « Traduction du monde nouveau des Saintes Écritures » révisée est publiée lors de l'assemblée annuelle de 2013, optimisée pour une utilisation numérique et en ligne","La « Traduction du monde nouveau des Saintes Écritures » révisée est publiée lors de l'assemblée annuelle de 2013, optimisée pour une utilisation numérique et en ligne","La version révisée de la « Traduction du Nouveau Monde des Saintes Écritures », présentée lors de l'assemblée annuelle de 2013, a été optimisée pour une utilisation numérique et en ligne."
+cold_war,Situation géopolitique qualifiée de « Guerre froide » 1945-1991,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,Situation géopolitique appelée « Guerre froide » 1945-1991,Situation géopolitique qualifiée de « Guerre froide » de 1945 à 1991,Situation géopolitique qualifiée de « Guerre froide » 1945-1991,Situation géopolitique qualifiée de « guerre froide » : 1945-1991
+codex_sinaiticus,Codex Sinaiticus écrit,Codex Sinaiticus written, ,text,False, , , , ,Codex Sinaiticus rédigé,Codex Sinaiticus écrit,Codex Sinaiticus rédigé,Le Codex Sinaiticus a été rédigé
+codex_vaticanus,Codex Vaticanus écrit,Codex Vaticanus written, ,text,False, , , , ,Codex Vaticanus rédigé,Codex Vaticanus écrit,Codex Vaticanus rédigé,Le Codex Vaticanus a été rédigé
+leningrad_codex,Codex de Leningrad écrit au Caire en 1008 après JC,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,Codex de Léningrad rédigé au Caire en 1008 de notre ère,Codex de Léningrad écrit au Caire en 1008 de notre ère,Codex de Leningrad rédigé au Caire en 1008 n. è.,"Le Codex de Leningrad, rédigé au Caire en l'an 1008 après J.-C."
+john,Jean écrit « révélation » alors qu’il était en exil à Patmos (96-98 de notre ère).,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,Jean écrit l'« Apocalypse » lors de son exil à Patmos en 96-98 de notre ère,Jean écrit la « Révélation » alors qu'il est en exil à Patmos entre 96 et 98 de notre ère,Jean rédige l'« Apocalypse » lors de son exil sur Patmos 96-98 n. è.,"Jean rédige l'« Apocalypse » alors qu'il est en exil à Patmos, entre 96 et 98 de notre ère."
+buddha,Le Bouddha – Siddhartha Gautama vers 563-c.483 av. n. è.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,Le Bouddha – Siddhartha Gautama env. 563-env. 483 av. notre ère,Le Bouddha – Siddhartha Gautama vers 563 - vers 483 avant notre ère,Le Bouddha – Siddhartha Gautama v. 563-v. 483 av. n. è.,"Le Bouddha – Siddhartha Gautama, vers 563 – vers 483 avant notre ère"
+buddha2,Bouddha alternativement c. 480-400 av. n. è.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,Bouddha alternativement env. 480-400 av. notre ère,Bouddha alternativement vers 480-400 avant notre ère,Bouddha alternativement v. 480-400 av. n. è.,"Bouddha, vers 480-400 avant notre ère."
+mohammed,Mohammed c. 570-632 de notre ère,Mohammed c. 570-632, ,text,False, , , , ,Mahomet env. 570-632,Mahomet vers 570-632,Mahomet v. 570-632,"Mahomet, vers 570-632"
+confucius,Confucius v. 551-v. 479 av. n. è.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,Confucius env. 551-env. 479 av. notre ère,Confucius vers 551 - vers 479 avant notre ère,Confucius v. 551-v. 479 av. n. è.,"Confucius, vers 551 - vers 479 avant notre ère"
+hijrah,Hijrah - Voyage de La Mecque à Médine 16 juillet 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,Hégire - Voyage de La Mecque à Médine le 16 juillet 622,Hégire - Voyage de la Mecque à Médine le 16 juillet 622,Hégire – Voyage de La Mecque à Médine le 16 juillet 622,"L'Hégire – Le voyage de La Mecque à Médine, le 16 juillet 622"
+moses_escape,"1553 avant notre ère Moïse doit fuir l’Égypte – Exode 2:15, Actes 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,"1553 av. notre ère Moïse doit fuir l'Égypte – Exode 2:15, Actes 7:23","1553 avant notre ère : Moïse doit s'enfuir d'Égypte – Exode 2:15, Actes 7:23",1553 av. n. è. Moïse doit fuir l'Égypte – Exode 2:15 ; Actes 7:23,"1553 av. J.-C. Moïse doit fuir l'Égypte – Exode 2, 15 ; Actes 7, 23"
+10plagues,1513 avant notre ère L’Égypte reçoit 10 fléaux,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,1513 av. notre ère l'Égypte reçoit les 10 plaies,1513 avant notre ère : L'Égypte subit 10 plaies,1513 av. n. è. L'Égypte reçoit 10 plaies,1513 av. J.-C. : l'Égypte subit les dix plaies
+joseph_sold,Joseph vendu comme esclave à l’âge de 17 ans – Gen 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,Joseph vendu comme esclave à l'âge de 17 ans – Genèse 37:2,Joseph vendu comme esclave à l'âge de 17 ans – Genèse 37:2,Joseph vendu comme esclave à l'âge de 17 ans – Genèse 37:2,"Joseph a été vendu comme esclave à l'âge de 17 ans – Genèse 37, 2"
+infliction,400 ans d'infliction (Actes 7:6) – Ismaël 1913 av. n. è.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400 ans d'affliction (Actes 7:6) – Ismaël 1913 av. notre ère,Affliction de 400 ans (Actes 7:6) – Ismaël en 1913 avant notre ère,400 ans d'affliction (Actes 7:6) – Ismaël en 1913 av. n. è.,"400 ans d’affliction (Actes 7:6) – Ismaël, 1913 avant notre ère"
+Alexander,Alexandre le Grand (Daniel 11:3),Alexander the Great (Daniel 11:3), ,text,False, , , , ,Alexandre le Grand (Daniel 11:3),Alexandre le Grand (Daniel 11:3),Alexandre le Grand (Daniel 11:3),Alexandre le Grand (Daniel 11:3)
+persia,"Cyrus le Grand, Cambyse II, Darius Ier 490 avant notre ère, Xerxès Ier 480 avant notre ère (époux d'Esther, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,"Cyrus le Grand, Cambyse II, Darius Ier 490 av. notre ère, Xerxès Ier 480 av. notre ère (mari d'Esther, Daniel 11:2)","Cyrus le Grand, Cambyse II, Darius Ier 490 av. n. è., Xerxès Ier 480 av. n. è. (mari d'Esther, Daniel 11:2)","Cyrus le Grand, Cambyse II, Darius Ier 490 av. n. è., Xerxès Ier 480 av. n. è. (mari d'Esther, Daniel 11:2)","Cyrus le Grand, Cambyse II, Darius Ier en 490 av. J.-C., Xerxès Ier en 480 av. J.-C. (époux d'Esther, Daniel 11:2)"
+king_north,"Séleucus I Nicator (v5) de la Syrie à Antiochus III (v10) et Séleucus IV (v18, 19) jusqu'à Octavien (v20) et Tibère (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"Séleucos Ier Nicator (v5) Syrie à Antiochos III (v10) et Séleucos IV (v18, 19) jusqu'à Octavien (v20) et Tibère (v21-24)","Séleucos Ier Nicator (v. 5) Syrie jusqu'à Antiochus III (v. 10) et Séleucos IV (v. 18, 19) jusqu'à Octave (v. 20) et Tibère (v. 21-24)","Séleucus Ier Nicator (v5) Syrie jusqu'à Antiochos III (v10) et Séleucus IV (v18, 19) jusqu'à Octave (v20) et Tibère (v21-24)","Seleucos Ier Nicator (v. 5) : de la Syrie à Antiochos III (v. 10) et Seleucos IV (v. 18, 19), jusqu’à Octave (v. 20) et Tibère (v. 21-24)"
+king_north1,Roi du Nord,King of the North, ,text,False, , , , ,Roi du Nord,Roi du Nord,Roi du Nord,Le Roi du Nord
+king_south,"Ptolémée I, II, III, IV (v11, 12), V (v15, 16) à la bataille d'Actium 31 avant notre ère.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"Ptolémée Ier, II, III, IV (v11, 12), V (v15, 16) jusqu'à la bataille d'Actium en 31 av. notre ère","Ptolémée Ier, II, III, IV (v. 11, 12), V (v. 15, 16) jusqu'à la bataille d'Actium 31 av. n. è.","Ptolémée Ier, II, III, IV (v11, 12), V (v15, 16) jusqu'à la bataille d'Actium en 31 av. n. è.","Ptolémée Ier, II, III, IV (v. 11, 12), V (v. 15, 16) jusqu'à la bataille d'Actium en 31 av. J.-C."
+king_south1,Roi du Sud,King of the South, ,text,False, , , , ,Roi du Sud,Roi du Sud,Roi du Sud,Le roi du Sud
+king_south2,"Empire britannique 1870, puissance mondiale anglo-américaine depuis 1914","British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,"Empire britannique 1870, puissance mondiale anglo-américaine depuis 1914","Empire britannique 1870, Puissance mondiale anglo-américaine depuis 1914","Empire britannique 1870, puissance mondiale anglo-américaine depuis 1914","L'Empire britannique en 1870, la puissance mondiale anglo-américaine depuis 1914"
+king_south3,Roi du Sud,King of the South, ,text,False, , , , ,Roi du Sud,Roi du Sud,Roi du Sud,Le roi du Sud
+king_north2,"Allemagne avec l'empereur Guillaume Ier 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,"Allemagne avec l'empereur Guillaume Ier 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Allemagne avec l'empereur Guillaume Ier 1871 (v. 28), 1914 (v. 29), 1935 (v. 30b), 1939 (v. 31a)","Allemagne avec l'empereur Guillaume Ier en 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","L'Allemagne sous l'empereur Guillaume Ier : 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)"
+king_north3,Nord,North, ,text,False, , , , ,Nord,Nord,Nord,Nord
+king_north4,"Union soviétique 1945-1991 (Daniel 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"Union soviétique 1945-1991 (Daniel 11:32-39, 40b, 41)","Union soviétique 1945-1991 (Daniel 11:32-39, 40b, 41)","Union soviétique 1945-1991 (Daniel 11:32-39, 40b, 41)","Union soviétique 1945-1991 (Daniel 11:32-39, 40b, 41)"
+king_north5,Russie depuis 2017 (w20 mai),Russia since 2017 (w20 May), ,text,False, , , , ,Russie depuis 2017 (w20 mai),Russie depuis 2017 (w20 mai),Russie depuis 2017 (Tour de Garde mai 2020),Russie depuis 2017 (semaine du 20 mai)
+time_of_end,"Présence du Christ, Conclusion du système de choses (Matthieu 24 :3), les derniers jours (2 Timothée 3 :1)","Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,"Présence du Christ, Fin du système de choses (Matthieu 24:3), les derniers jours (2 Timothée 3:1)","Présence du Christ, Conclusion du système de choses (Matthieu 24:3), les derniers jours (2 Timothée 3:1)","Présence du Christ, conclusion du système de choses (Matthieu 24:3), les derniers jours (2 Timothée 3:1)","La présence du Christ, la fin du système de choses (Matthieu 24:3), les derniers jours (2 Timothée 3:1)"
+time_of_end2,derniers jours,Last days, ,text,False, , , , ,Derniers jours,Derniers jours,Derniers jours,Derniers jours
+suryavaman2,Le roi Suryavarman II construit Angkor Wat 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,Le roi Suryavarman II construit Angkor Vat 1113-1150,Le roi Suryavarman II construit Angkor Vat 1113-1150,Le roi Suryavarman II construit Angkor Vat 1113-1150,Le roi Suryavarman II fait construire Angkor Wat entre 1113 et 1150
+notre-dame,Notre-Dame de Paris construite entre 1163 et 1260,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,Notre-Dame de Paris construite 1163-1260,Notre-Dame de Paris construite 1163-1260,Notre-Dame de Paris construite 1163-1260,"Notre-Dame de Paris, construite entre 1163 et 1260"
+babel,tour de Babel construite,Tower of Babel built, ,text,False, , , , ,Tour de Babel construite,Tour de Babel construite,Tour de Babel construite,Construction de la tour de Babel
+infliction1,400 ans d'infliction,400 year infliction,Acts 7:6,text,False, , , , ,400 ans d'affliction,Affliction de 400 ans,400 ans d'affliction,400 ans de souffrance
+Lots_wife,La femme de Lot,Lot’s wife, ,text,False, , , , ,Femme de Lot,Femme de Lot,La femme de Lot,La femme de Lot
+Lots_daughters,Filles de Lot,Daughters of Lot, ,text,False, , , , ,Filles de Lot,Filles de Lot,Les filles de Lot,Les filles de Lot
+Moab,Moab (fille aînée),Moab (older daughter),Genesis 19:37,text,False, , , , ,Moab (fille aînée),Moab (fille aînée),Moab (fille aînée),Moab (ma fille aînée)
+rosetta,Pierre de Rosette 196 av. n. è.,Rosetta stone 196 B.C.E., ,text,False, , , , ,Pierre de Rosette 196 av. notre ère,Pierre de Rosette 196 av. n. è.,Pierre de Rosette 196 av. J.-C.,"Pierre de Rosette, 196 avant notre ère"
+Herodotus,"Hérodote c. 484 – ch. 425 avant JC, écrit Les Histoires","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"Hérodote c. 484 – c. 425 av. J.-C., écrit Les Histoires","Hérodote env. 484 – env. 425 av. n. è., écrit Histoires","Hérodote v. 484 – v. 425 av. J.-C., écrit Les Histoires",Hérodote (vers 484 – vers 425 av. J.-C.) est l'auteur des « Histoires ».
+Aristotle,Aristote 384 – 322 av. n. è.,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,Aristote 384 – 322 av. J.-C.,Aristote 384 – 322 av. n. è.,Aristote 384 – 322 av. J.-C.,"Aristote, 384 – 322 av. J.-C."
+Ptolemy,Ptolémée c 100 – c. 170 de n. è.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,Ptolémée c. 100 – c. 170 de notre ère,Ptolémée env. 100 – env. 170 de n. è.,Ptolémée v. 100 – v. 170 de n. è.,"Ptolémée, vers 100 – vers 170 de notre ère"
+Pythagoras,Pythagore v. 570 – vers. 495 av. n. è.,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,Pythagore c. 570 – c. 495 av. J.-C.,Pythagore env. 570 – env. 495 av. n. è.,Pythagore v. 570 – v. 495 av. J.-C.,"Pythagore, vers 570 – vers 495 av. J.-C."
+Plato,Platon c. 427 – ch. 348 av. n. è.,Plato c. 427 – c. 348 BC, ,text,False, , , , ,Platon c. 427 – c. 348 av. J.-C.,Platon env. 427 – env. 348 av. n. è.,Platon v. 427 – v. 348 av. J.-C.,"Platon, vers 427 – vers 348 av. J.-C."
+Socrates,Socrate c. 470 – vers. 399 av. n. è.,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,Socrate c. 470 – c. 399 av. J.-C.,Socrate env. 470 – env. 399 av. n. è.,Socrate v. 470 – v. 399 av. J.-C.,"Socrate, vers 470 – vers 399 av. J.-C."
+Josephus,Josèphe c. 37 – ch. 100 de n. è.,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,Josèphe c. 37 – c. 100 de notre ère,Josèphe env. 37 – env. 100 de n. è.,Josèphe v. 37 – v. 100 de n. è.,"Josèphe, vers 37 – vers 100 de notre ère"
+Cicero,Cicéron 106-43 av.n.è,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,Cicéron 106–43 av. J.-C.,Cicéron 106-43 av. n. è.,Cicéron 106–43 av. J.-C.,"Cicéron, 106-43 av. J.-C."
+lachish_letters,Lettres de Lachish c. 590 av. n. è.,Lachish letters c. 590 B.C.E., ,text,False, , , , ,Lettres de Lakish c. 590 av. n. è.,Lettres de Lakish env. 590 av. n. è.,Lettres de Lakish v. 590 av. n. è.,"Lettres de Lakish, vers 590 avant notre ère"
+lachish_reliefs,Reliefs de Lachish c. 681 av. n. è.,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,Reliefs de Lakish c. 681 av. n. è.,Bas-reliefs de Lakish env. 681 av. n. è.,Reliefs de Lakish v. 681 av. n. è.,"Reliefs de Lakish, vers 681 avant notre ère."
+mesha_stele,Stèle de Mesha (pierre moabite) v. 840 av. n. è.,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,Stèle de Mesha (pierre moabite) c. 840 av. n. è.,Stèle de Mesha (pierre moabite) env. 840 av. n. è.,Stèle de Mésha (pierre moabite) v. 840 av. n. è.,"Stèle de Mesha (pierre de Moab), vers 840 avant notre ère."
+gilgamesh,Gilgamesh et Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,Gilgamesh et Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh et Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh et Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh et Aga 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,Épopée de Gilgamesh (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,Épopée de Gilgamesh (Sîn-lēqi-unninni),Épopée de Gilgamesh (Sîn-lēqi-unninni),Épopée de Gilgamesh (Sîn-lēqi-unninni),L'Épopée de Gilgamesh (Sîn-lēqi-unninni)
+gregorian,Calendrier grégorien 1582,Gregorian calendar 1582, ,text,False, , , , ,Calendrier grégorien 1582,Calendrier grégorien 1582,Calendrier grégorien 1582,Calendrier grégorien 1582
+shang-dynasty,c. 1600-1046 av. n. è.,c. 1600-1046 BC, ,text,False, , , , ,c. 1600-1046 av. J.-C.,env. 1600-1046 av. n. è.,v. 1600-1046 av. J.-C.,vers 1600-1046 av. J.-C.
+western-zhou,c. 1046-771 av. n. è.,c. 1046-771 BC, ,text,False, , , , ,c. 1046-771 av. J.-C.,env. 1046-771 av. n. è.,v. 1046-771 av. J.-C.,vers 1046-771 av. J.-C.
+qin-dynasty,Qin 221-207 av. n. è.,Qin 221-207 BC, ,text,False, , , , ,Qin 221-207 av. J.-C.,Qin 221-207 av. n. è.,Qin 221-207 av. J.-C.,"Dynastie Qin, 221-207 av. J.-C."
+western-han,207 av. n. è. – 9 de n. è.,207 BC – 9 CE, ,text,False, , , , ,207 av. J.-C. – 9 de notre ère,207 av. n. è. – 9 de n. è.,207 av. n. è. – 9 de n. è.,207 av. J.-C. – 9 apr. J.-C.
+three-kingdoms,Trois royaumes 220-280 de n. è.,Three kingdoms 220-280 CE, ,text,False, , , , ,Trois royaumes 220-280 de notre ère,Les Trois Royaumes de 220 à 280 de notre ère,Trois Royaumes 220-280 de n. è.,"Les Trois Royaumes, 220-280 de notre ère"
+sixteen-kingdoms,Seize Royaumes 304-439 de n. è.,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,Seize royaumes 304-439 de notre ère,Les Seize Royaumes de 304 à 439 de notre ère,Seize Royaumes 304-439 de n. è.,Les seize royaumes (304-439 de notre ère)
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , , ,"618-690, 705-907","618-690, 705-907", 
+wu-zhou,690-705 Wu Zetian,690-705 Wu Zhou, ,text,False, , , , , ,690-705 Wu Zhou,690-705 Wu Zhou, 
+tang-dynasty1_c,Tang,Tang, ,text,False, , , , , ,Tang,Tang, 
+gonghe,Régence de Gonghe 841-828 av. n. è.,Gonghe Regency 841-828 BC, ,text,False, , , , ,Régence de Gonghe 841-828 av. J.-C.,Régence de Gonghe de 841 à 828 avant notre ère,Régence de Gonghe 841-828 av. J.-C.,"Régence de Gonghe, 841-828 av. J.-C."
+Ashoka,Ashoka (vers 304-232 av. n. è.) promeut le bouddhisme,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,Ashoka (c. 304-232 av. J.-C.) promeut le bouddhisme,Asoka (c. 304-232 avant notre ère) promeut le bouddhisme,Ashoka (v. 304-232 av. J.-C.) promeut le bouddhisme,Ashoka (vers 304-232 av. J.-C.) promeut le bouddhisme
+siloam-tunnel,Ézéchias prolonge le tunnel de Siloé,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,Ézéchias prolonge le tunnel de Siloé,Ézéchias prolonge le tunnel de Siloé,Ézéchias prolonge le tunnel de Siloé,Ézéchias prolonge le tunnel de Siloé
+Angloamerica2,"L'Anglo-Américain est symbolisé par des pieds de fer mélangés à de l'argile dans la prophétie de Daniel 2:33, 41-43.","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,"Anglo-américain est symbolisé par les pieds de fer mêlés d'argile dans la prophétie de Daniel 2:33, 41-43","La puissance anglo-américaine est symbolisée par les pieds de fer mélangé d'argile dans la prophétie de Daniel 2:33, 41-43","L'anglo-américain est symbolisé par les pieds de fer mêlé d'argile dans la prophétie de Daniel 2:33, 41-43","L'empire anglo-américain est symbolisé par les pieds de fer mêlés d'argile dans la prophétie de Daniel 2, 33, 41-43."
+Manetho,Manéthon écrit Ægyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , ,Manéthon écrit Aegyptiaca,Manéthon écrit les Aegyptiaca,Manéthon écrit l'Aegyptiaca,Manéthon écrit les *Aegyptiaca*
+destruction_babylon,"Destruction de Babylone la Grande (Apocalypse 17:3, 15-18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,"Destruction de Babylone la Grande (Apocalypse 17:3, 15-18 ; 18:9, 10)","Destruction de Babylone la Grande (Révélation 17:3, 15-18; 18:9, 10)","Destruction de Babylone la Grande (Révélation 17:3, 15-18 ; 18:9, 10)","La destruction de Babylone la Grande (Apocalypse 17:3, 15-18 ; 18:9, 10)"
+peace_security,"« Paix et sécurité ! » (1 Thessaloniciens 5 : 3, c'est une possibilité, QfR 26/2, 25/11)","“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,"« Paix et sécurité ! » (1 Thessaloniciens 5:3, ceci est une possibilité, QfR 26/2, 25/11)","« Paix et sécurité ! » (1 Thessaloniciens 5:3, ceci est une possibilité, QfR 26/2, 25/11)","« Paix et sécurité ! » (1 Thessaloniciens 5:3, il s'agit d'une possibilité, QfR 26/2, 25/11)","« Paix et sécurité ! » (1 Thessaloniciens 5:3, c'est une possibilité, QfR 26/2, 25/11)"
+gog_of_magog,"Attaque de Gog de Magog (Ézéchiel 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,"Attaque de Gog de Magog (Ézéchiel 38:1, 2, 9-12, 18-23)","Attaque de Gog de Magog (Ézéchiel 38:1, 2, 9-12, 18-23)","Attaque de Gog de Magog (Ézéchiel 38:1, 2, 9-12, 18-23)","L'attaque de Gog de Magog (Ézéchiel 38, 1, 2, 9-12, 18-23)"
+sheep_goat,Les habitants de la Terre seront jugés en séparant les moutons des chèvres (Matthieu 25:31-33),"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,"Les habitants de la terre sont jugés, séparant les brebis et les boucs (Matthieu 25:31-33)","Les habitants de la terre sont jugés, séparation des brebis et des chèvres (Matthieu 25:31-33)","Les habitants de la terre sont jugés, séparant brebis et boucs (Matthieu 25:31-33)","Les habitants de la Terre sont jugés : on sépare les brebis des chèvres (Matthieu 25, 31-33)"
+annointed,Rassemblement des dirigeants du Royaume (Matthieu 24:31; 1 Corinthiens 15:50-53; 1 Thessaloniciens 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,Rassemblement des dirigeants du Royaume (Matthieu 24:31 ; 1 Corinthiens 15:50-53 ; 1 Thessaloniciens 4:15-17),Rassemblement des dirigeants du Royaume (Matthieu 24:31; 1 Corinthiens 15:50-53; 1 Thessaloniciens 4:15-17),Rassemblement des dirigeants du Royaume (Matthieu 24:31 ; 1 Corinthiens 15:50-53 ; 1 Thessaloniciens 4:15-17),Rassemblement des souverains du Royaume (Matthieu 24:31 ; 1 Corinthiens 15:50-53 ; 1 Thessaloniciens 4:15-17)
+armageddon,"Bataille d'Harmaguédon (Apocalypse 16:14, 16; Ésaïe 13:9; 2 Pierre 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,"Bataille d'Armageddon (Apocalypse 16:14, 16 ; Ésaïe 13:9 ; 2 Pierre 3:12)","Bataille d'Harmaguédon (Révélation 16:14, 16; Isaïe 13:9; 2 Pierre 3:12)","Bataille d'Harmaguédon (Révélation 16:14, 16 ; Ésaïe 13:9 ; 2 Pierre 3:12)","La bataille d'Armageddon (Apocalypse 16:14, 16 ; Ésaïe 13:9 ; 2 Pierre 3:12)"
+millenium,"Le Royaume de Dieu commence son règne de 1000 ans (Apocalypse 5 :9, 10 ; 20 :4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,"Le Royaume de Dieu commence son règne de 1000 ans (Apocalypse 5:9, 10 ; 20:4, 6)","Le Royaume de Dieu commence son règne de 1 000 ans (Révélation 5:9, 10; 20:4, 6)","Le Royaume de Dieu commence son règne de 1 000 ans (Révélation 5:9, 10 ; 20:4, 6)","Le Royaume de Dieu entame son règne de 1 000 ans (Apocalypse 5:9, 10 ; 20:4, 6)"
+great_crowd,"Une grande foule survit à Harmaguédon (Apocalypse 7:9, 14; Psaume 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,"Une grande foule survit à Armageddon (Apocalypse 7:9, 14 ; Psaume 37:9-11)","Une grande foule survit à Harmaguédon (Révélation 7:9, 14; Psaume 37:9-11)","Une grande foule survit à Harmaguédon (Révélation 7:9, 14 ; Psaume 37:9-11)","Une grande foule survit à l'Armageddon (Apocalypse 7:9, 14 ; Psaume 37:9-11)"
+world_population,Population mondiale en milliards au cours des 2000 dernières années,World population in billions in the last 2000 years, ,text,False, , , , ,Population mondiale en milliards au cours des 2000 dernières années,Population mondiale en milliards au cours des 2 000 dernières années,Population mondiale en milliards au cours des 2 000 dernières années,Population mondiale en milliards au cours des 2 000 dernières années
+khmer_empire_c,Empire khmer - Période d’Angkor,Khmer Empire - Angkor period, ,text,False, , , , ,Empire khmer - période d'Angkor,Empire khmer - période d'Angkor,Empire khmer – période d'Angkor,Empire khmer - Période d'Angkor
+holy_roman_empire_c,Saint Empire romain – après 1512 Saint Empire romain germanique,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,Saint-Empire romain – connu sous le nom de Saint-Empire romain de la nation germanique après 1512,Saint-Empire romain germanique – connu sous le nom de Saint-Empire romain de la nation germanique après 1512,Saint-Empire romain – connu sous le nom de Saint-Empire romain de la Nation germanique après 1512,Saint-Empire romain germanique – connu sous le nom de « Saint-Empire romain germanique de la nation allemande » à partir de 1512
+mongol_empire,Empire mongol 1206 – 1294 de notre ère,Mongol Empire 1206 – 1294, ,text,False, , , , ,Empire mongol 1206 – 1294,Empire mongol de 1206 à 1294,Empire mongol 1206 – 1294,"Empire mongol, 1206 – 1294"
+maya_classic_c,Civilisation Maya – période classique,Maya civilization – Classic period, ,text,False, , , , ,Civilisation maya – période classique,Civilisation maya – Période classique,Civilisation maya – période classique,La civilisation maya – Période classique
+maya_postclassic_c,Civilisation Maya – période postclassique,Maya civilization – Postclassic period, ,text,False, , , , ,Civilisation maya – période postclassique,Civilisation maya – Période postclassique,Civilisation maya – période postclassique,Civilisation maya – Période postclassique
+Teotihuacan,"plus grande ville des Amériques, les pyramides sont construites c. 200 de notre ère","Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,"Plus grande ville des Amériques, pyramides construites c. 200 de notre ère","Plus grande ville des Amériques, construction de pyramides vers 200 de notre ère","Plus grande ville des Amériques, pyramides construites v. 200 de n. è.","La plus grande ville des Amériques, dont les pyramides ont été construites vers l'an 200 de notre ère."
+Dionysius_Exiguus,"Dionysius Exiguus, inventeur d'Anno Domini","Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,"Denys le Petit, inventeur d'Anno Domini","Denys le Petit, inventeur de l'ère chrétienne (Anno Domini)","Denys le Petit, inventeur de l'Anno Domini","Dionysius Exiguus, inventeur de l'Anno Domini"
+Umayyad_c,Omeyyade,Umayyad, ,text,False, , , , ,Omeyyade,Omeyyade,Omeyyades,Omeyyade
+ur3,Dynastie Ur III 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,IIIe dynastie d'Ur 𒋀𒀕𒆠,Troisième dynastie d'Ur 𒋀𒀕𒆠,Troisième dynastie d'Ur 𒋀𒀕𒆠,Dynastie d'Ur III 𒋀𒀕𒆠
+hammurabi,Hammourabi 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , , ,Hammurabi 𒄩𒄠𒈬𒊏𒁉,Hammourabi 𒄩𒄠𒈬𒊏𒁉, 
+Al-Khwarizmi,al-Khwarizmi écrit Al-Jabr (Algèbre),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,Al-Khwarizmi écrit Al-Jabr (Algèbre),Al-Khwarizmi écrit Al-Jabr (L'Algèbre),Al-Khwarizmi écrit Al-Jabr (Algèbre),Al-Khwarizmi est l'auteur de l'ouvrage *Al-Jabr* (Algèbre)
+al-azhar,L'Université Al-Azhar est créée au Caire,Al-Azhar University is established in Cairo, ,text,False, , , , ,L'Université Al-Azhar est établie au Caire,L'université Al-Azhar est fondée au Caire,L'université Al-Azhar est fondée au Caire,L'université Al-Azhar a été fondée au Caire
+Ibn-Sina,Ibn Sina ou Avicenne,Ibn Sina or Avicenna, ,text,False, , , , ,Ibn Sina ou Avicenne,Ibn Sina ou Avicenne,Ibn Sina ou Avicenne,Ibn Sina ou Avicenne
+life-expectancy,Espérance de vie : 75 ans,Life expectancy 75 years, ,text,False, , , , ,Espérance de vie 75 ans,Espérance de vie de 75 ans,Espérance de vie 75 ans,Espérance de vie : 75 ans
+430years_c,"430 ans : Exode 12:41, Galates 3:17","430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,"430 ans : Exode 12:41, Galates 3:17","430 ans : Exode 12:41, Galates 3:17","430 ans : Exode 12:41, Galates 3:17","430 ans : Exode 12,41 ; Galates 3,17"
+maya_calendar,Début du calendrier maya : 11 août 3114 av. n. è.,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,Début calculé du calendrier maya 11 août 3114 av. J.-C.,Début calculé du calendrier maya : 11 août 3114 avant notre ère,Début calculé du calendrier maya le 11 août 3114 av. n. è.,Début calculé du calendrier maya : le 11 août 3114 avant notre ère.
+xia-dynasty2,Vers 2070 – vers 1600 av. n. è.; ère mentionnée pour la première fois pendant la période des Zhou occidentaux,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,v. 2070 – v. 1600 av. J.-C. ; Ère mentionnée pour la première fois sous la dynastie des Zhou occidentaux,c. 2070 – c. 1600 avant notre ère ; Époque mentionnée pour la première fois sous la période des Zhou occidentaux,v. 2070 – v. 1600 av. J.-C. ; ère évoquée pour la première fois durant la période des Zhou occidentaux,vers 2070 – vers 1600 av. J.-C. ; époque mentionnée pour la première fois sous la dynastie des Zhou de l’Ouest
+xia-dynasty2_c,Dynastie Xia en Chine,Xia dynasty in China, ,text,False, , , , ,Dynastie Xia en Chine,Dynastie Xia en Chine,Dynastie Xia en Chine,La dynastie Xia en Chine
+tres_zapotes,3 septembre 32 av. n. è.,"September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,3 septembre 32 av. J.-C.,3 septembre 32 avant notre ère,3 septembre 32 av. n. è.,3 septembre 32 av. J.-C.
+joseph_jacob_reunited,Joseph et Jacob réunis en Égypte – 1728 av. J.-C. (Gen 45:11; 47:9),Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,Joseph et Jacob réunis en Égypte – 1728 av. J.-C. (Gen 45:11 ; 47:9),Joseph et Jacob réunis en Égypte – 1728 avant notre ère (Gen 45:11; 47:9),Joseph et Jacob réunis en Égypte – 1728 av. n. è. (Gen 45:11 ; 47:9),"Les retrouvailles de Joseph et de Jacob en Égypte – 1728 avant notre ère (Genèse 45, 11 ; 47, 9)"
+king_south_light_c,Roi du Sud (Daniel 11),King of the South from Daniel 11,2025-02-05,text,False, , , , ,Roi du Sud d'après Daniel 11,Le roi du Sud d'après Daniel 11,Roi du Sud dans Daniel 11,"Le roi du Sud, d'après Daniel 11"
+king_north_light_c,Roi du Nord (Daniel 11),King of the North from Daniel 11,2025-02-05,text,False, , , , ,Roi du Nord d'après Daniel 11,Roi du Nord selon Daniel 11,Roi du Nord dans Daniel 11,"Le roi du Nord, d'après Daniel 11"
+daniel2_iron_c,Jambes de fer (Daniel 2),Iron legs from Daniel 2,2025-02-05,text,False, , , , ,Jambes de fer d'après Daniel 2,Jambes de fer selon Daniel 2,Jambes de fer dans Daniel 2,Les jambes de fer de Daniel 2
+argenteus,Codex Argenteus c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,True, , , , ,Codex Argenteus v. 505,Codex Argenteus v. 505,Codex Argenteus v. 505,"Codex Argenteus, vers 505"
+nguyen_dynasty_c,Nguyễn,Nguyễn,2025-09-20,text,True, , , , , ,Nguyễn,Nguyễn, 
+edo_c,Époque d'Edo au Japon,Edo period in Japan,Edo period (Tokugawa shogunate),text,True, , , , ,Période d'Edo au Japon,Époque d'Edo au Japon,Période Edo au Japon,Période d'Edo au Japon
+meiji_c,Meiji,Meiji,2025-09-20,text,True, , , , , ,Meiji,Meiji, 
+american_civil_war,Guerre civile américaine 1861-1865,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,Guerre de Sécession 1861-1865,Guerre de Sécession 1861-1865,Guerre de Sécession américaine 1861-1865,Guerre de Sécession 1861-1865
+aleppo_codex,Codex d'Alep v. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,Codex d'Alep v. 920,Codex d'Alep v. 920,Codex d'Alep v. 920,"Codex d'Alep, vers 920"
+vandals,Royaume des Vandales et des Alains 435 – 534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,Royaume des Vandales et des Alains 435 – 534,Royaume des Vandales et des Alains 435 – 534,Royaume des Vandales et des Alains 435 – 534,"Royaume des Vandales et des Alains, 435 – 534"
+francia,"c. 481/509 – 843, mérovingien jusqu'en 751, puis carolingien","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,"v. 481/509 – 843, Mérovingien jusqu'en 751, puis Carolingien","v. 481/509 – 843, Mérovingiens jusqu'en 751, puis Carolingiens","v. 481/509 – 843, mérovingien jusqu'en 751, puis carolingien","vers 481/509 – 843, période mérovingienne jusqu’en 751, puis carolingienne"
+francia_c,Royaume des Francs,Kingdom of the Franks, ,text,False, , , , ,Royaume des Francs,Royaume des Francs,Royaume des Francs,Royaume des Francs
+100_years_war,Guerre de Cent Ans 1337 – 1453,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,Guerre de Cent Ans 1337 – 1453,Guerre de Cent Ans 1337 – 1453,Guerre de Cent Ans 1337 – 1453,"La Guerre de Cent Ans, 1337 – 1453"
+black_death,Peste noire 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,Peste noire 1346-1353,Peste noire 1346-1353,Peste noire 1346-1353,"La peste noire, 1346-1353"
+sui_dynasty,581-618 Dynastie Sui,581-618 Sui dynasty,2025-11-09,text,False, , , , ,Dynastie Sui 581-618,581-618 Dynastie Sui,581-618 Dynastie Sui,581-618 : dynastie des Sui
+sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , ,Sui,Sui, 
+tribulation,"La Grande Tribulation (Marc 13:19; Daniel 12:1; Matthieu 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"La Grande Tribulation (Marc 13:19 ; Daniel 12:1 ; Matt 24:21, 22)","La grande tribulation (Marc 13:19 ; Daniel 12:1 ; Matthieu 24:21, 22)","La Grande Tribulation (Marc 13:19 ; Daniel 12:1 ; Matthieu 24:21, 22)","La Grande Tribulation (Marc 13:19 ; Daniel 12:1 ; Matthieu 24:21, 22)"
+timeline_created,"Cette chronologie a été créée en 2023, l'année la plus chaude de l'histoire de l'humanité et des 125 000 dernières années.","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"Cette chronologie est créée en 2023, l'année la plus chaude de l'histoire humaine et des 125 000 dernières années","Cette chronologie est créée en 2023, l'année la plus chaude de l'histoire humaine et des 125 000 dernières années","Cette chronologie est créée en 2023, l'année la plus chaude de l'histoire humaine et des 125 000 dernières années","Cette chronologie a été établie en 2023, année la plus chaude de l'histoire de l'humanité et des 125 000 dernières années."
+Adam,Adam,Adam,Luke 3:38,bible,True, , , , , ,Adam,Adam, 
+Seth,Seth,Seth,Luke 3:38,bible,True, , , , , ,Seth,Seth, 
+Enosh,Énosh,Enosh,Luke 3:38,bible,True, , , , , ,Énos,Énosch, 
+Kenan,Kénân,Kenan (Cainan),"Genesis 5:12, Luke 3:37",bible,False, , , , , ,Kénan (Cainan),Qénan (Caïnan), 
+Mahalalel,Maalaléel,Mahalalel (Mahalaleel),"Genesis 5:15, Luke 3:37",bible,False, , , , , ,Mahalalel,Mahalaléel (Mahalaleel), 
+Jared,Jared,Jared,Luke 3:37,bible,True, , , , , ,Jared,Jéred, 
+Enoch,Hénoch,Enoch,Luke 3:37,bible,True, , , , , ,Hénoch,Hénoch, 
+Methuselah,Mathusalem,Methuselah,Luke 3:37,bible,True, , , , , ,Mathusalem,Mathusalem, 
+Lamech,Lamek,Lamech,Luke 3:36,bible,True, , , , , ,Lamech,Lamec, 
+Noah,Noé,Noah,Luke 3:36,bible,True, , , , , ,Noé,Noé, 
+Shem,Sem,Shem,Luke 3:36,bible,True, , , , , ,Sem,Sem, 
+Arpachshad,Arpakshad,Arpachshad,Luke 3:36,bible,True, , , , , ,Arpacshad,Arpachschad, 
+Shelah,Shéla,Shelah,Luke 3:35,bible,True, , , , , ,Schélach,Schélah, 
+Eber,Ébèr,Eber,Luke 3:35,bible,True, , , , , ,Éber,Éber, 
+Peleg,Pélèg,Peleg,Luke 3:35,bible,True, , , , , ,Pélèg,Péleg, 
+Reu,Réou,Reu,Luke 3:35,bible,True, , , , , ,Réou,Reü, 
+Serug,Seroug,Serug,Luke 3:35,bible,True, , , , , ,Seroug,Sérug, 
+Nahor,Naor,Nahor,"Luke 3:34, Genesis 11:24",bible,True, , , , , ,Nachor,Nahor, 
+Terah,Téra,Terah,Luke 3:34,bible,True, , , , , ,Térach,Térah, 
+Abraham,Abraham,Abraham,Luke 3:34,bible,True, , , , , ,Abraham,Abraham, 
+Isaac,Isaac,Isaac,Luke 3:34,bible,True, , , , , ,Isaac,Isaac, 
+Jacob,Jacob,Jacob,Luke 3:34,bible,True, , , , , ,Jacob,Jacob, 
+Joseph,Joseph,Joseph,Genesis 37,bible,False, , , , , ,Joseph,Joseph, 
+Moses,Moïse,Moses,Exodus 2:10,bible,False, , , , , ,Moïse,Moïse, 
+Othniel,Otniel,Othniel,Judges 3:9-11,bible,False, , , , , ,Othniel,Othniel, 
+Ehud,Éhoud,Ehud,Judges 3:15-18,bible,False, , , , , ,Éhud,Éhud, 
+Shamgar,Shamgar,Shamgar,Judges 3:31,bible,False, , , , , ,Schamgar,Shamgar, 
+Barak,Barak,"Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , ,"Barak, Débora, Jael","Barak, Déborah, Jaël", 
+Gideon,Gédéon,Gideon,Judges 7:1,bible,False, , , , , ,Gédéon,Gédéon, 
+Tola,Tola,Tola,Judges 10:1,bible,False, , , , , ,Tola,Tola, 
+Jair,Jaïr,Jair,Judges 10:3,bible,False, , , , , ,Jaïr,Jaïr, 
+Jephthah,Jephté,Jephthah,Judges 11:1,bible,False, , , , , ,Jephté,Jephté, 
+Ibzan,Ibzân,Ibzan,Judges 12:8,bible,False, , , , , ,Ibtsan,Ibzan, 
+Elon,Élôn,Elon,Judges 12:11,bible,False, , , , , ,Élon,Élon, 
+Abdon,Abdôn,Abdon,Judges 12:13,bible,False, , , , , ,Abdon,Abdon, 
+Samson,Samson,Samson,Judges 13:24,bible,False, , , , , ,Samson,Samson, 
+Samuel,Samuel,Samuel,1 Samuel 1:20,bible,False, , , , , ,Samuel,Samuel, 
+Saul,Saül,Saul,1 Samuel 9:2,bible,False, , , , , ,Saül,Saül, 
+David,David,David,1 Samuel 16:13,bible,False, , , , , ,David,David, 
+Solomon,Salomon,Solomon,1 Kings 2:1,bible,False, , , , , ,Salomon,Salomon, 
+Malachi,Malachie,Malachi,bible book,bible,False, , , , , ,Malachie,Malachie, 
+Ruth,Ruth,Ruth,bible book,bible,False, , , , , ,Ruth,Ruth, 
+Ezra,Esdras,Ezra,bible book,bible,False, , , , , ,Esdras,Esdras, 
+Nehemiah,Néhémie,Nehemiah,bible book,bible,False, , , , , ,Néhémie,Néhémie, 
+Esther,Esther,Esther,bible book,bible,False, , , , , ,Esther,Esther, 
+Job,Job,Job,bible book,bible,False, , , , , ,Job,Job, 
+moses3,Moïse,Moses,Exodus 2:10,bible,False, , , , , ,Moïse,Moïse, 
+joshua2,Josué,Joshua,Exodus 17:14,bible,False, , , , , ,Josué,Josué, 
+caleb2,Caleb,Caleb,Numbers 13:30,bible,False, , , , , ,Caleb,Caleb, 
+Augustus,Auguste,Augustus,Luke 2:1,bible,False, , , , , ,Auguste,Auguste, 
+Tiberius,Tibère,Tiberius,Luke 3:1,bible,False, , , , , ,Tibère,Tibère, 
+Claudius,Claude,Claudius,Acts 11:28,bible,False, , , , , ,Claude,Claude, 
+persia2,Perse,Persia,Esther 1:3,bible,False, , , , , ,Perse,Perse, 
+jehoiada,Joad,Jehoiada,2 Kings 11:4,bible,False, , , , , ,Jehojada,Yehoyada, 
+Haggai,Aggée,Haggai,bible book,bible,False, , , , , ,Aggée,Aggée, 
+Zerubbabel,Zorobabel (Luc 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , ,Zorobabel (Luc 3:27),Zorobabel (Luc 3:27), 
+Jacob2,Jacob/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , ,Jacob/,Jacob/, 
+Israel,Israël,Israel,Genesis 35:10,bible,False, , , , , ,Israël,Israël, 
+Sarah,Sarah,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , ,Sara,Sara, 
+Hagar,Agar,Hagar,Genesis 21:14,bible,False, , , , , ,Agar,Hagar, 
+Haran,Haran,Haran,Genesis 11:26,bible,False, , , , , ,Haran,Haran, 
+Reumah,Reumah,Reumah,Genesis 22:24 Concubine – 4 sons,bible,False, , , , , ,Reuma,Reumah, 
+Milcah,Milca,Milcah,Genesis 22:20 - 8 sons (Bethuel and 7 more),bible,False, , , , , ,Milca,Milca, 
+Lot,Lot,Lot,Genesis 11:27,bible,False, , , , , ,Lot,Loth, 
+Ammon,Ben Ammi (Ammon),Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , ,Ben-Ammi (Ammon),Ben-Ammi (Ammon), 
+Bethuel,Bethuel,Bethuel,Genesis 22:23,bible,False, , , , , ,Bethuel,Bethouël, 
+Rebekah,Rébecca,Rebekah,Genesis 22:23,bible,False, , , , , ,Rébecca,Rébecca, 
+Laban,Laban,Laban,Genesis 24:29,bible,False, , , , , ,Laban,Laban, 
+Leah,Léa,Leah,Genesis 35:23,bible,False, , , , , ,Léa,Léa, 
+Rachel,Rachel,Rachel,Genesis 35:24,bible,False, , , , , ,Rachel,Rachel, 
+Bilhah,Bila,Bilhah,Genesis 35:25,bible,False, , , , , ,Bilha,Bilha, 
+Zilpah,Zilpa,Zilpah,Genesis 35:26,bible,False, , , , , ,Zilpa,Zilpa, 
+Reuben,Ruben,Reuben,Genesis 35:23,bible,False, , , , , ,Ruben,Ruben, 
+Simeon,Siméon,Simeon,Genesis 35:23,bible,False, , , , , ,Siméon,Siméon, 
+Levi,Lévi,Levi,Genesis 35:23,bible,False, , , , , ,Lévi,Lévi, 
+Judah,Juda,Judah,Genesis 35:23,bible,False, , , , , ,Juda,Juda, 
+Issachar,Issachar,Issachar,Genesis 35:23,bible,False, , , , , ,Issachar,Issachar, 
+Zebulun,Zabulon,Zebulun,Genesis 35:23,bible,False, , , , , ,Zabulon,Zabulon, 
+Dinah,Dina,Dinah,Genesis 34:1,bible,False, , , , , ,Dina,Dina, 
+Esau,Ésaü/,Esau/,Genesis 36:1,bible,False, , , , , ,Ésaü /,Ésaü/, 
+Edom,Édom,Edom,Genesis 36:1,bible,False, , , , , ,Édom,Édom, 
+Ishmael,Ismaël,Ishmael,Genesis 16:16,bible,False, , , , , ,Ismaël,Ismaël, 
+Manasseh2,(Manassé,(Manasseh,Genesis 41:51,bible,False, , , , , ,(Manassé,(Manassé, 
+Ephraim,et Éphraïm),and Ephraim),Genesis 41:52,bible,False, , , , , ,et Éphraïm),et Éphraïm), 
+Benjamin,Benjamin,Benjamin,Genesis 35:24,bible,False, , , , , ,Benjamin,Benjamin, 
+Dan,Dan,Dan,Genesis 35:25,bible,False, , , , , ,Dan,Dan, 
+Naphtali,Nephtali,Naphtali,Genesis 35:25,bible,False, , , , , ,Nephthali,Nephtali, 
+Gad,Gad,Gad,Genesis 35:26,bible,False, , , , , ,Gad,Gad, 
+Asher,Aser,Asher,Genesis 35:26,bible,False, , , , , ,Aser,Asher, 
+Milcah1,"Uz, Buz, Kemuel,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , ,"Uts, Buz, Kemuel,","Uts, Buz, Kemuel,", 
+Milcah2,"Chesed, Hazo,","Chesed, Hazo,",Genesis 22:22,bible,False, , , , , ,"Késed, Hazo,","Késed, Hazo,", 
+Milcah3,"Pildash, Jidlaph","Pildash, Jidlaph",Genesis 22:22,bible,False, , , , , ,"Pildash, Jidlaph","Pildash, Jidlaph", 
+Tebah,Tebah,Tebah,Genesis 22:24,bible,False, , , , , ,Tébach,Tébah, 
+Gaham,Gaham,Gaham,Genesis 22:24,bible,False, , , , , ,Gaham,Gaham, 
+Tahash,Tahash,Tahash,Genesis 22:24,bible,False, , , , , ,Tachasch,Tahash, 
+Maacah,Maaca,Maacah,Genesis 22:24,bible,False, , , , , ,Maaca,Maacah, 
+Mahalath,Mahalath/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , ,Mahalath /,Mahalath/, 
+Basemath,Basmath,Basemath,"Genesis 36:3, 4",bible,False, , , , , ,Basmath,Basemath, 
+Reuel,Réuel,Reuel,"Genesis 36:13, 17",bible,False, , , , , ,Raguël,Reuel, 
+Nahath,Nahath,Nahath,Genesis 36:13,bible,False, , , , , ,Nachath,Nahath, 
+Zerah,Zérah,Zerah,Genesis 36:13,bible,False, , , , , ,Zérach,Zérah, 
+Schammah,Schammah,Schammah,Genesis 36:13,bible,False, , , , , ,Schamma,Schammah, 
+Mizzah,Mizza,Mizzah,Genesis 36:13,bible,False, , , , , ,Mizza,Mizzah, 
+Adah,Ada,Adah,"Genesis 36:11, 12, 15, 16",bible,True, , , , , ,Ada,Ada, 
+Eliphaz,Élifaz,Eliphaz,Genesis 36:11,bible,True, , , , , ,Éliphas,Éliphaz, 
+Teman,Témân,Teman,Genesis 36:11,bible,True, , , , , ,Téman,Téman, 
+Omar,Omar,Omar,Genesis 36:11,bible,True, , , , , ,Omar,Omar, 
+Zepho,Zefo,Zepho,Genesis 36:11,bible,True, , , , , ,Tsepho,Zepho, 
+Kenaz,Kenaz,Kenaz,Genesis 36:11,bible,True, , , , , ,Kenaz,Kenaz, 
+Korah,Coré,Korah,Genesis 36:16,bible,True, , , , , ,Coré,Koré, 
+Korah_Gatam,"Coré, Gatam","Korah, Gatam","Genesis 36:11, 16",bible,True, , , , , ,"Coré, Gatam","Koré, Gatam", 
+Amalek,Amalec,Amalek,Genesis 36:12,bible,True, , , , , ,Amalek,Amalek, 
+Oholibamah,Oholibama,Oholibamah,"Genesis 36:14, 18",bible,True, , , , , ,Oholibama,Oholibamah, 
+Jeush,Jéoush,Jeush,Genesis 36:14,bible,True, , , , , ,Jéhusch,Yehush, 
+Jalam,Jalam,Jalam,Genesis 36:14,bible,True, , , , , ,Jalam,Yalam, 
+Nebaioth,Nebayoth,Nebaioth,Genesis 25:13,bible,True, , , , , ,Nébajoth,Nebayoth, 
+Kedar,Kédar,Kedar,Genesis 25:13,bible,True, , , , , ,Kédar,Kédar, 
+Mishma,Mishma,Mishma,Genesis 25:14,bible,True, , , , , ,Mischena,Mishma, 
+Adbeel_Mibsam,"Adbéel, Mibsam","Adbeel, Mibsam",Genesis 25:13,bible,True, , , , , ,"Adbeel, Mibsam","Adbeel, Mibsam", 
+Dumah_Massa,"Douma, Massa","Dumah, Massa",Genesis 25:14,bible,True, , , , , ,"Douma, Massa","Duma, Massa", 
+Hadad,Hadad,Hadad,Genesis 25:15,bible,True, , , , , ,Hadad,Hadad, 
+Tema,Téma,Tema,Genesis 25:15,bible,True, , , , , ,Téma,Téma, 
+Jetur,Jetour,Jetur,Genesis 25:15,bible,True, , , , , ,Jethur,Yetur, 
+Naphish,Nafish,Naphish,Genesis 25:15,bible,True, , , , , ,Naphisch,Naphish, 
+Kedemah,Kédma,Kedemah,Genesis 25:15,bible,True, , , , , ,Kédéma,Qedemah, 
+Keturah,Ketura,Keturah,Genesis 25:1,bible,False, , , , , ,Ketura,Qetura, 
+Zimran,Zimran,Zimran,Genesis 25:1,bible,False, , , , , ,Zimran,Zimran, 
+Jokshan,Jokshan,Jokshan,Genesis 25:1,bible,False, , , , , ,Jokchan,Yokshan, 
+Medan,Médan,Medan,Genesis 25:1,bible,False, , , , , ,Médan,Médan, 
+Midian,Madian,Midian,Genesis 25:1,bible,False, , , , , ,Madian,Madian, 
+Ishbak,Ichbak,Ishbak,Genesis 25:1,bible,False, , , , , ,Jischbak,Ishbak, 
+Shuah,Shuah,Shuah,Genesis 25:1,bible,False, , , , , ,Schuach,Shouah, 
+Timna,Timna,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False, , , , , ,Timna,Timna, 
+life-expectancy2,(Psaume 90:10),(Psalm 90:10),2024-11-29,bible,False, , , , , ,(Psaume 90:10),(Psaume 90:10), 
+Ham,Cham,Ham,Gen 10:1,bible,True, , , , , ,Cham,Cham, 
+Canaan,Canaan,Canaan,Gen 10:6,bible,True, , , , , ,Canaan,Canaan, 
+Sidon,Sidon,Sidon,Gen 10:15,bible,True, , , , , ,Sidon,Sidon, 
+Heth,Heth,Heth,Gen 10:15,bible,True, , , , , ,Heth,Heth, 
+Jebusite,Jébuséen,Jebusite,Gen 10:16,bible,True, , , , , ,Jébusiens,Jébuséen, 
+Amorite,Amorite,Amorite,Gen 10:16,bible,True, , , , , ,Amoréens,Amorite, 
+Girgashite,Guirgashite,Girgashite,Gen 10:16,bible,True, , , , , ,Guirgasiens,Guirgashite, 
+Hivite,Hivite,Hivite,Gen 10:17,bible,True, , , , , ,Héviens,Hivite, 
+Arkite,Arkite,Arkite,Gen 10:17,bible,True, , , , , ,Arkiens,Arkite, 
+Sinite,Sinite,Sinite,Gen 10:17,bible,True, , , , , ,Sinites,Sinite, 
+Arvadite,Arvadite,Arvadite,Gen 10:18,bible,True, , , , , ,Arvadiens,Arvadite, 
+Zemarite,Zemarite,Zemarite,Gen 10:18,bible,True, , , , , ,Tsemarites,Tsemarite, 
+Hamathite,Hamathien,Hamathite,Gen 10:18,bible,True, , , , , ,Hamathiens,Hamathite, 
+Cush,Koush,Cush,Gen 10:6,bible,True, , , , , ,Cush,Coush, 
+Nimrod,Nemrod,Nimrod,Gen 10:8,bible,True, , , , , ,Nimrod,Nimrod, 
+Mizraim,Mizraïm,Mizraim,Gen 10:14,bible,True, , , , , ,Mitseraïm,Mitsraïm, 
+Casluh,Kaslouhim,Casluh,1 Chronicles 1:12 (Philistines),bible,True, , , , , ,Casluhim,Casluh, 
+Japheth,Japhet,Japheth,Gen 10:1,bible,True, , , , , ,Japhet,Japhet, 
+Asshur,Assour,Asshur,Gen 10:22,bible,True, , , , , ,Assur,Assour, 
+Lud,Loud,Lud,Gen 10:22,bible,True, , , , , ,Lud,Lud, 
+Aram,Aram,Aram,Gen 10:22,bible,True, , , , , ,Aram,Aram, 
+Elam,Élam,Elam,Gen 10:22,bible,True, , , , , ,Élam,Élam, 
+Joktan,Joktân,Joktan,Gen 10:26,bible,True, , , , , ,Joktan,Yoktan, 
+Almodad,Almodad,Almodad,Gen 10:26,bible,True, , , , , ,Almodad,Almodad, 
+Sheleph,Shélèf,Sheleph,Gen 10:26,bible,True, , , , , ,Schèleph,Sheleph, 
+Hazarmaveth,Hazarmaveth,Hazarmaveth,Gen 10:26,bible,True, , , , , ,Hatsarmaveth,Hatsarmavet, 
+Jerah,Jéra,Jerah,Gen 10:26,bible,True, , , , , ,Jéra,Yérah, 
+Hadoram,Hadoram,Hadoram,Gen 10:27,bible,True, , , , , ,Hadoram,Hadoram, 
+Uzal,Ouzal,Uzal,Gen 10:27,bible,True, , , , , ,Uzal,Uzal, 
+Diklah_Obal,"Dikla, Obal","Diklah, Obal",Gen 10:27,bible,True, , , , , ,"Dikla, Obal","Dikla, Obal", 
+Abimael,Abimael,Abimael,Gen 10:28,bible,True, , , , , ,Abimaël,Abimael, 
+Sheba_Ophir,"Saba, Ophir","Sheba, Ophir","Gen 10:28, 29",bible,True, , , , , ,"Saba, Ophir","Sheba, Ophir", 
+Havilah,Havila,Havilah,Gen 10:29,bible,True, , , , , ,Havila,Havila, 
+Jobab,Jobab,Jobab,Gen 10:29,bible,True, , , , , ,Jobab,Jobab, 
+Ham_fn,1) Égyptiens: Psaumes 105: 23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , ,1) Égyptiens : Psaumes 105:23,1) Égyptiens : Psaumes 105:23, 
+Canaan_fn,2) Canaanites: Joshua 13: 3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , ,2) Cananéens : Josué 13:3,2) Cananéens : Josué 13:3, 
+Aram_fn,3) Arameans: Osée 12:12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , ,3) Araméens : Osée 12:12,3) Araméens : Osée 12:12, 
+Elam_fn,4) Elamites: Ezra 4: 9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , ,4) Élamites : Esdras 4:9,4) Élamites : Esdras 4:9, 
+Asshur_fn,5) Assyriens: Ézéchiel 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , ,5) Assyriens : Ézéchiel 27:23,5) Assyriens : Ézéchiel 27:23, 
+Casluh_fn,6) Philistins: 1 Chroniques 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , ,6) Philistins : 1 Chroniques 1:12,6) Philistins : 1 Chroniques 1:12, 
+Cush_fn,7) Ethiopien [Cushite]: 2 Rois 19: 9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , ,7) Éthiopien [Cushite] : 2 Rois 19:9,7) Éthiopien [Coushite] : 2 Rois 19:9, 
+Edom_fn,8) Edomites: Nombres 20: 14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False, , , , , ,8) Édomites : Nombres 20:14-17,8) Édomites : Nombres 20:14-17, 
+Moab_fn,"9) Moabites: Deutéronome 23: 3, 4","9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False, , , , , ,"9) Moabites : Deutéronome 23:3, 4","9) Moabites : Deutéronome 23:3, 4", 
+Ammon_fn,10) Ammonites: Joshua 12: 2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False, , , , , ,10) Ammonites : Josué 12:2,10) Ammonites : Josué 12:2, 
+Midian_fn,"11) Midianites: Nombres 31: 2, 3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False, , , , , ,"11) Madianites : Nombres 31:2, 3","11) Madianites : Nombres 31:2, 3", 
+Amalek_fn,12) Amalekites: 1 Samuel 15: 2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False, , , , , ,12) Amalécites : 1 Samuel 15:2,12) Amalécites : 1 Samuel 15:2, 
+Teman_fn,13) Temanites: Job 42: 7,13) Temanites: Job 42:7,2025-09-22,bible,False, , , , , ,13) Témanites : Job 42:7,13) Témanites : Job 42:7, 
+Sidon_fn,14) Sidoniens: Zachariah 9: 2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , ,14) Sidoniens : Zacharie 9:2,14) Sidoniens : Zacharie 9:2, 
+Heth_fn,15) Hittites: Genèse 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , ,15) Hittites : Genèse 15:20,15) Hittites : Genèse 15:20, 
+Jebusite_fn,16) Jébusites: Joshua 15:63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , ,16) Jébusiens : Josué 15:63,16) Jébuséens : Josué 15:63, 
+Judith,Judith?,Judith?,"Genesis 26:34, 35",bible,False, , , , , ,Judith ?,Judith ?, 
+Lud_fn,17) Lydiens: 1 Chroniques 1:17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , ,17) Lydiens : 1 Chroniques 1:17,17) Lydiens : 1 Chroniques 1:17, 
+Ishmael_fn,18) Ismaélites: Genèse 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , ,18) Ismaélites : Genèse 37:27,18) Ismaélites : Genèse 37:27, 
+Amorite_fn,19) Amorites: juges 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , ,19) Amoréens : Juges 6:10,19) Amorites : Juges 6:10, 
+Hivite_fn,"20) Hivites [Gibeon]: Joshua 9: 3, 7","20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , ,"20) Hiviens [Gabaon] : Josué 9:3, 7","20) Hivites [Gabaon] : Josué 9:3, 7", 
+Cain,Caïn,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , ,Caïn,Caïn, 
+Abel,Abel,Abel,Genesis 4:2,bible,False, , , , , ,Abel,Abel, 
+Irad,Irad,Irad,Genesis 4:18,bible,False, , , , , ,Irad,Irad, 
+Mehujael,Mehujaël,Mehujael,Genesis 4:18,bible,False, , , , , ,Mehujaël,Méhuyaël, 
+Methushael,Mathushaël,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , ,Methuschaël,Metoushaël, 
+Jabal,Jabal,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , ,Jabal,Jabal, 
+Jubal,Jubal,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , ,Jubal,Jubal, 
+Zillah,Zillah,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , ,Tsilla,Tsilla, 
+Tubal-cain,Tubal-Caïn,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , ,Tubal-Caïn,Toubal-qaïn, 
+Naamah,Naama,Naamah,Genesis 4:22 his sister,bible,False, , , , , ,Naama,Naama, 
+Rehoboam,Roboam,Rehoboam,first king of southern kingdom of Juda,A6-A,False, , , , , ,Roboam,Roboam, 
+Abijah,Abia (Abiyam),Abijah (Abijam),"3 years, also Abijam",A6-A,False, , , , , ,Abija (Abijam),Abiya (Abiyam), 
+Asa,Asa,Asa,A6-A,A6-A,False, , , , , ,Asa,Asa, 
+Jehoshaphat,Josaphat,Jehoshaphat, ,A6-A,False, , , , , ,Josaphat,Josaphat, 
+Jehoram2,Joram,Jehoram, ,A6-A,False, , , , , ,Joram,Joram, 
+Ahaziah,Ochozias,Ahaziah, ,A6-A,False, , , , , ,Achazia,Ahazia, 
+Athaliah,Athalie (reine),Queen Athaliah,Queen Athaliah,A6-A,False, , , , , ,Reine Athalie,Reine Atalia, 
+Jehoash,Joas,Jehoash, ,A6-A,False, , , , , ,Joas,Joash, 
+Amaziah,Amazia,Amaziah, ,A6-A,False, , , , , ,Amasias,Amatsia, 
+Uzziah,Ozias (Azarias),Uzziah (Azariah),also Azariah,A6-A,False, , , , , ,Ozias (Azaria),Ozias (Azaria), 
+Jeroboam,Jéroboam,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False, , , , , ,Jéroboam,Jéroboam, 
+Nadab,Nadab,Nadab,less than 2,A6-A,False, , , , , ,Nadab,Nadab, 
+Baasha,Baasa,Baasha, ,A6-A,False, , , , , ,Bascha,Baasha, 
+Elah,Ela,Elah, ,A6-A,False, , , , , ,Éla,Éla, 
+Zimri,Zimri,Zimri,Only 7 days in ca. 751 BCE,A6-A,False, , , , , ,Zimri,Zimri, 
+OmriTibni,Omri et Tibni,Omri and Tibni together,4 years Omri and Tibni,A6-A,False, , , , , ,Omri et Tibni ensemble,Omri et Tibni ensemble, 
+Omri,Omri (seul),Omri (alone),from 947 Omri alone,A6-A,False, , , , , ,Omri (seul),Omri (seul), 
+Ahab,Achab,Ahab, ,A6-A,False, , , , , ,Achab,Achab, 
+Jehoram,Joram,Jehoram, ,A6-A,False, , , , , ,Joram,Joram, 
+Jehu,Jéhu,Jehu, ,A6-A,False, , , , , ,Jéhu,Jéhu, 
+Jeoahaz,Joachaz,Jeoahaz, ,A6-A,False, , , , , ,Joachaz,Joachaz, 
+JeoahazJehoash,Joachaz et Joas,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False, , , , , ,Joachaz et Joas,Joachaz et Joash, 
+Jehoash2,Joas (seul),Jehoash (alone),Jehoash (alone),A6-A,False, , , , , ,Joas (seul),Joash (seul), 
+Jeroboam2,Jéroboam II,Jeroboam II, ,A6-A,False, , , , , ,Jéroboam II,Jéroboam II, 
+Elijah,Élie,Elijah, ,A6-A,False, , , , , ,Élie,Élie, 
+Elisha,Élisée,Elisha, ,A6-A,False, , , , , ,Élisée,Élisée, 
+Jonah,Jonas,Jonah, ,A6-A,False, , , , , ,Jonas,Jonas, 
+Amos,Amos,Amos, ,A6-A,False, , , , , ,Amos,Amos, 
+Joel,Joël,Joel, ,A6-A,False, , , , , ,Joël,Joël, 
+Jotham,Jotam,Jotham,A6-B,A6-B,False, , , , , ,Jotham,Jotham, 
+Ahaz,Achaz,Ahaz, ,A6-B,False, , , , , ,Achaz,Achaz, 
+Hezekiah,Ézéchias,Hezekiah, ,A6-B,False, , , , , ,Ézéchias,Ézéchias, 
+Manasseh,Manassé,Manasseh, ,A6-B,False, , , , , ,Manassé,Manassé, 
+Amon,Amon,Amon, ,A6-B,False, , , , , ,Amon,Amon, 
+Josiah,Josias,Josiah, ,A6-B,False, , , , , ,Josias,Josias, 
+Jehoahaz,Joachaz,Jehoahaz,Only 3 months,A6-B,False, , , , , ,Joachaz,Joachaz, 
+Jehoiakim,Joachim,Jehoiakim, ,A6-B,False, , , , , ,Jojakim,Joïakim, 
+Jehoiachin,Joachin,Jehoiachin,Only 3 months 10 days,A6-B,False, , , , , ,Jojakin,Joïakîn, 
+Zedekiah,Sédécias,Zedekiah, ,A6-B,False, , , , , ,Sédécias,Sédécias, 
+Zechariah,Zacharie,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False, , , , , ,Zacharie,Zacharie, 
+Schallum,Shaloum,Schallum,only one month,A6-B,False, , , , , ,Schallum,Schallum, 
+Menahem,Menahem,Menahem, ,A6-B,False, , , , , ,Menahem,Ménahem, 
+Pekahiah,Pekaya,Pekahiah, ,A6-B,False, , , , , ,Pékachia,Pékahia, 
+Pekah,Péka,Pekah, ,A6-B,False, , , , , ,Pékach,Péqah, 
+Hoshea,Osée,Hoshea,9 years from c. 748,A6-B,False, , , , , ,Osée,Hoshée, 
+Hosea,Osée,Hosea, ,A6-B,False, , , , , ,Osée,Osée, 
+Isaiah,Isaïe,Isaiah, ,A6-B,False, , , , , ,Ésaïe,Isaïe, 
+Micah,Michée,Micah, ,A6-B,False, , , , , ,Michée,Michée, 
+Zephaniah,Sophonie,Zephaniah, ,A6-B,False, , , , , ,Sophonie,Sophonie, 
+Nahum,Nahum,Nahum, ,A6-B,False, , , , , ,Nahum,Nahoum, 
+Jeremiah,Jérémie,Jeremiah, ,A6-B,False, , , , , ,Jérémie,Jérémie, 
+Habakuk,Habacuc,Habakuk, ,A6-B,False, , , , , ,Habacuc,Habaquq, 
+Daniel,Daniel,Daniel, ,A6-B,False, , , , , ,Daniel,Daniel, 
+Ezekiel,Ézéchiel,Ezekiel, ,A6-B,False, , , , , ,Ézéchiel,Ézéchiel, 
+Obadiah,Abdias,Obadiah, ,A6-B,False, , , , , ,Abdias,Abdias, 
+Babylon,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,True, , , , , ,"Daniel 2:32, 36-38; 7:4","Daniel 2:32, 36-38 ; 7:4", 
+Medopersia,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,True, , , , , ,"Daniel 2:32, 39; 7:5","Daniel 2:32, 39 ; 7:5", 
+Greece,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,True, , , , , ,"Daniel 2:32, 39; 7:6","Daniel 2:32, 39 ; 7:6", 
+Rome,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,True, , , , , ,"Daniel 2:33, 40; 7:7","Daniel 2:33, 40 ; 7:7", 
+Angloamerica,"Daniel 2:33, 41-43","Daniel 2:33, 41-43", ,B9,True, , , , , ,"Daniel 2:33, 41-43","Daniel 2:33, 41-43", 
+Babylon_c,Babylone,Babylon, ,B9,True, , , , , ,Babylone,Babylone, 
+Medopersia_c,Empire médo-perse,Medo-Persia, ,B9,True, , , , , ,Médéo-Perse,Médo-Perse, 
+Greece_c,Grèce,Greece, ,B9,True, , , , , ,Grèce,Grèce, 
+Rome_c,Rome,Rome, ,B9,True, , , , , ,Rome,Rome, 
+Angloamerica_c,Anglo-Amérique,Anglo-America, ,B9,True, , , , , ,Anglo-Amérique,Anglo-Amérique, 
+daniel2_1,Destruction de Jérusalem,King Nebuchadnezzar,607 BCE,B9,True, , , , , ,Le roi Nebucadnetsar,Le roi Nabuchodonosor, 
+daniel2_2,par le roi Nabuchodonosor,destroys Jerusalem,appendix B9,B9,True, , , , , ,détruit Jérusalem,détruit Jérusalem, 
+daniel2_3,Conquête de Babylone,Conquers Babylon,539 BCE,B9,True, , , , , ,Conquiert Babylone,Conquiert Babylone, 
+daniel2_4,Décret de Cyrus autorisant le,Cyrus decrees return,537 BCE,B9,True, , , , , ,Cyrus décrète le retour,Cyrus décrète le retour, 
+daniel2_5,retour des Juifs à Jérusalem,of Jews to Jerusalem, ,B9,True, , , , , ,des Juifs à Jérusalem,des Juifs à Jérusalem, 
+daniel2_6,Conquête de la Perse par,Alexander the Great,331 BCE,B9,True, , , , , ,Alexandre le Grand,Alexandre le Grand, 
+daniel2_7,Alexandre le Grand,conquers Persia, ,B9,True, , , , , ,conquiert la Perse,conquiert la Perse, 
+daniel2_8,Début de la domination sur Israël,Rules over Israel,63 BCE,B9,True, , , , , ,Domine sur Israël,Domine sur Israël, 
+daniel2_9,Destruction de Jérusalem,Destroys Jerusalem,70 CE,B9,True, , , , , ,Détruit Jérusalem,Détruit Jérusalem, 
+daniel2_10,"Durant la Première Guerre mondiale,","During World War I,",1914-1918 CE,B9,True, , , , , ,"Pendant la Première Guerre mondiale,","Durant la Première Guerre mondiale,", 
+daniel2_11,naissance de la Puissance,Anglo-American World Power, ,B9,True, , , , , ,la puissance mondiale anglo-américaine,la puissance mondiale anglo-américaine, 
+daniel2_12,anglo-américaine,comes into being,End 4.2,B9,True, , , , , ,voit le jour,entre en scène, 
+607BCE,607 av. n. è.,607 B.C.E.,accommodate for language,B9,True, , , , , ,607 avant notre ère,607 av. n. è., 
+539BCE,539 av. n. è.,539 B.C.E.,systems in style:,B9,True, , , , , ,539 avant notre ère,539 av. n. è., 
+537BCE,537 av. n. è.,537 B.C.E.,>>year 537 before time<<,B9,True, , , , , ,537 avant notre ère,537 av. n. è., 
+331BCE,331 av. n. è.,331 B.C.E.,so they need a word,B9,True, , , , , ,331 avant notre ère,331 av. n. è., 
+63BCE,63 av. n. è.,63 B.C.E.,prior to the year,B9,True, , , , , ,63 avant notre ère,63 av. n. è., 
+70CE,70 de n. è.,70 C.E.,and something,B9,True, , , , , ,70 de notre ère,70 n. è., 
+1914CE,1914-1918 n. è.,1914-1918 C.E.,after the year,B9,True, , , , , ,1914-1918 de notre ère,1914-1918 n. è., 
+7times,Apocalypse 12:9,Revelation 12:9, ,scripture,True, , , , , ,Révélation 12:9,Révélation 12:9, 
+infliction2,Actes 7:6,Acts 7:6, ,scripture,True, , , , , ,Actes 7:6,Actes 7:6, 
+eastern-zhou,770-256 av. n. è.,770-256 BC, ,span_bc,True, , , , , ,770-256 av. J.-C.,770-256 av. n. è., 
+430years,1943 – 1513 av. n. è.,1943 – 1513 B.C.E., ,span_bce,True, , , , , ,1943 – 1513 avant notre ère,1943 – 1513 av. n. è., 
+eastern-han,25-220 de n. è.,25-220 CE, ,span_ce,True, , , , , ,25-220 de notre ère,25-220 n. è., 
+northern-dynasties,368-581 de n. è.,368-581 CE, ,span_ce,True, , , , , ,368-581 de notre ère,368-581 n. è., 
+southern-dynasties,420-589 de n. è.,420-589 CE, ,span_ce,True, , , , , ,420-589 de notre ère,420-589 n. è., 
 khmer_empire,804 – 1431,804 – 1431, ,timespan,True, , , , , , , , 
 byzantine_empire,330 – 1453,330 – 1453, ,timespan,True, , , , , , , , 
 ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True, , , , , , , , 
@@ -494,50 +494,50 @@ revival_le_dynasty,1533-1789,1533-1789, ,timespan,True, , , , , , , ,
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True, , , , , , , , 
 edo,1603 – 1868,1603 – 1868, ,timespan,True, , , , , , , , 
 meiji,1868 – 1912,1868 – 1912, ,timespan,True, , , , , , , , 
-Julius,Jules,Julius, ,wiki,False, , , , , ,Jules, , 
-Caligula,Caligula,Caligula, ,wiki,False, , , , , ,Caligula, , 
-Nero,Néron,Nero, ,wiki,False, , , , , ,Néron, , 
-Galba-Otho-Vitellius,"Galba, Othon et Vitellius (Année des Quatre Empereurs)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , ,"Galba, Othon et Vitellius (Année des quatre empereurs)", , 
-Vespasian,Vespasien,Vespasian, ,wiki,False, , , , , ,Vespasien, , 
-covid19,Covid-19,Covid-19, ,wiki,False, , , , , ,Covid-19, , 
-nicaea1,Premier concile de Nicée,First Council of Nicaea, ,wiki,False, , , , , ,Premier concile de Nicée, , 
-oxyrhynchus,Papyrus Oxyrhynchus,Oxyrhynchus Papyri, ,wiki,False, , , , , ,Papyri d'Oxyrhynque, , 
-p52,Papyrus P52,Papyrus P52, ,wiki,False, , , , , ,Papyrus P52, , 
-qing-dynasty_c,Dynastie Qing,Qing dynasty,1636-1912,wiki,False, , , , , ,Dynastie Qing, , 
-ming-dynasty_c,Dynastie Ming dans la Chine impériale,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , ,Dynastie Ming dans la Chine impériale, , 
-yuan-dynasty_c,Yuan,Yuan,1271-1368,wiki,False, , , , , ,Yuan, , 
-southern-song_c,Les Song du Sud,Southern Song,1127-1279,wiki,False, , , , , ,Song du Sud, , 
-northern-song_c,Les Song du Nord,Northern Song,960-1127,wiki,False, , , , , ,Dynastie Song du Nord, , 
-western-xia_c,Xia occidental,Western Xia,1038-1227,wiki,False, , , , , ,Xia occidentaux, , 
-Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,False, , , , , ,Nicolas Copernic, , 
-Galileo,Galilée,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , ,Galilée, , 
-Newton,Isaac Newton,Isaac Newton, ,wiki,False, , , , , ,Isaac Newton, , 
-shang-dynasty_c,Dynastie Shang,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , ,Dynastie Shang, , 
-western-zhou_c,Dynastie Zhou de l'Ouest,Western Zhou,c. 1046-771 BC,wiki,False, , , , , ,Zhou occidentaux, , 
-eastern-zhou_c,Zhou oriental,Eastern Zhou,770-256 BC,wiki,False, , , , , ,Zhou orientaux, , 
-western-han_c,Han occidentaux,Western Han,207 BC – 9 CE,wiki,False, , , , , ,Han occidentaux, , 
-eastern-han_c,Han orientaux,Eastern Han,25-220 CE,wiki,False, , , , , ,Han orientaux, , 
-three-kingdoms_c,Chine,China,Three kingdoms 220-280 CE,wiki,False, , , , , ,Chine, , 
-sixteen-kingdoms_c,Chine,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , ,Chine, , 
-northern-dynasties_c,Dynasties du Nord,Northern dynasties,368-581 CE,wiki,False, , , , , ,Dynasties du Nord, , 
-southern-dynasties_c,Dynasties du Sud,Southern dynasties,420-589 CE,wiki,False, , , , , ,Dynasties du Sud, , 
-tang-dynasty2_c,Dynastie Tang,Tang dynasty,"618-690, 705-907",wiki,False, , , , , ,Dynastie Tang, , 
-byzantine_empire_c,empire Byzantin,Byzantine Empire, ,wiki,False, , , , , ,Empire byzantin, , 
-ottoman_empire_c,Empire ottoman,Ottoman Empire, ,wiki,False, , , , , ,Empire ottoman, , 
-Genghis,Gengis Khan,Genghis Khan, ,wiki,False, , , , , ,Gengis Khan, , 
-inca_empire_c,Empire Inca,Inca empire, ,wiki,False, , , , , ,Empire inca, , 
-gupta_empire_c,Empire Gupta,Gupta Empire, ,wiki,False, , , , , ,Empire des Gupta, , 
-Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False, , , , , ,Teotihuacan, , 
-Abbasid_c,Califat abbasside,Abbasid Caliphate, ,wiki,False, , , , , ,Califat abbasside, , 
-Mamluk_c,Sultanat mamelouk,Mamluk Sultanate, ,wiki,False, , , , , ,Sultanat mamlouk, , 
-Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False, , , , , ,Al-Ghazali, , 
-wulfila,Bible de Wulfila,Wulfila Bible,2025-09-20,wiki,True, , , , , ,Bible de Wulfila, , 
-tran_dynasty_c,Dynastie Trần,Trần dynasty, ,wiki,True, , , , , ,Dynastie Trần, , 
-le_dynasty_c,Dynastie Lê,Lê dynasty, ,wiki,True, , , , , ,Dynastie Lê, , 
-revival_le_dynasty_c,Dynastie des Lê postérieurs,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False, , , , , ,Seigneurs Trịnh et seigneurs Nguyễn, , 
-seljuk_empire_c,Empire seldjoukide,Seljuk empire, ,wiki,False, , , , , ,Empire seldjoukide, , 
-vandals_c,Vandales,Vandals, ,wiki,False, , , , , ,Vandales, , 
-lombard_c,Royaume Lombard,Lombard Kingdom,2025-10-13,wiki,False, , , , , ,Royaume lombard, , 
+Julius,Jules,Julius, ,wiki,False, , , , , ,Jules,Jules, 
+Caligula,Caligula,Caligula, ,wiki,False, , , , , ,Caligula,Caligula, 
+Nero,Néron,Nero, ,wiki,False, , , , , ,Néron,Néron, 
+Galba-Otho-Vitellius,"Galba, Othon et Vitellius (Année des Quatre Empereurs)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , ,"Galba, Othon et Vitellius (Année des quatre empereurs)","Galba, Othon et Vitellius (Année des quatre empereurs)", 
+Vespasian,Vespasien,Vespasian, ,wiki,False, , , , , ,Vespasien,Vespasien, 
+covid19,Covid-19,Covid-19, ,wiki,False, , , , , ,Covid-19,Covid-19, 
+nicaea1,Premier concile de Nicée,First Council of Nicaea, ,wiki,False, , , , , ,Premier concile de Nicée,Premier concile de Nicée, 
+oxyrhynchus,Papyrus Oxyrhynchus,Oxyrhynchus Papyri, ,wiki,False, , , , , ,Papyri d'Oxyrhynque,Papyrus d'Oxyrhynque, 
+p52,Papyrus P52,Papyrus P52, ,wiki,False, , , , , ,Papyrus P52,Papyrus P52, 
+qing-dynasty_c,Dynastie Qing,Qing dynasty,1636-1912,wiki,False, , , , , ,Dynastie Qing,Dynastie Qing, 
+ming-dynasty_c,Dynastie Ming dans la Chine impériale,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , ,Dynastie Ming dans la Chine impériale,Dynastie Ming en Chine impériale, 
+yuan-dynasty_c,Yuan,Yuan,1271-1368,wiki,False, , , , , ,Yuan,Yuan, 
+southern-song_c,Les Song du Sud,Southern Song,1127-1279,wiki,False, , , , , ,Song du Sud,Song du Sud, 
+northern-song_c,Les Song du Nord,Northern Song,960-1127,wiki,False, , , , , ,Dynastie Song du Nord,Song du Nord, 
+western-xia_c,Xia occidental,Western Xia,1038-1227,wiki,False, , , , , ,Xia occidentaux,Xia occidental, 
+Copernicus,Nicolaus Copernicus,Nicolaus Copernicus, ,wiki,False, , , , , ,Nicolas Copernic,Nicolas Copernic, 
+Galileo,Galilée,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , ,Galilée,Galilée, 
+Newton,Isaac Newton,Isaac Newton, ,wiki,False, , , , , ,Isaac Newton,Isaac Newton, 
+shang-dynasty_c,Dynastie Shang,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , ,Dynastie Shang,Dynastie Shang, 
+western-zhou_c,Dynastie Zhou de l'Ouest,Western Zhou,c. 1046-771 BC,wiki,False, , , , , ,Zhou occidentaux,Zhou occidental, 
+eastern-zhou_c,Zhou oriental,Eastern Zhou,770-256 BC,wiki,False, , , , , ,Zhou orientaux,Zhou oriental, 
+western-han_c,Han occidentaux,Western Han,207 BC – 9 CE,wiki,False, , , , , ,Han occidentaux,Han occidental, 
+eastern-han_c,Han orientaux,Eastern Han,25-220 CE,wiki,False, , , , , ,Han orientaux,Han oriental, 
+three-kingdoms_c,Chine,China,Three kingdoms 220-280 CE,wiki,False, , , , , ,Chine,Chine, 
+sixteen-kingdoms_c,Chine,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , ,Chine,Chine, 
+northern-dynasties_c,Dynasties du Nord,Northern dynasties,368-581 CE,wiki,False, , , , , ,Dynasties du Nord,Dynasties du Nord, 
+southern-dynasties_c,Dynasties du Sud,Southern dynasties,420-589 CE,wiki,False, , , , , ,Dynasties du Sud,Dynasties du Sud, 
+tang-dynasty2_c,Dynastie Tang,Tang dynasty,"618-690, 705-907",wiki,False, , , , , ,Dynastie Tang,Dynastie Tang, 
+byzantine_empire_c,empire Byzantin,Byzantine Empire, ,wiki,False, , , , , ,Empire byzantin,Empire byzantin, 
+ottoman_empire_c,Empire ottoman,Ottoman Empire, ,wiki,False, , , , , ,Empire ottoman,Empire ottoman, 
+Genghis,Gengis Khan,Genghis Khan, ,wiki,False, , , , , ,Gengis Khan,Gengis Khan, 
+inca_empire_c,Empire Inca,Inca empire, ,wiki,False, , , , , ,Empire inca,Empire inca, 
+gupta_empire_c,Empire Gupta,Gupta Empire, ,wiki,False, , , , , ,Empire des Gupta,Empire Gupta, 
+Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False, , , , , ,Teotihuacan,Teotihuacan, 
+Abbasid_c,Califat abbasside,Abbasid Caliphate, ,wiki,False, , , , , ,Califat abbasside,Califat abbasside, 
+Mamluk_c,Sultanat mamelouk,Mamluk Sultanate, ,wiki,False, , , , , ,Sultanat mamlouk,Sultanat mamelouk, 
+Al-Ghazali,Al-Ghazali,Al-Ghazali,2024-07-30,wiki,False, , , , , ,Al-Ghazali,Al-Ghazali, 
+wulfila,Bible de Wulfila,Wulfila Bible,2025-09-20,wiki,True, , , , , ,Bible de Wulfila,Bible de Wulfila, 
+tran_dynasty_c,Dynastie Trần,Trần dynasty, ,wiki,True, , , , , ,Dynastie Trần,Dynastie Trần, 
+le_dynasty_c,Dynastie Lê,Lê dynasty, ,wiki,True, , , , , ,Dynastie Lê,Dynastie Lê, 
+revival_le_dynasty_c,Dynastie des Lê postérieurs,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False, , , , , ,Seigneurs Trịnh et seigneurs Nguyễn,Seigneurs Trịnh et seigneurs Nguyễn, 
+seljuk_empire_c,Empire seldjoukide,Seljuk empire, ,wiki,False, , , , , ,Empire seldjoukide,Empire seldjoukide, 
+vandals_c,Vandales,Vandals, ,wiki,False, , , , , ,Vandales,Vandales, 
+lombard_c,Royaume Lombard,Lombard Kingdom,2025-10-13,wiki,False, , , , , ,Royaume lombard,Royaume lombard, 
 people,personnes,people, ,deprecated,False, , , , , , , , 
 judges,juges,judges, ,deprecated,False, , , , , , , , 
 prophets,prophètes,prophets, ,deprecated,False, , , , , , , , 
