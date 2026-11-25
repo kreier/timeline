@@ -1,7 +1,7 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.11,6.11, ,float,True,Matthias,2026-08-30, , , , , , 
-pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,"6,000 Years of Human History — A Timeline",2026-11-24,text,True,Matthias,2026-08-30, , ,6000 Jahre Menschheitsgeschichte – Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte – Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte — Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte – Eine Zeitleiste
-pdf_subject,Chronik der Menschheitsgeschichte von 4026 v. Chr. bis zur Gegenwart,Timeline of human history from 4000 BCE to present, ,text,True,Matthias,2026-08-30, , ,Zeitleiste der Menschheitsgeschichte von 4000 v. Chr. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. u. Z. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. u. Z. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. Chr. bis heute
+pdf_title,6000 Jahre Menschheitsgeschichte visualisiert,"6,000 Years of Human History — A Timeline",2026-11-24,text,True,Matthias,2026-08-30, ,6.000 Jahre Menschheitsgeschichte – Eine Zeitleiste,6000 Jahre Menschheitsgeschichte – Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte – Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte — Eine Zeitleiste,6.000 Jahre Menschheitsgeschichte – Eine Zeitleiste
+pdf_subject,Chronik der Menschheitsgeschichte von 4026 v. Chr. bis zur Gegenwart,Timeline of human history from 4000 BCE to present, ,text,True,Matthias,2026-08-30, ,Zeitleiste der Menschheitsgeschichte von 4000 v. Chr. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. Chr. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. u. Z. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. u. Z. bis heute,Zeitleiste der Menschheitsgeschichte von 4000 v. Chr. bis heute
 BCE,v.u.Z.,B.C.E.,appendix B9,B9,True,Matthias,2023-10-10, ,v. u. Z., ,v. u. Z.,v. u. Z., 
 CE,u.Z.,C.E., ,B9,True,Matthias,2023-10-10, ,u. Z., ,u. Z.,u. Z., 
 month,Monat,month, ,text,True,Matthias,2023-10-10, ,Monat,Monat,Monat,Monat,Monat
@@ -16,7 +16,7 @@ temple1,Nisan 1513 v.u.Z bis Ziv 1034 v.u.Z.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E
 year,Jahr,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True,Matthias,2026-05-01, ,Jahr,Jahr,Jahr,Jahr,Jahr
 years,Jahre,years, ,text,True,Matthias,2026-05-01, ,Jahre,Jahre,Jahre,Jahre,Jahre
 years_age,Jahre,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True,Matthias,2026-05-01, ,Jahre,Jahre,Jahre,Jahre,Jahre
-age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,True,Matthias,2026-05-01, , , ,, , 
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,True,Matthias,2026-05-01, , , , , , 
 wilderness,Israel in der Wildnis von 1513 bis 1473 v.u.Z. – 40 Jahre,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,True,Matthias,2026-05-01, ,Israel in der Wildnis 1513 bis 1473 v. u. Z. – 40 Jahre,Israel in der Wüste 1513 bis 1473 v. Chr. – 40 Jahre,Israel in der Wüste 1513 bis 1473 v. u. Z. – 40 Jahre,Israel in der Wüste 1513 bis 1473 v. u. Z. – 40 Jahre,Israel in der Wüste 1513 bis 1473 v. u. Z. – 40 Jahre
 timespan_judges,1473 bis 1117 v.u.Z. – 356 Jahre,1473 to 1117 B.C.E. – 356 years, ,text,True,Matthias,2026-05-01, ,1473 bis 1117 v. u. Z. – 356 Jahre,1473 bis 1117 v. Chr. – 356 Jahre,1473 bis 1117 v. u. Z. – 356 Jahre,1473 bis 1117 v. u. Z. – 356 Jahre,1473 bis 1117 v. Chr. – 356 Jahre
 timespan_judges2,Zeit der Richter,Time of the judges, ,text,True,Matthias,2026-05-01, ,Zeit der Richter,Zeit der Richter,Zeit der Richter,Zeit der Richter,Die Zeit der Richter
@@ -553,14 +553,14 @@ meeting_workbook,Start der “Leben und Dienst” Zusammenkunft mit einem Arbeit
 terahfam,Mitglieder von Terach’s Familie,Members of Terah’s family, ,deprecated,True,Matthias,2026-05-01, , , , , , 
 metropolitan,Beginn des “metropolitan witnessing” in 2011,Start of metropolitan witnessing in 2011, ,deprecated,True,Matthias,2026-05-01, , , , , , 
 jw_org,Start von JW.ORG mit Anweisungen im Königreichsdienst im Dezember 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,True,Matthias,2026-05-01, , , , , , 
-Babylon2, ,,no text left and right – empty!,deprecated,False,Matthias,2026-05-01, , , , , , 
+Babylon2, , ,no text left and right – empty!,deprecated,False,Matthias,2026-05-01, , , , , , 
 daniel2_shift,4,4,Start 4.2,deprecated,True,Matthias,2026-05-01, , , , , , 
 Gatam,Gạtam,Gatam,Genesis 36:11,deprecated,True,Matthias,2026-05-01, , , , , , 
 Adbeel,Ạdbeël,Adbeel,Genesis 25:13,deprecated,True,Matthias,2026-05-01, , , , , , 
 Mibsam,Mịbsam,Mibsam,Genesis 25:13,deprecated,True,Matthias,2026-05-01, , , , , , 
 Dumah,Dụma,Dumah,Genesis 25:14,deprecated,True,Matthias,2026-05-01, , , , , , 
 Massa,Mạssa,Massa,Genesis 25:14,deprecated,True,Matthias,2026-05-01, , , , , , 
-tang-dynasty1, ,, ,deprecated,False,Matthias,2026-05-01, , , , , , 
+tang-dynasty1, , , ,deprecated,False,Matthias,2026-05-01, , , , , , 
 xia-dynasty,Xia-Dynastie in China c. 2070 – ca. 1600 v.u.Z.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,True,Matthias,2026-05-01, , , , , , 
 Midianites,"1) Midianịter: 4. Mose 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,True,Matthias,2026-05-01, , , , , , 
 Moabites,"2) Moabịter: 5. Mose 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,True,Matthias,2026-05-01, , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3) Ammonịter: Josua 12:2,3) Ammonites: Joshua 12:2, ,deprecated,True
 Edomites,4) Ẹdomiter: 4. Mose 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,True,Matthias,2026-05-01, , , , , , 
 Temanites,5) Temanịter: Hiob 42:7,5) Temanites: Job 42:7, ,deprecated,True,Matthias,2026-05-01, , , , , , 
 Amalekites,6) Amalekịter: 1. Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,True,Matthias,2026-05-01, , , , , , 
-king_south_light, ,,2025-02-05,deprecated,False,Matthias,2026-05-01, , , , , , 
-king_north_light, ,,2025-02-05,deprecated,False,Matthias,2026-05-01, , , , , , 
-daniel2_iron, ,,2025-02-05,deprecated,False,Matthias,2026-05-01, , , , , , 
+king_south_light, , ,2025-02-05,deprecated,False,Matthias,2026-05-01, , , , , , 
+king_north_light, , ,2025-02-05,deprecated,False,Matthias,2026-05-01, , , , , , 
+daniel2_iron, , ,2025-02-05,deprecated,False,Matthias,2026-05-01, , , , , , 

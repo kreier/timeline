@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.11,6.11,5.9,float,False, , , , , , , , 
-pdf_title,6000 anni di storia umana visualizzata,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6.000 anni di storia umana — Una cronologia,6.000 anni di storia umana — Una cronologia,6.000 anni di storia umana — Una cronologia,6.000 anni di storia dell'umanità — Una cronologia
+pdf_title,6000 anni di storia umana visualizzata,"6,000 Years of Human History — A Timeline",2026-11-24,text,False, , , , ,6.000 anni di storia umana — Una cronologia,6.000 anni di storia umana — Una cronologia,6.000 anni di storia umana — Una cronologia,6.000 anni di storia dell'umanità — Una cronologia
 pdf_subject,Cronologia dell'umanità,Timeline of human history from 4000 BCE to present,5.9,text,False, , , , ,Cronologia della storia umana dal 4000 a.E.V. a oggi,Cronologia della storia umana dal 4000 a.E.V. a oggi,Cronologia della storia umana dal 4000 a.E.V. a oggi,Cronologia della storia dell'umanità dal 4000 a.C. ad oggi
 BCE,a.E.V.,B.C.E.,appendix B9,B9,True, , , , , ,a.E.V.,a.E.V., 
 CE,E.V.,C.E., ,B9,True, , , , , ,e.V.,E.V., 
@@ -16,7 +16,7 @@ temple1,NISAN 1513 a.E.V. a ZIV 1034 a.E.V.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.
 year,anno,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,anno,anno,anno,anno
 years,anni,years, ,text,False, , , , ,anni,anni,anni,anni
 years_age,anni,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,anni,anni,anni,anni
-age_kings,anni,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,anni,, 
+age_kings,anni, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,anni, , 
 wilderness,Israele nel deserto dal 1513 al 1473 a.E.V. - 40 anni,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,Israele nel deserto 1513 a 1473 a.E.V. – 40 anni,Israele nel deserto dal 1513 al 1473 a.E.V. – 40 anni,Israele nel deserto dal 1513 al 1473 a.E.V. – 40 anni,Israele nel deserto dal 1513 al 1473 a.C. – 40 anni
 timespan_judges,1473-1117 a.E.V. - 356 anni,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 a 1117 a.E.V. – 356 anni,dal 1473 al 1117 a.E.V. – 356 anni,1473 al 1117 a.E.V. – 356 anni,Dal 1473 al 1117 a.C. – 356 anni
 timespan_judges2,Tempo dei giudici,Time of the judges, ,text,False, , , , ,Periodo dei giudici,Periodo dei Giudici,Epoca dei Giudici,L'epoca dei giudici
@@ -553,14 +553,14 @@ meeting_workbook,"Nuovo formato dell'incontro infrasettimanale con ""Meeting Wor
 terahfam,Membri della famiglia di Terah,Members of Terah’s family, ,deprecated,False, , , , , , , , 
 metropolitan,Inizio della testimonianza metropolitana nel 2011,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
 jw_org,Inizio di JW.org con istruzioni nel Ministero del Regno Dicembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
-Babylon2, ,,no text left and right – empty!,deprecated,False, , , , , , , , 
+Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
 daniel2_shift,0,4,Start 4.2,deprecated,False, , , , , , , , 
 Gatam,Gatam,Gatam, ,deprecated,False, , , , , , , , 
 Adbeel,Adbeel,Adbeel, ,deprecated,False, , , , , , , , 
 Mibsam,Mibsam,Mibsam, ,deprecated,False, , , , , , , , 
 Dumah,Dumah,Dumah, ,deprecated,False, , , , , , , , 
 Massa,Massa,Massa, ,deprecated,False, , , , , , , , 
-tang-dynasty1, ,, ,deprecated,False, , , , , , , , 
+tang-dynasty1, , , ,deprecated,False, , , , , , , , 
 xia-dynasty,Dinastia Xia in Cina c. 2070 - c. 1600 a.C.,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
 Midianites,"1) Madianiti: numeri 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
 Moabites,"2) Moabiti: Deuteronomio 23: 3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3) Amoniti: Joshua 12: 2,3) Ammonites: Joshua 12:2, ,deprecated,False,
 Edomites,4) Edomiti: Numeri 20: 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
 Temanites,5) Temaniti: Giobbe 42: 7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
 Amalekites,6) Amalekites: 1 Samuele 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
-king_south_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-king_north_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-daniel2_iron, ,,2025-02-05,deprecated,False, , , , , , , , 
+king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 

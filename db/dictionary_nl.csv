@@ -1,7 +1,7 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
-version,6.11,6.11,,float,True, , , , , , , , 
-pdf_title,6.000 jaar menselijke geschiedenis — Een tijdlijn,"6,000 Years of Human History — A Timeline",2026-11-23,text,True,Matthias,2026-09-04, ,6000 jaar menselijke geschiedenis – een tijdlijn,6.000 jaar menselijke geschiedenis — Een tijdlijn,6.000 jaar menselijke geschiedenis — Een tijdlijn,6.000 Jaar Menselijke Geschiedenis — Een Tijdlijn,6.000 jaar menselijke geschiedenis — Een tijdlijn
-pdf_subject,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden,Timeline of human history from 4000 BCE to present,,text,True,Matthias,2026-09-04, ,Chronologie van de menselijke geschiedenis van 4000 v.Chr. tot heden,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden,Tijdlijn van de menselijke geschiedenis van 4000 v.G.T. tot heden,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden
+version,6.11,6.11, ,float,True, , , , , , , , 
+pdf_title,6.000 jaar menselijke geschiedenis — Een tijdlijn,"6,000 Years of Human History — A Timeline",2026-11-24,text,True,Matthias,2026-09-04, ,6000 jaar menselijke geschiedenis – een tijdlijn,6.000 jaar menselijke geschiedenis — Een tijdlijn,6.000 jaar menselijke geschiedenis — Een tijdlijn,6.000 Jaar Menselijke Geschiedenis — Een Tijdlijn,6.000 jaar menselijke geschiedenis — Een tijdlijn
+pdf_subject,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden,Timeline of human history from 4000 BCE to present, ,text,True,Matthias,2026-09-04, ,Chronologie van de menselijke geschiedenis van 4000 v.Chr. tot heden,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden,Tijdlijn van de menselijke geschiedenis van 4000 v.G.T. tot heden,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden,Tijdlijn van de menselijke geschiedenis van 4000 v.Chr. tot heden
 BCE,v.Chr.,B.C.E.,appendix B9,B9,True, , , , , ,v.G.T.,v.Chr., 
 CE,n.Chr.,C.E., ,B9,True, , , , , ,G.T.,n.Chr., 
 month,maand,month, ,text,False, , , ,maand,maand,maand,maand,maand
@@ -16,7 +16,7 @@ temple1,Nisan 1513 v.G.T. tot Ziv 1034 v.G.T.,Nisan 1513 B.C.E. to Ziv 1034 B.C.
 year,jaar,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True, , , ,jaar,jaar,jaar,jaar,jaar
 years,jaar,years, ,text,True, , , ,jaar,jaren,jaar,jaar,jaren
 years_age,jaar,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,True, , , ,jaar,jaren,jaar,jaar,jaren
-age_kings,jaar,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,jaar, , 
+age_kings,jaar, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,jaar, , 
 wilderness,Israël in de wildernis 1513 tot 1473 v.G.T. – 40 jaar,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , ,Israël in de wildernis 1513 tot 1473 v.G.T. – 40 jaar,Israël in de wildernis 1513 tot 1473 v.Chr. – 40 jaar,Israël in de woestijn 1513 tot 1473 v.G.T. – 40 jaar,Israël in de woestijn 1513 tot 1473 v.Chr. – 40 jaar,"Israël in de woestijn, 1513 tot 1473 v.Chr. – 40 jaar"
 timespan_judges,1473 tot 1117 v.G.T. – 356 jaar,1473 to 1117 B.C.E. – 356 years, ,text,False, , , ,1473 tot 1117 v.G.T. – 356 jaar,1473 tot 1117 v.Chr. – 356 jaar,1473 tot 1117 v.G.T. – 356 jaar,1473 tot 1117 v.Chr. – 356 jaar,1473 tot 1117 v.Chr. – 356 jaar
 timespan_judges2,Tijd van de juryleden,Time of the judges, ,text,False, , , ,Tijd van de juryleden,Tijd van de richters,Tijd van de rechters,Tijd van de rechters,De tijd van de rechters
@@ -177,7 +177,7 @@ black_death,Zwarte dood 1346-1353,Black death 1346-1353,1346-1353,text,False, , 
 sui_dynasty,581-618 Sui-dynastie,581-618 Sui dynasty,2025-11-09,text,False, , , ,581-618 Sui-dynastie,581-618 Sui-dynastie,581-618 Sui-dynastie,581-618 Sui-dynastiek,581-618 Sui-dynastie
 sui_dynasty_c,Sui,Sui,2025-11-09,text,False, , , , , ,Sui,Sui, 
 tribulation,"De Grote Verdrukking (Marcus 13:19; Daniël 12:1; Matt 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , ,"De Grote Verdrukking (Marcus 13:19; Daniël 12:1; Matt 24:21, 22)","De Grote Verdrukking (Markus 13:19; Daniël 12:1; Mattheüs 24:21, 22)","De grote verdrukking (Markus 13:19; Daniël 12:1; Matth 24:21, 22)","De Grote Verdrukking (Markus 13:19; Daniël 12:1; Matt. 24:21, 22)","De Grote Verdrukking (Marcus 13:19; Daniël 12:1; Mattheüs 24:21, 22)"
-timeline_created,"Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de afgelopen 125.000 jaar","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de laatste 125.000 jaar","Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de afgelopen 125.000 jaar","Deze tijdlijn is gemaakt in 2023, het heetste jaar in de menselijke geschiedenis en de laatste 125.000 jaar","Deze tijdlijn is opgesteld in 2023, het warmste jaar in de geschiedenis van de mensheid en van de afgelopen 125.000 jaar"
+timeline_created,"Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de afgelopen 125.000 jaar","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , ,"Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de afgelopen 125.000 jaar","Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de laatste 125.000 jaar","Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de afgelopen 125.000 jaar","Deze tijdlijn is gemaakt in 2023, het heetste jaar in de menselijke geschiedenis en de laatste 125.000 jaar","Deze tijdlijn is opgesteld in 2023, het warmste jaar in de geschiedenis van de mensheid en van de afgelopen 125.000 jaar"
 Adam,Adam,Adam,Luke 3:38,bible,True, , , , , ,Adam,Adam, 
 Seth,Seth,Seth, ,bible,True, , , , , ,Seth,Seth, 
 Enosh,E̱nos,Enosh, ,bible,True, , , , , ,Enos,Enos, 
@@ -553,14 +553,14 @@ meeting_workbook,Nieuw format voor midweekvergaderingen met “Vergaderwerkboek�
 terahfam,Leden van Terahs familie,Members of Terah’s family, ,deprecated,False, , , , , , , , 
 metropolitan,Start van grootstedelijk getuigenis in 2011,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
 jw_org,Start van JW.ORG met instructies in Koninkrijksdienst december 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
-Babylon2, ,,no text left and right – empty!,deprecated,False, , , , , , , , 
+Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
 daniel2_shift,0,4,Start 4.2,deprecated,False, , , , , , , , 
 Gatam,Ga̱ëtam,Gatam, ,deprecated,True, , , , , , , , 
 Adbeel,Adbeël,Adbeel, ,deprecated,False, , , , , , , , 
 Mibsam,Mibsam,Mibsam, ,deprecated,False, , , , , , , , 
 Dumah,Doema,Dumah, ,deprecated,False, , , , , , , , 
 Massa,Massa,Massa, ,deprecated,False, , , , , , , , 
-tang-dynasty1, ,, ,deprecated,False, , , , , , , , 
+tang-dynasty1, , , ,deprecated,False, , , , , , , , 
 xia-dynasty,Xia-dynastie in China c. 2070 – ca. 1600 voor Christus,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
 Midianites,"1) Midianieten: Numeri 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
 Moabites,"2) Moabieten: Deuteronomium 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3) Ammonieten: Jozua 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
 Edomites,4) Edomieten: Numeri 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
 Temanites,5) Temanieten: Job 42:7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
 Amalekites,6) Amalekieten: 1 Samuël 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
-king_south_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-king_north_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-daniel2_iron, ,,2025-02-05,deprecated,False, , , , , , , , 
+king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 

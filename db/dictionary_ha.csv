@@ -1,7 +1,7 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.11,6.11, ,float,False, , , , , , , , 
-pdf_title,"6,000 Years of Human History — A Timeline","6,000 Years of Human History — A Timeline",2026-09-04,text,False, , , , , ,"Shekara 6,000 na Tarihin Dan Adam — Jadawalin Lokaci","Shekaru 6,000 na Tarihin Dan Adam — Jadawali","Shekaru 6,000 na Tarihin Dan Adam — Jadawalin Lokaci"
-pdf_subject,Timeline of human history from 4000 BCE to present,Timeline of human history from 4000 BCE to present,Timeline of humankind,text,False, , , , , ,Jadawalin tarihin dan adam daga 4000 KZ zuwa yau,Jadawalin tarihin ɗan adam daga 4000 K.Z. zuwa yanzu,Jadawalin tarihin ɗan adam daga shekara ta 4000 K.Z. zuwa yanzu
+pdf_title,"6,000 Years of Human History — A Timeline","6,000 Years of Human History — A Timeline",2026-11-24,text,False, , , , , ,"Shekara 6,000 na Tarihin Dan Adam — Jadawalin Lokaci","Shekaru 6,000 na Tarihin Dan Adam — Jadawali","Shekaru 6,000 na Tarihin Dan Adam — Jadawalin Lokaci"
+pdf_subject,Timeline of human history from 4000 BCE to present,Timeline of human history from 4000 BCE to present,Timeline of humankind,text,False, , , ,Timeline na tarihin ɗan adam daga 4000 KZ zuwa yau, ,Jadawalin tarihin dan adam daga 4000 KZ zuwa yau,Jadawalin tarihin ɗan adam daga 4000 K.Z. zuwa yanzu,Jadawalin tarihin ɗan adam daga shekara ta 4000 K.Z. zuwa yanzu
 BCE,B.C.E.,B.C.E.,appendix B9,B9,False, , , , , ,Kafin Haihuwar Annabi Isa,K.Z., 
 CE,C.E.,C.E., ,B9,False, , , , , ,Bayan Haihuwar Annabi Isa,Z.M., 
 month,month,month, ,text,False, , , , , ,wata,wata,wata
@@ -16,7 +16,7 @@ temple1,Nisan 1513 B.C.E. to Ziv 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E
 year,year,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , , ,shekara,shekara,shekara
 years,years,years, ,text,False, , , , , ,shekaru,shekaru,shekaru
 years_age,years,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , , ,shekaru,shekaru,shekaru
-age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,, , 
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , , , , 
 wilderness,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , , ,Isra'ila a daji 1513 zuwa 1473 KZ – shekaru 40,Isra'ila a jeji 1513 zuwa 1473 K.Z. – shekaru 40,Isra'ila a jeji 1513 zuwa 1473 kafin haihuwar Almasihu – shekaru 40
 timespan_judges,1473 to 1117 B.C.E. – 356 years,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , , ,1473 zuwa 1117 KZ – shekaru 356,1473 zuwa 1117 K.Z. – shekaru 356,1473 zuwa 1117 kafin haihuwar Almasihu – shekaru 356
 timespan_judges2,Time of the judges,Time of the judges, ,text,False, , , , , ,Zamanin Alkalai,Zamanin alƙalai,Lokacin alkalan
@@ -553,14 +553,14 @@ meeting_workbook,New format of midweek meeting with “Meeting Workbook” start
 terahfam,Members of Terah’s family,Members of Terah’s family, ,deprecated,False, , , , , , , , 
 metropolitan,Start of metropolitan witnessing in 2011,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
 jw_org,Start of JW.ORG with instructions in Kingdom Ministry December 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
-Babylon2, ,,no text left and right – empty!,deprecated,False, , , , , , , , 
+Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
 daniel2_shift,0,0,Start 4.2,deprecated,False, , , , , , , , 
 Gatam,Gatam,Gatam,Genesis 36:11,deprecated,False, , , , , , , , 
 Adbeel,Adbeel,Adbeel,Genesis 25:13,deprecated,False, , , , , , , , 
 Mibsam,Mibsam,Mibsam,Genesis 25:13,deprecated,False, , , , , , , , 
 Dumah,Dumah,Dumah,Genesis 25:14,deprecated,False, , , , , , , , 
 Massa,Massa,Massa,Genesis 25:14,deprecated,False, , , , , , , , 
-tang-dynasty1, ,, ,deprecated,False, , , , , , , , 
+tang-dynasty1, , , ,deprecated,False, , , , , , , , 
 xia-dynasty,Xia dynasty in China c. 2070 – c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
 Midianites,"1) Midianites: Numbers 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
 Moabites,"2) Moabites: Deuteronomy 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3) Ammonites: Joshua 12:2,3) Ammonites: Joshua 12:2, ,deprecated,False
 Edomites,4) Edomites: Numbers 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
 Temanites,5) Temanites: Job 42:7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
 Amalekites,6) Amalekites: 1 Samuel 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
-king_south_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-king_north_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-daniel2_iron, ,,2025-02-05,deprecated,False, , , , , , , , 
+king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 

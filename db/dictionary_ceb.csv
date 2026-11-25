@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.11,6.11,5.9,float,False, , , , , , , , 
-pdf_title,6000 ka tuig ang kasaysayan sa tawo mahanduraw,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , ,"6,000 ka Tuig sa Kasaysayan sa Tawo — Usa ka Timeline","6,000 ka Tuig sa Kasaysayan sa Tawo — Usa ka Kronolohiya","6,000 ka Tuig sa Kasaysayan sa Tawo — Usa ka Timeline","6,000 ka Tuig sa Kasaysayan sa Tawo — Usa ka Laray sa Panahon","6,000 ka Tuig sa Kasaysayan sa Katawhan — Usa ka Linya sa Panahon"
+pdf_title,6000 ka tuig ang kasaysayan sa tawo mahanduraw,"6,000 Years of Human History — A Timeline",2026-11-24,text,False, , , ,"6,000 ka Tuig sa Kasaysayan sa Tawo — Usa ka Timeline","6,000 ka Tuig sa Kasaysayan sa Tawo — Usa ka Kronolohiya","6,000 ka Tuig sa Kasaysayan sa Tawo — Usa ka Timeline","6,000 ka Tuig sa Kasaysayan sa Tawo — Usa ka Laray sa Panahon","6,000 ka Tuig sa Kasaysayan sa Katawhan — Usa ka Linya sa Panahon"
 pdf_subject,Timeline sa Katawhan,Timeline of human history from 4000 BCE to present,6.01,text,False, , , ,Timeline sa kasaysayan sa tawo gikan sa 4000 BCE hangtod karon,Kronolohiya sa kasaysayan sa tawo gikan sa 4000 BCE ngadto sa karon,Timeline sa kasaysayan sa tawo gikan sa 4000 BCE hangtod karon,Laray sa panahon sa kasaysayan sa tawo gikan 4000 K.P.N. hangtod karon,Linya sa panahon sa kasaysayan sa tawo gikan sa 4000 BCE hangtod karon
 BCE,B.C.E.,B.C.E.,appendix B9,B9,False, , , , , ,B.C.E.,K.P.N., 
 CE,C.E.,C.E., ,B9,False, , , ,bulan, ,C.E.,P.N., 
@@ -15,8 +15,8 @@ temple1,Nisan 1513 B.C.E. sa Ziv 1034 B.C.E.,Nisan 1513 B.C.E. to Ziv 1034 B.C.E
 69weeks,Si Jesus Gibautismohan sa Tingdagdag 29 c.e.,Jesus baptized autumn 29 C.E., ,text,False, , , ,tuig,Gipabautismo si Jesus sa tingdagdag 29 C.E.,Gibawtismohan si Jesus sa tagdulum 29 C.E.,Si Jesus gibunyagan sa tinglarag 29 P.N.,Gibunyagan ni Hesus ang tingdagdag niadtong 29 C.E.
 year,ka tuig,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , ,mga tuig,tuig,tuig,tuig,tuig
 years,ka tuig,years, ,text,False, , , ,mga tuig,mga tuig,mga tuig,mga tuig,tuig
-years_age,ka tuig,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,mga tuig,mga tuig,tuig,tuig
-age_kings,,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , ,Israel sa kamingawan 1513 hangtod 1473 B.C.E. – 40 ka tuig, ,, , 
+years_age,ka tuig,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , ,mga tuig,mga tuig,mga tuig,tuig,tuig
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , ,Israel sa kamingawan 1513 hangtod 1473 B.C.E. – 40 ka tuig, , , , 
 wilderness,Israel sa kamingawan 1513 hangtod 1473 B.C.E. - 40 ka tuig,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , ,1473 hangtod 1117 B.C.E. – 356 ka tuig,Israel sa kamingawan 1513 ngadto sa 1473 B.C.E. – 40 ka tuig,Israel sa kamadan 1513 hangtod 1473 B.C.E. – 40 ka tuig,Si Israel sa kamingawan 1513 hangtod 1473 K.P.N. – 40 ka tuig,Israel sa kamingawan 1513 hangtod 1473 B.C.E. – 40 ka tuig
 timespan_judges,1473 hangtod 1117 B.C.E. - 356 ka tuig,1473 to 1117 B.C.E. – 356 years, ,text,False, , , ,Panahon sa mga maghuhukom,1473 ngadto sa 1117 B.C.E. – 356 ka tuig,1473 hangtod 1117 B.C.E. – 356 ka tuig,1473 hangtod 1117 K.P.N. – 356 ka tuig,1473 hangtod 1117 B.C.E. – 356 ka tuig
 timespan_judges2,Oras sa Mga Maghuhukom,Time of the judges, ,text,False, , , ,479 ka tuig hangtod sa pagtukod sa templo – 1 Hari 6:1,Panahon sa mga maghuhukom,Panahon sa mga hulahukom,Panahon sa mga maghuhukom,Panahon sa mga hukom
@@ -37,7 +37,7 @@ circumcision,"Ang isyu sa pagtuli sa Antioquia, Komperensya sa Jerusalem c. 49 C
 missionary2,Ikaduha nga Pagbiyahe sa Misyonaryo c. 49-52 C.E kauban si Silas (Silvanus),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , ,Ikatulong Misyonaryong Panaw c. 52-56 C.E.,Ikalawang Panaw sa Misyoneri c. 49-52 C.E kauban si Silas (Silvano),Ikaduhang Misyunaryong Pagbiyahe c. 49-52 C.E. uban ni Silas (Silvano),Ikaduhang Misyonaryo nga Biyahe mga 49–52 P.N. uban kang Silas (Silvano),Ikaduhang Misyonaryong Pagbiyahe mga 49–52 C.E. uban ni Silas (Silvanus)
 missionary3,Ikatulo nga panaw sa misyonaryo c. 52-56 c.e.,Third Missionary Journey c. 52-56 C.E., ,text,False, , , ,Si Pablo gibilanggo sa Cesarea c. 56-58 C.E.,Ikatulong Panaw sa Misyoneri c. 52-56 C.E.,Ikatulong Misyunaryong Pagbiyahe c. 52-56 C.E.,Ikatulong Misyonaryo nga Biyahe mga 52–56 P.N.,Ikatulong Misyonaryong Pagbiyahe mga 52–56 C.E.
 caesarea,Si Pablo sa kustodiya sa Cesarea C. 56-58 c.e.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , ,Unang pagkabilanggo ni Pablo sa Roma c. 59-61 C.E.,Si Pablo sa pagkabilanggo sa Cesarea c. 56-58 C.E.,Si Pablo sa bilanggoan sa Cesarea c. 56-58 C.E.,Si Pablo gipreso sa Cesarea mga 56–58 P.N.,Si Pablo sa kustodiya sa Cesarea mga 56–58 C.E.
-rome1,Ang Una nga Bilanggo ni Pablo sa Roma C. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,Unang pagkabilanggo ni Pablo sa Roma c. 59-61 C.E.,Unang pagkapriso ni Pablo sa Roma c. 59-61 C.E.,Unang pagkabilanggo ni Pablo sa Roma mga 59–61 P.N.,Ang unang pagkabilanggo ni Pablo sa Roma mga 59–61 C.E.
+rome1,Ang Una nga Bilanggo ni Pablo sa Roma C. 59-61 C.E.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , ,Ang unang pagkabilanggo ni Pablo sa Roma c. 59-61 C.E.,Unang pagkabilanggo ni Pablo sa Roma c. 59-61 C.E.,Unang pagkapriso ni Pablo sa Roma c. 59-61 C.E.,Unang pagkabilanggo ni Pablo sa Roma mga 59–61 P.N.,Ang unang pagkabilanggo ni Pablo sa Roma mga 59–61 C.E.
 rome2,"Ikaduha nga pagkabilanggo ni Pablo sa Roma C. 65 KP, gisulat ni Timoteo, gipatay si Pablo","Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , ,"Ikaduhang pagkabilanggo ni Pablo sa Roma c. 65 C.E., gisulat ang 2 Timoteo, gipatay si Pablo","Ikalawang pagkabilanggo ni Pablo sa Roma c. 65 C.E., nahisulat ang 2 Timoteo, gipatay si Pablo","Ikaduhang pagkapriso ni Pablo sa Roma c. 65 C.E., gisulat ang 2 Timoteo, gipatay si Pablo","Ikaduhang pagkabilanggo ni Pablo sa Roma mga 65 P.N., gisulat ang 2 Timoteo, gipatay si Pablo","Ikaduhang pagkabilanggo ni Pablo sa Roma mga 65 C.E., gisulat ang Ikaduhang Timpolohiya kang Timoteo, gipatay si Pablo"
 event_exodus,"Exodo gikan sa Egypt sa Nisan 14th, 1513 B.C.E.","Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , ,"Paggula gikan sa Ehipto niadtong Nisan 14, 1513 B.C.E.","Pagpanaw sa Egipto sa Nisan 14, 1513 B.C.E.","Paggawas gikan sa Ehipto sa Nisan 14, 1513 B.C.E.","Pag-alis sa Ehipto sa Nisan 14, 1513 K.P.N.","Pag-alis gikan sa Ehipto niadtong ika-14 sa Nisan, 1513 B.C.E."
 event_division_kingdom,Dibisyon sa Israel 997 WKP,Division of Israel 997 BCE, ,text,False, , , ,Pagkabahin sa Israel 997 BCE,Bahinon ang Israel 997 BCE,Pagkabahin sa Israel 997 BCE,Pagkabahin sa Israel 997 K.P.N.,Pagbahin sa Israel 997 BCE
@@ -72,7 +72,7 @@ codex_sinaiticus,Gisulat ang Codex Sinaiticus,Codex Sinaiticus written, ,text,Fa
 codex_vaticanus,Gisulat ang Codex Vaticanus,Codex Vaticanus written, ,text,False, , , ,Gisulat ang Codex Vaticanus.,Nahasulat ang Codex Vaticanus,Gisulat ang Codex Vaticanus,Gisulat ang Codex Vaticanus,Codex Vaticanus gisulat
 leningrad_codex,Gisulat sa Leningrad Codex sa Cairo Ad 1008,Leningrad Codex written in Cairo AD 1008, ,text,False, , , ,Gisulat ang Leningrad Codex sa Cairo AD 1008.,Ang Leningrad Codex nahasulat sa Cairo AD 1008,Gisulat ang Leningrad Codex sa Cairo AD 1008,Ang Leningrad Codex gisulat sa Cairo 1008 P.N.,Leningrad Codex gisulat sa Cairo AD 1008
 john,"Gisulat ni Juan ang ""Pinadayag"" samtang gidestiyero sa Patmos 96-98 c.e.",John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , ,Gisulat ni John ang “pagpadayag” samtang gidestiyero sa Patmos 96-98 C.E.,"Nagsulat si Juan sa ""padayag"" samtang nang exile sa Patmos 96-98 C.E.","Gisulat ni Juan ang ""Padayag"" samtang nadestiyero sa Patmos 96-98 C.E.",Si Juan nagsulat sa «Pinadayag» samtang gibanli sa Patmos 96–98 P.N.,"Gisulat ni Juan ang ""Pahayag"" samtang siya gipahamtang sa exilio sa Patmos niadtong 96–98 C.E."
-buddha,Ang Buddha - Siddhatha Gautama C.563-C.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,Ang Buddha – Siddhartha Gautama c.563-c.483 B.C.E.,Ang Buddha – Siddhartha Gautama c.563-c.483 B.C.E,Ang Buda – Siddhartha Gautama mga 563–483 K.P.N.,Ang Buddha – Siddhartha Gautama c.563-c.483 B.C.E
+buddha,Ang Buddha - Siddhatha Gautama C.563-C.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , ,Ang Buddha – Siddhartha Gautama c.563-c.483 B.C.E,Ang Buddha – Siddhartha Gautama c.563-c.483 B.C.E.,Ang Buddha – Siddhartha Gautama c.563-c.483 B.C.E,Ang Buda – Siddhartha Gautama mga 563–483 K.P.N.,Ang Buddha – Siddhartha Gautama c.563-c.483 B.C.E
 buddha2,Buddha Alternatibo c. 480-400 B.C.E.,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , ,Ang Buddha – Siddhartha Gautama c.563-c.483 B.C.E.,Ang Buddha sa laing paagi c. 480-400 B.C.E.,Buddha alternatibo c. 480-400 B.C.E.,Ang Buda sa laing bersyon: mga 480–400 K.P.N.,Si Buddha usab mga 480–400 B.C.E.
 mohammed,Mohammed c. 570-632 C.E.,Mohammed c. 570-632, ,text,False, , , , ,Si Mohammed c. 570-632,Mohammed c. 570-632,Muhammad mga 570–632,Mohammed mga 570-632
 confucius,Confucius C.551-C.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,Si Confucius c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E.,Confucio mga 551–479 K.P.N.,Confucio c.551-c.479 B.C.E.
@@ -103,7 +103,7 @@ Lots_wife,Asawa ni Lot,Lot’s wife, ,text,False, , , ,Asawa ni Lot,Asawa ni Lot
 Lots_daughters,Mga anak nga babaye ni Lot,Daughters of Lot, ,text,False, , , ,Mga Anak nga Babaye ni Lot,Mga anak nga babaye ni Lot,Mga anak nga babaye ni Lot,Mga anak nga babaye ni Lot,Mga anak nga babaye ni Lot
 Moab,Moab (magulang nga anak nga babaye),Moab (older daughter),Genesis 19:37,text,False, , , ,Moab (kamagulangang anak nga babaye),Moab (magulang nga anak nga babaye),Moab (magulang nga babaye),Moab (magulang nga anak nga babaye),Moab (ang mas tigulang nga anak nga babaye)
 rosetta,Rosetta Stone 196 B.C.E.,Rosetta stone 196 B.C.E., ,text,False, , , ,Bato sa Rosetta 196 B.C.E.,Bato sa Rosetta 196 B.C.E.,Rosetta stone 196 B.C.E.,Bato sa Roseta 196 B.K.P.,Bato sa Rosetta 196 B.C.E.
-Herodotus,"Herodotus C. 484 - c. 425 BC, nagsulat sa mga kasaysayan","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,"Herodotus c. 484 – c. 425 BC, nagsulat sa The Histories","Herodoto c. 484 – c. 425 BC, nagsulat sa The Histories","Herodotus mga 484 – mga 425 B.K.P., nagsulat sa The Histories","Si Herodotus, mga 484 – 425 BC, misulat sa The Histories"
+Herodotus,"Herodotus C. 484 - c. 425 BC, nagsulat sa mga kasaysayan","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , ,"Herodotus c. 484 – c. 425 BC, misulat sa The History","Herodotus c. 484 – c. 425 BC, nagsulat sa The Histories","Herodoto c. 484 – c. 425 BC, nagsulat sa The Histories","Herodotus mga 484 – mga 425 B.K.P., nagsulat sa The Histories","Si Herodotus, mga 484 – 425 BC, misulat sa The Histories"
 Aristotle,Aristotle 384 - 322 BC,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , ,"Si Herodotus c. 484 – c. 425 BC, misulat sa The Histories", ,Aristoteles 384 – 322 BC,Aristotle 384 – 322 B.K.P., 
 Ptolemy,Ptolemy C 100 - c. 170 c.e.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,Ptolomeo c 100 – c. 170 C.E.,Tolomeo c 100 – c. 170 C.E.,Ptolemy mga 100 – mga 170 K.P.,Ptolemy mga 100 – mga 170 C.E.
 Pythagoras,Pythagoras c. 570 - c. 495 BC,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,Pitagoras c. 570 – c. 495 BC,Pitagoras c. 570 – c. 495 BC,Pythagoras mga 570 – mga 495 B.K.P.,Pitagoras c. 570 – c. 495 BC
@@ -553,14 +553,14 @@ meeting_workbook,"Bag-ong Format sa Midweek Miting nga adunay ""Tigum nga Trabah
 terahfam,Mga Miyembro sa Pamilya ni Terah,Members of Terah’s family, ,deprecated,False, , , , , , , , 
 metropolitan,Pagsugod sa Pagpanaksi sa Metropolitan kaniadtong 2011,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
 jw_org,Pagsugod sa jw.org nga adunay mga panudlo sa Gingharian Ministry Disyembre 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
-Babylon2, ,,no text left and right – empty!,deprecated,False, , , , , , , , 
+Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
 daniel2_shift,0,4,Start 4.2,deprecated,False, , , , , , , , 
 Gatam,Gatam,Gatam, ,deprecated,False, , , , , , , , 
 Adbeel,Adbeel,Adbeel, ,deprecated,False, , , , , , , , 
 Mibsam,Mibsam,Mibsam, ,deprecated,False, , , , , , , , 
 Dumah,Dumah,Dumah, ,deprecated,False, , , , , , , , 
 Massa,Massa,Massa, ,deprecated,False, , , , , , , , 
-tang-dynasty1, ,, ,deprecated,False, , , , , , , , 
+tang-dynasty1, , , ,deprecated,False, , , , , , , , 
 xia-dynasty,Xia Dinastiya sa China c. 2070 - c. 1600 BC,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
 Midianites,"1) mga Madianhon: Numeros 31: 2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
 Moabites,"2) Moabita: Deuteronomio 23: 3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3) Mga Ammonite: Josue 12: 2,3) Ammonites: Joshua 12:2, ,deprecated,Fa
 Edomites,4) Mga Edomita: Numeros 20: 14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
 Temanites,5) Mga Temanite: Job 42: 7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
 Amalekites,6) Amalekanhon: 1 Samuel 15: 2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
-king_south_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-king_north_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-daniel2_iron, ,,2025-02-05,deprecated,False, , , , , , , , 
+king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 

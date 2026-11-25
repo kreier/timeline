@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.11,6.11, ,float,False, , , , , , , , 
-pdf_title,6000 वर्ष के मानव इतिहास की कल्पना की गई,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,"6,000 वर्षों का मानव इतिहास — एक समयरेखा","मानव इतिहास के 6,000 वर्ष — एक समय-रेखा","मानव इतिहास के 6,000 वर्ष — एक समयरेखा","मानव इतिहास के 6,000 वर्ष — एक समयरेखा"
+pdf_title,6000 वर्ष के मानव इतिहास की कल्पना की गई,"6,000 Years of Human History — A Timeline",2026-11-24,text,False, , , , ,"6,000 वर्षों का मानव इतिहास — एक समयरेखा","मानव इतिहास के 6,000 वर्ष — एक समय-रेखा","मानव इतिहास के 6,000 वर्ष — एक समयरेखा","मानव इतिहास के 6,000 वर्ष — एक समयरेखा"
 pdf_subject,मानव जाति की समयरेखा,Timeline of human history from 4000 BCE to present, ,text,False, , , , ,4000 ई.पू. से वर्तमान तक मानव इतिहास की समयरेखा,4000 ईसा पूर्व से वर्तमान तक मानव इतिहास की समय-रेखा,4000 ई.पू. से वर्तमान तक मानव इतिहास की समयरेखा,मानव इतिहास की समयरेखा 4000 ईसा पूर्व से वर्तमान तक
 BCE,ईसा पूर्व,B.C.E., ,B9,False, , , , , ,साधारण युग से पूर्व,ई.पू., 
 CE,सी.ई.,C.E., ,B9,False, , , , , ,साधारण युग,ई., 
@@ -16,7 +16,7 @@ temple1,निसान 1513 ई.पू. ज़िव से 1034 ई.पू.,Ni
 year,वर्ष,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,वर्ष,वर्ष,वर्ष,साल
 years,वर्ष,years, ,text,False, , , , ,वर्षों,वर्ष,वर्ष,साल
 years_age,साल,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old ",text,False, , , , ,वर्षों,वर्ष,वर्ष,साल
-age_kings,साल की उम्र में राजा बना,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,साल की उम्र में राजा बना, , 
+age_kings,साल की उम्र में राजा बना, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,साल की उम्र में राजा बना, , 
 wilderness,जंगल में इज़राइल 1513 से 1473 ई.पू. - 40 साल,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,1513 से 1473 ई.पू. तक जंगल में इस्राएल – 40 वर्ष,जंगल में इस्राएल 1513 से 1473 ईसा पूर्व – 40 वर्ष,1513 से 1473 ई.पू. तक इस्राएल जंगल में – 40 वर्ष,मरुभूमि में इज़राइल 1513 से 1473 ईसा पूर्व – 40 वर्ष
 timespan_judges,1473 से 1117 ई.पू. – 356 वर्ष,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,1473 से 1117 ई.पू. – 356 वर्ष,1473 से 1117 ईसा पूर्व – 356 वर्ष,1473 से 1117 ई.पू. – 356 वर्ष,ईसा पूर्व 1473 से 1117 तक – 356 वर्ष
 timespan_judges2,जजों का समय,Time of the judges, ,text,False, , , , ,न्यायाधीशों का समय,न्यायियों का समय,न्यायियों का काल,न्यायाधीशों का समय
@@ -47,7 +47,7 @@ event_temple_rebuilt,यरूशलेम में मंदिर का प�
 event_jerusalem_rebuilt,यरूशलेम की दीवार का पुनर्निर्माण 455 ई.पू.,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,455 ई.पू. में यरूशलेम की दीवार का पुनर्निर्माण,यरूशलेम की प्राचीर का पुनर्निर्माण 455 ईसा पूर्व,यरूशलेम की दीवार 455 ई.पू. में पुनर्निर्मित,ईसा पूर्व 455 में यरूशलेम की दीवार का पुनर्निर्माण।
 event_destruction_jerusalem2,70 ई. में टाइटस के अधीन रोम द्वारा यरूशलेम का विनाश,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,70 सी.ई. में रोम के तीतुस द्वारा यरूशलेम का विनाश,टाइटस के अधीन रोम द्वारा यरूशलेम का विनाश 70 ईस्वी,70 ई. में तीतुस के नेतृत्व में रोम द्वारा यरूशलेम का विनाश,टिटस के नेतृत्व में रोम द्वारा 70 ईस्वी में यरूशलेम का विनाश
 event_1914,"राष्ट्रों के समय का अंत (लूका 21:24), परमेश्वर का राज्य 1914 ई.पू. स्वर्ग में शासन करना शुरू करता है।","End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,"राष्ट्रों के समय की समाप्ति (लूका 21:24), परमेश्वर का राज्य स्वर्ग में राज्य करना आरंभ करता है 1914 सी.ई.","जातियों के समय की समाप्ति (लूका 21:24), परमेश्वर का राज्य स्वर्ग में शासन करना शुरू करता है 1914 ईस्वी","राष्ट्रों के काल का अंत (लूका 21:24), परमेश्वर का राज्य 1914 ई. में स्वर्ग में शासन करना शुरू करता है","जातियों के समय का अंत (लूका 21:24), ईस्वी 1914 में स्वर्ग में परमेश्वर का राज्य शासन करना आरंभ करता है।"
-became_king,,becomes king at age, ,text,False, , , , ,की आयु में राजा बनता है,,की आयु में राजा बनता है,उम्र में राजा बनता है
+became_king, ,becomes king at age, ,text,False, , , , ,की आयु में राजा बनता है, ,की आयु में राजा बनता है,उम्र में राजा बनता है
 vulgate,वुल्गेट जेरोम द्वारा पूरा किया गया (बाइबिल का लैटिन अनुवाद) सी। 405 ई.पू.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,जेरोम द्वारा वल्गाटा का पूर्णता (बाइबिल का लैटिन अनुवाद) लगभग 405 सी.ई.,जेरोम द्वारा वल्गेट पूरा किया गया (बाइबल का लातूर अनुवाद) लगभग 405 ईस्वी,यिरोनिमुस द्वारा वल्गेट पूर्ण (बाइबल का लैटिन अनुवाद) लगभग 405 ई.,जेरोम द्वारा लगभग 405 ईस्वी में पूर्ण की गई वल्गेट (बाइबिल का लैटिन अनुवाद)
 gutenberg,गुटेनबर्ग बाइबिल 1455 में छपी,Gutenberg Bible printed 1455, ,text,False, , , , ,गुटेनबर्ग बाइबिल का मुद्रण 1455,गुटेनबर्ग बाइबल मुद्रित 1455,गुटेनबर्ग बाइबल 1455 में मुद्रित,गुटेनबर्ग बाइबिल मुद्रित 1455
 erasmus,रॉटरडैम 1516 के डेसिडेरियस इरास्मस द्वारा प्रकाशित ईसाई ग्रीक ग्रंथों का ग्रीक पाठ,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,रॉटरडैम के डेसिडेरियस इरास्मस द्वारा ख्रीस्तीय यूनानी शास्त्रों का यूनानी पाठ 1516 में प्रकाशित,रॉटरडैम के डेसिडेरियस इरास्मस द्वारा मसीही यूनानी शास्त्रों का यूनानी पाठ प्रकाशित 1516,रॉटर्डम के डेज़िडेरियस इरेज़मस द्वारा 1516 में मसीही यूनानी शास्त्रों का यूनानी पाठ प्रकाशित,रोटरडैम के डेसिडेरियस एरास्मस द्वारा 1516 में प्रकाशित ईसाई यूनानी धर्मग्रंथों का यूनानी पाठ
@@ -553,14 +553,14 @@ meeting_workbook,"जनवरी 2016 से ""मीटिंग वर्क�
 terahfam,तेरह के परिवार के सदस्य,Members of Terah’s family, ,deprecated,False, , , , , , , , 
 metropolitan,2011 में महानगरीय गवाही की शुरुआत,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
 jw_org,दिसंबर 2012 में राज्य मंत्रालय में निर्देशों के साथ JW.ORG की शुरुआत,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
-Babylon2, ,,no text left and right – empty!,deprecated,False, , , , , , , , 
+Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
 daniel2_shift,0,0,Start 4.2,deprecated,False, , , , , , , , 
 Gatam,गाताम,Gatam, ,deprecated,False, , , , , , , , 
 Adbeel,अदबील,Adbeel, ,deprecated,False, , , , , , , , 
 Mibsam,मिबसाम,Mibsam, ,deprecated,False, , , , , , , , 
 Dumah,दूमा,Dumah, ,deprecated,False, , , , , , , , 
 Massa,मस्सा,Massa, ,deprecated,False, , , , , , , , 
-tang-dynasty1, ,, ,deprecated,False, , , , , , , , 
+tang-dynasty1, , , ,deprecated,False, , , , , , , , 
 xia-dynasty,चीन में ज़िया राजवंश c. 2070 - सी. 1600 ई.पू,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
 Midianites,"1) मिद्यानी: गिनती 31:2, 3","1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
 Moabites,"2) मोआबी: व्यवस्थाविवरण 23:3, 4","2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3) अम्मोनियों: यहोशू 12:2,3) Ammonites: 
 Edomites,4) एदोमी: गिनती 20:14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
 Temanites,5) तेमानाइट्स: अय्यूब 42:7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
 Amalekites,6) अमालेकियों: 1 शमूएल 15:2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
-king_south_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-king_north_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-daniel2_iron, ,,2025-02-05,deprecated,False, , , , , , , , 
+king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 
