@@ -1,6 +1,6 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.11,6.11,5.7,float,False, , , , , , , , 
-pdf_title,人類史6000年の年表,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6000年の人類史 ― 年表,人類の歴史6000年 — 年表,"人類の歴史6,000年 — タイムライン","6,000年にわたる人類の歴史 ― 年表"
+pdf_title,人類史6000年の年表,"6,000 Years of Human History — A Timeline",2026-11-24,text,False, , , , ,6000年の人類史 ― 年表,人類の歴史6000年 — 年表,"人類の歴史6,000年 — タイムライン","6,000年にわたる人類の歴史 ― 年表"
 pdf_subject,人類の年表,Timeline of human history from 4000 BCE to present,5.7,text,False, , , , ,紀元前4000年から現在までの人類の年表,紀元前4000年から現在までの人類の歴史年表,紀元前4000年から現在までの人類の歴史タイムライン,紀元前4000年から現在に至るまでの人類史の年表
 BCE,西暦前,B.C.E.,appendix B9,B9,True, , , , , ,紀元前,紀元前, 
 CE,CE,C.E., ,B9,False, , , , , ,西暦,紀元後, 
@@ -16,7 +16,7 @@ temple1,西暦前1513年ニサン~西暦前1034年ジウ,Nisan 1513 B.C.E. to Zi
 year,年,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,年,年,年,年
 years,年,years, ,text,False, , , , ,年間,年,年間,年
 years_age,歳,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,年間,年間,年間,年
-age_kings,歳で即位,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,歳で即位, , 
+age_kings,歳で即位, ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,歳で即位, , 
 wilderness,荒野のイスラエル 西暦前1513年から1473年 – 40年,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,荒野におけるイスラエル 紀元前1513年〜紀元前1473年 ― 40年,荒野におけるイスラエル 紀元前1513年から1473年 – 40年,イスラエル、紀元前1513年から紀元前1473年まで荒野に – 40年間,荒野を旅したイスラエル人　紀元前1513年から1473年まで――40年間
 timespan_judges,西暦前1473年から1117年 – 356年,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,紀元前1473年〜紀元前1117年 ― 356年,紀元前1473年から1117年 – 356年,紀元前1473年から紀元前1117年まで – 356年間,紀元前1473年から紀元前1117年 – 356年間
 timespan_judges2,裁き人の時代,Time of the judges, ,text,False, , , , ,士師の時代,裁き人の時代,士師の時代,裁判官の時代
@@ -47,7 +47,7 @@ event_temple_rebuilt,エルサレムの神殿は西暦前515年に再,Temple in 
 event_jerusalem_rebuilt,西暦前455年 エルサレムの城壁再建,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,紀元前455年 エルサレムの城壁が再建される,エルサレムの城壁の再建 紀元前455年,エルサレムの城壁、紀元前455年に再建される,紀元前455年、エルサレムの城壁が再建された。
 event_destruction_jerusalem2,西暦70年にティトゥス統治下のローマによりエルサレムが破壊される,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,紀元70年 ティトゥス率いるローマによるエルサレムの破壊,テツス率いるローマによるエルサレムの滅亡 西暦70年,紀元70年、ティトゥス率いるローマによるエルサレムの滅亡,西暦70年、ティトゥス率いるローマ軍によるエルサレムの破壊
 event_1914,西暦 1914 年、諸国民の時代が終わり、神の王国が天で支配を開始する,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,諸国の時代の終わり（ルカ21:24）、神の王国が天で支配を開始 1914年,異邦人の時代の終わり（ルカ 21:24）、神の王国が天で支配を開始 1914年,諸国民の時の終わり（ルカ21:24）、神の王国が天で統治を開始 紀元1914年,「諸国民の時代」の終わり（ルカ 21:24）、西暦1914年、天において神の王国が統治を開始した。
-became_king,,becomes king at age,2025-04-14,text,False, , , , ,歳で王となる,,～歳で王となる,〇歳で王となる
+became_king, ,becomes king at age,2025-04-14,text,False, , , , ,歳で王となる, ,～歳で王となる,〇歳で王となる
 vulgate,ヒエロニムスによって完成されたウルガタ聖書（聖書のラテン語訳） c． 西暦405年,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,ヒエロニムスによるウルガタ訳聖書（聖書のラテン語訳）完成 紀元405年頃,ヒエロニムスによるウルガタ訳（聖書のラテン語訳）の完成 西暦405年ごろ,ヒエロニムスによってウルガタ訳聖書完成（ラテン語聖書訳）約紀元405年,西暦405年頃、ヒエロニムスによって『ウルガタ』（聖書のラテン語訳）が完成した。
 gutenberg,グーテンベルク聖書、1455 年に印刷,Gutenberg Bible printed 1455, ,text,False, , , , ,グーテンベルク聖書印刷 1455年,グーテンベルク聖書の印刷 1515年,グーテンベルク聖書、1455年印刷,1455年に印刷されたグーテンベルク聖書
 erasmus,1516年にロッテルダムのデジデリウス・エラスムスによって出版されたクリスチャン・ギリシャ語聖書のギリシャ語本文,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,ロッテルダムのエラスムスによるキリスト教ギリシャ聖書のギリシャ語テキスト出版 1516年,ロッテルダムのエラスムスによるクリスチャン・ギリシャ語聖書のギリシャ語本文の出版 1516年,ロッテルダムのデジデリウス・エラスムスによるキリスト教ギリシャ語聖書のギリシャ語テキスト、1516年出版,1516年にロッテルダムのデシデリウス・エラスムスが刊行した『キリスト教ギリシャ語聖書』のギリシャ語原文
@@ -553,14 +553,14 @@ meeting_workbook,2016年1月 集会ワークブックによる新形式の平日
 terahfam,テラの家族の人々,Members of Terah’s family, ,deprecated,False, , , , , , , , 
 metropolitan,2011年に大都市での証言が開始される,Start of metropolitan witnessing in 2011, ,deprecated,False, , , , , , , , 
 jw_org,2012 年 12 月に王国宣教の指示に従って JW.ORG を開始,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False, , , , , , , , 
-Babylon2, ,,no text left and right – empty!,deprecated,False, , , , , , , , 
+Babylon2, , ,no text left and right – empty!,deprecated,False, , , , , , , , 
 daniel2_shift,10,10,Start 4.2,deprecated,False, , , , , , , , 
 Gatam,ガタム,Gatam, ,deprecated,False, , , , , , , , 
 Adbeel,アドベエル,Adbeel, ,deprecated,False, , , , , , , , 
 Mibsam,ミブサム,Mibsam, ,deprecated,False, , , , , , , , 
 Dumah,ドマ,Dumah, ,deprecated,False, , , , , , , , 
 Massa,マサ,Massa, ,deprecated,False, , , , , , , , 
-tang-dynasty1, ,, ,deprecated,False, , , , , , , , 
+tang-dynasty1, , , ,deprecated,False, , , , , , , , 
 xia-dynasty,中国の夏王朝 c． 2070年 – 頃紀元前1600年,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False, , , , , , , , 
 Midianites,1）ミディアン人：数字31：2、3,"1) Midianites: Numbers 31:2, 3", ,deprecated,False, , , , , , , , 
 Moabites,2）モアブ人：申命記23：3、4,"2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False, , , , , , , , 
@@ -568,6 +568,6 @@ Ammonites,3）アンモナイト：ジョシュア12：2,3) Ammonites: Joshua 12
 Edomites,4）エドマイト：数字20：14-17,4) Edomites: Numbers 20:14-17, ,deprecated,False, , , , , , , , 
 Temanites,5）テマン人：ヨブ42：7,5) Temanites: Job 42:7, ,deprecated,False, , , , , , , , 
 Amalekites,6）アマレカイト：1サミュエル15：2,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False, , , , , , , , 
-king_south_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-king_north_light, ,,2025-02-05,deprecated,False, , , , , , , , 
-daniel2_iron, ,,2025-02-05,deprecated,False, , , , , , , , 
+king_south_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+king_north_light, , ,2025-02-05,deprecated,False, , , , , , , , 
+daniel2_iron, , ,2025-02-05,deprecated,False, , , , , , , , 
