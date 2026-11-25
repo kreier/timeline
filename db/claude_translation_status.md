@@ -1,18 +1,14 @@
 # Claude Sonnet 4.6 Translation Status (`claude` column)
 
-- **Updated:** 2026-11-25 08:20:16
-- **Model:** `claude-sonnet-4-6` (non-thinking, `thinking_tokens` observed: 0)
-- **API Calls:** 0
-- **Items Translated This Run:** 0
-- **Token Usage This Run:** input=0, output=0, cache_read=0, thinking=0, total=0
+- **Updated:** 2026-11-25 21:15:40
+- **Model:** `claude-sonnet-5-5-low` (non-thinking, `thinking_tokens` observed: 0)
+- **API Calls:** 6
+- **Items Translated This Run:** 511
+- **Token Usage This Run:** input=54,948, output=7,488, cache_read=51,480, thinking=0, total=62,436
 
-## Stopping Point (Early Stop)
+## Status
 
-- **Stopped at file:** `dictionary_ja.csv`
-- **Batch:** 1 / 1
-- **First untranslated key in batch:** `pdf_title` (finished `dictionary_km.csv`)
-- **Reason:** `Third-party quota reached. Please switch to Gemini models or upgrade your subscription to increase your limits. Resets in 167h22m5s.`
-- **Resume command:** `.venv/bin/python3 db/fill_claude.py` (automatically skips already-filled `claude` cells)
+Run completed without token exhaustion.
 
 ## Per-File Progress
 
@@ -41,36 +37,36 @@
 | `dictionary_ig.csv` | Igbo | 511 / 511 | 0 |
 | `dictionary_ilo.csv` | Iloko | 511 / 511 | 0 |
 | `dictionary_it.csv` | Italian | 511 / 511 | 0 |
-| `dictionary_ja.csv` | Japanese | 0 / 511 | 511 |
-| `dictionary_jv.csv` | Javanese | 0 / 511 | 511 |
-| `dictionary_kg.csv` | Kikongo | 0 / 511 | 511 |
+| `dictionary_ja.csv` | Japanese | 511 / 511 | 0 |
+| `dictionary_jv.csv` | Javanese | 511 / 511 | 0 |
+| `dictionary_kg.csv` | Kikongo | 511 / 511 | 0 |
 | `dictionary_km.csv` | Khmer | 511 / 511 | 0 |
-| `dictionary_kman.csv` | Northern Khmer | 0 / 511 | 511 |
-| `dictionary_kn.csv` | Kannada | 0 / 511 | 511 |
+| `dictionary_kman.csv` | Northern Khmer | 511 / 511 | 0 |
+| `dictionary_kn.csv` | Kannada | 511 / 511 | 0 |
 | `dictionary_kne.csv` | Kankanaey | 511 / 511 | 0 |
 | `dictionary_ko.csv` | Korean | 511 / 511 | 0 |
-| `dictionary_lo.csv` | Lao | 177 / 511 | 334 |
-| `dictionary_ml.csv` | Malayalam | 0 / 511 | 511 |
-| `dictionary_mn.csv` | Mongolian | 0 / 511 | 511 |
-| `dictionary_mr.csv` | Marathi | 0 / 511 | 511 |
-| `dictionary_ms.csv` | Malay | 0 / 511 | 511 |
-| `dictionary_my.csv` | Burmese | 0 / 511 | 511 |
+| `dictionary_lo.csv` | Lao | 511 / 511 | 0 |
+| `dictionary_ml.csv` | Malayalam | 511 / 511 | 0 |
+| `dictionary_mn.csv` | Mongolian | 511 / 511 | 0 |
+| `dictionary_mr.csv` | Marathi | 511 / 511 | 0 |
+| `dictionary_ms.csv` | Malay | 511 / 511 | 0 |
+| `dictionary_my.csv` | Burmese | 511 / 511 | 0 |
 | `dictionary_nl.csv` | Dutch | 511 / 511 | 0 |
-| `dictionary_no.csv` | Norwegian | 0 / 511 | 511 |
-| `dictionary_pa.csv` | Punjabi | 0 / 511 | 511 |
-| `dictionary_pl.csv` | Polish | 177 / 511 | 334 |
-| `dictionary_pt.csv` | Portuguese | 0 / 511 | 511 |
+| `dictionary_no.csv` | Norwegian | 511 / 511 | 0 |
+| `dictionary_pa.csv` | Punjabi | 511 / 511 | 0 |
+| `dictionary_pl.csv` | Polish | 511 / 511 | 0 |
+| `dictionary_pt.csv` | Portuguese | 511 / 511 | 0 |
 | `dictionary_ru.csv` | Russian | 511 / 511 | 0 |
-| `dictionary_si.csv` | Sinhala | 0 / 511 | 511 |
-| `dictionary_sv.csv` | Swedish | 0 / 511 | 511 |
-| `dictionary_sw.csv` | Swahili | 0 / 511 | 511 |
-| `dictionary_ta.csv` | Tamil | 0 / 511 | 511 |
-| `dictionary_te.csv` | Telugu | 0 / 511 | 511 |
-| `dictionary_th.csv` | Thai | 0 / 511 | 511 |
+| `dictionary_si.csv` | Sinhala | 511 / 511 | 0 |
+| `dictionary_sv.csv` | Swedish | 511 / 511 | 0 |
+| `dictionary_sw.csv` | Swahili | 511 / 511 | 0 |
+| `dictionary_ta.csv` | Tamil | 511 / 511 | 0 |
+| `dictionary_te.csv` | Telugu | 511 / 511 | 0 |
+| `dictionary_th.csv` | Thai | 511 / 511 | 0 |
 | `dictionary_tl.csv` | Tagalog | 511 / 511 | 0 |
-| `dictionary_tr.csv` | Turkish | 0 / 511 | 511 |
-| `dictionary_uk.csv` | Ukrainian | 0 / 511 | 511 |
-| `dictionary_ur.csv` | Urdu | 0 / 511 | 511 |
-| `dictionary_vi.csv` | Vietnamese | 175 / 511 | 336 |
-| `dictionary_yue.csv` | Cantonese | 0 / 511 | 511 |
+| `dictionary_tr.csv` | Turkish | 511 / 511 | 0 |
+| `dictionary_uk.csv` | Ukrainian | 511 / 511 | 0 |
+| `dictionary_ur.csv` | Urdu | 511 / 511 | 0 |
+| `dictionary_vi.csv` | Vietnamese | 511 / 511 | 0 |
+| `dictionary_yue.csv` | Cantonese | 511 / 511 | 0 |
 | `dictionary_zh.csv` | Simplified Chinese | 511 / 511 | 0 |

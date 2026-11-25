@@ -19,7 +19,7 @@ sys.stdout.reconfigure(line_buffering=True)
 
 DB_DIR = os.path.dirname(os.path.abspath(__file__))
 STATUS_PATH = os.path.join(DB_DIR, "claude_translation_status.md")
-MODEL_NAME = "claude-sonnet-4-6"
+MODEL_NAME = "claude-sonnet-5-5-low"
 BATCH_SIZE = 100
 EXCLUDED_TAGS = {"float", "timespan", "deprecated"}
 

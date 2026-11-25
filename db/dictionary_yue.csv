@@ -1,473 +1,473 @@
 key,text,english,notes,tag,checked,checked_by,date,link,google,chatgpt,gemini,claude,deepl
 version,6.11,6.11, ,float,False, , , , , , , , 
-pdf_title,6000年嘅人類歷史可視化,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6000年人類歷史 — 一個時間線,人類歷史6000年——年表, ,六千年人類歷史——年表
-pdf_subject,人類大事記,Timeline of human history from 4000 BCE to present, ,text,False, , , , ,公元前4000年到而家嘅人類歷史時間線,公元前4000年至現在嘅人類歷史年表, ,由公元前4000年至而家嘅人類歷史年表
-BCE,B.C.E.,B.C.E.,appendix B9,B9,False, , , , , ,西元前, , 
-CE,C.E.,C.E., ,B9,False, , , , , ,西元, , 
-month,月,month, ,text,False, , , , ,月,月, ,個月
-months,月份,months, ,text,False, , , , ,個月,個月, ,幾個月
-day,日,day, ,text,False, , , , ,日,日, ,日
-days,日,days, ,text,False, , , , ,日,日, ,日子
-to,自,to, ,text,False, , , , ,到,至, ,到
-Deluge,洪水,Deluge, ,text,False, , , , ,大洪水,大洪水, ,大洪水
-moses2,公元前1593年至公元前1473年–120年,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,公元前1593年到公元前1473年 – 120年,公元前1593年至1473年——120年, ,公元前1593年至公元前1473年 – 120年
-temple1,公元前1513年尼散至公元前1034年,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,公元前1513年尼散月到公元前1034年細弗月,公元前1513年尼散月至公元前1034年西弗月, ,西元前1513年尼散月至西元前1034年齊夫月
-69weeks,耶穌在公元29年秋天施洗。,Jesus baptized autumn 29 C.E., ,text,False, , , , ,公元29年秋天耶穌受浸,耶穌喺公元29年秋天受浸, ,耶穌喺公元29年秋天受洗。
-year,年,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,年,年, ,年
-years,年,years, ,text,False, , , , ,年,年, ,年
-years_age,年,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,年,年, ,年
+pdf_title,6000年嘅人類歷史可視化,"6,000 Years of Human History — A Timeline",2026-08-26,text,False, , , , ,6000年人類歷史 — 一個時間線,人類歷史6000年——年表,"6,000年人類歷史——時間線",六千年人類歷史——年表
+pdf_subject,人類大事記,Timeline of human history from 4000 BCE to present, ,text,False, , , , ,公元前4000年到而家嘅人類歷史時間線,公元前4000年至現在嘅人類歷史年表,公元前4000年至今嘅人類歷史時間線,由公元前4000年至而家嘅人類歷史年表
+BCE,B.C.E.,B.C.E.,appendix B9,B9,False, , , , , ,西元前,公元前, 
+CE,C.E.,C.E., ,B9,False, , , , , ,西元,公元, 
+month,月,month, ,text,False, , , , ,月,月,個月,個月
+months,月份,months, ,text,False, , , , ,個月,個月,個月,幾個月
+day,日,day, ,text,False, , , , ,日,日,日,日
+days,日,days, ,text,False, , , , ,日,日,日,日子
+to,自,to, ,text,False, , , , ,到,至,至,到
+Deluge,洪水,Deluge, ,text,False, , , , ,大洪水,大洪水,洪水,大洪水
+moses2,公元前1593年至公元前1473年–120年,1593 to 1473 B.C.E. – 120 years, ,text,False, , , , ,公元前1593年到公元前1473年 – 120年,公元前1593年至1473年——120年,公元前1593年至公元前1473年——120年,公元前1593年至公元前1473年 – 120年
+temple1,公元前1513年尼散至公元前1034年,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False, , , , ,公元前1513年尼散月到公元前1034年細弗月,公元前1513年尼散月至公元前1034年西弗月,公元前1513年尼散月至公元前1034年西弗月,西元前1513年尼散月至西元前1034年齊夫月
+69weeks,耶穌在公元29年秋天施洗。,Jesus baptized autumn 29 C.E., ,text,False, , , , ,公元29年秋天耶穌受浸,耶穌喺公元29年秋天受浸,耶穌喺公元29年秋天受浸,耶穌喺公元29年秋天受洗。
+year,年,year,"timespan, age (Adam was 130 years old when Shem was born)",text,False, , , , ,年,年,年,年
+years,年,years, ,text,False, , , , ,年,年,年,年
+years_age,年,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False, , , , ,年,年,年,年
 age_kings,歲即位,,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False, , , , , ,歲即位, , 
-wilderness,曠野中嘅以色列公元前1513年至公元前1473年–40年,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,公元前1513年到公元前1473年以色列喺曠野 – 40年,以色列人喺曠野公元前1513年至1473年——40年, ,以色列喺曠野 公元前1513年至1473年 – 40年
-timespan_judges,公元前1473年至公元前1117年–356年,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,公元前1473年到公元前1117年 – 356年,公元前1473年至1117年——356年, ,公元前1473年至公元前1117年 – 356年
-timespan_judges2,評委時間,Time of the judges, ,text,False, , , , ,士師時代,士師時代, ,評審時間
-temple2,聖殿建成前479年–列王紀上6：1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,479年到聖殿建造 – 列王紀上6:1,建造聖殿之前479年——列王紀上6:1, ,殿宇建造之前有479年 – 列王紀上6:1
-69weeks2,彌賽亞69周–但以理書9：25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,69周到彌賽亞 – 但以理書9:25,69個七出頭嘅彌賽亞——但以理書9:25, ,到彌賽亞嚟到之前有69個星期──但以理書9:25
-jesus_service,服侍耶穌3.5年，于公元33年尼散月14日被處決。,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,耶穌服事3.5年，公元33年尼散月14號被處死,耶穌傳道3年半，喺公元33年尼散月十四日被處死, ,"耶穌事奉三年半,於公元33年尼散月14日被處死。"
-jesus_life,耶穌生於公元前2年,Jesus born 2 B.C.E., ,text,False, , , , ,耶穌喺公元前2年出世,耶穌喺公元前2年出生, ,耶穌喺公元前2年出世。
-exile,公元前607年至公元前537年–70年（耶利米書25：11）,607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,公元前607年到公元前537年 – 70年（耶利米書25:11）,公元前607年至537年——70年（耶利米書25:11）, ,主前607年至主前537年 – 70年(耶利米書25:11)
-exile2,流亡,Exile, ,text,False, , , , ,流放,流放, ,流亡者
-7times2,7次–2520年到彌賽亞王國，公元1914年（但以理書4：23）,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7個時期 – 2520年到彌賽亞王國公元1914年（但以理書4:23）,七期——2520年至公元1914年彌賽亞王國（但以理書4:23）, ,七次──2520年到主前1914年嘅彌賽亞國度(但以理書4:23)
-ww1,第一次世界大戰–公元1914-1918年,World War I – 1914–1918, ,text,False, , , , ,第一次世界大戰 – 1914–1918,第一次世界大戰——1914–1918, ,第一次世界大戰 – 1914–1918
-ww2,第二次世界大戰–公元1939-1945年,World War II – 1939–1945, ,text,False, , , , ,第二次世界大戰 – 1939–1945,第二次世界大戰——1939–1945, ,第二次世界大戰 – 1939–1945
-30_year_war,歐洲三十年戰爭1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,歐洲三十年戰爭 1618-1648,歐洲三十年戰爭 1618-1648, ,歐洲三十年戰爭(1618–1648)
-joshua,110岁,110 years, ,text,False, , , , ,110年,110年, ,一百一十年
-caleb,超過85年,more than 85 years, ,text,False, , , , ,超過85年,超過85年, ,超過85年
-missionary1,保羅嘅第一次傳教之旅，約公元47-48年，與巴拿巴同约翰·马可,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,保羅第一次傳道旅程，大約公元47-48年，同巴拿巴同埋約翰馬可一齊,保羅第一次傳道之旅，約公元47-48年，同巴拿巴同埋約翰·馬可同行, ,"保羅第一次宣教旅程,約公元47至48年,與巴拿巴及約翰馬可同行"
-circumcision,安提阿嘅割礼問題，約公元49年喺耶路撒冷舉行嘅會議,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,安提阿割禮問題，耶路撒冷會議大約公元49年,安提阿嘅割禮爭議，約公元49年耶路撒冷會議, ,"安提阿嘅割禮問題,約喺公元49年喺耶路撒冷舉行嘅會議。"
-missionary2,第二次傳教之旅，約公元49-52年，與西拉（西爾瓦努斯）,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,第二次傳道旅程大約公元49-52年同西拉（西爾瓦努斯）,第二次傳道之旅，約公元49-52年，同西拉（西拉奴斯）同行, ,"第二次宣教旅程(約公元49至52年),與西拉(西爾凡努斯)同行"
-missionary3,第三次傳教之旅，約公元52-56年,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,第三次傳道旅程大約公元52-56年,第三次傳道之旅，約公元52-56年, ,第三次宣教旅程(約公元52至56年)
-caesarea,保羅被關押在凱撒利亞，約公元56-58年,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,保羅喺凱撒利亞被羈留大約公元56-58年,保羅喺凱撒利亞被囚，約公元56-58年, ,保羅大約在公元56至58年於該撒利亞被拘留。
-rome1,保羅第一次被囚禁喺罗马，約公元59-61年,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,保羅喺羅馬第一次被囚大約公元59-61年,保羅喺羅馬第一次監禁，約公元59-61年, ,"保羅第一次喺羅馬嘅監禁,大約喺公元59至61年。"
-rome2,保羅第二次被囚禁在羅馬，約公元65年，提摩太后書，保羅被處決,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,保羅喺羅馬第二次被囚大約公元65年，寫提摩太後書，保羅被處死,保羅喺羅馬第二次監禁，約公元65年，寫提摩太後書，保羅被處死, ,"保羅喺大約公元65年喺羅馬第二次被監禁,寫咗《提摩太後書》,之後被處決。"
-event_exodus,公元前1513年尼散月14日出埃及記,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,公元前1513年尼散月14號出埃及,公元前1513年尼散月十四日出埃及, ,"公元前1513年尼散月14日,以色列人出埃及。"
-event_division_kingdom,以色列分裂公元前997年,Division of Israel 997 BCE, ,text,False, , , , ,公元前997年以色列分裂,以色列分裂 公元前997年, ,以色列分裂 公元前997年
-event_destruction_samaria,公元前740年撒玛利亚被亞述摧毀,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,公元前740年亞述滅撒馬利亞,公元前740年撒馬利亞被亞述毀滅, ,"西元前740年,亞述摧毀撒瑪利亞"
-event_destruction_jerusalem1,公元前607年，巴比倫在耶路撒冷分裂390年後，耶路撒冷被巴比倫摧毀（以西結書4：5）,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,公元前607年巴比倫滅耶路撒冷，王國分裂之後390年（以西結書4:5）,公元前607年耶路撒冷被巴比倫毀滅，王國分裂後390年（以西結書4:5）, ,"巴比倫於公元前607年摧毀耶路撒冷,係王國分裂後390年(以西結書4:5)"
-event_temple_rebuilt,耶路撒冷嘅聖殿重建於公元前515年。,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,公元前515年耶路撒冷聖殿重建,公元前515年耶路撒冷聖殿重建, ,耶路撒冷嘅聖殿喺西元前515年重建。
-event_jerusalem_rebuilt,耶路撒冷城牆重建於公元前455年,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,公元前455年耶路撒冷城牆重建,公元前455年耶路撒冷城牆重建, ,公元前455年重建耶路撒冷城牆
-event_destruction_jerusalem2,公元70年罗马喺提图斯統治下摧毀耶路撒冷,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,公元70年羅馬提多滅耶路撒冷,公元70年提多統率嘅羅馬軍隊毀滅耶路撒冷, ,"70年,提多領導嘅羅馬摧毀咗耶路撒冷"
-event_1914,萬國時代的終結，神嘅國度開始喺天上統治公元1914年,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,列國時期終結（路加福音21:24），上帝嘅王國公元1914年開始喺天堂統治,列國嘅日期滿足（路加福音21:24），上帝嘅王國喺公元1914年喺天上開始統治, ,"列國嘅時代完結(路加福音21:24),神嘅國度喺1914年公元開始喺天上掌權。"
-became_king,,becomes king at age,2025-04-14,text,False, , , , ,喺幾多歲做王,, ,幾歲嗰陣成為國王
-vulgate,杰罗姆（ Jerome ）完成嘅通俗譯本（聖經嘅拉丁文譯本）約公元405年,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,公元405年左右哲羅姆完成武加大譯本（聖經拉丁文譯本）,耶柔米完成《武加大譯本》（聖經拉丁文譯本），約公元405年, ,"約於公元405年,由傑羅姆完成《武加大聖經》(聖經拉丁文譯本)。"
-gutenberg,古腾堡聖經印刷1455年,Gutenberg Bible printed 1455, ,text,False, , , , ,1455年古騰堡聖經印刷,谷登堡聖經印刷 1455年, ,1455年印刷嘅古登堡聖經
-erasmus,1516年鹿特丹嘅德西德里乌斯·伊拉斯杓（ Desiderius Erasmus ）出版嘅基督教希臘語聖經嘅希臘文本,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,1516年鹿特丹嘅伊拉斯謨出版希臘文基督徒希臘文聖經,鹿特丹嘅伊拉斯謨於1516年出版基督教希臘語聖經嘅希臘語文本, ,羅特爾達姆嘅德西德利烏斯·伊拉斯謨1516年出版嘅基督教希臘聖經希臘文本
-luther,1522年9月路德聖經翻譯,Luther Bible translation in September 1522, ,text,False, , , , ,1522年9月路德聖經譯本,1522年9月路德聖經譯本, ,路德聖經翻譯於1522年9月
-tyndale,Tyndale 1536年嘅英文聖經翻譯,English Bible translation by Tyndale 1536, ,text,False, , , , ,1536年廷德爾英文聖經譯本,1536年丁道爾英文聖經譯本, ,1536年提多德英文聖經譯本
-king_james,欽定版聖經1611,King James Bible 1611, ,text,False, , , , ,詹姆士王聖經 1611,1611年欽定版聖經, ,1611年詹姆士王聖經
-69weeks3,"耶穌在公元29年開始服侍（路加福音3：1,21）","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"耶穌喺公元29年開始佢嘅事工（路加福音3:1, 21）","耶穌喺公元29年開始傳道（路加福音3:1, 21）", ,耶穌喺公元29年開始佢嘅事工(路加福音3:1、21)
-ransom,周中≤停止獻祭桎梏但以理書9：27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,中期禮拜日「祭祀停止」但以理書9:27,一七之半「祭祀與供獻止息」（但以理書9:27）, ,週中「停息犧牲」但以理書9:27
-cornelius,哥尼流在公元36年70周結束時受洗（但以理書9：24）。,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,哥尼流喺70個禮拜尾受浸（但以理書9:24），喺公元36年,哥尼流喺七十個七結束時（但以理書9:24）喺公元36年受浸, ,"公元36年,喺七十周嘅結束時(但以理書9:24),哥尼流受洗。"
-columbus,1492年美洲前哥倫布時期結束,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,美洲前哥倫布時期結束 1492年,美洲前哥倫布時期結束 1492年, ,美洲哥倫布前時期結束 1492年
-declaration_independence,1776年美洲13個殖民地宣佈獨立,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,美洲13個殖民地發表獨立宣言 1776年,1776年美洲十三殖民地獨立宣言, ,1776年美國十三殖民地獨立宣言
-tischendorf,Tischendorf於1844年發現咗4世紀嘅西奈抄本,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf喺1844年發現4世紀嘅《西乃抄本》,蒂申多夫喺1844年發現4世紀嘅《西奈抄本》, ,"1844年,蒂施恩多夫發現咗第四世紀嘅西奈抄本。"
-dead_sea_scrolls,死海古卷寫作,Dead Sea Scrolls written, ,text,False, , , , ,死海古卷寫成,死海古卷撰寫, ,死海古卷書面
-septuagint,七十士譯本LXX翻譯,Septuagint LXX translated, ,text,False, , , , ,七十士譯本LXX翻譯完成,《七十士譯本》翻譯, ,七十士譯本
-watchtower,1879年出版了第一期《錫安的守望台和基督同系的先驅》,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,《錫安守望台與基督臨在之先驅》第一期喺1879年出版,《錫安嘅守望台與基督臨在嘅號角》創刊號於1879年出版, ,《錫安守望台及基督臨在先鋒》第一期喺1879年出版。
-jehovahs_witnesses,聖經研究者取了一個新名字——耶和華見證人。 1931年，俄亥俄州哥伦布市,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"聖經研究者採用新名——耶和華見證人（以賽亞書43:10, 12），喺俄亥俄州哥倫布市，1931年","聖經研究者喺1931年喺俄亥俄州哥倫布市採用新名字——耶和華見證人（以賽亞書43:10, 12）", ,"聖經研究員喺1931年美國俄亥俄州哥倫布改名做「耶和華嘅見證人」(以賽亞43:10, 12)"
-gilead_school,守望台基列聖經學校於1943年2月1日星期一開學,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,守望台聖經基列學校喺1943年2月1日禮拜一開學,守望台基列聖經學校於1943年2月1號星期一開學, ,吉利亞德支聯聖經學校於1943年2月1日(星期一)開始。
-new_world_translation1,1960年6月18日，《聖經新世界譯本》在英國曼徹斯特出版,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,《新世界譯本聖經》喺1960年6月18日喺英國曼徹斯特發行，喺聖經好多地方重新引入耶和華呢個名,《聖經新世界譯本》於1960年6月18號喺英國曼徹斯特發行，喺聖經多處重新使用耶和華呢個名字, ,"《聖經—新世界譯本》於1960年6月18日喺英國曼徹斯特發行,喺聖經好多地方重新引入「耶和華」呢個名。"
-new_world_translation2,2013年年會上修訂嘅《聖經新世界譯本》,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,修訂嘅《新世界譯本聖經》喺2013年年度大會發行，優化咗畀人喺數碼同網上使用,修訂版《聖經新世界譯本》喺2013年年會上發行，經過優化，方便數碼同網上使用, ,"已於2013年年度大會發佈經修訂嘅《聖經新世界譯本》,並已優化以數碼形式同網上使用。"
-cold_war,1945-1991年被稱為“冷戰”嘅地緣政治局勢,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,地緣政治形勢被稱為「冷戰」1945-1991,地緣政治局勢被稱為「冷戰」1945-1991, ,政治地理局勢標籤「冷戰」1945–1991
-codex_sinaiticus,西奈抄本,Codex Sinaiticus written, ,text,False, , , , ,《西乃抄本》寫成,《西奈抄本》抄寫, ,西奈抄本所寫
-codex_vaticanus,梵蒂岡抄本,Codex Vaticanus written, ,text,False, , , , ,《梵蒂岡抄本》寫成,《梵蒂岡抄本》抄寫, ,梵蒂岡手稿所寫
-leningrad_codex,列宁格勒抄本，寫於開羅，公元1008年,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,《列寧格勒抄本》喺公元1008年喺開羅寫成,《列寧格勒抄本》喺公元1008年喺開羅抄寫, ,"列寧格勒法典,公元1008年喺開羅所寫"
-john,約翰在公元96-98年被擄到拔摩島時寫下了“啟示錄”。,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,約翰喺96-98年被流放帕特莫斯島期間寫成《啟示錄》,約翰喺流放拔摩島期間寫成《啟示錄》，公元96-98年, ,約翰於公元96至98年被流放到拔摩島期間寫成《啟示錄》。
-buddha,佛陀–悉达多·乔达摩c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,佛陀——悉達多·喬達摩 約公元前563-前483年,佛陀——釋迦牟尼 約公元前563-約公元前483年, ,"佛陀──悉達多·瞿曇,約西元前563年至前483年"
-buddha2,佛陀約公元前480-400年,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,佛陀另一說法 約公元前480-前400年,佛陀另一説法約公元前480-400年, ,佛陀大約公元前480年至400年
-mohammed,穆罕默德，約公元570-632年,Mohammed c. 570-632, ,text,False, , , , ,穆罕默德 約公元570-632年,穆罕默德 約公元570-632年, ,穆罕默德 約570–632
-confucius,孔子，約公元前551年—約公元前479年,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,孔子 約公元前551-前479年,孔子 約公元前551-約公元前479年, ,孔子約公元前551年至公元前479年
-hijrah,希吉拉-麥加之旅到麥地622年7月16日,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,希吉拉——從麥加到麥地那之旅 622年7月16日,希吉拉——麥加遷往麥地那之旅 622年7月16號, ,希吉拉 – 由麥加到麥地那的旅程 622年7月16日
-moses_escape,公元前1553年，摩西必須逃離埃及——出埃及記2：15，使徒行傳7：23,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,公元前1553年 摩西要逃出埃及——出埃及記2:15，使徒行傳7:23,公元前1553年摩西被迫逃離埃及——出埃及記2:15，使徒行傳7:23, ,"西元前1553年,摩西要逃離埃及──出埃及記2:15、使徒行傳7:23"
-10plagues,公元前1513年，埃及遭遇10次瘟疫,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,公元前1513年 埃及遭受10個災殃,公元前1513年埃及遭受十災, ,"公元前1513年,埃及遭受十災。"
-joseph_sold,約瑟在17歲時被賣為奴隸——創世記37：2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,約瑟17歲被賣為奴——創世記37:2,約瑟喺17歲嗰陣被賣為奴——創世記37:2, ,約瑟十七歲嗰陣俾人賣做奴隸——創世記37:2
-infliction,400年的苦難（使徒行傳7：6）—以實瑪利，公元前1913年，公元前,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400年苦待（使徒行傳7:6）——以實瑪利 公元前1913年,400年苦害（使徒行傳7:6）——以實瑪利 公元前1913年, ,"四百年嘅刑罰(使徒行傳7:6)──以實瑪利,公元前1913年"
-Alexander,亞歷山大大帝（但以理書11：3 ）,Alexander the Great (Daniel 11:3), ,text,False, , , , ,亞歷山大大帝（但以理書11:3）,亞歷山大大帝（但以理書11:3）, ,亞歷山大大帝(但以理書11:3)
-persia,居魯士大帝，岡比西斯二世，大流士一世公元前490年，薛西斯一世公元前480年（以斯帖嘅老公，但以理書11：2 ）,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,居魯士大帝、岡比西斯二世、大流士一世 公元前490年、薛西斯一世 公元前480年（以斯帖嘅丈夫，但以理書11:2）,居魯士大帝、岡比西斯二世、大流士一世公元前490年、薛西斯一世公元前480年（以斯帖嘅丈夫，但以理書11:2）, ,"大流士大帝、喀姆比塞斯二世、大流士一世(前490年)、薛西斯一世(前480年)(以斯帖嘅丈夫,但以理書11:2)"
-king_north,"塞琉古一世尼卡托（ v5 ）敘利亞到安條克三世（ v10 ）同塞琉古四世（ v18,19 ）落到屋大維（ v20 ）同提比略（ v21-24 ）","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"塞琉古一世尼卡托（5節）敘利亞到安條克三世（10節）同塞琉古四世（18, 19節）一直到屋大維（20節）同提庇留（21-24節）",塞琉古一世「勝利者」（第5節）敘利亞，至安提阿古三世（第10節）同塞琉古四世（第18、19節），以至屋大維（第20節）同提庇留（第21-24節）, ,塞琉古一世·尼卡托(v5)→安條克三世(v10)及塞琉古四世(v18、19)→到奧古斯都(v20)及提比略(v21–24)
-king_north1,北方之王,King of the North, ,text,False, , , , ,北方之王,北方王, ,北方之王
-king_south,托勒密一世、二世、三世、四世（ 11、12節）、五世（ 15節、16節）到公元前31年嘅戰鬥Actium,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"托勒密一世、二世、三世、四世（11, 12節）、五世（15, 16節）到公元前31年亞克興海戰",托勒密一世、二世、三世、四世（第11、12節）、五世（第15、16節）至公元前31年亞克興角海戰, ,托勒密一世、二世、三世、四世(v11、v12)、五世(v15、v16)到前31年阿克提姆海戰
-king_south1,南方之王,King of the South, ,text,False, , , , ,南方之王,南方王, ,南方之王
-king_south2,1870年大英帝国嘅，1914年以來嘅英美世界強國,"British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,大英帝國1870年，自1914年起嘅英美世界強權,大英帝國 1870年，英美世界霸權自1914年起, ,"英國帝國1870年,1914年以嚟嘅英美世界霸權"
-king_south3,南方之王,King of the South, ,text,False, , , , ,南方之王,南方王, ,南方之王
-king_north2,德國與威廉一世皇帝1871 （v28）、1914 （v29）、1935 （v30b）、1939 （v31a）,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,德國同威廉一世皇帝1871年（28節）、1914年（29節）、1935年（30下節）、1939年（31上節）,德意志帝國與威廉一世 1871年（第28節）、1914年（第29節）、1935年（第30節下）、1939年（第31節上）, ,德國威廉一世1871年(v28)、1914年(v29)、1935年(v30b)、1939年(v31a)
-king_north3,北,North, ,text,False, , , , ,北,北方, ,北
-king_north4,"蘇聯1945-1991 （但以理書11：32-39,40b，41 ）","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"蘇聯1945-1991（但以理書11:32-39, 40下, 41）","蘇聯 1945-1991（但以理書11:32-39, 40下, 41）", ,蘇聯 1945-1991(但以理書11:32-39、40b、41)
-king_north5,俄羅斯自2017年以來（ w20 May ）,Russia since 2017 (w20 May), ,text,False, , , , ,2017年以來嘅俄羅斯（w20 5月）,俄羅斯自2017年起（守20.05）, ,俄羅斯自2017年(截至5月20日)
-time_of_end,基督的同在，事物制度的終結（馬太福音24：3），末世（提摩太后書3：1）,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,基督臨在，制度嘅結束（馬太福音24:3），末日（提摩太後書3:1）,基督嘅臨在、事物體系嘅末期（馬太福音24:3）、最後嘅日子（提摩太後書3:1）, ,"基督嘅臨在,萬有制度嘅結局(馬太福音24:3),末世(提摩太後書3:1)"
-time_of_end2,最後幾日,Last days, ,text,False, , , , ,末日,最後嘅日子, ,末日
-suryavaman2,苏里亚跋摩二世國王建造吳哥窟1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,蘇利耶跋摩二世國王喺1113-1150年間修建吳哥窟,蘇利耶拔摩二世興建吳哥窟 1113-1150, ,蘇利耶跋摩二世喺1113年至1150年期間興建吳哥寺
-notre-dame,巴黎聖母院建於1163-1260年,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,巴黎聖母院喺1163-1260年間建成,巴黎聖母院興建 1163-1260, ,巴黎聖母院建於1163年至1260年
-babel,巴别塔建成,Tower of Babel built, ,text,False, , , , ,巴別塔建成,巴別塔興建, ,巴別塔建咗
-infliction1,400年受害,400 year infliction,Acts 7:6,text,False, , , , ,400年苦待,400年苦害, ,四百年嘅折磨
-Lots_wife,羅得的妻子,Lot’s wife, ,text,False, , , , ,羅得嘅老婆,羅得嘅妻子, ,羅得嘅老婆
-Lots_daughters,羅得的女兒,Daughters of Lot, ,text,False, , , , ,羅得嘅女兒,羅得嘅女兒, ,羅得嘅女兒
-Moab,摩押（大女）,Moab (older daughter),Genesis 19:37,text,False, , , , ,摩押（年長嘅女）,摩押（大女兒）, ,摩押(大女)
-rosetta,罗塞塔石碑公元前196年,Rosetta stone 196 B.C.E., ,text,False, , , , ,羅塞塔石碑 公元前196年,羅塞塔石碑 公元前196年, ,羅塞塔石碑 公元前196年
-Herodotus,希罗多德約公元前484年–約公元前425年，撰寫《歷史》,"Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,希羅多德 約公元前484 – 約公元前425年，寫《歷史》,希羅多德 約公元前484年–約公元前425年，撰寫《歷史》, ,"希羅多德(約前484年–約前425年),寫咗《歷史》"
-Aristotle,亚里士多德384–公元前322年,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,亞里士多德 公元前384 – 公元前322年,亞里士多德 公元前384年–公元前322年, ,亞里斯多德 西元前384–322
-Ptolemy,托勒密c 100–c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,托勒密 約公元100 – 約公元170年,托勒密 約公元100年–約公元170年, ,托勒密約100年至約170年
-Pythagoras,畢達哥拉斯，約公元前570年-約公元前495年,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,畢達哥拉斯 約公元前570 – 約公元前495年,畢達哥拉斯 約公元前570年–約公元前495年, ,畢達哥拉斯 約前570年 – 約前495年
-Plato,柏拉图約公元前427年–約公元前348年,Plato c. 427 – c. 348 BC, ,text,False, , , , ,柏拉圖 約公元前427 – 約公元前348年,柏拉圖 約公元前427年–約公元前348年, ,柏拉圖 約西元前427年至約西元前348年
-Socrates,苏格拉底約公元前470年–約公元前399年,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,蘇格拉底 約公元前470 – 約公元前399年,蘇格拉底 約公元前470年–約公元前399年, ,蘇格拉底 約西元前470年至約前399年
-Josephus,約瑟夫斯約公元37年-約公元100年,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,約瑟夫斯 約公元37 – 約公元100年,約瑟夫斯 約公元37年–約公元100年, ,約瑟夫斯約公元37年至100年
-Cicero,西塞罗公元前106-43年,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,西塞羅 公元前106 – 公元前43年,西塞羅 公元前106年–公元前43年, ,西塞羅 公元前106–43
-lachish_letters,約公元前590年嘅拉奇字母,Lachish letters c. 590 B.C.E., ,text,False, , , , ,拉吉書信 約公元前590年,拉基書信 約公元前590年, ,"拉吉什信件,約公元前590年"
-lachish_reliefs,拉奇浮雕，約公元前681年,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,拉吉浮雕 約公元前681年,拉基浮雕 約公元前681年, ,"拉吉什浮雕,約公元前681年"
-mesha_stele,米沙石碑（摩押石），約公元前840年,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,米沙石碑（摩押石） 約公元前840年,米沙石碑（摩押石碑）約公元前840年, ,米所亞石碑(摩押石碑)約公元前840年
-gilgamesh,吉爾伽美什和阿迦𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,吉爾伽美什和阿加 𒇽𒆥𒄄𒀀𒀝𒂵,吉爾伽美什與阿加 𒇽𒆥𒄄𒀀𒀝𒂵, ,吉爾伽美什同阿加 𒇽𒆥𒄄𒀀𒀝𒂵
-epic_gilgamesh,吉爾伽美什史詩（Són-lóqi-unninni）,Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,吉爾伽美什史詩（辛-雷奇-烏寧尼）,《吉爾伽美什史詩》（辛·里奇·烏尼尼）, ,吉爾伽美什史詩(Sîn-lēqi-unninni)
-gregorian,公曆1582,Gregorian calendar 1582, ,text,False, , , , ,格里高利曆 1582年,公曆 1582年, ,格里高利曆1582年
-shang-dynasty,約公元前1600-1046年,c. 1600-1046 BC, ,text,False, , , , ,約公元前1600-1046年,約公元前1600年-前1046年, ,約公元前1600年至1046年
-western-zhou,約公元前1046-771年,c. 1046-771 BC, ,text,False, , , , ,約公元前1046-771年,約公元前1046年-前771年, ,約公元前1046年至771年
-qin-dynasty,秦 公元前221-207年,Qin 221-207 BC, ,text,False, , , , ,秦 公元前221-207年,秦朝 公元前221年-前207年, ,秦(前221–前207)
-western-han,公元前207年–公元9年,207 BC – 9 CE, ,text,False, , , , ,公元前207年 – 公元9年,公元前207年–公元9年, ,西元前207年 – 西元9年
-three-kingdoms,三國公元220-280年,Three kingdoms 220-280 CE, ,text,False, , , , ,三國 公元220-280年,三國 公元220年-280年, ,三國時期 220–280 年
-sixteen-kingdoms,十六國公元304-439年,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,十六國 公元304-439年,十六國 公元304年-439年, ,十六國(304–439年)
-tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , ,618-690、705-907年,公元618年-690年、705年-907年, ,"618-690,705-907"
-wu-zhou,690-705吴周,690-705 Wu Zhou, ,text,False, , , , ,690-705年 武周,公元690年-705年 武周, ,690-705 武周
-tang-dynasty1_c,柄腳,Tang, ,text,False, , , , ,唐朝,唐朝, ,唐
-gonghe,巩河攝政公元前841-828年,Gonghe Regency 841-828 BC, ,text,False, , , , ,共和攝政 公元前841-828年,共和行政 公元前841年-前828年, ,共侯執政期 公元前841–828年
-Ashoka,阿育王（約公元前304-232年）推廣佛教,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,阿育王（約公元前304-232年）推廣佛教,阿育王（約公元前304年-前232年）推廣佛教, ,阿育王(約前304至前232年)推廣佛教
-siloam-tunnel,希西屋企擴建西罗亚隧道,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,希西家延長西羅亞水道,希西家擴建西羅亞水道, ,希西家擴建西羅亞隧道
-Angloamerica2,但以理書2：33緊，41-43嘅預言中，英美人以鐵腳與粘土混合為象徵,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,英美以腳像鐵與泥混合來象徵（但以理書2:33、41-43）,"英美世界強國喺但以理書2:33, 41-43嘅預言裏面，用半鐵半泥嘅腳嚟象徵", ,"英美聯盟喺但以理書2:33、41-43嘅預言入面,用鐵腳拌泥嚟象徵。"
-Manetho,Manetho寫道Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , ,馬涅托寫《埃及史》,曼涅托撰寫《埃及史》, ,馬內通寫咗《埃及志》
-destruction_babylon,"大巴比倫的毀滅（啟示錄17：3,15-18;18：9,10）","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,大巴比倫的毀滅（啟示錄17:3、15-18；18:9、10）,"大巴比倫嘅毀滅（啟示錄 17:3, 15-18；18:9, 10）", ,"大巴比倫嘅毀滅(啟示錄17:3, 15-18;18:9, 10)"
-peace_security,「和平同安全！」 （帖撒羅尼迦前書5:3，呢個係其中一個可能性， QfR 26/2，25/11）,"“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,「和平與安全！」（帖撒羅尼迦前書5:3，這是一個可能性，《儆醒！》26/2、25/11）,"「和平同安全！」（帖撒羅尼迦前書 5:3，呢個係其中一個可能性，QfR 26/2, 25/11）", ,"「平安同安全!」(帖撒羅尼迦前書5:3,呢個係一個可能性,QfR 26/2,25/11)"
-gog_of_magog,"瑪各歌革的攻擊（以西結書38：1,2,9-12,18-23）","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,歌革和瑪各的攻擊（以西結書38:1、2、9-12、18-23）,"瑪各地區嘅歌革嘅攻擊（以西結書 38:1, 2, 9-12, 18-23）", ,"瑪各聯盟的攻擊(以西結書38:1-2, 9-12, 18-23)"
-sheep_goat,地上的居民將受到審判，將綿羊和山羊分開（馬太福音25：31-33）,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,地上居民受審，分離綿羊和山羊（馬太福音25:31-33）,地上嘅居民受審判，分開綿羊同山羊（馬太福音 25:31-33）, ,"地上的居民要受審判,把羊同山羊分開(馬太福音25:31-33)"
-annointed,王國統治者聚會 ( 馬太福音 24 : 31 ; 哥林多前書 15 : 50-53 ; 塞薩洛尼亞 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,王國統治者被聚集（馬太福音24:31；哥林多前書15:50-53；帖撒羅尼迦前書4:15-17）,王國統治者嘅聚集（馬太福音 24:31；哥林多前書 15:50-53；帖撒羅尼迦前書 4:15-17）, ,國度掌權者嘅聚集(馬太福音24:31;哥林多前書15:50-53;帖撒羅尼迦前書4:15-17)
-armageddon,"阿馬德多之戰 ( 啟示錄 16 : 14,16 ; 以賽亞書 13: 9 ; 彼得前書 3: 12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,哈米吉多頓大戰（啟示錄16:14、16；以賽亞書13:9；彼得後書3:12）,"哈米吉多頓之戰（啟示錄 16:14, 16；以賽亞書 13:9；彼得後書 3:12）", ,"哈米吉多頓之戰(啟示錄16:14,16;以賽亞書13:9;彼得後書3:12)"
-millenium,"神國開 1000 年統治 ( 啟示錄 5 : 9,10 ; 20 : 4,6 )","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,上帝的國度開始其1000年統治（啟示錄5:9、10；20:4、6）,"上帝嘅王國開始千年統治（啟示錄 5:9, 10；20:4, 6）", ,"上帝嘅國度開始佢嘅千禧年統治(啟示錄5:9, 10;20:4, 6)"
-great_crowd,"一眾人群捱過阿瑪吉多頓 ( 啟示錄 7: 9,14 ; 詩篇 37: 9-11 )","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,大群人從哈米吉多頓存留下來（啟示錄7:9、14；詩篇37:9-11）,"大群人喺哈米吉多頓生還（啟示錄 7:9, 14；詩篇 37:9-11）", ,"一大群人喺哈米吉多頓大災難中得救(啟示錄7:9,14;詩篇37:9-11)"
-world_population,過去 2000 年，世界人口係幾十億,World population in billions in the last 2000 years, ,text,False, , , , ,過去2000年世界人口（以十億計）,過去2000年世界人口（以十億計）, ,過去2000年世界人口以十億計
-khmer_empire_c,高棉帝國 - 吳哥時期,Khmer Empire - Angkor period, ,text,False, , , , ,高棉帝國 - 吳哥時期,高棉帝國 - 吳哥時期, ,高棉帝國 - 吳哥時期
-holy_roman_empire_c,聖羅馬帝國 – 1512 年後，被稱為德國民族聖羅馬帝國,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,神聖羅馬帝國 – 1512年後稱為德意志民族神聖羅馬帝國,神聖羅馬帝國 – 1512年後被稱為德意志民族神聖羅馬帝國, ,神聖羅馬帝國——1512年後稱為「德意志民族的神聖羅馬帝國」
-mongol_empire,蒙古帝國 1206 – 1294,Mongol Empire 1206 – 1294, ,text,False, , , , ,蒙古帝國 1206 – 1294年,蒙古帝國 1206年–1294年, ,蒙古帝國1206–1294
-maya_classic_c,瑪雅文明 – 經典時期,Maya civilization – Classic period, ,text,False, , , , ,瑪雅文明 – 古典期,瑪雅文明 – 古典期, ,瑪雅文明 – 古典期
-maya_postclassic_c,瑪雅文明 – 經典後時期,Maya civilization – Postclassic period, ,text,False, , , , ,瑪雅文明 – 後古典期,瑪雅文明 – 後古典期, ,瑪雅文明 – 後古典期
-Teotihuacan,美洲最大嘅城市，金字塔係建造 c. 200 C.E.,"Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,美洲最大城市，金字塔約建於公元200年,美洲最大城市，金字塔建於約公元200年, ,"美洲最大嘅城市,金字塔大約建於公元200年。"
-Dionysius_Exiguus,迪奧尼西修斯 · 埃克斯古斯，安諾 · 多米尼發明家,"Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,狄奧尼修斯·小發明主曆（公元紀年）,狄奧尼修斯·伊西格斯，公元紀年嘅創始人, ,"狄奧尼修斯·埃克西古斯,公元紀年嘅創始人"
-Umayyad_c,烏馬雅,Umayyad, ,text,False, , , , ,伍麥葉王朝,倭馬亞王朝, ,烏邁亞
-ur3,Ur III 王朝 𝋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,烏爾第三王朝 𒋀𒀕𒆠,烏爾第三王朝 𒋀𒀕𒆠, ,烏爾第三王朝 𒋀𒀕𒆠
-hammurabi,哈穆拉比 𒄩 𝄠 𝊏,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , ,漢摩拉比 𒄩𒄠𒈬𒊏𒁉,漢謨拉比, ,漢摩拉比 𒄩𒄠𒈬𒊏𒁉
-Al-Khwarizmi,阿爾 - 克瓦利茲米寫道阿爾 · 賈布爾 ( 代數 ),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,花拉子米寫《代數學》,花剌子模編寫《代數學》（Al-Jabr）, ,花拉子米寫咗《代數》
-al-azhar,阿扎爾大學係開羅成立,Al-Azhar University is established in Cairo, ,text,False, , , , ,愛資哈爾大學在開羅成立,愛資哈爾大學在開羅成立, ,阿茲哈爾大學設於開羅
-Ibn-Sina,伊本新浪或阿維塞納,Ibn Sina or Avicenna, ,text,False, , , , ,伊本·西那或阿維森納,伊本·西那或阿維森納, ,伊本·西那或阿維森納
-life-expectancy,壽命 75 歲,Life expectancy 75 years, ,text,False, , , , ,預期壽命 75 年,平均壽命75歲, ,預期壽命75歲
-430years_c,430 歲：出埃及記 12 : 41 ，加拉太書 3 : 17,"430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,430 年：出埃及記 12:41，加拉太書 3:17,四百三十年：出埃及記12:41，加拉太書3:17, ,"430年:出埃及記12:41,加拉太書3:17"
-maya_calendar,"計算由瑪雅曆開始 8 月 11 日 ,3114 年公元前 3114 年。","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,瑪雅曆計算起始公元前 3114 年 8 月 11 日,瑪雅曆法計算出的起始日期為西元前3114年8月11日, ,推算瑪雅曆法始於公元前3114年8月11日。
-xia-dynasty2,c . 2070 – c 。公元前 1600 年 ;時代先係西周時期暗示,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,約公元前 2070 – 公元前 1600 年；呢個時代最早係喺西周時期提及,約西元前2070年至前1600年；西周時期首次提及該時代, ,約公元前2070年至約公元前1600年;西周時期首次提及
-xia-dynasty2_c,中國中國王朝,Xia dynasty in China, ,text,False, , , , ,中國夏朝,中國夏朝, ,中國嘅夏朝
-tres_zapotes,9 月 3 日，公元前 32 年。,"September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,公元前 32 年 9 月 3 日,西元前32年9月3日, ,公元前32年9月3日
-joseph_jacob_reunited,約瑟同雅各喺埃及團聚 – 公元前 1728 年（世代 45 : 11 ； 47 : 9 ）,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,約瑟同雅各喺埃及團聚 – 公元前 1728 年（創世記 45:11；47:9）,約瑟與雅各在埃及重逢 – 西元前1728年（創世記45:11；47:9）, ,約瑟同雅各喺埃及重聚──公元前1728年(創世記45:11;47:9)
-king_south_light_c,丹尼爾 11 嘅南方王,King of the South from Daniel 11,2025-02-05,text,False, , , , ,但以理書 11 章嘅南方王,但以理書第11章中的南方王, ,但以理書第十一章南方之王
-king_north_light_c,北從丹尼爾 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,但以理書 11 章嘅北方王,但以理書第11章中的北方王, ,但以理書第十一章的北方之王
-daniel2_iron_c,丹尼爾 2 嘅鐵腳,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,但以理書 2 章嘅鐵腿,但以理書第2章中的鐵腿, ,但以理書第二章嘅鐵腿
-argenteus,阿根廷科德克斯 c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , ,Codex Argenteus 約公元 505 年,銀法典，約西元505年, ,銀典約505年
-nguyen_dynasty_c,古伊 · 納,Nguyễn,2025-09-20,text,False, , , , ,阮,阮氏, ,阮
-edo_c,日本江戶期,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , ,日本江戶時代,日本江戶時代, ,日本嘅江戶時期
-meiji_c,明治,Meiji,2025-09-20,text,False, , , , ,明治,明治, ,明治
-american_civil_war,美國內戰 1861-1865 年,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,美國內戰 1861-1865,美國內戰 1861-1865, ,美國南北戰爭 1861-1865
-aleppo_codex,阿勒波科德克斯 c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,阿勒頗抄本 約公元 920 年,阿勒頗抄本，約西元920年, ,"阿勒坡聖經手稿,約920年"
-vandals,破壞者王國與阿蘭斯 435-534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,汪達爾同阿蘭王國 公元 435 – 534,汪達爾-阿蘭王國 435 – 534年, ,汪達爾人同阿蘭人王國 435 – 534
-francia,"c . 481/509 – 843, 梅羅文人到 751, 之後係卡羅林人","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,約公元 481/509 – 843 年，墨洛溫王朝至 751 年，然後加洛林王朝,約西元481/509 – 843年，墨洛溫王朝至751年，隨後為卡洛林王朝, ,"約481/509–843年,至751年為墨洛溫王朝,之後為卡洛林王朝"
-francia_c,法蘭克王國,Kingdom of the Franks, ,text,False, , , , ,法蘭克王國,法蘭克王國, ,法蘭克王國
-100_years_war,百年戰爭 1337 年 -1453 年,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,百年戰爭 公元 1337 – 1453 年,百年戰爭 1337 – 1453年, ,百年戰爭 1337 – 1453
-black_death,黑色死亡 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,黑死病 公元 1346-1353 年,黑死病 1346-1353年, ,黑死病 1346–1353
-sui_dynasty,581-618 隋王朝,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 隋朝,581-618年隋朝, ,581–618年隋朝
-sui_dynasty_c,隋,Sui,2025-11-09,text,False, , , , ,隋,隋, ,隨
-tribulation,"大災難（馬可福音13：19; 但以理書12：1; 馬太福音24：21,22）","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"大患難（馬可福音 13:19；但以理書 12:1；馬太福音 24:21, 22）","大災難（馬可福音13:19；但以理書12:1；馬太福音24:21, 22）", ,大患難(馬可福音13:19;但以理書12:1;馬太福音24:21-22)
-timeline_created,"呢條時間綫創建于2023年，係人類歷史上最熱的一年，也是過去125,000年","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"呢個時間線創建喺 2023 年，人類歷史上最熱嘅一年，亦係過去 125,000 年嚟最熱嘅一年",此時間軸創建於2023年，這是人類歷史及過去12萬5千年以來最熱的一年, ,"呢條時間線喺2023年建立,呢年係人類歷史上最熱嘅一年,同時係過去125,000年嚟最熱嘅一年。"
-Adam,亞當,Adam,Luke 3:38,bible,False, , , , , ,亞當, , 
-Seth,賽斯,Seth, ,bible,False, , , , , ,塞特, , 
-Enosh,以諾什,Enosh, ,bible,False, , , , , ,以挪士, , 
-Kenan,凱南,Kenan (Cainan),Genesis 5:12,bible,False, , , , , ,該南, , 
-Mahalalel,马哈拉雷尔,Mahalalel (Mahalaleel),Ma·hala·lel,bible,False, , , , , ,瑪勒列, , 
-Jared,杰瑞德,Jared, ,bible,False, , , , , ,雅列, , 
-Enoch,諾,Enoch, ,bible,False, , , , , ,以諾, , 
-Methuselah,瑪土撒拉,Methuselah,Luke 3:37,bible,False, , , , , ,瑪土撒拉, , 
-Lamech,拉麥,Lamech, ,bible,False, , , , , ,拉麥, , 
-Noah,諾亞,Noah, ,bible,True, , , , , ,挪亞, , 
-Shem,閃,Shem, ,bible,True, , , , , ,閃, , 
-Arpachshad,阿帕赫沙德,Arpachshad,Luke 3:36,bible,False, , , , , ,亞法撒, , 
-Shelah,希拉,Shelah, ,bible,False, , , , , ,沙拉, , 
-Eber,埃伯,Eber, ,bible,False, , , , , ,希伯, , 
-Peleg,佩莱格,Peleg, ,bible,False, , , , , ,法勒, , 
-Reu,魯,Reu, ,bible,False, , , , , ,呂吳, , 
-Serug,塞魯格,Serug,Luke 3:35,bible,False, , , , , ,西鹿, , 
-Nahor,纳霍尔,Nahor,Genesis 11:24,bible,False, , , , , ,拿鶴, , 
-Terah,佢拉,Terah, ,bible,False, , , , , ,他拉, , 
-Abraham,亚伯拉罕,Abraham, ,bible,False, , , , , ,亞伯拉罕, , 
-Isaac,艾萨克,Isaac, ,bible,False, , , , , ,以撒, , 
-Jacob,雅各,Jacob,Luke 3:34,bible,False, , , , , ,雅各, , 
-Joseph,約瑟夫,Joseph,Genesis 37,bible,False, , , , , ,約瑟, , 
-Moses,摩西,Moses, ,bible,False, , , , , ,摩西, , 
-Othniel,奥特尼尔,Othniel,Judges 3:9-11,bible,False, , , , , ,俄陀聶, , 
-Ehud,埃胡德,Ehud,Judges 3:15-18,bible,False, , , , , ,以笏, , 
-Shamgar,沙姆加尔,Shamgar,Judges 3:31,bible,False, , , , , ,珊迦, , 
-Barak,波利克,"Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , ,巴拉、底波拉、雅億, , 
-Gideon,吉迪恩,Gideon,Judges 7:1,bible,False, , , , , ,基甸, , 
-Tola,托拉,Tola,Judges 10:1,bible,False, , , , , ,陀拉, , 
-Jair,迨,Jair,Judges 10:3,bible,False, , , , , ,睚珥, , 
-Jephthah,耶弗佢,Jephthah,Judges 11:1,bible,False, , , , , ,耶弗他, , 
-Ibzan,伊布讚,Ibzan,Judges 12:8,bible,False, , , , , ,以比讚, , 
-Elon,伊隆,Elon,Judges 12:11,bible,False, , , , , ,以倫, , 
-Abdon,阿布頓,Abdon,Judges 12:13,bible,False, , , , , ,押頓, , 
-Samson,參孫,Samson,Judges 13:24,bible,False, , , , , ,參孫, , 
-Samuel,塞缪尔,Samuel,1 Samuel 1:20,bible,False, , , , , ,撒母耳, , 
-Saul,掃羅,Saul,1 Samuel 9:2,bible,False, , , , , ,掃羅, , 
-David,大衛,David,1 Samuel 16:13,bible,False, , , , , ,大衛, , 
-Solomon,索洛莫,Solomon,1 Kings 2:1,bible,False, , , , , ,所羅門, , 
-Malachi,玛拉基,Malachi, ,bible,False, , , , , ,瑪拉基, , 
-Ruth,露絲,Ruth, ,bible,False, , , , , ,路得, , 
-Ezra,艾拉,Ezra, ,bible,False, , , , , ,以斯拉, , 
-Nehemiah,尼希米,Nehemiah, ,bible,False, , , , , ,尼希米, , 
-Esther,以斯帖記,Esther, ,bible,False, , , , , ,以斯帖, , 
-Job,工作,Job, ,bible,False, , , , , ,約伯, , 
-moses3,摩西,Moses, ,bible,False, , , , , ,摩西, , 
-joshua2,乔舒亚,Joshua, ,bible,False, , , , , ,約書亞, , 
-caleb2,凱勒,Caleb, ,bible,False, , , , , ,迦勒, , 
-Augustus,奥古斯都,Augustus,Luke 2:1,bible,False, , , , , ,奧古斯都, , 
-Tiberius,提比略,Tiberius,Luke 3:1,bible,False, , , , , ,提庇留, , 
-Claudius,克劳迪斯,Claudius,Acts 11:28,bible,False, , , , , ,革老丟, , 
-persia2,波斯,Persia, ,bible,False, , , , , ,波斯, , 
-jehoiada,約何亞達,Jehoiada,2 Kings 11:4,bible,False, , , , , ,耶何耶大, , 
-Haggai,哈該,Haggai, ,bible,False, , , , , ,哈該, , 
-Zerubbabel,所罗巴伯（路加福音3：27 ）,Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , ,所羅巴伯（路加福音 3:27）, , 
-Jacob2,雅各/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , ,雅各, , 
-Israel,以色列,Israel,Genesis 35:10,bible,False, , , , , ,以色列, , 
-Sarah,莎拉,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , ,撒拉, , 
-Hagar,夏甲,Hagar,Genesis 21:14,bible,False, , , , , ,夏甲, , 
-Haran,哈蘭,Haran,Genesis 11:26,bible,False, , , , , ,哈蘭, , 
-Reumah,鲁玛,Reumah,Concubine – 4 sons 22:24,bible,False, , , , , ,利瑪, , 
-Milcah,米尔卡,Milcah,8 sons (Bethuel and 7 more),bible,False, , , , , ,米迦, , 
-Lot,好多,Lot,Genesis 11:27,bible,False, , , , , ,羅得, , 
-Ammon,Ben-ammi （阿蒙）,Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , ,便亞米（亞捫）, , 
-Bethuel,貝休爾,Bethuel,Genesis 22:23,bible,False, , , , , ,彼土利, , 
-Rebekah,麗貝卡,Rebekah, ,bible,False, , , , , ,利百加, , 
-Laban,拉班,Laban,Genesis 24:29,bible,False, , , , , ,拉班, , 
-Leah,利亞,Leah,Genesis 35:23,bible,False, , , , , ,利亞, , 
-Rachel,瑞秋,Rachel,Genesis 35:24,bible,False, , , , , ,拉結, , 
-Bilhah,比爾哈,Bilhah,Genesis 35:25,bible,False, , , , , ,辟拉, , 
-Zilpah,齐尔帕,Zilpah,Genesis 35:26,bible,False, , , , , ,悉帕, , 
-Reuben,魯本,Reuben, ,bible,False, , , , , ,流便, , 
-Simeon,緬,Simeon, ,bible,False, , , , , ,西緬, , 
-Levi,利瓦伊,Levi,Genesis 35:23,bible,False, , , , , ,利未, , 
-Judah,猶大,Judah, ,bible,False, , , , , ,猶大, , 
-Issachar,以薩迦,Issachar, ,bible,False, , , , , ,以薩迦, , 
-Zebulun,澤布倫,Zebulun, ,bible,False, , , , , ,西布倫, , 
-Dinah,黛娜,Dinah,Genesis 34,bible,False, , , , , ,底拿, , 
-Esau,以掃/,Esau/, ,bible,False, , , , , ,以掃, , 
-Edom,以東,Edom,Genesis 36:1,bible,False, , , , , ,以東, , 
-Ishmael,以實瑪利,Ishmael,Genesis 16:16,bible,False, , , , , ,以實瑪利, , 
-Manasseh2,（瑪拿西,(Manasseh,Genesis 41:50-52,bible,False, , , , , ,（瑪拿西, , 
-Ephraim,同以法蓮）,and Ephraim), ,bible,False, , , , , ,和以法蓮）, , 
-Benjamin,本傑明,Benjamin, ,bible,False, , , , , ,便雅憫, , 
-Dan,擔,Dan,Genesis 35:23,bible,False, , , , , ,但, , 
-Naphtali,萘鞘利,Naphtali, ,bible,False, , , , , ,拿弗他利, , 
-Gad,迨,Gad, ,bible,False, , , , , ,迦得, , 
-Asher,阿瑟,Asher, ,bible,False, , , , , ,亞設, , 
-Milcah1,烏茲、布兹、凯缪尔、,"Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , ,烏斯、布斯、基母利, , 
-Milcah2,切塞德，哈佐，,"Chesed, Hazo,", ,bible,False, , , , , ,基薛，哈瑣，, , 
-Milcah3,皮尔达什，吉德拉夫,"Pildash, Jidlaph", ,bible,False, , , , , ,必達，伊拉，, , 
-Tebah,特巴,Tebah,Genesis 22:24,bible,False, , , , , ,提巴，, , 
-Gaham,加汉姆,Gaham, ,bible,False, , , , , ,迦含，, , 
-Tahash,塔哈什,Tahash, ,bible,False, , , , , ,他轄，, , 
-Maacah,馬加,Maacah, ,bible,False, , , , , ,瑪迦，, , 
-Mahalath,玛哈拉特/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , ,瑪哈拉，, , 
-Basemath,基礎·數學,Basemath,"Genesis36:3, 4",bible,False, , , , , ,巴實抹，, , 
-Reuel,鲁埃尔,Reuel,"36:13, 17",bible,False, , , , , ,流珥，, , 
-Nahath,那哈特,Nahath, ,bible,False, , , , , ,拿哈，, , 
-Zerah,泽拉,Zerah, ,bible,False, , , , , ,謝拉，, , 
-Schammah,沙瑪,Schammah, ,bible,False, , , , , ,沙瑪，, , 
-Mizzah,米扎,Mizzah, ,bible,False, , , , , ,米撒，, , 
-Adah,阿达,Adah,"36:11, 12, 15, 16",bible,False, , , , , ,亞大，, , 
-Eliphaz,以利法,Eliphaz, ,bible,False, , , , , ,以利法，, , 
-Teman,特曼,Teman, ,bible,False, , , , , ,提幔，, , 
-Omar,奥马尔,Omar, ,bible,False, , , , , ,阿馬，, , 
-Zepho,澤福,Zepho, ,bible,False, , , , , ,洗玻，, , 
-Kenaz,肯纳兹,Kenaz, ,bible,False, , , , , ,基納，, , 
-Korah,可拉,Korah, ,bible,False, , , , , ,可拉，, , 
-Korah_Gatam,科拉，加塔姆,"Korah, Gatam","Genesis 36:11, 16",bible,False, , , , , ,可拉，迦坦，, , 
-Amalek,亞瑪力人,Amalek, ,bible,False, , , , , ,亞瑪力，, , 
-Oholibamah,奥霍利巴马,Oholibamah,"36:14, 18",bible,False, , , , , ,阿何利巴瑪，, , 
-Jeush,杰什,Jeush, ,bible,False, , , , , ,耶烏施，, , 
-Jalam,贾拉姆,Jalam, ,bible,False, , , , , ,雅蘭，, , 
-Nebaioth,尼拜奧特,Nebaioth,Genesis 25:13,bible,False, , , , , ,尼拜約，, , 
-Kedar,凱達爾,Kedar, ,bible,False, , , , , ,基達，, , 
-Mishma,米什玛,Mishma, ,bible,False, , , , , ,米施瑪，, , 
-Adbeel_Mibsam,阿德比爾，米布薩姆,"Adbeel, Mibsam",Genesis 25:13,bible,False, , , , , ,亞別，米比衫，, , 
-Dumah_Massa,杜馬，馬薩,"Dumah, Massa",Genesis 25:14,bible,False, , , , , ,度瑪，瑪撒，, , 
-Hadad,哈達德,Hadad, ,bible,False, , , , , ,哈達，, , 
-Tema,特馬,Tema, ,bible,False, , , , , ,提瑪，, , 
-Jetur,杰图尔,Jetur, ,bible,False, , , , , ,伊突，, , 
-Naphish,纳菲什,Naphish, ,bible,False, , , , , ,拿非施，, , 
-Kedemah,凯德玛,Kedemah, ,bible,False, , , , , ,基底瑪，, , 
-Keturah,凱圖拉,Keturah,Genesis 25:1,bible,False, , , , , ,基土拉，, , 
-Zimran,齊姆蘭,Zimran,Genesis 25:1,bible,False, , , , , ,洗蘭，, , 
-Jokshan,約克山,Jokshan,Genesis 25:1,bible,False, , , , , ,約珊，, , 
-Medan,曼丹,Medan,Genesis 25:1,bible,False, , , , , ,米但，, , 
-Midian,米迪安,Midian,Genesis 25:1,bible,False, , , , , ,米甸，, , 
-Ishbak,伊什巴克,Ishbak,Genesis 25:1,bible,False, , , , , ,伊施巴, , 
-Shuah,舒亞,Shuah,Genesis 25:1,bible,False, , , , , ,書亞, , 
-Timna,蒂姆納,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False, , , , , ,亭拿, , 
-life-expectancy2,( 詩篇 90 : 10 ),(Psalm 90:10),2024-11-29,bible,False, , , , , ,(詩篇90:10), , 
-Ham,火腿,Ham,Gen 10:1,bible,False, , , , , ,含, , 
-Canaan,迦南,Canaan,Gen 10:6,bible,False, , , , , ,迦南, , 
-Sidon,錫頓,Sidon,Gen 10:15,bible,False, , , , , ,西頓, , 
-Heth,希斯,Heth,Gen 10:15,bible,False, , , , , ,赫, , 
-Jebusite,耶布斯蒂,Jebusite,Gen 10:16,bible,False, , , , , ,耶布斯人, , 
-Amorite,阿摩利人,Amorite,Gen 10:16,bible,False, , , , , ,亞摩利人, , 
-Girgashite,吉加西特,Girgashite,Gen 10:16,bible,False, , , , , ,革迦撒人, , 
-Hivite,希維特,Hivite,Gen 10:17,bible,False, , , , , ,希未人, , 
-Arkite,阿克特,Arkite,Gen 10:17,bible,False, , , , , ,亞基人, , 
-Sinite,西洋人,Sinite,Gen 10:17,bible,False, , , , , ,西尼人, , 
-Arvadite,阿瓦迪特,Arvadite,Gen 10:18,bible,False, , , , , ,亞瓦底人, , 
-Zemarite,澤馬里特,Zemarite,Gen 10:18,bible,False, , , , , ,洗瑪利人, , 
-Hamathite,哈馬蒂特,Hamathite,Gen 10:18,bible,False, , , , , ,哈馬人, , 
-Cush,擠塞,Cush,Gen 10:6,bible,False, , , , , ,古實, , 
-Nimrod,尼姆羅德,Nimrod,Gen 10:8,bible,False, , , , , ,寧錄, , 
-Mizraim,米茲拉姆,Mizraim,Gen 10:14,bible,False, , , , , ,麥西, , 
-Casluh,卡斯魯,Casluh,1 Chronicles 1:12 (Philistines),bible,False, , , , , ,加斯路希, , 
-Japheth,賈菲斯,Japheth,Gen 10:1,bible,False, , , , , ,雅弗, , 
-Asshur,阿屎忽,Asshur,Gen 10:22,bible,False, , , , , ,亞述, , 
-Lud,路德,Lud,Gen 10:22,bible,False, , , , , ,路低, , 
-Aram,阿拉姆,Aram,Gen 10:22,bible,False, , , , , ,亞蘭, , 
-Elam,埃蘭,Elam,Gen 10:22,bible,False, , , , , ,以攔, , 
-Joktan,約克坦,Joktan,Gen 10:26,bible,False, , , , , ,約坍, , 
-Almodad,阿爾莫達德,Almodad,Gen 10:26,bible,False, , , , , ,阿摩大, , 
-Sheleph,謝勒夫,Sheleph,Gen 10:26,bible,False, , , , , ,沙列, , 
-Hazarmaveth,哈薩馬雷斯,Hazarmaveth,Gen 10:26,bible,False, , , , , ,哈薩瑪非, , 
-Jerah,耶拉,Jerah,Gen 10:26,bible,False, , , , , ,耶拉, , 
-Hadoram,哈多拉姆,Hadoram,Gen 10:27,bible,False, , , , , ,哈多蘭, , 
-Uzal,烏扎爾,Uzal,Gen 10:27,bible,False, , , , , ,烏薩, , 
-Diklah_Obal,迪克拉，奧巴爾,"Diklah, Obal",Gen 10:27,bible,False, , , , , ,底拉、俄巴勒, , 
-Abimael,阿比馬埃爾,Abimael,Gen 10:28,bible,False, , , , , ,亞比瑪利, , 
-Sheba_Ophir,謝巴，奧菲爾,"Sheba, Ophir","Gen 10:28, 29",bible,False, , , , , ,示巴、俄斐, , 
-Havilah,哈維拉,Havilah,Gen 10:29,bible,False, , , , , ,哈腓拉, , 
-Jobab,乔巴布,Jobab,Gen 10:29,bible,False, , , , , ,約巴, , 
-Ham_fn,1) 埃及人：詩篇 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , ,1) 埃及人：詩篇105:23, , 
-Canaan_fn,2 ）迦南：約書亞 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , ,2) 迦南人：約書亞記13:3, , 
-Aram_fn,3) 阿拉伯人： 12 : 12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , ,3) 亞蘭人：何西阿書 12:12, , 
-Elam_fn,4) 精英：以斯拉 4: 9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , ,4) 以攔人：以斯拉記 4:9, , 
-Asshur_fn,5) 亞述人：以西結書 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , ,5) 亞述人：以西結書 27:23, , 
-Casluh_fn,6) 非利士： 1 慢性 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , ,6) 非利士人：歷代志上 1:12, , 
-Cush_fn,7) 埃塞俄比亞 [ 荒地 ] : 2 王 19: 9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , ,7) 古實人：列王紀下 19:9, , 
-Edom_fn,8 ）以 Edomites ： 20 : 14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False, , , , , ,8) 以東人：民數記 20:14-17, , 
-Moab_fn,9) 潮汐：申命記 23 : 3 、 4,"9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False, , , , , ,"9) 摩押人：申命記 23:3, 4", , 
-Ammon_fn,10) 安蒙石：約書亞 12:2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False, , , , , ,10) 亞捫人：約書亞記 12:2, , 
-Midian_fn,"11) 米迪亞石：數字 31:2,3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False, , , , , ,"11) 米甸人：民數記 31:2, 3", , 
-Amalek_fn,12) 阿馬利奇特： 1 撒母耳書 15: 2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False, , , , , ,12) 亞瑪力人：撒母耳記上 15:2, , 
-Teman_fn,13) 特曼石：約伯 42:7,13) Temanites: Job 42:7,2025-09-22,bible,False, , , , , ,13) 提幔人：約伯記 42:7, , 
-Sidon_fn,14) 西多尼亞人：撒迦利亞書 9: 2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , ,14) 西頓人：撒迦利亞書 9:2, , 
-Heth_fn,15) 希特人：創世記 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , ,15) 赫人：創世記 15:20, , 
-Jebusite_fn,16) 約書亞 15: 63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , ,16) 耶布斯人：約書亞記 15:63, , 
-Judith,朱迪斯？,Judith?,"Genesis 26:34, 35",bible,False, , , , , ,猶滴？, , 
-Lud_fn,17) 利迪亞人 : 1 : 1 : 17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , ,17) 呂底亞人：歷代志上 1:17, , 
-Ishmael_fn,18) 伊斯馬利派：創世記 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , ,18) 以實瑪利人：創世記 37:27, , 
-Amorite_fn,19) 阿摩利人：法官 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , ,19) 亞摩利人：士師記 6:10, , 
-Hivite_fn,20) 希維特 [ 吉峽 ] : 約書亞 9: 3 、 7,"20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , ,"20) 希未人 [基遍]：約書亞記 9:3, 7", , 
-Cain,凱恩,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , ,該隱, , 
-Abel,阿貝爾,Abel,Genesis 4:2,bible,False, , , , , ,亞伯, , 
-Irad,伊拉德,Irad,Genesis 4:18,bible,False, , , , , ,以拿, , 
-Mehujael,梅胡賈爾,Mehujael,Genesis 4:18,bible,False, , , , , ,米戶雅利, , 
-Methushael,梅圖沙爾,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , ,瑪土撒利, , 
-Jabal,賈巴爾,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , ,雅八, , 
-Jubal,朱巴爾,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , ,猶八, , 
-Zillah,齊拉,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , ,洗拉, , 
-Tubal-cain,圖巴犬,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , ,土八該隱, , 
-Naamah,納馬,Naamah,Genesis 4:22 his sister,bible,False, , , , , ,拿瑪, , 
-Rehoboam,羅波安,Rehoboam,first king of southern kingdom of Juda,A6-A,False, , , , , ,羅波安, , 
-Abijah,阿比雅（阿比雅）,Abijah (Abijam),"3 years, also Abijam",A6-A,False, , , , , ,亞比雅（亞比央）, , 
-Asa,阿薩,Asa,A6-A,A6-A,False, , , , , ,亞撒, , 
-Jehoshaphat,約沙法,Jehoshaphat, ,A6-A,False, , , , , ,約沙法, , 
-Jehoram2,約蘭,Jehoram, ,A6-A,False, , , , , ,約蘭, , 
-Ahaziah,亞哈謝,Ahaziah, ,A6-A,False, , , , , ,亞哈謝, , 
-Athaliah,亞他利雅王后,Queen Athaliah,Queen Athaliah,A6-A,False, , , , , ,亞他利雅王后, , 
-Jehoash,約阿施,Jehoash, ,A6-A,False, , , , , ,約阿施, , 
-Amaziah,亞瑪謝,Amaziah, ,A6-A,False, , , , , ,亞瑪謝, , 
-Uzziah,乌西雅（亞撒利雅）,Uzziah (Azariah),also Azariah,A6-A,False, , , , , ,烏西雅（亞撒利雅）, , 
-Jeroboam,耶羅波安,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False, , , , , ,耶羅波安, , 
-Nadab,納達布,Nadab,less than 2,A6-A,False, , , , , ,拿答, , 
-Baasha,巴沙,Baasha, ,A6-A,False, , , , , ,巴沙, , 
-Elah,以拉,Elah, ,A6-A,False, , , , , ,以拉, , 
-Zimri,齐姆里,Zimri,Only 7 days in ca. 751 BCE,A6-A,False, , , , , ,心利, , 
-OmriTibni,Omri同Tibni喺一齐,Omri and Tibni together,4 years Omri and Tibni,A6-A,False, , , , , ,暗利與提比尼共同執政, , 
-Omri,Omri （單獨）,Omri (alone),from 947 Omri alone,A6-A,False, , , , , ,暗利（單獨執政）, , 
-Ahab,亞哈,Ahab, ,A6-A,False, , , , , ,亞哈, , 
-Jehoram,約蘭,Jehoram, ,A6-A,False, , , , , ,約蘭, , 
-Jehu,耶戶,Jehu, ,A6-A,False, , , , , ,耶戶, , 
-Jeoahaz,热瓦哈兹,Jeoahaz, ,A6-A,False, , , , , ,約哈斯, , 
-JeoahazJehoash,约哈斯同约阿施,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False, , , , , ,約哈斯與約阿施, , 
-Jehoash2,約阿施（獨自一人）,Jehoash (alone),Jehoash (alone),A6-A,False, , , , , ,約阿施（單獨執政）, , 
-Jeroboam2,耶罗波安二世,Jeroboam II, ,A6-A,False, , , , , ,耶羅波安二世, , 
-Elijah,以利亞,Elijah, ,A6-A,False, , , , , ,以利亞, , 
-Elisha,以利沙,Elisha, ,A6-A,False, , , , , ,以利沙, , 
-Jonah,約拿,Jonah, ,A6-A,False, , , , , ,約拿, , 
-Amos,阿莫斯,Amos, ,A6-A,False, , , , , ,阿摩司, , 
-Joel,乔尔,Joel, ,A6-A,False, , , , , ,約珥, , 
-Jotham,约坦,Jotham,A6-B,A6-B,False, , , , , ,約坦, , 
-Ahaz,亚哈斯,Ahaz, ,A6-B,False, , , , , ,亞哈斯, , 
-Hezekiah,希西屋企,Hezekiah, ,A6-B,False, , , , , ,希西家, , 
-Manasseh,瑪拿西,Manasseh, ,A6-B,False, , , , , ,瑪拿西, , 
-Amon,阿蒙,Amon, ,A6-B,False, , , , , ,亞們, , 
-Josiah,約西亞,Josiah, ,A6-B,False, , , , , ,約西亞, , 
-Jehoahaz,约哈斯,Jehoahaz,Only 3 months,A6-B,False, , , , , ,約哈斯, , 
-Jehoiakim,約雅敬,Jehoiakim, ,A6-B,False, , , , , ,約雅敬, , 
-Jehoiachin,約雅斤,Jehoiachin,Only 3 months 10 days,A6-B,False, , , , , ,約雅斤, , 
-Zedekiah,西底家,Zedekiah, ,A6-B,False, , , , , ,西底家, , 
-Zechariah,撒迦利亞,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False, , , , , ,撒迦利亞, , 
-Schallum,沙勒姆,Schallum,only one month,A6-B,False, , , , , ,沙龍, , 
-Menahem,梅纳赫姆,Menahem, ,A6-B,False, , , , , ,米拿現, , 
-Pekahiah,佩卡希亚,Pekahiah, ,A6-B,False, , , , , ,比加轄, , 
-Pekah,佩卡,Pekah, ,A6-B,False, , , , , ,比加, , 
-Hoshea,霍謝,Hoshea,9 years from c. 748,A6-B,False, , , , , ,何細亞, , 
-Hosea,何西阿,Hosea, ,A6-B,False, , , , , ,何西阿, , 
-Isaiah,以賽亞書,Isaiah, ,A6-B,False, , , , , ,以賽亞, , 
-Micah,彌迦,Micah, ,A6-B,False, , , , , ,彌迦, , 
-Zephaniah,西番雅,Zephaniah, ,A6-B,False, , , , , ,西番雅, , 
-Nahum,果鴻,Nahum, ,A6-B,False, , , , , ,那鴻, , 
-Jeremiah,耶利米,Jeremiah, ,A6-B,False, , , , , ,耶利米, , 
-Habakuk,哈巴谷,Habakuk, ,A6-B,False, , , , , ,哈巴谷書, , 
-Daniel,丹尼尔,Daniel, ,A6-B,False, , , , , ,但以理書, , 
-Ezekiel,以西結,Ezekiel, ,A6-B,False, , , , , ,以西結書, , 
-Obadiah,俄巴底亞,Obadiah, ,A6-B,False, , , , , ,俄巴底亞書, , 
-Babylon,"但以理书 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,False, , , , , ,"但以理書 2:32, 36-38; 7:4", , 
-Medopersia,"但以理书 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,False, , , , , ,"但以理書 2:32, 39; 7:5", , 
-Greece,"但以理书 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,False, , , , , ,"但以理書 2:32, 39; 7:6", , 
-Rome,"但以理书 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,False, , , , , ,"但以理書 2:33, 40; 7:7", , 
-Angloamerica,"但以理书 2:33, 41-43","Daniel 2:33, 41-43", ,B9,False, , , , , ,"但以理書 2:33, 41-43", , 
-Babylon_c,巴比伦,Babylon, ,B9,False, , , , , ,巴比倫, , 
-Medopersia_c,米底亚－波斯,Medo-Persia, ,B9,False, , , , , ,米底亞-波斯, , 
-Greece_c,希腊,Greece, ,B9,False, , , , , ,希臘, , 
-Rome_c,罗马,Rome, ,B9,False, , , , , ,羅馬, , 
-Angloamerica_c,英美,Anglo-America, ,B9,False, , , , , ,英美世界霸權, , 
-daniel2_1,尼布甲尼撒王,King Nebuchadnezzar,607 BCE,B9,False, , , , , ,尼布甲尼撒王, , 
-daniel2_2,摧毁耶路撒冷,destroys Jerusalem,appendix B9,B9,False, , , , , ,摧毀耶路撒冷, , 
-daniel2_3,征服巴比伦,Conquers Babylon,539 BCE,B9,False, , , , , ,征服巴比倫, , 
-daniel2_4,居鲁士下旨让犹,Cyrus decrees return,537 BCE,B9,False, , , , , ,居魯士頒布諭旨, , 
-daniel2_5,太人返回耶路撒冷,of Jews to Jerusalem, ,B9,False, , , , , ,猶太人返回耶路撒冷, , 
-daniel2_6,亚历山大,Alexander the Great,331 BCE,B9,False, , , , , ,亞歷山大大帝, , 
-daniel2_7,大帝征服波斯,conquers Persia, ,B9,False, , , , , ,征服波斯, , 
-daniel2_8,开始统治以色列,Rules over Israel,63 BCE,B9,False, , , , , ,統治以色列, , 
-daniel2_9,摧毁耶路撒冷,Destroys Jerusalem,70 CE,B9,False, , , , , ,摧毀耶路撒冷, , 
-daniel2_10,第一次世界大战期间，,"During World War I,",1914-1918 CE,B9,False, , , , , ,在第一次世界大戰期間，, , 
-daniel2_11,英美世界霸权崛起,Anglo-American World Power, ,B9,False, , , , , ,英美世界霸權, , 
-daniel2_12,嚟到存在,comes into being,End 4.2,B9,False, , , , , ,成為世界霸權, , 
-607BCE,公元前 607 年,607 B.C.E.,accommodate for language,B9,False, , , , , ,公元前607年, , 
-539BCE,公元前 539 年,539 B.C.E.,systems in style:,B9,False, , , , , ,公元前539年, , 
-537BCE,公元前 537 年,537 B.C.E.,>>year 537 before time<<,B9,False, , , , , ,公元前537年, , 
-331BCE,公元前 331 年,331 B.C.E.,so they need a word,B9,False, , , , , ,公元前331年, , 
-63BCE,公元前 63 年,63 B.C.E.,prior to the year,B9,False, , , , , ,公元前63年, , 
-70CE,70 C.E.,70 C.E.,and something,B9,False, , , , , ,公元70年, , 
-1914CE,1914-1918 公元 1918 年。,1914-1918 C.E.,after the year,B9,False, , , , , ,公元1914-1918年, , 
-7times,啟示錄12：9,Revelation 12:9, ,scripture,False, , , , , ,啟示錄 12:9, , 
-infliction2,使徒行傳7：6,Acts 7:6, ,scripture,False, , , , , ,使徒行傳 7:6, , 
-eastern-zhou,公元前770-256年,770-256 BC, ,span_bc,False, , , , , ,公元前770-256年, , 
-430years,1943 年 - 公元前 1513 年。,1943 – 1513 B.C.E., ,span_bce,False, , , , , ,公元前1943-1513年, , 
-eastern-han,公元25-220年,25-220 CE, ,span_ce,False, , , , , ,公元25-220年, , 
-northern-dynasties,公元368-581年,368-581 CE, ,span_ce,False, , , , , ,公元368-581年, , 
-southern-dynasties,公元420-589年,420-589 CE, ,span_ce,False, , , , , ,公元420-589年, , 
+wilderness,曠野中嘅以色列公元前1513年至公元前1473年–40年,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False, , , , ,公元前1513年到公元前1473年以色列喺曠野 – 40年,以色列人喺曠野公元前1513年至1473年——40年,"以色列人喺曠野流浪,公元前1513年至公元前1473年——40年",以色列喺曠野 公元前1513年至1473年 – 40年
+timespan_judges,公元前1473年至公元前1117年–356年,1473 to 1117 B.C.E. – 356 years, ,text,False, , , , ,公元前1473年到公元前1117年 – 356年,公元前1473年至1117年——356年,公元前1473年至公元前1117年——356年,公元前1473年至公元前1117年 – 356年
+timespan_judges2,評委時間,Time of the judges, ,text,False, , , , ,士師時代,士師時代,士師時代,評審時間
+temple2,聖殿建成前479年–列王紀上6：1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False, , , , ,479年到聖殿建造 – 列王紀上6:1,建造聖殿之前479年——列王紀上6:1,到建聖殿為止479年——列王紀上6:1,殿宇建造之前有479年 – 列王紀上6:1
+69weeks2,彌賽亞69周–但以理書9：25,69 weeks to the Messiah – Daniel 9:25, ,text,False, , , , ,69周到彌賽亞 – 但以理書9:25,69個七出頭嘅彌賽亞——但以理書9:25,到彌賽亞為止69個七——但以理書9:25,到彌賽亞嚟到之前有69個星期──但以理書9:25
+jesus_service,服侍耶穌3.5年，于公元33年尼散月14日被處決。,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False, , , , ,耶穌服事3.5年，公元33年尼散月14號被處死,耶穌傳道3年半，喺公元33年尼散月十四日被處死,"耶穌傳道3年半,公元33年尼散月14日被處死","耶穌事奉三年半,於公元33年尼散月14日被處死。"
+jesus_life,耶穌生於公元前2年,Jesus born 2 B.C.E., ,text,False, , , , ,耶穌喺公元前2年出世,耶穌喺公元前2年出生,耶穌喺公元前2年出生,耶穌喺公元前2年出世。
+exile,公元前607年至公元前537年–70年（耶利米書25：11）,607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False, , , , ,公元前607年到公元前537年 – 70年（耶利米書25:11）,公元前607年至537年——70年（耶利米書25:11）,公元前607年至公元前537年——70年(耶利米書25:11),主前607年至主前537年 – 70年(耶利米書25:11)
+exile2,流亡,Exile, ,text,False, , , , ,流放,流放,被擄,流亡者
+7times2,7次–2520年到彌賽亞王國，公元1914年（但以理書4：23）,7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False, , , , ,7個時期 – 2520年到彌賽亞王國公元1914年（但以理書4:23）,七期——2520年至公元1914年彌賽亞王國（但以理書4:23）,7個時期——2520年直到彌賽亞王國喺公元1914年成立(但以理書4:23),七次──2520年到主前1914年嘅彌賽亞國度(但以理書4:23)
+ww1,第一次世界大戰–公元1914-1918年,World War I – 1914–1918, ,text,False, , , , ,第一次世界大戰 – 1914–1918,第一次世界大戰——1914–1918,第一次世界大戰——1914至1918年,第一次世界大戰 – 1914–1918
+ww2,第二次世界大戰–公元1939-1945年,World War II – 1939–1945, ,text,False, , , , ,第二次世界大戰 – 1939–1945,第二次世界大戰——1939–1945,第二次世界大戰——1939至1945年,第二次世界大戰 – 1939–1945
+30_year_war,歐洲三十年戰爭1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False, , , , ,歐洲三十年戰爭 1618-1648,歐洲三十年戰爭 1618-1648,歐洲三十年戰爭 1618至1648年,歐洲三十年戰爭(1618–1648)
+joshua,110岁,110 years, ,text,False, , , , ,110年,110年,110年,一百一十年
+caleb,超過85年,more than 85 years, ,text,False, , , , ,超過85年,超過85年,超過85年,超過85年
+missionary1,保羅嘅第一次傳教之旅，約公元47-48年，與巴拿巴同约翰·马可,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False, , , , ,保羅第一次傳道旅程，大約公元47-48年，同巴拿巴同埋約翰馬可一齊,保羅第一次傳道之旅，約公元47-48年，同巴拿巴同埋約翰·馬可同行,"保羅第一次傳道旅程,約公元47至48年,同巴拿巴同約翰·馬可一齊","保羅第一次宣教旅程,約公元47至48年,與巴拿巴及約翰馬可同行"
+circumcision,安提阿嘅割礼問題，約公元49年喺耶路撒冷舉行嘅會議,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False, , , , ,安提阿割禮問題，耶路撒冷會議大約公元49年,安提阿嘅割禮爭議，約公元49年耶路撒冷會議,"安提阿發生割禮問題,約公元49年喺耶路撒冷開會議","安提阿嘅割禮問題,約喺公元49年喺耶路撒冷舉行嘅會議。"
+missionary2,第二次傳教之旅，約公元49-52年，與西拉（西爾瓦努斯）,Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False, , , , ,第二次傳道旅程大約公元49-52年同西拉（西爾瓦努斯）,第二次傳道之旅，約公元49-52年，同西拉（西拉奴斯）同行,"保羅第二次傳道旅程,約公元49至52年,同西拉(西瓦努)一齊","第二次宣教旅程(約公元49至52年),與西拉(西爾凡努斯)同行"
+missionary3,第三次傳教之旅，約公元52-56年,Third Missionary Journey c. 52-56 C.E., ,text,False, , , , ,第三次傳道旅程大約公元52-56年,第三次傳道之旅，約公元52-56年,"保羅第三次傳道旅程,約公元52至56年",第三次宣教旅程(約公元52至56年)
+caesarea,保羅被關押在凱撒利亞，約公元56-58年,Paul in custody in Caesarea c. 56-58 C.E., ,text,False, , , , ,保羅喺凱撒利亞被羈留大約公元56-58年,保羅喺凱撒利亞被囚，約公元56-58年,"保羅喺凱撒利亞被扣押,約公元56至58年",保羅大約在公元56至58年於該撒利亞被拘留。
+rome1,保羅第一次被囚禁喺罗马，約公元59-61年,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False, , , , ,保羅喺羅馬第一次被囚大約公元59-61年,保羅喺羅馬第一次監禁，約公元59-61年,"保羅第一次喺羅馬被囚,約公元59至61年","保羅第一次喺羅馬嘅監禁,大約喺公元59至61年。"
+rome2,保羅第二次被囚禁在羅馬，約公元65年，提摩太后書，保羅被處決,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False, , , , ,保羅喺羅馬第二次被囚大約公元65年，寫提摩太後書，保羅被處死,保羅喺羅馬第二次監禁，約公元65年，寫提摩太後書，保羅被處死,"保羅第二次喺羅馬被囚,約公元65年,寫咗提摩太後書,保羅被處死","保羅喺大約公元65年喺羅馬第二次被監禁,寫咗《提摩太後書》,之後被處決。"
+event_exodus,公元前1513年尼散月14日出埃及記,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False, , , , ,公元前1513年尼散月14號出埃及,公元前1513年尼散月十四日出埃及,公元前1513年尼散月14日離開埃及,"公元前1513年尼散月14日,以色列人出埃及。"
+event_division_kingdom,以色列分裂公元前997年,Division of Israel 997 BCE, ,text,False, , , , ,公元前997年以色列分裂,以色列分裂 公元前997年,公元前997年以色列分裂,以色列分裂 公元前997年
+event_destruction_samaria,公元前740年撒玛利亚被亞述摧毀,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False, , , , ,公元前740年亞述滅撒馬利亞,公元前740年撒馬利亞被亞述毀滅,公元前740年撒馬利亞被亞述毀滅,"西元前740年,亞述摧毀撒瑪利亞"
+event_destruction_jerusalem1,公元前607年，巴比倫在耶路撒冷分裂390年後，耶路撒冷被巴比倫摧毀（以西結書4：5）,"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False, , , , ,公元前607年巴比倫滅耶路撒冷，王國分裂之後390年（以西結書4:5）,公元前607年耶路撒冷被巴比倫毀滅，王國分裂後390年（以西結書4:5）,"公元前607年耶路撒冷被巴比倫毀滅,即王國分裂後390年(以西結書4:5)","巴比倫於公元前607年摧毀耶路撒冷,係王國分裂後390年(以西結書4:5)"
+event_temple_rebuilt,耶路撒冷嘅聖殿重建於公元前515年。,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False, , , , ,公元前515年耶路撒冷聖殿重建,公元前515年耶路撒冷聖殿重建,公元前515年耶路撒冷聖殿重建,耶路撒冷嘅聖殿喺西元前515年重建。
+event_jerusalem_rebuilt,耶路撒冷城牆重建於公元前455年,Jerusalem wall rebuilt 455 B.C.E., ,text,False, , , , ,公元前455年耶路撒冷城牆重建,公元前455年耶路撒冷城牆重建,公元前455年耶路撒冷城牆重建,公元前455年重建耶路撒冷城牆
+event_destruction_jerusalem2,公元70年罗马喺提图斯統治下摧毀耶路撒冷,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False, , , , ,公元70年羅馬提多滅耶路撒冷,公元70年提多統率嘅羅馬軍隊毀滅耶路撒冷,公元70年耶路撒冷被羅馬人喺提多帶領下毀滅,"70年,提多領導嘅羅馬摧毀咗耶路撒冷"
+event_1914,萬國時代的終結，神嘅國度開始喺天上統治公元1914年,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False, , , , ,列國時期終結（路加福音21:24），上帝嘅王國公元1914年開始喺天堂統治,列國嘅日期滿足（路加福音21:24），上帝嘅王國喺公元1914年喺天上開始統治,"列國嘅時期結束(路加福音21:24),上帝嘅王國喺公元1914年開始喺天上掌權","列國嘅時代完結(路加福音21:24),神嘅國度喺1914年公元開始喺天上掌權。"
+became_king,,becomes king at age,2025-04-14,text,False, , , , ,喺幾多歲做王,,登基時嘅年齡,幾歲嗰陣成為國王
+vulgate,杰罗姆（ Jerome ）完成嘅通俗譯本（聖經嘅拉丁文譯本）約公元405年,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False, , , , ,公元405年左右哲羅姆完成武加大譯本（聖經拉丁文譯本）,耶柔米完成《武加大譯本》（聖經拉丁文譯本），約公元405年,哲羅姆約公元405年完成《武加大譯本》(聖經嘅拉丁文譯本),"約於公元405年,由傑羅姆完成《武加大聖經》(聖經拉丁文譯本)。"
+gutenberg,古腾堡聖經印刷1455年,Gutenberg Bible printed 1455, ,text,False, , , , ,1455年古騰堡聖經印刷,谷登堡聖經印刷 1455年,1455年印刷古騰堡聖經,1455年印刷嘅古登堡聖經
+erasmus,1516年鹿特丹嘅德西德里乌斯·伊拉斯杓（ Desiderius Erasmus ）出版嘅基督教希臘語聖經嘅希臘文本,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False, , , , ,1516年鹿特丹嘅伊拉斯謨出版希臘文基督徒希臘文聖經,鹿特丹嘅伊拉斯謨於1516年出版基督教希臘語聖經嘅希臘語文本,1516年鹿特丹嘅伊拉斯謨出版基督教希臘語經卷嘅希臘文本,羅特爾達姆嘅德西德利烏斯·伊拉斯謨1516年出版嘅基督教希臘聖經希臘文本
+luther,1522年9月路德聖經翻譯,Luther Bible translation in September 1522, ,text,False, , , , ,1522年9月路德聖經譯本,1522年9月路德聖經譯本,1522年9月路德聖經譯本,路德聖經翻譯於1522年9月
+tyndale,Tyndale 1536年嘅英文聖經翻譯,English Bible translation by Tyndale 1536, ,text,False, , , , ,1536年廷德爾英文聖經譯本,1536年丁道爾英文聖經譯本,1536年廷代爾嘅英文聖經譯本,1536年提多德英文聖經譯本
+king_james,欽定版聖經1611,King James Bible 1611, ,text,False, , , , ,詹姆士王聖經 1611,1611年欽定版聖經,1611年欽定本聖經,1611年詹姆士王聖經
+69weeks3,"耶穌在公元29年開始服侍（路加福音3：1,21）","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False, , , , ,"耶穌喺公元29年開始佢嘅事工（路加福音3:1, 21）","耶穌喺公元29年開始傳道（路加福音3:1, 21）","耶穌喺公元29年開始傳道(路加福音3:1,21)",耶穌喺公元29年開始佢嘅事工(路加福音3:1、21)
+ransom,周中≤停止獻祭桎梏但以理書9：27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False, , , , ,中期禮拜日「祭祀停止」但以理書9:27,一七之半「祭祀與供獻止息」（但以理書9:27）,"一個七嘅一半,「祭祀停止」,但以理書9:27",週中「停息犧牲」但以理書9:27
+cornelius,哥尼流在公元36年70周結束時受洗（但以理書9：24）。,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False, , , , ,哥尼流喺70個禮拜尾受浸（但以理書9:24），喺公元36年,哥尼流喺七十個七結束時（但以理書9:24）喺公元36年受浸,"公元36年,喺70個七結束時哥尼流受浸(但以理書9:24)","公元36年,喺七十周嘅結束時(但以理書9:24),哥尼流受洗。"
+columbus,1492年美洲前哥倫布時期結束,End of the pre-columbian period in the Americas 1492, ,text,False, , , , ,美洲前哥倫布時期結束 1492年,美洲前哥倫布時期結束 1492年,1492年美洲前哥倫布時期結束,美洲哥倫布前時期結束 1492年
+declaration_independence,1776年美洲13個殖民地宣佈獨立,Declaration of independence of 13 colonies in America 1776, ,text,False, , , , ,美洲13個殖民地發表獨立宣言 1776年,1776年美洲十三殖民地獨立宣言,1776年美洲13個殖民地發表獨立宣言,1776年美國十三殖民地獨立宣言
+tischendorf,Tischendorf於1844年發現咗4世紀嘅西奈抄本,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False, , , , ,Tischendorf喺1844年發現4世紀嘅《西乃抄本》,蒂申多夫喺1844年發現4世紀嘅《西奈抄本》,1844年蒂申多夫發現4世紀嘅《西奈抄本》,"1844年,蒂施恩多夫發現咗第四世紀嘅西奈抄本。"
+dead_sea_scrolls,死海古卷寫作,Dead Sea Scrolls written, ,text,False, , , , ,死海古卷寫成,死海古卷撰寫,《死海古卷》寫成,死海古卷書面
+septuagint,七十士譯本LXX翻譯,Septuagint LXX translated, ,text,False, , , , ,七十士譯本LXX翻譯完成,《七十士譯本》翻譯,《七十士譯本》翻譯完成,七十士譯本
+watchtower,1879年出版了第一期《錫安的守望台和基督同系的先驅》,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False, , , , ,《錫安守望台與基督臨在之先驅》第一期喺1879年出版,《錫安嘅守望台與基督臨在嘅號角》創刊號於1879年出版,1879年《錫安瞭望台與基督臨在的宣告者》創刊號出版,《錫安守望台及基督臨在先鋒》第一期喺1879年出版。
+jehovahs_witnesses,聖經研究者取了一個新名字——耶和華見證人。 1931年，俄亥俄州哥伦布市,"The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False, , , , ,"聖經研究者採用新名——耶和華見證人（以賽亞書43:10, 12），喺俄亥俄州哥倫布市，1931年","聖經研究者喺1931年喺俄亥俄州哥倫布市採用新名字——耶和華見證人（以賽亞書43:10, 12）","1931年喺俄亥俄州哥倫布市,聖經研究者採用新名稱——耶和華見證人(以賽亞書43:10,12)","聖經研究員喺1931年美國俄亥俄州哥倫布改名做「耶和華嘅見證人」(以賽亞43:10, 12)"
+gilead_school,守望台基列聖經學校於1943年2月1日星期一開學,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False, , , , ,守望台聖經基列學校喺1943年2月1日禮拜一開學,守望台基列聖經學校於1943年2月1號星期一開學,"1943年2月1日星期一,守望台基列聖經學校開課",吉利亞德支聯聖經學校於1943年2月1日(星期一)開始。
+new_world_translation1,1960年6月18日，《聖經新世界譯本》在英國曼徹斯特出版,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False, , , , ,《新世界譯本聖經》喺1960年6月18日喺英國曼徹斯特發行，喺聖經好多地方重新引入耶和華呢個名,《聖經新世界譯本》於1960年6月18號喺英國曼徹斯特發行，喺聖經多處重新使用耶和華呢個名字,"《聖經新世界譯本》1960年6月18日喺英國曼徹斯特發行,喺聖經好多地方重新採用耶和華嘅名","《聖經—新世界譯本》於1960年6月18日喺英國曼徹斯特發行,喺聖經好多地方重新引入「耶和華」呢個名。"
+new_world_translation2,2013年年會上修訂嘅《聖經新世界譯本》,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False, , , , ,修訂嘅《新世界譯本聖經》喺2013年年度大會發行，優化咗畀人喺數碼同網上使用,修訂版《聖經新世界譯本》喺2013年年會上發行，經過優化，方便數碼同網上使用,"修訂版《聖經新世界譯本》喺2013年周年大會發行,專為數碼同網上使用而優化","已於2013年年度大會發佈經修訂嘅《聖經新世界譯本》,並已優化以數碼形式同網上使用。"
+cold_war,1945-1991年被稱為“冷戰”嘅地緣政治局勢,Geopolitical situation labeled “Cold War” 1945-1991, ,text,False, , , , ,地緣政治形勢被稱為「冷戰」1945-1991,地緣政治局勢被稱為「冷戰」1945-1991,被稱為「冷戰」嘅地緣政治局勢 1945至1991年,政治地理局勢標籤「冷戰」1945–1991
+codex_sinaiticus,西奈抄本,Codex Sinaiticus written, ,text,False, , , , ,《西乃抄本》寫成,《西奈抄本》抄寫,《西奈抄本》寫成,西奈抄本所寫
+codex_vaticanus,梵蒂岡抄本,Codex Vaticanus written, ,text,False, , , , ,《梵蒂岡抄本》寫成,《梵蒂岡抄本》抄寫,《梵蒂岡抄本》寫成,梵蒂岡手稿所寫
+leningrad_codex,列宁格勒抄本，寫於開羅，公元1008年,Leningrad Codex written in Cairo AD 1008, ,text,False, , , , ,《列寧格勒抄本》喺公元1008年喺開羅寫成,《列寧格勒抄本》喺公元1008年喺開羅抄寫,《列寧格勒抄本》公元1008年喺開羅寫成,"列寧格勒法典,公元1008年喺開羅所寫"
+john,約翰在公元96-98年被擄到拔摩島時寫下了“啟示錄”。,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False, , , , ,約翰喺96-98年被流放帕特莫斯島期間寫成《啟示錄》,約翰喺流放拔摩島期間寫成《啟示錄》，公元96-98年,"約翰被流放到拔摩島期間寫《啟示錄》,公元96至98年",約翰於公元96至98年被流放到拔摩島期間寫成《啟示錄》。
+buddha,佛陀–悉达多·乔达摩c.563-c.483 B.C.E,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False, , , , ,佛陀——悉達多·喬達摩 約公元前563-前483年,佛陀——釋迦牟尼 約公元前563-約公元前483年,"佛陀——悉達多·喬達摩,約公元前563年至約公元前483年","佛陀──悉達多·瞿曇,約西元前563年至前483年"
+buddha2,佛陀約公元前480-400年,Buddha alternatively c. 480-400 B.C.E., ,text,False, , , , ,佛陀另一說法 約公元前480-前400年,佛陀另一説法約公元前480-400年,佛陀另一說法約公元前480年至400年,佛陀大約公元前480年至400年
+mohammed,穆罕默德，約公元570-632年,Mohammed c. 570-632, ,text,False, , , , ,穆罕默德 約公元570-632年,穆罕默德 約公元570-632年,穆罕默德 約570至632年,穆罕默德 約570–632
+confucius,孔子，約公元前551年—約公元前479年,Confucius c.551-c.479 B.C.E., ,text,False, , , , ,孔子 約公元前551-前479年,孔子 約公元前551-約公元前479年,孔子 約公元前551年至約公元前479年,孔子約公元前551年至公元前479年
+hijrah,希吉拉-麥加之旅到麥地622年7月16日,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False, , , , ,希吉拉——從麥加到麥地那之旅 622年7月16日,希吉拉——麥加遷往麥地那之旅 622年7月16號,"聖遷——由麥加去麥地那嘅旅程,622年7月16日",希吉拉 – 由麥加到麥地那的旅程 622年7月16日
+moses_escape,公元前1553年，摩西必須逃離埃及——出埃及記2：15，使徒行傳7：23,"1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False, , , , ,公元前1553年 摩西要逃出埃及——出埃及記2:15，使徒行傳7:23,公元前1553年摩西被迫逃離埃及——出埃及記2:15，使徒行傳7:23,"公元前1553年摩西要逃離埃及——出埃及記2:15,使徒行傳7:23","西元前1553年,摩西要逃離埃及──出埃及記2:15、使徒行傳7:23"
+10plagues,公元前1513年，埃及遭遇10次瘟疫,1513 B.C.E Egypt receives 10 plagues, ,text,False, , , , ,公元前1513年 埃及遭受10個災殃,公元前1513年埃及遭受十災,公元前1513年埃及遭受10災,"公元前1513年,埃及遭受十災。"
+joseph_sold,約瑟在17歲時被賣為奴隸——創世記37：2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False, , , , ,約瑟17歲被賣為奴——創世記37:2,約瑟喺17歲嗰陣被賣為奴——創世記37:2,約瑟17歲時被賣做奴隸——創世記37:2,約瑟十七歲嗰陣俾人賣做奴隸——創世記37:2
+infliction,400年的苦難（使徒行傳7：6）—以實瑪利，公元前1913年，公元前,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False, , , , ,400年苦待（使徒行傳7:6）——以實瑪利 公元前1913年,400年苦害（使徒行傳7:6）——以實瑪利 公元前1913年,400年嘅苦害(使徒行傳7:6)——以實瑪利 公元前1913年,"四百年嘅刑罰(使徒行傳7:6)──以實瑪利,公元前1913年"
+Alexander,亞歷山大大帝（但以理書11：3 ）,Alexander the Great (Daniel 11:3), ,text,False, , , , ,亞歷山大大帝（但以理書11:3）,亞歷山大大帝（但以理書11:3）,亞歷山大大帝(但以理書11:3),亞歷山大大帝(但以理書11:3)
+persia,居魯士大帝，岡比西斯二世，大流士一世公元前490年，薛西斯一世公元前480年（以斯帖嘅老公，但以理書11：2 ）,"Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False, , , , ,居魯士大帝、岡比西斯二世、大流士一世 公元前490年、薛西斯一世 公元前480年（以斯帖嘅丈夫，但以理書11:2）,居魯士大帝、岡比西斯二世、大流士一世公元前490年、薛西斯一世公元前480年（以斯帖嘅丈夫，但以理書11:2）,"居魯士大帝、岡比西斯二世、大流士一世(公元前490年)、薛西一世(公元前480年)(以斯帖嘅丈夫,但以理書11:2)","大流士大帝、喀姆比塞斯二世、大流士一世(前490年)、薛西斯一世(前480年)(以斯帖嘅丈夫,但以理書11:2)"
+king_north,"塞琉古一世尼卡托（ v5 ）敘利亞到安條克三世（ v10 ）同塞琉古四世（ v18,19 ）落到屋大維（ v20 ）同提比略（ v21-24 ）","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False, , , , ,"塞琉古一世尼卡托（5節）敘利亞到安條克三世（10節）同塞琉古四世（18, 19節）一直到屋大維（20節）同提庇留（21-24節）",塞琉古一世「勝利者」（第5節）敘利亞，至安提阿古三世（第10節）同塞琉古四世（第18、19節），以至屋大維（第20節）同提庇留（第21-24節）,"塞琉古一世尼卡托(5節)嘅敘利亞,到安提阿古三世(10節)同塞琉古四世(18、19節),一直到屋大維(20節)同提庇留(21至24節)",塞琉古一世·尼卡托(v5)→安條克三世(v10)及塞琉古四世(v18、19)→到奧古斯都(v20)及提比略(v21–24)
+king_north1,北方之王,King of the North, ,text,False, , , , ,北方之王,北方王,北方王,北方之王
+king_south,托勒密一世、二世、三世、四世（ 11、12節）、五世（ 15節、16節）到公元前31年嘅戰鬥Actium,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False, , , , ,"托勒密一世、二世、三世、四世（11, 12節）、五世（15, 16節）到公元前31年亞克興海戰",托勒密一世、二世、三世、四世（第11、12節）、五世（第15、16節）至公元前31年亞克興角海戰,"托勒密一世、二世、三世、四世(11、12節)、五世(15、16節),到公元前31年亞克興戰役",托勒密一世、二世、三世、四世(v11、v12)、五世(v15、v16)到前31年阿克提姆海戰
+king_south1,南方之王,King of the South, ,text,False, , , , ,南方之王,南方王,南方王,南方之王
+king_south2,1870年大英帝国嘅，1914年以來嘅英美世界強國,"British Empire 1870, Anglo-American World Power since 1914", ,text,False, , , , ,大英帝國1870年，自1914年起嘅英美世界強權,大英帝國 1870年，英美世界霸權自1914年起,"大英帝國 1870年,自1914年起係英美世界強國","英國帝國1870年,1914年以嚟嘅英美世界霸權"
+king_south3,南方之王,King of the South, ,text,False, , , , ,南方之王,南方王,南方王,南方之王
+king_north2,德國與威廉一世皇帝1871 （v28）、1914 （v29）、1935 （v30b）、1939 （v31a）,"Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False, , , , ,德國同威廉一世皇帝1871年（28節）、1914年（29節）、1935年（30下節）、1939年（31上節）,德意志帝國與威廉一世 1871年（第28節）、1914年（第29節）、1935年（第30節下）、1939年（第31節上）,"德國同威廉一世皇帝 1871年(28節),1914年(29節),1935年(30節下半),1939年(31節上半)",德國威廉一世1871年(v28)、1914年(v29)、1935年(v30b)、1939年(v31a)
+king_north3,北,North, ,text,False, , , , ,北,北方,北方,北
+king_north4,"蘇聯1945-1991 （但以理書11：32-39,40b，41 ）","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False, , , , ,"蘇聯1945-1991（但以理書11:32-39, 40下, 41）","蘇聯 1945-1991（但以理書11:32-39, 40下, 41）","蘇聯 1945至1991年(但以理書11:32-39,40節下半,41節)",蘇聯 1945-1991(但以理書11:32-39、40b、41)
+king_north5,俄羅斯自2017年以來（ w20 May ）,Russia since 2017 (w20 May), ,text,False, , , , ,2017年以來嘅俄羅斯（w20 5月）,俄羅斯自2017年起（守20.05）,俄羅斯 自2017年起(《守望台》2020年5月號),俄羅斯自2017年(截至5月20日)
+time_of_end,基督的同在，事物制度的終結（馬太福音24：3），末世（提摩太后書3：1）,"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False, , , , ,基督臨在，制度嘅結束（馬太福音24:3），末日（提摩太後書3:1）,基督嘅臨在、事物體系嘅末期（馬太福音24:3）、最後嘅日子（提摩太後書3:1）,基督嘅臨在、事物制度嘅末期(馬太福音24:3)、末世(提摩太後書3:1),"基督嘅臨在,萬有制度嘅結局(馬太福音24:3),末世(提摩太後書3:1)"
+time_of_end2,最後幾日,Last days, ,text,False, , , , ,末日,最後嘅日子,末世,末日
+suryavaman2,苏里亚跋摩二世國王建造吳哥窟1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False, , , , ,蘇利耶跋摩二世國王喺1113-1150年間修建吳哥窟,蘇利耶拔摩二世興建吳哥窟 1113-1150,蘇耶跋摩二世喺1113至1150年建造吳哥窟,蘇利耶跋摩二世喺1113年至1150年期間興建吳哥寺
+notre-dame,巴黎聖母院建於1163-1260年,Notre-Dame de Paris built 1163-1260, ,text,False, , , , ,巴黎聖母院喺1163-1260年間建成,巴黎聖母院興建 1163-1260,巴黎聖母院 1163至1260年興建,巴黎聖母院建於1163年至1260年
+babel,巴别塔建成,Tower of Babel built, ,text,False, , , , ,巴別塔建成,巴別塔興建,巴別塔建成,巴別塔建咗
+infliction1,400年受害,400 year infliction,Acts 7:6,text,False, , , , ,400年苦待,400年苦害,400年嘅苦害,四百年嘅折磨
+Lots_wife,羅得的妻子,Lot’s wife, ,text,False, , , , ,羅得嘅老婆,羅得嘅妻子,羅得嘅妻子,羅得嘅老婆
+Lots_daughters,羅得的女兒,Daughters of Lot, ,text,False, , , , ,羅得嘅女兒,羅得嘅女兒,羅得嘅女兒,羅得嘅女兒
+Moab,摩押（大女）,Moab (older daughter),Genesis 19:37,text,False, , , , ,摩押（年長嘅女）,摩押（大女兒）,摩押(大女兒),摩押(大女)
+rosetta,罗塞塔石碑公元前196年,Rosetta stone 196 B.C.E., ,text,False, , , , ,羅塞塔石碑 公元前196年,羅塞塔石碑 公元前196年,羅塞塔石碑 公元前196年,羅塞塔石碑 公元前196年
+Herodotus,希罗多德約公元前484年–約公元前425年，撰寫《歷史》,"Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False, , , , ,希羅多德 約公元前484 – 約公元前425年，寫《歷史》,希羅多德 約公元前484年–約公元前425年，撰寫《歷史》,"希羅多德 約公元前484年至約公元前425年,著《歷史》","希羅多德(約前484年–約前425年),寫咗《歷史》"
+Aristotle,亚里士多德384–公元前322年,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False, , , , ,亞里士多德 公元前384 – 公元前322年,亞里士多德 公元前384年–公元前322年,亞里士多德 公元前384年至322年,亞里斯多德 西元前384–322
+Ptolemy,托勒密c 100–c. 170 C.E.,Ptolemy c 100 – c. 170 C.E., ,text,False, , , , ,托勒密 約公元100 – 約公元170年,托勒密 約公元100年–約公元170年,托勒密 約公元100年至約170年,托勒密約100年至約170年
+Pythagoras,畢達哥拉斯，約公元前570年-約公元前495年,Pythagoras c. 570 – c. 495 BC, ,text,False, , , , ,畢達哥拉斯 約公元前570 – 約公元前495年,畢達哥拉斯 約公元前570年–約公元前495年,畢達哥拉斯 約公元前570年至約公元前495年,畢達哥拉斯 約前570年 – 約前495年
+Plato,柏拉图約公元前427年–約公元前348年,Plato c. 427 – c. 348 BC, ,text,False, , , , ,柏拉圖 約公元前427 – 約公元前348年,柏拉圖 約公元前427年–約公元前348年,柏拉圖 約公元前427年至約公元前348年,柏拉圖 約西元前427年至約西元前348年
+Socrates,苏格拉底約公元前470年–約公元前399年,Socrates c. 470 – c. 399 BC, ,text,False, , , , ,蘇格拉底 約公元前470 – 約公元前399年,蘇格拉底 約公元前470年–約公元前399年,蘇格拉底 約公元前470年至約公元前399年,蘇格拉底 約西元前470年至約前399年
+Josephus,約瑟夫斯約公元37年-約公元100年,Josephus c. 37 – c. 100 C.E., ,text,False, , , , ,約瑟夫斯 約公元37 – 約公元100年,約瑟夫斯 約公元37年–約公元100年,約瑟夫斯 約公元37年至約100年,約瑟夫斯約公元37年至100年
+Cicero,西塞罗公元前106-43年,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False, , , , ,西塞羅 公元前106 – 公元前43年,西塞羅 公元前106年–公元前43年,西塞羅 公元前106年至43年,西塞羅 公元前106–43
+lachish_letters,約公元前590年嘅拉奇字母,Lachish letters c. 590 B.C.E., ,text,False, , , , ,拉吉書信 約公元前590年,拉基書信 約公元前590年,拉吉書信 約公元前590年,"拉吉什信件,約公元前590年"
+lachish_reliefs,拉奇浮雕，約公元前681年,Lachish reliefs c. 681 B.C.E., ,text,False, , , , ,拉吉浮雕 約公元前681年,拉基浮雕 約公元前681年,拉吉浮雕 約公元前681年,"拉吉什浮雕,約公元前681年"
+mesha_stele,米沙石碑（摩押石），約公元前840年,Mesha Stele (Moabite stone) c. 840 B.C.E.,w25/12 study article 50 paragraph 6,text,False, , , , ,米沙石碑（摩押石） 約公元前840年,米沙石碑（摩押石碑）約公元前840年,米沙石碑(摩押石碑) 約公元前840年,米所亞石碑(摩押石碑)約公元前840年
+gilgamesh,吉爾伽美什和阿迦𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False, , , , ,吉爾伽美什和阿加 𒇽𒆥𒄄𒀀𒀝𒂵,吉爾伽美什與阿加 𒇽𒆥𒄄𒀀𒀝𒂵,吉爾伽美什與阿伽 𒇽𒆥𒄄𒀀𒀝𒂵,吉爾伽美什同阿加 𒇽𒆥𒄄𒀀𒀝𒂵
+epic_gilgamesh,吉爾伽美什史詩（Són-lóqi-unninni）,Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False, , , , ,吉爾伽美什史詩（辛-雷奇-烏寧尼）,《吉爾伽美什史詩》（辛·里奇·烏尼尼）,吉爾伽美什史詩(辛·萊基·溫尼尼),吉爾伽美什史詩(Sîn-lēqi-unninni)
+gregorian,公曆1582,Gregorian calendar 1582, ,text,False, , , , ,格里高利曆 1582年,公曆 1582年,公曆(格里高利曆) 1582年,格里高利曆1582年
+shang-dynasty,約公元前1600-1046年,c. 1600-1046 BC, ,text,False, , , , ,約公元前1600-1046年,約公元前1600年-前1046年,約公元前1600年至1046年,約公元前1600年至1046年
+western-zhou,約公元前1046-771年,c. 1046-771 BC, ,text,False, , , , ,約公元前1046-771年,約公元前1046年-前771年,約公元前1046年至771年,約公元前1046年至771年
+qin-dynasty,秦 公元前221-207年,Qin 221-207 BC, ,text,False, , , , ,秦 公元前221-207年,秦朝 公元前221年-前207年,秦朝 公元前221年至207年,秦(前221–前207)
+western-han,公元前207年–公元9年,207 BC – 9 CE, ,text,False, , , , ,公元前207年 – 公元9年,公元前207年–公元9年,公元前207年至公元9年,西元前207年 – 西元9年
+three-kingdoms,三國公元220-280年,Three kingdoms 220-280 CE, ,text,False, , , , ,三國 公元220-280年,三國 公元220年-280年,三國 公元220年至280年,三國時期 220–280 年
+sixteen-kingdoms,十六國公元304-439年,Sixteen kingdoms 304-439 CE, ,text,False, , , , ,十六國 公元304-439年,十六國 公元304年-439年,十六國 公元304年至439年,十六國(304–439年)
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False, , , , ,618-690、705-907年,公元618年-690年、705年-907年,618年至690年、705年至907年,"618-690,705-907"
+wu-zhou,690-705吴周,690-705 Wu Zhou, ,text,False, , , , ,690-705年 武周,公元690年-705年 武周,690年至705年 武周,690-705 武周
+tang-dynasty1_c,柄腳,Tang, ,text,False, , , , ,唐朝,唐朝,唐朝,唐
+gonghe,巩河攝政公元前841-828年,Gonghe Regency 841-828 BC, ,text,False, , , , ,共和攝政 公元前841-828年,共和行政 公元前841年-前828年,共和行政 公元前841年至828年,共侯執政期 公元前841–828年
+Ashoka,阿育王（約公元前304-232年）推廣佛教,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False, , , , ,阿育王（約公元前304-232年）推廣佛教,阿育王（約公元前304年-前232年）推廣佛教,阿育王(約公元前304年至232年)弘揚佛教,阿育王(約前304至前232年)推廣佛教
+siloam-tunnel,希西屋企擴建西罗亚隧道,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False, , , , ,希西家延長西羅亞水道,希西家擴建西羅亞水道,希西家開鑿西羅亞水道,希西家擴建西羅亞隧道
+Angloamerica2,但以理書2：33緊，41-43嘅預言中，英美人以鐵腳與粘土混合為象徵,"Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False, , , , ,英美以腳像鐵與泥混合來象徵（但以理書2:33、41-43）,"英美世界強國喺但以理書2:33, 41-43嘅預言裏面，用半鐵半泥嘅腳嚟象徵","在但以理書2章33、41至43節的預言裏,英美世界強國由混着泥土的鐵腳象徵","英美聯盟喺但以理書2:33、41-43嘅預言入面,用鐵腳拌泥嚟象徵。"
+Manetho,Manetho寫道Aegyptiaca,Manetho writes Aegyptiaca, ,text,False, , , , ,馬涅托寫《埃及史》,曼涅托撰寫《埃及史》,馬內托撰寫《埃及史》,馬內通寫咗《埃及志》
+destruction_babylon,"大巴比倫的毀滅（啟示錄17：3,15-18;18：9,10）","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False, , , , ,大巴比倫的毀滅（啟示錄17:3、15-18；18:9、10）,"大巴比倫嘅毀滅（啟示錄 17:3, 15-18；18:9, 10）","大巴比倫被毀滅(啟示錄17:3,15至18;18:9,10)","大巴比倫嘅毀滅(啟示錄17:3, 15-18;18:9, 10)"
+peace_security,「和平同安全！」 （帖撒羅尼迦前書5:3，呢個係其中一個可能性， QfR 26/2，25/11）,"“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)","one possibility, see Questions from Readers",text,False, , , , ,「和平與安全！」（帖撒羅尼迦前書5:3，這是一個可能性，《儆醒！》26/2、25/11）,"「和平同安全！」（帖撒羅尼迦前書 5:3，呢個係其中一個可能性，QfR 26/2, 25/11）","「平安穩妥!」(帖撒羅尼迦前書5:3,這是其中一個可能性,《讀者來函》26/2、25/11)","「平安同安全!」(帖撒羅尼迦前書5:3,呢個係一個可能性,QfR 26/2,25/11)"
+gog_of_magog,"瑪各歌革的攻擊（以西結書38：1,2,9-12,18-23）","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False, , , , ,歌革和瑪各的攻擊（以西結書38:1、2、9-12、18-23）,"瑪各地區嘅歌革嘅攻擊（以西結書 38:1, 2, 9-12, 18-23）","瑪各地的歌革發動攻擊(以西結書38:1,2,9至12,18至23)","瑪各聯盟的攻擊(以西結書38:1-2, 9-12, 18-23)"
+sheep_goat,地上的居民將受到審判，將綿羊和山羊分開（馬太福音25：31-33）,"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False, , , , ,地上居民受審，分離綿羊和山羊（馬太福音25:31-33）,地上嘅居民受審判，分開綿羊同山羊（馬太福音 25:31-33）,"地上的居民受審判,分出綿羊和山羊(馬太福音25:31至33)","地上的居民要受審判,把羊同山羊分開(馬太福音25:31-33)"
+annointed,王國統治者聚會 ( 馬太福音 24 : 31 ; 哥林多前書 15 : 50-53 ; 塞薩洛尼亞 4: 15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False, , , , ,王國統治者被聚集（馬太福音24:31；哥林多前書15:50-53；帖撒羅尼迦前書4:15-17）,王國統治者嘅聚集（馬太福音 24:31；哥林多前書 15:50-53；帖撒羅尼迦前書 4:15-17）,王國統治者被聚集起來(馬太福音24:31;哥林多前書15:50至53;帖撒羅尼迦前書4:15至17),國度掌權者嘅聚集(馬太福音24:31;哥林多前書15:50-53;帖撒羅尼迦前書4:15-17)
+armageddon,"阿馬德多之戰 ( 啟示錄 16 : 14,16 ; 以賽亞書 13: 9 ; 彼得前書 3: 12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False, , , , ,哈米吉多頓大戰（啟示錄16:14、16；以賽亞書13:9；彼得後書3:12）,"哈米吉多頓之戰（啟示錄 16:14, 16；以賽亞書 13:9；彼得後書 3:12）","哈米吉多頓大戰(啟示錄16:14,16;以賽亞書13:9;彼得後書3:12)","哈米吉多頓之戰(啟示錄16:14,16;以賽亞書13:9;彼得後書3:12)"
+millenium,"神國開 1000 年統治 ( 啟示錄 5 : 9,10 ; 20 : 4,6 )","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False, , , , ,上帝的國度開始其1000年統治（啟示錄5:9、10；20:4、6）,"上帝嘅王國開始千年統治（啟示錄 5:9, 10；20:4, 6）","上帝的王國開始統治一千年(啟示錄5:9,10;20:4,6)","上帝嘅國度開始佢嘅千禧年統治(啟示錄5:9, 10;20:4, 6)"
+great_crowd,"一眾人群捱過阿瑪吉多頓 ( 啟示錄 7: 9,14 ; 詩篇 37: 9-11 )","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False, , , , ,大群人從哈米吉多頓存留下來（啟示錄7:9、14；詩篇37:9-11）,"大群人喺哈米吉多頓生還（啟示錄 7:9, 14；詩篇 37:9-11）","大群人在哈米吉多頓中存活下來(啟示錄7:9,14;詩篇37:9至11)","一大群人喺哈米吉多頓大災難中得救(啟示錄7:9,14;詩篇37:9-11)"
+world_population,過去 2000 年，世界人口係幾十億,World population in billions in the last 2000 years, ,text,False, , , , ,過去2000年世界人口（以十億計）,過去2000年世界人口（以十億計）,過去2000年的世界人口(以十億計),過去2000年世界人口以十億計
+khmer_empire_c,高棉帝國 - 吳哥時期,Khmer Empire - Angkor period, ,text,False, , , , ,高棉帝國 - 吳哥時期,高棉帝國 - 吳哥時期,高棉帝國——吳哥時期,高棉帝國 - 吳哥時期
+holy_roman_empire_c,聖羅馬帝國 – 1512 年後，被稱為德國民族聖羅馬帝國,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False, , , , ,神聖羅馬帝國 – 1512年後稱為德意志民族神聖羅馬帝國,神聖羅馬帝國 – 1512年後被稱為德意志民族神聖羅馬帝國,神聖羅馬帝國——1512年後稱為德意志民族神聖羅馬帝國,神聖羅馬帝國——1512年後稱為「德意志民族的神聖羅馬帝國」
+mongol_empire,蒙古帝國 1206 – 1294,Mongol Empire 1206 – 1294, ,text,False, , , , ,蒙古帝國 1206 – 1294年,蒙古帝國 1206年–1294年,蒙古帝國 1206年至1294年,蒙古帝國1206–1294
+maya_classic_c,瑪雅文明 – 經典時期,Maya civilization – Classic period, ,text,False, , , , ,瑪雅文明 – 古典期,瑪雅文明 – 古典期,瑪雅文明——古典時期,瑪雅文明 – 古典期
+maya_postclassic_c,瑪雅文明 – 經典後時期,Maya civilization – Postclassic period, ,text,False, , , , ,瑪雅文明 – 後古典期,瑪雅文明 – 後古典期,瑪雅文明——後古典時期,瑪雅文明 – 後古典期
+Teotihuacan,美洲最大嘅城市，金字塔係建造 c. 200 C.E.,"Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False, , , , ,美洲最大城市，金字塔約建於公元200年,美洲最大城市，金字塔建於約公元200年,"美洲最大城市,金字塔建於約公元200年","美洲最大嘅城市,金字塔大約建於公元200年。"
+Dionysius_Exiguus,迪奧尼西修斯 · 埃克斯古斯，安諾 · 多米尼發明家,"Dionysius Exiguus, inventor of Anno Domini", ,text,False, , , , ,狄奧尼修斯·小發明主曆（公元紀年）,狄奧尼修斯·伊西格斯，公元紀年嘅創始人,"狄奧尼修斯·埃克西古斯,公元紀年的創立者","狄奧尼修斯·埃克西古斯,公元紀年嘅創始人"
+Umayyad_c,烏馬雅,Umayyad, ,text,False, , , , ,伍麥葉王朝,倭馬亞王朝,倭馬亞王朝,烏邁亞
+ur3,Ur III 王朝 𝋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False, , , , ,烏爾第三王朝 𒋀𒀕𒆠,烏爾第三王朝 𒋀𒀕𒆠,烏爾第三王朝 𒋀𒀕𒆠,烏爾第三王朝 𒋀𒀕𒆠
+hammurabi,哈穆拉比 𒄩 𝄠 𝊏,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False, , , , ,漢摩拉比 𒄩𒄠𒈬𒊏𒁉,漢謨拉比,漢謨拉比 𒄩𒄠𒈬𒊏𒁉,漢摩拉比 𒄩𒄠𒈬𒊏𒁉
+Al-Khwarizmi,阿爾 - 克瓦利茲米寫道阿爾 · 賈布爾 ( 代數 ),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False, , , , ,花拉子米寫《代數學》,花剌子模編寫《代數學》（Al-Jabr）,花拉子米撰寫《代數學》,花拉子米寫咗《代數》
+al-azhar,阿扎爾大學係開羅成立,Al-Azhar University is established in Cairo, ,text,False, , , , ,愛資哈爾大學在開羅成立,愛資哈爾大學在開羅成立,愛資哈爾大學在開羅創立,阿茲哈爾大學設於開羅
+Ibn-Sina,伊本新浪或阿維塞納,Ibn Sina or Avicenna, ,text,False, , , , ,伊本·西那或阿維森納,伊本·西那或阿維森納,伊本·西那(阿維森納),伊本·西那或阿維森納
+life-expectancy,壽命 75 歲,Life expectancy 75 years, ,text,False, , , , ,預期壽命 75 年,平均壽命75歲,預期壽命75歲,預期壽命75歲
+430years_c,430 歲：出埃及記 12 : 41 ，加拉太書 3 : 17,"430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False, , , , ,430 年：出埃及記 12:41，加拉太書 3:17,四百三十年：出埃及記12:41，加拉太書3:17,"430年:出埃及記12:41,加拉太書3:17","430年:出埃及記12:41,加拉太書3:17"
+maya_calendar,"計算由瑪雅曆開始 8 月 11 日 ,3114 年公元前 3114 年。","Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False, , , , ,瑪雅曆計算起始公元前 3114 年 8 月 11 日,瑪雅曆法計算出的起始日期為西元前3114年8月11日,推算的瑪雅曆法起點:公元前3114年8月11日,推算瑪雅曆法始於公元前3114年8月11日。
+xia-dynasty2,c . 2070 – c 。公元前 1600 年 ;時代先係西周時期暗示,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False, , , , ,約公元前 2070 – 公元前 1600 年；呢個時代最早係喺西周時期提及,約西元前2070年至前1600年；西周時期首次提及該時代,約公元前2070年至約公元前1600年;這個時代最早在西周時期被提及,約公元前2070年至約公元前1600年;西周時期首次提及
+xia-dynasty2_c,中國中國王朝,Xia dynasty in China, ,text,False, , , , ,中國夏朝,中國夏朝,中國夏朝,中國嘅夏朝
+tres_zapotes,9 月 3 日，公元前 32 年。,"September 3rd, 32 B.C.E.",2024-12-31,text,False, , , , ,公元前 32 年 9 月 3 日,西元前32年9月3日,公元前32年9月3日,公元前32年9月3日
+joseph_jacob_reunited,約瑟同雅各喺埃及團聚 – 公元前 1728 年（世代 45 : 11 ； 47 : 9 ）,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False, , , , ,約瑟同雅各喺埃及團聚 – 公元前 1728 年（創世記 45:11；47:9）,約瑟與雅各在埃及重逢 – 西元前1728年（創世記45:11；47:9）,約瑟和雅各在埃及重聚——公元前1728年(創世記45:11;47:9),約瑟同雅各喺埃及重聚──公元前1728年(創世記45:11;47:9)
+king_south_light_c,丹尼爾 11 嘅南方王,King of the South from Daniel 11,2025-02-05,text,False, , , , ,但以理書 11 章嘅南方王,但以理書第11章中的南方王,但以理書11章的南方王,但以理書第十一章南方之王
+king_north_light_c,北從丹尼爾 11,King of the North from Daniel 11,2025-02-05,text,False, , , , ,但以理書 11 章嘅北方王,但以理書第11章中的北方王,但以理書11章的北方王,但以理書第十一章的北方之王
+daniel2_iron_c,丹尼爾 2 嘅鐵腳,Iron legs from Daniel 2,2025-02-05,text,False, , , , ,但以理書 2 章嘅鐵腿,但以理書第2章中的鐵腿,但以理書2章的鐵腿,但以理書第二章嘅鐵腿
+argenteus,阿根廷科德克斯 c. 505,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False, , , , ,Codex Argenteus 約公元 505 年,銀法典，約西元505年,銀色抄本 約公元505年,銀典約505年
+nguyen_dynasty_c,古伊 · 納,Nguyễn,2025-09-20,text,False, , , , ,阮,阮氏,阮朝,阮
+edo_c,日本江戶期,Edo period in Japan,Edo period (Tokugawa shogunate),text,False, , , , ,日本江戶時代,日本江戶時代,日本江戶時代,日本嘅江戶時期
+meiji_c,明治,Meiji,2025-09-20,text,False, , , , ,明治,明治,明治,明治
+american_civil_war,美國內戰 1861-1865 年,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False, , , , ,美國內戰 1861-1865,美國內戰 1861-1865,美國內戰 1861年至1865年,美國南北戰爭 1861-1865
+aleppo_codex,阿勒波科德克斯 c. 920,Aleppo Codex c. 920,2025-10-03,text,False, , , , ,阿勒頗抄本 約公元 920 年,阿勒頗抄本，約西元920年,阿勒頗抄本 約公元920年,"阿勒坡聖經手稿,約920年"
+vandals,破壞者王國與阿蘭斯 435-534,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False, , , , ,汪達爾同阿蘭王國 公元 435 – 534,汪達爾-阿蘭王國 435 – 534年,汪達爾與阿蘭王國 435年至534年,汪達爾人同阿蘭人王國 435 – 534
+francia,"c . 481/509 – 843, 梅羅文人到 751, 之後係卡羅林人","c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False, , , , ,約公元 481/509 – 843 年，墨洛溫王朝至 751 年，然後加洛林王朝,約西元481/509 – 843年，墨洛溫王朝至751年，隨後為卡洛林王朝,"約481/509年至843年,751年前為墨洛溫王朝,之後為加洛林王朝","約481/509–843年,至751年為墨洛溫王朝,之後為卡洛林王朝"
+francia_c,法蘭克王國,Kingdom of the Franks, ,text,False, , , , ,法蘭克王國,法蘭克王國,法蘭克王國,法蘭克王國
+100_years_war,百年戰爭 1337 年 -1453 年,Hundred Years’ War 1337 – 1453,1337–1453,text,False, , , , ,百年戰爭 公元 1337 – 1453 年,百年戰爭 1337 – 1453年,百年戰爭 1337年至1453年,百年戰爭 1337 – 1453
+black_death,黑色死亡 1346-1353,Black death 1346-1353,1346-1353,text,False, , , , ,黑死病 公元 1346-1353 年,黑死病 1346-1353年,黑死病 1346年至1353年,黑死病 1346–1353
+sui_dynasty,581-618 隋王朝,581-618 Sui dynasty,2025-11-09,text,False, , , , ,581-618 隋朝,581-618年隋朝,581年至618年 隋朝,581–618年隋朝
+sui_dynasty_c,隋,Sui,2025-11-09,text,False, , , , ,隋,隋,隋朝,隨
+tribulation,"大災難（馬可福音13：19; 但以理書12：1; 馬太福音24：21,22）","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False, , , , ,"大患難（馬可福音 13:19；但以理書 12:1；馬太福音 24:21, 22）","大災難（馬可福音13:19；但以理書12:1；馬太福音24:21, 22）","大災難(馬可福音13:19;但以理書12:1;馬太福音24:21,22)",大患難(馬可福音13:19;但以理書12:1;馬太福音24:21-22)
+timeline_created,"呢條時間綫創建于2023年，係人類歷史上最熱的一年，也是過去125,000年","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False, , , , ,"呢個時間線創建喺 2023 年，人類歷史上最熱嘅一年，亦係過去 125,000 年嚟最熱嘅一年",此時間軸創建於2023年，這是人類歷史及過去12萬5千年以來最熱的一年,"這份時間線製作於2023年,那是人類歷史上也是過去12萬5000年來最熱的一年","呢條時間線喺2023年建立,呢年係人類歷史上最熱嘅一年,同時係過去125,000年嚟最熱嘅一年。"
+Adam,亞當,Adam,Luke 3:38,bible,False, , , , , ,亞當,亞當, 
+Seth,賽斯,Seth, ,bible,False, , , , , ,塞特,塞特, 
+Enosh,以諾什,Enosh, ,bible,False, , , , , ,以挪士,以挪士, 
+Kenan,凱南,Kenan (Cainan),Genesis 5:12,bible,False, , , , , ,該南,該南(該南), 
+Mahalalel,马哈拉雷尔,Mahalalel (Mahalaleel),Ma·hala·lel,bible,False, , , , , ,瑪勒列,瑪勒列(瑪勒列), 
+Jared,杰瑞德,Jared, ,bible,False, , , , , ,雅列,雅列, 
+Enoch,諾,Enoch, ,bible,False, , , , , ,以諾,以諾, 
+Methuselah,瑪土撒拉,Methuselah,Luke 3:37,bible,False, , , , , ,瑪土撒拉,瑪土撒拉, 
+Lamech,拉麥,Lamech, ,bible,False, , , , , ,拉麥,拉麥, 
+Noah,諾亞,Noah, ,bible,True, , , , , ,挪亞,挪亞, 
+Shem,閃,Shem, ,bible,True, , , , , ,閃,閃, 
+Arpachshad,阿帕赫沙德,Arpachshad,Luke 3:36,bible,False, , , , , ,亞法撒,亞法撒, 
+Shelah,希拉,Shelah, ,bible,False, , , , , ,沙拉,沙拉, 
+Eber,埃伯,Eber, ,bible,False, , , , , ,希伯,希伯, 
+Peleg,佩莱格,Peleg, ,bible,False, , , , , ,法勒,法勒, 
+Reu,魯,Reu, ,bible,False, , , , , ,呂吳,拉吳, 
+Serug,塞魯格,Serug,Luke 3:35,bible,False, , , , , ,西鹿,西鹿, 
+Nahor,纳霍尔,Nahor,Genesis 11:24,bible,False, , , , , ,拿鶴,拿鶴, 
+Terah,佢拉,Terah, ,bible,False, , , , , ,他拉,他拉, 
+Abraham,亚伯拉罕,Abraham, ,bible,False, , , , , ,亞伯拉罕,亞伯拉罕, 
+Isaac,艾萨克,Isaac, ,bible,False, , , , , ,以撒,以撒, 
+Jacob,雅各,Jacob,Luke 3:34,bible,False, , , , , ,雅各,雅各, 
+Joseph,約瑟夫,Joseph,Genesis 37,bible,False, , , , , ,約瑟,約瑟, 
+Moses,摩西,Moses, ,bible,False, , , , , ,摩西,摩西, 
+Othniel,奥特尼尔,Othniel,Judges 3:9-11,bible,False, , , , , ,俄陀聶,俄陀聶, 
+Ehud,埃胡德,Ehud,Judges 3:15-18,bible,False, , , , , ,以笏,以忽, 
+Shamgar,沙姆加尔,Shamgar,Judges 3:31,bible,False, , , , , ,珊迦,珊迦, 
+Barak,波利克,"Barak, Deborah, Jael",Judges 4:6,bible,False, , , , , ,巴拉、底波拉、雅億,巴拉、底波拉、雅億, 
+Gideon,吉迪恩,Gideon,Judges 7:1,bible,False, , , , , ,基甸,基甸, 
+Tola,托拉,Tola,Judges 10:1,bible,False, , , , , ,陀拉,陀拉, 
+Jair,迨,Jair,Judges 10:3,bible,False, , , , , ,睚珥,睚珥, 
+Jephthah,耶弗佢,Jephthah,Judges 11:1,bible,False, , , , , ,耶弗他,耶弗他, 
+Ibzan,伊布讚,Ibzan,Judges 12:8,bible,False, , , , , ,以比讚,以比讚, 
+Elon,伊隆,Elon,Judges 12:11,bible,False, , , , , ,以倫,以倫, 
+Abdon,阿布頓,Abdon,Judges 12:13,bible,False, , , , , ,押頓,亞伯頓, 
+Samson,參孫,Samson,Judges 13:24,bible,False, , , , , ,參孫,參孫, 
+Samuel,塞缪尔,Samuel,1 Samuel 1:20,bible,False, , , , , ,撒母耳,撒母耳, 
+Saul,掃羅,Saul,1 Samuel 9:2,bible,False, , , , , ,掃羅,掃羅, 
+David,大衛,David,1 Samuel 16:13,bible,False, , , , , ,大衛,大衛, 
+Solomon,索洛莫,Solomon,1 Kings 2:1,bible,False, , , , , ,所羅門,所羅門, 
+Malachi,玛拉基,Malachi, ,bible,False, , , , , ,瑪拉基,瑪拉基, 
+Ruth,露絲,Ruth, ,bible,False, , , , , ,路得,路得, 
+Ezra,艾拉,Ezra, ,bible,False, , , , , ,以斯拉,以斯拉, 
+Nehemiah,尼希米,Nehemiah, ,bible,False, , , , , ,尼希米,尼希米, 
+Esther,以斯帖記,Esther, ,bible,False, , , , , ,以斯帖,以斯帖, 
+Job,工作,Job, ,bible,False, , , , , ,約伯,約伯, 
+moses3,摩西,Moses, ,bible,False, , , , , ,摩西,摩西, 
+joshua2,乔舒亚,Joshua, ,bible,False, , , , , ,約書亞,約書亞, 
+caleb2,凱勒,Caleb, ,bible,False, , , , , ,迦勒,迦勒, 
+Augustus,奥古斯都,Augustus,Luke 2:1,bible,False, , , , , ,奧古斯都,奧古斯都, 
+Tiberius,提比略,Tiberius,Luke 3:1,bible,False, , , , , ,提庇留,提庇留, 
+Claudius,克劳迪斯,Claudius,Acts 11:28,bible,False, , , , , ,革老丟,革老丢, 
+persia2,波斯,Persia, ,bible,False, , , , , ,波斯,波斯, 
+jehoiada,約何亞達,Jehoiada,2 Kings 11:4,bible,False, , , , , ,耶何耶大,耶何耶大, 
+Haggai,哈該,Haggai, ,bible,False, , , , , ,哈該,哈該, 
+Zerubbabel,所罗巴伯（路加福音3：27 ）,Zerubbabel (Luke 3:27),Luke 3:27,bible,False, , , , , ,所羅巴伯（路加福音 3:27）,所羅巴伯(路加福音3:27), 
+Jacob2,雅各/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False, , , , , ,雅各,雅各/, 
+Israel,以色列,Israel,Genesis 35:10,bible,False, , , , , ,以色列,以色列, 
+Sarah,莎拉,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False, , , , , ,撒拉,撒拉, 
+Hagar,夏甲,Hagar,Genesis 21:14,bible,False, , , , , ,夏甲,夏甲, 
+Haran,哈蘭,Haran,Genesis 11:26,bible,False, , , , , ,哈蘭,哈蘭, 
+Reumah,鲁玛,Reumah,Concubine – 4 sons 22:24,bible,False, , , , , ,利瑪,流瑪, 
+Milcah,米尔卡,Milcah,8 sons (Bethuel and 7 more),bible,False, , , , , ,米迦,密迦, 
+Lot,好多,Lot,Genesis 11:27,bible,False, , , , , ,羅得,羅得, 
+Ammon,Ben-ammi （阿蒙）,Ben-ammi (Ammon),Genesis 19:38,bible,False, , , , , ,便亞米（亞捫）,便亞米(亞扪), 
+Bethuel,貝休爾,Bethuel,Genesis 22:23,bible,False, , , , , ,彼土利,彼土利, 
+Rebekah,麗貝卡,Rebekah, ,bible,False, , , , , ,利百加,利百加, 
+Laban,拉班,Laban,Genesis 24:29,bible,False, , , , , ,拉班,拉班, 
+Leah,利亞,Leah,Genesis 35:23,bible,False, , , , , ,利亞,利亞, 
+Rachel,瑞秋,Rachel,Genesis 35:24,bible,False, , , , , ,拉結,拉結, 
+Bilhah,比爾哈,Bilhah,Genesis 35:25,bible,False, , , , , ,辟拉,辟拉, 
+Zilpah,齐尔帕,Zilpah,Genesis 35:26,bible,False, , , , , ,悉帕,悉帕, 
+Reuben,魯本,Reuben, ,bible,False, , , , , ,流便,流便, 
+Simeon,緬,Simeon, ,bible,False, , , , , ,西緬,西緬, 
+Levi,利瓦伊,Levi,Genesis 35:23,bible,False, , , , , ,利未,利未, 
+Judah,猶大,Judah, ,bible,False, , , , , ,猶大,猶大, 
+Issachar,以薩迦,Issachar, ,bible,False, , , , , ,以薩迦,以薩迦, 
+Zebulun,澤布倫,Zebulun, ,bible,False, , , , , ,西布倫,西布倫, 
+Dinah,黛娜,Dinah,Genesis 34,bible,False, , , , , ,底拿,底拿, 
+Esau,以掃/,Esau/, ,bible,False, , , , , ,以掃,以掃/, 
+Edom,以東,Edom,Genesis 36:1,bible,False, , , , , ,以東,以東, 
+Ishmael,以實瑪利,Ishmael,Genesis 16:16,bible,False, , , , , ,以實瑪利,以實瑪利, 
+Manasseh2,（瑪拿西,(Manasseh,Genesis 41:50-52,bible,False, , , , , ,（瑪拿西,(瑪拿西, 
+Ephraim,同以法蓮）,and Ephraim), ,bible,False, , , , , ,和以法蓮）,同以法蓮), 
+Benjamin,本傑明,Benjamin, ,bible,False, , , , , ,便雅憫,便雅憫, 
+Dan,擔,Dan,Genesis 35:23,bible,False, , , , , ,但,但, 
+Naphtali,萘鞘利,Naphtali, ,bible,False, , , , , ,拿弗他利,拿弗他利, 
+Gad,迨,Gad, ,bible,False, , , , , ,迦得,迦得, 
+Asher,阿瑟,Asher, ,bible,False, , , , , ,亞設,亞設, 
+Milcah1,烏茲、布兹、凯缪尔、,"Uz, Buz, Kemuel,",Genesis 22:21,bible,False, , , , , ,烏斯、布斯、基母利,烏斯、布斯、基母利、, 
+Milcah2,切塞德，哈佐，,"Chesed, Hazo,", ,bible,False, , , , , ,基薛，哈瑣，,基薛、哈瑣、, 
+Milcah3,皮尔达什，吉德拉夫,"Pildash, Jidlaph", ,bible,False, , , , , ,必達，伊拉，,品達、益拉, 
+Tebah,特巴,Tebah,Genesis 22:24,bible,False, , , , , ,提巴，,提八, 
+Gaham,加汉姆,Gaham, ,bible,False, , , , , ,迦含，,迦含, 
+Tahash,塔哈什,Tahash, ,bible,False, , , , , ,他轄，,他轄, 
+Maacah,馬加,Maacah, ,bible,False, , , , , ,瑪迦，,瑪迦, 
+Mahalath,玛哈拉特/,Mahalath/,"Genesis 28:8, 9",bible,False, , , , , ,瑪哈拉，,瑪哈拉/, 
+Basemath,基礎·數學,Basemath,"Genesis36:3, 4",bible,False, , , , , ,巴實抹，,巴實抹, 
+Reuel,鲁埃尔,Reuel,"36:13, 17",bible,False, , , , , ,流珥，,流珥, 
+Nahath,那哈特,Nahath, ,bible,False, , , , , ,拿哈，,拿哈, 
+Zerah,泽拉,Zerah, ,bible,False, , , , , ,謝拉，,謝拉, 
+Schammah,沙瑪,Schammah, ,bible,False, , , , , ,沙瑪，,沙瑪, 
+Mizzah,米扎,Mizzah, ,bible,False, , , , , ,米撒，,米撒, 
+Adah,阿达,Adah,"36:11, 12, 15, 16",bible,False, , , , , ,亞大，,亞大, 
+Eliphaz,以利法,Eliphaz, ,bible,False, , , , , ,以利法，,以利法, 
+Teman,特曼,Teman, ,bible,False, , , , , ,提幔，,提幔, 
+Omar,奥马尔,Omar, ,bible,False, , , , , ,阿馬，,阿抹, 
+Zepho,澤福,Zepho, ,bible,False, , , , , ,洗玻，,洗玻, 
+Kenaz,肯纳兹,Kenaz, ,bible,False, , , , , ,基納，,基納斯, 
+Korah,可拉,Korah, ,bible,False, , , , , ,可拉，,可拉, 
+Korah_Gatam,科拉，加塔姆,"Korah, Gatam","Genesis 36:11, 16",bible,False, , , , , ,可拉，迦坦，,可拉、迦坦, 
+Amalek,亞瑪力人,Amalek, ,bible,False, , , , , ,亞瑪力，,亞瑪力, 
+Oholibamah,奥霍利巴马,Oholibamah,"36:14, 18",bible,False, , , , , ,阿何利巴瑪，,阿何利巴瑪, 
+Jeush,杰什,Jeush, ,bible,False, , , , , ,耶烏施，,耶烏施, 
+Jalam,贾拉姆,Jalam, ,bible,False, , , , , ,雅蘭，,雅蘭, 
+Nebaioth,尼拜奧特,Nebaioth,Genesis 25:13,bible,False, , , , , ,尼拜約，,尼拜約, 
+Kedar,凱達爾,Kedar, ,bible,False, , , , , ,基達，,基達, 
+Mishma,米什玛,Mishma, ,bible,False, , , , , ,米施瑪，,密抹, 
+Adbeel_Mibsam,阿德比爾，米布薩姆,"Adbeel, Mibsam",Genesis 25:13,bible,False, , , , , ,亞別，米比衫，,亞德別、米比衫, 
+Dumah_Massa,杜馬，馬薩,"Dumah, Massa",Genesis 25:14,bible,False, , , , , ,度瑪，瑪撒，,度瑪、瑪撒, 
+Hadad,哈達德,Hadad, ,bible,False, , , , , ,哈達，,哈達, 
+Tema,特馬,Tema, ,bible,False, , , , , ,提瑪，,提瑪, 
+Jetur,杰图尔,Jetur, ,bible,False, , , , , ,伊突，,伊突, 
+Naphish,纳菲什,Naphish, ,bible,False, , , , , ,拿非施，,拿非施, 
+Kedemah,凯德玛,Kedemah, ,bible,False, , , , , ,基底瑪，,基底瑪, 
+Keturah,凱圖拉,Keturah,Genesis 25:1,bible,False, , , , , ,基土拉，,基土拉, 
+Zimran,齊姆蘭,Zimran,Genesis 25:1,bible,False, , , , , ,洗蘭，,心蘭, 
+Jokshan,約克山,Jokshan,Genesis 25:1,bible,False, , , , , ,約珊，,約珊, 
+Medan,曼丹,Medan,Genesis 25:1,bible,False, , , , , ,米但，,米但, 
+Midian,米迪安,Midian,Genesis 25:1,bible,False, , , , , ,米甸，,米甸, 
+Ishbak,伊什巴克,Ishbak,Genesis 25:1,bible,False, , , , , ,伊施巴,伊施巴, 
+Shuah,舒亞,Shuah,Genesis 25:1,bible,False, , , , , ,書亞,書亞, 
+Timna,蒂姆納,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False, , , , , ,亭拿,亭納, 
+life-expectancy2,( 詩篇 90 : 10 ),(Psalm 90:10),2024-11-29,bible,False, , , , , ,(詩篇90:10),(詩篇90:10), 
+Ham,火腿,Ham,Gen 10:1,bible,False, , , , , ,含,含, 
+Canaan,迦南,Canaan,Gen 10:6,bible,False, , , , , ,迦南,迦南, 
+Sidon,錫頓,Sidon,Gen 10:15,bible,False, , , , , ,西頓,西頓, 
+Heth,希斯,Heth,Gen 10:15,bible,False, , , , , ,赫,赫, 
+Jebusite,耶布斯蒂,Jebusite,Gen 10:16,bible,False, , , , , ,耶布斯人,耶布斯人, 
+Amorite,阿摩利人,Amorite,Gen 10:16,bible,False, , , , , ,亞摩利人,亞摩利人, 
+Girgashite,吉加西特,Girgashite,Gen 10:16,bible,False, , , , , ,革迦撒人,革迦撒人, 
+Hivite,希維特,Hivite,Gen 10:17,bible,False, , , , , ,希未人,希未人, 
+Arkite,阿克特,Arkite,Gen 10:17,bible,False, , , , , ,亞基人,亞基人, 
+Sinite,西洋人,Sinite,Gen 10:17,bible,False, , , , , ,西尼人,西尼人, 
+Arvadite,阿瓦迪特,Arvadite,Gen 10:18,bible,False, , , , , ,亞瓦底人,亞發人, 
+Zemarite,澤馬里特,Zemarite,Gen 10:18,bible,False, , , , , ,洗瑪利人,洗瑪人, 
+Hamathite,哈馬蒂特,Hamathite,Gen 10:18,bible,False, , , , , ,哈馬人,哈馬人, 
+Cush,擠塞,Cush,Gen 10:6,bible,False, , , , , ,古實,古實, 
+Nimrod,尼姆羅德,Nimrod,Gen 10:8,bible,False, , , , , ,寧錄,寧錄, 
+Mizraim,米茲拉姆,Mizraim,Gen 10:14,bible,False, , , , , ,麥西,麥西, 
+Casluh,卡斯魯,Casluh,1 Chronicles 1:12 (Philistines),bible,False, , , , , ,加斯路希,迦斯路希, 
+Japheth,賈菲斯,Japheth,Gen 10:1,bible,False, , , , , ,雅弗,雅弗, 
+Asshur,阿屎忽,Asshur,Gen 10:22,bible,False, , , , , ,亞述,亞述, 
+Lud,路德,Lud,Gen 10:22,bible,False, , , , , ,路低,路德, 
+Aram,阿拉姆,Aram,Gen 10:22,bible,False, , , , , ,亞蘭,亞蘭, 
+Elam,埃蘭,Elam,Gen 10:22,bible,False, , , , , ,以攔,以攔, 
+Joktan,約克坦,Joktan,Gen 10:26,bible,False, , , , , ,約坍,約坍, 
+Almodad,阿爾莫達德,Almodad,Gen 10:26,bible,False, , , , , ,阿摩大,亞摩答, 
+Sheleph,謝勒夫,Sheleph,Gen 10:26,bible,False, , , , , ,沙列,沙列, 
+Hazarmaveth,哈薩馬雷斯,Hazarmaveth,Gen 10:26,bible,False, , , , , ,哈薩瑪非,哈薩瑪非, 
+Jerah,耶拉,Jerah,Gen 10:26,bible,False, , , , , ,耶拉,耶拉, 
+Hadoram,哈多拉姆,Hadoram,Gen 10:27,bible,False, , , , , ,哈多蘭,哈多蘭, 
+Uzal,烏扎爾,Uzal,Gen 10:27,bible,False, , , , , ,烏薩,烏薩, 
+Diklah_Obal,迪克拉，奧巴爾,"Diklah, Obal",Gen 10:27,bible,False, , , , , ,底拉、俄巴勒,德拉、俄巴, 
+Abimael,阿比馬埃爾,Abimael,Gen 10:28,bible,False, , , , , ,亞比瑪利,亞比瑪利, 
+Sheba_Ophir,謝巴，奧菲爾,"Sheba, Ophir","Gen 10:28, 29",bible,False, , , , , ,示巴、俄斐,示巴、俄斐, 
+Havilah,哈維拉,Havilah,Gen 10:29,bible,False, , , , , ,哈腓拉,哈腓拉, 
+Jobab,乔巴布,Jobab,Gen 10:29,bible,False, , , , , ,約巴,約巴, 
+Ham_fn,1) 埃及人：詩篇 105:23,1) Egyptians: Psalms 105:23,2025-09-22,bible,False, , , , , ,1) 埃及人：詩篇105:23,1)埃及人:詩篇105:23, 
+Canaan_fn,2 ）迦南：約書亞 13:3,2) Canaanites: Joshua 13:3,2025-09-22,bible,False, , , , , ,2) 迦南人：約書亞記13:3,2)迦南人:約書亞記13:3, 
+Aram_fn,3) 阿拉伯人： 12 : 12,3) Arameans: Hosea 12:12,2025-09-22,bible,False, , , , , ,3) 亞蘭人：何西阿書 12:12,3)亞蘭人:何西阿書12:12, 
+Elam_fn,4) 精英：以斯拉 4: 9,4) Elamites: Ezra 4:9,2025-09-22,bible,False, , , , , ,4) 以攔人：以斯拉記 4:9,4)以攔人:以斯拉記4:9, 
+Asshur_fn,5) 亞述人：以西結書 27:23,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False, , , , , ,5) 亞述人：以西結書 27:23,5)亞述人:以西結書27:23, 
+Casluh_fn,6) 非利士： 1 慢性 1:12,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False, , , , , ,6) 非利士人：歷代志上 1:12,6)非利士人:歷代志上1:12, 
+Cush_fn,7) 埃塞俄比亞 [ 荒地 ] : 2 王 19: 9,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False, , , , , ,7) 古實人：列王紀下 19:9,7)衣索比亞人[古實人]:列王紀下19:9, 
+Edom_fn,8 ）以 Edomites ： 20 : 14-17,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False, , , , , ,8) 以東人：民數記 20:14-17,8)以東人:民數記20:14-17, 
+Moab_fn,9) 潮汐：申命記 23 : 3 、 4,"9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False, , , , , ,"9) 摩押人：申命記 23:3, 4","9)摩押人:申命記23:3, 4", 
+Ammon_fn,10) 安蒙石：約書亞 12:2,10) Ammonites: Joshua 12:2,2025-09-22,bible,False, , , , , ,10) 亞捫人：約書亞記 12:2,10)亞扪人:約書亞記12:2, 
+Midian_fn,"11) 米迪亞石：數字 31:2,3","11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False, , , , , ,"11) 米甸人：民數記 31:2, 3","11)米甸人:民數記31:2, 3", 
+Amalek_fn,12) 阿馬利奇特： 1 撒母耳書 15: 2,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False, , , , , ,12) 亞瑪力人：撒母耳記上 15:2,12)亞瑪力人:撒母耳記上15:2, 
+Teman_fn,13) 特曼石：約伯 42:7,13) Temanites: Job 42:7,2025-09-22,bible,False, , , , , ,13) 提幔人：約伯記 42:7,13)提幔人:約伯記42:7, 
+Sidon_fn,14) 西多尼亞人：撒迦利亞書 9: 2,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False, , , , , ,14) 西頓人：撒迦利亞書 9:2,14)西頓人:撒迦利亞書9:2, 
+Heth_fn,15) 希特人：創世記 15:20,15) Hittites: Genesis 15:20,2025-09-22,bible,False, , , , , ,15) 赫人：創世記 15:20,15)赫人:創世記15:20, 
+Jebusite_fn,16) 約書亞 15: 63,16) Jebusites: Joshua 15:63,2025-09-22,bible,False, , , , , ,16) 耶布斯人：約書亞記 15:63,16)耶布斯人:約書亞記15:63, 
+Judith,朱迪斯？,Judith?,"Genesis 26:34, 35",bible,False, , , , , ,猶滴？,猶滴?, 
+Lud_fn,17) 利迪亞人 : 1 : 1 : 17,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False, , , , , ,17) 呂底亞人：歷代志上 1:17,17)路德人:歷代志上1:17, 
+Ishmael_fn,18) 伊斯馬利派：創世記 37:27,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False, , , , , ,18) 以實瑪利人：創世記 37:27,18)以實瑪利人:創世記37:27, 
+Amorite_fn,19) 阿摩利人：法官 6:10,19) Amorites: Judges 6:10,2025-09-22,bible,False, , , , , ,19) 亞摩利人：士師記 6:10,19)亞摩利人:士師記6:10, 
+Hivite_fn,20) 希維特 [ 吉峽 ] : 約書亞 9: 3 、 7,"20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False, , , , , ,"20) 希未人 [基遍]：約書亞記 9:3, 7","20)希未人[基遍]:約書亞記9:3, 7", 
+Cain,凱恩,Cain,"Genesis 4:1, son Enoch same name as other",bible,False, , , , , ,該隱,該隱, 
+Abel,阿貝爾,Abel,Genesis 4:2,bible,False, , , , , ,亞伯,亞伯, 
+Irad,伊拉德,Irad,Genesis 4:18,bible,False, , , , , ,以拿,以拿, 
+Mehujael,梅胡賈爾,Mehujael,Genesis 4:18,bible,False, , , , , ,米戶雅利,米户雅利, 
+Methushael,梅圖沙爾,Methushael,"Genesis 4:18, son Lamech same as other",bible,False, , , , , ,瑪土撒利,瑪土撒利, 
+Jabal,賈巴爾,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False, , , , , ,雅八,雅八, 
+Jubal,朱巴爾,Jubal,Genesis 4:21 play harp and pipe,bible,False, , , , , ,猶八,猶八, 
+Zillah,齊拉,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False, , , , , ,洗拉,洗拉, 
+Tubal-cain,圖巴犬,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False, , , , , ,土八該隱,土八該隱, 
+Naamah,納馬,Naamah,Genesis 4:22 his sister,bible,False, , , , , ,拿瑪,拿馬, 
+Rehoboam,羅波安,Rehoboam,first king of southern kingdom of Juda,A6-A,False, , , , , ,羅波安,羅波安, 
+Abijah,阿比雅（阿比雅）,Abijah (Abijam),"3 years, also Abijam",A6-A,False, , , , , ,亞比雅（亞比央）,亞比雅(亞比央), 
+Asa,阿薩,Asa,A6-A,A6-A,False, , , , , ,亞撒,亞撒, 
+Jehoshaphat,約沙法,Jehoshaphat, ,A6-A,False, , , , , ,約沙法,約沙法, 
+Jehoram2,約蘭,Jehoram, ,A6-A,False, , , , , ,約蘭,約蘭, 
+Ahaziah,亞哈謝,Ahaziah, ,A6-A,False, , , , , ,亞哈謝,亞哈謝, 
+Athaliah,亞他利雅王后,Queen Athaliah,Queen Athaliah,A6-A,False, , , , , ,亞他利雅王后,亞他利雅女王, 
+Jehoash,約阿施,Jehoash, ,A6-A,False, , , , , ,約阿施,約阿施, 
+Amaziah,亞瑪謝,Amaziah, ,A6-A,False, , , , , ,亞瑪謝,亞瑪謝, 
+Uzziah,乌西雅（亞撒利雅）,Uzziah (Azariah),also Azariah,A6-A,False, , , , , ,烏西雅（亞撒利雅）,烏西雅(亞撒利雅), 
+Jeroboam,耶羅波安,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False, , , , , ,耶羅波安,耶羅波安, 
+Nadab,納達布,Nadab,less than 2,A6-A,False, , , , , ,拿答,拿答, 
+Baasha,巴沙,Baasha, ,A6-A,False, , , , , ,巴沙,巴沙, 
+Elah,以拉,Elah, ,A6-A,False, , , , , ,以拉,以拉, 
+Zimri,齐姆里,Zimri,Only 7 days in ca. 751 BCE,A6-A,False, , , , , ,心利,心利, 
+OmriTibni,Omri同Tibni喺一齐,Omri and Tibni together,4 years Omri and Tibni,A6-A,False, , , , , ,暗利與提比尼共同執政,暗利與提比尼一同統治, 
+Omri,Omri （單獨）,Omri (alone),from 947 Omri alone,A6-A,False, , , , , ,暗利（單獨執政）,暗利(獨自統治), 
+Ahab,亞哈,Ahab, ,A6-A,False, , , , , ,亞哈,亞哈, 
+Jehoram,約蘭,Jehoram, ,A6-A,False, , , , , ,約蘭,約蘭, 
+Jehu,耶戶,Jehu, ,A6-A,False, , , , , ,耶戶,耶户, 
+Jeoahaz,热瓦哈兹,Jeoahaz, ,A6-A,False, , , , , ,約哈斯,約哈斯, 
+JeoahazJehoash,约哈斯同约阿施,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False, , , , , ,約哈斯與約阿施,約哈斯與約阿施, 
+Jehoash2,約阿施（獨自一人）,Jehoash (alone),Jehoash (alone),A6-A,False, , , , , ,約阿施（單獨執政）,約阿施(獨自統治), 
+Jeroboam2,耶罗波安二世,Jeroboam II, ,A6-A,False, , , , , ,耶羅波安二世,耶羅波安二世, 
+Elijah,以利亞,Elijah, ,A6-A,False, , , , , ,以利亞,以利亞, 
+Elisha,以利沙,Elisha, ,A6-A,False, , , , , ,以利沙,以利沙, 
+Jonah,約拿,Jonah, ,A6-A,False, , , , , ,約拿,約拿, 
+Amos,阿莫斯,Amos, ,A6-A,False, , , , , ,阿摩司,阿摩司, 
+Joel,乔尔,Joel, ,A6-A,False, , , , , ,約珥,約珥, 
+Jotham,约坦,Jotham,A6-B,A6-B,False, , , , , ,約坦,約坦, 
+Ahaz,亚哈斯,Ahaz, ,A6-B,False, , , , , ,亞哈斯,亞哈斯, 
+Hezekiah,希西屋企,Hezekiah, ,A6-B,False, , , , , ,希西家,希西家, 
+Manasseh,瑪拿西,Manasseh, ,A6-B,False, , , , , ,瑪拿西,瑪拿西, 
+Amon,阿蒙,Amon, ,A6-B,False, , , , , ,亞們,亞們, 
+Josiah,約西亞,Josiah, ,A6-B,False, , , , , ,約西亞,約西亞, 
+Jehoahaz,约哈斯,Jehoahaz,Only 3 months,A6-B,False, , , , , ,約哈斯,約哈斯, 
+Jehoiakim,約雅敬,Jehoiakim, ,A6-B,False, , , , , ,約雅敬,約雅敬, 
+Jehoiachin,約雅斤,Jehoiachin,Only 3 months 10 days,A6-B,False, , , , , ,約雅斤,約雅斤, 
+Zedekiah,西底家,Zedekiah, ,A6-B,False, , , , , ,西底家,西底家, 
+Zechariah,撒迦利亞,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False, , , , , ,撒迦利亞,撒迦利亞, 
+Schallum,沙勒姆,Schallum,only one month,A6-B,False, , , , , ,沙龍,沙龍, 
+Menahem,梅纳赫姆,Menahem, ,A6-B,False, , , , , ,米拿現,米拿現, 
+Pekahiah,佩卡希亚,Pekahiah, ,A6-B,False, , , , , ,比加轄,比加辖, 
+Pekah,佩卡,Pekah, ,A6-B,False, , , , , ,比加,比加, 
+Hoshea,霍謝,Hoshea,9 years from c. 748,A6-B,False, , , , , ,何細亞,何細亞, 
+Hosea,何西阿,Hosea, ,A6-B,False, , , , , ,何西阿,何西阿, 
+Isaiah,以賽亞書,Isaiah, ,A6-B,False, , , , , ,以賽亞,以賽亞, 
+Micah,彌迦,Micah, ,A6-B,False, , , , , ,彌迦,彌迦, 
+Zephaniah,西番雅,Zephaniah, ,A6-B,False, , , , , ,西番雅,西番雅, 
+Nahum,果鴻,Nahum, ,A6-B,False, , , , , ,那鴻,那鴻, 
+Jeremiah,耶利米,Jeremiah, ,A6-B,False, , , , , ,耶利米,耶利米, 
+Habakuk,哈巴谷,Habakuk, ,A6-B,False, , , , , ,哈巴谷書,哈巴谷, 
+Daniel,丹尼尔,Daniel, ,A6-B,False, , , , , ,但以理書,但以理, 
+Ezekiel,以西結,Ezekiel, ,A6-B,False, , , , , ,以西結書,以西結, 
+Obadiah,俄巴底亞,Obadiah, ,A6-B,False, , , , , ,俄巴底亞書,俄巴底亞, 
+Babylon,"但以理书 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,False, , , , , ,"但以理書 2:32, 36-38; 7:4","但以理書 2:32, 36-38;7:4", 
+Medopersia,"但以理书 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,False, , , , , ,"但以理書 2:32, 39; 7:5","但以理書 2:32, 39;7:5", 
+Greece,"但以理书 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,False, , , , , ,"但以理書 2:32, 39; 7:6","但以理書 2:32, 39;7:6", 
+Rome,"但以理书 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,False, , , , , ,"但以理書 2:33, 40; 7:7","但以理書 2:33, 40;7:7", 
+Angloamerica,"但以理书 2:33, 41-43","Daniel 2:33, 41-43", ,B9,False, , , , , ,"但以理書 2:33, 41-43","但以理書 2:33, 41-43", 
+Babylon_c,巴比伦,Babylon, ,B9,False, , , , , ,巴比倫,巴比倫, 
+Medopersia_c,米底亚－波斯,Medo-Persia, ,B9,False, , , , , ,米底亞-波斯,瑪代波斯, 
+Greece_c,希腊,Greece, ,B9,False, , , , , ,希臘,希臘, 
+Rome_c,罗马,Rome, ,B9,False, , , , , ,羅馬,羅馬, 
+Angloamerica_c,英美,Anglo-America, ,B9,False, , , , , ,英美世界霸權,英美, 
+daniel2_1,尼布甲尼撒王,King Nebuchadnezzar,607 BCE,B9,False, , , , , ,尼布甲尼撒王,尼布甲尼撒王, 
+daniel2_2,摧毁耶路撒冷,destroys Jerusalem,appendix B9,B9,False, , , , , ,摧毀耶路撒冷,毀滅耶路撒冷, 
+daniel2_3,征服巴比伦,Conquers Babylon,539 BCE,B9,False, , , , , ,征服巴比倫,攻佔巴比倫, 
+daniel2_4,居鲁士下旨让犹,Cyrus decrees return,537 BCE,B9,False, , , , , ,居魯士頒布諭旨,居魯士下令, 
+daniel2_5,太人返回耶路撒冷,of Jews to Jerusalem, ,B9,False, , , , , ,猶太人返回耶路撒冷,猶太人返回耶路撒冷, 
+daniel2_6,亚历山大,Alexander the Great,331 BCE,B9,False, , , , , ,亞歷山大大帝,亞歷山大大帝, 
+daniel2_7,大帝征服波斯,conquers Persia, ,B9,False, , , , , ,征服波斯,征服波斯, 
+daniel2_8,开始统治以色列,Rules over Israel,63 BCE,B9,False, , , , , ,統治以色列,統治以色列, 
+daniel2_9,摧毁耶路撒冷,Destroys Jerusalem,70 CE,B9,False, , , , , ,摧毀耶路撒冷,毀滅耶路撒冷, 
+daniel2_10,第一次世界大战期间，,"During World War I,",1914-1918 CE,B9,False, , , , , ,在第一次世界大戰期間，,第一次世界大戰期間, 
+daniel2_11,英美世界霸权崛起,Anglo-American World Power, ,B9,False, , , , , ,英美世界霸權,英美世界強國, 
+daniel2_12,嚟到存在,comes into being,End 4.2,B9,False, , , , , ,成為世界霸權,出現, 
+607BCE,公元前 607 年,607 B.C.E.,accommodate for language,B9,False, , , , , ,公元前607年,公元前607年, 
+539BCE,公元前 539 年,539 B.C.E.,systems in style:,B9,False, , , , , ,公元前539年,公元前539年, 
+537BCE,公元前 537 年,537 B.C.E.,>>year 537 before time<<,B9,False, , , , , ,公元前537年,公元前537年, 
+331BCE,公元前 331 年,331 B.C.E.,so they need a word,B9,False, , , , , ,公元前331年,公元前331年, 
+63BCE,公元前 63 年,63 B.C.E.,prior to the year,B9,False, , , , , ,公元前63年,公元前63年, 
+70CE,70 C.E.,70 C.E.,and something,B9,False, , , , , ,公元70年,公元70年, 
+1914CE,1914-1918 公元 1918 年。,1914-1918 C.E.,after the year,B9,False, , , , , ,公元1914-1918年,公元1914-1918年, 
+7times,啟示錄12：9,Revelation 12:9, ,scripture,False, , , , , ,啟示錄 12:9,啟示錄 12:9, 
+infliction2,使徒行傳7：6,Acts 7:6, ,scripture,False, , , , , ,使徒行傳 7:6,使徒行傳 7:6, 
+eastern-zhou,公元前770-256年,770-256 BC, ,span_bc,False, , , , , ,公元前770-256年,公元前770-256年, 
+430years,1943 年 - 公元前 1513 年。,1943 – 1513 B.C.E., ,span_bce,False, , , , , ,公元前1943-1513年,公元前1943-1513年, 
+eastern-han,公元25-220年,25-220 CE, ,span_ce,False, , , , , ,公元25-220年,公元25-220年, 
+northern-dynasties,公元368-581年,368-581 CE, ,span_ce,False, , , , , ,公元368-581年,公元368-581年, 
+southern-dynasties,公元420-589年,420-589 CE, ,span_ce,False, , , , , ,公元420-589年,公元420-589年, 
 khmer_empire,804 – 1431,804 – 1431, ,timespan,True, , , , , , , , 
 byzantine_empire,330 – 1453,330 – 1453, ,timespan,True, , , , , , , , 
 ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True, , , , , , , , 
@@ -494,50 +494,50 @@ revival_le_dynasty,1533-1789,1533-1789, ,timespan,True, , , , , , , ,
 nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True, , , , , , , , 
 edo,1603 – 1868,1603 – 1868, ,timespan,True, , , , , , , , 
 meiji,1868 – 1912,1868 – 1912, ,timespan,True, , , , , , , , 
-Julius,朱利叶斯,Julius, ,wiki,False, , , , , ,尤利烏斯, , 
-Caligula,卡利古拉,Caligula, ,wiki,False, , , , , ,卡利古拉, , 
-Nero,尼祿,Nero, ,wiki,False, , , , , ,尼祿, , 
-Galba-Otho-Vitellius,加爾巴、奧托同維特利烏斯（四皇之年）,"Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , ,加爾巴、奧托與維特里烏斯（四帝之年）, , 
-Vespasian,維斯帕先,Vespasian, ,wiki,False, , , , , ,韋斯巴薌, , 
-covid19,Covid-19嘅,Covid-19, ,wiki,False, , , , , ,2019冠狀病毒病, , 
-nicaea1,尼西亞第一届大公會議,First Council of Nicaea, ,wiki,False, , , , , ,第一次尼西亞公會議, , 
-oxyrhynchus,Oxyrhynchus紙莎草紙,Oxyrhynchus Papyri, ,wiki,False, , , , , ,奧克西林庫斯紙草抄本, , 
-p52,紙莎草紙P52,Papyrus P52, ,wiki,False, , , , , ,P52紙草抄本, , 
-qing-dynasty_c,清朝,Qing dynasty,1636-1912,wiki,False, , , , , ,清朝, , 
-ming-dynasty_c,中國帝國嘅明朝,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , ,中國明朝, , 
-yuan-dynasty_c,文,Yuan,1271-1368,wiki,False, , , , , ,元朝, , 
-southern-song_c,南宋,Southern Song,1127-1279,wiki,False, , , , , ,南宋, , 
-northern-song_c,北宋,Northern Song,960-1127,wiki,False, , , , , ,北宋, , 
-western-xia_c,西夏,Western Xia,1038-1227,wiki,False, , , , , ,西夏, , 
-Copernicus,尼古拉斯·哥白尼,Nicolaus Copernicus, ,wiki,False, , , , , ,尼古拉·哥白尼, , 
-Galileo,伽利略·伽利萊,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , ,伽利略·伽利萊, , 
-Newton,牛頓,Isaac Newton, ,wiki,False, , , , , ,艾薩克·牛頓, , 
-shang-dynasty_c,商代,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , ,商朝, , 
-western-zhou_c,西周,Western Zhou,c. 1046-771 BC,wiki,False, , , , , ,西周, , 
-eastern-zhou_c,東部周,Eastern Zhou,770-256 BC,wiki,False, , , , , ,東周, , 
-western-han_c,西漢,Western Han,207 BC – 9 CE,wiki,False, , , , , ,西漢, , 
-eastern-han_c,東漢,Eastern Han,25-220 CE,wiki,False, , , , , ,東漢, , 
-three-kingdoms_c,中國,China,Three kingdoms 220-280 CE,wiki,False, , , , , ,中國, , 
-sixteen-kingdoms_c,中國,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , ,中國, , 
-northern-dynasties_c,南北朝,Northern dynasties,368-581 CE,wiki,False, , , , , ,北朝, , 
-southern-dynasties_c,南北朝,Southern dynasties,420-589 CE,wiki,False, , , , , ,南朝, , 
-tang-dynasty2_c,唐代,Tang dynasty,"618-690, 705-907",wiki,False, , , , , ,唐朝, , 
-byzantine_empire_c,拜占庭帝國,Byzantine Empire, ,wiki,False, , , , , ,拜占庭帝國, , 
-ottoman_empire_c,奧斯曼帝國,Ottoman Empire, ,wiki,False, , , , , ,奧斯曼帝國, , 
-Genghis,成吉思汗,Genghis Khan, ,wiki,False, , , , , ,成吉思汗, , 
-inca_empire_c,印加帝國,Inca empire, ,wiki,False, , , , , ,印加帝國, , 
-gupta_empire_c,古普塔帝國,Gupta Empire, ,wiki,False, , , , , ,笈多帝國, , 
-Teotihuacan_c,特奧蒂瓦坎,Teotihuacan, ,wiki,False, , , , , ,特奧蒂瓦坎, , 
-Abbasid_c,阿巴斯德卡利法,Abbasid Caliphate, ,wiki,False, , , , , ,阿拔斯哈里發國, , 
-Mamluk_c,馬姆魯克蘇丹國,Mamluk Sultanate, ,wiki,False, , , , , ,馬木留克蘇丹國, , 
-Al-Ghazali,加扎利,Al-Ghazali,2024-07-30,wiki,False, , , , , ,安薩里, , 
-wulfila,維拉拉聖經,Wulfila Bible,2025-09-20,wiki,False, , , , , ,烏爾菲拉聖經, , 
-tran_dynasty_c,Tr ầ n 王朝,Trần dynasty, ,wiki,False, , , , , ,陳朝, , 
-le_dynasty_c,拉王朝,Lê dynasty, ,wiki,False, , , , , ,黎朝, , 
-revival_le_dynasty_c,Tr ị nh 主同尼古伊主,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False, , , , , ,鄭主與阮主, , 
-seljuk_empire_c,塞爾吉克帝國,Seljuk empire, ,wiki,False, , , , , ,塞爾柱帝國, , 
-vandals_c,破壞者,Vandals, ,wiki,False, , , , , ,汪達爾人, , 
-lombard_c,倫巴德王國,Lombard Kingdom,2025-10-13,wiki,False, , , , , ,倫巴底王國, , 
+Julius,朱利叶斯,Julius, ,wiki,False, , , , , ,尤利烏斯,尤利烏斯, 
+Caligula,卡利古拉,Caligula, ,wiki,False, , , , , ,卡利古拉,卡利古拉, 
+Nero,尼祿,Nero, ,wiki,False, , , , , ,尼祿,尼祿, 
+Galba-Otho-Vitellius,加爾巴、奧托同維特利烏斯（四皇之年）,"Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False, , , , , ,加爾巴、奧托與維特里烏斯（四帝之年）,加爾巴、奧托同維特里烏斯(四帝之年), 
+Vespasian,維斯帕先,Vespasian, ,wiki,False, , , , , ,韋斯巴薌,韋斯巴薌, 
+covid19,Covid-19嘅,Covid-19, ,wiki,False, , , , , ,2019冠狀病毒病,新冠肺炎, 
+nicaea1,尼西亞第一届大公會議,First Council of Nicaea, ,wiki,False, , , , , ,第一次尼西亞公會議,第一次尼西亞大公會議, 
+oxyrhynchus,Oxyrhynchus紙莎草紙,Oxyrhynchus Papyri, ,wiki,False, , , , , ,奧克西林庫斯紙草抄本,俄克喜林庫斯紙莎草文獻, 
+p52,紙莎草紙P52,Papyrus P52, ,wiki,False, , , , , ,P52紙草抄本,紙莎草殘片P52, 
+qing-dynasty_c,清朝,Qing dynasty,1636-1912,wiki,False, , , , , ,清朝,清朝, 
+ming-dynasty_c,中國帝國嘅明朝,Ming dynasty in imperial China,1368-1644,wiki,False, , , , , ,中國明朝,明朝, 
+yuan-dynasty_c,文,Yuan,1271-1368,wiki,False, , , , , ,元朝,元朝, 
+southern-song_c,南宋,Southern Song,1127-1279,wiki,False, , , , , ,南宋,南宋, 
+northern-song_c,北宋,Northern Song,960-1127,wiki,False, , , , , ,北宋,北宋, 
+western-xia_c,西夏,Western Xia,1038-1227,wiki,False, , , , , ,西夏,西夏, 
+Copernicus,尼古拉斯·哥白尼,Nicolaus Copernicus, ,wiki,False, , , , , ,尼古拉·哥白尼,哥白尼, 
+Galileo,伽利略·伽利萊,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False, , , , , ,伽利略·伽利萊,伽利略·伽利萊, 
+Newton,牛頓,Isaac Newton, ,wiki,False, , , , , ,艾薩克·牛頓,牛頓, 
+shang-dynasty_c,商代,Shang dynasty,c. 1600-1046 BC,wiki,False, , , , , ,商朝,商朝, 
+western-zhou_c,西周,Western Zhou,c. 1046-771 BC,wiki,False, , , , , ,西周,西周, 
+eastern-zhou_c,東部周,Eastern Zhou,770-256 BC,wiki,False, , , , , ,東周,東周, 
+western-han_c,西漢,Western Han,207 BC – 9 CE,wiki,False, , , , , ,西漢,西漢, 
+eastern-han_c,東漢,Eastern Han,25-220 CE,wiki,False, , , , , ,東漢,東漢, 
+three-kingdoms_c,中國,China,Three kingdoms 220-280 CE,wiki,False, , , , , ,中國,三國時代的中國, 
+sixteen-kingdoms_c,中國,China,Sixteen kingdoms 304-439 CE,wiki,False, , , , , ,中國,十六國時代的中國, 
+northern-dynasties_c,南北朝,Northern dynasties,368-581 CE,wiki,False, , , , , ,北朝,北朝, 
+southern-dynasties_c,南北朝,Southern dynasties,420-589 CE,wiki,False, , , , , ,南朝,南朝, 
+tang-dynasty2_c,唐代,Tang dynasty,"618-690, 705-907",wiki,False, , , , , ,唐朝,唐朝, 
+byzantine_empire_c,拜占庭帝國,Byzantine Empire, ,wiki,False, , , , , ,拜占庭帝國,拜占庭帝國, 
+ottoman_empire_c,奧斯曼帝國,Ottoman Empire, ,wiki,False, , , , , ,奧斯曼帝國,鄂圖曼帝國, 
+Genghis,成吉思汗,Genghis Khan, ,wiki,False, , , , , ,成吉思汗,成吉思汗, 
+inca_empire_c,印加帝國,Inca empire, ,wiki,False, , , , , ,印加帝國,印加帝國, 
+gupta_empire_c,古普塔帝國,Gupta Empire, ,wiki,False, , , , , ,笈多帝國,笈多帝國, 
+Teotihuacan_c,特奧蒂瓦坎,Teotihuacan, ,wiki,False, , , , , ,特奧蒂瓦坎,特奧蒂瓦坎, 
+Abbasid_c,阿巴斯德卡利法,Abbasid Caliphate, ,wiki,False, , , , , ,阿拔斯哈里發國,阿拔斯王朝, 
+Mamluk_c,馬姆魯克蘇丹國,Mamluk Sultanate, ,wiki,False, , , , , ,馬木留克蘇丹國,馬木路克蘇丹國, 
+Al-Ghazali,加扎利,Al-Ghazali,2024-07-30,wiki,False, , , , , ,安薩里,安薩里, 
+wulfila,維拉拉聖經,Wulfila Bible,2025-09-20,wiki,False, , , , , ,烏爾菲拉聖經,烏爾斐拉聖經, 
+tran_dynasty_c,Tr ầ n 王朝,Trần dynasty, ,wiki,False, , , , , ,陳朝,陳朝, 
+le_dynasty_c,拉王朝,Lê dynasty, ,wiki,False, , , , , ,黎朝,黎朝, 
+revival_le_dynasty_c,Tr ị nh 主同尼古伊主,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False, , , , , ,鄭主與阮主,鄭主與阮主, 
+seljuk_empire_c,塞爾吉克帝國,Seljuk empire, ,wiki,False, , , , , ,塞爾柱帝國,塞爾柱帝國, 
+vandals_c,破壞者,Vandals, ,wiki,False, , , , , ,汪達爾人,汪達爾人, 
+lombard_c,倫巴德王國,Lombard Kingdom,2025-10-13,wiki,False, , , , , ,倫巴底王國,倫巴底王國, 
 people,人,people, ,deprecated,False, , , , , , , , 
 judges,法官,judges, ,deprecated,False, , , , , , , , 
 prophets,先知,prophets, ,deprecated,False, , , , , , , , 
